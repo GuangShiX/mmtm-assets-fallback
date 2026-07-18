@@ -5,18 +5,26 @@
   "version": "4.18.0",
   "ref": "main",
   "archive_ref": "v4.18.0",
-  "generated_at": "2026-07-18T12:14:46.944404+00:00",
+  "generated_at": "2026-07-18T13:12:42.501654+00:00",
   "base_url": "https://raw.githubusercontent.com/GuangShiX/mmtm-assets-fallback/main",
   "cache_strategy": "stable-path-sha256",
-  "asset_count": 1403,
-  "total_bytes": 32160874,
+  "asset_count": 1413,
+  "total_bytes": 32331628,
   "category_counts": {
-    "characters": 145,
+    "characters": 146,
     "enemies": 60,
-    "equipment": 878,
+    "equipment": 884,
     "items": 238,
     "spheres": 64,
-    "ui": 18
+    "ui": 21
+  },
+  "generation_mode": "critical-package-plus-official-hot-update",
+  "asset_version": "a3a2229e03f2d677724956ad08bdef986c52fb84_2",
+  "master_version": "1784098134706",
+  "hot_update_asset_count": 7,
+  "hot_update_category_counts": {
+    "characters": 1,
+    "equipment": 6
   },
   "assets": [
     {
@@ -1178,6 +1186,20 @@
       "sha256": "33298e1c5949bd6dbdab7be39c9872d74f298e9327a60806a57f096a9373a984",
       "size": 33556,
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000148/CHR_000148_00_s.png"
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000149_00_s.png",
+      "path": "assets/characters/CHR_000149_00_s.png",
+      "sha256": "723f775e9d4522e78a1007ecea521744e543515769f96b510bb26d201198b79b",
+      "size": 34522,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000149/CHR_000149_00_s.png",
+      "source_bundles": [
+        "53d2ee342ac5d122d19542831ff3151c.bundle"
+      ],
+      "source_catalog_keys": [
+        "CharacterIcon/CHR_000149/CHR_000149_00_s"
+      ]
     },
     {
       "category": "enemies",
@@ -8684,6 +8706,90 @@
       "source_resource_key": "Assets/AddressableConvertAssets/Icon/Equipment/EQP_000992.png"
     },
     {
+      "category": "equipment",
+      "name": "EQP_000993.png",
+      "path": "assets/equipment/EQP_000993.png",
+      "sha256": "6d3a98578c1de649a91fb10ab41efb2a0fa8ab8cfaeec6267ac28e1801968456",
+      "size": 12898,
+      "source_resource_key": "Assets/AddressableConvertAssets/Icon/Equipment/EQP_000993.png",
+      "source_bundles": [
+        "858186dbe3f9350fbfa89007348c42ec.bundle"
+      ],
+      "source_catalog_keys": [
+        "Icon/Equipment/EQP_000993"
+      ]
+    },
+    {
+      "category": "equipment",
+      "name": "EQP_000994.png",
+      "path": "assets/equipment/EQP_000994.png",
+      "sha256": "a2f00541ee88848f2b9f7755a2dcbf6825f3a07052e1f678760fcc88a0e83597",
+      "size": 14980,
+      "source_resource_key": "Assets/AddressableConvertAssets/Icon/Equipment/EQP_000994.png",
+      "source_bundles": [
+        "54e1f72fb43c8940a53edbe0515b342e.bundle"
+      ],
+      "source_catalog_keys": [
+        "Icon/Equipment/EQP_000994"
+      ]
+    },
+    {
+      "category": "equipment",
+      "name": "EQP_000995.png",
+      "path": "assets/equipment/EQP_000995.png",
+      "sha256": "14368917a3533e57a5886f9aa04d0fb663076e9fd8c819d75545cef6822e09c5",
+      "size": 15225,
+      "source_resource_key": "Assets/AddressableConvertAssets/Icon/Equipment/EQP_000995.png",
+      "source_bundles": [
+        "169fdca0713e0077ea44d7fd9cbc199b.bundle"
+      ],
+      "source_catalog_keys": [
+        "Icon/Equipment/EQP_000995"
+      ]
+    },
+    {
+      "category": "equipment",
+      "name": "EQP_000996.png",
+      "path": "assets/equipment/EQP_000996.png",
+      "sha256": "27ca3b75f1c66fabe718429b1ab4dd7e0f2ab346e0b7c802a667fdab7e052b7d",
+      "size": 18304,
+      "source_resource_key": "Assets/AddressableConvertAssets/Icon/Equipment/EQP_000996.png",
+      "source_bundles": [
+        "1c47eac71d04203e12b14457790b3230.bundle"
+      ],
+      "source_catalog_keys": [
+        "Icon/Equipment/EQP_000996"
+      ]
+    },
+    {
+      "category": "equipment",
+      "name": "EQP_000997.png",
+      "path": "assets/equipment/EQP_000997.png",
+      "sha256": "2d8113aed7e9bab81570c4dce0544a8e34e4c97454f5471b53f6735bf2243910",
+      "size": 24267,
+      "source_resource_key": "Assets/AddressableConvertAssets/Icon/Equipment/EQP_000997.png",
+      "source_bundles": [
+        "344e09234b65bf703d5c94db57e40055.bundle"
+      ],
+      "source_catalog_keys": [
+        "Icon/Equipment/EQP_000997"
+      ]
+    },
+    {
+      "category": "equipment",
+      "name": "EQP_000998.png",
+      "path": "assets/equipment/EQP_000998.png",
+      "sha256": "e57ae39d5746b3880e3be885bdc47fd40b832640718e35e2af1b6963b7caed1b",
+      "size": 27191,
+      "source_resource_key": "Assets/AddressableConvertAssets/Icon/Equipment/EQP_000998.png",
+      "source_bundles": [
+        "7f2d0a88128561929499aa0359e94ef2.bundle"
+      ],
+      "source_catalog_keys": [
+        "Icon/Equipment/EQP_000998"
+      ]
+    },
+    {
       "category": "items",
       "name": "Item_0001.png",
       "path": "assets/items/Item_0001.png",
@@ -11234,6 +11340,30 @@
       "sha256": "0655bc3c9249efabaec4291dfc0b70006dc9025cd4c873057f87b9c4730cb35e",
       "size": 8425,
       "source_resource_key": "_by_bundle/apks__UnityDataAssetPack__assets__aa__Android__d8e6c8c3a22da3265163f34736d7d400/Sprite/icon_element_6__5956740667894236500"
+    },
+    {
+      "category": "ui",
+      "name": "icon_rarity_plus_star_1.png",
+      "path": "assets/ui/icon_rarity_plus_star_1.png",
+      "sha256": "c0b298b8115b0f2c524b7555c8d211dd5b0ab85cd5ef10248ec6e9ce7c283e14",
+      "size": 1096,
+      "source_resource_key": "_by_bundle/apks__UnityDataAssetPack__assets__aa__Android__d8e6c8c3a22da3265163f34736d7d400/Sprite/icon_rarity_plus_star_1__-5077772158606538063"
+    },
+    {
+      "category": "ui",
+      "name": "icon_rarity_plus_star_2.png",
+      "path": "assets/ui/icon_rarity_plus_star_2.png",
+      "sha256": "83868be8125cd844d0f7f73bde1eaa7806d482af46aacf03a1847f1dbe566a09",
+      "size": 1123,
+      "source_resource_key": "_by_bundle/apks__UnityDataAssetPack__assets__aa__Android__d8e6c8c3a22da3265163f34736d7d400/Sprite/icon_rarity_plus_star_2__-6907051453032484842"
+    },
+    {
+      "category": "ui",
+      "name": "plate_character.png",
+      "path": "assets/ui/plate_character.png",
+      "sha256": "e37e75ce7591d1d92e908ca55397c6a33c950b0510284f3b59f2f3b6e4d30a34",
+      "size": 21148,
+      "source_resource_key": "_by_bundle/apks__UnityDataAssetPack__assets__aa__Android__d8e6c8c3a22da3265163f34736d7d400/Sprite/plate_character__-730311382424561867"
     },
     {
       "category": "ui",

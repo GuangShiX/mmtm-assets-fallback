@@ -14,11 +14,11 @@ concurrency:
 
 jobs:
   update:
-    runs-on: ${{ vars.ASSET_RUNNER || 'windows-latest' }}
-    timeout-minutes: 350
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
 
     steps:
-      - name: Check out fallback repository
+      - name: Check out image repository
         uses: actions/checkout@v6
 
       - name: Check out tracker
@@ -37,72 +37,32 @@ jobs:
       - name: Install Python dependencies
         run: python -m pip install -r _tracker/requirements.txt
 
-      - name: Install pinned apkeep
-        shell: pwsh
-        run: |
-          $url = "https://github.com/EFForg/apkeep/releases/download/1.0.0/apkeep-x86_64-pc-windows-msvc.exe"
-          $expected = "9E321BAB9FCC6BAB6F6A779AE21D3611DFE6BF3BBECC13FFC9E57AA2DB044E7F"
-          New-Item -ItemType Directory -Force -Path _tracker/bin | Out-Null
-          Invoke-WebRequest -Uri $url -OutFile _tracker/bin/apkeep.exe
-          $actual = (Get-FileHash -Algorithm SHA256 -LiteralPath _tracker/bin/apkeep.exe).Hash
-          if ($actual -ne $expected) {
-            throw "apkeep checksum mismatch: $actual"
-          }
-
-      - name: Check game version
-        id: version
-        shell: pwsh
-        run: |
-          $output = & python _tracker/fallback.py --latest-remote-version
-          if ($LASTEXITCODE -ne 0) {
-            throw "Unable to determine the remote game version"
-          }
-          $version = ($output | Select-Object -Last 1).Trim()
-          $current = ""
-          if (Test-Path manifest.json) {
-            $current = (Get-Content manifest.json -Raw | ConvertFrom-Json).version
-          }
-          "version=$version" >> $env:GITHUB_OUTPUT
-          "needed=$(($version -ne $current).ToString().ToLowerInvariant())" >> $env:GITHUB_OUTPUT
-          Write-Output "Current=$current Remote=$version"
-
-      - name: Download and fully extract update
-        if: steps.version.outputs.needed == 'true'
-        run: python _tracker/run.py --version ${{ steps.version.outputs.version }} --skip-publish
-
-      - name: Rebuild critical icon set
-        if: steps.version.outputs.needed == 'true'
+      - name: Detect and merge image updates
         run: >-
           python _tracker/fallback.py
-          --version ${{ steps.version.outputs.version }}
+          --auto-update
           --output .
           --repository GuangShiX/mmtm-assets-fallback
 
-      - name: Commit and tag update
-        if: steps.version.outputs.needed == 'true'
-        shell: pwsh
+      - name: Commit image changes
+        shell: bash
         run: |
-          $version = "${{ steps.version.outputs.version }}"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets manifest.json latest.json
-          git commit -m "Update critical icons for MementoMori $version"
-          git tag "v$version"
-          git push origin main "v$version"
-
-      - name: Publish stable paths to Cloudflare R2
-        if: ${{ vars.R2_BUCKET != '' }}
-        env:
-          MMTM_R2_ENABLED: "true"
-          R2_ACCOUNT_ID: ${{ vars.R2_ACCOUNT_ID }}
-          R2_BUCKET: ${{ vars.R2_BUCKET }}
-          R2_PREFIX: ${{ vars.R2_PREFIX || 'mementomori' }}
-          R2_PUBLIC_BASE_URL: ${{ vars.R2_PUBLIC_BASE_URL }}
-          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
-          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
-        run: python _tracker/publish_r2.py --source .
+          git add -A assets manifest.json latest.json
+          if git diff --cached --quiet; then
+            echo "No image changes detected."
+            exit 0
+          fi
+          version="$(python -c 'import json; print(json.load(open("manifest.json", encoding="utf-8"))["version"])')"
+          git commit -m "Update MementoMori images for $version"
+          git push origin main
+          git fetch --tags
+          if ! git rev-parse "refs/tags/v$version" >/dev/null 2>&1; then
+            git tag "v$version"
+            git push origin "v$version"
+          fi
 
       - name: Show remaining disk space
         if: always()
-        shell: pwsh
-        run: Get-PSDrive -PSProvider FileSystem
+        run: df -h
