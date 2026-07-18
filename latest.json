@@ -1,11 +1,13 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "game": "MementoMori",
   "version": "4.18.0",
-  "ref": "v4.18.0",
-  "generated_at": "2026-07-18T11:30:30.383689+00:00",
-  "manifest_url": "https://raw.githubusercontent.com/GuangShiX/mmtm-assets-fallback/v4.18.0/manifest.json",
-  "base_url": "https://raw.githubusercontent.com/GuangShiX/mmtm-assets-fallback/v4.18.0",
+  "ref": "main",
+  "archive_ref": "v4.18.0",
+  "generated_at": "2026-07-18T12:14:46.944404+00:00",
+  "manifest_url": "https://raw.githubusercontent.com/GuangShiX/mmtm-assets-fallback/main/manifest.json",
+  "base_url": "https://raw.githubusercontent.com/GuangShiX/mmtm-assets-fallback/main",
+  "cache_strategy": "stable-path-sha256",
   "asset_count": 1403,
   "total_bytes": 32160874
 }

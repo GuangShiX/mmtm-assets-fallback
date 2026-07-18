@@ -90,6 +90,18 @@ jobs:
           git tag "v$version"
           git push origin main "v$version"
 
+      - name: Publish stable paths to Cloudflare R2
+        if: ${{ vars.R2_BUCKET != '' }}
+        env:
+          MMTM_R2_ENABLED: "true"
+          R2_ACCOUNT_ID: ${{ vars.R2_ACCOUNT_ID }}
+          R2_BUCKET: ${{ vars.R2_BUCKET }}
+          R2_PREFIX: ${{ vars.R2_PREFIX || 'mementomori' }}
+          R2_PUBLIC_BASE_URL: ${{ vars.R2_PUBLIC_BASE_URL }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+        run: python _tracker/publish_r2.py --source .
+
       - name: Show remaining disk space
         if: always()
         shell: pwsh
