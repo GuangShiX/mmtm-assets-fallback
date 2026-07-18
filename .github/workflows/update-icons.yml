@@ -1,0 +1,96 @@
+name: Update critical icons
+
+on:
+  schedule:
+    - cron: "37 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mementomori-fallback-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ${{ vars.ASSET_RUNNER || 'windows-latest' }}
+    timeout-minutes: 350
+
+    steps:
+      - name: Check out fallback repository
+        uses: actions/checkout@v4
+
+      - name: Check out tracker
+        uses: actions/checkout@v4
+        with:
+          repository: GuangShiX/mmtm-apk-tracker
+          path: _tracker
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: _tracker/requirements.txt
+
+      - name: Install Python dependencies
+        run: python -m pip install -r _tracker/requirements.txt
+
+      - name: Install pinned apkeep
+        shell: pwsh
+        run: |
+          $url = "https://github.com/EFForg/apkeep/releases/download/1.0.0/apkeep-x86_64-pc-windows-msvc.exe"
+          $expected = "9E321BAB9FCC6BAB6F6A779AE21D3611DFE6BF3BBECC13FFC9E57AA2DB044E7F"
+          New-Item -ItemType Directory -Force -Path _tracker/bin | Out-Null
+          Invoke-WebRequest -Uri $url -OutFile _tracker/bin/apkeep.exe
+          $actual = (Get-FileHash -Algorithm SHA256 -LiteralPath _tracker/bin/apkeep.exe).Hash
+          if ($actual -ne $expected) {
+            throw "apkeep checksum mismatch: $actual"
+          }
+
+      - name: Check game version
+        id: version
+        shell: pwsh
+        run: |
+          $output = & python _tracker/fallback.py --latest-remote-version
+          if ($LASTEXITCODE -ne 0) {
+            throw "Unable to determine the remote game version"
+          }
+          $version = ($output | Select-Object -Last 1).Trim()
+          $current = ""
+          if (Test-Path manifest.json) {
+            $current = (Get-Content manifest.json -Raw | ConvertFrom-Json).version
+          }
+          "version=$version" >> $env:GITHUB_OUTPUT
+          "needed=$(($version -ne $current).ToString().ToLowerInvariant())" >> $env:GITHUB_OUTPUT
+          Write-Output "Current=$current Remote=$version"
+
+      - name: Download and fully extract update
+        if: steps.version.outputs.needed == 'true'
+        run: python _tracker/run.py --version ${{ steps.version.outputs.version }} --skip-publish
+
+      - name: Rebuild critical icon set
+        if: steps.version.outputs.needed == 'true'
+        run: >-
+          python _tracker/fallback.py
+          --version ${{ steps.version.outputs.version }}
+          --output .
+          --repository GuangShiX/mmtm-assets-fallback
+
+      - name: Commit and tag update
+        if: steps.version.outputs.needed == 'true'
+        shell: pwsh
+        run: |
+          $version = "${{ steps.version.outputs.version }}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets manifest.json latest.json
+          git commit -m "Update critical icons for MementoMori $version"
+          git tag "v$version"
+          git push origin main "v$version"
+
+      - name: Show remaining disk space
+        if: always()
+        shell: pwsh
+        run: Get-PSDrive -PSProvider FileSystem
