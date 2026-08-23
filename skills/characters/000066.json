@@ -1,0 +1,1349 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 66001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription660011]",
+          "descriptions": {
+            "zh-CN": "“反正我们同样是肮脏的野兽，来拼个你死我活吧？”艾莉丝对攻击力最高的3名敌人造成攻击力×620%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「どうせ薄汚い獣同士。醜く殺しあいましょう？」攻撃力が高い敵3体に攻撃力×620%の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription660012]",
+          "descriptions": {
+            "zh-CN": "攻击结束后，70%概率使技能目标额外减少10%攻击力，效果持续2回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに物理攻撃の後、70%の確率で2ターンの間対象の攻撃力を10%減少させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription660013]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×920%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃のダメージが攻撃力×920%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription660014]",
+          "descriptions": {
+            "zh-CN": "强化致命重击，造成的物理伤害提升为攻击力×1120%。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "フェイタルクラッシュを強化する。物理攻撃のダメージが攻撃力×1120%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription660011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              66001001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription660012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              66001201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription660013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              66001301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription660014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              66001401
+            ]
+          }
+        ],
+        "Id": 66001,
+        "IsIgnore": null,
+        "Memo": "黒鎧アイリスSR:Lv1 「どうせ薄汚い獣同士。醜く殺しあいましょう？」攻撃力が高い敵3体に攻撃力×620%の物理攻撃を行う。/ Lv2 さらに物理攻撃の後、70%の確率で2ターンの間対象の攻撃力を10%減少させる。/ Lv3 物理攻撃のダメージが攻撃力×920%になる。/ Ex1 フェイタルクラッシュを強化する。物理攻撃のダメージが攻撃力×1120%になる。",
+        "NameKey": "[ActiveSkillName66001]",
+        "RootActiveSkillId": 66001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName66001]",
+      "names": {
+        "zh-CN": "致命重击"
+      },
+      "source_memo_ja": "黒鎧アイリスSR:Lv1 「どうせ薄汚い獣同士。醜く殺しあいましょう？」攻撃力が高い敵3体に攻撃力×620%の物理攻撃を行う。/ Lv2 さらに物理攻撃の後、70%の確率で2ターンの間対象の攻撃力を10%減少させる。/ Lv3 物理攻撃のダメージが攻撃力×920%になる。/ Ex1 フェイタルクラッシュを強化する。物理攻撃のダメージが攻撃力×1120%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「どうせ薄汚い獣同士。醜く殺しあいましょう？」攻撃力が高い敵3体に攻撃力×620%の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに物理攻撃の後、70%の確率で2ターンの間対象の攻撃力を10%減少させる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃のダメージが攻撃力×920%になる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "フェイタルクラッシュを強化する。物理攻撃のダメージが攻撃力×1120%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 66002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription660021]",
+          "descriptions": {
+            "zh-CN": "冷酷、凶残且无情——艾莉丝随机对敌人进行4次攻击，每次造成攻击力×390%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "無慈悲に、無造作に、一切の容赦もなく。ランダムな敵に4回攻撃力×390%の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription660022]",
+          "descriptions": {
+            "zh-CN": "当技能目标身上附带「攻击力下降」状态时，造成的物理伤害增加为2倍。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに物理攻撃の前に対象が『攻撃力減少』を付帯している場合、物理攻撃のダメージが2倍になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription660023]",
+          "descriptions": {
+            "zh-CN": "攻击次数增加为6次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃の回数が6回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription660024]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×440%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "物理攻撃のダメージが攻撃力×440%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription660025]",
+          "descriptions": {
+            "zh-CN": "强化粉碎，造成的物理伤害提升为攻击力×490%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "圧壊を強化する。物理攻撃のダメージが攻撃力×490%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription660021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              66002001,
+              66002002,
+              66002002,
+              66002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription660022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              66002201,
+              66002202,
+              66002202,
+              66002202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription660023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              66002301,
+              66002302,
+              66002302,
+              66002302,
+              66002302,
+              66002302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription660024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              66002401,
+              66002402,
+              66002402,
+              66002402,
+              66002402,
+              66002402
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription660025]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              66002501,
+              66002502,
+              66002502,
+              66002502,
+              66002502,
+              66002502
+            ]
+          }
+        ],
+        "Id": 66002,
+        "IsIgnore": null,
+        "Memo": "黒鎧アイリスSR:Lv1 無慈悲に、無造作に、一切の容赦もなく。ランダムな敵に4回攻撃力×390%の物理攻撃を行う。/ Lv2 さらに物理攻撃の前に対象が『攻撃力減少』を付帯している場合、物理攻撃のダメージが2倍になる。/ Lv3 物理攻撃の回数が6回になる。/ Lv4 物理攻撃のダメージが攻撃力×440%になる。/ Ex3 圧壊を強化する。物理攻撃のダメージが攻撃力×490%になる。",
+        "NameKey": "[ActiveSkillName66002]",
+        "RootActiveSkillId": 66002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName66002]",
+      "names": {
+        "zh-CN": "粉碎"
+      },
+      "source_memo_ja": "黒鎧アイリスSR:Lv1 無慈悲に、無造作に、一切の容赦もなく。ランダムな敵に4回攻撃力×390%の物理攻撃を行う。/ Lv2 さらに物理攻撃の前に対象が『攻撃力減少』を付帯している場合、物理攻撃のダメージが2倍になる。/ Lv3 物理攻撃の回数が6回になる。/ Lv4 物理攻撃のダメージが攻撃力×440%になる。/ Ex3 圧壊を強化する。物理攻撃のダメージが攻撃力×490%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "無慈悲に、無造作に、一切の容赦もなく。ランダムな敵に4回攻撃力×390%の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに物理攻撃の前に対象が『攻撃力減少』を付帯している場合、物理攻撃のダメージが2倍になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃の回数が6回になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "物理攻撃のダメージが攻撃力×440%になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "圧壊を強化する。物理攻撃のダメージが攻撃力×490%になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 37,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 500.0,
+              "value_text": "+500"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 37,
+            "CollectionLevel": 1,
+            "Id": 3701,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ピクシスの激情(黒鎧アイリス,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 37,
+            "CollectionLevel": 2,
+            "Id": 3702,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ピクシスの激情(黒鎧アイリス,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 37,
+            "CollectionLevel": 3,
+            "Id": 3703,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ピクシスの激情(黒鎧アイリス,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 37,
+            "CollectionLevel": 4,
+            "Id": 3704,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ピクシスの激情(黒鎧アイリス,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1050.0,
+              "value_text": "+1,050"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 75.0,
+              "value_text": "+75×角色等级"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1050.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 75.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 37,
+            "CollectionLevel": 5,
+            "Id": 3705,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ピクシスの激情(黒鎧アイリス,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1100.0,
+              "value_text": "+1,100"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 80.0,
+              "value_text": "+80×角色等级"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1100.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 80.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 37,
+            "CollectionLevel": 6,
+            "Id": 3706,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ピクシスの激情(黒鎧アイリス,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1150.0,
+              "value_text": "+1,150"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 85.0,
+              "value_text": "+85×角色等级"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1150.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 85.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 37,
+            "CollectionLevel": 7,
+            "Id": 3707,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ピクシスの激情(黒鎧アイリス,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1200.0,
+              "value_text": "+1,200"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 90.0,
+              "value_text": "+90×角色等级"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1200.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 90.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 37,
+            "CollectionLevel": 8,
+            "Id": 3708,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ピクシスの激情(黒鎧アイリス,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1250.0,
+              "value_text": "+1,250"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 95.0,
+              "value_text": "+95×角色等级"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1250.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 95.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 37,
+            "CollectionLevel": 9,
+            "Id": 3709,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ピクシスの激情(黒鎧アイリス,アイビー)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 37,
+        "IsIgnore": null,
+        "Memo": "ピクシスの激情(黒鎧アイリス,アイビー)",
+        "NameKey": "[CharacterCollectionName37]",
+        "RequiredCharacterIds": [
+          66,
+          25
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2023-12-26 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName37]",
+      "names": {
+        "zh-CN": "罗盘座的激情"
+      },
+      "required_character_ids": [
+        66,
+        25
+      ],
+      "required_characters": [
+        {
+          "id": 66,
+          "names": {
+            "zh-CN": "艾莉丝"
+          }
+        },
+        {
+          "id": 25,
+          "names": {
+            "zh-CN": "艾薇"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2023-12-26 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 2,
+    "element_type": 4,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 66,
+    "job_flags": 1,
+    "master_record": {
+      "ActiveSkillIds": [
+        66001,
+        66002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 85,
+        "Health": 66,
+        "Intelligence": 85,
+        "Muscle": 105
+      },
+      "BaseParameterGrossCoefficient": 341,
+      "CharacterType": 2,
+      "ElementType": 4,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 66,
+      "InitialBattleParameter": {
+        "AttackPower": 3,
+        "Avoidance": 0,
+        "Critical": -4,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 1,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 10,
+        "DefensePenetration": 0,
+        "HP": 0,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 2933
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 1,
+      "Memo": "黒鎧アイリス",
+      "Name2Key": "[CharacterSubName66]",
+      "NameKey": "[CharacterName66]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        66003,
+        66004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2023-12-26 15:00:00"
+    },
+    "memo": "黒鎧アイリス",
+    "name_key": "[CharacterName66]",
+    "names": {
+      "zh-CN": "艾莉丝"
+    },
+    "speed": 2933,
+    "start_time_jst": "2023-12-26 15:00:00",
+    "subtitle_key": "[CharacterSubName66]",
+    "subtitles": {
+      "zh-CN": "黑铠从者"
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 661110240,
+    "exclusive_effect_id": 318,
+    "icon_id": 500,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 661110250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 85,
+        "EquipmentEvolutionId": 95,
+        "EquipmentExclusiveSkillDescriptionId": 53,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 1,
+        "ExclusiveEffectId": 318,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 500,
+        "Id": 661110240,
+        "IsIgnore": null,
+        "Memo": "黒鎧アイリスLR240_剣",
+        "NameKey": "[EquipmentName495]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": null,
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 15,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          },
+          {
+            "BattleParameterType": 7,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 66,
+        "Id": 318,
+        "IsIgnore": null,
+        "Memo": "黒鎧アイリスLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill66Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill66Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill66Description3]",
+        "Id": 53,
+        "IsIgnore": null,
+        "Memo": "黒鎧アイリス剣"
+      }
+    },
+    "name_key": "[EquipmentName495]",
+    "names": {
+      "zh-CN": "钝铁重剑"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "DebuffHit",
+        "parameter_type": 15,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Critical",
+        "parameter_type": 7,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill66Description1]",
+        "descriptions": {
+          "zh-CN": "强化致命重击，造成的物理伤害提升为攻击力×1120%。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill66Description2]",
+        "descriptions": {
+          "zh-CN": "强化未果之情，「结界」的伤害阻绝量提升为70%。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill66Description3]",
+        "descriptions": {
+          "zh-CN": "强化粉碎，造成的物理伤害提升为攻击力×490%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 66003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription660031]",
+          "descriptions": {
+            "zh-CN": "我只希望能够待在需要我的人身边、成为对方的后盾——战斗开始时，艾莉丝获得「结界」，效果持续2回合。当此增益效果的附带者受到攻击，承受伤害超过最大生命值的20%时，阻绝超量部分×50%的伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "自分を必要としてくれる人の傍で、その人を支えること。欲しいのはたったそれだけだった。バトル開始時2ターンの間自身に『結界』を付与する。このバフを付帯したキャラが最大HP×20%を超えるダメージの攻撃を受けた場合、最大HP×20%を超えた分のダメージを50%遮断する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription660032]",
+          "descriptions": {
+            "zh-CN": "使攻击力最高的其他友军额外获得「结界」。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに自身以外の攻撃力が最も高い味方にも『結界』を付与する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription660033]",
+          "descriptions": {
+            "zh-CN": "使速度最高的其他友军额外获得「结界」（技能目标与攻击力最高的其他友军重复时，重复附加的新「结界」将直接取代旧「结界」）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらに自身以外のスピードが最も高い味方にも『結界』を付与する（付与する対象が攻撃力が最も高い味方と同一である場合、このスキルによる『結界』は重ね掛けの効果により上書きされ、自身とその味方の2体にのみ付与される）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[PassiveSkillDescription660034]",
+          "descriptions": {
+            "zh-CN": "强化未果之情，「结界」的伤害阻绝量提升为70%。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "零れ落ちた想いを強化する。このバフを付帯したキャラが最大HP×20%を超えるダメージの攻撃を受けた場合、最大HP×20%を超えた分のダメージを70%遮断するようになる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 66003,
+        "IsIgnore": null,
+        "Memo": "黒鎧アイリスSR:Lv1 自分を必要としてくれる人の傍で、その人を支えること。欲しいのはたったそれだけだった。バトル開始時2ターンの間自身に『結界』を付与する。このバフを付帯したキャラが最大HP×20%を超えるダメージの攻撃を受けた場合、最大HP×20%を超えた分のダメージを50%遮断する。/ Lv2 さらに自身以外の攻撃力が最も高い味方にも『結界』を付与する。/ Lv3 さらに自身以外のスピードが最も高い味方にも『結界』を付与する（付与する対象が攻撃力が最も高い味方と同一である場合、このスキルによる『結界』は重ね掛けの効果により上書きされ、自身とその味方の2体にのみ付与される）。/ Ex2 零れ落ちた想いを強化する。このバフを付帯したキャラが最大HP×20%を超えるダメージの攻撃を受けた場合、最大HP×20%を超えた分のダメージを70%遮断するようになる。",
+        "NameKey": "[PassiveSkillName66003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription660031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 66003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription660032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 66003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 66003202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription660033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 66003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 66003202
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 66003303
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[PassiveSkillDescription660034]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 66003401
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 66003402
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 66003403
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName66003]",
+      "names": {
+        "zh-CN": "未果之情"
+      },
+      "source_memo_ja": "黒鎧アイリスSR:Lv1 自分を必要としてくれる人の傍で、その人を支えること。欲しいのはたったそれだけだった。バトル開始時2ターンの間自身に『結界』を付与する。このバフを付帯したキャラが最大HP×20%を超えるダメージの攻撃を受けた場合、最大HP×20%を超えた分のダメージを50%遮断する。/ Lv2 さらに自身以外の攻撃力が最も高い味方にも『結界』を付与する。/ Lv3 さらに自身以外のスピードが最も高い味方にも『結界』を付与する（付与する対象が攻撃力が最も高い味方と同一である場合、このスキルによる『結界』は重ね掛けの効果により上書きされ、自身とその味方の2体にのみ付与される）。/ Ex2 零れ落ちた想いを強化する。このバフを付帯したキャラが最大HP×20%を超えるダメージの攻撃を受けた場合、最大HP×20%を超えた分のダメージを70%遮断するようになる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "自分を必要としてくれる人の傍で、その人を支えること。欲しいのはたったそれだけだった。バトル開始時2ターンの間自身に『結界』を付与する。このバフを付帯したキャラが最大HP×20%を超えるダメージの攻撃を受けた場合、最大HP×20%を超えた分のダメージを50%遮断する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに自身以外の攻撃力が最も高い味方にも『結界』を付与する。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらに自身以外のスピードが最も高い味方にも『結界』を付与する（付与する対象が攻撃力が最も高い味方と同一である場合、このスキルによる『結界』は重ね掛けの効果により上書きされ、自身とその味方の2体にのみ付与される）。"
+        },
+        {
+          "label": "Ex2",
+          "text": "零れ落ちた想いを強化する。このバフを付帯したキャラが最大HP×20%を超えるダメージの攻撃を受けた場合、最大HP×20%を超えた分のダメージを70%遮断するようになる。"
+        }
+      ]
+    },
+    {
+      "id": 66004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription660041]",
+          "descriptions": {
+            "zh-CN": "艾莉丝对抗绝望时，以不屈不挠的灵魂，成功地扭转了自己的命运。当艾莉丝受到攻击，生命值降到30%以下时，获得攻击力×50%的「护盾」，效果持续2回合（无法被解除）。此技能每场战斗最多触发1次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "絶望に抗う不屈の魂が、自身の運命を捻じ曲げた。自身が攻撃を受けて、HP割合が30%以下になった場合、自身に2ターンの間自身の攻撃力×50%の『シールド』を付与する（解除不可）。このスキルはバトル中1回のみ発動する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription660042]",
+          "descriptions": {
+            "zh-CN": "技能发动时，每名存活在场上的敌人，再使「护盾」值额外提升攻击力×50%（合计最多300%）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらにこのスキル発動時の敵の生存数1体につき『シールド』の大きさが自身の攻撃力×50%大きくなる（合計で最大300%まで）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription660043]",
+          "descriptions": {
+            "zh-CN": "「护盾」效果增加为3回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "『シールド』のターン数が3ターンになる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 66004,
+        "IsIgnore": null,
+        "Memo": "黒鎧アイリスSR:Lv1 絶望に抗う不屈の魂が、自身の運命を捻じ曲げた。自身が攻撃を受けて、HP割合が30%以下になった場合、自身に2ターンの間自身の攻撃力×50%の『シールド』を付与する（解除不可）。このスキルはバトル中1回のみ発動する。/ Lv2 さらにこのスキル発動時の敵の生存数1体につき『シールド』の大きさが自身の攻撃力×50%大きくなる（合計で最大300%まで）。/ Lv3 『シールド』のターン数が3ターンになる。",
+        "NameKey": "[PassiveSkillName66004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription660041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 66004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription660042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 66004201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription660043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 66004301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName66004]",
+      "names": {
+        "zh-CN": "不屈的灵魂"
+      },
+      "source_memo_ja": "黒鎧アイリスSR:Lv1 絶望に抗う不屈の魂が、自身の運命を捻じ曲げた。自身が攻撃を受けて、HP割合が30%以下になった場合、自身に2ターンの間自身の攻撃力×50%の『シールド』を付与する（解除不可）。このスキルはバトル中1回のみ発動する。/ Lv2 さらにこのスキル発動時の敵の生存数1体につき『シールド』の大きさが自身の攻撃力×50%大きくなる（合計で最大300%まで）。/ Lv3 『シールド』のターン数が3ターンになる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "絶望に抗う不屈の魂が、自身の運命を捻じ曲げた。自身が攻撃を受けて、HP割合が30%以下になった場合、自身に2ターンの間自身の攻撃力×50%の『シールド』を付与する（解除不可）。このスキルはバトル中1回のみ発動する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらにこのスキル発動時の敵の生存数1体につき『シールド』の大きさが自身の攻撃力×50%大きくなる（合計で最大300%まで）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "『シールド』のターン数が3ターンになる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

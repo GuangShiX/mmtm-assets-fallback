@@ -1,0 +1,1388 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 89001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription890011]",
+          "descriptions": {
+            "zh-CN": "我发誓要为属于魔女的未来而战，无论付出怎样的代价——露昕鲁使自己受到当前生命值×20%的自损伤害，随机对敌人进行3次攻击，每次造成攻击力×330%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "魔女の未来のために戦うと誓った。たとえ何を犠牲にしても──自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵に3回攻撃力×330％の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription890012]",
+          "descriptions": {
+            "zh-CN": "当技能目标身上附带弱化效果时，造成的物理伤害提升为攻击力×530%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに物理攻撃の前に対象が弱体効果を付帯している場合、物理攻撃のダメージが攻撃力×530％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription890013]",
+          "descriptions": {
+            "zh-CN": "当技能目标身上附带2种以上弱化效果时，造成的物理伤害提升为攻击力×730%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらに物理攻撃の前に対象が付帯している弱体効果の個数が2以上の場合、物理攻撃のダメージが攻撃力×730％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription890014]",
+          "descriptions": {
+            "zh-CN": "强化魔女革命，攻击次数增加为5次。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "スキル1を強化する。物理攻撃の回数が5回になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription890011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              89001001,
+              89001002,
+              89001003,
+              89001003
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription890012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              89001001,
+              89001202,
+              89001203,
+              89001203
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription890013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              89001001,
+              89001302,
+              89001303,
+              89001303
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription890014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              89001001,
+              89001402,
+              89001403,
+              89001403,
+              89001403,
+              89001403
+            ]
+          }
+        ],
+        "Id": 89001,
+        "IsIgnore": null,
+        "Memo": "ルシールSR:Lv1 魔女の未来のために戦うと誓った。たとえ何を犠牲にしても──自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵に3回攻撃力×330％の物理攻撃を行う。/ Lv2 さらに物理攻撃の前に対象が弱体効果を付帯している場合、物理攻撃のダメージが攻撃力×530％になる。/ Lv3 さらに物理攻撃の前に対象が付帯している弱体効果の個数が2以上の場合、物理攻撃のダメージが攻撃力×730％になる。/ Ex1 スキル1を強化する。物理攻撃の回数が5回になる。",
+        "NameKey": "[ActiveSkillName89001]",
+        "RootActiveSkillId": 89001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName89001]",
+      "names": {
+        "zh-CN": "魔女革命"
+      },
+      "source_memo_ja": "ルシールSR:Lv1 魔女の未来のために戦うと誓った。たとえ何を犠牲にしても──自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵に3回攻撃力×330％の物理攻撃を行う。/ Lv2 さらに物理攻撃の前に対象が弱体効果を付帯している場合、物理攻撃のダメージが攻撃力×530％になる。/ Lv3 さらに物理攻撃の前に対象が付帯している弱体効果の個数が2以上の場合、物理攻撃のダメージが攻撃力×730％になる。/ Ex1 スキル1を強化する。物理攻撃の回数が5回になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "魔女の未来のために戦うと誓った。たとえ何を犠牲にしても──自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵に3回攻撃力×330％の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに物理攻撃の前に対象が弱体効果を付帯している場合、物理攻撃のダメージが攻撃力×530％になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらに物理攻撃の前に対象が付帯している弱体効果の個数が2以上の場合、物理攻撃のダメージが攻撃力×730％になる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "スキル1を強化する。物理攻撃の回数が5回になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 89002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription890021]",
+          "descriptions": {
+            "zh-CN": "“为了守护魔女的未来，我将奉献出自己的一切！”露昕鲁使自己受到当前生命值×20%的自损伤害，随机对敌人进行5次攻击，每次造成攻击力×160%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「魔女の未来を守るため、私は私の全てを捧げよう」自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵に5回攻撃力×160％の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription890022]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×320%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "物理攻撃のダメージが攻撃力×320％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription890023]",
+          "descriptions": {
+            "zh-CN": "攻击结束后，如果场上有身上附带5层「彩光」的敌人，露昕鲁使攻击力最高的友军减少技能冷却时间2。技能冷却时间减少效果每场战斗最多发动1次（在公会战、跨服公会战的连续对战中，每场战斗皆可发动1次）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらに物理攻撃の後『彩光』を5スタック付帯している敵がいる場合、攻撃力が最も高い味方のスキルクールタイムを2減少させる。スキルクールタイムを減少させる効果はバトル中1回のみ発動する（ただしギルドバトル・グランドバトルでの連戦においては、毎バトルごとに1回発動する）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription890024]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×520%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "物理攻撃のダメージが攻撃力×520％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription890025]",
+          "descriptions": {
+            "zh-CN": "强化革命剑虹，造成的物理伤害提升为攻击力×580%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "スキル2を強化する。物理攻撃のダメージが攻撃力×580％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription890021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              89002001,
+              89002002,
+              89002003,
+              89002003,
+              89002003,
+              89002003
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription890022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              89002001,
+              89002202,
+              89002203,
+              89002203,
+              89002203,
+              89002203
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription890023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              89002001,
+              89002202,
+              89002203,
+              89002203,
+              89002203,
+              89002203,
+              89002304,
+              89002305
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription890024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              89002001,
+              89002402,
+              89002403,
+              89002403,
+              89002403,
+              89002403,
+              89002304,
+              89002305
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription890025]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              89002001,
+              89002502,
+              89002503,
+              89002503,
+              89002503,
+              89002503,
+              89002304,
+              89002305
+            ]
+          }
+        ],
+        "Id": 89002,
+        "IsIgnore": null,
+        "Memo": "ルシールSR:Lv1 「魔女の未来を守るため、私は私の全てを捧げよう」自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵に5回攻撃力×160％の物理攻撃を行う。/ Lv2 物理攻撃のダメージが攻撃力×320％になる。/ Lv3 さらに物理攻撃の後『彩光』を5スタック付帯している敵がいる場合、攻撃力が最も高い味方のスキルクールタイムを2減少させる。スキルクールタイムを減少させる効果はバトル中1回のみ発動する（ただしギルドバトル・グランドバトルでの連戦においては、毎バトルごとに1回発動する）。/ Lv4 物理攻撃のダメージが攻撃力×520％になる。/ Ex3 スキル2を強化する。物理攻撃のダメージが攻撃力×580％になる。",
+        "NameKey": "[ActiveSkillName89002]",
+        "RootActiveSkillId": 89002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName89002]",
+      "names": {
+        "zh-CN": "革命剑虹"
+      },
+      "source_memo_ja": "ルシールSR:Lv1 「魔女の未来を守るため、私は私の全てを捧げよう」自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵に5回攻撃力×160％の物理攻撃を行う。/ Lv2 物理攻撃のダメージが攻撃力×320％になる。/ Lv3 さらに物理攻撃の後『彩光』を5スタック付帯している敵がいる場合、攻撃力が最も高い味方のスキルクールタイムを2減少させる。スキルクールタイムを減少させる効果はバトル中1回のみ発動する（ただしギルドバトル・グランドバトルでの連戦においては、毎バトルごとに1回発動する）。/ Lv4 物理攻撃のダメージが攻撃力×520％になる。/ Ex3 スキル2を強化する。物理攻撃のダメージが攻撃力×580％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「魔女の未来を守るため、私は私の全てを捧げよう」自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵に5回攻撃力×160％の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "物理攻撃のダメージが攻撃力×320％になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらに物理攻撃の後『彩光』を5スタック付帯している敵がいる場合、攻撃力が最も高い味方のスキルクールタイムを2減少させる。スキルクールタイムを減少させる効果はバトル中1回のみ発動する（ただしギルドバトル・グランドバトルでの連戦においては、毎バトルごとに1回発動する）。"
+        },
+        {
+          "label": "Lv4",
+          "text": "物理攻撃のダメージが攻撃力×520％になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "スキル2を強化する。物理攻撃のダメージが攻撃力×580％になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 68,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 500.0,
+              "value_text": "+500"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 68,
+            "CollectionLevel": 1,
+            "Id": 6801,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "トリアングルムの距離(ポーラ,ルシール,ネブラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageReflect",
+              "parameter_type": 17,
+              "raw_value": 300.0,
+              "value_text": "+300"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              },
+              {
+                "BattleParameterType": 17,
+                "ChangeParameterType": 1,
+                "Value": 300.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 68,
+            "CollectionLevel": 2,
+            "Id": 6802,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "トリアングルムの距離(ポーラ,ルシール,ネブラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageReflect",
+              "parameter_type": 17,
+              "raw_value": 300.0,
+              "value_text": "+300"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              },
+              {
+                "BattleParameterType": 17,
+                "ChangeParameterType": 1,
+                "Value": 300.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 68,
+            "CollectionLevel": 3,
+            "Id": 6803,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "トリアングルムの距離(ポーラ,ルシール,ネブラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageReflect",
+              "parameter_type": 17,
+              "raw_value": 300.0,
+              "value_text": "+300"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              },
+              {
+                "BattleParameterType": 17,
+                "ChangeParameterType": 1,
+                "Value": 300.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 68,
+            "CollectionLevel": 4,
+            "Id": 6804,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "トリアングルムの距離(ポーラ,ルシール,ネブラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1050.0,
+              "value_text": "+1,050"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageReflect",
+              "parameter_type": 17,
+              "raw_value": 310.0,
+              "value_text": "+310"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1050.0
+              },
+              {
+                "BattleParameterType": 17,
+                "ChangeParameterType": 1,
+                "Value": 310.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 68,
+            "CollectionLevel": 5,
+            "Id": 6805,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "トリアングルムの距離(ポーラ,ルシール,ネブラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1100.0,
+              "value_text": "+1,100"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageReflect",
+              "parameter_type": 17,
+              "raw_value": 320.0,
+              "value_text": "+320"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1100.0
+              },
+              {
+                "BattleParameterType": 17,
+                "ChangeParameterType": 1,
+                "Value": 320.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 68,
+            "CollectionLevel": 6,
+            "Id": 6806,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "トリアングルムの距離(ポーラ,ルシール,ネブラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1150.0,
+              "value_text": "+1,150"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageReflect",
+              "parameter_type": 17,
+              "raw_value": 330.0,
+              "value_text": "+330"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1150.0
+              },
+              {
+                "BattleParameterType": 17,
+                "ChangeParameterType": 1,
+                "Value": 330.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 68,
+            "CollectionLevel": 7,
+            "Id": 6807,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "トリアングルムの距離(ポーラ,ルシール,ネブラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1200.0,
+              "value_text": "+1,200"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageReflect",
+              "parameter_type": 17,
+              "raw_value": 340.0,
+              "value_text": "+340"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1200.0
+              },
+              {
+                "BattleParameterType": 17,
+                "ChangeParameterType": 1,
+                "Value": 340.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 68,
+            "CollectionLevel": 8,
+            "Id": 6808,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "トリアングルムの距離(ポーラ,ルシール,ネブラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1250.0,
+              "value_text": "+1,250"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageReflect",
+              "parameter_type": 17,
+              "raw_value": 350.0,
+              "value_text": "+350"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1250.0
+              },
+              {
+                "BattleParameterType": 17,
+                "ChangeParameterType": 1,
+                "Value": 350.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 68,
+            "CollectionLevel": 9,
+            "Id": 6809,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "トリアングルムの距離(ポーラ,ルシール,ネブラ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 68,
+        "IsIgnore": null,
+        "Memo": "トリアングルムの距離(ポーラ,ルシール,ネブラ)",
+        "NameKey": "[CharacterCollectionName68]",
+        "RequiredCharacterIds": [
+          114,
+          89,
+          87
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2025-07-15 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName68]",
+      "names": {
+        "zh-CN": "三角座的距离"
+      },
+      "required_character_ids": [
+        114,
+        89,
+        87
+      ],
+      "required_characters": [
+        {
+          "id": 114,
+          "names": {
+            "zh-CN": "宝拉"
+          }
+        },
+        {
+          "id": 89,
+          "names": {
+            "zh-CN": "露昕鲁"
+          }
+        },
+        {
+          "id": 87,
+          "names": {
+            "zh-CN": "涅布拉"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2025-07-15 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 2,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 89,
+    "job_flags": 1,
+    "master_record": {
+      "ActiveSkillIds": [
+        89001,
+        89002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 83,
+        "Health": 62,
+        "Intelligence": 84,
+        "Muscle": 96
+      },
+      "BaseParameterGrossCoefficient": 325,
+      "CharacterType": 0,
+      "ElementType": 2,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 89,
+      "InitialBattleParameter": {
+        "AttackPower": -3,
+        "Avoidance": 3,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 10,
+        "DefensePenetration": 0,
+        "HP": -3,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 3,
+        "Speed": 3525
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 1,
+      "Memo": "ルシール",
+      "Name2Key": null,
+      "NameKey": "[CharacterName89]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        89003,
+        89004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2025-05-14 15:00:00"
+    },
+    "memo": "ルシール",
+    "name_key": "[CharacterName89]",
+    "names": {
+      "zh-CN": "露昕鲁"
+    },
+    "speed": 3525,
+    "start_time_jst": "2025-05-14 15:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 891110240,
+    "exclusive_effect_id": 522,
+    "icon_id": 638,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 891110250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 119,
+        "EquipmentEvolutionId": 129,
+        "EquipmentExclusiveSkillDescriptionId": 87,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 1,
+        "ExclusiveEffectId": 522,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 638,
+        "Id": 891110240,
+        "IsIgnore": null,
+        "Memo": "ルシールLR240_剣",
+        "NameKey": "[EquipmentName633]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": null,
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 7,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          },
+          {
+            "BattleParameterType": 1,
+            "ChangeParameterType": 2,
+            "Value": 2200.0
+          }
+        ],
+        "CharacterId": 89,
+        "Id": 522,
+        "IsIgnore": null,
+        "Memo": "ルシールLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill89Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill89Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill89Description3]",
+        "Id": 87,
+        "IsIgnore": null,
+        "Memo": "ルシール剣"
+      }
+    },
+    "name_key": "[EquipmentName633]",
+    "names": {
+      "zh-CN": "解放之光"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Critical",
+        "parameter_type": 7,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Hp",
+        "parameter_type": 1,
+        "raw_value": 2200.0,
+        "value_text": "+22%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill89Description1]",
+        "descriptions": {
+          "zh-CN": "强化魔女革命，攻击次数增加为5次。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill89Description2]",
+        "descriptions": {
+          "zh-CN": "强化魔女解放军领袖，速度增幅提升为20%。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill89Description3]",
+        "descriptions": {
+          "zh-CN": "强化革命剑虹，造成的物理伤害提升为攻击力×580%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 89003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription890031]",
+          "descriptions": {
+            "zh-CN": "胜利只会留给勇敢的战士——战斗开始时，使全体友军增加攻击力，增幅为露昕鲁攻击力×10%（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "勇敢に戦う者にだけ、勝利は与えられる──バトル開始時、味方全体の攻撃力を自身の攻撃力×10％増加させる（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription890032]",
+          "descriptions": {
+            "zh-CN": "当技能目标为业红属性时，使技能目标额外增加5%速度（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに対象が紅属性の場合、対象のスピードを5％増加させる（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription890033]",
+          "descriptions": {
+            "zh-CN": "攻击力增幅提升为露昕鲁攻击力×25%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "攻撃力の増加量が自身の攻撃力×25％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription890034]",
+          "descriptions": {
+            "zh-CN": "强化魔女解放军领袖，速度增幅提升为20%。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "スキル3を強化する。スピードの増加量が20％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 89003,
+        "IsIgnore": null,
+        "Memo": "ルシールSR:Lv1 勇敢に戦う者にだけ、勝利は与えられる──バトル開始時、味方全体の攻撃力を自身の攻撃力×10％増加させる（解除不可）。/ Lv2 さらに対象が紅属性の場合、対象のスピードを5％増加させる（解除不可）。/ Lv3 攻撃力の増加量が自身の攻撃力×25％になる。/ Ex2 スキル3を強化する。スピードの増加量が20％になる。",
+        "NameKey": "[PassiveSkillName89003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription890031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 89003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription890032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 89003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 28,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 89003202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription890033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 89003301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 28,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 89003202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription890034]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 89003301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 28,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 89003402
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName89003]",
+      "names": {
+        "zh-CN": "魔女解放军领袖"
+      },
+      "source_memo_ja": "ルシールSR:Lv1 勇敢に戦う者にだけ、勝利は与えられる──バトル開始時、味方全体の攻撃力を自身の攻撃力×10％増加させる（解除不可）。/ Lv2 さらに対象が紅属性の場合、対象のスピードを5％増加させる（解除不可）。/ Lv3 攻撃力の増加量が自身の攻撃力×25％になる。/ Ex2 スキル3を強化する。スピードの増加量が20％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "勇敢に戦う者にだけ、勝利は与えられる──バトル開始時、味方全体の攻撃力を自身の攻撃力×10％増加させる（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに対象が紅属性の場合、対象のスピードを5％増加させる（解除不可）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "攻撃力の増加量が自身の攻撃力×25％になる。"
+        },
+        {
+          "label": "Ex2",
+          "text": "スキル3を強化する。スピードの増加量が20％になる。"
+        }
+      ]
+    },
+    {
+      "id": 89004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription890041]",
+          "descriptions": {
+            "zh-CN": "打造一个让你笑容常驻的世界，是我唯一的目标。相信我们即便分隔两地，也能心灵相通——当露昕鲁或友军受到自损伤害时，露昕鲁随机对3名敌人附加1层「彩光」，效果持续2回合（最多5层）。每层「彩光」使附带者增加1%承受伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "お前が泣かなくてすむ世界、それだけを目指して歩んできた。離れ離れでも心は通じていると信じて──自身か味方が自傷ダメージを受けた場合、ランダムな敵3体に2ターンの間『彩光』を1スタック付与する（最大5スタックまで）。この弱体効果は1スタックにつき付帯者の被ダメージを1％増加させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription890042]",
+          "descriptions": {
+            "zh-CN": "技能目标增加为5名随机敌人。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "このスキルの対象がランダムな敵5体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription890043]",
+          "descriptions": {
+            "zh-CN": "承受伤害增幅提升为2%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "被ダメージの増加量が2％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 89004,
+        "IsIgnore": null,
+        "Memo": "ルシールSR:Lv1 お前が泣かなくてすむ世界、それだけを目指して歩んできた。離れ離れでも心は通じていると信じて──自身か味方が自傷ダメージを受けた場合、ランダムな敵3体に2ターンの間『彩光』を1スタック付与する（最大5スタックまで）。この弱体効果は1スタックにつき付帯者の被ダメージを1％増加させる。/ Lv2 このスキルの対象がランダムな敵5体になる。/ Lv3 被ダメージの増加量が2％になる。",
+        "NameKey": "[PassiveSkillName89004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription890041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 34,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 89004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 35,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 89004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription890042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 34,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 89004201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 35,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 89004201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription890043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 34,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 89004301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 35,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 89004301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName89004]",
+      "names": {
+        "zh-CN": "名为割舍的爱"
+      },
+      "source_memo_ja": "ルシールSR:Lv1 お前が泣かなくてすむ世界、それだけを目指して歩んできた。離れ離れでも心は通じていると信じて──自身か味方が自傷ダメージを受けた場合、ランダムな敵3体に2ターンの間『彩光』を1スタック付与する（最大5スタックまで）。この弱体効果は1スタックにつき付帯者の被ダメージを1％増加させる。/ Lv2 このスキルの対象がランダムな敵5体になる。/ Lv3 被ダメージの増加量が2％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "お前が泣かなくてすむ世界、それだけを目指して歩んできた。離れ離れでも心は通じていると信じて──自身か味方が自傷ダメージを受けた場合、ランダムな敵3体に2ターンの間『彩光』を1スタック付与する（最大5スタックまで）。この弱体効果は1スタックにつき付帯者の被ダメージを1％増加させる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "このスキルの対象がランダムな敵5体になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "被ダメージの増加量が2％になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

@@ -1,0 +1,1508 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 2001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription20011]",
+          "descriptions": {
+            "zh-CN": "埋藏在伊利亚心中的力量让剑身发出赤红的光辉，随机对1名敌人造成攻击力×390%的物理伤害，并附加「晕厥」状态，效果持续2回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "心に秘めた力が刀身を赤く輝かせ、ランダムな敵1体に攻撃力×390%の物理攻撃を行い、2ターンの間『気絶』を付与する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[ActiveSkillDescription20012]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×410%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "物理攻撃のダメージが攻撃力×410%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[ActiveSkillDescription20013]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×430%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃のダメージが攻撃力×430%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription20011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              2001001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[ActiveSkillDescription20012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              2001201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[ActiveSkillDescription20013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              2001301
+            ]
+          }
+        ],
+        "Id": 2001,
+        "IsIgnore": null,
+        "Memo": "イリアR: /Lv1　心に秘めた力が刀身を赤く輝かせ、ランダムな敵1体に攻撃力×390%の物理攻撃を行い、2ターンの間『気絶』を付与する。　/Lv2 物理攻撃のダメージが攻撃力×410%になる。　/Lv3 物理攻撃のダメージが攻撃力×430%になる。",
+        "NameKey": "[ActiveSkillName2001]",
+        "RootActiveSkillId": 2001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName2001]",
+      "names": {
+        "zh-CN": "信念的重击"
+      },
+      "source_memo_ja": "イリアR: /Lv1　心に秘めた力が刀身を赤く輝かせ、ランダムな敵1体に攻撃力×390%の物理攻撃を行い、2ターンの間『気絶』を付与する。　/Lv2 物理攻撃のダメージが攻撃力×410%になる。　/Lv3 物理攻撃のダメージが攻撃力×430%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "心に秘めた力が刀身を赤く輝かせ、ランダムな敵1体に攻撃力×390%の物理攻撃を行い、2ターンの間『気絶』を付与する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "物理攻撃のダメージが攻撃力×410%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃のダメージが攻撃力×430%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 2002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription20021]",
+          "descriptions": {
+            "zh-CN": "伊利亚将发自灵魂的力量灌注在剑刃上，随机对1名敌人造成攻击力×420%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "魂から引き出した力を剣に乗せ、ランダムな敵1体に攻撃力×420%の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription20022]",
+          "descriptions": {
+            "zh-CN": "对技能目标追加伊利亚力量×150%的直接伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに自身の腕力×150%の直接攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription20023]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×540%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃のダメージが攻撃力×540%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[ActiveSkillDescription20024]",
+          "descriptions": {
+            "zh-CN": "造成的直接伤害提升为伊利亚力量×180%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "直接攻撃のダメージが自身の腕力×180%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription20021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              2002001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription20022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              2002201,
+              2002202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription20023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              2002301,
+              2002202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[ActiveSkillDescription20024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              2002301,
+              2002402
+            ]
+          }
+        ],
+        "Id": 2002,
+        "IsIgnore": null,
+        "Memo": "イリアR: /Lv1　魂から引き出した力を剣に乗せ、ランダムな敵1体に攻撃力×420%の物理攻撃を行う。　/Lv2 さらに自身の腕力×150%の直接攻撃を行う。　/Lv3 物理攻撃のダメージが攻撃力×540%になる。　/Lv4 直接攻撃のダメージが自身の腕力×180%になる。",
+        "NameKey": "[ActiveSkillName2002]",
+        "RootActiveSkillId": 2002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName2002]",
+      "names": {
+        "zh-CN": "奋力的斩击"
+      },
+      "source_memo_ja": "イリアR: /Lv1　魂から引き出した力を剣に乗せ、ランダムな敵1体に攻撃力×420%の物理攻撃を行う。　/Lv2 さらに自身の腕力×150%の直接攻撃を行う。　/Lv3 物理攻撃のダメージが攻撃力×540%になる。　/Lv4 直接攻撃のダメージが自身の腕力×180%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "魂から引き出した力を剣に乗せ、ランダムな敵1体に攻撃力×420%の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに自身の腕力×150%の直接攻撃を行う。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃のダメージが攻撃力×540%になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "直接攻撃のダメージが自身の腕力×180%になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 58,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 58,
+            "CollectionLevel": 1,
+            "Id": 5801,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 1,
+            "Memo": "アルニラムの開花(イリア,アリアンロッド,ザラ,スクルド)"
+          },
+          "max_level_increase": 1
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 58,
+            "CollectionLevel": 2,
+            "Id": 5802,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 3,
+            "Memo": "アルニラムの開花(イリア,アリアンロッド,ザラ,スクルド)"
+          },
+          "max_level_increase": 3
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 58,
+            "CollectionLevel": 3,
+            "Id": 5803,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 5,
+            "Memo": "アルニラムの開花(イリア,アリアンロッド,ザラ,スクルド)"
+          },
+          "max_level_increase": 5
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 58,
+        "IsIgnore": null,
+        "Memo": "アルニラムの開花(イリア,アリアンロッド,ザラ,スクルド)",
+        "NameKey": "[CharacterCollectionName58]",
+        "RequiredCharacterIds": [
+          2,
+          12,
+          22,
+          32
+        ],
+        "RequiredPartyLv": 300,
+        "StartTimeFixJST": "2024-10-18 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName58]",
+      "names": {
+        "zh-CN": "串绳星的绽放"
+      },
+      "required_character_ids": [
+        2,
+        12,
+        22,
+        32
+      ],
+      "required_characters": [
+        {
+          "id": 2,
+          "names": {
+            "zh-CN": "伊利亚"
+          }
+        },
+        {
+          "id": 12,
+          "names": {
+            "zh-CN": "阿丽安萝德"
+          }
+        },
+        {
+          "id": 22,
+          "names": {
+            "zh-CN": "萨拉"
+          }
+        },
+        {
+          "id": 32,
+          "names": {
+            "zh-CN": "诗寇蒂"
+          }
+        }
+      ],
+      "required_party_level": 300,
+      "start_time_jst": "2024-10-18 00:00:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 61,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 35.0,
+              "value_text": "+35×角色等级"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 35.0
+              }
+            ],
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 61,
+            "CollectionLevel": 1,
+            "Id": 6101,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルゴの覚悟(神呪イリア,イリア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 61,
+            "CollectionLevel": 2,
+            "Id": 6102,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルゴの覚悟(神呪イリア,イリア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 61,
+            "CollectionLevel": 3,
+            "Id": 6103,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルゴの覚悟(神呪イリア,イリア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 61,
+            "CollectionLevel": 4,
+            "Id": 6104,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルゴの覚悟(神呪イリア,イリア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 71.0,
+              "value_text": "+71×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 210.0,
+              "value_text": "+2.1%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 71.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 210.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 61,
+            "CollectionLevel": 5,
+            "Id": 6105,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルゴの覚悟(神呪イリア,イリア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 72.0,
+              "value_text": "+72×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 220.0,
+              "value_text": "+2.2%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 72.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 220.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 61,
+            "CollectionLevel": 6,
+            "Id": 6106,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルゴの覚悟(神呪イリア,イリア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 73.0,
+              "value_text": "+73×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 230.0,
+              "value_text": "+2.3%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 73.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 230.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 61,
+            "CollectionLevel": 7,
+            "Id": 6107,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルゴの覚悟(神呪イリア,イリア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 74.0,
+              "value_text": "+74×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 240.0,
+              "value_text": "+2.4%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 74.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 240.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 61,
+            "CollectionLevel": 8,
+            "Id": 6108,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルゴの覚悟(神呪イリア,イリア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 75.0,
+              "value_text": "+75×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 250.0,
+              "value_text": "+2.5%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 75.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 61,
+            "CollectionLevel": 9,
+            "Id": 6109,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルゴの覚悟(神呪イリア,イリア)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 61,
+        "IsIgnore": null,
+        "Memo": "アルゴの覚悟(神呪イリア,イリア)",
+        "NameKey": "[CharacterCollectionName61]",
+        "RequiredCharacterIds": [
+          61,
+          2
+        ],
+        "RequiredPartyLv": 300,
+        "StartTimeFixJST": "2024-10-31 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName61]",
+      "names": {
+        "zh-CN": "南船座的觉悟"
+      },
+      "required_character_ids": [
+        61,
+        2
+      ],
+      "required_characters": [
+        {
+          "id": 61,
+          "names": {
+            "zh-CN": "伊利亚"
+          }
+        },
+        {
+          "id": 2,
+          "names": {
+            "zh-CN": "伊利亚"
+          }
+        }
+      ],
+      "required_party_level": 300,
+      "start_time_jst": "2024-10-31 00:00:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 64,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 20.0,
+              "value_text": "+20×角色等级"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 20.0
+              }
+            ],
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 64,
+            "CollectionLevel": 1,
+            "Id": 6401,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "セクスタンスの指南(アイリーン,イリア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 64,
+            "CollectionLevel": 2,
+            "Id": 6402,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "セクスタンスの指南(アイリーン,イリア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 64,
+            "CollectionLevel": 3,
+            "Id": 6403,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "セクスタンスの指南(アイリーン,イリア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 64,
+            "CollectionLevel": 4,
+            "Id": 6404,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "セクスタンスの指南(アイリーン,イリア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 41.0,
+              "value_text": "+41×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 160.0,
+              "value_text": "+1.6%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 41.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 2,
+                "Value": 160.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 64,
+            "CollectionLevel": 5,
+            "Id": 6405,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "セクスタンスの指南(アイリーン,イリア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 42.0,
+              "value_text": "+42×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 170.0,
+              "value_text": "+1.7%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 42.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 2,
+                "Value": 170.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 64,
+            "CollectionLevel": 6,
+            "Id": 6406,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "セクスタンスの指南(アイリーン,イリア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 43.0,
+              "value_text": "+43×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 180.0,
+              "value_text": "+1.8%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 43.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 2,
+                "Value": 180.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 64,
+            "CollectionLevel": 7,
+            "Id": 6407,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "セクスタンスの指南(アイリーン,イリア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 44.0,
+              "value_text": "+44×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 190.0,
+              "value_text": "+1.9%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 44.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 2,
+                "Value": 190.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 64,
+            "CollectionLevel": 8,
+            "Id": 6408,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "セクスタンスの指南(アイリーン,イリア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 45.0,
+              "value_text": "+45×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 45.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 64,
+            "CollectionLevel": 9,
+            "Id": 6409,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "セクスタンスの指南(アイリーン,イリア)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 64,
+        "IsIgnore": null,
+        "Memo": "セクスタンスの指南(アイリーン,イリア)",
+        "NameKey": "[CharacterCollectionName64]",
+        "RequiredCharacterIds": [
+          109,
+          2
+        ],
+        "RequiredPartyLv": 300,
+        "StartTimeFixJST": "2024-12-25 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName64]",
+      "names": {
+        "zh-CN": "六分仪座的指南"
+      },
+      "required_character_ids": [
+        109,
+        2
+      ],
+      "required_characters": [
+        {
+          "id": 109,
+          "names": {
+            "zh-CN": "厄瑞涅"
+          }
+        },
+        {
+          "id": 2,
+          "names": {
+            "zh-CN": "伊利亚"
+          }
+        }
+      ],
+      "required_party_level": 300,
+      "start_time_jst": "2024-12-25 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 1,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 2,
+    "job_flags": 1,
+    "master_record": {
+      "ActiveSkillIds": [
+        2001,
+        2002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 80,
+        "Health": 91,
+        "Intelligence": 79,
+        "Muscle": 90
+      },
+      "BaseParameterGrossCoefficient": 340,
+      "CharacterType": 0,
+      "ElementType": 1,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 2,
+      "InitialBattleParameter": {
+        "AttackPower": 1,
+        "Avoidance": 0,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 12,
+        "DefensePenetration": 0,
+        "HP": -1,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": -2,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 2733
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 32,
+      "JobFlags": 1,
+      "Memo": "イリア",
+      "Name2Key": null,
+      "NameKey": "[CharacterName2]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        2003
+      ],
+      "RarityFlags": 2,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2020-01-01 00:00:00"
+    },
+    "memo": "イリア",
+    "name_key": "[CharacterName2]",
+    "names": {
+      "zh-CN": "伊利亚"
+    },
+    "speed": 2733,
+    "start_time_jst": "2020-01-01 00:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": null,
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 2003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription20031]",
+          "descriptions": {
+            "zh-CN": "伊利亚发挥面对任何逆境都不放弃的意志，使自己增加20%攻击力（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "どんな逆境でも諦めない心で、自身の攻撃力が20％増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[PassiveSkillDescription20032]",
+          "descriptions": {
+            "zh-CN": "攻击力增幅提升为30%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "攻撃力の増加量が30％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 2003,
+        "IsIgnore": null,
+        "Memo": "イリアR: /Lv1　どんな逆境でも諦めない心で、自身の攻撃力が20％増加する（解除不可）。　/Lv2 攻撃力の増加量が30％になる。",
+        "NameKey": "[PassiveSkillName2003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription20031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 2003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[PassiveSkillDescription20032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 2003201
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName2003]",
+      "names": {
+        "zh-CN": "不屈之心"
+      },
+      "source_memo_ja": "イリアR: /Lv1　どんな逆境でも諦めない心で、自身の攻撃力が20％増加する（解除不可）。　/Lv2 攻撃力の増加量が30％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "どんな逆境でも諦めない心で、自身の攻撃力が20％増加する（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "攻撃力の増加量が30％になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

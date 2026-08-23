@@ -1,0 +1,1341 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 112001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription1120011]",
+          "descriptions": {
+            "zh-CN": "静的动作轻巧如燕，手中所执仿佛一缕羽衣，挥出的一击却带有万钧之力，转瞬之间横扫众多敌人。静使自己受到当前生命值×20%的自损伤害，并随机对敌人进行6次攻击，每次造成攻击力×220%的物理伤害。70%概率使技能目标减少15%速度，效果持续2回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "羽衣を手にしているかのように見紛うほど軽やかな動きだが、その一振りには凄まじい力が宿り、多くの敵を一瞬で薙ぎ払う。自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵に6回攻撃力×220%の物理攻撃を行う。70%の確率で2ターンの間対象のスピードを15%減少させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription1120012]",
+          "descriptions": {
+            "zh-CN": "速度降幅提升为30%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "スピードの減少量が30%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1120013]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×520%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃のダメージが攻撃力×520%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1120014]",
+          "descriptions": {
+            "zh-CN": "强化剑光一闪・白羽衣，攻击次数增加为8次。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "一閃・白羽衣を強化する。物理攻撃の回数が8回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription1120015]",
+          "descriptions": {
+            "zh-CN": "强化剑光一闪・白羽衣，造成的物理伤害提升为攻击力×580%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "一閃・白羽衣を強化する。物理攻撃のダメージが攻撃力×580%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription1120011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              112001001,
+              112001002,
+              112001003,
+              112001003,
+              112001003,
+              112001003,
+              112001003
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription1120012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              112001001,
+              112001202,
+              112001203,
+              112001203,
+              112001203,
+              112001203,
+              112001203
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1120013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              112001001,
+              112001302,
+              112001303,
+              112001303,
+              112001303,
+              112001303,
+              112001303
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1120014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              112001001,
+              112001302,
+              112001303,
+              112001303,
+              112001303,
+              112001303,
+              112001303,
+              112001303,
+              112001303
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription1120015]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              112001001,
+              112001502,
+              112001503,
+              112001503,
+              112001503,
+              112001503,
+              112001503,
+              112001503,
+              112001503
+            ]
+          }
+        ],
+        "Id": 112001,
+        "IsIgnore": null,
+        "Memo": "春シズSR:Lv1 羽衣を手にしているかのように見紛うほど軽やかな動きだが、その一振りには凄まじい力が宿り、多くの敵を一瞬で薙ぎ払う。自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵に6回攻撃力×220%の物理攻撃を行う。70%の確率で2ターンの間対象のスピードを15%減少させる。/ Lv2 スピードの減少量が30%になる。/ Lv3 物理攻撃のダメージが攻撃力×520%になる。/ Ex1 一閃・白羽衣を強化する。物理攻撃の回数が8回になる。/ Ex3 一閃・白羽衣を強化する。物理攻撃のダメージが攻撃力×580%になる。",
+        "NameKey": "[ActiveSkillName112001]",
+        "RootActiveSkillId": 112001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName112001]",
+      "names": {
+        "zh-CN": "剑光一闪・白羽衣"
+      },
+      "source_memo_ja": "春シズSR:Lv1 羽衣を手にしているかのように見紛うほど軽やかな動きだが、その一振りには凄まじい力が宿り、多くの敵を一瞬で薙ぎ払う。自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵に6回攻撃力×220%の物理攻撃を行う。70%の確率で2ターンの間対象のスピードを15%減少させる。/ Lv2 スピードの減少量が30%になる。/ Lv3 物理攻撃のダメージが攻撃力×520%になる。/ Ex1 一閃・白羽衣を強化する。物理攻撃の回数が8回になる。/ Ex3 一閃・白羽衣を強化する。物理攻撃のダメージが攻撃力×580%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "羽衣を手にしているかのように見紛うほど軽やかな動きだが、その一振りには凄まじい力が宿り、多くの敵を一瞬で薙ぎ払う。自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵に6回攻撃力×220%の物理攻撃を行う。70%の確率で2ターンの間対象のスピードを15%減少させる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "スピードの減少量が30%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃のダメージが攻撃力×520%になる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "一閃・白羽衣を強化する。物理攻撃の回数が8回になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "一閃・白羽衣を強化する。物理攻撃のダメージが攻撃力×580%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 112002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription1120021]",
+          "descriptions": {
+            "zh-CN": "静的刀法如银丝飞瀑般纤巧，却如那穿石的雨滴般，带有破石断岩的威力。静使自己受到当前生命值×20%的自损伤害，并随机对2名敌人造成攻击力×620%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "白糸の滝を思わせる繊細な太刀筋。しかし、その刃は雨垂れが石を穿つように、岩をも断つ力を宿している。自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵2体に攻撃力×620%の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription1120022]",
+          "descriptions": {
+            "zh-CN": "技能目标增加为3名随机敌人。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "このスキルの対象がランダムな敵3体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription1120023]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×1120%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃のダメージが攻撃力×1120%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription1120024]",
+          "descriptions": {
+            "zh-CN": "当技能目标的当前生命值高于自己时，造成的物理伤害提升为攻击力×1680%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "さらに物理攻撃の前に対象の現在HPが自身よりも高い場合、物理攻撃のダメージが攻撃力×1680%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription1120025]",
+          "descriptions": {
+            "zh-CN": "强化玉水断，造成的物理伤害提升为攻击力×1520%。当技能目标的当前生命值高于自己时，造成的物理伤害提升为攻击力×2280%。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "玉水割りを強化する。物理攻撃のダメージが攻撃力×1520%になる。物理攻撃の前に対象の現在HPが自身よりも高い場合、物理攻撃のダメージが攻撃力×2280%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription1120021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              112002001,
+              112002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription1120022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              112002001,
+              112002202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription1120023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              112002001,
+              112002302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription1120024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              112002001,
+              112002402
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription1120025]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              112002001,
+              112002502
+            ]
+          }
+        ],
+        "Id": 112002,
+        "IsIgnore": null,
+        "Memo": "春シズSR:Lv1 白糸の滝を思わせる繊細な太刀筋。しかし、その刃は雨垂れが石を穿つように、岩をも断つ力を宿している。自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵2体に攻撃力×620%の物理攻撃を行う。/ Lv2 このスキルの対象がランダムな敵3体になる。/ Lv3 物理攻撃のダメージが攻撃力×1120%になる。/ Lv4 さらに物理攻撃の前に対象の現在HPが自身よりも高い場合、物理攻撃のダメージが攻撃力×1680%になる。/ Ex2 玉水割りを強化する。物理攻撃のダメージが攻撃力×1520%になる。物理攻撃の前に対象の現在HPが自身よりも高い場合、物理攻撃のダメージが攻撃力×2280%になる。",
+        "NameKey": "[ActiveSkillName112002]",
+        "RootActiveSkillId": 112002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName112002]",
+      "names": {
+        "zh-CN": "玉水断"
+      },
+      "source_memo_ja": "春シズSR:Lv1 白糸の滝を思わせる繊細な太刀筋。しかし、その刃は雨垂れが石を穿つように、岩をも断つ力を宿している。自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵2体に攻撃力×620%の物理攻撃を行う。/ Lv2 このスキルの対象がランダムな敵3体になる。/ Lv3 物理攻撃のダメージが攻撃力×1120%になる。/ Lv4 さらに物理攻撃の前に対象の現在HPが自身よりも高い場合、物理攻撃のダメージが攻撃力×1680%になる。/ Ex2 玉水割りを強化する。物理攻撃のダメージが攻撃力×1520%になる。物理攻撃の前に対象の現在HPが自身よりも高い場合、物理攻撃のダメージが攻撃力×2280%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "白糸の滝を思わせる繊細な太刀筋。しかし、その刃は雨垂れが石を穿つように、岩をも断つ力を宿している。自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵2体に攻撃力×620%の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "このスキルの対象がランダムな敵3体になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃のダメージが攻撃力×1120%になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "さらに物理攻撃の前に対象の現在HPが自身よりも高い場合、物理攻撃のダメージが攻撃力×1680%になる。"
+        },
+        {
+          "label": "Ex2",
+          "text": "玉水割りを強化する。物理攻撃のダメージが攻撃力×1520%になる。物理攻撃の前に対象の現在HPが自身よりも高い場合、物理攻撃のダメージが攻撃力×2280%になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 67,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 500.0,
+              "value_text": "+500"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 67,
+            "CollectionLevel": 1,
+            "Id": 6701,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "グルスの白椿​(春シズ,クラウディア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 67,
+            "CollectionLevel": 2,
+            "Id": 6702,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "グルスの白椿​(春シズ,クラウディア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 67,
+            "CollectionLevel": 3,
+            "Id": 6703,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "グルスの白椿​(春シズ,クラウディア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 67,
+            "CollectionLevel": 4,
+            "Id": 6704,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "グルスの白椿​(春シズ,クラウディア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3100.0,
+              "value_text": "+3,100"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1050.0,
+              "value_text": "+1,050"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3100.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1050.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 67,
+            "CollectionLevel": 5,
+            "Id": 6705,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "グルスの白椿​(春シズ,クラウディア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3200.0,
+              "value_text": "+3,200"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1100.0,
+              "value_text": "+1,100"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3200.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1100.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 67,
+            "CollectionLevel": 6,
+            "Id": 6706,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "グルスの白椿​(春シズ,クラウディア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3300.0,
+              "value_text": "+3,300"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1150.0,
+              "value_text": "+1,150"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3300.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1150.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 67,
+            "CollectionLevel": 7,
+            "Id": 6707,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "グルスの白椿​(春シズ,クラウディア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3400.0,
+              "value_text": "+3,400"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1200.0,
+              "value_text": "+1,200"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3400.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 67,
+            "CollectionLevel": 8,
+            "Id": 6708,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "グルスの白椿​(春シズ,クラウディア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3500.0,
+              "value_text": "+3,500"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1250.0,
+              "value_text": "+1,250"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3500.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 67,
+            "CollectionLevel": 9,
+            "Id": 6709,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "グルスの白椿​(春シズ,クラウディア)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 67,
+        "IsIgnore": null,
+        "Memo": "グルスの白椿​(春シズ,クラウディア)",
+        "NameKey": "[CharacterCollectionName67]",
+        "RequiredCharacterIds": [
+          112,
+          56
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2025-02-14 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName67]",
+      "names": {
+        "zh-CN": "天鹤座的白山茶"
+      },
+      "required_character_ids": [
+        112,
+        56
+      ],
+      "required_characters": [
+        {
+          "id": 112,
+          "names": {
+            "zh-CN": "静"
+          }
+        },
+        {
+          "id": 56,
+          "names": {
+            "zh-CN": "克劳蒂亚"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2025-02-14 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 2,
+    "element_type": 2,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 112,
+    "job_flags": 1,
+    "master_record": {
+      "ActiveSkillIds": [
+        112001,
+        112002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 83,
+        "Health": 55,
+        "Intelligence": 84,
+        "Muscle": 102
+      },
+      "BaseParameterGrossCoefficient": 324,
+      "CharacterType": 2,
+      "ElementType": 2,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 112,
+      "InitialBattleParameter": {
+        "AttackPower": 5,
+        "Avoidance": 0,
+        "Critical": -3,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 1,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 10,
+        "DefensePenetration": 0,
+        "HP": 0,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": -3,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 3582
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 1,
+      "Memo": "春シズ",
+      "Name2Key": "[CharacterSubName112]",
+      "NameKey": "[CharacterName112]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        112003,
+        112004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2025-02-14 15:00:00"
+    },
+    "memo": "春シズ",
+    "name_key": "[CharacterName112]",
+    "names": {
+      "zh-CN": "静"
+    },
+    "speed": 3582,
+    "start_time_jst": "2025-02-14 15:00:00",
+    "subtitle_key": "[CharacterSubName112]",
+    "subtitles": {
+      "zh-CN": "傲雪花誓"
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 1121110240,
+    "exclusive_effect_id": 486,
+    "icon_id": 776,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 1121110250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 113,
+        "EquipmentEvolutionId": 123,
+        "EquipmentExclusiveSkillDescriptionId": 81,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 1,
+        "ExclusiveEffectId": 486,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 776,
+        "Id": 1121110240,
+        "IsIgnore": null,
+        "Memo": "春シズLR240_剣",
+        "NameKey": "[EquipmentName771]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": null,
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 13,
+            "ChangeParameterType": 2,
+            "Value": 500.0
+          },
+          {
+            "BattleParameterType": 7,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 112,
+        "Id": 486,
+        "IsIgnore": null,
+        "Memo": "春シズLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill112Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill112Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill112Description3]",
+        "Id": 81,
+        "IsIgnore": null,
+        "Memo": "春シズ剣"
+      }
+    },
+    "name_key": "[EquipmentName771]",
+    "names": {
+      "zh-CN": "白雪一点花"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Defense",
+        "parameter_type": 13,
+        "raw_value": 500.0,
+        "value_text": "+5%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Critical",
+        "parameter_type": 7,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill112Description1]",
+        "descriptions": {
+          "zh-CN": "强化剑光一闪・白羽衣，攻击次数增加为8次。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill112Description2]",
+        "descriptions": {
+          "zh-CN": "强化玉水断，造成的物理伤害提升为攻击力×1520%。当技能目标的当前生命值高于自己时，造成的物理伤害提升为攻击力×2280%。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill112Description3]",
+        "descriptions": {
+          "zh-CN": "强化剑光一闪・白羽衣，造成的物理伤害提升为攻击力×580%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 112003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription1120031]",
+          "descriptions": {
+            "zh-CN": "立定时宁静如照亮黑夜的月光。静调息凝神——集中力量于一点之上。战斗开始时，使自己增加攻击力，增幅为状态效果生效前的静防御力×100%（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "夜を照らす月光の如く佇む。呼吸を整え、心を静め――力を一点に集中させる。バトル開始時自身の攻撃力が、ステータス増減前の自身の防御力×100%分増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription1120032]",
+          "descriptions": {
+            "zh-CN": "攻击力增幅提升为状态效果生效前的静防御力×200%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "攻撃力の増加量がステータス増減前の自身の防御力×200%分になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription1120033]",
+          "descriptions": {
+            "zh-CN": "战斗开始时，静额外获得1层「多重屏障」（无法被解除）。当静受到最大生命值×20%以上的伤害时，消耗1层屏障来抵消该伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらにバトル開始時自身に1層の『多重バリア』を付与する（解除不可）。自身の最大HP×20％以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 112003,
+        "IsIgnore": null,
+        "Memo": "春シズSR:Lv1 夜を照らす月光の如く佇む。呼吸を整え、心を静め――力を一点に集中させる。バトル開始時自身の攻撃力が、ステータス増減前の自身の防御力×100%分増加する（解除不可）。/ Lv2 攻撃力の増加量がステータス増減前の自身の防御力×200%分になる。/ Lv3 さらにバトル開始時自身に1層の『多重バリア』を付与する（解除不可）。自身の最大HP×20％以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。",
+        "NameKey": "[PassiveSkillName112003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription1120031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 112003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription1120032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 112003201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription1120033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 112003201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 112003302
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName112003]",
+      "names": {
+        "zh-CN": "起手式・月照"
+      },
+      "source_memo_ja": "春シズSR:Lv1 夜を照らす月光の如く佇む。呼吸を整え、心を静め――力を一点に集中させる。バトル開始時自身の攻撃力が、ステータス増減前の自身の防御力×100%分増加する（解除不可）。/ Lv2 攻撃力の増加量がステータス増減前の自身の防御力×200%分になる。/ Lv3 さらにバトル開始時自身に1層の『多重バリア』を付与する（解除不可）。自身の最大HP×20％以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "夜を照らす月光の如く佇む。呼吸を整え、心を静め――力を一点に集中させる。バトル開始時自身の攻撃力が、ステータス増減前の自身の防御力×100%分増加する（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "攻撃力の増加量がステータス増減前の自身の防御力×200%分になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらにバトル開始時自身に1層の『多重バリア』を付与する（解除不可）。自身の最大HP×20％以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。"
+        }
+      ]
+    },
+    {
+      "id": 112004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription1120041]",
+          "descriptions": {
+            "zh-CN": "不为他人，只为自己而活。她遵循自己的意志，不让别人决定自己的价值与存在的意义。行动开始时，静对伤害反弹最高的敌人附加1种弱化效果，该效果包含增加10%承受伤害，效果持续1回合，并且当技能目标的防御力低于自己时，额外减少20%伤害反弹。此技能须在结束4次行动后才可再次触发。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "誰かのためではなく、あるがままで良い。誰かに価値を、意味を見出してもらうのではなく、ただ自らの意志で少女は剣を振るう。自身の行動開始時、1ターンの間カウンタが最も高い敵の被ダメージを10%増加させる。対象の防御力が自身よりも低い場合、さらに対象のカウンタを20%減少させる。これらは一つの弱体効果として扱う。このスキルは発動後4回行動終了するまで再び発動しない。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription1120042]",
+          "descriptions": {
+            "zh-CN": "此技能附加的弱化效果增加为2回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "このスキルで付与する弱体効果のターン数が2ターンになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription1120043]",
+          "descriptions": {
+            "zh-CN": "伤害反弹降幅提升为40%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "カウンタの減少量が40%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 112004,
+        "IsIgnore": null,
+        "Memo": "春シズSR:Lv1 誰かのためではなく、あるがままで良い。誰かに価値を、意味を見出してもらうのではなく、ただ自らの意志で少女は剣を振るう。自身の行動開始時、1ターンの間カウンタが最も高い敵の被ダメージを10%増加させる。対象の防御力が自身よりも低い場合、さらに対象のカウンタを20%減少させる。これらは一つの弱体効果として扱う。このスキルは発動後4回行動終了するまで再び発動しない。/ Lv2 このスキルで付与する弱体効果のターン数が2ターンになる。/ Lv3 カウンタの減少量が40%になる。",
+        "NameKey": "[PassiveSkillName112004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription1120041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 32,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 112004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription1120042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 32,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 112004201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription1120043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 32,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 112004301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName112004]",
+      "names": {
+        "zh-CN": "孤花冬至为谁开"
+      },
+      "source_memo_ja": "春シズSR:Lv1 誰かのためではなく、あるがままで良い。誰かに価値を、意味を見出してもらうのではなく、ただ自らの意志で少女は剣を振るう。自身の行動開始時、1ターンの間カウンタが最も高い敵の被ダメージを10%増加させる。対象の防御力が自身よりも低い場合、さらに対象のカウンタを20%減少させる。これらは一つの弱体効果として扱う。このスキルは発動後4回行動終了するまで再び発動しない。/ Lv2 このスキルで付与する弱体効果のターン数が2ターンになる。/ Lv3 カウンタの減少量が40%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "誰かのためではなく、あるがままで良い。誰かに価値を、意味を見出してもらうのではなく、ただ自らの意志で少女は剣を振るう。自身の行動開始時、1ターンの間カウンタが最も高い敵の被ダメージを10%増加させる。対象の防御力が自身よりも低い場合、さらに対象のカウンタを20%減少させる。これらは一つの弱体効果として扱う。このスキルは発動後4回行動終了するまで再び発動しない。"
+        },
+        {
+          "label": "Lv2",
+          "text": "このスキルで付与する弱体効果のターン数が2ターンになる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "カウンタの減少量が40%になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

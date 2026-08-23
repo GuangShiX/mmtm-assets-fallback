@@ -1,0 +1,1394 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 131001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription1310011]",
+          "descriptions": {
+            "zh-CN": "谨记着师父留下的种种教诲，魔女今日也在为迷途的人们指点迷津。梅琳使自己减少5%防御力，效果持续1回合。附加此效果时无视弱化效果命中率与弱化效果抵抗率。再随机对3名敌人造成攻击力×320%的魔法伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "お師匠様からもらったたくさんの教えを胸に、魔女は今日も迷える者を導き助ける。1ターンの間自身の防御力が5%減少する。この付与は弱体効果命中率と耐性率を無視する。その後ランダムな敵3体に攻撃力×320%の魔法攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription1310012]",
+          "descriptions": {
+            "zh-CN": "攻击结束后，额外解除攻击力最高的友军身上的2种弱化效果。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに魔法攻撃の後、攻撃力が最も高い味方の弱体効果を2つ解除する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1310013]",
+          "descriptions": {
+            "zh-CN": "造成的魔法伤害提升为攻击力×520%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "魔法攻撃のダメージが攻撃力×520%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1310014]",
+          "descriptions": {
+            "zh-CN": "强化传承师父的精神，攻击目标增加为5名随机敌人。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "受け継がれた心を強化する。魔法攻撃の対象がランダムな敵5体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription1310015]",
+          "descriptions": {
+            "zh-CN": "强化传承师父的精神，造成的魔法伤害提升为攻击力×580%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "受け継がれた心を強化する。魔法攻撃のダメージが攻撃力×580%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription1310011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              131001001,
+              131001002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription1310012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              131001001,
+              131001002,
+              131001203
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1310013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              131001001,
+              131001302,
+              131001203
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1310014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              131001001,
+              131001402,
+              131001203
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription1310015]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              131001001,
+              131001502,
+              131001203
+            ]
+          }
+        ],
+        "Id": 131001,
+        "IsIgnore": null,
+        "Memo": "冬マーリンSR:Lv1 お師匠様からもらったたくさんの教えを胸に、魔女は今日も迷える者を導き助ける。1ターンの間自身の防御力が5%減少する。この付与は弱体効果命中率と耐性率を無視する。その後ランダムな敵3体に攻撃力×320%の魔法攻撃を行う。/ Lv2 さらに魔法攻撃の後、攻撃力が最も高い味方の弱体効果を2つ解除する。/ Lv3 魔法攻撃のダメージが攻撃力×520%になる。/ Ex1 受け継がれた心を強化する。魔法攻撃の対象がランダムな敵5体になる。/ Ex3 受け継がれた心を強化する。魔法攻撃のダメージが攻撃力×580%になる。",
+        "NameKey": "[ActiveSkillName131001]",
+        "RootActiveSkillId": 131001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName131001]",
+      "names": {
+        "zh-CN": "传承师父的精神"
+      },
+      "source_memo_ja": "冬マーリンSR:Lv1 お師匠様からもらったたくさんの教えを胸に、魔女は今日も迷える者を導き助ける。1ターンの間自身の防御力が5%減少する。この付与は弱体効果命中率と耐性率を無視する。その後ランダムな敵3体に攻撃力×320%の魔法攻撃を行う。/ Lv2 さらに魔法攻撃の後、攻撃力が最も高い味方の弱体効果を2つ解除する。/ Lv3 魔法攻撃のダメージが攻撃力×520%になる。/ Ex1 受け継がれた心を強化する。魔法攻撃の対象がランダムな敵5体になる。/ Ex3 受け継がれた心を強化する。魔法攻撃のダメージが攻撃力×580%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "お師匠様からもらったたくさんの教えを胸に、魔女は今日も迷える者を導き助ける。1ターンの間自身の防御力が5%減少する。この付与は弱体効果命中率と耐性率を無視する。その後ランダムな敵3体に攻撃力×320%の魔法攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに魔法攻撃の後、攻撃力が最も高い味方の弱体効果を2つ解除する。"
+        },
+        {
+          "label": "Lv3",
+          "text": "魔法攻撃のダメージが攻撃力×520%になる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "受け継がれた心を強化する。魔法攻撃の対象がランダムな敵5体になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "受け継がれた心を強化する。魔法攻撃のダメージが攻撃力×580%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 131002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription1310021]",
+          "descriptions": {
+            "zh-CN": "森林精灵们召唤出葱翠的草木波涛将敌人吞没，对攻击力最高的敌人造成攻击力×960%的魔法伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "森の精霊たちが生み出す新緑の波が敵を呑みこむ。攻撃力が最も高い敵に攻撃力×960%の魔法攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription1310022]",
+          "descriptions": {
+            "zh-CN": "造成的魔法伤害提升为攻击力×1560%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "魔法攻撃のダメージが攻撃力×1560%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription1310023]",
+          "descriptions": {
+            "zh-CN": "技能目标增加为攻击力最高的2名敌人。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "このスキルの対象が攻撃力が高い敵2体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription1310024]",
+          "descriptions": {
+            "zh-CN": "发动攻击前，如果梅琳与友军在战斗中因技能效果解除的弱化效果总数达5种以上，造成的魔法伤害提升为攻击力×2340%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "さらに魔法攻撃の前にバトル中自身と味方がスキルで解除した弱体効果の個数の合計が5以上の場合、魔法攻撃のダメージが攻撃力×2340%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription1310021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              131002001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription1310022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              131002201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription1310023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              131002301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription1310024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              131002401
+            ]
+          }
+        ],
+        "Id": 131002,
+        "IsIgnore": null,
+        "Memo": "冬マーリンSR:Lv1 森の精霊たちが生み出す新緑の波が敵を呑みこむ。攻撃力が最も高い敵に攻撃力×960%の魔法攻撃を行う。/ Lv2 魔法攻撃のダメージが攻撃力×1560%になる。/ Lv3 このスキルの対象が攻撃力が高い敵2体になる。/ Lv4 さらに魔法攻撃の前にバトル中自身と味方がスキルで解除した弱体効果の個数の合計が5以上の場合、魔法攻撃のダメージが攻撃力×2340%になる。",
+        "NameKey": "[ActiveSkillName131002]",
+        "RootActiveSkillId": 131002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName131002]",
+      "names": {
+        "zh-CN": "森林怒涛"
+      },
+      "source_memo_ja": "冬マーリンSR:Lv1 森の精霊たちが生み出す新緑の波が敵を呑みこむ。攻撃力が最も高い敵に攻撃力×960%の魔法攻撃を行う。/ Lv2 魔法攻撃のダメージが攻撃力×1560%になる。/ Lv3 このスキルの対象が攻撃力が高い敵2体になる。/ Lv4 さらに魔法攻撃の前にバトル中自身と味方がスキルで解除した弱体効果の個数の合計が5以上の場合、魔法攻撃のダメージが攻撃力×2340%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "森の精霊たちが生み出す新緑の波が敵を呑みこむ。攻撃力が最も高い敵に攻撃力×960%の魔法攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "魔法攻撃のダメージが攻撃力×1560%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "このスキルの対象が攻撃力が高い敵2体になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "さらに魔法攻撃の前にバトル中自身と味方がスキルで解除した弱体効果の個数の合計が5以上の場合、魔法攻撃のダメージが攻撃力×2340%になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 84,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 35.0,
+              "value_text": "+35×角色等级"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 35.0
+              }
+            ],
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 84,
+            "CollectionLevel": 1,
+            "Id": 8401,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ハーシェルの樹影​(冬マーリン,冬ステラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 200.0,
+              "value_text": "+200"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 84,
+            "CollectionLevel": 2,
+            "Id": 8402,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ハーシェルの樹影​(冬マーリン,冬ステラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 200.0,
+              "value_text": "+200"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 84,
+            "CollectionLevel": 3,
+            "Id": 8403,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ハーシェルの樹影​(冬マーリン,冬ステラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 200.0,
+              "value_text": "+200"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 84,
+            "CollectionLevel": 4,
+            "Id": 8404,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ハーシェルの樹影​(冬マーリン,冬ステラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 75.0,
+              "value_text": "+75×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 205.0,
+              "value_text": "+205"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 75.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 205.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 84,
+            "CollectionLevel": 5,
+            "Id": 8405,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ハーシェルの樹影​(冬マーリン,冬ステラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 80.0,
+              "value_text": "+80×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 210.0,
+              "value_text": "+210"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 80.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 210.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 84,
+            "CollectionLevel": 6,
+            "Id": 8406,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ハーシェルの樹影​(冬マーリン,冬ステラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 85.0,
+              "value_text": "+85×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 215.0,
+              "value_text": "+215"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 85.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 215.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 84,
+            "CollectionLevel": 7,
+            "Id": 8407,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ハーシェルの樹影​(冬マーリン,冬ステラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 90.0,
+              "value_text": "+90×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 220.0,
+              "value_text": "+220"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 90.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 220.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 84,
+            "CollectionLevel": 8,
+            "Id": 8408,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ハーシェルの樹影​(冬マーリン,冬ステラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 95.0,
+              "value_text": "+95×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 225.0,
+              "value_text": "+225"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 95.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 225.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 84,
+            "CollectionLevel": 9,
+            "Id": 8409,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ハーシェルの樹影​(冬マーリン,冬ステラ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 84,
+        "IsIgnore": null,
+        "Memo": "ハーシェルの樹影​(冬マーリン,冬ステラ)",
+        "NameKey": "[CharacterCollectionName84]",
+        "RequiredCharacterIds": [
+          131,
+          132
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2025-11-27 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName84]",
+      "names": {
+        "zh-CN": "反射望远镜座的树影"
+      },
+      "required_character_ids": [
+        131,
+        132
+      ],
+      "required_characters": [
+        {
+          "id": 131,
+          "names": {
+            "zh-CN": "梅琳"
+          }
+        },
+        {
+          "id": 132,
+          "names": {
+            "zh-CN": "史黛拉"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2025-11-27 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 2,
+    "element_type": 1,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 131,
+    "job_flags": 4,
+    "master_record": {
+      "ActiveSkillIds": [
+        131001,
+        131002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 80,
+        "Health": 74,
+        "Intelligence": 103,
+        "Muscle": 89
+      },
+      "BaseParameterGrossCoefficient": 346,
+      "CharacterType": 2,
+      "ElementType": 1,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 131,
+      "InitialBattleParameter": {
+        "AttackPower": 5,
+        "Avoidance": -3,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 10,
+        "DefensePenetration": 0,
+        "HP": 0,
+        "Hit": 1,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": -3,
+        "Speed": 2688
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 4,
+      "Memo": "冬マーリン",
+      "Name2Key": "[CharacterSubName131]",
+      "NameKey": "[CharacterName131]",
+      "NormalSkillId": 102,
+      "PassiveSkillIds": [
+        131003,
+        131004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2025-11-27 15:00:00"
+    },
+    "memo": "冬マーリン",
+    "name_key": "[CharacterName131]",
+    "names": {
+      "zh-CN": "梅琳"
+    },
+    "speed": 2688,
+    "start_time_jst": "2025-11-27 15:00:00",
+    "subtitle_key": "[CharacterSubName131]",
+    "subtitles": {
+      "zh-CN": "幽林的贤者"
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 1311130240,
+    "exclusive_effect_id": 600,
+    "icon_id": 890,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 1311130250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 132,
+        "EquipmentEvolutionId": 142,
+        "EquipmentExclusiveSkillDescriptionId": 100,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 4,
+        "ExclusiveEffectId": 600,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 890,
+        "Id": 1311130240,
+        "IsIgnore": null,
+        "Memo": "冬マーリンLR240_書",
+        "NameKey": "[EquipmentName885]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": null,
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 5,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          },
+          {
+            "BattleParameterType": 8,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 131,
+        "Id": 600,
+        "IsIgnore": null,
+        "Memo": "冬マーリンLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill131Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill131Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill131Description3]",
+        "Id": 100,
+        "IsIgnore": null,
+        "Memo": "冬マーリン魔導書"
+      }
+    },
+    "name_key": "[EquipmentName885]",
+    "names": {
+      "zh-CN": "贤者之书"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Hit",
+        "parameter_type": 5,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "CriticalResist",
+        "parameter_type": 8,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill131Description1]",
+        "descriptions": {
+          "zh-CN": "强化传承师父的精神，攻击目标增加为5名随机敌人。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill131Description2]",
+        "descriptions": {
+          "zh-CN": "强化魔法礼物，「攻击力上升」的附加目标增加为攻击力最高的3名忧蓝属性友军。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill131Description3]",
+        "descriptions": {
+          "zh-CN": "强化传承师父的精神，造成的魔法伤害提升为攻击力×580%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 131003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription1310031]",
+          "descriptions": {
+            "zh-CN": "“能让愿望成真的奇迹魔法……感觉很适合送给徒儿！”当梅琳或友军被附加主动技能造成的弱化效果，且梅琳与友军身上附带的弱化效果总数达5种以上时，梅琳使攻击力最高的忧蓝属性友军增加25%攻击力，效果持续1回合（无法被解除），并解除自己身上的1种弱化效果。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「願いを叶える奇跡の魔法……。お弟子さんへのプレゼントに良さそうかも！」自身か味方がアクティブスキルで弱体効果を受けたとき、自身と味方が付帯している弱体効果の個数の合計が5以上の場合、1ターンの間藍属性のうち攻撃力が最も高い味方の攻撃力を25%増加させる（解除不可）。その後自身の弱体効果を1つ解除する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription1310032]",
+          "descriptions": {
+            "zh-CN": "解除的弱化效果增加为3种。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "弱体効果の解除数が3つになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription1310033]",
+          "descriptions": {
+            "zh-CN": "攻击力增幅提升为50%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "攻撃力の増加量が50%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription1310034]",
+          "descriptions": {
+            "zh-CN": "强化魔法礼物，「攻击力上升」的附加目标增加为攻击力最高的3名忧蓝属性友军。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "魔法のプレゼントを強化する。『攻撃力増加』の対象が藍属性のうち攻撃力が高い味方3体になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 131003,
+        "IsIgnore": null,
+        "Memo": "冬マーリンSR:Lv1 「願いを叶える奇跡の魔法……。お弟子さんへのプレゼントに良さそうかも！」自身か味方がアクティブスキルで弱体効果を受けたとき、自身と味方が付帯している弱体効果の個数の合計が5以上の場合、1ターンの間藍属性のうち攻撃力が最も高い味方の攻撃力を25%増加させる（解除不可）。その後自身の弱体効果を1つ解除する。/ Lv2 弱体効果の解除数が3つになる。/ Lv3 攻撃力の増加量が50%になる。/ Ex2 魔法のプレゼントを強化する。『攻撃力増加』の対象が藍属性のうち攻撃力が高い味方3体になる。",
+        "NameKey": "[PassiveSkillName131003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription1310031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 11,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 131003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 11,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 131003002
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 13,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 131003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 13,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 131003002
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription1310032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 11,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 131003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 11,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 131003202
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 13,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 131003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 13,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 131003202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription1310033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 11,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 131003301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 11,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 131003202
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 13,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 131003301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 13,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 131003202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription1310034]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 11,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 131003401
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 11,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 131003202
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 13,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 131003401
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 13,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 131003202
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName131003]",
+      "names": {
+        "zh-CN": "魔法礼物"
+      },
+      "source_memo_ja": "冬マーリンSR:Lv1 「願いを叶える奇跡の魔法……。お弟子さんへのプレゼントに良さそうかも！」自身か味方がアクティブスキルで弱体効果を受けたとき、自身と味方が付帯している弱体効果の個数の合計が5以上の場合、1ターンの間藍属性のうち攻撃力が最も高い味方の攻撃力を25%増加させる（解除不可）。その後自身の弱体効果を1つ解除する。/ Lv2 弱体効果の解除数が3つになる。/ Lv3 攻撃力の増加量が50%になる。/ Ex2 魔法のプレゼントを強化する。『攻撃力増加』の対象が藍属性のうち攻撃力が高い味方3体になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「願いを叶える奇跡の魔法……。お弟子さんへのプレゼントに良さそうかも！」自身か味方がアクティブスキルで弱体効果を受けたとき、自身と味方が付帯している弱体効果の個数の合計が5以上の場合、1ターンの間藍属性のうち攻撃力が最も高い味方の攻撃力を25%増加させる（解除不可）。その後自身の弱体効果を1つ解除する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "弱体効果の解除数が3つになる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "攻撃力の増加量が50%になる。"
+        },
+        {
+          "label": "Ex2",
+          "text": "魔法のプレゼントを強化する。『攻撃力増加』の対象が藍属性のうち攻撃力が高い味方3体になる。"
+        }
+      ]
+    },
+    {
+      "id": 131004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription1310041]",
+          "descriptions": {
+            "zh-CN": "不断追逐心中向往的那道背影，幽林的魔女如今已蜕变为世人公认的贤者。梅琳减少30%自身承受伤害（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "憧れの背中を追い続けた深き森の魔女は、今や賢者と呼ばれるまでに成長した。自身の被ダメージが30%減少する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription1310042]",
+          "descriptions": {
+            "zh-CN": "战斗开始时，使自己额外增加100%物理防御力与40%物理暴击伤害降低，效果持续6回合（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらにバトル開始時、6ターンの間自身の物理防御力が100%、物理クリダメ緩和が40%増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription1310043]",
+          "descriptions": {
+            "zh-CN": "承受伤害降幅提升为70%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "被ダメージの減少量が70%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 131004,
+        "IsIgnore": null,
+        "Memo": "冬マーリンSR:Lv1 憧れの背中を追い続けた深き森の魔女は、今や賢者と呼ばれるまでに成長した。自身の被ダメージが30%減少する（解除不可）。/ Lv2 さらにバトル開始時、6ターンの間自身の物理防御力が100%、物理クリダメ緩和が40%増加する（解除不可）。/ Lv3 被ダメージの減少量が70%になる。",
+        "NameKey": "[PassiveSkillName131004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription1310041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 131004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription1310042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 131004201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription1310043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 131004301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName131004]",
+      "names": {
+        "zh-CN": "幽林的贤者"
+      },
+      "source_memo_ja": "冬マーリンSR:Lv1 憧れの背中を追い続けた深き森の魔女は、今や賢者と呼ばれるまでに成長した。自身の被ダメージが30%減少する（解除不可）。/ Lv2 さらにバトル開始時、6ターンの間自身の物理防御力が100%、物理クリダメ緩和が40%増加する（解除不可）。/ Lv3 被ダメージの減少量が70%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "憧れの背中を追い続けた深き森の魔女は、今や賢者と呼ばれるまでに成長した。自身の被ダメージが30%減少する（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらにバトル開始時、6ターンの間自身の物理防御力が100%、物理クリダメ緩和が40%増加する（解除不可）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "被ダメージの減少量が70%になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

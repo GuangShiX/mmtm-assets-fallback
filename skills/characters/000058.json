@@ -1,0 +1,1369 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 58001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription580011]",
+          "descriptions": {
+            "zh-CN": "“抗争到底，开始反击！”过去在无数战场上带来奇迹的宝剑自魔法阵中飞出，朝目标一齐落下，随机对5名敌人造成攻击力×350%的魔法伤害。“别想挡住我的攻击……！”想要保护他人的纯粹愿望有时会彻底颠覆战局。发动攻击前，亚缇使技能目标减少20%魔法防御力并增加10%承受伤害，效果持续2回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「徹底抗戦、開始！」最も強いと思う武器の複製品を魔法で生み出し、ランダムな敵5体に攻撃力×350％の魔法攻撃を行う。「防がせない……！」純粋に守りたい気持ちは時に鋭い刃となる。魔法攻撃の前に2ターンの間対象の魔法防御力を20％減少させ、被ダメージを10％増加させる。/ Lv2\\n さらに自身が付与した『クリティカル耐性率増加』を付帯している場合、自身にクリティカル耐性率が10％増加するバフを2回、付帯していない場合は3回付与する（最大10回まで）（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription580012]",
+          "descriptions": {
+            "zh-CN": "当亚缇身上附带由自己附加的「抗暴率上升」效果时，额外获得2层相同的增益效果；当亚缇身上没有自己附加的「抗暴率上升」效果时，额外获得的增益效果增加为3层（最多叠加10层）（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "\\n『魔法防御力減少』と『被ダメージ増加』のターン数がそれぞれ4ターンになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription580013]",
+          "descriptions": {
+            "zh-CN": "「魔法防御力下降」与「承受伤害上升」效果增加为4回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "徹底抗戦！を強化する。魔法防御力の減少量が40%、被ダメージの増加量が20%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription580014]",
+          "descriptions": {
+            "zh-CN": ""
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription580011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              58001001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription580012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              58001001,
+              58001202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription580013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              58001301,
+              58001202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription580014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              58001401,
+              58001202
+            ]
+          }
+        ],
+        "Id": 58001,
+        "IsIgnore": null,
+        "Memo": "アーティSR:Lv1 「徹底抗戦、開始！」最も強いと思う武器の複製品を魔法で生み出し、ランダムな敵5体に攻撃力×350％の魔法攻撃を行う。「防がせない……！」純粋に守りたい気持ちは時に鋭い刃となる。魔法攻撃の前に2ターンの間対象の魔法防御力を20％減少させ、被ダメージを10％増加させる。/ Lv2\\n さらに自身が付与した『クリティカル耐性率増加』を付帯している場合、自身にクリティカル耐性率が10％増加するバフを2回、付帯していない場合は3回付与する（最大10回まで）（解除不可）。/ Lv3 \\n『魔法防御力減少』と『被ダメージ増加』のターン数がそれぞれ4ターンになる。/ Ex1 徹底抗戦！を強化する。魔法防御力の減少量が40%、被ダメージの増加量が20%になる。",
+        "NameKey": "[ActiveSkillName58001]",
+        "RootActiveSkillId": 58001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName58001]",
+      "names": {
+        "zh-CN": "抗争到底！"
+      },
+      "source_memo_ja": "アーティSR:Lv1 「徹底抗戦、開始！」最も強いと思う武器の複製品を魔法で生み出し、ランダムな敵5体に攻撃力×350％の魔法攻撃を行う。「防がせない……！」純粋に守りたい気持ちは時に鋭い刃となる。魔法攻撃の前に2ターンの間対象の魔法防御力を20％減少させ、被ダメージを10％増加させる。/ Lv2\\n さらに自身が付与した『クリティカル耐性率増加』を付帯している場合、自身にクリティカル耐性率が10％増加するバフを2回、付帯していない場合は3回付与する（最大10回まで）（解除不可）。/ Lv3 \\n『魔法防御力減少』と『被ダメージ増加』のターン数がそれぞれ4ターンになる。/ Ex1 徹底抗戦！を強化する。魔法防御力の減少量が40%、被ダメージの増加量が20%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「徹底抗戦、開始！」最も強いと思う武器の複製品を魔法で生み出し、ランダムな敵5体に攻撃力×350％の魔法攻撃を行う。「防がせない……！」純粋に守りたい気持ちは時に鋭い刃となる。魔法攻撃の前に2ターンの間対象の魔法防御力を20％減少させ、被ダメージを10％増加させる。/ Lv2\\n さらに自身が付与した『クリティカル耐性率増加』を付帯している場合、自身にクリティカル耐性率が10％増加するバフを2回、付帯していない場合は3回付与する（最大10回まで）（解除不可）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "\\n『魔法防御力減少』と『被ダメージ増加』のターン数がそれぞれ4ターンになる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "徹底抗戦！を強化する。魔法防御力の減少量が40%、被ダメージの増加量が20%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 58002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription580021]",
+          "descriptions": {
+            "zh-CN": "“为了终结这场战争……！”亚缇用魔法制造出魔剑的复制品，随机对敌人进行5次攻击，每次造成攻击力×170%的魔法伤害。想要结束战争的心情时而化为扭曲的光芒，当技能目标的生命值百分比低于自己时，造成的魔法伤害增加为1.5倍。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「戦い、終わらせるためなら……！」魔剣の複製品を魔法で生み出し、ランダムな敵に5回攻撃力×170％の魔法攻撃を行う。終戦を願う気持ちは時に歪な光を生む。魔法攻撃の前に対象のHP割合が自身より低い場合、魔法攻撃のダメージが1.5倍になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription580022]",
+          "descriptions": {
+            "zh-CN": "当技能目标身上附带弱化效果时，此攻击必定暴击。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "\\nさらに魔法攻撃の前に対象が弱体効果を付帯している場合、必ずクリティカルヒットする。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription580023]",
+          "descriptions": {
+            "zh-CN": "攻击次数增加为7次，并额外恢复技能总伤害×20%的生命值。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "\\n魔法攻撃の回数が7回になる。さらに自身のHPをこのスキルの総与ダメージ×20%回復する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription580024]",
+          "descriptions": {
+            "zh-CN": "当技能目标的生命值百分比低于自己时，魔法伤害增幅提升为2倍。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "\\n魔法攻撃の前に対象のHP割合が自身より低い場合、魔法攻撃のダメージが2倍になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription580025]",
+          "descriptions": {
+            "zh-CN": ""
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "災厄の剣を強化する。魔法攻撃のダメージが攻撃力×200％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription580021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              58002001,
+              58002002,
+              58002002,
+              58002002,
+              58002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription580022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              58002201,
+              58002202,
+              58002202,
+              58002202,
+              58002202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription580023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              58002201,
+              58002202,
+              58002202,
+              58002202,
+              58002202,
+              58002202,
+              58002202,
+              58002303
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription580024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              58002401,
+              58002402,
+              58002402,
+              58002402,
+              58002402,
+              58002402,
+              58002402,
+              58002303
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription580025]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              58002501,
+              58002502,
+              58002502,
+              58002502,
+              58002502,
+              58002502,
+              58002502,
+              58002303
+            ]
+          }
+        ],
+        "Id": 58002,
+        "IsIgnore": null,
+        "Memo": "アーティSR: Lv1 「戦い、終わらせるためなら……！」魔剣の複製品を魔法で生み出し、ランダムな敵に5回攻撃力×170％の魔法攻撃を行う。終戦を願う気持ちは時に歪な光を生む。魔法攻撃の前に対象のHP割合が自身より低い場合、魔法攻撃のダメージが1.5倍になる。/ Lv2 \\nさらに魔法攻撃の前に対象が弱体効果を付帯している場合、必ずクリティカルヒットする。/Lv3 \\n魔法攻撃の回数が7回になる。さらに自身のHPをこのスキルの総与ダメージ×20%回復する。/Lv4 \\n魔法攻撃の前に対象のHP割合が自身より低い場合、魔法攻撃のダメージが2倍になる。/ Ex3 災厄の剣を強化する。魔法攻撃のダメージが攻撃力×200％になる。",
+        "NameKey": "[ActiveSkillName58002]",
+        "RootActiveSkillId": 58002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName58002]",
+      "names": {
+        "zh-CN": "灾厄之剑"
+      },
+      "source_memo_ja": "アーティSR: Lv1 「戦い、終わらせるためなら……！」魔剣の複製品を魔法で生み出し、ランダムな敵に5回攻撃力×170％の魔法攻撃を行う。終戦を願う気持ちは時に歪な光を生む。魔法攻撃の前に対象のHP割合が自身より低い場合、魔法攻撃のダメージが1.5倍になる。/ Lv2 \\nさらに魔法攻撃の前に対象が弱体効果を付帯している場合、必ずクリティカルヒットする。/Lv3 \\n魔法攻撃の回数が7回になる。さらに自身のHPをこのスキルの総与ダメージ×20%回復する。/Lv4 \\n魔法攻撃の前に対象のHP割合が自身より低い場合、魔法攻撃のダメージが2倍になる。/ Ex3 災厄の剣を強化する。魔法攻撃のダメージが攻撃力×200％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「戦い、終わらせるためなら……！」魔剣の複製品を魔法で生み出し、ランダムな敵に5回攻撃力×170％の魔法攻撃を行う。終戦を願う気持ちは時に歪な光を生む。魔法攻撃の前に対象のHP割合が自身より低い場合、魔法攻撃のダメージが1.5倍になる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "\\nさらに魔法攻撃の前に対象が弱体効果を付帯している場合、必ずクリティカルヒットする。"
+        },
+        {
+          "label": "Lv3",
+          "text": "\\n魔法攻撃の回数が7回になる。さらに自身のHPをこのスキルの総与ダメージ×20%回復する。"
+        },
+        {
+          "label": "Lv4",
+          "text": "\\n魔法攻撃の前に対象のHP割合が自身より低い場合、魔法攻撃のダメージが2倍になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "災厄の剣を強化する。魔法攻撃のダメージが攻撃力×200％になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 17,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 15.0,
+              "value_text": "+15×角色等级"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 15.0
+              }
+            ],
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 17,
+            "CollectionLevel": 1,
+            "Id": 1701,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アウリガの知恵(アーティ,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 17,
+            "CollectionLevel": 2,
+            "Id": 1702,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アウリガの知恵(アーティ,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 17,
+            "CollectionLevel": 3,
+            "Id": 1703,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アウリガの知恵(アーティ,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 17,
+            "CollectionLevel": 4,
+            "Id": 1704,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アウリガの知恵(アーティ,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 31.0,
+              "value_text": "+31×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 110.0,
+              "value_text": "+1.1%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 31.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 110.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 17,
+            "CollectionLevel": 5,
+            "Id": 1705,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アウリガの知恵(アーティ,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 32.0,
+              "value_text": "+32×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 120.0,
+              "value_text": "+1.2%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 32.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 120.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 17,
+            "CollectionLevel": 6,
+            "Id": 1706,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アウリガの知恵(アーティ,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 33.0,
+              "value_text": "+33×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 130.0,
+              "value_text": "+1.3%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 33.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 130.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 17,
+            "CollectionLevel": 7,
+            "Id": 1707,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アウリガの知恵(アーティ,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 34.0,
+              "value_text": "+34×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 140.0,
+              "value_text": "+1.4%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 34.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 140.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 17,
+            "CollectionLevel": 8,
+            "Id": 1708,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アウリガの知恵(アーティ,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 35.0,
+              "value_text": "+35×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 35.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 17,
+            "CollectionLevel": 9,
+            "Id": 1709,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アウリガの知恵(アーティ,メルティーユ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 17,
+        "IsIgnore": null,
+        "Memo": "アウリガの知恵(アーティ,メルティーユ)",
+        "NameKey": "[CharacterCollectionName17]",
+        "RequiredCharacterIds": [
+          58,
+          29
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2023-05-31 15:00:00"
+      },
+      "name_key": "[CharacterCollectionName17]",
+      "names": {
+        "zh-CN": "御夫座的智慧"
+      },
+      "required_character_ids": [
+        58,
+        29
+      ],
+      "required_characters": [
+        {
+          "id": 58,
+          "names": {
+            "zh-CN": "亚缇"
+          }
+        },
+        {
+          "id": 29,
+          "names": {
+            "zh-CN": "茉缇"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2023-05-31 15:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 2,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 58,
+    "job_flags": 4,
+    "master_record": {
+      "ActiveSkillIds": [
+        58001,
+        58002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 79,
+        "Health": 74,
+        "Intelligence": 103,
+        "Muscle": 89
+      },
+      "BaseParameterGrossCoefficient": 343,
+      "CharacterType": 0,
+      "ElementType": 2,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 58,
+      "InitialBattleParameter": {
+        "AttackPower": 4,
+        "Avoidance": 0,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 10,
+        "DefensePenetration": 0,
+        "HP": 0,
+        "Hit": 1,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": -2,
+        "Speed": 2734
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 4,
+      "Memo": "アーティ",
+      "Name2Key": null,
+      "NameKey": "[CharacterName58]",
+      "NormalSkillId": 102,
+      "PassiveSkillIds": [
+        58003,
+        58004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2023-05-31 15:00:00"
+    },
+    "memo": "アーティ",
+    "name_key": "[CharacterName58]",
+    "names": {
+      "zh-CN": "亚缇"
+    },
+    "speed": 2734,
+    "start_time_jst": "2023-05-31 15:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 3974,
+    "exclusive_effect_id": 240,
+    "icon_id": 452,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 3975,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 72,
+        "EquipmentEvolutionId": 82,
+        "EquipmentExclusiveSkillDescriptionId": 40,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 4,
+        "ExclusiveEffectId": 240,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 452,
+        "Id": 3974,
+        "IsIgnore": null,
+        "Memo": "アーティLR240_書",
+        "NameKey": "[EquipmentName405]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": [
+          {
+            "BaseParameterType": 3,
+            "ChangeParameterType": 2,
+            "Value": 800.0
+          }
+        ],
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 5,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 58,
+        "Id": 240,
+        "IsIgnore": null,
+        "Memo": "アーティLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill58Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill58Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill58Description3]",
+        "Id": 40,
+        "IsIgnore": null,
+        "Memo": "アーティ魔導書"
+      }
+    },
+    "name_key": "[EquipmentName405]",
+    "names": {
+      "zh-CN": "兀儿肯努斯圆阵"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "base",
+        "parameter_code": "Intelligence",
+        "parameter_type": 3,
+        "raw_value": 800.0,
+        "value_text": "+8%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Hit",
+        "parameter_type": 5,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill58Description1]",
+        "descriptions": {
+          "zh-CN": "强化抗争到底！，魔法防御力降幅提升为40%，承受伤害增幅提升为20%。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill58Description2]",
+        "descriptions": {
+          "zh-CN": "强化魔剑锻造者，阻绝超量部分×90%的伤害。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill58Description3]",
+        "descriptions": {
+          "zh-CN": "强化灾厄之剑，造成的魔法伤害提升为攻击力×200%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 58003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription580031]",
+          "descriptions": {
+            "zh-CN": "“两个人一起，就能跨越任何困难。”陪伴在身旁的那道身影，让亚缇一次又一次地振作起来，使自己增加15%最大生命值（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「二人なら、乗り越えられる」寄り添う影が挫けそうな心を何度も奮い立たせる。自身の最大HPが15％増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription580032]",
+          "descriptions": {
+            "zh-CN": "额外减少15%自身承受伤害（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "\\nさらに自身の被ダメージが15％減少する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription580033]",
+          "descriptions": {
+            "zh-CN": "最大生命值增幅与承受伤害降幅提升为30%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "\\n最大HPの増加量が30%、被ダメージの減少量が30%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 58003,
+        "IsIgnore": null,
+        "Memo": "アーティSR:Lv1 「二人なら、乗り越えられる」寄り添う影が挫けそうな心を何度も奮い立たせる。自身の最大HPが15％増加する（解除不可）。/ Lv2 \\nさらに自身の被ダメージが15％減少する（解除不可）。/ Lv3 \\n最大HPの増加量が30%、被ダメージの減少量が30%になる。",
+        "NameKey": "[PassiveSkillName58003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription580031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 58003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription580032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 58003201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription580033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 58003301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName58003]",
+      "names": {
+        "zh-CN": "搭档的身影"
+      },
+      "source_memo_ja": "アーティSR:Lv1 「二人なら、乗り越えられる」寄り添う影が挫けそうな心を何度も奮い立たせる。自身の最大HPが15％増加する（解除不可）。/ Lv2 \\nさらに自身の被ダメージが15％減少する（解除不可）。/ Lv3 \\n最大HPの増加量が30%、被ダメージの減少量が30%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「二人なら、乗り越えられる」寄り添う影が挫けそうな心を何度も奮い立たせる。自身の最大HPが15％増加する（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "\\nさらに自身の被ダメージが15％減少する（解除不可）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "\\n最大HPの増加量が30%、被ダメージの減少量が30%になる。"
+        }
+      ]
+    },
+    {
+      "id": 58004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription580041]",
+          "descriptions": {
+            "zh-CN": "强大的魔力过去让亚缇得以制造出魔剑，如今则成为亚缇保护自己的力量。战斗开始时，亚缇获得3层增益效果，每层使自己增加10%抗暴率（最多叠加10层）（无法被解除）。当亚缇受到攻击，承受伤害超过最大生命值的5%时，消耗1层增益效果来阻绝超量部分×50%的伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "かつて魔剣を生み出した強大な魔力が、自身を守る力となる。バトル開始時自身にクリティカル耐性率が10％増加するバフを3回付与する（最大10回まで）（解除不可）。自身が最大HPの5％を超えるダメージの攻撃を受けた場合、自身が付与した『クリティカル耐性率増加』のスタック数を1消費して、5%を超えた分のダメージを50％遮断する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription580042]",
+          "descriptions": {
+            "zh-CN": "阻绝超量部分×70%的伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "\\n5%を超えた分のダメージを70%遮断する。/ Lv3\\n『クリティカル耐性増加』の付与回数が5回になる。/ ExLv2\\n魔剣の創造主を強化する。5%を超えた分のダメージを90%遮断する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription580043]",
+          "descriptions": {
+            "zh-CN": "「抗暴率上升」效果增加为8层。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": null
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription580044]",
+          "descriptions": {
+            "zh-CN": ""
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "Id": 58004,
+        "IsIgnore": null,
+        "Memo": "アーティSR:Lv1 かつて魔剣を生み出した強大な魔力が、自身を守る力となる。バトル開始時自身にクリティカル耐性率が10％増加するバフを3回付与する（最大10回まで）（解除不可）。自身が最大HPの5％を超えるダメージの攻撃を受けた場合、自身が付与した『クリティカル耐性率増加』のスタック数を1消費して、5%を超えた分のダメージを50％遮断する。/ Lv2 \\n5%を超えた分のダメージを70%遮断する。/ Lv3\\n『クリティカル耐性増加』の付与回数が5回になる。/ ExLv2\\n魔剣の創造主を強化する。5%を超えた分のダメージを90%遮断する。",
+        "NameKey": "[PassiveSkillName58004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription580041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 58004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 58004002
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 44,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 58004003
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription580042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 58004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 58004202
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 44,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 58004003
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription580043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 58004301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 58004202
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 44,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 58004003
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription580044]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 58004301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 58004402
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 44,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 58004003
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName58004]",
+      "names": {
+        "zh-CN": "魔剑锻造者"
+      },
+      "source_memo_ja": "アーティSR:Lv1 かつて魔剣を生み出した強大な魔力が、自身を守る力となる。バトル開始時自身にクリティカル耐性率が10％増加するバフを3回付与する（最大10回まで）（解除不可）。自身が最大HPの5％を超えるダメージの攻撃を受けた場合、自身が付与した『クリティカル耐性率増加』のスタック数を1消費して、5%を超えた分のダメージを50％遮断する。/ Lv2 \\n5%を超えた分のダメージを70%遮断する。/ Lv3\\n『クリティカル耐性増加』の付与回数が5回になる。/ ExLv2\\n魔剣の創造主を強化する。5%を超えた分のダメージを90%遮断する。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "かつて魔剣を生み出した強大な魔力が、自身を守る力となる。バトル開始時自身にクリティカル耐性率が10％増加するバフを3回付与する（最大10回まで）（解除不可）。自身が最大HPの5％を超えるダメージの攻撃を受けた場合、自身が付与した『クリティカル耐性率増加』のスタック数を1消費して、5%を超えた分のダメージを50％遮断する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "\\n5%を超えた分のダメージを70%遮断する。/ Lv3\\n『クリティカル耐性増加』の付与回数が5回になる。/ ExLv2\\n魔剣の創造主を強化する。5%を超えた分のダメージを90%遮断する。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

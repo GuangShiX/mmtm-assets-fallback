@@ -1,0 +1,1220 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 49001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription490011]",
+          "descriptions": {
+            "zh-CN": "奥菲莉娅高举蕴藏着骸晶之力的剑刃，随机对5名敌人造成攻击力×300%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": null
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription490012]",
+          "descriptions": {
+            "zh-CN": "额外恢复20%最大生命值。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": null
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription490013]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×380%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": null
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription490014]",
+          "descriptions": {
+            "zh-CN": "[ActiveSkillDescription490014]"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": null
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription490015]",
+          "descriptions": {
+            "zh-CN": "[ActiveSkillDescription490015]"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription490011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              49001001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription490012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              49001001,
+              49001202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription490013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              49001301,
+              49001202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription490014]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              49001301,
+              49001402
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription490015]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              49001301,
+              49001502
+            ]
+          }
+        ],
+        "Id": 49001,
+        "IsIgnore": null,
+        "Memo": "【骸晶の魔女】\\nオフィーリアSR: 骸晶の力を宿した刃で、ランダムな敵5体に攻撃力×300％の物理攻撃を行う。\\nさらに自身のHPを自身の最大HP×20％回復する。\\n物理攻撃のダメージが攻撃力×380％になる。\\n目を奪うは眩き刃を強化する。さらに3ターンの間自身の弱体効果耐性率が30％増加する。\\n目を奪うは眩き刃を強化する。弱体効果耐性率の増加量が50％になる。",
+        "NameKey": "[ActiveSkillName49001]",
+        "RootActiveSkillId": 49001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 5
+      },
+      "max_cooldown": 5,
+      "name_key": "[ActiveSkillName49001]",
+      "names": {
+        "zh-CN": "举剑，夺走所有的目光"
+      },
+      "source_memo_ja": "【骸晶の魔女】\\nオフィーリアSR: 骸晶の力を宿した刃で、ランダムな敵5体に攻撃力×300％の物理攻撃を行う。\\nさらに自身のHPを自身の最大HP×20％回復する。\\n物理攻撃のダメージが攻撃力×380％になる。\\n目を奪うは眩き刃を強化する。さらに3ターンの間自身の弱体効果耐性率が30％増加する。\\n目を奪うは眩き刃を強化する。弱体効果耐性率の増加量が50％になる。",
+      "source_memo_sections_ja": []
+    },
+    {
+      "conditions": "True",
+      "id": 49002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription490021]",
+          "descriptions": {
+            "zh-CN": "奥菲莉娅挥剑释放冲击波，随机对1名敌人造成攻击力×560%的物理伤害。攻击时形成的骸晶吞噬对手的力量，使技能目标减少25%攻击力，效果持续2回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": null
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription490022]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×760%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": null
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription490023]",
+          "descriptions": {
+            "zh-CN": "「攻击力下降」效果增加为3回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": null
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription490024]",
+          "descriptions": {
+            "zh-CN": "攻击力降幅提升为40%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription490021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              49002001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription490022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              49002201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription490023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              49002301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription490024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              49002401
+            ]
+          }
+        ],
+        "Id": 49002,
+        "IsIgnore": null,
+        "Memo": "【骸晶の魔女】\\nオフィーリアSR: /刃から放たれる衝撃波により、ランダムな敵1体に攻撃力×560％の物理攻撃を行う。生み出された骸晶が相手の力を飲み込み、2ターンの間対象の攻撃力を25％減少させる。\\n物理攻撃のダメージが攻撃力×760％になる。\\n『攻撃力減少』のターン数が3ターンになる。\\n攻撃力の減少量が40%になる。",
+        "NameKey": "[ActiveSkillName49002]",
+        "RootActiveSkillId": 49002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName49002]",
+      "names": {
+        "zh-CN": "骸晶冲击波"
+      },
+      "source_memo_ja": "【骸晶の魔女】\\nオフィーリアSR: /刃から放たれる衝撃波により、ランダムな敵1体に攻撃力×560％の物理攻撃を行う。生み出された骸晶が相手の力を飲み込み、2ターンの間対象の攻撃力を25％減少させる。\\n物理攻撃のダメージが攻撃力×760％になる。\\n『攻撃力減少』のターン数が3ターンになる。\\n攻撃力の減少量が40%になる。",
+      "source_memo_sections_ja": []
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 8,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 8,
+            "CollectionLevel": 1,
+            "Id": 801,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルテミスの誓約(オフィーリア,アムレート,フローレンス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 500.0,
+              "value_text": "+5%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 500.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 8,
+            "CollectionLevel": 2,
+            "Id": 802,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルテミスの誓約(オフィーリア,アムレート,フローレンス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 500.0,
+              "value_text": "+5%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 500.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 8,
+            "CollectionLevel": 3,
+            "Id": 803,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルテミスの誓約(オフィーリア,アムレート,フローレンス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 500.0,
+              "value_text": "+5%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 500.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 8,
+            "CollectionLevel": 4,
+            "Id": 804,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルテミスの誓約(オフィーリア,アムレート,フローレンス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 550.0,
+              "value_text": "+5.5%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 75.0,
+              "value_text": "+75×角色等级"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 550.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 75.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 8,
+            "CollectionLevel": 5,
+            "Id": 805,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルテミスの誓約(オフィーリア,アムレート,フローレンス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 600.0,
+              "value_text": "+6%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 80.0,
+              "value_text": "+80×角色等级"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 600.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 80.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 8,
+            "CollectionLevel": 6,
+            "Id": 806,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルテミスの誓約(オフィーリア,アムレート,フローレンス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 650.0,
+              "value_text": "+6.5%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 85.0,
+              "value_text": "+85×角色等级"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 650.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 85.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 8,
+            "CollectionLevel": 7,
+            "Id": 807,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルテミスの誓約(オフィーリア,アムレート,フローレンス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 700.0,
+              "value_text": "+7%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 90.0,
+              "value_text": "+90×角色等级"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 700.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 90.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 8,
+            "CollectionLevel": 8,
+            "Id": 808,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルテミスの誓約(オフィーリア,アムレート,フローレンス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 750.0,
+              "value_text": "+7.5%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 95.0,
+              "value_text": "+95×角色等级"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 750.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 95.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 8,
+            "CollectionLevel": 9,
+            "Id": 809,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルテミスの誓約(オフィーリア,アムレート,フローレンス)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 8,
+        "IsIgnore": null,
+        "Memo": "アルテミスの誓約(オフィーリア,アムレート,フローレンス)",
+        "NameKey": "[CharacterCollectionName8]",
+        "RequiredCharacterIds": [
+          49,
+          6,
+          8
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2023-02-28 15:00:00"
+      },
+      "name_key": "[CharacterCollectionName8]",
+      "names": {
+        "zh-CN": "阿缇密斯的誓约"
+      },
+      "required_character_ids": [
+        49,
+        6,
+        8
+      ],
+      "required_characters": [
+        {
+          "id": 49,
+          "names": {
+            "zh-CN": "奥菲莉娅"
+          }
+        },
+        {
+          "id": 6,
+          "names": {
+            "zh-CN": "阿姆蕾特"
+          }
+        },
+        {
+          "id": 8,
+          "names": {
+            "zh-CN": "佛罗伦斯"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2023-02-28 15:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 1,
+    "element_type": 6,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 49,
+    "job_flags": 1,
+    "master_record": {
+      "ActiveSkillIds": [
+        49001,
+        49002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 80,
+        "Health": 92,
+        "Intelligence": 79,
+        "Muscle": 90
+      },
+      "BaseParameterGrossCoefficient": 341,
+      "CharacterType": 1,
+      "ElementType": 6,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 49,
+      "InitialBattleParameter": {
+        "AttackPower": 0,
+        "Avoidance": 0,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 12,
+        "DefensePenetration": 0,
+        "HP": 0,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 3007
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 1,
+      "Memo": "オフィーリア",
+      "Name2Key": "[CharacterSubName49]",
+      "NameKey": "[CharacterName49]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        49003,
+        49004,
+        49005
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2023-02-28 15:00:00"
+    },
+    "memo": "オフィーリア",
+    "name_key": "[CharacterName49]",
+    "names": {
+      "zh-CN": "奥菲莉娅"
+    },
+    "speed": 3007,
+    "start_time_jst": "2023-02-28 15:00:00",
+    "subtitle_key": "[CharacterSubName49]",
+    "subtitles": {
+      "zh-CN": "骸晶魔女"
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 3568,
+    "exclusive_effect_id": 198,
+    "icon_id": 398,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 3569,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 65,
+        "EquipmentEvolutionId": 75,
+        "EquipmentExclusiveSkillDescriptionId": 33,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 1,
+        "ExclusiveEffectId": 198,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 398,
+        "Id": 3568,
+        "IsIgnore": null,
+        "Memo": "オフィーリアLR240_剣",
+        "NameKey": "[EquipmentName393]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": [
+          {
+            "BaseParameterType": 4,
+            "ChangeParameterType": 2,
+            "Value": 800.0
+          }
+        ],
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 7,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 49,
+        "Id": 198,
+        "IsIgnore": null,
+        "Memo": "オフィーリアLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill49Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill49Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill49Description3]",
+        "Id": 33,
+        "IsIgnore": null,
+        "Memo": "オフィーリア剣"
+      }
+    },
+    "name_key": "[EquipmentName393]",
+    "names": {
+      "zh-CN": "断罪之剑"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "base",
+        "parameter_code": "Health",
+        "parameter_type": 4,
+        "raw_value": 800.0,
+        "value_text": "+8%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Critical",
+        "parameter_type": 7,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill49Description1]",
+        "descriptions": {
+          "zh-CN": "当奥菲莉娅受到物理攻击时，使自己恢复承受伤害×35%的生命值。当攻击使奥菲莉娅失去战斗能力时，无法触发此技能。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill49Description2]",
+        "descriptions": {
+          "zh-CN": "强化举剑，夺走所有的目光，使奥菲莉娅额外增加30%弱化效果抵抗率，效果持续3回合。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill49Description3]",
+        "descriptions": {
+          "zh-CN": "强化举剑，夺走所有的目光，弱化效果抵抗率增幅提升为50%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": false,
+  "missing_localization_keys": [
+    "*"
+  ],
+  "passive_skills": [
+    {
+      "id": 49003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription490031]",
+          "descriptions": {
+            "zh-CN": "奥菲莉娅的眼神中带着坚定的决心，立志守护所爱，不再重蹈覆辙。在回合开始时，如果奥菲莉娅的生命值为60%以上，获得「挑衅」状态并减少50%闪避率，效果持续3回合。此技能须在结束4次行动后才可再次触发。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": null
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription490032]",
+          "descriptions": {
+            "zh-CN": "额外减少30%自身承受伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": null
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription490033]",
+          "descriptions": {
+            "zh-CN": "额外增加50%伤害反弹。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "Id": 49003,
+        "IsIgnore": null,
+        "Memo": "【骸晶の魔女】\\nオフィーリアSR: その目に宿るのは、今度こそ愛する人を守るという固い決意。ターン開始時自身のHP割合が60％以上の場合、自身に3ターンの間『挑発』を付与し、自身の回避率が50％減少する。対象がランダムである敵の攻撃を引き付ける。このスキルは4ターンに1回発動する。\\nさらにこのスキルで自身の被ダメージが30％減少する。\\nさらにこのスキルで自身のカウンタが50％増加する。",
+        "NameKey": "[PassiveSkillName49003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription490031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 49003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription490032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 49003201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription490033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 49003301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName49003]",
+      "names": {
+        "zh-CN": "誓言守护者"
+      },
+      "source_memo_ja": "【骸晶の魔女】\\nオフィーリアSR: その目に宿るのは、今度こそ愛する人を守るという固い決意。ターン開始時自身のHP割合が60％以上の場合、自身に3ターンの間『挑発』を付与し、自身の回避率が50％減少する。対象がランダムである敵の攻撃を引き付ける。このスキルは4ターンに1回発動する。\\nさらにこのスキルで自身の被ダメージが30％減少する。\\nさらにこのスキルで自身のカウンタが50％増加する。",
+      "source_memo_sections_ja": []
+    },
+    {
+      "id": 49004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription490041]",
+          "descriptions": {
+            "zh-CN": "以身为盾，护卫君王是近卫骑士的荣耀。奥菲莉娅使自己增加20%最大生命值与抗暴率（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": null
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription490042]",
+          "descriptions": {
+            "zh-CN": "最大生命值与抗暴率增幅提升为40%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": null
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription490043]",
+          "descriptions": {
+            "zh-CN": "当奥菲莉娅受到致命伤害时，额外保留1点生命值不死，并使自己增加40%物理防御力，效果持续2回合。再使其他友军增加40%物理防御力，效果持续1回合。此技能每场战斗最多触发1次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "Id": 49004,
+        "IsIgnore": null,
+        "Memo": "【骸晶の魔女】\\nオフィーリアSR: 近衛騎士としての栄誉は、王の盾となることにあり。自身の最大HPとクリティカル耐性率がそれぞれ20％増加する（解除不可）。\\n最大HPとクリティカル耐性率の増加量がそれぞれ40％になる。\\nさらに自身が致命的なダメージを受けたとき、HP1で耐え、2ターンの間自身の、1ターンの間自身以外の味方全体の物理防御力を40％増加させる。このスキルはバトル中1回のみ発動する。",
+        "NameKey": "[PassiveSkillName49004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription490041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 49004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription490042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 49004201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription490043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 49004201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 5,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 49004302
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName49004]",
+      "names": {
+        "zh-CN": "近卫的荣耀"
+      },
+      "source_memo_ja": "【骸晶の魔女】\\nオフィーリアSR: 近衛騎士としての栄誉は、王の盾となることにあり。自身の最大HPとクリティカル耐性率がそれぞれ20％増加する（解除不可）。\\n最大HPとクリティカル耐性率の増加量がそれぞれ40％になる。\\nさらに自身が致命的なダメージを受けたとき、HP1で耐え、2ターンの間自身の、1ターンの間自身以外の味方全体の物理防御力を40％増加させる。このスキルはバトル中1回のみ発動する。",
+      "source_memo_sections_ja": []
+    },
+    {
+      "id": 49005,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "*",
+          "descriptions": {
+            "zh-CN": null
+          },
+          "equipment_rarity_flags": 128,
+          "order": 1,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "Id": 49005,
+        "IsIgnore": null,
+        "Memo": "【骸晶の魔女】\\nオフィーリアSR: 自身が物理攻撃を受けたとき、自身のHPを受けたダメージ×35％回復する（この攻撃で自身が戦闘不能になった場合、このスキルは発動しない）。",
+        "NameKey": "*",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "*",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 49005001
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "*",
+      "names": {
+        "zh-CN": null
+      },
+      "source_memo_ja": "【骸晶の魔女】\\nオフィーリアSR: 自身が物理攻撃を受けたとき、自身のHPを受けたダメージ×35％回復する（この攻撃で自身が戦闘不能になった場合、このスキルは発動しない）。",
+      "source_memo_sections_ja": []
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

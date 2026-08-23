@@ -1,0 +1,1870 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 61001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription610011]",
+          "descriptions": {
+            "zh-CN": "过去在教皇指导下习得的力量，让伊利亚得以斩断前方一切阻碍，不断朝未来迈进。伊利亚使自己增加50%命中率，效果持续1回合，并对面前的敌人进行10次攻击，每次造成攻击力×140%的物理伤害。战斗中自第3次发动此技能起，10连击造成的物理伤害增加为3倍。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "あの日あの人に教えてもらった力は、どんな障害も真正面から切り開く、未来へ進むための力だった。1ターンの間自身の命中率が50％増加し、正面の敵に10回攻撃力×140%の物理攻撃を行う。バトル中このスキルを使うのが3回目以降の場合、連撃のダメージが3倍になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription610012]",
+          "descriptions": {
+            "zh-CN": "如果技能目标仍然存活，伊利亚额外解除技能目标身上的1种增益效果，追加攻击力×580%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらにこのスキルで敵を戦闘不能にできなかった場合、対象のバフを1つ解除し、攻撃力×580%の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription610013]",
+          "descriptions": {
+            "zh-CN": "第一波攻击造成的物理伤害提升为攻击力×180%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "最初の連撃のダメージが攻撃力×180%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription610014]",
+          "descriptions": {
+            "zh-CN": "强化天命剑闪，第一波攻击造成的物理伤害提升为攻击力×240%。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "天命の閃撃を強化する。最初の連撃のダメージが攻撃力×240%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription610011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              61001001,
+              61001002,
+              61001003,
+              61001003,
+              61001003,
+              61001003,
+              61001003,
+              61001003,
+              61001003,
+              61001003,
+              61001003
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription610012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              61001001,
+              61001002,
+              61001003,
+              61001003,
+              61001003,
+              61001003,
+              61001003,
+              61001003,
+              61001003,
+              61001003,
+              61001003,
+              61001204
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription610013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              61001001,
+              61001302,
+              61001303,
+              61001303,
+              61001303,
+              61001303,
+              61001303,
+              61001303,
+              61001303,
+              61001303,
+              61001303,
+              61001204
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription610014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              61001001,
+              61001402,
+              61001403,
+              61001403,
+              61001403,
+              61001403,
+              61001403,
+              61001403,
+              61001403,
+              61001403,
+              61001403,
+              61001204
+            ]
+          }
+        ],
+        "Id": 61001,
+        "IsIgnore": null,
+        "Memo": "神呪イリアSR:Lv1 あの日あの人に教えてもらった力は、どんな障害も真正面から切り開く、未来へ進むための力だった。1ターンの間自身の命中率が50％増加し、正面の敵に10回攻撃力×140%の物理攻撃を行う。バトル中このスキルを使うのが3回目以降の場合、連撃のダメージが3倍になる。/ Lv2 さらにこのスキルで敵を戦闘不能にできなかった場合、対象のバフを1つ解除し、攻撃力×580%の物理攻撃を行う。/ Lv3 最初の連撃のダメージが攻撃力×180%になる。/ Ex1 天命の閃撃を強化する。最初の連撃のダメージが攻撃力×240%になる。",
+        "NameKey": "[ActiveSkillName61001]",
+        "RootActiveSkillId": 61001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName61001]",
+      "names": {
+        "zh-CN": "天命剑闪"
+      },
+      "source_memo_ja": "神呪イリアSR:Lv1 あの日あの人に教えてもらった力は、どんな障害も真正面から切り開く、未来へ進むための力だった。1ターンの間自身の命中率が50％増加し、正面の敵に10回攻撃力×140%の物理攻撃を行う。バトル中このスキルを使うのが3回目以降の場合、連撃のダメージが3倍になる。/ Lv2 さらにこのスキルで敵を戦闘不能にできなかった場合、対象のバフを1つ解除し、攻撃力×580%の物理攻撃を行う。/ Lv3 最初の連撃のダメージが攻撃力×180%になる。/ Ex1 天命の閃撃を強化する。最初の連撃のダメージが攻撃力×240%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "あの日あの人に教えてもらった力は、どんな障害も真正面から切り開く、未来へ進むための力だった。1ターンの間自身の命中率が50％増加し、正面の敵に10回攻撃力×140%の物理攻撃を行う。バトル中このスキルを使うのが3回目以降の場合、連撃のダメージが3倍になる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらにこのスキルで敵を戦闘不能にできなかった場合、対象のバフを1つ解除し、攻撃力×580%の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv3",
+          "text": "最初の連撃のダメージが攻撃力×180%になる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "天命の閃撃を強化する。最初の連撃のダメージが攻撃力×240%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "self.EffectManager.ExistEffectGroup(6100300402) || self.EffectManager.ExistEffectGroup(6100320402) || self.EffectManager.ExistEffectGroup(6100330402)",
+      "id": 61002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription610021]",
+          "descriptions": {
+            "zh-CN": "保护世界与破坏世界的意志彼此碰撞，当两者之间失去平衡时，伊利亚将得到人类不该拥有的力量。当伊利亚身上附带「神咒解放」状态时，可发动此技能，随机对敌人进行4次攻击，每次造成攻击力×340%的物理伤害。此技能发动后不会进入技能冷却时间。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "世界を守ろうとする意志と、世界を破壊しようとする意志。そのバランスが崩れた時、少女は人には許されざる力を手にする。自身が『神呪解放』を付帯している場合に発動。ランダムな敵に4回攻撃力×340%の物理攻撃を行う。このスキルは発動後にスキルクールタイムが発生しない。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[ActiveSkillDescription610022]",
+          "descriptions": {
+            "zh-CN": "当技能目标身上附带弱化效果时，造成的物理伤害增加为1.5倍。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに物理攻撃の前に対象が弱体効果を付帯している場合、物理攻撃のダメージが1.5倍になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription610023]",
+          "descriptions": {
+            "zh-CN": "攻击次数增加为5次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃の回数が5回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription610024]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×440%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "物理攻撃のダメージが攻撃力×440%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "self.EffectManager.ExistEffectGroup(6100300402) || self.EffectManager.ExistEffectGroup(6100320402) || self.EffectManager.ExistEffectGroup(6100330402)",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription610021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              61002001,
+              61002002,
+              61002002,
+              61002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[ActiveSkillDescription610022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              61002201,
+              61002202,
+              61002202,
+              61002202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription610023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              61002301,
+              61002302,
+              61002302,
+              61002302,
+              61002302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription610024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              61002401,
+              61002402,
+              61002402,
+              61002402,
+              61002402
+            ]
+          }
+        ],
+        "Id": 61002,
+        "IsIgnore": null,
+        "Memo": "神呪イリアSR:Lv1 世界を守ろうとする意志と、世界を破壊しようとする意志。そのバランスが崩れた時、少女は人には許されざる力を手にする。自身が『神呪解放』を付帯している場合に発動。ランダムな敵に4回攻撃力×340%の物理攻撃を行う。このスキルは発動後にスキルクールタイムが発生しない。/ Lv2 さらに物理攻撃の前に対象が弱体効果を付帯している場合、物理攻撃のダメージが1.5倍になる。/ Lv3 物理攻撃の回数が5回になる。/ Lv4 物理攻撃のダメージが攻撃力×440%になる。",
+        "NameKey": "[ActiveSkillName61002]",
+        "RootActiveSkillId": 61002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 0
+      },
+      "max_cooldown": 0,
+      "name_key": "[ActiveSkillName61002]",
+      "names": {
+        "zh-CN": "噬光神咒"
+      },
+      "source_memo_ja": "神呪イリアSR:Lv1 世界を守ろうとする意志と、世界を破壊しようとする意志。そのバランスが崩れた時、少女は人には許されざる力を手にする。自身が『神呪解放』を付帯している場合に発動。ランダムな敵に4回攻撃力×340%の物理攻撃を行う。このスキルは発動後にスキルクールタイムが発生しない。/ Lv2 さらに物理攻撃の前に対象が弱体効果を付帯している場合、物理攻撃のダメージが1.5倍になる。/ Lv3 物理攻撃の回数が5回になる。/ Lv4 物理攻撃のダメージが攻撃力×440%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "世界を守ろうとする意志と、世界を破壊しようとする意志。そのバランスが崩れた時、少女は人には許されざる力を手にする。自身が『神呪解放』を付帯している場合に発動。ランダムな敵に4回攻撃力×340%の物理攻撃を行う。このスキルは発動後にスキルクールタイムが発生しない。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに物理攻撃の前に対象が弱体効果を付帯している場合、物理攻撃のダメージが1.5倍になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃の回数が5回になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "物理攻撃のダメージが攻撃力×440%になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 31,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 100.0,
+              "value_text": "+100"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 31,
+            "CollectionLevel": 1,
+            "Id": 3101,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルゴの腐敗(新イリア,エルフリンデ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 200.0,
+              "value_text": "+200"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 31,
+            "CollectionLevel": 2,
+            "Id": 3102,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルゴの腐敗(新イリア,エルフリンデ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 200.0,
+              "value_text": "+200"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 31,
+            "CollectionLevel": 3,
+            "Id": 3103,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルゴの腐敗(新イリア,エルフリンデ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 205.0,
+              "value_text": "+205"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 205.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 31,
+            "CollectionLevel": 4,
+            "Id": 3104,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルゴの腐敗(新イリア,エルフリンデ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 210.0,
+              "value_text": "+210"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 210.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 31,
+            "CollectionLevel": 5,
+            "Id": 3105,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルゴの腐敗(新イリア,エルフリンデ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 215.0,
+              "value_text": "+215"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 215.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 31,
+            "CollectionLevel": 6,
+            "Id": 3106,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルゴの腐敗(新イリア,エルフリンデ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 220.0,
+              "value_text": "+220"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 220.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 31,
+            "CollectionLevel": 7,
+            "Id": 3107,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルゴの腐敗(新イリア,エルフリンデ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 225.0,
+              "value_text": "+225"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 225.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 31,
+            "CollectionLevel": 8,
+            "Id": 3108,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルゴの腐敗(新イリア,エルフリンデ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 230.0,
+              "value_text": "+230"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 230.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 31,
+            "CollectionLevel": 9,
+            "Id": 3109,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルゴの腐敗(新イリア,エルフリンデ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 31,
+        "IsIgnore": null,
+        "Memo": "アルゴの腐敗(新イリア,エルフリンデ)",
+        "NameKey": "[CharacterCollectionName31]",
+        "RequiredCharacterIds": [
+          61,
+          45
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2023-10-31 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName31]",
+      "names": {
+        "zh-CN": "南船座的腐败"
+      },
+      "required_character_ids": [
+        61,
+        45
+      ],
+      "required_characters": [
+        {
+          "id": 61,
+          "names": {
+            "zh-CN": "伊利亚"
+          }
+        },
+        {
+          "id": 45,
+          "names": {
+            "zh-CN": "埃尔芙琳黛"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2023-10-31 00:00:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 61,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 35.0,
+              "value_text": "+35×角色等级"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 35.0
+              }
+            ],
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 61,
+            "CollectionLevel": 1,
+            "Id": 6101,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルゴの覚悟(神呪イリア,イリア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 61,
+            "CollectionLevel": 2,
+            "Id": 6102,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルゴの覚悟(神呪イリア,イリア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 61,
+            "CollectionLevel": 3,
+            "Id": 6103,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルゴの覚悟(神呪イリア,イリア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 61,
+            "CollectionLevel": 4,
+            "Id": 6104,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルゴの覚悟(神呪イリア,イリア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 71.0,
+              "value_text": "+71×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 210.0,
+              "value_text": "+2.1%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 71.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 210.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 61,
+            "CollectionLevel": 5,
+            "Id": 6105,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルゴの覚悟(神呪イリア,イリア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 72.0,
+              "value_text": "+72×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 220.0,
+              "value_text": "+2.2%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 72.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 220.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 61,
+            "CollectionLevel": 6,
+            "Id": 6106,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルゴの覚悟(神呪イリア,イリア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 73.0,
+              "value_text": "+73×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 230.0,
+              "value_text": "+2.3%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 73.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 230.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 61,
+            "CollectionLevel": 7,
+            "Id": 6107,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルゴの覚悟(神呪イリア,イリア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 74.0,
+              "value_text": "+74×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 240.0,
+              "value_text": "+2.4%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 74.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 240.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 61,
+            "CollectionLevel": 8,
+            "Id": 6108,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルゴの覚悟(神呪イリア,イリア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 75.0,
+              "value_text": "+75×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 250.0,
+              "value_text": "+2.5%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 75.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 61,
+            "CollectionLevel": 9,
+            "Id": 6109,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルゴの覚悟(神呪イリア,イリア)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 61,
+        "IsIgnore": null,
+        "Memo": "アルゴの覚悟(神呪イリア,イリア)",
+        "NameKey": "[CharacterCollectionName61]",
+        "RequiredCharacterIds": [
+          61,
+          2
+        ],
+        "RequiredPartyLv": 300,
+        "StartTimeFixJST": "2024-10-31 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName61]",
+      "names": {
+        "zh-CN": "南船座的觉悟"
+      },
+      "required_character_ids": [
+        61,
+        2
+      ],
+      "required_characters": [
+        {
+          "id": 61,
+          "names": {
+            "zh-CN": "伊利亚"
+          }
+        },
+        {
+          "id": 2,
+          "names": {
+            "zh-CN": "伊利亚"
+          }
+        }
+      ],
+      "required_party_level": 300,
+      "start_time_jst": "2024-10-31 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 2,
+    "element_type": 6,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 61,
+    "job_flags": 1,
+    "master_record": {
+      "ActiveSkillIds": [
+        61001,
+        61002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 86,
+        "Health": 69,
+        "Intelligence": 86,
+        "Muscle": 105
+      },
+      "BaseParameterGrossCoefficient": 346,
+      "CharacterType": 2,
+      "ElementType": 6,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 61,
+      "InitialBattleParameter": {
+        "AttackPower": 4,
+        "Avoidance": 0,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": -1,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 10,
+        "DefensePenetration": 1,
+        "HP": 0,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 2703
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 1,
+      "Memo": "神呪イリア",
+      "Name2Key": "[CharacterSubName61]",
+      "NameKey": "[CharacterName61]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        61003,
+        61004,
+        61005
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2023-10-31 15:00:00"
+    },
+    "memo": "神呪イリア",
+    "name_key": "[CharacterName61]",
+    "names": {
+      "zh-CN": "伊利亚"
+    },
+    "speed": 2703,
+    "start_time_jst": "2023-10-31 15:00:00",
+    "subtitle_key": "[CharacterSubName61]",
+    "subtitles": {
+      "zh-CN": "神咒魔女"
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 611110240,
+    "exclusive_effect_id": 294,
+    "icon_id": 470,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 611110250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 81,
+        "EquipmentEvolutionId": 91,
+        "EquipmentExclusiveSkillDescriptionId": 49,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 1,
+        "ExclusiveEffectId": 294,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 470,
+        "Id": 611110240,
+        "IsIgnore": null,
+        "Memo": "神呪イリアLR240_剣",
+        "NameKey": "[EquipmentName465]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": null,
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 12,
+            "ChangeParameterType": 1,
+            "Value": 7000.0
+          },
+          {
+            "BattleParameterType": 9,
+            "ChangeParameterType": 1,
+            "Value": 3500.0
+          }
+        ],
+        "CharacterId": 61,
+        "Id": 294,
+        "IsIgnore": null,
+        "Memo": "神呪イリアLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill61Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill61Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill61Description3]",
+        "Id": 49,
+        "IsIgnore": null,
+        "Memo": "神呪イリア剣"
+      }
+    },
+    "name_key": "[EquipmentName465]",
+    "names": {
+      "zh-CN": "封魔黑钥"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 1,
+        "kind": "battle",
+        "parameter_code": "DefensePenetration",
+        "parameter_type": 12,
+        "raw_value": 7000.0,
+        "value_text": "+7,000"
+      },
+      {
+        "change_parameter_type": 1,
+        "kind": "battle",
+        "parameter_code": "CriticalDamageEnhance",
+        "parameter_type": 9,
+        "raw_value": 3500.0,
+        "value_text": "+3,500"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill61Description1]",
+        "descriptions": {
+          "zh-CN": "强化天命剑闪，第一波攻击造成的物理伤害提升为攻击力×240%。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill61Description2]",
+        "descriptions": {
+          "zh-CN": "强化第0号守护天使，获得的「多重屏障」增加为3层，当伊利亚受到致命伤害时，生命值恢复量提升为100%最大生命值。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill61Description3]",
+        "descriptions": {
+          "zh-CN": "当队伍中的其他幽冥属性友军数为2名以上时，使伊利亚增加40%防御穿透（无法被解除）。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": false,
+  "missing_localization_keys": [
+    "*"
+  ],
+  "passive_skills": [
+    {
+      "id": 61003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[PassiveSkillDescription610031]",
+          "descriptions": {
+            "zh-CN": "“我原以为自己做好了准备，愿意为拯救世界不惜性命。然而内心深处却……”战斗开始时，伊利亚获得「献身」状态（无法被解除），代其他友军承受20%攻击伤害。当包含伊利亚在内的友军受到攻击，全体友军受到攻击的次数合计达10次以上（对多个目标发动的攻击则以受到攻击的友军人数来计算次数），或存活在场上的其他友军人数为0时，伊利亚解除「献身」并获得「神咒解放」状态，效果持续2回合（无法被解除）。此技能每场战斗最多触发1次（在公会战、跨服公会战的连续对战中，每场战斗皆可触发1次）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「自分の命で世界を救う。その覚悟はできてるつもりだった。でも、心のどこかでは……」バトル開始時自身に『献身』を付与する（解除不可）。自身以外の味方が受けたダメージ×20%を自身がかわりに受けるようになる。自身か味方が攻撃を受けて、自身が敵の攻撃によるダメージを受けた回数が10以上の場合、もしくは自身以外の味方の生存数が0体になった場合、自身が付与した『献身』を解除し、2ターンの間自身に『神呪解放』を付与する（解除不可）。このスキルはバトル中1回のみ発動する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription610032]",
+          "descriptions": {
+            "zh-CN": "「神咒解放」效果增加为5回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "『神呪解放』のターン数が5ターンになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription610033]",
+          "descriptions": {
+            "zh-CN": "「神咒解放」效果增加为8回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "『神呪解放』のターン数が8ターンになる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 61003,
+        "IsIgnore": null,
+        "Memo": "神呪イリアSR:Lv1 「自分の命で世界を救う。その覚悟はできてるつもりだった。でも、心のどこかでは……」バトル開始時自身に『献身』を付与する（解除不可）。自身以外の味方が受けたダメージ×20%を自身がかわりに受けるようになる。自身か味方が攻撃を受けて、自身が敵の攻撃によるダメージを受けた回数が10以上の場合、もしくは自身以外の味方の生存数が0体になった場合、自身が付与した『献身』を解除し、2ターンの間自身に『神呪解放』を付与する（解除不可）。このスキルはバトル中1回のみ発動する。/ Lv2 『神呪解放』のターン数が5ターンになる。/ Lv3 『神呪解放』のターン数が8ターンになる。",
+        "NameKey": "[PassiveSkillName61003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[PassiveSkillDescription610031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 61003001
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 29,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 61003004
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 10,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 61003004
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 61003005
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 7,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 61003005
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription610032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 61003001
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 29,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 61003204
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 10,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 61003204
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 61003205
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 7,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 61003205
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription610033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 61003001
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 29,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 61003304
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 10,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 61003304
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 61003305
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 7,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 61003305
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName61003]",
+      "names": {
+        "zh-CN": "神咒护佑"
+      },
+      "source_memo_ja": "神呪イリアSR:Lv1 「自分の命で世界を救う。その覚悟はできてるつもりだった。でも、心のどこかでは……」バトル開始時自身に『献身』を付与する（解除不可）。自身以外の味方が受けたダメージ×20%を自身がかわりに受けるようになる。自身か味方が攻撃を受けて、自身が敵の攻撃によるダメージを受けた回数が10以上の場合、もしくは自身以外の味方の生存数が0体になった場合、自身が付与した『献身』を解除し、2ターンの間自身に『神呪解放』を付与する（解除不可）。このスキルはバトル中1回のみ発動する。/ Lv2 『神呪解放』のターン数が5ターンになる。/ Lv3 『神呪解放』のターン数が8ターンになる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「自分の命で世界を救う。その覚悟はできてるつもりだった。でも、心のどこかでは……」バトル開始時自身に『献身』を付与する（解除不可）。自身以外の味方が受けたダメージ×20%を自身がかわりに受けるようになる。自身か味方が攻撃を受けて、自身が敵の攻撃によるダメージを受けた回数が10以上の場合、もしくは自身以外の味方の生存数が0体になった場合、自身が付与した『献身』を解除し、2ターンの間自身に『神呪解放』を付与する（解除不可）。このスキルはバトル中1回のみ発動する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "『神呪解放』のターン数が5ターンになる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "『神呪解放』のターン数が8ターンになる。"
+        }
+      ]
+    },
+    {
+      "id": 61004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription610041]",
+          "descriptions": {
+            "zh-CN": "那是恶魔的造物、天使的欺瞒，本不应存在的守护天使——当包含伊利亚在内的友军受到攻击时，如果同一敌人在同一回合内对伊利亚造成多次攻击伤害，自第2次受到攻击起，伊利亚阻绝30%伤害（同时对多个目标发动的攻击则无关造成伤害的次数，皆以1次攻击来计算次数）。当伊利亚受到致命伤害时，保留1点生命值不死，并使自己恢复20%最大生命值。保留1点生命值不死效果每场战斗最多触发1次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "それは悪魔が仕掛け、天使が欺いた、存在しないはずの守護天使。自身か味方が攻撃を受けて、このターン中自身が対象の攻撃によるダメージを受けた回数が2以上の場合、自身へのダメージを30％遮断する。自身が致命的なダメージを受けた時、HP1で耐え、自身のHPを自身の最大HP×20%回復する。HP1で耐える効果はバトル中1回のみ発動する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription610042]",
+          "descriptions": {
+            "zh-CN": "战斗开始时，伊利亚额外获得1层「多重屏障」（无法被解除）。当伊利亚受到伤害时，消耗1层屏障来抵消该伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらにバトル開始時自身に1層の多重バリアを付与する（解除不可）。ダメージを受けると、バリアを1層消費してそのダメージを無効化する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription610043]",
+          "descriptions": {
+            "zh-CN": "阻绝70%伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "ダメージを70%遮断する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[PassiveSkillDescription610044]",
+          "descriptions": {
+            "zh-CN": "强化第0号守护天使，获得的「多重屏障」增加为3层，当伊利亚受到致命伤害时，生命值恢复量提升为100%最大生命值。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "0番目の守護天使を強化する。『多重バリア』が3層になり、自身が致命的なダメージを受けた時のHP回復量が自身の最大HP×100%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 61004,
+        "IsIgnore": null,
+        "Memo": "神呪イリアSR:Lv1 それは悪魔が仕掛け、天使が欺いた、存在しないはずの守護天使。自身か味方が攻撃を受けて、このターン中自身が対象の攻撃によるダメージを受けた回数が2以上の場合、自身へのダメージを30％遮断する。自身が致命的なダメージを受けた時、HP1で耐え、自身のHPを自身の最大HP×20%回復する。HP1で耐える効果はバトル中1回のみ発動する。/ Lv2 さらにバトル開始時自身に1層の多重バリアを付与する（解除不可）。ダメージを受けると、バリアを1層消費してそのダメージを無効化する。/ Lv3 ダメージを70%遮断する。/ Ex2 0番目の守護天使を強化する。『多重バリア』が3層になり、自身が致命的なダメージを受けた時のHP回復量が自身の最大HP×100%になる。",
+        "NameKey": "[PassiveSkillName61004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription610041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 61004002
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 52,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 61004003
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription610042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 61004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 61004002
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 52,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 61004003
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription610043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 61004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 61004302
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 52,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 61004003
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[PassiveSkillDescription610044]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 61004401
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 61004302
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 52,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 61004303
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName61004]",
+      "names": {
+        "zh-CN": "第0号守护天使"
+      },
+      "source_memo_ja": "神呪イリアSR:Lv1 それは悪魔が仕掛け、天使が欺いた、存在しないはずの守護天使。自身か味方が攻撃を受けて、このターン中自身が対象の攻撃によるダメージを受けた回数が2以上の場合、自身へのダメージを30％遮断する。自身が致命的なダメージを受けた時、HP1で耐え、自身のHPを自身の最大HP×20%回復する。HP1で耐える効果はバトル中1回のみ発動する。/ Lv2 さらにバトル開始時自身に1層の多重バリアを付与する（解除不可）。ダメージを受けると、バリアを1層消費してそのダメージを無効化する。/ Lv3 ダメージを70%遮断する。/ Ex2 0番目の守護天使を強化する。『多重バリア』が3層になり、自身が致命的なダメージを受けた時のHP回復量が自身の最大HP×100%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "それは悪魔が仕掛け、天使が欺いた、存在しないはずの守護天使。自身か味方が攻撃を受けて、このターン中自身が対象の攻撃によるダメージを受けた回数が2以上の場合、自身へのダメージを30％遮断する。自身が致命的なダメージを受けた時、HP1で耐え、自身のHPを自身の最大HP×20%回復する。HP1で耐える効果はバトル中1回のみ発動する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらにバトル開始時自身に1層の多重バリアを付与する（解除不可）。ダメージを受けると、バリアを1層消費してそのダメージを無効化する。"
+        },
+        {
+          "label": "Lv3",
+          "text": "ダメージを70%遮断する。"
+        },
+        {
+          "label": "Ex2",
+          "text": "0番目の守護天使を強化する。『多重バリア』が3層になり、自身が致命的なダメージを受けた時のHP回復量が自身の最大HP×100%になる。"
+        }
+      ]
+    },
+    {
+      "id": 61005,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription610051]",
+          "descriptions": {
+            "zh-CN": "当队伍中的其他幽冥属性友军数为2名以上时，使伊利亚增加40%防御穿透（无法被解除）。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "バトル開始時冥属性の味方が3体以上いる場合、自身の防御貫通が40%増加する（解除不可）。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 61005,
+        "IsIgnore": null,
+        "Memo": "神呪イリアSR:Lv1 バトル開始時冥属性の味方が3体以上いる場合、自身の防御貫通が40%増加する（解除不可）。",
+        "NameKey": "*",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription610051]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 61005001
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "*",
+      "names": {
+        "zh-CN": null
+      },
+      "source_memo_ja": "神呪イリアSR:Lv1 バトル開始時冥属性の味方が3体以上いる場合、自身の防御貫通が40%増加する（解除不可）。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "バトル開始時冥属性の味方が3体以上いる場合、自身の防御貫通が40%増加する（解除不可）。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

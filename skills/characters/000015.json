@@ -1,0 +1,2234 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 15001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription150011]",
+          "descriptions": {
+            "zh-CN": "萨宾娜快如闪电的刺剑连击闪耀着苍蓝的剑光，随机对敌人进行5次攻击，每次造成攻击力×390%的物理伤害。“一瞬间的迟疑足以要了你的命！”萨宾娜抓住破绽，不给对手喘息的机会。当技能暴击时，后续的连击必定暴击。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "稲妻の如く青く光るレイピアで連撃を繰り出し、ランダムな敵に5回攻撃力×390%の物理攻撃を行う。「一瞬の躊躇いが命とりだ！」相手のスキを見逃さず一気にたたみかける。クリティカルヒットした場合、以降の連撃は必ずクリティカルヒットする。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription150012]",
+          "descriptions": {
+            "zh-CN": "当暴击次数达4次以上时，萨宾娜使自己额外增加70%防御力，效果持续2回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "クリティカルヒットが4回以上発生した場合、2ターンの間自身の防御力が70％増加する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription150013]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×420%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃のダメージが攻撃力×420%になる。　/専用1 蒼穹の輪舞を強化する。クリティカルヒットが4回以上発生した場合、さらに自身に2ターンの間『気絶返し』を付与するようになる。攻撃を受けたとき30％の確率で、攻撃してきた敵に2ターンの間『気絶』を付与するようになる。　/専用2 蒼穹の輪舞を強化する。物理攻撃の回数が7回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription150014]",
+          "descriptions": {
+            "zh-CN": "[ActiveSkillDescription150014]"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": null
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription150015]",
+          "descriptions": {
+            "zh-CN": "[ActiveSkillDescription150015]"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 5,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription150011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              15001001,
+              15001003,
+              15001005,
+              15001007,
+              15001009
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription150012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              15001001,
+              15001003,
+              15001005,
+              15001007,
+              15001009,
+              15001208
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription150013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              15001301,
+              15001303,
+              15001305,
+              15001307,
+              15001309,
+              15001208
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription150014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              15001301,
+              15001303,
+              15001305,
+              15001307,
+              15001309,
+              15001408
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription150015]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              15001301,
+              15001303,
+              15001305,
+              15001307,
+              15001309,
+              15001307,
+              15001309,
+              15001408
+            ]
+          }
+        ],
+        "Id": 15001,
+        "IsIgnore": null,
+        "Memo": "サブリナSR: /Lv1　稲妻の如く青く光るレイピアで連撃を繰り出し、ランダムな敵に5回攻撃力×390%の物理攻撃を行う。「一瞬の躊躇いが命とりだ！」相手のスキを見逃さず一気にたたみかける。クリティカルヒットした場合、以降の連撃は必ずクリティカルヒットする。　/Lv2 クリティカルヒットが4回以上発生した場合、2ターンの間自身の防御力が70％増加する。　/Lv3 物理攻撃のダメージが攻撃力×420%になる。　/専用1 蒼穹の輪舞を強化する。クリティカルヒットが4回以上発生した場合、さらに自身に2ターンの間『気絶返し』を付与するようになる。攻撃を受けたとき30％の確率で、攻撃してきた敵に2ターンの間『気絶』を付与するようになる。　/専用2 蒼穹の輪舞を強化する。物理攻撃の回数が7回になる。",
+        "NameKey": "[ActiveSkillName15001]",
+        "RootActiveSkillId": 15001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 5
+      },
+      "max_cooldown": 5,
+      "name_key": "[ActiveSkillName15001]",
+      "names": {
+        "zh-CN": "苍穹之圆舞"
+      },
+      "source_memo_ja": "サブリナSR: /Lv1　稲妻の如く青く光るレイピアで連撃を繰り出し、ランダムな敵に5回攻撃力×390%の物理攻撃を行う。「一瞬の躊躇いが命とりだ！」相手のスキを見逃さず一気にたたみかける。クリティカルヒットした場合、以降の連撃は必ずクリティカルヒットする。　/Lv2 クリティカルヒットが4回以上発生した場合、2ターンの間自身の防御力が70％増加する。　/Lv3 物理攻撃のダメージが攻撃力×420%になる。　/専用1 蒼穹の輪舞を強化する。クリティカルヒットが4回以上発生した場合、さらに自身に2ターンの間『気絶返し』を付与するようになる。攻撃を受けたとき30％の確率で、攻撃してきた敵に2ターンの間『気絶』を付与するようになる。　/専用2 蒼穹の輪舞を強化する。物理攻撃の回数が7回になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "稲妻の如く青く光るレイピアで連撃を繰り出し、ランダムな敵に5回攻撃力×390%の物理攻撃を行う。「一瞬の躊躇いが命とりだ！」相手のスキを見逃さず一気にたたみかける。クリティカルヒットした場合、以降の連撃は必ずクリティカルヒットする。"
+        },
+        {
+          "label": "Lv2",
+          "text": "クリティカルヒットが4回以上発生した場合、2ターンの間自身の防御力が70％増加する。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃のダメージが攻撃力×420%になる。　/専用1 蒼穹の輪舞を強化する。クリティカルヒットが4回以上発生した場合、さらに自身に2ターンの間『気絶返し』を付与するようになる。攻撃を受けたとき30％の確率で、攻撃してきた敵に2ターンの間『気絶』を付与するようになる。　/専用2 蒼穹の輪舞を強化する。物理攻撃の回数が7回になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 15002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription150021]",
+          "descriptions": {
+            "zh-CN": "“奋勇向前，抛开所有迷惘吧！”萨宾娜身上的战士气魄令对手丧失斗志。随机对敌人进行3次攻击，每次造成攻击力×420%的物理伤害，30%概率使技能目标减少10%速度，效果持续1回合。当技能目标身上附带「速度下降」状态时，造成的物理伤害增加为1.5倍。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「奮い立て、一切の迷いを捨てろ！」戦士の気迫が、相手の戦意を喪失させる。ランダムな敵に3回攻撃力×420％の物理攻撃を行い、30%の確率で1ターンの間対象のスピードを10％減少させる。対象が『スピード減少』を付帯している場合、物理攻撃のダメージが1.5倍になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription150022]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×480%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "物理攻撃のダメージが攻撃力×480%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription150023]",
+          "descriptions": {
+            "zh-CN": "速度降幅提升为15%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "スピードの減少量が15％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription150024]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×520%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "物理攻撃のダメージが攻撃力×520%になる。対象が『スピード減少』を付帯している場合に与えるダメージが攻撃力×780%になる。　/専用3 群青の乱舞を強化する。物理攻撃の回数が4回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription150025]",
+          "descriptions": {
+            "zh-CN": "[ActiveSkillDescription150025]"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription150021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              15002001,
+              15002002,
+              15002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription150022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              15002201,
+              15002202,
+              15002202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription150023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              15002301,
+              15002302,
+              15002302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription150024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              15002401,
+              15002402,
+              15002402
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription150025]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              15002501,
+              15002502,
+              15002502,
+              15002502
+            ]
+          }
+        ],
+        "Id": 15002,
+        "IsIgnore": null,
+        "Memo": "サブリナSR: /Lv1　「奮い立て、一切の迷いを捨てろ！」戦士の気迫が、相手の戦意を喪失させる。ランダムな敵に3回攻撃力×420％の物理攻撃を行い、30%の確率で1ターンの間対象のスピードを10％減少させる。対象が『スピード減少』を付帯している場合、物理攻撃のダメージが1.5倍になる。　/Lv2 物理攻撃のダメージが攻撃力×480%になる。　/Lv3 スピードの減少量が15％になる。　/Lv4 物理攻撃のダメージが攻撃力×520%になる。対象が『スピード減少』を付帯している場合に与えるダメージが攻撃力×780%になる。　/専用3 群青の乱舞を強化する。物理攻撃の回数が4回になる。",
+        "NameKey": "[ActiveSkillName15002]",
+        "RootActiveSkillId": 15002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName15002]",
+      "names": {
+        "zh-CN": "蔚蓝之乱舞"
+      },
+      "source_memo_ja": "サブリナSR: /Lv1　「奮い立て、一切の迷いを捨てろ！」戦士の気迫が、相手の戦意を喪失させる。ランダムな敵に3回攻撃力×420％の物理攻撃を行い、30%の確率で1ターンの間対象のスピードを10％減少させる。対象が『スピード減少』を付帯している場合、物理攻撃のダメージが1.5倍になる。　/Lv2 物理攻撃のダメージが攻撃力×480%になる。　/Lv3 スピードの減少量が15％になる。　/Lv4 物理攻撃のダメージが攻撃力×520%になる。対象が『スピード減少』を付帯している場合に与えるダメージが攻撃力×780%になる。　/専用3 群青の乱舞を強化する。物理攻撃の回数が4回になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「奮い立て、一切の迷いを捨てろ！」戦士の気迫が、相手の戦意を喪失させる。ランダムな敵に3回攻撃力×420％の物理攻撃を行い、30%の確率で1ターンの間対象のスピードを10％減少させる。対象が『スピード減少』を付帯している場合、物理攻撃のダメージが1.5倍になる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "物理攻撃のダメージが攻撃力×480%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "スピードの減少量が15％になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "物理攻撃のダメージが攻撃力×520%になる。対象が『スピード減少』を付帯している場合に与えるダメージが攻撃力×780%になる。　/専用3 群青の乱舞を強化する。物理攻撃の回数が4回になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 5,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 500.0,
+              "value_text": "+500"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 1,
+                "Value": 500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 5,
+            "CollectionLevel": 1,
+            "Id": 501,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "モノケロスの咆哮(サブリナ,アモール,アイビー,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 5000.0,
+              "value_text": "+5,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1500.0,
+              "value_text": "+1,500"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 1,
+                "Value": 5000.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 5,
+            "CollectionLevel": 2,
+            "Id": 502,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "モノケロスの咆哮(サブリナ,アモール,アイビー,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 5000.0,
+              "value_text": "+5,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1500.0,
+              "value_text": "+1,500"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 1,
+                "Value": 5000.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 5,
+            "CollectionLevel": 3,
+            "Id": 503,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "モノケロスの咆哮(サブリナ,アモール,アイビー,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 5000.0,
+              "value_text": "+5,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1500.0,
+              "value_text": "+1,500"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 1,
+                "Value": 5000.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1500.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 5,
+            "CollectionLevel": 4,
+            "Id": 504,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "モノケロスの咆哮(サブリナ,アモール,アイビー,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 6000.0,
+              "value_text": "+6,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1600.0,
+              "value_text": "+1,600"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 1,
+                "Value": 6000.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1600.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 5,
+            "CollectionLevel": 5,
+            "Id": 505,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "モノケロスの咆哮(サブリナ,アモール,アイビー,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 7000.0,
+              "value_text": "+7,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1700.0,
+              "value_text": "+1,700"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 1,
+                "Value": 7000.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1700.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 5,
+            "CollectionLevel": 6,
+            "Id": 506,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "モノケロスの咆哮(サブリナ,アモール,アイビー,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 8000.0,
+              "value_text": "+8,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1800.0,
+              "value_text": "+1,800"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 1,
+                "Value": 8000.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1800.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 5,
+            "CollectionLevel": 7,
+            "Id": 507,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "モノケロスの咆哮(サブリナ,アモール,アイビー,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 9000.0,
+              "value_text": "+9,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1900.0,
+              "value_text": "+1,900"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 1,
+                "Value": 9000.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1900.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 5,
+            "CollectionLevel": 8,
+            "Id": 508,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "モノケロスの咆哮(サブリナ,アモール,アイビー,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 10000.0,
+              "value_text": "+10,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 2000.0,
+              "value_text": "+2,000"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 1,
+                "Value": 10000.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 2000.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 5,
+            "CollectionLevel": 9,
+            "Id": 509,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "モノケロスの咆哮(サブリナ,アモール,アイビー,ニーナ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 5,
+        "IsIgnore": null,
+        "Memo": "モノケロスの咆哮(サブリナ,アモール,アイビー,ニーナ)",
+        "NameKey": "[CharacterCollectionName5]",
+        "RequiredCharacterIds": [
+          15,
+          17,
+          25,
+          28
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2020-01-01 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName5]",
+      "names": {
+        "zh-CN": "独角兽座的咆哮"
+      },
+      "required_character_ids": [
+        15,
+        17,
+        25,
+        28
+      ],
+      "required_characters": [
+        {
+          "id": 15,
+          "names": {
+            "zh-CN": "萨宾娜"
+          }
+        },
+        {
+          "id": 17,
+          "names": {
+            "zh-CN": "爱沐尔"
+          }
+        },
+        {
+          "id": 25,
+          "names": {
+            "zh-CN": "艾薇"
+          }
+        },
+        {
+          "id": 28,
+          "names": {
+            "zh-CN": "妮娜"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2020-01-01 00:00:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 20,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 15.0,
+              "value_text": "+15×角色等级"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 15.0
+              }
+            ],
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 20,
+            "CollectionLevel": 1,
+            "Id": 2001,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "デルフィヌスの青旗(水着サブリナ,サブリナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 20,
+            "CollectionLevel": 2,
+            "Id": 2002,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "デルフィヌスの青旗(水着サブリナ,サブリナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 20,
+            "CollectionLevel": 3,
+            "Id": 2003,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "デルフィヌスの青旗(水着サブリナ,サブリナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 20,
+            "CollectionLevel": 4,
+            "Id": 2004,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "デルフィヌスの青旗(水着サブリナ,サブリナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 31.0,
+              "value_text": "+31×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1050.0,
+              "value_text": "+1,050"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 31.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1050.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 20,
+            "CollectionLevel": 5,
+            "Id": 2005,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "デルフィヌスの青旗(水着サブリナ,サブリナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 32.0,
+              "value_text": "+32×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1100.0,
+              "value_text": "+1,100"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 32.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1100.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 20,
+            "CollectionLevel": 6,
+            "Id": 2006,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "デルフィヌスの青旗(水着サブリナ,サブリナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 33.0,
+              "value_text": "+33×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1150.0,
+              "value_text": "+1,150"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 33.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1150.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 20,
+            "CollectionLevel": 7,
+            "Id": 2007,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "デルフィヌスの青旗(水着サブリナ,サブリナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 34.0,
+              "value_text": "+34×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1200.0,
+              "value_text": "+1,200"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 34.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 20,
+            "CollectionLevel": 8,
+            "Id": 2008,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "デルフィヌスの青旗(水着サブリナ,サブリナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 35.0,
+              "value_text": "+35×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1250.0,
+              "value_text": "+1,250"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 35.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 20,
+            "CollectionLevel": 9,
+            "Id": 2009,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "デルフィヌスの青旗(水着サブリナ,サブリナ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 20,
+        "IsIgnore": null,
+        "Memo": "デルフィヌスの青旗(水着サブリナ,サブリナ)",
+        "NameKey": "[CharacterCollectionName20]",
+        "RequiredCharacterIds": [
+          70,
+          15
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2023-06-30 15:00:00"
+      },
+      "name_key": "[CharacterCollectionName20]",
+      "names": {
+        "zh-CN": "海豚座的蓝旗"
+      },
+      "required_character_ids": [
+        70,
+        15
+      ],
+      "required_characters": [
+        {
+          "id": 70,
+          "names": {
+            "zh-CN": "萨宾娜"
+          }
+        },
+        {
+          "id": 15,
+          "names": {
+            "zh-CN": "萨宾娜"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2023-06-30 15:00:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 45,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 45,
+            "CollectionLevel": 1,
+            "Id": 4501,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "エリダヌスの神託(モルガナ,サブリナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 1500.0,
+              "value_text": "+1,500"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 1,
+                "Value": 1500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 45,
+            "CollectionLevel": 2,
+            "Id": 4502,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "エリダヌスの神託(モルガナ,サブリナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 1500.0,
+              "value_text": "+1,500"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 1,
+                "Value": 1500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 45,
+            "CollectionLevel": 3,
+            "Id": 4503,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "エリダヌスの神託(モルガナ,サブリナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 1500.0,
+              "value_text": "+1,500"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 1,
+                "Value": 1500.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 45,
+            "CollectionLevel": 4,
+            "Id": 4504,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "エリダヌスの神託(モルガナ,サブリナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 210.0,
+              "value_text": "+2.1%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 1600.0,
+              "value_text": "+1,600"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 210.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 1,
+                "Value": 1600.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 45,
+            "CollectionLevel": 5,
+            "Id": 4505,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "エリダヌスの神託(モルガナ,サブリナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 220.0,
+              "value_text": "+2.2%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 1700.0,
+              "value_text": "+1,700"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 220.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 1,
+                "Value": 1700.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 45,
+            "CollectionLevel": 6,
+            "Id": 4506,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "エリダヌスの神託(モルガナ,サブリナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 230.0,
+              "value_text": "+2.3%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 1800.0,
+              "value_text": "+1,800"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 230.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 1,
+                "Value": 1800.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 45,
+            "CollectionLevel": 7,
+            "Id": 4507,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "エリダヌスの神託(モルガナ,サブリナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 240.0,
+              "value_text": "+2.4%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 1900.0,
+              "value_text": "+1,900"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 240.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 1,
+                "Value": 1900.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 45,
+            "CollectionLevel": 8,
+            "Id": 4508,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "エリダヌスの神託(モルガナ,サブリナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 250.0,
+              "value_text": "+2.5%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 2000.0,
+              "value_text": "+2,000"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 250.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 1,
+                "Value": 2000.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 45,
+            "CollectionLevel": 9,
+            "Id": 4509,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "エリダヌスの神託(モルガナ,サブリナ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 45,
+        "IsIgnore": null,
+        "Memo": "エリダヌスの神託(モルガナ,サブリナ)",
+        "NameKey": "[CharacterCollectionName45]",
+        "RequiredCharacterIds": [
+          75,
+          15
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2024-04-15 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName45]",
+      "names": {
+        "zh-CN": "波江座的神谕"
+      },
+      "required_character_ids": [
+        75,
+        15
+      ],
+      "required_characters": [
+        {
+          "id": 75,
+          "names": {
+            "zh-CN": "摩嘉娜"
+          }
+        },
+        {
+          "id": 15,
+          "names": {
+            "zh-CN": "萨宾娜"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2024-04-15 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 2,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 15,
+    "job_flags": 1,
+    "master_record": {
+      "ActiveSkillIds": [
+        15001,
+        15002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 80,
+        "Health": 92,
+        "Intelligence": 79,
+        "Muscle": 90
+      },
+      "BaseParameterGrossCoefficient": 341,
+      "CharacterType": 0,
+      "ElementType": 2,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 15,
+      "InitialBattleParameter": {
+        "AttackPower": -1,
+        "Avoidance": 0,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 12,
+        "DefensePenetration": 0,
+        "HP": 1,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": -2,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 2966
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 1,
+      "Memo": "サブリナ",
+      "Name2Key": null,
+      "NameKey": "[CharacterName15]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        15003,
+        15004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2020-01-01 00:00:00"
+    },
+    "memo": "サブリナ",
+    "name_key": "[CharacterName15]",
+    "names": {
+      "zh-CN": "萨宾娜"
+    },
+    "speed": 2966,
+    "start_time_jst": "2020-01-01 00:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 2060,
+    "exclusive_effect_id": 42,
+    "icon_id": 242,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 2061,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 39,
+        "EquipmentEvolutionId": 49,
+        "EquipmentExclusiveSkillDescriptionId": 7,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 1,
+        "ExclusiveEffectId": 42,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 242,
+        "Id": 2060,
+        "IsIgnore": null,
+        "Memo": "サブリナLR240_剣",
+        "NameKey": "[EquipmentName237]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": [
+          {
+            "BaseParameterType": 4,
+            "ChangeParameterType": 2,
+            "Value": 800.0
+          }
+        ],
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 7,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 15,
+        "Id": 42,
+        "IsIgnore": null,
+        "Memo": "サブリナLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill15Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill15Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill15Description3]",
+        "Id": 7,
+        "IsIgnore": null,
+        "Memo": "サブリナ剣"
+      }
+    },
+    "name_key": "[EquipmentName237]",
+    "names": {
+      "zh-CN": "瑞拜尔之剑"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "base",
+        "parameter_code": "Health",
+        "parameter_type": 4,
+        "raw_value": 800.0,
+        "value_text": "+8%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Critical",
+        "parameter_type": 7,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill15Description1]",
+        "descriptions": {
+          "zh-CN": "强化苍穹之圆舞，当暴击次数达4次以上时，萨宾娜额外获得「晕厥反击」，效果持续2回合。当她受到攻击时，30%概率对发动攻击的敌人附加「晕厥」状态，效果持续2回合。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill15Description2]",
+        "descriptions": {
+          "zh-CN": "强化苍穹之圆舞，攻击次数增加为7次。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill15Description3]",
+        "descriptions": {
+          "zh-CN": "强化蔚蓝之乱舞，攻击次数增加为4次。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 15003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription150031]",
+          "descriptions": {
+            "zh-CN": "“展现勇气吧！”萨宾娜喝斥自己，回合开始时，如果萨宾娜身上附带弱化效果，触发技能解除自己身上的1种弱化效果。此技能须在结束4次行动后才可再次触发。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「勇を示せ！」自分自身に喝をいれ、ターン開始時自身が弱体効果を付帯している場合、自身の弱体効果を1つ解除する。このスキルは4ターンに1回発動する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription150032]",
+          "descriptions": {
+            "zh-CN": "解除所有弱化效果。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "弱体効果解除量が全てになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription150033]",
+          "descriptions": {
+            "zh-CN": "额外获得「控制效果免疫」，效果持续2回合（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらに自身に2ターンの間『行動阻害無効』を付与する（解除不可）。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 15003,
+        "IsIgnore": null,
+        "Memo": "サブリナSR: /Lv1　「勇を示せ！」自分自身に喝をいれ、ターン開始時自身が弱体効果を付帯している場合、自身の弱体効果を1つ解除する。このスキルは4ターンに1回発動する。　/Lv2 弱体効果解除量が全てになる。　/Lv3 さらに自身に2ターンの間『行動阻害無効』を付与する（解除不可）。",
+        "NameKey": "[PassiveSkillName15003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription150031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 15003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription150032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 15003201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription150033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 15003301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName15003]",
+      "names": {
+        "zh-CN": "生之勇气"
+      },
+      "source_memo_ja": "サブリナSR: /Lv1　「勇を示せ！」自分自身に喝をいれ、ターン開始時自身が弱体効果を付帯している場合、自身の弱体効果を1つ解除する。このスキルは4ターンに1回発動する。　/Lv2 弱体効果解除量が全てになる。　/Lv3 さらに自身に2ターンの間『行動阻害無効』を付与する（解除不可）。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「勇を示せ！」自分自身に喝をいれ、ターン開始時自身が弱体効果を付帯している場合、自身の弱体効果を1つ解除する。このスキルは4ターンに1回発動する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "弱体効果解除量が全てになる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらに自身に2ターンの間『行動阻害無効』を付与する（解除不可）。"
+        }
+      ]
+    },
+    {
+      "id": 15004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription150041]",
+          "descriptions": {
+            "zh-CN": "母亲的爱与儿时的梦想，化作萨宾娜活下去的力量，使她在每回合开始时增加3%最大生命值（最多叠加20层）（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "母の愛と、幼き頃の夢が、生きる力となる。毎ターン開始時自身の最大HPが3％増加する（最大20回まで）（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription150042]",
+          "descriptions": {
+            "zh-CN": "最大生命值增幅提升为5%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "最大HPの増加量が5％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription150043]",
+          "descriptions": {
+            "zh-CN": "最大生命值增幅提升为7%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "最大HPの増加量が7％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 15004,
+        "IsIgnore": null,
+        "Memo": "サブリナSR: /Lv1　母の愛と、幼き頃の夢が、生きる力となる。毎ターン開始時自身の最大HPが3％増加する（最大20回まで）（解除不可）。　/Lv2 最大HPの増加量が5％になる。　/Lv3 最大HPの増加量が7％になる。",
+        "NameKey": "[PassiveSkillName15004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription150041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 15004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription150042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 15004201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription150043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 15004301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName15004]",
+      "names": {
+        "zh-CN": "翱翔的梦与爱"
+      },
+      "source_memo_ja": "サブリナSR: /Lv1　母の愛と、幼き頃の夢が、生きる力となる。毎ターン開始時自身の最大HPが3％増加する（最大20回まで）（解除不可）。　/Lv2 最大HPの増加量が5％になる。　/Lv3 最大HPの増加量が7％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "母の愛と、幼き頃の夢が、生きる力となる。毎ターン開始時自身の最大HPが3％増加する（最大20回まで）（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "最大HPの増加量が5％になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "最大HPの増加量が7％になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

@@ -1,0 +1,1365 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 149001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription1490011]",
+          "descriptions": {
+            "zh-CN": "“来，请将身心托付给我的歌声……”普莉玛维拉对自己与攻击力最高的其他友军附加「定身」状态，效果持续1回合。附加此效果时无视弱化效果命中率与弱化效果抵抗率。再随机对3名敌人造成攻击力×320%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「さあ、わたくしの歌に心を委ねて……」自身と自身以外の攻撃力が最も高い味方に1ターンの間『金縛り』を付与する。この付与は弱体効果命中率と耐性率を無視する。その後ランダムな敵3体に攻撃力×320%の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription1490012]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×460%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "物理攻撃のダメージが攻撃力×460%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1490013]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×680%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃のダメージが攻撃力×680%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1490014]",
+          "descriptions": {
+            "zh-CN": "强化湖畔的乐音，攻击目标增加为5名随机敌人。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "湖畔のメロディを強化する。湖畔のメロディの対象がランダムな敵5体になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription1490011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              149001001,
+              149001002,
+              149001003,
+              149001004
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription1490012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              149001001,
+              149001002,
+              149001003,
+              149001204
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1490013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              149001001,
+              149001002,
+              149001003,
+              149001304
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1490014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              149001001,
+              149001002,
+              149001003,
+              149001404
+            ]
+          }
+        ],
+        "Id": 149001,
+        "IsIgnore": null,
+        "Memo": "夏プリマヴェーラSR:Lv1 「さあ、わたくしの歌に心を委ねて……」自身と自身以外の攻撃力が最も高い味方に1ターンの間『金縛り』を付与する。この付与は弱体効果命中率と耐性率を無視する。その後ランダムな敵3体に攻撃力×320%の物理攻撃を行う。/ Lv2 物理攻撃のダメージが攻撃力×460%になる。/ Lv3 物理攻撃のダメージが攻撃力×680%になる。/ Ex1 湖畔のメロディを強化する。湖畔のメロディの対象がランダムな敵5体になる。",
+        "NameKey": "[ActiveSkillName149001]",
+        "RootActiveSkillId": 149001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName149001]",
+      "names": {
+        "zh-CN": "湖畔的乐音"
+      },
+      "source_memo_ja": "夏プリマヴェーラSR:Lv1 「さあ、わたくしの歌に心を委ねて……」自身と自身以外の攻撃力が最も高い味方に1ターンの間『金縛り』を付与する。この付与は弱体効果命中率と耐性率を無視する。その後ランダムな敵3体に攻撃力×320%の物理攻撃を行う。/ Lv2 物理攻撃のダメージが攻撃力×460%になる。/ Lv3 物理攻撃のダメージが攻撃力×680%になる。/ Ex1 湖畔のメロディを強化する。湖畔のメロディの対象がランダムな敵5体になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「さあ、わたくしの歌に心を委ねて……」自身と自身以外の攻撃力が最も高い味方に1ターンの間『金縛り』を付与する。この付与は弱体効果命中率と耐性率を無視する。その後ランダムな敵3体に攻撃力×320%の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "物理攻撃のダメージが攻撃力×460%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃のダメージが攻撃力×680%になる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "湖畔のメロディを強化する。湖畔のメロディの対象がランダムな敵5体になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 149002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription1490021]",
+          "descriptions": {
+            "zh-CN": "“是时候展示练习的成果了。来吧，跟着节奏……！”普莉玛维拉指挥小鸟们齐唱着发起冲锋，随机对敌人进行2次攻击，每次造成攻击力×480%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「練習の成果を見せる時ですわ。さあ、リズムに合わせて……！」合唱しながら小鳥たちが特攻。ランダムな敵に2回攻撃力×480%の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription1490022]",
+          "descriptions": {
+            "zh-CN": "攻击次数增加为3次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "物理攻撃の回数が3回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription1490023]",
+          "descriptions": {
+            "zh-CN": "发动攻击前，如果普莉玛维拉与友军在战斗中因技能效果解除的弱化效果总数达10种以上，攻击次数增加为5次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらに最初の物理攻撃の前にバトル中自身と味方がスキルで解除した弱体効果の個数の合計が10以上の場合、物理攻撃の回数が5回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription1490024]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×850%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "物理攻撃のダメージが攻撃力×850%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription1490025]",
+          "descriptions": {
+            "zh-CN": "强化小鸟进行曲，造成的物理伤害提升为攻击力×940%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "コトリ行進曲を強化する。物理攻撃のダメージが攻撃力×940%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription1490021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              149002001,
+              149002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription1490022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              149002001,
+              149002002,
+              149002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription1490023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              149002301,
+              149002302,
+              149002302,
+              149002303,
+              149002304,
+              149002304,
+              149002304,
+              149002304
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription1490024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              149002401,
+              149002402,
+              149002402,
+              149002403,
+              149002404,
+              149002404,
+              149002404,
+              149002404
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription1490025]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              149002501,
+              149002502,
+              149002502,
+              149002503,
+              149002504,
+              149002504,
+              149002504,
+              149002504
+            ]
+          }
+        ],
+        "Id": 149002,
+        "IsIgnore": null,
+        "Memo": "夏プリマヴェーラSR:Lv1 「練習の成果を見せる時ですわ。さあ、リズムに合わせて……！」合唱しながら小鳥たちが特攻。ランダムな敵に2回攻撃力×480%の物理攻撃を行う。/ Lv2 物理攻撃の回数が3回になる。/ Lv3 さらに最初の物理攻撃の前にバトル中自身と味方がスキルで解除した弱体効果の個数の合計が10以上の場合、物理攻撃の回数が5回になる。/ Lv4 物理攻撃のダメージが攻撃力×850%になる。/ Ex3 コトリ行進曲を強化する。物理攻撃のダメージが攻撃力×940%になる。",
+        "NameKey": "[ActiveSkillName149002]",
+        "RootActiveSkillId": 149002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName149002]",
+      "names": {
+        "zh-CN": "小鸟进行曲"
+      },
+      "source_memo_ja": "夏プリマヴェーラSR:Lv1 「練習の成果を見せる時ですわ。さあ、リズムに合わせて……！」合唱しながら小鳥たちが特攻。ランダムな敵に2回攻撃力×480%の物理攻撃を行う。/ Lv2 物理攻撃の回数が3回になる。/ Lv3 さらに最初の物理攻撃の前にバトル中自身と味方がスキルで解除した弱体効果の個数の合計が10以上の場合、物理攻撃の回数が5回になる。/ Lv4 物理攻撃のダメージが攻撃力×850%になる。/ Ex3 コトリ行進曲を強化する。物理攻撃のダメージが攻撃力×940%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「練習の成果を見せる時ですわ。さあ、リズムに合わせて……！」合唱しながら小鳥たちが特攻。ランダムな敵に2回攻撃力×480%の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "物理攻撃の回数が3回になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらに最初の物理攻撃の前にバトル中自身と味方がスキルで解除した弱体効果の個数の合計が10以上の場合、物理攻撃の回数が5回になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "物理攻撃のダメージが攻撃力×850%になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "コトリ行進曲を強化する。物理攻撃のダメージが攻撃力×940%になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 97,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 97,
+            "CollectionLevel": 1,
+            "Id": 9701,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "トゥルドゥスの歌声(夏プリマヴェーラ,浴衣コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 97,
+            "CollectionLevel": 2,
+            "Id": 9702,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "トゥルドゥスの歌声(夏プリマヴェーラ,浴衣コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 97,
+            "CollectionLevel": 3,
+            "Id": 9703,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "トゥルドゥスの歌声(夏プリマヴェーラ,浴衣コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 97,
+            "CollectionLevel": 4,
+            "Id": 9704,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "トゥルドゥスの歌声(夏プリマヴェーラ,浴衣コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 71.0,
+              "value_text": "+71×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 210.0,
+              "value_text": "+2.1%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 71.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 210.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 97,
+            "CollectionLevel": 5,
+            "Id": 9705,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "トゥルドゥスの歌声(夏プリマヴェーラ,浴衣コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 72.0,
+              "value_text": "+72×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 220.0,
+              "value_text": "+2.2%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 72.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 220.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 97,
+            "CollectionLevel": 6,
+            "Id": 9706,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "トゥルドゥスの歌声(夏プリマヴェーラ,浴衣コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 73.0,
+              "value_text": "+73×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 230.0,
+              "value_text": "+2.3%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 73.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 230.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 97,
+            "CollectionLevel": 7,
+            "Id": 9707,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "トゥルドゥスの歌声(夏プリマヴェーラ,浴衣コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 74.0,
+              "value_text": "+74×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 240.0,
+              "value_text": "+2.4%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 74.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 240.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 97,
+            "CollectionLevel": 8,
+            "Id": 9708,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "トゥルドゥスの歌声(夏プリマヴェーラ,浴衣コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 75.0,
+              "value_text": "+75×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 250.0,
+              "value_text": "+2.5%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 75.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 97,
+            "CollectionLevel": 9,
+            "Id": 9709,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "トゥルドゥスの歌声(夏プリマヴェーラ,浴衣コルディ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 97,
+        "IsIgnore": null,
+        "Memo": "トゥルドゥスの歌声(夏プリマヴェーラ,浴衣コルディ)",
+        "NameKey": "[CharacterCollectionName97]",
+        "RequiredCharacterIds": [
+          149,
+          72
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2026-07-15 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName97]",
+      "names": {
+        "zh-CN": "画眉座的歌声"
+      },
+      "required_character_ids": [
+        149,
+        72
+      ],
+      "required_characters": [
+        {
+          "id": 149,
+          "names": {
+            "zh-CN": "普莉玛维拉"
+          }
+        },
+        {
+          "id": 72,
+          "names": {
+            "zh-CN": "科迪"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2026-07-15 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 2,
+    "element_type": 1,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 149,
+    "job_flags": 2,
+    "master_record": {
+      "ActiveSkillIds": [
+        149001,
+        149002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 102,
+        "Health": 75,
+        "Intelligence": 79,
+        "Muscle": 90
+      },
+      "BaseParameterGrossCoefficient": 346,
+      "CharacterType": 2,
+      "ElementType": 1,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 149,
+      "InitialBattleParameter": {
+        "AttackPower": 5,
+        "Avoidance": 0,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 8,
+        "DefensePenetration": 0,
+        "HP": -3,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 2678
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 2,
+      "Memo": "夏プリマヴェーラ",
+      "Name2Key": "[CharacterSubName149]",
+      "NameKey": "[CharacterName149]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        149003,
+        149004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2026-07-15 15:00:00"
+    },
+    "memo": "夏プリマヴェーラ",
+    "name_key": "[CharacterName149]",
+    "names": {
+      "zh-CN": "普莉玛维拉"
+    },
+    "speed": 2678,
+    "start_time_jst": "2026-07-15 15:00:00",
+    "subtitle_key": "[CharacterSubName149]",
+    "subtitles": {
+      "zh-CN": "湖畔名伶"
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 1491120240,
+    "exclusive_effect_id": 696,
+    "icon_id": 998,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 1491120250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 148,
+        "EquipmentEvolutionId": 158,
+        "EquipmentExclusiveSkillDescriptionId": 116,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 2,
+        "ExclusiveEffectId": 696,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 998,
+        "Id": 1491120240,
+        "IsIgnore": null,
+        "Memo": "夏プリマヴェーラLR240_銃",
+        "NameKey": "[EquipmentName993]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": null,
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 7,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          },
+          {
+            "BattleParameterType": 13,
+            "ChangeParameterType": 2,
+            "Value": 500.0
+          }
+        ],
+        "CharacterId": 149,
+        "Id": 696,
+        "IsIgnore": null,
+        "Memo": "夏プリマヴェーラLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill149Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill149Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill149Description3]",
+        "Id": 116,
+        "IsIgnore": null,
+        "Memo": "夏プリマヴェーラ銃"
+      }
+    },
+    "name_key": "[EquipmentName993]",
+    "names": {
+      "zh-CN": "普莉鸟维拉的暑假"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Critical",
+        "parameter_type": 7,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Defense",
+        "parameter_type": 13,
+        "raw_value": 500.0,
+        "value_text": "+5%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill149Description1]",
+        "descriptions": {
+          "zh-CN": "强化湖畔的乐音，攻击目标增加为5名随机敌人。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill149Description2]",
+        "descriptions": {
+          "zh-CN": "强化名伶的心声，承受伤害降幅提升为70%。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill149Description3]",
+        "descriptions": {
+          "zh-CN": "强化小鸟进行曲，造成的物理伤害提升为攻击力×940%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 149003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription1490031]",
+          "descriptions": {
+            "zh-CN": "“将花儿献给干涸的大地，将歌曲献给荒芜的心灵……”名伶的歌声为众人带来希望，并引发了奇迹——当普莉玛维拉被附加主动技能造成的弱化效果时，触发技能解除自己身上的1种弱化效果，并获得1层「至高无上的旋律」（最多10层）（无法被解除）。每层「至高无上的旋律」使普莉玛维拉增加2%攻击力。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「枯れた大地に花を、荒んだ心に歌を……」その歌声は人々に希望を与え、奇跡を起こす——自身がアクティブスキルで弱体効果を受けたとき、自身の弱体効果を1つ解除し、自身に『至高の旋律』を1スタック付与する（最大10スタックまで）（解除不可）。このバフは1スタックにつき自身の攻撃力を2%増加させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription1490032]",
+          "descriptions": {
+            "zh-CN": "攻击力增幅提升为5%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "攻撃力の増加量が5%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription1490033]",
+          "descriptions": {
+            "zh-CN": "当普莉玛维拉被附加的弱化效果为控制效果时，获得的「至高无上的旋律」层数增加为5层。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらに受けた弱体効果が行動阻害の場合、『至高の旋律』の付与スタック数が5になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 149003,
+        "IsIgnore": null,
+        "Memo": "夏プリマヴェーラSR:Lv1 「枯れた大地に花を、荒んだ心に歌を……」その歌声は人々に希望を与え、奇跡を起こす——自身がアクティブスキルで弱体効果を受けたとき、自身の弱体効果を1つ解除し、自身に『至高の旋律』を1スタック付与する（最大10スタックまで）（解除不可）。このバフは1スタックにつき自身の攻撃力を2%増加させる。/ Lv2 攻撃力の増加量が5%になる。/ Lv3 さらに受けた弱体効果が行動阻害の場合、『至高の旋律』の付与スタック数が5になる。",
+        "NameKey": "[PassiveSkillName149003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription1490031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 11,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 149003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription1490032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 11,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 149003201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription1490033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 11,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 149003201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 36,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 149003302
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName149003]",
+      "names": {
+        "zh-CN": "奇迹名伶"
+      },
+      "source_memo_ja": "夏プリマヴェーラSR:Lv1 「枯れた大地に花を、荒んだ心に歌を……」その歌声は人々に希望を与え、奇跡を起こす——自身がアクティブスキルで弱体効果を受けたとき、自身の弱体効果を1つ解除し、自身に『至高の旋律』を1スタック付与する（最大10スタックまで）（解除不可）。このバフは1スタックにつき自身の攻撃力を2%増加させる。/ Lv2 攻撃力の増加量が5%になる。/ Lv3 さらに受けた弱体効果が行動阻害の場合、『至高の旋律』の付与スタック数が5になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「枯れた大地に花を、荒んだ心に歌を……」その歌声は人々に希望を与え、奇跡を起こす——自身がアクティブスキルで弱体効果を受けたとき、自身の弱体効果を1つ解除し、自身に『至高の旋律』を1スタック付与する（最大10スタックまで）（解除不可）。このバフは1スタックにつき自身の攻撃力を2%増加させる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "攻撃力の増加量が5%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらに受けた弱体効果が行動阻害の場合、『至高の旋律』の付与スタック数が5になる。"
+        }
+      ]
+    },
+    {
+      "id": 149004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription1490041]",
+          "descriptions": {
+            "zh-CN": "我不会再舍弃它了，这是属于我的声音，源自普莉玛维拉内心的声音——普莉玛维拉减少30%自身承受伤害（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "もう離さない、わたくしの、プリマヴェーラの音色——自身の被ダメージが30%減少する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription1490042]",
+          "descriptions": {
+            "zh-CN": "战斗开始时，使自己额外增加90%防御力，效果持续6回合（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらにバトル開始時、6ターンの間自身の防御力が90%増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription1490043]",
+          "descriptions": {
+            "zh-CN": "当队伍中与普莉玛维拉属性相同的其他友军或天光属性友军数为2名以上时，防御力增幅提升为150%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらに自身以外の自身と同じ属性または天属性の味方の編成数が2体以上の場合、防御力の増加量が150%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription1490044]",
+          "descriptions": {
+            "zh-CN": "强化名伶的心声，承受伤害降幅提升为70%。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "歌姫の心音を強化する。被ダメージの減少量が70%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 149004,
+        "IsIgnore": null,
+        "Memo": "夏プリマヴェーラSR:Lv1 もう離さない、わたくしの、プリマヴェーラの音色——自身の被ダメージが30%減少する（解除不可）。/ Lv2 さらにバトル開始時、6ターンの間自身の防御力が90%増加する（解除不可）。/ Lv3 さらに自身以外の自身と同じ属性または天属性の味方の編成数が2体以上の場合、防御力の増加量が150%になる。/ Ex2 歌姫の心音を強化する。被ダメージの減少量が70%になる。",
+        "NameKey": "[PassiveSkillName149004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription1490041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 149004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription1490042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 149004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 149004202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription1490043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 149004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 149004302
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription1490044]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 149004401
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 149004302
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName149004]",
+      "names": {
+        "zh-CN": "名伶的心声"
+      },
+      "source_memo_ja": "夏プリマヴェーラSR:Lv1 もう離さない、わたくしの、プリマヴェーラの音色——自身の被ダメージが30%減少する（解除不可）。/ Lv2 さらにバトル開始時、6ターンの間自身の防御力が90%増加する（解除不可）。/ Lv3 さらに自身以外の自身と同じ属性または天属性の味方の編成数が2体以上の場合、防御力の増加量が150%になる。/ Ex2 歌姫の心音を強化する。被ダメージの減少量が70%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "もう離さない、わたくしの、プリマヴェーラの音色——自身の被ダメージが30%減少する（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらにバトル開始時、6ターンの間自身の防御力が90%増加する（解除不可）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらに自身以外の自身と同じ属性または天属性の味方の編成数が2体以上の場合、防御力の増加量が150%になる。"
+        },
+        {
+          "label": "Ex2",
+          "text": "歌姫の心音を強化する。被ダメージの減少量が70%になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

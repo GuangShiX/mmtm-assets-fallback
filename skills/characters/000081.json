@@ -1,0 +1,1348 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 81001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription810011]",
+          "descriptions": {
+            "zh-CN": "“崇拜吾，敬畏吾罢！”自称为守护神的玉施以庇佑，使攻击力最高的友军增加20%命中率，效果持续2回合。“这便是与本仙作对的下场！”再随机对3名敌人造成攻击力×280%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「我を崇めよ！」自称守り神の加護により、2ターンの間攻撃力が最も高い味方の命中率を20%増加させる。「歯向かう奴はこうじゃ！」その後ランダムな敵3体に攻撃力×280%の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription810012]",
+          "descriptions": {
+            "zh-CN": "战斗中自第3次发动此技能起，命中率增幅提升为80%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "バトル中このスキルを使うのが3回目以降の場合、命中率の増加量が80%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription810013]",
+          "descriptions": {
+            "zh-CN": "「命中率上升」效果增加为4回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "『命中率増加』のターン数が4ターンになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription810014]",
+          "descriptions": {
+            "zh-CN": "强化妖狐燐火，「命中率上升」的附加目标增加为攻击力最高的2名友军。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "妖狐燐火を強化する。『命中率増加』の対象が攻撃力が高い味方2体になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription810011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              81001001,
+              81001002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription810012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              81001201,
+              81001002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription810013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              81001301,
+              81001002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription810014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              81001401,
+              81001002
+            ]
+          }
+        ],
+        "Id": 81001,
+        "IsIgnore": null,
+        "Memo": "タマSR:Lv1 「我を崇めよ！」自称守り神の加護により、2ターンの間攻撃力が最も高い味方の命中率を20%増加させる。「歯向かう奴はこうじゃ！」その後ランダムな敵3体に攻撃力×280%の物理攻撃を行う。/ Lv2 バトル中このスキルを使うのが3回目以降の場合、命中率の増加量が80%になる。/ Lv3 『命中率増加』のターン数が4ターンになる。/ Ex1 妖狐燐火を強化する。『命中率増加』の対象が攻撃力が高い味方2体になる。",
+        "NameKey": "[ActiveSkillName81001]",
+        "RootActiveSkillId": 81001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName81001]",
+      "names": {
+        "zh-CN": "妖狐燐火"
+      },
+      "source_memo_ja": "タマSR:Lv1 「我を崇めよ！」自称守り神の加護により、2ターンの間攻撃力が最も高い味方の命中率を20%増加させる。「歯向かう奴はこうじゃ！」その後ランダムな敵3体に攻撃力×280%の物理攻撃を行う。/ Lv2 バトル中このスキルを使うのが3回目以降の場合、命中率の増加量が80%になる。/ Lv3 『命中率増加』のターン数が4ターンになる。/ Ex1 妖狐燐火を強化する。『命中率増加』の対象が攻撃力が高い味方2体になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「我を崇めよ！」自称守り神の加護により、2ターンの間攻撃力が最も高い味方の命中率を20%増加させる。「歯向かう奴はこうじゃ！」その後ランダムな敵3体に攻撃力×280%の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "バトル中このスキルを使うのが3回目以降の場合、命中率の増加量が80%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "『命中率増加』のターン数が4ターンになる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "妖狐燐火を強化する。『命中率増加』の対象が攻撃力が高い味方2体になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 81002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription810021]",
+          "descriptions": {
+            "zh-CN": "“让汝见识恶名昭彰的妖怪有多少能耐罢！”玉施展妖术，唤出数道狐火向敌人袭去，对攻击力最高的敌人进行4次攻击，每次造成攻击力×260%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「悪名高きモノノケの底力、見せてくれよう！」妖術によって生まれた狐火が一斉に襲いかかる。攻撃力が最も高い敵に4回攻撃力×260%の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription810022]",
+          "descriptions": {
+            "zh-CN": "发动攻击前，使技能目标额外减少25%防御力与物理防御力，效果持续4回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに物理攻撃の前に4ターンの間対象の防御力と物理防御力をそれぞれ25%減少させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription810023]",
+          "descriptions": {
+            "zh-CN": "防御力与物理防御力降幅提升为50%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "防御力と物理防御力の減少量がそれぞれ50%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription810024]",
+          "descriptions": {
+            "zh-CN": "战斗中自第3次发动此技能起，造成的物理伤害提升为攻击力×1040%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "バトル中このスキルを使うのが3回目以降の場合、物理攻撃のダメージが攻撃力×1040%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription810025]",
+          "descriptions": {
+            "zh-CN": "强化狐火乱舞。造成的物理伤害提升为攻击力×280%。战斗中自第3次发动此技能起，造成的物理伤害提升为攻击力×1120%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "狐火乱舞を強化する。物理攻撃のダメージが攻撃力×280%になる。バトル中このスキルを使うのが3回目以降の場合、物理攻撃のダメージが攻撃力×1120%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription810021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              81002001,
+              81002002,
+              81002002,
+              81002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription810022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              81002201,
+              81002202,
+              81002202,
+              81002202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription810023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              81002301,
+              81002302,
+              81002302,
+              81002302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription810024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              81002401,
+              81002402,
+              81002402,
+              81002402
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription810025]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              81002501,
+              81002502,
+              81002502,
+              81002502
+            ]
+          }
+        ],
+        "Id": 81002,
+        "IsIgnore": null,
+        "Memo": "タマSR:Lv1 「悪名高きモノノケの底力、見せてくれよう！」妖術によって生まれた狐火が一斉に襲いかかる。攻撃力が最も高い敵に4回攻撃力×260%の物理攻撃を行う。/ Lv2 さらに物理攻撃の前に4ターンの間対象の防御力と物理防御力をそれぞれ25%減少させる。/ Lv3 防御力と物理防御力の減少量がそれぞれ50%になる。/ Lv4 バトル中このスキルを使うのが3回目以降の場合、物理攻撃のダメージが攻撃力×1040%になる。/ Ex3 狐火乱舞を強化する。物理攻撃のダメージが攻撃力×280%になる。バトル中このスキルを使うのが3回目以降の場合、物理攻撃のダメージが攻撃力×1120%になる。",
+        "NameKey": "[ActiveSkillName81002]",
+        "RootActiveSkillId": 81002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName81002]",
+      "names": {
+        "zh-CN": "狐火乱舞"
+      },
+      "source_memo_ja": "タマSR:Lv1 「悪名高きモノノケの底力、見せてくれよう！」妖術によって生まれた狐火が一斉に襲いかかる。攻撃力が最も高い敵に4回攻撃力×260%の物理攻撃を行う。/ Lv2 さらに物理攻撃の前に4ターンの間対象の防御力と物理防御力をそれぞれ25%減少させる。/ Lv3 防御力と物理防御力の減少量がそれぞれ50%になる。/ Lv4 バトル中このスキルを使うのが3回目以降の場合、物理攻撃のダメージが攻撃力×1040%になる。/ Ex3 狐火乱舞を強化する。物理攻撃のダメージが攻撃力×280%になる。バトル中このスキルを使うのが3回目以降の場合、物理攻撃のダメージが攻撃力×1120%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「悪名高きモノノケの底力、見せてくれよう！」妖術によって生まれた狐火が一斉に襲いかかる。攻撃力が最も高い敵に4回攻撃力×260%の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに物理攻撃の前に4ターンの間対象の防御力と物理防御力をそれぞれ25%減少させる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "防御力と物理防御力の減少量がそれぞれ50%になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "バトル中このスキルを使うのが3回目以降の場合、物理攻撃のダメージが攻撃力×1040%になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "狐火乱舞を強化する。物理攻撃のダメージが攻撃力×280%になる。バトル中このスキルを使うのが3回目以降の場合、物理攻撃のダメージが攻撃力×1120%になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 56,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 56,
+            "CollectionLevel": 1,
+            "Id": 5601,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴルペクラの悪戯​(タマ,ミミ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 56,
+            "CollectionLevel": 2,
+            "Id": 5602,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴルペクラの悪戯​(タマ,ミミ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 56,
+            "CollectionLevel": 3,
+            "Id": 5603,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴルペクラの悪戯​(タマ,ミミ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 56,
+            "CollectionLevel": 4,
+            "Id": 5604,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴルペクラの悪戯​(タマ,ミミ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 41.0,
+              "value_text": "+41×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 210.0,
+              "value_text": "+2.1%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 41.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 210.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 56,
+            "CollectionLevel": 5,
+            "Id": 5605,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴルペクラの悪戯​(タマ,ミミ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 42.0,
+              "value_text": "+42×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 220.0,
+              "value_text": "+2.2%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 42.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 220.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 56,
+            "CollectionLevel": 6,
+            "Id": 5606,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴルペクラの悪戯​(タマ,ミミ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 43.0,
+              "value_text": "+43×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 230.0,
+              "value_text": "+2.3%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 43.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 230.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 56,
+            "CollectionLevel": 7,
+            "Id": 5607,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴルペクラの悪戯​(タマ,ミミ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 44.0,
+              "value_text": "+44×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 240.0,
+              "value_text": "+2.4%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 44.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 240.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 56,
+            "CollectionLevel": 8,
+            "Id": 5608,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴルペクラの悪戯​(タマ,ミミ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 45.0,
+              "value_text": "+45×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 250.0,
+              "value_text": "+2.5%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 45.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 56,
+            "CollectionLevel": 9,
+            "Id": 5609,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴルペクラの悪戯​(タマ,ミミ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 56,
+        "IsIgnore": null,
+        "Memo": "ヴルペクラの悪戯​(タマ,ミミ)",
+        "NameKey": "[CharacterCollectionName56]",
+        "RequiredCharacterIds": [
+          81,
+          35
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2024-09-30 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName56]",
+      "names": {
+        "zh-CN": "狐狸座的恶作剧"
+      },
+      "required_character_ids": [
+        81,
+        35
+      ],
+      "required_characters": [
+        {
+          "id": 81,
+          "names": {
+            "zh-CN": "玉"
+          }
+        },
+        {
+          "id": 35,
+          "names": {
+            "zh-CN": "咪咪"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2024-09-30 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 4,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 81,
+    "job_flags": 2,
+    "master_record": {
+      "ActiveSkillIds": [
+        81001,
+        81002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 96,
+        "Health": 66,
+        "Intelligence": 84,
+        "Muscle": 84
+      },
+      "BaseParameterGrossCoefficient": 330,
+      "CharacterType": 0,
+      "ElementType": 4,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 81,
+      "InitialBattleParameter": {
+        "AttackPower": 0,
+        "Avoidance": 2,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 10,
+        "DefensePenetration": 0,
+        "HP": -3,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 1,
+        "Speed": 3286
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 2,
+      "Memo": "タマ",
+      "Name2Key": null,
+      "NameKey": "[CharacterName81]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        81003,
+        81004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2024-09-30 15:00:00"
+    },
+    "memo": "タマ",
+    "name_key": "[CharacterName81]",
+    "names": {
+      "zh-CN": "玉"
+    },
+    "speed": 3286,
+    "start_time_jst": "2024-09-30 15:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 811120240,
+    "exclusive_effect_id": 432,
+    "icon_id": 590,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 811120250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 104,
+        "EquipmentEvolutionId": 114,
+        "EquipmentExclusiveSkillDescriptionId": 72,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 2,
+        "ExclusiveEffectId": 432,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 590,
+        "Id": 811120240,
+        "IsIgnore": null,
+        "Memo": "タマLR240_銃",
+        "NameKey": "[EquipmentName585]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": null,
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 8,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          },
+          {
+            "BattleParameterType": 11,
+            "ChangeParameterType": 1,
+            "Value": 3500.0
+          }
+        ],
+        "CharacterId": 81,
+        "Id": 432,
+        "IsIgnore": null,
+        "Memo": "タマLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill81Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill81Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill81Description3]",
+        "Id": 72,
+        "IsIgnore": null,
+        "Memo": "タマ銃"
+      }
+    },
+    "name_key": "[EquipmentName585]",
+    "names": {
+      "zh-CN": "狐炎咒符"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "CriticalResist",
+        "parameter_type": 8,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      },
+      {
+        "change_parameter_type": 1,
+        "kind": "battle",
+        "parameter_code": "MagicCriticalDamageRelax",
+        "parameter_type": 11,
+        "raw_value": 3500.0,
+        "value_text": "+3,500"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill81Description1]",
+        "descriptions": {
+          "zh-CN": "强化妖狐燐火，「命中率上升」的附加目标增加为攻击力最高的2名友军。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill81Description2]",
+        "descriptions": {
+          "zh-CN": "强化最强守护神，「护盾」值提升为状态效果生效前的附加目标最大生命值×80%。当附加目标为流金属性时，使「护盾」值额外提升玉攻击力×600%。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill81Description3]",
+        "descriptions": {
+          "zh-CN": "强化狐火乱舞，造成的物理伤害提升为攻击力×280%。战斗中自第3次发动此技能起，造成的物理伤害提升为攻击力×1120%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 81003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription810031]",
+          "descriptions": {
+            "zh-CN": "“去罢，狐子狐孙们！”回合开始时，玉使攻击力最高的友军获得「护盾」与3个「小玉娃娃」，效果持续4回合。「护盾」值为状态效果生效前的附加目标最大生命值×30%。每个「小玉娃娃」视为1种不带任何效果的增益效果。此技能须在结束8次行动后才可再次触发。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「ゆけ、子分ども！」ターン開始時攻撃力が最も高い味方に、4ターンの間ステータス増減前の対象の最大HP×30%の『シールド』と『チビタマ人形』3つを付与する。『チビタマ人形』は効果を持たないバフとして扱う。このスキルは発動後8回行動終了するまで再び発動しない。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription810032]",
+          "descriptions": {
+            "zh-CN": "当「护盾」的附加目标为流金属性时，使「护盾」值额外提升玉攻击力×200%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに『シールド』を付与する対象が黄属性の場合、『シールド』の大きさが付与者自身の攻撃力×200%大きくなる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription810033]",
+          "descriptions": {
+            "zh-CN": "「护盾」与「小玉娃娃」效果增加为8回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "『シールド』と『チビタマ人形』のターン数が8ターンになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription810034]",
+          "descriptions": {
+            "zh-CN": "强化最强守护神，「护盾」值提升为状态效果生效前的附加目标最大生命值×80%。当附加目标为流金属性时，使「护盾」值额外提升玉攻击力×600%。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "サイキョーの守り神を強化する。『シールド』の大きさがステータス増減前の対象の最大HP×80%になる。対象が黄属性の場合に得られる『シールド』の増加量が付与者自身の攻撃力×600%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 81003,
+        "IsIgnore": null,
+        "Memo": "タマSR:Lv1 「ゆけ、子分ども！」ターン開始時攻撃力が最も高い味方に、4ターンの間ステータス増減前の対象の最大HP×30%の『シールド』と『チビタマ人形』3つを付与する。『チビタマ人形』は効果を持たないバフとして扱う。このスキルは発動後8回行動終了するまで再び発動しない。/ Lv2 さらに『シールド』を付与する対象が黄属性の場合、『シールド』の大きさが付与者自身の攻撃力×200%大きくなる。/ Lv3 『シールド』と『チビタマ人形』のターン数が8ターンになる。/ Ex2 サイキョーの守り神を強化する。『シールド』の大きさがステータス増減前の対象の最大HP×80%になる。対象が黄属性の場合に得られる『シールド』の増加量が付与者自身の攻撃力×600%になる。",
+        "NameKey": "[PassiveSkillName81003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription810031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 8,
+                "SubSetSkillId": 81003001
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 8,
+                "SubSetSkillId": 81003002
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription810032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 8,
+                "SubSetSkillId": 81003201
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 8,
+                "SubSetSkillId": 81003202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription810033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 8,
+                "SubSetSkillId": 81003301
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 8,
+                "SubSetSkillId": 81003302
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription810034]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 8,
+                "SubSetSkillId": 81003401
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 8,
+                "SubSetSkillId": 81003402
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName81003]",
+      "names": {
+        "zh-CN": "最强守护神"
+      },
+      "source_memo_ja": "タマSR:Lv1 「ゆけ、子分ども！」ターン開始時攻撃力が最も高い味方に、4ターンの間ステータス増減前の対象の最大HP×30%の『シールド』と『チビタマ人形』3つを付与する。『チビタマ人形』は効果を持たないバフとして扱う。このスキルは発動後8回行動終了するまで再び発動しない。/ Lv2 さらに『シールド』を付与する対象が黄属性の場合、『シールド』の大きさが付与者自身の攻撃力×200%大きくなる。/ Lv3 『シールド』と『チビタマ人形』のターン数が8ターンになる。/ Ex2 サイキョーの守り神を強化する。『シールド』の大きさがステータス増減前の対象の最大HP×80%になる。対象が黄属性の場合に得られる『シールド』の増加量が付与者自身の攻撃力×600%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「ゆけ、子分ども！」ターン開始時攻撃力が最も高い味方に、4ターンの間ステータス増減前の対象の最大HP×30%の『シールド』と『チビタマ人形』3つを付与する。『チビタマ人形』は効果を持たないバフとして扱う。このスキルは発動後8回行動終了するまで再び発動しない。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに『シールド』を付与する対象が黄属性の場合、『シールド』の大きさが付与者自身の攻撃力×200%大きくなる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "『シールド』と『チビタマ人形』のターン数が8ターンになる。"
+        },
+        {
+          "label": "Ex2",
+          "text": "サイキョーの守り神を強化する。『シールド』の大きさがステータス増減前の対象の最大HP×80%になる。対象が黄属性の場合に得られる『シールド』の増加量が付与者自身の攻撃力×600%になる。"
+        }
+      ]
+    },
+    {
+      "id": 81004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription810041]",
+          "descriptions": {
+            "zh-CN": "“咯咯！汝可找得着本仙？”当玉受到攻击，生命值低于70%且存活在场上的友军数为2名以上时，获得「透明」状态，效果持续8回合（无法被解除）。此技能每场战斗最多触发1次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「ケケッ、我が見つけられるかな？」自身が攻撃を受けて、HP割合が70%未満になり、味方の生存数が2体以上の場合、8ターンの間自身に『透明』を付与する（解除不可）。このスキルはバトル中1回のみ発動する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription810042]",
+          "descriptions": {
+            "zh-CN": "「透明」效果增加为16回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "『透明』のターン数が16ターンになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription810043]",
+          "descriptions": {
+            "zh-CN": "「透明」效果增加为32回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "『透明』のターン数が32ターンになる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 81004,
+        "IsIgnore": null,
+        "Memo": "タマSR:Lv1 「ケケッ、我が見つけられるかな？」自身が攻撃を受けて、HP割合が70%未満になり、味方の生存数が2体以上の場合、8ターンの間自身に『透明』を付与する（解除不可）。このスキルはバトル中1回のみ発動する。/ Lv2 『透明』のターン数が16ターンになる。/ Lv3 『透明』のターン数が32ターンになる。",
+        "NameKey": "[PassiveSkillName81004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription810041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 81004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription810042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 81004201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription810043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 81004301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName81004]",
+      "names": {
+        "zh-CN": "妖怪的恶作剧"
+      },
+      "source_memo_ja": "タマSR:Lv1 「ケケッ、我が見つけられるかな？」自身が攻撃を受けて、HP割合が70%未満になり、味方の生存数が2体以上の場合、8ターンの間自身に『透明』を付与する（解除不可）。このスキルはバトル中1回のみ発動する。/ Lv2 『透明』のターン数が16ターンになる。/ Lv3 『透明』のターン数が32ターンになる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「ケケッ、我が見つけられるかな？」自身が攻撃を受けて、HP割合が70%未満になり、味方の生存数が2体以上の場合、8ターンの間自身に『透明』を付与する（解除不可）。このスキルはバトル中1回のみ発動する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "『透明』のターン数が16ターンになる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "『透明』のターン数が32ターンになる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

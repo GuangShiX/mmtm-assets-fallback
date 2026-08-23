@@ -1,0 +1,1290 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 53001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription530011]",
+          "descriptions": {
+            "zh-CN": "维拉呼唤水中的朋友进行攻击，随机对3名敌人造成攻击力×430%的魔法伤害。水灵化身的少女从她触及的对象身上夺走精气，60%概率使技能目标减少15%攻击力，效果持续1回合。当技能目标的魔力低于维拉时，「攻击力下降」效果增加为2回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "水のおともだちを呼んで攻撃してもらう。ランダムな敵3体に攻撃力×430％の魔法攻撃を行う。水の乙女が触れた者の生気を奪い取り、60％の確率で1ターンの間対象の攻撃力を15％減少させる。対象の魔力が自身よりも低い場合、『攻撃力減少』のターン数が2ターンになる。/ Lv2\\n 攻撃力の減少量が35％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription530012]",
+          "descriptions": {
+            "zh-CN": "攻击力降幅提升为35%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "\\n攻撃力を減少させる確率が100％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription530013]",
+          "descriptions": {
+            "zh-CN": "附加「攻击力下降」状态的概率提升为100%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "ウンディーネを強化する。魔法攻撃の対象がランダムな敵4体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription530014]",
+          "descriptions": {
+            "zh-CN": ""
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "\\nウンディーネを強化する。魔法攻撃のダメージが攻撃力×480％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription530015]",
+          "descriptions": {
+            "zh-CN": ""
+          },
+          "equipment_rarity_flags": 256,
+          "order": 5,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription530011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              53001001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription530012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              53001201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription530013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              53001301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription530014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              53001401
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription530015]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              53001501
+            ]
+          }
+        ],
+        "Id": 53001,
+        "IsIgnore": null,
+        "Memo": "ウィーラSR:Lv1 水のおともだちを呼んで攻撃してもらう。ランダムな敵3体に攻撃力×430％の魔法攻撃を行う。水の乙女が触れた者の生気を奪い取り、60％の確率で1ターンの間対象の攻撃力を15％減少させる。対象の魔力が自身よりも低い場合、『攻撃力減少』のターン数が2ターンになる。/ Lv2\\n 攻撃力の減少量が35％になる。/ Lv3 \\n攻撃力を減少させる確率が100％になる。/ Ex1 ウンディーネを強化する。魔法攻撃の対象がランダムな敵4体になる。/Ex2 \\nウンディーネを強化する。魔法攻撃のダメージが攻撃力×480％になる。",
+        "NameKey": "[ActiveSkillName53001]",
+        "RootActiveSkillId": 53001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName53001]",
+      "names": {
+        "zh-CN": "温蒂妮"
+      },
+      "source_memo_ja": "ウィーラSR:Lv1 水のおともだちを呼んで攻撃してもらう。ランダムな敵3体に攻撃力×430％の魔法攻撃を行う。水の乙女が触れた者の生気を奪い取り、60％の確率で1ターンの間対象の攻撃力を15％減少させる。対象の魔力が自身よりも低い場合、『攻撃力減少』のターン数が2ターンになる。/ Lv2\\n 攻撃力の減少量が35％になる。/ Lv3 \\n攻撃力を減少させる確率が100％になる。/ Ex1 ウンディーネを強化する。魔法攻撃の対象がランダムな敵4体になる。/Ex2 \\nウンディーネを強化する。魔法攻撃のダメージが攻撃力×480％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "水のおともだちを呼んで攻撃してもらう。ランダムな敵3体に攻撃力×430％の魔法攻撃を行う。水の乙女が触れた者の生気を奪い取り、60％の確率で1ターンの間対象の攻撃力を15％減少させる。対象の魔力が自身よりも低い場合、『攻撃力減少』のターン数が2ターンになる。/ Lv2\\n 攻撃力の減少量が35％になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "\\n攻撃力を減少させる確率が100％になる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "ウンディーネを強化する。魔法攻撃の対象がランダムな敵4体になる。"
+        },
+        {
+          "label": "Ex2",
+          "text": "\\nウンディーネを強化する。魔法攻撃のダメージが攻撃力×480％になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 53002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription530021]",
+          "descriptions": {
+            "zh-CN": "维拉请求水中的妖精发动攻击，随机对敌人进行3次攻击，每次造成攻击力×310%的魔法伤害。缠绕的水流令对手难以行动，使技能目标减少15%速度，效果持续5回合（最多叠加3层）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "水の妖精にお願いして攻撃してもらう。ランダムな敵に3回攻撃力×310％の魔法攻撃を行う。まとわりついた水が相手の動きを遅くさせ、5ターンの間対象のスピードを15％減少させる（最大3回まで）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription530022]",
+          "descriptions": {
+            "zh-CN": "攻击次数增加为4次，「速度下降」效果最多可叠加4层。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "\\n魔法攻撃の回数が4回になり、『スピード減少』のスタック数が最大4回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription530023]",
+          "descriptions": {
+            "zh-CN": "当技能目标身上附带「速度下降」状态时，造成的魔法伤害增加为1.5倍。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "\\n『スピード減少』を付帯している敵を対象とする場合、魔法攻撃のダメージが1.5倍になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription530024]",
+          "descriptions": {
+            "zh-CN": "造成的魔法伤害提升为攻击力×380%，并使维拉额外恢复技能总伤害×30%的生命值。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "\\n魔法攻撃のダメージが攻撃力×380%になり、さらに自身のHPをこのスキルの総与ダメージ×30％回復する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription530025]",
+          "descriptions": {
+            "zh-CN": ""
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "アンダインを強化する。魔法攻撃のダメージが攻撃力×420％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription530021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              53002001,
+              53002002,
+              53002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription530022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              53002201,
+              53002202,
+              53002202,
+              53002202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription530023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              53002301,
+              53002302,
+              53002302,
+              53002302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription530024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              53002401,
+              53002402,
+              53002402,
+              53002402,
+              53002403
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription530025]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              53002501,
+              53002502,
+              53002502,
+              53002502,
+              53002403
+            ]
+          }
+        ],
+        "Id": 53002,
+        "IsIgnore": null,
+        "Memo": "ウィーラSR: Lv1 水の妖精にお願いして攻撃してもらう。ランダムな敵に3回攻撃力×310％の魔法攻撃を行う。まとわりついた水が相手の動きを遅くさせ、5ターンの間対象のスピードを15％減少させる（最大3回まで）。/ Lv2 \\n魔法攻撃の回数が4回になり、『スピード減少』のスタック数が最大4回になる。/Lv3 \\n『スピード減少』を付帯している敵を対象とする場合、魔法攻撃のダメージが1.5倍になる。/Lv4 \\n魔法攻撃のダメージが攻撃力×380%になり、さらに自身のHPをこのスキルの総与ダメージ×30％回復する。/ Ex3 アンダインを強化する。魔法攻撃のダメージが攻撃力×420％になる。",
+        "NameKey": "[ActiveSkillName53002]",
+        "RootActiveSkillId": 53002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName53002]",
+      "names": {
+        "zh-CN": "昂丁"
+      },
+      "source_memo_ja": "ウィーラSR: Lv1 水の妖精にお願いして攻撃してもらう。ランダムな敵に3回攻撃力×310％の魔法攻撃を行う。まとわりついた水が相手の動きを遅くさせ、5ターンの間対象のスピードを15％減少させる（最大3回まで）。/ Lv2 \\n魔法攻撃の回数が4回になり、『スピード減少』のスタック数が最大4回になる。/Lv3 \\n『スピード減少』を付帯している敵を対象とする場合、魔法攻撃のダメージが1.5倍になる。/Lv4 \\n魔法攻撃のダメージが攻撃力×380%になり、さらに自身のHPをこのスキルの総与ダメージ×30％回復する。/ Ex3 アンダインを強化する。魔法攻撃のダメージが攻撃力×420％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "水の妖精にお願いして攻撃してもらう。ランダムな敵に3回攻撃力×310％の魔法攻撃を行う。まとわりついた水が相手の動きを遅くさせ、5ターンの間対象のスピードを15％減少させる（最大3回まで）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "\\n魔法攻撃の回数が4回になり、『スピード減少』のスタック数が最大4回になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "\\n『スピード減少』を付帯している敵を対象とする場合、魔法攻撃のダメージが1.5倍になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "\\n魔法攻撃のダメージが攻撃力×380%になり、さらに自身のHPをこのスキルの総与ダメージ×30％回復する。"
+        },
+        {
+          "label": "Ex3",
+          "text": "アンダインを強化する。魔法攻撃のダメージが攻撃力×420％になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 9,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 9,
+            "CollectionLevel": 1,
+            "Id": 901,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ピスケスの愛護(ウィーラ,ミミ,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1500.0,
+              "value_text": "+1,500"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              },
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 9,
+            "CollectionLevel": 2,
+            "Id": 902,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ピスケスの愛護(ウィーラ,ミミ,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1500.0,
+              "value_text": "+1,500"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              },
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 9,
+            "CollectionLevel": 3,
+            "Id": 903,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ピスケスの愛護(ウィーラ,ミミ,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1500.0,
+              "value_text": "+1,500"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              },
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1500.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 9,
+            "CollectionLevel": 4,
+            "Id": 904,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ピスケスの愛護(ウィーラ,ミミ,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 75.0,
+              "value_text": "+75×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1600.0,
+              "value_text": "+1,600"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 3,
+                "Value": 75.0
+              },
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1600.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 9,
+            "CollectionLevel": 5,
+            "Id": 905,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ピスケスの愛護(ウィーラ,ミミ,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 80.0,
+              "value_text": "+80×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1700.0,
+              "value_text": "+1,700"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 3,
+                "Value": 80.0
+              },
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1700.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 9,
+            "CollectionLevel": 6,
+            "Id": 906,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ピスケスの愛護(ウィーラ,ミミ,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 85.0,
+              "value_text": "+85×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1800.0,
+              "value_text": "+1,800"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 3,
+                "Value": 85.0
+              },
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1800.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 9,
+            "CollectionLevel": 7,
+            "Id": 907,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ピスケスの愛護(ウィーラ,ミミ,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 90.0,
+              "value_text": "+90×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1900.0,
+              "value_text": "+1,900"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 3,
+                "Value": 90.0
+              },
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1900.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 9,
+            "CollectionLevel": 8,
+            "Id": 908,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ピスケスの愛護(ウィーラ,ミミ,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 95.0,
+              "value_text": "+95×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 2000.0,
+              "value_text": "+2,000"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 3,
+                "Value": 95.0
+              },
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 2000.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 9,
+            "CollectionLevel": 9,
+            "Id": 909,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ピスケスの愛護(ウィーラ,ミミ,ニーナ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 9,
+        "IsIgnore": null,
+        "Memo": "ピスケスの愛護(ウィーラ,ミミ,ニーナ)",
+        "NameKey": "[CharacterCollectionName9]",
+        "RequiredCharacterIds": [
+          53,
+          35,
+          28
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2023-03-16 15:00:00"
+      },
+      "name_key": "[CharacterCollectionName9]",
+      "names": {
+        "zh-CN": "双鱼座的怜惜"
+      },
+      "required_character_ids": [
+        53,
+        35,
+        28
+      ],
+      "required_characters": [
+        {
+          "id": 53,
+          "names": {
+            "zh-CN": "维拉"
+          }
+        },
+        {
+          "id": 35,
+          "names": {
+            "zh-CN": "咪咪"
+          }
+        },
+        {
+          "id": 28,
+          "names": {
+            "zh-CN": "妮娜"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2023-03-16 15:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 4,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 53,
+    "job_flags": 4,
+    "master_record": {
+      "ActiveSkillIds": [
+        53001,
+        53002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 86,
+        "Health": 96,
+        "Intelligence": 78,
+        "Muscle": 62
+      },
+      "BaseParameterGrossCoefficient": 322,
+      "CharacterType": 0,
+      "ElementType": 4,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 53,
+      "InitialBattleParameter": {
+        "AttackPower": 3,
+        "Avoidance": 0,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 4,
+        "DebuffResist": 0,
+        "Defense": 7,
+        "DefensePenetration": 0,
+        "HP": 0,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 3654
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 4,
+      "Memo": "ウィーラ",
+      "Name2Key": null,
+      "NameKey": "[CharacterName53]",
+      "NormalSkillId": 102,
+      "PassiveSkillIds": [
+        53003,
+        53004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2023-03-16 15:00:00"
+    },
+    "memo": "ウィーラ",
+    "name_key": "[CharacterName53]",
+    "names": {
+      "zh-CN": "维拉"
+    },
+    "speed": 3654,
+    "start_time_jst": "2023-03-16 15:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 3742,
+    "exclusive_effect_id": 216,
+    "icon_id": 422,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 3743,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 68,
+        "EquipmentEvolutionId": 78,
+        "EquipmentExclusiveSkillDescriptionId": 36,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 4,
+        "ExclusiveEffectId": 216,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 422,
+        "Id": 3742,
+        "IsIgnore": null,
+        "Memo": "ウィーラLR240_書",
+        "NameKey": "[EquipmentName401]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": null,
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 15,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          },
+          {
+            "BattleParameterType": 8,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 53,
+        "Id": 216,
+        "IsIgnore": null,
+        "Memo": "ウィーラLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill53Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill53Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill53Description3]",
+        "Id": 36,
+        "IsIgnore": null,
+        "Memo": "ウィーラ魔導書"
+      }
+    },
+    "name_key": "[EquipmentName401]",
+    "names": {
+      "zh-CN": "鱼鱼"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "DebuffHit",
+        "parameter_type": 15,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "CriticalResist",
+        "parameter_type": 8,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill53Description1]",
+        "descriptions": {
+          "zh-CN": "强化温蒂妮，技能目标增加为4名随机敌人。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill53Description2]",
+        "descriptions": {
+          "zh-CN": "强化温蒂妮，造成的魔法伤害提升为攻击力×480%。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill53Description3]",
+        "descriptions": {
+          "zh-CN": "强化昂丁，造成的魔法伤害提升为攻击力×420%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 53003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription530031]",
+          "descriptions": {
+            "zh-CN": "雨水会告诉我，所以小维知道你在哪里哦。维拉使自己增加20%命中率（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "雨が教えてくれるの。だからウィー、どこにいるかわかるよ。自身の命中率が20％増加する（解除不可）。/ Lv2\\nさらに自身の弱体効果命中率が20％増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription530032]",
+          "descriptions": {
+            "zh-CN": "额外增加20%弱化效果命中率（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "\\n命中率と弱体効果命中率の増加量がそれぞれ40％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription530033]",
+          "descriptions": {
+            "zh-CN": "命中率与弱化效果命中率增幅提升为40%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "Id": 53003,
+        "IsIgnore": null,
+        "Memo": "ウィーラSR: Lv1 雨が教えてくれるの。だからウィー、どこにいるかわかるよ。自身の命中率が20％増加する（解除不可）。/ Lv2\\nさらに自身の弱体効果命中率が20％増加する（解除不可）。/ Lv3 \\n命中率と弱体効果命中率の増加量がそれぞれ40％になる。",
+        "NameKey": "[PassiveSkillName53003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription530031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 53003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription530032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 53003201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription530033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 53003301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName53003]",
+      "names": {
+        "zh-CN": "雨水会告诉我"
+      },
+      "source_memo_ja": "ウィーラSR: Lv1 雨が教えてくれるの。だからウィー、どこにいるかわかるよ。自身の命中率が20％増加する（解除不可）。/ Lv2\\nさらに自身の弱体効果命中率が20％増加する（解除不可）。/ Lv3 \\n命中率と弱体効果命中率の増加量がそれぞれ40％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "雨が教えてくれるの。だからウィー、どこにいるかわかるよ。自身の命中率が20％増加する（解除不可）。/ Lv2\\nさらに自身の弱体効果命中率が20％増加する（解除不可）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "\\n命中率と弱体効果命中率の増加量がそれぞれ40％になる。"
+        }
+      ]
+    },
+    {
+      "id": 53004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription530041]",
+          "descriptions": {
+            "zh-CN": "“因为小露是小维最重要的朋友……！”当维拉受到攻击，生命值低于40%时，触发技能解除所有弱化效果。此技能须在结束4次行动后才可再次触发。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「だって、ルゥちゃんは、ウィーの大切なお友達だから……！」自身が攻撃を受けて、HP割合が40％未満になった場合、自身の弱体効果を全て解除する。このスキルは4ターンに1回発動する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription530042]",
+          "descriptions": {
+            "zh-CN": "额外获得攻击力×300%的「护盾」，效果持续2回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "\\nさらに1->2ターンの間自身に自身の攻撃力×300％の『シールド』を付与する。/ Lv3\\n『シールド』のターン数が2->3ターンになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription530043]",
+          "descriptions": {
+            "zh-CN": "「护盾」效果增加为3回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "Id": 53004,
+        "IsIgnore": null,
+        "Memo": "ウィーラSR: Lv1 「だって、ルゥちゃんは、ウィーの大切なお友達だから……！」自身が攻撃を受けて、HP割合が40％未満になった場合、自身の弱体効果を全て解除する。このスキルは4ターンに1回発動する。/ Lv2 \\nさらに1->2ターンの間自身に自身の攻撃力×300％の『シールド』を付与する。/ Lv3\\n『シールド』のターン数が2->3ターンになる。",
+        "NameKey": "[PassiveSkillName53004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription530041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 53004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription530042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 53004201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription530043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 53004301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName53004]",
+      "names": {
+        "zh-CN": "只有你陪着我"
+      },
+      "source_memo_ja": "ウィーラSR: Lv1 「だって、ルゥちゃんは、ウィーの大切なお友達だから……！」自身が攻撃を受けて、HP割合が40％未満になった場合、自身の弱体効果を全て解除する。このスキルは4ターンに1回発動する。/ Lv2 \\nさらに1->2ターンの間自身に自身の攻撃力×300％の『シールド』を付与する。/ Lv3\\n『シールド』のターン数が2->3ターンになる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「だって、ルゥちゃんは、ウィーの大切なお友達だから……！」自身が攻撃を受けて、HP割合が40％未満になった場合、自身の弱体効果を全て解除する。このスキルは4ターンに1回発動する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "\\nさらに1->2ターンの間自身に自身の攻撃力×300％の『シールド』を付与する。/ Lv3\\n『シールド』のターン数が2->3ターンになる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

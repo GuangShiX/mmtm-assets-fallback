@@ -1,0 +1,1316 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 55001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription550011]",
+          "descriptions": {
+            "zh-CN": "情绪失控的蕾雅胡乱挥舞着武器，使攻击力最高的敌人减少30%闪避率，效果持续2回合，并对技能目标造成攻击力×700%的物理伤害。攻击结束后，80%概率对技能目标附加「晕厥」状态，效果持续1回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "癇癪を起して滅茶苦茶に武器を振り回し、2ターンの間攻撃力が最も高い敵の回避率を30％減少させた後、対象に攻撃力×700％の物理攻撃を行う。その後80％の確率で対象に1ターンの間『気絶』を付与する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription550012]",
+          "descriptions": {
+            "zh-CN": "「晕厥」附加判定结束后，如果技能目标身上没有「晕厥」状态，蕾雅对技能目标追加攻击力×900%的物理伤害（如果技能目标失去战斗能力，无法触发此攻击）。此攻击必定命中。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "\\nさらに『気絶』付与の判定の後、対象が『気絶』を付帯していない場合、対象に攻撃力×900％の物理攻撃を行う。この攻撃は必ず命中する。ただし最初の攻撃で敵を戦闘不能にした場合、この攻撃は発動しない。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription550013]",
+          "descriptions": {
+            "zh-CN": "如果技能目标仍然存活，蕾雅再次发动此技能（最多1次）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "\\nさらにこのスキルで敵を戦闘不能にできなかった場合、このスキルを再発動する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription550014]",
+          "descriptions": {
+            "zh-CN": ""
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "\\n黙れ黙れ黙れぇっ！を強化する。回避率の減少量が50％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "*",
+          "descriptions": {
+            "zh-CN": null
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "\\n黙れ黙れ黙れぇっ！を強化する。「回避率減少」のターン数が3ターンになる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription550011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              55001001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription550012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              55001001,
+              55001202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription550013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              55001301,
+              55001302,
+              55001303,
+              55001302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription550014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              55001401,
+              55001302,
+              55001403,
+              55001302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "*",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              55001601,
+              55001302,
+              55001603,
+              55001302
+            ]
+          }
+        ],
+        "Id": 55001,
+        "IsIgnore": null,
+        "Memo": "レアSR:Lv1 癇癪を起して滅茶苦茶に武器を振り回し、2ターンの間攻撃力が最も高い敵の回避率を30％減少させた後、対象に攻撃力×700％の物理攻撃を行う。その後80％の確率で対象に1ターンの間『気絶』を付与する。/ Lv2 \\nさらに『気絶』付与の判定の後、対象が『気絶』を付帯していない場合、対象に攻撃力×900％の物理攻撃を行う。この攻撃は必ず命中する。ただし最初の攻撃で敵を戦闘不能にした場合、この攻撃は発動しない。/ Lv3 \\nさらにこのスキルで敵を戦闘不能にできなかった場合、このスキルを再発動する。/ Ex1 \\n黙れ黙れ黙れぇっ！を強化する。回避率の減少量が50％になる。/ Ex3 \\n黙れ黙れ黙れぇっ！を強化する。「回避率減少」のターン数が3ターンになる。",
+        "NameKey": "[ActiveSkillName55001]",
+        "RootActiveSkillId": 55001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName55001]",
+      "names": {
+        "zh-CN": "闭嘴闭嘴闭嘴！"
+      },
+      "source_memo_ja": "レアSR:Lv1 癇癪を起して滅茶苦茶に武器を振り回し、2ターンの間攻撃力が最も高い敵の回避率を30％減少させた後、対象に攻撃力×700％の物理攻撃を行う。その後80％の確率で対象に1ターンの間『気絶』を付与する。/ Lv2 \\nさらに『気絶』付与の判定の後、対象が『気絶』を付帯していない場合、対象に攻撃力×900％の物理攻撃を行う。この攻撃は必ず命中する。ただし最初の攻撃で敵を戦闘不能にした場合、この攻撃は発動しない。/ Lv3 \\nさらにこのスキルで敵を戦闘不能にできなかった場合、このスキルを再発動する。/ Ex1 \\n黙れ黙れ黙れぇっ！を強化する。回避率の減少量が50％になる。/ Ex3 \\n黙れ黙れ黙れぇっ！を強化する。「回避率減少」のターン数が3ターンになる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "癇癪を起して滅茶苦茶に武器を振り回し、2ターンの間攻撃力が最も高い敵の回避率を30％減少させた後、対象に攻撃力×700％の物理攻撃を行う。その後80％の確率で対象に1ターンの間『気絶』を付与する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "\\nさらに『気絶』付与の判定の後、対象が『気絶』を付帯していない場合、対象に攻撃力×900％の物理攻撃を行う。この攻撃は必ず命中する。ただし最初の攻撃で敵を戦闘不能にした場合、この攻撃は発動しない。"
+        },
+        {
+          "label": "Lv3",
+          "text": "\\nさらにこのスキルで敵を戦闘不能にできなかった場合、このスキルを再発動する。"
+        },
+        {
+          "label": "Ex1",
+          "text": "\\n黙れ黙れ黙れぇっ！を強化する。回避率の減少量が50％になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "\\n黙れ黙れ黙れぇっ！を強化する。「回避率減少」のターン数が3ターンになる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 55002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription550021]",
+          "descriptions": {
+            "zh-CN": "情绪激动的蕾雅不将对手置于死地不肯罢休，对攻击力最高的敌人造成攻击力×800%的物理伤害。当技能目标身上附带「闪避率下降」状态时，造成的物理伤害增加为1.5倍。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "高ぶった感情は相手を仕留めるまでおさまらない。攻撃力が最も高い敵に攻撃力×800％の物理攻撃を行う。対象が『回避率減少』を付帯している場合、物理攻撃のダメージが1.5倍になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription550022]",
+          "descriptions": {
+            "zh-CN": "当技能目标身上没有「闪避率下降」状态时，此攻击必定命中。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "\\nさらに対象が『回避率減少』を付帯していない場合、この攻撃は必ず命中する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription550023]",
+          "descriptions": {
+            "zh-CN": "蕾雅的生命值百分比越低，造成的物理伤害越高（最多攻击力×1200%）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "\\nさらに自身のHPが少なくなるほど物理攻撃のダメージが大きくなる（最大で攻撃力×1200％まで）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription550024]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害上限提升为攻击力×1600%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "\\n物理攻撃のダメージの最大値が攻撃力×1600％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription550025]",
+          "descriptions": {
+            "zh-CN": ""
+          },
+          "equipment_rarity_flags": 256,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "\\n見るな笑うなぁっ！を強化する。物理攻撃のダメージの最大値が攻撃力×1800％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription550021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              55002001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription550022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              55002201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription550023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              55002301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription550024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              55002401
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription550025]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              55002501
+            ]
+          }
+        ],
+        "Id": 55002,
+        "IsIgnore": null,
+        "Memo": "レアSR:Lv1 高ぶった感情は相手を仕留めるまでおさまらない。攻撃力が最も高い敵に攻撃力×800％の物理攻撃を行う。対象が『回避率減少』を付帯している場合、物理攻撃のダメージが1.5倍になる。/ Lv2 \\nさらに対象が『回避率減少』を付帯していない場合、この攻撃は必ず命中する。/ Lv3 \\nさらに自身のHPが少なくなるほど物理攻撃のダメージが大きくなる（最大で攻撃力×1200％まで）。/ Lv4 \\n物理攻撃のダメージの最大値が攻撃力×1600％になる。/ Ex2 \\n見るな笑うなぁっ！を強化する。物理攻撃のダメージの最大値が攻撃力×1800％になる。",
+        "NameKey": "[ActiveSkillName55002]",
+        "RootActiveSkillId": 55002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName55002]",
+      "names": {
+        "zh-CN": "不准看我不准笑我！"
+      },
+      "source_memo_ja": "レアSR:Lv1 高ぶった感情は相手を仕留めるまでおさまらない。攻撃力が最も高い敵に攻撃力×800％の物理攻撃を行う。対象が『回避率減少』を付帯している場合、物理攻撃のダメージが1.5倍になる。/ Lv2 \\nさらに対象が『回避率減少』を付帯していない場合、この攻撃は必ず命中する。/ Lv3 \\nさらに自身のHPが少なくなるほど物理攻撃のダメージが大きくなる（最大で攻撃力×1200％まで）。/ Lv4 \\n物理攻撃のダメージの最大値が攻撃力×1600％になる。/ Ex2 \\n見るな笑うなぁっ！を強化する。物理攻撃のダメージの最大値が攻撃力×1800％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "高ぶった感情は相手を仕留めるまでおさまらない。攻撃力が最も高い敵に攻撃力×800％の物理攻撃を行う。対象が『回避率減少』を付帯している場合、物理攻撃のダメージが1.5倍になる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "\\nさらに対象が『回避率減少』を付帯していない場合、この攻撃は必ず命中する。"
+        },
+        {
+          "label": "Lv3",
+          "text": "\\nさらに自身のHPが少なくなるほど物理攻撃のダメージが大きくなる（最大で攻撃力×1200％まで）。"
+        },
+        {
+          "label": "Lv4",
+          "text": "\\n物理攻撃のダメージの最大値が攻撃力×1600％になる。"
+        },
+        {
+          "label": "Ex2",
+          "text": "\\n見るな笑うなぁっ！を強化する。物理攻撃のダメージの最大値が攻撃力×1800％になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 11,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 15.0,
+              "value_text": "+15×角色等级"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 15.0
+              }
+            ],
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 11,
+            "CollectionLevel": 1,
+            "Id": 1101,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "サーペンスの愛執(レア,アモール,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 160.0,
+              "value_text": "+1.6%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 160.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 11,
+            "CollectionLevel": 2,
+            "Id": 1102,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "サーペンスの愛執(レア,アモール,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 160.0,
+              "value_text": "+1.6%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 160.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 11,
+            "CollectionLevel": 3,
+            "Id": 1103,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "サーペンスの愛執(レア,アモール,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 160.0,
+              "value_text": "+1.6%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 160.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 11,
+            "CollectionLevel": 4,
+            "Id": 1104,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "サーペンスの愛執(レア,アモール,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 31.0,
+              "value_text": "+31×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 180.0,
+              "value_text": "+1.8%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 31.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 180.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 11,
+            "CollectionLevel": 5,
+            "Id": 1105,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "サーペンスの愛執(レア,アモール,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 32.0,
+              "value_text": "+32×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 32.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 11,
+            "CollectionLevel": 6,
+            "Id": 1106,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "サーペンスの愛執(レア,アモール,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 33.0,
+              "value_text": "+33×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 220.0,
+              "value_text": "+2.2%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 33.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 220.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 11,
+            "CollectionLevel": 7,
+            "Id": 1107,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "サーペンスの愛執(レア,アモール,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 34.0,
+              "value_text": "+34×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 240.0,
+              "value_text": "+2.4%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 34.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 240.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 11,
+            "CollectionLevel": 8,
+            "Id": 1108,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "サーペンスの愛執(レア,アモール,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 35.0,
+              "value_text": "+35×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 260.0,
+              "value_text": "+2.6%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 35.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 260.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 11,
+            "CollectionLevel": 9,
+            "Id": 1109,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "サーペンスの愛執(レア,アモール,アイビー)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 11,
+        "IsIgnore": null,
+        "Memo": "サーペンスの愛執(レア,アモール,アイビー)",
+        "NameKey": "[CharacterCollectionName11]",
+        "RequiredCharacterIds": [
+          55,
+          17,
+          25
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2023-03-31 15:00:00"
+      },
+      "name_key": "[CharacterCollectionName11]",
+      "names": {
+        "zh-CN": "巨蛇座的依恋"
+      },
+      "required_character_ids": [
+        55,
+        17,
+        25
+      ],
+      "required_characters": [
+        {
+          "id": 55,
+          "names": {
+            "zh-CN": "蕾雅"
+          }
+        },
+        {
+          "id": 17,
+          "names": {
+            "zh-CN": "爱沐尔"
+          }
+        },
+        {
+          "id": 25,
+          "names": {
+            "zh-CN": "艾薇"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2023-03-31 15:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 3,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 55,
+    "job_flags": 2,
+    "master_record": {
+      "ActiveSkillIds": [
+        55001,
+        55002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 100,
+        "Health": 54,
+        "Intelligence": 86,
+        "Muscle": 84
+      },
+      "BaseParameterGrossCoefficient": 324,
+      "CharacterType": 0,
+      "ElementType": 3,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 55,
+      "InitialBattleParameter": {
+        "AttackPower": 0,
+        "Avoidance": 0,
+        "Critical": 3,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 6,
+        "DefensePenetration": 0,
+        "HP": -2,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 3571
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 2,
+      "Memo": "レア",
+      "Name2Key": null,
+      "NameKey": "[CharacterName55]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        55003,
+        55004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2023-03-31 15:00:00"
+    },
+    "memo": "レア",
+    "name_key": "[CharacterName55]",
+    "names": {
+      "zh-CN": "蕾雅"
+    },
+    "speed": 3571,
+    "start_time_jst": "2023-03-31 15:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 3800,
+    "exclusive_effect_id": 222,
+    "icon_id": 434,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 3801,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 69,
+        "EquipmentEvolutionId": 79,
+        "EquipmentExclusiveSkillDescriptionId": 37,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 2,
+        "ExclusiveEffectId": 222,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 434,
+        "Id": 3800,
+        "IsIgnore": null,
+        "Memo": "レアLR240_銃",
+        "NameKey": "[EquipmentName402]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": [
+          {
+            "BaseParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 800.0
+          }
+        ],
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 7,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 55,
+        "Id": 222,
+        "IsIgnore": null,
+        "Memo": "レアLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill55Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill55Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill55Description3]",
+        "Id": 37,
+        "IsIgnore": null,
+        "Memo": "レア銃"
+      }
+    },
+    "name_key": "[EquipmentName402]",
+    "names": {
+      "zh-CN": "连环杀机"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "base",
+        "parameter_code": "Energy",
+        "parameter_type": 2,
+        "raw_value": 800.0,
+        "value_text": "+8%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Critical",
+        "parameter_type": 7,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill55Description1]",
+        "descriptions": {
+          "zh-CN": "强化闭嘴闭嘴闭嘴！，闪避率降幅提升为50%。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill55Description2]",
+        "descriptions": {
+          "zh-CN": "强化不准看我不准笑我！，造成的物理伤害上限提升为攻击力×1800%。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill55Description3]",
+        "descriptions": {
+          "zh-CN": "强化闭嘴闭嘴闭嘴！，「闪避率下降」效果增加为3回合。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": false,
+  "missing_localization_keys": [
+    "*"
+  ],
+  "passive_skills": [
+    {
+      "id": 55003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription550031]",
+          "descriptions": {
+            "zh-CN": "“我、我、我必须先下手为强……！在、在对方杀了我之前……先杀了对方！”过多的臆测导致蕾雅充满攻击性，使她增加15%攻击力（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「や、や、やらなきゃ……！　こ、殺される前に……殺さなきゃ！」過剰な思い込みによって攻撃性が増し、自身の攻撃力が15％増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription550032]",
+          "descriptions": {
+            "zh-CN": "额外增加15%暴击伤害强化（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "\\nさらに自身のクリティカルダメージが15％増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription550033]",
+          "descriptions": {
+            "zh-CN": "攻击力与暴击伤害强化增幅提升为35%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "\\n攻撃力とクリティカルダメージの増加量がそれぞれ35％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 55003,
+        "IsIgnore": null,
+        "Memo": "レアSR:Lv1 「や、や、やらなきゃ……！　こ、殺される前に……殺さなきゃ！」過剰な思い込みによって攻撃性が増し、自身の攻撃力が15％増加する（解除不可）。/ Lv2 \\nさらに自身のクリティカルダメージが15％増加する（解除不可）。/ Lv3 \\n攻撃力とクリティカルダメージの増加量がそれぞれ35％になる。",
+        "NameKey": "[PassiveSkillName55003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription550031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 55003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription550032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 55003201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription550033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 55003301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName55003]",
+      "names": {
+        "zh-CN": "精神错乱"
+      },
+      "source_memo_ja": "レアSR:Lv1 「や、や、やらなきゃ……！　こ、殺される前に……殺さなきゃ！」過剰な思い込みによって攻撃性が増し、自身の攻撃力が15％増加する（解除不可）。/ Lv2 \\nさらに自身のクリティカルダメージが15％増加する（解除不可）。/ Lv3 \\n攻撃力とクリティカルダメージの増加量がそれぞれ35％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「や、や、やらなきゃ……！　こ、殺される前に……殺さなきゃ！」過剰な思い込みによって攻撃性が増し、自身の攻撃力が15％増加する（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "\\nさらに自身のクリティカルダメージが15％増加する（解除不可）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "\\n攻撃力とクリティカルダメージの増加量がそれぞれ35％になる。"
+        }
+      ]
+    },
+    {
+      "id": 55004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription550041]",
+          "descriptions": {
+            "zh-CN": "“那个人在笑……他、他一定是在笑我……”受困在旁人听不见的笑声中，蕾雅总是避开别人耳目过活。战斗开始时，蕾雅获得「隐身」状态，效果持续1回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「あの人笑ってる……き、きっと、私を笑ってるんだ……」周りの人には聞こえない笑い声に囚われ、人目を避けて生きてきた。バトル開始時自身に1ターンの間『ステルス』を付与する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription550042]",
+          "descriptions": {
+            "zh-CN": "「隐身」效果增加为2回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "\\n『ステルス』のターン数が2ターンになる。/ Lv3\\nさらに自身が最大HPの25％を超えるダメージの攻撃を受けた場合、2ターンの間自身の被ダメージを15％減少させる。このスキルは4ターンに1回発動する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription550043]",
+          "descriptions": {
+            "zh-CN": "当蕾雅受到攻击，承受伤害超过最大生命值的25%时，额外减少15%自身承受伤害，效果持续2回合。此技能须在结束4次行动后才可再次触发。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "Id": 55004,
+        "IsIgnore": null,
+        "Memo": "レアSR:Lv1 「あの人笑ってる……き、きっと、私を笑ってるんだ……」周りの人には聞こえない笑い声に囚われ、人目を避けて生きてきた。バトル開始時自身に1ターンの間『ステルス』を付与する。/ Lv2 \\n『ステルス』のターン数が2ターンになる。/ Lv3\\nさらに自身が最大HPの25％を超えるダメージの攻撃を受けた場合、2ターンの間自身の被ダメージを15％減少させる。このスキルは4ターンに1回発動する。",
+        "NameKey": "[PassiveSkillName55004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription550041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 55004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription550042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 55004201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription550043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 55004201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 55004302
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName55004]",
+      "names": {
+        "zh-CN": "被害妄想"
+      },
+      "source_memo_ja": "レアSR:Lv1 「あの人笑ってる……き、きっと、私を笑ってるんだ……」周りの人には聞こえない笑い声に囚われ、人目を避けて生きてきた。バトル開始時自身に1ターンの間『ステルス』を付与する。/ Lv2 \\n『ステルス』のターン数が2ターンになる。/ Lv3\\nさらに自身が最大HPの25％を超えるダメージの攻撃を受けた場合、2ターンの間自身の被ダメージを15％減少させる。このスキルは4ターンに1回発動する。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「あの人笑ってる……き、きっと、私を笑ってるんだ……」周りの人には聞こえない笑い声に囚われ、人目を避けて生きてきた。バトル開始時自身に1ターンの間『ステルス』を付与する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "\\n『ステルス』のターン数が2ターンになる。/ Lv3\\nさらに自身が最大HPの25％を超えるダメージの攻撃を受けた場合、2ターンの間自身の被ダメージを15％減少させる。このスキルは4ターンに1回発動する。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

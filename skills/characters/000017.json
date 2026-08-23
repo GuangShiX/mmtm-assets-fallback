@@ -1,0 +1,2745 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 17001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription170011]",
+          "descriptions": {
+            "zh-CN": "爱沐尔对爱人的执着化作对仇人的执念，对生命值百分比最低的敌人进行2次攻击，每次造成攻击力×300%的物理伤害。如果爱沐尔在本回合内使敌人失去战斗能力，再随机对5名敌人追加攻击力×300%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "愛する者への執着は、仇為す者に対する執念へと変わる。HP割合が最も低い敵に2回攻撃力×300％の物理攻撃を行う。さらにこのスキルで敵を戦闘不能にした場合、残りの敵4体に攻撃力×300％の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription170012]",
+          "descriptions": {
+            "zh-CN": "第一波攻击与追加攻击造成的物理伤害提升为攻击力×350%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "最初の物理攻撃と追加攻撃のダメージがそれぞれ攻撃力×350%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription170013]",
+          "descriptions": {
+            "zh-CN": "第一波攻击次数增加为3次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "最初の物理攻撃の回数が3回になる。　/専用1 狂愛の暴走を強化する。さらにこのスキルで敵を戦闘不能にできなかった場合、HP割合が最も低い敵に3回攻撃力×260%の物理攻撃を行う（その敵が戦闘不能になった時点で追加攻撃は終了）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription170014]",
+          "descriptions": {
+            "zh-CN": "[ActiveSkillDescription170014]"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription170011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              17001001,
+              17001002,
+              17001003
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription170012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              17001201,
+              17001202,
+              17001203
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription170013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              17001201,
+              17001202,
+              17001202,
+              17001203
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription170014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              17001201,
+              17001202,
+              17001202,
+              17001404,
+              17001405,
+              17001405,
+              17001405
+            ]
+          }
+        ],
+        "Id": 17001,
+        "IsIgnore": null,
+        "Memo": "アモールSR: /Lv1　愛する者への執着は、仇為す者に対する執念へと変わる。HP割合が最も低い敵に2回攻撃力×300％の物理攻撃を行う。さらにこのスキルで敵を戦闘不能にした場合、残りの敵4体に攻撃力×300％の物理攻撃を行う。　/Lv2 最初の物理攻撃と追加攻撃のダメージがそれぞれ攻撃力×350%になる。　/Lv3 最初の物理攻撃の回数が3回になる。　/専用1 狂愛の暴走を強化する。さらにこのスキルで敵を戦闘不能にできなかった場合、HP割合が最も低い敵に3回攻撃力×260%の物理攻撃を行う（その敵が戦闘不能になった時点で追加攻撃は終了）。",
+        "NameKey": "[ActiveSkillName17001]",
+        "RootActiveSkillId": 17001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName17001]",
+      "names": {
+        "zh-CN": "为爱疯狂"
+      },
+      "source_memo_ja": "アモールSR: /Lv1　愛する者への執着は、仇為す者に対する執念へと変わる。HP割合が最も低い敵に2回攻撃力×300％の物理攻撃を行う。さらにこのスキルで敵を戦闘不能にした場合、残りの敵4体に攻撃力×300％の物理攻撃を行う。　/Lv2 最初の物理攻撃と追加攻撃のダメージがそれぞれ攻撃力×350%になる。　/Lv3 最初の物理攻撃の回数が3回になる。　/専用1 狂愛の暴走を強化する。さらにこのスキルで敵を戦闘不能にできなかった場合、HP割合が最も低い敵に3回攻撃力×260%の物理攻撃を行う（その敵が戦闘不能になった時点で追加攻撃は終了）。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "愛する者への執着は、仇為す者に対する執念へと変わる。HP割合が最も低い敵に2回攻撃力×300％の物理攻撃を行う。さらにこのスキルで敵を戦闘不能にした場合、残りの敵4体に攻撃力×300％の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "最初の物理攻撃と追加攻撃のダメージがそれぞれ攻撃力×350%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "最初の物理攻撃の回数が3回になる。　/専用1 狂愛の暴走を強化する。さらにこのスキルで敵を戦闘不能にできなかった場合、HP割合が最も低い敵に3回攻撃力×260%の物理攻撃を行う（その敵が戦闘不能になった時点で追加攻撃は終了）。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 17002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription170021]",
+          "descriptions": {
+            "zh-CN": "爱沐尔的荆棘会紧紧缠住猎物不放，并在伤口中留下尖刺。随机对3名敌人造成攻击力×460%的物理伤害，并附加「不治」状态，效果持续3回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "その荊は一度抱きしめたら離さず、傷跡には棘を残す。ランダムな敵3体に攻撃力×460％の物理攻撃を行い、3ターンの間『不治』を付与する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription170022]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×510%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "物理攻撃のダメージが攻撃力×510%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription170023]",
+          "descriptions": {
+            "zh-CN": "攻击结束后，爱沐尔额外减少50%自身承受伤害，增加100%伤害反弹，效果持续2回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらに攻撃後、2ターンの間自身の被ダメージが50％減少し、カウンタが100％増加する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription170024]",
+          "descriptions": {
+            "zh-CN": "技能目标增加为4名随机敌人。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "このスキルの対象がランダムな敵4体になる。　/専用2 荊の抱擁を強化する。さらに自身のHP割合が30％以下の場合、物理攻撃のダメージが2倍になる。　/専用3 荊の抱擁を強化する。カウンタの増加量が120％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription170025]",
+          "descriptions": {
+            "zh-CN": "[ActiveSkillDescription170025]"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 5,
+          "source_memo_ja": null
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription170026]",
+          "descriptions": {
+            "zh-CN": "[ActiveSkillDescription170026]"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 6,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription170021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              17002001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription170022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              17002201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription170023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              17002201,
+              17002302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription170024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              17002401,
+              17002302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription170025]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              17002501,
+              17002302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription170026]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 6,
+            "SubSetSkillIds": [
+              17002501,
+              17002602
+            ]
+          }
+        ],
+        "Id": 17002,
+        "IsIgnore": null,
+        "Memo": "アモールSR: /Lv1　その荊は一度抱きしめたら離さず、傷跡には棘を残す。ランダムな敵3体に攻撃力×460％の物理攻撃を行い、3ターンの間『不治』を付与する。　/Lv2 物理攻撃のダメージが攻撃力×510%になる。　/Lv3 さらに攻撃後、2ターンの間自身の被ダメージが50％減少し、カウンタが100％増加する。　/Lv4 このスキルの対象がランダムな敵4体になる。　/専用2 荊の抱擁を強化する。さらに自身のHP割合が30％以下の場合、物理攻撃のダメージが2倍になる。　/専用3 荊の抱擁を強化する。カウンタの増加量が120％になる。",
+        "NameKey": "[ActiveSkillName17002]",
+        "RootActiveSkillId": 17002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 5
+      },
+      "max_cooldown": 5,
+      "name_key": "[ActiveSkillName17002]",
+      "names": {
+        "zh-CN": "荆棘之拥"
+      },
+      "source_memo_ja": "アモールSR: /Lv1　その荊は一度抱きしめたら離さず、傷跡には棘を残す。ランダムな敵3体に攻撃力×460％の物理攻撃を行い、3ターンの間『不治』を付与する。　/Lv2 物理攻撃のダメージが攻撃力×510%になる。　/Lv3 さらに攻撃後、2ターンの間自身の被ダメージが50％減少し、カウンタが100％増加する。　/Lv4 このスキルの対象がランダムな敵4体になる。　/専用2 荊の抱擁を強化する。さらに自身のHP割合が30％以下の場合、物理攻撃のダメージが2倍になる。　/専用3 荊の抱擁を強化する。カウンタの増加量が120％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "その荊は一度抱きしめたら離さず、傷跡には棘を残す。ランダムな敵3体に攻撃力×460％の物理攻撃を行い、3ターンの間『不治』を付与する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "物理攻撃のダメージが攻撃力×510%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらに攻撃後、2ターンの間自身の被ダメージが50％減少し、カウンタが100％増加する。"
+        },
+        {
+          "label": "Lv4",
+          "text": "このスキルの対象がランダムな敵4体になる。　/専用2 荊の抱擁を強化する。さらに自身のHP割合が30％以下の場合、物理攻撃のダメージが2倍になる。　/専用3 荊の抱擁を強化する。カウンタの増加量が120％になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 5,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 500.0,
+              "value_text": "+500"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 1,
+                "Value": 500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 5,
+            "CollectionLevel": 1,
+            "Id": 501,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "モノケロスの咆哮(サブリナ,アモール,アイビー,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 5000.0,
+              "value_text": "+5,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1500.0,
+              "value_text": "+1,500"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 1,
+                "Value": 5000.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 5,
+            "CollectionLevel": 2,
+            "Id": 502,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "モノケロスの咆哮(サブリナ,アモール,アイビー,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 5000.0,
+              "value_text": "+5,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1500.0,
+              "value_text": "+1,500"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 1,
+                "Value": 5000.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 5,
+            "CollectionLevel": 3,
+            "Id": 503,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "モノケロスの咆哮(サブリナ,アモール,アイビー,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 5000.0,
+              "value_text": "+5,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1500.0,
+              "value_text": "+1,500"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 1,
+                "Value": 5000.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1500.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 5,
+            "CollectionLevel": 4,
+            "Id": 504,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "モノケロスの咆哮(サブリナ,アモール,アイビー,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 6000.0,
+              "value_text": "+6,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1600.0,
+              "value_text": "+1,600"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 1,
+                "Value": 6000.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1600.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 5,
+            "CollectionLevel": 5,
+            "Id": 505,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "モノケロスの咆哮(サブリナ,アモール,アイビー,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 7000.0,
+              "value_text": "+7,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1700.0,
+              "value_text": "+1,700"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 1,
+                "Value": 7000.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1700.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 5,
+            "CollectionLevel": 6,
+            "Id": 506,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "モノケロスの咆哮(サブリナ,アモール,アイビー,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 8000.0,
+              "value_text": "+8,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1800.0,
+              "value_text": "+1,800"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 1,
+                "Value": 8000.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1800.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 5,
+            "CollectionLevel": 7,
+            "Id": 507,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "モノケロスの咆哮(サブリナ,アモール,アイビー,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 9000.0,
+              "value_text": "+9,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1900.0,
+              "value_text": "+1,900"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 1,
+                "Value": 9000.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1900.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 5,
+            "CollectionLevel": 8,
+            "Id": 508,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "モノケロスの咆哮(サブリナ,アモール,アイビー,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 10000.0,
+              "value_text": "+10,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 2000.0,
+              "value_text": "+2,000"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 1,
+                "Value": 10000.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 2000.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 5,
+            "CollectionLevel": 9,
+            "Id": 509,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "モノケロスの咆哮(サブリナ,アモール,アイビー,ニーナ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 5,
+        "IsIgnore": null,
+        "Memo": "モノケロスの咆哮(サブリナ,アモール,アイビー,ニーナ)",
+        "NameKey": "[CharacterCollectionName5]",
+        "RequiredCharacterIds": [
+          15,
+          17,
+          25,
+          28
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2020-01-01 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName5]",
+      "names": {
+        "zh-CN": "独角兽座的咆哮"
+      },
+      "required_character_ids": [
+        15,
+        17,
+        25,
+        28
+      ],
+      "required_characters": [
+        {
+          "id": 15,
+          "names": {
+            "zh-CN": "萨宾娜"
+          }
+        },
+        {
+          "id": 17,
+          "names": {
+            "zh-CN": "爱沐尔"
+          }
+        },
+        {
+          "id": 25,
+          "names": {
+            "zh-CN": "艾薇"
+          }
+        },
+        {
+          "id": 28,
+          "names": {
+            "zh-CN": "妮娜"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2020-01-01 00:00:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 11,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 15.0,
+              "value_text": "+15×角色等级"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 15.0
+              }
+            ],
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 11,
+            "CollectionLevel": 1,
+            "Id": 1101,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "サーペンスの愛執(レア,アモール,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 160.0,
+              "value_text": "+1.6%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 160.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 11,
+            "CollectionLevel": 2,
+            "Id": 1102,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "サーペンスの愛執(レア,アモール,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 160.0,
+              "value_text": "+1.6%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 160.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 11,
+            "CollectionLevel": 3,
+            "Id": 1103,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "サーペンスの愛執(レア,アモール,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 160.0,
+              "value_text": "+1.6%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 160.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 11,
+            "CollectionLevel": 4,
+            "Id": 1104,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "サーペンスの愛執(レア,アモール,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 31.0,
+              "value_text": "+31×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 180.0,
+              "value_text": "+1.8%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 31.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 180.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 11,
+            "CollectionLevel": 5,
+            "Id": 1105,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "サーペンスの愛執(レア,アモール,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 32.0,
+              "value_text": "+32×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 32.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 11,
+            "CollectionLevel": 6,
+            "Id": 1106,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "サーペンスの愛執(レア,アモール,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 33.0,
+              "value_text": "+33×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 220.0,
+              "value_text": "+2.2%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 33.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 220.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 11,
+            "CollectionLevel": 7,
+            "Id": 1107,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "サーペンスの愛執(レア,アモール,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 34.0,
+              "value_text": "+34×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 240.0,
+              "value_text": "+2.4%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 34.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 240.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 11,
+            "CollectionLevel": 8,
+            "Id": 1108,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "サーペンスの愛執(レア,アモール,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 35.0,
+              "value_text": "+35×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 260.0,
+              "value_text": "+2.6%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 35.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 260.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 11,
+            "CollectionLevel": 9,
+            "Id": 1109,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "サーペンスの愛執(レア,アモール,アイビー)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 11,
+        "IsIgnore": null,
+        "Memo": "サーペンスの愛執(レア,アモール,アイビー)",
+        "NameKey": "[CharacterCollectionName11]",
+        "RequiredCharacterIds": [
+          55,
+          17,
+          25
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2023-03-31 15:00:00"
+      },
+      "name_key": "[CharacterCollectionName11]",
+      "names": {
+        "zh-CN": "巨蛇座的依恋"
+      },
+      "required_character_ids": [
+        55,
+        17,
+        25
+      ],
+      "required_characters": [
+        {
+          "id": 55,
+          "names": {
+            "zh-CN": "蕾雅"
+          }
+        },
+        {
+          "id": 17,
+          "names": {
+            "zh-CN": "爱沐尔"
+          }
+        },
+        {
+          "id": 25,
+          "names": {
+            "zh-CN": "艾薇"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2023-03-31 15:00:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 34,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 34,
+            "CollectionLevel": 1,
+            "Id": 3401,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "コマ・ベレニケの恋路(聖夜アモール,アモール)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 34,
+            "CollectionLevel": 2,
+            "Id": 3402,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "コマ・ベレニケの恋路(聖夜アモール,アモール)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 34,
+            "CollectionLevel": 3,
+            "Id": 3403,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "コマ・ベレニケの恋路(聖夜アモール,アモール)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 34,
+            "CollectionLevel": 4,
+            "Id": 3404,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "コマ・ベレニケの恋路(聖夜アモール,アモール)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 31.0,
+              "value_text": "+31×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 75.0,
+              "value_text": "+75×角色等级"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 31.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 75.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 34,
+            "CollectionLevel": 5,
+            "Id": 3405,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "コマ・ベレニケの恋路(聖夜アモール,アモール)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 32.0,
+              "value_text": "+32×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 80.0,
+              "value_text": "+80×角色等级"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 32.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 80.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 34,
+            "CollectionLevel": 6,
+            "Id": 3406,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "コマ・ベレニケの恋路(聖夜アモール,アモール)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 33.0,
+              "value_text": "+33×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 85.0,
+              "value_text": "+85×角色等级"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 33.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 85.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 34,
+            "CollectionLevel": 7,
+            "Id": 3407,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "コマ・ベレニケの恋路(聖夜アモール,アモール)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 34.0,
+              "value_text": "+34×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 90.0,
+              "value_text": "+90×角色等级"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 34.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 90.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 34,
+            "CollectionLevel": 8,
+            "Id": 3408,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "コマ・ベレニケの恋路(聖夜アモール,アモール)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 35.0,
+              "value_text": "+35×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 95.0,
+              "value_text": "+95×角色等级"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 35.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 95.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 34,
+            "CollectionLevel": 9,
+            "Id": 3409,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "コマ・ベレニケの恋路(聖夜アモール,アモール)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 34,
+        "IsIgnore": null,
+        "Memo": "コマ・ベレニケの恋路(聖夜アモール,アモール)",
+        "NameKey": "[CharacterCollectionName34]",
+        "RequiredCharacterIds": [
+          73,
+          17
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2023-11-30 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName34]",
+      "names": {
+        "zh-CN": "后发座的情路"
+      },
+      "required_character_ids": [
+        73,
+        17
+      ],
+      "required_characters": [
+        {
+          "id": 73,
+          "names": {
+            "zh-CN": "爱沐尔"
+          }
+        },
+        {
+          "id": 17,
+          "names": {
+            "zh-CN": "爱沐尔"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2023-11-30 00:00:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 50,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 500.0,
+              "value_text": "+500"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 50,
+            "CollectionLevel": 1,
+            "Id": 5001,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "セプトラムの威光(カグヤ,アモール)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              },
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 50,
+            "CollectionLevel": 2,
+            "Id": 5002,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "セプトラムの威光(カグヤ,アモール)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              },
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 50,
+            "CollectionLevel": 3,
+            "Id": 5003,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "セプトラムの威光(カグヤ,アモール)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              },
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 50,
+            "CollectionLevel": 4,
+            "Id": 5004,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "セプトラムの威光(カグヤ,アモール)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1050.0,
+              "value_text": "+1,050"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 210.0,
+              "value_text": "+2.1%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1050.0
+              },
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 210.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 50,
+            "CollectionLevel": 5,
+            "Id": 5005,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "セプトラムの威光(カグヤ,アモール)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1100.0,
+              "value_text": "+1,100"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 220.0,
+              "value_text": "+2.2%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1100.0
+              },
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 220.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 50,
+            "CollectionLevel": 6,
+            "Id": 5006,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "セプトラムの威光(カグヤ,アモール)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1150.0,
+              "value_text": "+1,150"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 230.0,
+              "value_text": "+2.3%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1150.0
+              },
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 230.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 50,
+            "CollectionLevel": 7,
+            "Id": 5007,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "セプトラムの威光(カグヤ,アモール)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1200.0,
+              "value_text": "+1,200"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 240.0,
+              "value_text": "+2.4%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1200.0
+              },
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 240.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 50,
+            "CollectionLevel": 8,
+            "Id": 5008,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "セプトラムの威光(カグヤ,アモール)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1250.0,
+              "value_text": "+1,250"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 250.0,
+              "value_text": "+2.5%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1250.0
+              },
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 50,
+            "CollectionLevel": 9,
+            "Id": 5009,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "セプトラムの威光(カグヤ,アモール)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 50,
+        "IsIgnore": null,
+        "Memo": "セプトラムの威光(カグヤ,アモール)",
+        "NameKey": "[CharacterCollectionName50]",
+        "RequiredCharacterIds": [
+          69,
+          17
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2024-06-28 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName50]",
+      "names": {
+        "zh-CN": "王笏座的威势"
+      },
+      "required_character_ids": [
+        69,
+        17
+      ],
+      "required_characters": [
+        {
+          "id": 69,
+          "names": {
+            "zh-CN": "辉夜"
+          }
+        },
+        {
+          "id": 17,
+          "names": {
+            "zh-CN": "爱沐尔"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2024-06-28 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 2,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 17,
+    "job_flags": 2,
+    "master_record": {
+      "ActiveSkillIds": [
+        17001,
+        17002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 94,
+        "Health": 78,
+        "Intelligence": 90,
+        "Muscle": 74
+      },
+      "BaseParameterGrossCoefficient": 336,
+      "CharacterType": 0,
+      "ElementType": 2,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 17,
+      "InitialBattleParameter": {
+        "AttackPower": -3,
+        "Avoidance": 0,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 5,
+        "DebuffResist": 0,
+        "Defense": 7,
+        "DefensePenetration": 0,
+        "HP": -1,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 2550
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 2,
+      "Memo": "アモール",
+      "Name2Key": null,
+      "NameKey": "[CharacterName17]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        17003,
+        17004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2020-01-01 00:00:00"
+    },
+    "memo": "アモール",
+    "name_key": "[CharacterName17]",
+    "names": {
+      "zh-CN": "爱沐尔"
+    },
+    "speed": 2550,
+    "start_time_jst": "2020-01-01 00:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 2176,
+    "exclusive_effect_id": 54,
+    "icon_id": 254,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 2177,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 41,
+        "EquipmentEvolutionId": 51,
+        "EquipmentExclusiveSkillDescriptionId": 9,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 2,
+        "ExclusiveEffectId": 54,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 254,
+        "Id": 2176,
+        "IsIgnore": null,
+        "Memo": "アモールLR240_銃",
+        "NameKey": "[EquipmentName249]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": null,
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 15,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          },
+          {
+            "BattleParameterType": 6,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 17,
+        "Id": 54,
+        "IsIgnore": null,
+        "Memo": "アモールLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill17Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill17Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill17Description3]",
+        "Id": 9,
+        "IsIgnore": null,
+        "Memo": "アモール銃"
+      }
+    },
+    "name_key": "[EquipmentName249]",
+    "names": {
+      "zh-CN": "求爱荆棘"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "DebuffHit",
+        "parameter_type": 15,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Avoidance",
+        "parameter_type": 6,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill17Description1]",
+        "descriptions": {
+          "zh-CN": "强化为爱疯狂，如果爱沐尔在本回合内未能使敌人失去战斗能力，再对生命值百分比最低的敌人追加3次攻击，每次造成攻击力×260%的物理伤害（追加攻击将在技能目标失去战斗能力后停止）。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill17Description2]",
+        "descriptions": {
+          "zh-CN": "强化荆棘之拥，当爱沐尔的生命值为30%以下时，造成的物理伤害增加为2倍。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill17Description3]",
+        "descriptions": {
+          "zh-CN": "强化荆棘之拥，伤害反弹增幅提升为120%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 17003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription170031]",
+          "descriptions": {
+            "zh-CN": "得到幸福美满的结局之前，爱沐尔不会让故事划下句点。失去战斗能力时，爱沐尔将复活并恢复30%最大生命值。“亵渎故事的人罪该万死！”再对面前的敌人造成过去20回合内自身承受总伤害×10%的直接伤害。此攻击必定命中。此技能每场战斗最多触发1次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "ハッピーエンドまで、物語は終わらせない。自身が戦闘不能になったとき、自身の最大HP×30％のHPを回復して復活する。物語を汚したものは許さない──さらに正面の敵に過去20ターンで受けた自身の総被ダメージ×10％の直接攻撃を行う。このスキルはバトル中1回のみ発動する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription170032]",
+          "descriptions": {
+            "zh-CN": "造成的直接伤害提升为过去20回合内爱沐尔承受总伤害×15%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "直接攻撃のダメージが過去20ターンで受けた自身の総被ダメージ×15％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription170033]",
+          "descriptions": {
+            "zh-CN": "技能目标增加为面前的敌人与该敌人附近的1名敌人。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "このスキルの対象が正面の敵とそれに隣接する敵1体になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 17003,
+        "IsIgnore": null,
+        "Memo": "アモールSR: /Lv1　ハッピーエンドまで、物語は終わらせない。自身が戦闘不能になったとき、自身の最大HP×30％のHPを回復して復活する。物語を汚したものは許さない──さらに正面の敵に過去20ターンで受けた自身の総被ダメージ×10％の直接攻撃を行う。このスキルはバトル中1回のみ発動する。　/Lv2 直接攻撃のダメージが過去20ターンで受けた自身の総被ダメージ×15％になる。　/Lv3 このスキルの対象が正面の敵とそれに隣接する敵1体になる。",
+        "NameKey": "[PassiveSkillName17003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription170031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 6,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 17003001
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 62,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 17003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 19,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 17003002
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription170032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 6,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 17003001
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 62,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 17003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 19,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 17003202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription170033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 6,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 17003001
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 62,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 17003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 19,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 17003302
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName17003]",
+      "names": {
+        "zh-CN": "童话再续"
+      },
+      "source_memo_ja": "アモールSR: /Lv1　ハッピーエンドまで、物語は終わらせない。自身が戦闘不能になったとき、自身の最大HP×30％のHPを回復して復活する。物語を汚したものは許さない──さらに正面の敵に過去20ターンで受けた自身の総被ダメージ×10％の直接攻撃を行う。このスキルはバトル中1回のみ発動する。　/Lv2 直接攻撃のダメージが過去20ターンで受けた自身の総被ダメージ×15％になる。　/Lv3 このスキルの対象が正面の敵とそれに隣接する敵1体になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "ハッピーエンドまで、物語は終わらせない。自身が戦闘不能になったとき、自身の最大HP×30％のHPを回復して復活する。物語を汚したものは許さない──さらに正面の敵に過去20ターンで受けた自身の総被ダメージ×10％の直接攻撃を行う。このスキルはバトル中1回のみ発動する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "直接攻撃のダメージが過去20ターンで受けた自身の総被ダメージ×15％になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "このスキルの対象が正面の敵とそれに隣接する敵1体になる。"
+        }
+      ]
+    },
+    {
+      "id": 17004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription170041]",
+          "descriptions": {
+            "zh-CN": "“感觉今天会发生很棒的事情。”爱沐尔使自己增加20%最大生命值（无法被解除）。复活后重新触发此技能。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "今日は素敵なことが起きるような気がする──自身の最大HPが20％増加する（解除不可）。復活した場合、復活後に再付与される。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription170042]",
+          "descriptions": {
+            "zh-CN": "最大生命值增幅提升为30%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "最大HPの増加量が30％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription170043]",
+          "descriptions": {
+            "zh-CN": "最大生命值增幅提升为50%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "最大HPの増加量が50％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 17004,
+        "IsIgnore": null,
+        "Memo": "アモールSR: /Lv1　今日は素敵なことが起きるような気がする──自身の最大HPが20％増加する（解除不可）。復活した場合、復活後に再付与される。　/Lv2 最大HPの増加量が30％になる。　/Lv3 最大HPの増加量が50％になる。",
+        "NameKey": "[PassiveSkillName17004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription170041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 17004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 19,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 17004002
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription170042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 17004201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 19,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 17004202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription170043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 17004301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 19,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 17004302
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName17004]",
+      "names": {
+        "zh-CN": "恋爱预感"
+      },
+      "source_memo_ja": "アモールSR: /Lv1　今日は素敵なことが起きるような気がする──自身の最大HPが20％増加する（解除不可）。復活した場合、復活後に再付与される。　/Lv2 最大HPの増加量が30％になる。　/Lv3 最大HPの増加量が50％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "今日は素敵なことが起きるような気がする──自身の最大HPが20％増加する（解除不可）。復活した場合、復活後に再付与される。"
+        },
+        {
+          "label": "Lv2",
+          "text": "最大HPの増加量が30％になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "最大HPの増加量が50％になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

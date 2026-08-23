@@ -1,0 +1,1350 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 135001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription1350011]",
+          "descriptions": {
+            "zh-CN": "梅尔林操纵的光芒解离聚合的魔力，阻断来自魔力的干涉——随机对3名敌人造成攻击力×130%的魔法伤害。发动攻击前，对技能目标附加1层弱化效果，减少5%魔法防御力，效果持续5回合（最多叠加8层）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "メルランの操る光が魔力の結合を解離させ、干渉を阻害する。ランダムな敵3体に攻撃力×130%の魔法攻撃を行う。魔法攻撃の前に5ターンの間対象に魔法防御力が5%減少する弱体効果を1スタック付与する（最大8スタックまで）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription1350012]",
+          "descriptions": {
+            "zh-CN": "战斗中自第3次发动此技能起，在「魔法防御力下降」附加判定结束后，使此技能附加的「魔法防御力下降」的叠加数额外增加2层。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに『魔法防御力減少』付与の判定の後、このスキルを発動するのが3回目以降の場合、このスキルで付与した対象の『魔法防御力減少』のスタック数を2増加させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1350013]",
+          "descriptions": {
+            "zh-CN": "造成的魔法伤害提升为攻击力×400%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "魔法攻撃のダメージが攻撃力×400%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1350014]",
+          "descriptions": {
+            "zh-CN": "强化解离之光，技能目标增加为5名随机敌人。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "ディソシエーションを強化する。魔法攻撃の対象がランダムな敵5体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription1350015]",
+          "descriptions": {
+            "zh-CN": "强化解离之光，造成的魔法伤害提升为攻击力×440%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "ディソシエーションを強化する。魔法攻撃のダメージが攻撃力×440%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription1350011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              135001001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription1350012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              135001201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1350013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              135001301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1350014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              135001401
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription1350015]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              135001501
+            ]
+          }
+        ],
+        "Id": 135001,
+        "IsIgnore": null,
+        "Memo": "メルランSR:Lv1 メルランの操る光が魔力の結合を解離させ、干渉を阻害する。ランダムな敵3体に攻撃力×130%の魔法攻撃を行う。魔法攻撃の前に5ターンの間対象に魔法防御力が5%減少する弱体効果を1スタック付与する（最大8スタックまで）。/ Lv2 さらに『魔法防御力減少』付与の判定の後、このスキルを発動するのが3回目以降の場合、このスキルで付与した対象の『魔法防御力減少』のスタック数を2増加させる。/ Lv3 魔法攻撃のダメージが攻撃力×400%になる。/ Ex1 ディソシエーションを強化する。魔法攻撃の対象がランダムな敵5体になる。/ Ex3 ディソシエーションを強化する。魔法攻撃のダメージが攻撃力×440%になる。",
+        "NameKey": "[ActiveSkillName135001]",
+        "RootActiveSkillId": 135001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName135001]",
+      "names": {
+        "zh-CN": "解离之光"
+      },
+      "source_memo_ja": "メルランSR:Lv1 メルランの操る光が魔力の結合を解離させ、干渉を阻害する。ランダムな敵3体に攻撃力×130%の魔法攻撃を行う。魔法攻撃の前に5ターンの間対象に魔法防御力が5%減少する弱体効果を1スタック付与する（最大8スタックまで）。/ Lv2 さらに『魔法防御力減少』付与の判定の後、このスキルを発動するのが3回目以降の場合、このスキルで付与した対象の『魔法防御力減少』のスタック数を2増加させる。/ Lv3 魔法攻撃のダメージが攻撃力×400%になる。/ Ex1 ディソシエーションを強化する。魔法攻撃の対象がランダムな敵5体になる。/ Ex3 ディソシエーションを強化する。魔法攻撃のダメージが攻撃力×440%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "メルランの操る光が魔力の結合を解離させ、干渉を阻害する。ランダムな敵3体に攻撃力×130%の魔法攻撃を行う。魔法攻撃の前に5ターンの間対象に魔法防御力が5%減少する弱体効果を1スタック付与する（最大8スタックまで）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに『魔法防御力減少』付与の判定の後、このスキルを発動するのが3回目以降の場合、このスキルで付与した対象の『魔法防御力減少』のスタック数を2増加させる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "魔法攻撃のダメージが攻撃力×400%になる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "ディソシエーションを強化する。魔法攻撃の対象がランダムな敵5体になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "ディソシエーションを強化する。魔法攻撃のダメージが攻撃力×440%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 135002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription1350021]",
+          "descriptions": {
+            "zh-CN": "梅尔林释放威力足以贯穿万物的凝聚光束——对魔法防御力最低的敌人进行7次攻击，每次造成攻击力×420%的魔法伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "収束した光の一射が万物を貫く。魔法防御力が最も低い敵に7回攻撃力×420%の魔法攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription1350022]",
+          "descriptions": {
+            "zh-CN": "战斗中自第3次发动此技能起，造成的魔法伤害提升为攻击力×630%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらにこのスキルを発動するのが3回目以降の場合、魔法攻撃のダメージが攻撃力×630%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription1350023]",
+          "descriptions": {
+            "zh-CN": "战斗中自第4次发动此技能起，造成的魔法伤害提升为攻击力×840%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらにこのスキルを発動するのが4回目以降の場合、魔法攻撃のダメージが攻撃力×840%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription1350024]",
+          "descriptions": {
+            "zh-CN": "战斗中自第4次发动此技能起，此攻击无视技能目标的「护盾」。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "このスキルを発動するのが4回目以降の場合、さらにこの攻撃は対象の『シールド』を無視する。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription1350021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              135002001,
+              135002002,
+              135002002,
+              135002002,
+              135002002,
+              135002002,
+              135002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription1350022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              135002201,
+              135002202,
+              135002202,
+              135002202,
+              135002202,
+              135002202,
+              135002202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription1350023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              135002301,
+              135002302,
+              135002302,
+              135002302,
+              135002302,
+              135002302,
+              135002302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription1350024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              135002403,
+              135002301,
+              135002302,
+              135002302,
+              135002302,
+              135002302,
+              135002302,
+              135002302,
+              135002404
+            ]
+          }
+        ],
+        "Id": 135002,
+        "IsIgnore": null,
+        "Memo": "メルランSR:Lv1 収束した光の一射が万物を貫く。魔法防御力が最も低い敵に7回攻撃力×420%の魔法攻撃を行う。/ Lv2 さらにこのスキルを発動するのが3回目以降の場合、魔法攻撃のダメージが攻撃力×630%になる。/ Lv3 さらにこのスキルを発動するのが4回目以降の場合、魔法攻撃のダメージが攻撃力×840%になる。/ Lv4 このスキルを発動するのが4回目以降の場合、さらにこの攻撃は対象の『シールド』を無視する。",
+        "NameKey": "[ActiveSkillName135002]",
+        "RootActiveSkillId": 135002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName135002]",
+      "names": {
+        "zh-CN": "妖精光束"
+      },
+      "source_memo_ja": "メルランSR:Lv1 収束した光の一射が万物を貫く。魔法防御力が最も低い敵に7回攻撃力×420%の魔法攻撃を行う。/ Lv2 さらにこのスキルを発動するのが3回目以降の場合、魔法攻撃のダメージが攻撃力×630%になる。/ Lv3 さらにこのスキルを発動するのが4回目以降の場合、魔法攻撃のダメージが攻撃力×840%になる。/ Lv4 このスキルを発動するのが4回目以降の場合、さらにこの攻撃は対象の『シールド』を無視する。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "収束した光の一射が万物を貫く。魔法防御力が最も低い敵に7回攻撃力×420%の魔法攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらにこのスキルを発動するのが3回目以降の場合、魔法攻撃のダメージが攻撃力×630%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらにこのスキルを発動するのが4回目以降の場合、魔法攻撃のダメージが攻撃力×840%になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "このスキルを発動するのが4回目以降の場合、さらにこの攻撃は対象の『シールド』を無視する。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 87,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 250.0,
+              "value_text": "+250"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 250.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 87,
+            "CollectionLevel": 1,
+            "Id": 8701,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アケルナルの神童​(メルラン,アルトリア,モルガナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 500.0,
+              "value_text": "+500"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 500.0
+              },
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 87,
+            "CollectionLevel": 2,
+            "Id": 8702,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アケルナルの神童​(メルラン,アルトリア,モルガナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 500.0,
+              "value_text": "+500"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 500.0
+              },
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 87,
+            "CollectionLevel": 3,
+            "Id": 8703,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アケルナルの神童​(メルラン,アルトリア,モルガナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 500.0,
+              "value_text": "+500"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 500.0
+              },
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 87,
+            "CollectionLevel": 4,
+            "Id": 8704,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アケルナルの神童​(メルラン,アルトリア,モルガナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 510.0,
+              "value_text": "+510"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 71.0,
+              "value_text": "+71×角色等级"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 510.0
+              },
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 71.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 87,
+            "CollectionLevel": 5,
+            "Id": 8705,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アケルナルの神童​(メルラン,アルトリア,モルガナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 520.0,
+              "value_text": "+520"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 72.0,
+              "value_text": "+72×角色等级"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 520.0
+              },
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 72.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 87,
+            "CollectionLevel": 6,
+            "Id": 8706,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アケルナルの神童​(メルラン,アルトリア,モルガナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 530.0,
+              "value_text": "+530"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 73.0,
+              "value_text": "+73×角色等级"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 530.0
+              },
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 73.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 87,
+            "CollectionLevel": 7,
+            "Id": 8707,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アケルナルの神童​(メルラン,アルトリア,モルガナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 540.0,
+              "value_text": "+540"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 74.0,
+              "value_text": "+74×角色等级"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 540.0
+              },
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 74.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 87,
+            "CollectionLevel": 8,
+            "Id": 8708,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アケルナルの神童​(メルラン,アルトリア,モルガナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 550.0,
+              "value_text": "+550"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 75.0,
+              "value_text": "+75×角色等级"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 550.0
+              },
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 75.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 87,
+            "CollectionLevel": 9,
+            "Id": 8709,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アケルナルの神童​(メルラン,アルトリア,モルガナ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 87,
+        "IsIgnore": null,
+        "Memo": "アケルナルの神童​(メルラン,アルトリア,モルガナ)",
+        "NameKey": "[CharacterCollectionName87]",
+        "RequiredCharacterIds": [
+          135,
+          93,
+          75
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2026-01-29 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName87]",
+      "names": {
+        "zh-CN": "河尾星的神童"
+      },
+      "required_character_ids": [
+        135,
+        93,
+        75
+      ],
+      "required_characters": [
+        {
+          "id": 135,
+          "names": {
+            "zh-CN": "梅尔林"
+          }
+        },
+        {
+          "id": 93,
+          "names": {
+            "zh-CN": "阿尔托莉亚"
+          }
+        },
+        {
+          "id": 75,
+          "names": {
+            "zh-CN": "摩嘉娜"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2026-01-29 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 4,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 135,
+    "job_flags": 4,
+    "master_record": {
+      "ActiveSkillIds": [
+        135001,
+        135002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 79,
+        "Health": 67,
+        "Intelligence": 102,
+        "Muscle": 88
+      },
+      "BaseParameterGrossCoefficient": 336,
+      "CharacterType": 0,
+      "ElementType": 4,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 135,
+      "InitialBattleParameter": {
+        "AttackPower": 5,
+        "Avoidance": -3,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 10,
+        "DefensePenetration": 0,
+        "HP": 0,
+        "Hit": 1,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": -3,
+        "Speed": 3018
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 4,
+      "Memo": "メルラン",
+      "Name2Key": "",
+      "NameKey": "[CharacterName135]",
+      "NormalSkillId": 102,
+      "PassiveSkillIds": [
+        135003,
+        135004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2026-01-29 15:00:00"
+    },
+    "memo": "メルラン",
+    "name_key": "[CharacterName135]",
+    "names": {
+      "zh-CN": "梅尔林"
+    },
+    "speed": 3018,
+    "start_time_jst": "2026-01-29 15:00:00",
+    "subtitle_key": "",
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 1351130240,
+    "exclusive_effect_id": 624,
+    "icon_id": 914,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 1351130250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 136,
+        "EquipmentEvolutionId": 146,
+        "EquipmentExclusiveSkillDescriptionId": 104,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 4,
+        "ExclusiveEffectId": 624,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 914,
+        "Id": 1351130240,
+        "IsIgnore": null,
+        "Memo": "メルランLR240_書",
+        "NameKey": "[EquipmentName909]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": null,
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 8,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          },
+          {
+            "BattleParameterType": 7,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 135,
+        "Id": 624,
+        "IsIgnore": null,
+        "Memo": "メルランLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill135Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill135Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill135Description3]",
+        "Id": 104,
+        "IsIgnore": null,
+        "Memo": "メルラン魔導書"
+      }
+    },
+    "name_key": "[EquipmentName909]",
+    "names": {
+      "zh-CN": "妖精的铃兰小窝"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "CriticalResist",
+        "parameter_type": 8,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Critical",
+        "parameter_type": 7,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill135Description1]",
+        "descriptions": {
+          "zh-CN": "强化解离之光，技能目标增加为5名随机敌人。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill135Description2]",
+        "descriptions": {
+          "zh-CN": "强化饱受压抑的天赋，「护盾」值提升为梅尔林攻击力×1000%。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill135Description3]",
+        "descriptions": {
+          "zh-CN": "强化解离之光，造成的魔法伤害提升为攻击力×440%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": false,
+  "missing_localization_keys": [
+    ""
+  ],
+  "passive_skills": [
+    {
+      "id": 135003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription1350031]",
+          "descriptions": {
+            "zh-CN": "只有自己能看见的妖精，是用来逃避现实的寄托——梅尔林还未意识到，它们正是一个人拥有稀世天赋的证明。每回合开始时，梅尔林获得1层「妖精」（最多30层）（无法被解除）。每层「妖精」使梅尔林增加3%攻击力与5%物理防御力。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "現実から逃避するための、自分にしか見えない妖精さん。それが類稀なる才能の片鱗であることを、本人はまだ理解していない。毎ターン開始時、自身に『妖精さん』を1スタック付与する（最大30スタックまで）（解除不可）。このバフは1スタックにつき自身の攻撃力を3%、物理防御力を5%増加させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription1350032]",
+          "descriptions": {
+            "zh-CN": "回合开始时，梅尔林额外获得攻击力×200%的「护盾」，效果持续4回合。「护盾」附加效果须在结束4次行动后才可再次触发。自第13回合起无法触发此效果。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "ターン開始時、4ターンの間自身に自身の攻撃力×200%の『シールド』を付与する。『シールド』を付与する効果は発動後4回行動終了するまで再び発動せず、13ターン目以降は発動しない。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription1350033]",
+          "descriptions": {
+            "zh-CN": "当队伍中的其他流金属性友军数为2名以上时，获得的「妖精」层数增加为2层。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらに自身以外の黄属性の味方の編成数が2体以上の場合、『妖精さん』の付与スタック数が2になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription1350034]",
+          "descriptions": {
+            "zh-CN": "强化饱受压抑的天赋，「护盾」值提升为梅尔林攻击力×1000%。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "虐げられた才能を強化する。『シールド』の大きさが自身の攻撃力×1000%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 135003,
+        "IsIgnore": null,
+        "Memo": "メルランSR:Lv1 現実から逃避するための、自分にしか見えない妖精さん。それが類稀なる才能の片鱗であることを、本人はまだ理解していない。毎ターン開始時、自身に『妖精さん』を1スタック付与する（最大30スタックまで）（解除不可）。このバフは1スタックにつき自身の攻撃力を3%、物理防御力を5%増加させる。/ Lv2 ターン開始時、4ターンの間自身に自身の攻撃力×200%の『シールド』を付与する。『シールド』を付与する効果は発動後4回行動終了するまで再び発動せず、13ターン目以降は発動しない。/ Lv3 さらに自身以外の黄属性の味方の編成数が2体以上の場合、『妖精さん』の付与スタック数が2になる。/ Ex2 虐げられた才能を強化する。『シールド』の大きさが自身の攻撃力×1000%になる。",
+        "NameKey": "[PassiveSkillName135003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription1350031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 135003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription1350032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 135003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 135003202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription1350033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 135003301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 135003202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription1350034]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 135003301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 135003402
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName135003]",
+      "names": {
+        "zh-CN": "饱受压抑的天赋"
+      },
+      "source_memo_ja": "メルランSR:Lv1 現実から逃避するための、自分にしか見えない妖精さん。それが類稀なる才能の片鱗であることを、本人はまだ理解していない。毎ターン開始時、自身に『妖精さん』を1スタック付与する（最大30スタックまで）（解除不可）。このバフは1スタックにつき自身の攻撃力を3%、物理防御力を5%増加させる。/ Lv2 ターン開始時、4ターンの間自身に自身の攻撃力×200%の『シールド』を付与する。『シールド』を付与する効果は発動後4回行動終了するまで再び発動せず、13ターン目以降は発動しない。/ Lv3 さらに自身以外の黄属性の味方の編成数が2体以上の場合、『妖精さん』の付与スタック数が2になる。/ Ex2 虐げられた才能を強化する。『シールド』の大きさが自身の攻撃力×1000%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "現実から逃避するための、自分にしか見えない妖精さん。それが類稀なる才能の片鱗であることを、本人はまだ理解していない。毎ターン開始時、自身に『妖精さん』を1スタック付与する（最大30スタックまで）（解除不可）。このバフは1スタックにつき自身の攻撃力を3%、物理防御力を5%増加させる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "ターン開始時、4ターンの間自身に自身の攻撃力×200%の『シールド』を付与する。『シールド』を付与する効果は発動後4回行動終了するまで再び発動せず、13ターン目以降は発動しない。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらに自身以外の黄属性の味方の編成数が2体以上の場合、『妖精さん』の付与スタック数が2になる。"
+        },
+        {
+          "label": "Ex2",
+          "text": "虐げられた才能を強化する。『シールド』の大きさが自身の攻撃力×1000%になる。"
+        }
+      ]
+    },
+    {
+      "id": 135004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription1350041]",
+          "descriptions": {
+            "zh-CN": "“多、多亏有大家，我才慢慢学会怎么笑了……所、所以，这次轮到我来努力了……！”回合开始时，梅尔林减少10%自身承受伤害，增加30%防御力，效果持续4回合。此技能须在结束4次行动后才可再次触发。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「み、みんなのおかげで、少しだけなら笑えるようになって……だ、だから、今度は私が頑張る番なんです……！」ターン開始時、4ターンの間自身の被ダメージが10%減少し、防御力が30%増加する。このスキルは発動後4回行動終了するまで再び発動しない。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription1350042]",
+          "descriptions": {
+            "zh-CN": "防御力增幅提升为150%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "防御力の増加量が150%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription1350043]",
+          "descriptions": {
+            "zh-CN": "承受伤害降幅提升为30%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "被ダメージの減少量が30%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 135004,
+        "IsIgnore": null,
+        "Memo": "メルランSR:Lv1 「み、みんなのおかげで、少しだけなら笑えるようになって……だ、だから、今度は私が頑張る番なんです……！」ターン開始時、4ターンの間自身の被ダメージが10%減少し、防御力が30%増加する。このスキルは発動後4回行動終了するまで再び発動しない。/ Lv2 防御力の増加量が150%になる。/ Lv3 被ダメージの減少量が30%になる。",
+        "NameKey": "[PassiveSkillName135004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription1350041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 135004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription1350042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 135004201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription1350043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 135004301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName135004]",
+      "names": {
+        "zh-CN": "努力鼓起的勇气"
+      },
+      "source_memo_ja": "メルランSR:Lv1 「み、みんなのおかげで、少しだけなら笑えるようになって……だ、だから、今度は私が頑張る番なんです……！」ターン開始時、4ターンの間自身の被ダメージが10%減少し、防御力が30%増加する。このスキルは発動後4回行動終了するまで再び発動しない。/ Lv2 防御力の増加量が150%になる。/ Lv3 被ダメージの減少量が30%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「み、みんなのおかげで、少しだけなら笑えるようになって……だ、だから、今度は私が頑張る番なんです……！」ターン開始時、4ターンの間自身の被ダメージが10%減少し、防御力が30%増加する。このスキルは発動後4回行動終了するまで再び発動しない。"
+        },
+        {
+          "label": "Lv2",
+          "text": "防御力の増加量が150%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "被ダメージの減少量が30%になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

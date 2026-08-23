@@ -1,0 +1,3160 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 25001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription250011]",
+          "descriptions": {
+            "zh-CN": "“艾玛，打他！”艾薇随机对3名敌人造成攻击力×420%的物理伤害。“你怎么不是红色的？我来帮你涂成红红的！”再对生命值百分比最高的敌人造成艾薇战技×320%的直接伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「やっちゃえ、エマちゃん！」ランダムな敵3体に攻撃力×420%の物理攻撃を行う。「あんまり赤くないね？　アタシが染めてあげる！」HP割合が最も高い敵に自身の技力×320%の直接攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription250012]",
+          "descriptions": {
+            "zh-CN": "当艾薇的生命值为35%以下时，追加的直接伤害增加为2倍。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに自身のHP割合が35％以下の場合、直接攻撃のダメージが2倍になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription250013]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×530%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃のダメージが攻撃力×530%になる。　/専用1 エマちゃんアタック！を強化する。エマちゃんアタック！の対象がランダムな敵5体になる。　/専用3 エマちゃんアタック！を強化する。直接攻撃のダメージが自身の技力×380%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription250014]",
+          "descriptions": {
+            "zh-CN": "[ActiveSkillDescription250014]"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": null
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription250015]",
+          "descriptions": {
+            "zh-CN": "[ActiveSkillDescription250015]"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription250011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              25001001,
+              25001002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription250012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              25001001,
+              25001202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription250013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              25001301,
+              25001202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription250014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              25001401,
+              25001202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription250015]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              25001401,
+              25001502
+            ]
+          }
+        ],
+        "Id": 25001,
+        "IsIgnore": null,
+        "Memo": "アイビーSR: /Lv1　「やっちゃえ、エマちゃん！」ランダムな敵3体に攻撃力×420%の物理攻撃を行う。「あんまり赤くないね？　アタシが染めてあげる！」HP割合が最も高い敵に自身の技力×320%の直接攻撃を行う。　/Lv2 さらに自身のHP割合が35％以下の場合、直接攻撃のダメージが2倍になる。　/Lv3 物理攻撃のダメージが攻撃力×530%になる。　/専用1 エマちゃんアタック！を強化する。エマちゃんアタック！の対象がランダムな敵5体になる。　/専用3 エマちゃんアタック！を強化する。直接攻撃のダメージが自身の技力×380%になる。",
+        "NameKey": "[ActiveSkillName25001]",
+        "RootActiveSkillId": 25001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName25001]",
+      "names": {
+        "zh-CN": "小艾玛攻击！"
+      },
+      "source_memo_ja": "アイビーSR: /Lv1　「やっちゃえ、エマちゃん！」ランダムな敵3体に攻撃力×420%の物理攻撃を行う。「あんまり赤くないね？　アタシが染めてあげる！」HP割合が最も高い敵に自身の技力×320%の直接攻撃を行う。　/Lv2 さらに自身のHP割合が35％以下の場合、直接攻撃のダメージが2倍になる。　/Lv3 物理攻撃のダメージが攻撃力×530%になる。　/専用1 エマちゃんアタック！を強化する。エマちゃんアタック！の対象がランダムな敵5体になる。　/専用3 エマちゃんアタック！を強化する。直接攻撃のダメージが自身の技力×380%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「やっちゃえ、エマちゃん！」ランダムな敵3体に攻撃力×420%の物理攻撃を行う。「あんまり赤くないね？　アタシが染めてあげる！」HP割合が最も高い敵に自身の技力×320%の直接攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに自身のHP割合が35％以下の場合、直接攻撃のダメージが2倍になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃のダメージが攻撃力×530%になる。　/専用1 エマちゃんアタック！を強化する。エマちゃんアタック！の対象がランダムな敵5体になる。　/専用3 エマちゃんアタック！を強化する。直接攻撃のダメージが自身の技力×380%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 25002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription250021]",
+          "descriptions": {
+            "zh-CN": "红红的洋装，送给旧娃娃。艾薇对生命值百分比最低的敌人造成攻击力×420%的物理伤害。艾薇身上每附带1种增益效果，攻击次数增加1次（合计最多3连击）。“再红一点更漂亮～”当技能目标身上附带弱化效果时，造成的物理伤害增加为1.5倍。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "古いお人形さんには、赤いドレスのプレゼント。HP割合が最も低い敵に攻撃力×420％の物理攻撃を行う。自身が付帯しているバフ1つにつき攻撃回数が1回多くなる（合計で最大3回まで）。「もっと赤く染めないと」対象が弱体効果を付帯している場合、物理攻撃のダメージが1.5倍になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription250022]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×540%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "物理攻撃のダメージが攻撃力×540％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription250023]",
+          "descriptions": {
+            "zh-CN": "攻击次数上限增加为5次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃の回数が合計で最大5回までになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription250024]",
+          "descriptions": {
+            "zh-CN": "此攻击必定命中。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "物理攻撃が必ず命中するようになる。　/専用2 お人形さん遊び♪を強化する。物理攻撃のダメージが攻撃力×640％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription250025]",
+          "descriptions": {
+            "zh-CN": "[ActiveSkillDescription250025]"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 5,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription250021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              25002001,
+              25002002,
+              25002003
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription250022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              25002201,
+              25002202,
+              25002203
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription250023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              25002201,
+              25002202,
+              25002203,
+              25002304,
+              25002305
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription250024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              25002401,
+              25002402,
+              25002403,
+              25002404,
+              25002405
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription250025]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              25002501,
+              25002502,
+              25002503,
+              25002504,
+              25002505
+            ]
+          }
+        ],
+        "Id": 25002,
+        "IsIgnore": null,
+        "Memo": "アイビーSR: /Lv1　古いお人形さんには、赤いドレスのプレゼント。HP割合が最も低い敵に攻撃力×420％の物理攻撃を行う。自身が付帯しているバフ1つにつき攻撃回数が1回多くなる（合計で最大3回まで）。「もっと赤く染めないと」対象が弱体効果を付帯している場合、物理攻撃のダメージが1.5倍になる。　/Lv2 物理攻撃のダメージが攻撃力×540％になる。　/Lv3 物理攻撃の回数が合計で最大5回までになる。　/Lv4 物理攻撃が必ず命中するようになる。　/専用2 お人形さん遊び♪を強化する。物理攻撃のダメージが攻撃力×640％になる。",
+        "NameKey": "[ActiveSkillName25002]",
+        "RootActiveSkillId": 25002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName25002]",
+      "names": {
+        "zh-CN": "娃娃游戏♪"
+      },
+      "source_memo_ja": "アイビーSR: /Lv1　古いお人形さんには、赤いドレスのプレゼント。HP割合が最も低い敵に攻撃力×420％の物理攻撃を行う。自身が付帯しているバフ1つにつき攻撃回数が1回多くなる（合計で最大3回まで）。「もっと赤く染めないと」対象が弱体効果を付帯している場合、物理攻撃のダメージが1.5倍になる。　/Lv2 物理攻撃のダメージが攻撃力×540％になる。　/Lv3 物理攻撃の回数が合計で最大5回までになる。　/Lv4 物理攻撃が必ず命中するようになる。　/専用2 お人形さん遊び♪を強化する。物理攻撃のダメージが攻撃力×640％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "古いお人形さんには、赤いドレスのプレゼント。HP割合が最も低い敵に攻撃力×420％の物理攻撃を行う。自身が付帯しているバフ1つにつき攻撃回数が1回多くなる（合計で最大3回まで）。「もっと赤く染めないと」対象が弱体効果を付帯している場合、物理攻撃のダメージが1.5倍になる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "物理攻撃のダメージが攻撃力×540％になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃の回数が合計で最大5回までになる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "物理攻撃が必ず命中するようになる。　/専用2 お人形さん遊び♪を強化する。物理攻撃のダメージが攻撃力×640％になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 5,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 500.0,
+              "value_text": "+500"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 1,
+                "Value": 500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 5,
+            "CollectionLevel": 1,
+            "Id": 501,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "モノケロスの咆哮(サブリナ,アモール,アイビー,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 5000.0,
+              "value_text": "+5,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1500.0,
+              "value_text": "+1,500"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 1,
+                "Value": 5000.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 5,
+            "CollectionLevel": 2,
+            "Id": 502,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "モノケロスの咆哮(サブリナ,アモール,アイビー,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 5000.0,
+              "value_text": "+5,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1500.0,
+              "value_text": "+1,500"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 1,
+                "Value": 5000.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 5,
+            "CollectionLevel": 3,
+            "Id": 503,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "モノケロスの咆哮(サブリナ,アモール,アイビー,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 5000.0,
+              "value_text": "+5,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1500.0,
+              "value_text": "+1,500"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 1,
+                "Value": 5000.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1500.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 5,
+            "CollectionLevel": 4,
+            "Id": 504,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "モノケロスの咆哮(サブリナ,アモール,アイビー,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 6000.0,
+              "value_text": "+6,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1600.0,
+              "value_text": "+1,600"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 1,
+                "Value": 6000.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1600.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 5,
+            "CollectionLevel": 5,
+            "Id": 505,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "モノケロスの咆哮(サブリナ,アモール,アイビー,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 7000.0,
+              "value_text": "+7,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1700.0,
+              "value_text": "+1,700"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 1,
+                "Value": 7000.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1700.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 5,
+            "CollectionLevel": 6,
+            "Id": 506,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "モノケロスの咆哮(サブリナ,アモール,アイビー,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 8000.0,
+              "value_text": "+8,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1800.0,
+              "value_text": "+1,800"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 1,
+                "Value": 8000.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1800.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 5,
+            "CollectionLevel": 7,
+            "Id": 507,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "モノケロスの咆哮(サブリナ,アモール,アイビー,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 9000.0,
+              "value_text": "+9,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1900.0,
+              "value_text": "+1,900"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 1,
+                "Value": 9000.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1900.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 5,
+            "CollectionLevel": 8,
+            "Id": 508,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "モノケロスの咆哮(サブリナ,アモール,アイビー,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 10000.0,
+              "value_text": "+10,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 2000.0,
+              "value_text": "+2,000"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 1,
+                "Value": 10000.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 2000.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 5,
+            "CollectionLevel": 9,
+            "Id": 509,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "モノケロスの咆哮(サブリナ,アモール,アイビー,ニーナ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 5,
+        "IsIgnore": null,
+        "Memo": "モノケロスの咆哮(サブリナ,アモール,アイビー,ニーナ)",
+        "NameKey": "[CharacterCollectionName5]",
+        "RequiredCharacterIds": [
+          15,
+          17,
+          25,
+          28
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2020-01-01 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName5]",
+      "names": {
+        "zh-CN": "独角兽座的咆哮"
+      },
+      "required_character_ids": [
+        15,
+        17,
+        25,
+        28
+      ],
+      "required_characters": [
+        {
+          "id": 15,
+          "names": {
+            "zh-CN": "萨宾娜"
+          }
+        },
+        {
+          "id": 17,
+          "names": {
+            "zh-CN": "爱沐尔"
+          }
+        },
+        {
+          "id": 25,
+          "names": {
+            "zh-CN": "艾薇"
+          }
+        },
+        {
+          "id": 28,
+          "names": {
+            "zh-CN": "妮娜"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2020-01-01 00:00:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 11,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 15.0,
+              "value_text": "+15×角色等级"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 15.0
+              }
+            ],
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 11,
+            "CollectionLevel": 1,
+            "Id": 1101,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "サーペンスの愛執(レア,アモール,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 160.0,
+              "value_text": "+1.6%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 160.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 11,
+            "CollectionLevel": 2,
+            "Id": 1102,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "サーペンスの愛執(レア,アモール,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 160.0,
+              "value_text": "+1.6%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 160.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 11,
+            "CollectionLevel": 3,
+            "Id": 1103,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "サーペンスの愛執(レア,アモール,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 160.0,
+              "value_text": "+1.6%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 160.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 11,
+            "CollectionLevel": 4,
+            "Id": 1104,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "サーペンスの愛執(レア,アモール,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 31.0,
+              "value_text": "+31×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 180.0,
+              "value_text": "+1.8%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 31.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 180.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 11,
+            "CollectionLevel": 5,
+            "Id": 1105,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "サーペンスの愛執(レア,アモール,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 32.0,
+              "value_text": "+32×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 32.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 11,
+            "CollectionLevel": 6,
+            "Id": 1106,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "サーペンスの愛執(レア,アモール,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 33.0,
+              "value_text": "+33×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 220.0,
+              "value_text": "+2.2%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 33.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 220.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 11,
+            "CollectionLevel": 7,
+            "Id": 1107,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "サーペンスの愛執(レア,アモール,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 34.0,
+              "value_text": "+34×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 240.0,
+              "value_text": "+2.4%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 34.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 240.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 11,
+            "CollectionLevel": 8,
+            "Id": 1108,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "サーペンスの愛執(レア,アモール,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 35.0,
+              "value_text": "+35×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 260.0,
+              "value_text": "+2.6%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 35.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 260.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 11,
+            "CollectionLevel": 9,
+            "Id": 1109,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "サーペンスの愛執(レア,アモール,アイビー)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 11,
+        "IsIgnore": null,
+        "Memo": "サーペンスの愛執(レア,アモール,アイビー)",
+        "NameKey": "[CharacterCollectionName11]",
+        "RequiredCharacterIds": [
+          55,
+          17,
+          25
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2023-03-31 15:00:00"
+      },
+      "name_key": "[CharacterCollectionName11]",
+      "names": {
+        "zh-CN": "巨蛇座的依恋"
+      },
+      "required_character_ids": [
+        55,
+        17,
+        25
+      ],
+      "required_characters": [
+        {
+          "id": 55,
+          "names": {
+            "zh-CN": "蕾雅"
+          }
+        },
+        {
+          "id": 17,
+          "names": {
+            "zh-CN": "爱沐尔"
+          }
+        },
+        {
+          "id": 25,
+          "names": {
+            "zh-CN": "艾薇"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2023-03-31 15:00:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 37,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 500.0,
+              "value_text": "+500"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 37,
+            "CollectionLevel": 1,
+            "Id": 3701,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ピクシスの激情(黒鎧アイリス,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 37,
+            "CollectionLevel": 2,
+            "Id": 3702,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ピクシスの激情(黒鎧アイリス,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 37,
+            "CollectionLevel": 3,
+            "Id": 3703,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ピクシスの激情(黒鎧アイリス,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 37,
+            "CollectionLevel": 4,
+            "Id": 3704,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ピクシスの激情(黒鎧アイリス,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1050.0,
+              "value_text": "+1,050"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 75.0,
+              "value_text": "+75×角色等级"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1050.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 75.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 37,
+            "CollectionLevel": 5,
+            "Id": 3705,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ピクシスの激情(黒鎧アイリス,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1100.0,
+              "value_text": "+1,100"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 80.0,
+              "value_text": "+80×角色等级"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1100.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 80.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 37,
+            "CollectionLevel": 6,
+            "Id": 3706,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ピクシスの激情(黒鎧アイリス,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1150.0,
+              "value_text": "+1,150"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 85.0,
+              "value_text": "+85×角色等级"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1150.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 85.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 37,
+            "CollectionLevel": 7,
+            "Id": 3707,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ピクシスの激情(黒鎧アイリス,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1200.0,
+              "value_text": "+1,200"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 90.0,
+              "value_text": "+90×角色等级"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1200.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 90.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 37,
+            "CollectionLevel": 8,
+            "Id": 3708,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ピクシスの激情(黒鎧アイリス,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1250.0,
+              "value_text": "+1,250"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 95.0,
+              "value_text": "+95×角色等级"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1250.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 95.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 37,
+            "CollectionLevel": 9,
+            "Id": 3709,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ピクシスの激情(黒鎧アイリス,アイビー)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 37,
+        "IsIgnore": null,
+        "Memo": "ピクシスの激情(黒鎧アイリス,アイビー)",
+        "NameKey": "[CharacterCollectionName37]",
+        "RequiredCharacterIds": [
+          66,
+          25
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2023-12-26 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName37]",
+      "names": {
+        "zh-CN": "罗盘座的激情"
+      },
+      "required_character_ids": [
+        66,
+        25
+      ],
+      "required_characters": [
+        {
+          "id": 66,
+          "names": {
+            "zh-CN": "艾莉丝"
+          }
+        },
+        {
+          "id": 25,
+          "names": {
+            "zh-CN": "艾薇"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2023-12-26 00:00:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 49,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 49,
+            "CollectionLevel": 1,
+            "Id": 4901,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アプスの応報(ミナシュマリ,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 49,
+            "CollectionLevel": 2,
+            "Id": 4902,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アプスの応報(ミナシュマリ,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 49,
+            "CollectionLevel": 3,
+            "Id": 4903,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アプスの応報(ミナシュマリ,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 49,
+            "CollectionLevel": 4,
+            "Id": 4904,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アプスの応報(ミナシュマリ,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3100.0,
+              "value_text": "+3,100"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 210.0,
+              "value_text": "+2.1%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3100.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 210.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 49,
+            "CollectionLevel": 5,
+            "Id": 4905,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アプスの応報(ミナシュマリ,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3200.0,
+              "value_text": "+3,200"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 220.0,
+              "value_text": "+2.2%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3200.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 220.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 49,
+            "CollectionLevel": 6,
+            "Id": 4906,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アプスの応報(ミナシュマリ,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3300.0,
+              "value_text": "+3,300"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 230.0,
+              "value_text": "+2.3%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3300.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 230.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 49,
+            "CollectionLevel": 7,
+            "Id": 4907,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アプスの応報(ミナシュマリ,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3400.0,
+              "value_text": "+3,400"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 240.0,
+              "value_text": "+2.4%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3400.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 240.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 49,
+            "CollectionLevel": 8,
+            "Id": 4908,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アプスの応報(ミナシュマリ,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3500.0,
+              "value_text": "+3,500"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 250.0,
+              "value_text": "+2.5%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3500.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 49,
+            "CollectionLevel": 9,
+            "Id": 4909,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アプスの応報(ミナシュマリ,アイビー)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 49,
+        "IsIgnore": null,
+        "Memo": "アプスの応報(ミナシュマリ,アイビー)",
+        "NameKey": "[CharacterCollectionName49]",
+        "RequiredCharacterIds": [
+          77,
+          25
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2024-06-14 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName49]",
+      "names": {
+        "zh-CN": "天燕座的报应"
+      },
+      "required_character_ids": [
+        77,
+        25
+      ],
+      "required_characters": [
+        {
+          "id": 77,
+          "names": {
+            "zh-CN": "米娜修玛力"
+          }
+        },
+        {
+          "id": 25,
+          "names": {
+            "zh-CN": "艾薇"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2024-06-14 00:00:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 91,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 91,
+            "CollectionLevel": 1,
+            "Id": 9101,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ロサの花棘​(リリコット,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 50.0,
+              "value_text": "+50×角色等级"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 50.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 91,
+            "CollectionLevel": 2,
+            "Id": 9102,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ロサの花棘​(リリコット,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 50.0,
+              "value_text": "+50×角色等级"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 50.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 91,
+            "CollectionLevel": 3,
+            "Id": 9103,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ロサの花棘​(リリコット,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 50.0,
+              "value_text": "+50×角色等级"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 50.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 91,
+            "CollectionLevel": 4,
+            "Id": 9104,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ロサの花棘​(リリコット,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 210.0,
+              "value_text": "+2.1%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 51.0,
+              "value_text": "+51×角色等级"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 210.0
+              },
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 51.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 91,
+            "CollectionLevel": 5,
+            "Id": 9105,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ロサの花棘​(リリコット,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 220.0,
+              "value_text": "+2.2%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 52.0,
+              "value_text": "+52×角色等级"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 220.0
+              },
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 52.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 91,
+            "CollectionLevel": 6,
+            "Id": 9106,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ロサの花棘​(リリコット,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 230.0,
+              "value_text": "+2.3%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 53.0,
+              "value_text": "+53×角色等级"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 230.0
+              },
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 53.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 91,
+            "CollectionLevel": 7,
+            "Id": 9107,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ロサの花棘​(リリコット,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 240.0,
+              "value_text": "+2.4%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 54.0,
+              "value_text": "+54×角色等级"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 240.0
+              },
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 54.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 91,
+            "CollectionLevel": 8,
+            "Id": 9108,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ロサの花棘​(リリコット,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 250.0,
+              "value_text": "+2.5%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 55.0,
+              "value_text": "+55×角色等级"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 250.0
+              },
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 55.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 91,
+            "CollectionLevel": 9,
+            "Id": 9109,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ロサの花棘​(リリコット,アイビー)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 91,
+        "IsIgnore": null,
+        "Memo": "ロサの花棘​(リリコット,アイビー)",
+        "NameKey": "[CharacterCollectionName91]",
+        "RequiredCharacterIds": [
+          99,
+          25
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2026-03-16 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName91]",
+      "names": {
+        "zh-CN": "玫瑰座的棘刺"
+      },
+      "required_character_ids": [
+        99,
+        25
+      ],
+      "required_characters": [
+        {
+          "id": 99,
+          "names": {
+            "zh-CN": "莉莉珂特"
+          }
+        },
+        {
+          "id": 25,
+          "names": {
+            "zh-CN": "艾薇"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2026-03-16 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 3,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 25,
+    "job_flags": 2,
+    "master_record": {
+      "ActiveSkillIds": [
+        25001,
+        25002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 100,
+        "Health": 69,
+        "Intelligence": 86,
+        "Muscle": 84
+      },
+      "BaseParameterGrossCoefficient": 339,
+      "CharacterType": 0,
+      "ElementType": 3,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 25,
+      "InitialBattleParameter": {
+        "AttackPower": 4,
+        "Avoidance": 0,
+        "Critical": -2,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 7,
+        "DefensePenetration": 0,
+        "HP": 2,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 2790
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 2,
+      "Memo": "アイビー",
+      "Name2Key": null,
+      "NameKey": "[CharacterName25]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        25003,
+        25004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2020-01-01 00:00:00"
+    },
+    "memo": "アイビー",
+    "name_key": "[CharacterName25]",
+    "names": {
+      "zh-CN": "艾薇"
+    },
+    "speed": 2790,
+    "start_time_jst": "2020-01-01 00:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 2408,
+    "exclusive_effect_id": 78,
+    "icon_id": 278,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 2409,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 45,
+        "EquipmentEvolutionId": 55,
+        "EquipmentExclusiveSkillDescriptionId": 13,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 2,
+        "ExclusiveEffectId": 78,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 278,
+        "Id": 2408,
+        "IsIgnore": null,
+        "Memo": "アイビーLR240_銃",
+        "NameKey": "[EquipmentName273]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": null,
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 7,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          },
+          {
+            "BattleParameterType": 15,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 25,
+        "Id": 78,
+        "IsIgnore": null,
+        "Memo": "アイビーLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill25Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill25Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill25Description3]",
+        "Id": 13,
+        "IsIgnore": null,
+        "Memo": "アイビー銃"
+      }
+    },
+    "name_key": "[EquipmentName273]",
+    "names": {
+      "zh-CN": "艾玛"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Critical",
+        "parameter_type": 7,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "DebuffHit",
+        "parameter_type": 15,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill25Description1]",
+        "descriptions": {
+          "zh-CN": "强化小艾玛攻击！，技能目标增加为5名随机敌人。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill25Description2]",
+        "descriptions": {
+          "zh-CN": "强化娃娃游戏♪，造成的物理伤害提升为攻击力×640%。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill25Description3]",
+        "descriptions": {
+          "zh-CN": "强化小艾玛攻击！，造成的直接伤害提升为艾薇战技×380%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 25003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription250031]",
+          "descriptions": {
+            "zh-CN": "看到心爱的娃娃变红，艾薇心中对“红色的执着”开始逐渐苏醒。战斗开始时，艾薇使自己增加20%攻击力，效果持续7回合。每当1名友军失去战斗能力，再使攻击力增幅提升20%（最多叠加5层，合计100%）。每当此增益效果使艾薇的攻击力上升时，剩余的效果持续时间重置为7回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "お気に入りのお人形さんの赤を見た瞬間、彼女の中にある「赤の執着」が目を覚ます。味方が戦闘不能になった場合、7ターンの間自身の攻撃力が20％増加する（最大4回まで）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription250032]",
+          "descriptions": {
+            "zh-CN": "战斗开始时与友军失去战斗能力时的攻击力增幅提升为30%（最多叠加5层，合计150%）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "攻撃力の増加量が30％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription250033]",
+          "descriptions": {
+            "zh-CN": "战斗开始时与友军失去战斗能力时的攻击力增幅提升为50%（最多叠加5层，合计250%）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "攻撃力の増加量が50％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 25003,
+        "IsIgnore": null,
+        "Memo": "アイビーSR: /Lv1　お気に入りのお人形さんの赤を見た瞬間、彼女の中にある「赤の執着」が目を覚ます。味方が戦闘不能になった場合、7ターンの間自身の攻撃力が20％増加する（最大4回まで）。　/Lv2 攻撃力の増加量が30％になる。　/Lv3 攻撃力の増加量が50％になる。",
+        "NameKey": "[PassiveSkillName25003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription250031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 25003000
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 7,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 25003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription250032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 25003200
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 7,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 25003201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription250033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 25003300
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 7,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 25003301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName25003]",
+      "names": {
+        "zh-CN": "腥红公主"
+      },
+      "source_memo_ja": "アイビーSR: /Lv1　お気に入りのお人形さんの赤を見た瞬間、彼女の中にある「赤の執着」が目を覚ます。味方が戦闘不能になった場合、7ターンの間自身の攻撃力が20％増加する（最大4回まで）。　/Lv2 攻撃力の増加量が30％になる。　/Lv3 攻撃力の増加量が50％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "お気に入りのお人形さんの赤を見た瞬間、彼女の中にある「赤の執着」が目を覚ます。味方が戦闘不能になった場合、7ターンの間自身の攻撃力が20％増加する（最大4回まで）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "攻撃力の増加量が30％になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "攻撃力の増加量が50％になる。"
+        }
+      ]
+    },
+    {
+      "id": 25004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription250041]",
+          "descriptions": {
+            "zh-CN": "“你的红色是哪一种红色？”艾薇强化自己的普通攻击，普攻时随机对1名敌人造成攻击力×120%的物理伤害。“抓到你了～！”发现新娃娃的艾薇开心地扑上去，当普攻目标的速度低于自己时，30%概率附加「晕厥」状态，效果持续1回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「あなたの赤色、どんな色？」自身の通常攻撃を強化する。通常攻撃時ランダムな敵1体に攻撃力×120％の物理攻撃を行う。「みーつけたぁ」新しいお人形を見つけ、元気よく飛びかかる。対象のスピードが自身よりも低い場合、30％の確率で1ターンの間『気絶』を付与する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription250042]",
+          "descriptions": {
+            "zh-CN": "普攻目标增加为2名随机敌人。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "物理攻撃の対象がランダムな敵2体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription250043]",
+          "descriptions": {
+            "zh-CN": "附加「晕厥」状态的概率提升为50%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "『気絶』を付与する確率が50％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 25004,
+        "IsIgnore": null,
+        "Memo": "アイビーSR: /Lv1　「あなたの赤色、どんな色？」自身の通常攻撃を強化する。通常攻撃時ランダムな敵1体に攻撃力×120％の物理攻撃を行う。「みーつけたぁ」新しいお人形を見つけ、元気よく飛びかかる。対象のスピードが自身よりも低い場合、30％の確率で1ターンの間『気絶』を付与する。　/Lv2 物理攻撃の対象がランダムな敵2体になる。　/Lv3 『気絶』を付与する確率が50％になる。",
+        "NameKey": "[PassiveSkillName25004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription250041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 25004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription250042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 25004201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription250043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 25004301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName25004]",
+      "names": {
+        "zh-CN": "红通通～♪"
+      },
+      "source_memo_ja": "アイビーSR: /Lv1　「あなたの赤色、どんな色？」自身の通常攻撃を強化する。通常攻撃時ランダムな敵1体に攻撃力×120％の物理攻撃を行う。「みーつけたぁ」新しいお人形を見つけ、元気よく飛びかかる。対象のスピードが自身よりも低い場合、30％の確率で1ターンの間『気絶』を付与する。　/Lv2 物理攻撃の対象がランダムな敵2体になる。　/Lv3 『気絶』を付与する確率が50％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「あなたの赤色、どんな色？」自身の通常攻撃を強化する。通常攻撃時ランダムな敵1体に攻撃力×120％の物理攻撃を行う。「みーつけたぁ」新しいお人形を見つけ、元気よく飛びかかる。対象のスピードが自身よりも低い場合、30％の確率で1ターンの間『気絶』を付与する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "物理攻撃の対象がランダムな敵2体になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "『気絶』を付与する確率が50％になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

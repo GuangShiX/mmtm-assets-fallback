@@ -1,0 +1,3172 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 46001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription460011]",
+          "descriptions": {
+            "zh-CN": "露娜琳德对软弱的自己感到绝望，绝望的心化为冰棺，释放出冥界的寒气，随机对5名敌人造成攻击力×245%的魔法伤害。冥界寒气冻结畏惧者的心，当技能暴击时，对技能目标附加「沉默」状态，效果持续1回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "弱い自分に絶望する心が氷の棺を生み出した。あふれ出す冥界の冷気が、ランダムな敵5体に攻撃力×245%の魔法攻撃を行う。その冷気は畏れた者の心を凍らせ、クリティカルヒットした場合、対象に1ターンの間『沈黙』を付与する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription460012]",
+          "descriptions": {
+            "zh-CN": "造成的魔法伤害提升为攻击力×265%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "魔法攻撃のダメージが攻撃力×265%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription460013]",
+          "descriptions": {
+            "zh-CN": "造成的魔法伤害提升为攻击力×300%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "魔法攻撃のダメージが攻撃力×300%になる。　/専用1 アイスコフィンを強化する。さらに魔法攻撃の前に自身のクリティカル率が25％増加する。　/専用2 アイスコフィンを強化する。『沈黙』のターン数が3ターンになる。　/専用3 アイスコフィンを強化する。クリティカル率の増加量が40％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription460014]",
+          "descriptions": {
+            "zh-CN": "[ActiveSkillDescription460014]"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": null
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription460015]",
+          "descriptions": {
+            "zh-CN": "[ActiveSkillDescription460015]"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 5,
+          "source_memo_ja": null
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription460016]",
+          "descriptions": {
+            "zh-CN": "[ActiveSkillDescription460016]"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 6,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription460011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              46001001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription460012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              46001201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription460013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              46001301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription460014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              46001401,
+              46001402
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription460015]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              46001401,
+              46001502
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription460016]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 6,
+            "SubSetSkillIds": [
+              46001601,
+              46001502
+            ]
+          }
+        ],
+        "Id": 46001,
+        "IsIgnore": null,
+        "Memo": "【雪幻の魔女】\\nルナリンドSR: /Lv1　弱い自分に絶望する心が氷の棺を生み出した。あふれ出す冥界の冷気が、ランダムな敵5体に攻撃力×245%の魔法攻撃を行う。その冷気は畏れた者の心を凍らせ、クリティカルヒットした場合、対象に1ターンの間『沈黙』を付与する。　/Lv2 魔法攻撃のダメージが攻撃力×265%になる。　/Lv3 魔法攻撃のダメージが攻撃力×300%になる。　/専用1 アイスコフィンを強化する。さらに魔法攻撃の前に自身のクリティカル率が25％増加する。　/専用2 アイスコフィンを強化する。『沈黙』のターン数が3ターンになる。　/専用3 アイスコフィンを強化する。クリティカル率の増加量が40％になる。",
+        "NameKey": "[ActiveSkillName46001]",
+        "RootActiveSkillId": 46001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 7
+      },
+      "max_cooldown": 7,
+      "name_key": "[ActiveSkillName46001]",
+      "names": {
+        "zh-CN": "幽冥冰棺"
+      },
+      "source_memo_ja": "【雪幻の魔女】\\nルナリンドSR: /Lv1　弱い自分に絶望する心が氷の棺を生み出した。あふれ出す冥界の冷気が、ランダムな敵5体に攻撃力×245%の魔法攻撃を行う。その冷気は畏れた者の心を凍らせ、クリティカルヒットした場合、対象に1ターンの間『沈黙』を付与する。　/Lv2 魔法攻撃のダメージが攻撃力×265%になる。　/Lv3 魔法攻撃のダメージが攻撃力×300%になる。　/専用1 アイスコフィンを強化する。さらに魔法攻撃の前に自身のクリティカル率が25％増加する。　/専用2 アイスコフィンを強化する。『沈黙』のターン数が3ターンになる。　/専用3 アイスコフィンを強化する。クリティカル率の増加量が40％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "弱い自分に絶望する心が氷の棺を生み出した。あふれ出す冥界の冷気が、ランダムな敵5体に攻撃力×245%の魔法攻撃を行う。その冷気は畏れた者の心を凍らせ、クリティカルヒットした場合、対象に1ターンの間『沈黙』を付与する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "魔法攻撃のダメージが攻撃力×265%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "魔法攻撃のダメージが攻撃力×300%になる。　/専用1 アイスコフィンを強化する。さらに魔法攻撃の前に自身のクリティカル率が25％増加する。　/専用2 アイスコフィンを強化する。『沈黙』のターン数が3ターンになる。　/専用3 アイスコフィンを強化する。クリティカル率の増加量が40％になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 46002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription460021]",
+          "descriptions": {
+            "zh-CN": "露娜琳德用冻结万物的雪幻之冰，随机对5名敌人造成攻击力×220%的魔法伤害。一旦被她的绝望囚禁，诅咒将侵蚀身体，当技能目标的魔力低于自己时，附加「中毒」状态，效果持续2回合，每回合行动开始时造成附带者当前生命值×10%的伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "全てを凍らせる雪幻の氷が、ランダムな敵5体に攻撃力×220％の魔法攻撃を行う。その絶望に囚われた者は呪いに体を蝕まれ、対象の魔力が自身よりも低い場合、2ターンの間『毒』を付与する。毎ターン行動開始時に現在HP×10％のダメージを与える。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription460022]",
+          "descriptions": {
+            "zh-CN": "「中毒」造成的伤害提升为附带者当前生命值×15%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "『毒』のダメージが現在HP×15％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription460023]",
+          "descriptions": {
+            "zh-CN": "造成的魔法伤害提升为攻击力×285%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "魔法攻撃のダメージが攻撃力×285%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription460024]",
+          "descriptions": {
+            "zh-CN": "「中毒」效果增加为3回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "『毒』のターン数が3ターンになる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription460021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              46002001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription460022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              46002201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription460023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              46002301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription460024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              46002401
+            ]
+          }
+        ],
+        "Id": 46002,
+        "IsIgnore": null,
+        "Memo": "【雪幻の魔女】\\nルナリンドSR: /Lv1　全てを凍らせる雪幻の氷が、ランダムな敵5体に攻撃力×220％の魔法攻撃を行う。その絶望に囚われた者は呪いに体を蝕まれ、対象の魔力が自身よりも低い場合、2ターンの間『毒』を付与する。毎ターン行動開始時に現在HP×10％のダメージを与える。　/Lv2 『毒』のダメージが現在HP×15％になる。　/Lv3 魔法攻撃のダメージが攻撃力×285%になる。　/Lv4 『毒』のターン数が3ターンになる。",
+        "NameKey": "[ActiveSkillName46002]",
+        "RootActiveSkillId": 46002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName46002]",
+      "names": {
+        "zh-CN": "绝望风雪"
+      },
+      "source_memo_ja": "【雪幻の魔女】\\nルナリンドSR: /Lv1　全てを凍らせる雪幻の氷が、ランダムな敵5体に攻撃力×220％の魔法攻撃を行う。その絶望に囚われた者は呪いに体を蝕まれ、対象の魔力が自身よりも低い場合、2ターンの間『毒』を付与する。毎ターン行動開始時に現在HP×10％のダメージを与える。　/Lv2 『毒』のダメージが現在HP×15％になる。　/Lv3 魔法攻撃のダメージが攻撃力×285%になる。　/Lv4 『毒』のターン数が3ターンになる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "全てを凍らせる雪幻の氷が、ランダムな敵5体に攻撃力×220％の魔法攻撃を行う。その絶望に囚われた者は呪いに体を蝕まれ、対象の魔力が自身よりも低い場合、2ターンの間『毒』を付与する。毎ターン行動開始時に現在HP×10％のダメージを与える。"
+        },
+        {
+          "label": "Lv2",
+          "text": "『毒』のダメージが現在HP×15％になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "魔法攻撃のダメージが攻撃力×285%になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "『毒』のターン数が3ターンになる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 7,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 300.0,
+              "value_text": "+300"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 1,
+                "Value": 300.0
+              }
+            ],
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 7,
+            "CollectionLevel": 1,
+            "Id": 701,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルビレオの宝石(ソルティーナ,フェンリル,フローレンス,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 7,
+            "CollectionLevel": 2,
+            "Id": 702,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルビレオの宝石(ソルティーナ,フェンリル,フローレンス,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 7,
+            "CollectionLevel": 3,
+            "Id": 703,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルビレオの宝石(ソルティーナ,フェンリル,フローレンス,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 7,
+            "CollectionLevel": 4,
+            "Id": 704,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルビレオの宝石(ソルティーナ,フェンリル,フローレンス,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 4000.0,
+              "value_text": "+4,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 1,
+                "Value": 4000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 7,
+            "CollectionLevel": 5,
+            "Id": 705,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルビレオの宝石(ソルティーナ,フェンリル,フローレンス,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 5000.0,
+              "value_text": "+5,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 1,
+                "Value": 5000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 7,
+            "CollectionLevel": 6,
+            "Id": 706,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルビレオの宝石(ソルティーナ,フェンリル,フローレンス,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 6000.0,
+              "value_text": "+6,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 250.0,
+              "value_text": "+2.5%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 1,
+                "Value": 6000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 7,
+            "CollectionLevel": 7,
+            "Id": 707,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルビレオの宝石(ソルティーナ,フェンリル,フローレンス,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 7000.0,
+              "value_text": "+7,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 300.0,
+              "value_text": "+3%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 1,
+                "Value": 7000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 300.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 7,
+            "CollectionLevel": 8,
+            "Id": 708,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルビレオの宝石(ソルティーナ,フェンリル,フローレンス,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 8000.0,
+              "value_text": "+8,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 350.0,
+              "value_text": "+3.5%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 1,
+                "Value": 8000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 350.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 7,
+            "CollectionLevel": 9,
+            "Id": 709,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルビレオの宝石(ソルティーナ,フェンリル,フローレンス,ルナリンド)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 7,
+        "IsIgnore": null,
+        "Memo": "アルビレオの宝石(ソルティーナ,フェンリル,フローレンス,ルナリンド)",
+        "NameKey": "[CharacterCollectionName7]",
+        "RequiredCharacterIds": [
+          5,
+          7,
+          8,
+          46
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2020-01-01 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName7]",
+      "names": {
+        "zh-CN": "天鹅座的宝石"
+      },
+      "required_character_ids": [
+        5,
+        7,
+        8,
+        46
+      ],
+      "required_characters": [
+        {
+          "id": 5,
+          "names": {
+            "zh-CN": "索尔缇娜"
+          }
+        },
+        {
+          "id": 7,
+          "names": {
+            "zh-CN": "芬里尔"
+          }
+        },
+        {
+          "id": 8,
+          "names": {
+            "zh-CN": "佛罗伦斯"
+          }
+        },
+        {
+          "id": 46,
+          "names": {
+            "zh-CN": "露娜琳德"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2020-01-01 00:00:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 27,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 27,
+            "CollectionLevel": 1,
+            "Id": 2701,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "テレスコピウムの星光(ステラ,マーリン,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 500.0,
+              "value_text": "+5%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 500.0
+              },
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 27,
+            "CollectionLevel": 2,
+            "Id": 2702,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "テレスコピウムの星光(ステラ,マーリン,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 500.0,
+              "value_text": "+5%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 500.0
+              },
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 27,
+            "CollectionLevel": 3,
+            "Id": 2703,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "テレスコピウムの星光(ステラ,マーリン,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 500.0,
+              "value_text": "+5%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 500.0
+              },
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 27,
+            "CollectionLevel": 4,
+            "Id": 2704,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "テレスコピウムの星光(ステラ,マーリン,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 550.0,
+              "value_text": "+5.5%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1100.0,
+              "value_text": "+1,100"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 550.0
+              },
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1100.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 27,
+            "CollectionLevel": 5,
+            "Id": 2705,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "テレスコピウムの星光(ステラ,マーリン,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 600.0,
+              "value_text": "+6%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1200.0,
+              "value_text": "+1,200"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 600.0
+              },
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 27,
+            "CollectionLevel": 6,
+            "Id": 2706,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "テレスコピウムの星光(ステラ,マーリン,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 650.0,
+              "value_text": "+6.5%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1300.0,
+              "value_text": "+1,300"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 650.0
+              },
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1300.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 27,
+            "CollectionLevel": 7,
+            "Id": 2707,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "テレスコピウムの星光(ステラ,マーリン,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 700.0,
+              "value_text": "+7%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1400.0,
+              "value_text": "+1,400"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 700.0
+              },
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1400.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 27,
+            "CollectionLevel": 8,
+            "Id": 2708,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "テレスコピウムの星光(ステラ,マーリン,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 750.0,
+              "value_text": "+7.5%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1500.0,
+              "value_text": "+1,500"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 750.0
+              },
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1500.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 27,
+            "CollectionLevel": 9,
+            "Id": 2709,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "テレスコピウムの星光(ステラ,マーリン,ルナリンド)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 27,
+        "IsIgnore": null,
+        "Memo": "テレスコピウムの星光(ステラ,マーリン,ルナリンド)",
+        "NameKey": "[CharacterCollectionName27]",
+        "RequiredCharacterIds": [
+          57,
+          26,
+          46
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2023-09-15 14:30:00"
+      },
+      "name_key": "[CharacterCollectionName27]",
+      "names": {
+        "zh-CN": "望远镜座的星光"
+      },
+      "required_character_ids": [
+        57,
+        26,
+        46
+      ],
+      "required_characters": [
+        {
+          "id": 57,
+          "names": {
+            "zh-CN": "史黛拉"
+          }
+        },
+        {
+          "id": 26,
+          "names": {
+            "zh-CN": "梅琳"
+          }
+        },
+        {
+          "id": 46,
+          "names": {
+            "zh-CN": "露娜琳德"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2023-09-15 14:30:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 29,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 300.0,
+              "value_text": "+300"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 300.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 29,
+            "CollectionLevel": 1,
+            "Id": 2901,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボーテスの聖光(エルフリンデ,ナターシャ,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 500.0,
+              "value_text": "+500"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 500.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 29,
+            "CollectionLevel": 2,
+            "Id": 2902,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボーテスの聖光(エルフリンデ,ナターシャ,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 500.0,
+              "value_text": "+500"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 500.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 29,
+            "CollectionLevel": 3,
+            "Id": 2903,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボーテスの聖光(エルフリンデ,ナターシャ,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 500.0,
+              "value_text": "+500"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 500.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 29,
+            "CollectionLevel": 4,
+            "Id": 2904,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボーテスの聖光(エルフリンデ,ナターシャ,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 510.0,
+              "value_text": "+510"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1050.0,
+              "value_text": "+1,050"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 510.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1050.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 29,
+            "CollectionLevel": 5,
+            "Id": 2905,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボーテスの聖光(エルフリンデ,ナターシャ,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 520.0,
+              "value_text": "+520"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1100.0,
+              "value_text": "+1,100"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 520.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1100.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 29,
+            "CollectionLevel": 6,
+            "Id": 2906,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボーテスの聖光(エルフリンデ,ナターシャ,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 530.0,
+              "value_text": "+530"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1150.0,
+              "value_text": "+1,150"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 530.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1150.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 29,
+            "CollectionLevel": 7,
+            "Id": 2907,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボーテスの聖光(エルフリンデ,ナターシャ,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 540.0,
+              "value_text": "+540"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1200.0,
+              "value_text": "+1,200"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 540.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 29,
+            "CollectionLevel": 8,
+            "Id": 2908,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボーテスの聖光(エルフリンデ,ナターシャ,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 550.0,
+              "value_text": "+550"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1250.0,
+              "value_text": "+1,250"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 550.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 29,
+            "CollectionLevel": 9,
+            "Id": 2909,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボーテスの聖光(エルフリンデ,ナターシャ,ルナリンド)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 29,
+        "IsIgnore": null,
+        "Memo": "ボーテスの聖光(エルフリンデ,ナターシャ,ルナリンド)",
+        "NameKey": "[CharacterCollectionName29]",
+        "RequiredCharacterIds": [
+          45,
+          41,
+          46
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2023-10-18 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName29]",
+      "names": {
+        "zh-CN": "牧夫座的圣光"
+      },
+      "required_character_ids": [
+        45,
+        41,
+        46
+      ],
+      "required_characters": [
+        {
+          "id": 45,
+          "names": {
+            "zh-CN": "埃尔芙琳黛"
+          }
+        },
+        {
+          "id": 41,
+          "names": {
+            "zh-CN": "娜塔夏"
+          }
+        },
+        {
+          "id": 46,
+          "names": {
+            "zh-CN": "露娜琳德"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2023-10-18 00:00:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 44,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 20.0,
+              "value_text": "+20×角色等级"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 20.0
+              }
+            ],
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 44,
+            "CollectionLevel": 1,
+            "Id": 4401,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ムスカの解放(パラデア,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 44,
+            "CollectionLevel": 2,
+            "Id": 4402,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ムスカの解放(パラデア,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 44,
+            "CollectionLevel": 3,
+            "Id": 4403,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ムスカの解放(パラデア,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 44,
+            "CollectionLevel": 4,
+            "Id": 4404,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ムスカの解放(パラデア,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 41.0,
+              "value_text": "+41×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 160.0,
+              "value_text": "+1.6%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 41.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 160.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 44,
+            "CollectionLevel": 5,
+            "Id": 4405,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ムスカの解放(パラデア,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 42.0,
+              "value_text": "+42×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 170.0,
+              "value_text": "+1.7%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 42.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 170.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 44,
+            "CollectionLevel": 6,
+            "Id": 4406,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ムスカの解放(パラデア,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 43.0,
+              "value_text": "+43×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 180.0,
+              "value_text": "+1.8%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 43.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 180.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 44,
+            "CollectionLevel": 7,
+            "Id": 4407,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ムスカの解放(パラデア,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 44.0,
+              "value_text": "+44×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 190.0,
+              "value_text": "+1.9%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 44.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 190.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 44,
+            "CollectionLevel": 8,
+            "Id": 4408,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ムスカの解放(パラデア,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 45.0,
+              "value_text": "+45×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 45.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 44,
+            "CollectionLevel": 9,
+            "Id": 4409,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ムスカの解放(パラデア,ルナリンド)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 44,
+        "IsIgnore": null,
+        "Memo": "ムスカの解放(パラデア,ルナリンド)",
+        "NameKey": "[CharacterCollectionName44]",
+        "RequiredCharacterIds": [
+          63,
+          46
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2024-03-14 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName44]",
+      "names": {
+        "zh-CN": "苍蝇座的解放"
+      },
+      "required_character_ids": [
+        63,
+        46
+      ],
+      "required_characters": [
+        {
+          "id": 63,
+          "names": {
+            "zh-CN": "帕拉底亚"
+          }
+        },
+        {
+          "id": 46,
+          "names": {
+            "zh-CN": "露娜琳德"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2024-03-14 00:00:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 63,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 500.0,
+              "value_text": "+500"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 63,
+            "CollectionLevel": 1,
+            "Id": 6301,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カストルの親愛(冬ルナリンド,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 63,
+            "CollectionLevel": 2,
+            "Id": 6302,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カストルの親愛(冬ルナリンド,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 63,
+            "CollectionLevel": 3,
+            "Id": 6303,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カストルの親愛(冬ルナリンド,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 63,
+            "CollectionLevel": 4,
+            "Id": 6304,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カストルの親愛(冬ルナリンド,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1050.0,
+              "value_text": "+1,050"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 3100.0,
+              "value_text": "+3,100"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1050.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3100.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 63,
+            "CollectionLevel": 5,
+            "Id": 6305,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カストルの親愛(冬ルナリンド,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1100.0,
+              "value_text": "+1,100"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 3200.0,
+              "value_text": "+3,200"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1100.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 63,
+            "CollectionLevel": 6,
+            "Id": 6306,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カストルの親愛(冬ルナリンド,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1150.0,
+              "value_text": "+1,150"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 3300.0,
+              "value_text": "+3,300"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1150.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3300.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 63,
+            "CollectionLevel": 7,
+            "Id": 6307,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カストルの親愛(冬ルナリンド,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1200.0,
+              "value_text": "+1,200"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 3400.0,
+              "value_text": "+3,400"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1200.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3400.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 63,
+            "CollectionLevel": 8,
+            "Id": 6308,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カストルの親愛(冬ルナリンド,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1250.0,
+              "value_text": "+1,250"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 3500.0,
+              "value_text": "+3,500"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1250.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3500.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 63,
+            "CollectionLevel": 9,
+            "Id": 6309,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カストルの親愛(冬ルナリンド,ルナリンド)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 63,
+        "IsIgnore": null,
+        "Memo": "カストルの親愛(冬ルナリンド,ルナリンド)",
+        "NameKey": "[CharacterCollectionName63]",
+        "RequiredCharacterIds": [
+          108,
+          46
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2024-12-13 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName63]",
+      "names": {
+        "zh-CN": "卡斯托尔的亲爱"
+      },
+      "required_character_ids": [
+        108,
+        46
+      ],
+      "required_characters": [
+        {
+          "id": 108,
+          "names": {
+            "zh-CN": "露娜琳德"
+          }
+        },
+        {
+          "id": 46,
+          "names": {
+            "zh-CN": "露娜琳德"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2024-12-13 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 1,
+    "element_type": 6,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 46,
+    "job_flags": 4,
+    "master_record": {
+      "ActiveSkillIds": [
+        46001,
+        46002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 79,
+        "Health": 78,
+        "Intelligence": 100,
+        "Muscle": 80
+      },
+      "BaseParameterGrossCoefficient": 337,
+      "CharacterType": 1,
+      "ElementType": 6,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 46,
+      "InitialBattleParameter": {
+        "AttackPower": -3,
+        "Avoidance": 0,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 4,
+        "DebuffResist": 0,
+        "Defense": 7,
+        "DefensePenetration": 0,
+        "HP": 0,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 3304
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 4,
+      "Memo": "ルナリンド",
+      "Name2Key": "[CharacterSubName46]",
+      "NameKey": "[CharacterName46]",
+      "NormalSkillId": 102,
+      "PassiveSkillIds": [
+        46003,
+        46004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2020-01-01 00:00:00"
+    },
+    "memo": "ルナリンド",
+    "name_key": "[CharacterName46]",
+    "names": {
+      "zh-CN": "露娜琳德"
+    },
+    "speed": 3304,
+    "start_time_jst": "2020-01-01 00:00:00",
+    "subtitle_key": "[CharacterSubName46]",
+    "subtitles": {
+      "zh-CN": "雪幻魔女"
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 3394,
+    "exclusive_effect_id": 180,
+    "icon_id": 380,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 3395,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 62,
+        "EquipmentEvolutionId": 72,
+        "EquipmentExclusiveSkillDescriptionId": 30,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 4,
+        "ExclusiveEffectId": 180,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 380,
+        "Id": 3394,
+        "IsIgnore": null,
+        "Memo": "ルナリンドLR240_書",
+        "NameKey": "[EquipmentName375]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": [
+          {
+            "BaseParameterType": 3,
+            "ChangeParameterType": 2,
+            "Value": 800.0
+          }
+        ],
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 5,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 46,
+        "Id": 180,
+        "IsIgnore": null,
+        "Memo": "ルナリンドLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill46Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill46Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill46Description3]",
+        "Id": 30,
+        "IsIgnore": null,
+        "Memo": "ルナリンド魔導書"
+      }
+    },
+    "name_key": "[EquipmentName375]",
+    "names": {
+      "zh-CN": "辉月天球"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "base",
+        "parameter_code": "Intelligence",
+        "parameter_type": 3,
+        "raw_value": 800.0,
+        "value_text": "+8%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Hit",
+        "parameter_type": 5,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill46Description1]",
+        "descriptions": {
+          "zh-CN": "强化幽冥冰棺，发动攻击前使露娜琳德额外增加25%暴击率。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill46Description2]",
+        "descriptions": {
+          "zh-CN": "强化幽冥冰棺，「沉默」效果增加为3回合。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill46Description3]",
+        "descriptions": {
+          "zh-CN": "强化幽冥冰棺，暴击率增幅提升为40%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 46003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription460031]",
+          "descriptions": {
+            "zh-CN": "不管遇到什么困难，我都会保护心爱的妹妹。当露娜琳德存活在场上时，使全体友军增加5%物理防御力（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "大切な妹のためなら、どんな困難からでも守ってみせる。自身が生存している間味方全体の物理防御力を5％増加させる（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription460032]",
+          "descriptions": {
+            "zh-CN": "物理防御力增幅提升为10%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "物理防御力の増加量が10％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription460033]",
+          "descriptions": {
+            "zh-CN": "物理防御力增幅提升为20%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理防御力の増加量が20％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 46003,
+        "IsIgnore": null,
+        "Memo": "【雪幻の魔女】\\nルナリンドSR: /Lv1　大切な妹のためなら、どんな困難からでも守ってみせる。自身が生存している間味方全体の物理防御力を5％増加させる（解除不可）。　/Lv2 物理防御力の増加量が10％になる。　/Lv3 物理防御力の増加量が20％になる。",
+        "NameKey": "[PassiveSkillName46003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription460031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 46003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 6,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 46003002
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 62,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 46003002
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription460032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 46003201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 6,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 46003202
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 62,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 46003202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription460033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 46003301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 6,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 46003302
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 62,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 46003302
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName46003]",
+      "names": {
+        "zh-CN": "姐妹情深"
+      },
+      "source_memo_ja": "【雪幻の魔女】\\nルナリンドSR: /Lv1　大切な妹のためなら、どんな困難からでも守ってみせる。自身が生存している間味方全体の物理防御力を5％増加させる（解除不可）。　/Lv2 物理防御力の増加量が10％になる。　/Lv3 物理防御力の増加量が20％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "大切な妹のためなら、どんな困難からでも守ってみせる。自身が生存している間味方全体の物理防御力を5％増加させる（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "物理防御力の増加量が10％になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理防御力の増加量が20％になる。"
+        }
+      ]
+    },
+    {
+      "id": 46004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription460041]",
+          "descriptions": {
+            "zh-CN": "在寒冰中不会有任何感觉，无论是痛苦或绝望。使露娜琳德减少25%自身承受伤害（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "痛みも、絶望も、何もかも。氷の中なら感じない。自身の被ダメージが25％減少する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription460042]",
+          "descriptions": {
+            "zh-CN": "额外增加25%吸血（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに自身のHPドレインが25％増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription460043]",
+          "descriptions": {
+            "zh-CN": "承受伤害降幅提升为40%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "被ダメージの減少量が40％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 46004,
+        "IsIgnore": null,
+        "Memo": "【雪幻の魔女】\\nルナリンドSR: /Lv1　痛みも、絶望も、何もかも。氷の中なら感じない。自身の被ダメージが25％減少する（解除不可）。　/Lv2 さらに自身のHPドレインが25％増加する（解除不可）。　/Lv3 被ダメージの減少量が40％になる。",
+        "NameKey": "[PassiveSkillName46004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription460041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 46004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription460042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 46004201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription460043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 46004301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName46004]",
+      "names": {
+        "zh-CN": "冰封之心"
+      },
+      "source_memo_ja": "【雪幻の魔女】\\nルナリンドSR: /Lv1　痛みも、絶望も、何もかも。氷の中なら感じない。自身の被ダメージが25％減少する（解除不可）。　/Lv2 さらに自身のHPドレインが25％増加する（解除不可）。　/Lv3 被ダメージの減少量が40％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "痛みも、絶望も、何もかも。氷の中なら感じない。自身の被ダメージが25％減少する（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに自身のHPドレインが25％増加する（解除不可）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "被ダメージの減少量が40％になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

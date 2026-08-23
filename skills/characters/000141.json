@@ -1,0 +1,1387 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 141001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription1410011]",
+          "descriptions": {
+            "zh-CN": "那股据说动动手指便能毁灭世界的强大力量已不复存在，如今只剩下少许残渣。百合对攻击力最高的2名敌人造成攻击力×160%的魔法伤害，30%概率附加「晕厥」状态，效果持续1回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "指先一つで世界を滅ぼすと言われた力はもうなく、今はただその残滓が宿るのみ。攻撃力が高い敵2体に攻撃力×160%の魔法攻撃を行い、30%の確率で対象に1ターンの間『気絶』を付与する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription1410012]",
+          "descriptions": {
+            "zh-CN": "附加「晕厥」状态的概率提升为70%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "『気絶』を付与する確率が70%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1410013]",
+          "descriptions": {
+            "zh-CN": "造成的魔法伤害提升为攻击力×220%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "魔法攻撃のダメージが攻撃力×220%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1410014]",
+          "descriptions": {
+            "zh-CN": "强化虚幻沙尘，技能目标增加为攻击力最高的3名敌人。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "ファントムダストを強化する。ファントムダストの対象が攻撃力が高い敵3体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription1410015]",
+          "descriptions": {
+            "zh-CN": "强化虚幻沙尘，造成的魔法伤害提升为攻击力×240%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "ファントムダストを強化する。魔法攻撃のダメージが攻撃力×240%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription1410011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              141001001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription1410012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              141001201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1410013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              141001301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1410014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              141001401
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription1410015]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              141001501
+            ]
+          }
+        ],
+        "Id": 141001,
+        "IsIgnore": null,
+        "Memo": "リリーSR:Lv1 指先一つで世界を滅ぼすと言われた力はもうなく、今はただその残滓が宿るのみ。攻撃力が高い敵2体に攻撃力×160%の魔法攻撃を行い、30%の確率で対象に1ターンの間『気絶』を付与する。/ Lv2 『気絶』を付与する確率が70%になる。/ Lv3 魔法攻撃のダメージが攻撃力×220%になる。/ Ex1 ファントムダストを強化する。ファントムダストの対象が攻撃力が高い敵3体になる。/ Ex3 ファントムダストを強化する。魔法攻撃のダメージが攻撃力×240%になる。",
+        "NameKey": "[ActiveSkillName141001]",
+        "RootActiveSkillId": 141001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName141001]",
+      "names": {
+        "zh-CN": "虚幻沙尘"
+      },
+      "source_memo_ja": "リリーSR:Lv1 指先一つで世界を滅ぼすと言われた力はもうなく、今はただその残滓が宿るのみ。攻撃力が高い敵2体に攻撃力×160%の魔法攻撃を行い、30%の確率で対象に1ターンの間『気絶』を付与する。/ Lv2 『気絶』を付与する確率が70%になる。/ Lv3 魔法攻撃のダメージが攻撃力×220%になる。/ Ex1 ファントムダストを強化する。ファントムダストの対象が攻撃力が高い敵3体になる。/ Ex3 ファントムダストを強化する。魔法攻撃のダメージが攻撃力×240%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "指先一つで世界を滅ぼすと言われた力はもうなく、今はただその残滓が宿るのみ。攻撃力が高い敵2体に攻撃力×160%の魔法攻撃を行い、30%の確率で対象に1ターンの間『気絶』を付与する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "『気絶』を付与する確率が70%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "魔法攻撃のダメージが攻撃力×220%になる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "ファントムダストを強化する。ファントムダストの対象が攻撃力が高い敵3体になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "ファントムダストを強化する。魔法攻撃のダメージが攻撃力×240%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 141002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription1410021]",
+          "descriptions": {
+            "zh-CN": "当构筑万物的原理崩解时，一切都将重新分解为比砂粒更微小的元素。百合随机对敌人进行6次攻击，每次造成攻击力×160%的魔法伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "万物を形作る理を解いた時、砂粒にも満たない元素へ還る。ランダムな敵に6回攻撃力×160%の魔法攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription1410022]",
+          "descriptions": {
+            "zh-CN": "发动攻击前，使技能目标额外减少40%回血量，效果持续4回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに魔法攻撃の前に4ターンの間対象の被回復量を40%減少させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription1410023]",
+          "descriptions": {
+            "zh-CN": "攻击次数增加为10次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "魔法攻撃の回数が10回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription1410024]",
+          "descriptions": {
+            "zh-CN": "发动攻击前，如果百合身上附带的「残香」达20层，造成的魔法伤害提升为攻击力×320%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "魔法攻撃の前に自身の『残り香』のスタック数が20の場合、魔法攻撃のダメージが攻撃力×320%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription1410021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              141002001,
+              141002002,
+              141002002,
+              141002002,
+              141002002,
+              141002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription1410022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              141002201,
+              141002202,
+              141002202,
+              141002202,
+              141002202,
+              141002202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription1410023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              141002201,
+              141002202,
+              141002202,
+              141002202,
+              141002202,
+              141002202,
+              141002202,
+              141002202,
+              141002202,
+              141002202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription1410024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              141002401,
+              141002402,
+              141002402,
+              141002402,
+              141002402,
+              141002402,
+              141002402,
+              141002402,
+              141002402,
+              141002402
+            ]
+          }
+        ],
+        "Id": 141002,
+        "IsIgnore": null,
+        "Memo": "リリーSR:Lv1 万物を形作る理を解いた時、砂粒にも満たない元素へ還る。ランダムな敵に6回攻撃力×160%の魔法攻撃を行う。/ Lv2 さらに魔法攻撃の前に4ターンの間対象の被回復量を40%減少させる。/ Lv3 魔法攻撃の回数が10回になる。/ Lv4 魔法攻撃の前に自身の『残り香』のスタック数が20の場合、魔法攻撃のダメージが攻撃力×320%になる。",
+        "NameKey": "[ActiveSkillName141002]",
+        "RootActiveSkillId": 141002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName141002]",
+      "names": {
+        "zh-CN": "微粒化"
+      },
+      "source_memo_ja": "リリーSR:Lv1 万物を形作る理を解いた時、砂粒にも満たない元素へ還る。ランダムな敵に6回攻撃力×160%の魔法攻撃を行う。/ Lv2 さらに魔法攻撃の前に4ターンの間対象の被回復量を40%減少させる。/ Lv3 魔法攻撃の回数が10回になる。/ Lv4 魔法攻撃の前に自身の『残り香』のスタック数が20の場合、魔法攻撃のダメージが攻撃力×320%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "万物を形作る理を解いた時、砂粒にも満たない元素へ還る。ランダムな敵に6回攻撃力×160%の魔法攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに魔法攻撃の前に4ターンの間対象の被回復量を40%減少させる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "魔法攻撃の回数が10回になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "魔法攻撃の前に自身の『残り香』のスタック数が20の場合、魔法攻撃のダメージが攻撃力×320%になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 94,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 94,
+            "CollectionLevel": 1,
+            "Id": 9401,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ルクバトの投影​(リリー,新フィアー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 500.0,
+              "value_text": "+5%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 250.0,
+              "value_text": "+250"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 500.0
+              },
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 250.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 94,
+            "CollectionLevel": 2,
+            "Id": 9402,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ルクバトの投影​(リリー,新フィアー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 500.0,
+              "value_text": "+5%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 250.0,
+              "value_text": "+250"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 500.0
+              },
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 250.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 94,
+            "CollectionLevel": 3,
+            "Id": 9403,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ルクバトの投影​(リリー,新フィアー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 500.0,
+              "value_text": "+5%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 250.0,
+              "value_text": "+250"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 500.0
+              },
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 94,
+            "CollectionLevel": 4,
+            "Id": 9404,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ルクバトの投影​(リリー,新フィアー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 510.0,
+              "value_text": "+5.1%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 255.0,
+              "value_text": "+255"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 510.0
+              },
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 255.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 94,
+            "CollectionLevel": 5,
+            "Id": 9405,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ルクバトの投影​(リリー,新フィアー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 520.0,
+              "value_text": "+5.2%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 260.0,
+              "value_text": "+260"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 520.0
+              },
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 260.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 94,
+            "CollectionLevel": 6,
+            "Id": 9406,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ルクバトの投影​(リリー,新フィアー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 530.0,
+              "value_text": "+5.3%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 265.0,
+              "value_text": "+265"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 530.0
+              },
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 265.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 94,
+            "CollectionLevel": 7,
+            "Id": 9407,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ルクバトの投影​(リリー,新フィアー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 540.0,
+              "value_text": "+5.4%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 270.0,
+              "value_text": "+270"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 540.0
+              },
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 270.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 94,
+            "CollectionLevel": 8,
+            "Id": 9408,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ルクバトの投影​(リリー,新フィアー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 550.0,
+              "value_text": "+5.5%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 275.0,
+              "value_text": "+275"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 550.0
+              },
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 275.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 94,
+            "CollectionLevel": 9,
+            "Id": 9409,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ルクバトの投影​(リリー,新フィアー)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 94,
+        "IsIgnore": null,
+        "Memo": "ルクバトの投影​(リリー,新フィアー)",
+        "NameKey": "[CharacterCollectionName94]",
+        "RequiredCharacterIds": [
+          141,
+          134
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2026-04-30 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName94]",
+      "names": {
+        "zh-CN": "马膝星的投影"
+      },
+      "required_character_ids": [
+        141,
+        134
+      ],
+      "required_characters": [
+        {
+          "id": 141,
+          "names": {
+            "zh-CN": "百合"
+          }
+        },
+        {
+          "id": 134,
+          "names": {
+            "zh-CN": "菲雅"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2026-04-30 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 5,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 141,
+    "job_flags": 4,
+    "master_record": {
+      "ActiveSkillIds": [
+        141001,
+        141002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 79,
+        "Health": 74,
+        "Intelligence": 103,
+        "Muscle": 79
+      },
+      "BaseParameterGrossCoefficient": 335,
+      "CharacterType": 0,
+      "ElementType": 5,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 141,
+      "InitialBattleParameter": {
+        "AttackPower": -2,
+        "Avoidance": 0,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 5,
+        "DebuffResist": 0,
+        "Defense": 7,
+        "DefensePenetration": 0,
+        "HP": 0,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 3058
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 4,
+      "Memo": "リリー",
+      "Name2Key": "",
+      "NameKey": "[CharacterName141]",
+      "NormalSkillId": 102,
+      "PassiveSkillIds": [
+        141003,
+        141004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2026-04-30 15:00:00"
+    },
+    "memo": "リリー",
+    "name_key": "[CharacterName141]",
+    "names": {
+      "zh-CN": "百合"
+    },
+    "speed": 3058,
+    "start_time_jst": "2026-04-30 15:00:00",
+    "subtitle_key": "",
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 1411130240,
+    "exclusive_effect_id": 660,
+    "icon_id": 950,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 1411130250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 142,
+        "EquipmentEvolutionId": 152,
+        "EquipmentExclusiveSkillDescriptionId": 110,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 4,
+        "ExclusiveEffectId": 660,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 950,
+        "Id": 1411130240,
+        "IsIgnore": null,
+        "Memo": "リリーLR240_書",
+        "NameKey": "[EquipmentName945]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": [
+          {
+            "BaseParameterType": 3,
+            "ChangeParameterType": 2,
+            "Value": 800.0
+          }
+        ],
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 15,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 141,
+        "Id": 660,
+        "IsIgnore": null,
+        "Memo": "リリーLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill141Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill141Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill141Description3]",
+        "Id": 110,
+        "IsIgnore": null,
+        "Memo": "リリー魔導書"
+      }
+    },
+    "name_key": "[EquipmentName945]",
+    "names": {
+      "zh-CN": "赎罪的谎花"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "base",
+        "parameter_code": "Intelligence",
+        "parameter_type": 3,
+        "raw_value": 800.0,
+        "value_text": "+8%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "DebuffHit",
+        "parameter_type": 15,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill141Description1]",
+        "descriptions": {
+          "zh-CN": "强化虚幻沙尘，技能目标增加为攻击力最高的3名敌人。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill141Description2]",
+        "descriptions": {
+          "zh-CN": "强化记忆转录载体，速度增幅提升为30%。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill141Description3]",
+        "descriptions": {
+          "zh-CN": "强化虚幻沙尘，造成的魔法伤害提升为攻击力×240%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": false,
+  "missing_localization_keys": [
+    ""
+  ],
+  "passive_skills": [
+    {
+      "id": 141003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription1410031]",
+          "descriptions": {
+            "zh-CN": "“我是借助神杖拥有的情谊之力，把残留在花朵里的灵魂碎片，与留在菲雅心中的记忆结合而成的存在——也就是像幽灵一般的存在。”战斗开始时，百合使自己增加15%弱化效果命中率，效果持续2回合（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「私は、花に遺されていた魂の欠片と、フィアーの中にある記憶を、杖の力で結びつけたもの。つまり幽霊みたいなものなんだ」バトル開始時、2ターンの間自身の弱体効果命中率が15%増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription1410032]",
+          "descriptions": {
+            "zh-CN": "弱化效果命中率增幅提升为30%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "弱体効果命中率の増加量が30%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription1410033]",
+          "descriptions": {
+            "zh-CN": "战斗开始时，如果队伍中属性相同的友军达3名以上，百合使自己增加10%速度，效果持续2回合（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "バトル開始時、さらに味方編成内で同じ属性の味方の編成数が3体以上の場合、2ターンの間自身のスピードが10%増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription1410034]",
+          "descriptions": {
+            "zh-CN": "强化记忆转录载体，速度增幅提升为30%。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "情報転写体を強化する。スピードの増加量が30%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 141003,
+        "IsIgnore": null,
+        "Memo": "リリーSR:Lv1 「私は、花に遺されていた魂の欠片と、フィアーの中にある記憶を、杖の力で結びつけたもの。つまり幽霊みたいなものなんだ」バトル開始時、2ターンの間自身の弱体効果命中率が15%増加する（解除不可）。/ Lv2 弱体効果命中率の増加量が30%になる。/ Lv3 バトル開始時、さらに味方編成内で同じ属性の味方の編成数が3体以上の場合、2ターンの間自身のスピードが10%増加する（解除不可）。/ Ex2 情報転写体を強化する。スピードの増加量が30%になる。",
+        "NameKey": "[PassiveSkillName141003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription1410031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 141003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription1410032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 141003201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription1410033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 141003201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 28,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 141003302
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription1410034]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 141003201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 28,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 141003402
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName141003]",
+      "names": {
+        "zh-CN": "记忆转录载体"
+      },
+      "source_memo_ja": "リリーSR:Lv1 「私は、花に遺されていた魂の欠片と、フィアーの中にある記憶を、杖の力で結びつけたもの。つまり幽霊みたいなものなんだ」バトル開始時、2ターンの間自身の弱体効果命中率が15%増加する（解除不可）。/ Lv2 弱体効果命中率の増加量が30%になる。/ Lv3 バトル開始時、さらに味方編成内で同じ属性の味方の編成数が3体以上の場合、2ターンの間自身のスピードが10%増加する（解除不可）。/ Ex2 情報転写体を強化する。スピードの増加量が30%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「私は、花に遺されていた魂の欠片と、フィアーの中にある記憶を、杖の力で結びつけたもの。つまり幽霊みたいなものなんだ」バトル開始時、2ターンの間自身の弱体効果命中率が15%増加する（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "弱体効果命中率の増加量が30%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "バトル開始時、さらに味方編成内で同じ属性の味方の編成数が3体以上の場合、2ターンの間自身のスピードが10%増加する（解除不可）。"
+        },
+        {
+          "label": "Ex2",
+          "text": "情報転写体を強化する。スピードの増加量が30%になる。"
+        }
+      ]
+    },
+    {
+      "id": 141004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription1410041]",
+          "descriptions": {
+            "zh-CN": "曾舍弃的罪恶感，成为将她束缚在人世间的核心。当百合或友军发动主动技能附加弱化效果时，每名身上附带1种以上弱化效果的敌人，使百合获得1层「残香」（最多20层）（无法被解除）。每层「残香」使附带者增加2%攻击力。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "かつて切り捨てた罪悪感が、彼女をこの世に縛り付ける核となった。自身か味方がアクティブスキルで弱体効果を付与するたび、弱体効果を1つ以上付帯している敵の数分、自身に『残り香』を1スタック付与する（最大20スタックまで）（解除不可）。このバフは1スタックにつき付帯者の攻撃力を2%増加させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription1410042]",
+          "descriptions": {
+            "zh-CN": "「残香」的附加目标增加为百合与攻击力最高的其他友军。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "『残り香』を付与する対象が自身と自身以外の攻撃力が最も高い味方になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription1410043]",
+          "descriptions": {
+            "zh-CN": "「残香」的附加目标增加为百合与攻击力最高的2名其他友军。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "『残り香』を付与する対象が自身と自身以外の攻撃力が高い味方2体になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 141004,
+        "IsIgnore": null,
+        "Memo": "リリーSR:Lv1 かつて切り捨てた罪悪感が、彼女をこの世に縛り付ける核となった。自身か味方がアクティブスキルで弱体効果を付与するたび、弱体効果を1つ以上付帯している敵の数分、自身に『残り香』を1スタック付与する（最大20スタックまで）（解除不可）。このバフは1スタックにつき付帯者の攻撃力を2%増加させる。/ Lv2 『残り香』を付与する対象が自身と自身以外の攻撃力が最も高い味方になる。/ Lv3 『残り香』を付与する対象が自身と自身以外の攻撃力が高い味方2体になる。",
+        "NameKey": "[PassiveSkillName141004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription1410041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 12,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 141004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 47,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 141004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription1410042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 12,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 141004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 47,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 141004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 12,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 141004202
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 47,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 141004202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription1410043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 12,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 141004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 47,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 141004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 12,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 141004302
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 47,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 141004302
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName141004]",
+      "names": {
+        "zh-CN": "悔恨残香"
+      },
+      "source_memo_ja": "リリーSR:Lv1 かつて切り捨てた罪悪感が、彼女をこの世に縛り付ける核となった。自身か味方がアクティブスキルで弱体効果を付与するたび、弱体効果を1つ以上付帯している敵の数分、自身に『残り香』を1スタック付与する（最大20スタックまで）（解除不可）。このバフは1スタックにつき付帯者の攻撃力を2%増加させる。/ Lv2 『残り香』を付与する対象が自身と自身以外の攻撃力が最も高い味方になる。/ Lv3 『残り香』を付与する対象が自身と自身以外の攻撃力が高い味方2体になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "かつて切り捨てた罪悪感が、彼女をこの世に縛り付ける核となった。自身か味方がアクティブスキルで弱体効果を付与するたび、弱体効果を1つ以上付帯している敵の数分、自身に『残り香』を1スタック付与する（最大20スタックまで）（解除不可）。このバフは1スタックにつき付帯者の攻撃力を2%増加させる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "『残り香』を付与する対象が自身と自身以外の攻撃力が最も高い味方になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "『残り香』を付与する対象が自身と自身以外の攻撃力が高い味方2体になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

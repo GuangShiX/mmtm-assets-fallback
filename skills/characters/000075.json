@@ -1,0 +1,2313 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 75001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription750011]",
+          "descriptions": {
+            "zh-CN": "摩嘉娜召唤黑色疾风横扫战场，使自己受到当前生命值×20%的自损伤害，随机对敌人进行5次攻击，每次造成攻击力×320%的魔法伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "呼び出された黒き疾風が戦場を薙ぎ払う。自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵に5回攻撃力×320%の魔法攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription750012]",
+          "descriptions": {
+            "zh-CN": "如果摩嘉娜身上附带奋起之心附加的「攻击力上升」状态，且叠加数为2层以上时，使自己额外恢复技能总伤害×10%的生命值。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに自身が奮起する心で付与した『攻撃力増加』のスタック数が2以上の場合、自身のHPをこのスキルの総与ダメージ×10%回復する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription750013]",
+          "descriptions": {
+            "zh-CN": "每次攻击之后，50%概率使技能目标额外减少20%回血量，效果持续2回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらに攻撃するたび50%の確率で2ターンの間対象の被回復量を20%減少させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription750014]",
+          "descriptions": {
+            "zh-CN": "强化黑鸦葬歌，造成的魔法伤害提升为攻击力×420%。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "プラハーンを強化する。魔法攻撃のダメージが攻撃力×420%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription750011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              75001001,
+              75001002,
+              75001003,
+              75001003,
+              75001003,
+              75001003
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription750012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              75001001,
+              75001002,
+              75001003,
+              75001003,
+              75001003,
+              75001003,
+              75001204
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription750013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              75001001,
+              75001302,
+              75001303,
+              75001303,
+              75001303,
+              75001303,
+              75001204
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription750014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              75001001,
+              75001402,
+              75001403,
+              75001403,
+              75001403,
+              75001403,
+              75001204
+            ]
+          }
+        ],
+        "Id": 75001,
+        "IsIgnore": null,
+        "Memo": "モルガナSR:Lv1 呼び出された黒き疾風が戦場を薙ぎ払う。自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵に5回攻撃力×320%の魔法攻撃を行う。/ Lv2 さらに自身が奮起する心で付与した『攻撃力増加』のスタック数が2以上の場合、自身のHPをこのスキルの総与ダメージ×10%回復する。/ Lv3 さらに攻撃するたび50%の確率で2ターンの間対象の被回復量を20%減少させる。/ Ex1 プラハーンを強化する。魔法攻撃のダメージが攻撃力×420%になる。",
+        "NameKey": "[ActiveSkillName75001]",
+        "RootActiveSkillId": 75001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName75001]",
+      "names": {
+        "zh-CN": "黑鸦葬歌"
+      },
+      "source_memo_ja": "モルガナSR:Lv1 呼び出された黒き疾風が戦場を薙ぎ払う。自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵に5回攻撃力×320%の魔法攻撃を行う。/ Lv2 さらに自身が奮起する心で付与した『攻撃力増加』のスタック数が2以上の場合、自身のHPをこのスキルの総与ダメージ×10%回復する。/ Lv3 さらに攻撃するたび50%の確率で2ターンの間対象の被回復量を20%減少させる。/ Ex1 プラハーンを強化する。魔法攻撃のダメージが攻撃力×420%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "呼び出された黒き疾風が戦場を薙ぎ払う。自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵に5回攻撃力×320%の魔法攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに自身が奮起する心で付与した『攻撃力増加』のスタック数が2以上の場合、自身のHPをこのスキルの総与ダメージ×10%回復する。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらに攻撃するたび50%の確率で2ターンの間対象の被回復量を20%減少させる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "プラハーンを強化する。魔法攻撃のダメージが攻撃力×420%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 75002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription750021]",
+          "descriptions": {
+            "zh-CN": "摩嘉娜召唤鲜红长矛贯穿敌人，使自己受到当前生命值×20%的自损伤害，随机对敌人进行2次攻击，每次造成攻击力×420%的魔法伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "呼び出された赤き槍が敵を狙い穿つ。自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵に2回攻撃力×420%の魔法攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription750022]",
+          "descriptions": {
+            "zh-CN": "攻击次数增加为3次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "魔法攻撃の回数が3回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription750023]",
+          "descriptions": {
+            "zh-CN": "摩嘉娜身上每附带1层奋起之心附加的「攻击力上升」状态，攻击次数额外增加1次（合计最多7连击）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらに自身が奮起する心で付与した『攻撃力増加』のスタック数1つにつき攻撃回数が1回多くなる（合計で最大7回まで）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription750024]",
+          "descriptions": {
+            "zh-CN": "造成的魔法伤害提升为攻击力×520%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "魔法攻撃のダメージが攻撃力×520%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription750025]",
+          "descriptions": {
+            "zh-CN": "强化赤角之矛，造成的魔法伤害提升为攻击力×580%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "ボーヤルグを強化する。魔法攻撃のダメージが攻撃力×580%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription750021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              75002001,
+              75002002,
+              75002003
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription750022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              75002001,
+              75002002,
+              75002003,
+              75002003
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription750023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              75002001,
+              75002302,
+              75002303,
+              75002303,
+              75002304,
+              75002305,
+              75002306,
+              75002307
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription750024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              75002001,
+              75002402,
+              75002403,
+              75002403,
+              75002404,
+              75002405,
+              75002406,
+              75002407
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription750025]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              75002001,
+              75002502,
+              75002503,
+              75002503,
+              75002504,
+              75002505,
+              75002506,
+              75002507
+            ]
+          }
+        ],
+        "Id": 75002,
+        "IsIgnore": null,
+        "Memo": "モルガナSR:Lv1 呼び出された赤き槍が敵を狙い穿つ。自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵に2回攻撃力×420%の魔法攻撃を行う。/ Lv2 魔法攻撃の回数が3回になる。/ Lv3 さらに自身が奮起する心で付与した『攻撃力増加』のスタック数1つにつき攻撃回数が1回多くなる（合計で最大7回まで）。/ Lv4 魔法攻撃のダメージが攻撃力×520%になる。/ Ex3 ボーヤルグを強化する。魔法攻撃のダメージが攻撃力×580%になる。",
+        "NameKey": "[ActiveSkillName75002]",
+        "RootActiveSkillId": 75002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName75002]",
+      "names": {
+        "zh-CN": "赤角之矛"
+      },
+      "source_memo_ja": "モルガナSR:Lv1 呼び出された赤き槍が敵を狙い穿つ。自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵に2回攻撃力×420%の魔法攻撃を行う。/ Lv2 魔法攻撃の回数が3回になる。/ Lv3 さらに自身が奮起する心で付与した『攻撃力増加』のスタック数1つにつき攻撃回数が1回多くなる（合計で最大7回まで）。/ Lv4 魔法攻撃のダメージが攻撃力×520%になる。/ Ex3 ボーヤルグを強化する。魔法攻撃のダメージが攻撃力×580%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "呼び出された赤き槍が敵を狙い穿つ。自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵に2回攻撃力×420%の魔法攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "魔法攻撃の回数が3回になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらに自身が奮起する心で付与した『攻撃力増加』のスタック数1つにつき攻撃回数が1回多くなる（合計で最大7回まで）。"
+        },
+        {
+          "label": "Lv4",
+          "text": "魔法攻撃のダメージが攻撃力×520%になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "ボーヤルグを強化する。魔法攻撃のダメージが攻撃力×580%になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 45,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 45,
+            "CollectionLevel": 1,
+            "Id": 4501,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "エリダヌスの神託(モルガナ,サブリナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 1500.0,
+              "value_text": "+1,500"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 1,
+                "Value": 1500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 45,
+            "CollectionLevel": 2,
+            "Id": 4502,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "エリダヌスの神託(モルガナ,サブリナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 1500.0,
+              "value_text": "+1,500"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 1,
+                "Value": 1500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 45,
+            "CollectionLevel": 3,
+            "Id": 4503,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "エリダヌスの神託(モルガナ,サブリナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 1500.0,
+              "value_text": "+1,500"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 1,
+                "Value": 1500.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 45,
+            "CollectionLevel": 4,
+            "Id": 4504,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "エリダヌスの神託(モルガナ,サブリナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 210.0,
+              "value_text": "+2.1%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 1600.0,
+              "value_text": "+1,600"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 210.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 1,
+                "Value": 1600.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 45,
+            "CollectionLevel": 5,
+            "Id": 4505,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "エリダヌスの神託(モルガナ,サブリナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 220.0,
+              "value_text": "+2.2%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 1700.0,
+              "value_text": "+1,700"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 220.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 1,
+                "Value": 1700.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 45,
+            "CollectionLevel": 6,
+            "Id": 4506,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "エリダヌスの神託(モルガナ,サブリナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 230.0,
+              "value_text": "+2.3%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 1800.0,
+              "value_text": "+1,800"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 230.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 1,
+                "Value": 1800.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 45,
+            "CollectionLevel": 7,
+            "Id": 4507,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "エリダヌスの神託(モルガナ,サブリナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 240.0,
+              "value_text": "+2.4%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 1900.0,
+              "value_text": "+1,900"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 240.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 1,
+                "Value": 1900.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 45,
+            "CollectionLevel": 8,
+            "Id": 4508,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "エリダヌスの神託(モルガナ,サブリナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 250.0,
+              "value_text": "+2.5%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 2000.0,
+              "value_text": "+2,000"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 250.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 1,
+                "Value": 2000.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 45,
+            "CollectionLevel": 9,
+            "Id": 4509,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "エリダヌスの神託(モルガナ,サブリナ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 45,
+        "IsIgnore": null,
+        "Memo": "エリダヌスの神託(モルガナ,サブリナ)",
+        "NameKey": "[CharacterCollectionName45]",
+        "RequiredCharacterIds": [
+          75,
+          15
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2024-04-15 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName45]",
+      "names": {
+        "zh-CN": "波江座的神谕"
+      },
+      "required_character_ids": [
+        75,
+        15
+      ],
+      "required_characters": [
+        {
+          "id": 75,
+          "names": {
+            "zh-CN": "摩嘉娜"
+          }
+        },
+        {
+          "id": 15,
+          "names": {
+            "zh-CN": "萨宾娜"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2024-04-15 00:00:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 65,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 65,
+            "CollectionLevel": 1,
+            "Id": 6501,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "リゲルの審判​(アルトリア,モルガナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 300.0,
+              "value_text": "+3%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 300.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 65,
+            "CollectionLevel": 2,
+            "Id": 6502,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "リゲルの審判​(アルトリア,モルガナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 300.0,
+              "value_text": "+3%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 300.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 65,
+            "CollectionLevel": 3,
+            "Id": 6503,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "リゲルの審判​(アルトリア,モルガナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 300.0,
+              "value_text": "+3%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 300.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 65,
+            "CollectionLevel": 4,
+            "Id": 6504,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "リゲルの審判​(アルトリア,モルガナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 210.0,
+              "value_text": "+2.1%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 310.0,
+              "value_text": "+3.1%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 210.0
+              },
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 310.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 65,
+            "CollectionLevel": 5,
+            "Id": 6505,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "リゲルの審判​(アルトリア,モルガナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 220.0,
+              "value_text": "+2.2%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 320.0,
+              "value_text": "+3.2%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 220.0
+              },
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 320.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 65,
+            "CollectionLevel": 6,
+            "Id": 6506,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "リゲルの審判​(アルトリア,モルガナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 230.0,
+              "value_text": "+2.3%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 330.0,
+              "value_text": "+3.3%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 230.0
+              },
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 330.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 65,
+            "CollectionLevel": 7,
+            "Id": 6507,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "リゲルの審判​(アルトリア,モルガナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 240.0,
+              "value_text": "+2.4%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 340.0,
+              "value_text": "+3.4%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 240.0
+              },
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 340.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 65,
+            "CollectionLevel": 8,
+            "Id": 6508,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "リゲルの審判​(アルトリア,モルガナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 250.0,
+              "value_text": "+2.5%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 350.0,
+              "value_text": "+3.5%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 250.0
+              },
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 350.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 65,
+            "CollectionLevel": 9,
+            "Id": 6509,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "リゲルの審判​(アルトリア,モルガナ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 65,
+        "IsIgnore": null,
+        "Memo": "リゲルの審判​(アルトリア,モルガナ)",
+        "NameKey": "[CharacterCollectionName65]",
+        "RequiredCharacterIds": [
+          93,
+          75
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2025-01-15 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName65]",
+      "names": {
+        "zh-CN": "巨人星的审判"
+      },
+      "required_character_ids": [
+        93,
+        75
+      ],
+      "required_characters": [
+        {
+          "id": 93,
+          "names": {
+            "zh-CN": "阿尔托莉亚"
+          }
+        },
+        {
+          "id": 75,
+          "names": {
+            "zh-CN": "摩嘉娜"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2025-01-15 00:00:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 87,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 250.0,
+              "value_text": "+250"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 250.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 87,
+            "CollectionLevel": 1,
+            "Id": 8701,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アケルナルの神童​(メルラン,アルトリア,モルガナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 500.0,
+              "value_text": "+500"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 500.0
+              },
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 87,
+            "CollectionLevel": 2,
+            "Id": 8702,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アケルナルの神童​(メルラン,アルトリア,モルガナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 500.0,
+              "value_text": "+500"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 500.0
+              },
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 87,
+            "CollectionLevel": 3,
+            "Id": 8703,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アケルナルの神童​(メルラン,アルトリア,モルガナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 500.0,
+              "value_text": "+500"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 500.0
+              },
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 87,
+            "CollectionLevel": 4,
+            "Id": 8704,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アケルナルの神童​(メルラン,アルトリア,モルガナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 510.0,
+              "value_text": "+510"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 71.0,
+              "value_text": "+71×角色等级"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 510.0
+              },
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 71.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 87,
+            "CollectionLevel": 5,
+            "Id": 8705,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アケルナルの神童​(メルラン,アルトリア,モルガナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 520.0,
+              "value_text": "+520"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 72.0,
+              "value_text": "+72×角色等级"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 520.0
+              },
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 72.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 87,
+            "CollectionLevel": 6,
+            "Id": 8706,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アケルナルの神童​(メルラン,アルトリア,モルガナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 530.0,
+              "value_text": "+530"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 73.0,
+              "value_text": "+73×角色等级"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 530.0
+              },
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 73.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 87,
+            "CollectionLevel": 7,
+            "Id": 8707,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アケルナルの神童​(メルラン,アルトリア,モルガナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 540.0,
+              "value_text": "+540"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 74.0,
+              "value_text": "+74×角色等级"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 540.0
+              },
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 74.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 87,
+            "CollectionLevel": 8,
+            "Id": 8708,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アケルナルの神童​(メルラン,アルトリア,モルガナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 550.0,
+              "value_text": "+550"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 75.0,
+              "value_text": "+75×角色等级"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 550.0
+              },
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 75.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 87,
+            "CollectionLevel": 9,
+            "Id": 8709,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アケルナルの神童​(メルラン,アルトリア,モルガナ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 87,
+        "IsIgnore": null,
+        "Memo": "アケルナルの神童​(メルラン,アルトリア,モルガナ)",
+        "NameKey": "[CharacterCollectionName87]",
+        "RequiredCharacterIds": [
+          135,
+          93,
+          75
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2026-01-29 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName87]",
+      "names": {
+        "zh-CN": "河尾星的神童"
+      },
+      "required_character_ids": [
+        135,
+        93,
+        75
+      ],
+      "required_characters": [
+        {
+          "id": 135,
+          "names": {
+            "zh-CN": "梅尔林"
+          }
+        },
+        {
+          "id": 93,
+          "names": {
+            "zh-CN": "阿尔托莉亚"
+          }
+        },
+        {
+          "id": 75,
+          "names": {
+            "zh-CN": "摩嘉娜"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2026-01-29 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 2,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 75,
+    "job_flags": 4,
+    "master_record": {
+      "ActiveSkillIds": [
+        75001,
+        75002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 79,
+        "Health": 72,
+        "Intelligence": 103,
+        "Muscle": 92
+      },
+      "BaseParameterGrossCoefficient": 346,
+      "CharacterType": 0,
+      "ElementType": 2,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 75,
+      "InitialBattleParameter": {
+        "AttackPower": 5,
+        "Avoidance": 0,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 10,
+        "DefensePenetration": 0,
+        "HP": 0,
+        "Hit": 1,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": -3,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": -3,
+        "Speed": 2715
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 4,
+      "Memo": "モルガナ",
+      "Name2Key": null,
+      "NameKey": "[CharacterName75]",
+      "NormalSkillId": 102,
+      "PassiveSkillIds": [
+        75003,
+        75004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2024-04-15 15:00:00"
+    },
+    "memo": "モルガナ",
+    "name_key": "[CharacterName75]",
+    "names": {
+      "zh-CN": "摩嘉娜"
+    },
+    "speed": 2715,
+    "start_time_jst": "2024-04-15 15:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 751130240,
+    "exclusive_effect_id": 366,
+    "icon_id": 554,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 751130250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 93,
+        "EquipmentEvolutionId": 103,
+        "EquipmentExclusiveSkillDescriptionId": 61,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 4,
+        "ExclusiveEffectId": 366,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 554,
+        "Id": 751130240,
+        "IsIgnore": null,
+        "Memo": "モルガナLR240_書",
+        "NameKey": "[EquipmentName549]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": [
+          {
+            "BaseParameterType": 3,
+            "ChangeParameterType": 2,
+            "Value": 800.0
+          }
+        ],
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 5,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 75,
+        "Id": 366,
+        "IsIgnore": null,
+        "Memo": "モルガナLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill75Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill75Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill75Description3]",
+        "Id": 61,
+        "IsIgnore": null,
+        "Memo": "モルガナ魔導書"
+      }
+    },
+    "name_key": "[EquipmentName549]",
+    "names": {
+      "zh-CN": "天使魔导书"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "base",
+        "parameter_code": "Intelligence",
+        "parameter_type": 3,
+        "raw_value": 800.0,
+        "value_text": "+8%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Hit",
+        "parameter_type": 5,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill75Description1]",
+        "descriptions": {
+          "zh-CN": "强化黑鸦葬歌，造成的魔法伤害提升为攻击力×420%。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill75Description2]",
+        "descriptions": {
+          "zh-CN": "强化团结的力量，「护盾」值提升为攻击力×200%。第1回合开始时每名存活在场上的其他业红属性友军，再使「护盾」值提升攻击力×200%（合计最多1000%）。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill75Description3]",
+        "descriptions": {
+          "zh-CN": "强化赤角之矛，造成的魔法伤害提升为攻击力×580%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 75003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription750031]",
+          "descriptions": {
+            "zh-CN": "摩嘉娜对同伴的关心，带给她奋勇作战的勇气。当摩嘉娜或友军受到自损伤害时，摩嘉娜获得1层增益效果，使自己增加10%攻击力（无法被解除）。每次受到自损伤害使增益效果的叠加数增加1层（最多4层）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "仲間を想う優しい心が、彼女に戦う勇気を与える。自身か味方が自傷ダメージを受けた場合、自身に攻撃力が10%増加するバフを1回付与する（最大4回まで）（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription750032]",
+          "descriptions": {
+            "zh-CN": "战斗开始时，摩嘉娜额外增加25%物理防御力（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらにバトル開始時自身の物理防御力が25%増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription750033]",
+          "descriptions": {
+            "zh-CN": "物理防御力增幅提升为50%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理防御力の増加量が50%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 75003,
+        "IsIgnore": null,
+        "Memo": "モルガナSR:Lv1 仲間を想う優しい心が、彼女に戦う勇気を与える。自身か味方が自傷ダメージを受けた場合、自身に攻撃力が10%増加するバフを1回付与する（最大4回まで）（解除不可）。/ Lv2 さらにバトル開始時自身の物理防御力が25%増加する（解除不可）。/ Lv3 物理防御力の増加量が50%になる。",
+        "NameKey": "[PassiveSkillName75003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription750031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 34,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 75003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 35,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 75003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription750032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 34,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 75003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 35,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 75003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 75003202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription750033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 34,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 75003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 35,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 75003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 75003302
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName75003]",
+      "names": {
+        "zh-CN": "奋起之心"
+      },
+      "source_memo_ja": "モルガナSR:Lv1 仲間を想う優しい心が、彼女に戦う勇気を与える。自身か味方が自傷ダメージを受けた場合、自身に攻撃力が10%増加するバフを1回付与する（最大4回まで）（解除不可）。/ Lv2 さらにバトル開始時自身の物理防御力が25%増加する（解除不可）。/ Lv3 物理防御力の増加量が50%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "仲間を想う優しい心が、彼女に戦う勇気を与える。自身か味方が自傷ダメージを受けた場合、自身に攻撃力が10%増加するバフを1回付与する（最大4回まで）（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらにバトル開始時自身の物理防御力が25%増加する（解除不可）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理防御力の増加量が50%になる。"
+        }
+      ]
+    },
+    {
+      "id": 75004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription750041]",
+          "descriptions": {
+            "zh-CN": "“团结合作是人类对抗恶魔的唯一力量！”战斗开始时，摩嘉娜使自己增加5%攻击力（无法被解除）。战斗开始时每名存活在场上的其他业红属性友军，再使攻击力增幅提升5%（合计最多25%）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「人と人との絆こそが、悪魔に対抗できる唯一の力なの！」バトル開始時自身の攻撃力を5%増加させる（解除不可）。バトル開始時の自身以外の紅属性の味方の数1体につき攻撃力の増加量が5%大きくなる（合計で最大25%まで）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription750042]",
+          "descriptions": {
+            "zh-CN": "第1回合开始时，摩嘉娜额外获得攻击力×100%的「护盾」，效果持续6回合（无法被解除）。战斗开始时每名存活在场上的其他业红属性友军，再使「护盾」值提升攻击力×100%（合计最多500%）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらにバトル開始時自身に6ターンの間自身の攻撃力×100%の『シールド』を付与する（解除不可）。バトル開始時の自身以外の紅属性の味方の数1体につき『シールド』の大きさが自身の攻撃力×100%大きくなる（合計で最大500%まで）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription750043]",
+          "descriptions": {
+            "zh-CN": "攻击力增幅提升为10%。战斗开始时每名存活在场上的其他业红属性友军，再使攻击力增幅提升10%（合计最多50%）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "攻撃力の増加量が10%になる。バトル開始時の自身以外の紅属性の味方の数1体につき攻撃力の増加量が10%大きくなる（合計で最大50%まで）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription750044]",
+          "descriptions": {
+            "zh-CN": "强化团结的力量，「护盾」值提升为攻击力×200%。第1回合开始时每名存活在场上的其他业红属性友军，再使「护盾」值提升攻击力×200%（合计最多1000%）。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "絆の力を強化する。シールドの大きさが自身の攻撃力×200%になる。バトル開始時の自身以外の紅属性の味方の数1体につき『シールド』の大きさが自身の攻撃力×200%大きくなる（合計で最大1000%まで）。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 75004,
+        "IsIgnore": null,
+        "Memo": "モルガナSR:Lv1 「人と人との絆こそが、悪魔に対抗できる唯一の力なの！」バトル開始時自身の攻撃力を5%増加させる（解除不可）。バトル開始時の自身以外の紅属性の味方の数1体につき攻撃力の増加量が5%大きくなる（合計で最大25%まで）。/ Lv2 さらにバトル開始時自身に6ターンの間自身の攻撃力×100%の『シールド』を付与する（解除不可）。バトル開始時の自身以外の紅属性の味方の数1体につき『シールド』の大きさが自身の攻撃力×100%大きくなる（合計で最大500%まで）。/ Lv3 攻撃力の増加量が10%になる。バトル開始時の自身以外の紅属性の味方の数1体につき攻撃力の増加量が10%大きくなる（合計で最大50%まで）。/ Ex2 絆の力を強化する。シールドの大きさが自身の攻撃力×200%になる。バトル開始時の自身以外の紅属性の味方の数1体につき『シールド』の大きさが自身の攻撃力×200%大きくなる（合計で最大1000%まで）。",
+        "NameKey": "[PassiveSkillName75004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription750041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 75004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription750042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 75004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 75004201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription750043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 75004301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 75004201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription750044]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 75004301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 75004401
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName75004]",
+      "names": {
+        "zh-CN": "团结的力量"
+      },
+      "source_memo_ja": "モルガナSR:Lv1 「人と人との絆こそが、悪魔に対抗できる唯一の力なの！」バトル開始時自身の攻撃力を5%増加させる（解除不可）。バトル開始時の自身以外の紅属性の味方の数1体につき攻撃力の増加量が5%大きくなる（合計で最大25%まで）。/ Lv2 さらにバトル開始時自身に6ターンの間自身の攻撃力×100%の『シールド』を付与する（解除不可）。バトル開始時の自身以外の紅属性の味方の数1体につき『シールド』の大きさが自身の攻撃力×100%大きくなる（合計で最大500%まで）。/ Lv3 攻撃力の増加量が10%になる。バトル開始時の自身以外の紅属性の味方の数1体につき攻撃力の増加量が10%大きくなる（合計で最大50%まで）。/ Ex2 絆の力を強化する。シールドの大きさが自身の攻撃力×200%になる。バトル開始時の自身以外の紅属性の味方の数1体につき『シールド』の大きさが自身の攻撃力×200%大きくなる（合計で最大1000%まで）。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「人と人との絆こそが、悪魔に対抗できる唯一の力なの！」バトル開始時自身の攻撃力を5%増加させる（解除不可）。バトル開始時の自身以外の紅属性の味方の数1体につき攻撃力の増加量が5%大きくなる（合計で最大25%まで）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらにバトル開始時自身に6ターンの間自身の攻撃力×100%の『シールド』を付与する（解除不可）。バトル開始時の自身以外の紅属性の味方の数1体につき『シールド』の大きさが自身の攻撃力×100%大きくなる（合計で最大500%まで）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "攻撃力の増加量が10%になる。バトル開始時の自身以外の紅属性の味方の数1体につき攻撃力の増加量が10%大きくなる（合計で最大50%まで）。"
+        },
+        {
+          "label": "Ex2",
+          "text": "絆の力を強化する。シールドの大きさが自身の攻撃力×200%になる。バトル開始時の自身以外の紅属性の味方の数1体につき『シールド』の大きさが自身の攻撃力×200%大きくなる（合計で最大1000%まで）。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

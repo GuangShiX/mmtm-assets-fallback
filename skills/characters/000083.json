@@ -1,0 +1,1366 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 83001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription830011]",
+          "descriptions": {
+            "zh-CN": "“请尝尝魔法糖果！”芬里尔随机对3名敌人造成攻击力×140%的物理伤害，再使攻击力最高的其他友军获得1层「独门秘方」（最多15层）（无法被解除）。每层「独门秘方」使附带者增加6%攻击力。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「魔法のキャンディをどうぞ！」ランダムな敵3体に攻撃力×140%の物理攻撃を行い、自身以外の攻撃力が最も高い味方に『隠し味』を1スタック付与する（最大15スタックまで）（解除不可）。このバフは1スタックにつき付帯者の攻撃力を6%増加させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription830012]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×280%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "物理攻撃のダメージが攻撃力×280%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription830013]",
+          "descriptions": {
+            "zh-CN": "第7回合起，获得的「独门秘方」层数增加为3层。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらにこのスキルを7ターン目以降に発動した場合、『隠し味』の付与スタック数が3になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription830014]",
+          "descriptions": {
+            "zh-CN": "强化魔法糖果，攻击目标增加为5名随机敌人。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "マジカルキャンディを強化する。物理攻撃の対象がランダムな敵5体になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription830011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              83001001,
+              83001002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription830012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              83001201,
+              83001002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription830013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              83001201,
+              83001302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription830014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              83001401,
+              83001302
+            ]
+          }
+        ],
+        "Id": 83001,
+        "IsIgnore": null,
+        "Memo": "宝物フェンリルSR:Lv1 「魔法のキャンディをどうぞ！」ランダムな敵3体に攻撃力×140%の物理攻撃を行い、自身以外の攻撃力が最も高い味方に『隠し味』を1スタック付与する（最大15スタックまで）（解除不可）。このバフは1スタックにつき付帯者の攻撃力を6%増加させる。/ Lv2 物理攻撃のダメージが攻撃力×280%になる。/ Lv3 さらにこのスキルを7ターン目以降に発動した場合、『隠し味』の付与スタック数が3になる。/ Ex1 マジカルキャンディを強化する。物理攻撃の対象がランダムな敵5体になる。",
+        "NameKey": "[ActiveSkillName83001]",
+        "RootActiveSkillId": 83001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName83001]",
+      "names": {
+        "zh-CN": "魔法糖果"
+      },
+      "source_memo_ja": "宝物フェンリルSR:Lv1 「魔法のキャンディをどうぞ！」ランダムな敵3体に攻撃力×140%の物理攻撃を行い、自身以外の攻撃力が最も高い味方に『隠し味』を1スタック付与する（最大15スタックまで）（解除不可）。このバフは1スタックにつき付帯者の攻撃力を6%増加させる。/ Lv2 物理攻撃のダメージが攻撃力×280%になる。/ Lv3 さらにこのスキルを7ターン目以降に発動した場合、『隠し味』の付与スタック数が3になる。/ Ex1 マジカルキャンディを強化する。物理攻撃の対象がランダムな敵5体になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「魔法のキャンディをどうぞ！」ランダムな敵3体に攻撃力×140%の物理攻撃を行い、自身以外の攻撃力が最も高い味方に『隠し味』を1スタック付与する（最大15スタックまで）（解除不可）。このバフは1スタックにつき付帯者の攻撃力を6%増加させる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "物理攻撃のダメージが攻撃力×280%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらにこのスキルを7ターン目以降に発動した場合、『隠し味』の付与スタック数が3になる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "マジカルキャンディを強化する。物理攻撃の対象がランダムな敵5体になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 83002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription830021]",
+          "descriptions": {
+            "zh-CN": "“这是能让人打起精神的咒语！”芬里尔随机对敌人进行3次攻击，每次造成攻击力×160%的物理伤害。攻击结束后，再使攻击力最高的其他友军获得1层「独门秘方」（最多15层）（无法被解除）。每层「独门秘方」使附带者增加6%攻击力。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「元気が出るおまじないです」ランダムな敵に3回攻撃力×160%の物理攻撃を行う。最後の物理攻撃の後自身以外の攻撃力が最も高い味方に『隠し味』を1スタック付与する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription830022]",
+          "descriptions": {
+            "zh-CN": "攻击次数增加为5次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "物理攻撃の回数が5回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription830023]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×290%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃のダメージが攻撃力×290%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription830024]",
+          "descriptions": {
+            "zh-CN": "第7回合起，芬里尔在附加「独门秘方」后，使自己减少技能冷却时间5。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "さらにこのスキルを7ターン目以降に発動した場合、『隠し味』付与の後に自身のスキルクールタイムカウントを5減少させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription830025]",
+          "descriptions": {
+            "zh-CN": "强化魔法口味，造成的物理伤害提升为攻击力×320%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "魔法のフレーバーを強化する。物理攻撃のダメージが攻撃力×320%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription830021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              83002001,
+              83002002,
+              83002002,
+              83002003
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription830022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              83002201,
+              83002202,
+              83002202,
+              83002202,
+              83002202,
+              83002003
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription830023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              83002301,
+              83002302,
+              83002302,
+              83002302,
+              83002302,
+              83002003
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription830024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              83002301,
+              83002302,
+              83002302,
+              83002302,
+              83002302,
+              83002003,
+              83002404
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription830025]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              83002501,
+              83002502,
+              83002502,
+              83002502,
+              83002502,
+              83002003,
+              83002404
+            ]
+          }
+        ],
+        "Id": 83002,
+        "IsIgnore": null,
+        "Memo": "宝物フェンリルSR:Lv1 「元気が出るおまじないです」ランダムな敵に3回攻撃力×160%の物理攻撃を行う。最後の物理攻撃の後自身以外の攻撃力が最も高い味方に『隠し味』を1スタック付与する。/ Lv2 物理攻撃の回数が5回になる。/ Lv3 物理攻撃のダメージが攻撃力×290%になる。/ Lv4 さらにこのスキルを7ターン目以降に発動した場合、『隠し味』付与の後に自身のスキルクールタイムカウントを5減少させる。/ Ex3 魔法のフレーバーを強化する。物理攻撃のダメージが攻撃力×320%になる。",
+        "NameKey": "[ActiveSkillName83002]",
+        "RootActiveSkillId": 83002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 5
+      },
+      "max_cooldown": 5,
+      "name_key": "[ActiveSkillName83002]",
+      "names": {
+        "zh-CN": "魔法口味"
+      },
+      "source_memo_ja": "宝物フェンリルSR:Lv1 「元気が出るおまじないです」ランダムな敵に3回攻撃力×160%の物理攻撃を行う。最後の物理攻撃の後自身以外の攻撃力が最も高い味方に『隠し味』を1スタック付与する。/ Lv2 物理攻撃の回数が5回になる。/ Lv3 物理攻撃のダメージが攻撃力×290%になる。/ Lv4 さらにこのスキルを7ターン目以降に発動した場合、『隠し味』付与の後に自身のスキルクールタイムカウントを5減少させる。/ Ex3 魔法のフレーバーを強化する。物理攻撃のダメージが攻撃力×320%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「元気が出るおまじないです」ランダムな敵に3回攻撃力×160%の物理攻撃を行う。最後の物理攻撃の後自身以外の攻撃力が最も高い味方に『隠し味』を1スタック付与する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "物理攻撃の回数が5回になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃のダメージが攻撃力×290%になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "さらにこのスキルを7ターン目以降に発動した場合、『隠し味』付与の後に自身のスキルクールタイムカウントを5減少させる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "魔法のフレーバーを強化する。物理攻撃のダメージが攻撃力×320%になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 81,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 500.0,
+              "value_text": "+500"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 81,
+            "CollectionLevel": 1,
+            "Id": 8101,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ループスの宝物(宝物フェンリル,フェンリル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 81,
+            "CollectionLevel": 2,
+            "Id": 8102,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ループスの宝物(宝物フェンリル,フェンリル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 81,
+            "CollectionLevel": 3,
+            "Id": 8103,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ループスの宝物(宝物フェンリル,フェンリル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 81,
+            "CollectionLevel": 4,
+            "Id": 8104,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ループスの宝物(宝物フェンリル,フェンリル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 41.0,
+              "value_text": "+41×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1050.0,
+              "value_text": "+1,050"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 41.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1050.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 81,
+            "CollectionLevel": 5,
+            "Id": 8105,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ループスの宝物(宝物フェンリル,フェンリル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 42.0,
+              "value_text": "+42×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1100.0,
+              "value_text": "+1,100"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 42.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1100.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 81,
+            "CollectionLevel": 6,
+            "Id": 8106,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ループスの宝物(宝物フェンリル,フェンリル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 43.0,
+              "value_text": "+43×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1150.0,
+              "value_text": "+1,150"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 43.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1150.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 81,
+            "CollectionLevel": 7,
+            "Id": 8107,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ループスの宝物(宝物フェンリル,フェンリル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 44.0,
+              "value_text": "+44×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1200.0,
+              "value_text": "+1,200"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 44.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 81,
+            "CollectionLevel": 8,
+            "Id": 8108,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ループスの宝物(宝物フェンリル,フェンリル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 45.0,
+              "value_text": "+45×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1250.0,
+              "value_text": "+1,250"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 45.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 81,
+            "CollectionLevel": 9,
+            "Id": 8109,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ループスの宝物(宝物フェンリル,フェンリル)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 81,
+        "IsIgnore": null,
+        "Memo": "ループスの宝物(宝物フェンリル,フェンリル)",
+        "NameKey": "[CharacterCollectionName81]",
+        "RequiredCharacterIds": [
+          83,
+          7
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2025-10-16 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName81]",
+      "names": {
+        "zh-CN": "豺狼座的宝物"
+      },
+      "required_character_ids": [
+        83,
+        7
+      ],
+      "required_characters": [
+        {
+          "id": 83,
+          "names": {
+            "zh-CN": "芬里尔"
+          }
+        },
+        {
+          "id": 7,
+          "names": {
+            "zh-CN": "芬里尔"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2025-10-16 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 2,
+    "element_type": 4,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 83,
+    "job_flags": 1,
+    "master_record": {
+      "ActiveSkillIds": [
+        83001,
+        83002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 79,
+        "Health": 82,
+        "Intelligence": 78,
+        "Muscle": 91
+      },
+      "BaseParameterGrossCoefficient": 330,
+      "CharacterType": 2,
+      "ElementType": 4,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 83,
+      "InitialBattleParameter": {
+        "AttackPower": 0,
+        "Avoidance": -5,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 11,
+        "DefensePenetration": 0,
+        "HP": 5,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": -1,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 3294
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 1,
+      "Memo": "宝物フェンリル",
+      "Name2Key": "[CharacterSubName83]",
+      "NameKey": "[CharacterName83]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        83003,
+        83004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2025-10-16 15:00:00"
+    },
+    "memo": "宝物フェンリル",
+    "name_key": "[CharacterName83]",
+    "names": {
+      "zh-CN": "芬里尔"
+    },
+    "speed": 3294,
+    "start_time_jst": "2025-10-16 15:00:00",
+    "subtitle_key": "[CharacterSubName83]",
+    "subtitles": {
+      "zh-CN": "两人的宝物"
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 831110240,
+    "exclusive_effect_id": 588,
+    "icon_id": 602,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 831110250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 130,
+        "EquipmentEvolutionId": 140,
+        "EquipmentExclusiveSkillDescriptionId": 98,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 1,
+        "ExclusiveEffectId": 588,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 602,
+        "Id": 831110240,
+        "IsIgnore": null,
+        "Memo": "宝物フェンリルLR240_剣",
+        "NameKey": "[EquipmentName597]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": [
+          {
+            "BaseParameterType": 1,
+            "ChangeParameterType": 2,
+            "Value": 800.0
+          }
+        ],
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 18,
+            "ChangeParameterType": 1,
+            "Value": 1500.0
+          }
+        ],
+        "CharacterId": 83,
+        "Id": 588,
+        "IsIgnore": null,
+        "Memo": "宝物フェンリルLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill83Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill83Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill83Description3]",
+        "Id": 98,
+        "IsIgnore": null,
+        "Memo": "宝物フェンリル剣"
+      }
+    },
+    "name_key": "[EquipmentName597]",
+    "names": {
+      "zh-CN": "雪柔隔热手套"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "base",
+        "parameter_code": "Muscle",
+        "parameter_type": 1,
+        "raw_value": 800.0,
+        "value_text": "+8%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 1,
+        "kind": "battle",
+        "parameter_code": "HpDrain",
+        "parameter_type": 18,
+        "raw_value": 1500.0,
+        "value_text": "+1,500"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill83Description1]",
+        "descriptions": {
+          "zh-CN": "强化魔法糖果，攻击目标增加为5名随机敌人。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill83Description2]",
+        "descriptions": {
+          "zh-CN": "强化全世界最温柔的魔法，「结界」的伤害阻绝量提升为50%。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill83Description3]",
+        "descriptions": {
+          "zh-CN": "强化魔法口味，造成的物理伤害提升为攻击力×320%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 83003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription830031]",
+          "descriptions": {
+            "zh-CN": "“姐姐绝对不会放开你的手，所以不要怕，鼓起勇气来。”当芬里尔受到攻击时，阻绝30%伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "繋いだこの手を二度と離さない。だから大丈夫、勇気を出して──自身が攻撃を受けたとき、ダメージを30%遮断する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription830032]",
+          "descriptions": {
+            "zh-CN": "回合开始时，芬里尔使附近的2名友军获得「结界」，效果持续4回合（无法被解除）。当此增益效果的附带者受到攻击，承受伤害超过最大生命值的10%时，阻绝超量部分×20%的伤害。「结界」附加效果须在结束4次行动后才可再次触发。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "ターン開始時、自身に隣接する味方2体に4ターンの間『結界』を付与する（解除不可）。このバフの付帯者が付帯者自身の最大HP×10%を超えるダメージの攻撃を受けた場合、最大HP×10%を超えた分のダメージを20%遮断する。『結界』を付与する効果は発動後4回行動終了するまで再び発動しない。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription830033]",
+          "descriptions": {
+            "zh-CN": "芬里尔受到攻击时的伤害阻绝量提升为60%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "自身が攻撃を受けたときのダメージの遮断量が60%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription830034]",
+          "descriptions": {
+            "zh-CN": "强化全世界最温柔的魔法，「结界」的伤害阻绝量提升为50%。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "世界一優しい魔法を強化する。『結界』のダメージの遮断量が50%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 83003,
+        "IsIgnore": null,
+        "Memo": "宝物フェンリルSR:Lv1 繋いだこの手を二度と離さない。だから大丈夫、勇気を出して──自身が攻撃を受けたとき、ダメージを30%遮断する。/ Lv2 ターン開始時、自身に隣接する味方2体に4ターンの間『結界』を付与する（解除不可）。このバフの付帯者が付帯者自身の最大HP×10%を超えるダメージの攻撃を受けた場合、最大HP×10%を超えた分のダメージを20%遮断する。『結界』を付与する効果は発動後4回行動終了するまで再び発動しない。/ Lv3 自身が攻撃を受けたときのダメージの遮断量が60%になる。/ Ex2 世界一優しい魔法を強化する。『結界』のダメージの遮断量が50%になる。",
+        "NameKey": "[PassiveSkillName83003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription830031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 83003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription830032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 83003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 83003202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription830033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 83003301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 83003202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription830034]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 83003301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 83003402
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName83003]",
+      "names": {
+        "zh-CN": "全世界最温柔的魔法"
+      },
+      "source_memo_ja": "宝物フェンリルSR:Lv1 繋いだこの手を二度と離さない。だから大丈夫、勇気を出して──自身が攻撃を受けたとき、ダメージを30%遮断する。/ Lv2 ターン開始時、自身に隣接する味方2体に4ターンの間『結界』を付与する（解除不可）。このバフの付帯者が付帯者自身の最大HP×10%を超えるダメージの攻撃を受けた場合、最大HP×10%を超えた分のダメージを20%遮断する。『結界』を付与する効果は発動後4回行動終了するまで再び発動しない。/ Lv3 自身が攻撃を受けたときのダメージの遮断量が60%になる。/ Ex2 世界一優しい魔法を強化する。『結界』のダメージの遮断量が50%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "繋いだこの手を二度と離さない。だから大丈夫、勇気を出して──自身が攻撃を受けたとき、ダメージを30%遮断する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "ターン開始時、自身に隣接する味方2体に4ターンの間『結界』を付与する（解除不可）。このバフの付帯者が付帯者自身の最大HP×10%を超えるダメージの攻撃を受けた場合、最大HP×10%を超えた分のダメージを20%遮断する。『結界』を付与する効果は発動後4回行動終了するまで再び発動しない。"
+        },
+        {
+          "label": "Lv3",
+          "text": "自身が攻撃を受けたときのダメージの遮断量が60%になる。"
+        },
+        {
+          "label": "Ex2",
+          "text": "世界一優しい魔法を強化する。『結界』のダメージの遮断量が50%になる。"
+        }
+      ]
+    },
+    {
+      "id": 83004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription830041]",
+          "descriptions": {
+            "zh-CN": "爱是让料理更美味的独门秘方。心中想着对方，会让料理变得更温暖——第1回合到第6回合的每回合结束时，使全体友军恢复芬里尔攻击力×10%的生命值。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "おいしい料理の隠し味は愛情。誰かを想う心が料理をよりあったかくする──6ターン目までの毎ターン終了時、味方全体のHPを自身の攻撃力×10%回復する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription830042]",
+          "descriptions": {
+            "zh-CN": "战斗开始时，使全体友军额外增加60%抗暴率，效果持续1回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらにバトル開始時1ターンの間味方全体のクリティカル耐性率を60%増加させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription830043]",
+          "descriptions": {
+            "zh-CN": "生命值恢复量提升为芬里尔攻击力×50%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "HPの回復量が自身の攻撃力×50%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 83004,
+        "IsIgnore": null,
+        "Memo": "宝物フェンリルSR:Lv1 おいしい料理の隠し味は愛情。誰かを想う心が料理をよりあったかくする──6ターン目までの毎ターン終了時、味方全体のHPを自身の攻撃力×10%回復する。/ Lv2 さらにバトル開始時1ターンの間味方全体のクリティカル耐性率を60%増加させる。/ Lv3 HPの回復量が自身の攻撃力×50%になる。",
+        "NameKey": "[PassiveSkillName83004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription830041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 2,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 83004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription830042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 2,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 83004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 83004202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription830043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 2,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 83004301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 83004202
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName83004]",
+      "names": {
+        "zh-CN": "满满的爱"
+      },
+      "source_memo_ja": "宝物フェンリルSR:Lv1 おいしい料理の隠し味は愛情。誰かを想う心が料理をよりあったかくする──6ターン目までの毎ターン終了時、味方全体のHPを自身の攻撃力×10%回復する。/ Lv2 さらにバトル開始時1ターンの間味方全体のクリティカル耐性率を60%増加させる。/ Lv3 HPの回復量が自身の攻撃力×50%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "おいしい料理の隠し味は愛情。誰かを想う心が料理をよりあったかくする──6ターン目までの毎ターン終了時、味方全体のHPを自身の攻撃力×10%回復する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらにバトル開始時1ターンの間味方全体のクリティカル耐性率を60%増加させる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "HPの回復量が自身の攻撃力×50%になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

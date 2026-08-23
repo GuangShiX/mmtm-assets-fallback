@@ -1,0 +1,1403 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 124001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription1240011]",
+          "descriptions": {
+            "zh-CN": "不管再怎么不堪，耶尔德兹都会一次又一次爬起来守护族群，以獠牙迎战敌人——耶尔德兹使自己恢复5%最大生命值。再对攻击力最高的2名敌人造成攻击力×380%的物理伤害，40%概率附加「增益效果免疫」状态，效果持续6回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "たとえ無様であろうと、彼女は何度でも立ち上がり牙を振るう。大切なものを守るために──自身のHPを自身の最大HP×5%回復する。その後攻撃力が高い敵2体に攻撃力×380%の物理攻撃を行い、40%の確率で6ターンの間対象に『バフ無効』を付与する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription1240012]",
+          "descriptions": {
+            "zh-CN": "附加「增益效果免疫」状态的概率提升为70%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "『バフ無効』を付与する確率が70%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1240013]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×620%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃のダメージが攻撃力×620%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1240014]",
+          "descriptions": {
+            "zh-CN": "强化不屈之牙，攻击目标增加为攻击力最高的3名敌人。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "不屈の牙を強化する。物理攻撃の対象が攻撃力が高い敵3体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription1240015]",
+          "descriptions": {
+            "zh-CN": "强化不屈之牙，造成的物理伤害提升为攻击力×680%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "不屈の牙を強化する。物理攻撃のダメージが攻撃力×680%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription1240011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              124001001,
+              124001002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription1240012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              124001001,
+              124001202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1240013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              124001001,
+              124001302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1240014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              124001001,
+              124001402
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription1240015]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              124001001,
+              124001502
+            ]
+          }
+        ],
+        "Id": 124001,
+        "IsIgnore": null,
+        "Memo": "ユルディズSR:Lv1 たとえ無様であろうと、彼女は何度でも立ち上がり牙を振るう。大切なものを守るために──自身のHPを自身の最大HP×5%回復する。その後攻撃力が高い敵2体に攻撃力×380%の物理攻撃を行い、40%の確率で6ターンの間対象に『バフ無効』を付与する。/ Lv2 『バフ無効』を付与する確率が70%になる。/ Lv3 物理攻撃のダメージが攻撃力×620%になる。/ Ex1 不屈の牙を強化する。物理攻撃の対象が攻撃力が高い敵3体になる。/ Ex3 不屈の牙を強化する。物理攻撃のダメージが攻撃力×680%になる。",
+        "NameKey": "[ActiveSkillName124001]",
+        "RootActiveSkillId": 124001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName124001]",
+      "names": {
+        "zh-CN": "不屈之牙"
+      },
+      "source_memo_ja": "ユルディズSR:Lv1 たとえ無様であろうと、彼女は何度でも立ち上がり牙を振るう。大切なものを守るために──自身のHPを自身の最大HP×5%回復する。その後攻撃力が高い敵2体に攻撃力×380%の物理攻撃を行い、40%の確率で6ターンの間対象に『バフ無効』を付与する。/ Lv2 『バフ無効』を付与する確率が70%になる。/ Lv3 物理攻撃のダメージが攻撃力×620%になる。/ Ex1 不屈の牙を強化する。物理攻撃の対象が攻撃力が高い敵3体になる。/ Ex3 不屈の牙を強化する。物理攻撃のダメージが攻撃力×680%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "たとえ無様であろうと、彼女は何度でも立ち上がり牙を振るう。大切なものを守るために──自身のHPを自身の最大HP×5%回復する。その後攻撃力が高い敵2体に攻撃力×380%の物理攻撃を行い、40%の確率で6ターンの間対象に『バフ無効』を付与する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "『バフ無効』を付与する確率が70%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃のダメージが攻撃力×620%になる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "不屈の牙を強化する。物理攻撃の対象が攻撃力が高い敵3体になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "不屈の牙を強化する。物理攻撃のダメージが攻撃力×680%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 124002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription1240021]",
+          "descriptions": {
+            "zh-CN": "独自迎战岩石之民的耶尔德兹，身姿宛如一头凶猛的野狼，因此人们敬畏地称呼她——狼族的女儿。耶尔德兹使自己恢复5%最大生命值。再对攻击力最高的敌人进行3次攻击，每次造成攻击力×220%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "一人で石の民と戦うその姿は、まさに狼のようであった。故に人々は畏怖と畏敬を込めて呼んだ。「狼の娘」と。自身のHPを自身の最大HP×5%回復する。その後攻撃力が最も高い敵に3回攻撃力×220%の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription1240022]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×280%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "物理攻撃のダメージが攻撃力×280%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription1240023]",
+          "descriptions": {
+            "zh-CN": "攻击次数增加为4次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃の回数が4回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription1240024]",
+          "descriptions": {
+            "zh-CN": "发动攻击前，如果耶尔德兹身上附带的「狼与人的情谊」达10层，造成的物理伤害提升为攻击力×1120%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "物理攻撃の前に自身の『狼と人の絆』のスタック数が10の場合、物理攻撃のダメージが攻撃力×1120%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription1240021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              124002001,
+              124002002,
+              124002003,
+              124002003
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription1240022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              124002001,
+              124002202,
+              124002203,
+              124002203
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription1240023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              124002001,
+              124002202,
+              124002203,
+              124002203,
+              124002203
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription1240024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              124002001,
+              124002402,
+              124002403,
+              124002403,
+              124002403
+            ]
+          }
+        ],
+        "Id": 124002,
+        "IsIgnore": null,
+        "Memo": "ユルディズSR:Lv1 一人で石の民と戦うその姿は、まさに狼のようであった。故に人々は畏怖と畏敬を込めて呼んだ。「狼の娘」と。自身のHPを自身の最大HP×5%回復する。その後攻撃力が最も高い敵に3回攻撃力×220%の物理攻撃を行う。/ Lv2 物理攻撃のダメージが攻撃力×280%になる。/ Lv3 物理攻撃の回数が4回になる。/ Lv4 物理攻撃の前に自身の『狼と人の絆』のスタック数が10の場合、物理攻撃のダメージが攻撃力×1120%になる。",
+        "NameKey": "[ActiveSkillName124002]",
+        "RootActiveSkillId": 124002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName124002]",
+      "names": {
+        "zh-CN": "星狼爪击"
+      },
+      "source_memo_ja": "ユルディズSR:Lv1 一人で石の民と戦うその姿は、まさに狼のようであった。故に人々は畏怖と畏敬を込めて呼んだ。「狼の娘」と。自身のHPを自身の最大HP×5%回復する。その後攻撃力が最も高い敵に3回攻撃力×220%の物理攻撃を行う。/ Lv2 物理攻撃のダメージが攻撃力×280%になる。/ Lv3 物理攻撃の回数が4回になる。/ Lv4 物理攻撃の前に自身の『狼と人の絆』のスタック数が10の場合、物理攻撃のダメージが攻撃力×1120%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "一人で石の民と戦うその姿は、まさに狼のようであった。故に人々は畏怖と畏敬を込めて呼んだ。「狼の娘」と。自身のHPを自身の最大HP×5%回復する。その後攻撃力が最も高い敵に3回攻撃力×220%の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "物理攻撃のダメージが攻撃力×280%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃の回数が4回になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "物理攻撃の前に自身の『狼と人の絆』のスタック数が10の場合、物理攻撃のダメージが攻撃力×1120%になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 77,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 500.0,
+              "value_text": "+500"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 77,
+            "CollectionLevel": 1,
+            "Id": 7701,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カシオペイアの同盟(ユルディズ,ミフリ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              },
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 77,
+            "CollectionLevel": 2,
+            "Id": 7702,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カシオペイアの同盟(ユルディズ,ミフリ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              },
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 77,
+            "CollectionLevel": 3,
+            "Id": 7703,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カシオペイアの同盟(ユルディズ,ミフリ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              },
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 77,
+            "CollectionLevel": 4,
+            "Id": 7704,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カシオペイアの同盟(ユルディズ,ミフリ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1050.0,
+              "value_text": "+1,050"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 75.0,
+              "value_text": "+75×角色等级"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1050.0
+              },
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 75.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 77,
+            "CollectionLevel": 5,
+            "Id": 7705,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カシオペイアの同盟(ユルディズ,ミフリ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1100.0,
+              "value_text": "+1,100"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 80.0,
+              "value_text": "+80×角色等级"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1100.0
+              },
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 80.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 77,
+            "CollectionLevel": 6,
+            "Id": 7706,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カシオペイアの同盟(ユルディズ,ミフリ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1150.0,
+              "value_text": "+1,150"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 85.0,
+              "value_text": "+85×角色等级"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1150.0
+              },
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 85.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 77,
+            "CollectionLevel": 7,
+            "Id": 7707,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カシオペイアの同盟(ユルディズ,ミフリ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1200.0,
+              "value_text": "+1,200"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 90.0,
+              "value_text": "+90×角色等级"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1200.0
+              },
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 90.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 77,
+            "CollectionLevel": 8,
+            "Id": 7708,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カシオペイアの同盟(ユルディズ,ミフリ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1250.0,
+              "value_text": "+1,250"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 95.0,
+              "value_text": "+95×角色等级"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1250.0
+              },
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 95.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 77,
+            "CollectionLevel": 9,
+            "Id": 7709,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カシオペイアの同盟(ユルディズ,ミフリ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 77,
+        "IsIgnore": null,
+        "Memo": "カシオペイアの同盟(ユルディズ,ミフリ)",
+        "NameKey": "[CharacterCollectionName77]",
+        "RequiredCharacterIds": [
+          124,
+          126
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2025-08-14 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName77]",
+      "names": {
+        "zh-CN": "仙后座的同盟"
+      },
+      "required_character_ids": [
+        124,
+        126
+      ],
+      "required_characters": [
+        {
+          "id": 124,
+          "names": {
+            "zh-CN": "耶尔德兹"
+          }
+        },
+        {
+          "id": 126,
+          "names": {
+            "zh-CN": "米赫里"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2025-08-14 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 3,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 124,
+    "job_flags": 1,
+    "master_record": {
+      "ActiveSkillIds": [
+        124001,
+        124002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 83,
+        "Health": 70,
+        "Intelligence": 84,
+        "Muscle": 96
+      },
+      "BaseParameterGrossCoefficient": 333,
+      "CharacterType": 0,
+      "ElementType": 3,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 124,
+      "InitialBattleParameter": {
+        "AttackPower": -3,
+        "Avoidance": 3,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 10,
+        "DefensePenetration": 0,
+        "HP": -3,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 3,
+        "Speed": 3146
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 1,
+      "Memo": "ユルディズ",
+      "Name2Key": null,
+      "NameKey": "[CharacterName124]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        124003,
+        124004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2025-08-14 15:00:00"
+    },
+    "memo": "ユルディズ",
+    "name_key": "[CharacterName124]",
+    "names": {
+      "zh-CN": "耶尔德兹"
+    },
+    "speed": 3146,
+    "start_time_jst": "2025-08-14 15:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 1241110240,
+    "exclusive_effect_id": 558,
+    "icon_id": 848,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 1241110250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 125,
+        "EquipmentEvolutionId": 135,
+        "EquipmentExclusiveSkillDescriptionId": 93,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 1,
+        "ExclusiveEffectId": 558,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 848,
+        "Id": 1241110240,
+        "IsIgnore": null,
+        "Memo": "ユルディズLR240_剣",
+        "NameKey": "[EquipmentName843]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": null,
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 1,
+            "ChangeParameterType": 2,
+            "Value": 2200.0
+          },
+          {
+            "BattleParameterType": 15,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 124,
+        "Id": 558,
+        "IsIgnore": null,
+        "Memo": "ユルディズLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill124Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill124Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill124Description3]",
+        "Id": 93,
+        "IsIgnore": null,
+        "Memo": "ユルディズ剣"
+      }
+    },
+    "name_key": "[EquipmentName843]",
+    "names": {
+      "zh-CN": "黑色狼牙"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Hp",
+        "parameter_type": 1,
+        "raw_value": 2200.0,
+        "value_text": "+22%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "DebuffHit",
+        "parameter_type": 15,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill124Description1]",
+        "descriptions": {
+          "zh-CN": "强化不屈之牙，攻击目标增加为攻击力最高的3名敌人。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill124Description2]",
+        "descriptions": {
+          "zh-CN": "强化天上不变的信标，当增益效果的附加目标为苍翠属性时，防御力与物理防御力增幅提升为80%，物理暴击伤害降低的增幅提升为40%。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill124Description3]",
+        "descriptions": {
+          "zh-CN": "强化不屈之牙，造成的物理伤害提升为攻击力×680%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 124003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription1240031]",
+          "descriptions": {
+            "zh-CN": "过去的她，是一道高挂在遥远天际的冰冷星光，而如今光芒中拥有了几许能够触及人心的温度。战斗开始时，耶尔德兹使自己增加40%最大生命值（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "かつてはただ遠くに在るだけの冷たい光だったが、今は人の心に寄り添うような温もりを宿している。バトル開始時、自身の最大HPが40%増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription1240032]",
+          "descriptions": {
+            "zh-CN": "战斗开始时，使自己与攻击力最高的其他友军额外增加20%防御力、物理防御力与物理暴击伤害降低（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらにバトル開始時、自身と自身以外の攻撃力が最も高い味方の防御力を20%、物理防御力を20%、物理クリダメ緩和を20%増加させる（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription1240033]",
+          "descriptions": {
+            "zh-CN": "最大生命值增幅提升为100%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "最大HPの増加量が100%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription1240034]",
+          "descriptions": {
+            "zh-CN": "强化天上不变的信标，当增益效果的附加目标为苍翠属性时，防御力与物理防御力增幅提升为80%，物理暴击伤害降低的增幅提升为40%。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "天の動かぬ標を強化する。バフを付与する対象が翠属性の場合、防御力の増加量が80%、物理防御力の増加量が80%、物理クリダメ緩和の増加量が40%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 124003,
+        "IsIgnore": null,
+        "Memo": "ユルディズSR:Lv1 かつてはただ遠くに在るだけの冷たい光だったが、今は人の心に寄り添うような温もりを宿している。バトル開始時、自身の最大HPが40%増加する（解除不可）。/ Lv2 さらにバトル開始時、自身と自身以外の攻撃力が最も高い味方の防御力を20%、物理防御力を20%、物理クリダメ緩和を20%増加させる（解除不可）。/ Lv3 最大HPの増加量が100%になる。/ Ex2 天の動かぬ標を強化する。バフを付与する対象が翠属性の場合、防御力の増加量が80%、物理防御力の増加量が80%、物理クリダメ緩和の増加量が40%になる。",
+        "NameKey": "[PassiveSkillName124003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription1240031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 124003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription1240032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 124003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 124003202
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 124003203
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription1240033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 124003301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 124003202
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 124003203
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription1240034]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 124003301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 124003402
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 124003403
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName124003]",
+      "names": {
+        "zh-CN": "天上不变的信标"
+      },
+      "source_memo_ja": "ユルディズSR:Lv1 かつてはただ遠くに在るだけの冷たい光だったが、今は人の心に寄り添うような温もりを宿している。バトル開始時、自身の最大HPが40%増加する（解除不可）。/ Lv2 さらにバトル開始時、自身と自身以外の攻撃力が最も高い味方の防御力を20%、物理防御力を20%、物理クリダメ緩和を20%増加させる（解除不可）。/ Lv3 最大HPの増加量が100%になる。/ Ex2 天の動かぬ標を強化する。バフを付与する対象が翠属性の場合、防御力の増加量が80%、物理防御力の増加量が80%、物理クリダメ緩和の増加量が40%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "かつてはただ遠くに在るだけの冷たい光だったが、今は人の心に寄り添うような温もりを宿している。バトル開始時、自身の最大HPが40%増加する（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらにバトル開始時、自身と自身以外の攻撃力が最も高い味方の防御力を20%、物理防御力を20%、物理クリダメ緩和を20%増加させる（解除不可）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "最大HPの増加量が100%になる。"
+        },
+        {
+          "label": "Ex2",
+          "text": "天の動かぬ標を強化する。バフを付与する対象が翠属性の場合、防御力の増加量が80%、物理防御力の増加量が80%、物理クリダメ緩和の増加量が40%になる。"
+        }
+      ]
+    },
+    {
+      "id": 124004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription1240041]",
+          "descriptions": {
+            "zh-CN": "弱者会被淘汰是自然的规律。少女深知这条冷酷的法则是不争的事实。然而她在那一天立下誓言：绝不屈服于自然法则，舍弃自己的族群与家人。当耶尔德兹或友军发动主动技能触发恢复生命值的效果时，耶尔德兹获得1层「狼与人的情谊」（最多10层）（无法被解除）。每层「狼与人的情谊」使附带者增加4%攻击力与命中率。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "弱き者が淘汰されるは自然の摂理。その冷徹な理は真実だと少女は知っている。だが、大切なものをその理のままに切り捨てないと、あの日に固く誓った。自身か味方のアクティブスキルがHPを回復する効果を発動したとき、自身に『狼と人の絆』を1スタック付与する（最大10スタックまで）（解除不可）。このバフは1スタックにつき付帯者の攻撃力を4%増加させ、命中率を4%増加させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription1240042]",
+          "descriptions": {
+            "zh-CN": "「狼与人的情谊」的附加目标增加为耶尔德兹与攻击力最高的其他友军。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "『狼と人の絆』を付与する対象が自身と自身以外の攻撃力が最も高い味方になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription1240043]",
+          "descriptions": {
+            "zh-CN": "攻击力与命中率增幅提升为8%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "攻撃力の増加量が8%、命中率の増加量が8%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 124004,
+        "IsIgnore": null,
+        "Memo": "ユルディズSR:Lv1 弱き者が淘汰されるは自然の摂理。その冷徹な理は真実だと少女は知っている。だが、大切なものをその理のままに切り捨てないと、あの日に固く誓った。自身か味方のアクティブスキルがHPを回復する効果を発動したとき、自身に『狼と人の絆』を1スタック付与する（最大10スタックまで）（解除不可）。このバフは1スタックにつき付帯者の攻撃力を4%増加させ、命中率を4%増加させる。/ Lv2 『狼と人の絆』を付与する対象が自身と自身以外の攻撃力が最も高い味方になる。/ Lv3 攻撃力の増加量が8%、命中率の増加量が8%になる。",
+        "NameKey": "[PassiveSkillName124004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription1240041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 14,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 124004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 15,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 124004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription1240042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 14,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 124004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 15,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 124004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 14,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 124004202
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 15,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 124004202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription1240043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 14,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 124004301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 15,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 124004301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 14,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 124004302
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 15,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 124004302
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName124004]",
+      "names": {
+        "zh-CN": "坚定的誓言"
+      },
+      "source_memo_ja": "ユルディズSR:Lv1 弱き者が淘汰されるは自然の摂理。その冷徹な理は真実だと少女は知っている。だが、大切なものをその理のままに切り捨てないと、あの日に固く誓った。自身か味方のアクティブスキルがHPを回復する効果を発動したとき、自身に『狼と人の絆』を1スタック付与する（最大10スタックまで）（解除不可）。このバフは1スタックにつき付帯者の攻撃力を4%増加させ、命中率を4%増加させる。/ Lv2 『狼と人の絆』を付与する対象が自身と自身以外の攻撃力が最も高い味方になる。/ Lv3 攻撃力の増加量が8%、命中率の増加量が8%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "弱き者が淘汰されるは自然の摂理。その冷徹な理は真実だと少女は知っている。だが、大切なものをその理のままに切り捨てないと、あの日に固く誓った。自身か味方のアクティブスキルがHPを回復する効果を発動したとき、自身に『狼と人の絆』を1スタック付与する（最大10スタックまで）（解除不可）。このバフは1スタックにつき付帯者の攻撃力を4%増加させ、命中率を4%増加させる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "『狼と人の絆』を付与する対象が自身と自身以外の攻撃力が最も高い味方になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "攻撃力の増加量が8%、命中率の増加量が8%になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

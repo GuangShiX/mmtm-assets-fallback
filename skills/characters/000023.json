@@ -1,0 +1,590 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 23001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription230011]",
+          "descriptions": {
+            "zh-CN": "罗莎莉从故主遗留的法杖中释放力量，随机对4名敌人造成攻击力×290%的魔法伤害。封印在法杖中的古老魔法夺取对手的生命力，使罗莎莉恢复技能总伤害×10%的生命值。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "受け継いだ杖の力を解放して、ランダムな敵4体に攻撃力×290％の魔法攻撃を行う。封じられた古の魔法が相手の生命力を奪い、自身のHPをこのスキルの総与ダメージ×10%回復する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[ActiveSkillDescription230012]",
+          "descriptions": {
+            "zh-CN": "造成的魔法伤害提升为攻击力×320%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "魔法攻撃のダメージが攻撃力×320%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[ActiveSkillDescription230013]",
+          "descriptions": {
+            "zh-CN": "技能目标增加为5名随机敌人。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "このスキルの対象がランダムな敵5体になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription230011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              23001001,
+              23001002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[ActiveSkillDescription230012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              23001201,
+              23001202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[ActiveSkillDescription230013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              23001301,
+              23001302
+            ]
+          }
+        ],
+        "Id": 23001,
+        "IsIgnore": null,
+        "Memo": "ロザリーR: /Lv1　受け継いだ杖の力を解放して、ランダムな敵4体に攻撃力×290％の魔法攻撃を行う。封じられた古の魔法が相手の生命力を奪い、自身のHPをこのスキルの総与ダメージ×10%回復する。　/Lv2 魔法攻撃のダメージが攻撃力×320%になる。　/Lv3 このスキルの対象がランダムな敵5体になる。",
+        "NameKey": "[ActiveSkillName23001]",
+        "RootActiveSkillId": 23001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName23001]",
+      "names": {
+        "zh-CN": "殒落者之志"
+      },
+      "source_memo_ja": "ロザリーR: /Lv1　受け継いだ杖の力を解放して、ランダムな敵4体に攻撃力×290％の魔法攻撃を行う。封じられた古の魔法が相手の生命力を奪い、自身のHPをこのスキルの総与ダメージ×10%回復する。　/Lv2 魔法攻撃のダメージが攻撃力×320%になる。　/Lv3 このスキルの対象がランダムな敵5体になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "受け継いだ杖の力を解放して、ランダムな敵4体に攻撃力×290％の魔法攻撃を行う。封じられた古の魔法が相手の生命力を奪い、自身のHPをこのスキルの総与ダメージ×10%回復する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "魔法攻撃のダメージが攻撃力×320%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "このスキルの対象がランダムな敵5体になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 23002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription230021]",
+          "descriptions": {
+            "zh-CN": "故主遗留在罗莎莉身上的力量觉醒，随机对2名敌人造成攻击力×420%的魔法伤害。想要守护罗莎莉的心意化作力量，使罗莎莉获得「伤害免疫」，效果持续1回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "ロザリーに宿る主の力が覚醒し、ランダムな敵2体に攻撃力×420%の魔法攻撃を行う。さらにロザリーを護ろうとする思いによって、自身に1ターンの間『ダメージ無効』を付与する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription230022]",
+          "descriptions": {
+            "zh-CN": "60%概率额外附加「流血」状态，效果持续2回合，每回合行动开始时造成罗莎莉攻击力×10%的伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに60％の確率で2ターンの間『出血』を付与する。毎ターン行動開始時に自身の攻撃力×10%のダメージを与える。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription230023]",
+          "descriptions": {
+            "zh-CN": "攻击目标增加为3名随机敌人。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "魔法攻撃の対象がランダムな敵3体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[ActiveSkillDescription230024]",
+          "descriptions": {
+            "zh-CN": "「伤害免疫」效果增加为2回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "『ダメージ無効』のターン数が2ターンになる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription230021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              23002001,
+              23002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription230022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              23002201,
+              23002202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription230023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              23002301,
+              23002302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[ActiveSkillDescription230024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              23002401,
+              23002402
+            ]
+          }
+        ],
+        "Id": 23002,
+        "IsIgnore": null,
+        "Memo": "ロザリーR: /Lv1　ロザリーに宿る主の力が覚醒し、ランダムな敵2体に攻撃力×420%の魔法攻撃を行う。さらにロザリーを護ろうとする思いによって、自身に1ターンの間『ダメージ無効』を付与する。　/Lv2 さらに60％の確率で2ターンの間『出血』を付与する。毎ターン行動開始時に自身の攻撃力×10%のダメージを与える。　/Lv3 魔法攻撃の対象がランダムな敵3体になる。　/Lv4 『ダメージ無効』のターン数が2ターンになる。",
+        "NameKey": "[ActiveSkillName23002]",
+        "RootActiveSkillId": 23002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName23002]",
+      "names": {
+        "zh-CN": "殒落者之思"
+      },
+      "source_memo_ja": "ロザリーR: /Lv1　ロザリーに宿る主の力が覚醒し、ランダムな敵2体に攻撃力×420%の魔法攻撃を行う。さらにロザリーを護ろうとする思いによって、自身に1ターンの間『ダメージ無効』を付与する。　/Lv2 さらに60％の確率で2ターンの間『出血』を付与する。毎ターン行動開始時に自身の攻撃力×10%のダメージを与える。　/Lv3 魔法攻撃の対象がランダムな敵3体になる。　/Lv4 『ダメージ無効』のターン数が2ターンになる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "ロザリーに宿る主の力が覚醒し、ランダムな敵2体に攻撃力×420%の魔法攻撃を行う。さらにロザリーを護ろうとする思いによって、自身に1ターンの間『ダメージ無効』を付与する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに60％の確率で2ターンの間『出血』を付与する。毎ターン行動開始時に自身の攻撃力×10%のダメージを与える。"
+        },
+        {
+          "label": "Lv3",
+          "text": "魔法攻撃の対象がランダムな敵3体になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "『ダメージ無効』のターン数が2ターンになる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 71,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 71,
+            "CollectionLevel": 1,
+            "Id": 7101,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 1,
+            "Memo": "ミンタカの開花(アイリス,テオドラ,ロザリー,チェルナ)"
+          },
+          "max_level_increase": 1
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 71,
+            "CollectionLevel": 2,
+            "Id": 7102,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 3,
+            "Memo": "ミンタカの開花(アイリス,テオドラ,ロザリー,チェルナ)"
+          },
+          "max_level_increase": 3
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 71,
+            "CollectionLevel": 3,
+            "Id": 7103,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 5,
+            "Memo": "ミンタカの開花(アイリス,テオドラ,ロザリー,チェルナ)"
+          },
+          "max_level_increase": 5
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 71,
+        "IsIgnore": null,
+        "Memo": "ミンタカの開花(アイリス,テオドラ,ロザリー,チェルナ)",
+        "NameKey": "[CharacterCollectionName71]",
+        "RequiredCharacterIds": [
+          3,
+          13,
+          23,
+          33
+        ],
+        "RequiredPartyLv": 300,
+        "StartTimeFixJST": "2025-04-15 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName71]",
+      "names": {
+        "zh-CN": "腰带星的绽放"
+      },
+      "required_character_ids": [
+        3,
+        13,
+        23,
+        33
+      ],
+      "required_characters": [
+        {
+          "id": 3,
+          "names": {
+            "zh-CN": "艾莉丝"
+          }
+        },
+        {
+          "id": 13,
+          "names": {
+            "zh-CN": "狄奥多拉"
+          }
+        },
+        {
+          "id": 23,
+          "names": {
+            "zh-CN": "罗莎莉"
+          }
+        },
+        {
+          "id": 33,
+          "names": {
+            "zh-CN": "切尔娜"
+          }
+        }
+      ],
+      "required_party_level": 300,
+      "start_time_jst": "2025-04-15 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 3,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 23,
+    "job_flags": 4,
+    "master_record": {
+      "ActiveSkillIds": [
+        23001,
+        23002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 80,
+        "Health": 81,
+        "Intelligence": 95,
+        "Muscle": 84
+      },
+      "BaseParameterGrossCoefficient": 340,
+      "CharacterType": 0,
+      "ElementType": 3,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 23,
+      "InitialBattleParameter": {
+        "AttackPower": 2,
+        "Avoidance": 0,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 2,
+        "DebuffResist": 0,
+        "Defense": 7,
+        "DefensePenetration": 0,
+        "HP": -3,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 2800
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 32,
+      "JobFlags": 4,
+      "Memo": "ロザリー",
+      "Name2Key": null,
+      "NameKey": "[CharacterName23]",
+      "NormalSkillId": 102,
+      "PassiveSkillIds": [
+        23003
+      ],
+      "RarityFlags": 2,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2020-01-01 00:00:00"
+    },
+    "memo": "ロザリー",
+    "name_key": "[CharacterName23]",
+    "names": {
+      "zh-CN": "罗莎莉"
+    },
+    "speed": 2800,
+    "start_time_jst": "2020-01-01 00:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": null,
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 23003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription230031]",
+          "descriptions": {
+            "zh-CN": "从已逝故主身上承袭的生命，使罗莎莉在战斗开始时获得「再生」状态，每回合行动开始时恢复5%最大生命值（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "亡き主より受け継いだ命によって、バトル開始時自身に『再生』を付与する（解除不可）。毎ターン行動開始時に自身のHPを自身の最大HP×5％回復する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[PassiveSkillDescription230032]",
+          "descriptions": {
+            "zh-CN": "「再生」的恢复量提升为10%最大生命值。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "『再生』での回復量が自身の最大HP×10％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 23003,
+        "IsIgnore": null,
+        "Memo": "ロザリーR: /Lv1　亡き主より受け継いだ命によって、バトル開始時自身に『再生』を付与する（解除不可）。毎ターン行動開始時に自身のHPを自身の最大HP×5％回復する。　/Lv2 『再生』での回復量が自身の最大HP×10％になる。",
+        "NameKey": "[PassiveSkillName23003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription230031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 23003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[PassiveSkillDescription230032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 23003201
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName23003]",
+      "names": {
+        "zh-CN": "不朽之命"
+      },
+      "source_memo_ja": "ロザリーR: /Lv1　亡き主より受け継いだ命によって、バトル開始時自身に『再生』を付与する（解除不可）。毎ターン行動開始時に自身のHPを自身の最大HP×5％回復する。　/Lv2 『再生』での回復量が自身の最大HP×10％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "亡き主より受け継いだ命によって、バトル開始時自身に『再生』を付与する（解除不可）。毎ターン行動開始時に自身のHPを自身の最大HP×5％回復する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "『再生』での回復量が自身の最大HP×10％になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

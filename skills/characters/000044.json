@@ -1,0 +1,1298 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 44001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription440011]",
+          "descriptions": {
+            "zh-CN": "露莎卡召唤湖水深处的精灵，降下腐蚀万物的诅咒之雨，随机对5名敌人造成攻击力×320%的魔法伤害，50%概率使技能目标减少10%输出伤害，效果持续1回合。当技能目标的魔力低于自己时，附加「输出伤害下降」状态的概率提升为100%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "水底から精霊を呼び出し、触れた者を腐敗させる呪いの雨を降らせる。ランダムな敵5体に攻撃力×320％の魔法攻撃を行う。対象の魔力が自身よりも低い場合100%、そうでない場合50％の確率で1ターンの間対象の与ダメージを10%減少させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription440012]",
+          "descriptions": {
+            "zh-CN": "造成的魔法伤害提升为攻击力×480%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "\\n魔法攻撃のダメージが攻撃力×480%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription440013]",
+          "descriptions": {
+            "zh-CN": "输出伤害降幅提升为15%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "\\n与ダメージの減少量が15％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription440014]",
+          "descriptions": {
+            "zh-CN": ""
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "\\nキキーモラの腐り雨を強化する。『与ダメージ減少』のターン数が2ターンになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription440015]",
+          "descriptions": {
+            "zh-CN": ""
+          },
+          "equipment_rarity_flags": 256,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "\\nキキーモラの腐り雨を強化する。魔法攻撃のダメージが攻撃力×580％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription440011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              44001001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription440012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              44001201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription440013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              44001301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription440014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              44001401
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription440015]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              44001501
+            ]
+          }
+        ],
+        "Id": 44001,
+        "IsIgnore": null,
+        "Memo": "【天泣の魔女】ルサールカSR: Lv1 水底から精霊を呼び出し、触れた者を腐敗させる呪いの雨を降らせる。ランダムな敵5体に攻撃力×320％の魔法攻撃を行う。対象の魔力が自身よりも低い場合100%、そうでない場合50％の確率で1ターンの間対象の与ダメージを10%減少させる。 / Lv2 \\n魔法攻撃のダメージが攻撃力×480%になる。 / Lv3 \\n与ダメージの減少量が15％になる。 / Ex1 \\nキキーモラの腐り雨を強化する。『与ダメージ減少』のターン数が2ターンになる。/ Ex2 \\nキキーモラの腐り雨を強化する。魔法攻撃のダメージが攻撃力×580％になる。",
+        "NameKey": "[ActiveSkillName44001]",
+        "RootActiveSkillId": 44001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName44001]",
+      "names": {
+        "zh-CN": "奇奇莫拉的腐雨"
+      },
+      "source_memo_ja": "【天泣の魔女】ルサールカSR: Lv1 水底から精霊を呼び出し、触れた者を腐敗させる呪いの雨を降らせる。ランダムな敵5体に攻撃力×320％の魔法攻撃を行う。対象の魔力が自身よりも低い場合100%、そうでない場合50％の確率で1ターンの間対象の与ダメージを10%減少させる。 / Lv2 \\n魔法攻撃のダメージが攻撃力×480%になる。 / Lv3 \\n与ダメージの減少量が15％になる。 / Ex1 \\nキキーモラの腐り雨を強化する。『与ダメージ減少』のターン数が2ターンになる。/ Ex2 \\nキキーモラの腐り雨を強化する。魔法攻撃のダメージが攻撃力×580％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "水底から精霊を呼び出し、触れた者を腐敗させる呪いの雨を降らせる。ランダムな敵5体に攻撃力×320％の魔法攻撃を行う。対象の魔力が自身よりも低い場合100%、そうでない場合50％の確率で1ターンの間対象の与ダメージを10%減少させる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "\\n魔法攻撃のダメージが攻撃力×480%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "\\n与ダメージの減少量が15％になる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "\\nキキーモラの腐り雨を強化する。『与ダメージ減少』のターン数が2ターンになる。"
+        },
+        {
+          "label": "Ex2",
+          "text": "\\nキキーモラの腐り雨を強化する。魔法攻撃のダメージが攻撃力×580％になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 44002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription440021]",
+          "descriptions": {
+            "zh-CN": "露莎卡召唤来自幽暗水底的水灵之王，随机对敌人进行3次攻击，每次造成攻击力×400%的魔法伤害。当技能目标身上附带弱化效果时，造成的魔法伤害增加为1.5倍。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "冥き水底から荒ぶる水霊の王を呼び出して攻撃する。ランダムな敵に3回攻撃力×400％の魔法攻撃を行う。対象が弱体効果を付帯している場合、魔法攻撃のダメージが1.5倍になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription440022]",
+          "descriptions": {
+            "zh-CN": "攻击次数增加为4次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "\\n魔法攻撃の回数が4回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription440023]",
+          "descriptions": {
+            "zh-CN": "造成的魔法伤害提升为攻击力×470%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "\\n魔法攻撃のダメージが攻撃力×470％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription440024]",
+          "descriptions": {
+            "zh-CN": "当技能目标身上附带弱化效果时，魔法伤害增幅提升为2倍。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "\\n対象が弱体効果を付帯している場合、魔法攻撃のダメージが2倍になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription440021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              44002001,
+              44002002,
+              44002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription440022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              44002001,
+              44002002,
+              44002002,
+              44002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription440023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              44002301,
+              44002302,
+              44002302,
+              44002302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription440024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              44002401,
+              44002402,
+              44002402,
+              44002402
+            ]
+          }
+        ],
+        "Id": 44002,
+        "IsIgnore": null,
+        "Memo": "【天泣の魔女】ルサールカSR: Lv1 冥き水底から荒ぶる水霊の王を呼び出して攻撃する。ランダムな敵に3回攻撃力×400％の魔法攻撃を行う。対象が弱体効果を付帯している場合、魔法攻撃のダメージが1.5倍になる。/ Lv2 \\n魔法攻撃の回数が4回になる。 / Lv3 \\n魔法攻撃のダメージが攻撃力×470％になる。 / Lv4 \\n対象が弱体効果を付帯している場合、魔法攻撃のダメージが2倍になる。",
+        "NameKey": "[ActiveSkillName44002]",
+        "RootActiveSkillId": 44002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName44002]",
+      "names": {
+        "zh-CN": "沃加诺伊的浊龙"
+      },
+      "source_memo_ja": "【天泣の魔女】ルサールカSR: Lv1 冥き水底から荒ぶる水霊の王を呼び出して攻撃する。ランダムな敵に3回攻撃力×400％の魔法攻撃を行う。対象が弱体効果を付帯している場合、魔法攻撃のダメージが1.5倍になる。/ Lv2 \\n魔法攻撃の回数が4回になる。 / Lv3 \\n魔法攻撃のダメージが攻撃力×470％になる。 / Lv4 \\n対象が弱体効果を付帯している場合、魔法攻撃のダメージが2倍になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "冥き水底から荒ぶる水霊の王を呼び出して攻撃する。ランダムな敵に3回攻撃力×400％の魔法攻撃を行う。対象が弱体効果を付帯している場合、魔法攻撃のダメージが1.5倍になる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "\\n魔法攻撃の回数が4回になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "\\n魔法攻撃のダメージが攻撃力×470％になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "\\n対象が弱体効果を付帯している場合、魔法攻撃のダメージが2倍になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 14,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 200.0,
+              "value_text": "+200"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 14,
+            "CollectionLevel": 1,
+            "Id": 1401,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アクエリアスの流星(ルサールカ,プリマヴェーラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 500.0,
+              "value_text": "+500"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 14,
+            "CollectionLevel": 2,
+            "Id": 1402,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アクエリアスの流星(ルサールカ,プリマヴェーラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 500.0,
+              "value_text": "+500"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 14,
+            "CollectionLevel": 3,
+            "Id": 1403,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アクエリアスの流星(ルサールカ,プリマヴェーラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 500.0,
+              "value_text": "+500"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 500.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 14,
+            "CollectionLevel": 4,
+            "Id": 1404,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アクエリアスの流星(ルサールカ,プリマヴェーラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 505.0,
+              "value_text": "+505"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 505.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 14,
+            "CollectionLevel": 5,
+            "Id": 1405,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アクエリアスの流星(ルサールカ,プリマヴェーラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 510.0,
+              "value_text": "+510"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 510.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 14,
+            "CollectionLevel": 6,
+            "Id": 1406,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アクエリアスの流星(ルサールカ,プリマヴェーラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 515.0,
+              "value_text": "+515"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 515.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 14,
+            "CollectionLevel": 7,
+            "Id": 1407,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アクエリアスの流星(ルサールカ,プリマヴェーラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 520.0,
+              "value_text": "+520"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 520.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 14,
+            "CollectionLevel": 8,
+            "Id": 1408,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アクエリアスの流星(ルサールカ,プリマヴェーラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 525.0,
+              "value_text": "+525"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 525.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 14,
+            "CollectionLevel": 9,
+            "Id": 1409,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アクエリアスの流星(ルサールカ,プリマヴェーラ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 14,
+        "IsIgnore": null,
+        "Memo": "アクエリアスの流星(ルサールカ,プリマヴェーラ)",
+        "NameKey": "[CharacterCollectionName14]",
+        "RequiredCharacterIds": [
+          44,
+          39
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2023-04-28 15:00:00"
+      },
+      "name_key": "[CharacterCollectionName14]",
+      "names": {
+        "zh-CN": "水瓶座的流星"
+      },
+      "required_character_ids": [
+        44,
+        39
+      ],
+      "required_characters": [
+        {
+          "id": 44,
+          "names": {
+            "zh-CN": "露莎卡"
+          }
+        },
+        {
+          "id": 39,
+          "names": {
+            "zh-CN": "普莉玛维拉"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2023-04-28 15:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 1,
+    "element_type": 5,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 44,
+    "job_flags": 4,
+    "master_record": {
+      "ActiveSkillIds": [
+        44001,
+        44002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 86,
+        "Health": 73,
+        "Intelligence": 94,
+        "Muscle": 84
+      },
+      "BaseParameterGrossCoefficient": 337,
+      "CharacterType": 1,
+      "ElementType": 5,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 44,
+      "InitialBattleParameter": {
+        "AttackPower": 0,
+        "Avoidance": 0,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 10,
+        "DefensePenetration": 0,
+        "HP": 0,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 2972
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 4,
+      "Memo": "ルサールカ",
+      "Name2Key": "[CharacterSubName44]",
+      "NameKey": "[CharacterName44]",
+      "NormalSkillId": 102,
+      "PassiveSkillIds": [
+        44003,
+        44004,
+        44005
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2023-04-28 15:00:00"
+    },
+    "memo": "ルサールカ",
+    "name_key": "[CharacterName44]",
+    "names": {
+      "zh-CN": "露莎卡"
+    },
+    "speed": 2972,
+    "start_time_jst": "2023-04-28 15:00:00",
+    "subtitle_key": "[CharacterSubName44]",
+    "subtitles": {
+      "zh-CN": "天泣魔女"
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 3278,
+    "exclusive_effect_id": 168,
+    "icon_id": 368,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 3279,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 60,
+        "EquipmentEvolutionId": 70,
+        "EquipmentExclusiveSkillDescriptionId": 28,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 4,
+        "ExclusiveEffectId": 168,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 368,
+        "Id": 3278,
+        "IsIgnore": null,
+        "Memo": "ルサールカLR240_書",
+        "NameKey": "[EquipmentName363]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": null,
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 7,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          },
+          {
+            "BattleParameterType": 12,
+            "ChangeParameterType": 1,
+            "Value": 7000.0
+          }
+        ],
+        "CharacterId": 44,
+        "Id": 168,
+        "IsIgnore": null,
+        "Memo": "ルサールカLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill44Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill44Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill44Description3]",
+        "Id": 28,
+        "IsIgnore": null,
+        "Memo": "ルサールカ魔導書"
+      }
+    },
+    "name_key": "[EquipmentName363]",
+    "names": {
+      "zh-CN": "灰姑娘"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Critical",
+        "parameter_type": 7,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      },
+      {
+        "change_parameter_type": 1,
+        "kind": "battle",
+        "parameter_code": "DefensePenetration",
+        "parameter_type": 12,
+        "raw_value": 7000.0,
+        "value_text": "+7,000"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill44Description1]",
+        "descriptions": {
+          "zh-CN": "强化奇奇莫拉的腐雨，「输出伤害下降」效果增加为2回合。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill44Description2]",
+        "descriptions": {
+          "zh-CN": "强化奇奇莫拉的腐雨，造成的魔法伤害提升为攻击力×580%。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill44Description3]",
+        "descriptions": {
+          "zh-CN": "战斗开始时，使露莎卡增加30%速度，效果持续1回合。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 44003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription440031]",
+          "descriptions": {
+            "zh-CN": "父母离弃她、兄长背叛她，深陷绝望的少女，仍然相信他一定会来找她……这脆弱的心愿使少女的生命重获光明——失去战斗能力时，露莎卡将复活并恢复10%最大生命值，使自己重置技能冷却时间。此技能每场战斗最多触发1次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "捨てられ、裏切られ、絶望しても──少女は信じ続けた。きっとあの人が来てくれるはず……。その儚い願いが、少女にもう一度だけ光を与える──。自身が戦闘不能になったとき、自身の最大HP×10％のHPを回復して復活し、自身のスキルクールタイムカウントを0にする。このスキルはバトル中1回のみ発動する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription440032]",
+          "descriptions": {
+            "zh-CN": "额外获得1层「多重屏障」。当露莎卡受到伤害时，消耗1层屏障来抵消该伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "\\nさらに自身に1層の『多重バリア』を付与する。ダメージを受けると、バリアを1層消費してそのダメージを無効化する。 / Lv3\\n『多重バリア』が5層になる。さらに1ターンの間自身の攻撃力が70％、スピードが30％増加する。さらに自身以外の味方全体に1層の『多重バリア』を付与する。ダメージを受けると、バリアを1層消費してそのダメージを無効化する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription440033]",
+          "descriptions": {
+            "zh-CN": "「多重屏障」增加为5层。使自己额外增加70%攻击力与30%速度，效果持续1回合。再使其他友军获得1层「多重屏障」。当技能目标受到伤害时，消耗1层屏障来抵消该伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "Id": 44003,
+        "IsIgnore": null,
+        "Memo": "【天泣の魔女】ルサールカSR:　Lv1　捨てられ、裏切られ、絶望しても──少女は信じ続けた。きっとあの人が来てくれるはず……。その儚い願いが、少女にもう一度だけ光を与える──。自身が戦闘不能になったとき、自身の最大HP×10％のHPを回復して復活し、自身のスキルクールタイムカウントを0にする。このスキルはバトル中1回のみ発動する。/ Lv2 \\nさらに自身に1層の『多重バリア』を付与する。ダメージを受けると、バリアを1層消費してそのダメージを無効化する。 / Lv3\\n『多重バリア』が5層になる。さらに1ターンの間自身の攻撃力が70％、スピードが30％増加する。さらに自身以外の味方全体に1層の『多重バリア』を付与する。ダメージを受けると、バリアを1層消費してそのダメージを無効化する。",
+        "NameKey": "[PassiveSkillName44003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription440031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 6,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 44003001
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 62,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 44003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 19,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 44003002
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription440032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 6,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 44003001
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 62,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 44003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 19,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 44003202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription440033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 6,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 44003001
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 62,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 44003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 19,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 44003302
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 19,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 44003303
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName44003]",
+      "names": {
+        "zh-CN": "活祭少女"
+      },
+      "source_memo_ja": "【天泣の魔女】ルサールカSR:　Lv1　捨てられ、裏切られ、絶望しても──少女は信じ続けた。きっとあの人が来てくれるはず……。その儚い願いが、少女にもう一度だけ光を与える──。自身が戦闘不能になったとき、自身の最大HP×10％のHPを回復して復活し、自身のスキルクールタイムカウントを0にする。このスキルはバトル中1回のみ発動する。/ Lv2 \\nさらに自身に1層の『多重バリア』を付与する。ダメージを受けると、バリアを1層消費してそのダメージを無効化する。 / Lv3\\n『多重バリア』が5層になる。さらに1ターンの間自身の攻撃力が70％、スピードが30％増加する。さらに自身以外の味方全体に1層の『多重バリア』を付与する。ダメージを受けると、バリアを1層消費してそのダメージを無効化する。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "捨てられ、裏切られ、絶望しても──少女は信じ続けた。きっとあの人が来てくれるはず……。その儚い願いが、少女にもう一度だけ光を与える──。自身が戦闘不能になったとき、自身の最大HP×10％のHPを回復して復活し、自身のスキルクールタイムカウントを0にする。このスキルはバトル中1回のみ発動する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "\\nさらに自身に1層の『多重バリア』を付与する。ダメージを受けると、バリアを1層消費してそのダメージを無効化する。 / Lv3\\n『多重バリア』が5層になる。さらに1ターンの間自身の攻撃力が70％、スピードが30％増加する。さらに自身以外の味方全体に1層の『多重バリア』を付与する。ダメージを受けると、バリアを1層消費してそのダメージを無効化する。"
+        }
+      ]
+    },
+    {
+      "id": 44004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription440041]",
+          "descriptions": {
+            "zh-CN": "少女流下的绝望泪水，化为百年不曾停歇的悲伤之雨。战斗开始时或受到攻击后，如果露莎卡的生命值低于30%，使自己增加30%物魔防御穿透，效果持续3回合。每当露莎卡受到攻击后，解除此增益效果并重新进行生命值百分比判定。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "少女の流した絶望の涙が、100年やむことのない悲しみの雨となった。バトル開始時、もしくは自身が攻撃を受けたとき、自身のHP割合が50％未満の場合、2ターンの間自身の物魔防御貫通が30％増加する。次に自身が攻撃を受けたときこのバフは解除され、再度HP割合の判定を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription440042]",
+          "descriptions": {
+            "zh-CN": "战斗开始时或受到攻击后，如果露莎卡的生命值为70%以上，额外增加30%抗暴率，效果持续3回合。每当露莎卡受到攻击后，解除此增益效果并重新进行生命值百分比判定。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "バトル開始時、もしくは自身が攻撃を受けたとき、さらに自身のHP割合が70%以上の場合、3ターンの間自身のクリティカル耐性率が30%増加する。次に自身が攻撃を受けたときこのバフは解除され、再度HP割合の判定を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription440043]",
+          "descriptions": {
+            "zh-CN": "战斗开始时或受到攻击后，如果露莎卡的生命值低于50%，获得「物魔防御穿透上升」效果；如果生命值为50%以上，获得「抗暴率上升」效果。物魔防御穿透与抗暴率增幅提升为50%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "バトル開始時、もしくは自身が攻撃を受けたとき、『物魔防御貫通増加』を付与する条件が自身のHP割合が50％未満の場合、『クリティカル耐性率増加』を付与する条件が自身のHP割合が50％以上の場合になる。物魔防御貫通とクリティカル耐性率の増加量がそれぞれ50％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 44004,
+        "IsIgnore": null,
+        "Memo": "【天泣の魔女】ルサールカSR:　Lv1 少女の流した絶望の涙が、100年やむことのない悲しみの雨となった。バトル開始時、もしくは自身が攻撃を受けたとき、自身のHP割合が50％未満の場合、2ターンの間自身の物魔防御貫通が30％増加する。次に自身が攻撃を受けたときこのバフは解除され、再度HP割合の判定を行う。 / Lv2 バトル開始時、もしくは自身が攻撃を受けたとき、さらに自身のHP割合が70%以上の場合、3ターンの間自身のクリティカル耐性率が30%増加する。次に自身が攻撃を受けたときこのバフは解除され、再度HP割合の判定を行う。 / Lv3 バトル開始時、もしくは自身が攻撃を受けたとき、『物魔防御貫通増加』を付与する条件が自身のHP割合が50％未満の場合、『クリティカル耐性率増加』を付与する条件が自身のHP割合が50％以上の場合になる。物魔防御貫通とクリティカル耐性率の増加量がそれぞれ50％になる。",
+        "NameKey": "[PassiveSkillName44004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription440041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 44004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 44004002
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 19,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 44004002
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription440042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 44004201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 44004202
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 19,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 44004202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription440043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 44004301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 44004302
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 19,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 44004302
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName44004]",
+      "names": {
+        "zh-CN": "天泣魔女"
+      },
+      "source_memo_ja": "【天泣の魔女】ルサールカSR:　Lv1 少女の流した絶望の涙が、100年やむことのない悲しみの雨となった。バトル開始時、もしくは自身が攻撃を受けたとき、自身のHP割合が50％未満の場合、2ターンの間自身の物魔防御貫通が30％増加する。次に自身が攻撃を受けたときこのバフは解除され、再度HP割合の判定を行う。 / Lv2 バトル開始時、もしくは自身が攻撃を受けたとき、さらに自身のHP割合が70%以上の場合、3ターンの間自身のクリティカル耐性率が30%増加する。次に自身が攻撃を受けたときこのバフは解除され、再度HP割合の判定を行う。 / Lv3 バトル開始時、もしくは自身が攻撃を受けたとき、『物魔防御貫通増加』を付与する条件が自身のHP割合が50％未満の場合、『クリティカル耐性率増加』を付与する条件が自身のHP割合が50％以上の場合になる。物魔防御貫通とクリティカル耐性率の増加量がそれぞれ50％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "少女の流した絶望の涙が、100年やむことのない悲しみの雨となった。バトル開始時、もしくは自身が攻撃を受けたとき、自身のHP割合が50％未満の場合、2ターンの間自身の物魔防御貫通が30％増加する。次に自身が攻撃を受けたときこのバフは解除され、再度HP割合の判定を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "バトル開始時、もしくは自身が攻撃を受けたとき、さらに自身のHP割合が70%以上の場合、3ターンの間自身のクリティカル耐性率が30%増加する。次に自身が攻撃を受けたときこのバフは解除され、再度HP割合の判定を行う。"
+        },
+        {
+          "label": "Lv3",
+          "text": "バトル開始時、もしくは自身が攻撃を受けたとき、『物魔防御貫通増加』を付与する条件が自身のHP割合が50％未満の場合、『クリティカル耐性率増加』を付与する条件が自身のHP割合が50％以上の場合になる。物魔防御貫通とクリティカル耐性率の増加量がそれぞれ50％になる。"
+        }
+      ]
+    },
+    {
+      "id": 44005,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription440051]",
+          "descriptions": {
+            "zh-CN": "战斗开始时，使露莎卡增加30%速度，效果持续1回合。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 1,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "Id": 44005,
+        "IsIgnore": null,
+        "Memo": "【天泣の魔女】ルサールカSR:　専用3、1ターン目のターン開始時、スピードが1ターンの間30%上昇（解除可能）",
+        "NameKey": "[PassiveSkillName44005]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription440051]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 28,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 44005001
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName44005]",
+      "names": {
+        "zh-CN": "灰姑娘"
+      },
+      "source_memo_ja": "【天泣の魔女】ルサールカSR:　専用3、1ターン目のターン開始時、スピードが1ターンの間30%上昇（解除可能）",
+      "source_memo_sections_ja": []
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

@@ -1,0 +1,1383 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 153001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription1530011]",
+          "descriptions": {
+            "zh-CN": "“有什么要帮忙的，尽管交给小白♪”小白随机对3名敌人造成攻击力×240%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「お手伝いならシロに任せて♪」ランダムな敵3体に攻撃力×240%の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription1530012]",
+          "descriptions": {
+            "zh-CN": "发动攻击前使攻击力最高的2名友军额外增加15%暴击率与暴击伤害强化，效果持续4回合。在自动战斗・挑战首领中或第9回合起，暴击率与暴击伤害强化增幅提升为30%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに物理攻撃の前に4ターンの間攻撃力が高い味方2体のクリティカル率とクリダメ強化をそれぞれ15%増加させる。オートバトル・ボスバトルで発動した場合、もしくは9ターン目以降に発動した場合、クリティカル率とクリダメ強化の増加量がそれぞれ30%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1530013]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×530%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃のダメージが攻撃力×530%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1530014]",
+          "descriptions": {
+            "zh-CN": "强化小白来帮忙！，攻击目标增加为5名随机敌人。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "お手伝いするねっ！を強化する。お手伝いするねっ！の対象がランダムな敵5体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription1530015]",
+          "descriptions": {
+            "zh-CN": "强化小白来帮忙！，造成的物理伤害提升为攻击力×580%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "お手伝いするねっ！を強化する。物理攻撃のダメージが攻撃力×580%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription1530011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              153001001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription1530012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              153001202,
+              153001001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1530013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              153001202,
+              153001301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1530014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              153001202,
+              153001401
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription1530015]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              153001202,
+              153001501
+            ]
+          }
+        ],
+        "Id": 153001,
+        "IsIgnore": null,
+        "Memo": "シロSR:Lv1 「お手伝いならシロに任せて♪」ランダムな敵3体に攻撃力×240%の物理攻撃を行う。/ Lv2 さらに物理攻撃の前に4ターンの間攻撃力が高い味方2体のクリティカル率とクリダメ強化をそれぞれ15%増加させる。オートバトル・ボスバトルで発動した場合、もしくは9ターン目以降に発動した場合、クリティカル率とクリダメ強化の増加量がそれぞれ30%になる。/ Lv3 物理攻撃のダメージが攻撃力×530%になる。/ Ex1 お手伝いするねっ！を強化する。お手伝いするねっ！の対象がランダムな敵5体になる。/ Ex3 お手伝いするねっ！を強化する。物理攻撃のダメージが攻撃力×580%になる。",
+        "NameKey": "[ActiveSkillName153001]",
+        "RootActiveSkillId": 153001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName153001]",
+      "names": {
+        "zh-CN": "小白来帮忙！"
+      },
+      "source_memo_ja": "シロSR:Lv1 「お手伝いならシロに任せて♪」ランダムな敵3体に攻撃力×240%の物理攻撃を行う。/ Lv2 さらに物理攻撃の前に4ターンの間攻撃力が高い味方2体のクリティカル率とクリダメ強化をそれぞれ15%増加させる。オートバトル・ボスバトルで発動した場合、もしくは9ターン目以降に発動した場合、クリティカル率とクリダメ強化の増加量がそれぞれ30%になる。/ Lv3 物理攻撃のダメージが攻撃力×530%になる。/ Ex1 お手伝いするねっ！を強化する。お手伝いするねっ！の対象がランダムな敵5体になる。/ Ex3 お手伝いするねっ！を強化する。物理攻撃のダメージが攻撃力×580%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「お手伝いならシロに任せて♪」ランダムな敵3体に攻撃力×240%の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに物理攻撃の前に4ターンの間攻撃力が高い味方2体のクリティカル率とクリダメ強化をそれぞれ15%増加させる。オートバトル・ボスバトルで発動した場合、もしくは9ターン目以降に発動した場合、クリティカル率とクリダメ強化の増加量がそれぞれ30%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃のダメージが攻撃力×530%になる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "お手伝いするねっ！を強化する。お手伝いするねっ！の対象がランダムな敵5体になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "お手伝いするねっ！を強化する。物理攻撃のダメージが攻撃力×580%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 153002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription1530021]",
+          "descriptions": {
+            "zh-CN": "“小安，跟我来！”小白叫上好朋友小安，随机对敌人进行3次攻击，每次造成攻击力×320%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「おいで、アン！」お友達のアンを呼んで一緒に、ランダムな敵に3回攻撃力×320%の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription1530022]",
+          "descriptions": {
+            "zh-CN": "攻击次数增加为5次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "物理攻撃の回数が5回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription1530023]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×640%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃のダメージが攻撃力×640%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription1530024]",
+          "descriptions": {
+            "zh-CN": "第9回合起，附带增益效果最多的友军身上每附带1种增益效果，可使技能造成的物理伤害增加攻击力×30%（最多可叠加到940%）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "さらにこのスキルを9ターン目以降に発動した場合、付帯しているバフの個数が最も多い味方の付帯しているバフの個数1つにつき、物理攻撃のダメージが攻撃力×30%大きくなる（最大攻撃力×940%まで）。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription1530021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              153002001,
+              153002002,
+              153002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription1530022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              153002201,
+              153002202,
+              153002202,
+              153002202,
+              153002202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription1530023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              153002301,
+              153002302,
+              153002302,
+              153002302,
+              153002302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription1530024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              153002401,
+              153002402,
+              153002402,
+              153002402,
+              153002402
+            ]
+          }
+        ],
+        "Id": 153002,
+        "IsIgnore": null,
+        "Memo": "シロSR:Lv1 「おいで、アン！」お友達のアンを呼んで一緒に、ランダムな敵に3回攻撃力×320%の物理攻撃を行う。/ Lv2 物理攻撃の回数が5回になる。/ Lv3 物理攻撃のダメージが攻撃力×640%になる。/ Lv4 さらにこのスキルを9ターン目以降に発動した場合、付帯しているバフの個数が最も多い味方の付帯しているバフの個数1つにつき、物理攻撃のダメージが攻撃力×30%大きくなる（最大攻撃力×940%まで）。",
+        "NameKey": "[ActiveSkillName153002]",
+        "RootActiveSkillId": 153002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName153002]",
+      "names": {
+        "zh-CN": "小安一起来！"
+      },
+      "source_memo_ja": "シロSR:Lv1 「おいで、アン！」お友達のアンを呼んで一緒に、ランダムな敵に3回攻撃力×320%の物理攻撃を行う。/ Lv2 物理攻撃の回数が5回になる。/ Lv3 物理攻撃のダメージが攻撃力×640%になる。/ Lv4 さらにこのスキルを9ターン目以降に発動した場合、付帯しているバフの個数が最も多い味方の付帯しているバフの個数1つにつき、物理攻撃のダメージが攻撃力×30%大きくなる（最大攻撃力×940%まで）。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「おいで、アン！」お友達のアンを呼んで一緒に、ランダムな敵に3回攻撃力×320%の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "物理攻撃の回数が5回になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃のダメージが攻撃力×640%になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "さらにこのスキルを9ターン目以降に発動した場合、付帯しているバフの個数が最も多い味方の付帯しているバフの個数1つにつき、物理攻撃のダメージが攻撃力×30%大きくなる（最大攻撃力×940%まで）。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 98,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 500.0,
+              "value_text": "+500"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 98,
+            "CollectionLevel": 1,
+            "Id": 9801,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ウルクの尻尾(シロ,シフォン,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 50.0,
+              "value_text": "+50×角色等级"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              },
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 50.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 98,
+            "CollectionLevel": 2,
+            "Id": 9802,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ウルクの尻尾(シロ,シフォン,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 50.0,
+              "value_text": "+50×角色等级"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              },
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 50.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 98,
+            "CollectionLevel": 3,
+            "Id": 9803,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ウルクの尻尾(シロ,シフォン,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 50.0,
+              "value_text": "+50×角色等级"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              },
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 50.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 98,
+            "CollectionLevel": 4,
+            "Id": 9804,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ウルクの尻尾(シロ,シフォン,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1050.0,
+              "value_text": "+1,050"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 55.0,
+              "value_text": "+55×角色等级"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1050.0
+              },
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 55.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 98,
+            "CollectionLevel": 5,
+            "Id": 9805,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ウルクの尻尾(シロ,シフォン,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1100.0,
+              "value_text": "+1,100"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 60.0,
+              "value_text": "+60×角色等级"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1100.0
+              },
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 60.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 98,
+            "CollectionLevel": 6,
+            "Id": 9806,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ウルクの尻尾(シロ,シフォン,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1150.0,
+              "value_text": "+1,150"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 65.0,
+              "value_text": "+65×角色等级"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1150.0
+              },
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 65.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 98,
+            "CollectionLevel": 7,
+            "Id": 9807,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ウルクの尻尾(シロ,シフォン,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1200.0,
+              "value_text": "+1,200"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1200.0
+              },
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 98,
+            "CollectionLevel": 8,
+            "Id": 9808,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ウルクの尻尾(シロ,シフォン,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1250.0,
+              "value_text": "+1,250"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 75.0,
+              "value_text": "+75×角色等级"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1250.0
+              },
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 75.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 98,
+            "CollectionLevel": 9,
+            "Id": 9809,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ウルクの尻尾(シロ,シフォン,モーザ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 98,
+        "IsIgnore": null,
+        "Memo": "ウルクの尻尾(シロ,シフォン,モーザ)",
+        "NameKey": "[CharacterCollectionName98]",
+        "RequiredCharacterIds": [
+          153,
+          54,
+          10
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2026-07-28 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName98]",
+      "names": {
+        "zh-CN": "家犬的尾巴"
+      },
+      "required_character_ids": [
+        153,
+        54,
+        10
+      ],
+      "required_characters": [
+        {
+          "id": 153,
+          "names": {
+            "zh-CN": "小白"
+          }
+        },
+        {
+          "id": 54,
+          "names": {
+            "zh-CN": "戚风"
+          }
+        },
+        {
+          "id": 10,
+          "names": {
+            "zh-CN": "墨瑟"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2026-07-28 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 4,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 153,
+    "job_flags": 2,
+    "master_record": {
+      "ActiveSkillIds": [
+        153001,
+        153002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 96,
+        "Health": 68,
+        "Intelligence": 83,
+        "Muscle": 84
+      },
+      "BaseParameterGrossCoefficient": 331,
+      "CharacterType": 0,
+      "ElementType": 4,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 153,
+      "InitialBattleParameter": {
+        "AttackPower": -3,
+        "Avoidance": 5,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 10,
+        "DefensePenetration": 0,
+        "HP": -3,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 1,
+        "Speed": 3229
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 2,
+      "Memo": "シロ",
+      "Name2Key": null,
+      "NameKey": "[CharacterName153]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        153003,
+        153004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2026-07-28 15:00:00"
+    },
+    "memo": "シロ",
+    "name_key": "[CharacterName153]",
+    "names": {
+      "zh-CN": "小白"
+    },
+    "speed": 3229,
+    "start_time_jst": "2026-07-28 15:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 1531120240,
+    "exclusive_effect_id": 702,
+    "icon_id": 1022,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 1531120250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 149,
+        "EquipmentEvolutionId": 159,
+        "EquipmentExclusiveSkillDescriptionId": 117,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 2,
+        "ExclusiveEffectId": 702,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 1022,
+        "Id": 1531120240,
+        "IsIgnore": null,
+        "Memo": "シロLR240_銃",
+        "NameKey": "[EquipmentName1017]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": [
+          {
+            "BaseParameterType": 4,
+            "ChangeParameterType": 2,
+            "Value": 800.0
+          }
+        ],
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 13,
+            "ChangeParameterType": 2,
+            "Value": 500.0
+          }
+        ],
+        "CharacterId": 153,
+        "Id": 702,
+        "IsIgnore": null,
+        "Memo": "シロLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill153Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill153Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill153Description3]",
+        "Id": 117,
+        "IsIgnore": null,
+        "Memo": "シロ銃"
+      }
+    },
+    "name_key": "[EquipmentName1017]",
+    "names": {
+      "zh-CN": "小安"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "base",
+        "parameter_code": "Health",
+        "parameter_type": 4,
+        "raw_value": 800.0,
+        "value_text": "+8%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Defense",
+        "parameter_type": 13,
+        "raw_value": 500.0,
+        "value_text": "+5%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill153Description1]",
+        "descriptions": {
+          "zh-CN": "强化小白来帮忙！，攻击目标增加为5名随机敌人。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill153Description2]",
+        "descriptions": {
+          "zh-CN": "强化幸福的魔法，「攻击力上升」的附加目标增加为攻击力最高的2名友军。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill153Description3]",
+        "descriptions": {
+          "zh-CN": "强化小白来帮忙！，造成的物理伤害提升为攻击力×580%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 153003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription1530031]",
+          "descriptions": {
+            "zh-CN": "“小白的笑容就是魔法呀！”现在的小白，已不再是那个用笑容掩饰悲伤的女孩。回合开始时，小白使攻击力最高的友军增加10%攻击力，效果持续2回合。此技能须在结束4次行动后才可再次触发。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「シロの笑顔は魔法なんだもんっ！」笑顔で悲しみを覆い隠していた少女は、もうここにはいない。ターン開始時、2ターンの間攻撃力が最も高い味方の攻撃力を10%増加させる。このスキルは発動後4回行動終了するまで再び発動しない。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription1530032]",
+          "descriptions": {
+            "zh-CN": "在自动战斗・挑战首领中或第9回合起，攻击力增幅提升为50%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらにオートバトル・ボスバトルで発動した場合、もしくは9ターン目以降に発動した場合、攻撃力の増加量が50%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription1530033]",
+          "descriptions": {
+            "zh-CN": "「攻击力上升」效果增加为4回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "『攻撃力増加』のターン数が4ターンになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription1530034]",
+          "descriptions": {
+            "zh-CN": "强化幸福的魔法，「攻击力上升」的附加目标增加为攻击力最高的2名友军。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "幸せの魔法を強化する。『攻撃力増加』の対象が攻撃力が高い味方2体になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 153003,
+        "IsIgnore": null,
+        "Memo": "シロSR:Lv1 「シロの笑顔は魔法なんだもんっ！」笑顔で悲しみを覆い隠していた少女は、もうここにはいない。ターン開始時、2ターンの間攻撃力が最も高い味方の攻撃力を10%増加させる。このスキルは発動後4回行動終了するまで再び発動しない。/ Lv2 さらにオートバトル・ボスバトルで発動した場合、もしくは9ターン目以降に発動した場合、攻撃力の増加量が50%になる。/ Lv3 『攻撃力増加』のターン数が4ターンになる。/ Ex2 幸せの魔法を強化する。『攻撃力増加』の対象が攻撃力が高い味方2体になる。",
+        "NameKey": "[PassiveSkillName153003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription1530031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 153003001
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 153003002
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription1530032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 153003201
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 153003202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription1530033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 153003301
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 153003302
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription1530034]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 153003401
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 153003402
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName153003]",
+      "names": {
+        "zh-CN": "幸福的魔法"
+      },
+      "source_memo_ja": "シロSR:Lv1 「シロの笑顔は魔法なんだもんっ！」笑顔で悲しみを覆い隠していた少女は、もうここにはいない。ターン開始時、2ターンの間攻撃力が最も高い味方の攻撃力を10%増加させる。このスキルは発動後4回行動終了するまで再び発動しない。/ Lv2 さらにオートバトル・ボスバトルで発動した場合、もしくは9ターン目以降に発動した場合、攻撃力の増加量が50%になる。/ Lv3 『攻撃力増加』のターン数が4ターンになる。/ Ex2 幸せの魔法を強化する。『攻撃力増加』の対象が攻撃力が高い味方2体になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「シロの笑顔は魔法なんだもんっ！」笑顔で悲しみを覆い隠していた少女は、もうここにはいない。ターン開始時、2ターンの間攻撃力が最も高い味方の攻撃力を10%増加させる。このスキルは発動後4回行動終了するまで再び発動しない。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらにオートバトル・ボスバトルで発動した場合、もしくは9ターン目以降に発動した場合、攻撃力の増加量が50%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "『攻撃力増加』のターン数が4ターンになる。"
+        },
+        {
+          "label": "Ex2",
+          "text": "幸せの魔法を強化する。『攻撃力増加』の対象が攻撃力が高い味方2体になる。"
+        }
+      ]
+    },
+    {
+      "id": 153004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription1530041]",
+          "descriptions": {
+            "zh-CN": "小白那暖阳般的笑容鼓舞着同伴，为大家带来勇气与活力。行动开始时，小白使自己与攻击力最高的2名其他友军获得3种增益效果，每种增益效果使附带者增加防御力，增幅为小白防御力×50%，效果持续4回合。此技能须在结束4次行动后才可再次触发。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "陽だまりのような笑顔は味方を鼓舞し、勇気と活力をもたらす。自身の行動開始時、4ターンの間自身と自身以外の攻撃力が高い味方2体の防御力を自身の防御力×50%増加させるバフを3つ付与する。このスキルは発動後4回行動終了するまで再び発動しない。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription1530042]",
+          "descriptions": {
+            "zh-CN": "战斗开始时，小白额外减少25%自身承受伤害（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらにバトル開始時、自身の被ダメージが25%減少する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription1530043]",
+          "descriptions": {
+            "zh-CN": "承受伤害降幅提升为75%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "被ダメージの減少量が75%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 153004,
+        "IsIgnore": null,
+        "Memo": "シロSR:Lv1 陽だまりのような笑顔は味方を鼓舞し、勇気と活力をもたらす。自身の行動開始時、4ターンの間自身と自身以外の攻撃力が高い味方2体の防御力を自身の防御力×50%増加させるバフを3つ付与する。このスキルは発動後4回行動終了するまで再び発動しない。/ Lv2 さらにバトル開始時、自身の被ダメージが25%減少する（解除不可）。/ Lv3 被ダメージの減少量が75%になる。",
+        "NameKey": "[PassiveSkillName153004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription1530041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 32,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 153004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 32,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 153004002
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription1530042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 32,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 153004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 32,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 153004002
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 153004203
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription1530043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 32,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 153004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 32,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 153004002
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 153004303
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName153004]",
+      "names": {
+        "zh-CN": "发自内心的笑容"
+      },
+      "source_memo_ja": "シロSR:Lv1 陽だまりのような笑顔は味方を鼓舞し、勇気と活力をもたらす。自身の行動開始時、4ターンの間自身と自身以外の攻撃力が高い味方2体の防御力を自身の防御力×50%増加させるバフを3つ付与する。このスキルは発動後4回行動終了するまで再び発動しない。/ Lv2 さらにバトル開始時、自身の被ダメージが25%減少する（解除不可）。/ Lv3 被ダメージの減少量が75%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "陽だまりのような笑顔は味方を鼓舞し、勇気と活力をもたらす。自身の行動開始時、4ターンの間自身と自身以外の攻撃力が高い味方2体の防御力を自身の防御力×50%増加させるバフを3つ付与する。このスキルは発動後4回行動終了するまで再び発動しない。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらにバトル開始時、自身の被ダメージが25%減少する（解除不可）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "被ダメージの減少量が75%になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

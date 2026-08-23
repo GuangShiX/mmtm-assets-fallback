@@ -1,0 +1,1354 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 62001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription620011]",
+          "descriptions": {
+            "zh-CN": "熊熊烈焰随机对3名敌人造成攻击力×200%的魔法伤害。圣洁的火焰治愈同伴的伤势，并驱散邪恶的力量——使攻击力最高的2名友军恢复普莉希拉攻击力×50%的生命值，并为技能目标解除身上的1种弱化效果。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "吹き荒れる爆炎がランダムな敵3体に攻撃力×200%の魔法攻撃を行う。さらに聖なる炎が仲間を癒し、悪しき力を退ける――攻撃力が高い味方2体のHPを自身の攻撃力×50%回復し、対象の弱体効果を1つ解除する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription620012]",
+          "descriptions": {
+            "zh-CN": "使攻击力最高的2名友军额外增加40%弱化效果抵抗率，效果持续2回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに2ターンの間攻撃力が高い味方2体の弱体効果耐性率を40%増加させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription620013]",
+          "descriptions": {
+            "zh-CN": "解除的弱化效果增加为2种。当第一波攻击暴击1次以上时，解除的弱化效果增加为3种。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "弱体効果解除量が2つになる。さらに最初の魔法攻撃でクリティカルヒットが1回以上発生した場合、弱体効果解除量が3つになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription620014]",
+          "descriptions": {
+            "zh-CN": "强化圣焰灯火，生命值恢复与弱化效果解除目标增加为攻击力最高的3名友军。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "聖炎の灯火を強化する。HPを回復し弱体効果を解除する対象が攻撃力が高い味方3体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription620015]",
+          "descriptions": {
+            "zh-CN": "强化圣焰灯火，弱化效果抵抗率增幅提升为80%。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "聖炎の灯火を強化する。弱体効果耐性率の増加量が80%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription620011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              62001001,
+              62001002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription620012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              62001001,
+              62001202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription620013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              62001001,
+              62001302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription620014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              62001001,
+              62001402
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription620015]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              62001001,
+              62001502
+            ]
+          }
+        ],
+        "Id": 62001,
+        "IsIgnore": null,
+        "Memo": "プリシラSR:Lv1 吹き荒れる爆炎がランダムな敵3体に攻撃力×200%の魔法攻撃を行う。さらに聖なる炎が仲間を癒し、悪しき力を退ける――攻撃力が高い味方2体のHPを自身の攻撃力×50%回復し、対象の弱体効果を1つ解除する。/ Lv2 さらに2ターンの間攻撃力が高い味方2体の弱体効果耐性率を40%増加させる。/ Lv3 弱体効果解除量が2つになる。さらに最初の魔法攻撃でクリティカルヒットが1回以上発生した場合、弱体効果解除量が3つになる。/ Ex1 聖炎の灯火を強化する。HPを回復し弱体効果を解除する対象が攻撃力が高い味方3体になる。/ Ex2 聖炎の灯火を強化する。弱体効果耐性率の増加量が80%になる。",
+        "NameKey": "[ActiveSkillName62001]",
+        "RootActiveSkillId": 62001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName62001]",
+      "names": {
+        "zh-CN": "圣焰灯火"
+      },
+      "source_memo_ja": "プリシラSR:Lv1 吹き荒れる爆炎がランダムな敵3体に攻撃力×200%の魔法攻撃を行う。さらに聖なる炎が仲間を癒し、悪しき力を退ける――攻撃力が高い味方2体のHPを自身の攻撃力×50%回復し、対象の弱体効果を1つ解除する。/ Lv2 さらに2ターンの間攻撃力が高い味方2体の弱体効果耐性率を40%増加させる。/ Lv3 弱体効果解除量が2つになる。さらに最初の魔法攻撃でクリティカルヒットが1回以上発生した場合、弱体効果解除量が3つになる。/ Ex1 聖炎の灯火を強化する。HPを回復し弱体効果を解除する対象が攻撃力が高い味方3体になる。/ Ex2 聖炎の灯火を強化する。弱体効果耐性率の増加量が80%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "吹き荒れる爆炎がランダムな敵3体に攻撃力×200%の魔法攻撃を行う。さらに聖なる炎が仲間を癒し、悪しき力を退ける――攻撃力が高い味方2体のHPを自身の攻撃力×50%回復し、対象の弱体効果を1つ解除する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに2ターンの間攻撃力が高い味方2体の弱体効果耐性率を40%増加させる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "弱体効果解除量が2つになる。さらに最初の魔法攻撃でクリティカルヒットが1回以上発生した場合、弱体効果解除量が3つになる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "聖炎の灯火を強化する。HPを回復し弱体効果を解除する対象が攻撃力が高い味方3体になる。"
+        },
+        {
+          "label": "Ex2",
+          "text": "聖炎の灯火を強化する。弱体効果耐性率の増加量が80%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 62002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription620021]",
+          "descriptions": {
+            "zh-CN": "从天而降的光芒随机对3名敌人造成攻击力×200%的魔法伤害。璀璨的光雨治愈同伴的伤势——使生命值百分比最低的2名友军恢复普莉希拉攻击力×50%的生命值，并附加「再生」状态，效果持续1回合，每回合行动开始时恢复3%最大生命值。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "天から降り注ぐ光がランダムな敵3体に攻撃力×200%の魔法攻撃を行う。さらに光り輝く雨が仲間を癒す――HP割合が低い味方2体のHPを自身の攻撃力×50%回復し、1ターンの間対象に『再生』を付与する。毎ターン行動開始時に自身のHPを自身の最大HP×3%回復する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription620022]",
+          "descriptions": {
+            "zh-CN": "第一波攻击暴击1次以上时，使「再生」效果额外增加1回合。每次暴击再使「再生」效果增加1回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに最初の魔法攻撃でクリティカルヒットが1回以上発生した場合、『再生』のターン数が1ターン増加する。クリティカルヒットした回数1回につきターン数が1増加する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription620023]",
+          "descriptions": {
+            "zh-CN": "生命值恢复与「再生」状态的附加目标增加为生命值百分比最低的3名友军。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "HPを回復し『再生』を付与する対象がHP割合が低い味方3体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription620024]",
+          "descriptions": {
+            "zh-CN": "「再生」的恢复量提升为5%最大生命值。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "『再生』での回復量が自身の最大HP×5%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription620025]",
+          "descriptions": {
+            "zh-CN": "强化光明之雨，生命值恢复量提升为普莉希拉攻击力×100%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "シャイニングシャワーを強化する。HPの回復量が自身の攻撃力×100%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription620021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              62002001,
+              62002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription620022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              62002001,
+              62002202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription620023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              62002001,
+              62002302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription620024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              62002001,
+              62002402
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription620025]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              62002001,
+              62002502
+            ]
+          }
+        ],
+        "Id": 62002,
+        "IsIgnore": null,
+        "Memo": "プリシラSR:Lv1 天から降り注ぐ光がランダムな敵3体に攻撃力×200%の魔法攻撃を行う。さらに光り輝く雨が仲間を癒す――HP割合が低い味方2体のHPを自身の攻撃力×50%回復し、1ターンの間対象に『再生』を付与する。毎ターン行動開始時に自身のHPを自身の最大HP×3%回復する。/ Lv2 さらに最初の魔法攻撃でクリティカルヒットが1回以上発生した場合、『再生』のターン数が1ターン増加する。クリティカルヒットした回数1回につきターン数が1増加する。/ Lv3 HPを回復し『再生』を付与する対象がHP割合が低い味方3体になる。/ Lv4 『再生』での回復量が自身の最大HP×5%になる。/ Ex3 シャイニングシャワーを強化する。HPの回復量が自身の攻撃力×100%になる。",
+        "NameKey": "[ActiveSkillName62002]",
+        "RootActiveSkillId": 62002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName62002]",
+      "names": {
+        "zh-CN": "光明之雨"
+      },
+      "source_memo_ja": "プリシラSR:Lv1 天から降り注ぐ光がランダムな敵3体に攻撃力×200%の魔法攻撃を行う。さらに光り輝く雨が仲間を癒す――HP割合が低い味方2体のHPを自身の攻撃力×50%回復し、1ターンの間対象に『再生』を付与する。毎ターン行動開始時に自身のHPを自身の最大HP×3%回復する。/ Lv2 さらに最初の魔法攻撃でクリティカルヒットが1回以上発生した場合、『再生』のターン数が1ターン増加する。クリティカルヒットした回数1回につきターン数が1増加する。/ Lv3 HPを回復し『再生』を付与する対象がHP割合が低い味方3体になる。/ Lv4 『再生』での回復量が自身の最大HP×5%になる。/ Ex3 シャイニングシャワーを強化する。HPの回復量が自身の攻撃力×100%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "天から降り注ぐ光がランダムな敵3体に攻撃力×200%の魔法攻撃を行う。さらに光り輝く雨が仲間を癒す――HP割合が低い味方2体のHPを自身の攻撃力×50%回復し、1ターンの間対象に『再生』を付与する。毎ターン行動開始時に自身のHPを自身の最大HP×3%回復する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに最初の魔法攻撃でクリティカルヒットが1回以上発生した場合、『再生』のターン数が1ターン増加する。クリティカルヒットした回数1回につきターン数が1増加する。"
+        },
+        {
+          "label": "Lv3",
+          "text": "HPを回復し『再生』を付与する対象がHP割合が低い味方3体になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "『再生』での回復量が自身の最大HP×5%になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "シャイニングシャワーを強化する。HPの回復量が自身の攻撃力×100%になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 28,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 20.0,
+              "value_text": "+20×角色等级"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 20.0
+              }
+            ],
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 28,
+            "CollectionLevel": 1,
+            "Id": 2801,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "コロナボレアリスの約束(プリシラ,リーン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 15.0,
+              "value_text": "+15×角色等级"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 15.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 28,
+            "CollectionLevel": 2,
+            "Id": 2802,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "コロナボレアリスの約束(プリシラ,リーン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 15.0,
+              "value_text": "+15×角色等级"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 15.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 28,
+            "CollectionLevel": 3,
+            "Id": 2803,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "コロナボレアリスの約束(プリシラ,リーン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 15.0,
+              "value_text": "+15×角色等级"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 15.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 28,
+            "CollectionLevel": 4,
+            "Id": 2804,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "コロナボレアリスの約束(プリシラ,リーン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 41.0,
+              "value_text": "+41×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 16.0,
+              "value_text": "+16×角色等级"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 41.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 16.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 28,
+            "CollectionLevel": 5,
+            "Id": 2805,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "コロナボレアリスの約束(プリシラ,リーン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 42.0,
+              "value_text": "+42×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 17.0,
+              "value_text": "+17×角色等级"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 42.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 17.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 28,
+            "CollectionLevel": 6,
+            "Id": 2806,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "コロナボレアリスの約束(プリシラ,リーン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 43.0,
+              "value_text": "+43×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 18.0,
+              "value_text": "+18×角色等级"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 43.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 18.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 28,
+            "CollectionLevel": 7,
+            "Id": 2807,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "コロナボレアリスの約束(プリシラ,リーン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 44.0,
+              "value_text": "+44×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 19.0,
+              "value_text": "+19×角色等级"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 44.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 19.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 28,
+            "CollectionLevel": 8,
+            "Id": 2808,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "コロナボレアリスの約束(プリシラ,リーン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 45.0,
+              "value_text": "+45×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 20.0,
+              "value_text": "+20×角色等级"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 45.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 20.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 28,
+            "CollectionLevel": 9,
+            "Id": 2809,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "コロナボレアリスの約束(プリシラ,リーン)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 28,
+        "IsIgnore": null,
+        "Memo": "コロナボレアリスの約束(プリシラ,リーン)",
+        "NameKey": "[CharacterCollectionName28]",
+        "RequiredCharacterIds": [
+          62,
+          18
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2023-09-29 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName28]",
+      "names": {
+        "zh-CN": "北冕座的约定"
+      },
+      "required_character_ids": [
+        62,
+        18
+      ],
+      "required_characters": [
+        {
+          "id": 62,
+          "names": {
+            "zh-CN": "普莉希拉"
+          }
+        },
+        {
+          "id": 18,
+          "names": {
+            "zh-CN": "琳恩"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2023-09-29 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 2,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 62,
+    "job_flags": 4,
+    "master_record": {
+      "ActiveSkillIds": [
+        62001,
+        62002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 79,
+        "Health": 86,
+        "Intelligence": 92,
+        "Muscle": 78
+      },
+      "BaseParameterGrossCoefficient": 335,
+      "CharacterType": 0,
+      "ElementType": 2,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 62,
+      "InitialBattleParameter": {
+        "AttackPower": -3,
+        "Avoidance": 1,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 10,
+        "DefensePenetration": 0,
+        "HP": -1,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 3,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 3167
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 4,
+      "Memo": "プリシラ",
+      "Name2Key": null,
+      "NameKey": "[CharacterName62]",
+      "NormalSkillId": 102,
+      "PassiveSkillIds": [
+        62003,
+        62004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2023-09-29 15:00:00"
+    },
+    "memo": "プリシラ",
+    "name_key": "[CharacterName62]",
+    "names": {
+      "zh-CN": "普莉希拉"
+    },
+    "speed": 3167,
+    "start_time_jst": "2023-09-29 15:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 621130240,
+    "exclusive_effect_id": 282,
+    "icon_id": 476,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 621130250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 79,
+        "EquipmentEvolutionId": 89,
+        "EquipmentExclusiveSkillDescriptionId": 47,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 4,
+        "ExclusiveEffectId": 282,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 476,
+        "Id": 621130240,
+        "IsIgnore": null,
+        "Memo": "プリシラLR240_書",
+        "NameKey": "[EquipmentName471]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": null,
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 7,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          },
+          {
+            "BattleParameterType": 1,
+            "ChangeParameterType": 2,
+            "Value": 2200.0
+          }
+        ],
+        "CharacterId": 62,
+        "Id": 282,
+        "IsIgnore": null,
+        "Memo": "プリシラLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill62Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill62Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill62Description3]",
+        "Id": 47,
+        "IsIgnore": null,
+        "Memo": "プリシラ魔導書"
+      }
+    },
+    "name_key": "[EquipmentName471]",
+    "names": {
+      "zh-CN": "长发姑娘"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Critical",
+        "parameter_type": 7,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Hp",
+        "parameter_type": 1,
+        "raw_value": 2200.0,
+        "value_text": "+22%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill62Description1]",
+        "descriptions": {
+          "zh-CN": "强化圣焰灯火，生命值恢复与弱化效果解除目标增加为攻击力最高的3名友军。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill62Description2]",
+        "descriptions": {
+          "zh-CN": "强化圣焰灯火，弱化效果抵抗率增幅提升为80%。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill62Description3]",
+        "descriptions": {
+          "zh-CN": "强化光明之雨，生命值恢复量提升为普莉希拉攻击力×100%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 62003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription620031]",
+          "descriptions": {
+            "zh-CN": "普莉希拉始终相信琳恩一定会来救她——使自己增加25%最大生命值与50%魔法防御力（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "きっと助けにきてくれるって信じてた――自身の最大HPが25%、魔法防御力が50％増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription620032]",
+          "descriptions": {
+            "zh-CN": "使自己额外增加20%暴击率（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに自身のクリティカル率が20%増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription620033]",
+          "descriptions": {
+            "zh-CN": "最大生命值增幅提升为50%，魔法防御力增幅提升为100%，暴击率增幅提升为40%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "最大HPの増加量が50%、魔法防御力の増加量が100%、クリティカル率の増加量が40%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 62003,
+        "IsIgnore": null,
+        "Memo": "プリシラSR:Lv1 きっと助けにきてくれるって信じてた――自身の最大HPが25%、魔法防御力が50％増加する（解除不可）。/ Lv2 さらに自身のクリティカル率が20%増加する（解除不可）。/ Lv3 最大HPの増加量が50%、魔法防御力の増加量が100%、クリティカル率の増加量が40%になる。",
+        "NameKey": "[PassiveSkillName62003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription620031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 62003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription620032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 62003201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription620033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 62003301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName62003]",
+      "names": {
+        "zh-CN": "兑现的承诺"
+      },
+      "source_memo_ja": "プリシラSR:Lv1 きっと助けにきてくれるって信じてた――自身の最大HPが25%、魔法防御力が50％増加する（解除不可）。/ Lv2 さらに自身のクリティカル率が20%増加する（解除不可）。/ Lv3 最大HPの増加量が50%、魔法防御力の増加量が100%、クリティカル率の増加量が40%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "きっと助けにきてくれるって信じてた――自身の最大HPが25%、魔法防御力が50％増加する（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに自身のクリティカル率が20%増加する（解除不可）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "最大HPの増加量が50%、魔法防御力の増加量が100%、クリティカル率の増加量が40%になる。"
+        }
+      ]
+    },
+    {
+      "id": 62004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription620041]",
+          "descriptions": {
+            "zh-CN": "长期忍受孤独的心化为普莉希拉保护自己的力量——战斗开始时，使自己增加50%防御力，效果持续3回合（无法被解除）。当普莉希拉被附加主动技能造成的弱化效果时，消耗1回合自己附加的「防御力上升」效果，使身上的所有弱化效果减少2回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "孤独に耐え続けた心が自身を守る力となる――バトル開始時3ターンの間自身の防御力が50%増加する（解除不可）。自身がアクティブスキルで弱体効果を受けたとき、自身が付与した『防御力増加』のターン数を1ターン消費し、自身の全ての弱体効果のターン数が2ターン減少する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription620042]",
+          "descriptions": {
+            "zh-CN": "当普莉希拉被附加主动技能造成的弱化效果，消耗1回合自己附加的「防御力上升」效果时，使生命值百分比最低的友军额外恢复普莉希拉攻击力×50%的生命值。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "自身がアクティブスキルで弱体効果を受けて、『防御力増加』のターン数を消費したとき、さらにHP割合が最も低い味方のHPを自身の攻撃力×50％回復するようになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription620043]",
+          "descriptions": {
+            "zh-CN": "「防御力上升」效果增加为5回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "『防御力増加』のターン数が5ターンになる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 62004,
+        "IsIgnore": null,
+        "Memo": "プリシラSR:Lv1 孤独に耐え続けた心が自身を守る力となる――バトル開始時3ターンの間自身の防御力が50%増加する（解除不可）。自身がアクティブスキルで弱体効果を受けたとき、自身が付与した『防御力増加』のターン数を1ターン消費し、自身の全ての弱体効果のターン数が2ターン減少する。/ Lv2 自身がアクティブスキルで弱体効果を受けて、『防御力増加』のターン数を消費したとき、さらにHP割合が最も低い味方のHPを自身の攻撃力×50％回復するようになる。/ Lv3 『防御力増加』のターン数が5ターンになる。",
+        "NameKey": "[PassiveSkillName62004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription620041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 62004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 11,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 62004002
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription620042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 62004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 11,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 62004202
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 11,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 62004203
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 11,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 62004204
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription620043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 62004301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 11,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 62004302
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 11,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 62004203
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 11,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 62004204
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName62004]",
+      "names": {
+        "zh-CN": "受困牢笼的女孩"
+      },
+      "source_memo_ja": "プリシラSR:Lv1 孤独に耐え続けた心が自身を守る力となる――バトル開始時3ターンの間自身の防御力が50%増加する（解除不可）。自身がアクティブスキルで弱体効果を受けたとき、自身が付与した『防御力増加』のターン数を1ターン消費し、自身の全ての弱体効果のターン数が2ターン減少する。/ Lv2 自身がアクティブスキルで弱体効果を受けて、『防御力増加』のターン数を消費したとき、さらにHP割合が最も低い味方のHPを自身の攻撃力×50％回復するようになる。/ Lv3 『防御力増加』のターン数が5ターンになる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "孤独に耐え続けた心が自身を守る力となる――バトル開始時3ターンの間自身の防御力が50%増加する（解除不可）。自身がアクティブスキルで弱体効果を受けたとき、自身が付与した『防御力増加』のターン数を1ターン消費し、自身の全ての弱体効果のターン数が2ターン減少する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "自身がアクティブスキルで弱体効果を受けて、『防御力増加』のターン数を消費したとき、さらにHP割合が最も低い味方のHPを自身の攻撃力×50％回復するようになる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "『防御力増加』のターン数が5ターンになる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

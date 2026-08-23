@@ -1,0 +1,1357 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 140001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription1400011]",
+          "descriptions": {
+            "zh-CN": "直抵魂魄的甜美低语引导灵魂走向疯狂，伊莱恩随机对3名敌人造成攻击力×220%的物理伤害，40%概率使技能目标减少15%弱化效果命中率，效果持续4回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "魂にささやく美しい声が霊魂を狂わせる。ランダムな敵3体に攻撃力×220%の物理攻撃を行い、40%の確率で4ターンの間対象の弱体効果命中率を15%減少させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription1400012]",
+          "descriptions": {
+            "zh-CN": "附加「弱化效果命中率下降」状态的概率提升为70%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "『弱体効果命中率減少』を付与する確率が70%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1400013]",
+          "descriptions": {
+            "zh-CN": "弱化效果命中率降幅提升为30%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "弱体効果命中率の減少量が30%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1400014]",
+          "descriptions": {
+            "zh-CN": "强化灵魂低语，技能目标增加为5名随机敌人。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "ソウルウィスパーを強化する。ソウルウィスパーの対象がランダムな敵5体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription1400015]",
+          "descriptions": {
+            "zh-CN": "强化灵魂低语，造成的物理伤害提升为攻击力×240%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "ソウルウィスパーを強化する。物理攻撃のダメージが攻撃力×240%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription1400011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              140001001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription1400012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              140001201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1400013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              140001301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1400014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              140001401
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription1400015]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              140001501
+            ]
+          }
+        ],
+        "Id": 140001,
+        "IsIgnore": null,
+        "Memo": "エレインSR:Lv1 魂にささやく美しい声が霊魂を狂わせる。ランダムな敵3体に攻撃力×220%の物理攻撃を行い、40%の確率で4ターンの間対象の弱体効果命中率を15%減少させる。/ Lv2 『弱体効果命中率減少』を付与する確率が70%になる。/ Lv3 弱体効果命中率の減少量が30%になる。/ Ex1 ソウルウィスパーを強化する。ソウルウィスパーの対象がランダムな敵5体になる。/ Ex3 ソウルウィスパーを強化する。物理攻撃のダメージが攻撃力×240%になる。",
+        "NameKey": "[ActiveSkillName140001]",
+        "RootActiveSkillId": 140001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName140001]",
+      "names": {
+        "zh-CN": "灵魂低语"
+      },
+      "source_memo_ja": "エレインSR:Lv1 魂にささやく美しい声が霊魂を狂わせる。ランダムな敵3体に攻撃力×220%の物理攻撃を行い、40%の確率で4ターンの間対象の弱体効果命中率を15%減少させる。/ Lv2 『弱体効果命中率減少』を付与する確率が70%になる。/ Lv3 弱体効果命中率の減少量が30%になる。/ Ex1 ソウルウィスパーを強化する。ソウルウィスパーの対象がランダムな敵5体になる。/ Ex3 ソウルウィスパーを強化する。物理攻撃のダメージが攻撃力×240%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "魂にささやく美しい声が霊魂を狂わせる。ランダムな敵3体に攻撃力×220%の物理攻撃を行い、40%の確率で4ターンの間対象の弱体効果命中率を15%減少させる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "『弱体効果命中率減少』を付与する確率が70%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "弱体効果命中率の減少量が30%になる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "ソウルウィスパーを強化する。ソウルウィスパーの対象がランダムな敵5体になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "ソウルウィスパーを強化する。物理攻撃のダメージが攻撃力×240%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 140002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription1400021]",
+          "descriptions": {
+            "zh-CN": "灵魂是人类的本质，灵魂的消灭等同于存在的消灭——伊莱恩随机对2名敌人造成攻击力×720%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "魂とは人の本質であり、魂の喪失は存在の喪失に等しい。ランダムな敵2体に攻撃力×720%の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription1400022]",
+          "descriptions": {
+            "zh-CN": "技能目标增加为3名随机敌人。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "このスキルの対象がランダムな敵3体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription1400023]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×1320%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃のダメージが攻撃力×1320%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription1400024]",
+          "descriptions": {
+            "zh-CN": "当伊莱恩身上附带「灵痕」状态时，造成的物理伤害提升为攻击力×1980%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "さらに物理攻撃の前に自身が『霊痕』を付帯している場合、物理攻撃のダメージが攻撃力×1980%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription1400021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              140002001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription1400022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              140002201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription1400023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              140002301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription1400024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              140002401
+            ]
+          }
+        ],
+        "Id": 140002,
+        "IsIgnore": null,
+        "Memo": "エレインSR:Lv1 魂とは人の本質であり、魂の喪失は存在の喪失に等しい。ランダムな敵2体に攻撃力×720%の物理攻撃を行う。/ Lv2 このスキルの対象がランダムな敵3体になる。/ Lv3 物理攻撃のダメージが攻撃力×1320%になる。/ Lv4 さらに物理攻撃の前に自身が『霊痕』を付帯している場合、物理攻撃のダメージが攻撃力×1980%になる。",
+        "NameKey": "[ActiveSkillName140002]",
+        "RootActiveSkillId": 140002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName140002]",
+      "names": {
+        "zh-CN": "剥魂"
+      },
+      "source_memo_ja": "エレインSR:Lv1 魂とは人の本質であり、魂の喪失は存在の喪失に等しい。ランダムな敵2体に攻撃力×720%の物理攻撃を行う。/ Lv2 このスキルの対象がランダムな敵3体になる。/ Lv3 物理攻撃のダメージが攻撃力×1320%になる。/ Lv4 さらに物理攻撃の前に自身が『霊痕』を付帯している場合、物理攻撃のダメージが攻撃力×1980%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "魂とは人の本質であり、魂の喪失は存在の喪失に等しい。ランダムな敵2体に攻撃力×720%の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "このスキルの対象がランダムな敵3体になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃のダメージが攻撃力×1320%になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "さらに物理攻撃の前に自身が『霊痕』を付帯している場合、物理攻撃のダメージが攻撃力×1980%になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 96,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 100.0,
+              "value_text": "+100"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 96,
+            "CollectionLevel": 1,
+            "Id": 9601,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アカマルの反魂(グィネヴィア,エレイン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 250.0,
+              "value_text": "+250"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 250.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 96,
+            "CollectionLevel": 2,
+            "Id": 9602,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アカマルの反魂(グィネヴィア,エレイン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 250.0,
+              "value_text": "+250"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 250.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 96,
+            "CollectionLevel": 3,
+            "Id": 9603,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アカマルの反魂(グィネヴィア,エレイン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 250.0,
+              "value_text": "+250"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 250.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 96,
+            "CollectionLevel": 4,
+            "Id": 9604,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アカマルの反魂(グィネヴィア,エレイン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 255.0,
+              "value_text": "+255"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 160.0,
+              "value_text": "+1.6%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 255.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 2,
+                "Value": 160.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 96,
+            "CollectionLevel": 5,
+            "Id": 9605,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アカマルの反魂(グィネヴィア,エレイン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 260.0,
+              "value_text": "+260"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 170.0,
+              "value_text": "+1.7%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 260.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 2,
+                "Value": 170.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 96,
+            "CollectionLevel": 6,
+            "Id": 9606,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アカマルの反魂(グィネヴィア,エレイン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 265.0,
+              "value_text": "+265"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 180.0,
+              "value_text": "+1.8%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 265.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 2,
+                "Value": 180.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 96,
+            "CollectionLevel": 7,
+            "Id": 9607,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アカマルの反魂(グィネヴィア,エレイン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 270.0,
+              "value_text": "+270"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 190.0,
+              "value_text": "+1.9%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 270.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 2,
+                "Value": 190.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 96,
+            "CollectionLevel": 8,
+            "Id": 9608,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アカマルの反魂(グィネヴィア,エレイン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 275.0,
+              "value_text": "+275"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 275.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 96,
+            "CollectionLevel": 9,
+            "Id": 9609,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アカマルの反魂(グィネヴィア,エレイン)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 96,
+        "IsIgnore": null,
+        "Memo": "アカマルの反魂(グィネヴィア,エレイン)",
+        "NameKey": "[CharacterCollectionName96]",
+        "RequiredCharacterIds": [
+          148,
+          140
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2026-06-15 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName96]",
+      "names": {
+        "zh-CN": "河端星的还魂"
+      },
+      "required_character_ids": [
+        148,
+        140
+      ],
+      "required_characters": [
+        {
+          "id": 148,
+          "names": {
+            "zh-CN": "桂妮维亚"
+          }
+        },
+        {
+          "id": 140,
+          "names": {
+            "zh-CN": "伊莱恩"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2026-06-15 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 1,
+    "element_type": 6,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 140,
+    "job_flags": 2,
+    "master_record": {
+      "ActiveSkillIds": [
+        140001,
+        140002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 91,
+        "Health": 93,
+        "Intelligence": 80,
+        "Muscle": 79
+      },
+      "BaseParameterGrossCoefficient": 343,
+      "CharacterType": 1,
+      "ElementType": 6,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 140,
+      "InitialBattleParameter": {
+        "AttackPower": -5,
+        "Avoidance": 4,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 10,
+        "DefensePenetration": 0,
+        "HP": 0,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 1,
+        "Speed": 2843
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 2,
+      "Memo": "エレイン",
+      "Name2Key": "[CharacterSubName140]",
+      "NameKey": "[CharacterName140]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        140003,
+        140004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2026-06-30 15:00:00"
+    },
+    "memo": "エレイン",
+    "name_key": "[CharacterName140]",
+    "names": {
+      "zh-CN": "伊莱恩"
+    },
+    "speed": 2843,
+    "start_time_jst": "2026-06-30 15:00:00",
+    "subtitle_key": "[CharacterSubName140]",
+    "subtitles": {
+      "zh-CN": "灵魂魔女"
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 1401120240,
+    "exclusive_effect_id": 690,
+    "icon_id": 944,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 1401120250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 147,
+        "EquipmentEvolutionId": 157,
+        "EquipmentExclusiveSkillDescriptionId": 115,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 2,
+        "ExclusiveEffectId": 690,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 944,
+        "Id": 1401120240,
+        "IsIgnore": null,
+        "Memo": "エレインLR240_銃",
+        "NameKey": "[EquipmentName939]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": [
+          {
+            "BaseParameterType": 4,
+            "ChangeParameterType": 2,
+            "Value": 800.0
+          }
+        ],
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 11,
+            "ChangeParameterType": 1,
+            "Value": 3500.0
+          }
+        ],
+        "CharacterId": 140,
+        "Id": 690,
+        "IsIgnore": null,
+        "Memo": "エレインLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill140Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill140Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill140Description3]",
+        "Id": 115,
+        "IsIgnore": null,
+        "Memo": "エレイン銃"
+      }
+    },
+    "name_key": "[EquipmentName939]",
+    "names": {
+      "zh-CN": "魂瓮"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "base",
+        "parameter_code": "Health",
+        "parameter_type": 4,
+        "raw_value": 800.0,
+        "value_text": "+8%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 1,
+        "kind": "battle",
+        "parameter_code": "MagicCriticalDamageRelax",
+        "parameter_type": 11,
+        "raw_value": 3500.0,
+        "value_text": "+3,500"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill140Description1]",
+        "descriptions": {
+          "zh-CN": "强化灵魂低语，技能目标增加为5名随机敌人。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill140Description2]",
+        "descriptions": {
+          "zh-CN": "强化灵魂魔女，防御力增幅提升为80%，魔法防御力增幅提升为40%，魔法暴击伤害降低的增幅提升为20%。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill140Description3]",
+        "descriptions": {
+          "zh-CN": "强化灵魂低语，造成的物理伤害提升为攻击力×240%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 140003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription1400031]",
+          "descriptions": {
+            "zh-CN": "神圣的祈祷过去能够治愈因诅咒而溃烂的身体，如今已变调为亵渎灵魂的魔女执念。当伊莱恩或友军受到攻击，生命值降到30%以下且存活在场上时，如果目标身上没有「灵痕」状态，伊莱恩解除目标身上的2种弱化效果，使目标恢复伊莱恩攻击力×100%的生命值，并附加「灵痕」状态（无法被解除）。当攻击使伊莱恩失去战斗能力时，无法触发受到攻击时的弱化效果解除与生命值恢复。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "かつては呪いに爛れた身体さえ治した聖なる祈りは、今や魂を冒涜する魔女の願いへと変貌した。自身か味方が攻撃を受けて、HP割合が30%以下で生存していて、かつその味方が『霊痕』を付帯していない場合、その味方の弱体効果を2つ解除し、その味方のHPを自身の攻撃力×100%回復し、その味方に『霊痕』を付与する（解除不可）。このスキルの弱体効果を解除してHPを回復する効果は、攻撃で自身が戦闘不能になった場合発動しない。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription1400032]",
+          "descriptions": {
+            "zh-CN": "当伊莱恩受到魔法攻击时，额外解除附带「灵痕」状态的友军身上的1种弱化效果。第7回合起触发此技能或攻击使伊莱恩失去战斗能力时，无法触发受到魔法攻击时的弱化效果解除。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに自身が魔法攻撃を受けたとき、『霊痕』を付帯している味方全体の弱体効果を1つ解除する。このスキルの魔法攻撃を受けたとき弱体効果を解除する効果は、7ターン目以降もしくは攻撃で自身が戦闘不能になった場合発動しない。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription1400033]",
+          "descriptions": {
+            "zh-CN": "生命值恢复量提升为伊莱恩攻击力×400%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "HPの回復量が自身の攻撃力×400%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 140003,
+        "IsIgnore": null,
+        "Memo": "エレインSR:Lv1 かつては呪いに爛れた身体さえ治した聖なる祈りは、今や魂を冒涜する魔女の願いへと変貌した。自身か味方が攻撃を受けて、HP割合が30%以下で生存していて、かつその味方が『霊痕』を付帯していない場合、その味方の弱体効果を2つ解除し、その味方のHPを自身の攻撃力×100%回復し、その味方に『霊痕』を付与する（解除不可）。このスキルの弱体効果を解除してHPを回復する効果は、攻撃で自身が戦闘不能になった場合発動しない。/ Lv2 さらに自身が魔法攻撃を受けたとき、『霊痕』を付帯している味方全体の弱体効果を1つ解除する。このスキルの魔法攻撃を受けたとき弱体効果を解除する効果は、7ターン目以降もしくは攻撃で自身が戦闘不能になった場合発動しない。/ Lv3 HPの回復量が自身の攻撃力×400%になる。",
+        "NameKey": "[PassiveSkillName140003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription1400031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 140003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 48,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 140003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription1400032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 140003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 48,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 140003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 140003202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription1400033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 140003301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 48,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 140003301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 140003202
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName140003]",
+      "names": {
+        "zh-CN": "堕落的天使神官"
+      },
+      "source_memo_ja": "エレインSR:Lv1 かつては呪いに爛れた身体さえ治した聖なる祈りは、今や魂を冒涜する魔女の願いへと変貌した。自身か味方が攻撃を受けて、HP割合が30%以下で生存していて、かつその味方が『霊痕』を付帯していない場合、その味方の弱体効果を2つ解除し、その味方のHPを自身の攻撃力×100%回復し、その味方に『霊痕』を付与する（解除不可）。このスキルの弱体効果を解除してHPを回復する効果は、攻撃で自身が戦闘不能になった場合発動しない。/ Lv2 さらに自身が魔法攻撃を受けたとき、『霊痕』を付帯している味方全体の弱体効果を1つ解除する。このスキルの魔法攻撃を受けたとき弱体効果を解除する効果は、7ターン目以降もしくは攻撃で自身が戦闘不能になった場合発動しない。/ Lv3 HPの回復量が自身の攻撃力×400%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "かつては呪いに爛れた身体さえ治した聖なる祈りは、今や魂を冒涜する魔女の願いへと変貌した。自身か味方が攻撃を受けて、HP割合が30%以下で生存していて、かつその味方が『霊痕』を付帯していない場合、その味方の弱体効果を2つ解除し、その味方のHPを自身の攻撃力×100%回復し、その味方に『霊痕』を付与する（解除不可）。このスキルの弱体効果を解除してHPを回復する効果は、攻撃で自身が戦闘不能になった場合発動しない。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに自身が魔法攻撃を受けたとき、『霊痕』を付帯している味方全体の弱体効果を1つ解除する。このスキルの魔法攻撃を受けたとき弱体効果を解除する効果は、7ターン目以降もしくは攻撃で自身が戦闘不能になった場合発動しない。"
+        },
+        {
+          "label": "Lv3",
+          "text": "HPの回復量が自身の攻撃力×400%になる。"
+        }
+      ]
+    },
+    {
+      "id": 140004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription1400041]",
+          "descriptions": {
+            "zh-CN": "她将希望寄托于一个不可能实现的愿望，最终化身为可悲的灵魂魔女——战斗开始时，伊莱恩使自己与攻击力最高的其他友军增加10%防御力、魔法防御力与魔法暴击伤害降低，效果持续6回合（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "叶うはずのない願いに縋り、少女は霊魂の魔女に成り果てた。バトル開始時、6ターンの間自身と自身以外の攻撃力が最も高い味方の防御力と魔法防御力と魔法クリダメ緩和をそれぞれ10%増加させる（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription1400042]",
+          "descriptions": {
+            "zh-CN": "战斗开始时，伊莱恩额外减少10%自身承受伤害（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらにバトル開始時、自身の被ダメージが10%減少する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription1400043]",
+          "descriptions": {
+            "zh-CN": "承受伤害降幅提升为60%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "被ダメージの減少量が60%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription1400044]",
+          "descriptions": {
+            "zh-CN": "强化灵魂魔女，防御力增幅提升为80%，魔法防御力增幅提升为40%，魔法暴击伤害降低的增幅提升为20%。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "霊魂の魔女を強化する。防御力の増加量が80%、魔法防御力の増加量が40%、魔法クリダメ緩和が20%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 140004,
+        "IsIgnore": null,
+        "Memo": "エレインSR:Lv1 叶うはずのない願いに縋り、少女は霊魂の魔女に成り果てた。バトル開始時、6ターンの間自身と自身以外の攻撃力が最も高い味方の防御力と魔法防御力と魔法クリダメ緩和をそれぞれ10%増加させる（解除不可）。/ Lv2 さらにバトル開始時、自身の被ダメージが10%減少する（解除不可）。/ Lv3 被ダメージの減少量が60%になる。/ Ex2 霊魂の魔女を強化する。防御力の増加量が80%、魔法防御力の増加量が40%、魔法クリダメ緩和が20%になる。",
+        "NameKey": "[PassiveSkillName140004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription1400041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 140004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 140004002
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription1400042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 140004201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 140004002
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription1400043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 140004301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 140004002
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription1400044]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 140004401
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 140004402
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName140004]",
+      "names": {
+        "zh-CN": "灵魂魔女"
+      },
+      "source_memo_ja": "エレインSR:Lv1 叶うはずのない願いに縋り、少女は霊魂の魔女に成り果てた。バトル開始時、6ターンの間自身と自身以外の攻撃力が最も高い味方の防御力と魔法防御力と魔法クリダメ緩和をそれぞれ10%増加させる（解除不可）。/ Lv2 さらにバトル開始時、自身の被ダメージが10%減少する（解除不可）。/ Lv3 被ダメージの減少量が60%になる。/ Ex2 霊魂の魔女を強化する。防御力の増加量が80%、魔法防御力の増加量が40%、魔法クリダメ緩和が20%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "叶うはずのない願いに縋り、少女は霊魂の魔女に成り果てた。バトル開始時、6ターンの間自身と自身以外の攻撃力が最も高い味方の防御力と魔法防御力と魔法クリダメ緩和をそれぞれ10%増加させる（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらにバトル開始時、自身の被ダメージが10%減少する（解除不可）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "被ダメージの減少量が60%になる。"
+        },
+        {
+          "label": "Ex2",
+          "text": "霊魂の魔女を強化する。防御力の増加量が80%、魔法防御力の増加量が40%、魔法クリダメ緩和が20%になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

@@ -1,0 +1,1302 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 74001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription740011]",
+          "descriptions": {
+            "zh-CN": "“我要出招咯——！”托波波从连接不同时空的神奇洞穴中发射星星，星星落在敌人身上，吸收当前生命值最高的敌人15%攻击力与15%防御力，效果持续2回合（弱化效果命中与否分别进行判定）。这是圣夜的奇迹？还是一场恶作剧？再对技能目标造成目标当前生命值×10%的直接伤害（无法暴击，伤害量无法超过托波波当前攻击力×500%）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「やっちゃうぞー！」時空を繋ぐ穴から飛び出した星が敵に降り注ぎ、現在HPが最も高い敵の攻撃力と防御力をそれぞれ15％吸収し、2ターンの間自身に加える（弱体効果命中の判定はそれぞれ別で行われる）。それは聖なる夜の奇跡か、トリックか――その後対象に対象の現在HP×10％の直接攻撃を行う。この直接攻撃はクリティカルヒットせず、直接攻撃のダメージは吸収後の自身の攻撃力×500%を超えない。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription740012]",
+          "descriptions": {
+            "zh-CN": "造成的直接伤害提升为技能目标当前生命值×15%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "直接攻撃のダメージが対象の現在HP×15％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription740013]",
+          "descriptions": {
+            "zh-CN": "托波波额外获得技能总伤害×50%的「护盾」，效果持续2回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらに自身に2ターンの間このスキルの総与ダメージ×50％の『シールド』を付与する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription740014]",
+          "descriptions": {
+            "zh-CN": "强化奇迹星星，攻击力与防御力吸收量提升为35%。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "ミラクルスターを強化する。攻撃力と防御力の吸収量がそれぞれ35％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription740015]",
+          "descriptions": {
+            "zh-CN": "强化奇迹星星，造成的直接伤害提升为技能目标当前生命值×20%。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "ミラクルスターを強化する。直接攻撃のダメージが対象の現在HP×20％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription740016]",
+          "descriptions": {
+            "zh-CN": "强化奇迹星星，「护盾」值提升为技能总伤害×100%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 6,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "ミラクルスターを強化する。『シールド』の大きさがこのスキルの総与ダメージ×100％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription740011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              74001001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription740012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              74001201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription740013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              74001201,
+              74001302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription740014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              74001401,
+              74001302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription740015]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              74001501,
+              74001302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription740016]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 6,
+            "SubSetSkillIds": [
+              74001501,
+              74001602
+            ]
+          }
+        ],
+        "Id": 74001,
+        "IsIgnore": null,
+        "Memo": "聖夜トロポンSR:Lv1 「やっちゃうぞー！」時空を繋ぐ穴から飛び出した星が敵に降り注ぎ、現在HPが最も高い敵の攻撃力と防御力をそれぞれ15％吸収し、2ターンの間自身に加える（弱体効果命中の判定はそれぞれ別で行われる）。それは聖なる夜の奇跡か、トリックか――その後対象に対象の現在HP×10％の直接攻撃を行う。この直接攻撃はクリティカルヒットせず、直接攻撃のダメージは吸収後の自身の攻撃力×500%を超えない。/ Lv2 直接攻撃のダメージが対象の現在HP×15％になる。/ Lv3 さらに自身に2ターンの間このスキルの総与ダメージ×50％の『シールド』を付与する。/ Ex1 ミラクルスターを強化する。攻撃力と防御力の吸収量がそれぞれ35％になる。/ Ex2 ミラクルスターを強化する。直接攻撃のダメージが対象の現在HP×20％になる。/ Ex3 ミラクルスターを強化する。『シールド』の大きさがこのスキルの総与ダメージ×100％になる。",
+        "NameKey": "[ActiveSkillName74001]",
+        "RootActiveSkillId": 74001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName74001]",
+      "names": {
+        "zh-CN": "奇迹星星"
+      },
+      "source_memo_ja": "聖夜トロポンSR:Lv1 「やっちゃうぞー！」時空を繋ぐ穴から飛び出した星が敵に降り注ぎ、現在HPが最も高い敵の攻撃力と防御力をそれぞれ15％吸収し、2ターンの間自身に加える（弱体効果命中の判定はそれぞれ別で行われる）。それは聖なる夜の奇跡か、トリックか――その後対象に対象の現在HP×10％の直接攻撃を行う。この直接攻撃はクリティカルヒットせず、直接攻撃のダメージは吸収後の自身の攻撃力×500%を超えない。/ Lv2 直接攻撃のダメージが対象の現在HP×15％になる。/ Lv3 さらに自身に2ターンの間このスキルの総与ダメージ×50％の『シールド』を付与する。/ Ex1 ミラクルスターを強化する。攻撃力と防御力の吸収量がそれぞれ35％になる。/ Ex2 ミラクルスターを強化する。直接攻撃のダメージが対象の現在HP×20％になる。/ Ex3 ミラクルスターを強化する。『シールド』の大きさがこのスキルの総与ダメージ×100％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「やっちゃうぞー！」時空を繋ぐ穴から飛び出した星が敵に降り注ぎ、現在HPが最も高い敵の攻撃力と防御力をそれぞれ15％吸収し、2ターンの間自身に加える（弱体効果命中の判定はそれぞれ別で行われる）。それは聖なる夜の奇跡か、トリックか――その後対象に対象の現在HP×10％の直接攻撃を行う。この直接攻撃はクリティカルヒットせず、直接攻撃のダメージは吸収後の自身の攻撃力×500%を超えない。"
+        },
+        {
+          "label": "Lv2",
+          "text": "直接攻撃のダメージが対象の現在HP×15％になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらに自身に2ターンの間このスキルの総与ダメージ×50％の『シールド』を付与する。"
+        },
+        {
+          "label": "Ex1",
+          "text": "ミラクルスターを強化する。攻撃力と防御力の吸収量がそれぞれ35％になる。"
+        },
+        {
+          "label": "Ex2",
+          "text": "ミラクルスターを強化する。直接攻撃のダメージが対象の現在HP×20％になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "ミラクルスターを強化する。『シールド』の大きさがこのスキルの総与ダメージ×100％になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 74002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription740021]",
+          "descriptions": {
+            "zh-CN": "超越了时空的魔法，从神奇的洞穴里飞出来——左边或右边？上面或侧面？什么东西会从哪里飞出来？这要亲自挨一发才知道。托波波随机对5名敌人造成攻击力×250%的魔法伤害，10%概率附加「晕厥」状态，效果持续1回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "時空を超えた魔法が穴から飛び出す。右かと思ったら左、上かと思ったら斜め横、どこから何が飛び出すか分からない――ランダムな敵5体に攻撃力×250％の魔法攻撃を行い、10％の確率で対象に1ターンの間『気絶』を付与する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription740022]",
+          "descriptions": {
+            "zh-CN": "如果技能目标仍然存活，托波波身上的所有增益效果额外增加1回合（包含此技能发动后使托波波获得的增益效果）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらにこのスキルで敵を戦闘不能にできなかった場合、自身が付帯しているバフ全てのターン数を1増加させる。このスキルによる攻撃時に聖夜の祈りの効果で自身に新たにバフが付与される場合、そのバフも対象となる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription740023]",
+          "descriptions": {
+            "zh-CN": "造成的魔法伤害提升为攻击力×340%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "魔法攻撃のダメージが攻撃力×340％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription740024]",
+          "descriptions": {
+            "zh-CN": "附加「晕厥」状态的概率提升为20%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "『気絶』を付与する確率が20％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription740021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              74002001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription740022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              74002001,
+              74002202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription740023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              74002301,
+              74002202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription740024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              74002401,
+              74002202
+            ]
+          }
+        ],
+        "Id": 74002,
+        "IsIgnore": null,
+        "Memo": "聖夜トロポンSR:Lv1 時空を超えた魔法が穴から飛び出す。右かと思ったら左、上かと思ったら斜め横、どこから何が飛び出すか分からない――ランダムな敵5体に攻撃力×250％の魔法攻撃を行い、10％の確率で対象に1ターンの間『気絶』を付与する。/ Lv2 さらにこのスキルで敵を戦闘不能にできなかった場合、自身が付帯しているバフ全てのターン数を1増加させる。このスキルによる攻撃時に聖夜の祈りの効果で自身に新たにバフが付与される場合、そのバフも対象となる。/ Lv3 魔法攻撃のダメージが攻撃力×340％になる。/ Lv4 『気絶』を付与する確率が20％になる。",
+        "NameKey": "[ActiveSkillName74002]",
+        "RootActiveSkillId": 74002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName74002]",
+      "names": {
+        "zh-CN": "障眼法！"
+      },
+      "source_memo_ja": "聖夜トロポンSR:Lv1 時空を超えた魔法が穴から飛び出す。右かと思ったら左、上かと思ったら斜め横、どこから何が飛び出すか分からない――ランダムな敵5体に攻撃力×250％の魔法攻撃を行い、10％の確率で対象に1ターンの間『気絶』を付与する。/ Lv2 さらにこのスキルで敵を戦闘不能にできなかった場合、自身が付帯しているバフ全てのターン数を1増加させる。このスキルによる攻撃時に聖夜の祈りの効果で自身に新たにバフが付与される場合、そのバフも対象となる。/ Lv3 魔法攻撃のダメージが攻撃力×340％になる。/ Lv4 『気絶』を付与する確率が20％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "時空を超えた魔法が穴から飛び出す。右かと思ったら左、上かと思ったら斜め横、どこから何が飛び出すか分からない――ランダムな敵5体に攻撃力×250％の魔法攻撃を行い、10％の確率で対象に1ターンの間『気絶』を付与する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらにこのスキルで敵を戦闘不能にできなかった場合、自身が付帯しているバフ全てのターン数を1増加させる。このスキルによる攻撃時に聖夜の祈りの効果で自身に新たにバフが付与される場合、そのバフも対象となる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "魔法攻撃のダメージが攻撃力×340％になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "『気絶』を付与する確率が20％になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 35,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 35,
+            "CollectionLevel": 1,
+            "Id": 3501,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ホロロギウムの奇跡(聖夜トロポン,トロポン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 500.0,
+              "value_text": "+5%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 35,
+            "CollectionLevel": 2,
+            "Id": 3502,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ホロロギウムの奇跡(聖夜トロポン,トロポン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 500.0,
+              "value_text": "+5%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 35,
+            "CollectionLevel": 3,
+            "Id": 3503,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ホロロギウムの奇跡(聖夜トロポン,トロポン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 500.0,
+              "value_text": "+5%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 500.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 35,
+            "CollectionLevel": 4,
+            "Id": 3504,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ホロロギウムの奇跡(聖夜トロポン,トロポン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 31.0,
+              "value_text": "+31×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 510.0,
+              "value_text": "+5.1%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 31.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 510.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 35,
+            "CollectionLevel": 5,
+            "Id": 3505,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ホロロギウムの奇跡(聖夜トロポン,トロポン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 32.0,
+              "value_text": "+32×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 520.0,
+              "value_text": "+5.2%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 32.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 520.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 35,
+            "CollectionLevel": 6,
+            "Id": 3506,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ホロロギウムの奇跡(聖夜トロポン,トロポン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 33.0,
+              "value_text": "+33×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 530.0,
+              "value_text": "+5.3%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 33.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 530.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 35,
+            "CollectionLevel": 7,
+            "Id": 3507,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ホロロギウムの奇跡(聖夜トロポン,トロポン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 34.0,
+              "value_text": "+34×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 540.0,
+              "value_text": "+5.4%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 34.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 540.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 35,
+            "CollectionLevel": 8,
+            "Id": 3508,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ホロロギウムの奇跡(聖夜トロポン,トロポン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 35.0,
+              "value_text": "+35×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 550.0,
+              "value_text": "+5.5%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 35.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 550.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 35,
+            "CollectionLevel": 9,
+            "Id": 3509,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ホロロギウムの奇跡(聖夜トロポン,トロポン)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 35,
+        "IsIgnore": null,
+        "Memo": "ホロロギウムの奇跡(聖夜トロポン,トロポン)",
+        "NameKey": "[CharacterCollectionName35]",
+        "RequiredCharacterIds": [
+          74,
+          36
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2023-12-13 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName35]",
+      "names": {
+        "zh-CN": "时钟座的奇迹"
+      },
+      "required_character_ids": [
+        74,
+        36
+      ],
+      "required_characters": [
+        {
+          "id": 74,
+          "names": {
+            "zh-CN": "托波波"
+          }
+        },
+        {
+          "id": 36,
+          "names": {
+            "zh-CN": "托波波"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2023-12-13 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 2,
+    "element_type": 1,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 74,
+    "job_flags": 4,
+    "master_record": {
+      "ActiveSkillIds": [
+        74001,
+        74002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 79,
+        "Health": 64,
+        "Intelligence": 105,
+        "Muscle": 89
+      },
+      "BaseParameterGrossCoefficient": 337,
+      "CharacterType": 2,
+      "ElementType": 1,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 74,
+      "InitialBattleParameter": {
+        "AttackPower": 3,
+        "Avoidance": 0,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 8,
+        "DefensePenetration": 0,
+        "HP": 0,
+        "Hit": 1,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": -2,
+        "Speed": 3057
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 4,
+      "Memo": "聖夜トロポン",
+      "Name2Key": "[CharacterSubName74]",
+      "NameKey": "[CharacterName74]",
+      "NormalSkillId": 102,
+      "PassiveSkillIds": [
+        74003,
+        74004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2023-12-13 15:00:00"
+    },
+    "memo": "聖夜トロポン",
+    "name_key": "[CharacterName74]",
+    "names": {
+      "zh-CN": "托波波"
+    },
+    "speed": 3057,
+    "start_time_jst": "2023-12-13 15:00:00",
+    "subtitle_key": "[CharacterSubName74]",
+    "subtitles": {
+      "zh-CN": "圣夜的祈愿"
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 741130240,
+    "exclusive_effect_id": 312,
+    "icon_id": 548,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 741130250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 84,
+        "EquipmentEvolutionId": 94,
+        "EquipmentExclusiveSkillDescriptionId": 52,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 4,
+        "ExclusiveEffectId": 312,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 548,
+        "Id": 741130240,
+        "IsIgnore": null,
+        "Memo": "聖夜トロポンLR240_書",
+        "NameKey": "[EquipmentName543]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": null,
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 5,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          },
+          {
+            "BattleParameterType": 15,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 74,
+        "Id": 312,
+        "IsIgnore": null,
+        "Memo": "聖夜トロポンLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill74Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill74Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill74Description3]",
+        "Id": 52,
+        "IsIgnore": null,
+        "Memo": "聖夜トロポン魔導書"
+      }
+    },
+    "name_key": "[EquipmentName543]",
+    "names": {
+      "zh-CN": "托小波"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Hit",
+        "parameter_type": 5,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "DebuffHit",
+        "parameter_type": 15,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill74Description1]",
+        "descriptions": {
+          "zh-CN": "强化奇迹星星，攻击力与防御力吸收量提升为35%。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill74Description2]",
+        "descriptions": {
+          "zh-CN": "强化奇迹星星，造成的直接伤害提升为技能目标当前生命值×20%。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill74Description3]",
+        "descriptions": {
+          "zh-CN": "强化奇迹星星，「护盾」值提升为技能总伤害×100%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 74003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription740031]",
+          "descriptions": {
+            "zh-CN": "圣夜的时候，天上的星星会实现我的愿望——托波波发动攻击后，10%概率从目标身上夺取1种增益效果。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "聖なる夜は、お星さまが願い事を叶えてくれる――自身が攻撃したとき、10％の確率で対象が付帯しているバフを1つ解除し、成功した場合にその効果を自身に付与する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription740032]",
+          "descriptions": {
+            "zh-CN": "夺取增益效果的概率提升为20%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "敵のバフを解除して自身に付与する確率が20％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription740033]",
+          "descriptions": {
+            "zh-CN": "夺取增益效果的概率提升为30%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "敵のバフを解除して自身に付与する確率が30％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 74003,
+        "IsIgnore": null,
+        "Memo": "聖夜トロポンSR:Lv1 聖なる夜は、お星さまが願い事を叶えてくれる――自身が攻撃したとき、10％の確率で対象が付帯しているバフを1つ解除し、成功した場合にその効果を自身に付与する。/ Lv2 敵のバフを解除して自身に付与する確率が20％になる。/ Lv3 敵のバフを解除して自身に付与する確率が30％になる。",
+        "NameKey": "[PassiveSkillName74003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription740031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 9,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 74003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription740032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 9,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 74003201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription740033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 9,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 74003301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName74003]",
+      "names": {
+        "zh-CN": "圣夜的祈愿"
+      },
+      "source_memo_ja": "聖夜トロポンSR:Lv1 聖なる夜は、お星さまが願い事を叶えてくれる――自身が攻撃したとき、10％の確率で対象が付帯しているバフを1つ解除し、成功した場合にその効果を自身に付与する。/ Lv2 敵のバフを解除して自身に付与する確率が20％になる。/ Lv3 敵のバフを解除して自身に付与する確率が30％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "聖なる夜は、お星さまが願い事を叶えてくれる――自身が攻撃したとき、10％の確率で対象が付帯しているバフを1つ解除し、成功した場合にその効果を自身に付与する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "敵のバフを解除して自身に付与する確率が20％になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "敵のバフを解除して自身に付与する確率が30％になる。"
+        }
+      ]
+    },
+    {
+      "id": 74004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription740041]",
+          "descriptions": {
+            "zh-CN": "“爸爸妈妈很善良，一直用善意的谎言保护我。”托波波使自己增加20%最大生命值（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "おとーさんとおかーさんは優しかった。優しい嘘で、アタシを守ってくれた――自身の最大HPが20％増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription740042]",
+          "descriptions": {
+            "zh-CN": "使自己额外增加20%弱化效果命中率（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに自身の弱体効果命中率が20％増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription740043]",
+          "descriptions": {
+            "zh-CN": "最大生命值与弱化效果命中率增幅提升为40%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "最大HPと弱体効果命中率の増加量がそれぞれ40％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 74004,
+        "IsIgnore": null,
+        "Memo": "聖夜トロポンSR:Lv1 おとーさんとおかーさんは優しかった。優しい嘘で、アタシを守ってくれた――自身の最大HPが20％増加する（解除不可）。/ Lv2 さらに自身の弱体効果命中率が20％増加する（解除不可）。/ Lv3 最大HPと弱体効果命中率の増加量がそれぞれ40％になる。",
+        "NameKey": "[PassiveSkillName74004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription740041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 74004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription740042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 74004201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription740043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 74004301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName74004]",
+      "names": {
+        "zh-CN": "善意的谎言"
+      },
+      "source_memo_ja": "聖夜トロポンSR:Lv1 おとーさんとおかーさんは優しかった。優しい嘘で、アタシを守ってくれた――自身の最大HPが20％増加する（解除不可）。/ Lv2 さらに自身の弱体効果命中率が20％増加する（解除不可）。/ Lv3 最大HPと弱体効果命中率の増加量がそれぞれ40％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "おとーさんとおかーさんは優しかった。優しい嘘で、アタシを守ってくれた――自身の最大HPが20％増加する（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに自身の弱体効果命中率が20％増加する（解除不可）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "最大HPと弱体効果命中率の増加量がそれぞれ40％になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

@@ -1,0 +1,1318 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 68001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription680011]",
+          "descriptions": {
+            "zh-CN": "阻碍行动的干扰弹在敌人上方爆炸，随机对5名敌人造成攻击力×380%的物理伤害。炮弹内装填的特殊金属片迸落在四周，40%概率对技能目标附加1种弱化效果，该效果包含减少50%弱化效果命中率并附加「增益效果免疫」状态，效果持续2回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "行動を阻害するジャミング砲弾を敵の頭上で破裂させ、ランダムな敵5体に攻撃力×380%の物理攻撃を行う。充填された特殊金属片が周囲に降りそそぎ、40%の確率で2ターンの間対象の弱体効果命中率を50%減少させ『バフ無効』を付与する。これらは1つの弱体効果として扱う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription680012]",
+          "descriptions": {
+            "zh-CN": "「弱化效果命中率下降」与「增益效果免疫」效果增加为4回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "『弱体効果命中率減少』と『バフ無効』のターン数が4ターンになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription680013]",
+          "descriptions": {
+            "zh-CN": "附加「弱化效果命中率下降」与「增益效果免疫」状态的概率提升为70%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "『弱体効果命中率減少』と『バフ無効』を付与する確率が70%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription680014]",
+          "descriptions": {
+            "zh-CN": "强化干扰弹，造成的物理伤害提升为攻击力×480%。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "ジャミング砲弾を強化する。物理攻撃のダメージが攻撃力×480%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription680011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              68001001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription680012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              68001201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription680013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              68001301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription680014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              68001501
+            ]
+          }
+        ],
+        "Id": 68001,
+        "IsIgnore": null,
+        "Memo": "フェーネSR:Lv1 行動を阻害するジャミング砲弾を敵の頭上で破裂させ、ランダムな敵5体に攻撃力×380%の物理攻撃を行う。充填された特殊金属片が周囲に降りそそぎ、40%の確率で2ターンの間対象の弱体効果命中率を50%減少させ『バフ無効』を付与する。これらは1つの弱体効果として扱う。/ Lv2 『弱体効果命中率減少』と『バフ無効』のターン数が4ターンになる。/ Lv3 『弱体効果命中率減少』と『バフ無効』を付与する確率が70%になる。/ Ex1 ジャミング砲弾を強化する。物理攻撃のダメージが攻撃力×480%になる。",
+        "NameKey": "[ActiveSkillName68001]",
+        "RootActiveSkillId": 68001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName68001]",
+      "names": {
+        "zh-CN": "干扰弹"
+      },
+      "source_memo_ja": "フェーネSR:Lv1 行動を阻害するジャミング砲弾を敵の頭上で破裂させ、ランダムな敵5体に攻撃力×380%の物理攻撃を行う。充填された特殊金属片が周囲に降りそそぎ、40%の確率で2ターンの間対象の弱体効果命中率を50%減少させ『バフ無効』を付与する。これらは1つの弱体効果として扱う。/ Lv2 『弱体効果命中率減少』と『バフ無効』のターン数が4ターンになる。/ Lv3 『弱体効果命中率減少』と『バフ無効』を付与する確率が70%になる。/ Ex1 ジャミング砲弾を強化する。物理攻撃のダメージが攻撃力×480%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "行動を阻害するジャミング砲弾を敵の頭上で破裂させ、ランダムな敵5体に攻撃力×380%の物理攻撃を行う。充填された特殊金属片が周囲に降りそそぎ、40%の確率で2ターンの間対象の弱体効果命中率を50%減少させ『バフ無効』を付与する。これらは1つの弱体効果として扱う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "『弱体効果命中率減少』と『バフ無効』のターン数が4ターンになる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "『弱体効果命中率減少』と『バフ無効』を付与する確率が70%になる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "ジャミング砲弾を強化する。物理攻撃のダメージが攻撃力×480%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 68002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription680021]",
+          "descriptions": {
+            "zh-CN": "菲尼锁定具有威胁性的敌人，发射弹头经过改造、可从恶魔体内进行破坏的特殊炮弹，对生命值百分比最高的敌人造成攻击力×580%的物理伤害，40%概率附加「侵蚀」状态，效果持续2回合，每回合行动开始时造成技能总伤害×40%的伤害。战斗中自第2次发动此技能起，造成的物理伤害增加为2倍。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "悪魔の体を内側から破壊する特殊弾頭砲弾で、脅威認定した敵を狙い撃つ。HP割合が最も高い敵に攻撃力×580%の物理攻撃を行い、40%の確率で2ターンの間対象に『浸食』を付与する。毎ターン行動開始時にこのスキルの総与ダメージ×40%のダメージを与える。バトル中このスキルを使うのが2回目以降の場合、物理攻撃のダメージが2倍になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription680022]",
+          "descriptions": {
+            "zh-CN": "「侵蚀」效果增加为4回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "『浸食』のターン数が4ターンになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription680023]",
+          "descriptions": {
+            "zh-CN": "附加「侵蚀」状态的概率提升为70%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "『浸食』を付与する確率が70%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription680024]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×680%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "物理攻撃のダメージが攻撃力×680%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription680025]",
+          "descriptions": {
+            "zh-CN": "强化魔力渗透弹，「侵蚀」造成的伤害提升为技能总伤害×50%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "魔力浸透砲弾を強化する。『浸食』のダメージがスキルの総与ダメージ×50%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription680021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              68002001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription680022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              68002201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription680023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              68002301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription680024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              68002401
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription680025]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              68002501
+            ]
+          }
+        ],
+        "Id": 68002,
+        "IsIgnore": null,
+        "Memo": "フェーネSR:Lv1 悪魔の体を内側から破壊する特殊弾頭砲弾で、脅威認定した敵を狙い撃つ。HP割合が最も高い敵に攻撃力×580%の物理攻撃を行い、40%の確率で2ターンの間対象に『浸食』を付与する。毎ターン行動開始時にこのスキルの総与ダメージ×40%のダメージを与える。バトル中このスキルを使うのが2回目以降の場合、物理攻撃のダメージが2倍になる。/ Lv2 『浸食』のターン数が4ターンになる。/ Lv3 『浸食』を付与する確率が70%になる。/ Lv4 物理攻撃のダメージが攻撃力×680%になる。/ Ex3 魔力浸透砲弾を強化する。『浸食』のダメージがスキルの総与ダメージ×50%になる。",
+        "NameKey": "[ActiveSkillName68002]",
+        "RootActiveSkillId": 68002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName68002]",
+      "names": {
+        "zh-CN": "魔力渗透弹"
+      },
+      "source_memo_ja": "フェーネSR:Lv1 悪魔の体を内側から破壊する特殊弾頭砲弾で、脅威認定した敵を狙い撃つ。HP割合が最も高い敵に攻撃力×580%の物理攻撃を行い、40%の確率で2ターンの間対象に『浸食』を付与する。毎ターン行動開始時にこのスキルの総与ダメージ×40%のダメージを与える。バトル中このスキルを使うのが2回目以降の場合、物理攻撃のダメージが2倍になる。/ Lv2 『浸食』のターン数が4ターンになる。/ Lv3 『浸食』を付与する確率が70%になる。/ Lv4 物理攻撃のダメージが攻撃力×680%になる。/ Ex3 魔力浸透砲弾を強化する。『浸食』のダメージがスキルの総与ダメージ×50%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "悪魔の体を内側から破壊する特殊弾頭砲弾で、脅威認定した敵を狙い撃つ。HP割合が最も高い敵に攻撃力×580%の物理攻撃を行い、40%の確率で2ターンの間対象に『浸食』を付与する。毎ターン行動開始時にこのスキルの総与ダメージ×40%のダメージを与える。バトル中このスキルを使うのが2回目以降の場合、物理攻撃のダメージが2倍になる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "『浸食』のターン数が4ターンになる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "『浸食』を付与する確率が70%になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "物理攻撃のダメージが攻撃力×680%になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "魔力浸透砲弾を強化する。『浸食』のダメージがスキルの総与ダメージ×50%になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 32,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 32,
+            "CollectionLevel": 1,
+            "Id": 3201,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カマエレオンの制圧(フェーネ,ディアン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              },
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 32,
+            "CollectionLevel": 2,
+            "Id": 3202,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カマエレオンの制圧(フェーネ,ディアン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              },
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 32,
+            "CollectionLevel": 3,
+            "Id": 3203,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カマエレオンの制圧(フェーネ,ディアン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              },
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 32,
+            "CollectionLevel": 4,
+            "Id": 3204,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カマエレオンの制圧(フェーネ,ディアン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 75.0,
+              "value_text": "+75×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 31.0,
+              "value_text": "+31×角色等级"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 75.0
+              },
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 31.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 32,
+            "CollectionLevel": 5,
+            "Id": 3205,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カマエレオンの制圧(フェーネ,ディアン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 80.0,
+              "value_text": "+80×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 32.0,
+              "value_text": "+32×角色等级"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 80.0
+              },
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 32.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 32,
+            "CollectionLevel": 6,
+            "Id": 3206,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カマエレオンの制圧(フェーネ,ディアン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 85.0,
+              "value_text": "+85×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 33.0,
+              "value_text": "+33×角色等级"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 85.0
+              },
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 33.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 32,
+            "CollectionLevel": 7,
+            "Id": 3207,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カマエレオンの制圧(フェーネ,ディアン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 90.0,
+              "value_text": "+90×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 34.0,
+              "value_text": "+34×角色等级"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 90.0
+              },
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 34.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 32,
+            "CollectionLevel": 8,
+            "Id": 3208,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カマエレオンの制圧(フェーネ,ディアン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 95.0,
+              "value_text": "+95×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 35.0,
+              "value_text": "+35×角色等级"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 95.0
+              },
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 35.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 32,
+            "CollectionLevel": 9,
+            "Id": 3209,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カマエレオンの制圧(フェーネ,ディアン)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 32,
+        "IsIgnore": null,
+        "Memo": "カマエレオンの制圧(フェーネ,ディアン)",
+        "NameKey": "[CharacterCollectionName32]",
+        "RequiredCharacterIds": [
+          68,
+          20
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2023-11-15 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName32]",
+      "names": {
+        "zh-CN": "蝘蜓座的压制"
+      },
+      "required_character_ids": [
+        68,
+        20
+      ],
+      "required_characters": [
+        {
+          "id": 68,
+          "names": {
+            "zh-CN": "菲尼"
+          }
+        },
+        {
+          "id": 20,
+          "names": {
+            "zh-CN": "黛安"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2023-11-15 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 1,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 68,
+    "job_flags": 2,
+    "master_record": {
+      "ActiveSkillIds": [
+        68001,
+        68002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 105,
+        "Health": 68,
+        "Intelligence": 85,
+        "Muscle": 85
+      },
+      "BaseParameterGrossCoefficient": 343,
+      "CharacterType": 0,
+      "ElementType": 1,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 68,
+      "InitialBattleParameter": {
+        "AttackPower": 0,
+        "Avoidance": 0,
+        "Critical": 2,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": -1,
+        "DebuffResist": 0,
+        "Defense": 8,
+        "DefensePenetration": 0,
+        "HP": -1,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 2853
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 2,
+      "Memo": "フェーネ",
+      "Name2Key": null,
+      "NameKey": "[CharacterName68]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        68003,
+        68004,
+        68005
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2023-11-15 15:00:00"
+    },
+    "memo": "フェーネ",
+    "name_key": "[CharacterName68]",
+    "names": {
+      "zh-CN": "菲尼"
+    },
+    "speed": 2853,
+    "start_time_jst": "2023-11-15 15:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 681120240,
+    "exclusive_effect_id": 300,
+    "icon_id": 512,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 681120250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 82,
+        "EquipmentEvolutionId": 92,
+        "EquipmentExclusiveSkillDescriptionId": 50,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 2,
+        "ExclusiveEffectId": 300,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 512,
+        "Id": 681120240,
+        "IsIgnore": null,
+        "Memo": "フェーネLR240_銃",
+        "NameKey": "[EquipmentName507]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": [
+          {
+            "BaseParameterType": 4,
+            "ChangeParameterType": 2,
+            "Value": 800.0
+          }
+        ],
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 5,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 68,
+        "Id": 300,
+        "IsIgnore": null,
+        "Memo": "フェーネLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill68Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill68Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill68Description3]",
+        "Id": 50,
+        "IsIgnore": null,
+        "Memo": "フェーネ銃"
+      }
+    },
+    "name_key": "[EquipmentName507]",
+    "names": {
+      "zh-CN": "M260手持型冲击炮"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "base",
+        "parameter_code": "Health",
+        "parameter_type": 4,
+        "raw_value": 800.0,
+        "value_text": "+8%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Hit",
+        "parameter_type": 5,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill68Description1]",
+        "descriptions": {
+          "zh-CN": "强化干扰弹，造成的物理伤害提升为攻击力×480%。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill68Description2]",
+        "descriptions": {
+          "zh-CN": "战斗开始时，使速度最低的2名其他友军增加30%最大生命值（无法被解除）。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill68Description3]",
+        "descriptions": {
+          "zh-CN": "强化魔力渗透弹，「侵蚀」造成的伤害提升为技能总伤害×50%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": false,
+  "missing_localization_keys": [
+    "*"
+  ],
+  "passive_skills": [
+    {
+      "id": 68003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription680031]",
+          "descriptions": {
+            "zh-CN": "所在位置遭敌人锁定时，一名优秀的炮兵必须能立即隐藏自己的行踪。当菲尼受到攻击，生命值低于40%且存活在场上的友军数为2名以上时，获得「透明」状态，效果持续2回合（无法被解除）。此技能每场战斗最多触发1次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "自身の位置を特定された時、即座に身を隠すのも優秀な砲兵に必要な能力である。自身が攻撃を受けて、HP割合が40%未満になり、味方の生存数が2体以上の場合、2ターンの間自身に『透明』を付与する（解除不可）。このスキルはバトル中1回のみ発動する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription680032]",
+          "descriptions": {
+            "zh-CN": "当菲尼受到攻击，生命值低于70%且存活在场上的友军数为2名以上时，获得「透明」状态，效果持续2回合（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "自身が攻撃を受けたとき、『透明』を付与するHP割合の条件が70％未満になる"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription680033]",
+          "descriptions": {
+            "zh-CN": "「透明」效果增加为3回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "『透明』のターン数が3ターンになる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 68003,
+        "IsIgnore": null,
+        "Memo": "フェーネSR:Lv1 自身の位置を特定された時、即座に身を隠すのも優秀な砲兵に必要な能力である。自身が攻撃を受けて、HP割合が40%未満になり、味方の生存数が2体以上の場合、2ターンの間自身に『透明』を付与する（解除不可）。このスキルはバトル中1回のみ発動する。/ Lv2 自身が攻撃を受けたとき、『透明』を付与するHP割合の条件が70％未満になる/ Lv3 『透明』のターン数が3ターンになる。",
+        "NameKey": "[PassiveSkillName68003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription680031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 68003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription680032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 68003201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription680033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 68003301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName68003]",
+      "names": {
+        "zh-CN": "炮兵部队上级兵"
+      },
+      "source_memo_ja": "フェーネSR:Lv1 自身の位置を特定された時、即座に身を隠すのも優秀な砲兵に必要な能力である。自身が攻撃を受けて、HP割合が40%未満になり、味方の生存数が2体以上の場合、2ターンの間自身に『透明』を付与する（解除不可）。このスキルはバトル中1回のみ発動する。/ Lv2 自身が攻撃を受けたとき、『透明』を付与するHP割合の条件が70％未満になる/ Lv3 『透明』のターン数が3ターンになる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "自身の位置を特定された時、即座に身を隠すのも優秀な砲兵に必要な能力である。自身が攻撃を受けて、HP割合が40%未満になり、味方の生存数が2体以上の場合、2ターンの間自身に『透明』を付与する（解除不可）。このスキルはバトル中1回のみ発動する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "自身が攻撃を受けたとき、『透明』を付与するHP割合の条件が70％未満になる"
+        },
+        {
+          "label": "Lv3",
+          "text": "『透明』のターン数が3ターンになる。"
+        }
+      ]
+    },
+    {
+      "id": 68004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription680041]",
+          "descriptions": {
+            "zh-CN": "菲尼采用目前还在研发阶段，只能使用一次的特殊装置，让自己得以在开炮后立刻重新装填弹药。第3回合开始时，菲尼重置魔力渗透弹的技能冷却时间。此技能每场战斗最多触发1次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "開発段階のため一度しか使用できないが、特殊機構の採用により即座に次弾装填が可能となった。3ターン目のターン開始時、自身の魔力浸透砲弾のスキルクールタイムカウントを0にする。このスキルはバトル中1回のみ発動する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription680042]",
+          "descriptions": {
+            "zh-CN": "第3回合开始时，菲尼使自己额外增加15%速度，效果持续1回合（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "3ターン目のターン開始時、さらに1ターンの間自身のスピードが15%増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription680043]",
+          "descriptions": {
+            "zh-CN": "速度增幅提升为30%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "スピードの増加量が30%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 68004,
+        "IsIgnore": null,
+        "Memo": "フェーネSR:Lv1 開発段階のため一度しか使用できないが、特殊機構の採用により即座に次弾装填が可能となった。3ターン目のターン開始時、自身の魔力浸透砲弾のスキルクールタイムカウントを0にする。このスキルはバトル中1回のみ発動する。/ Lv2 3ターン目のターン開始時、さらに1ターンの間自身のスピードが15%増加する（解除不可）。/ Lv3 スピードの増加量が30%になる。",
+        "NameKey": "[PassiveSkillName68004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription680041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 28,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 68004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription680042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 28,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 68004201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription680043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 28,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 68004301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName68004]",
+      "names": {
+        "zh-CN": "高速装填装置"
+      },
+      "source_memo_ja": "フェーネSR:Lv1 開発段階のため一度しか使用できないが、特殊機構の採用により即座に次弾装填が可能となった。3ターン目のターン開始時、自身の魔力浸透砲弾のスキルクールタイムカウントを0にする。このスキルはバトル中1回のみ発動する。/ Lv2 3ターン目のターン開始時、さらに1ターンの間自身のスピードが15%増加する（解除不可）。/ Lv3 スピードの増加量が30%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "開発段階のため一度しか使用できないが、特殊機構の採用により即座に次弾装填が可能となった。3ターン目のターン開始時、自身の魔力浸透砲弾のスキルクールタイムカウントを0にする。このスキルはバトル中1回のみ発動する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "3ターン目のターン開始時、さらに1ターンの間自身のスピードが15%増加する（解除不可）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "スピードの増加量が30%になる。"
+        }
+      ]
+    },
+    {
+      "id": 68005,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[PassiveSkillDescription680051]",
+          "descriptions": {
+            "zh-CN": "战斗开始时，使速度最低的2名其他友军增加30%最大生命值（无法被解除）。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "バトル開始時自身以外のスピードが低い味方2体の最大HPを30%増加させる（解除不可）。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 68005,
+        "IsIgnore": null,
+        "Memo": "フェーネSR:Lv1 バトル開始時自身以外のスピードが低い味方2体の最大HPを30%増加させる（解除不可）。",
+        "NameKey": "*",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[PassiveSkillDescription680051]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 68005001
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "*",
+      "names": {
+        "zh-CN": null
+      },
+      "source_memo_ja": "フェーネSR:Lv1 バトル開始時自身以外のスピードが低い味方2体の最大HPを30%増加させる（解除不可）。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "バトル開始時自身以外のスピードが低い味方2体の最大HPを30%増加させる（解除不可）。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

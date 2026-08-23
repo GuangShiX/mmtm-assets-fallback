@@ -1,0 +1,234 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 21001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription210011]",
+          "descriptions": {
+            "zh-CN": "静施展拔刀术，用巨大的长刀随机对3名敌人造成攻击力×130%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "長大な刀を居合抜きし、ランダムな敵3体に攻撃力×130％の物理攻撃を行う。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription210011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              21001001
+            ]
+          }
+        ],
+        "Id": 21001,
+        "IsIgnore": null,
+        "Memo": "シズN: /Lv1　長大な刀を居合抜きし、ランダムな敵3体に攻撃力×130％の物理攻撃を行う。",
+        "NameKey": "[ActiveSkillName21001]",
+        "RootActiveSkillId": 21001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName21001]",
+      "names": {
+        "zh-CN": "卍拔"
+      },
+      "source_memo_ja": "シズN: /Lv1　長大な刀を居合抜きし、ランダムな敵3体に攻撃力×130％の物理攻撃を行う。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "長大な刀を居合抜きし、ランダムな敵3体に攻撃力×130％の物理攻撃を行う。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 21002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription210021]",
+          "descriptions": {
+            "zh-CN": "静利用太刀本身的重量全力一斩，随机对1名敌人造成攻击力×200%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "刀の重みも利用した渾身の打ち下ろしにより、ランダムな敵1体に攻撃力×200％の物理攻撃を行う。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription210021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              21002001
+            ]
+          }
+        ],
+        "Id": 21002,
+        "IsIgnore": null,
+        "Memo": "シズN: /Lv1　刀の重みも利用した渾身の打ち下ろしにより、ランダムな敵1体に攻撃力×200％の物理攻撃を行う。",
+        "NameKey": "[ActiveSkillName21002]",
+        "RootActiveSkillId": 21002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName21002]",
+      "names": {
+        "zh-CN": "一之太刀"
+      },
+      "source_memo_ja": "シズN: /Lv1　刀の重みも利用した渾身の打ち下ろしにより、ランダムな敵1体に攻撃力×200％の物理攻撃を行う。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "刀の重みも利用した渾身の打ち下ろしにより、ランダムな敵1体に攻撃力×200％の物理攻撃を行う。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [],
+  "character": {
+    "character_type": 0,
+    "element_type": 3,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 21,
+    "job_flags": 1,
+    "master_record": {
+      "ActiveSkillIds": [
+        21001,
+        21002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 84,
+        "Health": 70,
+        "Intelligence": 85,
+        "Muscle": 100
+      },
+      "BaseParameterGrossCoefficient": 339,
+      "CharacterType": 0,
+      "ElementType": 3,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 21,
+      "InitialBattleParameter": {
+        "AttackPower": 3,
+        "Avoidance": 0,
+        "Critical": -3,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 2,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 10,
+        "DefensePenetration": 0,
+        "HP": -2,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 2520
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 0,
+      "JobFlags": 1,
+      "Memo": "シズ",
+      "Name2Key": null,
+      "NameKey": "[CharacterName21]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [],
+      "RarityFlags": 1,
+      "RequireFragmentCount": 0,
+      "StartTimeFixJST": "2020-01-01 00:00:00"
+    },
+    "memo": "シズ",
+    "name_key": "[CharacterName21]",
+    "names": {
+      "zh-CN": "静"
+    },
+    "speed": 2520,
+    "start_time_jst": "2020-01-01 00:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": null,
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

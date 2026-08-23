@@ -1,0 +1,1421 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 96001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription960011]",
+          "descriptions": {
+            "zh-CN": "阿姆蕾特的剑光有如划破黑夜的闪电，转瞬之间将敌人撕裂，随机对4名敌人造成攻击力×360%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "一瞬のうちに夜を切り払う雷のように、閃いた刃が敵を切り裂く。ランダムな敵4体に攻撃力×360%の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription960012]",
+          "descriptions": {
+            "zh-CN": "发动攻击前使技能目标额外减少25%物理防御力，效果持续2回合。在自动战斗·挑战首领中的效果增加为4回合。在无穷之塔中的物理防御力降幅提升为50%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに物理攻撃の前に2ターンの間対象の物理防御力を25%減少させる。オートバトル・ボスバトルで使用した場合、『物理防御力減少』のターン数が4ターンになる。無窮の塔で使用した場合、物理防御力の減少量が50%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription960013]",
+          "descriptions": {
+            "zh-CN": "战斗中自第3次发动此技能起，造成的物理伤害提升为攻击力×540%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "バトル中このスキルを使うのが3回目以降の場合、物理攻撃のダメージが攻撃力×540%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription960014]",
+          "descriptions": {
+            "zh-CN": "强化仲夏夜之雷，技能目标增加为5名随机敌人。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "ライサンダーを強化する。ライサンダーの対象がランダムな敵5体になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription960011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              96001001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription960012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              96001201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription960013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              96001301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription960014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              96001401
+            ]
+          }
+        ],
+        "Id": 96001,
+        "IsIgnore": null,
+        "Memo": "夏アムレートSR:Lv1 一瞬のうちに夜を切り払う雷のように、閃いた刃が敵を切り裂く。ランダムな敵4体に攻撃力×360%の物理攻撃を行う。/ Lv2 さらに物理攻撃の前に2ターンの間対象の物理防御力を25%減少させる。オートバトル・ボスバトルで使用した場合、『物理防御力減少』のターン数が4ターンになる。無窮の塔で使用した場合、物理防御力の減少量が50%になる。/ Lv3 バトル中このスキルを使うのが3回目以降の場合、物理攻撃のダメージが攻撃力×540%になる。/ Ex1 ライサンダーを強化する。ライサンダーの対象がランダムな敵5体になる。",
+        "NameKey": "[ActiveSkillName96001]",
+        "RootActiveSkillId": 96001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName96001]",
+      "names": {
+        "zh-CN": "仲夏夜之雷"
+      },
+      "source_memo_ja": "夏アムレートSR:Lv1 一瞬のうちに夜を切り払う雷のように、閃いた刃が敵を切り裂く。ランダムな敵4体に攻撃力×360%の物理攻撃を行う。/ Lv2 さらに物理攻撃の前に2ターンの間対象の物理防御力を25%減少させる。オートバトル・ボスバトルで使用した場合、『物理防御力減少』のターン数が4ターンになる。無窮の塔で使用した場合、物理防御力の減少量が50%になる。/ Lv3 バトル中このスキルを使うのが3回目以降の場合、物理攻撃のダメージが攻撃力×540%になる。/ Ex1 ライサンダーを強化する。ライサンダーの対象がランダムな敵5体になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "一瞬のうちに夜を切り払う雷のように、閃いた刃が敵を切り裂く。ランダムな敵4体に攻撃力×360%の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに物理攻撃の前に2ターンの間対象の物理防御力を25%減少させる。オートバトル・ボスバトルで使用した場合、『物理防御力減少』のターン数が4ターンになる。無窮の塔で使用した場合、物理防御力の減少量が50%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "バトル中このスキルを使うのが3回目以降の場合、物理攻撃のダメージが攻撃力×540%になる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "ライサンダーを強化する。ライサンダーの対象がランダムな敵5体になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 96002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription960021]",
+          "descriptions": {
+            "zh-CN": "阿姆蕾特华丽的剑术有如穿透黑暗的星光，将敌人一举击溃，对攻击力最高的敌人进行4次攻击，每次造成攻击力×520%的物理伤害。每次攻击之后，30%概率随机对敌人追加攻击力×520%的物理伤害（最多4次）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "闇を穿つ星の火のように、華麗な剣技で敵を討ち倒す。攻撃力が最も高い敵に4回攻撃力×520%の物理攻撃を行う。攻撃するたび30%の確率でランダムな敵に攻撃力×520%の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription960022]",
+          "descriptions": {
+            "zh-CN": "发动追加攻击的概率提升为50%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "追加攻撃の確率が50%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription960023]",
+          "descriptions": {
+            "zh-CN": "在追加攻击发动判定前，如果阿姆蕾特的生命值为50%以下，发动追加攻击的概率提升为100%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "追加攻撃の判定の前に、自身のHP割合が50%以下の場合、追加攻撃の確率が100%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription960024]",
+          "descriptions": {
+            "zh-CN": "战斗中自第3次发动此技能起，第一波攻击与追加攻击造成的物理伤害提升为攻击力×780%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "バトル中このスキルを使うのが3回目以降の場合、最初の物理攻撃と追加攻撃のダメージがそれぞれ攻撃力×780%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription960025]",
+          "descriptions": {
+            "zh-CN": "强化星辉，揭开喜剧的序幕，第一波攻击与追加攻击造成的物理伤害提升为攻击力×580%。战斗中自第3次发动此技能起，第一波攻击与追加攻击造成的物理伤害提升为攻击力×870%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "星によりて幕は上がるを強化する。最初の物理攻撃と追加攻撃のダメージがそれぞれ攻撃力×580%になる。バトル中このスキルを使うのが3回目以降の場合、最初の物理攻撃と追加攻撃のダメージがそれぞれ攻撃力×870%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription960021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              96002001,
+              96002002,
+              96002003,
+              96002002,
+              96002003,
+              96002002,
+              96002003,
+              96002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription960022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              96002001,
+              96002202,
+              96002003,
+              96002202,
+              96002003,
+              96002202,
+              96002003,
+              96002202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription960023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              96002001,
+              96002302,
+              96002003,
+              96002302,
+              96002003,
+              96002302,
+              96002003,
+              96002302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription960024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              96002401,
+              96002402,
+              96002403,
+              96002402,
+              96002403,
+              96002402,
+              96002403,
+              96002402
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription960025]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              96002501,
+              96002502,
+              96002503,
+              96002502,
+              96002503,
+              96002502,
+              96002503,
+              96002502
+            ]
+          }
+        ],
+        "Id": 96002,
+        "IsIgnore": null,
+        "Memo": "夏アムレートSR:Lv1 闇を穿つ星の火のように、華麗な剣技で敵を討ち倒す。攻撃力が最も高い敵に4回攻撃力×520%の物理攻撃を行う。攻撃するたび30%の確率でランダムな敵に攻撃力×520%の物理攻撃を行う。/ Lv2 追加攻撃の確率が50%になる。/ Lv3 追加攻撃の判定の前に、自身のHP割合が50%以下の場合、追加攻撃の確率が100%になる。/ Lv4 バトル中このスキルを使うのが3回目以降の場合、最初の物理攻撃と追加攻撃のダメージがそれぞれ攻撃力×780%になる。/ Ex3 星によりて幕は上がるを強化する。最初の物理攻撃と追加攻撃のダメージがそれぞれ攻撃力×580%になる。バトル中このスキルを使うのが3回目以降の場合、最初の物理攻撃と追加攻撃のダメージがそれぞれ攻撃力×870%になる。",
+        "NameKey": "[ActiveSkillName96002]",
+        "RootActiveSkillId": 96002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName96002]",
+      "names": {
+        "zh-CN": "星辉，揭开喜剧的序幕"
+      },
+      "source_memo_ja": "夏アムレートSR:Lv1 闇を穿つ星の火のように、華麗な剣技で敵を討ち倒す。攻撃力が最も高い敵に4回攻撃力×520%の物理攻撃を行う。攻撃するたび30%の確率でランダムな敵に攻撃力×520%の物理攻撃を行う。/ Lv2 追加攻撃の確率が50%になる。/ Lv3 追加攻撃の判定の前に、自身のHP割合が50%以下の場合、追加攻撃の確率が100%になる。/ Lv4 バトル中このスキルを使うのが3回目以降の場合、最初の物理攻撃と追加攻撃のダメージがそれぞれ攻撃力×780%になる。/ Ex3 星によりて幕は上がるを強化する。最初の物理攻撃と追加攻撃のダメージがそれぞれ攻撃力×580%になる。バトル中このスキルを使うのが3回目以降の場合、最初の物理攻撃と追加攻撃のダメージがそれぞれ攻撃力×870%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "闇を穿つ星の火のように、華麗な剣技で敵を討ち倒す。攻撃力が最も高い敵に4回攻撃力×520%の物理攻撃を行う。攻撃するたび30%の確率でランダムな敵に攻撃力×520%の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "追加攻撃の確率が50%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "追加攻撃の判定の前に、自身のHP割合が50%以下の場合、追加攻撃の確率が100%になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "バトル中このスキルを使うのが3回目以降の場合、最初の物理攻撃と追加攻撃のダメージがそれぞれ攻撃力×780%になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "星によりて幕は上がるを強化する。最初の物理攻撃と追加攻撃のダメージがそれぞれ攻撃力×580%になる。バトル中このスキルを使うのが3回目以降の場合、最初の物理攻撃と追加攻撃のダメージがそれぞれ攻撃力×870%になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 52,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 20.0,
+              "value_text": "+20×角色等级"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 20.0
+              }
+            ],
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 52,
+            "CollectionLevel": 1,
+            "Id": 5201,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "リリウムの誓剣(夏アムレート,アムレート)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 200.0,
+              "value_text": "+200"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 52,
+            "CollectionLevel": 2,
+            "Id": 5202,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "リリウムの誓剣(夏アムレート,アムレート)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 200.0,
+              "value_text": "+200"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 52,
+            "CollectionLevel": 3,
+            "Id": 5203,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "リリウムの誓剣(夏アムレート,アムレート)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 200.0,
+              "value_text": "+200"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 52,
+            "CollectionLevel": 4,
+            "Id": 5204,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "リリウムの誓剣(夏アムレート,アムレート)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 41.0,
+              "value_text": "+41×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 205.0,
+              "value_text": "+205"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 41.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 205.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 52,
+            "CollectionLevel": 5,
+            "Id": 5205,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "リリウムの誓剣(夏アムレート,アムレート)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 42.0,
+              "value_text": "+42×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 210.0,
+              "value_text": "+210"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 42.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 210.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 52,
+            "CollectionLevel": 6,
+            "Id": 5206,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "リリウムの誓剣(夏アムレート,アムレート)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 43.0,
+              "value_text": "+43×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 215.0,
+              "value_text": "+215"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 43.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 215.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 52,
+            "CollectionLevel": 7,
+            "Id": 5207,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "リリウムの誓剣(夏アムレート,アムレート)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 44.0,
+              "value_text": "+44×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 220.0,
+              "value_text": "+220"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 44.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 220.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 52,
+            "CollectionLevel": 8,
+            "Id": 5208,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "リリウムの誓剣(夏アムレート,アムレート)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 45.0,
+              "value_text": "+45×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 225.0,
+              "value_text": "+225"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 45.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 225.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 52,
+            "CollectionLevel": 9,
+            "Id": 5209,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "リリウムの誓剣(夏アムレート,アムレート)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 52,
+        "IsIgnore": null,
+        "Memo": "リリウムの誓剣(夏アムレート,アムレート)",
+        "NameKey": "[CharacterCollectionName52]",
+        "RequiredCharacterIds": [
+          96,
+          6
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2024-07-31 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName52]",
+      "names": {
+        "zh-CN": "百合花座的誓剑"
+      },
+      "required_character_ids": [
+        96,
+        6
+      ],
+      "required_characters": [
+        {
+          "id": 96,
+          "names": {
+            "zh-CN": "阿姆蕾特"
+          }
+        },
+        {
+          "id": 6,
+          "names": {
+            "zh-CN": "阿姆蕾特"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2024-07-31 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 2,
+    "element_type": 4,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 96,
+    "job_flags": 1,
+    "master_record": {
+      "ActiveSkillIds": [
+        96001,
+        96002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 84,
+        "Health": 62,
+        "Intelligence": 84,
+        "Muscle": 104
+      },
+      "BaseParameterGrossCoefficient": 334,
+      "CharacterType": 2,
+      "ElementType": 4,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 96,
+      "InitialBattleParameter": {
+        "AttackPower": 5,
+        "Avoidance": 0,
+        "Critical": -3,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 1,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 7,
+        "DefensePenetration": 0,
+        "HP": 0,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 3089
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 1,
+      "Memo": "夏アムレート",
+      "Name2Key": "[CharacterSubName96]",
+      "NameKey": "[CharacterName96]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        96003,
+        96004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2024-07-31 15:00:00"
+    },
+    "memo": "夏アムレート",
+    "name_key": "[CharacterName96]",
+    "names": {
+      "zh-CN": "阿姆蕾特"
+    },
+    "speed": 3089,
+    "start_time_jst": "2024-07-31 15:00:00",
+    "subtitle_key": "[CharacterSubName96]",
+    "subtitles": {
+      "zh-CN": "仲夏日之梦"
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 961110240,
+    "exclusive_effect_id": 408,
+    "icon_id": 680,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 961110250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 100,
+        "EquipmentEvolutionId": 110,
+        "EquipmentExclusiveSkillDescriptionId": 68,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 1,
+        "ExclusiveEffectId": 408,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 680,
+        "Id": 961110240,
+        "IsIgnore": null,
+        "Memo": "夏アムレートLR240_剣",
+        "NameKey": "[EquipmentName675]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": [
+          {
+            "BaseParameterType": 1,
+            "ChangeParameterType": 2,
+            "Value": 800.0
+          }
+        ],
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 5,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 96,
+        "Id": 408,
+        "IsIgnore": null,
+        "Memo": "夏アムレートLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill96Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill96Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill96Description3]",
+        "Id": 68,
+        "IsIgnore": null,
+        "Memo": "夏アムレート剣"
+      }
+    },
+    "name_key": "[EquipmentName675]",
+    "names": {
+      "zh-CN": "仲夏日之梦"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "base",
+        "parameter_code": "Muscle",
+        "parameter_type": 1,
+        "raw_value": 800.0,
+        "value_text": "+8%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Hit",
+        "parameter_type": 5,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill96Description1]",
+        "descriptions": {
+          "zh-CN": "强化仲夏夜之雷，技能目标增加为5名随机敌人。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill96Description2]",
+        "descriptions": {
+          "zh-CN": "强化王者意志，保留1点生命值不死与「王者意志」须在结束4次行动后才可再次触发。自第33回合起无法触发此技能。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill96Description3]",
+        "descriptions": {
+          "zh-CN": "强化星辉，揭开喜剧的序幕，第一波攻击与追加攻击造成的物理伤害提升为攻击力×580%。战斗中自第3次发动此技能起，第一波攻击与追加攻击造成的物理伤害提升为攻击力×870%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 96003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription960031]",
+          "descriptions": {
+            "zh-CN": "哪怕是残酷的命运横亘在眼前，只要有你在我身边，我将永不迷失方向。每回合开始时，阿姆蕾特获得1层增益效果，增加3%攻击力（最多20层）（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "待ち受けるのが過酷な運命だとしても、貴方と共に歩むのであれば、もう迷うことはありません。毎ターン開始時、自身に攻撃力が3%増加するバフを1スタック付与する（最大20スタックまで）（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription960032]",
+          "descriptions": {
+            "zh-CN": "攻击力增幅提升为4%（最多20层）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "攻撃力の増加量が4%になる（最大20スタックまで）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription960033]",
+          "descriptions": {
+            "zh-CN": "攻击力增幅提升为5%（最多20层）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "攻撃力の増加量が5%になる（最大20スタックまで）。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 96003,
+        "IsIgnore": null,
+        "Memo": "夏アムレートSR:Lv1 待ち受けるのが過酷な運命だとしても、貴方と共に歩むのであれば、もう迷うことはありません。毎ターン開始時、自身に攻撃力が3%増加するバフを1スタック付与する（最大20スタックまで）（解除不可）。/ Lv2 攻撃力の増加量が4%になる（最大20スタックまで）。/ Lv3 攻撃力の増加量が5%になる（最大20スタックまで）。",
+        "NameKey": "[PassiveSkillName96003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription960031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 96003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription960032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 96003201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription960033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 96003301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName96003]",
+      "names": {
+        "zh-CN": "两剑相系，一片忠贞"
+      },
+      "source_memo_ja": "夏アムレートSR:Lv1 待ち受けるのが過酷な運命だとしても、貴方と共に歩むのであれば、もう迷うことはありません。毎ターン開始時、自身に攻撃力が3%増加するバフを1スタック付与する（最大20スタックまで）（解除不可）。/ Lv2 攻撃力の増加量が4%になる（最大20スタックまで）。/ Lv3 攻撃力の増加量が5%になる（最大20スタックまで）。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "待ち受けるのが過酷な運命だとしても、貴方と共に歩むのであれば、もう迷うことはありません。毎ターン開始時、自身に攻撃力が3%増加するバフを1スタック付与する（最大20スタックまで）（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "攻撃力の増加量が4%になる（最大20スタックまで）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "攻撃力の増加量が5%になる（最大20スタックまで）。"
+        }
+      ]
+    },
+    {
+      "id": 96004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription960041]",
+          "descriptions": {
+            "zh-CN": "阿姆蕾特以坚定的意志贯彻女王的职责，当她受到致命伤害时，保留1点生命值不死，并获得增益效果「王者意志」，使自己减少90%攻击力并获得「不死之身」效果，效果持续10回合（无法被解除）。保留1点生命值不死与「王者意志」须在结束8次行动后才可再次触发。自第17回合起无法触发此技能。当阿姆蕾特受到攻击，生命值降为1时，身上附带的「王者意志」效果减少1回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "王の責務を果たすという固い決意で、自身が致命的なダメージを受けたとき、HP1で耐える。その後10ターンの間自身に『王の覚悟』を付与する（解除不可）。このバフは自身の攻撃力を90%減少させ、『不死身』の効果を持つ。HP1で耐える効果と『王の覚悟』の付与は、発動後8ターン経過するまで発動せず、17ターン目以降は発動しない。自身が攻撃を受けて、自身のHPが1の場合、自身が付帯している『王の覚悟』のターン数が1減少する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription960042]",
+          "descriptions": {
+            "zh-CN": "第7回合起触发的「王者意志」不会减少攻击力。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "『王の覚悟』の付与を7ターン目以降に発動した場合、攻撃力が減少しなくなる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription960043]",
+          "descriptions": {
+            "zh-CN": "当阿姆蕾特受到攻击，生命值降为1时，身上附带的「王者意志」效果减少1回合，并使阿姆蕾特恢复10%最大生命值。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "自身が攻撃を受けて、自身のHPが1の場合、『王の覚悟』のターン数減少の後、さらに自身のHPを自身の最大HP×10%回復する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription960044]",
+          "descriptions": {
+            "zh-CN": "强化王者意志，保留1点生命值不死与「王者意志」须在结束4次行动后才可再次触发。自第33回合起无法触发此技能。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "王たる者の覚悟を強化する。HP1で耐える効果と『王の覚悟』の付与は、発動後4ターン経過するまで発動せず、33ターン目以降は発動しない。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 96004,
+        "IsIgnore": null,
+        "Memo": "夏アムレートSR:Lv1 王の責務を果たすという固い決意で、自身が致命的なダメージを受けたとき、HP1で耐える。その後10ターンの間自身に『王の覚悟』を付与する（解除不可）。このバフは自身の攻撃力を90%減少させ、『不死身』の効果を持つ。HP1で耐える効果と『王の覚悟』の付与は、発動後8ターン経過するまで発動せず、17ターン目以降は発動しない。自身が攻撃を受けて、自身のHPが1の場合、自身が付帯している『王の覚悟』のターン数が1減少する。/ Lv2 『王の覚悟』の付与を7ターン目以降に発動した場合、攻撃力が減少しなくなる。/ Lv3 自身が攻撃を受けて、自身のHPが1の場合、『王の覚悟』のターン数減少の後、さらに自身のHPを自身の最大HP×10%回復する。/ Ex2 王たる者の覚悟を強化する。HP1で耐える効果と『王の覚悟』の付与は、発動後4ターン経過するまで発動せず、33ターン目以降は発動しない。",
+        "NameKey": "[PassiveSkillName96004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription960041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 5,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 8,
+                "SubSetSkillId": 96004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 96004002
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 31,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 96004003
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 33,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 96004003
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription960042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 5,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 8,
+                "SubSetSkillId": 96004201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 96004002
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 31,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 96004003
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 33,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 96004003
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription960043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 5,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 8,
+                "SubSetSkillId": 96004201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 96004302
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 31,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 96004003
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 33,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 96004003
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription960044]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 5,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 96004401
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 96004302
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 31,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 96004003
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 33,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 96004003
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName96004]",
+      "names": {
+        "zh-CN": "王者意志"
+      },
+      "source_memo_ja": "夏アムレートSR:Lv1 王の責務を果たすという固い決意で、自身が致命的なダメージを受けたとき、HP1で耐える。その後10ターンの間自身に『王の覚悟』を付与する（解除不可）。このバフは自身の攻撃力を90%減少させ、『不死身』の効果を持つ。HP1で耐える効果と『王の覚悟』の付与は、発動後8ターン経過するまで発動せず、17ターン目以降は発動しない。自身が攻撃を受けて、自身のHPが1の場合、自身が付帯している『王の覚悟』のターン数が1減少する。/ Lv2 『王の覚悟』の付与を7ターン目以降に発動した場合、攻撃力が減少しなくなる。/ Lv3 自身が攻撃を受けて、自身のHPが1の場合、『王の覚悟』のターン数減少の後、さらに自身のHPを自身の最大HP×10%回復する。/ Ex2 王たる者の覚悟を強化する。HP1で耐える効果と『王の覚悟』の付与は、発動後4ターン経過するまで発動せず、33ターン目以降は発動しない。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "王の責務を果たすという固い決意で、自身が致命的なダメージを受けたとき、HP1で耐える。その後10ターンの間自身に『王の覚悟』を付与する（解除不可）。このバフは自身の攻撃力を90%減少させ、『不死身』の効果を持つ。HP1で耐える効果と『王の覚悟』の付与は、発動後8ターン経過するまで発動せず、17ターン目以降は発動しない。自身が攻撃を受けて、自身のHPが1の場合、自身が付帯している『王の覚悟』のターン数が1減少する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "『王の覚悟』の付与を7ターン目以降に発動した場合、攻撃力が減少しなくなる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "自身が攻撃を受けて、自身のHPが1の場合、『王の覚悟』のターン数減少の後、さらに自身のHPを自身の最大HP×10%回復する。"
+        },
+        {
+          "label": "Ex2",
+          "text": "王たる者の覚悟を強化する。HP1で耐える効果と『王の覚悟』の付与は、発動後4ターン経過するまで発動せず、33ターン目以降は発動しない。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

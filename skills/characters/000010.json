@@ -1,0 +1,2681 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 10001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription100011]",
+          "descriptions": {
+            "zh-CN": "无数灵魂引诱生者走向死亡，随机对4名敌人造成攻击力×380%的魔法伤害，并附加「中毒」状态，效果持续2回合，每回合行动开始时造成附带者当前生命值×3%的伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "死へといざなう霊魂たちによって、ランダムな敵4体に攻撃力×380％の魔法攻撃を行い、2ターンの間『毒』を付与する。毎ターン行動開始時に現在HP×3％のダメージを与える。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription100012]",
+          "descriptions": {
+            "zh-CN": "技能暴击时，额外解除技能目标身上的1种增益效果。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらにクリティカルヒットした場合、対象のバフを1つ解除する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription100013]",
+          "descriptions": {
+            "zh-CN": "造成的魔法伤害提升为攻击力×420%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "魔法攻撃のダメージが攻撃力×420%になる。　/専用1 レストインピースを強化する。『毒』のダメージが現在HP×4％に増加する。　/専用2 レストインピースを強化する。『毒』のターン数が4ターンになる。　/専用3 レストインピースを強化する。『毒』のダメージが現在HP×5％に増加する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription100014]",
+          "descriptions": {
+            "zh-CN": "[ActiveSkillDescription100014]"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": null
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription100015]",
+          "descriptions": {
+            "zh-CN": "[ActiveSkillDescription100015]"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 5,
+          "source_memo_ja": null
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription100016]",
+          "descriptions": {
+            "zh-CN": "[ActiveSkillDescription100016]"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 6,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription100011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              10001001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription100012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              10001201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription100013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              10001301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription100014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              10001401
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription100015]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              10001501
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription100016]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 6,
+            "SubSetSkillIds": [
+              10001601
+            ]
+          }
+        ],
+        "Id": 10001,
+        "IsIgnore": null,
+        "Memo": "モーザSR: /Lv1　死へといざなう霊魂たちによって、ランダムな敵4体に攻撃力×380％の魔法攻撃を行い、2ターンの間『毒』を付与する。毎ターン行動開始時に現在HP×3％のダメージを与える。　/Lv2 さらにクリティカルヒットした場合、対象のバフを1つ解除する。　/Lv3 魔法攻撃のダメージが攻撃力×420%になる。　/専用1 レストインピースを強化する。『毒』のダメージが現在HP×4％に増加する。　/専用2 レストインピースを強化する。『毒』のターン数が4ターンになる。　/専用3 レストインピースを強化する。『毒』のダメージが現在HP×5％に増加する。",
+        "NameKey": "[ActiveSkillName10001]",
+        "RootActiveSkillId": 10001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName10001]",
+      "names": {
+        "zh-CN": "愿死者安息"
+      },
+      "source_memo_ja": "モーザSR: /Lv1　死へといざなう霊魂たちによって、ランダムな敵4体に攻撃力×380％の魔法攻撃を行い、2ターンの間『毒』を付与する。毎ターン行動開始時に現在HP×3％のダメージを与える。　/Lv2 さらにクリティカルヒットした場合、対象のバフを1つ解除する。　/Lv3 魔法攻撃のダメージが攻撃力×420%になる。　/専用1 レストインピースを強化する。『毒』のダメージが現在HP×4％に増加する。　/専用2 レストインピースを強化する。『毒』のターン数が4ターンになる。　/専用3 レストインピースを強化する。『毒』のダメージが現在HP×5％に増加する。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "死へといざなう霊魂たちによって、ランダムな敵4体に攻撃力×380％の魔法攻撃を行い、2ターンの間『毒』を付与する。毎ターン行動開始時に現在HP×3％のダメージを与える。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらにクリティカルヒットした場合、対象のバフを1つ解除する。"
+        },
+        {
+          "label": "Lv3",
+          "text": "魔法攻撃のダメージが攻撃力×420%になる。　/専用1 レストインピースを強化する。『毒』のダメージが現在HP×4％に増加する。　/専用2 レストインピースを強化する。『毒』のターン数が4ターンになる。　/専用3 レストインピースを強化する。『毒』のダメージが現在HP×5％に増加する。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 10002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription100021]",
+          "descriptions": {
+            "zh-CN": "怨气冲天的恶灵附着在墨瑟身上，随机对敌人进行3次攻击，每次造成攻击力×350%的魔法伤害。当技能目标身上附带「中毒」状态时，附加「不治」状态，效果持续3回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "強い恨みを持つ悪霊に憑依させ、ランダムな敵に3回攻撃力×350％の魔法攻撃を行う。さらに対象が『毒』を付帯している場合、3ターンの間『不治』を付与する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription100022]",
+          "descriptions": {
+            "zh-CN": "攻击次数增加为4次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "魔法攻撃の回数が4回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription100023]",
+          "descriptions": {
+            "zh-CN": "造成的魔法伤害提升为攻击力×380%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "魔法攻撃のダメージが攻撃力×380%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription100024]",
+          "descriptions": {
+            "zh-CN": "「不治」效果增加为4回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "『不治』のターン数が4ターンになる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription100021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              10002001,
+              10002002,
+              10002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription100022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              10002201,
+              10002202,
+              10002202,
+              10002202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription100023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              10002301,
+              10002302,
+              10002302,
+              10002302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription100024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              10002401,
+              10002402,
+              10002402,
+              10002402
+            ]
+          }
+        ],
+        "Id": 10002,
+        "IsIgnore": null,
+        "Memo": "モーザSR: /Lv1　強い恨みを持つ悪霊に憑依させ、ランダムな敵に3回攻撃力×350％の魔法攻撃を行う。さらに対象が『毒』を付帯している場合、3ターンの間『不治』を付与する。　/Lv2 魔法攻撃の回数が4回になる。　/Lv3 魔法攻撃のダメージが攻撃力×380%になる。　/Lv4 『不治』のターン数が4ターンになる。",
+        "NameKey": "[ActiveSkillName10002]",
+        "RootActiveSkillId": 10002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName10002]",
+      "names": {
+        "zh-CN": "送葬的信号"
+      },
+      "source_memo_ja": "モーザSR: /Lv1　強い恨みを持つ悪霊に憑依させ、ランダムな敵に3回攻撃力×350％の魔法攻撃を行う。さらに対象が『毒』を付帯している場合、3ターンの間『不治』を付与する。　/Lv2 魔法攻撃の回数が4回になる。　/Lv3 魔法攻撃のダメージが攻撃力×380%になる。　/Lv4 『不治』のターン数が4ターンになる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "強い恨みを持つ悪霊に憑依させ、ランダムな敵に3回攻撃力×350％の魔法攻撃を行う。さらに対象が『毒』を付帯している場合、3ターンの間『不治』を付与する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "魔法攻撃の回数が4回になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "魔法攻撃のダメージが攻撃力×380%になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "『不治』のターン数が4ターンになる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 1,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 500.0,
+              "value_text": "+500"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 1,
+                "Value": 500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 1,
+            "CollectionLevel": 1,
+            "Id": 101,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "トーラスの守護(アムレート,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 1,
+            "CollectionLevel": 2,
+            "Id": 102,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "トーラスの守護(アムレート,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 1,
+            "CollectionLevel": 3,
+            "Id": 103,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "トーラスの守護(アムレート,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 1,
+            "CollectionLevel": 4,
+            "Id": 104,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "トーラスの守護(アムレート,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 4000.0,
+              "value_text": "+4,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 4000.0,
+              "value_text": "+4,000"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 1,
+                "Value": 4000.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 4000.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 1,
+            "CollectionLevel": 5,
+            "Id": 105,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "トーラスの守護(アムレート,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 5000.0,
+              "value_text": "+5,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 5000.0,
+              "value_text": "+5,000"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 1,
+                "Value": 5000.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 5000.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 1,
+            "CollectionLevel": 6,
+            "Id": 106,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "トーラスの守護(アムレート,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 6000.0,
+              "value_text": "+6,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 6000.0,
+              "value_text": "+6,000"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 1,
+                "Value": 6000.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 6000.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 1,
+            "CollectionLevel": 7,
+            "Id": 107,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "トーラスの守護(アムレート,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 7000.0,
+              "value_text": "+7,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 7000.0,
+              "value_text": "+7,000"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 1,
+                "Value": 7000.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 7000.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 1,
+            "CollectionLevel": 8,
+            "Id": 108,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "トーラスの守護(アムレート,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 8000.0,
+              "value_text": "+8,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 8000.0,
+              "value_text": "+8,000"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 1,
+                "Value": 8000.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 8000.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 1,
+            "CollectionLevel": 9,
+            "Id": 109,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "トーラスの守護(アムレート,モーザ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 1,
+        "IsIgnore": null,
+        "Memo": "トーラスの守護(アムレート,モーザ)",
+        "NameKey": "[CharacterCollectionName1]",
+        "RequiredCharacterIds": [
+          6,
+          10
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2020-01-01 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName1]",
+      "names": {
+        "zh-CN": "金牛座的守护"
+      },
+      "required_character_ids": [
+        6,
+        10
+      ],
+      "required_characters": [
+        {
+          "id": 6,
+          "names": {
+            "zh-CN": "阿姆蕾特"
+          }
+        },
+        {
+          "id": 10,
+          "names": {
+            "zh-CN": "墨瑟"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2020-01-01 00:00:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 12,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 300.0,
+              "value_text": "+300"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 300.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 12,
+            "CollectionLevel": 1,
+            "Id": 1201,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・マヨルの遠吠(シフォン,フェンリル,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 500.0,
+              "value_text": "+500"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 12,
+            "CollectionLevel": 2,
+            "Id": 1202,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・マヨルの遠吠(シフォン,フェンリル,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 500.0,
+              "value_text": "+500"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 12,
+            "CollectionLevel": 3,
+            "Id": 1203,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・マヨルの遠吠(シフォン,フェンリル,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 500.0,
+              "value_text": "+500"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 500.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 12,
+            "CollectionLevel": 4,
+            "Id": 1204,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・マヨルの遠吠(シフォン,フェンリル,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 31.0,
+              "value_text": "+31×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 510.0,
+              "value_text": "+510"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 31.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 510.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 12,
+            "CollectionLevel": 5,
+            "Id": 1205,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・マヨルの遠吠(シフォン,フェンリル,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 32.0,
+              "value_text": "+32×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 520.0,
+              "value_text": "+520"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 32.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 520.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 12,
+            "CollectionLevel": 6,
+            "Id": 1206,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・マヨルの遠吠(シフォン,フェンリル,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 33.0,
+              "value_text": "+33×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 530.0,
+              "value_text": "+530"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 33.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 530.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 12,
+            "CollectionLevel": 7,
+            "Id": 1207,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・マヨルの遠吠(シフォン,フェンリル,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 34.0,
+              "value_text": "+34×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 540.0,
+              "value_text": "+540"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 34.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 540.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 12,
+            "CollectionLevel": 8,
+            "Id": 1208,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・マヨルの遠吠(シフォン,フェンリル,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 35.0,
+              "value_text": "+35×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 550.0,
+              "value_text": "+550"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 35.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 550.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 12,
+            "CollectionLevel": 9,
+            "Id": 1209,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・マヨルの遠吠(シフォン,フェンリル,モーザ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 12,
+        "IsIgnore": null,
+        "Memo": "カニス・マヨルの遠吠(シフォン,フェンリル,モーザ)",
+        "NameKey": "[CharacterCollectionName12]",
+        "RequiredCharacterIds": [
+          54,
+          7,
+          10
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2023-04-14 15:00:00"
+      },
+      "name_key": "[CharacterCollectionName12]",
+      "names": {
+        "zh-CN": "大犬座的长啸"
+      },
+      "required_character_ids": [
+        54,
+        7,
+        10
+      ],
+      "required_characters": [
+        {
+          "id": 54,
+          "names": {
+            "zh-CN": "戚风"
+          }
+        },
+        {
+          "id": 7,
+          "names": {
+            "zh-CN": "芬里尔"
+          }
+        },
+        {
+          "id": 10,
+          "names": {
+            "zh-CN": "墨瑟"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2023-04-14 15:00:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 21,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 70.0,
+              "value_text": "+0.7%"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 21,
+            "CollectionLevel": 1,
+            "Id": 2101,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボランスの鎮魂(水着モーザ,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 21,
+            "CollectionLevel": 2,
+            "Id": 2102,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボランスの鎮魂(水着モーザ,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 21,
+            "CollectionLevel": 3,
+            "Id": 2103,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボランスの鎮魂(水着モーザ,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 21,
+            "CollectionLevel": 4,
+            "Id": 2104,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボランスの鎮魂(水着モーザ,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 160.0,
+              "value_text": "+1.6%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 210.0,
+              "value_text": "+2.1%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 160.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 210.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 21,
+            "CollectionLevel": 5,
+            "Id": 2105,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボランスの鎮魂(水着モーザ,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 170.0,
+              "value_text": "+1.7%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 220.0,
+              "value_text": "+2.2%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 170.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 220.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 21,
+            "CollectionLevel": 6,
+            "Id": 2106,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボランスの鎮魂(水着モーザ,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 180.0,
+              "value_text": "+1.8%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 230.0,
+              "value_text": "+2.3%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 180.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 230.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 21,
+            "CollectionLevel": 7,
+            "Id": 2107,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボランスの鎮魂(水着モーザ,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 190.0,
+              "value_text": "+1.9%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 240.0,
+              "value_text": "+2.4%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 190.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 240.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 21,
+            "CollectionLevel": 8,
+            "Id": 2108,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボランスの鎮魂(水着モーザ,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 250.0,
+              "value_text": "+2.5%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 21,
+            "CollectionLevel": 9,
+            "Id": 2109,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボランスの鎮魂(水着モーザ,モーザ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 21,
+        "IsIgnore": null,
+        "Memo": "ボランスの鎮魂(水着モーザ,モーザ)",
+        "NameKey": "[CharacterCollectionName21]",
+        "RequiredCharacterIds": [
+          71,
+          10
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2023-07-13 15:00:00"
+      },
+      "name_key": "[CharacterCollectionName21]",
+      "names": {
+        "zh-CN": "飞鱼座的镇魂"
+      },
+      "required_character_ids": [
+        71,
+        10
+      ],
+      "required_characters": [
+        {
+          "id": 71,
+          "names": {
+            "zh-CN": "墨瑟"
+          }
+        },
+        {
+          "id": 10,
+          "names": {
+            "zh-CN": "墨瑟"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2023-07-13 15:00:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 98,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 500.0,
+              "value_text": "+500"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 98,
+            "CollectionLevel": 1,
+            "Id": 9801,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ウルクの尻尾(シロ,シフォン,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 50.0,
+              "value_text": "+50×角色等级"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              },
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 50.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 98,
+            "CollectionLevel": 2,
+            "Id": 9802,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ウルクの尻尾(シロ,シフォン,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 50.0,
+              "value_text": "+50×角色等级"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              },
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 50.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 98,
+            "CollectionLevel": 3,
+            "Id": 9803,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ウルクの尻尾(シロ,シフォン,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 50.0,
+              "value_text": "+50×角色等级"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              },
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 50.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 98,
+            "CollectionLevel": 4,
+            "Id": 9804,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ウルクの尻尾(シロ,シフォン,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1050.0,
+              "value_text": "+1,050"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 55.0,
+              "value_text": "+55×角色等级"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1050.0
+              },
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 55.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 98,
+            "CollectionLevel": 5,
+            "Id": 9805,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ウルクの尻尾(シロ,シフォン,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1100.0,
+              "value_text": "+1,100"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 60.0,
+              "value_text": "+60×角色等级"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1100.0
+              },
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 60.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 98,
+            "CollectionLevel": 6,
+            "Id": 9806,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ウルクの尻尾(シロ,シフォン,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1150.0,
+              "value_text": "+1,150"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 65.0,
+              "value_text": "+65×角色等级"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1150.0
+              },
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 65.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 98,
+            "CollectionLevel": 7,
+            "Id": 9807,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ウルクの尻尾(シロ,シフォン,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1200.0,
+              "value_text": "+1,200"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1200.0
+              },
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 98,
+            "CollectionLevel": 8,
+            "Id": 9808,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ウルクの尻尾(シロ,シフォン,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1250.0,
+              "value_text": "+1,250"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 75.0,
+              "value_text": "+75×角色等级"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1250.0
+              },
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 75.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 98,
+            "CollectionLevel": 9,
+            "Id": 9809,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ウルクの尻尾(シロ,シフォン,モーザ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 98,
+        "IsIgnore": null,
+        "Memo": "ウルクの尻尾(シロ,シフォン,モーザ)",
+        "NameKey": "[CharacterCollectionName98]",
+        "RequiredCharacterIds": [
+          153,
+          54,
+          10
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2026-07-28 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName98]",
+      "names": {
+        "zh-CN": "家犬的尾巴"
+      },
+      "required_character_ids": [
+        153,
+        54,
+        10
+      ],
+      "required_characters": [
+        {
+          "id": 153,
+          "names": {
+            "zh-CN": "小白"
+          }
+        },
+        {
+          "id": 54,
+          "names": {
+            "zh-CN": "戚风"
+          }
+        },
+        {
+          "id": 10,
+          "names": {
+            "zh-CN": "墨瑟"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2026-07-28 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 1,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 10,
+    "job_flags": 4,
+    "master_record": {
+      "ActiveSkillIds": [
+        10001,
+        10002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 80,
+        "Health": 82,
+        "Intelligence": 95,
+        "Muscle": 84
+      },
+      "BaseParameterGrossCoefficient": 341,
+      "CharacterType": 0,
+      "ElementType": 1,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 10,
+      "InitialBattleParameter": {
+        "AttackPower": 3,
+        "Avoidance": 0,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 2,
+        "DebuffResist": 0,
+        "Defense": 7,
+        "DefensePenetration": 0,
+        "HP": -2,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 2826
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 4,
+      "Memo": "モーザ",
+      "Name2Key": null,
+      "NameKey": "[CharacterName10]",
+      "NormalSkillId": 102,
+      "PassiveSkillIds": [
+        10003,
+        10004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2020-01-01 00:00:00"
+    },
+    "memo": "モーザ",
+    "name_key": "[CharacterName10]",
+    "names": {
+      "zh-CN": "墨瑟"
+    },
+    "speed": 2826,
+    "start_time_jst": "2020-01-01 00:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 2002,
+    "exclusive_effect_id": 36,
+    "icon_id": 236,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 2003,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 38,
+        "EquipmentEvolutionId": 48,
+        "EquipmentExclusiveSkillDescriptionId": 6,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 4,
+        "ExclusiveEffectId": 36,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 236,
+        "Id": 2002,
+        "IsIgnore": null,
+        "Memo": "モーザLR240_書",
+        "NameKey": "[EquipmentName231]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": null,
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 5,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          },
+          {
+            "BattleParameterType": 7,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 10,
+        "Id": 36,
+        "IsIgnore": null,
+        "Memo": "モーザLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill10Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill10Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill10Description3]",
+        "Id": 6,
+        "IsIgnore": null,
+        "Memo": "モーザ魔導書"
+      }
+    },
+    "name_key": "[EquipmentName231]",
+    "names": {
+      "zh-CN": "幽紫送葬器"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Hit",
+        "parameter_type": 5,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Critical",
+        "parameter_type": 7,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill10Description1]",
+        "descriptions": {
+          "zh-CN": "强化愿死者安息，「中毒」造成的伤害提升为附带者当前生命值×4%。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill10Description2]",
+        "descriptions": {
+          "zh-CN": "强化愿死者安息，「中毒」效果增加为4回合。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill10Description3]",
+        "descriptions": {
+          "zh-CN": "强化愿死者安息，「中毒」造成的伤害提升为附带者当前生命值×5%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 10003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription100031]",
+          "descriptions": {
+            "zh-CN": "获得救赎的灵魂回应守墓人的祈祷。当墨瑟受到攻击，生命值首次低于70%、40%时，获得「再生」状态，效果持续3回合，每回合行动开始时恢复10%最大生命值（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "救われた霊魂たちが墓守の祈りに応える。自身が攻撃を受けて、HP割合が初めて70％、40％を下回った場合、自身に3ターンの間『再生』を付与する（解除不可）。毎ターン行動開始時に自身のHPを自身の最大HP×10％回復する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription100032]",
+          "descriptions": {
+            "zh-CN": "额外获得「伤害反弹特化」，效果持续3回合，反弹伤害提升为墨瑟攻击力×200%（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに3ターンの間自身に『カウンタ変更』を付与する（解除不可）。カウンタのダメージが、自身の攻撃力×200％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription100033]",
+          "descriptions": {
+            "zh-CN": "「再生」与「伤害反弹特化」效果增加为4回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "『再生』と『カウンタ変更』のターン数がそれぞれ4ターンになる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 10003,
+        "IsIgnore": null,
+        "Memo": "モーザSR: /Lv1　救われた霊魂たちが墓守の祈りに応える。自身が攻撃を受けて、HP割合が初めて70％、40％を下回った場合、自身に3ターンの間『再生』を付与する（解除不可）。毎ターン行動開始時に自身のHPを自身の最大HP×10％回復する。　/Lv2 さらに3ターンの間自身に『カウンタ変更』を付与する（解除不可）。カウンタのダメージが、自身の攻撃力×200％になる。　/Lv3 『再生』と『カウンタ変更』のターン数がそれぞれ4ターンになる。",
+        "NameKey": "[PassiveSkillName10003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription100031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 10003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 10003002
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription100032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 10003201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 10003202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription100033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 10003301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 10003302
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName10003]",
+      "names": {
+        "zh-CN": "哀悼祈福"
+      },
+      "source_memo_ja": "モーザSR: /Lv1　救われた霊魂たちが墓守の祈りに応える。自身が攻撃を受けて、HP割合が初めて70％、40％を下回った場合、自身に3ターンの間『再生』を付与する（解除不可）。毎ターン行動開始時に自身のHPを自身の最大HP×10％回復する。　/Lv2 さらに3ターンの間自身に『カウンタ変更』を付与する（解除不可）。カウンタのダメージが、自身の攻撃力×200％になる。　/Lv3 『再生』と『カウンタ変更』のターン数がそれぞれ4ターンになる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "救われた霊魂たちが墓守の祈りに応える。自身が攻撃を受けて、HP割合が初めて70％、40％を下回った場合、自身に3ターンの間『再生』を付与する（解除不可）。毎ターン行動開始時に自身のHPを自身の最大HP×10％回復する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに3ターンの間自身に『カウンタ変更』を付与する（解除不可）。カウンタのダメージが、自身の攻撃力×200％になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "『再生』と『カウンタ変更』のターン数がそれぞれ4ターンになる。"
+        }
+      ]
+    },
+    {
+      "id": 10004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription100041]",
+          "descriptions": {
+            "zh-CN": "庄严肃穆的钟声唤来众多灵魂，使墨瑟增加15%攻击力（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "厳かな鐘の音が魂たちを呼び寄せ、自身の攻撃力が15％増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription100042]",
+          "descriptions": {
+            "zh-CN": "攻击力增幅提升为30%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "攻撃力の増加量が30％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription100043]",
+          "descriptions": {
+            "zh-CN": "额外增加30%暴击率（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらにクリティカル率が30％増加する（解除不可）。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 10004,
+        "IsIgnore": null,
+        "Memo": "モーザSR: /Lv1　厳かな鐘の音が魂たちを呼び寄せ、自身の攻撃力が15％増加する（解除不可）。　/Lv2 攻撃力の増加量が30％になる。　/Lv3 さらにクリティカル率が30％増加する（解除不可）。",
+        "NameKey": "[PassiveSkillName10004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription100041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 10004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription100042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 10004201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription100043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 10004301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName10004]",
+      "names": {
+        "zh-CN": "丧钟的低鸣"
+      },
+      "source_memo_ja": "モーザSR: /Lv1　厳かな鐘の音が魂たちを呼び寄せ、自身の攻撃力が15％増加する（解除不可）。　/Lv2 攻撃力の増加量が30％になる。　/Lv3 さらにクリティカル率が30％増加する（解除不可）。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "厳かな鐘の音が魂たちを呼び寄せ、自身の攻撃力が15％増加する（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "攻撃力の増加量が30％になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらにクリティカル率が30％増加する（解除不可）。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

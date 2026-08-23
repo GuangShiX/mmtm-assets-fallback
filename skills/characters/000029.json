@@ -1,0 +1,3165 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 29001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription290011]",
+          "descriptions": {
+            "zh-CN": "为了保护那个孩子，茉缇可以不择手段，甚至不惜借助恶魔的力量。茉缇随机对4名敌人造成攻击力×290%的魔法伤害，并获得技能总伤害×25%的「护盾」，效果持续3回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "あの子を守るためなら、どんな力でも利用する。たとえそれが、悪魔の力でも。ランダムな敵4体に攻撃力×290％の魔法攻撃を行い、3ターンの間自身にこのスキルの総与ダメージ×25％の『シールド』を付与する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription290012]",
+          "descriptions": {
+            "zh-CN": "造成的魔法伤害提升为攻击力×350%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "魔法攻撃のダメージが攻撃力×350%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription290013]",
+          "descriptions": {
+            "zh-CN": "「护盾」值提升为技能总伤害×40%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "『シールド』の大きさがこのスキルの総与ダメージ×40%になる。　/専用1 生命転化を強化する。魔法攻撃のダメージが攻撃力×410%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription290014]",
+          "descriptions": {
+            "zh-CN": "[ActiveSkillDescription290014]"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription290011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              29001001,
+              29001002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription290012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              29001201,
+              29001002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription290013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              29001201,
+              29001302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription290014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              29001401,
+              29001302
+            ]
+          }
+        ],
+        "Id": 29001,
+        "IsIgnore": null,
+        "Memo": "メルティーユSR: /Lv1　あの子を守るためなら、どんな力でも利用する。たとえそれが、悪魔の力でも。ランダムな敵4体に攻撃力×290％の魔法攻撃を行い、3ターンの間自身にこのスキルの総与ダメージ×25％の『シールド』を付与する。　/Lv2 魔法攻撃のダメージが攻撃力×350%になる。　/Lv3 『シールド』の大きさがこのスキルの総与ダメージ×40%になる。　/専用1 生命転化を強化する。魔法攻撃のダメージが攻撃力×410%になる。",
+        "NameKey": "[ActiveSkillName29001]",
+        "RootActiveSkillId": 29001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName29001]",
+      "names": {
+        "zh-CN": "生命转化"
+      },
+      "source_memo_ja": "メルティーユSR: /Lv1　あの子を守るためなら、どんな力でも利用する。たとえそれが、悪魔の力でも。ランダムな敵4体に攻撃力×290％の魔法攻撃を行い、3ターンの間自身にこのスキルの総与ダメージ×25％の『シールド』を付与する。　/Lv2 魔法攻撃のダメージが攻撃力×350%になる。　/Lv3 『シールド』の大きさがこのスキルの総与ダメージ×40%になる。　/専用1 生命転化を強化する。魔法攻撃のダメージが攻撃力×410%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "あの子を守るためなら、どんな力でも利用する。たとえそれが、悪魔の力でも。ランダムな敵4体に攻撃力×290％の魔法攻撃を行い、3ターンの間自身にこのスキルの総与ダメージ×25％の『シールド』を付与する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "魔法攻撃のダメージが攻撃力×350%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "『シールド』の大きさがこのスキルの総与ダメージ×40%になる。　/専用1 生命転化を強化する。魔法攻撃のダメージが攻撃力×410%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 29002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription290021]",
+          "descriptions": {
+            "zh-CN": "那个孩子的异状与任何细微变化都逃不过茉缇的眼睛。她对“生命”的了解无人能及，运用自己的技术，使攻击力最高的友军减少技能冷却时间1。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "あの子の不調なら、どんなに些細な変化でも見逃さない。誰よりも「命」を識る彼女の技術で、攻撃力が最も高い味方のスキルクールタイムカウントを1減少させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription290022]",
+          "descriptions": {
+            "zh-CN": "使技能目标额外增加65%攻击力，效果持续3回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに3ターンの間対象の攻撃力を65％増加させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription290023]",
+          "descriptions": {
+            "zh-CN": "额外解除技能目标身上的所有弱化效果。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらに対象が弱体効果を付帯している場合、対象の弱体効果を全て解除する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription290024]",
+          "descriptions": {
+            "zh-CN": "技能冷却时间减少量提升为2。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "スキルクールタイムカウントの減少量が2になる。　/専用2 メンテナンスを強化する。攻撃力の増加量が85％になる。　/専用3 メンテナンスを強化する。さらに3ターンの間攻撃力が最も高い味方の防御力を65％増加させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription290025]",
+          "descriptions": {
+            "zh-CN": "[ActiveSkillDescription290025]"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 5,
+          "source_memo_ja": null
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription290026]",
+          "descriptions": {
+            "zh-CN": "[ActiveSkillDescription290026]"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 6,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription290021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              29002001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription290022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              29002201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription290023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              29002301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription290024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              29002401
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription290025]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              29002501
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription290026]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 6,
+            "SubSetSkillIds": [
+              29002601
+            ]
+          }
+        ],
+        "Id": 29002,
+        "IsIgnore": null,
+        "Memo": "メルティーユSR: /Lv1　あの子の不調なら、どんなに些細な変化でも見逃さない。誰よりも「命」を識る彼女の技術で、攻撃力が最も高い味方のスキルクールタイムカウントを1減少させる。　/Lv2 さらに3ターンの間対象の攻撃力を65％増加させる。　/Lv3 さらに対象が弱体効果を付帯している場合、対象の弱体効果を全て解除する。　/Lv4 スキルクールタイムカウントの減少量が2になる。　/専用2 メンテナンスを強化する。攻撃力の増加量が85％になる。　/専用3 メンテナンスを強化する。さらに3ターンの間攻撃力が最も高い味方の防御力を65％増加させる。",
+        "NameKey": "[ActiveSkillName29002]",
+        "RootActiveSkillId": 29002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName29002]",
+      "names": {
+        "zh-CN": "维修保养"
+      },
+      "source_memo_ja": "メルティーユSR: /Lv1　あの子の不調なら、どんなに些細な変化でも見逃さない。誰よりも「命」を識る彼女の技術で、攻撃力が最も高い味方のスキルクールタイムカウントを1減少させる。　/Lv2 さらに3ターンの間対象の攻撃力を65％増加させる。　/Lv3 さらに対象が弱体効果を付帯している場合、対象の弱体効果を全て解除する。　/Lv4 スキルクールタイムカウントの減少量が2になる。　/専用2 メンテナンスを強化する。攻撃力の増加量が85％になる。　/専用3 メンテナンスを強化する。さらに3ターンの間攻撃力が最も高い味方の防御力を65％増加させる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "あの子の不調なら、どんなに些細な変化でも見逃さない。誰よりも「命」を識る彼女の技術で、攻撃力が最も高い味方のスキルクールタイムカウントを1減少させる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに3ターンの間対象の攻撃力を65％増加させる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらに対象が弱体効果を付帯している場合、対象の弱体効果を全て解除する。"
+        },
+        {
+          "label": "Lv4",
+          "text": "スキルクールタイムカウントの減少量が2になる。　/専用2 メンテナンスを強化する。攻撃力の増加量が85％になる。　/専用3 メンテナンスを強化する。さらに3ターンの間攻撃力が最も高い味方の防御力を65％増加させる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 4,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 150.0,
+              "value_text": "+150"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 1,
+                "Value": 150.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 4,
+            "CollectionLevel": 1,
+            "Id": 401,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ウルススの心眼(マーリン,コルディ,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 1500.0,
+              "value_text": "+1,500"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 1,
+                "Value": 1500.0
+              },
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 4,
+            "CollectionLevel": 2,
+            "Id": 402,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ウルススの心眼(マーリン,コルディ,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 1500.0,
+              "value_text": "+1,500"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 1,
+                "Value": 1500.0
+              },
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 4,
+            "CollectionLevel": 3,
+            "Id": 403,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ウルススの心眼(マーリン,コルディ,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 1500.0,
+              "value_text": "+1,500"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 1,
+                "Value": 1500.0
+              },
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 4,
+            "CollectionLevel": 4,
+            "Id": 404,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ウルススの心眼(マーリン,コルディ,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 2000.0,
+              "value_text": "+2,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 1,
+                "Value": 2000.0
+              },
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 4,
+            "CollectionLevel": 5,
+            "Id": 405,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ウルススの心眼(マーリン,コルディ,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 2500.0,
+              "value_text": "+2,500"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 1,
+                "Value": 2500.0
+              },
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 4,
+            "CollectionLevel": 6,
+            "Id": 406,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ウルススの心眼(マーリン,コルディ,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 250.0,
+              "value_text": "+2.5%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              },
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 4,
+            "CollectionLevel": 7,
+            "Id": 407,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ウルススの心眼(マーリン,コルディ,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 3500.0,
+              "value_text": "+3,500"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 300.0,
+              "value_text": "+3%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 1,
+                "Value": 3500.0
+              },
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 300.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 4,
+            "CollectionLevel": 8,
+            "Id": 408,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ウルススの心眼(マーリン,コルディ,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 4000.0,
+              "value_text": "+4,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 350.0,
+              "value_text": "+3.5%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 1,
+                "Value": 4000.0
+              },
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 350.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 4,
+            "CollectionLevel": 9,
+            "Id": 409,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ウルススの心眼(マーリン,コルディ,メルティーユ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 4,
+        "IsIgnore": null,
+        "Memo": "ウルススの心眼(マーリン,コルディ,メルティーユ)",
+        "NameKey": "[CharacterCollectionName4]",
+        "RequiredCharacterIds": [
+          26,
+          27,
+          29
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2020-01-01 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName4]",
+      "names": {
+        "zh-CN": "大熊座的心之眼"
+      },
+      "required_character_ids": [
+        26,
+        27,
+        29
+      ],
+      "required_characters": [
+        {
+          "id": 26,
+          "names": {
+            "zh-CN": "梅琳"
+          }
+        },
+        {
+          "id": 27,
+          "names": {
+            "zh-CN": "科迪"
+          }
+        },
+        {
+          "id": 29,
+          "names": {
+            "zh-CN": "茉缇"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2020-01-01 00:00:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 17,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 15.0,
+              "value_text": "+15×角色等级"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 15.0
+              }
+            ],
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 17,
+            "CollectionLevel": 1,
+            "Id": 1701,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アウリガの知恵(アーティ,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 17,
+            "CollectionLevel": 2,
+            "Id": 1702,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アウリガの知恵(アーティ,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 17,
+            "CollectionLevel": 3,
+            "Id": 1703,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アウリガの知恵(アーティ,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 17,
+            "CollectionLevel": 4,
+            "Id": 1704,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アウリガの知恵(アーティ,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 31.0,
+              "value_text": "+31×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 110.0,
+              "value_text": "+1.1%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 31.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 110.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 17,
+            "CollectionLevel": 5,
+            "Id": 1705,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アウリガの知恵(アーティ,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 32.0,
+              "value_text": "+32×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 120.0,
+              "value_text": "+1.2%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 32.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 120.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 17,
+            "CollectionLevel": 6,
+            "Id": 1706,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アウリガの知恵(アーティ,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 33.0,
+              "value_text": "+33×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 130.0,
+              "value_text": "+1.3%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 33.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 130.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 17,
+            "CollectionLevel": 7,
+            "Id": 1707,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アウリガの知恵(アーティ,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 34.0,
+              "value_text": "+34×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 140.0,
+              "value_text": "+1.4%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 34.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 140.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 17,
+            "CollectionLevel": 8,
+            "Id": 1708,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アウリガの知恵(アーティ,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 35.0,
+              "value_text": "+35×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 35.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 17,
+            "CollectionLevel": 9,
+            "Id": 1709,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アウリガの知恵(アーティ,メルティーユ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 17,
+        "IsIgnore": null,
+        "Memo": "アウリガの知恵(アーティ,メルティーユ)",
+        "NameKey": "[CharacterCollectionName17]",
+        "RequiredCharacterIds": [
+          58,
+          29
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2023-05-31 15:00:00"
+      },
+      "name_key": "[CharacterCollectionName17]",
+      "names": {
+        "zh-CN": "御夫座的智慧"
+      },
+      "required_character_ids": [
+        58,
+        29
+      ],
+      "required_characters": [
+        {
+          "id": 58,
+          "names": {
+            "zh-CN": "亚缇"
+          }
+        },
+        {
+          "id": 29,
+          "names": {
+            "zh-CN": "茉缇"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2023-05-31 15:00:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 36,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 500.0,
+              "value_text": "+500"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 36,
+            "CollectionLevel": 1,
+            "Id": 3601,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ウルサ・ミノルの心根(Ａ.Ａ.,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 36,
+            "CollectionLevel": 2,
+            "Id": 3602,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ウルサ・ミノルの心根(Ａ.Ａ.,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 36,
+            "CollectionLevel": 3,
+            "Id": 3603,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ウルサ・ミノルの心根(Ａ.Ａ.,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 36,
+            "CollectionLevel": 4,
+            "Id": 3604,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ウルサ・ミノルの心根(Ａ.Ａ.,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 41.0,
+              "value_text": "+41×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1050.0,
+              "value_text": "+1,050"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 41.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1050.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 36,
+            "CollectionLevel": 5,
+            "Id": 3605,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ウルサ・ミノルの心根(Ａ.Ａ.,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 42.0,
+              "value_text": "+42×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1100.0,
+              "value_text": "+1,100"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 42.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1100.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 36,
+            "CollectionLevel": 6,
+            "Id": 3606,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ウルサ・ミノルの心根(Ａ.Ａ.,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 43.0,
+              "value_text": "+43×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1150.0,
+              "value_text": "+1,150"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 43.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1150.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 36,
+            "CollectionLevel": 7,
+            "Id": 3607,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ウルサ・ミノルの心根(Ａ.Ａ.,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 44.0,
+              "value_text": "+44×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1200.0,
+              "value_text": "+1,200"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 44.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 36,
+            "CollectionLevel": 8,
+            "Id": 3608,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ウルサ・ミノルの心根(Ａ.Ａ.,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 45.0,
+              "value_text": "+45×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1250.0,
+              "value_text": "+1,250"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 45.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 36,
+            "CollectionLevel": 9,
+            "Id": 3609,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ウルサ・ミノルの心根(Ａ.Ａ.,メルティーユ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 36,
+        "IsIgnore": null,
+        "Memo": "ウルサ・ミノルの心根(Ａ.Ａ.,メルティーユ)",
+        "NameKey": "[CharacterCollectionName36]",
+        "RequiredCharacterIds": [
+          48,
+          29
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2023-12-20 14:30:00"
+      },
+      "name_key": "[CharacterCollectionName36]",
+      "names": {
+        "zh-CN": "小熊座的真心"
+      },
+      "required_character_ids": [
+        48,
+        29
+      ],
+      "required_characters": [
+        {
+          "id": 48,
+          "names": {
+            "zh-CN": "A.A."
+          }
+        },
+        {
+          "id": 29,
+          "names": {
+            "zh-CN": "茉缇"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2023-12-20 14:30:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 55,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 55,
+            "CollectionLevel": 1,
+            "Id": 5501,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ノーマの分析(セルリア,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 55,
+            "CollectionLevel": 2,
+            "Id": 5502,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ノーマの分析(セルリア,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 55,
+            "CollectionLevel": 3,
+            "Id": 5503,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ノーマの分析(セルリア,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 55,
+            "CollectionLevel": 4,
+            "Id": 5504,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ノーマの分析(セルリア,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 41.0,
+              "value_text": "+41×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 71.0,
+              "value_text": "+71×角色等级"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 41.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 71.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 55,
+            "CollectionLevel": 5,
+            "Id": 5505,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ノーマの分析(セルリア,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 42.0,
+              "value_text": "+42×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 72.0,
+              "value_text": "+72×角色等级"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 42.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 72.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 55,
+            "CollectionLevel": 6,
+            "Id": 5506,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ノーマの分析(セルリア,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 43.0,
+              "value_text": "+43×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 73.0,
+              "value_text": "+73×角色等级"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 43.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 73.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 55,
+            "CollectionLevel": 7,
+            "Id": 5507,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ノーマの分析(セルリア,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 44.0,
+              "value_text": "+44×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 74.0,
+              "value_text": "+74×角色等级"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 44.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 74.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 55,
+            "CollectionLevel": 8,
+            "Id": 5508,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ノーマの分析(セルリア,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 45.0,
+              "value_text": "+45×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 75.0,
+              "value_text": "+75×角色等级"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 45.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 75.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 55,
+            "CollectionLevel": 9,
+            "Id": 5509,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ノーマの分析(セルリア,メルティーユ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 55,
+        "IsIgnore": null,
+        "Memo": "ノーマの分析(セルリア,メルティーユ)",
+        "NameKey": "[CharacterCollectionName55]",
+        "RequiredCharacterIds": [
+          79,
+          29
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2024-09-12 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName55]",
+      "names": {
+        "zh-CN": "矩尺座的分析"
+      },
+      "required_character_ids": [
+        79,
+        29
+      ],
+      "required_characters": [
+        {
+          "id": 79,
+          "names": {
+            "zh-CN": "瑟露莉亚"
+          }
+        },
+        {
+          "id": 29,
+          "names": {
+            "zh-CN": "茉缇"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2024-09-12 00:00:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 72,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 100.0,
+              "value_text": "+100"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 72,
+            "CollectionLevel": 1,
+            "Id": 7201,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ポラリスの愛情(制服Ａ.Ａ.,Ａ.Ａ.,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 200.0,
+              "value_text": "+200"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 72,
+            "CollectionLevel": 2,
+            "Id": 7202,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ポラリスの愛情(制服Ａ.Ａ.,Ａ.Ａ.,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 200.0,
+              "value_text": "+200"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 72,
+            "CollectionLevel": 3,
+            "Id": 7203,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ポラリスの愛情(制服Ａ.Ａ.,Ａ.Ａ.,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 200.0,
+              "value_text": "+200"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 72,
+            "CollectionLevel": 4,
+            "Id": 7204,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ポラリスの愛情(制服Ａ.Ａ.,Ａ.Ａ.,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 205.0,
+              "value_text": "+205"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1050.0,
+              "value_text": "+1,050"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 205.0
+              },
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1050.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 72,
+            "CollectionLevel": 5,
+            "Id": 7205,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ポラリスの愛情(制服Ａ.Ａ.,Ａ.Ａ.,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 210.0,
+              "value_text": "+210"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1100.0,
+              "value_text": "+1,100"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 210.0
+              },
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1100.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 72,
+            "CollectionLevel": 6,
+            "Id": 7206,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ポラリスの愛情(制服Ａ.Ａ.,Ａ.Ａ.,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 215.0,
+              "value_text": "+215"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1150.0,
+              "value_text": "+1,150"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 215.0
+              },
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1150.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 72,
+            "CollectionLevel": 7,
+            "Id": 7207,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ポラリスの愛情(制服Ａ.Ａ.,Ａ.Ａ.,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 220.0,
+              "value_text": "+220"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1200.0,
+              "value_text": "+1,200"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 220.0
+              },
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 72,
+            "CollectionLevel": 8,
+            "Id": 7208,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ポラリスの愛情(制服Ａ.Ａ.,Ａ.Ａ.,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 225.0,
+              "value_text": "+225"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1250.0,
+              "value_text": "+1,250"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 225.0
+              },
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 72,
+            "CollectionLevel": 9,
+            "Id": 7209,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ポラリスの愛情(制服Ａ.Ａ.,Ａ.Ａ.,メルティーユ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 72,
+        "IsIgnore": null,
+        "Memo": "ポラリスの愛情(制服Ａ.Ａ.,Ａ.Ａ.,メルティーユ)",
+        "NameKey": "[CharacterCollectionName72]",
+        "RequiredCharacterIds": [
+          117,
+          48,
+          29
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2025-04-30 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName72]",
+      "names": {
+        "zh-CN": "北极星的爱情"
+      },
+      "required_character_ids": [
+        117,
+        48,
+        29
+      ],
+      "required_characters": [
+        {
+          "id": 117,
+          "names": {
+            "zh-CN": "A.A."
+          }
+        },
+        {
+          "id": 48,
+          "names": {
+            "zh-CN": "A.A."
+          }
+        },
+        {
+          "id": 29,
+          "names": {
+            "zh-CN": "茉缇"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2025-04-30 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 3,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 29,
+    "job_flags": 4,
+    "master_record": {
+      "ActiveSkillIds": [
+        29001,
+        29002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 85,
+        "Health": 74,
+        "Intelligence": 94,
+        "Muscle": 85
+      },
+      "BaseParameterGrossCoefficient": 338,
+      "CharacterType": 0,
+      "ElementType": 3,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 29,
+      "InitialBattleParameter": {
+        "AttackPower": -3,
+        "Avoidance": 1,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 10,
+        "DefensePenetration": 0,
+        "HP": -1,
+        "Hit": 1,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 3,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 2796
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 4,
+      "Memo": "メルティーユ",
+      "Name2Key": null,
+      "NameKey": "[CharacterName29]",
+      "NormalSkillId": 102,
+      "PassiveSkillIds": [
+        29003,
+        29004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2020-01-01 00:00:00"
+    },
+    "memo": "メルティーユ",
+    "name_key": "[CharacterName29]",
+    "names": {
+      "zh-CN": "茉缇"
+    },
+    "speed": 2796,
+    "start_time_jst": "2020-01-01 00:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 2640,
+    "exclusive_effect_id": 102,
+    "icon_id": 302,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 2641,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 49,
+        "EquipmentEvolutionId": 59,
+        "EquipmentExclusiveSkillDescriptionId": 17,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 4,
+        "ExclusiveEffectId": 102,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 302,
+        "Id": 2640,
+        "IsIgnore": null,
+        "Memo": "メルティーユLR240_書",
+        "NameKey": "[EquipmentName297]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": [
+          {
+            "BaseParameterType": 4,
+            "ChangeParameterType": 2,
+            "Value": 800.0
+          }
+        ],
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 5,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 29,
+        "Id": 102,
+        "IsIgnore": null,
+        "Memo": "メルティーユLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill29Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill29Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill29Description3]",
+        "Id": 17,
+        "IsIgnore": null,
+        "Memo": "メルティーユ魔導書"
+      }
+    },
+    "name_key": "[EquipmentName297]",
+    "names": {
+      "zh-CN": "万能溶剂原理"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "base",
+        "parameter_code": "Health",
+        "parameter_type": 4,
+        "raw_value": 800.0,
+        "value_text": "+8%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Hit",
+        "parameter_type": 5,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill29Description1]",
+        "descriptions": {
+          "zh-CN": "强化生命转化，造成的魔法伤害提升为攻击力×410%。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill29Description2]",
+        "descriptions": {
+          "zh-CN": "强化维修保养，攻击力增幅提升为85%。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill29Description3]",
+        "descriptions": {
+          "zh-CN": "强化维修保养，使攻击力最高的友军额外增加65%防御力，效果持续3回合。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 29003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription290031]",
+          "descriptions": {
+            "zh-CN": "为了保护心爱的孩子，茉缇打造了这个躯体。在每回合开始时或受到攻击后，如果茉缇的生命值低于40%，获得「再生」状态，效果持续4回合，每回合行动开始时恢复15%最大生命值（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "その体は愛する子を守るために造られた。毎ターン開始時、もしくは自身が攻撃を受けたとき、自身のHP割合が40％未満の場合、4ターンの間自身に『再生』を付与する（解除不可）。毎ターン行動開始時に自身のHPを自身の最大HP×15％回復する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription290032]",
+          "descriptions": {
+            "zh-CN": "「再生」的恢复量提升为20%最大生命值。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "『再生』での回復量が自身の最大HP×20%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription290033]",
+          "descriptions": {
+            "zh-CN": "额外获得「隐身」状态，效果持续4回合（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらに自身に4ターンの間『ステルス』を付与する（解除不可）。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 29003,
+        "IsIgnore": null,
+        "Memo": "メルティーユSR: /Lv1　その体は愛する子を守るために造られた。毎ターン開始時、もしくは自身が攻撃を受けたとき、自身のHP割合が40％未満の場合、4ターンの間自身に『再生』を付与する（解除不可）。毎ターン行動開始時に自身のHPを自身の最大HP×15％回復する。　/Lv2 『再生』での回復量が自身の最大HP×20%になる。　/Lv3 さらに自身に4ターンの間『ステルス』を付与する（解除不可）。",
+        "NameKey": "[PassiveSkillName29003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription290031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 29003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 29003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 30,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 29003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription290032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 29003201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 29003201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 30,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 29003201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription290033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 29003301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 29003301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 30,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 29003301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName29003]",
+      "names": {
+        "zh-CN": "人造人之躯"
+      },
+      "source_memo_ja": "メルティーユSR: /Lv1　その体は愛する子を守るために造られた。毎ターン開始時、もしくは自身が攻撃を受けたとき、自身のHP割合が40％未満の場合、4ターンの間自身に『再生』を付与する（解除不可）。毎ターン行動開始時に自身のHPを自身の最大HP×15％回復する。　/Lv2 『再生』での回復量が自身の最大HP×20%になる。　/Lv3 さらに自身に4ターンの間『ステルス』を付与する（解除不可）。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "その体は愛する子を守るために造られた。毎ターン開始時、もしくは自身が攻撃を受けたとき、自身のHP割合が40％未満の場合、4ターンの間自身に『再生』を付与する（解除不可）。毎ターン行動開始時に自身のHPを自身の最大HP×15％回復する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "『再生』での回復量が自身の最大HP×20%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらに自身に4ターンの間『ステルス』を付与する（解除不可）。"
+        }
+      ]
+    },
+    {
+      "id": 29004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription290041]",
+          "descriptions": {
+            "zh-CN": "茉缇多年来的人造人研究成果也适用于自己的身体，使她增加30%弱化效果抵抗率（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "長年にわたるホムンクルスの研究成果は、自分の体にも適用されている。自身の弱体効果耐性率が30％増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription290042]",
+          "descriptions": {
+            "zh-CN": "弱化效果抵抗率增幅提升为50%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "弱体効果耐性率の増加量が50％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription290043]",
+          "descriptions": {
+            "zh-CN": "弱化效果抵抗率增幅提升为100%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "弱体効果耐性率の増加量が100％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 29004,
+        "IsIgnore": null,
+        "Memo": "メルティーユSR: /Lv1　長年にわたるホムンクルスの研究成果は、自分の体にも適用されている。自身の弱体効果耐性率が30％増加する（解除不可）。　/Lv2 弱体効果耐性率の増加量が50％になる。　/Lv3 弱体効果耐性率の増加量が100％になる。",
+        "NameKey": "[PassiveSkillName29004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription290041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 29004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription290042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 29004201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription290043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 29004301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName29004]",
+      "names": {
+        "zh-CN": "研究成果"
+      },
+      "source_memo_ja": "メルティーユSR: /Lv1　長年にわたるホムンクルスの研究成果は、自分の体にも適用されている。自身の弱体効果耐性率が30％増加する（解除不可）。　/Lv2 弱体効果耐性率の増加量が50％になる。　/Lv3 弱体効果耐性率の増加量が100％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "長年にわたるホムンクルスの研究成果は、自分の体にも適用されている。自身の弱体効果耐性率が30％増加する（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "弱体効果耐性率の増加量が50％になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "弱体効果耐性率の増加量が100％になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

@@ -1,0 +1,1793 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 125001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription1250011]",
+          "descriptions": {
+            "zh-CN": "“卡蜜拉要咬你咯♪”卡蜜拉随机对5名敌人造成攻击力×210%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「カプッてしちゃうぞ♪」ランダムな敵5体に攻撃力×210%の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription1250012]",
+          "descriptions": {
+            "zh-CN": "对技能目标额外附加「流血」状态，效果持续2回合，每回合行动开始时造成卡蜜拉攻击力×20%的伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに対象に2ターンの間『出血』を付与する。毎ターン行動開始時に自身の攻撃力×20%のダメージを与える。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1250013]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×420%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃のダメージが攻撃力×420%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1250014]",
+          "descriptions": {
+            "zh-CN": "强化腥甜之吻，「流血」造成的伤害提升为卡蜜拉攻击力×50%。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "スウィートバイトを強化する。『出血』のダメージが自身の攻撃力×50%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription1250011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              125001001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription1250012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              125001201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1250013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              125001301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1250014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              125001401
+            ]
+          }
+        ],
+        "Id": 125001,
+        "IsIgnore": null,
+        "Memo": "カーミラSR:Lv1 「カプッてしちゃうぞ♪」ランダムな敵5体に攻撃力×210%の物理攻撃を行う。/ Lv2 さらに対象に2ターンの間『出血』を付与する。毎ターン行動開始時に自身の攻撃力×20%のダメージを与える。/ Lv3 物理攻撃のダメージが攻撃力×420%になる。/ Ex1 スウィートバイトを強化する。『出血』のダメージが自身の攻撃力×50%になる。",
+        "NameKey": "[ActiveSkillName125001]",
+        "RootActiveSkillId": 125001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName125001]",
+      "names": {
+        "zh-CN": "腥甜之吻"
+      },
+      "source_memo_ja": "カーミラSR:Lv1 「カプッてしちゃうぞ♪」ランダムな敵5体に攻撃力×210%の物理攻撃を行う。/ Lv2 さらに対象に2ターンの間『出血』を付与する。毎ターン行動開始時に自身の攻撃力×20%のダメージを与える。/ Lv3 物理攻撃のダメージが攻撃力×420%になる。/ Ex1 スウィートバイトを強化する。『出血』のダメージが自身の攻撃力×50%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「カプッてしちゃうぞ♪」ランダムな敵5体に攻撃力×210%の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに対象に2ターンの間『出血』を付与する。毎ターン行動開始時に自身の攻撃力×20%のダメージを与える。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃のダメージが攻撃力×420%になる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "スウィートバイトを強化する。『出血』のダメージが自身の攻撃力×50%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 125002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription1250021]",
+          "descriptions": {
+            "zh-CN": "“啊哈哈！不经打的小喽啰～！”卡蜜拉对生命值百分比最低的2名敌人造成攻击力×320%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「あははっ！　よわよわのざっこざこ～！」HP割合が低い敵2体に攻撃力×320%の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription1250022]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×570%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "物理攻撃のダメージが攻撃力×570%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription1250023]",
+          "descriptions": {
+            "zh-CN": "当技能目标身上没有弱化效果时，造成的物理伤害提升为攻击力×1710%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらに対象が弱体効果を付帯していない場合、物理攻撃のダメージが攻撃力×1710%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription1250024]",
+          "descriptions": {
+            "zh-CN": "技能目标增加为生命值百分比最低的3名敌人。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "このスキルの対象がHP割合が低い敵3体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription1250025]",
+          "descriptions": {
+            "zh-CN": "强化腥红之月，造成的物理伤害提升为攻击力×630%。当技能目标身上没有弱化效果时，造成的物理伤害提升为攻击力×1890%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "ブラッディムーンを強化する。物理攻撃のダメージが攻撃力×630%になる。対象が弱体効果を付帯していない場合、物理攻撃のダメージが攻撃力×1890%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription1250021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              125002001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription1250022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              125002201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription1250023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              125002301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription1250024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              125002401
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription1250025]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              125002501
+            ]
+          }
+        ],
+        "Id": 125002,
+        "IsIgnore": null,
+        "Memo": "カーミラSR:Lv1 「あははっ！　よわよわのざっこざこ～！」HP割合が低い敵2体に攻撃力×320%の物理攻撃を行う。/ Lv2 物理攻撃のダメージが攻撃力×570%になる。/ Lv3 さらに対象が弱体効果を付帯していない場合、物理攻撃のダメージが攻撃力×1710%になる。/ Lv4 このスキルの対象がHP割合が低い敵3体になる。/ Ex3 ブラッディムーンを強化する。物理攻撃のダメージが攻撃力×630%になる。対象が弱体効果を付帯していない場合、物理攻撃のダメージが攻撃力×1890%になる。",
+        "NameKey": "[ActiveSkillName125002]",
+        "RootActiveSkillId": 125002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName125002]",
+      "names": {
+        "zh-CN": "腥红之月"
+      },
+      "source_memo_ja": "カーミラSR:Lv1 「あははっ！　よわよわのざっこざこ～！」HP割合が低い敵2体に攻撃力×320%の物理攻撃を行う。/ Lv2 物理攻撃のダメージが攻撃力×570%になる。/ Lv3 さらに対象が弱体効果を付帯していない場合、物理攻撃のダメージが攻撃力×1710%になる。/ Lv4 このスキルの対象がHP割合が低い敵3体になる。/ Ex3 ブラッディムーンを強化する。物理攻撃のダメージが攻撃力×630%になる。対象が弱体効果を付帯していない場合、物理攻撃のダメージが攻撃力×1890%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「あははっ！　よわよわのざっこざこ～！」HP割合が低い敵2体に攻撃力×320%の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "物理攻撃のダメージが攻撃力×570%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらに対象が弱体効果を付帯していない場合、物理攻撃のダメージが攻撃力×1710%になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "このスキルの対象がHP割合が低い敵3体になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "ブラッディムーンを強化する。物理攻撃のダメージが攻撃力×630%になる。対象が弱体効果を付帯していない場合、物理攻撃のダメージが攻撃力×1890%になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 78,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 78,
+            "CollectionLevel": 1,
+            "Id": 7801,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ジラファの虚像(カーミラ,アイリーン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 78,
+            "CollectionLevel": 2,
+            "Id": 7802,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ジラファの虚像(カーミラ,アイリーン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 78,
+            "CollectionLevel": 3,
+            "Id": 7803,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ジラファの虚像(カーミラ,アイリーン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 78,
+            "CollectionLevel": 4,
+            "Id": 7804,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ジラファの虚像(カーミラ,アイリーン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 210.0,
+              "value_text": "+2.1%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 75.0,
+              "value_text": "+75×角色等级"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 2,
+                "Value": 210.0
+              },
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 75.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 78,
+            "CollectionLevel": 5,
+            "Id": 7805,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ジラファの虚像(カーミラ,アイリーン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 220.0,
+              "value_text": "+2.2%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 80.0,
+              "value_text": "+80×角色等级"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 2,
+                "Value": 220.0
+              },
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 80.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 78,
+            "CollectionLevel": 6,
+            "Id": 7806,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ジラファの虚像(カーミラ,アイリーン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 230.0,
+              "value_text": "+2.3%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 85.0,
+              "value_text": "+85×角色等级"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 2,
+                "Value": 230.0
+              },
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 85.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 78,
+            "CollectionLevel": 7,
+            "Id": 7807,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ジラファの虚像(カーミラ,アイリーン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 240.0,
+              "value_text": "+2.4%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 90.0,
+              "value_text": "+90×角色等级"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 2,
+                "Value": 240.0
+              },
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 90.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 78,
+            "CollectionLevel": 8,
+            "Id": 7808,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ジラファの虚像(カーミラ,アイリーン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 250.0,
+              "value_text": "+2.5%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 95.0,
+              "value_text": "+95×角色等级"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 2,
+                "Value": 250.0
+              },
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 95.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 78,
+            "CollectionLevel": 9,
+            "Id": 7809,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ジラファの虚像(カーミラ,アイリーン)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 78,
+        "IsIgnore": null,
+        "Memo": "ジラファの虚像(カーミラ,アイリーン)",
+        "NameKey": "[CharacterCollectionName78]",
+        "RequiredCharacterIds": [
+          125,
+          109
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2025-08-28 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName78]",
+      "names": {
+        "zh-CN": "鹿豹座的虚像"
+      },
+      "required_character_ids": [
+        125,
+        109
+      ],
+      "required_characters": [
+        {
+          "id": 125,
+          "names": {
+            "zh-CN": "卡蜜拉"
+          }
+        },
+        {
+          "id": 109,
+          "names": {
+            "zh-CN": "厄瑞涅"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2025-08-28 00:00:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 90,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 500.0,
+              "value_text": "+500"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 90,
+            "CollectionLevel": 1,
+            "Id": 9001,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アラネアの悪夢​(レジーナ,カーミラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 90,
+            "CollectionLevel": 2,
+            "Id": 9002,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アラネアの悪夢​(レジーナ,カーミラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 90,
+            "CollectionLevel": 3,
+            "Id": 9003,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アラネアの悪夢​(レジーナ,カーミラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 90,
+            "CollectionLevel": 4,
+            "Id": 9004,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アラネアの悪夢​(レジーナ,カーミラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 41.0,
+              "value_text": "+41×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1050.0,
+              "value_text": "+1,050"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 41.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1050.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 90,
+            "CollectionLevel": 5,
+            "Id": 9005,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アラネアの悪夢​(レジーナ,カーミラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 42.0,
+              "value_text": "+42×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1100.0,
+              "value_text": "+1,100"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 42.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1100.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 90,
+            "CollectionLevel": 6,
+            "Id": 9006,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アラネアの悪夢​(レジーナ,カーミラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 43.0,
+              "value_text": "+43×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1150.0,
+              "value_text": "+1,150"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 43.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1150.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 90,
+            "CollectionLevel": 7,
+            "Id": 9007,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アラネアの悪夢​(レジーナ,カーミラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 44.0,
+              "value_text": "+44×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1200.0,
+              "value_text": "+1,200"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 44.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 90,
+            "CollectionLevel": 8,
+            "Id": 9008,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アラネアの悪夢​(レジーナ,カーミラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 45.0,
+              "value_text": "+45×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1250.0,
+              "value_text": "+1,250"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 45.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 90,
+            "CollectionLevel": 9,
+            "Id": 9009,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アラネアの悪夢​(レジーナ,カーミラ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 90,
+        "IsIgnore": null,
+        "Memo": "アラネアの悪夢​(レジーナ,カーミラ)",
+        "NameKey": "[CharacterCollectionName90]",
+        "RequiredCharacterIds": [
+          137,
+          125
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2026-02-26 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName90]",
+      "names": {
+        "zh-CN": "蜘蛛座的噩梦"
+      },
+      "required_character_ids": [
+        137,
+        125
+      ],
+      "required_characters": [
+        {
+          "id": 137,
+          "names": {
+            "zh-CN": "雷金娜"
+          }
+        },
+        {
+          "id": 125,
+          "names": {
+            "zh-CN": "卡蜜拉"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2026-02-26 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 6,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 125,
+    "job_flags": 1,
+    "master_record": {
+      "ActiveSkillIds": [
+        125001,
+        125002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 74,
+        "Health": 87,
+        "Intelligence": 90,
+        "Muscle": 97
+      },
+      "BaseParameterGrossCoefficient": 348,
+      "CharacterType": 0,
+      "ElementType": 6,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 125,
+      "InitialBattleParameter": {
+        "AttackPower": -2,
+        "Avoidance": 0,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 5,
+        "DebuffResist": 0,
+        "Defense": 7,
+        "DefensePenetration": 0,
+        "HP": 0,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 2672
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 1,
+      "Memo": "カーミラ",
+      "Name2Key": "",
+      "NameKey": "[CharacterName125]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        125003,
+        125004,
+        125005
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2025-08-28 15:00:00"
+    },
+    "memo": "カーミラ",
+    "name_key": "[CharacterName125]",
+    "names": {
+      "zh-CN": "卡蜜拉"
+    },
+    "speed": 2672,
+    "start_time_jst": "2025-08-28 15:00:00",
+    "subtitle_key": "",
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 1251110240,
+    "exclusive_effect_id": 564,
+    "icon_id": 854,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 1251110250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 126,
+        "EquipmentEvolutionId": 136,
+        "EquipmentExclusiveSkillDescriptionId": 94,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 1,
+        "ExclusiveEffectId": 564,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 854,
+        "Id": 1251110240,
+        "IsIgnore": null,
+        "Memo": "カーミラLR240_剣",
+        "NameKey": "[EquipmentName849]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": [
+          {
+            "BaseParameterType": 4,
+            "ChangeParameterType": 2,
+            "Value": 800.0
+          }
+        ],
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 11,
+            "ChangeParameterType": 1,
+            "Value": 3500.0
+          }
+        ],
+        "CharacterId": 125,
+        "Id": 564,
+        "IsIgnore": null,
+        "Memo": "カーミラLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill125Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill125Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill125Description3]",
+        "Id": 94,
+        "IsIgnore": null,
+        "Memo": "カーミラ剣"
+      }
+    },
+    "name_key": "[EquipmentName849]",
+    "names": {
+      "zh-CN": "蝠形发饰"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "base",
+        "parameter_code": "Health",
+        "parameter_type": 4,
+        "raw_value": 800.0,
+        "value_text": "+8%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 1,
+        "kind": "battle",
+        "parameter_code": "MagicCriticalDamageRelax",
+        "parameter_type": 11,
+        "raw_value": 3500.0,
+        "value_text": "+3,500"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill125Description1]",
+        "descriptions": {
+          "zh-CN": "强化腥甜之吻，「流血」造成的伤害提升为卡蜜拉攻击力×50%。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill125Description2]",
+        "descriptions": {
+          "zh-CN": "第1回合开始时，卡蜜拉对攻击力最高的3名敌人附加「脱力」状态，效果持续4回合，使附带者减少40%战斗期间的攻击力。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill125Description3]",
+        "descriptions": {
+          "zh-CN": "强化腥红之月，造成的物理伤害提升为攻击力×630%。当技能目标身上没有弱化效果时，造成的物理伤害提升为攻击力×1890%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": false,
+  "missing_localization_keys": [
+    "",
+    "*"
+  ],
+  "passive_skills": [
+    {
+      "id": 125003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription1250031]",
+          "descriptions": {
+            "zh-CN": "“卡蜜拉肚子饿了，分一点生命给卡蜜拉吧♪”第1回合到第4回合的每回合开始时，卡蜜拉使速度最高的敌人减少20%物魔防御穿透，效果持续1回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「カーミラちゃんお腹すいちゃったから、ちょーっとだけ命をもらうね♪」4ターン目までの毎ターン開始時、1ターンの間スピードが最も高い敵の物魔防御貫通を20%減少させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription1250032]",
+          "descriptions": {
+            "zh-CN": "当技能目标的生命值为10%以下时，额外附加「晕厥」状态，效果持续1回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらにスピードが最も高い敵のHP割合が10%以下の場合、対象に1ターンの間『気絶』を付与する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription1250033]",
+          "descriptions": {
+            "zh-CN": "物魔防御穿透降幅提升为50%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物魔防御貫通の減少量が50%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 125003,
+        "IsIgnore": null,
+        "Memo": "カーミラSR:Lv1 「カーミラちゃんお腹すいちゃったから、ちょーっとだけ命をもらうね♪」4ターン目までの毎ターン開始時、1ターンの間スピードが最も高い敵の物魔防御貫通を20%減少させる。/ Lv2 さらにスピードが最も高い敵のHP割合が10%以下の場合、対象に1ターンの間『気絶』を付与する。/ Lv3 物魔防御貫通の減少量が50%になる。",
+        "NameKey": "[PassiveSkillName125003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription1250031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 125003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 125003002
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription1250032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 125003201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 125003202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription1250033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 125003301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 125003302
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName125003]",
+      "names": {
+        "zh-CN": "精气吸食"
+      },
+      "source_memo_ja": "カーミラSR:Lv1 「カーミラちゃんお腹すいちゃったから、ちょーっとだけ命をもらうね♪」4ターン目までの毎ターン開始時、1ターンの間スピードが最も高い敵の物魔防御貫通を20%減少させる。/ Lv2 さらにスピードが最も高い敵のHP割合が10%以下の場合、対象に1ターンの間『気絶』を付与する。/ Lv3 物魔防御貫通の減少量が50%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「カーミラちゃんお腹すいちゃったから、ちょーっとだけ命をもらうね♪」4ターン目までの毎ターン開始時、1ターンの間スピードが最も高い敵の物魔防御貫通を20%減少させる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらにスピードが最も高い敵のHP割合が10%以下の場合、対象に1ターンの間『気絶』を付与する。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物魔防御貫通の減少量が50%になる。"
+        }
+      ]
+    },
+    {
+      "id": 125004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription1250041]",
+          "descriptions": {
+            "zh-CN": "“命运也好，恶魔也罢，卡蜜拉不会再输给任何人了！因为卡蜜拉是全世界最厉害的人！”卡蜜拉减少20%自身承受伤害（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「もう誰にも負けない。運命にも悪魔にも！　だってカーミラちゃんは最強なんだから！」自身の被ダメージが20%減少する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription1250042]",
+          "descriptions": {
+            "zh-CN": "承受伤害降幅提升为40%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "被ダメージの減少量が40%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription1250043]",
+          "descriptions": {
+            "zh-CN": "承受伤害降幅提升为75%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "被ダメージの減少量が75%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 125004,
+        "IsIgnore": null,
+        "Memo": "カーミラSR:Lv1 「もう誰にも負けない。運命にも悪魔にも！　だってカーミラちゃんは最強なんだから！」自身の被ダメージが20%減少する（解除不可）。/ Lv2 被ダメージの減少量が40%になる。/ Lv3 被ダメージの減少量が75%になる。",
+        "NameKey": "[PassiveSkillName125004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription1250041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 125004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription1250042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 125004201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription1250043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 125004301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName125004]",
+      "names": {
+        "zh-CN": "卡蜜拉最厉害"
+      },
+      "source_memo_ja": "カーミラSR:Lv1 「もう誰にも負けない。運命にも悪魔にも！　だってカーミラちゃんは最強なんだから！」自身の被ダメージが20%減少する（解除不可）。/ Lv2 被ダメージの減少量が40%になる。/ Lv3 被ダメージの減少量が75%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「もう誰にも負けない。運命にも悪魔にも！　だってカーミラちゃんは最強なんだから！」自身の被ダメージが20%減少する（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "被ダメージの減少量が40%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "被ダメージの減少量が75%になる。"
+        }
+      ]
+    },
+    {
+      "id": 125005,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "*",
+          "descriptions": {
+            "zh-CN": null
+          },
+          "equipment_rarity_flags": 256,
+          "order": 1,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "Id": 125005,
+        "IsIgnore": null,
+        "Memo": "*",
+        "NameKey": "*",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "*",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 125005001
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "*",
+      "names": {
+        "zh-CN": null
+      },
+      "source_memo_ja": "*",
+      "source_memo_sections_ja": []
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

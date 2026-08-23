@@ -1,0 +1,1390 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 79001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription790011]",
+          "descriptions": {
+            "zh-CN": "瑟露莉亚使用隐藏在古代文物中的力量，随机对敌人进行3次攻击，每次造成攻击力×240%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "古代の遺物から引き出した力で、ランダムな敵に3回攻撃力×240%の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription790012]",
+          "descriptions": {
+            "zh-CN": "每名失去战斗能力的友军，可使攻击次数增加1次（合计最多7连击）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに戦闘不能になっている味方の数1体につき物理攻撃の回数が1回多くなる（合計で最大7回まで）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription790013]",
+          "descriptions": {
+            "zh-CN": "发动攻击前，如果瑟露莉亚身上附带「解除限制」状态，攻击次数增加为7次（不受失去战斗能力的友军人数影响）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃の前に自身が『制限解除』を付帯している場合、戦闘不能になっている味方の数に関わらず物理攻撃の回数が7回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription790014]",
+          "descriptions": {
+            "zh-CN": "强化古老的符咒，造成的物理伤害提升为攻击力×440%。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "エンシェントスペルを強化する。物理攻撃のダメージが攻撃力×440%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription790015]",
+          "descriptions": {
+            "zh-CN": "强化古老的符咒，造成的物理伤害提升为攻击力×480%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "エンシェントスペルを強化する。物理攻撃のダメージが攻撃力×480%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription790011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              79001001,
+              79001002,
+              79001002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription790012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              79001201,
+              79001202,
+              79001202,
+              79001203,
+              79001204,
+              79001205,
+              79001206
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription790013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              79001201,
+              79001202,
+              79001202,
+              79001303,
+              79001304,
+              79001305,
+              79001306
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription790014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              79001401,
+              79001402,
+              79001402,
+              79001403,
+              79001404,
+              79001405,
+              79001406
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription790015]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              79001501,
+              79001502,
+              79001502,
+              79001503,
+              79001504,
+              79001505,
+              79001506
+            ]
+          }
+        ],
+        "Id": 79001,
+        "IsIgnore": null,
+        "Memo": "セルリアSR:Lv1 古代の遺物から引き出した力で、ランダムな敵に3回攻撃力×240%の物理攻撃を行う。/ Lv2 さらに戦闘不能になっている味方の数1体につき物理攻撃の回数が1回多くなる（合計で最大7回まで）。/ Lv3 物理攻撃の前に自身が『制限解除』を付帯している場合、戦闘不能になっている味方の数に関わらず物理攻撃の回数が7回になる。/ Ex1 エンシェントスペルを強化する。物理攻撃のダメージが攻撃力×440%になる。/ Ex3 エンシェントスペルを強化する。物理攻撃のダメージが攻撃力×480%になる。",
+        "NameKey": "[ActiveSkillName79001]",
+        "RootActiveSkillId": 79001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName79001]",
+      "names": {
+        "zh-CN": "古老的符咒"
+      },
+      "source_memo_ja": "セルリアSR:Lv1 古代の遺物から引き出した力で、ランダムな敵に3回攻撃力×240%の物理攻撃を行う。/ Lv2 さらに戦闘不能になっている味方の数1体につき物理攻撃の回数が1回多くなる（合計で最大7回まで）。/ Lv3 物理攻撃の前に自身が『制限解除』を付帯している場合、戦闘不能になっている味方の数に関わらず物理攻撃の回数が7回になる。/ Ex1 エンシェントスペルを強化する。物理攻撃のダメージが攻撃力×440%になる。/ Ex3 エンシェントスペルを強化する。物理攻撃のダメージが攻撃力×480%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "古代の遺物から引き出した力で、ランダムな敵に3回攻撃力×240%の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに戦闘不能になっている味方の数1体につき物理攻撃の回数が1回多くなる（合計で最大7回まで）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃の前に自身が『制限解除』を付帯している場合、戦闘不能になっている味方の数に関わらず物理攻撃の回数が7回になる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "エンシェントスペルを強化する。物理攻撃のダメージが攻撃力×440%になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "エンシェントスペルを強化する。物理攻撃のダメージが攻撃力×480%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 79002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription790021]",
+          "descriptions": {
+            "zh-CN": "瑟露莉亚释放潜藏在古代文字中的力量，随机对2名敌人造成攻击力×480%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "古代の文字列によって秘められた力を解放し、ランダムな敵2体に攻撃力×480%の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription790022]",
+          "descriptions": {
+            "zh-CN": "每名失去战斗能力的友军，可使技能造成的物理伤害额外增加攻击力×200%（最多可叠加到1280%）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに戦闘不能になっている味方の数1体につき物理攻撃のダメージが攻撃力×200%大きくなる（最大攻撃力×1280%まで）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription790023]",
+          "descriptions": {
+            "zh-CN": "技能目标增加为3名随机敌人。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "このスキルの対象がランダムな敵3体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription790024]",
+          "descriptions": {
+            "zh-CN": "发动攻击前，如果瑟露莉亚身上附带「解除限制」状态，造成的物理伤害提升为攻击力×1280%（不受失去战斗能力的友军人数影响）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "物理攻撃の前に自身が『制限解除』を付帯している場合、戦闘不能になっている味方の数に関わらず物理攻撃のダメージが攻撃力×1280%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription790021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              79002001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription790022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              79002201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription790023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              79002301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription790024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              79002401
+            ]
+          }
+        ],
+        "Id": 79002,
+        "IsIgnore": null,
+        "Memo": "セルリアSR:Lv1 古代の文字列によって秘められた力を解放し、ランダムな敵2体に攻撃力×480%の物理攻撃を行う。/ Lv2 さらに戦闘不能になっている味方の数1体につき物理攻撃のダメージが攻撃力×200%大きくなる（最大攻撃力×1280%まで）。/ Lv3 このスキルの対象がランダムな敵3体になる。/ Lv4 物理攻撃の前に自身が『制限解除』を付帯している場合、戦闘不能になっている味方の数に関わらず物理攻撃のダメージが攻撃力×1280%になる。",
+        "NameKey": "[ActiveSkillName79002]",
+        "RootActiveSkillId": 79002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName79002]",
+      "names": {
+        "zh-CN": "神秘的符号"
+      },
+      "source_memo_ja": "セルリアSR:Lv1 古代の文字列によって秘められた力を解放し、ランダムな敵2体に攻撃力×480%の物理攻撃を行う。/ Lv2 さらに戦闘不能になっている味方の数1体につき物理攻撃のダメージが攻撃力×200%大きくなる（最大攻撃力×1280%まで）。/ Lv3 このスキルの対象がランダムな敵3体になる。/ Lv4 物理攻撃の前に自身が『制限解除』を付帯している場合、戦闘不能になっている味方の数に関わらず物理攻撃のダメージが攻撃力×1280%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "古代の文字列によって秘められた力を解放し、ランダムな敵2体に攻撃力×480%の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに戦闘不能になっている味方の数1体につき物理攻撃のダメージが攻撃力×200%大きくなる（最大攻撃力×1280%まで）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "このスキルの対象がランダムな敵3体になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "物理攻撃の前に自身が『制限解除』を付帯している場合、戦闘不能になっている味方の数に関わらず物理攻撃のダメージが攻撃力×1280%になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 55,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 55,
+            "CollectionLevel": 1,
+            "Id": 5501,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ノーマの分析(セルリア,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 55,
+            "CollectionLevel": 2,
+            "Id": 5502,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ノーマの分析(セルリア,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 55,
+            "CollectionLevel": 3,
+            "Id": 5503,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ノーマの分析(セルリア,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 55,
+            "CollectionLevel": 4,
+            "Id": 5504,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ノーマの分析(セルリア,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 41.0,
+              "value_text": "+41×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 71.0,
+              "value_text": "+71×角色等级"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 41.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 71.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 55,
+            "CollectionLevel": 5,
+            "Id": 5505,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ノーマの分析(セルリア,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 42.0,
+              "value_text": "+42×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 72.0,
+              "value_text": "+72×角色等级"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 42.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 72.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 55,
+            "CollectionLevel": 6,
+            "Id": 5506,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ノーマの分析(セルリア,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 43.0,
+              "value_text": "+43×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 73.0,
+              "value_text": "+73×角色等级"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 43.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 73.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 55,
+            "CollectionLevel": 7,
+            "Id": 5507,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ノーマの分析(セルリア,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 44.0,
+              "value_text": "+44×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 74.0,
+              "value_text": "+74×角色等级"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 44.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 74.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 55,
+            "CollectionLevel": 8,
+            "Id": 5508,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ノーマの分析(セルリア,メルティーユ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 45.0,
+              "value_text": "+45×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 75.0,
+              "value_text": "+75×角色等级"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 45.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 75.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 55,
+            "CollectionLevel": 9,
+            "Id": 5509,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ノーマの分析(セルリア,メルティーユ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 55,
+        "IsIgnore": null,
+        "Memo": "ノーマの分析(セルリア,メルティーユ)",
+        "NameKey": "[CharacterCollectionName55]",
+        "RequiredCharacterIds": [
+          79,
+          29
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2024-09-12 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName55]",
+      "names": {
+        "zh-CN": "矩尺座的分析"
+      },
+      "required_character_ids": [
+        79,
+        29
+      ],
+      "required_characters": [
+        {
+          "id": 79,
+          "names": {
+            "zh-CN": "瑟露莉亚"
+          }
+        },
+        {
+          "id": 29,
+          "names": {
+            "zh-CN": "茉缇"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2024-09-12 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 1,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 79,
+    "job_flags": 2,
+    "master_record": {
+      "ActiveSkillIds": [
+        79001,
+        79002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 104,
+        "Health": 74,
+        "Intelligence": 80,
+        "Muscle": 89
+      },
+      "BaseParameterGrossCoefficient": 347,
+      "CharacterType": 0,
+      "ElementType": 1,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 79,
+      "InitialBattleParameter": {
+        "AttackPower": 5,
+        "Avoidance": 0,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 7,
+        "DefensePenetration": 0,
+        "HP": -3,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 1,
+        "Speed": 2632
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 2,
+      "Memo": "セルリア",
+      "Name2Key": null,
+      "NameKey": "[CharacterName79]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        79003,
+        79004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2024-09-12 15:00:00"
+    },
+    "memo": "セルリア",
+    "name_key": "[CharacterName79]",
+    "names": {
+      "zh-CN": "瑟露莉亚"
+    },
+    "speed": 2632,
+    "start_time_jst": "2024-09-12 15:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 791120240,
+    "exclusive_effect_id": 426,
+    "icon_id": 578,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 791120250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 103,
+        "EquipmentEvolutionId": 113,
+        "EquipmentExclusiveSkillDescriptionId": 71,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 2,
+        "ExclusiveEffectId": 426,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 578,
+        "Id": 791120240,
+        "IsIgnore": null,
+        "Memo": "セルリアLR240_銃",
+        "NameKey": "[EquipmentName573]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": null,
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 13,
+            "ChangeParameterType": 2,
+            "Value": 500.0
+          },
+          {
+            "BattleParameterType": 10,
+            "ChangeParameterType": 1,
+            "Value": 3500.0
+          }
+        ],
+        "CharacterId": 79,
+        "Id": 426,
+        "IsIgnore": null,
+        "Memo": "セルリアLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill79Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill79Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill79Description3]",
+        "Id": 71,
+        "IsIgnore": null,
+        "Memo": "セルリア銃"
+      }
+    },
+    "name_key": "[EquipmentName573]",
+    "names": {
+      "zh-CN": "睿智石板"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Defense",
+        "parameter_type": 13,
+        "raw_value": 500.0,
+        "value_text": "+5%"
+      },
+      {
+        "change_parameter_type": 1,
+        "kind": "battle",
+        "parameter_code": "PhysicalCriticalDamageRelax",
+        "parameter_type": 10,
+        "raw_value": 3500.0,
+        "value_text": "+3,500"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill79Description1]",
+        "descriptions": {
+          "zh-CN": "强化古老的符咒，造成的物理伤害提升为攻击力×440%。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill79Description2]",
+        "descriptions": {
+          "zh-CN": "强化失落的科技，全体友军的命中率增幅提升为50%。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill79Description3]",
+        "descriptions": {
+          "zh-CN": "强化古老的符咒，造成的物理伤害提升为攻击力×480%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 79003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription790031]",
+          "descriptions": {
+            "zh-CN": "这件遗物来自已灭亡的古代文明，其中蕴含的力量尚未厘清。它能感应到持有者的危机，并发挥出真正的价值。当瑟露莉亚身上附带的增益效果遭敌人解除或夺取时，使全体友军增加30%命中率，效果持续6回合。并使瑟露莉亚获得「解除限制」状态，增加15%攻击力（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "それはかつて滅びた文明の遺産。未だ解明できない力が、所有者の危機に反応して真価を発揮する。自身が敵からバフを解除されたとき、6ターンの間味方全体の命中率を30%増加させる。その後自身に『制限解除』を付与する（解除不可）。このバフは自身の攻撃力を15%増加させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription790032]",
+          "descriptions": {
+            "zh-CN": "战斗开始时，使瑟露莉亚额外增加10%命中率，效果持续6回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらにバトル開始時6ターンの間自身の命中率が10%増加する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription790033]",
+          "descriptions": {
+            "zh-CN": "「解除限制」的攻击力增幅提升为30%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "『制限解除』の攻撃力の増加量が30%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription790034]",
+          "descriptions": {
+            "zh-CN": "强化失落的科技，全体友军的命中率增幅提升为50%。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "ロストテクノロジーを強化する。味方全体の命中率の増加量が50%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 79003,
+        "IsIgnore": null,
+        "Memo": "セルリアSR:Lv1 それはかつて滅びた文明の遺産。未だ解明できない力が、所有者の危機に反応して真価を発揮する。自身が敵からバフを解除されたとき、6ターンの間味方全体の命中率を30%増加させる。その後自身に『制限解除』を付与する（解除不可）。このバフは自身の攻撃力を15%増加させる。/ Lv2 さらにバトル開始時6ターンの間自身の命中率が10%増加する。/ Lv3 『制限解除』の攻撃力の増加量が30%になる。/ Ex2 ロストテクノロジーを強化する。味方全体の命中率の増加量が50%になる。",
+        "NameKey": "[PassiveSkillName79003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription790031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 40,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 79003002
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 40,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 79003003
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription790032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 79003201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 40,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 79003002
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 40,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 79003003
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription790033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 79003201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 40,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 79003002
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 40,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 79003303
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription790034]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 79003201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 40,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 79003402
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 40,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 79003303
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName79003]",
+      "names": {
+        "zh-CN": "失落的科技"
+      },
+      "source_memo_ja": "セルリアSR:Lv1 それはかつて滅びた文明の遺産。未だ解明できない力が、所有者の危機に反応して真価を発揮する。自身が敵からバフを解除されたとき、6ターンの間味方全体の命中率を30%増加させる。その後自身に『制限解除』を付与する（解除不可）。このバフは自身の攻撃力を15%増加させる。/ Lv2 さらにバトル開始時6ターンの間自身の命中率が10%増加する。/ Lv3 『制限解除』の攻撃力の増加量が30%になる。/ Ex2 ロストテクノロジーを強化する。味方全体の命中率の増加量が50%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "それはかつて滅びた文明の遺産。未だ解明できない力が、所有者の危機に反応して真価を発揮する。自身が敵からバフを解除されたとき、6ターンの間味方全体の命中率を30%増加させる。その後自身に『制限解除』を付与する（解除不可）。このバフは自身の攻撃力を15%増加させる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらにバトル開始時6ターンの間自身の命中率が10%増加する。"
+        },
+        {
+          "label": "Lv3",
+          "text": "『制限解除』の攻撃力の増加量が30%になる。"
+        },
+        {
+          "label": "Ex2",
+          "text": "ロストテクノロジーを強化する。味方全体の命中率の増加量が50%になる。"
+        }
+      ]
+    },
+    {
+      "id": 79004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription790041]",
+          "descriptions": {
+            "zh-CN": "瑟露莉亚靠自己的力量持续进行研究，付出的努力最终开花结果，成功唤醒了古文物中的力量。第1回合开始时，瑟露莉亚获得攻击力×400%的「护盾」，效果持续6回合（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "１人でも研究を続けた努力が実を結び、遺物の力を引き出すことに成功した。1ターン目のターン開始時自身に6ターンの間自身の攻撃力×400%の『シールド』を付与する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription790042]",
+          "descriptions": {
+            "zh-CN": "瑟露莉亚在战斗中第5次、第10次、第15次、第20次受到攻击时，再度获得此技能附加的「护盾」。自第3回合起无法触发此效果。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらにこのバトル中に自身が攻撃を受けた回数が5回、10回、15回、20回になった場合、このシールドを再付与する。再付与は3ターン目以降は発動しない。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription790043]",
+          "descriptions": {
+            "zh-CN": "「护盾」值提升为攻击力×800%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "『シールド』の大きさが自身の攻撃力×800%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 79004,
+        "IsIgnore": null,
+        "Memo": "セルリアSR:Lv1 １人でも研究を続けた努力が実を結び、遺物の力を引き出すことに成功した。1ターン目のターン開始時自身に6ターンの間自身の攻撃力×400%の『シールド』を付与する（解除不可）。/ Lv2 さらにこのバトル中に自身が攻撃を受けた回数が5回、10回、15回、20回になった場合、このシールドを再付与する。再付与は3ターン目以降は発動しない。/ Lv3 『シールド』の大きさが自身の攻撃力×800%になる。",
+        "NameKey": "[PassiveSkillName79004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription790041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 79004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription790042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 79004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 79004202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription790043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 79004301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 79004302
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName79004]",
+      "names": {
+        "zh-CN": "内向的努力型"
+      },
+      "source_memo_ja": "セルリアSR:Lv1 １人でも研究を続けた努力が実を結び、遺物の力を引き出すことに成功した。1ターン目のターン開始時自身に6ターンの間自身の攻撃力×400%の『シールド』を付与する（解除不可）。/ Lv2 さらにこのバトル中に自身が攻撃を受けた回数が5回、10回、15回、20回になった場合、このシールドを再付与する。再付与は3ターン目以降は発動しない。/ Lv3 『シールド』の大きさが自身の攻撃力×800%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "１人でも研究を続けた努力が実を結び、遺物の力を引き出すことに成功した。1ターン目のターン開始時自身に6ターンの間自身の攻撃力×400%の『シールド』を付与する（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらにこのバトル中に自身が攻撃を受けた回数が5回、10回、15回、20回になった場合、このシールドを再付与する。再付与は3ターン目以降は発動しない。"
+        },
+        {
+          "label": "Lv3",
+          "text": "『シールド』の大きさが自身の攻撃力×800%になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

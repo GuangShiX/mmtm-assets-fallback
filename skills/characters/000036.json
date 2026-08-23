@@ -1,0 +1,2692 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 36001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription360011]",
+          "descriptions": {
+            "zh-CN": "托波波用无数飞刀将敌人团团包围。哪把是真刀？哪把是假刀？谁是被锁定的目标？这要亲自挨一刀才知道。随机对5名敌人造成攻击力×260%的魔法伤害。骗术师的眼力能看穿对方的弱点，每次发动骗术师之刺，可使技能造成的魔法伤害增加攻击力×70%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "複数のナイフが敵を囲む。狙いは誰か、どのナイフが本物かは、受けてみないと分からない。ランダムな敵5体に攻撃力×260%の魔法攻撃を行う。弱点を見抜く詐欺師の眼力で、このスキルを使うたび魔法攻撃のダメージが攻撃力×70%ずつ大きくなる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription360012]",
+          "descriptions": {
+            "zh-CN": "额外恢复技能总伤害×20%的生命值。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに自身のHPをこのスキルの総与ダメージ×20％回復する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription360013]",
+          "descriptions": {
+            "zh-CN": "造成的魔法伤害提升为攻击力×310%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "魔法攻撃のダメージが攻撃力×310%になる。　/専用1 ライアースティングを強化する。さらに30%の確率で敵のHPドレインを2ターンの間30％減少させる。　/専用2 ライアースティングを強化する。魔法攻撃のダメージが攻撃力×340%になる。　/専用3 ライアースティングを強化する。『HPドレイン減少』を付与する確率が60％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription360014]",
+          "descriptions": {
+            "zh-CN": "[ActiveSkillDescription360014]"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": null
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription360015]",
+          "descriptions": {
+            "zh-CN": "[ActiveSkillDescription360015]"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 5,
+          "source_memo_ja": null
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription360016]",
+          "descriptions": {
+            "zh-CN": "[ActiveSkillDescription360016]"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 6,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription360011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              36001001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription360012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              36001001,
+              36001202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription360013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              36001301,
+              36001202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription360014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              36001401,
+              36001202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription360015]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              36001501,
+              36001202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription360016]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 6,
+            "SubSetSkillIds": [
+              36001601,
+              36001202
+            ]
+          }
+        ],
+        "Id": 36001,
+        "IsIgnore": null,
+        "Memo": "トロポンSR: /Lv1　複数のナイフが敵を囲む。狙いは誰か、どのナイフが本物かは、受けてみないと分からない。ランダムな敵5体に攻撃力×260%の魔法攻撃を行う。弱点を見抜く詐欺師の眼力で、このスキルを使うたび魔法攻撃のダメージが攻撃力×70%ずつ大きくなる。　/Lv2 さらに自身のHPをこのスキルの総与ダメージ×20％回復する。　/Lv3 魔法攻撃のダメージが攻撃力×310%になる。　/専用1 ライアースティングを強化する。さらに30%の確率で敵のHPドレインを2ターンの間30％減少させる。　/専用2 ライアースティングを強化する。魔法攻撃のダメージが攻撃力×340%になる。　/専用3 ライアースティングを強化する。『HPドレイン減少』を付与する確率が60％になる。",
+        "NameKey": "[ActiveSkillName36001]",
+        "RootActiveSkillId": 36001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName36001]",
+      "names": {
+        "zh-CN": "骗术师之刺"
+      },
+      "source_memo_ja": "トロポンSR: /Lv1　複数のナイフが敵を囲む。狙いは誰か、どのナイフが本物かは、受けてみないと分からない。ランダムな敵5体に攻撃力×260%の魔法攻撃を行う。弱点を見抜く詐欺師の眼力で、このスキルを使うたび魔法攻撃のダメージが攻撃力×70%ずつ大きくなる。　/Lv2 さらに自身のHPをこのスキルの総与ダメージ×20％回復する。　/Lv3 魔法攻撃のダメージが攻撃力×310%になる。　/専用1 ライアースティングを強化する。さらに30%の確率で敵のHPドレインを2ターンの間30％減少させる。　/専用2 ライアースティングを強化する。魔法攻撃のダメージが攻撃力×340%になる。　/専用3 ライアースティングを強化する。『HPドレイン減少』を付与する確率が60％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "複数のナイフが敵を囲む。狙いは誰か、どのナイフが本物かは、受けてみないと分からない。ランダムな敵5体に攻撃力×260%の魔法攻撃を行う。弱点を見抜く詐欺師の眼力で、このスキルを使うたび魔法攻撃のダメージが攻撃力×70%ずつ大きくなる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに自身のHPをこのスキルの総与ダメージ×20％回復する。"
+        },
+        {
+          "label": "Lv3",
+          "text": "魔法攻撃のダメージが攻撃力×310%になる。　/専用1 ライアースティングを強化する。さらに30%の確率で敵のHPドレインを2ターンの間30％減少させる。　/専用2 ライアースティングを強化する。魔法攻撃のダメージが攻撃力×340%になる。　/専用3 ライアースティングを強化する。『HPドレイン減少』を付与する確率が60％になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 36002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription360021]",
+          "descriptions": {
+            "zh-CN": "我骗故我在，托波波随机对5名敌人造成攻击力×270%的魔法伤害，再从影子里偷偷射出一把飞刀，随机对1名敌人追加托波波魔力×260%的直接伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "詐欺師は欺いてこそ。ランダムな敵5体に攻撃力×270%の魔法攻撃を行い、影から飛び出した隠れたナイフが、ランダムな敵1体に自身の魔力×260%の直接攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription360022]",
+          "descriptions": {
+            "zh-CN": "如果技能目标失去战斗能力，托波波身上的所有增益效果额外增加2回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらにこのスキルで敵を戦闘不能にした場合、自身が付帯しているバフ全てのターン数を2増加させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription360023]",
+          "descriptions": {
+            "zh-CN": "追加的直接伤害提升为托波波魔力×320%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "直接攻撃のダメージが自身の魔力×320%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription360024]",
+          "descriptions": {
+            "zh-CN": "造成的魔法伤害提升为攻击力×350%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "魔法攻撃のダメージが攻撃力×350%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription360021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              36002001,
+              36002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription360022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              36002001,
+              36002002,
+              36002203
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription360023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              36002001,
+              36002302,
+              36002203
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription360024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              36002401,
+              36002302,
+              36002203
+            ]
+          }
+        ],
+        "Id": 36002,
+        "IsIgnore": null,
+        "Memo": "トロポンSR: /Lv1　詐欺師は欺いてこそ。ランダムな敵5体に攻撃力×270%の魔法攻撃を行い、影から飛び出した隠れたナイフが、ランダムな敵1体に自身の魔力×260%の直接攻撃を行う。　/Lv2 さらにこのスキルで敵を戦闘不能にした場合、自身が付帯しているバフ全てのターン数を2増加させる。　/Lv3 直接攻撃のダメージが自身の魔力×320%になる。　/Lv4 魔法攻撃のダメージが攻撃力×350%になる。",
+        "NameKey": "[ActiveSkillName36002]",
+        "RootActiveSkillId": 36002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName36002]",
+      "names": {
+        "zh-CN": "诡计大师"
+      },
+      "source_memo_ja": "トロポンSR: /Lv1　詐欺師は欺いてこそ。ランダムな敵5体に攻撃力×270%の魔法攻撃を行い、影から飛び出した隠れたナイフが、ランダムな敵1体に自身の魔力×260%の直接攻撃を行う。　/Lv2 さらにこのスキルで敵を戦闘不能にした場合、自身が付帯しているバフ全てのターン数を2増加させる。　/Lv3 直接攻撃のダメージが自身の魔力×320%になる。　/Lv4 魔法攻撃のダメージが攻撃力×350%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "詐欺師は欺いてこそ。ランダムな敵5体に攻撃力×270%の魔法攻撃を行い、影から飛び出した隠れたナイフが、ランダムな敵1体に自身の魔力×260%の直接攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらにこのスキルで敵を戦闘不能にした場合、自身が付帯しているバフ全てのターン数を2増加させる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "直接攻撃のダメージが自身の魔力×320%になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "魔法攻撃のダメージが攻撃力×350%になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 6,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 300.0,
+              "value_text": "+300"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 1,
+                "Value": 300.0
+              }
+            ],
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 6,
+            "CollectionLevel": 1,
+            "Id": 601,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アンドロメダの戦剣(トロポン,オリヴィエ,プリマヴェーラ,ナターシャ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 6,
+            "CollectionLevel": 2,
+            "Id": 602,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アンドロメダの戦剣(トロポン,オリヴィエ,プリマヴェーラ,ナターシャ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 6,
+            "CollectionLevel": 3,
+            "Id": 603,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アンドロメダの戦剣(トロポン,オリヴィエ,プリマヴェーラ,ナターシャ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 6,
+            "CollectionLevel": 4,
+            "Id": 604,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アンドロメダの戦剣(トロポン,オリヴィエ,プリマヴェーラ,ナターシャ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 4000.0,
+              "value_text": "+4,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 1,
+                "Value": 4000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 6,
+            "CollectionLevel": 5,
+            "Id": 605,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アンドロメダの戦剣(トロポン,オリヴィエ,プリマヴェーラ,ナターシャ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 5000.0,
+              "value_text": "+5,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 1,
+                "Value": 5000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 6,
+            "CollectionLevel": 6,
+            "Id": 606,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アンドロメダの戦剣(トロポン,オリヴィエ,プリマヴェーラ,ナターシャ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 6000.0,
+              "value_text": "+6,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 250.0,
+              "value_text": "+2.5%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 1,
+                "Value": 6000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 6,
+            "CollectionLevel": 7,
+            "Id": 607,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アンドロメダの戦剣(トロポン,オリヴィエ,プリマヴェーラ,ナターシャ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 7000.0,
+              "value_text": "+7,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 300.0,
+              "value_text": "+3%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 1,
+                "Value": 7000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 300.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 6,
+            "CollectionLevel": 8,
+            "Id": 608,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アンドロメダの戦剣(トロポン,オリヴィエ,プリマヴェーラ,ナターシャ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 8000.0,
+              "value_text": "+8,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 350.0,
+              "value_text": "+3.5%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 1,
+                "Value": 8000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 350.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 6,
+            "CollectionLevel": 9,
+            "Id": 609,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アンドロメダの戦剣(トロポン,オリヴィエ,プリマヴェーラ,ナターシャ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 6,
+        "IsIgnore": null,
+        "Memo": "アンドロメダの戦剣(トロポン,オリヴィエ,プリマヴェーラ,ナターシャ)",
+        "NameKey": "[CharacterCollectionName6]",
+        "RequiredCharacterIds": [
+          36,
+          38,
+          39,
+          41
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2020-01-01 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName6]",
+      "names": {
+        "zh-CN": "仙女座的战剑"
+      },
+      "required_character_ids": [
+        36,
+        38,
+        39,
+        41
+      ],
+      "required_characters": [
+        {
+          "id": 36,
+          "names": {
+            "zh-CN": "托波波"
+          }
+        },
+        {
+          "id": 38,
+          "names": {
+            "zh-CN": "奥莉维亚"
+          }
+        },
+        {
+          "id": 39,
+          "names": {
+            "zh-CN": "普莉玛维拉"
+          }
+        },
+        {
+          "id": 41,
+          "names": {
+            "zh-CN": "娜塔夏"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2020-01-01 00:00:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 15,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 15.0,
+              "value_text": "+15×角色等级"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 15.0
+              }
+            ],
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 15,
+            "CollectionLevel": 1,
+            "Id": 1501,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "コルウスの吐息(シヴィ,トロポン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 15.0,
+              "value_text": "+15×角色等级"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 15.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 15,
+            "CollectionLevel": 2,
+            "Id": 1502,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "コルウスの吐息(シヴィ,トロポン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 15.0,
+              "value_text": "+15×角色等级"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 15.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 15,
+            "CollectionLevel": 3,
+            "Id": 1503,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "コルウスの吐息(シヴィ,トロポン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 15.0,
+              "value_text": "+15×角色等级"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 15.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 15,
+            "CollectionLevel": 4,
+            "Id": 1504,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "コルウスの吐息(シヴィ,トロポン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 31.0,
+              "value_text": "+31×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 16.0,
+              "value_text": "+16×角色等级"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 31.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 16.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 15,
+            "CollectionLevel": 5,
+            "Id": 1505,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "コルウスの吐息(シヴィ,トロポン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 32.0,
+              "value_text": "+32×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 17.0,
+              "value_text": "+17×角色等级"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 32.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 17.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 15,
+            "CollectionLevel": 6,
+            "Id": 1506,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "コルウスの吐息(シヴィ,トロポン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 33.0,
+              "value_text": "+33×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 18.0,
+              "value_text": "+18×角色等级"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 33.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 18.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 15,
+            "CollectionLevel": 7,
+            "Id": 1507,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "コルウスの吐息(シヴィ,トロポン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 34.0,
+              "value_text": "+34×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 19.0,
+              "value_text": "+19×角色等级"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 34.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 19.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 15,
+            "CollectionLevel": 8,
+            "Id": 1508,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "コルウスの吐息(シヴィ,トロポン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 35.0,
+              "value_text": "+35×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 20.0,
+              "value_text": "+20×角色等级"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 35.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 20.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 15,
+            "CollectionLevel": 9,
+            "Id": 1509,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "コルウスの吐息(シヴィ,トロポン)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 15,
+        "IsIgnore": null,
+        "Memo": "コルウスの吐息(シヴィ,トロポン)",
+        "NameKey": "[CharacterCollectionName15]",
+        "RequiredCharacterIds": [
+          52,
+          36
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2023-05-15 15:00:00"
+      },
+      "name_key": "[CharacterCollectionName15]",
+      "names": {
+        "zh-CN": "乌鸦座的叹息"
+      },
+      "required_character_ids": [
+        52,
+        36
+      ],
+      "required_characters": [
+        {
+          "id": 52,
+          "names": {
+            "zh-CN": "希维"
+          }
+        },
+        {
+          "id": 36,
+          "names": {
+            "zh-CN": "托波波"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2023-05-15 15:00:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 35,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 35,
+            "CollectionLevel": 1,
+            "Id": 3501,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ホロロギウムの奇跡(聖夜トロポン,トロポン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 500.0,
+              "value_text": "+5%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 35,
+            "CollectionLevel": 2,
+            "Id": 3502,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ホロロギウムの奇跡(聖夜トロポン,トロポン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 500.0,
+              "value_text": "+5%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 35,
+            "CollectionLevel": 3,
+            "Id": 3503,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ホロロギウムの奇跡(聖夜トロポン,トロポン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 500.0,
+              "value_text": "+5%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 500.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 35,
+            "CollectionLevel": 4,
+            "Id": 3504,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ホロロギウムの奇跡(聖夜トロポン,トロポン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 31.0,
+              "value_text": "+31×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 510.0,
+              "value_text": "+5.1%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 31.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 510.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 35,
+            "CollectionLevel": 5,
+            "Id": 3505,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ホロロギウムの奇跡(聖夜トロポン,トロポン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 32.0,
+              "value_text": "+32×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 520.0,
+              "value_text": "+5.2%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 32.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 520.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 35,
+            "CollectionLevel": 6,
+            "Id": 3506,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ホロロギウムの奇跡(聖夜トロポン,トロポン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 33.0,
+              "value_text": "+33×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 530.0,
+              "value_text": "+5.3%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 33.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 530.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 35,
+            "CollectionLevel": 7,
+            "Id": 3507,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ホロロギウムの奇跡(聖夜トロポン,トロポン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 34.0,
+              "value_text": "+34×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 540.0,
+              "value_text": "+5.4%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 34.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 540.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 35,
+            "CollectionLevel": 8,
+            "Id": 3508,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ホロロギウムの奇跡(聖夜トロポン,トロポン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 35.0,
+              "value_text": "+35×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 550.0,
+              "value_text": "+5.5%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 35.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 550.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 35,
+            "CollectionLevel": 9,
+            "Id": 3509,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ホロロギウムの奇跡(聖夜トロポン,トロポン)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 35,
+        "IsIgnore": null,
+        "Memo": "ホロロギウムの奇跡(聖夜トロポン,トロポン)",
+        "NameKey": "[CharacterCollectionName35]",
+        "RequiredCharacterIds": [
+          74,
+          36
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2023-12-13 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName35]",
+      "names": {
+        "zh-CN": "时钟座的奇迹"
+      },
+      "required_character_ids": [
+        74,
+        36
+      ],
+      "required_characters": [
+        {
+          "id": 74,
+          "names": {
+            "zh-CN": "托波波"
+          }
+        },
+        {
+          "id": 36,
+          "names": {
+            "zh-CN": "托波波"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2023-12-13 00:00:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 60,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 15.0,
+              "value_text": "+15×角色等级"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 15.0
+              }
+            ],
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 60,
+            "CollectionLevel": 1,
+            "Id": 6001,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "レプスの探知(ユリーカ,トロポン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 60,
+            "CollectionLevel": 2,
+            "Id": 6002,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "レプスの探知(ユリーカ,トロポン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 60,
+            "CollectionLevel": 3,
+            "Id": 6003,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "レプスの探知(ユリーカ,トロポン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 60,
+            "CollectionLevel": 4,
+            "Id": 6004,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "レプスの探知(ユリーカ,トロポン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 35.0,
+              "value_text": "+35×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 160.0,
+              "value_text": "+1.6%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 35.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 160.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 60,
+            "CollectionLevel": 5,
+            "Id": 6005,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "レプスの探知(ユリーカ,トロポン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 170.0,
+              "value_text": "+1.7%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 170.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 60,
+            "CollectionLevel": 6,
+            "Id": 6006,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "レプスの探知(ユリーカ,トロポン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 45.0,
+              "value_text": "+45×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 180.0,
+              "value_text": "+1.8%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 45.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 180.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 60,
+            "CollectionLevel": 7,
+            "Id": 6007,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "レプスの探知(ユリーカ,トロポン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 50.0,
+              "value_text": "+50×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 190.0,
+              "value_text": "+1.9%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 50.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 190.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 60,
+            "CollectionLevel": 8,
+            "Id": 6008,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "レプスの探知(ユリーカ,トロポン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 55.0,
+              "value_text": "+55×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 55.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 60,
+            "CollectionLevel": 9,
+            "Id": 6009,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "レプスの探知(ユリーカ,トロポン)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 60,
+        "IsIgnore": null,
+        "Memo": "レプスの探知(ユリーカ,トロポン)",
+        "NameKey": "[CharacterCollectionName60]",
+        "RequiredCharacterIds": [
+          106,
+          36
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2024-11-15 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName60]",
+      "names": {
+        "zh-CN": "天兔座的探知"
+      },
+      "required_character_ids": [
+        106,
+        36
+      ],
+      "required_characters": [
+        {
+          "id": 106,
+          "names": {
+            "zh-CN": "尤里卡"
+          }
+        },
+        {
+          "id": 36,
+          "names": {
+            "zh-CN": "托波波"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2024-11-15 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 4,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 36,
+    "job_flags": 4,
+    "master_record": {
+      "ActiveSkillIds": [
+        36001,
+        36002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 80,
+        "Health": 80,
+        "Intelligence": 95,
+        "Muscle": 84
+      },
+      "BaseParameterGrossCoefficient": 339,
+      "CharacterType": 0,
+      "ElementType": 4,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 36,
+      "InitialBattleParameter": {
+        "AttackPower": 3,
+        "Avoidance": 0,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 3,
+        "DebuffResist": 0,
+        "Defense": 7,
+        "DefensePenetration": 0,
+        "HP": -3,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 2657
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 4,
+      "Memo": "トロポン",
+      "Name2Key": null,
+      "NameKey": "[CharacterName36]",
+      "NormalSkillId": 102,
+      "PassiveSkillIds": [
+        36003,
+        36004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2020-01-01 00:00:00"
+    },
+    "memo": "トロポン",
+    "name_key": "[CharacterName36]",
+    "names": {
+      "zh-CN": "托波波"
+    },
+    "speed": 2657,
+    "start_time_jst": "2020-01-01 00:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 2814,
+    "exclusive_effect_id": 120,
+    "icon_id": 320,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 2815,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 52,
+        "EquipmentEvolutionId": 62,
+        "EquipmentExclusiveSkillDescriptionId": 20,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 4,
+        "ExclusiveEffectId": 120,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 320,
+        "Id": 2814,
+        "IsIgnore": null,
+        "Memo": "トロポンLR240_書",
+        "NameKey": "[EquipmentName315]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": null,
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 5,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          },
+          {
+            "BattleParameterType": 16,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 36,
+        "Id": 120,
+        "IsIgnore": null,
+        "Memo": "トロポンLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill36Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill36Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill36Description3]",
+        "Id": 20,
+        "IsIgnore": null,
+        "Memo": "トロポン魔導書"
+      }
+    },
+    "name_key": "[EquipmentName315]",
+    "names": {
+      "zh-CN": "骗术师的獠牙"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Hit",
+        "parameter_type": 5,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "DebuffResist",
+        "parameter_type": 16,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill36Description1]",
+        "descriptions": {
+          "zh-CN": "强化骗术师之刺，30%概率使敌人额外减少30%吸血，效果持续2回合。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill36Description2]",
+        "descriptions": {
+          "zh-CN": "强化骗术师之刺，造成的魔法伤害提升为攻击力×340%。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill36Description3]",
+        "descriptions": {
+          "zh-CN": "强化骗术师之刺，附加「吸血效果下降」状态的概率提升为60%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 36003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription360031]",
+          "descriptions": {
+            "zh-CN": "托波波用善意的谎言包装悲哀的现实，使自己增加20%最大生命值（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "哀しい現実を包み込む優しい嘘で、自身の最大HPが20％増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription360032]",
+          "descriptions": {
+            "zh-CN": "最大生命值增幅提升为40%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "最大HPの増加量が40％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription360033]",
+          "descriptions": {
+            "zh-CN": "额外增加20%速度（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらに自身のスピードが20％増加する（解除不可）。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 36003,
+        "IsIgnore": null,
+        "Memo": "トロポンSR: /Lv1　哀しい現実を包み込む優しい嘘で、自身の最大HPが20％増加する（解除不可）。　/Lv2 最大HPの増加量が40％になる。　/Lv3 さらに自身のスピードが20％増加する（解除不可）。",
+        "NameKey": "[PassiveSkillName36003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription360031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 36003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription360032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 36003201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription360033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 28,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 36003301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 36003201
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName36003]",
+      "names": {
+        "zh-CN": "善良的骗术师"
+      },
+      "source_memo_ja": "トロポンSR: /Lv1　哀しい現実を包み込む優しい嘘で、自身の最大HPが20％増加する（解除不可）。　/Lv2 最大HPの増加量が40％になる。　/Lv3 さらに自身のスピードが20％増加する（解除不可）。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "哀しい現実を包み込む優しい嘘で、自身の最大HPが20％増加する（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "最大HPの増加量が40％になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらに自身のスピードが20％増加する（解除不可）。"
+        }
+      ]
+    },
+    {
+      "id": 36004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription360041]",
+          "descriptions": {
+            "zh-CN": "骗术师出手的瞬间神不知鬼不觉，高超的手法宛如施展魔法。当托波波受到暴击时，75%概率从发动攻击的敌人身上夺取1种增益效果。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "詐欺師は盗んだ瞬間すら気取らせない。その手際はまるで魔法のよう──。自身がクリティカルヒットを受けた場合、75％の確率で攻撃してきた敵のバフを1つ解除し、成功した場合にその効果を自身に付与する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription360042]",
+          "descriptions": {
+            "zh-CN": "当托波波受到攻击且不是暴击时，额外解除自己身上的1种弱化效果，并以75%概率复制到发动攻击的敌人身上。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに自身がクリティカルヒットでない攻撃を受けたとき、自身の弱体効果を1つ解除し、その効果を75％の確率で攻撃してきた敵に付与する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription360043]",
+          "descriptions": {
+            "zh-CN": "夺取增益效果与解除并复制弱化效果的概率提升为100%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "敵のバフを解除して自身に付与する確率と自身の弱体効果を解除して敵に付与する確率がそれぞれ100％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 36004,
+        "IsIgnore": null,
+        "Memo": "トロポンSR: /Lv1　詐欺師は盗んだ瞬間すら気取らせない。その手際はまるで魔法のよう──。自身がクリティカルヒットを受けた場合、75％の確率で攻撃してきた敵のバフを1つ解除し、成功した場合にその効果を自身に付与する。　/Lv2 さらに自身がクリティカルヒットでない攻撃を受けたとき、自身の弱体効果を1つ解除し、その効果を75％の確率で攻撃してきた敵に付与する。　/Lv3 敵のバフを解除して自身に付与する確率と自身の弱体効果を解除して敵に付与する確率がそれぞれ100％になる。",
+        "NameKey": "[PassiveSkillName36004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription360041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 36004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription360042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 36004201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription360043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 36004301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName36004]",
+      "names": {
+        "zh-CN": "障眼法"
+      },
+      "source_memo_ja": "トロポンSR: /Lv1　詐欺師は盗んだ瞬間すら気取らせない。その手際はまるで魔法のよう──。自身がクリティカルヒットを受けた場合、75％の確率で攻撃してきた敵のバフを1つ解除し、成功した場合にその効果を自身に付与する。　/Lv2 さらに自身がクリティカルヒットでない攻撃を受けたとき、自身の弱体効果を1つ解除し、その効果を75％の確率で攻撃してきた敵に付与する。　/Lv3 敵のバフを解除して自身に付与する確率と自身の弱体効果を解除して敵に付与する確率がそれぞれ100％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "詐欺師は盗んだ瞬間すら気取らせない。その手際はまるで魔法のよう──。自身がクリティカルヒットを受けた場合、75％の確率で攻撃してきた敵のバフを1つ解除し、成功した場合にその効果を自身に付与する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに自身がクリティカルヒットでない攻撃を受けたとき、自身の弱体効果を1つ解除し、その効果を75％の確率で攻撃してきた敵に付与する。"
+        },
+        {
+          "label": "Lv3",
+          "text": "敵のバフを解除して自身に付与する確率と自身の弱体効果を解除して敵に付与する確率がそれぞれ100％になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

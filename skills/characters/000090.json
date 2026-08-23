@@ -1,0 +1,1401 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 90001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription900011]",
+          "descriptions": {
+            "zh-CN": "力量解放条件随着嘉德利亚每次挥鞭逐渐达成——嘉德利亚使自己增加20%攻击力，效果持续4回合。再随机对敌人进行2次攻击，每次造成攻击力×360%的物理伤害。挥鞭达到一定次数后，原有的力量将破土而出——战斗中自第2次发动此技能起，攻击力增幅提升为40%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "鞭は振るわれるたびに力の解放条件を積み上げていく──4ターンの間自身の攻撃力が20%増加する。その後ランダムな敵に2回攻撃力×360%の物理攻撃を行う。回数を重ねると、やがて本来の力を芽吹かせる──バトル中このスキルを発動するのが2回目以降の場合、攻撃力の増加量が40%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription900012]",
+          "descriptions": {
+            "zh-CN": "攻击次数增加为4次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "物理攻撃の回数が4回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription900013]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×590%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃のダメージが攻撃力×590%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription900014]",
+          "descriptions": {
+            "zh-CN": "强化春化作用，战斗中自第3次发动此技能起，攻击力增幅提升为80%。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "バーナリゼーションを強化する。バトル中このスキルを発動するのが3回目以降の場合、さらに攻撃力の増加量が80%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription900011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              90001001,
+              90001002,
+              90001003
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription900012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              90001001,
+              90001002,
+              90001003,
+              90001003,
+              90001003
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription900013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              90001001,
+              90001302,
+              90001303,
+              90001303,
+              90001303
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription900014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              90001401,
+              90001302,
+              90001303,
+              90001303,
+              90001303
+            ]
+          }
+        ],
+        "Id": 90001,
+        "IsIgnore": null,
+        "Memo": "カトレアSR:Lv1 鞭は振るわれるたびに力の解放条件を積み上げていく──4ターンの間自身の攻撃力が20%増加する。その後ランダムな敵に2回攻撃力×360%の物理攻撃を行う。回数を重ねると、やがて本来の力を芽吹かせる──バトル中このスキルを発動するのが2回目以降の場合、攻撃力の増加量が40%になる。/ Lv2 物理攻撃の回数が4回になる。/ Lv3 物理攻撃のダメージが攻撃力×590%になる。/ Ex1 バーナリゼーションを強化する。バトル中このスキルを発動するのが3回目以降の場合、さらに攻撃力の増加量が80%になる。",
+        "NameKey": "[ActiveSkillName90001]",
+        "RootActiveSkillId": 90001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName90001]",
+      "names": {
+        "zh-CN": "春化作用"
+      },
+      "source_memo_ja": "カトレアSR:Lv1 鞭は振るわれるたびに力の解放条件を積み上げていく──4ターンの間自身の攻撃力が20%増加する。その後ランダムな敵に2回攻撃力×360%の物理攻撃を行う。回数を重ねると、やがて本来の力を芽吹かせる──バトル中このスキルを発動するのが2回目以降の場合、攻撃力の増加量が40%になる。/ Lv2 物理攻撃の回数が4回になる。/ Lv3 物理攻撃のダメージが攻撃力×590%になる。/ Ex1 バーナリゼーションを強化する。バトル中このスキルを発動するのが3回目以降の場合、さらに攻撃力の増加量が80%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "鞭は振るわれるたびに力の解放条件を積み上げていく──4ターンの間自身の攻撃力が20%増加する。その後ランダムな敵に2回攻撃力×360%の物理攻撃を行う。回数を重ねると、やがて本来の力を芽吹かせる──バトル中このスキルを発動するのが2回目以降の場合、攻撃力の増加量が40%になる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "物理攻撃の回数が4回になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃のダメージが攻撃力×590%になる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "バーナリゼーションを強化する。バトル中このスキルを発動するのが3回目以降の場合、さらに攻撃力の増加量が80%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 90002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription900021]",
+          "descriptions": {
+            "zh-CN": "嘉德利亚以人为方式重现细胞分裂原理，使自己挥出的鞭击大量增殖——对物理防御力最低的敌人进行4次攻击，每次造成攻击力×410%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "生命に共通する分裂の摂理を人為的に再現し、鞭撃を増殖させる。物理防御力が最も低い敵に4回攻撃力×410%の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription900022]",
+          "descriptions": {
+            "zh-CN": "攻击次数增加为6次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "物理攻撃の回数が6回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription900023]",
+          "descriptions": {
+            "zh-CN": "战斗中自第2次发动此技能起，攻击次数增加为9次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらにバトル中このスキルを発動するのが2回目以降の場合、物理攻撃の回数が9回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription900024]",
+          "descriptions": {
+            "zh-CN": "战斗中自第3次发动此技能起，攻击次数增加为12次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "さらにバトル中このスキルを発動するのが3回目以降の場合、物理攻撃の回数が12回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription900025]",
+          "descriptions": {
+            "zh-CN": "强化三重分生组织，造成的物理伤害提升为攻击力×470%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "トリア・メリステムを強化する。物理攻撃のダメージが攻撃力×470%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription900021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              90002001,
+              90002002,
+              90002002,
+              90002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription900022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              90002201,
+              90002202,
+              90002202,
+              90002202,
+              90002202,
+              90002202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription900023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              90002201,
+              90002202,
+              90002202,
+              90002202,
+              90002202,
+              90002202,
+              90002303,
+              90002303,
+              90002303
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription900024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              90002201,
+              90002202,
+              90002202,
+              90002202,
+              90002202,
+              90002202,
+              90002303,
+              90002303,
+              90002303,
+              90002404,
+              90002404,
+              90002404
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription900025]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              90002501,
+              90002502,
+              90002502,
+              90002502,
+              90002502,
+              90002502,
+              90002503,
+              90002503,
+              90002503,
+              90002504,
+              90002504,
+              90002504
+            ]
+          }
+        ],
+        "Id": 90002,
+        "IsIgnore": null,
+        "Memo": "カトレアSR:Lv1 生命に共通する分裂の摂理を人為的に再現し、鞭撃を増殖させる。物理防御力が最も低い敵に4回攻撃力×410%の物理攻撃を行う。/ Lv2 物理攻撃の回数が6回になる。/ Lv3 さらにバトル中このスキルを発動するのが2回目以降の場合、物理攻撃の回数が9回になる。/ Lv4 さらにバトル中このスキルを発動するのが3回目以降の場合、物理攻撃の回数が12回になる。/ Ex3 トリア・メリステムを強化する。物理攻撃のダメージが攻撃力×470%になる。",
+        "NameKey": "[ActiveSkillName90002]",
+        "RootActiveSkillId": 90002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName90002]",
+      "names": {
+        "zh-CN": "三重分生组织"
+      },
+      "source_memo_ja": "カトレアSR:Lv1 生命に共通する分裂の摂理を人為的に再現し、鞭撃を増殖させる。物理防御力が最も低い敵に4回攻撃力×410%の物理攻撃を行う。/ Lv2 物理攻撃の回数が6回になる。/ Lv3 さらにバトル中このスキルを発動するのが2回目以降の場合、物理攻撃の回数が9回になる。/ Lv4 さらにバトル中このスキルを発動するのが3回目以降の場合、物理攻撃の回数が12回になる。/ Ex3 トリア・メリステムを強化する。物理攻撃のダメージが攻撃力×470%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "生命に共通する分裂の摂理を人為的に再現し、鞭撃を増殖させる。物理防御力が最も低い敵に4回攻撃力×410%の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "物理攻撃の回数が6回になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらにバトル中このスキルを発動するのが2回目以降の場合、物理攻撃の回数が9回になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "さらにバトル中このスキルを発動するのが3回目以降の場合、物理攻撃の回数が12回になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "トリア・メリステムを強化する。物理攻撃のダメージが攻撃力×470%になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 95,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 95,
+            "CollectionLevel": 1,
+            "Id": 9501,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルバートの真理(イディーネ,カトレア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 500.0,
+              "value_text": "+5%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 500.0
+              },
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 95,
+            "CollectionLevel": 2,
+            "Id": 9502,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルバートの真理(イディーネ,カトレア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 500.0,
+              "value_text": "+5%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 500.0
+              },
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 95,
+            "CollectionLevel": 3,
+            "Id": 9503,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルバートの真理(イディーネ,カトレア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 500.0,
+              "value_text": "+5%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 500.0
+              },
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 95,
+            "CollectionLevel": 4,
+            "Id": 9504,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルバートの真理(イディーネ,カトレア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 510.0,
+              "value_text": "+5.1%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 75.0,
+              "value_text": "+75×角色等级"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 510.0
+              },
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 75.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 95,
+            "CollectionLevel": 5,
+            "Id": 9505,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルバートの真理(イディーネ,カトレア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 520.0,
+              "value_text": "+5.2%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 80.0,
+              "value_text": "+80×角色等级"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 520.0
+              },
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 80.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 95,
+            "CollectionLevel": 6,
+            "Id": 9506,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルバートの真理(イディーネ,カトレア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 530.0,
+              "value_text": "+5.3%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 85.0,
+              "value_text": "+85×角色等级"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 530.0
+              },
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 85.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 95,
+            "CollectionLevel": 7,
+            "Id": 9507,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルバートの真理(イディーネ,カトレア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 540.0,
+              "value_text": "+5.4%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 90.0,
+              "value_text": "+90×角色等级"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 540.0
+              },
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 90.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 95,
+            "CollectionLevel": 8,
+            "Id": 9508,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルバートの真理(イディーネ,カトレア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 550.0,
+              "value_text": "+5.5%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 95.0,
+              "value_text": "+95×角色等级"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 550.0
+              },
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 95.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 95,
+            "CollectionLevel": 9,
+            "Id": 9509,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルバートの真理(イディーネ,カトレア)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 95,
+        "IsIgnore": null,
+        "Memo": "アルバートの真理(イディーネ,カトレア)",
+        "NameKey": "[CharacterCollectionName95]",
+        "RequiredCharacterIds": [
+          92,
+          90
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2026-05-14 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName95]",
+      "names": {
+        "zh-CN": "爱因斯坦座的真理"
+      },
+      "required_character_ids": [
+        92,
+        90
+      ],
+      "required_characters": [
+        {
+          "id": 92,
+          "names": {
+            "zh-CN": "艾蒂涅"
+          }
+        },
+        {
+          "id": 90,
+          "names": {
+            "zh-CN": "嘉德利亚"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2026-05-14 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 4,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 90,
+    "job_flags": 1,
+    "master_record": {
+      "ActiveSkillIds": [
+        90001,
+        90002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 85,
+        "Health": 68,
+        "Intelligence": 84,
+        "Muscle": 103
+      },
+      "BaseParameterGrossCoefficient": 340,
+      "CharacterType": 0,
+      "ElementType": 4,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 90,
+      "InitialBattleParameter": {
+        "AttackPower": 5,
+        "Avoidance": 0,
+        "Critical": -3,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 1,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 7,
+        "DefensePenetration": 0,
+        "HP": 0,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 2984
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 1,
+      "Memo": "カトレア",
+      "Name2Key": null,
+      "NameKey": "[CharacterName90]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        90003,
+        90004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2026-05-28 15:00:00"
+    },
+    "memo": "カトレア",
+    "name_key": "[CharacterName90]",
+    "names": {
+      "zh-CN": "嘉德利亚"
+    },
+    "speed": 2984,
+    "start_time_jst": "2026-05-28 15:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 901110240,
+    "exclusive_effect_id": 678,
+    "icon_id": 644,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 901110250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 145,
+        "EquipmentEvolutionId": 155,
+        "EquipmentExclusiveSkillDescriptionId": 113,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 1,
+        "ExclusiveEffectId": 678,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 644,
+        "Id": 901110240,
+        "IsIgnore": null,
+        "Memo": "カトレアLR240_剣",
+        "NameKey": "[EquipmentName639]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": null,
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 16,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          },
+          {
+            "BattleParameterType": 5,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 90,
+        "Id": 678,
+        "IsIgnore": null,
+        "Memo": "カトレアLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill90Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill90Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill90Description3]",
+        "Id": 113,
+        "IsIgnore": null,
+        "Memo": "カトレア剣"
+      }
+    },
+    "name_key": "[EquipmentName639]",
+    "names": {
+      "zh-CN": "全知之根"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "DebuffResist",
+        "parameter_type": 16,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Hit",
+        "parameter_type": 5,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill90Description1]",
+        "descriptions": {
+          "zh-CN": "强化春化作用，战斗中自第3次发动此技能起，攻击力增幅提升为80%。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill90Description2]",
+        "descriptions": {
+          "zh-CN": "强化对未知的渴望，「护盾」值提升为状态效果生效前的嘉德利亚最大生命值×200%。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill90Description3]",
+        "descriptions": {
+          "zh-CN": "强化三重分生组织，造成的物理伤害提升为攻击力×470%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 90003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription900031]",
+          "descriptions": {
+            "zh-CN": "“在我手里完全不费吹灰之力。”第8回合结束时，嘉德利亚解除自己与攻击力最高的其他友军身上的1种弱化效果。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「私の手にかかれば造作もない」8ターン目のターン終了時、自身と自身以外の攻撃力が最も高い味方の弱体効果を1つ解除する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription900032]",
+          "descriptions": {
+            "zh-CN": "解除的弱化效果增加为2种。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "弱体効果の解除数が2つになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription900033]",
+          "descriptions": {
+            "zh-CN": "当队伍中的其他流金属性友军数为2名以上时，技能触发条件增加为第4、8、12回合结束时。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらに自身以外の黄属性の味方の編成数が2体以上の場合、このスキルが4、12ターン目にも発動するようになる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 90003,
+        "IsIgnore": null,
+        "Memo": "カトレアSR:Lv1 「私の手にかかれば造作もない」8ターン目のターン終了時、自身と自身以外の攻撃力が最も高い味方の弱体効果を1つ解除する。/ Lv2 弱体効果の解除数が2つになる。/ Lv3 さらに自身以外の黄属性の味方の編成数が2体以上の場合、このスキルが4、12ターン目にも発動するようになる。",
+        "NameKey": "[PassiveSkillName90003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription900031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 2,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 90003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 2,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 90003002
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription900032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 2,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 90003201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 2,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 90003202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription900033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 2,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 90003301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 2,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 90003302
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName90003]",
+      "names": {
+        "zh-CN": "万物解析者"
+      },
+      "source_memo_ja": "カトレアSR:Lv1 「私の手にかかれば造作もない」8ターン目のターン終了時、自身と自身以外の攻撃力が最も高い味方の弱体効果を1つ解除する。/ Lv2 弱体効果の解除数が2つになる。/ Lv3 さらに自身以外の黄属性の味方の編成数が2体以上の場合、このスキルが4、12ターン目にも発動するようになる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「私の手にかかれば造作もない」8ターン目のターン終了時、自身と自身以外の攻撃力が最も高い味方の弱体効果を1つ解除する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "弱体効果の解除数が2つになる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらに自身以外の黄属性の味方の編成数が2体以上の場合、このスキルが4、12ターン目にも発動するようになる。"
+        }
+      ]
+    },
+    {
+      "id": 90004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription900041]",
+          "descriptions": {
+            "zh-CN": "“这个世界上还有东西待我探明，所以我现在不能死。除此之外还需要什么理由吗？”回合开始时，嘉德利亚获得状态效果生效前的最大生命值×50%的「护盾」，效果持续4回合。此技能须在结束4次行动后才可再次触发。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「この世界には、私が解き明かすべきものが残っている。それ以外に倒れない理由がいるかね？」ターン開始時、4ターンの間自身にステータス増減前の自身の最大HP×50%の『シールド』を付与する。このスキルは発動後4回行動終了するまで再び発動しない。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription900042]",
+          "descriptions": {
+            "zh-CN": "战斗开始时，嘉德利亚额外减少60%自身承受伤害（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらにバトル開始時、自身の被ダメージが60%減少する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription900043]",
+          "descriptions": {
+            "zh-CN": "回合开始时，使自己额外增加150%防御力，效果持续4回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "ターン開始時、さらに4ターンの間自身の防御力が150%増加する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription900044]",
+          "descriptions": {
+            "zh-CN": "强化对未知的渴望，「护盾」值提升为状态效果生效前的嘉德利亚最大生命值×200%。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "未知への渇望を強化する。『シールド』の大きさがステータス増減前の自身の最大HP×200%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 90004,
+        "IsIgnore": null,
+        "Memo": "カトレアSR:Lv1 「この世界には、私が解き明かすべきものが残っている。それ以外に倒れない理由がいるかね？」ターン開始時、4ターンの間自身にステータス増減前の自身の最大HP×50%の『シールド』を付与する。このスキルは発動後4回行動終了するまで再び発動しない。/ Lv2 さらにバトル開始時、自身の被ダメージが60%減少する（解除不可）。/ Lv3 ターン開始時、さらに4ターンの間自身の防御力が150%増加する。/ Ex2 未知への渇望を強化する。『シールド』の大きさがステータス増減前の自身の最大HP×200%になる。",
+        "NameKey": "[PassiveSkillName90004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription900041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 90004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription900042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 90004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 90004201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription900043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 90004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 90004201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 90004301
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription900044]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 90004401
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 90004201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 90004301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName90004]",
+      "names": {
+        "zh-CN": "对未知的渴望"
+      },
+      "source_memo_ja": "カトレアSR:Lv1 「この世界には、私が解き明かすべきものが残っている。それ以外に倒れない理由がいるかね？」ターン開始時、4ターンの間自身にステータス増減前の自身の最大HP×50%の『シールド』を付与する。このスキルは発動後4回行動終了するまで再び発動しない。/ Lv2 さらにバトル開始時、自身の被ダメージが60%減少する（解除不可）。/ Lv3 ターン開始時、さらに4ターンの間自身の防御力が150%増加する。/ Ex2 未知への渇望を強化する。『シールド』の大きさがステータス増減前の自身の最大HP×200%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「この世界には、私が解き明かすべきものが残っている。それ以外に倒れない理由がいるかね？」ターン開始時、4ターンの間自身にステータス増減前の自身の最大HP×50%の『シールド』を付与する。このスキルは発動後4回行動終了するまで再び発動しない。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらにバトル開始時、自身の被ダメージが60%減少する（解除不可）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "ターン開始時、さらに4ターンの間自身の防御力が150%増加する。"
+        },
+        {
+          "label": "Ex2",
+          "text": "未知への渇望を強化する。『シールド』の大きさがステータス増減前の自身の最大HP×200%になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

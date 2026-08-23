@@ -1,0 +1,1332 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 121001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription1210011]",
+          "descriptions": {
+            "zh-CN": "“遇见小纳之后，我的身体变得超～级好！您看！我还能做到这样哦！”璐米佳随机对敌人进行2次攻击，每次造成攻击力×290%的物理伤害。此攻击无视技能目标的「多重屏障」。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「ネグちゃんと会ってからすごーく元気なんです！　見てください！　こんなことも出来ちゃうんですよっ！」ランダムな敵に2回攻撃力×290%の物理攻撃を行う。この攻撃は対象の『多重バリア』を無視する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription1210012]",
+          "descriptions": {
+            "zh-CN": "攻击次数增加为3次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "物理攻撃の回数が3回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1210013]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×580%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃のダメージが攻撃力×580％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1210014]",
+          "descriptions": {
+            "zh-CN": "强化活力满满！，如果技能目标身上原本附带「多重屏障」，造成的物理伤害提升为攻击力×870%。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "元気いっぱい！を強化する。さらに物理攻撃の前に対象が『多重バリア』を付帯している場合、物理攻撃のダメージが攻撃力×870%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription1210011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              121001001,
+              121001002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription1210012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              121001001,
+              121001002,
+              121001002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1210013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              121001301,
+              121001302,
+              121001302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1210014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              121001401,
+              121001402,
+              121001402
+            ]
+          }
+        ],
+        "Id": 121001,
+        "IsIgnore": null,
+        "Memo": "ルミカSR:Lv1 「ネグちゃんと会ってからすごーく元気なんです！　見てください！　こんなことも出来ちゃうんですよっ！」ランダムな敵に2回攻撃力×290%の物理攻撃を行う。この攻撃は対象の『多重バリア』を無視する。/ Lv2 物理攻撃の回数が3回になる。/ Lv3 物理攻撃のダメージが攻撃力×580％になる。/ Ex1 元気いっぱい！を強化する。さらに物理攻撃の前に対象が『多重バリア』を付帯している場合、物理攻撃のダメージが攻撃力×870%になる。",
+        "NameKey": "[ActiveSkillName121001]",
+        "RootActiveSkillId": 121001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName121001]",
+      "names": {
+        "zh-CN": "活力满满！"
+      },
+      "source_memo_ja": "ルミカSR:Lv1 「ネグちゃんと会ってからすごーく元気なんです！　見てください！　こんなことも出来ちゃうんですよっ！」ランダムな敵に2回攻撃力×290%の物理攻撃を行う。この攻撃は対象の『多重バリア』を無視する。/ Lv2 物理攻撃の回数が3回になる。/ Lv3 物理攻撃のダメージが攻撃力×580％になる。/ Ex1 元気いっぱい！を強化する。さらに物理攻撃の前に対象が『多重バリア』を付帯している場合、物理攻撃のダメージが攻撃力×870%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「ネグちゃんと会ってからすごーく元気なんです！　見てください！　こんなことも出来ちゃうんですよっ！」ランダムな敵に2回攻撃力×290%の物理攻撃を行う。この攻撃は対象の『多重バリア』を無視する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "物理攻撃の回数が3回になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃のダメージが攻撃力×580％になる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "元気いっぱい！を強化する。さらに物理攻撃の前に対象が『多重バリア』を付帯している場合、物理攻撃のダメージが攻撃力×870%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 121002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription1210021]",
+          "descriptions": {
+            "zh-CN": "“勾勾小指头，我们是永远的好朋友——”这是属于孩子们的小小约定，却在无意间结成契约，使女孩获得了力量──璐米佳随机对1名敌人造成攻击力×820%的物理伤害。如果技能目标仍然存活，璐米佳再次发动此技能（最多1次）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「ずっと一緒にいられますように──」子供同士の、小さな小さな約束。だがそれは、図らずも契約の効力を持つこととなり、少女に力を授けた──ランダムな敵に攻撃力×820％の物理攻撃を行う。このスキルで敵を戦闘不能にできなかった場合、このスキルを再発動する（再発動は1回まで）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription1210022]",
+          "descriptions": {
+            "zh-CN": "再次发动技能的次数增加为2次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "再発動の回数が2回までになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription1210023]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×1240%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃のダメージが攻撃力×1240％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription1210024]",
+          "descriptions": {
+            "zh-CN": "再次发动技能的次数增加为3次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "再発動の回数が3回までになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription1210025]",
+          "descriptions": {
+            "zh-CN": "强化勾勾小指头，造成的物理伤害提升为攻击力×1360%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "小指の契約を強化する。物理攻撃のダメージが攻撃力×1360％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription1210021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              121002001,
+              121002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription1210022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              121002001,
+              121002002,
+              121002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription1210023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              121002301,
+              121002302,
+              121002302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription1210024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              121002301,
+              121002302,
+              121002302,
+              121002302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription1210025]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              121002501,
+              121002502,
+              121002502,
+              121002502
+            ]
+          }
+        ],
+        "Id": 121002,
+        "IsIgnore": null,
+        "Memo": "ルミカSR:Lv1 「ずっと一緒にいられますように──」子供同士の、小さな小さな約束。だがそれは、図らずも契約の効力を持つこととなり、少女に力を授けた──ランダムな敵に攻撃力×820％の物理攻撃を行う。このスキルで敵を戦闘不能にできなかった場合、このスキルを再発動する（再発動は1回まで）。/ Lv2 再発動の回数が2回までになる。/ Lv3 物理攻撃のダメージが攻撃力×1240％になる。/ Lv4 再発動の回数が3回までになる。/ Ex3 小指の契約を強化する。物理攻撃のダメージが攻撃力×1360％になる。",
+        "NameKey": "[ActiveSkillName121002]",
+        "RootActiveSkillId": 121002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName121002]",
+      "names": {
+        "zh-CN": "勾勾小指头"
+      },
+      "source_memo_ja": "ルミカSR:Lv1 「ずっと一緒にいられますように──」子供同士の、小さな小さな約束。だがそれは、図らずも契約の効力を持つこととなり、少女に力を授けた──ランダムな敵に攻撃力×820％の物理攻撃を行う。このスキルで敵を戦闘不能にできなかった場合、このスキルを再発動する（再発動は1回まで）。/ Lv2 再発動の回数が2回までになる。/ Lv3 物理攻撃のダメージが攻撃力×1240％になる。/ Lv4 再発動の回数が3回までになる。/ Ex3 小指の契約を強化する。物理攻撃のダメージが攻撃力×1360％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「ずっと一緒にいられますように──」子供同士の、小さな小さな約束。だがそれは、図らずも契約の効力を持つこととなり、少女に力を授けた──ランダムな敵に攻撃力×820％の物理攻撃を行う。このスキルで敵を戦闘不能にできなかった場合、このスキルを再発動する（再発動は1回まで）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "再発動の回数が2回までになる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃のダメージが攻撃力×1240％になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "再発動の回数が3回までになる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "小指の契約を強化する。物理攻撃のダメージが攻撃力×1360％になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 74,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 74,
+            "CollectionLevel": 1,
+            "Id": 7401,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "グラの花畑(ルミカ,使徒ロザリー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 500.0,
+              "value_text": "+5%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 500.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 74,
+            "CollectionLevel": 2,
+            "Id": 7402,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "グラの花畑(ルミカ,使徒ロザリー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 500.0,
+              "value_text": "+5%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 500.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 74,
+            "CollectionLevel": 3,
+            "Id": 7403,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "グラの花畑(ルミカ,使徒ロザリー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 500.0,
+              "value_text": "+5%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 500.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 74,
+            "CollectionLevel": 4,
+            "Id": 7404,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "グラの花畑(ルミカ,使徒ロザリー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 510.0,
+              "value_text": "+5.1%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1050.0,
+              "value_text": "+1,050"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 510.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1050.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 74,
+            "CollectionLevel": 5,
+            "Id": 7405,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "グラの花畑(ルミカ,使徒ロザリー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 520.0,
+              "value_text": "+5.2%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1100.0,
+              "value_text": "+1,100"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 520.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1100.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 74,
+            "CollectionLevel": 6,
+            "Id": 7406,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "グラの花畑(ルミカ,使徒ロザリー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 530.0,
+              "value_text": "+5.3%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1150.0,
+              "value_text": "+1,150"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 530.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1150.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 74,
+            "CollectionLevel": 7,
+            "Id": 7407,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "グラの花畑(ルミカ,使徒ロザリー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 540.0,
+              "value_text": "+5.4%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1200.0,
+              "value_text": "+1,200"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 540.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 74,
+            "CollectionLevel": 8,
+            "Id": 7408,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "グラの花畑(ルミカ,使徒ロザリー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 550.0,
+              "value_text": "+5.5%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1250.0,
+              "value_text": "+1,250"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 550.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 74,
+            "CollectionLevel": 9,
+            "Id": 7409,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "グラの花畑(ルミカ,使徒ロザリー)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 74,
+        "IsIgnore": null,
+        "Memo": "グラの花畑(ルミカ,使徒ロザリー)",
+        "NameKey": "[CharacterCollectionName74]",
+        "RequiredCharacterIds": [
+          121,
+          88
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2025-06-30 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName74]",
+      "names": {
+        "zh-CN": "古拉的花田"
+      },
+      "required_character_ids": [
+        121,
+        88
+      ],
+      "required_characters": [
+        {
+          "id": 121,
+          "names": {
+            "zh-CN": "璐米佳"
+          }
+        },
+        {
+          "id": 88,
+          "names": {
+            "zh-CN": "罗莎莉"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2025-06-30 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 5,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 121,
+    "job_flags": 1,
+    "master_record": {
+      "ActiveSkillIds": [
+        121001,
+        121002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 84,
+        "Health": 65,
+        "Intelligence": 83,
+        "Muscle": 103
+      },
+      "BaseParameterGrossCoefficient": 335,
+      "CharacterType": 0,
+      "ElementType": 5,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 121,
+      "InitialBattleParameter": {
+        "AttackPower": 5,
+        "Avoidance": 0,
+        "Critical": -3,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 1,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 7,
+        "DefensePenetration": 0,
+        "HP": 0,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 3046
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 1,
+      "Memo": "ルミカ",
+      "Name2Key": null,
+      "NameKey": "[CharacterName121]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        121003,
+        121004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2025-06-30 15:00:00"
+    },
+    "memo": "ルミカ",
+    "name_key": "[CharacterName121]",
+    "names": {
+      "zh-CN": "璐米佳"
+    },
+    "speed": 3046,
+    "start_time_jst": "2025-06-30 15:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 1211110240,
+    "exclusive_effect_id": 546,
+    "icon_id": 830,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 1211110250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 123,
+        "EquipmentEvolutionId": 133,
+        "EquipmentExclusiveSkillDescriptionId": 91,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 1,
+        "ExclusiveEffectId": 546,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 830,
+        "Id": 1211110240,
+        "IsIgnore": null,
+        "Memo": "ルミカLR240_剣",
+        "NameKey": "[EquipmentName825]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": null,
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 12,
+            "ChangeParameterType": 1,
+            "Value": 7000.0
+          },
+          {
+            "BattleParameterType": 7,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 121,
+        "Id": 546,
+        "IsIgnore": null,
+        "Memo": "ルミカLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill121Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill121Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill121Description3]",
+        "Id": 91,
+        "IsIgnore": null,
+        "Memo": "ルミカ剣"
+      }
+    },
+    "name_key": "[EquipmentName825]",
+    "names": {
+      "zh-CN": "余香绽放的花剪"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 1,
+        "kind": "battle",
+        "parameter_code": "DefensePenetration",
+        "parameter_type": 12,
+        "raw_value": 7000.0,
+        "value_text": "+7,000"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Critical",
+        "parameter_type": 7,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill121Description1]",
+        "descriptions": {
+          "zh-CN": "强化活力满满！，如果技能目标身上原本附带「多重屏障」，造成的物理伤害提升为攻击力×870%。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill121Description2]",
+        "descriptions": {
+          "zh-CN": "强化双花木雕，如果队伍中属性相同的友军达3名以上，「攻击力上升」的附加目标增加为璐米佳与攻击力最高的2名其他友军。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill121Description3]",
+        "descriptions": {
+          "zh-CN": "强化勾勾小指头，造成的物理伤害提升为攻击力×1360%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 121003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription1210031]",
+          "descriptions": {
+            "zh-CN": "仅仅一天，就那么一天——失去了那一天的记忆，让女孩陷入永远的等待，等待着她独一无二、最最珍视的朋友——如果璐米佳在本回合内使攻击目标失去战斗能力，在回合结束时使自己增加10%攻击力，效果持续1回合（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "たった一日分。されど一日分。その記憶が消えたことで、少女は永遠に待ち続ける。たった一人の、大切な友達を──毎ターン終了時、このターン中に、自身が攻撃して攻撃の対象を戦闘不能にした場合、1ターンの間自身の攻撃力が10％増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription1210032]",
+          "descriptions": {
+            "zh-CN": "攻击力增幅提升为30%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "攻撃力の増加量が30％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription1210033]",
+          "descriptions": {
+            "zh-CN": "如果璐米佳在本回合内使攻击目标失去战斗能力，在回合结束时使自己额外减少技能冷却时间1。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "毎ターン終了時、このターン中に、自身が攻撃して攻撃の対象を戦闘不能にした場合、さらに自身のスキルクールタイムカウントが1減少する。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 121003,
+        "IsIgnore": null,
+        "Memo": "ルミカSR:Lv1 たった一日分。されど一日分。その記憶が消えたことで、少女は永遠に待ち続ける。たった一人の、大切な友達を──毎ターン終了時、このターン中に、自身が攻撃して攻撃の対象を戦闘不能にした場合、1ターンの間自身の攻撃力が10％増加する（解除不可）。/ Lv2 攻撃力の増加量が30％になる。/ Lv3 毎ターン終了時、このターン中に、自身が攻撃して攻撃の対象を戦闘不能にした場合、さらに自身のスキルクールタイムカウントが1減少する。",
+        "NameKey": "[PassiveSkillName121003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription1210031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 2,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 121003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription1210032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 2,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 121003201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription1210033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 2,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 121003301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName121003]",
+      "names": {
+        "zh-CN": "微小的代价"
+      },
+      "source_memo_ja": "ルミカSR:Lv1 たった一日分。されど一日分。その記憶が消えたことで、少女は永遠に待ち続ける。たった一人の、大切な友達を──毎ターン終了時、このターン中に、自身が攻撃して攻撃の対象を戦闘不能にした場合、1ターンの間自身の攻撃力が10％増加する（解除不可）。/ Lv2 攻撃力の増加量が30％になる。/ Lv3 毎ターン終了時、このターン中に、自身が攻撃して攻撃の対象を戦闘不能にした場合、さらに自身のスキルクールタイムカウントが1減少する。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "たった一日分。されど一日分。その記憶が消えたことで、少女は永遠に待ち続ける。たった一人の、大切な友達を──毎ターン終了時、このターン中に、自身が攻撃して攻撃の対象を戦闘不能にした場合、1ターンの間自身の攻撃力が10％増加する（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "攻撃力の増加量が30％になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "毎ターン終了時、このターン中に、自身が攻撃して攻撃の対象を戦闘不能にした場合、さらに自身のスキルクールタイムカウントが1減少する。"
+        }
+      ]
+    },
+    {
+      "id": 121004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription1210041]",
+          "descriptions": {
+            "zh-CN": "“嗯！相信我们一定会再见面，绝对会！好，我不会再灰心丧气了！”战斗开始时，璐米佳使自己增加30%攻击力，效果持续2回合（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「うん。きっとまた会える。絶対会える！　よしっ、私もうめげないから！」バトル開始時、2ターンの間自身の攻撃力が30％増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription1210042]",
+          "descriptions": {
+            "zh-CN": "战斗开始时，使自己额外增加30%命中率，效果持续2回合（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "バトル開始時、さらに2ターンの間自身の命中率が30％増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription1210043]",
+          "descriptions": {
+            "zh-CN": "战斗开始时，使自己额外增加30%速度，效果持续2回合（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "バトル開始時、さらに2ターンの間自身のスピードが30％増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription1210044]",
+          "descriptions": {
+            "zh-CN": "强化双花木雕，如果队伍中属性相同的友军达3名以上，「攻击力上升」的附加目标增加为璐米佳与攻击力最高的2名其他友军。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "双花のレリーフを強化する。味方編成内で同じ属性の味方の編成数が3体以上の場合、『攻撃力増加』の対象が自身と自身以外の攻撃力が高い味方2体になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 121004,
+        "IsIgnore": null,
+        "Memo": "ルミカSR:Lv1 「うん。きっとまた会える。絶対会える！　よしっ、私もうめげないから！」バトル開始時、2ターンの間自身の攻撃力が30％増加する（解除不可）。/ Lv2 バトル開始時、さらに2ターンの間自身の命中率が30％増加する（解除不可）。/ Lv3 バトル開始時、さらに2ターンの間自身のスピードが30％増加する（解除不可）。/ Ex2 双花のレリーフを強化する。味方編成内で同じ属性の味方の編成数が3体以上の場合、『攻撃力増加』の対象が自身と自身以外の攻撃力が高い味方2体になる。",
+        "NameKey": "[PassiveSkillName121004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription1210041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 121004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription1210042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 121004201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription1210043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 121004201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 28,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 121004302
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription1210044]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 121004201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 28,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 121004302
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 121004403
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName121004]",
+      "names": {
+        "zh-CN": "双花木雕"
+      },
+      "source_memo_ja": "ルミカSR:Lv1 「うん。きっとまた会える。絶対会える！　よしっ、私もうめげないから！」バトル開始時、2ターンの間自身の攻撃力が30％増加する（解除不可）。/ Lv2 バトル開始時、さらに2ターンの間自身の命中率が30％増加する（解除不可）。/ Lv3 バトル開始時、さらに2ターンの間自身のスピードが30％増加する（解除不可）。/ Ex2 双花のレリーフを強化する。味方編成内で同じ属性の味方の編成数が3体以上の場合、『攻撃力増加』の対象が自身と自身以外の攻撃力が高い味方2体になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「うん。きっとまた会える。絶対会える！　よしっ、私もうめげないから！」バトル開始時、2ターンの間自身の攻撃力が30％増加する（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "バトル開始時、さらに2ターンの間自身の命中率が30％増加する（解除不可）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "バトル開始時、さらに2ターンの間自身のスピードが30％増加する（解除不可）。"
+        },
+        {
+          "label": "Ex2",
+          "text": "双花のレリーフを強化する。味方編成内で同じ属性の味方の編成数が3体以上の場合、『攻撃力増加』の対象が自身と自身以外の攻撃力が高い味方2体になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

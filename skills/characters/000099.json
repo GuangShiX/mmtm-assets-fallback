@@ -1,0 +1,1375 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 99001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription990011]",
+          "descriptions": {
+            "zh-CN": "“谁都别想伤害我的妹妹。就算我不在世上了，这条缎带也会继续守护她……！”莉莉珂特使自己受到2次当前生命值×20%的自损伤害，70%概率解除附带增益效果最多的敌人身上的2种增益效果。再随机对敌人进行4次攻击，每次造成攻击力×430%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「私の妹を傷つけさせない。私が消えた後も、どうかあの子を守って……！」自身に2回自身の現在HP×20%の自傷ダメージを与え、70%の確率で付帯しているバフの個数が最も多い敵のバフを2つ解除する。その後ランダムな敵に4回攻撃力×430%の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription990012]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×580%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "物理攻撃のダメージが攻撃力×580%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription990013]",
+          "descriptions": {
+            "zh-CN": "攻击次数增加为6次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃の回数が6回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription990014]",
+          "descriptions": {
+            "zh-CN": "强化约定所系的缎带，当队伍中的其他业红属性友军数为3名以上时，解除的增益效果增加为6种。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "誓い結うリボンを強化する。さらに自身以外の紅属性の味方の編成数が3体以上の場合、バフの解除数が6になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription990015]",
+          "descriptions": {
+            "zh-CN": "强化约定所系的缎带，造成的物理伤害提升为攻击力×630%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "誓い結うリボンを強化する。物理攻撃のダメージが攻撃力×630%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription990011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              99001001,
+              99001001,
+              99001002,
+              99001003,
+              99001004,
+              99001004,
+              99001004
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription990012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              99001001,
+              99001001,
+              99001002,
+              99001203,
+              99001204,
+              99001204,
+              99001204
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription990013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              99001001,
+              99001001,
+              99001002,
+              99001303,
+              99001304,
+              99001304,
+              99001304,
+              99001304,
+              99001304
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription990014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              99001001,
+              99001001,
+              99001402,
+              99001303,
+              99001304,
+              99001304,
+              99001304,
+              99001304,
+              99001304
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription990015]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              99001001,
+              99001001,
+              99001402,
+              99001503,
+              99001504,
+              99001504,
+              99001504,
+              99001504,
+              99001504
+            ]
+          }
+        ],
+        "Id": 99001,
+        "IsIgnore": null,
+        "Memo": "リリコットSR:Lv1 「私の妹を傷つけさせない。私が消えた後も、どうかあの子を守って……！」自身に2回自身の現在HP×20%の自傷ダメージを与え、70%の確率で付帯しているバフの個数が最も多い敵のバフを2つ解除する。その後ランダムな敵に4回攻撃力×430%の物理攻撃を行う。/ Lv2 物理攻撃のダメージが攻撃力×580%になる。/ Lv3 物理攻撃の回数が6回になる。/ Ex1 誓い結うリボンを強化する。さらに自身以外の紅属性の味方の編成数が3体以上の場合、バフの解除数が6になる。/ Ex3 誓い結うリボンを強化する。物理攻撃のダメージが攻撃力×630%になる。",
+        "NameKey": "[ActiveSkillName99001]",
+        "RootActiveSkillId": 99001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName99001]",
+      "names": {
+        "zh-CN": "约定所系的缎带"
+      },
+      "source_memo_ja": "リリコットSR:Lv1 「私の妹を傷つけさせない。私が消えた後も、どうかあの子を守って……！」自身に2回自身の現在HP×20%の自傷ダメージを与え、70%の確率で付帯しているバフの個数が最も多い敵のバフを2つ解除する。その後ランダムな敵に4回攻撃力×430%の物理攻撃を行う。/ Lv2 物理攻撃のダメージが攻撃力×580%になる。/ Lv3 物理攻撃の回数が6回になる。/ Ex1 誓い結うリボンを強化する。さらに自身以外の紅属性の味方の編成数が3体以上の場合、バフの解除数が6になる。/ Ex3 誓い結うリボンを強化する。物理攻撃のダメージが攻撃力×630%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「私の妹を傷つけさせない。私が消えた後も、どうかあの子を守って……！」自身に2回自身の現在HP×20%の自傷ダメージを与え、70%の確率で付帯しているバフの個数が最も多い敵のバフを2つ解除する。その後ランダムな敵に4回攻撃力×430%の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "物理攻撃のダメージが攻撃力×580%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃の回数が6回になる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "誓い結うリボンを強化する。さらに自身以外の紅属性の味方の編成数が3体以上の場合、バフの解除数が6になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "誓い結うリボンを強化する。物理攻撃のダメージが攻撃力×630%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 99002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription990021]",
+          "descriptions": {
+            "zh-CN": "“请替我们守护莉莉珂特，为她指引前进的方向……拜托了。”莉莉珂特使自己受到2次当前生命值×20%的自损伤害，70%概率解除附带增益效果最多的敌人身上的2种增益效果。再对攻击力最高的2名敌人造成攻击力×740%的物理伤害，30%概率附加「沉默」状态，效果持续1回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「私たちの代わりに、リリコットを守って。あの子を導いてあげて……お願いね」自身に2回自身の現在HP×20%の自傷ダメージを与え、70%の確率で付帯しているバフの個数が最も多い敵のバフを2つ解除する。その後攻撃力が高い敵2体に攻撃力×740%の物理攻撃を行い、30%の確率で対象に1ターンの間『沈黙』を付与する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription990022]",
+          "descriptions": {
+            "zh-CN": "附加「沉默」状态的概率提升为70%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "『沈黙』を付与する確率が70%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription990023]",
+          "descriptions": {
+            "zh-CN": "攻击目标增加为攻击力最高的3名敌人。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃の対象が攻撃力が高い敵3体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription990024]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×1120%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "物理攻撃のダメージが攻撃力×1120%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription990025]",
+          "descriptions": {
+            "zh-CN": "强化心愿所托的花伞，「沉默」效果增加为2回合。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "願い託す花傘を強化する。『沈黙』のターン数が2ターンになる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription990021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              99002001,
+              99002001,
+              99002002,
+              99002003
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription990022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              99002001,
+              99002001,
+              99002002,
+              99002203
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription990023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              99002001,
+              99002001,
+              99002002,
+              99002303
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription990024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              99002001,
+              99002001,
+              99002002,
+              99002403
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription990025]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              99002001,
+              99002001,
+              99002002,
+              99002503
+            ]
+          }
+        ],
+        "Id": 99002,
+        "IsIgnore": null,
+        "Memo": "リリコットSR:Lv1 「私たちの代わりに、リリコットを守って。あの子を導いてあげて……お願いね」自身に2回自身の現在HP×20%の自傷ダメージを与え、70%の確率で付帯しているバフの個数が最も多い敵のバフを2つ解除する。その後攻撃力が高い敵2体に攻撃力×740%の物理攻撃を行い、30%の確率で対象に1ターンの間『沈黙』を付与する。/ Lv2 『沈黙』を付与する確率が70%になる。/ Lv3 物理攻撃の対象が攻撃力が高い敵3体になる。/ Lv4 物理攻撃のダメージが攻撃力×1120%になる。/ Ex2 願い託す花傘を強化する。『沈黙』のターン数が2ターンになる。",
+        "NameKey": "[ActiveSkillName99002]",
+        "RootActiveSkillId": 99002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName99002]",
+      "names": {
+        "zh-CN": "心愿所托的花伞"
+      },
+      "source_memo_ja": "リリコットSR:Lv1 「私たちの代わりに、リリコットを守って。あの子を導いてあげて……お願いね」自身に2回自身の現在HP×20%の自傷ダメージを与え、70%の確率で付帯しているバフの個数が最も多い敵のバフを2つ解除する。その後攻撃力が高い敵2体に攻撃力×740%の物理攻撃を行い、30%の確率で対象に1ターンの間『沈黙』を付与する。/ Lv2 『沈黙』を付与する確率が70%になる。/ Lv3 物理攻撃の対象が攻撃力が高い敵3体になる。/ Lv4 物理攻撃のダメージが攻撃力×1120%になる。/ Ex2 願い託す花傘を強化する。『沈黙』のターン数が2ターンになる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「私たちの代わりに、リリコットを守って。あの子を導いてあげて……お願いね」自身に2回自身の現在HP×20%の自傷ダメージを与え、70%の確率で付帯しているバフの個数が最も多い敵のバフを2つ解除する。その後攻撃力が高い敵2体に攻撃力×740%の物理攻撃を行い、30%の確率で対象に1ターンの間『沈黙』を付与する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "『沈黙』を付与する確率が70%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃の対象が攻撃力が高い敵3体になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "物理攻撃のダメージが攻撃力×1120%になる。"
+        },
+        {
+          "label": "Ex2",
+          "text": "願い託す花傘を強化する。『沈黙』のターン数が2ターンになる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 91,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 91,
+            "CollectionLevel": 1,
+            "Id": 9101,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ロサの花棘​(リリコット,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 50.0,
+              "value_text": "+50×角色等级"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 50.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 91,
+            "CollectionLevel": 2,
+            "Id": 9102,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ロサの花棘​(リリコット,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 50.0,
+              "value_text": "+50×角色等级"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 50.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 91,
+            "CollectionLevel": 3,
+            "Id": 9103,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ロサの花棘​(リリコット,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 50.0,
+              "value_text": "+50×角色等级"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 50.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 91,
+            "CollectionLevel": 4,
+            "Id": 9104,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ロサの花棘​(リリコット,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 210.0,
+              "value_text": "+2.1%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 51.0,
+              "value_text": "+51×角色等级"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 210.0
+              },
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 51.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 91,
+            "CollectionLevel": 5,
+            "Id": 9105,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ロサの花棘​(リリコット,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 220.0,
+              "value_text": "+2.2%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 52.0,
+              "value_text": "+52×角色等级"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 220.0
+              },
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 52.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 91,
+            "CollectionLevel": 6,
+            "Id": 9106,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ロサの花棘​(リリコット,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 230.0,
+              "value_text": "+2.3%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 53.0,
+              "value_text": "+53×角色等级"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 230.0
+              },
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 53.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 91,
+            "CollectionLevel": 7,
+            "Id": 9107,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ロサの花棘​(リリコット,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 240.0,
+              "value_text": "+2.4%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 54.0,
+              "value_text": "+54×角色等级"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 240.0
+              },
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 54.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 91,
+            "CollectionLevel": 8,
+            "Id": 9108,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ロサの花棘​(リリコット,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 250.0,
+              "value_text": "+2.5%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 55.0,
+              "value_text": "+55×角色等级"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 250.0
+              },
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 55.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 91,
+            "CollectionLevel": 9,
+            "Id": 9109,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ロサの花棘​(リリコット,アイビー)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 91,
+        "IsIgnore": null,
+        "Memo": "ロサの花棘​(リリコット,アイビー)",
+        "NameKey": "[CharacterCollectionName91]",
+        "RequiredCharacterIds": [
+          99,
+          25
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2026-03-16 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName91]",
+      "names": {
+        "zh-CN": "玫瑰座的棘刺"
+      },
+      "required_character_ids": [
+        99,
+        25
+      ],
+      "required_characters": [
+        {
+          "id": 99,
+          "names": {
+            "zh-CN": "莉莉珂特"
+          }
+        },
+        {
+          "id": 25,
+          "names": {
+            "zh-CN": "艾薇"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2026-03-16 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 2,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 99,
+    "job_flags": 2,
+    "master_record": {
+      "ActiveSkillIds": [
+        99001,
+        99002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 97,
+        "Health": 74,
+        "Intelligence": 91,
+        "Muscle": 73
+      },
+      "BaseParameterGrossCoefficient": 335,
+      "CharacterType": 0,
+      "ElementType": 2,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 99,
+      "InitialBattleParameter": {
+        "AttackPower": -1,
+        "Avoidance": 0,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 5,
+        "DebuffResist": 0,
+        "Defense": 6,
+        "DefensePenetration": 0,
+        "HP": 0,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 3064
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 2,
+      "Memo": "リリコット",
+      "Name2Key": "",
+      "NameKey": "[CharacterName99]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        99003,
+        99004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2026-03-16 15:00:00"
+    },
+    "memo": "リリコット",
+    "name_key": "[CharacterName99]",
+    "names": {
+      "zh-CN": "莉莉珂特"
+    },
+    "speed": 3064,
+    "start_time_jst": "2026-03-16 15:00:00",
+    "subtitle_key": "",
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 991120240,
+    "exclusive_effect_id": 636,
+    "icon_id": 698,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 991120250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 138,
+        "EquipmentEvolutionId": 148,
+        "EquipmentExclusiveSkillDescriptionId": 106,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 2,
+        "ExclusiveEffectId": 636,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 698,
+        "Id": 991120240,
+        "IsIgnore": null,
+        "Memo": "リリコットLR240_銃",
+        "NameKey": "[EquipmentName693]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": null,
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 5,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          },
+          {
+            "BattleParameterType": 7,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 99,
+        "Id": 636,
+        "IsIgnore": null,
+        "Memo": "リリコットLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill99Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill99Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill99Description3]",
+        "Id": 106,
+        "IsIgnore": null,
+        "Memo": "リリコット銃"
+      }
+    },
+    "name_key": "[EquipmentName693]",
+    "names": {
+      "zh-CN": "亲爱的小淑女"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Hit",
+        "parameter_type": 5,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Critical",
+        "parameter_type": 7,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill99Description1]",
+        "descriptions": {
+          "zh-CN": "强化约定所系的缎带，当队伍中的其他业红属性友军数为3名以上时，解除的增益效果增加为6种。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill99Description2]",
+        "descriptions": {
+          "zh-CN": "强化心愿所托的花伞，「沉默」效果增加为2回合。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill99Description3]",
+        "descriptions": {
+          "zh-CN": "强化约定所系的缎带，造成的物理伤害提升为攻击力×630%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": false,
+  "missing_localization_keys": [
+    ""
+  ],
+  "passive_skills": [
+    {
+      "id": 99003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription990031]",
+          "descriptions": {
+            "zh-CN": "“但愿我们的爱，能成为你永远的后盾。”解除敌人身上的增益效果后，莉莉珂特使自己与攻击力最高的其他友军增加攻击力与防御力，增幅分别为莉莉珂特攻击力×20%及莉莉珂特防御力×20%，效果持续1回合（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「私たちの愛が、どうかいつまでも貴女の支えとなりますように」自身が敵のバフを解除したとき、1ターンの間自身と自身以外の攻撃力が最も高い味方の攻撃力を自身の攻撃力×20%、防御力を自身の防御力×20%増加させる（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription990032]",
+          "descriptions": {
+            "zh-CN": "「攻击力上升」与「防御力上升」效果增加为2回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "『攻撃力増加』と『防御力増加』のターン数が2ターンになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription990033]",
+          "descriptions": {
+            "zh-CN": "当技能目标为业红属性时，攻击力与防御力增幅分别提升为莉莉珂特攻击力×50%及莉莉珂特防御力×50%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらに対象が紅属性の場合、攻撃力の増加量が自身の攻撃力×50%、防御力の増加量が自身の防御力×50%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 99003,
+        "IsIgnore": null,
+        "Memo": "リリコットSR:Lv1 「私たちの愛が、どうかいつまでも貴女の支えとなりますように」自身が敵のバフを解除したとき、1ターンの間自身と自身以外の攻撃力が最も高い味方の攻撃力を自身の攻撃力×20%、防御力を自身の防御力×20%増加させる（解除不可）。/ Lv2 『攻撃力増加』と『防御力増加』のターン数が2ターンになる。/ Lv3 さらに対象が紅属性の場合、攻撃力の増加量が自身の攻撃力×50%、防御力の増加量が自身の防御力×50%になる。",
+        "NameKey": "[PassiveSkillName99003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription990031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 46,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 99003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 46,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 99003002
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription990032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 46,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 99003201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 46,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 99003202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription990033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 46,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 99003301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 46,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 99003302
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName99003]",
+      "names": {
+        "zh-CN": "祝福所依的胸针"
+      },
+      "source_memo_ja": "リリコットSR:Lv1 「私たちの愛が、どうかいつまでも貴女の支えとなりますように」自身が敵のバフを解除したとき、1ターンの間自身と自身以外の攻撃力が最も高い味方の攻撃力を自身の攻撃力×20%、防御力を自身の防御力×20%増加させる（解除不可）。/ Lv2 『攻撃力増加』と『防御力増加』のターン数が2ターンになる。/ Lv3 さらに対象が紅属性の場合、攻撃力の増加量が自身の攻撃力×50%、防御力の増加量が自身の防御力×50%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「私たちの愛が、どうかいつまでも貴女の支えとなりますように」自身が敵のバフを解除したとき、1ターンの間自身と自身以外の攻撃力が最も高い味方の攻撃力を自身の攻撃力×20%、防御力を自身の防御力×20%増加させる（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "『攻撃力増加』と『防御力増加』のターン数が2ターンになる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらに対象が紅属性の場合、攻撃力の増加量が自身の攻撃力×50%、防御力の増加量が自身の防御力×50%になる。"
+        }
+      ]
+    },
+    {
+      "id": 99004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription990041]",
+          "descriptions": {
+            "zh-CN": "“对不起，往后的时光，姐姐没有办法陪你一起走了……莉莉珂特，别停下来，你要继续往前走。”莉莉珂特强化自己的普通攻击，普攻时随机对敌人进行3次攻击，每次造成攻击力×300%的物理伤害。莉莉珂特的生命值百分比越低，造成的物理伤害越高（最多攻击力×600%）。生命值百分比在每次攻击结束后重新进行判定。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「ごめんなさい。もう同じ時間は刻めないけれど……貴女は止まらないで、リリコット」自身の通常攻撃を強化する。通常攻撃時ランダムな敵に3回攻撃力×300%の物理攻撃を行う。自身のHP割合が低くなるほど物理攻撃のダメージが大きくなる（最大攻撃力×600%まで）。ただしHP割合の判定は攻撃1回ごとに行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription990042]",
+          "descriptions": {
+            "zh-CN": "战斗开始时，莉莉珂特使自己额外增加15%速度，效果持续4回合（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらにバトル開始時、4ターンの間自身のスピードが15%増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription990043]",
+          "descriptions": {
+            "zh-CN": "速度增幅提升为30%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "スピードの増加量が30%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 99004,
+        "IsIgnore": null,
+        "Memo": "リリコットSR:Lv1 「ごめんなさい。もう同じ時間は刻めないけれど……貴女は止まらないで、リリコット」自身の通常攻撃を強化する。通常攻撃時ランダムな敵に3回攻撃力×300%の物理攻撃を行う。自身のHP割合が低くなるほど物理攻撃のダメージが大きくなる（最大攻撃力×600%まで）。ただしHP割合の判定は攻撃1回ごとに行う。/ Lv2 さらにバトル開始時、4ターンの間自身のスピードが15%増加する（解除不可）。/ Lv3 スピードの増加量が30%になる。",
+        "NameKey": "[PassiveSkillName99004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription990041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 99004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription990042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 99004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 28,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 99004202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription990043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 99004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 28,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 99004302
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName99004]",
+      "names": {
+        "zh-CN": "思念所在的怀表"
+      },
+      "source_memo_ja": "リリコットSR:Lv1 「ごめんなさい。もう同じ時間は刻めないけれど……貴女は止まらないで、リリコット」自身の通常攻撃を強化する。通常攻撃時ランダムな敵に3回攻撃力×300%の物理攻撃を行う。自身のHP割合が低くなるほど物理攻撃のダメージが大きくなる（最大攻撃力×600%まで）。ただしHP割合の判定は攻撃1回ごとに行う。/ Lv2 さらにバトル開始時、4ターンの間自身のスピードが15%増加する（解除不可）。/ Lv3 スピードの増加量が30%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「ごめんなさい。もう同じ時間は刻めないけれど……貴女は止まらないで、リリコット」自身の通常攻撃を強化する。通常攻撃時ランダムな敵に3回攻撃力×300%の物理攻撃を行う。自身のHP割合が低くなるほど物理攻撃のダメージが大きくなる（最大攻撃力×600%まで）。ただしHP割合の判定は攻撃1回ごとに行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらにバトル開始時、4ターンの間自身のスピードが15%増加する（解除不可）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "スピードの増加量が30%になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

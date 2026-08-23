@@ -1,0 +1,611 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 22001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription220011]",
+          "descriptions": {
+            "zh-CN": "萨拉灌注全身之力，对面前的敌人造成攻击力×480%的物理伤害，50%概率附加「晕厥」状态，效果持续1回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "渾身の力を込めて、正面の敵に攻撃力×480％の物理攻撃を行い、50％の確率で1ターンの間『気絶』を付与する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[ActiveSkillDescription220012]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×520%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "物理攻撃のダメージが攻撃力×520%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[ActiveSkillDescription220013]",
+          "descriptions": {
+            "zh-CN": "附加「晕厥」状态的概率提升为70%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "『気絶』を付与する確率が70％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription220011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              22001001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[ActiveSkillDescription220012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              22001201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[ActiveSkillDescription220013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              22001301
+            ]
+          }
+        ],
+        "Id": 22001,
+        "IsIgnore": null,
+        "Memo": "ザラR: /Lv1　渾身の力を込めて、正面の敵に攻撃力×480％の物理攻撃を行い、50％の確率で1ターンの間『気絶』を付与する。　/Lv2 物理攻撃のダメージが攻撃力×520%になる。　/Lv3 『気絶』を付与する確率が70％になる。",
+        "NameKey": "[ActiveSkillName22001]",
+        "RootActiveSkillId": 22001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName22001]",
+      "names": {
+        "zh-CN": "全力突击"
+      },
+      "source_memo_ja": "ザラR: /Lv1　渾身の力を込めて、正面の敵に攻撃力×480％の物理攻撃を行い、50％の確率で1ターンの間『気絶』を付与する。　/Lv2 物理攻撃のダメージが攻撃力×520%になる。　/Lv3 『気絶』を付与する確率が70％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "渾身の力を込めて、正面の敵に攻撃力×480％の物理攻撃を行い、50％の確率で1ターンの間『気絶』を付与する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "物理攻撃のダメージが攻撃力×520%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "『気絶』を付与する確率が70％になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 22002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription220021]",
+          "descriptions": {
+            "zh-CN": "萨拉使用魔女之力进行高速冲锋，对面前的敌人与该敌人附近的2名敌人造成攻击力×410%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "魔女の力を使った高速の進撃で、正面の敵とそれに隣接する敵2体に攻撃力×410％の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription220022]",
+          "descriptions": {
+            "zh-CN": "50%概率使技能目标额外减少10%速度，效果持续3回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに50％の確率で3ターンの間対象のスピードを10％減少させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription220023]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×480%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃のダメージが攻撃力×480%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[ActiveSkillDescription220024]",
+          "descriptions": {
+            "zh-CN": "速度降幅提升为20%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "スピードの減少量が20％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription220021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              22002001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription220022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              22002201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription220023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              22002301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[ActiveSkillDescription220024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              22002401
+            ]
+          }
+        ],
+        "Id": 22002,
+        "IsIgnore": null,
+        "Memo": "ザラR: /Lv1　魔女の力を使った高速の進撃で、正面の敵とそれに隣接する敵2体に攻撃力×410％の物理攻撃を行う。　/Lv2 さらに50％の確率で3ターンの間対象のスピードを10％減少させる。　/Lv3 物理攻撃のダメージが攻撃力×480%になる。　/Lv4 スピードの減少量が20％になる。",
+        "NameKey": "[ActiveSkillName22002]",
+        "RootActiveSkillId": 22002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName22002]",
+      "names": {
+        "zh-CN": "正面冲锋"
+      },
+      "source_memo_ja": "ザラR: /Lv1　魔女の力を使った高速の進撃で、正面の敵とそれに隣接する敵2体に攻撃力×410％の物理攻撃を行う。　/Lv2 さらに50％の確率で3ターンの間対象のスピードを10％減少させる。　/Lv3 物理攻撃のダメージが攻撃力×480%になる。　/Lv4 スピードの減少量が20％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "魔女の力を使った高速の進撃で、正面の敵とそれに隣接する敵2体に攻撃力×410％の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに50％の確率で3ターンの間対象のスピードを10％減少させる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃のダメージが攻撃力×480%になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "スピードの減少量が20％になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 58,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 58,
+            "CollectionLevel": 1,
+            "Id": 5801,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 1,
+            "Memo": "アルニラムの開花(イリア,アリアンロッド,ザラ,スクルド)"
+          },
+          "max_level_increase": 1
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 58,
+            "CollectionLevel": 2,
+            "Id": 5802,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 3,
+            "Memo": "アルニラムの開花(イリア,アリアンロッド,ザラ,スクルド)"
+          },
+          "max_level_increase": 3
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 58,
+            "CollectionLevel": 3,
+            "Id": 5803,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 5,
+            "Memo": "アルニラムの開花(イリア,アリアンロッド,ザラ,スクルド)"
+          },
+          "max_level_increase": 5
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 58,
+        "IsIgnore": null,
+        "Memo": "アルニラムの開花(イリア,アリアンロッド,ザラ,スクルド)",
+        "NameKey": "[CharacterCollectionName58]",
+        "RequiredCharacterIds": [
+          2,
+          12,
+          22,
+          32
+        ],
+        "RequiredPartyLv": 300,
+        "StartTimeFixJST": "2024-10-18 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName58]",
+      "names": {
+        "zh-CN": "串绳星的绽放"
+      },
+      "required_character_ids": [
+        2,
+        12,
+        22,
+        32
+      ],
+      "required_characters": [
+        {
+          "id": 2,
+          "names": {
+            "zh-CN": "伊利亚"
+          }
+        },
+        {
+          "id": 12,
+          "names": {
+            "zh-CN": "阿丽安萝德"
+          }
+        },
+        {
+          "id": 22,
+          "names": {
+            "zh-CN": "萨拉"
+          }
+        },
+        {
+          "id": 32,
+          "names": {
+            "zh-CN": "诗寇蒂"
+          }
+        }
+      ],
+      "required_party_level": 300,
+      "start_time_jst": "2024-10-18 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 3,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 22,
+    "job_flags": 1,
+    "master_record": {
+      "ActiveSkillIds": [
+        22001,
+        22002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 79,
+        "Health": 92,
+        "Intelligence": 80,
+        "Muscle": 90
+      },
+      "BaseParameterGrossCoefficient": 341,
+      "CharacterType": 0,
+      "ElementType": 3,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 22,
+      "InitialBattleParameter": {
+        "AttackPower": -2,
+        "Avoidance": 0,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 12,
+        "DefensePenetration": 0,
+        "HP": 2,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": -2,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 2766
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 32,
+      "JobFlags": 1,
+      "Memo": "ザラ",
+      "Name2Key": null,
+      "NameKey": "[CharacterName22]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        22003
+      ],
+      "RarityFlags": 2,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2020-01-01 00:00:00"
+    },
+    "memo": "ザラ",
+    "name_key": "[CharacterName22]",
+    "names": {
+      "zh-CN": "萨拉"
+    },
+    "speed": 2766,
+    "start_time_jst": "2020-01-01 00:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": null,
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 22003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription220031]",
+          "descriptions": {
+            "zh-CN": "萨拉使用魔力加强防御，在每回合开始时或受到攻击后，如果萨拉的生命值低于30%，减少20%自身承受伤害（无法被解除）。每回合开始时，如果萨拉的生命值达30%以上，解除「承受伤害下降」状态。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "魔力を使って守りを固めることで、毎ターン開始時、もしくは自身が攻撃を受けたとき、自身のHP割合が30％未満の場合、自身の被ダメージが20％減少する（解除不可）。毎ターン開始時自身のHP割合が30％以上の場合このスキルは解除される。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[PassiveSkillDescription220032]",
+          "descriptions": {
+            "zh-CN": "承受伤害降幅提升为30%"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "被ダメージの減少量が30％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 22003,
+        "IsIgnore": null,
+        "Memo": "ザラR: /Lv1　魔力を使って守りを固めることで、毎ターン開始時、もしくは自身が攻撃を受けたとき、自身のHP割合が30％未満の場合、自身の被ダメージが20％減少する（解除不可）。毎ターン開始時自身のHP割合が30％以上の場合このスキルは解除される。　/Lv2 被ダメージの減少量が30％になる。",
+        "NameKey": "[PassiveSkillName22003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription220031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 22003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 22003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 22003002
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[PassiveSkillDescription220032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 22003201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 22003201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 22003202
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName22003]",
+      "names": {
+        "zh-CN": "防御态势"
+      },
+      "source_memo_ja": "ザラR: /Lv1　魔力を使って守りを固めることで、毎ターン開始時、もしくは自身が攻撃を受けたとき、自身のHP割合が30％未満の場合、自身の被ダメージが20％減少する（解除不可）。毎ターン開始時自身のHP割合が30％以上の場合このスキルは解除される。　/Lv2 被ダメージの減少量が30％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "魔力を使って守りを固めることで、毎ターン開始時、もしくは自身が攻撃を受けたとき、自身のHP割合が30％未満の場合、自身の被ダメージが20％減少する（解除不可）。毎ターン開始時自身のHP割合が30％以上の場合このスキルは解除される。"
+        },
+        {
+          "label": "Lv2",
+          "text": "被ダメージの減少量が30％になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

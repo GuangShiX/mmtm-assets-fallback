@@ -1,0 +1,2705 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 7001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription70011]",
+          "descriptions": {
+            "zh-CN": "芬里尔凝聚所有魔力奋力一击，随机对1名敌人造成攻击力×490%的魔法伤害。她的温柔包容是同伴前进的动力，使附近的1名友军减少技能冷却时间1。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "魔力をこめた渾身の一撃で、ランダムな敵1体に攻撃力×490%の魔法攻撃を行う。さらに包み込むような優しさが、踏み出す者の背中を押し、自身に隣接する味方1体のスキルクールタイムカウントを1減少させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription70012]",
+          "descriptions": {
+            "zh-CN": "技能冷却时间减少目标增加为芬里尔附近的2名友军。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "スキルクールタイムカウントを減少させる対象が自身に隣接する味方2体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription70013]",
+          "descriptions": {
+            "zh-CN": "造成的魔法伤害提升为攻击力×720%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "魔法攻撃のダメージが攻撃力×720%になる。　/専用1 雪狼の牙を強化する。スキルクールタイムカウントの減少量が2になる。　/専用2 雪狼の牙を強化する。さらに2ターンの間自身に隣接する味方2体の攻撃力を10％増加させる。　/専用3 雪狼の牙を強化する。攻撃力の増加量が20％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription70014]",
+          "descriptions": {
+            "zh-CN": "[ActiveSkillDescription70014]"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": null
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription70015]",
+          "descriptions": {
+            "zh-CN": "[ActiveSkillDescription70015]"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 5,
+          "source_memo_ja": null
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription70016]",
+          "descriptions": {
+            "zh-CN": "[ActiveSkillDescription70016]"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 6,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription70011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              7001001,
+              7001002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription70012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              7001001,
+              7001202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription70013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              7001301,
+              7001202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription70014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              7001301,
+              7001402
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription70015]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              7001301,
+              7001502
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription70016]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 6,
+            "SubSetSkillIds": [
+              7001301,
+              7001602
+            ]
+          }
+        ],
+        "Id": 7001,
+        "IsIgnore": null,
+        "Memo": "フェンリルSR: /Lv1　魔力をこめた渾身の一撃で、ランダムな敵1体に攻撃力×490%の魔法攻撃を行う。さらに包み込むような優しさが、踏み出す者の背中を押し、自身に隣接する味方1体のスキルクールタイムカウントを1減少させる。　/Lv2 スキルクールタイムカウントを減少させる対象が自身に隣接する味方2体になる。　/Lv3 魔法攻撃のダメージが攻撃力×720%になる。　/専用1 雪狼の牙を強化する。スキルクールタイムカウントの減少量が2になる。　/専用2 雪狼の牙を強化する。さらに2ターンの間自身に隣接する味方2体の攻撃力を10％増加させる。　/専用3 雪狼の牙を強化する。攻撃力の増加量が20％になる。",
+        "NameKey": "[ActiveSkillName7001]",
+        "RootActiveSkillId": 7001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName7001]",
+      "names": {
+        "zh-CN": "雪狼之牙"
+      },
+      "source_memo_ja": "フェンリルSR: /Lv1　魔力をこめた渾身の一撃で、ランダムな敵1体に攻撃力×490%の魔法攻撃を行う。さらに包み込むような優しさが、踏み出す者の背中を押し、自身に隣接する味方1体のスキルクールタイムカウントを1減少させる。　/Lv2 スキルクールタイムカウントを減少させる対象が自身に隣接する味方2体になる。　/Lv3 魔法攻撃のダメージが攻撃力×720%になる。　/専用1 雪狼の牙を強化する。スキルクールタイムカウントの減少量が2になる。　/専用2 雪狼の牙を強化する。さらに2ターンの間自身に隣接する味方2体の攻撃力を10％増加させる。　/専用3 雪狼の牙を強化する。攻撃力の増加量が20％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "魔力をこめた渾身の一撃で、ランダムな敵1体に攻撃力×490%の魔法攻撃を行う。さらに包み込むような優しさが、踏み出す者の背中を押し、自身に隣接する味方1体のスキルクールタイムカウントを1減少させる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "スキルクールタイムカウントを減少させる対象が自身に隣接する味方2体になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "魔法攻撃のダメージが攻撃力×720%になる。　/専用1 雪狼の牙を強化する。スキルクールタイムカウントの減少量が2になる。　/専用2 雪狼の牙を強化する。さらに2ターンの間自身に隣接する味方2体の攻撃力を10％増加させる。　/専用3 雪狼の牙を強化する。攻撃力の増加量が20％になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 7002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription70021]",
+          "descriptions": {
+            "zh-CN": "“我不会再让任何人受到伤害了！”刺骨的暴风雪刮向敌人，温暖的光雨落向友军。芬里尔随机对5名敌人造成攻击力×230%的魔法伤害，解除自己与附近1名友军身上的2种弱化效果。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "もう誰も傷つけさせない──敵には凍てつく吹雪が吹き荒れ、味方には光の雨が降り注ぐ。ランダムな敵5体に攻撃力×230%の魔法攻撃を行い、自身と自身に隣接する味方1体の弱体効果を2つ解除する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription70022]",
+          "descriptions": {
+            "zh-CN": "造成的魔法伤害提升为攻击力×290%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "魔法攻撃のダメージが攻撃力×290%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription70023]",
+          "descriptions": {
+            "zh-CN": "弱化效果解除目标增加为芬里尔与附近的2名友军。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "弱体効果を解除する対象が自身と自身に隣接する味方2体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription70024]",
+          "descriptions": {
+            "zh-CN": "造成的魔法伤害提升为攻击力×380%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "魔法攻撃のダメージが攻撃力×380%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription70021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              7002001,
+              7002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription70022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              7002201,
+              7002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription70023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              7002201,
+              7002302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription70024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              7002401,
+              7002302
+            ]
+          }
+        ],
+        "Id": 7002,
+        "IsIgnore": null,
+        "Memo": "フェンリルSR: /Lv1　もう誰も傷つけさせない──敵には凍てつく吹雪が吹き荒れ、味方には光の雨が降り注ぐ。ランダムな敵5体に攻撃力×230%の魔法攻撃を行い、自身と自身に隣接する味方1体の弱体効果を2つ解除する。　/Lv2 魔法攻撃のダメージが攻撃力×290%になる。　/Lv3 弱体効果を解除する対象が自身と自身に隣接する味方2体になる。　/Lv4 魔法攻撃のダメージが攻撃力×380%になる。",
+        "NameKey": "[ActiveSkillName7002]",
+        "RootActiveSkillId": 7002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName7002]",
+      "names": {
+        "zh-CN": "冰暴洗礼"
+      },
+      "source_memo_ja": "フェンリルSR: /Lv1　もう誰も傷つけさせない──敵には凍てつく吹雪が吹き荒れ、味方には光の雨が降り注ぐ。ランダムな敵5体に攻撃力×230%の魔法攻撃を行い、自身と自身に隣接する味方1体の弱体効果を2つ解除する。　/Lv2 魔法攻撃のダメージが攻撃力×290%になる。　/Lv3 弱体効果を解除する対象が自身と自身に隣接する味方2体になる。　/Lv4 魔法攻撃のダメージが攻撃力×380%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "もう誰も傷つけさせない──敵には凍てつく吹雪が吹き荒れ、味方には光の雨が降り注ぐ。ランダムな敵5体に攻撃力×230%の魔法攻撃を行い、自身と自身に隣接する味方1体の弱体効果を2つ解除する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "魔法攻撃のダメージが攻撃力×290%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "弱体効果を解除する対象が自身と自身に隣接する味方2体になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "魔法攻撃のダメージが攻撃力×380%になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 7,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 300.0,
+              "value_text": "+300"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 1,
+                "Value": 300.0
+              }
+            ],
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 7,
+            "CollectionLevel": 1,
+            "Id": 701,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルビレオの宝石(ソルティーナ,フェンリル,フローレンス,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 7,
+            "CollectionLevel": 2,
+            "Id": 702,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルビレオの宝石(ソルティーナ,フェンリル,フローレンス,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 7,
+            "CollectionLevel": 3,
+            "Id": 703,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルビレオの宝石(ソルティーナ,フェンリル,フローレンス,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 7,
+            "CollectionLevel": 4,
+            "Id": 704,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルビレオの宝石(ソルティーナ,フェンリル,フローレンス,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 4000.0,
+              "value_text": "+4,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 1,
+                "Value": 4000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 7,
+            "CollectionLevel": 5,
+            "Id": 705,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルビレオの宝石(ソルティーナ,フェンリル,フローレンス,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 5000.0,
+              "value_text": "+5,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 1,
+                "Value": 5000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 7,
+            "CollectionLevel": 6,
+            "Id": 706,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルビレオの宝石(ソルティーナ,フェンリル,フローレンス,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 6000.0,
+              "value_text": "+6,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 250.0,
+              "value_text": "+2.5%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 1,
+                "Value": 6000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 7,
+            "CollectionLevel": 7,
+            "Id": 707,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルビレオの宝石(ソルティーナ,フェンリル,フローレンス,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 7000.0,
+              "value_text": "+7,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 300.0,
+              "value_text": "+3%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 1,
+                "Value": 7000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 300.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 7,
+            "CollectionLevel": 8,
+            "Id": 708,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルビレオの宝石(ソルティーナ,フェンリル,フローレンス,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 8000.0,
+              "value_text": "+8,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 350.0,
+              "value_text": "+3.5%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 1,
+                "Value": 8000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 350.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 7,
+            "CollectionLevel": 9,
+            "Id": 709,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルビレオの宝石(ソルティーナ,フェンリル,フローレンス,ルナリンド)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 7,
+        "IsIgnore": null,
+        "Memo": "アルビレオの宝石(ソルティーナ,フェンリル,フローレンス,ルナリンド)",
+        "NameKey": "[CharacterCollectionName7]",
+        "RequiredCharacterIds": [
+          5,
+          7,
+          8,
+          46
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2020-01-01 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName7]",
+      "names": {
+        "zh-CN": "天鹅座的宝石"
+      },
+      "required_character_ids": [
+        5,
+        7,
+        8,
+        46
+      ],
+      "required_characters": [
+        {
+          "id": 5,
+          "names": {
+            "zh-CN": "索尔缇娜"
+          }
+        },
+        {
+          "id": 7,
+          "names": {
+            "zh-CN": "芬里尔"
+          }
+        },
+        {
+          "id": 8,
+          "names": {
+            "zh-CN": "佛罗伦斯"
+          }
+        },
+        {
+          "id": 46,
+          "names": {
+            "zh-CN": "露娜琳德"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2020-01-01 00:00:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 12,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 300.0,
+              "value_text": "+300"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 300.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 12,
+            "CollectionLevel": 1,
+            "Id": 1201,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・マヨルの遠吠(シフォン,フェンリル,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 500.0,
+              "value_text": "+500"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 12,
+            "CollectionLevel": 2,
+            "Id": 1202,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・マヨルの遠吠(シフォン,フェンリル,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 500.0,
+              "value_text": "+500"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 12,
+            "CollectionLevel": 3,
+            "Id": 1203,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・マヨルの遠吠(シフォン,フェンリル,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 500.0,
+              "value_text": "+500"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 500.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 12,
+            "CollectionLevel": 4,
+            "Id": 1204,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・マヨルの遠吠(シフォン,フェンリル,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 31.0,
+              "value_text": "+31×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 510.0,
+              "value_text": "+510"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 31.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 510.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 12,
+            "CollectionLevel": 5,
+            "Id": 1205,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・マヨルの遠吠(シフォン,フェンリル,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 32.0,
+              "value_text": "+32×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 520.0,
+              "value_text": "+520"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 32.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 520.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 12,
+            "CollectionLevel": 6,
+            "Id": 1206,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・マヨルの遠吠(シフォン,フェンリル,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 33.0,
+              "value_text": "+33×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 530.0,
+              "value_text": "+530"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 33.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 530.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 12,
+            "CollectionLevel": 7,
+            "Id": 1207,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・マヨルの遠吠(シフォン,フェンリル,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 34.0,
+              "value_text": "+34×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 540.0,
+              "value_text": "+540"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 34.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 540.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 12,
+            "CollectionLevel": 8,
+            "Id": 1208,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・マヨルの遠吠(シフォン,フェンリル,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 35.0,
+              "value_text": "+35×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "HpDrain",
+              "parameter_type": 18,
+              "raw_value": 550.0,
+              "value_text": "+550"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 35.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 18,
+                "ChangeParameterType": 1,
+                "Value": 550.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 12,
+            "CollectionLevel": 9,
+            "Id": 1209,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・マヨルの遠吠(シフォン,フェンリル,モーザ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 12,
+        "IsIgnore": null,
+        "Memo": "カニス・マヨルの遠吠(シフォン,フェンリル,モーザ)",
+        "NameKey": "[CharacterCollectionName12]",
+        "RequiredCharacterIds": [
+          54,
+          7,
+          10
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2023-04-14 15:00:00"
+      },
+      "name_key": "[CharacterCollectionName12]",
+      "names": {
+        "zh-CN": "大犬座的长啸"
+      },
+      "required_character_ids": [
+        54,
+        7,
+        10
+      ],
+      "required_characters": [
+        {
+          "id": 54,
+          "names": {
+            "zh-CN": "戚风"
+          }
+        },
+        {
+          "id": 7,
+          "names": {
+            "zh-CN": "芬里尔"
+          }
+        },
+        {
+          "id": 10,
+          "names": {
+            "zh-CN": "墨瑟"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2023-04-14 15:00:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 33,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 33,
+            "CollectionLevel": 1,
+            "Id": 3301,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・ミノルの相愛(ケルベロス,フェンリル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 33,
+            "CollectionLevel": 2,
+            "Id": 3302,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・ミノルの相愛(ケルベロス,フェンリル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 33,
+            "CollectionLevel": 3,
+            "Id": 3303,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・ミノルの相愛(ケルベロス,フェンリル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 33,
+            "CollectionLevel": 4,
+            "Id": 3304,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・ミノルの相愛(ケルベロス,フェンリル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 210.0,
+              "value_text": "+2.1%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1050.0,
+              "value_text": "+1,050"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 210.0
+              },
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1050.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 33,
+            "CollectionLevel": 5,
+            "Id": 3305,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・ミノルの相愛(ケルベロス,フェンリル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 220.0,
+              "value_text": "+2.2%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1100.0,
+              "value_text": "+1,100"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 220.0
+              },
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1100.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 33,
+            "CollectionLevel": 6,
+            "Id": 3306,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・ミノルの相愛(ケルベロス,フェンリル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 230.0,
+              "value_text": "+2.3%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1150.0,
+              "value_text": "+1,150"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 230.0
+              },
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1150.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 33,
+            "CollectionLevel": 7,
+            "Id": 3307,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・ミノルの相愛(ケルベロス,フェンリル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 240.0,
+              "value_text": "+2.4%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1200.0,
+              "value_text": "+1,200"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 240.0
+              },
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 33,
+            "CollectionLevel": 8,
+            "Id": 3308,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・ミノルの相愛(ケルベロス,フェンリル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 250.0,
+              "value_text": "+2.5%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1250.0,
+              "value_text": "+1,250"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 250.0
+              },
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 33,
+            "CollectionLevel": 9,
+            "Id": 3309,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・ミノルの相愛(ケルベロス,フェンリル)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 33,
+        "IsIgnore": null,
+        "Memo": "カニス・ミノルの相愛(ケルベロス,フェンリル)",
+        "NameKey": "[CharacterCollectionName33]",
+        "RequiredCharacterIds": [
+          43,
+          7
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2023-11-22 14:30:00"
+      },
+      "name_key": "[CharacterCollectionName33]",
+      "names": {
+        "zh-CN": "小犬座的相思"
+      },
+      "required_character_ids": [
+        43,
+        7
+      ],
+      "required_characters": [
+        {
+          "id": 43,
+          "names": {
+            "zh-CN": "克尔柏洛丝"
+          }
+        },
+        {
+          "id": 7,
+          "names": {
+            "zh-CN": "芬里尔"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2023-11-22 14:30:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 81,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 500.0,
+              "value_text": "+500"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 81,
+            "CollectionLevel": 1,
+            "Id": 8101,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ループスの宝物(宝物フェンリル,フェンリル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 81,
+            "CollectionLevel": 2,
+            "Id": 8102,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ループスの宝物(宝物フェンリル,フェンリル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 81,
+            "CollectionLevel": 3,
+            "Id": 8103,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ループスの宝物(宝物フェンリル,フェンリル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 81,
+            "CollectionLevel": 4,
+            "Id": 8104,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ループスの宝物(宝物フェンリル,フェンリル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 41.0,
+              "value_text": "+41×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1050.0,
+              "value_text": "+1,050"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 41.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1050.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 81,
+            "CollectionLevel": 5,
+            "Id": 8105,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ループスの宝物(宝物フェンリル,フェンリル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 42.0,
+              "value_text": "+42×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1100.0,
+              "value_text": "+1,100"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 42.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1100.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 81,
+            "CollectionLevel": 6,
+            "Id": 8106,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ループスの宝物(宝物フェンリル,フェンリル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 43.0,
+              "value_text": "+43×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1150.0,
+              "value_text": "+1,150"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 43.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1150.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 81,
+            "CollectionLevel": 7,
+            "Id": 8107,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ループスの宝物(宝物フェンリル,フェンリル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 44.0,
+              "value_text": "+44×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1200.0,
+              "value_text": "+1,200"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 44.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 81,
+            "CollectionLevel": 8,
+            "Id": 8108,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ループスの宝物(宝物フェンリル,フェンリル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 45.0,
+              "value_text": "+45×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1250.0,
+              "value_text": "+1,250"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 45.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 81,
+            "CollectionLevel": 9,
+            "Id": 8109,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ループスの宝物(宝物フェンリル,フェンリル)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 81,
+        "IsIgnore": null,
+        "Memo": "ループスの宝物(宝物フェンリル,フェンリル)",
+        "NameKey": "[CharacterCollectionName81]",
+        "RequiredCharacterIds": [
+          83,
+          7
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2025-10-16 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName81]",
+      "names": {
+        "zh-CN": "豺狼座的宝物"
+      },
+      "required_character_ids": [
+        83,
+        7
+      ],
+      "required_characters": [
+        {
+          "id": 83,
+          "names": {
+            "zh-CN": "芬里尔"
+          }
+        },
+        {
+          "id": 7,
+          "names": {
+            "zh-CN": "芬里尔"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2025-10-16 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 1,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 7,
+    "job_flags": 4,
+    "master_record": {
+      "ActiveSkillIds": [
+        7001,
+        7002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 79,
+        "Health": 92,
+        "Intelligence": 89,
+        "Muscle": 80
+      },
+      "BaseParameterGrossCoefficient": 340,
+      "CharacterType": 0,
+      "ElementType": 1,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 7,
+      "InitialBattleParameter": {
+        "AttackPower": -4,
+        "Avoidance": 3,
+        "Critical": -1,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 10,
+        "DefensePenetration": 0,
+        "HP": -2,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 4,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 2894
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 4,
+      "Memo": "フェンリル",
+      "Name2Key": null,
+      "NameKey": "[CharacterName7]",
+      "NormalSkillId": 102,
+      "PassiveSkillIds": [
+        7003,
+        7004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2020-01-01 00:00:00"
+    },
+    "memo": "フェンリル",
+    "name_key": "[CharacterName7]",
+    "names": {
+      "zh-CN": "芬里尔"
+    },
+    "speed": 2894,
+    "start_time_jst": "2020-01-01 00:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 1828,
+    "exclusive_effect_id": 18,
+    "icon_id": 218,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 1829,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 35,
+        "EquipmentEvolutionId": 45,
+        "EquipmentExclusiveSkillDescriptionId": 3,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 4,
+        "ExclusiveEffectId": 18,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 218,
+        "Id": 1828,
+        "IsIgnore": null,
+        "Memo": "フェンリルLR240_書",
+        "NameKey": "[EquipmentName213]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": [
+          {
+            "BaseParameterType": 4,
+            "ChangeParameterType": 2,
+            "Value": 800.0
+          }
+        ],
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 5,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 7,
+        "Id": 18,
+        "IsIgnore": null,
+        "Memo": "フェンリルLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill7Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill7Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill7Description3]",
+        "Id": 3,
+        "IsIgnore": null,
+        "Memo": "フェンリル魔導書"
+      }
+    },
+    "name_key": "[EquipmentName213]",
+    "names": {
+      "zh-CN": "瓦恩之精的利爪"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "base",
+        "parameter_code": "Health",
+        "parameter_type": 4,
+        "raw_value": 800.0,
+        "value_text": "+8%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Hit",
+        "parameter_type": 5,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill7Description1]",
+        "descriptions": {
+          "zh-CN": "强化雪狼之牙，技能冷却时间减少量提升为2。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill7Description2]",
+        "descriptions": {
+          "zh-CN": "强化雪狼之牙，使芬里尔附近的2名友军额外增加10%攻击力，效果持续2回合。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill7Description3]",
+        "descriptions": {
+          "zh-CN": "强化雪狼之牙，攻击力增幅提升为20%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 7003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription70031]",
+          "descriptions": {
+            "zh-CN": "治疗之光如雪花落下，当友军受到攻击或成功闪避攻击后，生命值降到50%以下时，芬里尔使该友军恢复5%最大生命值。此技能须在结束1次行动后才可再次触发。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "癒しの光が雪のように降り注ぎ、味方が攻撃を受けて、HP割合が50％以下になった場合、その味方のHPをその味方の最大HP×5％回復する。このスキルは1ターンに1回発動する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription70032]",
+          "descriptions": {
+            "zh-CN": "生命值恢复量提升为技能目标的10%最大生命值。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "HP回復量が対象の最大HP×10％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription70033]",
+          "descriptions": {
+            "zh-CN": "生命值恢复量提升为技能目标的20%最大生命值。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "HP回復量が対象の最大HP×20％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 7003,
+        "IsIgnore": null,
+        "Memo": "フェンリルSR: /Lv1　癒しの光が雪のように降り注ぎ、味方が攻撃を受けて、HP割合が50％以下になった場合、その味方のHPをその味方の最大HP×5％回復する。このスキルは1ターンに1回発動する。　/Lv2 HP回復量が対象の最大HP×10％になる。　/Lv3 HP回復量が対象の最大HP×20％になる。",
+        "NameKey": "[PassiveSkillName7003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription70031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 10,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 1,
+                "SubSetSkillId": 7003001
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 29,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 1,
+                "SubSetSkillId": 7003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription70032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 10,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 1,
+                "SubSetSkillId": 7003201
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 29,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 1,
+                "SubSetSkillId": 7003201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription70033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 10,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 1,
+                "SubSetSkillId": 7003301
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 29,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 1,
+                "SubSetSkillId": 7003301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName7003]",
+      "names": {
+        "zh-CN": "冰晶棱光"
+      },
+      "source_memo_ja": "フェンリルSR: /Lv1　癒しの光が雪のように降り注ぎ、味方が攻撃を受けて、HP割合が50％以下になった場合、その味方のHPをその味方の最大HP×5％回復する。このスキルは1ターンに1回発動する。　/Lv2 HP回復量が対象の最大HP×10％になる。　/Lv3 HP回復量が対象の最大HP×20％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "癒しの光が雪のように降り注ぎ、味方が攻撃を受けて、HP割合が50％以下になった場合、その味方のHPをその味方の最大HP×5％回復する。このスキルは1ターンに1回発動する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "HP回復量が対象の最大HP×10％になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "HP回復量が対象の最大HP×20％になる。"
+        }
+      ]
+    },
+    {
+      "id": 7004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription70041]",
+          "descriptions": {
+            "zh-CN": "没事了——这句话是魔法的咒语，使芬里尔增加30%防御力（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "大丈夫──それは魔法の言葉。自身の防御力が30％増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription70042]",
+          "descriptions": {
+            "zh-CN": "防御力增幅提升为60%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "防御力の増加量が60％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription70043]",
+          "descriptions": {
+            "zh-CN": "防御力增幅提升为80%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "防御力の増加量が80％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 7004,
+        "IsIgnore": null,
+        "Memo": "フェンリルSR: /Lv1　大丈夫──それは魔法の言葉。自身の防御力が30％増加する（解除不可）。　/Lv2 防御力の増加量が60％になる。　/Lv3 防御力の増加量が80％になる。",
+        "NameKey": "[PassiveSkillName7004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription70041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 7004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription70042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 7004201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription70043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 7004301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName7004]",
+      "names": {
+        "zh-CN": "勇气鼓舞"
+      },
+      "source_memo_ja": "フェンリルSR: /Lv1　大丈夫──それは魔法の言葉。自身の防御力が30％増加する（解除不可）。　/Lv2 防御力の増加量が60％になる。　/Lv3 防御力の増加量が80％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "大丈夫──それは魔法の言葉。自身の防御力が30％増加する（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "防御力の増加量が60％になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "防御力の増加量が80％になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

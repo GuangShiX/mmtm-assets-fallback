@@ -1,0 +1,1333 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 19001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription190011]",
+          "descriptions": {
+            "zh-CN": "从最强的家伙开始烧光。贝尔用法杖释放烈焰，对攻击力最高的敌人进行4次攻击，每次造成攻击力×340%的魔法伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "強い奴から焼き尽くす。杖から噴き出した激しい炎が、攻撃力が最も高い敵に4回攻撃力×340%の魔法攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription190012]",
+          "descriptions": {
+            "zh-CN": "当技能目标的生命值高于50%时，额外附加「流血」状态，效果持续2回合，每回合行动开始时造成贝尔攻击力×10%的伤害；当技能目标的生命值为50%以下时，额外解除技能目标身上的1种增益效果。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに対象のHP割合が50％より大きい場合、2ターンの間『出血』を付与する。毎ターン行動開始時に自身の攻撃力×10％のダメージを与える。対象のHP割合が50％以下の場合、バフを1つ解除する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription190013]",
+          "descriptions": {
+            "zh-CN": "造成的魔法伤害提升为攻击力×420%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "魔法攻撃のダメージが攻撃力×420%になる。　/専用1 バーストエンドを強化する。さらに魔法攻撃の前に2ターンの間自身のクリティカル耐性率が50%増加する。　/専用2 バーストエンドを強化する。魔法攻撃の回数が5回になる。　/専用3 バーストエンドを強化する。『出血』のターン数が4ターンになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription190014]",
+          "descriptions": {
+            "zh-CN": "[ActiveSkillDescription190014]"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": null
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription190015]",
+          "descriptions": {
+            "zh-CN": "[ActiveSkillDescription190015]"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 5,
+          "source_memo_ja": null
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription190016]",
+          "descriptions": {
+            "zh-CN": "[ActiveSkillDescription190016]"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 6,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription190011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              19001001,
+              19001002,
+              19001002,
+              19001002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription190012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              19001201,
+              19001202,
+              19001202,
+              19001202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription190013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              19001301,
+              19001302,
+              19001302,
+              19001302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription190014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              19001401,
+              19001301,
+              19001302,
+              19001302,
+              19001302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription190015]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              19001401,
+              19001502,
+              19001503,
+              19001503,
+              19001503,
+              19001503
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription190016]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 6,
+            "SubSetSkillIds": [
+              19001401,
+              19001602,
+              19001603,
+              19001603,
+              19001603,
+              19001603
+            ]
+          }
+        ],
+        "Id": 19001,
+        "IsIgnore": null,
+        "Memo": "ベルSR: /Lv1　強い奴から焼き尽くす。杖から噴き出した激しい炎が、攻撃力が最も高い敵に4回攻撃力×340%の魔法攻撃を行う。　/Lv2 さらに対象のHP割合が50％より大きい場合、2ターンの間『出血』を付与する。毎ターン行動開始時に自身の攻撃力×10％のダメージを与える。対象のHP割合が50％以下の場合、バフを1つ解除する。　/Lv3 魔法攻撃のダメージが攻撃力×420%になる。　/専用1 バーストエンドを強化する。さらに魔法攻撃の前に2ターンの間自身のクリティカル耐性率が50%増加する。　/専用2 バーストエンドを強化する。魔法攻撃の回数が5回になる。　/専用3 バーストエンドを強化する。『出血』のターン数が4ターンになる。",
+        "NameKey": "[ActiveSkillName19001]",
+        "RootActiveSkillId": 19001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName19001]",
+      "names": {
+        "zh-CN": "终结之爆炎"
+      },
+      "source_memo_ja": "ベルSR: /Lv1　強い奴から焼き尽くす。杖から噴き出した激しい炎が、攻撃力が最も高い敵に4回攻撃力×340%の魔法攻撃を行う。　/Lv2 さらに対象のHP割合が50％より大きい場合、2ターンの間『出血』を付与する。毎ターン行動開始時に自身の攻撃力×10％のダメージを与える。対象のHP割合が50％以下の場合、バフを1つ解除する。　/Lv3 魔法攻撃のダメージが攻撃力×420%になる。　/専用1 バーストエンドを強化する。さらに魔法攻撃の前に2ターンの間自身のクリティカル耐性率が50%増加する。　/専用2 バーストエンドを強化する。魔法攻撃の回数が5回になる。　/専用3 バーストエンドを強化する。『出血』のターン数が4ターンになる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "強い奴から焼き尽くす。杖から噴き出した激しい炎が、攻撃力が最も高い敵に4回攻撃力×340%の魔法攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに対象のHP割合が50％より大きい場合、2ターンの間『出血』を付与する。毎ターン行動開始時に自身の攻撃力×10％のダメージを与える。対象のHP割合が50％以下の場合、バフを1つ解除する。"
+        },
+        {
+          "label": "Lv3",
+          "text": "魔法攻撃のダメージが攻撃力×420%になる。　/専用1 バーストエンドを強化する。さらに魔法攻撃の前に2ターンの間自身のクリティカル耐性率が50%増加する。　/専用2 バーストエンドを強化する。魔法攻撃の回数が5回になる。　/専用3 バーストエンドを強化する。『出血』のターン数が4ターンになる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 19002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription190021]",
+          "descriptions": {
+            "zh-CN": "凶猛的火焰宛如巨龙咆哮，将被锁定的对手焚烧殆尽。贝尔对生命值百分比最低的敌人进行5次攻击，每次造成攻击力×280%的魔法伤害。此攻击必定命中。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "龍の轟きが如く猛き炎が狙った相手を焼き尽くす。HP割合が最も低い敵に5回攻撃力×280%の魔法攻撃を行う。この攻撃は必ず命中する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription190022]",
+          "descriptions": {
+            "zh-CN": "如果技能目标失去战斗能力，追加1次魔法攻击。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらにこのスキルで敵を戦闘不能にした場合、魔法攻撃の回数が1回増加する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription190023]",
+          "descriptions": {
+            "zh-CN": "第一波攻击次数增加为6次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "最初の魔法攻撃の回数が6回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription190024]",
+          "descriptions": {
+            "zh-CN": "如果2名技能目标失去战斗能力，追加2次魔法攻击。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "さらにこのスキルで敵を2体戦闘不能にした場合、増加する回数が2回になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription190021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              19002001,
+              19002002,
+              19002002,
+              19002002,
+              19002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription190022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              19002001,
+              19002002,
+              19002002,
+              19002002,
+              19002002,
+              19002203
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription190023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              19002001,
+              19002002,
+              19002002,
+              19002002,
+              19002002,
+              19002002,
+              19002203
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription190024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              19002001,
+              19002002,
+              19002002,
+              19002002,
+              19002002,
+              19002002,
+              19002203,
+              19002404
+            ]
+          }
+        ],
+        "Id": 19002,
+        "IsIgnore": null,
+        "Memo": "ベルSR: /Lv1　龍の轟きが如く猛き炎が狙った相手を焼き尽くす。HP割合が最も低い敵に5回攻撃力×280%の魔法攻撃を行う。この攻撃は必ず命中する。　/Lv2 さらにこのスキルで敵を戦闘不能にした場合、魔法攻撃の回数が1回増加する。　/Lv3 最初の魔法攻撃の回数が6回になる。　/Lv4 さらにこのスキルで敵を2体戦闘不能にした場合、増加する回数が2回になる。",
+        "NameKey": "[ActiveSkillName19002]",
+        "RootActiveSkillId": 19002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName19002]",
+      "names": {
+        "zh-CN": "炎龙的逆鳞"
+      },
+      "source_memo_ja": "ベルSR: /Lv1　龍の轟きが如く猛き炎が狙った相手を焼き尽くす。HP割合が最も低い敵に5回攻撃力×280%の魔法攻撃を行う。この攻撃は必ず命中する。　/Lv2 さらにこのスキルで敵を戦闘不能にした場合、魔法攻撃の回数が1回増加する。　/Lv3 最初の魔法攻撃の回数が6回になる。　/Lv4 さらにこのスキルで敵を2体戦闘不能にした場合、増加する回数が2回になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "龍の轟きが如く猛き炎が狙った相手を焼き尽くす。HP割合が最も低い敵に5回攻撃力×280%の魔法攻撃を行う。この攻撃は必ず命中する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらにこのスキルで敵を戦闘不能にした場合、魔法攻撃の回数が1回増加する。"
+        },
+        {
+          "label": "Lv3",
+          "text": "最初の魔法攻撃の回数が6回になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "さらにこのスキルで敵を2体戦闘不能にした場合、増加する回数が2回になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 13,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 13,
+            "CollectionLevel": 1,
+            "Id": 1301,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルファルドの猛火(ベル,フレイシア,ナターシャ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 13,
+            "CollectionLevel": 2,
+            "Id": 1302,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルファルドの猛火(ベル,フレイシア,ナターシャ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 13,
+            "CollectionLevel": 3,
+            "Id": 1303,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルファルドの猛火(ベル,フレイシア,ナターシャ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 13,
+            "CollectionLevel": 4,
+            "Id": 1304,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルファルドの猛火(ベル,フレイシア,ナターシャ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 210.0,
+              "value_text": "+2.1%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 71.0,
+              "value_text": "+71×角色等级"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 210.0
+              },
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 71.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 13,
+            "CollectionLevel": 5,
+            "Id": 1305,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルファルドの猛火(ベル,フレイシア,ナターシャ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 220.0,
+              "value_text": "+2.2%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 72.0,
+              "value_text": "+72×角色等级"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 220.0
+              },
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 72.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 13,
+            "CollectionLevel": 6,
+            "Id": 1306,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルファルドの猛火(ベル,フレイシア,ナターシャ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 230.0,
+              "value_text": "+2.3%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 73.0,
+              "value_text": "+73×角色等级"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 230.0
+              },
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 73.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 13,
+            "CollectionLevel": 7,
+            "Id": 1307,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルファルドの猛火(ベル,フレイシア,ナターシャ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 240.0,
+              "value_text": "+2.4%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 74.0,
+              "value_text": "+74×角色等级"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 240.0
+              },
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 74.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 13,
+            "CollectionLevel": 8,
+            "Id": 1308,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルファルドの猛火(ベル,フレイシア,ナターシャ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 250.0,
+              "value_text": "+2.5%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 75.0,
+              "value_text": "+75×角色等级"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 250.0
+              },
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 75.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 13,
+            "CollectionLevel": 9,
+            "Id": 1309,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルファルドの猛火(ベル,フレイシア,ナターシャ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 13,
+        "IsIgnore": null,
+        "Memo": "アルファルドの猛火(ベル,フレイシア,ナターシャ)",
+        "NameKey": "[CharacterCollectionName13]",
+        "RequiredCharacterIds": [
+          19,
+          16,
+          41
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2023-04-21 14:30:00"
+      },
+      "name_key": "[CharacterCollectionName13]",
+      "names": {
+        "zh-CN": "孤独者的烈火"
+      },
+      "required_character_ids": [
+        19,
+        16,
+        41
+      ],
+      "required_characters": [
+        {
+          "id": 19,
+          "names": {
+            "zh-CN": "贝尔"
+          }
+        },
+        {
+          "id": 16,
+          "names": {
+            "zh-CN": "小苍兰"
+          }
+        },
+        {
+          "id": 41,
+          "names": {
+            "zh-CN": "娜塔夏"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2023-04-21 14:30:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 2,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 19,
+    "job_flags": 4,
+    "master_record": {
+      "ActiveSkillIds": [
+        19001,
+        19002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 80,
+        "Health": 70,
+        "Intelligence": 99,
+        "Muscle": 90
+      },
+      "BaseParameterGrossCoefficient": 339,
+      "CharacterType": 0,
+      "ElementType": 2,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 19,
+      "InitialBattleParameter": {
+        "AttackPower": 3,
+        "Avoidance": 0,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 10,
+        "DefensePenetration": 0,
+        "HP": -3,
+        "Hit": 3,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": -3,
+        "Speed": 3217
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 4,
+      "Memo": "ベル",
+      "Name2Key": null,
+      "NameKey": "[CharacterName19]",
+      "NormalSkillId": 102,
+      "PassiveSkillIds": [
+        19003,
+        19004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2022-11-01 15:00:00"
+    },
+    "memo": "ベル",
+    "name_key": "[CharacterName19]",
+    "names": {
+      "zh-CN": "贝尔"
+    },
+    "speed": 3217,
+    "start_time_jst": "2022-11-01 15:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 2292,
+    "exclusive_effect_id": 66,
+    "icon_id": 266,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 2293,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 43,
+        "EquipmentEvolutionId": 53,
+        "EquipmentExclusiveSkillDescriptionId": 11,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 4,
+        "ExclusiveEffectId": 66,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 266,
+        "Id": 2292,
+        "IsIgnore": null,
+        "Memo": "ベルLR240_書",
+        "NameKey": "[EquipmentName261]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": null,
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 5,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          },
+          {
+            "BattleParameterType": 7,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 19,
+        "Id": 66,
+        "IsIgnore": null,
+        "Memo": "ベルLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill19Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill19Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill19Description3]",
+        "Id": 11,
+        "IsIgnore": null,
+        "Memo": "ベル魔導書"
+      }
+    },
+    "name_key": "[EquipmentName261]",
+    "names": {
+      "zh-CN": "圣赎的炽炎之杖"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Hit",
+        "parameter_type": 5,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Critical",
+        "parameter_type": 7,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill19Description1]",
+        "descriptions": {
+          "zh-CN": "强化终结之爆炎，发动攻击前使贝尔额外增加50%抗暴率，效果持续2回合。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill19Description2]",
+        "descriptions": {
+          "zh-CN": "强化终结之爆炎，攻击次数增加为5次。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill19Description3]",
+        "descriptions": {
+          "zh-CN": "强化终结之爆炎，「流血」效果增加为4回合。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 19003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription190031]",
+          "descriptions": {
+            "zh-CN": "这一次，由我来保护大家。贝尔的决心强化她的普通攻击，普攻暴击时使自己增加5%攻击力，效果持续3回合（最多叠加3层）（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "今度はオレが護る。その決意が、自身の通常攻撃を強化する。通常攻撃時、クリティカルヒットした場合、3ターンの間自身の攻撃力が5％増加する（最大3回まで）（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription190032]",
+          "descriptions": {
+            "zh-CN": "攻击力增幅提升为10%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "攻撃力の増加量が10％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription190033]",
+          "descriptions": {
+            "zh-CN": "「攻击力上升」效果增加为5回合，最多可叠加5层。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "『攻撃力増加』のターン数が5ターン、スタック数が最大5回になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 19003,
+        "IsIgnore": null,
+        "Memo": "ベルSR: /Lv1　今度はオレが護る。その決意が、自身の通常攻撃を強化する。通常攻撃時、クリティカルヒットした場合、3ターンの間自身の攻撃力が5％増加する（最大3回まで）（解除不可）。　/Lv2 攻撃力の増加量が10％になる。　/Lv3 『攻撃力増加』のターン数が5ターン、スタック数が最大5回になる。",
+        "NameKey": "[PassiveSkillName19003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription190031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 19003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription190032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 19003201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription190033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 19003301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName19003]",
+      "names": {
+        "zh-CN": "气焰万丈"
+      },
+      "source_memo_ja": "ベルSR: /Lv1　今度はオレが護る。その決意が、自身の通常攻撃を強化する。通常攻撃時、クリティカルヒットした場合、3ターンの間自身の攻撃力が5％増加する（最大3回まで）（解除不可）。　/Lv2 攻撃力の増加量が10％になる。　/Lv3 『攻撃力増加』のターン数が5ターン、スタック数が最大5回になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "今度はオレが護る。その決意が、自身の通常攻撃を強化する。通常攻撃時、クリティカルヒットした場合、3ターンの間自身の攻撃力が5％増加する（最大3回まで）（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "攻撃力の増加量が10％になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "『攻撃力増加』のターン数が5ターン、スタック数が最大5回になる。"
+        }
+      ]
+    },
+    {
+      "id": 19004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription190041]",
+          "descriptions": {
+            "zh-CN": "死亡的气息使复仇之火燃烧得更加猛烈，再多的痛苦都会在这股灼热中化为灰烬。当贝尔在生命值低于50%时受到攻击，承受伤害超过最大生命值的30%时，阻绝超量部分×100%的伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "死の気配がした時、報復の炎はより強く燃え上がる。その熱は痛みすら焼き消す。自身のHP割合が50％未満で、攻撃を受けた場合、ダメージが自身の最大HPの30％を超えない。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription190042]",
+          "descriptions": {
+            "zh-CN": "当贝尔受到攻击，生命值低于50%时，额外将超过贝尔最大生命值×30%的总伤害量转化为「护盾」，效果持续3回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに自身が攻撃を受けて、HP割合が50％未満になった場合、3ターンの間自身に自身の最大HP×30％を超えたダメージ×100％の『シールド』を付与する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription190043]",
+          "descriptions": {
+            "zh-CN": "阻绝量提升为超过贝尔最大生命值×20%的伤害量，「护盾」值提升为超过贝尔最大生命值×20%的总伤害量。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "ダメージの上限が最大HP×20％、『シールド』の大きさが自身の最大HP×20％を超えたダメージ×100％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 19004,
+        "IsIgnore": null,
+        "Memo": "ベルSR: /Lv1　死の気配がした時、報復の炎はより強く燃え上がる。その熱は痛みすら焼き消す。自身のHP割合が50％未満で、攻撃を受けた場合、ダメージが自身の最大HPの30％を超えない。　/Lv2 さらに自身が攻撃を受けて、HP割合が50％未満になった場合、3ターンの間自身に自身の最大HP×30％を超えたダメージ×100％の『シールド』を付与する。　/Lv3 ダメージの上限が最大HP×20％、『シールド』の大きさが自身の最大HP×20％を超えたダメージ×100％になる。",
+        "NameKey": "[PassiveSkillName19004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription190041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 19004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription190042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 19004201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 19004202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription190043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 19004301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 19004302
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName19004]",
+      "names": {
+        "zh-CN": "怒火丰饶"
+      },
+      "source_memo_ja": "ベルSR: /Lv1　死の気配がした時、報復の炎はより強く燃え上がる。その熱は痛みすら焼き消す。自身のHP割合が50％未満で、攻撃を受けた場合、ダメージが自身の最大HPの30％を超えない。　/Lv2 さらに自身が攻撃を受けて、HP割合が50％未満になった場合、3ターンの間自身に自身の最大HP×30％を超えたダメージ×100％の『シールド』を付与する。　/Lv3 ダメージの上限が最大HP×20％、『シールド』の大きさが自身の最大HP×20％を超えたダメージ×100％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "死の気配がした時、報復の炎はより強く燃え上がる。その熱は痛みすら焼き消す。自身のHP割合が50％未満で、攻撃を受けた場合、ダメージが自身の最大HPの30％を超えない。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに自身が攻撃を受けて、HP割合が50％未満になった場合、3ターンの間自身に自身の最大HP×30％を超えたダメージ×100％の『シールド』を付与する。"
+        },
+        {
+          "label": "Lv3",
+          "text": "ダメージの上限が最大HP×20％、『シールド』の大きさが自身の最大HP×20％を超えたダメージ×100％になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

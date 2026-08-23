@@ -1,0 +1,1556 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 47001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription470011]",
+          "descriptions": {
+            "zh-CN": "沉睡的复仇之心化作焚尽万物的烈焰，随机对1名敌人进行8次攻击，每次造成攻击力×195%的物理伤害（当技能目标失去战斗能力，或身上附带「透明」、「隐身」状态时，重新指定攻击目标）。再使瓦尔丽黛恢复技能总伤害×15%的生命值。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "眠っていた復讐心が、全てを焼き尽くす炎となり、ランダムな敵1体に8回攻撃力×195％の物理攻撃を行う（対象が戦闘不能になった場合、もしくは『透明』『ステルス』を付帯した場合、再度攻撃の対象を選びなおす）。その後自身のHPをこのスキルの総与ダメージ×15%回復する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription470012]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×340%，生命值恢复量提升为技能总伤害×25%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "物理攻撃のダメージが攻撃力×340％、HPの回復量がこのスキルの総与ダメージ×25％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription470013]",
+          "descriptions": {
+            "zh-CN": "每使1名技能目标失去战斗能力，瓦尔丽黛身上附带的「烈焰」效果额外增加1回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらにこのスキルで敵を戦闘不能にするたび、自身の『焔』のターン数を1増加させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription470014]",
+          "descriptions": {
+            "zh-CN": "[ActiveSkillDescription470014]"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "バーストネメシスを強化する。物理攻撃の回数が10回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription470015]",
+          "descriptions": {
+            "zh-CN": "[ActiveSkillDescription470015]"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "バーストネメシスを強化する。物理攻撃のダメージが攻撃力×380%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription470011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              47001001,
+              47001002,
+              47001003,
+              47001022,
+              47001003,
+              47001022,
+              47001003,
+              47001022,
+              47001003,
+              47001022,
+              47001003,
+              47001022,
+              47001003,
+              47001022,
+              47001003,
+              47001004,
+              47001011
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription470012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              47001001,
+              47001402,
+              47001003,
+              47001422,
+              47001003,
+              47001422,
+              47001003,
+              47001422,
+              47001003,
+              47001422,
+              47001003,
+              47001422,
+              47001003,
+              47001422,
+              47001003,
+              47001404,
+              47001311
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription470013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              47005002,
+              47001001,
+              47001402,
+              47001003,
+              47001422,
+              47001003,
+              47001422,
+              47001003,
+              47001422,
+              47001003,
+              47001422,
+              47001003,
+              47001422,
+              47001003,
+              47001422,
+              47001003,
+              47001404,
+              47001311,
+              47005003
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription470014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              47005002,
+              47001001,
+              47001402,
+              47001003,
+              47001422,
+              47001003,
+              47001422,
+              47001003,
+              47001422,
+              47001003,
+              47001422,
+              47001003,
+              47001422,
+              47001003,
+              47001422,
+              47001003,
+              47001422,
+              47001003,
+              47001422,
+              47001003,
+              47001404,
+              47001311,
+              47005003
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription470015]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              47005002,
+              47001001,
+              47001602,
+              47001003,
+              47001622,
+              47001003,
+              47001622,
+              47001003,
+              47001622,
+              47001003,
+              47001622,
+              47001003,
+              47001622,
+              47001003,
+              47001622,
+              47001003,
+              47001622,
+              47001003,
+              47001622,
+              47001003,
+              47001604,
+              47001311,
+              47005003
+            ]
+          }
+        ],
+        "Id": 47001,
+        "IsIgnore": null,
+        "Memo": "ヴァルリーデSR:Lv1 眠っていた復讐心が、全てを焼き尽くす炎となり、ランダムな敵1体に8回攻撃力×195％の物理攻撃を行う（対象が戦闘不能になった場合、もしくは『透明』『ステルス』を付帯した場合、再度攻撃の対象を選びなおす）。その後自身のHPをこのスキルの総与ダメージ×15%回復する。/ Lv2 物理攻撃のダメージが攻撃力×340％、HPの回復量がこのスキルの総与ダメージ×25％になる。/ Lv3 さらにこのスキルで敵を戦闘不能にするたび、自身の『焔』のターン数を1増加させる。/ Ex1 バーストネメシスを強化する。物理攻撃の回数が10回になる。/ Ex3 バーストネメシスを強化する。物理攻撃のダメージが攻撃力×380%になる。",
+        "NameKey": "[ActiveSkillName47001]",
+        "RootActiveSkillId": 47001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName47001]",
+      "names": {
+        "zh-CN": "神怒之爆炎"
+      },
+      "source_memo_ja": "ヴァルリーデSR:Lv1 眠っていた復讐心が、全てを焼き尽くす炎となり、ランダムな敵1体に8回攻撃力×195％の物理攻撃を行う（対象が戦闘不能になった場合、もしくは『透明』『ステルス』を付帯した場合、再度攻撃の対象を選びなおす）。その後自身のHPをこのスキルの総与ダメージ×15%回復する。/ Lv2 物理攻撃のダメージが攻撃力×340％、HPの回復量がこのスキルの総与ダメージ×25％になる。/ Lv3 さらにこのスキルで敵を戦闘不能にするたび、自身の『焔』のターン数を1増加させる。/ Ex1 バーストネメシスを強化する。物理攻撃の回数が10回になる。/ Ex3 バーストネメシスを強化する。物理攻撃のダメージが攻撃力×380%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "眠っていた復讐心が、全てを焼き尽くす炎となり、ランダムな敵1体に8回攻撃力×195％の物理攻撃を行う（対象が戦闘不能になった場合、もしくは『透明』『ステルス』を付帯した場合、再度攻撃の対象を選びなおす）。その後自身のHPをこのスキルの総与ダメージ×15%回復する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "物理攻撃のダメージが攻撃力×340％、HPの回復量がこのスキルの総与ダメージ×25％になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらにこのスキルで敵を戦闘不能にするたび、自身の『焔』のターン数を1増加させる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "バーストネメシスを強化する。物理攻撃の回数が10回になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "バーストネメシスを強化する。物理攻撃のダメージが攻撃力×380%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 47002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription470021]",
+          "descriptions": {
+            "zh-CN": "沉眠于瓦尔丽黛内心深处的“愤怒之心”被唤醒，对生命值百分比最低的敌人进行3次攻击，每次造成攻击力×620%的物理伤害。如果技能目标失去战斗能力，再随机对5名敌人追加攻击力×460%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "胸の奥底に眠っている「憤怒の心」が目を覚まし、HP割合が最も低い敵に3回攻撃力×620％の物理攻撃を行う。このスキルで敵を戦闘不能にした場合、さらにランダムな敵5体に攻撃力×460％の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription470022]",
+          "descriptions": {
+            "zh-CN": "对5名随机敌人造成的追加伤害提升为攻击力×620%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "ランダムな敵5体に行う物理攻撃のダメージが攻撃力×620%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription470023]",
+          "descriptions": {
+            "zh-CN": "如果第一波攻击结束后技能目标仍然存活，瓦尔丽黛对技能目标追加3次攻击，每次造成攻击力×620%的物理伤害（追加的3次攻击将在技能目标失去战斗能力后停止）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらに最初の3回攻撃で敵を戦闘不能にできなかった場合、その敵に3回攻撃力×620%の物理攻撃を行う（その敵が戦闘不能になった時点で3回攻撃は終了）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription470024]",
+          "descriptions": {
+            "zh-CN": "每使1名技能目标失去战斗能力，瓦尔丽黛身上附带的「烈焰」效果额外增加1回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "さらにこのスキルで敵を戦闘不能にするたび、自身の『焔』のターン数を1増加させる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription470021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              47002201,
+              47002202,
+              47002202,
+              47002003
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription470022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              47002201,
+              47002202,
+              47002202,
+              47002303
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription470023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              47002201,
+              47002202,
+              47002202,
+              47002404,
+              47002404,
+              47002404,
+              47002303
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription470024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              47005002,
+              47002201,
+              47002202,
+              47002202,
+              47002404,
+              47002404,
+              47002404,
+              47002303,
+              47005003
+            ]
+          }
+        ],
+        "Id": 47002,
+        "IsIgnore": null,
+        "Memo": "ヴァルリーデSR:Lv1 胸の奥底に眠っている「憤怒の心」が目を覚まし、HP割合が最も低い敵に3回攻撃力×620％の物理攻撃を行う。このスキルで敵を戦闘不能にした場合、さらにランダムな敵5体に攻撃力×460％の物理攻撃を行う。/ Lv2 ランダムな敵5体に行う物理攻撃のダメージが攻撃力×620%になる。/ Lv3 さらに最初の3回攻撃で敵を戦闘不能にできなかった場合、その敵に3回攻撃力×620%の物理攻撃を行う（その敵が戦闘不能になった時点で3回攻撃は終了）。/ Lv4 さらにこのスキルで敵を戦闘不能にするたび、自身の『焔』のターン数を1増加させる。",
+        "NameKey": "[ActiveSkillName47002]",
+        "RootActiveSkillId": 47002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName47002]",
+      "names": {
+        "zh-CN": "炎龙的恸哭"
+      },
+      "source_memo_ja": "ヴァルリーデSR:Lv1 胸の奥底に眠っている「憤怒の心」が目を覚まし、HP割合が最も低い敵に3回攻撃力×620％の物理攻撃を行う。このスキルで敵を戦闘不能にした場合、さらにランダムな敵5体に攻撃力×460％の物理攻撃を行う。/ Lv2 ランダムな敵5体に行う物理攻撃のダメージが攻撃力×620%になる。/ Lv3 さらに最初の3回攻撃で敵を戦闘不能にできなかった場合、その敵に3回攻撃力×620%の物理攻撃を行う（その敵が戦闘不能になった時点で3回攻撃は終了）。/ Lv4 さらにこのスキルで敵を戦闘不能にするたび、自身の『焔』のターン数を1増加させる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "胸の奥底に眠っている「憤怒の心」が目を覚まし、HP割合が最も低い敵に3回攻撃力×620％の物理攻撃を行う。このスキルで敵を戦闘不能にした場合、さらにランダムな敵5体に攻撃力×460％の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "ランダムな敵5体に行う物理攻撃のダメージが攻撃力×620%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらに最初の3回攻撃で敵を戦闘不能にできなかった場合、その敵に3回攻撃力×620%の物理攻撃を行う（その敵が戦闘不能になった時点で3回攻撃は終了）。"
+        },
+        {
+          "label": "Lv4",
+          "text": "さらにこのスキルで敵を戦闘不能にするたび、自身の『焔』のターン数を1増加させる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 18,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 18,
+            "CollectionLevel": 1,
+            "Id": 1801,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アフロディーテの親心(ヴァルリーデ,ソルティーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 500.0,
+              "value_text": "+5%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 18,
+            "CollectionLevel": 2,
+            "Id": 1802,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アフロディーテの親心(ヴァルリーデ,ソルティーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 500.0,
+              "value_text": "+5%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 18,
+            "CollectionLevel": 3,
+            "Id": 1803,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アフロディーテの親心(ヴァルリーデ,ソルティーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 500.0,
+              "value_text": "+5%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 500.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 18,
+            "CollectionLevel": 4,
+            "Id": 1804,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アフロディーテの親心(ヴァルリーデ,ソルティーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 210.0,
+              "value_text": "+2.1%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 510.0,
+              "value_text": "+5.1%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 210.0
+              },
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 510.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 18,
+            "CollectionLevel": 5,
+            "Id": 1805,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アフロディーテの親心(ヴァルリーデ,ソルティーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 220.0,
+              "value_text": "+2.2%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 520.0,
+              "value_text": "+5.2%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 220.0
+              },
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 520.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 18,
+            "CollectionLevel": 6,
+            "Id": 1806,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アフロディーテの親心(ヴァルリーデ,ソルティーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 230.0,
+              "value_text": "+2.3%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 530.0,
+              "value_text": "+5.3%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 230.0
+              },
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 530.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 18,
+            "CollectionLevel": 7,
+            "Id": 1807,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アフロディーテの親心(ヴァルリーデ,ソルティーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 240.0,
+              "value_text": "+2.4%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 540.0,
+              "value_text": "+5.4%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 240.0
+              },
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 540.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 18,
+            "CollectionLevel": 8,
+            "Id": 1808,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アフロディーテの親心(ヴァルリーデ,ソルティーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 250.0,
+              "value_text": "+2.5%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 550.0,
+              "value_text": "+5.5%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 250.0
+              },
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 550.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 18,
+            "CollectionLevel": 9,
+            "Id": 1809,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アフロディーテの親心(ヴァルリーデ,ソルティーナ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 18,
+        "IsIgnore": null,
+        "Memo": "アフロディーテの親心(ヴァルリーデ,ソルティーナ)",
+        "NameKey": "[CharacterCollectionName18]",
+        "RequiredCharacterIds": [
+          47,
+          5
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2023-07-07 14:30:00"
+      },
+      "name_key": "[CharacterCollectionName18]",
+      "names": {
+        "zh-CN": "阿芙萝黛蒂的亲情"
+      },
+      "required_character_ids": [
+        47,
+        5
+      ],
+      "required_characters": [
+        {
+          "id": 47,
+          "names": {
+            "zh-CN": "瓦尔丽黛"
+          }
+        },
+        {
+          "id": 5,
+          "names": {
+            "zh-CN": "索尔缇娜"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2023-07-07 14:30:00"
+    }
+  ],
+  "character": {
+    "character_type": 1,
+    "element_type": 6,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 47,
+    "job_flags": 1,
+    "master_record": {
+      "ActiveSkillIds": [
+        47001,
+        47002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 86,
+        "Health": 70,
+        "Intelligence": 83,
+        "Muscle": 100
+      },
+      "BaseParameterGrossCoefficient": 339,
+      "CharacterType": 1,
+      "ElementType": 6,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 47,
+      "InitialBattleParameter": {
+        "AttackPower": 4,
+        "Avoidance": 0,
+        "Critical": -3,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 2,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 10,
+        "DefensePenetration": 0,
+        "HP": -3,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 2883
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 1,
+      "Memo": "ヴァルリーデ",
+      "Name2Key": "[CharacterSubName47]",
+      "NameKey": "[CharacterName47]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        47003,
+        47004,
+        47005
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2022-11-15 15:00:00"
+    },
+    "memo": "ヴァルリーデ",
+    "name_key": "[CharacterName47]",
+    "names": {
+      "zh-CN": "瓦尔丽黛"
+    },
+    "speed": 2883,
+    "start_time_jst": "2022-11-15 15:00:00",
+    "subtitle_key": "[CharacterSubName47]",
+    "subtitles": {
+      "zh-CN": "劫火魔女"
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 3452,
+    "exclusive_effect_id": 186,
+    "icon_id": 386,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 3453,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 63,
+        "EquipmentEvolutionId": 73,
+        "EquipmentExclusiveSkillDescriptionId": 31,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 1,
+        "ExclusiveEffectId": 186,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 386,
+        "Id": 3452,
+        "IsIgnore": null,
+        "Memo": "ヴァルリーデLR240_剣",
+        "NameKey": "[EquipmentName381]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": [
+          {
+            "BaseParameterType": 1,
+            "ChangeParameterType": 2,
+            "Value": 800.0
+          }
+        ],
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 7,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 47,
+        "Id": 186,
+        "IsIgnore": null,
+        "Memo": "ヴァルリーデLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill47Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill47Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill47Description3]",
+        "Id": 31,
+        "IsIgnore": null,
+        "Memo": "ヴァルリーデ剣"
+      }
+    },
+    "name_key": "[EquipmentName381]",
+    "names": {
+      "zh-CN": "劫火之灭"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "base",
+        "parameter_code": "Muscle",
+        "parameter_type": 1,
+        "raw_value": 800.0,
+        "value_text": "+8%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Critical",
+        "parameter_type": 7,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill47Description1]",
+        "descriptions": {
+          "zh-CN": "强化神怒之爆炎，攻击次数增加为10次。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill47Description2]",
+        "descriptions": {
+          "zh-CN": "强化斗志的烈焰，「烈焰」的承受伤害降幅提升为60%。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill47Description3]",
+        "descriptions": {
+          "zh-CN": "强化神怒之爆炎，造成的物理伤害提升为攻击力×380%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": false,
+  "missing_localization_keys": [
+    "*"
+  ],
+  "passive_skills": [
+    {
+      "id": 47003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription470031]",
+          "descriptions": {
+            "zh-CN": "不愿看到悲剧重演的心带给瓦尔丽黛力量，在每回合开始时、受到攻击后、或受到主动技能提供的恢复效果后，瓦尔丽黛的生命值百分比越高，获得的攻击力增幅效果越高（最多45%）（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "悲劇を繰り返したくないと願う心が力を与える。毎ターン開始時、もしくは自身が攻撃を受けたとき、もしくは自身がアクティブスキルで回復を受けたとき、自身のHP割合が高いほど自身の攻撃力が増加する（最大45％まで）（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription470032]",
+          "descriptions": {
+            "zh-CN": "战斗开始时，瓦尔丽黛额外获得「烈焰」状态，减少15%自身承受伤害，效果持续2回合（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらにバトル開始時、自身に2ターンの間『焔』を付与する（解除不可）。このバフは自身の被ダメージを15％減少させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription470033]",
+          "descriptions": {
+            "zh-CN": "攻击力增幅上限提升为70%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "攻撃力の増加量最大値が70％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "*",
+          "descriptions": {
+            "zh-CN": null
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "闘志の焔を強化する。『焔』の被ダメージの減少量が60%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 47003,
+        "IsIgnore": null,
+        "Memo": "ヴァルリーデSR:Lv1 悲劇を繰り返したくないと願う心が力を与える。毎ターン開始時、もしくは自身が攻撃を受けたとき、もしくは自身がアクティブスキルで回復を受けたとき、自身のHP割合が高いほど自身の攻撃力が増加する（最大45％まで）（解除不可）。/ Lv2 さらにバトル開始時、自身に2ターンの間『焔』を付与する（解除不可）。このバフは自身の被ダメージを15％減少させる。/ Lv3 攻撃力の増加量最大値が70％になる。/ Ex2 闘志の焔を強化する。『焔』の被ダメージの減少量が60%になる。",
+        "NameKey": "[PassiveSkillName47003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription470031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 47003201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 47003201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 30,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 47003201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription470032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 47003200
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 47003201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 47003201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 30,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 47003201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription470033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 47003200
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 47003301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 47003301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 30,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 47003301
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "*",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 47003400
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 47003301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 47003301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 30,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 47003301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName47003]",
+      "names": {
+        "zh-CN": "斗志的烈焰"
+      },
+      "source_memo_ja": "ヴァルリーデSR:Lv1 悲劇を繰り返したくないと願う心が力を与える。毎ターン開始時、もしくは自身が攻撃を受けたとき、もしくは自身がアクティブスキルで回復を受けたとき、自身のHP割合が高いほど自身の攻撃力が増加する（最大45％まで）（解除不可）。/ Lv2 さらにバトル開始時、自身に2ターンの間『焔』を付与する（解除不可）。このバフは自身の被ダメージを15％減少させる。/ Lv3 攻撃力の増加量最大値が70％になる。/ Ex2 闘志の焔を強化する。『焔』の被ダメージの減少量が60%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "悲劇を繰り返したくないと願う心が力を与える。毎ターン開始時、もしくは自身が攻撃を受けたとき、もしくは自身がアクティブスキルで回復を受けたとき、自身のHP割合が高いほど自身の攻撃力が増加する（最大45％まで）（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらにバトル開始時、自身に2ターンの間『焔』を付与する（解除不可）。このバフは自身の被ダメージを15％減少させる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "攻撃力の増加量最大値が70％になる。"
+        },
+        {
+          "label": "Ex2",
+          "text": "闘志の焔を強化する。『焔』の被ダメージの減少量が60%になる。"
+        }
+      ]
+    },
+    {
+      "id": 47004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription470041]",
+          "descriptions": {
+            "zh-CN": "瓦尔丽黛回想起身在火场中的记忆，将她变成魔女的黑火不容许她溃败退却。受到攻击后，如果瓦尔丽黛的生命值为40%以下，减少5%自身承受伤害并获得「再生」状态，效果持续4回合，每回合行动开始时恢复10%最大生命值（无法被解除）。每回合开始时，如果瓦尔丽黛的生命值达90%以上，解除「承受伤害下降」与「再生」状态。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "思い出すのは、炎の中の記憶。自身を魔女に変えた黒い炎が、引く事を許さない。自身が攻撃を受けたとき、自身のHP割合が40％以下の場合、4ターンの間自身の被ダメージが5％減少し、『再生』を付与する（解除不可）。毎ターン行動開始時に自身のHPを自身の最大HP×10％回復する。毎ターン開始時自身のHP割合が90％以上の場合『被ダメージ減少』と『再生』は解除される。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription470042]",
+          "descriptions": {
+            "zh-CN": "「再生」的恢复量提升为20%最大生命值。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "『再生』での回復量が自身の最大HP×20%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription470043]",
+          "descriptions": {
+            "zh-CN": "承受伤害降幅提升为10%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "被ダメージの減少量が10％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 47004,
+        "IsIgnore": null,
+        "Memo": "ヴァルリーデSR:Lv1 思い出すのは、炎の中の記憶。自身を魔女に変えた黒い炎が、引く事を許さない。自身が攻撃を受けたとき、自身のHP割合が40％以下の場合、4ターンの間自身の被ダメージが5％減少し、『再生』を付与する（解除不可）。毎ターン行動開始時に自身のHPを自身の最大HP×10％回復する。毎ターン開始時自身のHP割合が90％以上の場合『被ダメージ減少』と『再生』は解除される。/ Lv2 『再生』での回復量が自身の最大HP×20%になる。/ Lv3 被ダメージの減少量が10％になる。",
+        "NameKey": "[PassiveSkillName47004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription470041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 47004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 47004002
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription470042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 47004201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 47004202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription470043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 47004301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 47004302
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName47004]",
+      "names": {
+        "zh-CN": "劫火魔女"
+      },
+      "source_memo_ja": "ヴァルリーデSR:Lv1 思い出すのは、炎の中の記憶。自身を魔女に変えた黒い炎が、引く事を許さない。自身が攻撃を受けたとき、自身のHP割合が40％以下の場合、4ターンの間自身の被ダメージが5％減少し、『再生』を付与する（解除不可）。毎ターン行動開始時に自身のHPを自身の最大HP×10％回復する。毎ターン開始時自身のHP割合が90％以上の場合『被ダメージ減少』と『再生』は解除される。/ Lv2 『再生』での回復量が自身の最大HP×20%になる。/ Lv3 被ダメージの減少量が10％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "思い出すのは、炎の中の記憶。自身を魔女に変えた黒い炎が、引く事を許さない。自身が攻撃を受けたとき、自身のHP割合が40％以下の場合、4ターンの間自身の被ダメージが5％減少し、『再生』を付与する（解除不可）。毎ターン行動開始時に自身のHPを自身の最大HP×10％回復する。毎ターン開始時自身のHP割合が90％以上の場合『被ダメージ減少』と『再生』は解除される。"
+        },
+        {
+          "label": "Lv2",
+          "text": "『再生』での回復量が自身の最大HP×20%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "被ダメージの減少量が10％になる。"
+        }
+      ]
+    },
+    {
+      "id": 47005,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "*",
+          "descriptions": {
+            "zh-CN": null
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "Id": 47005,
+        "IsIgnore": null,
+        "Memo": "*",
+        "NameKey": "*",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "*",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 45,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 47005001
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "*",
+      "names": {
+        "zh-CN": null
+      },
+      "source_memo_ja": "*",
+      "source_memo_sections_ja": []
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

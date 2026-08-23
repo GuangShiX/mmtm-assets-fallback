@@ -1,0 +1,1756 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 100001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription1000011]",
+          "descriptions": {
+            "zh-CN": "穆瓦诺将羽刃浸透可使人浑身无力的夜花之露，随机对3名敌人造成攻击力×540%的物理伤害，并附加「脱力」状态，效果持续2回合，使附带者减少20%战斗期间的攻击力。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "触れた者の力を奪うという夜花の雫をしみ込ませた刃で、ランダムな敵3体に攻撃力×540%の物理攻撃を行い、2ターンの間対象に『脱力』を付与する。付帯者のバトル中ステータスの攻撃力が20％減少する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription1000012]",
+          "descriptions": {
+            "zh-CN": "发动攻击前使技能目标额外减少25%物理防御力，效果持续4回合。在自动战斗・挑战首领中的「物理防御力下降」效果无法被解除。在无穷之塔中的物理防御力降幅提升为50%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに物理攻撃の前に4ターンの間対象の物理防御力を25%減少させる。オートバトル・ボスバトルで使用した場合、『物理防御力減少』が解除不可になる。無窮の塔で使用した場合、物理防御力の減少量が50%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1000013]",
+          "descriptions": {
+            "zh-CN": "「脱力」的攻击力降幅提升为40%，效果增加为4回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "『脱力』の攻撃力の減少量が40%になり、ターン数が4ターンになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1000014]",
+          "descriptions": {
+            "zh-CN": "强化暮夜羽刃，技能目标增加为5名随机敌人。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "宵闇の羽刃を強化する。宵闇の羽刃の対象がランダムな敵5体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription1000015]",
+          "descriptions": {
+            "zh-CN": "强化暮夜羽刃，造成的物理伤害提升为攻击力×590%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "宵闇の羽刃を強化する。物理攻撃のダメージが攻撃力×590%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription1000011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              100001001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription1000012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              100001201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1000013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              100001301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1000014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              100001401
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription1000015]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              100001501
+            ]
+          }
+        ],
+        "Id": 100001,
+        "IsIgnore": null,
+        "Memo": "モワノーSR:Lv1 触れた者の力を奪うという夜花の雫をしみ込ませた刃で、ランダムな敵3体に攻撃力×540%の物理攻撃を行い、2ターンの間対象に『脱力』を付与する。付帯者のバトル中ステータスの攻撃力が20％減少する。/ Lv2 さらに物理攻撃の前に4ターンの間対象の物理防御力を25%減少させる。オートバトル・ボスバトルで使用した場合、『物理防御力減少』が解除不可になる。無窮の塔で使用した場合、物理防御力の減少量が50%になる。/ Lv3 『脱力』の攻撃力の減少量が40%になり、ターン数が4ターンになる。/ Ex1 宵闇の羽刃を強化する。宵闇の羽刃の対象がランダムな敵5体になる。/ Ex3 宵闇の羽刃を強化する。物理攻撃のダメージが攻撃力×590%になる。",
+        "NameKey": "[ActiveSkillName100001]",
+        "RootActiveSkillId": 100001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName100001]",
+      "names": {
+        "zh-CN": "暮夜羽刃"
+      },
+      "source_memo_ja": "モワノーSR:Lv1 触れた者の力を奪うという夜花の雫をしみ込ませた刃で、ランダムな敵3体に攻撃力×540%の物理攻撃を行い、2ターンの間対象に『脱力』を付与する。付帯者のバトル中ステータスの攻撃力が20％減少する。/ Lv2 さらに物理攻撃の前に4ターンの間対象の物理防御力を25%減少させる。オートバトル・ボスバトルで使用した場合、『物理防御力減少』が解除不可になる。無窮の塔で使用した場合、物理防御力の減少量が50%になる。/ Lv3 『脱力』の攻撃力の減少量が40%になり、ターン数が4ターンになる。/ Ex1 宵闇の羽刃を強化する。宵闇の羽刃の対象がランダムな敵5体になる。/ Ex3 宵闇の羽刃を強化する。物理攻撃のダメージが攻撃力×590%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "触れた者の力を奪うという夜花の雫をしみ込ませた刃で、ランダムな敵3体に攻撃力×540%の物理攻撃を行い、2ターンの間対象に『脱力』を付与する。付帯者のバトル中ステータスの攻撃力が20％減少する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに物理攻撃の前に4ターンの間対象の物理防御力を25%減少させる。オートバトル・ボスバトルで使用した場合、『物理防御力減少』が解除不可になる。無窮の塔で使用した場合、物理防御力の減少量が50%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "『脱力』の攻撃力の減少量が40%になり、ターン数が4ターンになる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "宵闇の羽刃を強化する。宵闇の羽刃の対象がランダムな敵5体になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "宵闇の羽刃を強化する。物理攻撃のダメージが攻撃力×590%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 100002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription1000021]",
+          "descriptions": {
+            "zh-CN": "“不必着急，请慢慢来。”穆瓦诺随机对3名敌人造成攻击力×360%的物理伤害，40%概率附加「迟缓」状态，效果持续1回合，降低技能冷却时间恢复速度1，延缓再度发动技能的时间。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「急ぐ必要はございません。どうぞごゆるりと」ランダムな敵3体に攻撃力×360%の物理攻撃を行い、40%の確率で1ターンの間対象に『遅延』を付与する。毎ターン行動終了時にスキルクールタイムカウントの減少を1遅らせ、次回のスキル発動が遅くなる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription1000022]",
+          "descriptions": {
+            "zh-CN": "附加「迟缓」状态的概率提升为70%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "『遅延』を付与する確率が70%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription1000023]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×980%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃のダメージが攻撃力×980%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription1000024]",
+          "descriptions": {
+            "zh-CN": "战斗中自第3次发动此技能起，造成的物理伤害提升为攻击力×1960%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "バトル中このスキルを発動するのが3回目以降の場合、物理攻撃のダメージが攻撃力×1960%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription1000025]",
+          "descriptions": {
+            "zh-CN": "强化优雅执事，战斗中自第3次发动此技能起，造成的物理伤害提升为攻击力×2450%。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "優雅なる執事を強化する。バトル中このスキルを発動するのが3回目以降の場合、物理攻撃のダメージが攻撃力×2450%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription1000021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              100002001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription1000022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              100002201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription1000023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              100002301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription1000024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              100002401
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription1000025]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              100002501
+            ]
+          }
+        ],
+        "Id": 100002,
+        "IsIgnore": null,
+        "Memo": "モワノーSR:Lv1 「急ぐ必要はございません。どうぞごゆるりと」ランダムな敵3体に攻撃力×360%の物理攻撃を行い、40%の確率で1ターンの間対象に『遅延』を付与する。毎ターン行動終了時にスキルクールタイムカウントの減少を1遅らせ、次回のスキル発動が遅くなる。/ Lv2 『遅延』を付与する確率が70%になる。/ Lv3 物理攻撃のダメージが攻撃力×980%になる。/ Lv4 バトル中このスキルを発動するのが3回目以降の場合、物理攻撃のダメージが攻撃力×1960%になる。/ Ex2 優雅なる執事を強化する。バトル中このスキルを発動するのが3回目以降の場合、物理攻撃のダメージが攻撃力×2450%になる。",
+        "NameKey": "[ActiveSkillName100002]",
+        "RootActiveSkillId": 100002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName100002]",
+      "names": {
+        "zh-CN": "优雅执事"
+      },
+      "source_memo_ja": "モワノーSR:Lv1 「急ぐ必要はございません。どうぞごゆるりと」ランダムな敵3体に攻撃力×360%の物理攻撃を行い、40%の確率で1ターンの間対象に『遅延』を付与する。毎ターン行動終了時にスキルクールタイムカウントの減少を1遅らせ、次回のスキル発動が遅くなる。/ Lv2 『遅延』を付与する確率が70%になる。/ Lv3 物理攻撃のダメージが攻撃力×980%になる。/ Lv4 バトル中このスキルを発動するのが3回目以降の場合、物理攻撃のダメージが攻撃力×1960%になる。/ Ex2 優雅なる執事を強化する。バトル中このスキルを発動するのが3回目以降の場合、物理攻撃のダメージが攻撃力×2450%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「急ぐ必要はございません。どうぞごゆるりと」ランダムな敵3体に攻撃力×360%の物理攻撃を行い、40%の確率で1ターンの間対象に『遅延』を付与する。毎ターン行動終了時にスキルクールタイムカウントの減少を1遅らせ、次回のスキル発動が遅くなる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "『遅延』を付与する確率が70%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃のダメージが攻撃力×980%になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "バトル中このスキルを発動するのが3回目以降の場合、物理攻撃のダメージが攻撃力×1960%になる。"
+        },
+        {
+          "label": "Ex2",
+          "text": "優雅なる執事を強化する。バトル中このスキルを発動するのが3回目以降の場合、物理攻撃のダメージが攻撃力×2450%になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 73,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 73,
+            "CollectionLevel": 1,
+            "Id": 7301,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ベスパの使命(モワノー,ルーク)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 73,
+            "CollectionLevel": 2,
+            "Id": 7302,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ベスパの使命(モワノー,ルーク)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 73,
+            "CollectionLevel": 3,
+            "Id": 7303,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ベスパの使命(モワノー,ルーク)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 73,
+            "CollectionLevel": 4,
+            "Id": 7304,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ベスパの使命(モワノー,ルーク)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 35.0,
+              "value_text": "+35×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 75.0,
+              "value_text": "+75×角色等级"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 35.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 75.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 73,
+            "CollectionLevel": 5,
+            "Id": 7305,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ベスパの使命(モワノー,ルーク)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 80.0,
+              "value_text": "+80×角色等级"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 80.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 73,
+            "CollectionLevel": 6,
+            "Id": 7306,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ベスパの使命(モワノー,ルーク)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 45.0,
+              "value_text": "+45×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 85.0,
+              "value_text": "+85×角色等级"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 45.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 85.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 73,
+            "CollectionLevel": 7,
+            "Id": 7307,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ベスパの使命(モワノー,ルーク)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 50.0,
+              "value_text": "+50×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 90.0,
+              "value_text": "+90×角色等级"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 50.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 90.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 73,
+            "CollectionLevel": 8,
+            "Id": 7308,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ベスパの使命(モワノー,ルーク)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 55.0,
+              "value_text": "+55×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 95.0,
+              "value_text": "+95×角色等级"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 55.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 95.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 73,
+            "CollectionLevel": 9,
+            "Id": 7309,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ベスパの使命(モワノー,ルーク)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 73,
+        "IsIgnore": null,
+        "Memo": "ベスパの使命(モワノー,ルーク)",
+        "NameKey": "[CharacterCollectionName73]",
+        "RequiredCharacterIds": [
+          100,
+          30
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2025-05-30 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName73]",
+      "names": {
+        "zh-CN": "雀蜂座的使命"
+      },
+      "required_character_ids": [
+        100,
+        30
+      ],
+      "required_characters": [
+        {
+          "id": 100,
+          "names": {
+            "zh-CN": "穆瓦诺"
+          }
+        },
+        {
+          "id": 30,
+          "names": {
+            "zh-CN": "光士"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2025-05-30 00:00:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 86,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 86,
+            "CollectionLevel": 1,
+            "Id": 8601,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アピスの愛着(エヴリン,モワノー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 86,
+            "CollectionLevel": 2,
+            "Id": 8602,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アピスの愛着(エヴリン,モワノー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 86,
+            "CollectionLevel": 3,
+            "Id": 8603,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アピスの愛着(エヴリン,モワノー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 86,
+            "CollectionLevel": 4,
+            "Id": 8604,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アピスの愛着(エヴリン,モワノー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3100.0,
+              "value_text": "+3,100"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 210.0,
+              "value_text": "+2.1%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3100.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 210.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 86,
+            "CollectionLevel": 5,
+            "Id": 8605,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アピスの愛着(エヴリン,モワノー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3200.0,
+              "value_text": "+3,200"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 220.0,
+              "value_text": "+2.2%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3200.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 220.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 86,
+            "CollectionLevel": 6,
+            "Id": 8606,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アピスの愛着(エヴリン,モワノー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3300.0,
+              "value_text": "+3,300"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 230.0,
+              "value_text": "+2.3%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3300.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 230.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 86,
+            "CollectionLevel": 7,
+            "Id": 8607,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アピスの愛着(エヴリン,モワノー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3400.0,
+              "value_text": "+3,400"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 240.0,
+              "value_text": "+2.4%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3400.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 240.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 86,
+            "CollectionLevel": 8,
+            "Id": 8608,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アピスの愛着(エヴリン,モワノー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3500.0,
+              "value_text": "+3,500"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 250.0,
+              "value_text": "+2.5%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3500.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 86,
+            "CollectionLevel": 9,
+            "Id": 8609,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アピスの愛着(エヴリン,モワノー)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 86,
+        "IsIgnore": null,
+        "Memo": "アピスの愛着(エヴリン,モワノー)",
+        "NameKey": "[CharacterCollectionName86]",
+        "RequiredCharacterIds": [
+          101,
+          100
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2026-01-15 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName86]",
+      "names": {
+        "zh-CN": "蜜蜂座的依恋"
+      },
+      "required_character_ids": [
+        101,
+        100
+      ],
+      "required_characters": [
+        {
+          "id": 101,
+          "names": {
+            "zh-CN": "伊芙琳"
+          }
+        },
+        {
+          "id": 100,
+          "names": {
+            "zh-CN": "穆瓦诺"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2026-01-15 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 4,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 100,
+    "job_flags": 2,
+    "master_record": {
+      "ActiveSkillIds": [
+        100001,
+        100002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 97,
+        "Health": 73,
+        "Intelligence": 90,
+        "Muscle": 73
+      },
+      "BaseParameterGrossCoefficient": 333,
+      "CharacterType": 0,
+      "ElementType": 4,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 100,
+      "InitialBattleParameter": {
+        "AttackPower": -2,
+        "Avoidance": 0,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 5,
+        "DebuffResist": 0,
+        "Defense": 7,
+        "DefensePenetration": 0,
+        "HP": 0,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 3145
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 2,
+      "Memo": "モワノー",
+      "Name2Key": null,
+      "NameKey": "[CharacterName100]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        100003,
+        100004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2025-05-30 15:00:00"
+    },
+    "memo": "モワノー",
+    "name_key": "[CharacterName100]",
+    "names": {
+      "zh-CN": "穆瓦诺"
+    },
+    "speed": 3145,
+    "start_time_jst": "2025-05-30 15:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 1001120240,
+    "exclusive_effect_id": 534,
+    "icon_id": 704,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 1001120250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 121,
+        "EquipmentEvolutionId": 131,
+        "EquipmentExclusiveSkillDescriptionId": 89,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 2,
+        "ExclusiveEffectId": 534,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 704,
+        "Id": 1001120240,
+        "IsIgnore": null,
+        "Memo": "モワノーLR240_銃",
+        "NameKey": "[EquipmentName699]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": null,
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 16,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          },
+          {
+            "BattleParameterType": 15,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 100,
+        "Id": 534,
+        "IsIgnore": null,
+        "Memo": "モワノーLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill100Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill100Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill100Description3]",
+        "Id": 89,
+        "IsIgnore": null,
+        "Memo": "モワノー銃"
+      }
+    },
+    "name_key": "[EquipmentName699]",
+    "names": {
+      "zh-CN": "暗夜翎羽"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "DebuffResist",
+        "parameter_type": 16,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "DebuffHit",
+        "parameter_type": 15,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill100Description1]",
+        "descriptions": {
+          "zh-CN": "强化暮夜羽刃，技能目标增加为5名随机敌人。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill100Description2]",
+        "descriptions": {
+          "zh-CN": "强化优雅执事，战斗中自第3次发动此技能起，造成的物理伤害提升为攻击力×2450%。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill100Description3]",
+        "descriptions": {
+          "zh-CN": "强化暮夜羽刃，造成的物理伤害提升为攻击力×590%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 100003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription1000031]",
+          "descriptions": {
+            "zh-CN": "涉世未深的贵族子女、刚正不阿的骑士、妖艳美丽的舞娘……化身成他人轻而易举，因为以假面伪装已是家常便饭。行动开始时，穆瓦诺从附带增益效果最多的其他友军身上随机复制2种增益效果。此技能须在结束4次行动后才可再次触发。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "清純な貴族の子女。厳正な騎士。妖艶な踊り子。他者になりきるなど容易いことだ。これまでも幾度もしてきたことなのだから。自身の行動開始時、自身以外の付帯しているバフの個数が最も多い味方のランダムなバフを2つ自身にコピーする。このスキルは発動後4回行動終了するまで再び発動しない。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription1000032]",
+          "descriptions": {
+            "zh-CN": "复制的增益效果增加为4种。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "バフのコピー数が4つになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription1000033]",
+          "descriptions": {
+            "zh-CN": "复制所有增益效果。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "バフのコピー数が全てになる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 100003,
+        "IsIgnore": null,
+        "Memo": "モワノーSR:Lv1 清純な貴族の子女。厳正な騎士。妖艶な踊り子。他者になりきるなど容易いことだ。これまでも幾度もしてきたことなのだから。自身の行動開始時、自身以外の付帯しているバフの個数が最も多い味方のランダムなバフを2つ自身にコピーする。このスキルは発動後4回行動終了するまで再び発動しない。/ Lv2 バフのコピー数が4つになる。/ Lv3 バフのコピー数が全てになる。",
+        "NameKey": "[PassiveSkillName100003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription1000031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 32,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 100003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription1000032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 32,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 100003201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription1000033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 32,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 100003301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName100003]",
+      "names": {
+        "zh-CN": "千变假面"
+      },
+      "source_memo_ja": "モワノーSR:Lv1 清純な貴族の子女。厳正な騎士。妖艶な踊り子。他者になりきるなど容易いことだ。これまでも幾度もしてきたことなのだから。自身の行動開始時、自身以外の付帯しているバフの個数が最も多い味方のランダムなバフを2つ自身にコピーする。このスキルは発動後4回行動終了するまで再び発動しない。/ Lv2 バフのコピー数が4つになる。/ Lv3 バフのコピー数が全てになる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "清純な貴族の子女。厳正な騎士。妖艶な踊り子。他者になりきるなど容易いことだ。これまでも幾度もしてきたことなのだから。自身の行動開始時、自身以外の付帯しているバフの個数が最も多い味方のランダムなバフを2つ自身にコピーする。このスキルは発動後4回行動終了するまで再び発動しない。"
+        },
+        {
+          "label": "Lv2",
+          "text": "バフのコピー数が4つになる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "バフのコピー数が全てになる。"
+        }
+      ]
+    },
+    {
+      "id": 100004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription1000041]",
+          "descriptions": {
+            "zh-CN": "“在下与小姐有约，绝不能在此倒下。”第1回合开始时，穆瓦诺获得攻击力×200%的「护盾」，效果持续4回合（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「お嬢様との約束がありますので、こんなところで倒れるわけにはいないのです」1ターン目のターン開始時、4ターンの間自身に自身の攻撃力×200%の『シールド』を付与する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription1000042]",
+          "descriptions": {
+            "zh-CN": "「护盾」效果增加为10回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "『シールド』のターン数が10ターンになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription1000043]",
+          "descriptions": {
+            "zh-CN": "「护盾」值提升为攻击力×800%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "『シールド』の大きさが自身の攻撃力×800％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 100004,
+        "IsIgnore": null,
+        "Memo": "モワノーSR:Lv1 「お嬢様との約束がありますので、こんなところで倒れるわけにはいないのです」1ターン目のターン開始時、4ターンの間自身に自身の攻撃力×200%の『シールド』を付与する（解除不可）。/ Lv2 『シールド』のターン数が10ターンになる。/ Lv3 『シールド』の大きさが自身の攻撃力×800％になる。",
+        "NameKey": "[PassiveSkillName100004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription1000041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 100004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription1000042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 100004201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription1000043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 100004301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName100004]",
+      "names": {
+        "zh-CN": "银币之约"
+      },
+      "source_memo_ja": "モワノーSR:Lv1 「お嬢様との約束がありますので、こんなところで倒れるわけにはいないのです」1ターン目のターン開始時、4ターンの間自身に自身の攻撃力×200%の『シールド』を付与する（解除不可）。/ Lv2 『シールド』のターン数が10ターンになる。/ Lv3 『シールド』の大きさが自身の攻撃力×800％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「お嬢様との約束がありますので、こんなところで倒れるわけにはいないのです」1ターン目のターン開始時、4ターンの間自身に自身の攻撃力×200%の『シールド』を付与する（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "『シールド』のターン数が10ターンになる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "『シールド』の大きさが自身の攻撃力×800％になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

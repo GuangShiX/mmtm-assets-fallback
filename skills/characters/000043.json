@@ -1,0 +1,2248 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 43001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription430011]",
+          "descriptions": {
+            "zh-CN": "克尔柏洛丝以无法抑制的雷霆之力，随机对敌人进行3次攻击，每次造成攻击力×350%的物理伤害。无情的兽爪撕裂弱者的铠甲，当技能目标的力量低于自己时，使技能目标减少50%物理防御力，效果持续1回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "制御不能な雷装の力によって、ランダムな敵に3回攻撃力×350%の物理攻撃を行う。容赦のない獣の爪は、力なき者を鎧ごと切り裂き、対象の腕力が自身よりも低い場合、1ターンの間物理防御力を50%減少させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription430012]",
+          "descriptions": {
+            "zh-CN": "攻击次数增加为6次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "物理攻撃の回数が6回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription430013]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×520%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃のダメージが攻撃力×520%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription430014]",
+          "descriptions": {
+            "zh-CN": "强化雷啼之爪，如果技能目标失去战斗能力，克尔柏洛丝额外增加30%暴击伤害强化，效果持续2回合。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "雷啼の爪を強化する。さらにこのスキルで敵を戦闘不能にした場合、2ターンの間自身のクリダメ強化が30%増加する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription430015]",
+          "descriptions": {
+            "zh-CN": "强化雷啼之爪，暴击伤害强化增幅提升为60%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "雷啼の爪を強化する。クリダメ強化の増加量が60%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription430011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              43001001,
+              43001002,
+              43001002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription430012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              43001201,
+              43001202,
+              43001202,
+              43001202,
+              43001202,
+              43001202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription430013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              43001301,
+              43001302,
+              43001302,
+              43001302,
+              43001302,
+              43001302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription430014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              43001301,
+              43001302,
+              43001302,
+              43001302,
+              43001302,
+              43001302,
+              43001403
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription430015]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              43001301,
+              43001302,
+              43001302,
+              43001302,
+              43001302,
+              43001302,
+              43001503
+            ]
+          }
+        ],
+        "Id": 43001,
+        "IsIgnore": null,
+        "Memo": "ケルベロスSR:Lv1 制御不能な雷装の力によって、ランダムな敵に3回攻撃力×350%の物理攻撃を行う。容赦のない獣の爪は、力なき者を鎧ごと切り裂き、対象の腕力が自身よりも低い場合、1ターンの間物理防御力を50%減少させる。/ Lv2 物理攻撃の回数が6回になる。/ Lv3 物理攻撃のダメージが攻撃力×520%になる。/ Ex1 雷啼の爪を強化する。さらにこのスキルで敵を戦闘不能にした場合、2ターンの間自身のクリダメ強化が30%増加する。/ Ex3 雷啼の爪を強化する。クリダメ強化の増加量が60%になる。",
+        "NameKey": "[ActiveSkillName43001]",
+        "RootActiveSkillId": 43001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName43001]",
+      "names": {
+        "zh-CN": "雷啼之爪"
+      },
+      "source_memo_ja": "ケルベロスSR:Lv1 制御不能な雷装の力によって、ランダムな敵に3回攻撃力×350%の物理攻撃を行う。容赦のない獣の爪は、力なき者を鎧ごと切り裂き、対象の腕力が自身よりも低い場合、1ターンの間物理防御力を50%減少させる。/ Lv2 物理攻撃の回数が6回になる。/ Lv3 物理攻撃のダメージが攻撃力×520%になる。/ Ex1 雷啼の爪を強化する。さらにこのスキルで敵を戦闘不能にした場合、2ターンの間自身のクリダメ強化が30%増加する。/ Ex3 雷啼の爪を強化する。クリダメ強化の増加量が60%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "制御不能な雷装の力によって、ランダムな敵に3回攻撃力×350%の物理攻撃を行う。容赦のない獣の爪は、力なき者を鎧ごと切り裂き、対象の腕力が自身よりも低い場合、1ターンの間物理防御力を50%減少させる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "物理攻撃の回数が6回になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃のダメージが攻撃力×520%になる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "雷啼の爪を強化する。さらにこのスキルで敵を戦闘不能にした場合、2ターンの間自身のクリダメ強化が30%増加する。"
+        },
+        {
+          "label": "Ex3",
+          "text": "雷啼の爪を強化する。クリダメ強化の増加量が60%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 43002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription430021]",
+          "descriptions": {
+            "zh-CN": "克尔柏洛丝以咒雷劈开虚弱的敌人，对生命值百分比最低的敌人进行3次攻击，每次造成攻击力×380%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "呪われた雷が弱った敵を狙い撃つ。HP割合が最も低い敵に3回攻撃力×380%の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription430022]",
+          "descriptions": {
+            "zh-CN": "如果技能目标仍然存活，生命值为15%以下且当前生命值为克尔柏洛丝攻击力×1500%以下时，立即失去战斗能力。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらにこのスキルで敵を戦闘不能にできず、対象のHP割合が15%以下かつ現在HPが自身の攻撃力×1500%以下の場合、即時戦闘不能にする。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription430023]",
+          "descriptions": {
+            "zh-CN": "攻击次数增加为5次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃の回数が5回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription430024]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×480%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "物理攻撃のダメージが攻撃力×480%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription430021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              43002001,
+              43002002,
+              43002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription430022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              43002001,
+              43002002,
+              43002002,
+              43002203
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription430023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              43002301,
+              43002302,
+              43002302,
+              43002302,
+              43002302,
+              43002203
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription430024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              43002401,
+              43002402,
+              43002402,
+              43002402,
+              43002402,
+              43002203
+            ]
+          }
+        ],
+        "Id": 43002,
+        "IsIgnore": null,
+        "Memo": "ケルベロスSR:Lv1 呪われた雷が弱った敵を狙い撃つ。HP割合が最も低い敵に3回攻撃力×380%の物理攻撃を行う。/ Lv2 さらにこのスキルで敵を戦闘不能にできず、対象のHP割合が15%以下かつ現在HPが自身の攻撃力×1500%以下の場合、即時戦闘不能にする。/ Lv3 物理攻撃の回数が5回になる。/ Lv4 物理攻撃のダメージが攻撃力×480%になる。",
+        "NameKey": "[ActiveSkillName43002]",
+        "RootActiveSkillId": 43002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName43002]",
+      "names": {
+        "zh-CN": "塔尔塔罗斯之雷"
+      },
+      "source_memo_ja": "ケルベロスSR:Lv1 呪われた雷が弱った敵を狙い撃つ。HP割合が最も低い敵に3回攻撃力×380%の物理攻撃を行う。/ Lv2 さらにこのスキルで敵を戦闘不能にできず、対象のHP割合が15%以下かつ現在HPが自身の攻撃力×1500%以下の場合、即時戦闘不能にする。/ Lv3 物理攻撃の回数が5回になる。/ Lv4 物理攻撃のダメージが攻撃力×480%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "呪われた雷が弱った敵を狙い撃つ。HP割合が最も低い敵に3回攻撃力×380%の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらにこのスキルで敵を戦闘不能にできず、対象のHP割合が15%以下かつ現在HPが自身の攻撃力×1500%以下の場合、即時戦闘不能にする。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃の回数が5回になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "物理攻撃のダメージが攻撃力×480%になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 33,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 33,
+            "CollectionLevel": 1,
+            "Id": 3301,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・ミノルの相愛(ケルベロス,フェンリル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 33,
+            "CollectionLevel": 2,
+            "Id": 3302,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・ミノルの相愛(ケルベロス,フェンリル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 33,
+            "CollectionLevel": 3,
+            "Id": 3303,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・ミノルの相愛(ケルベロス,フェンリル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 33,
+            "CollectionLevel": 4,
+            "Id": 3304,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・ミノルの相愛(ケルベロス,フェンリル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 210.0,
+              "value_text": "+2.1%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1050.0,
+              "value_text": "+1,050"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 210.0
+              },
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1050.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 33,
+            "CollectionLevel": 5,
+            "Id": 3305,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・ミノルの相愛(ケルベロス,フェンリル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 220.0,
+              "value_text": "+2.2%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1100.0,
+              "value_text": "+1,100"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 220.0
+              },
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1100.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 33,
+            "CollectionLevel": 6,
+            "Id": 3306,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・ミノルの相愛(ケルベロス,フェンリル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 230.0,
+              "value_text": "+2.3%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1150.0,
+              "value_text": "+1,150"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 230.0
+              },
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1150.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 33,
+            "CollectionLevel": 7,
+            "Id": 3307,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・ミノルの相愛(ケルベロス,フェンリル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 240.0,
+              "value_text": "+2.4%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1200.0,
+              "value_text": "+1,200"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 240.0
+              },
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 33,
+            "CollectionLevel": 8,
+            "Id": 3308,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・ミノルの相愛(ケルベロス,フェンリル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 250.0,
+              "value_text": "+2.5%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1250.0,
+              "value_text": "+1,250"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 250.0
+              },
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 33,
+            "CollectionLevel": 9,
+            "Id": 3309,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・ミノルの相愛(ケルベロス,フェンリル)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 33,
+        "IsIgnore": null,
+        "Memo": "カニス・ミノルの相愛(ケルベロス,フェンリル)",
+        "NameKey": "[CharacterCollectionName33]",
+        "RequiredCharacterIds": [
+          43,
+          7
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2023-11-22 14:30:00"
+      },
+      "name_key": "[CharacterCollectionName33]",
+      "names": {
+        "zh-CN": "小犬座的相思"
+      },
+      "required_character_ids": [
+        43,
+        7
+      ],
+      "required_characters": [
+        {
+          "id": 43,
+          "names": {
+            "zh-CN": "克尔柏洛丝"
+          }
+        },
+        {
+          "id": 7,
+          "names": {
+            "zh-CN": "芬里尔"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2023-11-22 14:30:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 82,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 100.0,
+              "value_text": "+100"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 82,
+            "CollectionLevel": 1,
+            "Id": 8201,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・ミノルの宝物​(宝物ケルベロス,ケルベロス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 250.0,
+              "value_text": "+250"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 250.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 82,
+            "CollectionLevel": 2,
+            "Id": 8202,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・ミノルの宝物​(宝物ケルベロス,ケルベロス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 250.0,
+              "value_text": "+250"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 250.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 82,
+            "CollectionLevel": 3,
+            "Id": 8203,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・ミノルの宝物​(宝物ケルベロス,ケルベロス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 250.0,
+              "value_text": "+250"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 250.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 82,
+            "CollectionLevel": 4,
+            "Id": 8204,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・ミノルの宝物​(宝物ケルベロス,ケルベロス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 255.0,
+              "value_text": "+255"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 160.0,
+              "value_text": "+1.6%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 255.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 2,
+                "Value": 160.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 82,
+            "CollectionLevel": 5,
+            "Id": 8205,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・ミノルの宝物​(宝物ケルベロス,ケルベロス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 260.0,
+              "value_text": "+260"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 170.0,
+              "value_text": "+1.7%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 260.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 2,
+                "Value": 170.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 82,
+            "CollectionLevel": 6,
+            "Id": 8206,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・ミノルの宝物​(宝物ケルベロス,ケルベロス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 265.0,
+              "value_text": "+265"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 180.0,
+              "value_text": "+1.8%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 265.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 2,
+                "Value": 180.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 82,
+            "CollectionLevel": 7,
+            "Id": 8207,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・ミノルの宝物​(宝物ケルベロス,ケルベロス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 270.0,
+              "value_text": "+270"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 190.0,
+              "value_text": "+1.9%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 270.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 2,
+                "Value": 190.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 82,
+            "CollectionLevel": 8,
+            "Id": 8208,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・ミノルの宝物​(宝物ケルベロス,ケルベロス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 275.0,
+              "value_text": "+275"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 275.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 82,
+            "CollectionLevel": 9,
+            "Id": 8209,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・ミノルの宝物​(宝物ケルベロス,ケルベロス)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 82,
+        "IsIgnore": null,
+        "Memo": "カニス・ミノルの宝物​(宝物ケルベロス,ケルベロス)",
+        "NameKey": "[CharacterCollectionName82]",
+        "RequiredCharacterIds": [
+          129,
+          43
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2025-10-30 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName82]",
+      "names": {
+        "zh-CN": "小犬座的宝物"
+      },
+      "required_character_ids": [
+        129,
+        43
+      ],
+      "required_characters": [
+        {
+          "id": 129,
+          "names": {
+            "zh-CN": "克尔柏洛丝"
+          }
+        },
+        {
+          "id": 43,
+          "names": {
+            "zh-CN": "克尔柏洛丝"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2025-10-30 00:00:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 89,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 89,
+            "CollectionLevel": 1,
+            "Id": 8901,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ラケルタの試練​(コベル,ケルベロス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 50.0,
+              "value_text": "+50×角色等级"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 50.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 89,
+            "CollectionLevel": 2,
+            "Id": 8902,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ラケルタの試練​(コベル,ケルベロス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 50.0,
+              "value_text": "+50×角色等级"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 50.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 89,
+            "CollectionLevel": 3,
+            "Id": 8903,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ラケルタの試練​(コベル,ケルベロス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 50.0,
+              "value_text": "+50×角色等级"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 50.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 89,
+            "CollectionLevel": 4,
+            "Id": 8904,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ラケルタの試練​(コベル,ケルベロス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 210.0,
+              "value_text": "+2.1%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 55.0,
+              "value_text": "+55×角色等级"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 210.0
+              },
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 55.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 89,
+            "CollectionLevel": 5,
+            "Id": 8905,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ラケルタの試練​(コベル,ケルベロス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 220.0,
+              "value_text": "+2.2%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 60.0,
+              "value_text": "+60×角色等级"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 220.0
+              },
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 60.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 89,
+            "CollectionLevel": 6,
+            "Id": 8906,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ラケルタの試練​(コベル,ケルベロス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 230.0,
+              "value_text": "+2.3%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 65.0,
+              "value_text": "+65×角色等级"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 230.0
+              },
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 65.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 89,
+            "CollectionLevel": 7,
+            "Id": 8907,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ラケルタの試練​(コベル,ケルベロス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 240.0,
+              "value_text": "+2.4%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 240.0
+              },
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 89,
+            "CollectionLevel": 8,
+            "Id": 8908,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ラケルタの試練​(コベル,ケルベロス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 250.0,
+              "value_text": "+2.5%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 75.0,
+              "value_text": "+75×角色等级"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 250.0
+              },
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 75.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 89,
+            "CollectionLevel": 9,
+            "Id": 8909,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ラケルタの試練​(コベル,ケルベロス)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 89,
+        "IsIgnore": null,
+        "Memo": "ラケルタの試練​(コベル,ケルベロス)",
+        "NameKey": "[CharacterCollectionName89]",
+        "RequiredCharacterIds": [
+          103,
+          43
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2026-02-12 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName89]",
+      "names": {
+        "zh-CN": "蝎虎座的试炼"
+      },
+      "required_character_ids": [
+        103,
+        43
+      ],
+      "required_characters": [
+        {
+          "id": 103,
+          "names": {
+            "zh-CN": "寇柏"
+          }
+        },
+        {
+          "id": 43,
+          "names": {
+            "zh-CN": "克尔柏洛丝"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2026-02-12 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 1,
+    "element_type": 5,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 43,
+    "job_flags": 1,
+    "master_record": {
+      "ActiveSkillIds": [
+        43001,
+        43002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 83,
+        "Health": 69,
+        "Intelligence": 86,
+        "Muscle": 100
+      },
+      "BaseParameterGrossCoefficient": 338,
+      "CharacterType": 1,
+      "ElementType": 5,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 43,
+      "InitialBattleParameter": {
+        "AttackPower": 0,
+        "Avoidance": 0,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 10,
+        "DefensePenetration": 0,
+        "HP": 0,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 3363
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 1,
+      "Memo": "ケルベロス",
+      "Name2Key": "[CharacterSubName43]",
+      "NameKey": "[CharacterName43]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        43003,
+        43004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2023-01-17 15:00:00"
+    },
+    "memo": "ケルベロス",
+    "name_key": "[CharacterName43]",
+    "names": {
+      "zh-CN": "克尔柏洛丝"
+    },
+    "speed": 3363,
+    "start_time_jst": "2023-01-17 15:00:00",
+    "subtitle_key": "[CharacterSubName43]",
+    "subtitles": {
+      "zh-CN": "雷啼魔女"
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 3220,
+    "exclusive_effect_id": 162,
+    "icon_id": 362,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 3221,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 59,
+        "EquipmentEvolutionId": 69,
+        "EquipmentExclusiveSkillDescriptionId": 27,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 1,
+        "ExclusiveEffectId": 162,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 362,
+        "Id": 3220,
+        "IsIgnore": null,
+        "Memo": "ケルベロスLR240_剣",
+        "NameKey": "[EquipmentName357]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": [
+          {
+            "BaseParameterType": 4,
+            "ChangeParameterType": 2,
+            "Value": 800.0
+          }
+        ],
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 5,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 43,
+        "Id": 162,
+        "IsIgnore": null,
+        "Memo": "ケルベロスLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill43Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill43Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill43Description3]",
+        "Id": 27,
+        "IsIgnore": null,
+        "Memo": "ケルベロス剣"
+      }
+    },
+    "name_key": "[EquipmentName357]",
+    "names": {
+      "zh-CN": "雷神之锤"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "base",
+        "parameter_code": "Health",
+        "parameter_type": 4,
+        "raw_value": 800.0,
+        "value_text": "+8%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Hit",
+        "parameter_type": 5,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill43Description1]",
+        "descriptions": {
+          "zh-CN": "强化雷啼之爪，如果技能目标失去战斗能力，克尔柏洛丝额外增加30%暴击伤害强化，效果持续2回合。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill43Description2]",
+        "descriptions": {
+          "zh-CN": "强化失控的力量，战斗开始时，克尔柏洛丝使自己额外增加20%速度，效果持续2回合（无法被解除）。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill43Description3]",
+        "descriptions": {
+          "zh-CN": "强化雷啼之爪，暴击伤害强化增幅提升为60%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": false,
+  "missing_localization_keys": [
+    "*"
+  ],
+  "passive_skills": [
+    {
+      "id": 43003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription430031]",
+          "descriptions": {
+            "zh-CN": "“没事了，不怕不怕。”——这句话会温柔地赶走可怕的黑夜。第2回合开始时，克尔柏洛丝解除自己身上的2种弱化效果。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「大丈夫。もう怖くないよ」。その言葉が、夜の闇を優しく取り払う──。2ターン目のターン開始時自身の弱体効果を2つ解除する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription430032]",
+          "descriptions": {
+            "zh-CN": "解除所有弱化效果。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "弱体効果の解除数が全てになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription430033]",
+          "descriptions": {
+            "zh-CN": "如果身上原本没有弱化效果，克尔柏洛丝额外获得「弱化效果免疫」，效果持续3回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらに弱体効果解除の前に自身が弱体効果を付帯していない場合、自身に3ターンの間『弱体効果無効』を付与する。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 43003,
+        "IsIgnore": null,
+        "Memo": "ケルベロスSR:Lv1 「大丈夫。もう怖くないよ」。その言葉が、夜の闇を優しく取り払う──。2ターン目のターン開始時自身の弱体効果を2つ解除する。/ Lv2 弱体効果の解除数が全てになる。/ Lv3 さらに弱体効果解除の前に自身が弱体効果を付帯していない場合、自身に3ターンの間『弱体効果無効』を付与する。",
+        "NameKey": "[PassiveSkillName43003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription430031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 43003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription430032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 43003201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription430033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 43003301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName43003]",
+      "names": {
+        "zh-CN": "魔法的咒语"
+      },
+      "source_memo_ja": "ケルベロスSR:Lv1 「大丈夫。もう怖くないよ」。その言葉が、夜の闇を優しく取り払う──。2ターン目のターン開始時自身の弱体効果を2つ解除する。/ Lv2 弱体効果の解除数が全てになる。/ Lv3 さらに弱体効果解除の前に自身が弱体効果を付帯していない場合、自身に3ターンの間『弱体効果無効』を付与する。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「大丈夫。もう怖くないよ」。その言葉が、夜の闇を優しく取り払う──。2ターン目のターン開始時自身の弱体効果を2つ解除する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "弱体効果の解除数が全てになる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらに弱体効果解除の前に自身が弱体効果を付帯していない場合、自身に3ターンの間『弱体効果無効』を付与する。"
+        }
+      ]
+    },
+    {
+      "id": 43004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription430041]",
+          "descriptions": {
+            "zh-CN": "娇小的身体里，藏着劈天裂地的神灵之怒。克尔柏洛丝使自己增加20%攻击力（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "小さな体に秘められるのは、空を穿つ神の怒り。自身の攻撃力が20%増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription430042]",
+          "descriptions": {
+            "zh-CN": "攻击力增幅提升为40%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "攻撃力の増加量が40%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription430043]",
+          "descriptions": {
+            "zh-CN": "额外增加20%暴击率（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらに自身のクリティカル率が20%増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "*",
+          "descriptions": {
+            "zh-CN": null
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "制御不能の力を強化する。さらにバトル開始時、2ターンの間自身のスピードが20%増加する（解除不可）。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 43004,
+        "IsIgnore": null,
+        "Memo": "ケルベロスSR:Lv1 小さな体に秘められるのは、空を穿つ神の怒り。自身の攻撃力が20%増加する（解除不可）。/ Lv2 攻撃力の増加量が40%になる。/ Lv3 さらに自身のクリティカル率が20%増加する（解除不可）。/ Ex2 制御不能の力を強化する。さらにバトル開始時、2ターンの間自身のスピードが20%増加する（解除不可）。",
+        "NameKey": "[PassiveSkillName43004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription430041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 43004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription430042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 43004201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription430043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 43004301
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "*",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 43004301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 28,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 43004402
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName43004]",
+      "names": {
+        "zh-CN": "失控的力量"
+      },
+      "source_memo_ja": "ケルベロスSR:Lv1 小さな体に秘められるのは、空を穿つ神の怒り。自身の攻撃力が20%増加する（解除不可）。/ Lv2 攻撃力の増加量が40%になる。/ Lv3 さらに自身のクリティカル率が20%増加する（解除不可）。/ Ex2 制御不能の力を強化する。さらにバトル開始時、2ターンの間自身のスピードが20%増加する（解除不可）。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "小さな体に秘められるのは、空を穿つ神の怒り。自身の攻撃力が20%増加する（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "攻撃力の増加量が40%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらに自身のクリティカル率が20%増加する（解除不可）。"
+        },
+        {
+          "label": "Ex2",
+          "text": "制御不能の力を強化する。さらにバトル開始時、2ターンの間自身のスピードが20%増加する（解除不可）。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

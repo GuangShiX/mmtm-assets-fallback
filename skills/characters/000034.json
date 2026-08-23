@@ -1,0 +1,602 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 34001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription340011]",
+          "descriptions": {
+            "zh-CN": "“点兵点将跟我走，点到不走是小狗！”索缇莉亚随意发射魔法，随机对敌人进行6次攻击，每次造成攻击力×160%的魔法伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「どれにしようかな、ソテイラのいうとおり！」適当に魔法を撃ち、ランダムな敵に6回攻撃力×160%の魔法攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[ActiveSkillDescription340012]",
+          "descriptions": {
+            "zh-CN": "攻击次数增加为8次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "魔法攻撃の回数が8回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[ActiveSkillDescription340013]",
+          "descriptions": {
+            "zh-CN": "造成的魔法伤害提升为攻击力×190%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "魔法攻撃のダメージが攻撃力×190%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription340011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              34001001,
+              34001002,
+              34001002,
+              34001002,
+              34001002,
+              34001002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[ActiveSkillDescription340012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              34001001,
+              34001002,
+              34001002,
+              34001002,
+              34001002,
+              34001002,
+              34001002,
+              34001002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[ActiveSkillDescription340013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              34001301,
+              34001302,
+              34001302,
+              34001302,
+              34001302,
+              34001302,
+              34001302,
+              34001302
+            ]
+          }
+        ],
+        "Id": 34001,
+        "IsIgnore": null,
+        "Memo": "ソテイラR: /Lv1　「どれにしようかな、ソテイラのいうとおり！」適当に魔法を撃ち、ランダムな敵に6回攻撃力×160%の魔法攻撃を行う。　/Lv2 魔法攻撃の回数が8回になる。　/Lv3 魔法攻撃のダメージが攻撃力×190%になる。",
+        "NameKey": "[ActiveSkillName34001]",
+        "RootActiveSkillId": 34001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName34001]",
+      "names": {
+        "zh-CN": "点兵点将跟我走！"
+      },
+      "source_memo_ja": "ソテイラR: /Lv1　「どれにしようかな、ソテイラのいうとおり！」適当に魔法を撃ち、ランダムな敵に6回攻撃力×160%の魔法攻撃を行う。　/Lv2 魔法攻撃の回数が8回になる。　/Lv3 魔法攻撃のダメージが攻撃力×190%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「どれにしようかな、ソテイラのいうとおり！」適当に魔法を撃ち、ランダムな敵に6回攻撃力×160%の魔法攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "魔法攻撃の回数が8回になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "魔法攻撃のダメージが攻撃力×190%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 34002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription340021]",
+          "descriptions": {
+            "zh-CN": "索缇莉亚示意对方“快看！”的地方什么都没有，结果对方上当啦！对速度最高的敌人造成攻击力×390%的魔法伤害，并使技能目标减少20%速度，效果持续3回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「あ！」と指を差した方向には何もない。しかし釣られてしまった！　スピードが最も高い敵に攻撃力×390％の魔法攻撃を行い、3ターンの間スピードを20％減少させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription340022]",
+          "descriptions": {
+            "zh-CN": "造成的魔法伤害提升为攻击力×420%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "魔法攻撃のダメージが攻撃力×420%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription340023]",
+          "descriptions": {
+            "zh-CN": "速度降幅提升为30%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "スピードの減少量が30％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[ActiveSkillDescription340024]",
+          "descriptions": {
+            "zh-CN": "造成的魔法伤害提升为攻击力×480%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "魔法攻撃のダメージが攻撃力×480%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription340021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              34002001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription340022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              34002201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription340023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              34002301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[ActiveSkillDescription340024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              34002401
+            ]
+          }
+        ],
+        "Id": 34002,
+        "IsIgnore": null,
+        "Memo": "ソテイラR: /Lv1　「あ！」と指を差した方向には何もない。しかし釣られてしまった！　スピードが最も高い敵に攻撃力×390％の魔法攻撃を行い、3ターンの間スピードを20％減少させる。　/Lv2 魔法攻撃のダメージが攻撃力×420%になる。　/Lv3 スピードの減少量が30％になる。　/Lv4 魔法攻撃のダメージが攻撃力×480%になる。",
+        "NameKey": "[ActiveSkillName34002]",
+        "RootActiveSkillId": 34002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName34002]",
+      "names": {
+        "zh-CN": "快看！有牛在天上飞！"
+      },
+      "source_memo_ja": "ソテイラR: /Lv1　「あ！」と指を差した方向には何もない。しかし釣られてしまった！　スピードが最も高い敵に攻撃力×390％の魔法攻撃を行い、3ターンの間スピードを20％減少させる。　/Lv2 魔法攻撃のダメージが攻撃力×420%になる。　/Lv3 スピードの減少量が30％になる。　/Lv4 魔法攻撃のダメージが攻撃力×480%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「あ！」と指を差した方向には何もない。しかし釣られてしまった！　スピードが最も高い敵に攻撃力×390％の魔法攻撃を行い、3ターンの間スピードを20％減少させる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "魔法攻撃のダメージが攻撃力×420%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "スピードの減少量が30％になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "魔法攻撃のダメージが攻撃力×480%になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 88,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 88,
+            "CollectionLevel": 1,
+            "Id": 8801,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 1,
+            "Memo": "アルニタクの開花​(ロキ,ペトラ,リブラ,ソテイラ)"
+          },
+          "max_level_increase": 1
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 88,
+            "CollectionLevel": 2,
+            "Id": 8802,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 3,
+            "Memo": "アルニタクの開花​(ロキ,ペトラ,リブラ,ソテイラ)"
+          },
+          "max_level_increase": 3
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 88,
+            "CollectionLevel": 3,
+            "Id": 8803,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 5,
+            "Memo": "アルニタクの開花​(ロキ,ペトラ,リブラ,ソテイラ)"
+          },
+          "max_level_increase": 5
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 88,
+        "IsIgnore": null,
+        "Memo": "アルニタクの開花​(ロキ,ペトラ,リブラ,ソテイラ)",
+        "NameKey": "[CharacterCollectionName88]",
+        "RequiredCharacterIds": [
+          4,
+          14,
+          24,
+          34
+        ],
+        "RequiredPartyLv": 300,
+        "StartTimeFixJST": "2025-10-16 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName88]",
+      "names": {
+        "zh-CN": "金粟星的绽放"
+      },
+      "required_character_ids": [
+        4,
+        14,
+        24,
+        34
+      ],
+      "required_characters": [
+        {
+          "id": 4,
+          "names": {
+            "zh-CN": "洛基"
+          }
+        },
+        {
+          "id": 14,
+          "names": {
+            "zh-CN": "佩特拉"
+          }
+        },
+        {
+          "id": 24,
+          "names": {
+            "zh-CN": "莉布拉"
+          }
+        },
+        {
+          "id": 34,
+          "names": {
+            "zh-CN": "索缇莉亚"
+          }
+        }
+      ],
+      "required_party_level": 300,
+      "start_time_jst": "2025-10-16 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 4,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 34,
+    "job_flags": 4,
+    "master_record": {
+      "ActiveSkillIds": [
+        34001,
+        34002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 79,
+        "Health": 70,
+        "Intelligence": 99,
+        "Muscle": 90
+      },
+      "BaseParameterGrossCoefficient": 338,
+      "CharacterType": 0,
+      "ElementType": 4,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 34,
+      "InitialBattleParameter": {
+        "AttackPower": 4,
+        "Avoidance": 0,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 10,
+        "DefensePenetration": 0,
+        "HP": -3,
+        "Hit": 2,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": -3,
+        "Speed": 3019
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 32,
+      "JobFlags": 4,
+      "Memo": "ソテイラ",
+      "Name2Key": null,
+      "NameKey": "[CharacterName34]",
+      "NormalSkillId": 102,
+      "PassiveSkillIds": [
+        34003
+      ],
+      "RarityFlags": 2,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2020-01-01 00:00:00"
+    },
+    "memo": "ソテイラ",
+    "name_key": "[CharacterName34]",
+    "names": {
+      "zh-CN": "索缇莉亚"
+    },
+    "speed": 3019,
+    "start_time_jst": "2020-01-01 00:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": null,
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 34003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription340031]",
+          "descriptions": {
+            "zh-CN": "睡得迷迷糊糊的小破狠啄对手。当索缇莉亚受到攻击时，30%概率对发动攻击的敌人附加「流血」状态，效果持续1回合，每回合行动开始时造成索缇莉亚攻击力×20%的伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "寝ぼけたはーちゃんが相手をくちばしでつつく。自身が攻撃を受けたとき30％の確率で、攻撃してきた敵に1ターンの間『出血』を付与する。毎ターン行動開始時に自身の攻撃力×20％のダメージを与える。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[PassiveSkillDescription340032]",
+          "descriptions": {
+            "zh-CN": "附加「流血」状态的概率提升为50%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "『出血』を付与する確率が50％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 34003,
+        "IsIgnore": null,
+        "Memo": "ソテイラR: /Lv1　寝ぼけたはーちゃんが相手をくちばしでつつく。自身が攻撃を受けたとき30％の確率で、攻撃してきた敵に1ターンの間『出血』を付与する。毎ターン行動開始時に自身の攻撃力×20％のダメージを与える。　/Lv2 『出血』を付与する確率が50％になる。",
+        "NameKey": "[PassiveSkillName34003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription340031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 34003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[PassiveSkillDescription340032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 34003201
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName34003]",
+      "names": {
+        "zh-CN": "小破早安！"
+      },
+      "source_memo_ja": "ソテイラR: /Lv1　寝ぼけたはーちゃんが相手をくちばしでつつく。自身が攻撃を受けたとき30％の確率で、攻撃してきた敵に1ターンの間『出血』を付与する。毎ターン行動開始時に自身の攻撃力×20％のダメージを与える。　/Lv2 『出血』を付与する確率が50％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "寝ぼけたはーちゃんが相手をくちばしでつつく。自身が攻撃を受けたとき30％の確率で、攻撃してきた敵に1ターンの間『出血』を付与する。毎ターン行動開始時に自身の攻撃力×20％のダメージを与える。"
+        },
+        {
+          "label": "Lv2",
+          "text": "『出血』を付与する確率が50％になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

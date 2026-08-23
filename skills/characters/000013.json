@@ -1,0 +1,583 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 13001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription130011]",
+          "descriptions": {
+            "zh-CN": "狄奥多拉鼓起的勇气化作打破命运的力量，对当前生命值最高的敌人造成攻击力×420%的魔法伤害。这股力量从倾斜的天秤中溢出，对技能目标附加「流血」状态，效果持续3回合，每回合行动开始时造成狄奥多拉攻击力×5%的伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "振り絞った勇気が運命を切り開く力となり、現在HPが最も高い敵に攻撃力×420％の魔法攻撃を行う。傾いた天秤から溢れる力が、対象に3ターンの間『出血』を付与する。毎ターン行動開始時に自身の攻撃力×5％のダメージを与える。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[ActiveSkillDescription130012]",
+          "descriptions": {
+            "zh-CN": "「流血」造成的伤害提升为狄奥多拉攻击力×7%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "『出血』のダメージが攻撃力×7％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[ActiveSkillDescription130013]",
+          "descriptions": {
+            "zh-CN": "造成的魔法伤害提升为攻击力×480%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "魔法攻撃のダメージが攻撃力×480%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription130011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              13001001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[ActiveSkillDescription130012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              13001201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[ActiveSkillDescription130013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              13001301
+            ]
+          }
+        ],
+        "Id": 13001,
+        "IsIgnore": null,
+        "Memo": "テオドラR: /Lv1　振り絞った勇気が運命を切り開く力となり、現在HPが最も高い敵に攻撃力×420％の魔法攻撃を行う。傾いた天秤から溢れる力が、対象に3ターンの間『出血』を付与する。毎ターン行動開始時に自身の攻撃力×5％のダメージを与える。　/Lv2 『出血』のダメージが攻撃力×7％になる。　/Lv3 魔法攻撃のダメージが攻撃力×480%になる。",
+        "NameKey": "[ActiveSkillName13001]",
+        "RootActiveSkillId": 13001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName13001]",
+      "names": {
+        "zh-CN": "天秤的命运"
+      },
+      "source_memo_ja": "テオドラR: /Lv1　振り絞った勇気が運命を切り開く力となり、現在HPが最も高い敵に攻撃力×420％の魔法攻撃を行う。傾いた天秤から溢れる力が、対象に3ターンの間『出血』を付与する。毎ターン行動開始時に自身の攻撃力×5％のダメージを与える。　/Lv2 『出血』のダメージが攻撃力×7％になる。　/Lv3 魔法攻撃のダメージが攻撃力×480%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "振り絞った勇気が運命を切り開く力となり、現在HPが最も高い敵に攻撃力×420％の魔法攻撃を行う。傾いた天秤から溢れる力が、対象に3ターンの間『出血』を付与する。毎ターン行動開始時に自身の攻撃力×5％のダメージを与える。"
+        },
+        {
+          "label": "Lv2",
+          "text": "『出血』のダメージが攻撃力×7％になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "魔法攻撃のダメージが攻撃力×480%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 13002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription130021]",
+          "descriptions": {
+            "zh-CN": "狄奥多拉坚定的心化作力量，对当前生命值最高的2名敌人造成攻击力×390%的魔法伤害。她打击对手的士气，50%概率使技能目标减少20%防御力，效果持续2回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "迷いのない心が力となり、現在HPが高い敵2体に攻撃力×390％の魔法攻撃を行う。さらに相手の戦意を挫く事で、50％の確率で2ターンの間対象の防御力を20％減少させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription130022]",
+          "descriptions": {
+            "zh-CN": "造成的魔法伤害提升为攻击力×410%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "魔法攻撃のダメージが攻撃力×410%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription130023]",
+          "descriptions": {
+            "zh-CN": "附加「防御力下降」状态的概率提升为70%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "防御力を減少させる確率が70％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[ActiveSkillDescription130024]",
+          "descriptions": {
+            "zh-CN": "造成的魔法伤害提升为攻击力×450%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "魔法攻撃のダメージが攻撃力×450%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription130021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              13002001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription130022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              13002201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription130023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              13002301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[ActiveSkillDescription130024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              13002401
+            ]
+          }
+        ],
+        "Id": 13002,
+        "IsIgnore": null,
+        "Memo": "テオドラR: /Lv1　迷いのない心が力となり、現在HPが高い敵2体に攻撃力×390％の魔法攻撃を行う。さらに相手の戦意を挫く事で、50％の確率で2ターンの間対象の防御力を20％減少させる。　/Lv2 魔法攻撃のダメージが攻撃力×410%になる。　/Lv3 防御力を減少させる確率が70％になる。　/Lv4 魔法攻撃のダメージが攻撃力×450%になる。",
+        "NameKey": "[ActiveSkillName13002]",
+        "RootActiveSkillId": 13002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName13002]",
+      "names": {
+        "zh-CN": "抉择的天秤"
+      },
+      "source_memo_ja": "テオドラR: /Lv1　迷いのない心が力となり、現在HPが高い敵2体に攻撃力×390％の魔法攻撃を行う。さらに相手の戦意を挫く事で、50％の確率で2ターンの間対象の防御力を20％減少させる。　/Lv2 魔法攻撃のダメージが攻撃力×410%になる。　/Lv3 防御力を減少させる確率が70％になる。　/Lv4 魔法攻撃のダメージが攻撃力×450%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "迷いのない心が力となり、現在HPが高い敵2体に攻撃力×390％の魔法攻撃を行う。さらに相手の戦意を挫く事で、50％の確率で2ターンの間対象の防御力を20％減少させる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "魔法攻撃のダメージが攻撃力×410%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "防御力を減少させる確率が70％になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "魔法攻撃のダメージが攻撃力×450%になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 71,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 71,
+            "CollectionLevel": 1,
+            "Id": 7101,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 1,
+            "Memo": "ミンタカの開花(アイリス,テオドラ,ロザリー,チェルナ)"
+          },
+          "max_level_increase": 1
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 71,
+            "CollectionLevel": 2,
+            "Id": 7102,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 3,
+            "Memo": "ミンタカの開花(アイリス,テオドラ,ロザリー,チェルナ)"
+          },
+          "max_level_increase": 3
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 71,
+            "CollectionLevel": 3,
+            "Id": 7103,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 5,
+            "Memo": "ミンタカの開花(アイリス,テオドラ,ロザリー,チェルナ)"
+          },
+          "max_level_increase": 5
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 71,
+        "IsIgnore": null,
+        "Memo": "ミンタカの開花(アイリス,テオドラ,ロザリー,チェルナ)",
+        "NameKey": "[CharacterCollectionName71]",
+        "RequiredCharacterIds": [
+          3,
+          13,
+          23,
+          33
+        ],
+        "RequiredPartyLv": 300,
+        "StartTimeFixJST": "2025-04-15 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName71]",
+      "names": {
+        "zh-CN": "腰带星的绽放"
+      },
+      "required_character_ids": [
+        3,
+        13,
+        23,
+        33
+      ],
+      "required_characters": [
+        {
+          "id": 3,
+          "names": {
+            "zh-CN": "艾莉丝"
+          }
+        },
+        {
+          "id": 13,
+          "names": {
+            "zh-CN": "狄奥多拉"
+          }
+        },
+        {
+          "id": 23,
+          "names": {
+            "zh-CN": "罗莎莉"
+          }
+        },
+        {
+          "id": 33,
+          "names": {
+            "zh-CN": "切尔娜"
+          }
+        }
+      ],
+      "required_party_level": 300,
+      "start_time_jst": "2025-04-15 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 2,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 13,
+    "job_flags": 4,
+    "master_record": {
+      "ActiveSkillIds": [
+        13001,
+        13002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 80,
+        "Health": 80,
+        "Intelligence": 94,
+        "Muscle": 85
+      },
+      "BaseParameterGrossCoefficient": 339,
+      "CharacterType": 0,
+      "ElementType": 2,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 13,
+      "InitialBattleParameter": {
+        "AttackPower": 4,
+        "Avoidance": 0,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 2,
+        "DebuffResist": 0,
+        "Defense": 7,
+        "DefensePenetration": 0,
+        "HP": -3,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 2866
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 32,
+      "JobFlags": 4,
+      "Memo": "テオドラ",
+      "Name2Key": null,
+      "NameKey": "[CharacterName13]",
+      "NormalSkillId": 102,
+      "PassiveSkillIds": [
+        13003
+      ],
+      "RarityFlags": 2,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2020-01-01 00:00:00"
+    },
+    "memo": "テオドラ",
+    "name_key": "[CharacterName13]",
+    "names": {
+      "zh-CN": "狄奥多拉"
+    },
+    "speed": 2866,
+    "start_time_jst": "2020-01-01 00:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": null,
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 13003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription130031]",
+          "descriptions": {
+            "zh-CN": "狄奥多拉享用旅店的招牌便当，使自己增加20%最大生命值（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "宿屋名物の弁当で、自身の最大HPが20％増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[PassiveSkillDescription130032]",
+          "descriptions": {
+            "zh-CN": "额外增加20%弱化效果命中率（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに自身の弱体効果命中率が20％増加する（解除不可）。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 13003,
+        "IsIgnore": null,
+        "Memo": "テオドラR: /Lv1　宿屋名物の弁当で、自身の最大HPが20％増加する（解除不可）。　/Lv2 さらに自身の弱体効果命中率が20％増加する（解除不可）。",
+        "NameKey": "[PassiveSkillName13003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription130031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 13003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[PassiveSkillDescription130032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 13003201
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName13003]",
+      "names": {
+        "zh-CN": "自制便当"
+      },
+      "source_memo_ja": "テオドラR: /Lv1　宿屋名物の弁当で、自身の最大HPが20％増加する（解除不可）。　/Lv2 さらに自身の弱体効果命中率が20％増加する（解除不可）。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "宿屋名物の弁当で、自身の最大HPが20％増加する（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに自身の弱体効果命中率が20％増加する（解除不可）。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

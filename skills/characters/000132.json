@@ -1,0 +1,1835 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 132001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription1320011]",
+          "descriptions": {
+            "zh-CN": "“圣夜霸主啊，请赐给吾力量！”史黛拉使自己恢复10%最大生命值，并随机对3名敌人造成攻击力×320%的魔法伤害。第7回合起，发动此技能不会恢复生命值。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「聖なる覇者よ、我に力を！」自身のHPを自身の最大HP×10%回復する。その後ランダムな敵3体に攻撃力×320%の魔法攻撃を行う。このスキルを7ターン目以降に発動した場合、このスキルの自身のHPを回復する効果は発動しない。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription1320012]",
+          "descriptions": {
+            "zh-CN": "发动攻击前，使攻击目标额外增加10%承受伤害并减少20%魔法防御力，效果持续4回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに魔法攻撃の前に4ターンの間対象の被ダメージを10%増加させ、魔法防御力を20%減少させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1320013]",
+          "descriptions": {
+            "zh-CN": "第7回合起，承受伤害增幅提升为20%，魔法防御力降幅提升为40%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "このスキルを7ターン目以降に発動した場合、被ダメージの増加量が20%、魔法防御力の減少量が40%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1320014]",
+          "descriptions": {
+            "zh-CN": "强化圣星脉动，攻击目标增加为5名随机敌人，造成的魔法伤害提升为攻击力×720%。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "聖なる星の鼓動を強化する。魔法攻撃の対象がランダムな敵5体になり、魔法攻撃のダメージが攻撃力×720%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription1320011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              132001001,
+              132001002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription1320012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              132001001,
+              132001202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1320013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              132001001,
+              132001302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1320014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              132001001,
+              132001402
+            ]
+          }
+        ],
+        "Id": 132001,
+        "IsIgnore": null,
+        "Memo": "冬ステラSR:Lv1 「聖なる覇者よ、我に力を！」自身のHPを自身の最大HP×10%回復する。その後ランダムな敵3体に攻撃力×320%の魔法攻撃を行う。このスキルを7ターン目以降に発動した場合、このスキルの自身のHPを回復する効果は発動しない。/ Lv2 さらに魔法攻撃の前に4ターンの間対象の被ダメージを10%増加させ、魔法防御力を20%減少させる。/ Lv3 このスキルを7ターン目以降に発動した場合、被ダメージの増加量が20%、魔法防御力の減少量が40%になる。/ Ex1 聖なる星の鼓動を強化する。魔法攻撃の対象がランダムな敵5体になり、魔法攻撃のダメージが攻撃力×720%になる。",
+        "NameKey": "[ActiveSkillName132001]",
+        "RootActiveSkillId": 132001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName132001]",
+      "names": {
+        "zh-CN": "圣星脉动"
+      },
+      "source_memo_ja": "冬ステラSR:Lv1 「聖なる覇者よ、我に力を！」自身のHPを自身の最大HP×10%回復する。その後ランダムな敵3体に攻撃力×320%の魔法攻撃を行う。このスキルを7ターン目以降に発動した場合、このスキルの自身のHPを回復する効果は発動しない。/ Lv2 さらに魔法攻撃の前に4ターンの間対象の被ダメージを10%増加させ、魔法防御力を20%減少させる。/ Lv3 このスキルを7ターン目以降に発動した場合、被ダメージの増加量が20%、魔法防御力の減少量が40%になる。/ Ex1 聖なる星の鼓動を強化する。魔法攻撃の対象がランダムな敵5体になり、魔法攻撃のダメージが攻撃力×720%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「聖なる覇者よ、我に力を！」自身のHPを自身の最大HP×10%回復する。その後ランダムな敵3体に攻撃力×320%の魔法攻撃を行う。このスキルを7ターン目以降に発動した場合、このスキルの自身のHPを回復する効果は発動しない。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに魔法攻撃の前に4ターンの間対象の被ダメージを10%増加させ、魔法防御力を20%減少させる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "このスキルを7ターン目以降に発動した場合、被ダメージの増加量が20%、魔法防御力の減少量が40%になる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "聖なる星の鼓動を強化する。魔法攻撃の対象がランダムな敵5体になり、魔法攻撃のダメージが攻撃力×720%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 132002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription1320021]",
+          "descriptions": {
+            "zh-CN": "“啧啧啧，真是不让人省心……”史黛拉使自己与攻击力最高的其他友军恢复史黛拉最大生命值×7%的生命值。“冰封之力啊，幻化为永不消融的祈愿吧！”再随机对敌人进行3次攻击，每次造成攻击力×420%的魔法伤害。第7回合起，发动此技能不会恢复生命值，在攻击结束后以40%概率对攻击力最高的2名敌人附加「沉默」状态，效果持续2回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「やれやれ、手間がかかる……」自身と自身以外の攻撃力が最も高い味方のHPを自身の最大HP×7%回復する。「凍える力よ、溶けない願いとなれ！」その後ランダムな敵に3回攻撃力×420%の魔法攻撃を行う。このスキルを7ターン目以降に発動した場合、このスキルの自身と味方のHPを回復する効果は発動せず、最後の魔法攻撃の後40%の確率で攻撃力が高い敵2体に2ターンの間『沈黙』を付与する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription1320022]",
+          "descriptions": {
+            "zh-CN": "攻击次数增加为4次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "魔法攻撃の回数が4回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription1320023]",
+          "descriptions": {
+            "zh-CN": "附加「沉默」状态的概率提升为70%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "『沈黙』を付与する確率が70%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription1320024]",
+          "descriptions": {
+            "zh-CN": "造成的魔法伤害提升为攻击力×710%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "魔法攻撃のダメージが攻撃力×710%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription1320025]",
+          "descriptions": {
+            "zh-CN": "强化终焉之星，造成的魔法伤害提升为攻击力×780%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "ファイナルステラを強化する。魔法攻撃のダメージが攻撃力×780%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription1320021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              132002000,
+              132002001,
+              132002002,
+              132002003,
+              132002004,
+              132002004,
+              132002005
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription1320022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              132002000,
+              132002001,
+              132002002,
+              132002003,
+              132002004,
+              132002004,
+              132002004,
+              132002005
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription1320023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              132002000,
+              132002001,
+              132002002,
+              132002003,
+              132002004,
+              132002004,
+              132002004,
+              132002305
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription1320024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              132002000,
+              132002001,
+              132002002,
+              132002403,
+              132002404,
+              132002404,
+              132002404,
+              132002305
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription1320025]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              132002000,
+              132002001,
+              132002002,
+              132002503,
+              132002504,
+              132002504,
+              132002504,
+              132002305
+            ]
+          }
+        ],
+        "Id": 132002,
+        "IsIgnore": null,
+        "Memo": "冬ステラSR:Lv1 「やれやれ、手間がかかる……」自身と自身以外の攻撃力が最も高い味方のHPを自身の最大HP×7%回復する。「凍える力よ、溶けない願いとなれ！」その後ランダムな敵に3回攻撃力×420%の魔法攻撃を行う。このスキルを7ターン目以降に発動した場合、このスキルの自身と味方のHPを回復する効果は発動せず、最後の魔法攻撃の後40%の確率で攻撃力が高い敵2体に2ターンの間『沈黙』を付与する。/ Lv2 魔法攻撃の回数が4回になる。/ Lv3 『沈黙』を付与する確率が70%になる。/ Lv4 魔法攻撃のダメージが攻撃力×710%になる。/ Ex3 ファイナルステラを強化する。魔法攻撃のダメージが攻撃力×780%になる。",
+        "NameKey": "[ActiveSkillName132002]",
+        "RootActiveSkillId": 132002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName132002]",
+      "names": {
+        "zh-CN": "终焉之星"
+      },
+      "source_memo_ja": "冬ステラSR:Lv1 「やれやれ、手間がかかる……」自身と自身以外の攻撃力が最も高い味方のHPを自身の最大HP×7%回復する。「凍える力よ、溶けない願いとなれ！」その後ランダムな敵に3回攻撃力×420%の魔法攻撃を行う。このスキルを7ターン目以降に発動した場合、このスキルの自身と味方のHPを回復する効果は発動せず、最後の魔法攻撃の後40%の確率で攻撃力が高い敵2体に2ターンの間『沈黙』を付与する。/ Lv2 魔法攻撃の回数が4回になる。/ Lv3 『沈黙』を付与する確率が70%になる。/ Lv4 魔法攻撃のダメージが攻撃力×710%になる。/ Ex3 ファイナルステラを強化する。魔法攻撃のダメージが攻撃力×780%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「やれやれ、手間がかかる……」自身と自身以外の攻撃力が最も高い味方のHPを自身の最大HP×7%回復する。「凍える力よ、溶けない願いとなれ！」その後ランダムな敵に3回攻撃力×420%の魔法攻撃を行う。このスキルを7ターン目以降に発動した場合、このスキルの自身と味方のHPを回復する効果は発動せず、最後の魔法攻撃の後40%の確率で攻撃力が高い敵2体に2ターンの間『沈黙』を付与する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "魔法攻撃の回数が4回になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "『沈黙』を付与する確率が70%になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "魔法攻撃のダメージが攻撃力×710%になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "ファイナルステラを強化する。魔法攻撃のダメージが攻撃力×780%になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 84,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 35.0,
+              "value_text": "+35×角色等级"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 35.0
+              }
+            ],
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 84,
+            "CollectionLevel": 1,
+            "Id": 8401,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ハーシェルの樹影​(冬マーリン,冬ステラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 200.0,
+              "value_text": "+200"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 84,
+            "CollectionLevel": 2,
+            "Id": 8402,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ハーシェルの樹影​(冬マーリン,冬ステラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 200.0,
+              "value_text": "+200"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 84,
+            "CollectionLevel": 3,
+            "Id": 8403,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ハーシェルの樹影​(冬マーリン,冬ステラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 200.0,
+              "value_text": "+200"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 84,
+            "CollectionLevel": 4,
+            "Id": 8404,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ハーシェルの樹影​(冬マーリン,冬ステラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 75.0,
+              "value_text": "+75×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 205.0,
+              "value_text": "+205"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 75.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 205.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 84,
+            "CollectionLevel": 5,
+            "Id": 8405,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ハーシェルの樹影​(冬マーリン,冬ステラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 80.0,
+              "value_text": "+80×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 210.0,
+              "value_text": "+210"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 80.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 210.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 84,
+            "CollectionLevel": 6,
+            "Id": 8406,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ハーシェルの樹影​(冬マーリン,冬ステラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 85.0,
+              "value_text": "+85×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 215.0,
+              "value_text": "+215"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 85.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 215.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 84,
+            "CollectionLevel": 7,
+            "Id": 8407,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ハーシェルの樹影​(冬マーリン,冬ステラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 90.0,
+              "value_text": "+90×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 220.0,
+              "value_text": "+220"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 90.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 220.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 84,
+            "CollectionLevel": 8,
+            "Id": 8408,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ハーシェルの樹影​(冬マーリン,冬ステラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 95.0,
+              "value_text": "+95×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DefensePenetration",
+              "parameter_type": 12,
+              "raw_value": 225.0,
+              "value_text": "+225"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 95.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 12,
+                "ChangeParameterType": 1,
+                "Value": 225.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 84,
+            "CollectionLevel": 9,
+            "Id": 8409,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ハーシェルの樹影​(冬マーリン,冬ステラ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 84,
+        "IsIgnore": null,
+        "Memo": "ハーシェルの樹影​(冬マーリン,冬ステラ)",
+        "NameKey": "[CharacterCollectionName84]",
+        "RequiredCharacterIds": [
+          131,
+          132
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2025-11-27 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName84]",
+      "names": {
+        "zh-CN": "反射望远镜座的树影"
+      },
+      "required_character_ids": [
+        131,
+        132
+      ],
+      "required_characters": [
+        {
+          "id": 131,
+          "names": {
+            "zh-CN": "梅琳"
+          }
+        },
+        {
+          "id": 132,
+          "names": {
+            "zh-CN": "史黛拉"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2025-11-27 00:00:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 85,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 85,
+            "CollectionLevel": 1,
+            "Id": 8501,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "テレスコピウムの星影(冬ステラ,ステラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 500.0,
+              "value_text": "+5%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 500.0
+              },
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 85,
+            "CollectionLevel": 2,
+            "Id": 8502,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "テレスコピウムの星影(冬ステラ,ステラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 500.0,
+              "value_text": "+5%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 500.0
+              },
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 85,
+            "CollectionLevel": 3,
+            "Id": 8503,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "テレスコピウムの星影(冬ステラ,ステラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 500.0,
+              "value_text": "+5%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 500.0
+              },
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 85,
+            "CollectionLevel": 4,
+            "Id": 8504,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "テレスコピウムの星影(冬ステラ,ステラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 510.0,
+              "value_text": "+5.1%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 75.0,
+              "value_text": "+75×角色等级"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 510.0
+              },
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 75.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 85,
+            "CollectionLevel": 5,
+            "Id": 8505,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "テレスコピウムの星影(冬ステラ,ステラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 520.0,
+              "value_text": "+5.2%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 80.0,
+              "value_text": "+80×角色等级"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 520.0
+              },
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 80.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 85,
+            "CollectionLevel": 6,
+            "Id": 8506,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "テレスコピウムの星影(冬ステラ,ステラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 530.0,
+              "value_text": "+5.3%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 85.0,
+              "value_text": "+85×角色等级"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 530.0
+              },
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 85.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 85,
+            "CollectionLevel": 7,
+            "Id": 8507,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "テレスコピウムの星影(冬ステラ,ステラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 540.0,
+              "value_text": "+5.4%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 90.0,
+              "value_text": "+90×角色等级"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 540.0
+              },
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 90.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 85,
+            "CollectionLevel": 8,
+            "Id": 8508,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "テレスコピウムの星影(冬ステラ,ステラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 550.0,
+              "value_text": "+5.5%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 95.0,
+              "value_text": "+95×角色等级"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 550.0
+              },
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 3,
+                "Value": 95.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 85,
+            "CollectionLevel": 9,
+            "Id": 8509,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "テレスコピウムの星影(冬ステラ,ステラ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 85,
+        "IsIgnore": null,
+        "Memo": "テレスコピウムの星影(冬ステラ,ステラ)",
+        "NameKey": "[CharacterCollectionName85]",
+        "RequiredCharacterIds": [
+          132,
+          57
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2025-12-11 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName85]",
+      "names": {
+        "zh-CN": "望远镜座的星辉"
+      },
+      "required_character_ids": [
+        132,
+        57
+      ],
+      "required_characters": [
+        {
+          "id": 132,
+          "names": {
+            "zh-CN": "史黛拉"
+          }
+        },
+        {
+          "id": 57,
+          "names": {
+            "zh-CN": "史黛拉"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2025-12-11 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 2,
+    "element_type": 3,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 132,
+    "job_flags": 4,
+    "master_record": {
+      "ActiveSkillIds": [
+        132001,
+        132002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 79,
+        "Health": 68,
+        "Intelligence": 103,
+        "Muscle": 90
+      },
+      "BaseParameterGrossCoefficient": 340,
+      "CharacterType": 2,
+      "ElementType": 3,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 132,
+      "InitialBattleParameter": {
+        "AttackPower": 5,
+        "Avoidance": -1,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": -1,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 9,
+        "DefensePenetration": 0,
+        "HP": 0,
+        "Hit": 1,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": -3,
+        "Speed": 2968
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 4,
+      "Memo": "冬ステラ",
+      "Name2Key": "[CharacterSubName132]",
+      "NameKey": "[CharacterName132]",
+      "NormalSkillId": 102,
+      "PassiveSkillIds": [
+        132003,
+        132004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2025-12-11 15:00:00"
+    },
+    "memo": "冬ステラ",
+    "name_key": "[CharacterName132]",
+    "names": {
+      "zh-CN": "史黛拉"
+    },
+    "speed": 2968,
+    "start_time_jst": "2025-12-11 15:00:00",
+    "subtitle_key": "[CharacterSubName132]",
+    "subtitles": {
+      "zh-CN": "暗黑圣耀星"
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 1321130240,
+    "exclusive_effect_id": 606,
+    "icon_id": 896,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 1321130250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 133,
+        "EquipmentEvolutionId": 143,
+        "EquipmentExclusiveSkillDescriptionId": 101,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 4,
+        "ExclusiveEffectId": 606,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 896,
+        "Id": 1321130240,
+        "IsIgnore": null,
+        "Memo": "冬ステラLR240_書",
+        "NameKey": "[EquipmentName891]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": [
+          {
+            "BaseParameterType": 3,
+            "ChangeParameterType": 2,
+            "Value": 800.0
+          }
+        ],
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 16,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 132,
+        "Id": 606,
+        "IsIgnore": null,
+        "Memo": "冬ステラLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill132Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill132Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill132Description3]",
+        "Id": 101,
+        "IsIgnore": null,
+        "Memo": "冬ステラ魔導書"
+      }
+    },
+    "name_key": "[EquipmentName891]",
+    "names": {
+      "zh-CN": "圣・混沌霸主"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "base",
+        "parameter_code": "Intelligence",
+        "parameter_type": 3,
+        "raw_value": 800.0,
+        "value_text": "+8%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "DebuffResist",
+        "parameter_type": 16,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill132Description1]",
+        "descriptions": {
+          "zh-CN": "强化圣星脉动，攻击目标增加为5名随机敌人，造成的魔法伤害提升为攻击力×720%。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill132Description2]",
+        "descriptions": {
+          "zh-CN": "强化圣夜魔咒，承受伤害降幅提升为40%，最大生命值增幅提升为100%。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill132Description3]",
+        "descriptions": {
+          "zh-CN": "强化终焉之星，造成的魔法伤害提升为攻击力×780%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 132003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription1320031]",
+          "descriptions": {
+            "zh-CN": "“因为害怕，我掩饰了自己真正的心意。但我希望有一天，可以亲口告诉你——老大，其实我……”战斗开始时，史黛拉减少10%自身承受伤害，增加20%最大生命值与防御力（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「いつか伝えたい。怖がって誤魔化しちゃった、本当の気持ち。ボス、私ね、ボスのことが……」バトル開始時、自身の被ダメージが10%減少し、最大HPと防御力がそれぞれ20%増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription1320032]",
+          "descriptions": {
+            "zh-CN": "第7回合开始时，史黛拉重置技能冷却时间。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに7ターン目のターン開始時、自身のスキルクールタイムカウントを0にする。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription1320033]",
+          "descriptions": {
+            "zh-CN": "防御力增幅提升为150%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "防御力の増加量が150%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription1320034]",
+          "descriptions": {
+            "zh-CN": "强化圣夜魔咒，承受伤害降幅提升为40%，最大生命值增幅提升为100%。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "聖夜のおまじないを強化する。被ダメージの減少量が40%、最大HPの増加量が100%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 132003,
+        "IsIgnore": null,
+        "Memo": "冬ステラSR:Lv1 「いつか伝えたい。怖がって誤魔化しちゃった、本当の気持ち。ボス、私ね、ボスのことが……」バトル開始時、自身の被ダメージが10%減少し、最大HPと防御力がそれぞれ20%増加する（解除不可）。/ Lv2 さらに7ターン目のターン開始時、自身のスキルクールタイムカウントを0にする。/ Lv3 防御力の増加量が150%になる。/ Ex2 聖夜のおまじないを強化する。被ダメージの減少量が40%、最大HPの増加量が100%になる。",
+        "NameKey": "[PassiveSkillName132003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription1320031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 132003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription1320032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 132003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 132003202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription1320033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 132003301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 132003202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription1320034]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 132003401
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 132003202
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName132003]",
+      "names": {
+        "zh-CN": "圣夜魔咒"
+      },
+      "source_memo_ja": "冬ステラSR:Lv1 「いつか伝えたい。怖がって誤魔化しちゃった、本当の気持ち。ボス、私ね、ボスのことが……」バトル開始時、自身の被ダメージが10%減少し、最大HPと防御力がそれぞれ20%増加する（解除不可）。/ Lv2 さらに7ターン目のターン開始時、自身のスキルクールタイムカウントを0にする。/ Lv3 防御力の増加量が150%になる。/ Ex2 聖夜のおまじないを強化する。被ダメージの減少量が40%、最大HPの増加量が100%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「いつか伝えたい。怖がって誤魔化しちゃった、本当の気持ち。ボス、私ね、ボスのことが……」バトル開始時、自身の被ダメージが10%減少し、最大HPと防御力がそれぞれ20%増加する（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに7ターン目のターン開始時、自身のスキルクールタイムカウントを0にする。"
+        },
+        {
+          "label": "Lv3",
+          "text": "防御力の増加量が150%になる。"
+        },
+        {
+          "label": "Ex2",
+          "text": "聖夜のおまじないを強化する。被ダメージの減少量が40%、最大HPの増加量が100%になる。"
+        }
+      ]
+    },
+    {
+      "id": 132004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription1320041]",
+          "descriptions": {
+            "zh-CN": "自圣夜祈愿中诞生的星辰威能，将赐予抗衡命运之人无上的伟力——当史黛拉或友军发动主动技能触发恢复生命值的效果时，史黛拉获得1层增益效果，增加3%攻击力与物理防御力（最多10层）（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "聖なる願いより生まれた星の力が、運命に抗いし者に大いなる力を与える──自身か味方のアクティブスキルがHPを回復する効果を発動したとき、自身に攻撃力と物理防御力がそれぞれ3%増加するバフを1スタック付与する（最大10スタックまで）（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription1320042]",
+          "descriptions": {
+            "zh-CN": "物理防御力增幅提升为6%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "物理防御力の増加量が6%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription1320043]",
+          "descriptions": {
+            "zh-CN": "攻击力增幅提升为10%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "攻撃力の増加量が10%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 132004,
+        "IsIgnore": null,
+        "Memo": "冬ステラSR:Lv1 聖なる願いより生まれた星の力が、運命に抗いし者に大いなる力を与える──自身か味方のアクティブスキルがHPを回復する効果を発動したとき、自身に攻撃力と物理防御力がそれぞれ3%増加するバフを1スタック付与する（最大10スタックまで）（解除不可）。/ Lv2 物理防御力の増加量が6%になる。/ Lv3 攻撃力の増加量が10%になる。",
+        "NameKey": "[PassiveSkillName132004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription1320041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 14,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 132004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 15,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 132004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription1320042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 14,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 132004201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 15,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 132004201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription1320043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 14,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 132004301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 15,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 132004301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName132004]",
+      "names": {
+        "zh-CN": "暗黑圣耀星"
+      },
+      "source_memo_ja": "冬ステラSR:Lv1 聖なる願いより生まれた星の力が、運命に抗いし者に大いなる力を与える──自身か味方のアクティブスキルがHPを回復する効果を発動したとき、自身に攻撃力と物理防御力がそれぞれ3%増加するバフを1スタック付与する（最大10スタックまで）（解除不可）。/ Lv2 物理防御力の増加量が6%になる。/ Lv3 攻撃力の増加量が10%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "聖なる願いより生まれた星の力が、運命に抗いし者に大いなる力を与える──自身か味方のアクティブスキルがHPを回復する効果を発動したとき、自身に攻撃力と物理防御力がそれぞれ3%増加するバフを1スタック付与する（最大10スタックまで）（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "物理防御力の増加量が6%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "攻撃力の増加量が10%になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

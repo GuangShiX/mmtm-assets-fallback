@@ -1,0 +1,1422 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 95001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription950011]",
+          "descriptions": {
+            "zh-CN": "“不乖就要砰咚！”妮娜随机对5名敌人造成攻击力×280%的物理伤害。“交～给～我～吧～”再使全体友军增加10%防御力，效果持续2回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「悪い子はどかんだ！」ランダムな敵5体に攻撃力×280％の物理攻撃を行う。「ボクにおーまーかーせー」その後2ターンの間味方全体の防御力を10％増加させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription950012]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×380%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "物理攻撃のダメージが攻撃力×380％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription950013]",
+          "descriptions": {
+            "zh-CN": "每次技能暴击，使防御力增幅额外提升5%（合计最多35%）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらにこのスキルでクリティカルヒットした回数1回につき防御力の増加量が5％大きくなる（合計で最大35％まで）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription950014]",
+          "descriptions": {
+            "zh-CN": "强化迷途之子的雷啼，每次技能暴击，使防御力增幅额外提升10%（合计最多60%）。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "迷子雷鳴を強化する。このスキルでクリティカルヒットした回数1回につき防御力の増加量が10％大きくなる（合計で最大60％まで）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription950015]",
+          "descriptions": {
+            "zh-CN": "强化迷途之子的雷啼，造成的物理伤害提升为攻击力×420%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "迷子雷鳴を強化する。物理攻撃のダメージが攻撃力×420％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription950011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              95001001,
+              95001002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription950012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              95001201,
+              95001002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription950013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              95001201,
+              95001302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription950014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              95001201,
+              95001402
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription950015]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              95001501,
+              95001402
+            ]
+          }
+        ],
+        "Id": 95001,
+        "IsIgnore": null,
+        "Memo": "夏ニーナSR:Lv1 「悪い子はどかんだ！」ランダムな敵5体に攻撃力×280％の物理攻撃を行う。「ボクにおーまーかーせー」その後2ターンの間味方全体の防御力を10％増加させる。/ Lv2 物理攻撃のダメージが攻撃力×380％になる。/ Lv3 さらにこのスキルでクリティカルヒットした回数1回につき防御力の増加量が5％大きくなる（合計で最大35％まで）。/ Ex1 迷子雷鳴を強化する。このスキルでクリティカルヒットした回数1回につき防御力の増加量が10％大きくなる（合計で最大60％まで）。/ Ex3 迷子雷鳴を強化する。物理攻撃のダメージが攻撃力×420％になる。",
+        "NameKey": "[ActiveSkillName95001]",
+        "RootActiveSkillId": 95001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName95001]",
+      "names": {
+        "zh-CN": "迷途之子的雷啼"
+      },
+      "source_memo_ja": "夏ニーナSR:Lv1 「悪い子はどかんだ！」ランダムな敵5体に攻撃力×280％の物理攻撃を行う。「ボクにおーまーかーせー」その後2ターンの間味方全体の防御力を10％増加させる。/ Lv2 物理攻撃のダメージが攻撃力×380％になる。/ Lv3 さらにこのスキルでクリティカルヒットした回数1回につき防御力の増加量が5％大きくなる（合計で最大35％まで）。/ Ex1 迷子雷鳴を強化する。このスキルでクリティカルヒットした回数1回につき防御力の増加量が10％大きくなる（合計で最大60％まで）。/ Ex3 迷子雷鳴を強化する。物理攻撃のダメージが攻撃力×420％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「悪い子はどかんだ！」ランダムな敵5体に攻撃力×280％の物理攻撃を行う。「ボクにおーまーかーせー」その後2ターンの間味方全体の防御力を10％増加させる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "物理攻撃のダメージが攻撃力×380％になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらにこのスキルでクリティカルヒットした回数1回につき防御力の増加量が5％大きくなる（合計で最大35％まで）。"
+        },
+        {
+          "label": "Ex1",
+          "text": "迷子雷鳴を強化する。このスキルでクリティカルヒットした回数1回につき防御力の増加量が10％大きくなる（合計で最大60％まで）。"
+        },
+        {
+          "label": "Ex3",
+          "text": "迷子雷鳴を強化する。物理攻撃のダメージが攻撃力×420％になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 95002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription950021]",
+          "descriptions": {
+            "zh-CN": "“快点走开！！”妮娜随机解除1名友军身上的1种弱化效果。“再～见！”再随机对5名敌人造成攻击力×320%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「あっちいけー！」ランダムな味方1体の弱体効果を1つ解除する。「さよ～うなら～！」その後ランダムな敵5体に攻撃力×320％の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription950022]",
+          "descriptions": {
+            "zh-CN": "70%概率使攻击目标额外增加10%承受伤害，效果持续3回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに70%の確率で3ターンの間物理攻撃の対象の被ダメージを10％増加させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription950023]",
+          "descriptions": {
+            "zh-CN": "弱化效果解除目标增加为3名随机友军。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "弱体効果解除の対象がランダムな味方3体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription950024]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×420%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "物理攻撃のダメージが攻撃力×420％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription950021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              95002001,
+              95002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription950022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              95002001,
+              95002202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription950023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              95002301,
+              95002202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription950024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              95002301,
+              95002402
+            ]
+          }
+        ],
+        "Id": 95002,
+        "IsIgnore": null,
+        "Memo": "夏ニーナSR:Lv1 「あっちいけー！」ランダムな味方1体の弱体効果を1つ解除する。「さよ～うなら～！」その後ランダムな敵5体に攻撃力×320％の物理攻撃を行う。/ Lv2 さらに70%の確率で3ターンの間物理攻撃の対象の被ダメージを10％増加させる。/ Lv3 弱体効果解除の対象がランダムな味方3体になる。/ Lv4 物理攻撃のダメージが攻撃力×420％になる。",
+        "NameKey": "[ActiveSkillName95002]",
+        "RootActiveSkillId": 95002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName95002]",
+      "names": {
+        "zh-CN": "快点走开！！"
+      },
+      "source_memo_ja": "夏ニーナSR:Lv1 「あっちいけー！」ランダムな味方1体の弱体効果を1つ解除する。「さよ～うなら～！」その後ランダムな敵5体に攻撃力×320％の物理攻撃を行う。/ Lv2 さらに70%の確率で3ターンの間物理攻撃の対象の被ダメージを10％増加させる。/ Lv3 弱体効果解除の対象がランダムな味方3体になる。/ Lv4 物理攻撃のダメージが攻撃力×420％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「あっちいけー！」ランダムな味方1体の弱体効果を1つ解除する。「さよ～うなら～！」その後ランダムな敵5体に攻撃力×320％の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに70%の確率で3ターンの間物理攻撃の対象の被ダメージを10％増加させる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "弱体効果解除の対象がランダムな味方3体になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "物理攻撃のダメージが攻撃力×420％になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 51,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 51,
+            "CollectionLevel": 1,
+            "Id": 5101,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "レグルスの冒険(夏ニーナ,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 51,
+            "CollectionLevel": 2,
+            "Id": 5102,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "レグルスの冒険(夏ニーナ,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 51,
+            "CollectionLevel": 3,
+            "Id": 5103,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "レグルスの冒険(夏ニーナ,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 51,
+            "CollectionLevel": 4,
+            "Id": 5104,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "レグルスの冒険(夏ニーナ,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 3100.0,
+              "value_text": "+3,100"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 75.0,
+              "value_text": "+75×角色等级"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 1,
+                "Value": 3100.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 75.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 51,
+            "CollectionLevel": 5,
+            "Id": 5105,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "レグルスの冒険(夏ニーナ,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 3200.0,
+              "value_text": "+3,200"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 80.0,
+              "value_text": "+80×角色等级"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 1,
+                "Value": 3200.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 80.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 51,
+            "CollectionLevel": 6,
+            "Id": 5106,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "レグルスの冒険(夏ニーナ,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 3300.0,
+              "value_text": "+3,300"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 85.0,
+              "value_text": "+85×角色等级"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 1,
+                "Value": 3300.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 85.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 51,
+            "CollectionLevel": 7,
+            "Id": 5107,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "レグルスの冒険(夏ニーナ,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 3400.0,
+              "value_text": "+3,400"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 90.0,
+              "value_text": "+90×角色等级"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 1,
+                "Value": 3400.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 90.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 51,
+            "CollectionLevel": 8,
+            "Id": 5108,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "レグルスの冒険(夏ニーナ,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 3500.0,
+              "value_text": "+3,500"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 95.0,
+              "value_text": "+95×角色等级"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 1,
+                "Value": 3500.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 95.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 51,
+            "CollectionLevel": 9,
+            "Id": 5109,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "レグルスの冒険(夏ニーナ,ニーナ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 51,
+        "IsIgnore": null,
+        "Memo": "レグルスの冒険(夏ニーナ,ニーナ)",
+        "NameKey": "[CharacterCollectionName51]",
+        "RequiredCharacterIds": [
+          95,
+          28
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2024-07-16 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName51]",
+      "names": {
+        "zh-CN": "小王子的冒险"
+      },
+      "required_character_ids": [
+        95,
+        28
+      ],
+      "required_characters": [
+        {
+          "id": 95,
+          "names": {
+            "zh-CN": "妮娜"
+          }
+        },
+        {
+          "id": 28,
+          "names": {
+            "zh-CN": "妮娜"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2024-07-16 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 2,
+    "element_type": 1,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 95,
+    "job_flags": 2,
+    "master_record": {
+      "ActiveSkillIds": [
+        95001,
+        95002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 97,
+        "Health": 77,
+        "Intelligence": 85,
+        "Muscle": 85
+      },
+      "BaseParameterGrossCoefficient": 344,
+      "CharacterType": 2,
+      "ElementType": 1,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 95,
+      "InitialBattleParameter": {
+        "AttackPower": -3,
+        "Avoidance": 5,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 10,
+        "DefensePenetration": 0,
+        "HP": -3,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 1,
+        "Speed": 2793
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 2,
+      "Memo": "夏ニーナ",
+      "Name2Key": "[CharacterSubName95]",
+      "NameKey": "[CharacterName95]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        95003,
+        95004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2024-07-16 15:00:00"
+    },
+    "memo": "夏ニーナ",
+    "name_key": "[CharacterName95]",
+    "names": {
+      "zh-CN": "妮娜"
+    },
+    "speed": 2793,
+    "start_time_jst": "2024-07-16 15:00:00",
+    "subtitle_key": "[CharacterSubName95]",
+    "subtitles": {
+      "zh-CN": "小小大冒险"
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 951120240,
+    "exclusive_effect_id": 402,
+    "icon_id": 674,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 951120250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 99,
+        "EquipmentEvolutionId": 109,
+        "EquipmentExclusiveSkillDescriptionId": 67,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 2,
+        "ExclusiveEffectId": 402,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 674,
+        "Id": 951120240,
+        "IsIgnore": null,
+        "Memo": "夏ニーナLR240_銃",
+        "NameKey": "[EquipmentName669]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": null,
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 13,
+            "ChangeParameterType": 2,
+            "Value": 500.0
+          },
+          {
+            "BattleParameterType": 7,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 95,
+        "Id": 402,
+        "IsIgnore": null,
+        "Memo": "夏ニーナLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill95Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill95Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill95Description3]",
+        "Id": 67,
+        "IsIgnore": null,
+        "Memo": "夏ニーナ銃"
+      }
+    },
+    "name_key": "[EquipmentName669]",
+    "names": {
+      "zh-CN": "迷失之子红苹果"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Defense",
+        "parameter_type": 13,
+        "raw_value": 500.0,
+        "value_text": "+5%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Critical",
+        "parameter_type": 7,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill95Description1]",
+        "descriptions": {
+          "zh-CN": "强化迷途之子的雷啼，每次技能暴击，使防御力增幅额外提升10%（合计最多60%）。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill95Description2]",
+        "descriptions": {
+          "zh-CN": "强化乖宝宝印记，当妮娜在身上附带此技能附加的「护盾」时受到攻击，额外阻绝40%伤害。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill95Description3]",
+        "descriptions": {
+          "zh-CN": "强化迷途之子的雷啼，造成的物理伤害提升为攻击力×420%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 95003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription950031]",
+          "descriptions": {
+            "zh-CN": "“大家要打起精神～！超级宇宙无敌～妮娜击掌～！”当妮娜被附加主动技能造成的控制效果时，使自己与攻击力最高的其他友军增加10%攻击力，效果持续2回合（无法被解除），并解除技能目标身上的2种弱化效果。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「みんな元気になあれ～！　スペシャルニーナハイタッチ～！」自身がアクティブスキルで行動阻害を受けたとき、2ターンの間自身と自身以外の攻撃力が最も高い味方の攻撃力を10％増加させる（解除不可）。その後対象の弱体効果を2つ解除する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription950032]",
+          "descriptions": {
+            "zh-CN": "妮娜身上原本附带的控制效果持续时间越长，攻击力增幅越高，每剩余1回合，再使攻击力增幅提升10%（合计最多40%）（以剩余持续时间最长的控制效果为基准进行计算）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらにバフ付与の前に、自身が付帯している行動阻害のうち最も残りターン数が多いものの、ターン数1ターンにつき攻撃力の増加量が10％大きくなる（合計で最大40％まで）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription950033]",
+          "descriptions": {
+            "zh-CN": "技能目标增加为妮娜与攻击力最高的2名其他友军。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "このスキルの対象が自身と自身以外の攻撃力が高い味方2体になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 95003,
+        "IsIgnore": null,
+        "Memo": "夏ニーナSR:Lv1 「みんな元気になあれ～！　スペシャルニーナハイタッチ～！」自身がアクティブスキルで行動阻害を受けたとき、2ターンの間自身と自身以外の攻撃力が最も高い味方の攻撃力を10％増加させる（解除不可）。その後対象の弱体効果を2つ解除する。/ Lv2 さらにバフ付与の前に、自身が付帯している行動阻害のうち最も残りターン数が多いものの、ターン数1ターンにつき攻撃力の増加量が10％大きくなる（合計で最大40％まで）。/ Lv3 このスキルの対象が自身と自身以外の攻撃力が高い味方2体になる。",
+        "NameKey": "[PassiveSkillName95003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription950031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 36,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 95003002
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 36,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 95003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription950032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 36,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 95003202
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 36,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 95003201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription950033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 36,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 95003302
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 36,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 95003201
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName95003]",
+      "names": {
+        "zh-CN": "妮娜击掌"
+      },
+      "source_memo_ja": "夏ニーナSR:Lv1 「みんな元気になあれ～！　スペシャルニーナハイタッチ～！」自身がアクティブスキルで行動阻害を受けたとき、2ターンの間自身と自身以外の攻撃力が最も高い味方の攻撃力を10％増加させる（解除不可）。その後対象の弱体効果を2つ解除する。/ Lv2 さらにバフ付与の前に、自身が付帯している行動阻害のうち最も残りターン数が多いものの、ターン数1ターンにつき攻撃力の増加量が10％大きくなる（合計で最大40％まで）。/ Lv3 このスキルの対象が自身と自身以外の攻撃力が高い味方2体になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「みんな元気になあれ～！　スペシャルニーナハイタッチ～！」自身がアクティブスキルで行動阻害を受けたとき、2ターンの間自身と自身以外の攻撃力が最も高い味方の攻撃力を10％増加させる（解除不可）。その後対象の弱体効果を2つ解除する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらにバフ付与の前に、自身が付帯している行動阻害のうち最も残りターン数が多いものの、ターン数1ターンにつき攻撃力の増加量が10％大きくなる（合計で最大40％まで）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "このスキルの対象が自身と自身以外の攻撃力が高い味方2体になる。"
+        }
+      ]
+    },
+    {
+      "id": 95004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription950041]",
+          "descriptions": {
+            "zh-CN": "“这样坏孩子就不敢欺负我们了。”第1回合开始或其他友军失去战斗能力时，妮娜使自己与攻击力最高的其他友军获得妮娜攻击力×100%的「护盾」，效果持续3回合（无法被解除）。当技能目标身上附带此技能附加的增益效果时，重复附加的新效果将直接取代旧效果。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「悪い子から守ってくれるんだよ」1ターン目のターン開始時、もしくは自身以外の味方が戦闘不能になったとき、3ターンの間自身と自身以外の攻撃力が最も高い味方に自身の攻撃力×100％の『シールド』を付与する（解除不可）。対象がこのスキルで付与したバフを付帯している場合、効果は新しい値に上書きされる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription950042]",
+          "descriptions": {
+            "zh-CN": "第1回合开始或其他友军失去战斗能力时，妮娜使自己与攻击力最高的其他友军额外增加5%攻击力，效果持续3回合（无法被解除）。每名失去战斗能力的友军，再使攻击力增幅提升5%（合计最多25%）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "1ターン目のターン開始時、もしくは自身以外の味方が戦闘不能になったとき、さらに3ターンの間自身と自身以外の攻撃力が最も高い味方の攻撃力を5％増加させる（解除不可）。戦闘不能になっている味方の数1体につき、攻撃力の増加量が5％大きくなる（合計で最大25％まで）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription950043]",
+          "descriptions": {
+            "zh-CN": "「护盾」值提升为妮娜攻击力×200%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "『シールド』の大きさが自身の攻撃力×200％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription950044]",
+          "descriptions": {
+            "zh-CN": "强化乖宝宝印记，当妮娜在身上附带此技能附加的「护盾」时受到攻击，额外阻绝40%伤害。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "よい子の印を強化する。さらに自身がこのスキルで付与した『シールド』を付帯している間、自身が攻撃を受けたとき、ダメージを40％遮断する。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 95004,
+        "IsIgnore": null,
+        "Memo": "夏ニーナSR:Lv1 「悪い子から守ってくれるんだよ」1ターン目のターン開始時、もしくは自身以外の味方が戦闘不能になったとき、3ターンの間自身と自身以外の攻撃力が最も高い味方に自身の攻撃力×100％の『シールド』を付与する（解除不可）。対象がこのスキルで付与したバフを付帯している場合、効果は新しい値に上書きされる。/ Lv2 1ターン目のターン開始時、もしくは自身以外の味方が戦闘不能になったとき、さらに3ターンの間自身と自身以外の攻撃力が最も高い味方の攻撃力を5％増加させる（解除不可）。戦闘不能になっている味方の数1体につき、攻撃力の増加量が5％大きくなる（合計で最大25％まで）。/ Lv3 『シールド』の大きさが自身の攻撃力×200％になる。/ Ex2 よい子の印を強化する。さらに自身がこのスキルで付与した『シールド』を付帯している間、自身が攻撃を受けたとき、ダメージを40％遮断する。",
+        "NameKey": "[PassiveSkillName95004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription950041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 95004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 7,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 95004002
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 95004003
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 7,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 95004004
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription950042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 95004201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 7,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 95004202
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 95004203
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 7,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 95004204
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription950043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 95004301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 7,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 95004302
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 95004303
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 7,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 95004304
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription950044]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 95004401
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 7,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 95004402
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 95004303
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 7,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 95004304
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 95004403
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName95004]",
+      "names": {
+        "zh-CN": "乖宝宝印记"
+      },
+      "source_memo_ja": "夏ニーナSR:Lv1 「悪い子から守ってくれるんだよ」1ターン目のターン開始時、もしくは自身以外の味方が戦闘不能になったとき、3ターンの間自身と自身以外の攻撃力が最も高い味方に自身の攻撃力×100％の『シールド』を付与する（解除不可）。対象がこのスキルで付与したバフを付帯している場合、効果は新しい値に上書きされる。/ Lv2 1ターン目のターン開始時、もしくは自身以外の味方が戦闘不能になったとき、さらに3ターンの間自身と自身以外の攻撃力が最も高い味方の攻撃力を5％増加させる（解除不可）。戦闘不能になっている味方の数1体につき、攻撃力の増加量が5％大きくなる（合計で最大25％まで）。/ Lv3 『シールド』の大きさが自身の攻撃力×200％になる。/ Ex2 よい子の印を強化する。さらに自身がこのスキルで付与した『シールド』を付帯している間、自身が攻撃を受けたとき、ダメージを40％遮断する。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「悪い子から守ってくれるんだよ」1ターン目のターン開始時、もしくは自身以外の味方が戦闘不能になったとき、3ターンの間自身と自身以外の攻撃力が最も高い味方に自身の攻撃力×100％の『シールド』を付与する（解除不可）。対象がこのスキルで付与したバフを付帯している場合、効果は新しい値に上書きされる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "1ターン目のターン開始時、もしくは自身以外の味方が戦闘不能になったとき、さらに3ターンの間自身と自身以外の攻撃力が最も高い味方の攻撃力を5％増加させる（解除不可）。戦闘不能になっている味方の数1体につき、攻撃力の増加量が5％大きくなる（合計で最大25％まで）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "『シールド』の大きさが自身の攻撃力×200％になる。"
+        },
+        {
+          "label": "Ex2",
+          "text": "よい子の印を強化する。さらに自身がこのスキルで付与した『シールド』を付帯している間、自身が攻撃を受けたとき、ダメージを40％遮断する。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

@@ -1,0 +1,1384 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 82001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription820011]",
+          "descriptions": {
+            "zh-CN": "圣盾发出绯红光芒并降下审判之光，随机对4名敌人造成攻击力×250%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "聖なる盾が紅く輝く時、裁きの光が降り注ぐ。ランダムな敵4体に攻撃力×250%の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription820012]",
+          "descriptions": {
+            "zh-CN": "70%概率对目标额外附加「流血」状态，效果持续1回合，每回合行动开始时造成亚历珊卓攻击力×50%的伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに70%の確率で対象に1ターンの間『出血』を付与する。毎ターン行動開始時に自身の攻撃力×50%のダメージを与える。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription820013]",
+          "descriptions": {
+            "zh-CN": "「流血」效果增加为2回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "『出血』のターン数が2ターンになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription820014]",
+          "descriptions": {
+            "zh-CN": "强化骑士盾击，技能目标增加为5名随机敌人。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "ナイト・ブレイクを強化する。ナイト・ブレイクの対象がランダムな敵5体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription820015]",
+          "descriptions": {
+            "zh-CN": "强化骑士盾击，造成的物理伤害提升为攻击力×280%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "ナイト・ブレイクを強化する。物理攻撃のダメージが攻撃力×280%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription820011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              82001001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription820012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              82001201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription820013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              82001301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription820014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              82001401
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription820015]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              82001501
+            ]
+          }
+        ],
+        "Id": 82001,
+        "IsIgnore": null,
+        "Memo": "アレクサンドラSR:Lv1 聖なる盾が紅く輝く時、裁きの光が降り注ぐ。ランダムな敵4体に攻撃力×250%の物理攻撃を行う。/ Lv2 さらに70%の確率で対象に1ターンの間『出血』を付与する。毎ターン行動開始時に自身の攻撃力×50%のダメージを与える。/ Lv3 『出血』のターン数が2ターンになる。/ Ex1 ナイト・ブレイクを強化する。ナイト・ブレイクの対象がランダムな敵5体になる。/ Ex3 ナイト・ブレイクを強化する。物理攻撃のダメージが攻撃力×280%になる。",
+        "NameKey": "[ActiveSkillName82001]",
+        "RootActiveSkillId": 82001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName82001]",
+      "names": {
+        "zh-CN": "骑士盾击"
+      },
+      "source_memo_ja": "アレクサンドラSR:Lv1 聖なる盾が紅く輝く時、裁きの光が降り注ぐ。ランダムな敵4体に攻撃力×250%の物理攻撃を行う。/ Lv2 さらに70%の確率で対象に1ターンの間『出血』を付与する。毎ターン行動開始時に自身の攻撃力×50%のダメージを与える。/ Lv3 『出血』のターン数が2ターンになる。/ Ex1 ナイト・ブレイクを強化する。ナイト・ブレイクの対象がランダムな敵5体になる。/ Ex3 ナイト・ブレイクを強化する。物理攻撃のダメージが攻撃力×280%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "聖なる盾が紅く輝く時、裁きの光が降り注ぐ。ランダムな敵4体に攻撃力×250%の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに70%の確率で対象に1ターンの間『出血』を付与する。毎ターン行動開始時に自身の攻撃力×50%のダメージを与える。"
+        },
+        {
+          "label": "Lv3",
+          "text": "『出血』のターン数が2ターンになる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "ナイト・ブレイクを強化する。ナイト・ブレイクの対象がランダムな敵5体になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "ナイト・ブレイクを強化する。物理攻撃のダメージが攻撃力×280%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 82002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription820021]",
+          "descriptions": {
+            "zh-CN": "“胆敢与教皇陛下为敌者，一律就地正法！”亚历珊卓向强敌发动猛烈攻势，对攻击力最高的敌人进行4次攻击，每次造成攻击力×320%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「教皇様に仇なす敵は、ここで討ち滅ぼす！」強敵に狙いを定め、一気に畳みかける――攻撃力が最も高い敵に4回攻撃力×320%の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription820022]",
+          "descriptions": {
+            "zh-CN": "攻击次数增加为5次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "物理攻撃の回数が5回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription820023]",
+          "descriptions": {
+            "zh-CN": "当亚历珊卓身上附带「守护骑士」状态时，攻击次数增加为10次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらに物理攻撃の前に自身が『守護騎士』を付帯している場合、物理攻撃の回数が10回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription820024]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×420%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "物理攻撃のダメージが攻撃力×420%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription820021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              82002001,
+              82002002,
+              82002002,
+              82002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription820022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              82002201,
+              82002202,
+              82002202,
+              82002202,
+              82002202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription820023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              82002201,
+              82002202,
+              82002202,
+              82002202,
+              82002202,
+              82002303,
+              82002303,
+              82002303,
+              82002303,
+              82002303
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription820024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              82002401,
+              82002402,
+              82002402,
+              82002402,
+              82002402,
+              82002403,
+              82002403,
+              82002403,
+              82002403,
+              82002403
+            ]
+          }
+        ],
+        "Id": 82002,
+        "IsIgnore": null,
+        "Memo": "アレクサンドラSR:Lv1 「教皇様に仇なす敵は、ここで討ち滅ぼす！」強敵に狙いを定め、一気に畳みかける――攻撃力が最も高い敵に4回攻撃力×320%の物理攻撃を行う。/ Lv2 物理攻撃の回数が5回になる。/ Lv3 さらに物理攻撃の前に自身が『守護騎士』を付帯している場合、物理攻撃の回数が10回になる。/ Lv4 物理攻撃のダメージが攻撃力×420%になる。",
+        "NameKey": "[ActiveSkillName82002]",
+        "RootActiveSkillId": 82002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName82002]",
+      "names": {
+        "zh-CN": "绯红圣十字"
+      },
+      "source_memo_ja": "アレクサンドラSR:Lv1 「教皇様に仇なす敵は、ここで討ち滅ぼす！」強敵に狙いを定め、一気に畳みかける――攻撃力が最も高い敵に4回攻撃力×320%の物理攻撃を行う。/ Lv2 物理攻撃の回数が5回になる。/ Lv3 さらに物理攻撃の前に自身が『守護騎士』を付帯している場合、物理攻撃の回数が10回になる。/ Lv4 物理攻撃のダメージが攻撃力×420%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「教皇様に仇なす敵は、ここで討ち滅ぼす！」強敵に狙いを定め、一気に畳みかける――攻撃力が最も高い敵に4回攻撃力×320%の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "物理攻撃の回数が5回になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらに物理攻撃の前に自身が『守護騎士』を付帯している場合、物理攻撃の回数が10回になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "物理攻撃のダメージが攻撃力×420%になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 48,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 20.0,
+              "value_text": "+20×角色等级"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 20.0
+              }
+            ],
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 48,
+            "CollectionLevel": 1,
+            "Id": 4801,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴェナティキの忠義(アレクサンドラ,ルーク)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 15.0,
+              "value_text": "+15×角色等级"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 15.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 48,
+            "CollectionLevel": 2,
+            "Id": 4802,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴェナティキの忠義(アレクサンドラ,ルーク)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 15.0,
+              "value_text": "+15×角色等级"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 15.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 48,
+            "CollectionLevel": 3,
+            "Id": 4803,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴェナティキの忠義(アレクサンドラ,ルーク)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 15.0,
+              "value_text": "+15×角色等级"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 15.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 48,
+            "CollectionLevel": 4,
+            "Id": 4804,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴェナティキの忠義(アレクサンドラ,ルーク)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 45.0,
+              "value_text": "+45×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 16.0,
+              "value_text": "+16×角色等级"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 45.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 16.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 48,
+            "CollectionLevel": 5,
+            "Id": 4805,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴェナティキの忠義(アレクサンドラ,ルーク)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 50.0,
+              "value_text": "+50×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 17.0,
+              "value_text": "+17×角色等级"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 50.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 17.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 48,
+            "CollectionLevel": 6,
+            "Id": 4806,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴェナティキの忠義(アレクサンドラ,ルーク)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 55.0,
+              "value_text": "+55×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 18.0,
+              "value_text": "+18×角色等级"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 55.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 18.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 48,
+            "CollectionLevel": 7,
+            "Id": 4807,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴェナティキの忠義(アレクサンドラ,ルーク)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 60.0,
+              "value_text": "+60×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 19.0,
+              "value_text": "+19×角色等级"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 60.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 19.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 48,
+            "CollectionLevel": 8,
+            "Id": 4808,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴェナティキの忠義(アレクサンドラ,ルーク)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 65.0,
+              "value_text": "+65×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 20.0,
+              "value_text": "+20×角色等级"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 65.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 20.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 48,
+            "CollectionLevel": 9,
+            "Id": 4809,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴェナティキの忠義(アレクサンドラ,ルーク)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 48,
+        "IsIgnore": null,
+        "Memo": "ヴェナティキの忠義(アレクサンドラ,ルーク)",
+        "NameKey": "[CharacterCollectionName48]",
+        "RequiredCharacterIds": [
+          82,
+          30
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2024-05-31 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName48]",
+      "names": {
+        "zh-CN": "猎犬座的忠诚"
+      },
+      "required_character_ids": [
+        82,
+        30
+      ],
+      "required_characters": [
+        {
+          "id": 82,
+          "names": {
+            "zh-CN": "亚历珊卓"
+          }
+        },
+        {
+          "id": 30,
+          "names": {
+            "zh-CN": "光士"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2024-05-31 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 3,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 82,
+    "job_flags": 1,
+    "master_record": {
+      "ActiveSkillIds": [
+        82001,
+        82002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 85,
+        "Health": 62,
+        "Intelligence": 85,
+        "Muscle": 103
+      },
+      "BaseParameterGrossCoefficient": 335,
+      "CharacterType": 0,
+      "ElementType": 3,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 82,
+      "InitialBattleParameter": {
+        "AttackPower": 5,
+        "Avoidance": 0,
+        "Critical": -3,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 1,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 10,
+        "DefensePenetration": 0,
+        "HP": -3,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 3051
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 1,
+      "Memo": "アレクサンドラ",
+      "Name2Key": null,
+      "NameKey": "[CharacterName82]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        82003,
+        82004,
+        82005
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2024-05-31 15:00:00"
+    },
+    "memo": "アレクサンドラ",
+    "name_key": "[CharacterName82]",
+    "names": {
+      "zh-CN": "亚历珊卓"
+    },
+    "speed": 3051,
+    "start_time_jst": "2024-05-31 15:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 821110240,
+    "exclusive_effect_id": 384,
+    "icon_id": 596,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 821110250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 96,
+        "EquipmentEvolutionId": 106,
+        "EquipmentExclusiveSkillDescriptionId": 64,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 1,
+        "ExclusiveEffectId": 384,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 596,
+        "Id": 821110240,
+        "IsIgnore": null,
+        "Memo": "アレクサンドラLR240_剣",
+        "NameKey": "[EquipmentName591]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": null,
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 1,
+            "ChangeParameterType": 2,
+            "Value": 2200.0
+          },
+          {
+            "BattleParameterType": 15,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 82,
+        "Id": 384,
+        "IsIgnore": null,
+        "Memo": "アレクサンドラLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill82Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill82Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill82Description3]",
+        "Id": 64,
+        "IsIgnore": null,
+        "Memo": "アレクサンドラ剣"
+      }
+    },
+    "name_key": "[EquipmentName591]",
+    "names": {
+      "zh-CN": "圣枪守护者之盾"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Hp",
+        "parameter_type": 1,
+        "raw_value": 2200.0,
+        "value_text": "+22%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "DebuffHit",
+        "parameter_type": 15,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill82Description1]",
+        "descriptions": {
+          "zh-CN": "强化骑士盾击，技能目标增加为5名随机敌人。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill82Description2]",
+        "descriptions": {
+          "zh-CN": "战斗开始时，使自己增加40%吸血，效果持续6回合（无法被解除）。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill82Description3]",
+        "descriptions": {
+          "zh-CN": "强化骑士盾击，造成的物理伤害提升为攻击力×280%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": false,
+  "missing_localization_keys": [
+    "*"
+  ],
+  "passive_skills": [
+    {
+      "id": 82003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription820031]",
+          "descriptions": {
+            "zh-CN": "“苦难之后，必能旗开得胜……！”第7回合开始时，亚历珊卓获得「守护骑士」状态，效果持续20回合（无法被解除），使自己增加80%命中率，并增加攻击力，增幅为获得此增益效果前的自身承受总伤害×3%（增幅上限为状态效果生效前的亚历珊卓攻击力×60%）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「苦難の先に、勝利あり……！」7ターン目のターン開始時、自身に20ターンの間『守護騎士』を付与する（解除不可）。自身の攻撃力がこのバフを付帯するまでに受けた自身の総被ダメージ×3%分増加し、命中率が80%増加する（攻撃力の増加量は最大でステータス増減前の自身の攻撃力×60%まで）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription820032]",
+          "descriptions": {
+            "zh-CN": "攻击力增幅提升为获得此增益效果前的自身承受总伤害×5%，增幅上限提升为状态效果生效前的亚历珊卓攻击力×100%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "攻撃力の増加量がこのバフを付帯するまでに受けた自身の総被ダメージ×5%分になり、増加量最大値がステータス増減前の自身の攻撃力×100%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription820033]",
+          "descriptions": {
+            "zh-CN": "第7回合开始时，亚历珊卓重置技能冷却时间。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "7ターン目のターン開始時、さらに自身のスキルクールタイムカウントを0にする。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 82003,
+        "IsIgnore": null,
+        "Memo": "アレクサンドラSR:Lv1 「苦難の先に、勝利あり……！」7ターン目のターン開始時、自身に20ターンの間『守護騎士』を付与する（解除不可）。自身の攻撃力がこのバフを付帯するまでに受けた自身の総被ダメージ×3%分増加し、命中率が80%増加する（攻撃力の増加量は最大でステータス増減前の自身の攻撃力×60%まで）。/ Lv2 攻撃力の増加量がこのバフを付帯するまでに受けた自身の総被ダメージ×5%分になり、増加量最大値がステータス増減前の自身の攻撃力×100%になる。/ Lv3 7ターン目のターン開始時、さらに自身のスキルクールタイムカウントを0にする。",
+        "NameKey": "[PassiveSkillName82003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription820031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 82003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription820032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 82003201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription820033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 82003301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName82003]",
+      "names": {
+        "zh-CN": "守护骑士的夙愿"
+      },
+      "source_memo_ja": "アレクサンドラSR:Lv1 「苦難の先に、勝利あり……！」7ターン目のターン開始時、自身に20ターンの間『守護騎士』を付与する（解除不可）。自身の攻撃力がこのバフを付帯するまでに受けた自身の総被ダメージ×3%分増加し、命中率が80%増加する（攻撃力の増加量は最大でステータス増減前の自身の攻撃力×60%まで）。/ Lv2 攻撃力の増加量がこのバフを付帯するまでに受けた自身の総被ダメージ×5%分になり、増加量最大値がステータス増減前の自身の攻撃力×100%になる。/ Lv3 7ターン目のターン開始時、さらに自身のスキルクールタイムカウントを0にする。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「苦難の先に、勝利あり……！」7ターン目のターン開始時、自身に20ターンの間『守護騎士』を付与する（解除不可）。自身の攻撃力がこのバフを付帯するまでに受けた自身の総被ダメージ×3%分増加し、命中率が80%増加する（攻撃力の増加量は最大でステータス増減前の自身の攻撃力×60%まで）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "攻撃力の増加量がこのバフを付帯するまでに受けた自身の総被ダメージ×5%分になり、増加量最大値がステータス増減前の自身の攻撃力×100%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "7ターン目のターン開始時、さらに自身のスキルクールタイムカウントを0にする。"
+        }
+      ]
+    },
+    {
+      "id": 82004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription820041]",
+          "descriptions": {
+            "zh-CN": "“自从埃尔芙琳黛陛下拯救我的那一天起，我的命便属于她了……我怎能在此倒下，让她陷入孤立无援的处境……！”当亚历珊卓受到攻击时，恢复承受伤害×15%的生命值。战斗开始时每名存活在场上的其他苍翠属性友军，再使生命值恢复量提升15%（合计最多60%）。当攻击使亚历珊卓失去战斗能力时，无法触发此技能。此技能每回合最多触发3次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「あの方に救われた時から、私の命はエルフリンデ様のもの……あの方を置いて、倒れてなるものか……！」自身が攻撃を受けたとき、自身のHPを被ダメージ×15%回復する。バトル開始時の自身以外の翠属性の味方の生存数1体につきHPの回復量が15%大きくなる（合計で最大60%まで）。この攻撃で自身が戦闘不能になった場合、このスキルは発動しない。このスキルは1ターンに3回まで発動する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription820042]",
+          "descriptions": {
+            "zh-CN": "此技能每回合最多触发5次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "このスキルが1ターンに5回まで発動するようになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription820043]",
+          "descriptions": {
+            "zh-CN": "生命值恢复量提升为承受伤害×20%。战斗开始时每名存活在场上的其他苍翠属性友军，再使生命值恢复量提升20%（合计最多80%）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "HPの回復量が被ダメージ×20%になる。バトル開始時の自身以外の翠属性の味方の生存数1体につきHPの回復量が20%大きくなる（合計で最大80%まで）。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 82004,
+        "IsIgnore": null,
+        "Memo": "アレクサンドラSR:Lv1 「あの方に救われた時から、私の命はエルフリンデ様のもの……あの方を置いて、倒れてなるものか……！」自身が攻撃を受けたとき、自身のHPを被ダメージ×15%回復する。バトル開始時の自身以外の翠属性の味方の生存数1体につきHPの回復量が15%大きくなる（合計で最大60%まで）。この攻撃で自身が戦闘不能になった場合、このスキルは発動しない。このスキルは1ターンに3回まで発動する。/ Lv2 このスキルが1ターンに5回まで発動するようになる。/ Lv3 HPの回復量が被ダメージ×20%になる。バトル開始時の自身以外の翠属性の味方の生存数1体につきHPの回復量が20%大きくなる（合計で最大80%まで）。",
+        "NameKey": "[PassiveSkillName82004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription820041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 82004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 82004002
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 33,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 82004003
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription820042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 82004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 82004202
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 33,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 82004003
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription820043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 82004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 82004302
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 33,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 82004003
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName82004]",
+      "names": {
+        "zh-CN": "教皇的忠诚骑士"
+      },
+      "source_memo_ja": "アレクサンドラSR:Lv1 「あの方に救われた時から、私の命はエルフリンデ様のもの……あの方を置いて、倒れてなるものか……！」自身が攻撃を受けたとき、自身のHPを被ダメージ×15%回復する。バトル開始時の自身以外の翠属性の味方の生存数1体につきHPの回復量が15%大きくなる（合計で最大60%まで）。この攻撃で自身が戦闘不能になった場合、このスキルは発動しない。このスキルは1ターンに3回まで発動する。/ Lv2 このスキルが1ターンに5回まで発動するようになる。/ Lv3 HPの回復量が被ダメージ×20%になる。バトル開始時の自身以外の翠属性の味方の生存数1体につきHPの回復量が20%大きくなる（合計で最大80%まで）。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「あの方に救われた時から、私の命はエルフリンデ様のもの……あの方を置いて、倒れてなるものか……！」自身が攻撃を受けたとき、自身のHPを被ダメージ×15%回復する。バトル開始時の自身以外の翠属性の味方の生存数1体につきHPの回復量が15%大きくなる（合計で最大60%まで）。この攻撃で自身が戦闘不能になった場合、このスキルは発動しない。このスキルは1ターンに3回まで発動する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "このスキルが1ターンに5回まで発動するようになる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "HPの回復量が被ダメージ×20%になる。バトル開始時の自身以外の翠属性の味方の生存数1体につきHPの回復量が20%大きくなる（合計で最大80%まで）。"
+        }
+      ]
+    },
+    {
+      "id": 82005,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "*",
+          "descriptions": {
+            "zh-CN": null
+          },
+          "equipment_rarity_flags": 256,
+          "order": 1,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "Id": 82005,
+        "IsIgnore": null,
+        "Memo": "*",
+        "NameKey": "*",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "*",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 82005001
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "*",
+      "names": {
+        "zh-CN": null
+      },
+      "source_memo_ja": "*",
+      "source_memo_sections_ja": []
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

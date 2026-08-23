@@ -1,4 +1,4 @@
-name: Update critical icons
+name: Update MementoMori data
 
 on:
   schedule:
@@ -37,31 +37,113 @@ jobs:
       - name: Install Python dependencies
         run: python -m pip install -r _tracker/requirements.txt
 
+      - name: Install Chinese fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-noto-cjk
+
       - name: Detect and merge image updates
+        id: images
+        continue-on-error: true
         run: >-
           python _tracker/fallback.py
           --auto-update
           --output .
           --repository GuangShiX/mmtm-assets-fallback
 
-      - name: Commit image changes
+      - name: Detect and export Master skill updates
+        id: skills
+        continue-on-error: true
+        run: >-
+          python _tracker/master.py
+          --auto-update
+          --language zh-CN
+          --output .
+          --repository GuangShiX/mmtm-assets-fallback
+
+      - name: Detect latest character card updates
+        id: card_plan
+        if: steps.skills.outcome == 'success'
+        shell: bash
+        run: |
+          if python _tracker/skill_card.py \
+            --verify-latest \
+            --skills-dir skills \
+            --output-dir cards/characters \
+            --mode compact \
+            --language zh-CN; then
+            echo "needed=false" >> "$GITHUB_OUTPUT"
+            echo "Latest compact character cards are current."
+          else
+            echo "needed=true" >> "$GITHUB_OUTPUT"
+            echo "Latest compact character cards need to be generated."
+          fi
+
+      - name: Render latest character skill cards
+        id: cards
+        if: steps.skills.outcome == 'success' && steps.card_plan.outputs.needed == 'true'
+        continue-on-error: true
+        run: >-
+          python _tracker/skill_card.py
+          --latest
+          --skills-dir skills
+          --output-dir cards/characters
+          --cache-dir "${{ runner.temp }}/mmtm-skill-card-cache"
+          --mode compact
+          --language zh-CN
+
+      - name: Verify latest character skill cards
+        id: card_verify
+        if: always() && steps.skills.outcome == 'success'
+        continue-on-error: true
+        run: >-
+          python _tracker/skill_card.py
+          --verify-latest
+          --skills-dir skills
+          --output-dir cards/characters
+          --mode compact
+          --language zh-CN
+
+      - name: Commit data changes
+        if: always() && steps.skills.outcome == 'success' && steps.card_verify.outcome == 'success'
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A assets manifest.json latest.json
+          git add -A -- assets manifest.json latest.json
+          if [ -e skills ]; then
+            git add -A -- skills
+          fi
+          if [ -e cards ]; then
+            git add -A -- cards
+          fi
           if git diff --cached --quiet; then
-            echo "No image changes detected."
+            echo "No data changes detected."
             exit 0
           fi
           version="$(python -c 'import json; print(json.load(open("manifest.json", encoding="utf-8"))["version"])')"
-          git commit -m "Update MementoMori images for $version"
+          if [ -f skills/latest.json ]; then
+            master="$(python -c 'import json; print(json.load(open("skills/latest.json", encoding="utf-8"))["source"]["master_version"])')"
+          else
+            master="unavailable"
+          fi
+          git commit -m "Update MementoMori data for $version ($master)"
           git push origin main
           git fetch --tags
           if ! git rev-parse "refs/tags/v$version" >/dev/null 2>&1; then
             git tag "v$version"
             git push origin "v$version"
           fi
+
+      - name: Report updater failures
+        if: steps.images.outcome == 'failure' || steps.skills.outcome == 'failure' || steps.cards.outcome == 'failure' || steps.card_verify.outcome == 'failure'
+        shell: bash
+        run: |
+          echo "image updater: ${{ steps.images.outcome }}"
+          echo "Master skill updater: ${{ steps.skills.outcome }}"
+          echo "skill card renderer: ${{ steps.cards.outcome }}"
+          echo "skill card verifier: ${{ steps.card_verify.outcome }}"
+          exit 1
 
       - name: Show remaining disk space
         if: always()

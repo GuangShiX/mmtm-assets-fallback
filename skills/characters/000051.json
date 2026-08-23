@@ -1,0 +1,1376 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 51001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription510011]",
+          "descriptions": {
+            "zh-CN": "“直击要害。”——苏菲亚冷静分析战况，使自己增加15%攻击力，效果持续1回合，并对生命值百分比最低的敌人进行4次攻击，每次造成攻击力×450%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「弱点を突きましょう」戦況を冷静に見極め、1ターンの間自身の攻撃力が15％増加し、HP割合が最も低い敵に4回攻撃力×450％の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription510012]",
+          "descriptions": {
+            "zh-CN": "攻击次数增加为5次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "物理攻撃の回数が5回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription510013]",
+          "descriptions": {
+            "zh-CN": "攻击力增幅提升为30%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "攻撃力の増加量が30％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription510011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              51001003,
+              51001001,
+              51001002,
+              51001002,
+              51001002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription510012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              51001003,
+              51001201,
+              51001202,
+              51001202,
+              51001202,
+              51001202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription510013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              51001303,
+              51001201,
+              51001202,
+              51001202,
+              51001202,
+              51001202
+            ]
+          }
+        ],
+        "Id": 51001,
+        "IsIgnore": null,
+        "Memo": "ソフィアSR: /Lv1 「弱点を突きましょう」戦況を冷静に見極め、1ターンの間自身の攻撃力が15％増加し、HP割合が最も低い敵に4回攻撃力×450％の物理攻撃を行う。/Lv2 物理攻撃の回数が5回になる。/Lv3 攻撃力の増加量が30％になる。",
+        "NameKey": "[ActiveSkillName51001]",
+        "RootActiveSkillId": 51001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName51001]",
+      "names": {
+        "zh-CN": "红洁剑舞"
+      },
+      "source_memo_ja": "ソフィアSR: /Lv1 「弱点を突きましょう」戦況を冷静に見極め、1ターンの間自身の攻撃力が15％増加し、HP割合が最も低い敵に4回攻撃力×450％の物理攻撃を行う。/Lv2 物理攻撃の回数が5回になる。/Lv3 攻撃力の増加量が30％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「弱点を突きましょう」戦況を冷静に見極め、1ターンの間自身の攻撃力が15％増加し、HP割合が最も低い敵に4回攻撃力×450％の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "物理攻撃の回数が5回になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "攻撃力の増加量が30％になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 51002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription510021]",
+          "descriptions": {
+            "zh-CN": "身为教师，绝不轻饶伤害学生的不逞之徒。苏菲亚以精练的剑术随机对敌人进行6次攻击，每次造成攻击力×360%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "教え子を傷つける不逞の輩は先生が許しません。鍛え抜いた剣技で、ランダムな敵に6回攻撃力×360％の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription510022]",
+          "descriptions": {
+            "zh-CN": "攻击结束后，如果苏菲亚的生命值低于60%，使全体友军额外恢复技能总伤害×20%的生命值。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに攻撃後、自身のHP割合が60％未満の場合、味方全体のHPをこのスキルの総与ダメージ×20％回復する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription510023]",
+          "descriptions": {
+            "zh-CN": "攻击次数增加为7次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃の回数が7回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription510024]",
+          "descriptions": {
+            "zh-CN": "生命值恢复量提升为技能总伤害×35%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "HP回復量がこのスキルの総与ダメージ×35％になる。/ex3 教育的指導！を強化する。物理攻撃の回数が8回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription510025]",
+          "descriptions": {
+            "zh-CN": ""
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription510021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              51002001,
+              51002002,
+              51002002,
+              51002002,
+              51002002,
+              51002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription510022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              51002001,
+              51002002,
+              51002002,
+              51002002,
+              51002002,
+              51002002,
+              51002203
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription510023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              51002001,
+              51002002,
+              51002002,
+              51002002,
+              51002002,
+              51002002,
+              51002002,
+              51002203
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription510024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              51002001,
+              51002002,
+              51002002,
+              51002002,
+              51002002,
+              51002002,
+              51002002,
+              51002403
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription510025]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              51002001,
+              51002002,
+              51002002,
+              51002002,
+              51002002,
+              51002002,
+              51002002,
+              51002002,
+              51002403
+            ]
+          }
+        ],
+        "Id": 51002,
+        "IsIgnore": null,
+        "Memo": "ソフィアSR: /Lv1 教え子を傷つける不逞の輩は先生が許しません。鍛え抜いた剣技で、ランダムな敵に6回攻撃力×360％の物理攻撃を行う。/Lv2 さらに攻撃後、自身のHP割合が60％未満の場合、味方全体のHPをこのスキルの総与ダメージ×20％回復する。/Lv3 物理攻撃の回数が7回になる。/Lv4 HP回復量がこのスキルの総与ダメージ×35％になる。/ex3 教育的指導！を強化する。物理攻撃の回数が8回になる。",
+        "NameKey": "[ActiveSkillName51002]",
+        "RootActiveSkillId": 51002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName51002]",
+      "names": {
+        "zh-CN": "教育指导！"
+      },
+      "source_memo_ja": "ソフィアSR: /Lv1 教え子を傷つける不逞の輩は先生が許しません。鍛え抜いた剣技で、ランダムな敵に6回攻撃力×360％の物理攻撃を行う。/Lv2 さらに攻撃後、自身のHP割合が60％未満の場合、味方全体のHPをこのスキルの総与ダメージ×20％回復する。/Lv3 物理攻撃の回数が7回になる。/Lv4 HP回復量がこのスキルの総与ダメージ×35％になる。/ex3 教育的指導！を強化する。物理攻撃の回数が8回になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "教え子を傷つける不逞の輩は先生が許しません。鍛え抜いた剣技で、ランダムな敵に6回攻撃力×360％の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに攻撃後、自身のHP割合が60％未満の場合、味方全体のHPをこのスキルの総与ダメージ×20％回復する。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃の回数が7回になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "HP回復量がこのスキルの総与ダメージ×35％になる。/ex3 教育的指導！を強化する。物理攻撃の回数が8回になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 30,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 30,
+            "CollectionLevel": 1,
+            "Id": 3001,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "キルキヌスの教導(ソフィア,オリヴィエ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 500.0,
+              "value_text": "+5%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 500.0
+              },
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 30,
+            "CollectionLevel": 2,
+            "Id": 3002,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "キルキヌスの教導(ソフィア,オリヴィエ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 500.0,
+              "value_text": "+5%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 500.0
+              },
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 30,
+            "CollectionLevel": 3,
+            "Id": 3003,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "キルキヌスの教導(ソフィア,オリヴィエ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 500.0,
+              "value_text": "+5%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 500.0
+              },
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 30,
+            "CollectionLevel": 4,
+            "Id": 3004,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "キルキヌスの教導(ソフィア,オリヴィエ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 550.0,
+              "value_text": "+5.5%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 210.0,
+              "value_text": "+2.1%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 550.0
+              },
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 210.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 30,
+            "CollectionLevel": 5,
+            "Id": 3005,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "キルキヌスの教導(ソフィア,オリヴィエ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 600.0,
+              "value_text": "+6%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 220.0,
+              "value_text": "+2.2%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 600.0
+              },
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 220.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 30,
+            "CollectionLevel": 6,
+            "Id": 3006,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "キルキヌスの教導(ソフィア,オリヴィエ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 650.0,
+              "value_text": "+6.5%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 230.0,
+              "value_text": "+2.3%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 650.0
+              },
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 230.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 30,
+            "CollectionLevel": 7,
+            "Id": 3007,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "キルキヌスの教導(ソフィア,オリヴィエ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 700.0,
+              "value_text": "+7%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 240.0,
+              "value_text": "+2.4%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 700.0
+              },
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 240.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 30,
+            "CollectionLevel": 8,
+            "Id": 3008,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "キルキヌスの教導(ソフィア,オリヴィエ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 750.0,
+              "value_text": "+7.5%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 250.0,
+              "value_text": "+2.5%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 750.0
+              },
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 30,
+            "CollectionLevel": 9,
+            "Id": 3009,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "キルキヌスの教導(ソフィア,オリヴィエ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 30,
+        "IsIgnore": null,
+        "Memo": "キルキヌスの教導(ソフィア,オリヴィエ)",
+        "NameKey": "[CharacterCollectionName30]",
+        "RequiredCharacterIds": [
+          51,
+          38
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2023-10-24 14:30:00"
+      },
+      "name_key": "[CharacterCollectionName30]",
+      "names": {
+        "zh-CN": "圆规座的教导"
+      },
+      "required_character_ids": [
+        51,
+        38
+      ],
+      "required_characters": [
+        {
+          "id": 51,
+          "names": {
+            "zh-CN": "苏菲亚"
+          }
+        },
+        {
+          "id": 38,
+          "names": {
+            "zh-CN": "奥莉维亚"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2023-10-24 14:30:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 2,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 51,
+    "job_flags": 1,
+    "master_record": {
+      "ActiveSkillIds": [
+        51001,
+        51002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 84,
+        "Health": 69,
+        "Intelligence": 88,
+        "Muscle": 99
+      },
+      "BaseParameterGrossCoefficient": 338,
+      "CharacterType": 0,
+      "ElementType": 2,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 51,
+      "InitialBattleParameter": {
+        "AttackPower": 4,
+        "Avoidance": 0,
+        "Critical": -3,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 2,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 10,
+        "DefensePenetration": 0,
+        "HP": 0,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 2935
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 1,
+      "Memo": "ソフィア",
+      "Name2Key": null,
+      "NameKey": "[CharacterName51]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        51003,
+        51004,
+        51005
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2023-01-31 15:00:00"
+    },
+    "memo": "ソフィア",
+    "name_key": "[CharacterName51]",
+    "names": {
+      "zh-CN": "苏菲亚"
+    },
+    "speed": 2935,
+    "start_time_jst": "2023-01-31 15:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 3684,
+    "exclusive_effect_id": 210,
+    "icon_id": 410,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 3685,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 67,
+        "EquipmentEvolutionId": 77,
+        "EquipmentExclusiveSkillDescriptionId": 35,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 1,
+        "ExclusiveEffectId": 210,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 410,
+        "Id": 3684,
+        "IsIgnore": null,
+        "Memo": "ソフィアLR240_剣",
+        "NameKey": "[EquipmentName400]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": [
+          {
+            "BaseParameterType": 4,
+            "ChangeParameterType": 2,
+            "Value": 800.0
+          }
+        ],
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 7,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 51,
+        "Id": 210,
+        "IsIgnore": null,
+        "Memo": "ソフィアLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill51Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill51Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill51Description3]",
+        "Id": 35,
+        "IsIgnore": null,
+        "Memo": "ソフィア剣"
+      }
+    },
+    "name_key": "[EquipmentName400]",
+    "names": {
+      "zh-CN": "红洁刺剑"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "base",
+        "parameter_code": "Health",
+        "parameter_type": 4,
+        "raw_value": 800.0,
+        "value_text": "+8%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Critical",
+        "parameter_type": 7,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill51Description1]",
+        "descriptions": {
+          "zh-CN": "在回合开始时使苏菲亚增加55%伤害反弹，效果持续2回合。此技能须在结束4次行动后才可再次触发。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill51Description2]",
+        "descriptions": {
+          "zh-CN": "强化教学精神，使附加弱化效果的敌人额外减少40%攻击力，效果持续1回合。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill51Description3]",
+        "descriptions": {
+          "zh-CN": "强化教育指导！，攻击次数增加为8次。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 51003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription510031]",
+          "descriptions": {
+            "zh-CN": "教师不能在学生面前失态——当苏菲亚被附加主动技能造成的弱化效果时，触发技能使身上的所有弱化效果减少2回合。此技能须在结束4次行动后才可再次触发。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "教え子にみっともない背中は見せられない──。自身が弱体効果を受けたとき、自身の全ての弱体効果のターン数が2ターン減少する。このスキルは4ターンに1回発動する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription510032]",
+          "descriptions": {
+            "zh-CN": "使附加弱化效果的敌人额外减少20%弱化效果命中率，效果持续1回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "自身が弱体効果を受けた時、さらに1ターンの間弱体効果を付与してきた敵の弱体効果命中率を20％減少させるようになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription510033]",
+          "descriptions": {
+            "zh-CN": "弱化效果命中率降幅提升为50%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "弱体効果命中率の減少量が50％になる。/ex2 教導の精神を強化する。自身が弱体効果を受けた時、さらに1ターンの間対象の攻撃力を40％減少させるようになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription510034]",
+          "descriptions": {
+            "zh-CN": ""
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "Id": 51003,
+        "IsIgnore": null,
+        "Memo": "ソフィアSR:/Lv1 教え子にみっともない背中は見せられない──。自身が弱体効果を受けたとき、自身の全ての弱体効果のターン数が2ターン減少する。このスキルは4ターンに1回発動する。/Lv2 自身が弱体効果を受けた時、さらに1ターンの間弱体効果を付与してきた敵の弱体効果命中率を20％減少させるようになる。/Lv3 弱体効果命中率の減少量が50％になる。/ex2 教導の精神を強化する。自身が弱体効果を受けた時、さらに1ターンの間対象の攻撃力を40％減少させるようになる。",
+        "NameKey": "[PassiveSkillName51003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription510031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 11,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 51003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription510032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 11,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 51003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 11,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 51003202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription510033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 11,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 51003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 11,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 51003302
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription510034]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 11,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 51003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 11,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 51003402
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName51003]",
+      "names": {
+        "zh-CN": "教学精神"
+      },
+      "source_memo_ja": "ソフィアSR:/Lv1 教え子にみっともない背中は見せられない──。自身が弱体効果を受けたとき、自身の全ての弱体効果のターン数が2ターン減少する。このスキルは4ターンに1回発動する。/Lv2 自身が弱体効果を受けた時、さらに1ターンの間弱体効果を付与してきた敵の弱体効果命中率を20％減少させるようになる。/Lv3 弱体効果命中率の減少量が50％になる。/ex2 教導の精神を強化する。自身が弱体効果を受けた時、さらに1ターンの間対象の攻撃力を40％減少させるようになる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "教え子にみっともない背中は見せられない──。自身が弱体効果を受けたとき、自身の全ての弱体効果のターン数が2ターン減少する。このスキルは4ターンに1回発動する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "自身が弱体効果を受けた時、さらに1ターンの間弱体効果を付与してきた敵の弱体効果命中率を20％減少させるようになる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "弱体効果命中率の減少量が50％になる。/ex2 教導の精神を強化する。自身が弱体効果を受けた時、さらに1ターンの間対象の攻撃力を40％減少させるようになる。"
+        }
+      ]
+    },
+    {
+      "id": 51004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription510041]",
+          "descriptions": {
+            "zh-CN": "教育与引导是教师的职责，作为一名家庭教师的信念激发体内的潜能，使苏菲亚增加15%最大生命值（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "教え、導く事が教師の務め。家庭教師としての信念が秘めた力を開花させる。自身の最大HPが15％増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription510042]",
+          "descriptions": {
+            "zh-CN": "额外增加15%抗暴率（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに自身のクリティカル耐性率が15％増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription510043]",
+          "descriptions": {
+            "zh-CN": "最大生命值与抗暴率增幅提升为30%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "最大HPとクリティカル耐性率の増加量がそれぞれ30％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 51004,
+        "IsIgnore": null,
+        "Memo": "ソフィアSR:/Lv1 教え、導く事が教師の務め。家庭教師としての信念が秘めた力を開花させる。自身の最大HPが15％増加する（解除不可）。/Lv2 さらに自身のクリティカル耐性率が15％増加する（解除不可）。/Lv3 最大HPとクリティカル耐性率の増加量がそれぞれ30％になる。",
+        "NameKey": "[PassiveSkillName51004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription510041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 51004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription510042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 51004201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription510043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 51004301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName51004]",
+      "names": {
+        "zh-CN": "教师心得"
+      },
+      "source_memo_ja": "ソフィアSR:/Lv1 教え、導く事が教師の務め。家庭教師としての信念が秘めた力を開花させる。自身の最大HPが15％増加する（解除不可）。/Lv2 さらに自身のクリティカル耐性率が15％増加する（解除不可）。/Lv3 最大HPとクリティカル耐性率の増加量がそれぞれ30％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "教え、導く事が教師の務め。家庭教師としての信念が秘めた力を開花させる。自身の最大HPが15％増加する（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに自身のクリティカル耐性率が15％増加する（解除不可）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "最大HPとクリティカル耐性率の増加量がそれぞれ30％になる。"
+        }
+      ]
+    },
+    {
+      "id": 51005,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[PassiveSkillDescription510051]",
+          "descriptions": {
+            "zh-CN": "在回合开始时使苏菲亚增加55%伤害反弹，效果持续2回合。此技能须在结束4次行动后才可再次触发。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "ターン開始時2ターンの間自身のカウンタを55％増加させる。このスキルは4ターンに1回発動する。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 51005,
+        "IsIgnore": null,
+        "Memo": "ソフィアSR:/専用Lv1　ターン開始時2ターンの間自身のカウンタを55％増加させる。このスキルは4ターンに1回発動する。",
+        "NameKey": "[PassiveSkillName51005]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[PassiveSkillDescription510051]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 51005001
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName51005]",
+      "names": {
+        "zh-CN": "红洁刺剑"
+      },
+      "source_memo_ja": "ソフィアSR:/専用Lv1　ターン開始時2ターンの間自身のカウンタを55％増加させる。このスキルは4ターンに1回発動する。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "ターン開始時2ターンの間自身のカウンタを55％増加させる。このスキルは4ターンに1回発動する。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

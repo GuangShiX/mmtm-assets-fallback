@@ -1,0 +1,1401 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 137001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription1370011]",
+          "descriptions": {
+            "zh-CN": "“恕本小姐～失礼咯！”雷金娜随机对3名敌人造成攻击力×240%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「ごめ～んあそばせ！」ランダムな敵3体に攻撃力×240%の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription1370012]",
+          "descriptions": {
+            "zh-CN": "发动攻击前，使技能目标额外增加10%承受伤害，效果持续4回合。当状态效果生效前的技能目标攻击力低于自己时，承受伤害增幅提升为30%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに物理攻撃の前に4ターンの間対象の被ダメージを10%増加させる。対象のステータス増減前の攻撃力が自身よりも低い場合、被ダメージの増加量が30%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1370013]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×440%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃のダメージが攻撃力×440%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1370014]",
+          "descriptions": {
+            "zh-CN": "强化贪婪旋风，技能目标增加为5名随机敌人。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "アヴィドの旋風を強化する。アヴィドの旋風の対象がランダムな敵5体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription1370015]",
+          "descriptions": {
+            "zh-CN": "强化贪婪旋风，造成的物理伤害提升为攻击力×480%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "アヴィドの旋風を強化する。物理攻撃のダメージが攻撃力×480%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription1370011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              137001001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription1370012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              137001201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1370013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              137001301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1370014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              137001401
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription1370015]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              137001501
+            ]
+          }
+        ],
+        "Id": 137001,
+        "IsIgnore": null,
+        "Memo": "レジーナSR:Lv1 「ごめ～んあそばせ！」ランダムな敵3体に攻撃力×240%の物理攻撃を行う。/ Lv2 さらに物理攻撃の前に4ターンの間対象の被ダメージを10%増加させる。対象のステータス増減前の攻撃力が自身よりも低い場合、被ダメージの増加量が30%になる。/ Lv3 物理攻撃のダメージが攻撃力×440%になる。/ Ex1 アヴィドの旋風を強化する。アヴィドの旋風の対象がランダムな敵5体になる。/ Ex3 アヴィドの旋風を強化する。物理攻撃のダメージが攻撃力×480%になる。",
+        "NameKey": "[ActiveSkillName137001]",
+        "RootActiveSkillId": 137001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName137001]",
+      "names": {
+        "zh-CN": "贪婪旋风"
+      },
+      "source_memo_ja": "レジーナSR:Lv1 「ごめ～んあそばせ！」ランダムな敵3体に攻撃力×240%の物理攻撃を行う。/ Lv2 さらに物理攻撃の前に4ターンの間対象の被ダメージを10%増加させる。対象のステータス増減前の攻撃力が自身よりも低い場合、被ダメージの増加量が30%になる。/ Lv3 物理攻撃のダメージが攻撃力×440%になる。/ Ex1 アヴィドの旋風を強化する。アヴィドの旋風の対象がランダムな敵5体になる。/ Ex3 アヴィドの旋風を強化する。物理攻撃のダメージが攻撃力×480%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「ごめ～んあそばせ！」ランダムな敵3体に攻撃力×240%の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに物理攻撃の前に4ターンの間対象の被ダメージを10%増加させる。対象のステータス増減前の攻撃力が自身よりも低い場合、被ダメージの増加量が30%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃のダメージが攻撃力×440%になる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "アヴィドの旋風を強化する。アヴィドの旋風の対象がランダムな敵5体になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "アヴィドの旋風を強化する。物理攻撃のダメージが攻撃力×480%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 137002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription1370021]",
+          "descriptions": {
+            "zh-CN": "“看本小姐优雅地解决你们！”雷金娜对攻击力最高的2名敌人造成攻击力×620%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「エレガントに決めますわよ！」攻撃力が高い敵2体に攻撃力×620%の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription1370022]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×920%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "物理攻撃のダメージが攻撃力×920%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription1370023]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×1520%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃のダメージが攻撃力×1520%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription1370024]",
+          "descriptions": {
+            "zh-CN": "当状态效果生效前的技能目标攻击力低于自己时，造成的物理伤害提升为攻击力×2280%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "さらに対象のステータス増減前の攻撃力が自身よりも低い場合、物理攻撃のダメージが攻撃力×2280%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription1370021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              137002001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription1370022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              137002201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription1370023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              137002301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription1370024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              137002401
+            ]
+          }
+        ],
+        "Id": 137002,
+        "IsIgnore": null,
+        "Memo": "レジーナSR:Lv1 「エレガントに決めますわよ！」攻撃力が高い敵2体に攻撃力×620%の物理攻撃を行う。/ Lv2 物理攻撃のダメージが攻撃力×920%になる。/ Lv3 物理攻撃のダメージが攻撃力×1520%になる。/ Lv4 さらに対象のステータス増減前の攻撃力が自身よりも低い場合、物理攻撃のダメージが攻撃力×2280%になる。",
+        "NameKey": "[ActiveSkillName137002]",
+        "RootActiveSkillId": 137002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName137002]",
+      "names": {
+        "zh-CN": "华丽圆舞曲"
+      },
+      "source_memo_ja": "レジーナSR:Lv1 「エレガントに決めますわよ！」攻撃力が高い敵2体に攻撃力×620%の物理攻撃を行う。/ Lv2 物理攻撃のダメージが攻撃力×920%になる。/ Lv3 物理攻撃のダメージが攻撃力×1520%になる。/ Lv4 さらに対象のステータス増減前の攻撃力が自身よりも低い場合、物理攻撃のダメージが攻撃力×2280%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「エレガントに決めますわよ！」攻撃力が高い敵2体に攻撃力×620%の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "物理攻撃のダメージが攻撃力×920%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃のダメージが攻撃力×1520%になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "さらに対象のステータス増減前の攻撃力が自身よりも低い場合、物理攻撃のダメージが攻撃力×2280%になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 90,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 500.0,
+              "value_text": "+500"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 90,
+            "CollectionLevel": 1,
+            "Id": 9001,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アラネアの悪夢​(レジーナ,カーミラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 90,
+            "CollectionLevel": 2,
+            "Id": 9002,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アラネアの悪夢​(レジーナ,カーミラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 90,
+            "CollectionLevel": 3,
+            "Id": 9003,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アラネアの悪夢​(レジーナ,カーミラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 90,
+            "CollectionLevel": 4,
+            "Id": 9004,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アラネアの悪夢​(レジーナ,カーミラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 41.0,
+              "value_text": "+41×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1050.0,
+              "value_text": "+1,050"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 41.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1050.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 90,
+            "CollectionLevel": 5,
+            "Id": 9005,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アラネアの悪夢​(レジーナ,カーミラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 42.0,
+              "value_text": "+42×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1100.0,
+              "value_text": "+1,100"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 42.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1100.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 90,
+            "CollectionLevel": 6,
+            "Id": 9006,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アラネアの悪夢​(レジーナ,カーミラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 43.0,
+              "value_text": "+43×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1150.0,
+              "value_text": "+1,150"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 43.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1150.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 90,
+            "CollectionLevel": 7,
+            "Id": 9007,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アラネアの悪夢​(レジーナ,カーミラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 44.0,
+              "value_text": "+44×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1200.0,
+              "value_text": "+1,200"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 44.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 90,
+            "CollectionLevel": 8,
+            "Id": 9008,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アラネアの悪夢​(レジーナ,カーミラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 45.0,
+              "value_text": "+45×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1250.0,
+              "value_text": "+1,250"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 45.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 90,
+            "CollectionLevel": 9,
+            "Id": 9009,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アラネアの悪夢​(レジーナ,カーミラ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 90,
+        "IsIgnore": null,
+        "Memo": "アラネアの悪夢​(レジーナ,カーミラ)",
+        "NameKey": "[CharacterCollectionName90]",
+        "RequiredCharacterIds": [
+          137,
+          125
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2026-02-26 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName90]",
+      "names": {
+        "zh-CN": "蜘蛛座的噩梦"
+      },
+      "required_character_ids": [
+        137,
+        125
+      ],
+      "required_characters": [
+        {
+          "id": 137,
+          "names": {
+            "zh-CN": "雷金娜"
+          }
+        },
+        {
+          "id": 125,
+          "names": {
+            "zh-CN": "卡蜜拉"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2026-02-26 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 6,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 137,
+    "job_flags": 2,
+    "master_record": {
+      "ActiveSkillIds": [
+        137001,
+        137002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 99,
+        "Health": 76,
+        "Intelligence": 84,
+        "Muscle": 84
+      },
+      "BaseParameterGrossCoefficient": 343,
+      "CharacterType": 0,
+      "ElementType": 6,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 137,
+      "InitialBattleParameter": {
+        "AttackPower": -3,
+        "Avoidance": 2,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 13,
+        "DefensePenetration": 0,
+        "HP": -3,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 1,
+        "Speed": 2856
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 2,
+      "Memo": "レジーナ",
+      "Name2Key": "",
+      "NameKey": "[CharacterName137]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        137003,
+        137004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2026-02-26 15:00:00"
+    },
+    "memo": "レジーナ",
+    "name_key": "[CharacterName137]",
+    "names": {
+      "zh-CN": "雷金娜"
+    },
+    "speed": 2856,
+    "start_time_jst": "2026-02-26 15:00:00",
+    "subtitle_key": "",
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 1371120240,
+    "exclusive_effect_id": 642,
+    "icon_id": 926,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 1371120250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 139,
+        "EquipmentEvolutionId": 149,
+        "EquipmentExclusiveSkillDescriptionId": 107,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 2,
+        "ExclusiveEffectId": 642,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 926,
+        "Id": 1371120240,
+        "IsIgnore": null,
+        "Memo": "レジーナLR240_銃",
+        "NameKey": "[EquipmentName921]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": null,
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 10,
+            "ChangeParameterType": 1,
+            "Value": 3500.0
+          },
+          {
+            "BattleParameterType": 7,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 137,
+        "Id": 642,
+        "IsIgnore": null,
+        "Memo": "レジーナLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill137Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill137Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill137Description3]",
+        "Id": 107,
+        "IsIgnore": null,
+        "Memo": "レジーナ銃"
+      }
+    },
+    "name_key": "[EquipmentName921]",
+    "names": {
+      "zh-CN": "贪婪折扇"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 1,
+        "kind": "battle",
+        "parameter_code": "PhysicalCriticalDamageRelax",
+        "parameter_type": 10,
+        "raw_value": 3500.0,
+        "value_text": "+3,500"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Critical",
+        "parameter_type": 7,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill137Description1]",
+        "descriptions": {
+          "zh-CN": "强化贪婪旋风，技能目标增加为5名随机敌人。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill137Description2]",
+        "descriptions": {
+          "zh-CN": "强化我的宝贝，最大生命值增幅提升为50%。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill137Description3]",
+        "descriptions": {
+          "zh-CN": "强化贪婪旋风，造成的物理伤害提升为攻击力×480%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": false,
+  "missing_localization_keys": [
+    ""
+  ],
+  "passive_skills": [
+    {
+      "id": 137003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription1370031]",
+          "descriptions": {
+            "zh-CN": "“只要是能拿出来的东西，「我」愿意全都献给您。求求您……救救「——」！”战斗开始时，雷金娜获得6层「身影」（无法被解除）。每层「身影」使雷金娜增加3%暴击率。每回合开始时，如果雷金娜身上附带「身影」状态，消耗1层「身影」使攻击力最高的2名友军增加15%攻击力，效果持续1回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「『私』に差し出せるものなら、何だって差し出します。だから、どうか……──を助けて」バトル開始時、自身に『面影』を6スタック付与する（解除不可）。このバフは1スタックにつき自身のクリティカル率を3%増加させる。毎ターン開始時、自身が『面影』を付帯している場合、自身の『面影』のスタック数を1消費し、1ターンの間攻撃力が高い味方2体の攻撃力を15%増加させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription1370032]",
+          "descriptions": {
+            "zh-CN": "攻击力增幅提升为30%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "攻撃力の増加量が30%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription1370033]",
+          "descriptions": {
+            "zh-CN": "获得的「身影」层数增加为10层。第3回合开始时，如果雷金娜与友军在战斗中的攻击暴击次数达5次以上，雷金娜消耗4层「身影」使攻击力最高的友军减少技能冷却时间2。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "『面影』の付与スタック数が10になる。さらに3ターン目のターン開始時、バトル中自身と味方が攻撃してクリティカルヒットした回数の合計が5以上の場合、自身の『面影』のスタック数を4消費し、攻撃力が最も高い味方のスキルクールタイムカウントを2減少させる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 137003,
+        "IsIgnore": null,
+        "Memo": "レジーナSR:Lv1 「『私』に差し出せるものなら、何だって差し出します。だから、どうか……──を助けて」バトル開始時、自身に『面影』を6スタック付与する（解除不可）。このバフは1スタックにつき自身のクリティカル率を3%増加させる。毎ターン開始時、自身が『面影』を付帯している場合、自身の『面影』のスタック数を1消費し、1ターンの間攻撃力が高い味方2体の攻撃力を15%増加させる。/ Lv2 攻撃力の増加量が30%になる。/ Lv3 『面影』の付与スタック数が10になる。さらに3ターン目のターン開始時、バトル中自身と味方が攻撃してクリティカルヒットした回数の合計が5以上の場合、自身の『面影』のスタック数を4消費し、攻撃力が最も高い味方のスキルクールタイムカウントを2減少させる。",
+        "NameKey": "[PassiveSkillName137003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription1370031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 137003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 137003002
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 137003003
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 137003004
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription1370032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 137003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 137003202
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 137003203
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 137003004
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription1370033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 137003301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 137003202
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 137003203
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 137003004
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 137003305
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 137003306
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName137003]",
+      "names": {
+        "zh-CN": "心爱的身影"
+      },
+      "source_memo_ja": "レジーナSR:Lv1 「『私』に差し出せるものなら、何だって差し出します。だから、どうか……──を助けて」バトル開始時、自身に『面影』を6スタック付与する（解除不可）。このバフは1スタックにつき自身のクリティカル率を3%増加させる。毎ターン開始時、自身が『面影』を付帯している場合、自身の『面影』のスタック数を1消費し、1ターンの間攻撃力が高い味方2体の攻撃力を15%増加させる。/ Lv2 攻撃力の増加量が30%になる。/ Lv3 『面影』の付与スタック数が10になる。さらに3ターン目のターン開始時、バトル中自身と味方が攻撃してクリティカルヒットした回数の合計が5以上の場合、自身の『面影』のスタック数を4消費し、攻撃力が最も高い味方のスキルクールタイムカウントを2減少させる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「『私』に差し出せるものなら、何だって差し出します。だから、どうか……──を助けて」バトル開始時、自身に『面影』を6スタック付与する（解除不可）。このバフは1スタックにつき自身のクリティカル率を3%増加させる。毎ターン開始時、自身が『面影』を付帯している場合、自身の『面影』のスタック数を1消費し、1ターンの間攻撃力が高い味方2体の攻撃力を15%増加させる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "攻撃力の増加量が30%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "『面影』の付与スタック数が10になる。さらに3ターン目のターン開始時、バトル中自身と味方が攻撃してクリティカルヒットした回数の合計が5以上の場合、自身の『面影』のスタック数を4消費し、攻撃力が最も高い味方のスキルクールタイムカウントを2減少させる。"
+        }
+      ]
+    },
+    {
+      "id": 137004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription1370041]",
+          "descriptions": {
+            "zh-CN": "我什么都想不起来了。只剩身体还记得，当时那种疼惜的心情　——当雷金娜受到攻击时，阻绝20%伤害。当雷金娜身上附带「身影」状态时，伤害阻绝量提升为40%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "もう何も思い出せない。残っているのは、大切だったという想いだけ──自身が攻撃を受けたとき、ダメージを20%遮断する。自身が『面影』を付帯している場合、ダメージの遮断量が40%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription1370042]",
+          "descriptions": {
+            "zh-CN": "战斗开始时，使攻击力最高的友军额外增加25%最大生命值（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらにバトル開始時、攻撃力が最も高い味方の最大HPを25%増加させる（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription1370043]",
+          "descriptions": {
+            "zh-CN": "伤害阻绝量提升为60%。身上附带「身影」状态时的伤害阻绝量提升为75%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "ダメージの遮断量が60%になり、自身が『面影』を付帯している場合のダメージの遮断量が75%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription1370044]",
+          "descriptions": {
+            "zh-CN": "强化我的宝贝，最大生命值增幅提升为50%。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "私の宝物を強化する。最大HPの増加量が50%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 137004,
+        "IsIgnore": null,
+        "Memo": "レジーナSR:Lv1 もう何も思い出せない。残っているのは、大切だったという想いだけ──自身が攻撃を受けたとき、ダメージを20%遮断する。自身が『面影』を付帯している場合、ダメージの遮断量が40%になる。/ Lv2 さらにバトル開始時、攻撃力が最も高い味方の最大HPを25%増加させる（解除不可）。/ Lv3 ダメージの遮断量が60%になり、自身が『面影』を付帯している場合のダメージの遮断量が75%になる。/ Ex2 私の宝物を強化する。最大HPの増加量が50%になる。",
+        "NameKey": "[PassiveSkillName137004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription1370041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 137004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription1370042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 137004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 137004202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription1370043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 137004301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 137004202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription1370044]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 137004301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 137004402
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName137004]",
+      "names": {
+        "zh-CN": "我的宝贝"
+      },
+      "source_memo_ja": "レジーナSR:Lv1 もう何も思い出せない。残っているのは、大切だったという想いだけ──自身が攻撃を受けたとき、ダメージを20%遮断する。自身が『面影』を付帯している場合、ダメージの遮断量が40%になる。/ Lv2 さらにバトル開始時、攻撃力が最も高い味方の最大HPを25%増加させる（解除不可）。/ Lv3 ダメージの遮断量が60%になり、自身が『面影』を付帯している場合のダメージの遮断量が75%になる。/ Ex2 私の宝物を強化する。最大HPの増加量が50%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "もう何も思い出せない。残っているのは、大切だったという想いだけ──自身が攻撃を受けたとき、ダメージを20%遮断する。自身が『面影』を付帯している場合、ダメージの遮断量が40%になる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらにバトル開始時、攻撃力が最も高い味方の最大HPを25%増加させる（解除不可）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "ダメージの遮断量が60%になり、自身が『面影』を付帯している場合のダメージの遮断量が75%になる。"
+        },
+        {
+          "label": "Ex2",
+          "text": "私の宝物を強化する。最大HPの増加量が50%になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

@@ -1,0 +1,1892 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 88001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription880011]",
+          "descriptions": {
+            "zh-CN": "罗莎莉借助主人留在法杖上的力量，随机对4名敌人造成攻击力×240%的魔法伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "杖に宿る主様の力を借り、ランダムな敵4体に攻撃力×240%の魔法攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription880012]",
+          "descriptions": {
+            "zh-CN": "发动攻击前，70%概率使技能目标额外增加10%承受伤害，效果持续1回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに魔法攻撃の前に70%の確率で1ターンの間対象の被ダメージを10%増加させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription880013]",
+          "descriptions": {
+            "zh-CN": "「承受伤害上升」效果增加为2回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "『被ダメージ増加』のターン数が2ターンになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription880014]",
+          "descriptions": {
+            "zh-CN": "强化虚弱，技能目标增加为5名随机敌人。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "フラジャイルを強化する。フラジャイルの対象がランダムな敵5体になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription880011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              88001001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription880012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              88001201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription880013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              88001301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription880014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              88001401
+            ]
+          }
+        ],
+        "Id": 88001,
+        "IsIgnore": null,
+        "Memo": "使徒ロザリーSR:Lv1 杖に宿る主様の力を借り、ランダムな敵4体に攻撃力×240%の魔法攻撃を行う。/ Lv2 さらに魔法攻撃の前に70%の確率で1ターンの間対象の被ダメージを10%増加させる。/ Lv3 『被ダメージ増加』のターン数が2ターンになる。/ Ex1 フラジャイルを強化する。フラジャイルの対象がランダムな敵5体になる。",
+        "NameKey": "[ActiveSkillName88001]",
+        "RootActiveSkillId": 88001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName88001]",
+      "names": {
+        "zh-CN": "虚弱"
+      },
+      "source_memo_ja": "使徒ロザリーSR:Lv1 杖に宿る主様の力を借り、ランダムな敵4体に攻撃力×240%の魔法攻撃を行う。/ Lv2 さらに魔法攻撃の前に70%の確率で1ターンの間対象の被ダメージを10%増加させる。/ Lv3 『被ダメージ増加』のターン数が2ターンになる。/ Ex1 フラジャイルを強化する。フラジャイルの対象がランダムな敵5体になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "杖に宿る主様の力を借り、ランダムな敵4体に攻撃力×240%の魔法攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに魔法攻撃の前に70%の確率で1ターンの間対象の被ダメージを10%増加させる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "『被ダメージ増加』のターン数が2ターンになる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "フラジャイルを強化する。フラジャイルの対象がランダムな敵5体になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 88002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription880021]",
+          "descriptions": {
+            "zh-CN": "罗莎莉释放缔结契约后得到的天使之力，随机对敌人进行8次攻击，每次造成攻击力×160%的魔法伤害。发动攻击前，如果罗莎莉身上附带的「记忆」达15层，则解除所有「记忆」发动技能灵魂献祭。［灵魂献祭］随机对敌人进行8次攻击，每次造成攻击力×160%的魔法伤害。再使附近的2名友军减少技能冷却时间1。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "契約により得た天使の力で、ランダムな敵に8回攻撃力×160%の魔法攻撃を行う。魔法攻撃の前に自身の『記憶』のスタック数が15の場合、『記憶』を解除してエンジェルレイの代わりにソウルサクリファイスを発動する。[ソウルサクリファイス]ランダムな敵に8回攻撃力×160%の魔法攻撃を行う。その後自身に隣接する味方2体のスキルクールタイムカウントを1減少させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[ActiveSkillDescription880022]",
+          "descriptions": {
+            "zh-CN": "强化灵魂献祭，攻击结束后，使附近的2名友军额外增加攻击力，增幅为状态效果生效前的罗莎莉最大生命值×10%，效果持续2回合（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "ソウルサクリファイスを強化する。魔法攻撃の後、さらに2ターンの間自身に隣接する味方2体の攻撃力をステータス増減前の自身の最大HP×10%分増加させる（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription880023]",
+          "descriptions": {
+            "zh-CN": "强化灵魂献祭，技能冷却时间减少量提升为2。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "ソウルサクリファイスを強化する。スキルクールタイムカウントの減少量が2になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription880024]",
+          "descriptions": {
+            "zh-CN": "天使之光与灵魂献祭的攻击次数增加为10次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "エンジェルレイとソウルサクリファイスの魔法攻撃の回数がそれぞれ10回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription880025]",
+          "descriptions": {
+            "zh-CN": "强化天使之光与灵魂献祭，造成的魔法伤害提升为攻击力×180%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "エンジェルレイとソウルサクリファイスを強化する。エンジェルレイとソウルサクリファイスの魔法攻撃のダメージがそれぞれ攻撃力×180%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription880021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              88002002,
+              88002003,
+              88002003,
+              88002003,
+              88002003,
+              88002003,
+              88002003,
+              88002003
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[ActiveSkillDescription880022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              88002002,
+              88002003,
+              88002003,
+              88002003,
+              88002003,
+              88002003,
+              88002003,
+              88002003
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription880023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              88002002,
+              88002003,
+              88002003,
+              88002003,
+              88002003,
+              88002003,
+              88002003,
+              88002003
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription880024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              88002002,
+              88002003,
+              88002003,
+              88002003,
+              88002003,
+              88002003,
+              88002003,
+              88002003,
+              88002003,
+              88002003
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription880025]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              88002502,
+              88002503,
+              88002503,
+              88002503,
+              88002503,
+              88002503,
+              88002503,
+              88002503,
+              88002503,
+              88002503
+            ]
+          }
+        ],
+        "Id": 88002,
+        "IsIgnore": null,
+        "Memo": "使徒ロザリーSR:Lv1 契約により得た天使の力で、ランダムな敵に8回攻撃力×160%の魔法攻撃を行う。魔法攻撃の前に自身の『記憶』のスタック数が15の場合、『記憶』を解除してエンジェルレイの代わりにソウルサクリファイスを発動する。[ソウルサクリファイス]ランダムな敵に8回攻撃力×160%の魔法攻撃を行う。その後自身に隣接する味方2体のスキルクールタイムカウントを1減少させる。/ Lv2 ソウルサクリファイスを強化する。魔法攻撃の後、さらに2ターンの間自身に隣接する味方2体の攻撃力をステータス増減前の自身の最大HP×10%分増加させる（解除不可）。/ Lv3 ソウルサクリファイスを強化する。スキルクールタイムカウントの減少量が2になる。/ Lv4 エンジェルレイとソウルサクリファイスの魔法攻撃の回数がそれぞれ10回になる。/ Ex3 エンジェルレイとソウルサクリファイスを強化する。エンジェルレイとソウルサクリファイスの魔法攻撃のダメージがそれぞれ攻撃力×180%になる。",
+        "NameKey": "[ActiveSkillName88002]",
+        "RootActiveSkillId": 88002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName88002]",
+      "names": {
+        "zh-CN": "天使之光"
+      },
+      "source_memo_ja": "使徒ロザリーSR:Lv1 契約により得た天使の力で、ランダムな敵に8回攻撃力×160%の魔法攻撃を行う。魔法攻撃の前に自身の『記憶』のスタック数が15の場合、『記憶』を解除してエンジェルレイの代わりにソウルサクリファイスを発動する。[ソウルサクリファイス]ランダムな敵に8回攻撃力×160%の魔法攻撃を行う。その後自身に隣接する味方2体のスキルクールタイムカウントを1減少させる。/ Lv2 ソウルサクリファイスを強化する。魔法攻撃の後、さらに2ターンの間自身に隣接する味方2体の攻撃力をステータス増減前の自身の最大HP×10%分増加させる（解除不可）。/ Lv3 ソウルサクリファイスを強化する。スキルクールタイムカウントの減少量が2になる。/ Lv4 エンジェルレイとソウルサクリファイスの魔法攻撃の回数がそれぞれ10回になる。/ Ex3 エンジェルレイとソウルサクリファイスを強化する。エンジェルレイとソウルサクリファイスの魔法攻撃のダメージがそれぞれ攻撃力×180%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "契約により得た天使の力で、ランダムな敵に8回攻撃力×160%の魔法攻撃を行う。魔法攻撃の前に自身の『記憶』のスタック数が15の場合、『記憶』を解除してエンジェルレイの代わりにソウルサクリファイスを発動する。[ソウルサクリファイス]ランダムな敵に8回攻撃力×160%の魔法攻撃を行う。その後自身に隣接する味方2体のスキルクールタイムカウントを1減少させる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "ソウルサクリファイスを強化する。魔法攻撃の後、さらに2ターンの間自身に隣接する味方2体の攻撃力をステータス増減前の自身の最大HP×10%分増加させる（解除不可）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "ソウルサクリファイスを強化する。スキルクールタイムカウントの減少量が2になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "エンジェルレイとソウルサクリファイスの魔法攻撃の回数がそれぞれ10回になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "エンジェルレイとソウルサクリファイスを強化する。エンジェルレイとソウルサクリファイスの魔法攻撃のダメージがそれぞれ攻撃力×180%になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 46,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 46,
+            "CollectionLevel": 1,
+            "Id": 4601,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カリーナの初恋(使徒ロザリー,フレイシア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 500.0,
+              "value_text": "+5%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 500.0
+              },
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 46,
+            "CollectionLevel": 2,
+            "Id": 4602,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カリーナの初恋(使徒ロザリー,フレイシア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 500.0,
+              "value_text": "+5%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 500.0
+              },
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 46,
+            "CollectionLevel": 3,
+            "Id": 4603,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カリーナの初恋(使徒ロザリー,フレイシア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 500.0,
+              "value_text": "+5%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 500.0
+              },
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 46,
+            "CollectionLevel": 4,
+            "Id": 4604,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カリーナの初恋(使徒ロザリー,フレイシア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 510.0,
+              "value_text": "+5.1%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1050.0,
+              "value_text": "+1,050"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 510.0
+              },
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1050.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 46,
+            "CollectionLevel": 5,
+            "Id": 4605,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カリーナの初恋(使徒ロザリー,フレイシア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 520.0,
+              "value_text": "+5.2%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1100.0,
+              "value_text": "+1,100"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 520.0
+              },
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1100.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 46,
+            "CollectionLevel": 6,
+            "Id": 4606,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カリーナの初恋(使徒ロザリー,フレイシア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 530.0,
+              "value_text": "+5.3%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1150.0,
+              "value_text": "+1,150"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 530.0
+              },
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1150.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 46,
+            "CollectionLevel": 7,
+            "Id": 4607,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カリーナの初恋(使徒ロザリー,フレイシア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 540.0,
+              "value_text": "+5.4%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1200.0,
+              "value_text": "+1,200"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 540.0
+              },
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 46,
+            "CollectionLevel": 8,
+            "Id": 4608,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カリーナの初恋(使徒ロザリー,フレイシア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 550.0,
+              "value_text": "+5.5%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1250.0,
+              "value_text": "+1,250"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 550.0
+              },
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 46,
+            "CollectionLevel": 9,
+            "Id": 4609,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カリーナの初恋(使徒ロザリー,フレイシア)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 46,
+        "IsIgnore": null,
+        "Memo": "カリーナの初恋(使徒ロザリー,フレイシア)",
+        "NameKey": "[CharacterCollectionName46]",
+        "RequiredCharacterIds": [
+          88,
+          16
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2024-04-26 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName46]",
+      "names": {
+        "zh-CN": "船底座的初恋"
+      },
+      "required_character_ids": [
+        88,
+        16
+      ],
+      "required_characters": [
+        {
+          "id": 88,
+          "names": {
+            "zh-CN": "罗莎莉"
+          }
+        },
+        {
+          "id": 16,
+          "names": {
+            "zh-CN": "小苍兰"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2024-04-26 00:00:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 74,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 74,
+            "CollectionLevel": 1,
+            "Id": 7401,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "グラの花畑(ルミカ,使徒ロザリー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 500.0,
+              "value_text": "+5%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 500.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 74,
+            "CollectionLevel": 2,
+            "Id": 7402,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "グラの花畑(ルミカ,使徒ロザリー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 500.0,
+              "value_text": "+5%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 500.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 74,
+            "CollectionLevel": 3,
+            "Id": 7403,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "グラの花畑(ルミカ,使徒ロザリー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 500.0,
+              "value_text": "+5%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 500.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 74,
+            "CollectionLevel": 4,
+            "Id": 7404,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "グラの花畑(ルミカ,使徒ロザリー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 510.0,
+              "value_text": "+5.1%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1050.0,
+              "value_text": "+1,050"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 510.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1050.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 74,
+            "CollectionLevel": 5,
+            "Id": 7405,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "グラの花畑(ルミカ,使徒ロザリー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 520.0,
+              "value_text": "+5.2%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1100.0,
+              "value_text": "+1,100"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 520.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1100.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 74,
+            "CollectionLevel": 6,
+            "Id": 7406,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "グラの花畑(ルミカ,使徒ロザリー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 530.0,
+              "value_text": "+5.3%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1150.0,
+              "value_text": "+1,150"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 530.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1150.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 74,
+            "CollectionLevel": 7,
+            "Id": 7407,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "グラの花畑(ルミカ,使徒ロザリー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 540.0,
+              "value_text": "+5.4%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1200.0,
+              "value_text": "+1,200"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 540.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 74,
+            "CollectionLevel": 8,
+            "Id": 7408,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "グラの花畑(ルミカ,使徒ロザリー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 550.0,
+              "value_text": "+5.5%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1250.0,
+              "value_text": "+1,250"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 550.0
+              },
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 74,
+            "CollectionLevel": 9,
+            "Id": 7409,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "グラの花畑(ルミカ,使徒ロザリー)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 74,
+        "IsIgnore": null,
+        "Memo": "グラの花畑(ルミカ,使徒ロザリー)",
+        "NameKey": "[CharacterCollectionName74]",
+        "RequiredCharacterIds": [
+          121,
+          88
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2025-06-30 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName74]",
+      "names": {
+        "zh-CN": "古拉的花田"
+      },
+      "required_character_ids": [
+        121,
+        88
+      ],
+      "required_characters": [
+        {
+          "id": 121,
+          "names": {
+            "zh-CN": "璐米佳"
+          }
+        },
+        {
+          "id": 88,
+          "names": {
+            "zh-CN": "罗莎莉"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2025-06-30 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 2,
+    "element_type": 5,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 88,
+    "job_flags": 4,
+    "master_record": {
+      "ActiveSkillIds": [
+        88001,
+        88002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 80,
+        "Health": 97,
+        "Intelligence": 90,
+        "Muscle": 80
+      },
+      "BaseParameterGrossCoefficient": 347,
+      "CharacterType": 2,
+      "ElementType": 5,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 88,
+      "InitialBattleParameter": {
+        "AttackPower": -5,
+        "Avoidance": 1,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 7,
+        "DefensePenetration": 0,
+        "HP": 3,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 5,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": -1,
+        "Speed": 2646
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 4,
+      "Memo": "使徒ロザリー",
+      "Name2Key": "[CharacterSubName88]",
+      "NameKey": "[CharacterName88]",
+      "NormalSkillId": 102,
+      "PassiveSkillIds": [
+        88003,
+        88004,
+        88005
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2024-04-26 15:00:00"
+    },
+    "memo": "使徒ロザリー",
+    "name_key": "[CharacterName88]",
+    "names": {
+      "zh-CN": "罗莎莉"
+    },
+    "speed": 2646,
+    "start_time_jst": "2024-04-26 15:00:00",
+    "subtitle_key": "[CharacterSubName88]",
+    "subtitles": {
+      "zh-CN": "卡利他使徒"
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 881130240,
+    "exclusive_effect_id": 372,
+    "icon_id": 632,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 881130250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 94,
+        "EquipmentEvolutionId": 104,
+        "EquipmentExclusiveSkillDescriptionId": 62,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 4,
+        "ExclusiveEffectId": 372,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 632,
+        "Id": 881130240,
+        "IsIgnore": null,
+        "Memo": "使徒ロザリーLR240_書",
+        "NameKey": "[EquipmentName627]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": [
+          {
+            "BaseParameterType": 4,
+            "ChangeParameterType": 2,
+            "Value": 800.0
+          }
+        ],
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 1,
+            "ChangeParameterType": 2,
+            "Value": 2200.0
+          }
+        ],
+        "CharacterId": 88,
+        "Id": 372,
+        "IsIgnore": null,
+        "Memo": "使徒ロザリーLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill88Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill88Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill88Description3]",
+        "Id": 62,
+        "IsIgnore": null,
+        "Memo": "使徒ロザリー魔導書"
+      }
+    },
+    "name_key": "[EquipmentName627]",
+    "names": {
+      "zh-CN": "故主遗杖"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "base",
+        "parameter_code": "Health",
+        "parameter_type": 4,
+        "raw_value": 800.0,
+        "value_text": "+8%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Hp",
+        "parameter_type": 1,
+        "raw_value": 2200.0,
+        "value_text": "+22%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill88Description1]",
+        "descriptions": {
+          "zh-CN": "强化虚弱，技能目标增加为5名随机敌人。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill88Description2]",
+        "descriptions": {
+          "zh-CN": "强化永恒的意志，「结界」的伤害阻绝量提升为状态效果生效前的罗莎莉最大生命值×50%。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill88Description3]",
+        "descriptions": {
+          "zh-CN": "强化天使之光与灵魂献祭，造成的魔法伤害提升为攻击力×180%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": false,
+  "missing_localization_keys": [
+    "*"
+  ],
+  "passive_skills": [
+    {
+      "id": 88003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[PassiveSkillDescription880031]",
+          "descriptions": {
+            "zh-CN": "两百年来，她的爱始终如一。纯粹的灵魂散发的纯净光辉，让天使为之动容并授予祝福。战斗开始时，罗莎莉获得1层「记忆」（无法被解除）。当罗莎莉或友军被附加主动技能造成的弱化效果时，罗莎莉与友军身上每附带1种弱化效果，使「记忆」的叠加数增加1层（最多15层）。当「记忆」的叠加数达15层时，使罗莎莉增加攻击力，增幅为状态效果生效前的罗莎莉最大生命值×10%（无法被解除）。发动灵魂献祭后「记忆」不再重新叠加。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "200年想い続けたその純粋な魂の輝きに惹かれて、天使は祝福を授けた。バトル開始時自身に『記憶』を1スタック付与する（解除不可）。自身か味方がアクティブスキルで弱体効果を受けるたび、自身と味方が付帯している弱体効果の個数の合計分、『記憶』のスタック数が増加する（最大15スタックまで）。ただし自身のスキルの効果で『記憶』が解除された後は新たに『記憶』を付与しない。『記憶』のスタック数が15になった場合、自身の攻撃力がステータス増減前の自身の最大HP×10%分増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription880032]",
+          "descriptions": {
+            "zh-CN": "第2回合起，罗莎莉在每回合开始时额外获得3层「记忆」。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに2ターン目以降の毎ターン開始時、『記憶』のスタック数が3増加する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription880033]",
+          "descriptions": {
+            "zh-CN": "当「记忆」的叠加数达15层时，罗莎莉额外解除身上附带的2种弱化效果，并获得状态效果生效前的最大生命值×80%的「护盾」，效果持续2回合（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "『記憶』のスタック数が15になった場合、さらに自身の弱体効果を2つ解除し、自身に2ターンの間ステータス増減前の自身の最大HP×80%の『シールド』を付与する（解除不可）。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 88003,
+        "IsIgnore": null,
+        "Memo": "使徒ロザリーSR:Lv1 200年想い続けたその純粋な魂の輝きに惹かれて、天使は祝福を授けた。バトル開始時自身に『記憶』を1スタック付与する（解除不可）。自身か味方がアクティブスキルで弱体効果を受けるたび、自身と味方が付帯している弱体効果の個数の合計分、『記憶』のスタック数が増加する（最大15スタックまで）。ただし自身のスキルの効果で『記憶』が解除された後は新たに『記憶』を付与しない。『記憶』のスタック数が15になった場合、自身の攻撃力がステータス増減前の自身の最大HP×10%分増加する（解除不可）。/ Lv2 さらに2ターン目以降の毎ターン開始時、『記憶』のスタック数が3増加する。/ Lv3 『記憶』のスタック数が15になった場合、さらに自身の弱体効果を2つ解除し、自身に2ターンの間ステータス増減前の自身の最大HP×80%の『シールド』を付与する（解除不可）。",
+        "NameKey": "[PassiveSkillName88003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[PassiveSkillDescription880031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 88003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 11,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 88003003
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 13,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 88003003
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription880032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 88003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 88003202
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 11,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 88003003
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 13,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 88003003
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription880033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 88003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 88003302
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 11,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 88003303
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 13,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 88003303
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName88003]",
+      "names": {
+        "zh-CN": "爱的使徒"
+      },
+      "source_memo_ja": "使徒ロザリーSR:Lv1 200年想い続けたその純粋な魂の輝きに惹かれて、天使は祝福を授けた。バトル開始時自身に『記憶』を1スタック付与する（解除不可）。自身か味方がアクティブスキルで弱体効果を受けるたび、自身と味方が付帯している弱体効果の個数の合計分、『記憶』のスタック数が増加する（最大15スタックまで）。ただし自身のスキルの効果で『記憶』が解除された後は新たに『記憶』を付与しない。『記憶』のスタック数が15になった場合、自身の攻撃力がステータス増減前の自身の最大HP×10%分増加する（解除不可）。/ Lv2 さらに2ターン目以降の毎ターン開始時、『記憶』のスタック数が3増加する。/ Lv3 『記憶』のスタック数が15になった場合、さらに自身の弱体効果を2つ解除し、自身に2ターンの間ステータス増減前の自身の最大HP×80%の『シールド』を付与する（解除不可）。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "200年想い続けたその純粋な魂の輝きに惹かれて、天使は祝福を授けた。バトル開始時自身に『記憶』を1スタック付与する（解除不可）。自身か味方がアクティブスキルで弱体効果を受けるたび、自身と味方が付帯している弱体効果の個数の合計分、『記憶』のスタック数が増加する（最大15スタックまで）。ただし自身のスキルの効果で『記憶』が解除された後は新たに『記憶』を付与しない。『記憶』のスタック数が15になった場合、自身の攻撃力がステータス増減前の自身の最大HP×10%分増加する（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに2ターン目以降の毎ターン開始時、『記憶』のスタック数が3増加する。"
+        },
+        {
+          "label": "Lv3",
+          "text": "『記憶』のスタック数が15になった場合、さらに自身の弱体効果を2つ解除し、自身に2ターンの間ステータス増減前の自身の最大HP×80%の『シールド』を付与する（解除不可）。"
+        }
+      ]
+    },
+    {
+      "id": 88004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription880041]",
+          "descriptions": {
+            "zh-CN": "纵使无法再相见，故主的意志永远与罗莎莉同在。战斗开始时，使罗莎莉与附近的1名友军获得「结界」，效果持续1回合（无法被解除）。当此增益效果的附带者受到攻击，承受伤害超过最大生命值的20%时，阻绝超量部分的伤害，阻绝量为状态效果生效前的罗莎莉最大生命值×20%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "もう逢うことはできなくても、その想いは今もロザリーと共に在る。バトル開始時1ターンの間自身と自身に隣接する味方1体に『結界』を付与する（解除不可）。このバフの付帯者が付帯者自身の最大HP×20%を超えるダメージの攻撃を受けた場合、最大HP×20%を超えた分のダメージをステータス増減前の付与者の最大HP×20%分遮断する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription880042]",
+          "descriptions": {
+            "zh-CN": "「结界」效果增加为2回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "『結界』のターン数が2ターンになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription880043]",
+          "descriptions": {
+            "zh-CN": "「结界」的附加目标增加为罗莎莉与附近的2名友军。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "『結界』を付与する味方の対象が自身に隣接する味方2体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription880044]",
+          "descriptions": {
+            "zh-CN": "强化永恒的意志，「结界」的伤害阻绝量提升为状态效果生效前的罗莎莉最大生命值×50%。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "永遠なる想いを強化する。このバフの付帯者が付帯者自身の最大HP×20%を超えるダメージの攻撃を受けた場合、最大HP×20%を超えた分のダメージをステータス増減前の付与者の最大HP×50%分遮断するようになる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 88004,
+        "IsIgnore": null,
+        "Memo": "使徒ロザリーSR:Lv1 もう逢うことはできなくても、その想いは今もロザリーと共に在る。バトル開始時1ターンの間自身と自身に隣接する味方1体に『結界』を付与する（解除不可）。このバフの付帯者が付帯者自身の最大HP×20%を超えるダメージの攻撃を受けた場合、最大HP×20%を超えた分のダメージをステータス増減前の付与者の最大HP×20%分遮断する。/ Lv2 『結界』のターン数が2ターンになる。/ Lv3 『結界』を付与する味方の対象が自身に隣接する味方2体になる。/ Ex2 永遠なる想いを強化する。このバフの付帯者が付帯者自身の最大HP×20%を超えるダメージの攻撃を受けた場合、最大HP×20%を超えた分のダメージをステータス増減前の付与者の最大HP×50%分遮断するようになる。",
+        "NameKey": "[PassiveSkillName88004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription880041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 88004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription880042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 88004201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription880043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 88004301
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription880044]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 88004401
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName88004]",
+      "names": {
+        "zh-CN": "永恒的意志"
+      },
+      "source_memo_ja": "使徒ロザリーSR:Lv1 もう逢うことはできなくても、その想いは今もロザリーと共に在る。バトル開始時1ターンの間自身と自身に隣接する味方1体に『結界』を付与する（解除不可）。このバフの付帯者が付帯者自身の最大HP×20%を超えるダメージの攻撃を受けた場合、最大HP×20%を超えた分のダメージをステータス増減前の付与者の最大HP×20%分遮断する。/ Lv2 『結界』のターン数が2ターンになる。/ Lv3 『結界』を付与する味方の対象が自身に隣接する味方2体になる。/ Ex2 永遠なる想いを強化する。このバフの付帯者が付帯者自身の最大HP×20%を超えるダメージの攻撃を受けた場合、最大HP×20%を超えた分のダメージをステータス増減前の付与者の最大HP×50%分遮断するようになる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "もう逢うことはできなくても、その想いは今もロザリーと共に在る。バトル開始時1ターンの間自身と自身に隣接する味方1体に『結界』を付与する（解除不可）。このバフの付帯者が付帯者自身の最大HP×20%を超えるダメージの攻撃を受けた場合、最大HP×20%を超えた分のダメージをステータス増減前の付与者の最大HP×20%分遮断する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "『結界』のターン数が2ターンになる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "『結界』を付与する味方の対象が自身に隣接する味方2体になる。"
+        },
+        {
+          "label": "Ex2",
+          "text": "永遠なる想いを強化する。このバフの付帯者が付帯者自身の最大HP×20%を超えるダメージの攻撃を受けた場合、最大HP×20%を超えた分のダメージをステータス増減前の付与者の最大HP×50%分遮断するようになる。"
+        }
+      ]
+    },
+    {
+      "id": 88005,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "*",
+          "descriptions": {
+            "zh-CN": null
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "Id": 88005,
+        "IsIgnore": null,
+        "Memo": "*",
+        "NameKey": "*",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "*",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 32,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 88002001
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "*",
+      "names": {
+        "zh-CN": null
+      },
+      "source_memo_ja": "*",
+      "source_memo_sections_ja": []
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

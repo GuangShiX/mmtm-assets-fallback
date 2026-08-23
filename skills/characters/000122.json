@@ -1,0 +1,1347 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 122001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription1220011]",
+          "descriptions": {
+            "zh-CN": "“真枪实弹绝无造假～！”弗莱可使自己受到当前生命值×20%的自损伤害，随机对3名敌人造成攻击力×440%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「種も仕掛けもございませーん！」自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵3体に攻撃力×440％の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription1220012]",
+          "descriptions": {
+            "zh-CN": "发动攻击前，使技能目标额外减少20%闪避率与回血量，效果持续1回合。当队伍中的其他业红属性友军数为1名以上时，闪避率与回血量降幅提升为50%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに物理攻撃の前に1ターンの間対象の回避率と被回復量をそれぞれ20％減少させる。自身以外の紅属性の味方の編成数が1体以上の場合、回避率と被回復量の減少量がそれぞれ50％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1220013]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×740%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃のダメージが攻撃力×740%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1220014]",
+          "descriptions": {
+            "zh-CN": "强化特技射击，技能目标增加为5名随机敌人。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "トリック＆シュートを強化する。トリック＆シュートの対象がランダムな敵5体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription1220015]",
+          "descriptions": {
+            "zh-CN": "强化特技射击，「闪避率下降」与「回血量下降」效果增加为4回合。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "トリック＆シュートを強化する。『回避率減少』と『被回復量減少』のターン数がそれぞれ4ターンになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription1220016]",
+          "descriptions": {
+            "zh-CN": "强化特技射击，造成的物理伤害提升为攻击力×790%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 6,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "トリック＆シュートを強化する。物理攻撃のダメージが攻撃力×790%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription1220011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              122001001,
+              122001002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription1220012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              122001001,
+              122001202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1220013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              122001001,
+              122001302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1220014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              122001001,
+              122001402
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription1220015]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              122001001,
+              122001502
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription1220016]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 6,
+            "SubSetSkillIds": [
+              122001001,
+              122001602
+            ]
+          }
+        ],
+        "Id": 122001,
+        "IsIgnore": null,
+        "Memo": "フラックSR:Lv1 「種も仕掛けもございませーん！」自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵3体に攻撃力×440％の物理攻撃を行う。/ Lv2 さらに物理攻撃の前に1ターンの間対象の回避率と被回復量をそれぞれ20％減少させる。自身以外の紅属性の味方の編成数が1体以上の場合、回避率と被回復量の減少量がそれぞれ50％になる。/ Lv3 物理攻撃のダメージが攻撃力×740%になる。/ Ex1 トリック＆シュートを強化する。トリック＆シュートの対象がランダムな敵5体になる。/ Ex2 トリック＆シュートを強化する。『回避率減少』と『被回復量減少』のターン数がそれぞれ4ターンになる。/ Ex3 トリック＆シュートを強化する。物理攻撃のダメージが攻撃力×790%になる。",
+        "NameKey": "[ActiveSkillName122001]",
+        "RootActiveSkillId": 122001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName122001]",
+      "names": {
+        "zh-CN": "特技射击"
+      },
+      "source_memo_ja": "フラックSR:Lv1 「種も仕掛けもございませーん！」自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵3体に攻撃力×440％の物理攻撃を行う。/ Lv2 さらに物理攻撃の前に1ターンの間対象の回避率と被回復量をそれぞれ20％減少させる。自身以外の紅属性の味方の編成数が1体以上の場合、回避率と被回復量の減少量がそれぞれ50％になる。/ Lv3 物理攻撃のダメージが攻撃力×740%になる。/ Ex1 トリック＆シュートを強化する。トリック＆シュートの対象がランダムな敵5体になる。/ Ex2 トリック＆シュートを強化する。『回避率減少』と『被回復量減少』のターン数がそれぞれ4ターンになる。/ Ex3 トリック＆シュートを強化する。物理攻撃のダメージが攻撃力×790%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「種も仕掛けもございませーん！」自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵3体に攻撃力×440％の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに物理攻撃の前に1ターンの間対象の回避率と被回復量をそれぞれ20％減少させる。自身以外の紅属性の味方の編成数が1体以上の場合、回避率と被回復量の減少量がそれぞれ50％になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃のダメージが攻撃力×740%になる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "トリック＆シュートを強化する。トリック＆シュートの対象がランダムな敵5体になる。"
+        },
+        {
+          "label": "Ex2",
+          "text": "トリック＆シュートを強化する。『回避率減少』と『被回復量減少』のターン数がそれぞれ4ターンになる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "トリック＆シュートを強化する。物理攻撃のダメージが攻撃力×790%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 122002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription1220021]",
+          "descriptions": {
+            "zh-CN": "“轮到人家登场咯！”弗莱可使自己受到当前生命值×20%的自损伤害。“下一个节目是这个！”再趁五颜六色的彩带吸引敌人注意力时发动狙击，随机对敌人进行4次攻击，每次造成攻击力×320%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「うちの出番ッスね！」自身に自身の現在HP×20%の自傷ダメージを与える。「続いての演目はこちらッス！」カラフルな紙吹雪に目を奪われた敵を狙い撃ち、ランダムな敵に4回攻撃力×320％の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription1220022]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×560%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "物理攻撃のダメージが攻撃力×560%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription1220023]",
+          "descriptions": {
+            "zh-CN": "攻击次数增加为5次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃の回数が5回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription1220024]",
+          "descriptions": {
+            "zh-CN": "当弗莱可身上附带「欢笑天赋」状态时，造成的物理伤害提升为攻击力×1120%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "物理攻撃の前に自身が『笑顔の才能』を付帯している場合、物理攻撃のダメージが攻撃力×1120％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription1220021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              122002001,
+              122002002,
+              122002003,
+              122002003,
+              122002003
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription1220022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              122002001,
+              122002202,
+              122002203,
+              122002203,
+              122002203
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription1220023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              122002001,
+              122002302,
+              122002303,
+              122002303,
+              122002303,
+              122002303
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription1220024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              122002001,
+              122002402,
+              122002403,
+              122002403,
+              122002403,
+              122002403
+            ]
+          }
+        ],
+        "Id": 122002,
+        "IsIgnore": null,
+        "Memo": "フラックSR:Lv1 「うちの出番ッスね！」自身に自身の現在HP×20%の自傷ダメージを与える。「続いての演目はこちらッス！」カラフルな紙吹雪に目を奪われた敵を狙い撃ち、ランダムな敵に4回攻撃力×320％の物理攻撃を行う。/ Lv2 物理攻撃のダメージが攻撃力×560%になる。/ Lv3 物理攻撃の回数が5回になる。/ Lv4 物理攻撃の前に自身が『笑顔の才能』を付帯している場合、物理攻撃のダメージが攻撃力×1120％になる。",
+        "NameKey": "[ActiveSkillName122002]",
+        "RootActiveSkillId": 122002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName122002]",
+      "names": {
+        "zh-CN": "彩带速射"
+      },
+      "source_memo_ja": "フラックSR:Lv1 「うちの出番ッスね！」自身に自身の現在HP×20%の自傷ダメージを与える。「続いての演目はこちらッス！」カラフルな紙吹雪に目を奪われた敵を狙い撃ち、ランダムな敵に4回攻撃力×320％の物理攻撃を行う。/ Lv2 物理攻撃のダメージが攻撃力×560%になる。/ Lv3 物理攻撃の回数が5回になる。/ Lv4 物理攻撃の前に自身が『笑顔の才能』を付帯している場合、物理攻撃のダメージが攻撃力×1120％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「うちの出番ッスね！」自身に自身の現在HP×20%の自傷ダメージを与える。「続いての演目はこちらッス！」カラフルな紙吹雪に目を奪われた敵を狙い撃ち、ランダムな敵に4回攻撃力×320％の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "物理攻撃のダメージが攻撃力×560%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃の回数が5回になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "物理攻撃の前に自身が『笑顔の才能』を付帯している場合、物理攻撃のダメージが攻撃力×1120％になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 75,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 20.0,
+              "value_text": "+20×角色等级"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 20.0
+              }
+            ],
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 75,
+            "CollectionLevel": 1,
+            "Id": 7501,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "クシフィアスの共演(フラック,浴衣コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 75,
+            "CollectionLevel": 2,
+            "Id": 7502,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "クシフィアスの共演(フラック,浴衣コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 75,
+            "CollectionLevel": 3,
+            "Id": 7503,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "クシフィアスの共演(フラック,浴衣コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 75,
+            "CollectionLevel": 4,
+            "Id": 7504,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "クシフィアスの共演(フラック,浴衣コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 41.0,
+              "value_text": "+41×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 160.0,
+              "value_text": "+1.6%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 41.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 160.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 75,
+            "CollectionLevel": 5,
+            "Id": 7505,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "クシフィアスの共演(フラック,浴衣コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 42.0,
+              "value_text": "+42×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 170.0,
+              "value_text": "+1.7%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 42.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 170.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 75,
+            "CollectionLevel": 6,
+            "Id": 7506,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "クシフィアスの共演(フラック,浴衣コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 43.0,
+              "value_text": "+43×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 180.0,
+              "value_text": "+1.8%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 43.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 180.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 75,
+            "CollectionLevel": 7,
+            "Id": 7507,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "クシフィアスの共演(フラック,浴衣コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 44.0,
+              "value_text": "+44×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 190.0,
+              "value_text": "+1.9%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 44.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 190.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 75,
+            "CollectionLevel": 8,
+            "Id": 7508,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "クシフィアスの共演(フラック,浴衣コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 45.0,
+              "value_text": "+45×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 45.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 75,
+            "CollectionLevel": 9,
+            "Id": 7509,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "クシフィアスの共演(フラック,浴衣コルディ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 75,
+        "IsIgnore": null,
+        "Memo": "クシフィアスの共演(フラック,浴衣コルディ)",
+        "NameKey": "[CharacterCollectionName75]",
+        "RequiredCharacterIds": [
+          122,
+          72
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2025-06-16 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName75]",
+      "names": {
+        "zh-CN": "旗鱼座的同台"
+      },
+      "required_character_ids": [
+        122,
+        72
+      ],
+      "required_characters": [
+        {
+          "id": 122,
+          "names": {
+            "zh-CN": "弗莱可"
+          }
+        },
+        {
+          "id": 72,
+          "names": {
+            "zh-CN": "科迪"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2025-06-16 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 2,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 122,
+    "job_flags": 2,
+    "master_record": {
+      "ActiveSkillIds": [
+        122001,
+        122002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 97,
+        "Health": 75,
+        "Intelligence": 90,
+        "Muscle": 73
+      },
+      "BaseParameterGrossCoefficient": 335,
+      "CharacterType": 0,
+      "ElementType": 2,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 122,
+      "InitialBattleParameter": {
+        "AttackPower": -1,
+        "Avoidance": 0,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 5,
+        "DebuffResist": 0,
+        "Defense": 6,
+        "DefensePenetration": 0,
+        "HP": 0,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 3048
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 2,
+      "Memo": "フラック",
+      "Name2Key": null,
+      "NameKey": "[CharacterName122]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        122003,
+        122004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2025-06-16 15:00:00"
+    },
+    "memo": "フラック",
+    "name_key": "[CharacterName122]",
+    "names": {
+      "zh-CN": "弗莱可"
+    },
+    "speed": 3048,
+    "start_time_jst": "2025-06-16 15:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 1221120240,
+    "exclusive_effect_id": 540,
+    "icon_id": 836,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 1221120250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 122,
+        "EquipmentEvolutionId": 132,
+        "EquipmentExclusiveSkillDescriptionId": 90,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 2,
+        "ExclusiveEffectId": 540,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 836,
+        "Id": 1221120240,
+        "IsIgnore": null,
+        "Memo": "フラックLR240_銃",
+        "NameKey": "[EquipmentName831]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": null,
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 15,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          },
+          {
+            "BattleParameterType": 7,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 122,
+        "Id": 540,
+        "IsIgnore": null,
+        "Memo": "フラックLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill122Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill122Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill122Description3]",
+        "Id": 90,
+        "IsIgnore": null,
+        "Memo": "フラック銃"
+      }
+    },
+    "name_key": "[EquipmentName831]",
+    "names": {
+      "zh-CN": "欢乐来福枪"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "DebuffHit",
+        "parameter_type": 15,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Critical",
+        "parameter_type": 7,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill122Description1]",
+        "descriptions": {
+          "zh-CN": "强化特技射击，技能目标增加为5名随机敌人。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill122Description2]",
+        "descriptions": {
+          "zh-CN": "强化特技射击，「闪避率下降」与「回血量下降」效果增加为4回合。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill122Description3]",
+        "descriptions": {
+          "zh-CN": "强化特技射击，造成的物理伤害提升为攻击力×790%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 122003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription1220031]",
+          "descriptions": {
+            "zh-CN": "“你有带给别人欢笑的天赋。”每次遇到挫折的时候，都是这句话在背后支持着人家。战斗开始时，弗莱可获得「欢笑天赋」状态，使自己增加15%速度，效果持续1回合（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "キミには人を笑顔にできる才能がある──、その一言が挫けそうなうちの背中を何度も押してくれた。バトル開始時、自身に1ターンの間『笑顔の才能』を付与する（解除不可）。このバフは自身のスピードを15%増加させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription1220032]",
+          "descriptions": {
+            "zh-CN": "第2回合起，在每回合开始时，如果身上附带弱化效果的敌人为3名以上，弗莱可再度获得「欢笑天赋」状态。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに2ターン目以降のターン開始時、弱体効果を付帯している敵が3体以上の場合、自身に『笑顔の才能』を再付与する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription1220033]",
+          "descriptions": {
+            "zh-CN": "速度增幅提升为30%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "スピードの増加量が30%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 122003,
+        "IsIgnore": null,
+        "Memo": "フラックSR:Lv1 キミには人を笑顔にできる才能がある──、その一言が挫けそうなうちの背中を何度も押してくれた。バトル開始時、自身に1ターンの間『笑顔の才能』を付与する（解除不可）。このバフは自身のスピードを15%増加させる。/ Lv2 さらに2ターン目以降のターン開始時、弱体効果を付帯している敵が3体以上の場合、自身に『笑顔の才能』を再付与する。/ Lv3 スピードの増加量が30%になる。",
+        "NameKey": "[PassiveSkillName122003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription1220031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 28,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 122003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription1220032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 28,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 122003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 28,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 122003202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription1220033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 28,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 122003301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 28,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 122003302
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName122003]",
+      "names": {
+        "zh-CN": "这边也看过来！"
+      },
+      "source_memo_ja": "フラックSR:Lv1 キミには人を笑顔にできる才能がある──、その一言が挫けそうなうちの背中を何度も押してくれた。バトル開始時、自身に1ターンの間『笑顔の才能』を付与する（解除不可）。このバフは自身のスピードを15%増加させる。/ Lv2 さらに2ターン目以降のターン開始時、弱体効果を付帯している敵が3体以上の場合、自身に『笑顔の才能』を再付与する。/ Lv3 スピードの増加量が30%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "キミには人を笑顔にできる才能がある──、その一言が挫けそうなうちの背中を何度も押してくれた。バトル開始時、自身に1ターンの間『笑顔の才能』を付与する（解除不可）。このバフは自身のスピードを15%増加させる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに2ターン目以降のターン開始時、弱体効果を付帯している敵が3体以上の場合、自身に『笑顔の才能』を再付与する。"
+        },
+        {
+          "label": "Lv3",
+          "text": "スピードの増加量が30%になる。"
+        }
+      ]
+    },
+    {
+      "id": 122004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription1220041]",
+          "descriptions": {
+            "zh-CN": "“为了追上偶像，人家会用笑容克服所有困难！”第1回合行动开始时，弗莱可使自己增加攻击力，增幅为弗莱可攻击力×15%，并增加15%弱化效果命中率，效果持续2回合（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「憧れのあの人に追いつくためなら、どんな苦難も笑顔で越えてみせるッス！」1ターン目の自身の行動開始時、2ターンの間自身の攻撃力を自身の攻撃力×15%、弱体効果命中率を15%増加させる（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription1220042]",
+          "descriptions": {
+            "zh-CN": "技能目标增加为弗莱可与攻击力最高的2名其他友军。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "バフを付与する対象が自身と自身以外の攻撃力が高い味方2体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription1220043]",
+          "descriptions": {
+            "zh-CN": "攻击力增幅提升为弗莱可攻击力×30%，弱化效果命中率增幅提升为30%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "攻撃力の増加量が自身の攻撃力×30%、弱体効果命中率の増加量が30%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 122004,
+        "IsIgnore": null,
+        "Memo": "フラックSR:Lv1 「憧れのあの人に追いつくためなら、どんな苦難も笑顔で越えてみせるッス！」1ターン目の自身の行動開始時、2ターンの間自身の攻撃力を自身の攻撃力×15%、弱体効果命中率を15%増加させる（解除不可）。/ Lv2 バフを付与する対象が自身と自身以外の攻撃力が高い味方2体になる。/ Lv3 攻撃力の増加量が自身の攻撃力×30%、弱体効果命中率の増加量が30%になる。",
+        "NameKey": "[PassiveSkillName122004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription1220041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 32,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 122004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription1220042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 32,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 122004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 32,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 122004202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription1220043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 32,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 122004301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 32,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 122004302
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName122004]",
+      "names": {
+        "zh-CN": "偶像的笑容"
+      },
+      "source_memo_ja": "フラックSR:Lv1 「憧れのあの人に追いつくためなら、どんな苦難も笑顔で越えてみせるッス！」1ターン目の自身の行動開始時、2ターンの間自身の攻撃力を自身の攻撃力×15%、弱体効果命中率を15%増加させる（解除不可）。/ Lv2 バフを付与する対象が自身と自身以外の攻撃力が高い味方2体になる。/ Lv3 攻撃力の増加量が自身の攻撃力×30%、弱体効果命中率の増加量が30%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「憧れのあの人に追いつくためなら、どんな苦難も笑顔で越えてみせるッス！」1ターン目の自身の行動開始時、2ターンの間自身の攻撃力を自身の攻撃力×15%、弱体効果命中率を15%増加させる（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "バフを付与する対象が自身と自身以外の攻撃力が高い味方2体になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "攻撃力の増加量が自身の攻撃力×30%、弱体効果命中率の増加量が30%になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

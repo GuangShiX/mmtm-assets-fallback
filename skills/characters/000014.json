@@ -1,0 +1,587 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 14001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription140011]",
+          "descriptions": {
+            "zh-CN": "佩特拉挥爪攻击，试图甩掉内心的恐惧。使自己受到当前生命值×10%的自损伤害，并对当前生命值最低的敌人造成攻击力×480%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "恐怖を振り切るように爪で攻撃。自身に自身の現在HP×10％の自傷ダメージを与え、現在HPが最も低い敵に攻撃力×480％の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[ActiveSkillDescription140012]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×520%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "物理攻撃のダメージが攻撃力×520%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[ActiveSkillDescription140013]",
+          "descriptions": {
+            "zh-CN": "如果技能目标失去战斗能力，佩特拉额外恢复30%最大生命值。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらにこのスキルで敵を戦闘不能にした場合、自身のHPを最大HP×30％回復する。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription140011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              14001001,
+              14001002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[ActiveSkillDescription140012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              14001201,
+              14001202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[ActiveSkillDescription140013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              14001301,
+              14001302,
+              14001303
+            ]
+          }
+        ],
+        "Id": 14001,
+        "IsIgnore": null,
+        "Memo": "ペトラR: /Lv1　恐怖を振り切るように爪で攻撃。自身に自身の現在HP×10％の自傷ダメージを与え、現在HPが最も低い敵に攻撃力×480％の物理攻撃を行う。　/Lv2 物理攻撃のダメージが攻撃力×520%になる。　/Lv3 さらにこのスキルで敵を戦闘不能にした場合、自身のHPを最大HP×30％回復する。",
+        "NameKey": "[ActiveSkillName14001]",
+        "RootActiveSkillId": 14001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName14001]",
+      "names": {
+        "zh-CN": "舍命的利爪"
+      },
+      "source_memo_ja": "ペトラR: /Lv1　恐怖を振り切るように爪で攻撃。自身に自身の現在HP×10％の自傷ダメージを与え、現在HPが最も低い敵に攻撃力×480％の物理攻撃を行う。　/Lv2 物理攻撃のダメージが攻撃力×520%になる。　/Lv3 さらにこのスキルで敵を戦闘不能にした場合、自身のHPを最大HP×30％回復する。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "恐怖を振り切るように爪で攻撃。自身に自身の現在HP×10％の自傷ダメージを与え、現在HPが最も低い敵に攻撃力×480％の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "物理攻撃のダメージが攻撃力×520%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらにこのスキルで敵を戦闘不能にした場合、自身のHPを最大HP×30％回復する。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 14002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription140021]",
+          "descriptions": {
+            "zh-CN": "佩特拉因自己身为魔女而感到痛苦万分，使自己受到当前生命值×10%的自损伤害，并增加生命值百分比×10%的攻击力，效果持续4回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "魔女であることの苦しみに苛まれ、自身に自身の現在HP×10％の自傷ダメージを与え、4ターンの間攻撃力がHP割合×10％増加する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription140022]",
+          "descriptions": {
+            "zh-CN": "攻击力增幅提升为佩特拉生命值百分比×15%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "攻撃力の増加量がHP割合×15％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription140023]",
+          "descriptions": {
+            "zh-CN": "攻击力增幅提升为佩特拉生命值百分比×20%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "攻撃力の増加量がHP割合×20％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[ActiveSkillDescription140024]",
+          "descriptions": {
+            "zh-CN": "攻击力增幅提升为佩特拉生命值百分比×30%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "攻撃力の増加量がHP割合×30％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription140021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              14002001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription140022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              14002201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription140023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              14002301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[ActiveSkillDescription140024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              14002401
+            ]
+          }
+        ],
+        "Id": 14002,
+        "IsIgnore": null,
+        "Memo": "ペトラR: /Lv1　魔女であることの苦しみに苛まれ、自身に自身の現在HP×10％の自傷ダメージを与え、4ターンの間攻撃力がHP割合×10％増加する。　/Lv2 攻撃力の増加量がHP割合×15％になる。　/Lv3 攻撃力の増加量がHP割合×20％になる。　/Lv4 攻撃力の増加量がHP割合×30％になる。",
+        "NameKey": "[ActiveSkillName14002]",
+        "RootActiveSkillId": 14002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName14002]",
+      "names": {
+        "zh-CN": "魔女的证明"
+      },
+      "source_memo_ja": "ペトラR: /Lv1　魔女であることの苦しみに苛まれ、自身に自身の現在HP×10％の自傷ダメージを与え、4ターンの間攻撃力がHP割合×10％増加する。　/Lv2 攻撃力の増加量がHP割合×15％になる。　/Lv3 攻撃力の増加量がHP割合×20％になる。　/Lv4 攻撃力の増加量がHP割合×30％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "魔女であることの苦しみに苛まれ、自身に自身の現在HP×10％の自傷ダメージを与え、4ターンの間攻撃力がHP割合×10％増加する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "攻撃力の増加量がHP割合×15％になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "攻撃力の増加量がHP割合×20％になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "攻撃力の増加量がHP割合×30％になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 88,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 88,
+            "CollectionLevel": 1,
+            "Id": 8801,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 1,
+            "Memo": "アルニタクの開花​(ロキ,ペトラ,リブラ,ソテイラ)"
+          },
+          "max_level_increase": 1
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 88,
+            "CollectionLevel": 2,
+            "Id": 8802,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 3,
+            "Memo": "アルニタクの開花​(ロキ,ペトラ,リブラ,ソテイラ)"
+          },
+          "max_level_increase": 3
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 88,
+            "CollectionLevel": 3,
+            "Id": 8803,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 5,
+            "Memo": "アルニタクの開花​(ロキ,ペトラ,リブラ,ソテイラ)"
+          },
+          "max_level_increase": 5
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 88,
+        "IsIgnore": null,
+        "Memo": "アルニタクの開花​(ロキ,ペトラ,リブラ,ソテイラ)",
+        "NameKey": "[CharacterCollectionName88]",
+        "RequiredCharacterIds": [
+          4,
+          14,
+          24,
+          34
+        ],
+        "RequiredPartyLv": 300,
+        "StartTimeFixJST": "2025-10-16 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName88]",
+      "names": {
+        "zh-CN": "金粟星的绽放"
+      },
+      "required_character_ids": [
+        4,
+        14,
+        24,
+        34
+      ],
+      "required_characters": [
+        {
+          "id": 4,
+          "names": {
+            "zh-CN": "洛基"
+          }
+        },
+        {
+          "id": 14,
+          "names": {
+            "zh-CN": "佩特拉"
+          }
+        },
+        {
+          "id": 24,
+          "names": {
+            "zh-CN": "莉布拉"
+          }
+        },
+        {
+          "id": 34,
+          "names": {
+            "zh-CN": "索缇莉亚"
+          }
+        }
+      ],
+      "required_party_level": 300,
+      "start_time_jst": "2025-10-16 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 2,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 14,
+    "job_flags": 2,
+    "master_record": {
+      "ActiveSkillIds": [
+        14001,
+        14002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 100,
+        "Health": 70,
+        "Intelligence": 79,
+        "Muscle": 90
+      },
+      "BaseParameterGrossCoefficient": 339,
+      "CharacterType": 0,
+      "ElementType": 2,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 14,
+      "InitialBattleParameter": {
+        "AttackPower": 5,
+        "Avoidance": 0,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 7,
+        "DefensePenetration": 0,
+        "HP": -2,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 3166
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 32,
+      "JobFlags": 2,
+      "Memo": "ペトラ",
+      "Name2Key": null,
+      "NameKey": "[CharacterName14]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        14003
+      ],
+      "RarityFlags": 2,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2020-01-01 00:00:00"
+    },
+    "memo": "ペトラ",
+    "name_key": "[CharacterName14]",
+    "names": {
+      "zh-CN": "佩特拉"
+    },
+    "speed": 3166,
+    "start_time_jst": "2020-01-01 00:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": null,
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 14003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription140031]",
+          "descriptions": {
+            "zh-CN": "佩特拉接纳自己变成魔女后得到的力量，强化自己的普通攻击，普攻时随机对1名敌人造成攻击力×220%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "魔女になって得た力を受け入れることで、自身の通常攻撃を強化する。通常攻撃時ランダムな敵1体に攻撃力×220%の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[PassiveSkillDescription140032]",
+          "descriptions": {
+            "zh-CN": "攻击次数增加为2次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "物理攻撃の回数が2回になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 14003,
+        "IsIgnore": null,
+        "Memo": "ペトラR: /Lv1　魔女になって得た力を受け入れることで、自身の通常攻撃を強化する。通常攻撃時ランダムな敵1体に攻撃力×220%の物理攻撃を行う。　/Lv2 物理攻撃の回数が2回になる。",
+        "NameKey": "[PassiveSkillName14003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription140031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 14003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[PassiveSkillDescription140032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 14003201
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName14003]",
+      "names": {
+        "zh-CN": "力量的意义"
+      },
+      "source_memo_ja": "ペトラR: /Lv1　魔女になって得た力を受け入れることで、自身の通常攻撃を強化する。通常攻撃時ランダムな敵1体に攻撃力×220%の物理攻撃を行う。　/Lv2 物理攻撃の回数が2回になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "魔女になって得た力を受け入れることで、自身の通常攻撃を強化する。通常攻撃時ランダムな敵1体に攻撃力×220%の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "物理攻撃の回数が2回になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

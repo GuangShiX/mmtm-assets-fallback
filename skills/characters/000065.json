@@ -1,0 +1,1406 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 65001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription650011]",
+          "descriptions": {
+            "zh-CN": "“且听这如渊如夜的旋律……”乐音迷魂，将听者拉入无尽深渊，对攻击力最高的2名敌人造成攻击力×380%的物理伤害，70%概率使技能目标减少10%暴击率，效果持续2回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「深淵なる夜の調べよ……」その旋律は聞き惚れた者を闇へと引きずり込む。攻撃力が高い敵2体に攻撃力×380％の物理攻撃を行う。その後70%の確率で2ターンの間対象のクリティカル率を10％減少させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription650012]",
+          "descriptions": {
+            "zh-CN": "技能目标增加为攻击力最高的3名敌人。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "このスキルの対象が攻撃力が高い敵3体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription650013]",
+          "descriptions": {
+            "zh-CN": "发动攻击前使自己额外增加50%弱化效果命中率，效果持续2回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらに物理攻撃の前に、2ターンの間自身の弱体効果命中率が50％増加する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription650014]",
+          "descriptions": {
+            "zh-CN": "强化塞壬之歌，暴击率降幅提升为30%。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "セイレーンの調べを強化する。クリティカル率の減少量が30％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription650011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              65001002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription650012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              65001202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription650013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              65001301,
+              65001202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription650014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              65001301,
+              65001402
+            ]
+          }
+        ],
+        "Id": 65001,
+        "IsIgnore": null,
+        "Memo": "アイネSR:Lv1 「深淵なる夜の調べよ……」その旋律は聞き惚れた者を闇へと引きずり込む。攻撃力が高い敵2体に攻撃力×380％の物理攻撃を行う。その後70%の確率で2ターンの間対象のクリティカル率を10％減少させる。/ Lv2 このスキルの対象が攻撃力が高い敵3体になる。/ Lv3 さらに物理攻撃の前に、2ターンの間自身の弱体効果命中率が50％増加する。/ Ex1 セイレーンの調べを強化する。クリティカル率の減少量が30％になる。",
+        "NameKey": "[ActiveSkillName65001]",
+        "RootActiveSkillId": 65001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName65001]",
+      "names": {
+        "zh-CN": "塞壬之歌"
+      },
+      "source_memo_ja": "アイネSR:Lv1 「深淵なる夜の調べよ……」その旋律は聞き惚れた者を闇へと引きずり込む。攻撃力が高い敵2体に攻撃力×380％の物理攻撃を行う。その後70%の確率で2ターンの間対象のクリティカル率を10％減少させる。/ Lv2 このスキルの対象が攻撃力が高い敵3体になる。/ Lv3 さらに物理攻撃の前に、2ターンの間自身の弱体効果命中率が50％増加する。/ Ex1 セイレーンの調べを強化する。クリティカル率の減少量が30％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「深淵なる夜の調べよ……」その旋律は聞き惚れた者を闇へと引きずり込む。攻撃力が高い敵2体に攻撃力×380％の物理攻撃を行う。その後70%の確率で2ターンの間対象のクリティカル率を10％減少させる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "このスキルの対象が攻撃力が高い敵3体になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらに物理攻撃の前に、2ターンの間自身の弱体効果命中率が50％増加する。"
+        },
+        {
+          "label": "Ex1",
+          "text": "セイレーンの調べを強化する。クリティカル率の減少量が30％になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 65002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription650021]",
+          "descriptions": {
+            "zh-CN": "“如果这能赎清我的罪孽……”哀音对自己附加1层弱化效果，减少5%速度，效果持续2回合（最多叠加3层）。“且听这永不止息的旋律……”无数泡沫伴着旋律涌向敌人，随机对2名敌人造成攻击力×250%的物理伤害，并对技能目标附加1层弱化效果，减少5%防御力，效果持续2回合（最多叠加3层）。哀音再次发动此技能（最多2次）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「これが贖罪となるのなら……」2ターンの間自身にスピードが5％減少する弱体効果を1スタック付与する（最大3スタックまで）。「永遠の調べよ……」無数の泡が旋律に合わせて敵に向かう。ランダムな敵2体に攻撃力×250％の物理攻撃を行い、2ターンの間対象に防御力が5％減少する弱体効果を1スタック付与する（最大3スタックまで）。このスキルを再発動する（再発動は2回まで）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription650022]",
+          "descriptions": {
+            "zh-CN": "防御力降幅提升为15%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "防御力の減少量が15％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription650023]",
+          "descriptions": {
+            "zh-CN": "当哀音身上没有「恶魔的引诱」状态时，造成的物理伤害增加为3倍。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらに物理攻撃の前に自身が『悪魔の誘い』を付帯していない場合、物理攻撃のダメージが3倍になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription650024]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×350%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "物理攻撃のダメージが攻撃力×350％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription650025]",
+          "descriptions": {
+            "zh-CN": "强化永恒之歌，造成的物理伤害提升为攻击力×380%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "永遠の調べを強化する。物理攻撃のダメージが攻撃力×380％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription650021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              65002001,
+              65002002,
+              65002003,
+              65002004,
+              65002003,
+              65002004
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription650022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              65002001,
+              65002202,
+              65002003,
+              65002204,
+              65002003,
+              65002204
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription650023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              65002001,
+              65002302,
+              65002003,
+              65002304,
+              65002003,
+              65002304
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription650024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              65002001,
+              65002402,
+              65002003,
+              65002404,
+              65002003,
+              65002404
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription650025]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              65002001,
+              65002502,
+              65002003,
+              65002504,
+              65002003,
+              65002504
+            ]
+          }
+        ],
+        "Id": 65002,
+        "IsIgnore": null,
+        "Memo": "アイネSR:Lv1 「これが贖罪となるのなら……」2ターンの間自身にスピードが5％減少する弱体効果を1スタック付与する（最大3スタックまで）。「永遠の調べよ……」無数の泡が旋律に合わせて敵に向かう。ランダムな敵2体に攻撃力×250％の物理攻撃を行い、2ターンの間対象に防御力が5％減少する弱体効果を1スタック付与する（最大3スタックまで）。このスキルを再発動する（再発動は2回まで）。/ Lv2 防御力の減少量が15％になる。/ Lv3 さらに物理攻撃の前に自身が『悪魔の誘い』を付帯していない場合、物理攻撃のダメージが3倍になる。/ Lv4 物理攻撃のダメージが攻撃力×350％になる。/ Ex3 永遠の調べを強化する。物理攻撃のダメージが攻撃力×380％になる。",
+        "NameKey": "[ActiveSkillName65002]",
+        "RootActiveSkillId": 65002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName65002]",
+      "names": {
+        "zh-CN": "永恒之歌"
+      },
+      "source_memo_ja": "アイネSR:Lv1 「これが贖罪となるのなら……」2ターンの間自身にスピードが5％減少する弱体効果を1スタック付与する（最大3スタックまで）。「永遠の調べよ……」無数の泡が旋律に合わせて敵に向かう。ランダムな敵2体に攻撃力×250％の物理攻撃を行い、2ターンの間対象に防御力が5％減少する弱体効果を1スタック付与する（最大3スタックまで）。このスキルを再発動する（再発動は2回まで）。/ Lv2 防御力の減少量が15％になる。/ Lv3 さらに物理攻撃の前に自身が『悪魔の誘い』を付帯していない場合、物理攻撃のダメージが3倍になる。/ Lv4 物理攻撃のダメージが攻撃力×350％になる。/ Ex3 永遠の調べを強化する。物理攻撃のダメージが攻撃力×380％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「これが贖罪となるのなら……」2ターンの間自身にスピードが5％減少する弱体効果を1スタック付与する（最大3スタックまで）。「永遠の調べよ……」無数の泡が旋律に合わせて敵に向かう。ランダムな敵2体に攻撃力×250％の物理攻撃を行い、2ターンの間対象に防御力が5％減少する弱体効果を1スタック付与する（最大3スタックまで）。このスキルを再発動する（再発動は2回まで）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "防御力の減少量が15％になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらに物理攻撃の前に自身が『悪魔の誘い』を付帯していない場合、物理攻撃のダメージが3倍になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "物理攻撃のダメージが攻撃力×350％になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "永遠の調べを強化する。物理攻撃のダメージが攻撃力×380％になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 54,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 15.0,
+              "value_text": "+15×角色等级"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 15.0
+              }
+            ],
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 54,
+            "CollectionLevel": 1,
+            "Id": 5401,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "リュラの旋律​(アイネ,プリマヴェーラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 300.0,
+              "value_text": "+3%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 300.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 54,
+            "CollectionLevel": 2,
+            "Id": 5402,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "リュラの旋律​(アイネ,プリマヴェーラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 300.0,
+              "value_text": "+3%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 300.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 54,
+            "CollectionLevel": 3,
+            "Id": 5403,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "リュラの旋律​(アイネ,プリマヴェーラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 300.0,
+              "value_text": "+3%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 300.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 54,
+            "CollectionLevel": 4,
+            "Id": 5404,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "リュラの旋律​(アイネ,プリマヴェーラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 35.0,
+              "value_text": "+35×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 310.0,
+              "value_text": "+3.1%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 35.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 310.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 54,
+            "CollectionLevel": 5,
+            "Id": 5405,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "リュラの旋律​(アイネ,プリマヴェーラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 320.0,
+              "value_text": "+3.2%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 320.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 54,
+            "CollectionLevel": 6,
+            "Id": 5406,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "リュラの旋律​(アイネ,プリマヴェーラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 45.0,
+              "value_text": "+45×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 330.0,
+              "value_text": "+3.3%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 45.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 330.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 54,
+            "CollectionLevel": 7,
+            "Id": 5407,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "リュラの旋律​(アイネ,プリマヴェーラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 50.0,
+              "value_text": "+50×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 340.0,
+              "value_text": "+3.4%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 50.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 340.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 54,
+            "CollectionLevel": 8,
+            "Id": 5408,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "リュラの旋律​(アイネ,プリマヴェーラ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 55.0,
+              "value_text": "+55×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 350.0,
+              "value_text": "+3.5%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 55.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 350.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 54,
+            "CollectionLevel": 9,
+            "Id": 5409,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "リュラの旋律​(アイネ,プリマヴェーラ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 54,
+        "IsIgnore": null,
+        "Memo": "リュラの旋律​(アイネ,プリマヴェーラ)",
+        "NameKey": "[CharacterCollectionName54]",
+        "RequiredCharacterIds": [
+          65,
+          39
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2024-08-30 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName54]",
+      "names": {
+        "zh-CN": "天琴座的旋律"
+      },
+      "required_character_ids": [
+        65,
+        39
+      ],
+      "required_characters": [
+        {
+          "id": 65,
+          "names": {
+            "zh-CN": "哀音"
+          }
+        },
+        {
+          "id": 39,
+          "names": {
+            "zh-CN": "普莉玛维拉"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2024-08-30 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 5,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 65,
+    "job_flags": 2,
+    "master_record": {
+      "ActiveSkillIds": [
+        65001,
+        65002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 98,
+        "Health": 76,
+        "Intelligence": 87,
+        "Muscle": 72
+      },
+      "BaseParameterGrossCoefficient": 333,
+      "CharacterType": 0,
+      "ElementType": 5,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 65,
+      "InitialBattleParameter": {
+        "AttackPower": -2,
+        "Avoidance": 0,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 3,
+        "DebuffResist": 0,
+        "Defense": 7,
+        "DefensePenetration": 0,
+        "HP": 0,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 1,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 1,
+        "Speed": 3165
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 2,
+      "Memo": "アイネ",
+      "Name2Key": null,
+      "NameKey": "[CharacterName65]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        65003,
+        65004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2024-08-30 15:00:00"
+    },
+    "memo": "アイネ",
+    "name_key": "[CharacterName65]",
+    "names": {
+      "zh-CN": "哀音"
+    },
+    "speed": 3165,
+    "start_time_jst": "2024-08-30 15:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 651120240,
+    "exclusive_effect_id": 420,
+    "icon_id": 494,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 651120250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 102,
+        "EquipmentEvolutionId": 112,
+        "EquipmentExclusiveSkillDescriptionId": 70,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 2,
+        "ExclusiveEffectId": 420,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 494,
+        "Id": 651120240,
+        "IsIgnore": null,
+        "Memo": "アイネLR240_銃",
+        "NameKey": "[EquipmentName489]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": [
+          {
+            "BaseParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 800.0
+          }
+        ],
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 14,
+            "ChangeParameterType": 1,
+            "Value": 7000.0
+          }
+        ],
+        "CharacterId": 65,
+        "Id": 420,
+        "IsIgnore": null,
+        "Memo": "アイネLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill65Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill65Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill65Description3]",
+        "Id": 70,
+        "IsIgnore": null,
+        "Memo": "アイネ銃"
+      }
+    },
+    "name_key": "[EquipmentName489]",
+    "names": {
+      "zh-CN": "泡沫之歌"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "base",
+        "parameter_code": "Energy",
+        "parameter_type": 2,
+        "raw_value": 800.0,
+        "value_text": "+8%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 1,
+        "kind": "battle",
+        "parameter_code": "DamageEnhance",
+        "parameter_type": 14,
+        "raw_value": 7000.0,
+        "value_text": "+7,000"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill65Description1]",
+        "descriptions": {
+          "zh-CN": "强化塞壬之歌，暴击率降幅提升为30%。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill65Description2]",
+        "descriptions": {
+          "zh-CN": "强化心愿的旋律，哀音获得的「护盾」值提升为专长能力数值×1500%（合计最多1700%），攻击力最高的2名其他友军获得的「护盾」值提升为专长能力数值×300%（合计最多500%）。此技能须在结束1次行动后才可再次触发。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill65Description3]",
+        "descriptions": {
+          "zh-CN": "强化永恒之歌，造成的物理伤害提升为攻击力×380%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 65003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription650031]",
+          "descriptions": {
+            "zh-CN": "哀音弹奏的旋律，道尽她想守护家乡的纯粹心意——回合开始时，哀音使自己与攻击力最高的2名其他友军获得技能目标专长能力数值×100%的「护盾」，效果持续3回合（无法被解除）。当技能目标身上附带此技能附加的「护盾」时，增加60%抗暴率。此技能须在结束4次行动后才可再次触发。当技能目标身上附带此技能附加的增益效果时，重复附加的新效果将直接取代旧效果。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "旋律に込めた想いは、守りたいと願う無垢な心──ターン開始時、3ターンの間自身と自身以外の攻撃力が高い味方2体に対象のタイプステータス×100％の『シールド』を付与する（解除不可）。このスキルで付与した『シールド』を付帯している間、付帯者のクリティカル耐性率が60％増加する。このスキルは4ターンに1回発動する。対象がこのスキルで付与したバフを付帯している場合、効果は新しい値に上書きされる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription650032]",
+          "descriptions": {
+            "zh-CN": "「护盾」值提升为技能目标专长能力数值×200%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "『シールド』の大きさが対象のタイプステータス×200％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription650033]",
+          "descriptions": {
+            "zh-CN": "回合开始时，「恶魔的引诱」每减少1层，使「护盾」值额外提升技能目标专长能力数值×20%（合计最多400%）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらにターン開始時の『悪魔の誘い』のスタック減少数1につき、『シールド』の大きさが対象のタイプステータス×20％大きくなる（合計で最大400％まで）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription650034]",
+          "descriptions": {
+            "zh-CN": "强化心愿的旋律，哀音获得的「护盾」值提升为专长能力数值×1500%（合计最多1700%），攻击力最高的2名其他友军获得的「护盾」值提升为专长能力数值×300%（合计最多500%）。此技能须在结束1次行动后才可再次触发。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "夢の旋律を強化する。自身の『シールド』の大きさが対象のタイプステータス×1500％になり（合計で最大1700％まで）、自身以外の攻撃力が高い味方2体の『シールド』の大きさが対象のタイプステータス×300％になる（合計で最大500％まで）。さらにこのスキルが毎ターン開始時に発動するようになる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 65003,
+        "IsIgnore": null,
+        "Memo": "アイネSR:Lv1 旋律に込めた想いは、守りたいと願う無垢な心──ターン開始時、3ターンの間自身と自身以外の攻撃力が高い味方2体に対象のタイプステータス×100％の『シールド』を付与する（解除不可）。このスキルで付与した『シールド』を付帯している間、付帯者のクリティカル耐性率が60％増加する。このスキルは4ターンに1回発動する。対象がこのスキルで付与したバフを付帯している場合、効果は新しい値に上書きされる。/ Lv2 『シールド』の大きさが対象のタイプステータス×200％になる。/ Lv3 さらにターン開始時の『悪魔の誘い』のスタック減少数1につき、『シールド』の大きさが対象のタイプステータス×20％大きくなる（合計で最大400％まで）。/ Ex2 夢の旋律を強化する。自身の『シールド』の大きさが対象のタイプステータス×1500％になり（合計で最大1700％まで）、自身以外の攻撃力が高い味方2体の『シールド』の大きさが対象のタイプステータス×300％になる（合計で最大500％まで）。さらにこのスキルが毎ターン開始時に発動するようになる。",
+        "NameKey": "[PassiveSkillName65003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription650031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 65003001
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 65003002
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 65003003
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription650032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 65003201
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 65003202
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 65003203
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription650033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 65003301
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 65003302
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 65003303
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription650034]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 65003401
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 65003402
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 65003403
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName65003]",
+      "names": {
+        "zh-CN": "心愿的旋律"
+      },
+      "source_memo_ja": "アイネSR:Lv1 旋律に込めた想いは、守りたいと願う無垢な心──ターン開始時、3ターンの間自身と自身以外の攻撃力が高い味方2体に対象のタイプステータス×100％の『シールド』を付与する（解除不可）。このスキルで付与した『シールド』を付帯している間、付帯者のクリティカル耐性率が60％増加する。このスキルは4ターンに1回発動する。対象がこのスキルで付与したバフを付帯している場合、効果は新しい値に上書きされる。/ Lv2 『シールド』の大きさが対象のタイプステータス×200％になる。/ Lv3 さらにターン開始時の『悪魔の誘い』のスタック減少数1につき、『シールド』の大きさが対象のタイプステータス×20％大きくなる（合計で最大400％まで）。/ Ex2 夢の旋律を強化する。自身の『シールド』の大きさが対象のタイプステータス×1500％になり（合計で最大1700％まで）、自身以外の攻撃力が高い味方2体の『シールド』の大きさが対象のタイプステータス×300％になる（合計で最大500％まで）。さらにこのスキルが毎ターン開始時に発動するようになる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "旋律に込めた想いは、守りたいと願う無垢な心──ターン開始時、3ターンの間自身と自身以外の攻撃力が高い味方2体に対象のタイプステータス×100％の『シールド』を付与する（解除不可）。このスキルで付与した『シールド』を付帯している間、付帯者のクリティカル耐性率が60％増加する。このスキルは4ターンに1回発動する。対象がこのスキルで付与したバフを付帯している場合、効果は新しい値に上書きされる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "『シールド』の大きさが対象のタイプステータス×200％になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらにターン開始時の『悪魔の誘い』のスタック減少数1につき、『シールド』の大きさが対象のタイプステータス×20％大きくなる（合計で最大400％まで）。"
+        },
+        {
+          "label": "Ex2",
+          "text": "夢の旋律を強化する。自身の『シールド』の大きさが対象のタイプステータス×1500％になり（合計で最大1700％まで）、自身以外の攻撃力が高い味方2体の『シールド』の大きさが対象のタイプステータス×300％になる（合計で最大500％まで）。さらにこのスキルが毎ターン開始時に発動するようになる。"
+        }
+      ]
+    },
+    {
+      "id": 65004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription650041]",
+          "descriptions": {
+            "zh-CN": "恶魔的耳语不会放过任何趁虚而入的机会。充满诱惑的耳语逐渐让纯粹的心灵染上黑暗——战斗开始时，哀音获得10层「恶魔的引诱」（无法被解除）。“我愿意承担起一切的罪孽与痛苦，遵从自己的本心！”哀音勇于直面自身懦弱的坚强意志驱逐了恶魔的耳语，唤醒善的力量。「恶魔的引诱」的叠加数每减少1层，使哀音增加1%攻击力（最多叠加10层）。哀音行动开始时，每名身上附带心愿的旋律附加的「护盾」的友军，使「恶魔的引诱」的叠加数减少1层。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "悪魔のささやきは弱い心を見逃さない。甘いささやきが純粋な心を黒く染めていく──バトル開始時、自身に『悪魔の誘い』を10スタック付与する（解除不可）。「罪も痛みも、全て背負います。それが私の心なら！」弱さと向き合う強き想いが悪魔のささやきを退け、善なる力を目覚めさせる。スタック数が減少するたび、自身の攻撃力が1％増加する（最大10スタックまで）。自身の行動開始時、夢の旋律で付与した『シールド』を付帯している味方1体につき、『悪魔の誘い』のスタックが1減少する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription650042]",
+          "descriptions": {
+            "zh-CN": "攻击力增幅提升为2%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "攻撃力の増加量が2％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription650043]",
+          "descriptions": {
+            "zh-CN": "攻击力增幅提升为3%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "攻撃力の増加量が3％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 65004,
+        "IsIgnore": null,
+        "Memo": "アイネSR:Lv1 悪魔のささやきは弱い心を見逃さない。甘いささやきが純粋な心を黒く染めていく──バトル開始時、自身に『悪魔の誘い』を10スタック付与する（解除不可）。「罪も痛みも、全て背負います。それが私の心なら！」弱さと向き合う強き想いが悪魔のささやきを退け、善なる力を目覚めさせる。スタック数が減少するたび、自身の攻撃力が1％増加する（最大10スタックまで）。自身の行動開始時、夢の旋律で付与した『シールド』を付帯している味方1体につき、『悪魔の誘い』のスタックが1減少する。/ Lv2 攻撃力の増加量が2％になる。/ Lv3 攻撃力の増加量が3％になる。",
+        "NameKey": "[PassiveSkillName65004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription650041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 65004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 32,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 65004002
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription650042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 65004201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 32,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 65004202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription650043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 65004301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 32,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 65004302
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName65004]",
+      "names": {
+        "zh-CN": "恶魔的耳语"
+      },
+      "source_memo_ja": "アイネSR:Lv1 悪魔のささやきは弱い心を見逃さない。甘いささやきが純粋な心を黒く染めていく──バトル開始時、自身に『悪魔の誘い』を10スタック付与する（解除不可）。「罪も痛みも、全て背負います。それが私の心なら！」弱さと向き合う強き想いが悪魔のささやきを退け、善なる力を目覚めさせる。スタック数が減少するたび、自身の攻撃力が1％増加する（最大10スタックまで）。自身の行動開始時、夢の旋律で付与した『シールド』を付帯している味方1体につき、『悪魔の誘い』のスタックが1減少する。/ Lv2 攻撃力の増加量が2％になる。/ Lv3 攻撃力の増加量が3％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "悪魔のささやきは弱い心を見逃さない。甘いささやきが純粋な心を黒く染めていく──バトル開始時、自身に『悪魔の誘い』を10スタック付与する（解除不可）。「罪も痛みも、全て背負います。それが私の心なら！」弱さと向き合う強き想いが悪魔のささやきを退け、善なる力を目覚めさせる。スタック数が減少するたび、自身の攻撃力が1％増加する（最大10スタックまで）。自身の行動開始時、夢の旋律で付与した『シールド』を付帯している味方1体につき、『悪魔の誘い』のスタックが1減少する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "攻撃力の増加量が2％になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "攻撃力の増加量が3％になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

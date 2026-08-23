@@ -1,0 +1,1805 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 56001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription560011]",
+          "descriptions": {
+            "zh-CN": "克劳蒂亚的斩击宛如龙神之怒——随机对敌人进行2次攻击，每次造成攻击力×600%的物理伤害。沙漏中的流沙无情地流逝，既然无力阻止，那就战到最后一颗沙粒落下为止——克劳蒂亚的生命值百分比越低，造成的物理伤害越高（最多攻击力×1350%）。生命值百分比在每次攻击结束后重新进行判定。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "その斬撃は怒り狂う龍神が如く──ランダムな敵に2回攻撃力×600％の物理攻撃を行う。零れ落ちた砂時計は止まらない。それなら最後の一粒が落ちるまで戦い続ける──自身のHPが少なくなるほど物理攻撃のダメージが大きくなる（最大攻撃力×1350％まで）。ただしHP割合の判定は攻撃1回ごとに行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription560012]",
+          "descriptions": {
+            "zh-CN": "额外恢复技能总伤害×5%的生命值。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに自身のHPをこのスキルの総与ダメージ×5％回復する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription560013]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×800%（最多攻击力×1800%）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃のダメージが攻撃力×800％になる（最大攻撃力×1800％まで）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription560014]",
+          "descriptions": {
+            "zh-CN": "强化双剑流奥义・荒龙，生命值恢复量提升为技能总伤害×15%。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "双剣流奥義暴れ竜！！を強化する。HPの回復量がこのスキルの総与ダメージ×15％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription560011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              56001001,
+              56001002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription560012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              56001001,
+              56001002,
+              56001203
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription560013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              56001301,
+              56001302,
+              56001203
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription560014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              56001301,
+              56001302,
+              56001403
+            ]
+          }
+        ],
+        "Id": 56001,
+        "IsIgnore": null,
+        "Memo": "クラウディアSR:Lv1 その斬撃は怒り狂う龍神が如く──ランダムな敵に2回攻撃力×600％の物理攻撃を行う。零れ落ちた砂時計は止まらない。それなら最後の一粒が落ちるまで戦い続ける──自身のHPが少なくなるほど物理攻撃のダメージが大きくなる（最大攻撃力×1350％まで）。ただしHP割合の判定は攻撃1回ごとに行う。/ Lv2 さらに自身のHPをこのスキルの総与ダメージ×5％回復する。/ Lv3 物理攻撃のダメージが攻撃力×800％になる（最大攻撃力×1800％まで）。/ Ex1 双剣流奥義暴れ竜！！を強化する。HPの回復量がこのスキルの総与ダメージ×15％になる。",
+        "NameKey": "[ActiveSkillName56001]",
+        "RootActiveSkillId": 56001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName56001]",
+      "names": {
+        "zh-CN": "双剑流奥义・荒龙"
+      },
+      "source_memo_ja": "クラウディアSR:Lv1 その斬撃は怒り狂う龍神が如く──ランダムな敵に2回攻撃力×600％の物理攻撃を行う。零れ落ちた砂時計は止まらない。それなら最後の一粒が落ちるまで戦い続ける──自身のHPが少なくなるほど物理攻撃のダメージが大きくなる（最大攻撃力×1350％まで）。ただしHP割合の判定は攻撃1回ごとに行う。/ Lv2 さらに自身のHPをこのスキルの総与ダメージ×5％回復する。/ Lv3 物理攻撃のダメージが攻撃力×800％になる（最大攻撃力×1800％まで）。/ Ex1 双剣流奥義暴れ竜！！を強化する。HPの回復量がこのスキルの総与ダメージ×15％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "その斬撃は怒り狂う龍神が如く──ランダムな敵に2回攻撃力×600％の物理攻撃を行う。零れ落ちた砂時計は止まらない。それなら最後の一粒が落ちるまで戦い続ける──自身のHPが少なくなるほど物理攻撃のダメージが大きくなる（最大攻撃力×1350％まで）。ただしHP割合の判定は攻撃1回ごとに行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに自身のHPをこのスキルの総与ダメージ×5％回復する。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃のダメージが攻撃力×800％になる（最大攻撃力×1800％まで）。"
+        },
+        {
+          "label": "Ex1",
+          "text": "双剣流奥義暴れ竜！！を強化する。HPの回復量がこのスキルの総与ダメージ×15％になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 56002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription560021]",
+          "descriptions": {
+            "zh-CN": "“我还不能倒下！”如果克劳蒂亚的生命值低于50%，对攻击力最高的敌人附加1种弱化效果，该效果包含减少50%闪避率并附加「晕厥」状态，效果持续2回合。“消散在暮色之中吧——双龙斩！！”再对技能目标造成攻击力×500%的物理伤害（此攻击的发动与否不受克劳蒂亚生命值百分比影响）。当克劳蒂亚身上附带「决死」状态时，使自己恢复技能总伤害×15%的生命值。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「まだ倒れるわけにはいかないんだ！」自身のHP割合が50％未満の場合、2ターンの間攻撃力が最も高い敵の回避率を50％減少させ、『気絶』を付与する。これらは1つの弱体効果として扱う。「夕闇に散れ、双龍斬！」その後その敵に対して、弱体効果付与の有無に関わらず、攻撃力×500％の物理攻撃を行う。自身が『決死』を付帯している場合、自身のHPをこのスキルの総与ダメージ×15%回復する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[ActiveSkillDescription560022]",
+          "descriptions": {
+            "zh-CN": "当克劳蒂亚身上没有「决死」状态时，造成的物理伤害提升为2倍。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに自身が『決死』を付帯していない場合、物理攻撃のダメージが2倍になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription560023]",
+          "descriptions": {
+            "zh-CN": "如果技能目标仍然存活，克劳蒂亚在恢复生命值前再次发动弱化效果附加与物理攻击（最多1次）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらにこのスキルで敵を戦闘不能にできなかった場合、HP回復の前に弱体効果付与と物理攻撃を再発動する（再発動は1回まで）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription560024]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×900%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "物理攻撃のダメージが攻撃力×900％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription560025]",
+          "descriptions": {
+            "zh-CN": "强化秘剑・双龙斩，造成的物理伤害提升为攻击力×1000%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "秘剣・双龍斬！！を強化する。物理攻撃のダメージが攻撃力×1000％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription560021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              56002001,
+              56002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[ActiveSkillDescription560022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              56002201,
+              56002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription560023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              56002201,
+              56002304,
+              56002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription560024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              56002401,
+              56002404,
+              56002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription560025]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              56002501,
+              56002504,
+              56002002
+            ]
+          }
+        ],
+        "Id": 56002,
+        "IsIgnore": null,
+        "Memo": "クラウディアSR:Lv1 「まだ倒れるわけにはいかないんだ！」自身のHP割合が50％未満の場合、2ターンの間攻撃力が最も高い敵の回避率を50％減少させ、『気絶』を付与する。これらは1つの弱体効果として扱う。「夕闇に散れ、双龍斬！」その後その敵に対して、弱体効果付与の有無に関わらず、攻撃力×500％の物理攻撃を行う。自身が『決死』を付帯している場合、自身のHPをこのスキルの総与ダメージ×15%回復する。/ Lv2 さらに自身が『決死』を付帯していない場合、物理攻撃のダメージが2倍になる。/ Lv3 さらにこのスキルで敵を戦闘不能にできなかった場合、HP回復の前に弱体効果付与と物理攻撃を再発動する（再発動は1回まで）。/ Lv4 物理攻撃のダメージが攻撃力×900％になる。/ Ex3 秘剣・双龍斬！！を強化する。物理攻撃のダメージが攻撃力×1000％になる。",
+        "NameKey": "[ActiveSkillName56002]",
+        "RootActiveSkillId": 56002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName56002]",
+      "names": {
+        "zh-CN": "秘剑・双龙斩"
+      },
+      "source_memo_ja": "クラウディアSR:Lv1 「まだ倒れるわけにはいかないんだ！」自身のHP割合が50％未満の場合、2ターンの間攻撃力が最も高い敵の回避率を50％減少させ、『気絶』を付与する。これらは1つの弱体効果として扱う。「夕闇に散れ、双龍斬！」その後その敵に対して、弱体効果付与の有無に関わらず、攻撃力×500％の物理攻撃を行う。自身が『決死』を付帯している場合、自身のHPをこのスキルの総与ダメージ×15%回復する。/ Lv2 さらに自身が『決死』を付帯していない場合、物理攻撃のダメージが2倍になる。/ Lv3 さらにこのスキルで敵を戦闘不能にできなかった場合、HP回復の前に弱体効果付与と物理攻撃を再発動する（再発動は1回まで）。/ Lv4 物理攻撃のダメージが攻撃力×900％になる。/ Ex3 秘剣・双龍斬！！を強化する。物理攻撃のダメージが攻撃力×1000％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「まだ倒れるわけにはいかないんだ！」自身のHP割合が50％未満の場合、2ターンの間攻撃力が最も高い敵の回避率を50％減少させ、『気絶』を付与する。これらは1つの弱体効果として扱う。「夕闇に散れ、双龍斬！」その後その敵に対して、弱体効果付与の有無に関わらず、攻撃力×500％の物理攻撃を行う。自身が『決死』を付帯している場合、自身のHPをこのスキルの総与ダメージ×15%回復する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに自身が『決死』を付帯していない場合、物理攻撃のダメージが2倍になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらにこのスキルで敵を戦闘不能にできなかった場合、HP回復の前に弱体効果付与と物理攻撃を再発動する（再発動は1回まで）。"
+        },
+        {
+          "label": "Lv4",
+          "text": "物理攻撃のダメージが攻撃力×900％になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "秘剣・双龍斬！！を強化する。物理攻撃のダメージが攻撃力×1000％になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 39,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 39,
+            "CollectionLevel": 1,
+            "Id": 3901,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "オフィウクスの双武(クラウディア,コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 39,
+            "CollectionLevel": 2,
+            "Id": 3902,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "オフィウクスの双武(クラウディア,コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 39,
+            "CollectionLevel": 3,
+            "Id": 3903,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "オフィウクスの双武(クラウディア,コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 39,
+            "CollectionLevel": 4,
+            "Id": 3904,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "オフィウクスの双武(クラウディア,コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 31.0,
+              "value_text": "+31×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 210.0,
+              "value_text": "+2.1%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 31.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 210.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 39,
+            "CollectionLevel": 5,
+            "Id": 3905,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "オフィウクスの双武(クラウディア,コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 32.0,
+              "value_text": "+32×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 220.0,
+              "value_text": "+2.2%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 32.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 220.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 39,
+            "CollectionLevel": 6,
+            "Id": 3906,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "オフィウクスの双武(クラウディア,コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 33.0,
+              "value_text": "+33×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 230.0,
+              "value_text": "+2.3%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 33.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 230.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 39,
+            "CollectionLevel": 7,
+            "Id": 3907,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "オフィウクスの双武(クラウディア,コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 34.0,
+              "value_text": "+34×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 240.0,
+              "value_text": "+2.4%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 34.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 240.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 39,
+            "CollectionLevel": 8,
+            "Id": 3908,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "オフィウクスの双武(クラウディア,コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 35.0,
+              "value_text": "+35×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 250.0,
+              "value_text": "+2.5%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 35.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 39,
+            "CollectionLevel": 9,
+            "Id": 3909,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "オフィウクスの双武(クラウディア,コルディ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 39,
+        "IsIgnore": null,
+        "Memo": "オフィウクスの双武(クラウディア,コルディ)",
+        "NameKey": "[CharacterCollectionName39]",
+        "RequiredCharacterIds": [
+          56,
+          27
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2024-01-31 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName39]",
+      "names": {
+        "zh-CN": "蛇夫座的双武"
+      },
+      "required_character_ids": [
+        56,
+        27
+      ],
+      "required_characters": [
+        {
+          "id": 56,
+          "names": {
+            "zh-CN": "克劳蒂亚"
+          }
+        },
+        {
+          "id": 27,
+          "names": {
+            "zh-CN": "科迪"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2024-01-31 00:00:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 67,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 500.0,
+              "value_text": "+500"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 67,
+            "CollectionLevel": 1,
+            "Id": 6701,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "グルスの白椿​(春シズ,クラウディア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 67,
+            "CollectionLevel": 2,
+            "Id": 6702,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "グルスの白椿​(春シズ,クラウディア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 67,
+            "CollectionLevel": 3,
+            "Id": 6703,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "グルスの白椿​(春シズ,クラウディア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 67,
+            "CollectionLevel": 4,
+            "Id": 6704,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "グルスの白椿​(春シズ,クラウディア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3100.0,
+              "value_text": "+3,100"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1050.0,
+              "value_text": "+1,050"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3100.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1050.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 67,
+            "CollectionLevel": 5,
+            "Id": 6705,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "グルスの白椿​(春シズ,クラウディア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3200.0,
+              "value_text": "+3,200"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1100.0,
+              "value_text": "+1,100"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3200.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1100.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 67,
+            "CollectionLevel": 6,
+            "Id": 6706,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "グルスの白椿​(春シズ,クラウディア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3300.0,
+              "value_text": "+3,300"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1150.0,
+              "value_text": "+1,150"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3300.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1150.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 67,
+            "CollectionLevel": 7,
+            "Id": 6707,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "グルスの白椿​(春シズ,クラウディア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3400.0,
+              "value_text": "+3,400"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1200.0,
+              "value_text": "+1,200"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3400.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 67,
+            "CollectionLevel": 8,
+            "Id": 6708,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "グルスの白椿​(春シズ,クラウディア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3500.0,
+              "value_text": "+3,500"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "PhysicalCriticalDamageRelax",
+              "parameter_type": 10,
+              "raw_value": 1250.0,
+              "value_text": "+1,250"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3500.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 10,
+                "ChangeParameterType": 1,
+                "Value": 1250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 67,
+            "CollectionLevel": 9,
+            "Id": 6709,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "グルスの白椿​(春シズ,クラウディア)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 67,
+        "IsIgnore": null,
+        "Memo": "グルスの白椿​(春シズ,クラウディア)",
+        "NameKey": "[CharacterCollectionName67]",
+        "RequiredCharacterIds": [
+          112,
+          56
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2025-02-14 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName67]",
+      "names": {
+        "zh-CN": "天鹤座的白山茶"
+      },
+      "required_character_ids": [
+        112,
+        56
+      ],
+      "required_characters": [
+        {
+          "id": 112,
+          "names": {
+            "zh-CN": "静"
+          }
+        },
+        {
+          "id": 56,
+          "names": {
+            "zh-CN": "克劳蒂亚"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2025-02-14 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 3,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 56,
+    "job_flags": 1,
+    "master_record": {
+      "ActiveSkillIds": [
+        56001,
+        56002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 85,
+        "Health": 63,
+        "Intelligence": 85,
+        "Muscle": 104
+      },
+      "BaseParameterGrossCoefficient": 337,
+      "CharacterType": 0,
+      "ElementType": 3,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 56,
+      "InitialBattleParameter": {
+        "AttackPower": 5,
+        "Avoidance": 0,
+        "Critical": -3,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 1,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 7,
+        "DefensePenetration": 0,
+        "HP": 0,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 3056
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 1,
+      "Memo": "クラウディア",
+      "Name2Key": null,
+      "NameKey": "[CharacterName56]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        56003,
+        56004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2024-01-31 15:00:00"
+    },
+    "memo": "クラウディア",
+    "name_key": "[CharacterName56]",
+    "names": {
+      "zh-CN": "克劳蒂亚"
+    },
+    "speed": 3056,
+    "start_time_jst": "2024-01-31 15:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 561110240,
+    "exclusive_effect_id": 330,
+    "icon_id": 440,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 561110250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 87,
+        "EquipmentEvolutionId": 97,
+        "EquipmentExclusiveSkillDescriptionId": 55,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 1,
+        "ExclusiveEffectId": 330,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 440,
+        "Id": 561110240,
+        "IsIgnore": null,
+        "Memo": "クラウディアLR240_剣",
+        "NameKey": "[EquipmentName435]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": null,
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 1,
+            "ChangeParameterType": 2,
+            "Value": 2200.0
+          },
+          {
+            "BattleParameterType": 13,
+            "ChangeParameterType": 2,
+            "Value": 500.0
+          }
+        ],
+        "CharacterId": 56,
+        "Id": 330,
+        "IsIgnore": null,
+        "Memo": "クラウディアLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill56Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill56Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill56Description3]",
+        "Id": 55,
+        "IsIgnore": null,
+        "Memo": "クラウディア剣"
+      }
+    },
+    "name_key": "[EquipmentName435]",
+    "names": {
+      "zh-CN": "双龙宝剑"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Hp",
+        "parameter_type": 1,
+        "raw_value": 2200.0,
+        "value_text": "+22%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Defense",
+        "parameter_type": 13,
+        "raw_value": 500.0,
+        "value_text": "+5%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill56Description1]",
+        "descriptions": {
+          "zh-CN": "强化双剑流奥义・荒龙，生命值恢复量提升为技能总伤害×15%。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill56Description2]",
+        "descriptions": {
+          "zh-CN": "强化我的传奇，阻绝20%伤害。克劳蒂亚的生命值越低，获得的阻绝效果越高（最多80%）。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill56Description3]",
+        "descriptions": {
+          "zh-CN": "强化秘剑・双龙斩，造成的物理伤害提升为攻击力×1000%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 56003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[PassiveSkillDescription560031]",
+          "descriptions": {
+            "zh-CN": "燃烧生命击败敌人——克劳蒂亚的觉悟使她的力量更加强大。战斗开始时，克劳蒂亚获得「决死」状态，效果持续40回合。剩下的时日越少，她的剑锋越是凌厉——使自己获得1种增益效果，该效果包含增加40%攻击力，并在每回合行动开始时，使自己受到当前生命值×20%的自损伤害（伤害量无法超过附带者攻击力×100%）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "命を燃やして敵を討つ、その覚悟が力を高める。バトル開始時40ターンの間自身に『決死』を付与する。残された時間が少ないほど、その刃は鋭く冴える──自身の攻撃力が40％増加し、毎ターン行動開始時自身に自身の現在HP×20％の自傷ダメージを与える（自傷ダメージは付帯者の攻撃力×100％を超えない）。これらは一つのバフとして扱う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription560032]",
+          "descriptions": {
+            "zh-CN": "攻击力增幅提升为60%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "攻撃力の増加量が60％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription560033]",
+          "descriptions": {
+            "zh-CN": "攻击力增幅提升为80%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "攻撃力の増加量が80％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 56003,
+        "IsIgnore": null,
+        "Memo": "クラウディアSR:Lv1 命を燃やして敵を討つ、その覚悟が力を高める。バトル開始時40ターンの間自身に『決死』を付与する。残された時間が少ないほど、その刃は鋭く冴える──自身の攻撃力が40％増加し、毎ターン行動開始時自身に自身の現在HP×20％の自傷ダメージを与える（自傷ダメージは付帯者の攻撃力×100％を超えない）。これらは一つのバフとして扱う。/ Lv2 攻撃力の増加量が60％になる。/ Lv3 攻撃力の増加量が80％になる。",
+        "NameKey": "[PassiveSkillName56003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[PassiveSkillDescription560031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 56003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription560032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 56003201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription560033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 56003301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName56003]",
+      "names": {
+        "zh-CN": "决死一战"
+      },
+      "source_memo_ja": "クラウディアSR:Lv1 命を燃やして敵を討つ、その覚悟が力を高める。バトル開始時40ターンの間自身に『決死』を付与する。残された時間が少ないほど、その刃は鋭く冴える──自身の攻撃力が40％増加し、毎ターン行動開始時自身に自身の現在HP×20％の自傷ダメージを与える（自傷ダメージは付帯者の攻撃力×100％を超えない）。これらは一つのバフとして扱う。/ Lv2 攻撃力の増加量が60％になる。/ Lv3 攻撃力の増加量が80％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "命を燃やして敵を討つ、その覚悟が力を高める。バトル開始時40ターンの間自身に『決死』を付与する。残された時間が少ないほど、その刃は鋭く冴える──自身の攻撃力が40％増加し、毎ターン行動開始時自身に自身の現在HP×20％の自傷ダメージを与える（自傷ダメージは付帯者の攻撃力×100％を超えない）。これらは一つのバフとして扱う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "攻撃力の増加量が60％になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "攻撃力の増加量が80％になる。"
+        }
+      ]
+    },
+    {
+      "id": 56004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription560041]",
+          "descriptions": {
+            "zh-CN": "百战百胜，所向披靡——这是属于初代，不对，是属于我的传奇。克劳蒂亚使自己增加30%最大生命值（无法被解除）。当克劳蒂亚受到攻击时，阻绝5%伤害。克劳蒂亚的生命值越低，获得的阻绝效果越高（最多20%）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "無敗にして無敵にして、最強――それが初代、いいや私だ。自身の最大HPが30％増加する（解除不可）。自身が攻撃を受けたとき、ダメージを5％遮断する。自身のHP割合が低いほど遮断の効果が増加する（最大20％まで）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription560042]",
+          "descriptions": {
+            "zh-CN": "阻绝10%伤害。克劳蒂亚的生命值越低，获得的阻绝效果越高（最多40%）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "ダメージを10％遮断する。自身のHP割合が低いほど遮断の効果が増加する（最大40％まで）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription560043]",
+          "descriptions": {
+            "zh-CN": "最大生命值增幅提升为60%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "最大HPの増加量が60％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription560044]",
+          "descriptions": {
+            "zh-CN": "强化我的传奇，阻绝20%伤害。克劳蒂亚的生命值越低，获得的阻绝效果越高（最多80%）。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "私の生き様を強化する。ダメージを20％遮断する。自身のHP割合が低いほど遮断の効果が増加する（最大80％まで）。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 56004,
+        "IsIgnore": null,
+        "Memo": "クラウディアSR:Lv1 無敗にして無敵にして、最強――それが初代、いいや私だ。自身の最大HPが30％増加する（解除不可）。自身が攻撃を受けたとき、ダメージを5％遮断する。自身のHP割合が低いほど遮断の効果が増加する（最大20％まで）。/ Lv2 ダメージを10％遮断する。自身のHP割合が低いほど遮断の効果が増加する（最大40％まで）。/ Lv3 最大HPの増加量が60％になる。/ Ex2 私の生き様を強化する。ダメージを20％遮断する。自身のHP割合が低いほど遮断の効果が増加する（最大80％まで）。",
+        "NameKey": "[PassiveSkillName56004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription560041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 56004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 56004002
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription560042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 56004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 56004202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription560043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 56004301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 56004202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription560044]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 56004301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 56004402
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName56004]",
+      "names": {
+        "zh-CN": "我的传奇"
+      },
+      "source_memo_ja": "クラウディアSR:Lv1 無敗にして無敵にして、最強――それが初代、いいや私だ。自身の最大HPが30％増加する（解除不可）。自身が攻撃を受けたとき、ダメージを5％遮断する。自身のHP割合が低いほど遮断の効果が増加する（最大20％まで）。/ Lv2 ダメージを10％遮断する。自身のHP割合が低いほど遮断の効果が増加する（最大40％まで）。/ Lv3 最大HPの増加量が60％になる。/ Ex2 私の生き様を強化する。ダメージを20％遮断する。自身のHP割合が低いほど遮断の効果が増加する（最大80％まで）。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "無敗にして無敵にして、最強――それが初代、いいや私だ。自身の最大HPが30％増加する（解除不可）。自身が攻撃を受けたとき、ダメージを5％遮断する。自身のHP割合が低いほど遮断の効果が増加する（最大20％まで）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "ダメージを10％遮断する。自身のHP割合が低いほど遮断の効果が増加する（最大40％まで）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "最大HPの増加量が60％になる。"
+        },
+        {
+          "label": "Ex2",
+          "text": "私の生き様を強化する。ダメージを20％遮断する。自身のHP割合が低いほど遮断の効果が増加する（最大80％まで）。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

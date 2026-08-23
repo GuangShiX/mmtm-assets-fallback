@@ -1,0 +1,1314 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 67001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription670011]",
+          "descriptions": {
+            "zh-CN": "“好料大放送～♪”战地商人准备周全，为了防备来自敌人的攻击，丽瑟丝毫不吝啬地拿出一大堆保护同伴的压箱好货，使自己与速度最低的其他友军获得丽瑟丝攻击力×300%的「护盾」，效果持续1回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「サービスタ～イム♪」戦場専用の商人は用意周到。攻撃に備え、味方を守るとっておき商品を大盤振る舞い。自身と自身以外のスピードが最も低い味方に1ターンの間自身の攻撃力×300%の『シールド』を付与する。/ Lv2\\n さらに1ターンの間対象の弱体効果耐性率を50%増加させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription670012]",
+          "descriptions": {
+            "zh-CN": "使技能目标额外增加50%弱化效果抵抗率，效果持续1回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "\\n『シールド』と『弱体効果耐性率増加』のターン数がそれぞれ3ターンになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription670013]",
+          "descriptions": {
+            "zh-CN": "「护盾」与「弱化效果抵抗率上升」效果增加为3回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "サービスタイムを強化する。『シールド』の大きさが自身の攻撃力×500%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription670014]",
+          "descriptions": {
+            "zh-CN": ""
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "サービスタイムを強化する。弱体効果耐性率の増加量が100%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription670015]",
+          "descriptions": {
+            "zh-CN": ""
+          },
+          "equipment_rarity_flags": 256,
+          "order": 5,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription670011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              67001001,
+              67001002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription670012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              67001201,
+              67001202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription670013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              67001301,
+              67001302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription670014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              67001401,
+              67001402
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription670015]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              67001501,
+              67001502
+            ]
+          }
+        ],
+        "Id": 67001,
+        "IsIgnore": null,
+        "Memo": "リシェスSR:Lv1 「サービスタ～イム♪」戦場専用の商人は用意周到。攻撃に備え、味方を守るとっておき商品を大盤振る舞い。自身と自身以外のスピードが最も低い味方に1ターンの間自身の攻撃力×300%の『シールド』を付与する。/ Lv2\\n さらに1ターンの間対象の弱体効果耐性率を50%増加させる。/ Lv3 \\n『シールド』と『弱体効果耐性率増加』のターン数がそれぞれ3ターンになる。/ Ex1 サービスタイムを強化する。『シールド』の大きさが自身の攻撃力×500%になる。/ Ex2 サービスタイムを強化する。弱体効果耐性率の増加量が100%になる。",
+        "NameKey": "[ActiveSkillName67001]",
+        "RootActiveSkillId": 67001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName67001]",
+      "names": {
+        "zh-CN": "好料大放送"
+      },
+      "source_memo_ja": "リシェスSR:Lv1 「サービスタ～イム♪」戦場専用の商人は用意周到。攻撃に備え、味方を守るとっておき商品を大盤振る舞い。自身と自身以外のスピードが最も低い味方に1ターンの間自身の攻撃力×300%の『シールド』を付与する。/ Lv2\\n さらに1ターンの間対象の弱体効果耐性率を50%増加させる。/ Lv3 \\n『シールド』と『弱体効果耐性率増加』のターン数がそれぞれ3ターンになる。/ Ex1 サービスタイムを強化する。『シールド』の大きさが自身の攻撃力×500%になる。/ Ex2 サービスタイムを強化する。弱体効果耐性率の増加量が100%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「サービスタ～イム♪」戦場専用の商人は用意周到。攻撃に備え、味方を守るとっておき商品を大盤振る舞い。自身と自身以外のスピードが最も低い味方に1ターンの間自身の攻撃力×300%の『シールド』を付与する。/ Lv2\\n さらに1ターンの間対象の弱体効果耐性率を50%増加させる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "\\n『シールド』と『弱体効果耐性率増加』のターン数がそれぞれ3ターンになる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "サービスタイムを強化する。『シールド』の大きさが自身の攻撃力×500%になる。"
+        },
+        {
+          "label": "Ex2",
+          "text": "サービスタイムを強化する。弱体効果耐性率の増加量が100%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 67002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription670021]",
+          "descriptions": {
+            "zh-CN": "“上吧！猫溶溶队长！”猫溶溶队长在丽瑟丝的指令下发动突击，随机对2名敌人造成攻击力×490%的物理伤害。它扑到对方脸上，20%概率对技能目标附加「沉默」状态，效果持续1回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「そら、いってこい！」リシェスの合図でとけねこ隊長が突撃。ランダムな敵2体に攻撃力×490%の物理攻撃を行う。さらに顔にとけねこ隊長が張りつき、20%の確率で対象に1ターンの間『沈黙』を付与する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription670022]",
+          "descriptions": {
+            "zh-CN": "技能目标增加为3名随机敌人。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "\\nこのスキルの対象がランダムな敵3体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription670023]",
+          "descriptions": {
+            "zh-CN": "附加「沉默」状态的概率提升为55%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "\\n『沈黙』を付与する確率が55%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription670024]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×540%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "\\n物理攻撃のダメージが攻撃力×540%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription670025]",
+          "descriptions": {
+            "zh-CN": ""
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "突撃！とけねこ隊長を強化する。物理攻撃のダメージが攻撃力×590%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription670021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              67002001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription670022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              67002201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription670023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              67002301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription670024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              67002401
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription670025]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              67002501
+            ]
+          }
+        ],
+        "Id": 67002,
+        "IsIgnore": null,
+        "Memo": "リシェスSR: Lv1 「そら、いってこい！」リシェスの合図でとけねこ隊長が突撃。ランダムな敵2体に攻撃力×490%の物理攻撃を行う。さらに顔にとけねこ隊長が張りつき、20%の確率で対象に1ターンの間『沈黙』を付与する。/ Lv2 \\nこのスキルの対象がランダムな敵3体になる。/Lv3 \\n『沈黙』を付与する確率が55%になる。/Lv4 \\n物理攻撃のダメージが攻撃力×540%になる。/ Ex3 突撃！とけねこ隊長を強化する。物理攻撃のダメージが攻撃力×590%になる。",
+        "NameKey": "[ActiveSkillName67002]",
+        "RootActiveSkillId": 67002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName67002]",
+      "names": {
+        "zh-CN": "猫溶溶队长！突击！"
+      },
+      "source_memo_ja": "リシェスSR: Lv1 「そら、いってこい！」リシェスの合図でとけねこ隊長が突撃。ランダムな敵2体に攻撃力×490%の物理攻撃を行う。さらに顔にとけねこ隊長が張りつき、20%の確率で対象に1ターンの間『沈黙』を付与する。/ Lv2 \\nこのスキルの対象がランダムな敵3体になる。/Lv3 \\n『沈黙』を付与する確率が55%になる。/Lv4 \\n物理攻撃のダメージが攻撃力×540%になる。/ Ex3 突撃！とけねこ隊長を強化する。物理攻撃のダメージが攻撃力×590%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「そら、いってこい！」リシェスの合図でとけねこ隊長が突撃。ランダムな敵2体に攻撃力×490%の物理攻撃を行う。さらに顔にとけねこ隊長が張りつき、20%の確率で対象に1ターンの間『沈黙』を付与する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "\\nこのスキルの対象がランダムな敵3体になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "\\n『沈黙』を付与する確率が55%になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "\\n物理攻撃のダメージが攻撃力×540%になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "突撃！とけねこ隊長を強化する。物理攻撃のダメージが攻撃力×590%になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 19,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 25.0,
+              "value_text": "+25×角色等级"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 25.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 19,
+            "CollectionLevel": 1,
+            "Id": 1901,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "フェリスの洞察(リシェス,ディアン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 50.0,
+              "value_text": "+50×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 50.0
+              },
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 19,
+            "CollectionLevel": 2,
+            "Id": 1902,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "フェリスの洞察(リシェス,ディアン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 50.0,
+              "value_text": "+50×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 50.0
+              },
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 19,
+            "CollectionLevel": 3,
+            "Id": 1903,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "フェリスの洞察(リシェス,ディアン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 50.0,
+              "value_text": "+50×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 50.0
+              },
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 19,
+            "CollectionLevel": 4,
+            "Id": 1904,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "フェリスの洞察(リシェス,ディアン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 51.0,
+              "value_text": "+51×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 210.0,
+              "value_text": "+2.1%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 51.0
+              },
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 210.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 19,
+            "CollectionLevel": 5,
+            "Id": 1905,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "フェリスの洞察(リシェス,ディアン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 52.0,
+              "value_text": "+52×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 220.0,
+              "value_text": "+2.2%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 52.0
+              },
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 220.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 19,
+            "CollectionLevel": 6,
+            "Id": 1906,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "フェリスの洞察(リシェス,ディアン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 53.0,
+              "value_text": "+53×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 230.0,
+              "value_text": "+2.3%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 53.0
+              },
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 230.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 19,
+            "CollectionLevel": 7,
+            "Id": 1907,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "フェリスの洞察(リシェス,ディアン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 54.0,
+              "value_text": "+54×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 240.0,
+              "value_text": "+2.4%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 54.0
+              },
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 240.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 19,
+            "CollectionLevel": 8,
+            "Id": 1908,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "フェリスの洞察(リシェス,ディアン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 55.0,
+              "value_text": "+55×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "PhysicalDamageRelax",
+              "parameter_type": 3,
+              "raw_value": 250.0,
+              "value_text": "+2.5%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 55.0
+              },
+              {
+                "BattleParameterType": 3,
+                "ChangeParameterType": 2,
+                "Value": 250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 19,
+            "CollectionLevel": 9,
+            "Id": 1909,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "フェリスの洞察(リシェス,ディアン)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 19,
+        "IsIgnore": null,
+        "Memo": "フェリスの洞察(リシェス,ディアン)",
+        "NameKey": "[CharacterCollectionName19]",
+        "RequiredCharacterIds": [
+          67,
+          20
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2023-06-14 15:00:00"
+      },
+      "name_key": "[CharacterCollectionName19]",
+      "names": {
+        "zh-CN": "猫座的洞察"
+      },
+      "required_character_ids": [
+        67,
+        20
+      ],
+      "required_characters": [
+        {
+          "id": 67,
+          "names": {
+            "zh-CN": "丽瑟丝"
+          }
+        },
+        {
+          "id": 20,
+          "names": {
+            "zh-CN": "黛安"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2023-06-14 15:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 4,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 67,
+    "job_flags": 1,
+    "master_record": {
+      "ActiveSkillIds": [
+        67001,
+        67002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 77,
+        "Health": 78,
+        "Intelligence": 79,
+        "Muscle": 91
+      },
+      "BaseParameterGrossCoefficient": 325,
+      "CharacterType": 0,
+      "ElementType": 4,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 67,
+      "InitialBattleParameter": {
+        "AttackPower": 0,
+        "Avoidance": 0,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 12,
+        "DefensePenetration": 0,
+        "HP": 5,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": -3,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 3596
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 1,
+      "Memo": "リシェス",
+      "Name2Key": null,
+      "NameKey": "[CharacterName67]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        67003,
+        67004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2023-06-14 15:00:00"
+    },
+    "memo": "リシェス",
+    "name_key": "[CharacterName67]",
+    "names": {
+      "zh-CN": "丽瑟丝"
+    },
+    "speed": 3596,
+    "start_time_jst": "2023-06-14 15:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 4032,
+    "exclusive_effect_id": 246,
+    "icon_id": 506,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 4033,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 73,
+        "EquipmentEvolutionId": 83,
+        "EquipmentExclusiveSkillDescriptionId": 41,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 1,
+        "ExclusiveEffectId": 246,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 506,
+        "Id": 4032,
+        "IsIgnore": null,
+        "Memo": "リシェスLR240_剣",
+        "NameKey": "[EquipmentName406]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": [
+          {
+            "BaseParameterType": 4,
+            "ChangeParameterType": 2,
+            "Value": 800.0
+          }
+        ],
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 15,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 67,
+        "Id": 246,
+        "IsIgnore": null,
+        "Memo": "リシェスLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill67Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill67Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill67Description3]",
+        "Id": 41,
+        "IsIgnore": null,
+        "Memo": "リシェス剣"
+      }
+    },
+    "name_key": "[EquipmentName406]",
+    "names": {
+      "zh-CN": "赫尔墨斯的指引"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "base",
+        "parameter_code": "Health",
+        "parameter_type": 4,
+        "raw_value": 800.0,
+        "value_text": "+8%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "DebuffHit",
+        "parameter_type": 15,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill67Description1]",
+        "descriptions": {
+          "zh-CN": "强化好料大放送，「护盾」值提升为丽瑟丝攻击力×500%。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill67Description2]",
+        "descriptions": {
+          "zh-CN": "强化好料大放送，弱化效果抵抗率增幅提升为100%。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill67Description3]",
+        "descriptions": {
+          "zh-CN": "强化猫溶溶队长！突击！，造成的物理伤害提升为攻击力×590%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 67003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription670031]",
+          "descriptions": {
+            "zh-CN": "“罪过也好痛苦也罢，都要两个人一起分担。”陪伴在身旁的那道身影，是丽瑟丝的心灵支柱，为她带来面对困难的勇气，使丽瑟丝增加25%防御力（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「罪も痛みも、二人で乗り越えよう」寄り添う影が折れそうな心を支え、立ち向かう勇気を生む。自身の防御力が25%増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription670032]",
+          "descriptions": {
+            "zh-CN": "技能目标增加为丽瑟丝与速度最低的其他友军。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "\\nこのスキルの対象が自身と自身以外のスピードが最も低い味方になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription670033]",
+          "descriptions": {
+            "zh-CN": "防御力增幅提升为50%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "\\n防御力の増加量が50%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 67003,
+        "IsIgnore": null,
+        "Memo": "リシェスSR:Lv1 「罪も痛みも、二人で乗り越えよう」寄り添う影が折れそうな心を支え、立ち向かう勇気を生む。自身の防御力が25%増加する（解除不可）。/ Lv2 \\nこのスキルの対象が自身と自身以外のスピードが最も低い味方になる。/ Lv3 \\n防御力の増加量が50%になる。",
+        "NameKey": "[PassiveSkillName67003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription670031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 67003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription670032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 67003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 67003202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription670033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 67003301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 67003302
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName67003]",
+      "names": {
+        "zh-CN": "相伴的身影"
+      },
+      "source_memo_ja": "リシェスSR:Lv1 「罪も痛みも、二人で乗り越えよう」寄り添う影が折れそうな心を支え、立ち向かう勇気を生む。自身の防御力が25%増加する（解除不可）。/ Lv2 \\nこのスキルの対象が自身と自身以外のスピードが最も低い味方になる。/ Lv3 \\n防御力の増加量が50%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「罪も痛みも、二人で乗り越えよう」寄り添う影が折れそうな心を支え、立ち向かう勇気を生む。自身の防御力が25%増加する（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "\\nこのスキルの対象が自身と自身以外のスピードが最も低い味方になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "\\n防御力の増加量が50%になる。"
+        }
+      ]
+    },
+    {
+      "id": 67004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription670041]",
+          "descriptions": {
+            "zh-CN": "“战场上有了商人，就能救下无数条性命。”当友军受到攻击，生命值降到50%以下时，使该友军获得丽瑟丝攻击力×300%的「护盾」，效果持续1回合。此技能须在结束5次行动后才可再次触发。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "戦場に商人がいれば、助かる命がたくさんある――味方が攻撃を受けて、HP割合が50%以下になった場合、その味方に1ターンの間自身の攻撃力×300%の『シールド』を付与する。このスキルは5ターンに1回発動する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription670042]",
+          "descriptions": {
+            "zh-CN": "此技能须在结束4次行动后才可再次触发。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "\\nこのスキルが4ターンに1回発動するようになる。/ Lv3\\n『シールド』の大きさが自身の攻撃力×500%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription670043]",
+          "descriptions": {
+            "zh-CN": "「护盾」值提升为丽瑟丝攻击力×500%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "Id": 67004,
+        "IsIgnore": null,
+        "Memo": "リシェスSR:Lv1 戦場に商人がいれば、助かる命がたくさんある――味方が攻撃を受けて、HP割合が50%以下になった場合、その味方に1ターンの間自身の攻撃力×300%の『シールド』を付与する。このスキルは5ターンに1回発動する。/ Lv2 \\nこのスキルが4ターンに1回発動するようになる。/ Lv3\\n『シールド』の大きさが自身の攻撃力×500%になる。",
+        "NameKey": "[PassiveSkillName67004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription670041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 10,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 5,
+                "SubSetSkillId": 67004001
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 5,
+                "SubSetSkillId": 67004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription670042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 10,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 67004001
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 67004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription670043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 10,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 67004301
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 67004301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName67004]",
+      "names": {
+        "zh-CN": "战地商人"
+      },
+      "source_memo_ja": "リシェスSR:Lv1 戦場に商人がいれば、助かる命がたくさんある――味方が攻撃を受けて、HP割合が50%以下になった場合、その味方に1ターンの間自身の攻撃力×300%の『シールド』を付与する。このスキルは5ターンに1回発動する。/ Lv2 \\nこのスキルが4ターンに1回発動するようになる。/ Lv3\\n『シールド』の大きさが自身の攻撃力×500%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "戦場に商人がいれば、助かる命がたくさんある――味方が攻撃を受けて、HP割合が50%以下になった場合、その味方に1ターンの間自身の攻撃力×300%の『シールド』を付与する。このスキルは5ターンに1回発動する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "\\nこのスキルが4ターンに1回発動するようになる。/ Lv3\\n『シールド』の大きさが自身の攻撃力×500%になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

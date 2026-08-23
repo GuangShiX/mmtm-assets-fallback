@@ -1,0 +1,583 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 32001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription320011]",
+          "descriptions": {
+            "zh-CN": "药剂研发失败的产物，诗寇蒂用诡异的液体随机对1名敌人造成攻击力×320%的魔法伤害。副作用使技能目标减少10%攻击力，效果持续2回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "薬の開発に失敗して生まれた謎の液体で、ランダムな敵1体に攻撃力×320％の魔法攻撃を行う。副作用で、2ターンの間対象の攻撃力を10％減少させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[ActiveSkillDescription320012]",
+          "descriptions": {
+            "zh-CN": "造成的魔法伤害提升为攻击力×360%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "魔法攻撃のダメージが攻撃力×360%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[ActiveSkillDescription320013]",
+          "descriptions": {
+            "zh-CN": "攻击力降幅提升为20%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "攻撃力の減少量が20％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription320011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              32001001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[ActiveSkillDescription320012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              32001201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[ActiveSkillDescription320013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              32001301
+            ]
+          }
+        ],
+        "Id": 32001,
+        "IsIgnore": null,
+        "Memo": "スクルドR: /Lv1　薬の開発に失敗して生まれた謎の液体で、ランダムな敵1体に攻撃力×320％の魔法攻撃を行う。副作用で、2ターンの間対象の攻撃力を10％減少させる。　/Lv2 魔法攻撃のダメージが攻撃力×360%になる。　/Lv3 攻撃力の減少量が20％になる。",
+        "NameKey": "[ActiveSkillName32001]",
+        "RootActiveSkillId": 32001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName32001]",
+      "names": {
+        "zh-CN": "失败是成功之母"
+      },
+      "source_memo_ja": "スクルドR: /Lv1　薬の開発に失敗して生まれた謎の液体で、ランダムな敵1体に攻撃力×320％の魔法攻撃を行う。副作用で、2ターンの間対象の攻撃力を10％減少させる。　/Lv2 魔法攻撃のダメージが攻撃力×360%になる。　/Lv3 攻撃力の減少量が20％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "薬の開発に失敗して生まれた謎の液体で、ランダムな敵1体に攻撃力×320％の魔法攻撃を行う。副作用で、2ターンの間対象の攻撃力を10％減少させる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "魔法攻撃のダメージが攻撃力×360%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "攻撃力の減少量が20％になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 32002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription320021]",
+          "descriptions": {
+            "zh-CN": "诗寇蒂用疗愈的芳香精油为同伴消除疲劳，使当前生命值最低的2名友军恢复诗寇蒂魔力×210%的生命值。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "癒しのアロマで仲間の疲労を回復、現在HPが低い味方2体のHPを自身の魔力×210％回復する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription320022]",
+          "descriptions": {
+            "zh-CN": "生命值恢复量提升为诗寇蒂魔力×230%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "HPの回復量が自身の魔力×230％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription320023]",
+          "descriptions": {
+            "zh-CN": "使技能目标额外增加20%速度，效果持续2回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらに2ターンの間対象のスピードを20％増加させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[ActiveSkillDescription320024]",
+          "descriptions": {
+            "zh-CN": "技能目标增加为当前生命值最低的3名友军。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "このスキルの対象が現在HPが低い味方3体になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription320021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              32002001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription320022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              32002201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription320023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              32002301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[ActiveSkillDescription320024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              32002401
+            ]
+          }
+        ],
+        "Id": 32002,
+        "IsIgnore": null,
+        "Memo": "スクルドR: /Lv1　癒しのアロマで仲間の疲労を回復、現在HPが低い味方2体のHPを自身の魔力×210％回復する。　/Lv2 HPの回復量が自身の魔力×230％になる。　/Lv3 さらに2ターンの間対象のスピードを20％増加させる。　/Lv4 このスキルの対象が現在HPが低い味方3体になる。",
+        "NameKey": "[ActiveSkillName32002]",
+        "RootActiveSkillId": 32002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName32002]",
+      "names": {
+        "zh-CN": "芳香治疗"
+      },
+      "source_memo_ja": "スクルドR: /Lv1　癒しのアロマで仲間の疲労を回復、現在HPが低い味方2体のHPを自身の魔力×210％回復する。　/Lv2 HPの回復量が自身の魔力×230％になる。　/Lv3 さらに2ターンの間対象のスピードを20％増加させる。　/Lv4 このスキルの対象が現在HPが低い味方3体になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "癒しのアロマで仲間の疲労を回復、現在HPが低い味方2体のHPを自身の魔力×210％回復する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "HPの回復量が自身の魔力×230％になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらに2ターンの間対象のスピードを20％増加させる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "このスキルの対象が現在HPが低い味方3体になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 58,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 58,
+            "CollectionLevel": 1,
+            "Id": 5801,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 1,
+            "Memo": "アルニラムの開花(イリア,アリアンロッド,ザラ,スクルド)"
+          },
+          "max_level_increase": 1
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 58,
+            "CollectionLevel": 2,
+            "Id": 5802,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 3,
+            "Memo": "アルニラムの開花(イリア,アリアンロッド,ザラ,スクルド)"
+          },
+          "max_level_increase": 3
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 58,
+            "CollectionLevel": 3,
+            "Id": 5803,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 5,
+            "Memo": "アルニラムの開花(イリア,アリアンロッド,ザラ,スクルド)"
+          },
+          "max_level_increase": 5
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 58,
+        "IsIgnore": null,
+        "Memo": "アルニラムの開花(イリア,アリアンロッド,ザラ,スクルド)",
+        "NameKey": "[CharacterCollectionName58]",
+        "RequiredCharacterIds": [
+          2,
+          12,
+          22,
+          32
+        ],
+        "RequiredPartyLv": 300,
+        "StartTimeFixJST": "2024-10-18 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName58]",
+      "names": {
+        "zh-CN": "串绳星的绽放"
+      },
+      "required_character_ids": [
+        2,
+        12,
+        22,
+        32
+      ],
+      "required_characters": [
+        {
+          "id": 2,
+          "names": {
+            "zh-CN": "伊利亚"
+          }
+        },
+        {
+          "id": 12,
+          "names": {
+            "zh-CN": "阿丽安萝德"
+          }
+        },
+        {
+          "id": 22,
+          "names": {
+            "zh-CN": "萨拉"
+          }
+        },
+        {
+          "id": 32,
+          "names": {
+            "zh-CN": "诗寇蒂"
+          }
+        }
+      ],
+      "required_party_level": 300,
+      "start_time_jst": "2024-10-18 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 4,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 32,
+    "job_flags": 4,
+    "master_record": {
+      "ActiveSkillIds": [
+        32001,
+        32002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 79,
+        "Health": 92,
+        "Intelligence": 90,
+        "Muscle": 79
+      },
+      "BaseParameterGrossCoefficient": 340,
+      "CharacterType": 0,
+      "ElementType": 4,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 32,
+      "InitialBattleParameter": {
+        "AttackPower": -4,
+        "Avoidance": 2,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 10,
+        "DefensePenetration": 0,
+        "HP": -2,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 4,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 2590
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 32,
+      "JobFlags": 4,
+      "Memo": "スクルド",
+      "Name2Key": null,
+      "NameKey": "[CharacterName32]",
+      "NormalSkillId": 102,
+      "PassiveSkillIds": [
+        32003
+      ],
+      "RarityFlags": 2,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2020-01-01 00:00:00"
+    },
+    "memo": "スクルド",
+    "name_key": "[CharacterName32]",
+    "names": {
+      "zh-CN": "诗寇蒂"
+    },
+    "speed": 2590,
+    "start_time_jst": "2020-01-01 00:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": null,
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 32003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription320031]",
+          "descriptions": {
+            "zh-CN": "经过不断改良而成的特制汤药，具有消除疲劳、强身健体的功效，使诗寇蒂增加20%最大生命值（无法被解除）。口感风味，概不保证。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "改良に改良を重ねて生み出した、疲労回復・スタミナ向上の特製薬湯で、自身の最大HPが20％増加する（解除不可）。ただし味は保証しない。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[PassiveSkillDescription320032]",
+          "descriptions": {
+            "zh-CN": "最大生命值增幅提升为30%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "最大HPの増加量が30％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 32003,
+        "IsIgnore": null,
+        "Memo": "スクルドR: /Lv1　改良に改良を重ねて生み出した、疲労回復・スタミナ向上の特製薬湯で、自身の最大HPが20％増加する（解除不可）。ただし味は保証しない。　/Lv2 最大HPの増加量が30％になる。",
+        "NameKey": "[PassiveSkillName32003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription320031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 32003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[PassiveSkillDescription320032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 32003201
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName32003]",
+      "names": {
+        "zh-CN": "诗寇蒂特调"
+      },
+      "source_memo_ja": "スクルドR: /Lv1　改良に改良を重ねて生み出した、疲労回復・スタミナ向上の特製薬湯で、自身の最大HPが20％増加する（解除不可）。ただし味は保証しない。　/Lv2 最大HPの増加量が30％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "改良に改良を重ねて生み出した、疲労回復・スタミナ向上の特製薬湯で、自身の最大HPが20％増加する（解除不可）。ただし味は保証しない。"
+        },
+        {
+          "label": "Lv2",
+          "text": "最大HPの増加量が30％になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

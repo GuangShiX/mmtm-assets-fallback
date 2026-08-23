@@ -1,0 +1,1301 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 52001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription520011]",
+          "descriptions": {
+            "zh-CN": "主人面临的处境越危险，黑剑释放的力量越强大，使希维增加20%输出伤害，效果持续4回合。输出伤害增幅根据附加目标在本回合内受过的攻击次数提升，依序为36%、48%、56%、60%（最多4次）。再对攻击力最高的敌人造成攻击力×980%的物理伤害，使希维恢复技能总伤害×30%的生命值。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "主に迫る危険が大きいほど、剣はより強く覚醒する。4ターンの間自身の与ダメージが20%増加する。このターン中に対象が攻撃によるダメージを受けた回数によって与ダメージの増加量は上昇し、36%、48%、56%、60%の順に大きくなる（最大4回まで）。その後攻撃力が最も高い敵に攻撃力×980%の物理攻撃を行い、自身のHPをこのスキルの総与ダメージ×30%回復する。/ Lv2\\n 『与ダメージ増加』の対象が自身と自身以外のスピードが低い味方2体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription520012]",
+          "descriptions": {
+            "zh-CN": "「输出伤害上升」的附加目标增加为希维与速度最低的2名友军。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "与ダメージの増加量が25％になる。このターン中に対象が攻撃によるダメージを受けた回数によって与ダメージの増加量は上昇し、45%、60%、70%、75%の順に大きくなる（最大4回まで）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription520013]",
+          "descriptions": {
+            "zh-CN": "输出伤害增幅提升为25%。增幅根据附加目标在本回合内受过的攻击次数提升，依序为45%、60%、70%、75%（最多4次）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "リアクティブブレイドを強化する。物理攻撃のダメージが攻撃力×1170%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription520014]",
+          "descriptions": {
+            "zh-CN": ""
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "\\nリアクティブブレイドを強化する。与ダメージの増加量が30％になる。このターン中に対象が攻撃によるダメージを受けた回数によって与ダメージの増加量は上昇し、54%、72%、84%、90%の順に大きくなる（最大4回まで）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription520015]",
+          "descriptions": {
+            "zh-CN": ""
+          },
+          "equipment_rarity_flags": 256,
+          "order": 5,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription520011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              52001001,
+              52001003,
+              52001004
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription520012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              52001001,
+              52001202,
+              52001003,
+              52001004
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription520013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              52001301,
+              52001302,
+              52001003,
+              52001004
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription520014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              52001301,
+              52001302,
+              52001403,
+              52001004
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription520015]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              52001501,
+              52001502,
+              52001403,
+              52001004
+            ]
+          }
+        ],
+        "Id": 52001,
+        "IsIgnore": null,
+        "Memo": "シヴィSR:Lv1 主に迫る危険が大きいほど、剣はより強く覚醒する。4ターンの間自身の与ダメージが20%増加する。このターン中に対象が攻撃によるダメージを受けた回数によって与ダメージの増加量は上昇し、36%、48%、56%、60%の順に大きくなる（最大4回まで）。その後攻撃力が最も高い敵に攻撃力×980%の物理攻撃を行い、自身のHPをこのスキルの総与ダメージ×30%回復する。/ Lv2\\n 『与ダメージ増加』の対象が自身と自身以外のスピードが低い味方2体になる。/ Lv3 与ダメージの増加量が25％になる。このターン中に対象が攻撃によるダメージを受けた回数によって与ダメージの増加量は上昇し、45%、60%、70%、75%の順に大きくなる（最大4回まで）。/ Ex1 リアクティブブレイドを強化する。物理攻撃のダメージが攻撃力×1170%になる。/Ex2 \\nリアクティブブレイドを強化する。与ダメージの増加量が30％になる。このターン中に対象が攻撃によるダメージを受けた回数によって与ダメージの増加量は上昇し、54%、72%、84%、90%の順に大きくなる（最大4回まで）。",
+        "NameKey": "[ActiveSkillName52001]",
+        "RootActiveSkillId": 52001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName52001]",
+      "names": {
+        "zh-CN": "反击之剑"
+      },
+      "source_memo_ja": "シヴィSR:Lv1 主に迫る危険が大きいほど、剣はより強く覚醒する。4ターンの間自身の与ダメージが20%増加する。このターン中に対象が攻撃によるダメージを受けた回数によって与ダメージの増加量は上昇し、36%、48%、56%、60%の順に大きくなる（最大4回まで）。その後攻撃力が最も高い敵に攻撃力×980%の物理攻撃を行い、自身のHPをこのスキルの総与ダメージ×30%回復する。/ Lv2\\n 『与ダメージ増加』の対象が自身と自身以外のスピードが低い味方2体になる。/ Lv3 与ダメージの増加量が25％になる。このターン中に対象が攻撃によるダメージを受けた回数によって与ダメージの増加量は上昇し、45%、60%、70%、75%の順に大きくなる（最大4回まで）。/ Ex1 リアクティブブレイドを強化する。物理攻撃のダメージが攻撃力×1170%になる。/Ex2 \\nリアクティブブレイドを強化する。与ダメージの増加量が30％になる。このターン中に対象が攻撃によるダメージを受けた回数によって与ダメージの増加量は上昇し、54%、72%、84%、90%の順に大きくなる（最大4回まで）。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "主に迫る危険が大きいほど、剣はより強く覚醒する。4ターンの間自身の与ダメージが20%増加する。このターン中に対象が攻撃によるダメージを受けた回数によって与ダメージの増加量は上昇し、36%、48%、56%、60%の順に大きくなる（最大4回まで）。その後攻撃力が最も高い敵に攻撃力×980%の物理攻撃を行い、自身のHPをこのスキルの総与ダメージ×30%回復する。/ Lv2\\n 『与ダメージ増加』の対象が自身と自身以外のスピードが低い味方2体になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "与ダメージの増加量が25％になる。このターン中に対象が攻撃によるダメージを受けた回数によって与ダメージの増加量は上昇し、45%、60%、70%、75%の順に大きくなる（最大4回まで）。"
+        },
+        {
+          "label": "Ex1",
+          "text": "リアクティブブレイドを強化する。物理攻撃のダメージが攻撃力×1170%になる。"
+        },
+        {
+          "label": "Ex2",
+          "text": "\\nリアクティブブレイドを強化する。与ダメージの増加量が30％になる。このターン中に対象が攻撃によるダメージを受けた回数によって与ダメージの増加量は上昇し、54%、72%、84%、90%の順に大きくなる（最大4回まで）。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 52002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription520021]",
+          "descriptions": {
+            "zh-CN": "漆黑的利剑吸取对手的生命，并转移到主人的同伴身上，随机对3名敌人造成攻击力×310%的物理伤害，使速度最低的友军恢复技能总伤害×15%的生命值。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "その黒き刃は命を吸い取り、主の仲間へと分け与える。ランダムな敵3体に攻撃力×310%の物理攻撃を行い、スピードが最も低い味方のHPをこのスキルの総与ダメージ×15%回復する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription520022]",
+          "descriptions": {
+            "zh-CN": "额外解除速度最低的友军身上的所有弱化效果。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "\\nさらにスピードが最も低い味方の弱体効果を全て解除する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription520023]",
+          "descriptions": {
+            "zh-CN": "生命值恢复与弱化效果解除目标增加为速度最低的3名友军。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "\\nHP回復と弱体効果解除の対象がスピードが低い味方3体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription520024]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×530%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "\\n物理攻撃のダメージが攻撃力×530%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription520025]",
+          "descriptions": {
+            "zh-CN": ""
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "アブソーブブレイドを強化する。物理攻撃の対象がランダムな敵4体になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription520021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              52002001,
+              52002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription520022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              52002001,
+              52002202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription520023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              52002001,
+              52002302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription520024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              52002401,
+              52002302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription520025]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              52002501,
+              52002302
+            ]
+          }
+        ],
+        "Id": 52002,
+        "IsIgnore": null,
+        "Memo": "シヴィSR: Lv1 その黒き刃は命を吸い取り、主の仲間へと分け与える。ランダムな敵3体に攻撃力×310%の物理攻撃を行い、スピードが最も低い味方のHPをこのスキルの総与ダメージ×15%回復する。/ Lv2 \\nさらにスピードが最も低い味方の弱体効果を全て解除する。/Lv3 \\nHP回復と弱体効果解除の対象がスピードが低い味方3体になる。/Lv4 \\n物理攻撃のダメージが攻撃力×530%になる。/ Ex3 アブソーブブレイドを強化する。物理攻撃の対象がランダムな敵4体になる。",
+        "NameKey": "[ActiveSkillName52002]",
+        "RootActiveSkillId": 52002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName52002]",
+      "names": {
+        "zh-CN": "噬命之剑"
+      },
+      "source_memo_ja": "シヴィSR: Lv1 その黒き刃は命を吸い取り、主の仲間へと分け与える。ランダムな敵3体に攻撃力×310%の物理攻撃を行い、スピードが最も低い味方のHPをこのスキルの総与ダメージ×15%回復する。/ Lv2 \\nさらにスピードが最も低い味方の弱体効果を全て解除する。/Lv3 \\nHP回復と弱体効果解除の対象がスピードが低い味方3体になる。/Lv4 \\n物理攻撃のダメージが攻撃力×530%になる。/ Ex3 アブソーブブレイドを強化する。物理攻撃の対象がランダムな敵4体になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "その黒き刃は命を吸い取り、主の仲間へと分け与える。ランダムな敵3体に攻撃力×310%の物理攻撃を行い、スピードが最も低い味方のHPをこのスキルの総与ダメージ×15%回復する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "\\nさらにスピードが最も低い味方の弱体効果を全て解除する。"
+        },
+        {
+          "label": "Lv3",
+          "text": "\\nHP回復と弱体効果解除の対象がスピードが低い味方3体になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "\\n物理攻撃のダメージが攻撃力×530%になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "アブソーブブレイドを強化する。物理攻撃の対象がランダムな敵4体になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 15,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 15.0,
+              "value_text": "+15×角色等级"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 15.0
+              }
+            ],
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 15,
+            "CollectionLevel": 1,
+            "Id": 1501,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "コルウスの吐息(シヴィ,トロポン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 15.0,
+              "value_text": "+15×角色等级"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 15.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 15,
+            "CollectionLevel": 2,
+            "Id": 1502,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "コルウスの吐息(シヴィ,トロポン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 15.0,
+              "value_text": "+15×角色等级"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 15.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 15,
+            "CollectionLevel": 3,
+            "Id": 1503,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "コルウスの吐息(シヴィ,トロポン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 15.0,
+              "value_text": "+15×角色等级"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 15.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 15,
+            "CollectionLevel": 4,
+            "Id": 1504,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "コルウスの吐息(シヴィ,トロポン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 31.0,
+              "value_text": "+31×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 16.0,
+              "value_text": "+16×角色等级"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 31.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 16.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 15,
+            "CollectionLevel": 5,
+            "Id": 1505,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "コルウスの吐息(シヴィ,トロポン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 32.0,
+              "value_text": "+32×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 17.0,
+              "value_text": "+17×角色等级"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 32.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 17.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 15,
+            "CollectionLevel": 6,
+            "Id": 1506,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "コルウスの吐息(シヴィ,トロポン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 33.0,
+              "value_text": "+33×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 18.0,
+              "value_text": "+18×角色等级"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 33.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 18.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 15,
+            "CollectionLevel": 7,
+            "Id": 1507,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "コルウスの吐息(シヴィ,トロポン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 34.0,
+              "value_text": "+34×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 19.0,
+              "value_text": "+19×角色等级"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 34.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 19.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 15,
+            "CollectionLevel": 8,
+            "Id": 1508,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "コルウスの吐息(シヴィ,トロポン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 35.0,
+              "value_text": "+35×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 20.0,
+              "value_text": "+20×角色等级"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 35.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 20.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 15,
+            "CollectionLevel": 9,
+            "Id": 1509,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "コルウスの吐息(シヴィ,トロポン)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 15,
+        "IsIgnore": null,
+        "Memo": "コルウスの吐息(シヴィ,トロポン)",
+        "NameKey": "[CharacterCollectionName15]",
+        "RequiredCharacterIds": [
+          52,
+          36
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2023-05-15 15:00:00"
+      },
+      "name_key": "[CharacterCollectionName15]",
+      "names": {
+        "zh-CN": "乌鸦座的叹息"
+      },
+      "required_character_ids": [
+        52,
+        36
+      ],
+      "required_characters": [
+        {
+          "id": 52,
+          "names": {
+            "zh-CN": "希维"
+          }
+        },
+        {
+          "id": 36,
+          "names": {
+            "zh-CN": "托波波"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2023-05-15 15:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 1,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 52,
+    "job_flags": 1,
+    "master_record": {
+      "ActiveSkillIds": [
+        52001,
+        52002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 80,
+        "Health": 93,
+        "Intelligence": 78,
+        "Muscle": 92
+      },
+      "BaseParameterGrossCoefficient": 343,
+      "CharacterType": 0,
+      "ElementType": 1,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 52,
+      "InitialBattleParameter": {
+        "AttackPower": 0,
+        "Avoidance": 0,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 12,
+        "DefensePenetration": 0,
+        "HP": 4,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": -2,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 2855
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 1,
+      "Memo": "シヴィ",
+      "Name2Key": null,
+      "NameKey": "[CharacterName52]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        52003,
+        52004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2023-05-15 15:00:00"
+    },
+    "memo": "シヴィ",
+    "name_key": "[CharacterName52]",
+    "names": {
+      "zh-CN": "希维"
+    },
+    "speed": 2855,
+    "start_time_jst": "2023-05-15 15:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 3916,
+    "exclusive_effect_id": 234,
+    "icon_id": 416,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 3917,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 71,
+        "EquipmentEvolutionId": 81,
+        "EquipmentExclusiveSkillDescriptionId": 39,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 1,
+        "ExclusiveEffectId": 234,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 416,
+        "Id": 3916,
+        "IsIgnore": null,
+        "Memo": "シヴィLR240_剣",
+        "NameKey": "[EquipmentName404]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": [
+          {
+            "BaseParameterType": 4,
+            "ChangeParameterType": 2,
+            "Value": 800.0
+          }
+        ],
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 13,
+            "ChangeParameterType": 2,
+            "Value": 500.0
+          }
+        ],
+        "CharacterId": 52,
+        "Id": 234,
+        "IsIgnore": null,
+        "Memo": "シヴィLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill52Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill52Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill52Description3]",
+        "Id": 39,
+        "IsIgnore": null,
+        "Memo": "シヴィ剣"
+      }
+    },
+    "name_key": "[EquipmentName404]",
+    "names": {
+      "zh-CN": "日升者"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "base",
+        "parameter_code": "Health",
+        "parameter_type": 4,
+        "raw_value": 800.0,
+        "value_text": "+8%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Defense",
+        "parameter_type": 13,
+        "raw_value": 500.0,
+        "value_text": "+5%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill52Description1]",
+        "descriptions": {
+          "zh-CN": "强化反击之剑，造成的物理伤害提升为攻击力×1170%。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill52Description2]",
+        "descriptions": {
+          "zh-CN": "强化反击之剑，输出伤害增幅提升为30%。增幅根据附加目标在本回合内受过的攻击次数提升，依序为54%、72%、84%、90%（最多4次）。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill52Description3]",
+        "descriptions": {
+          "zh-CN": "强化噬命之剑，攻击目标增加为4名随机敌人。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 52003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription520031]",
+          "descriptions": {
+            "zh-CN": "“打架好麻烦哦我不想打架，希望其他人可以多加把劲。”黑剑感知到主人的心愿，将它的力量分给其他同伴，使希维与附近的1名友军增加25%防御力与物理防御力（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "戦うのは苦手だし面倒だから、みんなに頑張ってもらいたいっす。という主の願いを受けて剣が仲間にも力を付与し、自身と自身に隣接する味方1体の防御力と物理防御力がそれぞれ25%増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription520032]",
+          "descriptions": {
+            "zh-CN": "技能目标增加为希维与附近的2名友军。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "\\nこのスキルの対象が自身と自身に隣接する味方2体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription520033]",
+          "descriptions": {
+            "zh-CN": "希维的防御力与物理防御力增幅提升为100%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "\\n自身のみ防御力と物理防御力の増加量がそれぞれ100%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 52003,
+        "IsIgnore": null,
+        "Memo": "シヴィSR:Lv1 戦うのは苦手だし面倒だから、みんなに頑張ってもらいたいっす。という主の願いを受けて剣が仲間にも力を付与し、自身と自身に隣接する味方1体の防御力と物理防御力がそれぞれ25%増加する（解除不可）。/ Lv2 \\nこのスキルの対象が自身と自身に隣接する味方2体になる。/ Lv3 \\n自身のみ防御力と物理防御力の増加量がそれぞれ100%になる。",
+        "NameKey": "[PassiveSkillName52003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription520031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 52003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription520032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 52003201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription520033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 52003301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName52003]",
+      "names": {
+        "zh-CN": "加把劲啊各位！"
+      },
+      "source_memo_ja": "シヴィSR:Lv1 戦うのは苦手だし面倒だから、みんなに頑張ってもらいたいっす。という主の願いを受けて剣が仲間にも力を付与し、自身と自身に隣接する味方1体の防御力と物理防御力がそれぞれ25%増加する（解除不可）。/ Lv2 \\nこのスキルの対象が自身と自身に隣接する味方2体になる。/ Lv3 \\n自身のみ防御力と物理防御力の増加量がそれぞれ100%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "戦うのは苦手だし面倒だから、みんなに頑張ってもらいたいっす。という主の願いを受けて剣が仲間にも力を付与し、自身と自身に隣接する味方1体の防御力と物理防御力がそれぞれ25%増加する（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "\\nこのスキルの対象が自身と自身に隣接する味方2体になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "\\n自身のみ防御力と物理防御力の増加量がそれぞれ100%になる。"
+        }
+      ]
+    },
+    {
+      "id": 52004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription520041]",
+          "descriptions": {
+            "zh-CN": "在完成使命之前，黑剑会始终守护着它的主人。当希维被附加主动技能造成的弱化效果，且身上附带2种以上弱化效果时，触发技能解除所有弱化效果。此技能须在结束4次行动后才可再次触发。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "剣は主を守護し続ける。その使命を全うするまで。自身が弱体効果を受けて、自身が付帯している弱体効果の個数が2以上の場合、自身の弱体効果を全て解除する。このスキルは4ターンに1回発動する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription520042]",
+          "descriptions": {
+            "zh-CN": "额外减少15%自身承受伤害，效果持续3回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "\\nさらに3ターンの間自身の被ダメージが15%減少する。/ Lv3\\n被ダメージの減少量が30%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription520043]",
+          "descriptions": {
+            "zh-CN": "承受伤害降幅提升为30%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "Id": 52004,
+        "IsIgnore": null,
+        "Memo": "シヴィSR:Lv1 剣は主を守護し続ける。その使命を全うするまで。自身が弱体効果を受けて、自身が付帯している弱体効果の個数が2以上の場合、自身の弱体効果を全て解除する。このスキルは4ターンに1回発動する。/ Lv2 \\nさらに3ターンの間自身の被ダメージが15%減少する。/ Lv3\\n被ダメージの減少量が30%になる。",
+        "NameKey": "[PassiveSkillName52004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription520041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 11,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 52004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription520042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 11,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 52004201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription520043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 11,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 52004301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName52004]",
+      "names": {
+        "zh-CN": "魔剑的守护"
+      },
+      "source_memo_ja": "シヴィSR:Lv1 剣は主を守護し続ける。その使命を全うするまで。自身が弱体効果を受けて、自身が付帯している弱体効果の個数が2以上の場合、自身の弱体効果を全て解除する。このスキルは4ターンに1回発動する。/ Lv2 \\nさらに3ターンの間自身の被ダメージが15%減少する。/ Lv3\\n被ダメージの減少量が30%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "剣は主を守護し続ける。その使命を全うするまで。自身が弱体効果を受けて、自身が付帯している弱体効果の個数が2以上の場合、自身の弱体効果を全て解除する。このスキルは4ターンに1回発動する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "\\nさらに3ターンの間自身の被ダメージが15%減少する。/ Lv3\\n被ダメージの減少量が30%になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

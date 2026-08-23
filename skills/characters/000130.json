@@ -1,0 +1,1392 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 130001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription1300011]",
+          "descriptions": {
+            "zh-CN": "“需要我提供知识吗？”艾谢使自己受到当前生命值×10%的自损伤害，随机对敌人进行3次攻击，每次造成攻击力×300%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「私の知識が必要かしら？」自身に自身の現在HP×10%の自傷ダメージを与え、ランダムな敵に3回攻撃力×300%の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription1300012]",
+          "descriptions": {
+            "zh-CN": "攻击结束后，如果艾谢身上附带的「解析」达3层以上，再次发动此技能（最多1次）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに最後の物理攻撃の後自身の『解析』のスタック数が3以上の場合、このスキルを再発動する（再発動は1回まで）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1300013]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×610%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃のダメージが攻撃力×610%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1300014]",
+          "descriptions": {
+            "zh-CN": "强化睿智的信标，攻击次数增加为4次。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "英知の標を強化する。物理攻撃の回数が4回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription1300015]",
+          "descriptions": {
+            "zh-CN": "强化睿智的信标，造成的物理伤害提升为攻击力×670%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "英知の標を強化する。物理攻撃のダメージが攻撃力×670%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription1300011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              130001001,
+              130001002,
+              130001003,
+              130001003
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription1300012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              130001001,
+              130001002,
+              130001003,
+              130001003,
+              130001204,
+              130001205,
+              130001205,
+              130001205
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1300013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              130001001,
+              130001302,
+              130001303,
+              130001303,
+              130001204,
+              130001305,
+              130001305,
+              130001305
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1300014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              130001001,
+              130001302,
+              130001303,
+              130001303,
+              130001303,
+              130001204,
+              130001305,
+              130001305,
+              130001305,
+              130001305
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription1300015]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              130001001,
+              130001502,
+              130001503,
+              130001503,
+              130001503,
+              130001204,
+              130001505,
+              130001505,
+              130001505,
+              130001505
+            ]
+          }
+        ],
+        "Id": 130001,
+        "IsIgnore": null,
+        "Memo": "アイシェSR:Lv1 「私の知識が必要かしら？」自身に自身の現在HP×10%の自傷ダメージを与え、ランダムな敵に3回攻撃力×300%の物理攻撃を行う。/ Lv2 さらに最後の物理攻撃の後自身の『解析』のスタック数が3以上の場合、このスキルを再発動する（再発動は1回まで）。/ Lv3 物理攻撃のダメージが攻撃力×610%になる。/ Ex1 英知の標を強化する。物理攻撃の回数が4回になる。/ Ex3 英知の標を強化する。物理攻撃のダメージが攻撃力×670%になる。",
+        "NameKey": "[ActiveSkillName130001]",
+        "RootActiveSkillId": 130001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName130001]",
+      "names": {
+        "zh-CN": "睿智的信标"
+      },
+      "source_memo_ja": "アイシェSR:Lv1 「私の知識が必要かしら？」自身に自身の現在HP×10%の自傷ダメージを与え、ランダムな敵に3回攻撃力×300%の物理攻撃を行う。/ Lv2 さらに最後の物理攻撃の後自身の『解析』のスタック数が3以上の場合、このスキルを再発動する（再発動は1回まで）。/ Lv3 物理攻撃のダメージが攻撃力×610%になる。/ Ex1 英知の標を強化する。物理攻撃の回数が4回になる。/ Ex3 英知の標を強化する。物理攻撃のダメージが攻撃力×670%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「私の知識が必要かしら？」自身に自身の現在HP×10%の自傷ダメージを与え、ランダムな敵に3回攻撃力×300%の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに最後の物理攻撃の後自身の『解析』のスタック数が3以上の場合、このスキルを再発動する（再発動は1回まで）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃のダメージが攻撃力×610%になる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "英知の標を強化する。物理攻撃の回数が4回になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "英知の標を強化する。物理攻撃のダメージが攻撃力×670%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 130002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription1300021]",
+          "descriptions": {
+            "zh-CN": "“发现弱点！”艾谢使自己受到当前生命值×20%的自损伤害，随机对敌人进行3次攻击，每次造成攻击力×400%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「弱点はそこね！」自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵に3回攻撃力×400%の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription1300022]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×760%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "物理攻撃のダメージが攻撃力×760%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription1300023]",
+          "descriptions": {
+            "zh-CN": "技能目标的生命值百分比越高，造成的物理伤害越高（最多攻击力×1520%）。生命值百分比在每次攻击结束后重新进行判定。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらに対象のHP割合が高くなるほど物理攻撃のダメージが大きくなる（最大攻撃力×1520%まで）。ただしHP割合の判定は攻撃1回ごとに行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription1300024]",
+          "descriptions": {
+            "zh-CN": "攻击次数增加为5次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "物理攻撃の回数が5回になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription1300021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              130002001,
+              130002002,
+              130002003,
+              130002003
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription1300022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              130002001,
+              130002202,
+              130002203,
+              130002203
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription1300023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              130002001,
+              130002302,
+              130002303,
+              130002303
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription1300024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              130002001,
+              130002402,
+              130002403,
+              130002403,
+              130002403,
+              130002403
+            ]
+          }
+        ],
+        "Id": 130002,
+        "IsIgnore": null,
+        "Memo": "アイシェSR:Lv1 「弱点はそこね！」自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵に3回攻撃力×400%の物理攻撃を行う。/ Lv2 物理攻撃のダメージが攻撃力×760%になる。/ Lv3 さらに対象のHP割合が高くなるほど物理攻撃のダメージが大きくなる（最大攻撃力×1520%まで）。ただしHP割合の判定は攻撃1回ごとに行う。/ Lv4 物理攻撃の回数が5回になる。",
+        "NameKey": "[ActiveSkillName130002]",
+        "RootActiveSkillId": 130002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName130002]",
+      "names": {
+        "zh-CN": "机关智识环"
+      },
+      "source_memo_ja": "アイシェSR:Lv1 「弱点はそこね！」自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵に3回攻撃力×400%の物理攻撃を行う。/ Lv2 物理攻撃のダメージが攻撃力×760%になる。/ Lv3 さらに対象のHP割合が高くなるほど物理攻撃のダメージが大きくなる（最大攻撃力×1520%まで）。ただしHP割合の判定は攻撃1回ごとに行う。/ Lv4 物理攻撃の回数が5回になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「弱点はそこね！」自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵に3回攻撃力×400%の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "物理攻撃のダメージが攻撃力×760%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらに対象のHP割合が高くなるほど物理攻撃のダメージが大きくなる（最大攻撃力×1520%まで）。ただしHP割合の判定は攻撃1回ごとに行う。"
+        },
+        {
+          "label": "Lv4",
+          "text": "物理攻撃の回数が5回になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 83,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 20.0,
+              "value_text": "+20×角色等级"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 20.0
+              }
+            ],
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 83,
+            "CollectionLevel": 1,
+            "Id": 8301,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "インドゥスの知己(アイシェ,リヴェリア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 83,
+            "CollectionLevel": 2,
+            "Id": 8302,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "インドゥスの知己(アイシェ,リヴェリア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 83,
+            "CollectionLevel": 3,
+            "Id": 8303,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "インドゥスの知己(アイシェ,リヴェリア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 83,
+            "CollectionLevel": 4,
+            "Id": 8304,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "インドゥスの知己(アイシェ,リヴェリア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 41.0,
+              "value_text": "+41×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 210.0,
+              "value_text": "+2.1%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 41.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 210.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 83,
+            "CollectionLevel": 5,
+            "Id": 8305,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "インドゥスの知己(アイシェ,リヴェリア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 42.0,
+              "value_text": "+42×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 220.0,
+              "value_text": "+2.2%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 42.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 220.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 83,
+            "CollectionLevel": 6,
+            "Id": 8306,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "インドゥスの知己(アイシェ,リヴェリア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 43.0,
+              "value_text": "+43×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 230.0,
+              "value_text": "+2.3%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 43.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 230.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 83,
+            "CollectionLevel": 7,
+            "Id": 8307,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "インドゥスの知己(アイシェ,リヴェリア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 44.0,
+              "value_text": "+44×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 240.0,
+              "value_text": "+2.4%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 44.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 240.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 83,
+            "CollectionLevel": 8,
+            "Id": 8308,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "インドゥスの知己(アイシェ,リヴェリア)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 45.0,
+              "value_text": "+45×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 250.0,
+              "value_text": "+2.5%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 45.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 83,
+            "CollectionLevel": 9,
+            "Id": 8309,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "インドゥスの知己(アイシェ,リヴェリア)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 83,
+        "IsIgnore": null,
+        "Memo": "インドゥスの知己(アイシェ,リヴェリア)",
+        "NameKey": "[CharacterCollectionName83]",
+        "RequiredCharacterIds": [
+          130,
+          128
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2025-11-13 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName83]",
+      "names": {
+        "zh-CN": "印第安座的知己"
+      },
+      "required_character_ids": [
+        130,
+        128
+      ],
+      "required_characters": [
+        {
+          "id": 130,
+          "names": {
+            "zh-CN": "艾谢"
+          }
+        },
+        {
+          "id": 128,
+          "names": {
+            "zh-CN": "利伯瑞娅"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2025-11-13 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 2,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 130,
+    "job_flags": 2,
+    "master_record": {
+      "ActiveSkillIds": [
+        130001,
+        130002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 102,
+        "Health": 58,
+        "Intelligence": 78,
+        "Muscle": 89
+      },
+      "BaseParameterGrossCoefficient": 327,
+      "CharacterType": 0,
+      "ElementType": 2,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 130,
+      "InitialBattleParameter": {
+        "AttackPower": 5,
+        "Avoidance": 0,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 7,
+        "DefensePenetration": 0,
+        "HP": -2,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 3424
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 2,
+      "Memo": "アイシェ",
+      "Name2Key": null,
+      "NameKey": "[CharacterName130]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        130003,
+        130004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2025-11-13 15:00:00"
+    },
+    "memo": "アイシェ",
+    "name_key": "[CharacterName130]",
+    "names": {
+      "zh-CN": "艾谢"
+    },
+    "speed": 3424,
+    "start_time_jst": "2025-11-13 15:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 1301120240,
+    "exclusive_effect_id": 582,
+    "icon_id": 884,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 1301120250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 129,
+        "EquipmentEvolutionId": 139,
+        "EquipmentExclusiveSkillDescriptionId": 97,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 2,
+        "ExclusiveEffectId": 582,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 884,
+        "Id": 1301120240,
+        "IsIgnore": null,
+        "Memo": "アイシェLR240_銃",
+        "NameKey": "[EquipmentName879]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": null,
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 5,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          },
+          {
+            "BattleParameterType": 10,
+            "ChangeParameterType": 1,
+            "Value": 3500.0
+          }
+        ],
+        "CharacterId": 130,
+        "Id": 582,
+        "IsIgnore": null,
+        "Memo": "アイシェLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill130Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill130Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill130Description3]",
+        "Id": 97,
+        "IsIgnore": null,
+        "Memo": "アイシェ銃"
+      }
+    },
+    "name_key": "[EquipmentName879]",
+    "names": {
+      "zh-CN": "贤知仪"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Hit",
+        "parameter_type": 5,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      },
+      {
+        "change_parameter_type": 1,
+        "kind": "battle",
+        "parameter_code": "PhysicalCriticalDamageRelax",
+        "parameter_type": 10,
+        "raw_value": 3500.0,
+        "value_text": "+3,500"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill130Description1]",
+        "descriptions": {
+          "zh-CN": "强化睿智的信标，攻击次数增加为4次。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill130Description2]",
+        "descriptions": {
+          "zh-CN": "强化原理解读者，攻击力增幅提升为10%。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill130Description3]",
+        "descriptions": {
+          "zh-CN": "强化睿智的信标，造成的物理伤害提升为攻击力×670%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 130003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription1300031]",
+          "descriptions": {
+            "zh-CN": "知识是为了丰富每一个人的生活——当艾谢或友军受到自损伤害时，艾谢获得1层「解析」（最多6层）（无法被解除）。每层「解析」使艾谢增加3%攻击力。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "知識は人々の生活を豊かにするためにあるのよ──自身か味方が自傷ダメージを受けた場合、自身に『解析』を1スタック付与する（最大6スタックまで）（解除不可）。このバフは1スタックにつき自身の攻撃力を3%増加させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription1300032]",
+          "descriptions": {
+            "zh-CN": "当「解析」的叠加数达6层时，使艾谢额外增加15%速度（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに『解析』のスタック数が6になった場合、自身のスピードが15%増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription1300033]",
+          "descriptions": {
+            "zh-CN": "速度增幅提升为30%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "スピードの増加量が30%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription1300034]",
+          "descriptions": {
+            "zh-CN": "强化原理解读者，攻击力增幅提升为10%。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "理の解読者を強化する。攻撃力の増加量が10%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 130003,
+        "IsIgnore": null,
+        "Memo": "アイシェSR:Lv1 知識は人々の生活を豊かにするためにあるのよ──自身か味方が自傷ダメージを受けた場合、自身に『解析』を1スタック付与する（最大6スタックまで）（解除不可）。このバフは1スタックにつき自身の攻撃力を3%増加させる。/ Lv2 さらに『解析』のスタック数が6になった場合、自身のスピードが15%増加する（解除不可）。/ Lv3 スピードの増加量が30%になる。/ Ex2 理の解読者を強化する。攻撃力の増加量が10%になる。",
+        "NameKey": "[PassiveSkillName130003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription1300031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 34,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 130003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 35,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 130003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription1300032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 34,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 130003201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 35,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 130003201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription1300033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 34,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 130003301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 35,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 130003301
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription1300034]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 34,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 130003401
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 35,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 130003401
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName130003]",
+      "names": {
+        "zh-CN": "原理解读者"
+      },
+      "source_memo_ja": "アイシェSR:Lv1 知識は人々の生活を豊かにするためにあるのよ──自身か味方が自傷ダメージを受けた場合、自身に『解析』を1スタック付与する（最大6スタックまで）（解除不可）。このバフは1スタックにつき自身の攻撃力を3%増加させる。/ Lv2 さらに『解析』のスタック数が6になった場合、自身のスピードが15%増加する（解除不可）。/ Lv3 スピードの増加量が30%になる。/ Ex2 理の解読者を強化する。攻撃力の増加量が10%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "知識は人々の生活を豊かにするためにあるのよ──自身か味方が自傷ダメージを受けた場合、自身に『解析』を1スタック付与する（最大6スタックまで）（解除不可）。このバフは1スタックにつき自身の攻撃力を3%増加させる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに『解析』のスタック数が6になった場合、自身のスピードが15%増加する（解除不可）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "スピードの増加量が30%になる。"
+        },
+        {
+          "label": "Ex2",
+          "text": "理の解読者を強化する。攻撃力の増加量が10%になる。"
+        }
+      ]
+    },
+    {
+      "id": 130004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription1300041]",
+          "descriptions": {
+            "zh-CN": "“如果说我们的相遇是一场错误，那我只要把它变成正确答案就好。”艾谢发动攻击后，如果攻击目标身上附带弱化效果，30%概率使攻击目标身上附带的1种增益效果持续时间减少1回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "この出会いが間違いというなら、私がそれを正解にしてみせる──自身が攻撃して、対象が弱体効果を付帯している場合、30%の確率で対象が付帯しているバフ1つのターン数を1減少させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription1300042]",
+          "descriptions": {
+            "zh-CN": "战斗开始时，艾谢额外获得1层「多重屏障」（无法被解除）。当艾谢受到最大生命值×20%以上的伤害时，消耗1层屏障来抵消该伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらにバトル開始時自身に1層の『多重バリア』を付与する（解除不可）。自身の最大HP×20%以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription1300043]",
+          "descriptions": {
+            "zh-CN": "减少增益效果持续时间的概率提升为70%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "バフのターン数を減少させる確率が70%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 130004,
+        "IsIgnore": null,
+        "Memo": "アイシェSR:Lv1 この出会いが間違いというなら、私がそれを正解にしてみせる──自身が攻撃して、対象が弱体効果を付帯している場合、30%の確率で対象が付帯しているバフ1つのターン数を1減少させる。/ Lv2 さらにバトル開始時自身に1層の『多重バリア』を付与する（解除不可）。自身の最大HP×20%以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。/ Lv3 バフのターン数を減少させる確率が70%になる。",
+        "NameKey": "[PassiveSkillName130004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription1300041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 9,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 130004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription1300042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 9,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 130004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 130004202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription1300043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 9,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 130004301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 130004202
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName130004]",
+      "names": {
+        "zh-CN": "年轻的朋友"
+      },
+      "source_memo_ja": "アイシェSR:Lv1 この出会いが間違いというなら、私がそれを正解にしてみせる──自身が攻撃して、対象が弱体効果を付帯している場合、30%の確率で対象が付帯しているバフ1つのターン数を1減少させる。/ Lv2 さらにバトル開始時自身に1層の『多重バリア』を付与する（解除不可）。自身の最大HP×20%以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。/ Lv3 バフのターン数を減少させる確率が70%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "この出会いが間違いというなら、私がそれを正解にしてみせる──自身が攻撃して、対象が弱体効果を付帯している場合、30%の確率で対象が付帯しているバフ1つのターン数を1減少させる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらにバトル開始時自身に1層の『多重バリア』を付与する（解除不可）。自身の最大HP×20%以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。"
+        },
+        {
+          "label": "Lv3",
+          "text": "バフのターン数を減少させる確率が70%になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

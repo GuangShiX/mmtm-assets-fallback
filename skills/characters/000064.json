@@ -1,0 +1,1331 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 64001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription640011]",
+          "descriptions": {
+            "zh-CN": "吉薇艾尔以魔法造出一片苍茫暮色，迷惑敌人心智并夺走对手的力量——解除攻击力最高的2名敌人身上的1种增益效果。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "魔法で生み出された夕闇が敵を惑わし力を奪う――攻撃力が高い敵2体のバフを1つ解除する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription640012]",
+          "descriptions": {
+            "zh-CN": "增益效果解除后，如果技能目标的生命值为50%以上，20%概率额外附加「沉默」状态，效果持续1回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらにバフ解除後に対象のHP割合が50%以上の場合、20%の確率で1ターンの間対象に『沈黙』を付与する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription640013]",
+          "descriptions": {
+            "zh-CN": "增益效果解除后，如果技能目标的魔力低于自己，附加「沉默」状态的概率提升为40%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "バフ解除後に対象の魔力が自身よりも低い場合、『沈黙』を付与する確率が40%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription640014]",
+          "descriptions": {
+            "zh-CN": "强化幻惑暮霭，附加「沉默」状态的概率提升为30%。当技能目标的魔力低于自己时，附加「沉默」状态的概率提升为60%。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "惑いの夕闇を強化する。『沈黙』を付与する確率が30%、対象の魔力が自身よりも低い場合60%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription640011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              64001001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription640012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              64001201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription640013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              64001301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription640014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              64001401
+            ]
+          }
+        ],
+        "Id": 64001,
+        "IsIgnore": null,
+        "Memo": "ギルウィアルSR:Lv1 魔法で生み出された夕闇が敵を惑わし力を奪う――攻撃力が高い敵2体のバフを1つ解除する。/ Lv2 さらにバフ解除後に対象のHP割合が50%以上の場合、20%の確率で1ターンの間対象に『沈黙』を付与する。/ Lv3 バフ解除後に対象の魔力が自身よりも低い場合、『沈黙』を付与する確率が40%になる。/ Ex1 惑いの夕闇を強化する。『沈黙』を付与する確率が30%、対象の魔力が自身よりも低い場合60%になる。",
+        "NameKey": "[ActiveSkillName64001]",
+        "RootActiveSkillId": 64001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 5
+      },
+      "max_cooldown": 5,
+      "name_key": "[ActiveSkillName64001]",
+      "names": {
+        "zh-CN": "幻惑暮霭"
+      },
+      "source_memo_ja": "ギルウィアルSR:Lv1 魔法で生み出された夕闇が敵を惑わし力を奪う――攻撃力が高い敵2体のバフを1つ解除する。/ Lv2 さらにバフ解除後に対象のHP割合が50%以上の場合、20%の確率で1ターンの間対象に『沈黙』を付与する。/ Lv3 バフ解除後に対象の魔力が自身よりも低い場合、『沈黙』を付与する確率が40%になる。/ Ex1 惑いの夕闇を強化する。『沈黙』を付与する確率が30%、対象の魔力が自身よりも低い場合60%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "魔法で生み出された夕闇が敵を惑わし力を奪う――攻撃力が高い敵2体のバフを1つ解除する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらにバフ解除後に対象のHP割合が50%以上の場合、20%の確率で1ターンの間対象に『沈黙』を付与する。"
+        },
+        {
+          "label": "Lv3",
+          "text": "バフ解除後に対象の魔力が自身よりも低い場合、『沈黙』を付与する確率が40%になる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "惑いの夕闇を強化する。『沈黙』を付与する確率が30%、対象の魔力が自身よりも低い場合60%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 64002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription640021]",
+          "descriptions": {
+            "zh-CN": "“赐予你安宁的长眠！”吉薇艾尔朝敌人释放闪耀着熠熠星光的魔法，随机对2名敌人造成攻击力×780%的魔法伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「安らかに眠り給えよ！」星光を放つ魔法が敵に降り注ぐ──ランダムな敵2体に攻撃力×780%の魔法攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription640022]",
+          "descriptions": {
+            "zh-CN": "攻击结束后，40%概率对技能目标额外附加「沉默」状态，效果持续1回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに魔法攻撃の後に40%の確率で1ターンの間対象に『沈黙』を付与する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription640023]",
+          "descriptions": {
+            "zh-CN": "如果吉薇艾尔身上原本附带弱化效果，造成的魔法伤害增加为2倍。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらに魔法攻撃の前に自身が弱体効果を付帯している場合、魔法攻撃のダメージが2倍になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription640024]",
+          "descriptions": {
+            "zh-CN": "技能目标增加为3名随机敌人。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "このスキルの対象がランダムな敵3体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription640025]",
+          "descriptions": {
+            "zh-CN": "强化魔幻星尘，附加「沉默」状态的概率提升为50%。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "スターダストを強化する。『沈黙』を付与する確率が50%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription640026]",
+          "descriptions": {
+            "zh-CN": "强化魔幻星尘，造成的魔法伤害提升为攻击力×880%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 6,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "スターダストを強化する。魔法攻撃のダメージが攻撃力×880%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription640021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              64002001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription640022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              64002201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription640023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              64002301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription640024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              64002401
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription640025]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              64002501
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription640026]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 6,
+            "SubSetSkillIds": [
+              64002601
+            ]
+          }
+        ],
+        "Id": 64002,
+        "IsIgnore": null,
+        "Memo": "ギルウィアルSR:Lv1 「安らかに眠り給えよ！」星光を放つ魔法が敵に降り注ぐ──ランダムな敵2体に攻撃力×780%の魔法攻撃を行う。/ Lv2 さらに魔法攻撃の後に40%の確率で1ターンの間対象に『沈黙』を付与する。/ Lv3 さらに魔法攻撃の前に自身が弱体効果を付帯している場合、魔法攻撃のダメージが2倍になる。/ Lv4 このスキルの対象がランダムな敵3体になる。/ Ex2 スターダストを強化する。『沈黙』を付与する確率が50%になる。/ Ex3 スターダストを強化する。魔法攻撃のダメージが攻撃力×880%になる。",
+        "NameKey": "[ActiveSkillName64002]",
+        "RootActiveSkillId": 64002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 5
+      },
+      "max_cooldown": 5,
+      "name_key": "[ActiveSkillName64002]",
+      "names": {
+        "zh-CN": "魔幻星尘"
+      },
+      "source_memo_ja": "ギルウィアルSR:Lv1 「安らかに眠り給えよ！」星光を放つ魔法が敵に降り注ぐ──ランダムな敵2体に攻撃力×780%の魔法攻撃を行う。/ Lv2 さらに魔法攻撃の後に40%の確率で1ターンの間対象に『沈黙』を付与する。/ Lv3 さらに魔法攻撃の前に自身が弱体効果を付帯している場合、魔法攻撃のダメージが2倍になる。/ Lv4 このスキルの対象がランダムな敵3体になる。/ Ex2 スターダストを強化する。『沈黙』を付与する確率が50%になる。/ Ex3 スターダストを強化する。魔法攻撃のダメージが攻撃力×880%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「安らかに眠り給えよ！」星光を放つ魔法が敵に降り注ぐ──ランダムな敵2体に攻撃力×780%の魔法攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに魔法攻撃の後に40%の確率で1ターンの間対象に『沈黙』を付与する。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらに魔法攻撃の前に自身が弱体効果を付帯している場合、魔法攻撃のダメージが2倍になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "このスキルの対象がランダムな敵3体になる。"
+        },
+        {
+          "label": "Ex2",
+          "text": "スターダストを強化する。『沈黙』を付与する確率が50%になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "スターダストを強化する。魔法攻撃のダメージが攻撃力×880%になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 38,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 70.0,
+              "value_text": "+0.7%"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 38,
+            "CollectionLevel": 1,
+            "Id": 3801,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "レティクルムの秘術(ギルウィアル,ミミ,ハトホル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 38,
+            "CollectionLevel": 2,
+            "Id": 3802,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "レティクルムの秘術(ギルウィアル,ミミ,ハトホル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 38,
+            "CollectionLevel": 3,
+            "Id": 3803,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "レティクルムの秘術(ギルウィアル,ミミ,ハトホル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 38,
+            "CollectionLevel": 4,
+            "Id": 3804,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "レティクルムの秘術(ギルウィアル,ミミ,ハトホル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 160.0,
+              "value_text": "+1.6%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 210.0,
+              "value_text": "+2.1%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 160.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 210.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 38,
+            "CollectionLevel": 5,
+            "Id": 3805,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "レティクルムの秘術(ギルウィアル,ミミ,ハトホル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 170.0,
+              "value_text": "+1.7%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 220.0,
+              "value_text": "+2.2%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 170.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 220.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 38,
+            "CollectionLevel": 6,
+            "Id": 3806,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "レティクルムの秘術(ギルウィアル,ミミ,ハトホル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 180.0,
+              "value_text": "+1.8%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 230.0,
+              "value_text": "+2.3%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 180.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 230.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 38,
+            "CollectionLevel": 7,
+            "Id": 3807,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "レティクルムの秘術(ギルウィアル,ミミ,ハトホル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 190.0,
+              "value_text": "+1.9%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 240.0,
+              "value_text": "+2.4%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 190.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 240.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 38,
+            "CollectionLevel": 8,
+            "Id": 3808,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "レティクルムの秘術(ギルウィアル,ミミ,ハトホル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 250.0,
+              "value_text": "+2.5%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 38,
+            "CollectionLevel": 9,
+            "Id": 3809,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "レティクルムの秘術(ギルウィアル,ミミ,ハトホル)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 38,
+        "IsIgnore": null,
+        "Memo": "レティクルムの秘術(ギルウィアル,ミミ,ハトホル)",
+        "NameKey": "[CharacterCollectionName38]",
+        "RequiredCharacterIds": [
+          64,
+          35,
+          37
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2024-01-15 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName38]",
+      "names": {
+        "zh-CN": "网罟座的秘术"
+      },
+      "required_character_ids": [
+        64,
+        35,
+        37
+      ],
+      "required_characters": [
+        {
+          "id": 64,
+          "names": {
+            "zh-CN": "吉薇艾尔"
+          }
+        },
+        {
+          "id": 35,
+          "names": {
+            "zh-CN": "咪咪"
+          }
+        },
+        {
+          "id": 37,
+          "names": {
+            "zh-CN": "哈索儿"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2024-01-15 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 1,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 64,
+    "job_flags": 4,
+    "master_record": {
+      "ActiveSkillIds": [
+        64001,
+        64002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 80,
+        "Health": 70,
+        "Intelligence": 103,
+        "Muscle": 79
+      },
+      "BaseParameterGrossCoefficient": 332,
+      "CharacterType": 0,
+      "ElementType": 1,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 64,
+      "InitialBattleParameter": {
+        "AttackPower": -2,
+        "Avoidance": 0,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 1,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 5,
+        "DebuffResist": 0,
+        "Defense": 6,
+        "DefensePenetration": 0,
+        "HP": 0,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 3269
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 4,
+      "Memo": "ギルウィアル",
+      "Name2Key": null,
+      "NameKey": "[CharacterName64]",
+      "NormalSkillId": 102,
+      "PassiveSkillIds": [
+        64003,
+        64004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2024-01-15 15:00:00"
+    },
+    "memo": "ギルウィアル",
+    "name_key": "[CharacterName64]",
+    "names": {
+      "zh-CN": "吉薇艾尔"
+    },
+    "speed": 3269,
+    "start_time_jst": "2024-01-15 15:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 641130240,
+    "exclusive_effect_id": 324,
+    "icon_id": 488,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 641130250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 86,
+        "EquipmentEvolutionId": 96,
+        "EquipmentExclusiveSkillDescriptionId": 54,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 4,
+        "ExclusiveEffectId": 324,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 488,
+        "Id": 641130240,
+        "IsIgnore": null,
+        "Memo": "ギルウィアルLR240_書",
+        "NameKey": "[EquipmentName483]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": [
+          {
+            "BaseParameterType": 3,
+            "ChangeParameterType": 2,
+            "Value": 800.0
+          },
+          {
+            "BaseParameterType": 4,
+            "ChangeParameterType": 2,
+            "Value": 800.0
+          }
+        ],
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 5,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 64,
+        "Id": 324,
+        "IsIgnore": null,
+        "Memo": "ギルウィアルLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill64Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill64Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill64Description3]",
+        "Id": 54,
+        "IsIgnore": null,
+        "Memo": "ギルウィアル魔導書"
+      }
+    },
+    "name_key": "[EquipmentName483]",
+    "names": {
+      "zh-CN": "黄昏之星"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "base",
+        "parameter_code": "Intelligence",
+        "parameter_type": 3,
+        "raw_value": 800.0,
+        "value_text": "+8%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "base",
+        "parameter_code": "Health",
+        "parameter_type": 4,
+        "raw_value": 800.0,
+        "value_text": "+8%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Hit",
+        "parameter_type": 5,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill64Description1]",
+        "descriptions": {
+          "zh-CN": "强化幻惑暮霭，附加「沉默」状态的概率提升为30%。当技能目标的魔力低于自己时，附加「沉默」状态的概率提升为60%。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill64Description2]",
+        "descriptions": {
+          "zh-CN": "强化魔幻星尘，附加「沉默」状态的概率提升为50%。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill64Description3]",
+        "descriptions": {
+          "zh-CN": "强化魔幻星尘，造成的魔法伤害提升为攻击力×880%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 64003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription640031]",
+          "descriptions": {
+            "zh-CN": "“魔法还能这么用！”当吉薇艾尔被附加主动技能造成的弱化效果时，使自己增加15%弱化效果命中率，效果持续1回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「魔法にはこういう使い方もあるのだよ！」自身がアクティブスキルで弱体効果を受けたとき、1ターンの間自身の弱体効果命中率が15%増加する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription640032]",
+          "descriptions": {
+            "zh-CN": "技能触发条件增加为吉薇艾尔被附加主动技能造成的弱化效果与获得主动技能附加的增益效果。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "このスキルが自身がアクティブスキルでバフを受けたときにも発動するようになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription640033]",
+          "descriptions": {
+            "zh-CN": "弱化效果命中率增幅提升为30%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "弱体効果命中率の増加量が30%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 64003,
+        "IsIgnore": null,
+        "Memo": "ギルウィアルSR:Lv1 「魔法にはこういう使い方もあるのだよ！」自身がアクティブスキルで弱体効果を受けたとき、1ターンの間自身の弱体効果命中率が15%増加する。/ Lv2 このスキルが自身がアクティブスキルでバフを受けたときにも発動するようになる。/ Lv3 弱体効果命中率の増加量が30%になる。",
+        "NameKey": "[PassiveSkillName64003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription640031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 11,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 64003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription640032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 11,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 64003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 24,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 64003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription640033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 11,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 64003301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 24,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 64003301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName64003]",
+      "names": {
+        "zh-CN": "大魔女的点拨"
+      },
+      "source_memo_ja": "ギルウィアルSR:Lv1 「魔法にはこういう使い方もあるのだよ！」自身がアクティブスキルで弱体効果を受けたとき、1ターンの間自身の弱体効果命中率が15%増加する。/ Lv2 このスキルが自身がアクティブスキルでバフを受けたときにも発動するようになる。/ Lv3 弱体効果命中率の増加量が30%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「魔法にはこういう使い方もあるのだよ！」自身がアクティブスキルで弱体効果を受けたとき、1ターンの間自身の弱体効果命中率が15%増加する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "このスキルが自身がアクティブスキルでバフを受けたときにも発動するようになる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "弱体効果命中率の増加量が30%になる。"
+        }
+      ]
+    },
+    {
+      "id": 64004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription640041]",
+          "descriptions": {
+            "zh-CN": "“就让吾来告诉你——魔女应当如何作战。”吉薇艾尔打算留给后人的知识，将她体内的魔女之力激发至极限——使自己增加40%抗暴率（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「魔女の戦い方を教えてやろう」未来のために遺そうとした知識が、魔女の力を最大限まで引き出す──自身のクリティカル耐性率が40%増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription640042]",
+          "descriptions": {
+            "zh-CN": "每当吉薇艾尔受到暴击，再使抗暴率增幅提升20%（最多叠加2层，合计80%）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに自身がクリティカルヒットを受けた場合、クリティカル耐性率の増加量が20%大きくなる（合計で最大80%まで）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription640043]",
+          "descriptions": {
+            "zh-CN": "战斗开始时，吉薇艾尔额外获得3层「多重屏障」（无法被解除）。当吉薇艾尔受到伤害时，消耗1层屏障来抵消该伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらにバトル開始時自身に3層の『多重バリア』を付与する（解除不可）。ダメージを受けると、バリアを1層消費してそのダメージを無効化する。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 64004,
+        "IsIgnore": null,
+        "Memo": "ギルウィアルSR:Lv1 「魔女の戦い方を教えてやろう」未来のために遺そうとした知識が、魔女の力を最大限まで引き出す──自身のクリティカル耐性率が40%増加する（解除不可）。/ Lv2 さらに自身がクリティカルヒットを受けた場合、クリティカル耐性率の増加量が20%大きくなる（合計で最大80%まで）。/ Lv3 さらにバトル開始時自身に3層の『多重バリア』を付与する（解除不可）。ダメージを受けると、バリアを1層消費してそのダメージを無効化する。",
+        "NameKey": "[PassiveSkillName64004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription640041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 64004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription640042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 64004201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 64004202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription640043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 64004201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 64004202
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 64004303
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName64004]",
+      "names": {
+        "zh-CN": "黄昏魔女"
+      },
+      "source_memo_ja": "ギルウィアルSR:Lv1 「魔女の戦い方を教えてやろう」未来のために遺そうとした知識が、魔女の力を最大限まで引き出す──自身のクリティカル耐性率が40%増加する（解除不可）。/ Lv2 さらに自身がクリティカルヒットを受けた場合、クリティカル耐性率の増加量が20%大きくなる（合計で最大80%まで）。/ Lv3 さらにバトル開始時自身に3層の『多重バリア』を付与する（解除不可）。ダメージを受けると、バリアを1層消費してそのダメージを無効化する。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「魔女の戦い方を教えてやろう」未来のために遺そうとした知識が、魔女の力を最大限まで引き出す──自身のクリティカル耐性率が40%増加する（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに自身がクリティカルヒットを受けた場合、クリティカル耐性率の増加量が20%大きくなる（合計で最大80%まで）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらにバトル開始時自身に3層の『多重バリア』を付与する（解除不可）。ダメージを受けると、バリアを1層消費してそのダメージを無効化する。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

@@ -1,0 +1,1390 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 101001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription1010011]",
+          "descriptions": {
+            "zh-CN": "“这是承诺的信物，属于我的启明星。只要有它在，我就能得到源源不断的力量……”伊芙琳使攻击力最高的友军获得1种增益效果，该效果包含增加25%攻击力与命中率，效果持续1回合（无法被解除）。再随机对5名敌人造成攻击力×240%的魔法伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "私だけの一番星。約束の証。これがあるだけで、力が湧いてくる──。1ターンの間攻撃力が最も高い味方の攻撃力と命中率をそれぞれ25%増加させる（解除不可）。これらは一つのバフとして扱う。その後ランダムな敵5体に攻撃力×240%の魔法攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription1010012]",
+          "descriptions": {
+            "zh-CN": "「攻击力上升」与「命中率上升」效果增加为4回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "『攻撃力増加』と『命中率増加』のターン数が4ターンになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1010013]",
+          "descriptions": {
+            "zh-CN": "造成的魔法伤害提升为攻击力×440%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "魔法攻撃のダメージが攻撃力×440%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1010014]",
+          "descriptions": {
+            "zh-CN": "强化信物银币，攻击力与命中率增幅提升为50%。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "証の銀貨を強化する。攻撃力と命中率の増加量がそれぞれ50%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription1010015]",
+          "descriptions": {
+            "zh-CN": "强化信物银币，造成的魔法伤害提升为攻击力×480%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "証の銀貨を強化する。魔法攻撃のダメージが攻撃力×480%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription1010011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              101001001,
+              101001002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription1010012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              101001201,
+              101001002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1010013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              101001201,
+              101001302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1010014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              101001401,
+              101001302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription1010015]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              101001401,
+              101001502
+            ]
+          }
+        ],
+        "Id": 101001,
+        "IsIgnore": null,
+        "Memo": "エヴリンSR:Lv1 私だけの一番星。約束の証。これがあるだけで、力が湧いてくる──。1ターンの間攻撃力が最も高い味方の攻撃力と命中率をそれぞれ25%増加させる（解除不可）。これらは一つのバフとして扱う。その後ランダムな敵5体に攻撃力×240%の魔法攻撃を行う。/ Lv2 『攻撃力増加』と『命中率増加』のターン数が4ターンになる。/ Lv3 魔法攻撃のダメージが攻撃力×440%になる。/ Ex1 証の銀貨を強化する。攻撃力と命中率の増加量がそれぞれ50%になる。/ Ex3 証の銀貨を強化する。魔法攻撃のダメージが攻撃力×480%になる。",
+        "NameKey": "[ActiveSkillName101001]",
+        "RootActiveSkillId": 101001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName101001]",
+      "names": {
+        "zh-CN": "信物银币"
+      },
+      "source_memo_ja": "エヴリンSR:Lv1 私だけの一番星。約束の証。これがあるだけで、力が湧いてくる──。1ターンの間攻撃力が最も高い味方の攻撃力と命中率をそれぞれ25%増加させる（解除不可）。これらは一つのバフとして扱う。その後ランダムな敵5体に攻撃力×240%の魔法攻撃を行う。/ Lv2 『攻撃力増加』と『命中率増加』のターン数が4ターンになる。/ Lv3 魔法攻撃のダメージが攻撃力×440%になる。/ Ex1 証の銀貨を強化する。攻撃力と命中率の増加量がそれぞれ50%になる。/ Ex3 証の銀貨を強化する。魔法攻撃のダメージが攻撃力×480%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "私だけの一番星。約束の証。これがあるだけで、力が湧いてくる──。1ターンの間攻撃力が最も高い味方の攻撃力と命中率をそれぞれ25%増加させる（解除不可）。これらは一つのバフとして扱う。その後ランダムな敵5体に攻撃力×240%の魔法攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "『攻撃力増加』と『命中率増加』のターン数が4ターンになる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "魔法攻撃のダメージが攻撃力×440%になる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "証の銀貨を強化する。攻撃力と命中率の増加量がそれぞれ50%になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "証の銀貨を強化する。魔法攻撃のダメージが攻撃力×480%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 101002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription1010021]",
+          "descriptions": {
+            "zh-CN": "那些罪恶感会不时鲜明地浮现，在不知不觉间增强她的力量——伊芙琳对其他友军与5名随机敌人附加1层「反射」，效果持续4回合（最多2层）。每层「反射」使附带者减少5%闪避率。再随机对2名敌人造成攻击力×460%的魔法伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "その罪悪感は時折色鮮やかに蘇り、無自覚のうちに彼女の力をより研ぎ澄ます。自身以外の味方全体とランダムな敵5体に4ターンの間『反照』を1スタック付与する（最大2スタックまで）。この弱体効果は1スタックにつき付帯者の回避率を5%減少させる。その後ランダムな敵2体に攻撃力×460%の魔法攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription1010022]",
+          "descriptions": {
+            "zh-CN": "攻击目标增加为3名随机敌人。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "魔法攻撃の対象がランダムな敵3体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription1010023]",
+          "descriptions": {
+            "zh-CN": "造成的魔法伤害提升为攻击力×660%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "魔法攻撃のダメージが攻撃力×660%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription1010024]",
+          "descriptions": {
+            "zh-CN": "发动攻击前，如果身上附带「反射」状态的敌人为3名以上，造成的魔法伤害提升为攻击力×990%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "魔法攻撃の前に『反照』を付帯している敵が3体以上いる場合、魔法攻撃のダメージが攻撃力×990%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription1010021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              101002001,
+              101002002,
+              101002003,
+              101002004
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription1010022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              101002001,
+              101002002,
+              101002003,
+              101002204
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription1010023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              101002001,
+              101002002,
+              101002003,
+              101002304
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription1010024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              101002001,
+              101002002,
+              101002003,
+              101002404
+            ]
+          }
+        ],
+        "Id": 101002,
+        "IsIgnore": null,
+        "Memo": "エヴリンSR:Lv1 その罪悪感は時折色鮮やかに蘇り、無自覚のうちに彼女の力をより研ぎ澄ます。自身以外の味方全体とランダムな敵5体に4ターンの間『反照』を1スタック付与する（最大2スタックまで）。この弱体効果は1スタックにつき付帯者の回避率を5%減少させる。その後ランダムな敵2体に攻撃力×460%の魔法攻撃を行う。/ Lv2 魔法攻撃の対象がランダムな敵3体になる。/ Lv3 魔法攻撃のダメージが攻撃力×660%になる。/ Lv4 魔法攻撃の前に『反照』を付帯している敵が3体以上いる場合、魔法攻撃のダメージが攻撃力×990%になる。",
+        "NameKey": "[ActiveSkillName101002]",
+        "RootActiveSkillId": 101002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName101002]",
+      "names": {
+        "zh-CN": "永不褪色的悔恨"
+      },
+      "source_memo_ja": "エヴリンSR:Lv1 その罪悪感は時折色鮮やかに蘇り、無自覚のうちに彼女の力をより研ぎ澄ます。自身以外の味方全体とランダムな敵5体に4ターンの間『反照』を1スタック付与する（最大2スタックまで）。この弱体効果は1スタックにつき付帯者の回避率を5%減少させる。その後ランダムな敵2体に攻撃力×460%の魔法攻撃を行う。/ Lv2 魔法攻撃の対象がランダムな敵3体になる。/ Lv3 魔法攻撃のダメージが攻撃力×660%になる。/ Lv4 魔法攻撃の前に『反照』を付帯している敵が3体以上いる場合、魔法攻撃のダメージが攻撃力×990%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "その罪悪感は時折色鮮やかに蘇り、無自覚のうちに彼女の力をより研ぎ澄ます。自身以外の味方全体とランダムな敵5体に4ターンの間『反照』を1スタック付与する（最大2スタックまで）。この弱体効果は1スタックにつき付帯者の回避率を5%減少させる。その後ランダムな敵2体に攻撃力×460%の魔法攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "魔法攻撃の対象がランダムな敵3体になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "魔法攻撃のダメージが攻撃力×660%になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "魔法攻撃の前に『反照』を付帯している敵が3体以上いる場合、魔法攻撃のダメージが攻撃力×990%になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 86,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 86,
+            "CollectionLevel": 1,
+            "Id": 8601,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アピスの愛着(エヴリン,モワノー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 86,
+            "CollectionLevel": 2,
+            "Id": 8602,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アピスの愛着(エヴリン,モワノー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 86,
+            "CollectionLevel": 3,
+            "Id": 8603,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アピスの愛着(エヴリン,モワノー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 86,
+            "CollectionLevel": 4,
+            "Id": 8604,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アピスの愛着(エヴリン,モワノー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3100.0,
+              "value_text": "+3,100"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 210.0,
+              "value_text": "+2.1%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3100.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 210.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 86,
+            "CollectionLevel": 5,
+            "Id": 8605,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アピスの愛着(エヴリン,モワノー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3200.0,
+              "value_text": "+3,200"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 220.0,
+              "value_text": "+2.2%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3200.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 220.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 86,
+            "CollectionLevel": 6,
+            "Id": 8606,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アピスの愛着(エヴリン,モワノー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3300.0,
+              "value_text": "+3,300"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 230.0,
+              "value_text": "+2.3%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3300.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 230.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 86,
+            "CollectionLevel": 7,
+            "Id": 8607,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アピスの愛着(エヴリン,モワノー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3400.0,
+              "value_text": "+3,400"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 240.0,
+              "value_text": "+2.4%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3400.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 240.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 86,
+            "CollectionLevel": 8,
+            "Id": 8608,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アピスの愛着(エヴリン,モワノー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3500.0,
+              "value_text": "+3,500"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 250.0,
+              "value_text": "+2.5%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3500.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 86,
+            "CollectionLevel": 9,
+            "Id": 8609,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アピスの愛着(エヴリン,モワノー)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 86,
+        "IsIgnore": null,
+        "Memo": "アピスの愛着(エヴリン,モワノー)",
+        "NameKey": "[CharacterCollectionName86]",
+        "RequiredCharacterIds": [
+          101,
+          100
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2026-01-15 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName86]",
+      "names": {
+        "zh-CN": "蜜蜂座的依恋"
+      },
+      "required_character_ids": [
+        101,
+        100
+      ],
+      "required_characters": [
+        {
+          "id": 101,
+          "names": {
+            "zh-CN": "伊芙琳"
+          }
+        },
+        {
+          "id": 100,
+          "names": {
+            "zh-CN": "穆瓦诺"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2026-01-15 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 1,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 101,
+    "job_flags": 4,
+    "master_record": {
+      "ActiveSkillIds": [
+        101001,
+        101002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 85,
+        "Health": 75,
+        "Intelligence": 99,
+        "Muscle": 84
+      },
+      "BaseParameterGrossCoefficient": 343,
+      "CharacterType": 0,
+      "ElementType": 1,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 101,
+      "InitialBattleParameter": {
+        "AttackPower": -3,
+        "Avoidance": 0,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 10,
+        "DefensePenetration": 0,
+        "HP": -2,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 5,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 2819
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 4,
+      "Memo": "エヴリン",
+      "Name2Key": "",
+      "NameKey": "[CharacterName101]",
+      "NormalSkillId": 102,
+      "PassiveSkillIds": [
+        101003,
+        101004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2026-01-15 15:00:00"
+    },
+    "memo": "エヴリン",
+    "name_key": "[CharacterName101]",
+    "names": {
+      "zh-CN": "伊芙琳"
+    },
+    "speed": 2819,
+    "start_time_jst": "2026-01-15 15:00:00",
+    "subtitle_key": "",
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 1011130240,
+    "exclusive_effect_id": 618,
+    "icon_id": 710,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 1011130250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 135,
+        "EquipmentEvolutionId": 145,
+        "EquipmentExclusiveSkillDescriptionId": 103,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 4,
+        "ExclusiveEffectId": 618,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 710,
+        "Id": 1011130240,
+        "IsIgnore": null,
+        "Memo": "エヴリンLR240_書",
+        "NameKey": "[EquipmentName705]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": null,
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 15,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          },
+          {
+            "BattleParameterType": 13,
+            "ChangeParameterType": 2,
+            "Value": 500.0
+          }
+        ],
+        "CharacterId": 101,
+        "Id": 618,
+        "IsIgnore": null,
+        "Memo": "エヴリンLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill101Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill101Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill101Description3]",
+        "Id": 103,
+        "IsIgnore": null,
+        "Memo": "エヴリン魔導書"
+      }
+    },
+    "name_key": "[EquipmentName705]",
+    "names": {
+      "zh-CN": "心永恒・时永恒"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "DebuffHit",
+        "parameter_type": 15,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Defense",
+        "parameter_type": 13,
+        "raw_value": 500.0,
+        "value_text": "+5%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill101Description1]",
+        "descriptions": {
+          "zh-CN": "强化信物银币，攻击力与命中率增幅提升为50%。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill101Description2]",
+        "descriptions": {
+          "zh-CN": "强化两颗孤星，「护盾」值提升为状态效果生效前的附加目标最大生命值×80%。当附加目标为忧蓝属性时，使「护盾」值额外提升伊芙琳攻击力×600%。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill101Description3]",
+        "descriptions": {
+          "zh-CN": "强化信物银币，造成的魔法伤害提升为攻击力×480%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": false,
+  "missing_localization_keys": [
+    ""
+  ],
+  "passive_skills": [
+    {
+      "id": 101003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription1010031]",
+          "descriptions": {
+            "zh-CN": "无论前路多么坎坷，只要有你与我相依……第1回合开始时，伊芙琳使自己与攻击力最高的其他友军获得「护盾」，「护盾」值为状态效果生效前的附加目标最大生命值×30%，效果持续3回合（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "この先にどんな困難が待ちわびていようと、あなたが隣にいるなら、きっと。1ターン目のターン開始時自身と自身以外の攻撃力が最も高い味方に、3ターンの間ステータス増減前の対象の最大HP×30%の『シールド』を付与する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription1010032]",
+          "descriptions": {
+            "zh-CN": "当「护盾」的附加目标为忧蓝属性时，使「护盾」值额外提升伊芙琳攻击力×200%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに『シールド』を付与する対象が藍属性の場合、『シールド』の大きさが付与者自身の攻撃力×200%大きくなる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription1010033]",
+          "descriptions": {
+            "zh-CN": "「护盾」效果增加为6回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "『シールド』のターン数が6ターンになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription1010034]",
+          "descriptions": {
+            "zh-CN": "强化两颗孤星，「护盾」值提升为状态效果生效前的附加目标最大生命值×80%。当附加目标为忧蓝属性时，使「护盾」值额外提升伊芙琳攻击力×600%。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "孤独な星二つを強化する。『シールド』の大きさがステータス増減前の対象の最大HP×80%になる。対象が藍属性の場合に得られる『シールド』の増加量が付与者自身の攻撃力×600%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 101003,
+        "IsIgnore": null,
+        "Memo": "エヴリンSR:Lv1 この先にどんな困難が待ちわびていようと、あなたが隣にいるなら、きっと。1ターン目のターン開始時自身と自身以外の攻撃力が最も高い味方に、3ターンの間ステータス増減前の対象の最大HP×30%の『シールド』を付与する（解除不可）。/ Lv2 さらに『シールド』を付与する対象が藍属性の場合、『シールド』の大きさが付与者自身の攻撃力×200%大きくなる。/ Lv3 『シールド』のターン数が6ターンになる。/ Ex2 孤独な星二つを強化する。『シールド』の大きさがステータス増減前の対象の最大HP×80%になる。対象が藍属性の場合に得られる『シールド』の増加量が付与者自身の攻撃力×600%になる。",
+        "NameKey": "[PassiveSkillName101003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription1010031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 101003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 101003002
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription1010032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 101003201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 101003202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription1010033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 101003301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 101003302
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription1010034]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 101003401
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 101003402
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName101003]",
+      "names": {
+        "zh-CN": "两颗孤星"
+      },
+      "source_memo_ja": "エヴリンSR:Lv1 この先にどんな困難が待ちわびていようと、あなたが隣にいるなら、きっと。1ターン目のターン開始時自身と自身以外の攻撃力が最も高い味方に、3ターンの間ステータス増減前の対象の最大HP×30%の『シールド』を付与する（解除不可）。/ Lv2 さらに『シールド』を付与する対象が藍属性の場合、『シールド』の大きさが付与者自身の攻撃力×200%大きくなる。/ Lv3 『シールド』のターン数が6ターンになる。/ Ex2 孤独な星二つを強化する。『シールド』の大きさがステータス増減前の対象の最大HP×80%になる。対象が藍属性の場合に得られる『シールド』の増加量が付与者自身の攻撃力×600%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "この先にどんな困難が待ちわびていようと、あなたが隣にいるなら、きっと。1ターン目のターン開始時自身と自身以外の攻撃力が最も高い味方に、3ターンの間ステータス増減前の対象の最大HP×30%の『シールド』を付与する（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに『シールド』を付与する対象が藍属性の場合、『シールド』の大きさが付与者自身の攻撃力×200%大きくなる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "『シールド』のターン数が6ターンになる。"
+        },
+        {
+          "label": "Ex2",
+          "text": "孤独な星二つを強化する。『シールド』の大きさがステータス増減前の対象の最大HP×80%になる。対象が藍属性の場合に得られる『シールド』の増加量が付与者自身の攻撃力×600%になる。"
+        }
+      ]
+    },
+    {
+      "id": 101004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription1010041]",
+          "descriptions": {
+            "zh-CN": "“罗莎莉女士她们说，若要为我的力量命名，这应该是最贴切的说法了。虽然感觉略有夸大之嫌，不过请您放心，我现在比以前更能掌控它了。”当伊芙琳被附加主动技能造成的弱化效果时，随机对3名敌人附加1层「反射」，效果持续4回合（最多2层）。每层「反射」使附带者减少5%闪避率。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「私の力に名をつけるならこうではないかと、ロザリー様たちが仰ってましたの。大仰に思えますがご安心を。以前よりは制御できますから」自身がアクティブスキルで弱体効果を受けたとき、ランダムな敵3体に4ターンの間『反照』を1スタック付与する（最大2スタックまで）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription1010042]",
+          "descriptions": {
+            "zh-CN": "「反射」附加判定结束后，如果身上附带「反射」状态的敌人为3名以上，伊芙琳额外解除自己身上的2种弱化效果。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "自身がアクティブスキルで弱体効果を受けたとき、さらに『反照』付与の判定の後『反照』を付帯している敵が3体以上いる場合、自身の弱体効果を2つ解除する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription1010043]",
+          "descriptions": {
+            "zh-CN": "战斗开始时，伊芙琳额外减少60%自身承受伤害（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらにバトル開始時、自身の被ダメージが60%減少する（解除不可）。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 101004,
+        "IsIgnore": null,
+        "Memo": "エヴリンSR:Lv1 「私の力に名をつけるならこうではないかと、ロザリー様たちが仰ってましたの。大仰に思えますがご安心を。以前よりは制御できますから」自身がアクティブスキルで弱体効果を受けたとき、ランダムな敵3体に4ターンの間『反照』を1スタック付与する（最大2スタックまで）。/ Lv2 自身がアクティブスキルで弱体効果を受けたとき、さらに『反照』付与の判定の後『反照』を付帯している敵が3体以上いる場合、自身の弱体効果を2つ解除する。/ Lv3 さらにバトル開始時、自身の被ダメージが60%減少する（解除不可）。",
+        "NameKey": "[PassiveSkillName101004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription1010041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 11,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 101004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 11,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 101004002
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription1010042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 11,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 101004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 11,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 101004002
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 11,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 101004203
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription1010043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 11,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 101004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 11,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 101004002
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 11,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 101004203
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 101004304
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName101004]",
+      "names": {
+        "zh-CN": "反射机理"
+      },
+      "source_memo_ja": "エヴリンSR:Lv1 「私の力に名をつけるならこうではないかと、ロザリー様たちが仰ってましたの。大仰に思えますがご安心を。以前よりは制御できますから」自身がアクティブスキルで弱体効果を受けたとき、ランダムな敵3体に4ターンの間『反照』を1スタック付与する（最大2スタックまで）。/ Lv2 自身がアクティブスキルで弱体効果を受けたとき、さらに『反照』付与の判定の後『反照』を付帯している敵が3体以上いる場合、自身の弱体効果を2つ解除する。/ Lv3 さらにバトル開始時、自身の被ダメージが60%減少する（解除不可）。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「私の力に名をつけるならこうではないかと、ロザリー様たちが仰ってましたの。大仰に思えますがご安心を。以前よりは制御できますから」自身がアクティブスキルで弱体効果を受けたとき、ランダムな敵3体に4ターンの間『反照』を1スタック付与する（最大2スタックまで）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "自身がアクティブスキルで弱体効果を受けたとき、さらに『反照』付与の判定の後『反照』を付帯している敵が3体以上いる場合、自身の弱体効果を2つ解除する。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらにバトル開始時、自身の被ダメージが60%減少する（解除不可）。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

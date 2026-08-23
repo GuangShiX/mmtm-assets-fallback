@@ -1,0 +1,1405 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 105001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription1050011]",
+          "descriptions": {
+            "zh-CN": "“把这些幸福分给你吧。”娜塔夏随机对3名敌人造成攻击力×280%的物理伤害。娜塔夏再次发动此技能（最多1次）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「幸せのおすそ分けです」ランダムな敵3体に攻撃力×280%の物理攻撃を行う。このスキルを再発動する（再発動は1回まで）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription1050012]",
+          "descriptions": {
+            "zh-CN": "发动攻击前，如果娜塔夏身上附带的「心花盛开」达5层以上，再次发动技能的次数增加为2次，并在攻击结束后消耗5层「心花盛开」。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに物理攻撃の前に自身の『心に咲く花』のスタック数が5以上の場合、再発動の回数が2回までになり、最後の物理攻撃の後に自身の『心に咲く花』のスタック数を5消費する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1050013]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×380%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃のダメージが攻撃力×380%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1050014]",
+          "descriptions": {
+            "zh-CN": "强化花儿的祝福，造成的物理伤害提升为攻击力×680%。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "フラワーギフトを強化する。物理攻撃のダメージが攻撃力×680%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription1050011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              105001001,
+              105001002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription1050012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              105001001,
+              105001002,
+              105001203,
+              105001204
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1050013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              105001301,
+              105001302,
+              105001303,
+              105001204
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1050014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              105001401,
+              105001402,
+              105001403,
+              105001204
+            ]
+          }
+        ],
+        "Id": 105001,
+        "IsIgnore": null,
+        "Memo": "花束ナターシャSR:Lv1 「幸せのおすそ分けです」ランダムな敵3体に攻撃力×280%の物理攻撃を行う。このスキルを再発動する（再発動は1回まで）。/ Lv2 さらに物理攻撃の前に自身の『心に咲く花』のスタック数が5以上の場合、再発動の回数が2回までになり、最後の物理攻撃の後に自身の『心に咲く花』のスタック数を5消費する。/ Lv3 物理攻撃のダメージが攻撃力×380%になる。/ Ex1 フラワーギフトを強化する。物理攻撃のダメージが攻撃力×680%になる。",
+        "NameKey": "[ActiveSkillName105001]",
+        "RootActiveSkillId": 105001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName105001]",
+      "names": {
+        "zh-CN": "花儿的祝福"
+      },
+      "source_memo_ja": "花束ナターシャSR:Lv1 「幸せのおすそ分けです」ランダムな敵3体に攻撃力×280%の物理攻撃を行う。このスキルを再発動する（再発動は1回まで）。/ Lv2 さらに物理攻撃の前に自身の『心に咲く花』のスタック数が5以上の場合、再発動の回数が2回までになり、最後の物理攻撃の後に自身の『心に咲く花』のスタック数を5消費する。/ Lv3 物理攻撃のダメージが攻撃力×380%になる。/ Ex1 フラワーギフトを強化する。物理攻撃のダメージが攻撃力×680%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「幸せのおすそ分けです」ランダムな敵3体に攻撃力×280%の物理攻撃を行う。このスキルを再発動する（再発動は1回まで）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに物理攻撃の前に自身の『心に咲く花』のスタック数が5以上の場合、再発動の回数が2回までになり、最後の物理攻撃の後に自身の『心に咲く花』のスタック数を5消費する。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃のダメージが攻撃力×380%になる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "フラワーギフトを強化する。物理攻撃のダメージが攻撃力×680%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 105002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription1050021]",
+          "descriptions": {
+            "zh-CN": "“请收下这束盛开的花吧。”娜塔夏对攻击力最高的3名敌人造成攻击力×620%的物理伤害，并附加「中毒」状态，效果持续1回合，每回合行动开始时造成附带者当前生命值×4%的伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「満開の花束をどうぞ」攻撃力が高い敵3体に攻撃力×620%の物理攻撃を行う。対象に1ターンの間『毒』を付与する。毎ターン行動開始時に現在HP×4%のダメージを与える。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription1050022]",
+          "descriptions": {
+            "zh-CN": "「中毒」效果增加为2回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "『毒』のターン数が2ターンになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription1050023]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×1320%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃のダメージが攻撃力×1320%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription1050024]",
+          "descriptions": {
+            "zh-CN": "发动攻击前，如果娜塔夏身上附带的「心花盛开」达5层以上，造成的物理伤害提升为攻击力×1980%，并在攻击结束后消耗5层「心花盛开」。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "さらに物理攻撃の前に自身の『心に咲く花』のスタック数が5以上の場合、物理攻撃のダメージが攻撃力×1980%になり、物理攻撃の後に自身の『心に咲く花』のスタック数を5消費する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription1050025]",
+          "descriptions": {
+            "zh-CN": "强化这束花送给你，「中毒」造成的伤害提升为附带者当前生命值×5%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "花束をあなたにを強化する。『毒』のダメージが現在HP×5%に増加する。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription1050021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              105002001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription1050022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              105002201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription1050023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              105002301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription1050024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              105002401,
+              105002402
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription1050025]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              105002501,
+              105002402
+            ]
+          }
+        ],
+        "Id": 105002,
+        "IsIgnore": null,
+        "Memo": "花束ナターシャSR:Lv1 「満開の花束をどうぞ」攻撃力が高い敵3体に攻撃力×620%の物理攻撃を行う。対象に1ターンの間『毒』を付与する。毎ターン行動開始時に現在HP×4%のダメージを与える。/ Lv2 『毒』のターン数が2ターンになる。/ Lv3 物理攻撃のダメージが攻撃力×1320%になる。/ Lv4 さらに物理攻撃の前に自身の『心に咲く花』のスタック数が5以上の場合、物理攻撃のダメージが攻撃力×1980%になり、物理攻撃の後に自身の『心に咲く花』のスタック数を5消費する。/ Ex3 花束をあなたにを強化する。『毒』のダメージが現在HP×5%に増加する。",
+        "NameKey": "[ActiveSkillName105002]",
+        "RootActiveSkillId": 105002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName105002]",
+      "names": {
+        "zh-CN": "这束花送给你"
+      },
+      "source_memo_ja": "花束ナターシャSR:Lv1 「満開の花束をどうぞ」攻撃力が高い敵3体に攻撃力×620%の物理攻撃を行う。対象に1ターンの間『毒』を付与する。毎ターン行動開始時に現在HP×4%のダメージを与える。/ Lv2 『毒』のターン数が2ターンになる。/ Lv3 物理攻撃のダメージが攻撃力×1320%になる。/ Lv4 さらに物理攻撃の前に自身の『心に咲く花』のスタック数が5以上の場合、物理攻撃のダメージが攻撃力×1980%になり、物理攻撃の後に自身の『心に咲く花』のスタック数を5消費する。/ Ex3 花束をあなたにを強化する。『毒』のダメージが現在HP×5%に増加する。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「満開の花束をどうぞ」攻撃力が高い敵3体に攻撃力×620%の物理攻撃を行う。対象に1ターンの間『毒』を付与する。毎ターン行動開始時に現在HP×4%のダメージを与える。"
+        },
+        {
+          "label": "Lv2",
+          "text": "『毒』のターン数が2ターンになる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃のダメージが攻撃力×1320%になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "さらに物理攻撃の前に自身の『心に咲く花』のスタック数が5以上の場合、物理攻撃のダメージが攻撃力×1980%になり、物理攻撃の後に自身の『心に咲く花』のスタック数を5消費する。"
+        },
+        {
+          "label": "Ex3",
+          "text": "花束をあなたにを強化する。『毒』のダメージが現在HP×5%に増加する。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 59,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 500.0,
+              "value_text": "+500"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 59,
+            "CollectionLevel": 1,
+            "Id": 5901,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴェラの花束(花束ナターシャ,ナターシャ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              },
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 59,
+            "CollectionLevel": 2,
+            "Id": 5902,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴェラの花束(花束ナターシャ,ナターシャ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              },
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 59,
+            "CollectionLevel": 3,
+            "Id": 5903,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴェラの花束(花束ナターシャ,ナターシャ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              },
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 59,
+            "CollectionLevel": 4,
+            "Id": 5904,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴェラの花束(花束ナターシャ,ナターシャ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1050.0,
+              "value_text": "+1,050"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1050.0
+              },
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 59,
+            "CollectionLevel": 5,
+            "Id": 5905,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴェラの花束(花束ナターシャ,ナターシャ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1100.0,
+              "value_text": "+1,100"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1100.0
+              },
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 59,
+            "CollectionLevel": 6,
+            "Id": 5906,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴェラの花束(花束ナターシャ,ナターシャ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1150.0,
+              "value_text": "+1,150"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 250.0,
+              "value_text": "+2.5%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1150.0
+              },
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 2,
+                "Value": 250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 59,
+            "CollectionLevel": 7,
+            "Id": 5907,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴェラの花束(花束ナターシャ,ナターシャ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1200.0,
+              "value_text": "+1,200"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 300.0,
+              "value_text": "+3%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1200.0
+              },
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 2,
+                "Value": 300.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 59,
+            "CollectionLevel": 8,
+            "Id": 5908,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴェラの花束(花束ナターシャ,ナターシャ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "CriticalDamageEnhance",
+              "parameter_type": 9,
+              "raw_value": 1250.0,
+              "value_text": "+1,250"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 350.0,
+              "value_text": "+3.5%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 9,
+                "ChangeParameterType": 1,
+                "Value": 1250.0
+              },
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 2,
+                "Value": 350.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 59,
+            "CollectionLevel": 9,
+            "Id": 5909,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴェラの花束(花束ナターシャ,ナターシャ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 59,
+        "IsIgnore": null,
+        "Memo": "ヴェラの花束(花束ナターシャ,ナターシャ)",
+        "NameKey": "[CharacterCollectionName59]",
+        "RequiredCharacterIds": [
+          105,
+          41
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2024-10-31 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName59]",
+      "names": {
+        "zh-CN": "船帆座的繁花"
+      },
+      "required_character_ids": [
+        105,
+        41
+      ],
+      "required_characters": [
+        {
+          "id": 105,
+          "names": {
+            "zh-CN": "娜塔夏"
+          }
+        },
+        {
+          "id": 41,
+          "names": {
+            "zh-CN": "娜塔夏"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2024-10-31 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 2,
+    "element_type": 6,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 105,
+    "job_flags": 2,
+    "master_record": {
+      "ActiveSkillIds": [
+        105001,
+        105002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 104,
+        "Health": 75,
+        "Intelligence": 78,
+        "Muscle": 91
+      },
+      "BaseParameterGrossCoefficient": 348,
+      "CharacterType": 2,
+      "ElementType": 6,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 105,
+      "InitialBattleParameter": {
+        "AttackPower": 5,
+        "Avoidance": 0,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 3,
+        "DebuffResist": 0,
+        "Defense": 5,
+        "DefensePenetration": 0,
+        "HP": -3,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 2601
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 2,
+      "Memo": "花束ナターシャ",
+      "Name2Key": "[CharacterSubName105]",
+      "NameKey": "[CharacterName105]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        105003,
+        105004,
+        105005
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2024-10-31 15:00:00"
+    },
+    "memo": "花束ナターシャ",
+    "name_key": "[CharacterName105]",
+    "names": {
+      "zh-CN": "娜塔夏"
+    },
+    "speed": 2601,
+    "start_time_jst": "2024-10-31 15:00:00",
+    "subtitle_key": "[CharacterSubName105]",
+    "subtitles": {
+      "zh-CN": "繁花魔女"
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 1051120240,
+    "exclusive_effect_id": 444,
+    "icon_id": 734,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 1051120250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 106,
+        "EquipmentEvolutionId": 116,
+        "EquipmentExclusiveSkillDescriptionId": 74,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 2,
+        "ExclusiveEffectId": 444,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 734,
+        "Id": 1051120240,
+        "IsIgnore": null,
+        "Memo": "花束ナターシャLR240_銃",
+        "NameKey": "[EquipmentName729]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": null,
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 14,
+            "ChangeParameterType": 1,
+            "Value": 7000.0
+          },
+          {
+            "BattleParameterType": 12,
+            "ChangeParameterType": 1,
+            "Value": 7000.0
+          }
+        ],
+        "CharacterId": 105,
+        "Id": 444,
+        "IsIgnore": null,
+        "Memo": "花束ナターシャLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill105Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill105Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill105Description3]",
+        "Id": 74,
+        "IsIgnore": null,
+        "Memo": "花束ナターシャ銃"
+      }
+    },
+    "name_key": "[EquipmentName729]",
+    "names": {
+      "zh-CN": "祝福花束"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 1,
+        "kind": "battle",
+        "parameter_code": "DamageEnhance",
+        "parameter_type": 14,
+        "raw_value": 7000.0,
+        "value_text": "+7,000"
+      },
+      {
+        "change_parameter_type": 1,
+        "kind": "battle",
+        "parameter_code": "DefensePenetration",
+        "parameter_type": 12,
+        "raw_value": 7000.0,
+        "value_text": "+7,000"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill105Description1]",
+        "descriptions": {
+          "zh-CN": "强化花儿的祝福，造成的物理伤害提升为攻击力×680%。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill105Description2]",
+        "descriptions": {
+          "zh-CN": "战斗开始时，娜塔夏获得3层「多重屏障」（无法被解除）。当娜塔夏受到伤害时，消耗1层屏障来抵消该伤害。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill105Description3]",
+        "descriptions": {
+          "zh-CN": "强化这束花送给你，「中毒」造成的伤害提升为附带者当前生命值×5%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": false,
+  "missing_localization_keys": [
+    "*"
+  ],
+  "passive_skills": [
+    {
+      "id": 105003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription1050031]",
+          "descriptions": {
+            "zh-CN": "“封闭在心里的痛苦回忆，已无法再继续压抑……”每回合开始时，娜塔夏对自己与攻击力最高的3名敌人附加「恶化」状态，效果持续1回合（无法被解除），使自己承受的持续伤害增加100%，使攻击力最高的3名敌人承受的持续伤害增加50%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「蓋をして閉じ込めていた辛い記憶が、心の中からあふれ出してくる……」毎ターン開始時、1ターンの間自身と攻撃力が高い敵3体に『劇化』を付与する（解除不可）。自身の受ける持続ダメージが100%増加し、攻撃力が高い敵3体の受ける持続ダメージが50%増加する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription1050032]",
+          "descriptions": {
+            "zh-CN": "战斗开始时，使自己额外增加50%命中率（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらにバトル開始時自身の命中率が50%増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription1050033]",
+          "descriptions": {
+            "zh-CN": "战斗开始时，使全体友军额外增加10%攻击力与最大生命值（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "バトル開始時さらに味方全体の攻撃力と最大HPがそれぞれ10%増加する（解除不可）。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 105003,
+        "IsIgnore": null,
+        "Memo": "花束ナターシャSR:Lv1 「蓋をして閉じ込めていた辛い記憶が、心の中からあふれ出してくる……」毎ターン開始時、1ターンの間自身と攻撃力が高い敵3体に『劇化』を付与する（解除不可）。自身の受ける持続ダメージが100%増加し、攻撃力が高い敵3体の受ける持続ダメージが50%増加する。/ Lv2 さらにバトル開始時自身の命中率が50%増加する（解除不可）。/ Lv3 バトル開始時さらに味方全体の攻撃力と最大HPがそれぞれ10%増加する（解除不可）。",
+        "NameKey": "[PassiveSkillName105003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription1050031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 105003003
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 105003004
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 105003005
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription1050032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 105003201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 105003003
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 105003004
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 105003005
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription1050033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 105003201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 105003302
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 105003003
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 105003004
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 105003005
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName105003]",
+      "names": {
+        "zh-CN": "挥之不去的过往"
+      },
+      "source_memo_ja": "花束ナターシャSR:Lv1 「蓋をして閉じ込めていた辛い記憶が、心の中からあふれ出してくる……」毎ターン開始時、1ターンの間自身と攻撃力が高い敵3体に『劇化』を付与する（解除不可）。自身の受ける持続ダメージが100%増加し、攻撃力が高い敵3体の受ける持続ダメージが50%増加する。/ Lv2 さらにバトル開始時自身の命中率が50%増加する（解除不可）。/ Lv3 バトル開始時さらに味方全体の攻撃力と最大HPがそれぞれ10%増加する（解除不可）。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「蓋をして閉じ込めていた辛い記憶が、心の中からあふれ出してくる……」毎ターン開始時、1ターンの間自身と攻撃力が高い敵3体に『劇化』を付与する（解除不可）。自身の受ける持続ダメージが100%増加し、攻撃力が高い敵3体の受ける持続ダメージが50%増加する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらにバトル開始時自身の命中率が50%増加する（解除不可）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "バトル開始時さらに味方全体の攻撃力と最大HPがそれぞれ10%増加する（解除不可）。"
+        }
+      ]
+    },
+    {
+      "id": 105004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription1050041]",
+          "descriptions": {
+            "zh-CN": "“只有用爱灌溉，才能让花儿绽放。”当娜塔夏受到攻击时，阻绝20%伤害。并在受到攻击时，获得1层「心花盛开」（最多10层）（无法被解除）。每层「心花盛开」使娜塔夏增加3%防御穿透。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「花が咲くのはいつだって、誰かが愛してくれたから──」自身が攻撃を受けたとき、ダメージを20%遮断する。さらに自身が攻撃を受けたとき、自身に『心に咲く花』を1スタック付与する（最大10スタックまで）（解除不可）。このバフは1スタックにつき自身の防御貫通を3%増加させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription1050042]",
+          "descriptions": {
+            "zh-CN": "伤害阻绝量提升为40%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "ダメージの遮断量が40%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription1050043]",
+          "descriptions": {
+            "zh-CN": "伤害阻绝量提升为80%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "ダメージの遮断量が80%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 105004,
+        "IsIgnore": null,
+        "Memo": "花束ナターシャSR:Lv1 「花が咲くのはいつだって、誰かが愛してくれたから──」自身が攻撃を受けたとき、ダメージを20%遮断する。さらに自身が攻撃を受けたとき、自身に『心に咲く花』を1スタック付与する（最大10スタックまで）（解除不可）。このバフは1スタックにつき自身の防御貫通を3%増加させる。/ Lv2 ダメージの遮断量が40%になる。/ Lv3 ダメージの遮断量が80%になる。",
+        "NameKey": "[PassiveSkillName105004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription1050041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 105004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 105004002
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription1050042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 105004201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 105004002
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription1050043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 105004301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 105004002
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName105004]",
+      "names": {
+        "zh-CN": "心花盛开"
+      },
+      "source_memo_ja": "花束ナターシャSR:Lv1 「花が咲くのはいつだって、誰かが愛してくれたから──」自身が攻撃を受けたとき、ダメージを20%遮断する。さらに自身が攻撃を受けたとき、自身に『心に咲く花』を1スタック付与する（最大10スタックまで）（解除不可）。このバフは1スタックにつき自身の防御貫通を3%増加させる。/ Lv2 ダメージの遮断量が40%になる。/ Lv3 ダメージの遮断量が80%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「花が咲くのはいつだって、誰かが愛してくれたから──」自身が攻撃を受けたとき、ダメージを20%遮断する。さらに自身が攻撃を受けたとき、自身に『心に咲く花』を1スタック付与する（最大10スタックまで）（解除不可）。このバフは1スタックにつき自身の防御貫通を3%増加させる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "ダメージの遮断量が40%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "ダメージの遮断量が80%になる。"
+        }
+      ]
+    },
+    {
+      "id": 105005,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "*",
+          "descriptions": {
+            "zh-CN": null
+          },
+          "equipment_rarity_flags": 256,
+          "order": 1,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "Id": 105005,
+        "IsIgnore": null,
+        "Memo": "*",
+        "NameKey": "*",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "*",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 105005001
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "*",
+      "names": {
+        "zh-CN": null
+      },
+      "source_memo_ja": "*",
+      "source_memo_sections_ja": []
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

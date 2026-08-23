@@ -1,0 +1,73 @@
+{
+  "game": "MementoMori",
+  "index_url": "https://raw.githubusercontent.com/GuangShiX/mmtm-assets-fallback/main/skills/index.json",
+  "languages": [
+    "zh-CN"
+  ],
+  "latest_characters": [
+    {
+      "display_name": "佛罗伦斯",
+      "id": 150,
+      "localization_complete": true,
+      "memo": "黄昏フローレンス",
+      "names": {
+        "zh-CN": "佛罗伦斯"
+      },
+      "path": "skills/characters/000150.json",
+      "sha256": "0600c192dfe4876b0d135871d0f54f4d7368035152c06ab1128f73e79eb65cda",
+      "size": 54141,
+      "start_time_jst": "2026-08-13 15:00:00",
+      "subtitles": {
+        "zh-CN": "黄昏之誓"
+      },
+      "url": "https://raw.githubusercontent.com/GuangShiX/mmtm-assets-fallback/main/skills/characters/000150.json"
+    }
+  ],
+  "latest_release_time_jst": "2026-08-13 15:00:00",
+  "manifest_url": "https://raw.githubusercontent.com/GuangShiX/mmtm-assets-fallback/main/skills/manifest.json",
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

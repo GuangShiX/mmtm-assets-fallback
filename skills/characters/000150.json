@@ -1,0 +1,1383 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 150001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription1500011]",
+          "descriptions": {
+            "zh-CN": "“一起赢下这场战斗！”佛罗伦斯使生命值百分比最低的友军恢复佛罗伦斯攻击力×5%的生命值。“这就是我的觉悟！”再随机对敌人进行2次攻击，每次造成攻击力×520%的物理伤害。第7回合起，发动此技能不会恢复生命值，造成的物理伤害提升为攻击力×1040%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「みんなで勝つぞ！」HP割合が最も低い味方のHPを自身の攻撃力×5%回復する。「これが私の覚悟だ！」その後ランダムな敵に2回攻撃力×520%の物理攻撃を行う。このスキルを7ターン目以降に発動した場合、このスキルの味方のHPを回復する効果は発動せず、物理攻撃のダメージが攻撃力×1040%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription1500012]",
+          "descriptions": {
+            "zh-CN": "生命值恢复量提升为佛罗伦斯攻击力×15%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "HPの回復量が自身の攻撃力×15%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1500013]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×890%。第7回合起，造成的物理伤害提升为攻击力×1780%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃のダメージが攻撃力×890%になる。このスキルを7ターン目以降に発動した場合、物理攻撃のダメージが攻撃力×1780%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1500014]",
+          "descriptions": {
+            "zh-CN": "强化闪光瞬辉斩，攻击次数增加为3次。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "一閃光斬を強化する。物理攻撃の回数が3回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription1500015]",
+          "descriptions": {
+            "zh-CN": "强化闪光瞬辉斩，造成的物理伤害提升为攻击力×980%。第7回合起，造成的物理伤害提升为攻击力×1960%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "一閃光斬を強化する。物理攻撃のダメージが攻撃力×980%になる。このスキルを7ターン目以降に発動した場合、物理攻撃のダメージが攻撃力×1960%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription1500011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              150001001,
+              150001002,
+              150001003
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription1500012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              150001201,
+              150001002,
+              150001003
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1500013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              150001201,
+              150001302,
+              150001303
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1500014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              150001201,
+              150001302,
+              150001303,
+              150001303
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription1500015]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              150001201,
+              150001502,
+              150001503,
+              150001503
+            ]
+          }
+        ],
+        "Id": 150001,
+        "IsIgnore": null,
+        "Memo": "黄昏フローレンスSR:Lv1 「みんなで勝つぞ！」HP割合が最も低い味方のHPを自身の攻撃力×5%回復する。「これが私の覚悟だ！」その後ランダムな敵に2回攻撃力×520%の物理攻撃を行う。このスキルを7ターン目以降に発動した場合、このスキルの味方のHPを回復する効果は発動せず、物理攻撃のダメージが攻撃力×1040%になる。/ Lv2 HPの回復量が自身の攻撃力×15%になる。/ Lv3 物理攻撃のダメージが攻撃力×890%になる。このスキルを7ターン目以降に発動した場合、物理攻撃のダメージが攻撃力×1780%になる。/ Ex1 一閃光斬を強化する。物理攻撃の回数が3回になる。/ Ex3 一閃光斬を強化する。物理攻撃のダメージが攻撃力×980%になる。このスキルを7ターン目以降に発動した場合、物理攻撃のダメージが攻撃力×1960%になる。",
+        "NameKey": "[ActiveSkillName150001]",
+        "RootActiveSkillId": 150001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName150001]",
+      "names": {
+        "zh-CN": "闪光瞬辉斩"
+      },
+      "source_memo_ja": "黄昏フローレンスSR:Lv1 「みんなで勝つぞ！」HP割合が最も低い味方のHPを自身の攻撃力×5%回復する。「これが私の覚悟だ！」その後ランダムな敵に2回攻撃力×520%の物理攻撃を行う。このスキルを7ターン目以降に発動した場合、このスキルの味方のHPを回復する効果は発動せず、物理攻撃のダメージが攻撃力×1040%になる。/ Lv2 HPの回復量が自身の攻撃力×15%になる。/ Lv3 物理攻撃のダメージが攻撃力×890%になる。このスキルを7ターン目以降に発動した場合、物理攻撃のダメージが攻撃力×1780%になる。/ Ex1 一閃光斬を強化する。物理攻撃の回数が3回になる。/ Ex3 一閃光斬を強化する。物理攻撃のダメージが攻撃力×980%になる。このスキルを7ターン目以降に発動した場合、物理攻撃のダメージが攻撃力×1960%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「みんなで勝つぞ！」HP割合が最も低い味方のHPを自身の攻撃力×5%回復する。「これが私の覚悟だ！」その後ランダムな敵に2回攻撃力×520%の物理攻撃を行う。このスキルを7ターン目以降に発動した場合、このスキルの味方のHPを回復する効果は発動せず、物理攻撃のダメージが攻撃力×1040%になる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "HPの回復量が自身の攻撃力×15%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃のダメージが攻撃力×890%になる。このスキルを7ターン目以降に発動した場合、物理攻撃のダメージが攻撃力×1780%になる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "一閃光斬を強化する。物理攻撃の回数が3回になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "一閃光斬を強化する。物理攻撃のダメージが攻撃力×980%になる。このスキルを7ターン目以降に発動した場合、物理攻撃のダメージが攻撃力×1960%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "self.EffectManager.ExistEffectGroup(15000300201)",
+      "id": 150002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription1500021]",
+          "descriptions": {
+            "zh-CN": "“消散于暮色之中吧！”当佛罗伦斯身上附带「黄昏之誓」状态时，可发动此技能。锋刃斩碎暮光，散落满天余晖——随机对敌人进行4次攻击，每次造成攻击力×650%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「黄昏に散れ！」自身が『黄昏の誓い』を付帯している場合に発動。切り裂く刃は夕陽を散らし、残光を降らす──ランダムな敵に4回攻撃力×650%の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[ActiveSkillDescription1500022]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×1050%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "物理攻撃のダメージが攻撃力×1050%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription1500023]",
+          "descriptions": {
+            "zh-CN": "攻击次数增加为6次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃の回数が6回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription1500024]",
+          "descriptions": {
+            "zh-CN": "每次技能暴击，使攻击次数增加1次（合计最多10连击）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "さらにクリティカルヒットするたび攻撃回数が1回多くなる（合計で最大10回まで）。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "self.EffectManager.ExistEffectGroup(15000300201)",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription1500021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              150002001,
+              150002002,
+              150002002,
+              150002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[ActiveSkillDescription1500022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              150002201,
+              150002202,
+              150002202,
+              150002202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription1500023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              150002301,
+              150002302,
+              150002302,
+              150002302,
+              150002302,
+              150002302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription1500024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              150002301,
+              150002302,
+              150002302,
+              150002302,
+              150002302,
+              150002302,
+              150002403,
+              150002404,
+              150002405,
+              150002406
+            ]
+          }
+        ],
+        "Id": 150002,
+        "IsIgnore": null,
+        "Memo": "黄昏フローレンスSR:Lv1 「黄昏に散れ！」自身が『黄昏の誓い』を付帯している場合に発動。切り裂く刃は夕陽を散らし、残光を降らす──ランダムな敵に4回攻撃力×650%の物理攻撃を行う。/ Lv2 物理攻撃のダメージが攻撃力×1050%になる。/ Lv3 物理攻撃の回数が6回になる。/ Lv4 さらにクリティカルヒットするたび攻撃回数が1回多くなる（合計で最大10回まで）。",
+        "NameKey": "[ActiveSkillName150002]",
+        "RootActiveSkillId": 150002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName150002]",
+      "names": {
+        "zh-CN": "夕照光闪"
+      },
+      "source_memo_ja": "黄昏フローレンスSR:Lv1 「黄昏に散れ！」自身が『黄昏の誓い』を付帯している場合に発動。切り裂く刃は夕陽を散らし、残光を降らす──ランダムな敵に4回攻撃力×650%の物理攻撃を行う。/ Lv2 物理攻撃のダメージが攻撃力×1050%になる。/ Lv3 物理攻撃の回数が6回になる。/ Lv4 さらにクリティカルヒットするたび攻撃回数が1回多くなる（合計で最大10回まで）。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「黄昏に散れ！」自身が『黄昏の誓い』を付帯している場合に発動。切り裂く刃は夕陽を散らし、残光を降らす──ランダムな敵に4回攻撃力×650%の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "物理攻撃のダメージが攻撃力×1050%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃の回数が6回になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "さらにクリティカルヒットするたび攻撃回数が1回多くなる（合計で最大10回まで）。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 99,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 99,
+            "CollectionLevel": 1,
+            "Id": 9901,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "クルクスの天誓(黄昏フローレンス,?)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 99,
+            "CollectionLevel": 2,
+            "Id": 9902,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "クルクスの天誓(黄昏フローレンス,?)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 99,
+            "CollectionLevel": 3,
+            "Id": 9903,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "クルクスの天誓(黄昏フローレンス,?)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 99,
+            "CollectionLevel": 4,
+            "Id": 9904,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "クルクスの天誓(黄昏フローレンス,?)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 31.0,
+              "value_text": "+31×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 210.0,
+              "value_text": "+2.1%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 31.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 210.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 99,
+            "CollectionLevel": 5,
+            "Id": 9905,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "クルクスの天誓(黄昏フローレンス,?)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 32.0,
+              "value_text": "+32×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 220.0,
+              "value_text": "+2.2%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 32.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 220.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 99,
+            "CollectionLevel": 6,
+            "Id": 9906,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "クルクスの天誓(黄昏フローレンス,?)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 33.0,
+              "value_text": "+33×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 230.0,
+              "value_text": "+2.3%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 33.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 230.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 99,
+            "CollectionLevel": 7,
+            "Id": 9907,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "クルクスの天誓(黄昏フローレンス,?)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 34.0,
+              "value_text": "+34×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 240.0,
+              "value_text": "+2.4%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 34.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 240.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 99,
+            "CollectionLevel": 8,
+            "Id": 9908,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "クルクスの天誓(黄昏フローレンス,?)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 35.0,
+              "value_text": "+35×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 250.0,
+              "value_text": "+2.5%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 35.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 99,
+            "CollectionLevel": 9,
+            "Id": 9909,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "クルクスの天誓(黄昏フローレンス,?)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 99,
+        "IsIgnore": null,
+        "Memo": "クルクスの天誓(黄昏フローレンス,?)",
+        "NameKey": "[CharacterCollectionName99]",
+        "RequiredCharacterIds": [
+          150,
+          0
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2026-08-13 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName99]",
+      "names": {
+        "zh-CN": "南十字座的约誓"
+      },
+      "required_character_ids": [
+        150,
+        0
+      ],
+      "required_characters": [
+        {
+          "id": 150,
+          "names": {
+            "zh-CN": "佛罗伦斯"
+          }
+        },
+        {
+          "id": 0,
+          "names": {
+            "zh-CN": null
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2026-08-13 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 2,
+    "element_type": 3,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 150,
+    "job_flags": 1,
+    "master_record": {
+      "ActiveSkillIds": [
+        150001,
+        150002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 83,
+        "Health": 66,
+        "Intelligence": 84,
+        "Muscle": 102
+      },
+      "BaseParameterGrossCoefficient": 335,
+      "CharacterType": 2,
+      "ElementType": 3,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 150,
+      "InitialBattleParameter": {
+        "AttackPower": 5,
+        "Avoidance": 0,
+        "Critical": -3,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 1,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 7,
+        "DefensePenetration": 0,
+        "HP": 0,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 3077
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 1,
+      "Memo": "黄昏フローレンス",
+      "Name2Key": "[CharacterSubName150]",
+      "NameKey": "[CharacterName150]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        150003,
+        150004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2026-08-13 15:00:00"
+    },
+    "memo": "黄昏フローレンス",
+    "name_key": "[CharacterName150]",
+    "names": {
+      "zh-CN": "佛罗伦斯"
+    },
+    "speed": 3077,
+    "start_time_jst": "2026-08-13 15:00:00",
+    "subtitle_key": "[CharacterSubName150]",
+    "subtitles": {
+      "zh-CN": "黄昏之誓"
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 1501110240,
+    "exclusive_effect_id": 708,
+    "icon_id": 1004,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 1501110250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 150,
+        "EquipmentEvolutionId": 160,
+        "EquipmentExclusiveSkillDescriptionId": 118,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 1,
+        "ExclusiveEffectId": 708,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 1004,
+        "Id": 1501110240,
+        "IsIgnore": null,
+        "Memo": "黄昏フローレンスLR240_剣",
+        "NameKey": "[EquipmentName999]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": [
+          {
+            "BaseParameterType": 1,
+            "ChangeParameterType": 2,
+            "Value": 800.0
+          }
+        ],
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 7,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 150,
+        "Id": 708,
+        "IsIgnore": null,
+        "Memo": "黄昏フローレンスLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill150Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill150Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill150Description3]",
+        "Id": 118,
+        "IsIgnore": null,
+        "Memo": "黄昏フローレンス剣"
+      }
+    },
+    "name_key": "[EquipmentName999]",
+    "names": {
+      "zh-CN": "骑士的黄昏"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "base",
+        "parameter_code": "Muscle",
+        "parameter_type": 1,
+        "raw_value": 800.0,
+        "value_text": "+8%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Critical",
+        "parameter_type": 7,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill150Description1]",
+        "descriptions": {
+          "zh-CN": "强化闪光瞬辉斩，攻击次数增加为3次。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill150Description2]",
+        "descriptions": {
+          "zh-CN": "强化黄昏的骑士，承受伤害降幅提升为40%，最大生命值增幅提升为100%。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill150Description3]",
+        "descriptions": {
+          "zh-CN": "强化闪光瞬辉斩，造成的物理伤害提升为攻击力×980%。第7回合起，造成的物理伤害提升为攻击力×1960%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 150003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[PassiveSkillDescription1500031]",
+          "descriptions": {
+            "zh-CN": "即使相隔再远，我的心也始终与你同在——当佛罗伦斯或友军发动主动技能触发恢复生命值的效果时，佛罗伦斯获得1层增益效果，增加1%攻击力与暴击率（最多10层）（无法被解除）。第7回合起，在每回合开始时，如果佛罗伦斯身上附带10层此技能附加的增益效果，获得「黄昏之誓」状态（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "たとえどんなに遠く離れていても、心は常に君と共に──自身か味方のアクティブスキルがHPを回復する効果を発動したとき、自身に攻撃力とクリティカル率がそれぞれ1%増加するバフを1スタック付与する（最大10スタックまで）（解除不可）。7ターン目以降の毎ターン開始時、このスキルで付与したバフのスタック数が10の場合、自身に『黄昏の誓い』を付与する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription1500032]",
+          "descriptions": {
+            "zh-CN": "攻击力与暴击率增幅提升为6%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "攻撃力とクリティカル率の増加量がそれぞれ6%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription1500033]",
+          "descriptions": {
+            "zh-CN": "战斗开始时，使自己额外增加100%防御力与100%物理防御力，效果持续10回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらにバトル開始時、10ターンの間自身の防御力と物理防御力がそれぞれ100%増加する。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 150003,
+        "IsIgnore": null,
+        "Memo": "黄昏フローレンスSR:Lv1 たとえどんなに遠く離れていても、心は常に君と共に──自身か味方のアクティブスキルがHPを回復する効果を発動したとき、自身に攻撃力とクリティカル率がそれぞれ1%増加するバフを1スタック付与する（最大10スタックまで）（解除不可）。7ターン目以降の毎ターン開始時、このスキルで付与したバフのスタック数が10の場合、自身に『黄昏の誓い』を付与する（解除不可）。/ Lv2 攻撃力とクリティカル率の増加量がそれぞれ6%になる。/ Lv3 さらにバトル開始時、10ターンの間自身の防御力と物理防御力がそれぞれ100%増加する。",
+        "NameKey": "[PassiveSkillName150003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[PassiveSkillDescription1500031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 14,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 150003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 15,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 150003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 150003002
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription1500032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 14,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 150003201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 15,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 150003201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 150003002
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription1500033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 14,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 150003201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 15,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 150003201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 150003002
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 150003303
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName150003]",
+      "names": {
+        "zh-CN": "夕阳色的情谊"
+      },
+      "source_memo_ja": "黄昏フローレンスSR:Lv1 たとえどんなに遠く離れていても、心は常に君と共に──自身か味方のアクティブスキルがHPを回復する効果を発動したとき、自身に攻撃力とクリティカル率がそれぞれ1%増加するバフを1スタック付与する（最大10スタックまで）（解除不可）。7ターン目以降の毎ターン開始時、このスキルで付与したバフのスタック数が10の場合、自身に『黄昏の誓い』を付与する（解除不可）。/ Lv2 攻撃力とクリティカル率の増加量がそれぞれ6%になる。/ Lv3 さらにバトル開始時、10ターンの間自身の防御力と物理防御力がそれぞれ100%増加する。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "たとえどんなに遠く離れていても、心は常に君と共に──自身か味方のアクティブスキルがHPを回復する効果を発動したとき、自身に攻撃力とクリティカル率がそれぞれ1%増加するバフを1スタック付与する（最大10スタックまで）（解除不可）。7ターン目以降の毎ターン開始時、このスキルで付与したバフのスタック数が10の場合、自身に『黄昏の誓い』を付与する（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "攻撃力とクリティカル率の増加量がそれぞれ6%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらにバトル開始時、10ターンの間自身の防御力と物理防御力がそれぞれ100%増加する。"
+        }
+      ]
+    },
+    {
+      "id": 150004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription1500041]",
+          "descriptions": {
+            "zh-CN": "誓言是约束自己的戒律。只要你仍相信着我，这颗心、这份誓言，便永远不会动摇——战斗开始时，佛罗伦斯强化自己的普通攻击，效果持续10回合。普攻时随机对5名敌人造成攻击力×390%的物理伤害，再使生命值百分比最低的3名友军恢复10%最大生命值。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "誓いは自分への戒め。もうこの心が、誓いが揺らぐことはない。君が信じてくれている限り──バトル開始時、10ターンの間自身の通常攻撃を強化する。通常攻撃時、ランダムな敵5体に攻撃力×390%の物理攻撃を行い、HP割合が低い味方3体のHPを対象の最大HP×10%回復する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription1500042]",
+          "descriptions": {
+            "zh-CN": "战斗开始时，佛罗伦斯额外减少10%自身承受伤害，使自己增加20%最大生命值（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "バトル開始時、さらに自身の被ダメージが20%減少し、最大HPが40%増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription1500043]",
+          "descriptions": {
+            "zh-CN": "当生命值恢复目标原本的生命值为50%以上，且身上附带控制效果时，额外解除目标身上的所有控制效果。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらにHP回復の前にHP回復の対象のHP割合が50%以上で、行動阻害を付帯している場合、HP回復の対象の行動阻害を全て解除する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription1500044]",
+          "descriptions": {
+            "zh-CN": "强化黄昏的骑士，承受伤害降幅提升为40%，最大生命值增幅提升为100%。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "黄昏の騎士を強化する。被ダメージの減少量が40%、最大HPの増加量が100%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 150004,
+        "IsIgnore": null,
+        "Memo": "黄昏フローレンスSR:Lv1 誓いは自分への戒め。もうこの心が、誓いが揺らぐことはない。君が信じてくれている限り──バトル開始時、10ターンの間自身の通常攻撃を強化する。通常攻撃時、ランダムな敵5体に攻撃力×390%の物理攻撃を行い、HP割合が低い味方3体のHPを対象の最大HP×10%回復する。/ Lv2 バトル開始時、さらに自身の被ダメージが20%減少し、最大HPが40%増加する（解除不可）。/ Lv3 さらにHP回復の前にHP回復の対象のHP割合が50%以上で、行動阻害を付帯している場合、HP回復の対象の行動阻害を全て解除する。/ Ex2 黄昏の騎士を強化する。被ダメージの減少量が40%、最大HPの増加量が100%になる。",
+        "NameKey": "[PassiveSkillName150004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription1500041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 150004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription1500042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 150004201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription1500043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 150004301
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription1500044]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 150004401
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName150004]",
+      "names": {
+        "zh-CN": "黄昏的骑士"
+      },
+      "source_memo_ja": "黄昏フローレンスSR:Lv1 誓いは自分への戒め。もうこの心が、誓いが揺らぐことはない。君が信じてくれている限り──バトル開始時、10ターンの間自身の通常攻撃を強化する。通常攻撃時、ランダムな敵5体に攻撃力×390%の物理攻撃を行い、HP割合が低い味方3体のHPを対象の最大HP×10%回復する。/ Lv2 バトル開始時、さらに自身の被ダメージが20%減少し、最大HPが40%増加する（解除不可）。/ Lv3 さらにHP回復の前にHP回復の対象のHP割合が50%以上で、行動阻害を付帯している場合、HP回復の対象の行動阻害を全て解除する。/ Ex2 黄昏の騎士を強化する。被ダメージの減少量が40%、最大HPの増加量が100%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "誓いは自分への戒め。もうこの心が、誓いが揺らぐことはない。君が信じてくれている限り──バトル開始時、10ターンの間自身の通常攻撃を強化する。通常攻撃時、ランダムな敵5体に攻撃力×390%の物理攻撃を行い、HP割合が低い味方3体のHPを対象の最大HP×10%回復する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "バトル開始時、さらに自身の被ダメージが20%減少し、最大HPが40%増加する（解除不可）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらにHP回復の前にHP回復の対象のHP割合が50%以上で、行動阻害を付帯している場合、HP回復の対象の行動阻害を全て解除する。"
+        },
+        {
+          "label": "Ex2",
+          "text": "黄昏の騎士を強化する。被ダメージの減少量が40%、最大HPの増加量が100%になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

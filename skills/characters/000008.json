@@ -1,0 +1,2278 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 8001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription80011]",
+          "descriptions": {
+            "zh-CN": "佛罗伦斯挥舞长枪释放锐不可挡的红光，随机对敌人进行3次攻击，每次造成攻击力×460%的物理伤害。打倒对手使她士气大增，当技能暴击时，攻击次数增加1次（合计最多6连击）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "紅く鋭い光を放つ槍で、ランダムな敵に3回攻撃力×460%の物理攻撃を行う。相手を倒すほど士気が上昇していき、クリティカルヒットするたび攻撃回数が1回多くなる（合計で最大6回まで）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription80012]",
+          "descriptions": {
+            "zh-CN": "第一波攻击次数增加为4次，连击上限增加为8次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "最初の物理攻撃の回数が4回、合計で最大8回までになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription80013]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×480%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃のダメージが攻撃力×480%になる。　/専用1 紅天光槍を強化する。さらに物理攻撃の前に1ターンの間対象のクリティカル耐性率を40％減少させる。　/専用2 紅天光槍を強化する。最初の物理攻撃の回数が6回、合計で最大10回までになる。　/専用3 紅天光槍と戦舞・光散双槍を強化する。紅天光槍の物理攻撃のダメージと戦舞・光散双槍の最初の物理攻撃のダメージがそれぞれ攻撃力×525％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription80014]",
+          "descriptions": {
+            "zh-CN": "[ActiveSkillDescription80014]"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": null
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription80015]",
+          "descriptions": {
+            "zh-CN": "[ActiveSkillDescription80015]"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 5,
+          "source_memo_ja": null
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "*",
+          "descriptions": {
+            "zh-CN": null
+          },
+          "equipment_rarity_flags": 512,
+          "order": 6,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription80011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              8001001,
+              8001002,
+              8001002,
+              8001003,
+              8001004,
+              8001005
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription80012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              8001001,
+              8001002,
+              8001002,
+              8001002,
+              8001003,
+              8001004,
+              8001005,
+              8001206
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription80013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              8001301,
+              8001302,
+              8001302,
+              8001302,
+              8001303,
+              8001304,
+              8001305,
+              8001306
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription80014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              8001401,
+              8001402,
+              8001402,
+              8001402,
+              8001403,
+              8001404,
+              8001405,
+              8001406
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription80015]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              8001501,
+              8001502,
+              8001502,
+              8001502,
+              8001502,
+              8001502,
+              8001503,
+              8001504,
+              8001505,
+              8001506
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "*",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 6,
+            "SubSetSkillIds": [
+              8001601,
+              8001602,
+              8001602,
+              8001602,
+              8001602,
+              8001602,
+              8001603,
+              8001604,
+              8001605,
+              8001606
+            ]
+          }
+        ],
+        "Id": 8001,
+        "IsIgnore": null,
+        "Memo": "フローレンスSR: /Lv1　紅く鋭い光を放つ槍で、ランダムな敵に3回攻撃力×460%の物理攻撃を行う。相手を倒すほど士気が上昇していき、クリティカルヒットするたび攻撃回数が1回多くなる（合計で最大6回まで）。　/Lv2 最初の物理攻撃の回数が4回、合計で最大8回までになる。　/Lv3 物理攻撃のダメージが攻撃力×480%になる。　/専用1 紅天光槍を強化する。さらに物理攻撃の前に1ターンの間対象のクリティカル耐性率を40％減少させる。　/専用2 紅天光槍を強化する。最初の物理攻撃の回数が6回、合計で最大10回までになる。　/専用3 紅天光槍と戦舞・光散双槍を強化する。紅天光槍の物理攻撃のダメージと戦舞・光散双槍の最初の物理攻撃のダメージがそれぞれ攻撃力×525％になる。",
+        "NameKey": "[ActiveSkillName8001]",
+        "RootActiveSkillId": 8001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 5
+      },
+      "max_cooldown": 5,
+      "name_key": "[ActiveSkillName8001]",
+      "names": {
+        "zh-CN": "红光破天枪"
+      },
+      "source_memo_ja": "フローレンスSR: /Lv1　紅く鋭い光を放つ槍で、ランダムな敵に3回攻撃力×460%の物理攻撃を行う。相手を倒すほど士気が上昇していき、クリティカルヒットするたび攻撃回数が1回多くなる（合計で最大6回まで）。　/Lv2 最初の物理攻撃の回数が4回、合計で最大8回までになる。　/Lv3 物理攻撃のダメージが攻撃力×480%になる。　/専用1 紅天光槍を強化する。さらに物理攻撃の前に1ターンの間対象のクリティカル耐性率を40％減少させる。　/専用2 紅天光槍を強化する。最初の物理攻撃の回数が6回、合計で最大10回までになる。　/専用3 紅天光槍と戦舞・光散双槍を強化する。紅天光槍の物理攻撃のダメージと戦舞・光散双槍の最初の物理攻撃のダメージがそれぞれ攻撃力×525％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "紅く鋭い光を放つ槍で、ランダムな敵に3回攻撃力×460%の物理攻撃を行う。相手を倒すほど士気が上昇していき、クリティカルヒットするたび攻撃回数が1回多くなる（合計で最大6回まで）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "最初の物理攻撃の回数が4回、合計で最大8回までになる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃のダメージが攻撃力×480%になる。　/専用1 紅天光槍を強化する。さらに物理攻撃の前に1ターンの間対象のクリティカル耐性率を40％減少させる。　/専用2 紅天光槍を強化する。最初の物理攻撃の回数が6回、合計で最大10回までになる。　/専用3 紅天光槍と戦舞・光散双槍を強化する。紅天光槍の物理攻撃のダメージと戦舞・光散双槍の最初の物理攻撃のダメージがそれぞれ攻撃力×525％になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 8002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription80021]",
+          "descriptions": {
+            "zh-CN": "佛罗伦斯在战场上纵横驰骋，宛若起舞，随机对5名敌人造成攻击力×480%的物理伤害。“不到最后千万别松懈！”如果技能目标失去战斗能力，再对当前生命值最低的敌人追加攻击力×520%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "舞うように戦場に駆け、ランダムな敵5体に攻撃力×480%の物理攻撃を行う。「最後まで手を抜くな！」このスキルで敵を戦闘不能にした場合、現在HPが最も低い敵に攻撃力×520%の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription80022]",
+          "descriptions": {
+            "zh-CN": "造成的追加伤害提升为攻击力×560%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "追加攻撃のダメージが攻撃力×560%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription80023]",
+          "descriptions": {
+            "zh-CN": "第一波攻击造成的物理伤害提升为攻击力×510%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "最初の物理攻撃のダメージが攻撃力×510%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription80024]",
+          "descriptions": {
+            "zh-CN": "追加攻击次数增加为2次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "追加攻撃の回数が2回になる。　/専用3 紅天光槍と戦舞・光散双槍を強化する。紅天光槍の物理攻撃のダメージと戦舞・光散双槍の最初の物理攻撃のダメージがそれぞれ攻撃力×525％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription80025]",
+          "descriptions": {
+            "zh-CN": "[ActiveSkillDescription80025]"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription80021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              8002001,
+              8002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription80022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              8002001,
+              8002202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription80023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              8002301,
+              8002202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription80024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              8002301,
+              8002402,
+              8002403
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription80025]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              8002501,
+              8002402,
+              8002403
+            ]
+          }
+        ],
+        "Id": 8002,
+        "IsIgnore": null,
+        "Memo": "フローレンスSR: /Lv1　舞うように戦場に駆け、ランダムな敵5体に攻撃力×480%の物理攻撃を行う。「最後まで手を抜くな！」このスキルで敵を戦闘不能にした場合、現在HPが最も低い敵に攻撃力×520%の物理攻撃を行う。　/Lv2 追加攻撃のダメージが攻撃力×560%になる。　/Lv3 最初の物理攻撃のダメージが攻撃力×510%になる。　/Lv4 追加攻撃の回数が2回になる。　/専用3 紅天光槍と戦舞・光散双槍を強化する。紅天光槍の物理攻撃のダメージと戦舞・光散双槍の最初の物理攻撃のダメージがそれぞれ攻撃力×525％になる。",
+        "NameKey": "[ActiveSkillName8002]",
+        "RootActiveSkillId": 8002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName8002]",
+      "names": {
+        "zh-CN": "战舞・闪光双枪"
+      },
+      "source_memo_ja": "フローレンスSR: /Lv1　舞うように戦場に駆け、ランダムな敵5体に攻撃力×480%の物理攻撃を行う。「最後まで手を抜くな！」このスキルで敵を戦闘不能にした場合、現在HPが最も低い敵に攻撃力×520%の物理攻撃を行う。　/Lv2 追加攻撃のダメージが攻撃力×560%になる。　/Lv3 最初の物理攻撃のダメージが攻撃力×510%になる。　/Lv4 追加攻撃の回数が2回になる。　/専用3 紅天光槍と戦舞・光散双槍を強化する。紅天光槍の物理攻撃のダメージと戦舞・光散双槍の最初の物理攻撃のダメージがそれぞれ攻撃力×525％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "舞うように戦場に駆け、ランダムな敵5体に攻撃力×480%の物理攻撃を行う。「最後まで手を抜くな！」このスキルで敵を戦闘不能にした場合、現在HPが最も低い敵に攻撃力×520%の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "追加攻撃のダメージが攻撃力×560%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "最初の物理攻撃のダメージが攻撃力×510%になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "追加攻撃の回数が2回になる。　/専用3 紅天光槍と戦舞・光散双槍を強化する。紅天光槍の物理攻撃のダメージと戦舞・光散双槍の最初の物理攻撃のダメージがそれぞれ攻撃力×525％になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 7,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 300.0,
+              "value_text": "+300"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 1,
+                "Value": 300.0
+              }
+            ],
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 7,
+            "CollectionLevel": 1,
+            "Id": 701,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルビレオの宝石(ソルティーナ,フェンリル,フローレンス,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 7,
+            "CollectionLevel": 2,
+            "Id": 702,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルビレオの宝石(ソルティーナ,フェンリル,フローレンス,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 7,
+            "CollectionLevel": 3,
+            "Id": 703,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルビレオの宝石(ソルティーナ,フェンリル,フローレンス,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 7,
+            "CollectionLevel": 4,
+            "Id": 704,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルビレオの宝石(ソルティーナ,フェンリル,フローレンス,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 4000.0,
+              "value_text": "+4,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 1,
+                "Value": 4000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 7,
+            "CollectionLevel": 5,
+            "Id": 705,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルビレオの宝石(ソルティーナ,フェンリル,フローレンス,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 5000.0,
+              "value_text": "+5,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 1,
+                "Value": 5000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 7,
+            "CollectionLevel": 6,
+            "Id": 706,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルビレオの宝石(ソルティーナ,フェンリル,フローレンス,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 6000.0,
+              "value_text": "+6,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 250.0,
+              "value_text": "+2.5%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 1,
+                "Value": 6000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 7,
+            "CollectionLevel": 7,
+            "Id": 707,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルビレオの宝石(ソルティーナ,フェンリル,フローレンス,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 7000.0,
+              "value_text": "+7,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 300.0,
+              "value_text": "+3%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 1,
+                "Value": 7000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 300.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 7,
+            "CollectionLevel": 8,
+            "Id": 708,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルビレオの宝石(ソルティーナ,フェンリル,フローレンス,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 8000.0,
+              "value_text": "+8,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 350.0,
+              "value_text": "+3.5%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 1,
+                "Value": 8000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 350.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 7,
+            "CollectionLevel": 9,
+            "Id": 709,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルビレオの宝石(ソルティーナ,フェンリル,フローレンス,ルナリンド)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 7,
+        "IsIgnore": null,
+        "Memo": "アルビレオの宝石(ソルティーナ,フェンリル,フローレンス,ルナリンド)",
+        "NameKey": "[CharacterCollectionName7]",
+        "RequiredCharacterIds": [
+          5,
+          7,
+          8,
+          46
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2020-01-01 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName7]",
+      "names": {
+        "zh-CN": "天鹅座的宝石"
+      },
+      "required_character_ids": [
+        5,
+        7,
+        8,
+        46
+      ],
+      "required_characters": [
+        {
+          "id": 5,
+          "names": {
+            "zh-CN": "索尔缇娜"
+          }
+        },
+        {
+          "id": 7,
+          "names": {
+            "zh-CN": "芬里尔"
+          }
+        },
+        {
+          "id": 8,
+          "names": {
+            "zh-CN": "佛罗伦斯"
+          }
+        },
+        {
+          "id": 46,
+          "names": {
+            "zh-CN": "露娜琳德"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2020-01-01 00:00:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 8,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 8,
+            "CollectionLevel": 1,
+            "Id": 801,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルテミスの誓約(オフィーリア,アムレート,フローレンス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 500.0,
+              "value_text": "+5%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 500.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 8,
+            "CollectionLevel": 2,
+            "Id": 802,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルテミスの誓約(オフィーリア,アムレート,フローレンス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 500.0,
+              "value_text": "+5%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 500.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 8,
+            "CollectionLevel": 3,
+            "Id": 803,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルテミスの誓約(オフィーリア,アムレート,フローレンス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 500.0,
+              "value_text": "+5%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 500.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 8,
+            "CollectionLevel": 4,
+            "Id": 804,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルテミスの誓約(オフィーリア,アムレート,フローレンス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 550.0,
+              "value_text": "+5.5%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 75.0,
+              "value_text": "+75×角色等级"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 550.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 75.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 8,
+            "CollectionLevel": 5,
+            "Id": 805,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルテミスの誓約(オフィーリア,アムレート,フローレンス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 600.0,
+              "value_text": "+6%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 80.0,
+              "value_text": "+80×角色等级"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 600.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 80.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 8,
+            "CollectionLevel": 6,
+            "Id": 806,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルテミスの誓約(オフィーリア,アムレート,フローレンス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 650.0,
+              "value_text": "+6.5%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 85.0,
+              "value_text": "+85×角色等级"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 650.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 85.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 8,
+            "CollectionLevel": 7,
+            "Id": 807,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルテミスの誓約(オフィーリア,アムレート,フローレンス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 700.0,
+              "value_text": "+7%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 90.0,
+              "value_text": "+90×角色等级"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 700.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 90.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 8,
+            "CollectionLevel": 8,
+            "Id": 808,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルテミスの誓約(オフィーリア,アムレート,フローレンス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 750.0,
+              "value_text": "+7.5%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 95.0,
+              "value_text": "+95×角色等级"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 750.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 95.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 8,
+            "CollectionLevel": 9,
+            "Id": 809,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アルテミスの誓約(オフィーリア,アムレート,フローレンス)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 8,
+        "IsIgnore": null,
+        "Memo": "アルテミスの誓約(オフィーリア,アムレート,フローレンス)",
+        "NameKey": "[CharacterCollectionName8]",
+        "RequiredCharacterIds": [
+          49,
+          6,
+          8
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2023-02-28 15:00:00"
+      },
+      "name_key": "[CharacterCollectionName8]",
+      "names": {
+        "zh-CN": "阿缇密斯的誓约"
+      },
+      "required_character_ids": [
+        49,
+        6,
+        8
+      ],
+      "required_characters": [
+        {
+          "id": 49,
+          "names": {
+            "zh-CN": "奥菲莉娅"
+          }
+        },
+        {
+          "id": 6,
+          "names": {
+            "zh-CN": "阿姆蕾特"
+          }
+        },
+        {
+          "id": 8,
+          "names": {
+            "zh-CN": "佛罗伦斯"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2023-02-28 15:00:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 40,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 40,
+            "CollectionLevel": 1,
+            "Id": 4001,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ギルサニアの玲瓏(リズ,フローレンス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 250.0,
+              "value_text": "+250"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 250.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 40,
+            "CollectionLevel": 2,
+            "Id": 4002,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ギルサニアの玲瓏(リズ,フローレンス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 250.0,
+              "value_text": "+250"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 250.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 40,
+            "CollectionLevel": 3,
+            "Id": 4003,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ギルサニアの玲瓏(リズ,フローレンス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 250.0,
+              "value_text": "+250"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 40,
+            "CollectionLevel": 4,
+            "Id": 4004,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ギルサニアの玲瓏(リズ,フローレンス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 210.0,
+              "value_text": "+2.1%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 255.0,
+              "value_text": "+255"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 210.0
+              },
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 255.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 40,
+            "CollectionLevel": 5,
+            "Id": 4005,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ギルサニアの玲瓏(リズ,フローレンス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 220.0,
+              "value_text": "+2.2%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 260.0,
+              "value_text": "+260"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 220.0
+              },
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 260.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 40,
+            "CollectionLevel": 6,
+            "Id": 4006,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ギルサニアの玲瓏(リズ,フローレンス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 230.0,
+              "value_text": "+2.3%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 265.0,
+              "value_text": "+265"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 230.0
+              },
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 265.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 40,
+            "CollectionLevel": 7,
+            "Id": 4007,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ギルサニアの玲瓏(リズ,フローレンス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 240.0,
+              "value_text": "+2.4%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 270.0,
+              "value_text": "+270"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 240.0
+              },
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 270.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 40,
+            "CollectionLevel": 8,
+            "Id": 4008,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ギルサニアの玲瓏(リズ,フローレンス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 250.0,
+              "value_text": "+2.5%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 275.0,
+              "value_text": "+275"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 250.0
+              },
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 275.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 40,
+            "CollectionLevel": 9,
+            "Id": 4009,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ギルサニアの玲瓏(リズ,フローレンス)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 40,
+        "IsIgnore": null,
+        "Memo": "ギルサニアの玲瓏(リズ,フローレンス)",
+        "NameKey": "[CharacterCollectionName40]",
+        "RequiredCharacterIds": [
+          84,
+          8
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2024-02-15 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName40]",
+      "names": {
+        "zh-CN": "吉鲁萨尼亚的玲珑"
+      },
+      "required_character_ids": [
+        84,
+        8
+      ],
+      "required_characters": [
+        {
+          "id": 84,
+          "names": {
+            "zh-CN": "莉兹"
+          }
+        },
+        {
+          "id": 8,
+          "names": {
+            "zh-CN": "佛罗伦斯"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2024-02-15 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 1,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 8,
+    "job_flags": 1,
+    "master_record": {
+      "ActiveSkillIds": [
+        8001,
+        8002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 85,
+        "Health": 69,
+        "Intelligence": 85,
+        "Muscle": 99
+      },
+      "BaseParameterGrossCoefficient": 338,
+      "CharacterType": 0,
+      "ElementType": 1,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 8,
+      "InitialBattleParameter": {
+        "AttackPower": 3,
+        "Avoidance": 0,
+        "Critical": -2,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 2,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 10,
+        "DefensePenetration": 0,
+        "HP": -3,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 3022
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 1,
+      "Memo": "フローレンス",
+      "Name2Key": null,
+      "NameKey": "[CharacterName8]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        8003,
+        8004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2020-01-01 00:00:00"
+    },
+    "memo": "フローレンス",
+    "name_key": "[CharacterName8]",
+    "names": {
+      "zh-CN": "佛罗伦斯"
+    },
+    "speed": 3022,
+    "start_time_jst": "2020-01-01 00:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 1886,
+    "exclusive_effect_id": 24,
+    "icon_id": 224,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 1887,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 36,
+        "EquipmentEvolutionId": 46,
+        "EquipmentExclusiveSkillDescriptionId": 4,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 1,
+        "ExclusiveEffectId": 24,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 224,
+        "Id": 1886,
+        "IsIgnore": null,
+        "Memo": "フローレンスLR240_剣",
+        "NameKey": "[EquipmentName219]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": null,
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 7,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          },
+          {
+            "BattleParameterType": 14,
+            "ChangeParameterType": 1,
+            "Value": 7000.0
+          }
+        ],
+        "CharacterId": 8,
+        "Id": 24,
+        "IsIgnore": null,
+        "Memo": "フローレンスLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill8Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill8Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill8Description3]",
+        "Id": 4,
+        "IsIgnore": null,
+        "Memo": "フローレンス剣"
+      }
+    },
+    "name_key": "[EquipmentName219]",
+    "names": {
+      "zh-CN": "深红誓约之圣枪"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Critical",
+        "parameter_type": 7,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      },
+      {
+        "change_parameter_type": 1,
+        "kind": "battle",
+        "parameter_code": "DamageEnhance",
+        "parameter_type": 14,
+        "raw_value": 7000.0,
+        "value_text": "+7,000"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill8Description1]",
+        "descriptions": {
+          "zh-CN": "强化红光破天枪，发动攻击前使技能目标额外减少40%抗暴率，效果持续1回合。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill8Description2]",
+        "descriptions": {
+          "zh-CN": "强化红光破天枪，第一波攻击次数增加为6次，连击上限增加为10次。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill8Description3]",
+        "descriptions": {
+          "zh-CN": "强化红光破天枪与战舞・闪光双枪，造成的物理伤害提升为攻击力×525%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": false,
+  "missing_localization_keys": [
+    "*"
+  ],
+  "passive_skills": [
+    {
+      "id": 8003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription80031]",
+          "descriptions": {
+            "zh-CN": "“我一定会守护你！”佛罗伦斯谨记曾经许下的誓言，在每回合开始时使自己增加2%暴击率（最多叠加15层，合计30%）（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "必ず護る──かつての誓いの言葉によって、毎ターン開始時自身のクリティカル率が2％増加する（最大30％まで）（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription80032]",
+          "descriptions": {
+            "zh-CN": "暴击率增幅提升为4%，增幅上限提升为60%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "クリティカル率の増加量が4％になり、増加量最大値が60％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription80033]",
+          "descriptions": {
+            "zh-CN": "暴击率增幅提升为6%，增幅上限提升为90%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "クリティカル率の増加量が6％になり、増加量最大値が90％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 8003,
+        "IsIgnore": null,
+        "Memo": "フローレンスSR: /Lv1　必ず護る──かつての誓いの言葉によって、毎ターン開始時自身のクリティカル率が2％増加する（最大30％まで）（解除不可）。　/Lv2 クリティカル率の増加量が4％になり、増加量最大値が60％になる。　/Lv3 クリティカル率の増加量が6％になり、増加量最大値が90％になる。",
+        "NameKey": "[PassiveSkillName8003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription80031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 8003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription80032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 8003201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription80033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 8003301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName8003]",
+      "names": {
+        "zh-CN": "圣女守护者"
+      },
+      "source_memo_ja": "フローレンスSR: /Lv1　必ず護る──かつての誓いの言葉によって、毎ターン開始時自身のクリティカル率が2％増加する（最大30％まで）（解除不可）。　/Lv2 クリティカル率の増加量が4％になり、増加量最大値が60％になる。　/Lv3 クリティカル率の増加量が6％になり、増加量最大値が90％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "必ず護る──かつての誓いの言葉によって、毎ターン開始時自身のクリティカル率が2％増加する（最大30％まで）（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "クリティカル率の増加量が4％になり、増加量最大値が60％になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "クリティカル率の増加量が6％になり、増加量最大値が90％になる。"
+        }
+      ]
+    },
+    {
+      "id": 8004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription80041]",
+          "descriptions": {
+            "zh-CN": "“我会坚守誓言，保护战友。”佛罗伦斯使自己增加20%攻击力（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "誓いも仲間も護ってみせる。自身の攻撃力が20％増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription80042]",
+          "descriptions": {
+            "zh-CN": "额外增加20%输出伤害（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに自身の与ダメージが20％増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription80043]",
+          "descriptions": {
+            "zh-CN": "攻击力与输出伤害增幅提升为30%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "攻撃力と与ダメージの増加量がそれぞれ30％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 8004,
+        "IsIgnore": null,
+        "Memo": "フローレンスSR: /Lv1　誓いも仲間も護ってみせる。自身の攻撃力が20％増加する（解除不可）。　/Lv2 さらに自身の与ダメージが20％増加する（解除不可）。　/Lv3 攻撃力と与ダメージの増加量がそれぞれ30％になる。",
+        "NameKey": "[PassiveSkillName8004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription80041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 8004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription80042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 8004201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription80043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 8004301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName8004]",
+      "names": {
+        "zh-CN": "天契的誓约"
+      },
+      "source_memo_ja": "フローレンスSR: /Lv1　誓いも仲間も護ってみせる。自身の攻撃力が20％増加する（解除不可）。　/Lv2 さらに自身の与ダメージが20％増加する（解除不可）。　/Lv3 攻撃力と与ダメージの増加量がそれぞれ30％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "誓いも仲間も護ってみせる。自身の攻撃力が20％増加する（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに自身の与ダメージが20％増加する（解除不可）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "攻撃力と与ダメージの増加量がそれぞれ30％になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

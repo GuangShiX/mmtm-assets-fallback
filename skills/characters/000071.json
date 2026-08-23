@@ -1,0 +1,1307 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 71001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription710011]",
+          "descriptions": {
+            "zh-CN": "沉眠于乐园里的灵魂被唤醒，随机对3名敌人造成攻击力×330%的魔法伤害。安眠受到惊扰的怒气化为诅咒，对技能目标附加「中毒」状态，效果持续2回合，每回合行动开始时造成附带者当前生命值×3%的伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "楽園に眠る霊魂たちが目を覚まし、ランダムな敵3体に攻撃力×330%の魔法攻撃を行う。さらに眠りを妨げられた怒りが呪詛となり、2ターンの間対象に『毒』を付与する。毎ターン行動開始時に現在HP×3%のダメージを与える。/ Lv2\\n さらに『毒』付与の判定の後、『毒』を付帯している敵のうち攻撃力が最も高い敵の攻撃力を15%吸収し、2ターンの間自身に加える。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription710012]",
+          "descriptions": {
+            "zh-CN": "「中毒」附加判定结束后，额外吸收身上附带「中毒」状态且攻击力最高的敌人15%攻击力，效果持续2回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "\\n『毒』のターン数が4ターンになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription710013]",
+          "descriptions": {
+            "zh-CN": "「中毒」效果增加为4回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "レストインパラダイスを強化する。レストインパラダイスの対象がランダムな敵4体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription710014]",
+          "descriptions": {
+            "zh-CN": ""
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "レストインパラダイスを強化する。攻撃力の吸収量が30%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription710015]",
+          "descriptions": {
+            "zh-CN": ""
+          },
+          "equipment_rarity_flags": 256,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "レストインパラダイスを強化する。『毒』のダメージが現在HP×5%に増加する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription710016]",
+          "descriptions": {
+            "zh-CN": ""
+          },
+          "equipment_rarity_flags": 512,
+          "order": 6,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription710011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              71001001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription710012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              71001001,
+              71001202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription710013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              71001301,
+              71001202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription710014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              71001401,
+              71001202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription710015]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              71001401,
+              71001502
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription710016]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 6,
+            "SubSetSkillIds": [
+              71001601,
+              71001502
+            ]
+          }
+        ],
+        "Id": 71001,
+        "IsIgnore": null,
+        "Memo": "水着モーザSR:Lv1 楽園に眠る霊魂たちが目を覚まし、ランダムな敵3体に攻撃力×330%の魔法攻撃を行う。さらに眠りを妨げられた怒りが呪詛となり、2ターンの間対象に『毒』を付与する。毎ターン行動開始時に現在HP×3%のダメージを与える。/ Lv2\\n さらに『毒』付与の判定の後、『毒』を付帯している敵のうち攻撃力が最も高い敵の攻撃力を15%吸収し、2ターンの間自身に加える。/ Lv3 \\n『毒』のターン数が4ターンになる。/ Ex1 レストインパラダイスを強化する。レストインパラダイスの対象がランダムな敵4体になる。/ Ex2 レストインパラダイスを強化する。攻撃力の吸収量が30%になる。/ Ex3 レストインパラダイスを強化する。『毒』のダメージが現在HP×5%に増加する。",
+        "NameKey": "[ActiveSkillName71001]",
+        "RootActiveSkillId": 71001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName71001]",
+      "names": {
+        "zh-CN": "愿魂归乐园"
+      },
+      "source_memo_ja": "水着モーザSR:Lv1 楽園に眠る霊魂たちが目を覚まし、ランダムな敵3体に攻撃力×330%の魔法攻撃を行う。さらに眠りを妨げられた怒りが呪詛となり、2ターンの間対象に『毒』を付与する。毎ターン行動開始時に現在HP×3%のダメージを与える。/ Lv2\\n さらに『毒』付与の判定の後、『毒』を付帯している敵のうち攻撃力が最も高い敵の攻撃力を15%吸収し、2ターンの間自身に加える。/ Lv3 \\n『毒』のターン数が4ターンになる。/ Ex1 レストインパラダイスを強化する。レストインパラダイスの対象がランダムな敵4体になる。/ Ex2 レストインパラダイスを強化する。攻撃力の吸収量が30%になる。/ Ex3 レストインパラダイスを強化する。『毒』のダメージが現在HP×5%に増加する。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "楽園に眠る霊魂たちが目を覚まし、ランダムな敵3体に攻撃力×330%の魔法攻撃を行う。さらに眠りを妨げられた怒りが呪詛となり、2ターンの間対象に『毒』を付与する。毎ターン行動開始時に現在HP×3%のダメージを与える。/ Lv2\\n さらに『毒』付与の判定の後、『毒』を付帯している敵のうち攻撃力が最も高い敵の攻撃力を15%吸収し、2ターンの間自身に加える。"
+        },
+        {
+          "label": "Lv3",
+          "text": "\\n『毒』のターン数が4ターンになる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "レストインパラダイスを強化する。レストインパラダイスの対象がランダムな敵4体になる。"
+        },
+        {
+          "label": "Ex2",
+          "text": "レストインパラダイスを強化する。攻撃力の吸収量が30%になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "レストインパラダイスを強化する。『毒』のダメージが現在HP×5%に増加する。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 71002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription710021]",
+          "descriptions": {
+            "zh-CN": "迷失的灵魂常聚集在水边，一旦发现活人便群起而攻，随机对敌人进行3次攻击，每次造成攻击力×210%的魔法伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "水辺にはさまよう霊魂が集まりやすく、生者を見つけると群れをなして襲ってくる。ランダムな敵に3回攻撃力×210%の魔法攻撃を行う。/ Lv2\\n さらに『毒』を付帯している敵1体につき攻撃回数が1回多くなる（合計で最大8回まで）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription710022]",
+          "descriptions": {
+            "zh-CN": "每名身上附带「中毒」状态的敌人，再使攻击次数增加1次（合计最多8连击）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "\\n最初の魔法攻撃の回数が4回、合計で最大9回までになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription710023]",
+          "descriptions": {
+            "zh-CN": "第一波攻击次数增加为4次，连击上限增加为9次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "魔法攻撃のダメージが攻撃力×230%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription710024]",
+          "descriptions": {
+            "zh-CN": "造成的魔法伤害提升为攻击力×230%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription710021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              71002002,
+              71002003,
+              71002003
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription710022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              71002201,
+              71002002,
+              71002003,
+              71002003,
+              71002204,
+              71002205,
+              71002206,
+              71002207,
+              71002208
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription710023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              71002201,
+              71002002,
+              71002003,
+              71002003,
+              71002003,
+              71002204,
+              71002205,
+              71002206,
+              71002207,
+              71002208
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription710024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              71002201,
+              71002402,
+              71002403,
+              71002403,
+              71002403,
+              71002404,
+              71002405,
+              71002406,
+              71002407,
+              71002408
+            ]
+          }
+        ],
+        "Id": 71002,
+        "IsIgnore": null,
+        "Memo": "水着モーザSR:Lv1 水辺にはさまよう霊魂が集まりやすく、生者を見つけると群れをなして襲ってくる。ランダムな敵に3回攻撃力×210%の魔法攻撃を行う。/ Lv2\\n さらに『毒』を付帯している敵1体につき攻撃回数が1回多くなる（合計で最大8回まで）。/ Lv3 \\n最初の魔法攻撃の回数が4回、合計で最大9回までになる。/ Lv4 魔法攻撃のダメージが攻撃力×230%になる。",
+        "NameKey": "[ActiveSkillName71002]",
+        "RootActiveSkillId": 71002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName71002]",
+      "names": {
+        "zh-CN": "水底幽魂的低语"
+      },
+      "source_memo_ja": "水着モーザSR:Lv1 水辺にはさまよう霊魂が集まりやすく、生者を見つけると群れをなして襲ってくる。ランダムな敵に3回攻撃力×210%の魔法攻撃を行う。/ Lv2\\n さらに『毒』を付帯している敵1体につき攻撃回数が1回多くなる（合計で最大8回まで）。/ Lv3 \\n最初の魔法攻撃の回数が4回、合計で最大9回までになる。/ Lv4 魔法攻撃のダメージが攻撃力×230%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "水辺にはさまよう霊魂が集まりやすく、生者を見つけると群れをなして襲ってくる。ランダムな敵に3回攻撃力×210%の魔法攻撃を行う。/ Lv2\\n さらに『毒』を付帯している敵1体につき攻撃回数が1回多くなる（合計で最大8回まで）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "\\n最初の魔法攻撃の回数が4回、合計で最大9回までになる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "魔法攻撃のダメージが攻撃力×230%になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 21,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 70.0,
+              "value_text": "+0.7%"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 21,
+            "CollectionLevel": 1,
+            "Id": 2101,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボランスの鎮魂(水着モーザ,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 21,
+            "CollectionLevel": 2,
+            "Id": 2102,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボランスの鎮魂(水着モーザ,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 21,
+            "CollectionLevel": 3,
+            "Id": 2103,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボランスの鎮魂(水着モーザ,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 21,
+            "CollectionLevel": 4,
+            "Id": 2104,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボランスの鎮魂(水着モーザ,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 160.0,
+              "value_text": "+1.6%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 210.0,
+              "value_text": "+2.1%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 160.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 210.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 21,
+            "CollectionLevel": 5,
+            "Id": 2105,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボランスの鎮魂(水着モーザ,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 170.0,
+              "value_text": "+1.7%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 220.0,
+              "value_text": "+2.2%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 170.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 220.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 21,
+            "CollectionLevel": 6,
+            "Id": 2106,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボランスの鎮魂(水着モーザ,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 180.0,
+              "value_text": "+1.8%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 230.0,
+              "value_text": "+2.3%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 180.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 230.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 21,
+            "CollectionLevel": 7,
+            "Id": 2107,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボランスの鎮魂(水着モーザ,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 190.0,
+              "value_text": "+1.9%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 240.0,
+              "value_text": "+2.4%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 190.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 240.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 21,
+            "CollectionLevel": 8,
+            "Id": 2108,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボランスの鎮魂(水着モーザ,モーザ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 250.0,
+              "value_text": "+2.5%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 21,
+            "CollectionLevel": 9,
+            "Id": 2109,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボランスの鎮魂(水着モーザ,モーザ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 21,
+        "IsIgnore": null,
+        "Memo": "ボランスの鎮魂(水着モーザ,モーザ)",
+        "NameKey": "[CharacterCollectionName21]",
+        "RequiredCharacterIds": [
+          71,
+          10
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2023-07-13 15:00:00"
+      },
+      "name_key": "[CharacterCollectionName21]",
+      "names": {
+        "zh-CN": "飞鱼座的镇魂"
+      },
+      "required_character_ids": [
+        71,
+        10
+      ],
+      "required_characters": [
+        {
+          "id": 71,
+          "names": {
+            "zh-CN": "墨瑟"
+          }
+        },
+        {
+          "id": 10,
+          "names": {
+            "zh-CN": "墨瑟"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2023-07-13 15:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 2,
+    "element_type": 4,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 71,
+    "job_flags": 4,
+    "master_record": {
+      "ActiveSkillIds": [
+        71001,
+        71002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 75,
+        "Health": 69,
+        "Intelligence": 104,
+        "Muscle": 85
+      },
+      "BaseParameterGrossCoefficient": 333,
+      "CharacterType": 2,
+      "ElementType": 4,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 71,
+      "InitialBattleParameter": {
+        "AttackPower": 2,
+        "Avoidance": 0,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 10,
+        "DefensePenetration": 0,
+        "HP": 0,
+        "Hit": 1,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": -3,
+        "Speed": 3245
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 4,
+      "Memo": "水着モーザ",
+      "Name2Key": "[CharacterSubName71]",
+      "NameKey": "[CharacterName71]",
+      "NormalSkillId": 102,
+      "PassiveSkillIds": [
+        71003,
+        71004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2023-07-13 15:00:00"
+    },
+    "memo": "水着モーザ",
+    "name_key": "[CharacterName71]",
+    "names": {
+      "zh-CN": "墨瑟"
+    },
+    "speed": 3245,
+    "start_time_jst": "2023-07-13 15:00:00",
+    "subtitle_key": "[CharacterSubName71]",
+    "subtitles": {
+      "zh-CN": "守墓人的暑假"
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 4148,
+    "exclusive_effect_id": 258,
+    "icon_id": 530,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 4149,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 75,
+        "EquipmentEvolutionId": 85,
+        "EquipmentExclusiveSkillDescriptionId": 43,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 4,
+        "ExclusiveEffectId": 258,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 530,
+        "Id": 4148,
+        "IsIgnore": null,
+        "Memo": "水着モーザLR240_書",
+        "NameKey": "[EquipmentName408]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": [
+          {
+            "BaseParameterType": 3,
+            "ChangeParameterType": 2,
+            "Value": 800.0
+          }
+        ],
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 15,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 71,
+        "Id": 258,
+        "IsIgnore": null,
+        "Memo": "水着モーザLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill71Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill71Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill71Description3]",
+        "Id": 43,
+        "IsIgnore": null,
+        "Memo": "水着モーザ魔導書"
+      }
+    },
+    "name_key": "[EquipmentName408]",
+    "names": {
+      "zh-CN": "热带风情游泳圈"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "base",
+        "parameter_code": "Intelligence",
+        "parameter_type": 3,
+        "raw_value": 800.0,
+        "value_text": "+8%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "DebuffHit",
+        "parameter_type": 15,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill71Description1]",
+        "descriptions": {
+          "zh-CN": "强化愿魂归乐园，技能目标增加为4名随机敌人。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill71Description2]",
+        "descriptions": {
+          "zh-CN": "强化愿魂归乐园，攻击力吸收效果提升为30%。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill71Description3]",
+        "descriptions": {
+          "zh-CN": "强化愿魂归乐园，「中毒」造成的伤害提升为附带者当前生命值×5%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 71003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription710031]",
+          "descriptions": {
+            "zh-CN": "“不管是入土前还是入土后，我都会让每个人的脸上充满笑容。”这份决心化为全新的力量，当墨瑟受到攻击时，阻绝20%伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "お墓の下でも、お墓の上でも、みーんなまとめて笑顔にしてあげる。その決意が新たな力となる。自身が攻撃を受けたとき、ダメージを20%遮断する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription710032]",
+          "descriptions": {
+            "zh-CN": "当发动攻击的敌人身上附带「中毒」状态或墨瑟受到反弹伤害时，阻绝50%伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "\\nさらに攻撃してきた敵が『毒』を付帯している場合、ダメージを50%遮断する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription710033]",
+          "descriptions": {
+            "zh-CN": "阻绝50%伤害。当发动攻击的敌人身上附带「中毒」状态或墨瑟受到反弹伤害时，阻绝75%伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "\\nダメージを50%遮断する。攻撃してきた敵が『毒』を付帯している場合、ダメージを75%遮断する。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 71003,
+        "IsIgnore": null,
+        "Memo": "水着モーザSR:Lv1 お墓の下でも、お墓の上でも、みーんなまとめて笑顔にしてあげる。その決意が新たな力となる。自身が攻撃を受けたとき、ダメージを20%遮断する。/ Lv2 \\nさらに攻撃してきた敵が『毒』を付帯している場合、ダメージを50%遮断する。/ Lv3 \\nダメージを50%遮断する。攻撃してきた敵が『毒』を付帯している場合、ダメージを75%遮断する。",
+        "NameKey": "[PassiveSkillName71003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription710031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 71003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription710032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 71003201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription710033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 71003301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName71003]",
+      "names": {
+        "zh-CN": "这是守墓人的工作"
+      },
+      "source_memo_ja": "水着モーザSR:Lv1 お墓の下でも、お墓の上でも、みーんなまとめて笑顔にしてあげる。その決意が新たな力となる。自身が攻撃を受けたとき、ダメージを20%遮断する。/ Lv2 \\nさらに攻撃してきた敵が『毒』を付帯している場合、ダメージを50%遮断する。/ Lv3 \\nダメージを50%遮断する。攻撃してきた敵が『毒』を付帯している場合、ダメージを75%遮断する。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "お墓の下でも、お墓の上でも、みーんなまとめて笑顔にしてあげる。その決意が新たな力となる。自身が攻撃を受けたとき、ダメージを20%遮断する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "\\nさらに攻撃してきた敵が『毒』を付帯している場合、ダメージを50%遮断する。"
+        },
+        {
+          "label": "Lv3",
+          "text": "\\nダメージを50%遮断する。攻撃してきた敵が『毒』を付帯している場合、ダメージを75%遮断する。"
+        }
+      ]
+    },
+    {
+      "id": 71004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription710041]",
+          "descriptions": {
+            "zh-CN": "“只要我遇到危险，莱拉就会来救我。”每回合开始时使墨瑟增加3%攻击力（最多叠加20层，合计60%）（无法被解除）。每名身上附带「中毒」状态的敌人，再使攻击力增幅提升3%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「ライラは私が危なくなると、いつも助けに来てくれるね」毎ターン開始時、自身の攻撃力が3%増加する（最大60%まで）（解除不可）。『毒』を付帯している敵1体につき増加量が3%大きくなる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription710042]",
+          "descriptions": {
+            "zh-CN": "攻击力增幅提升为4%，增幅上限提升为80%。每名身上附带「中毒」状态的敌人，再使攻击力增幅提升4%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "\\n攻撃力の増加量が4%になり、増加量最大値が80%になる。『毒』を付帯している敵1体につき増加量が4%大きくなる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription710043]",
+          "descriptions": {
+            "zh-CN": "攻击力增幅提升为5%，增幅上限提升为100%。每名身上附带「中毒」状态的敌人，再使攻击力增幅提升5%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "\\n攻撃力の増加量が5%になり、増加量最大値が100%になる。『毒』を付帯している敵1体につき増加量が5%大きくなる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 71004,
+        "IsIgnore": null,
+        "Memo": "水着モーザSR:Lv1 「ライラは私が危なくなると、いつも助けに来てくれるね」毎ターン開始時、自身の攻撃力が3%増加する（最大60%まで）（解除不可）。『毒』を付帯している敵1体につき増加量が3%大きくなる。/ Lv2 \\n攻撃力の増加量が4%になり、増加量最大値が80%になる。『毒』を付帯している敵1体につき増加量が4%大きくなる。/ Lv3 \\n攻撃力の増加量が5%になり、増加量最大値が100%になる。『毒』を付帯している敵1体につき増加量が5%大きくなる。",
+        "NameKey": "[PassiveSkillName71004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription710041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 71004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription710042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 71004201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription710043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 71004301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName71004]",
+      "names": {
+        "zh-CN": "莱拉的保护"
+      },
+      "source_memo_ja": "水着モーザSR:Lv1 「ライラは私が危なくなると、いつも助けに来てくれるね」毎ターン開始時、自身の攻撃力が3%増加する（最大60%まで）（解除不可）。『毒』を付帯している敵1体につき増加量が3%大きくなる。/ Lv2 \\n攻撃力の増加量が4%になり、増加量最大値が80%になる。『毒』を付帯している敵1体につき増加量が4%大きくなる。/ Lv3 \\n攻撃力の増加量が5%になり、増加量最大値が100%になる。『毒』を付帯している敵1体につき増加量が5%大きくなる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「ライラは私が危なくなると、いつも助けに来てくれるね」毎ターン開始時、自身の攻撃力が3%増加する（最大60%まで）（解除不可）。『毒』を付帯している敵1体につき増加量が3%大きくなる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "\\n攻撃力の増加量が4%になり、増加量最大値が80%になる。『毒』を付帯している敵1体につき増加量が4%大きくなる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "\\n攻撃力の増加量が5%になり、増加量最大値が100%になる。『毒』を付帯している敵1体につき増加量が5%大きくなる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

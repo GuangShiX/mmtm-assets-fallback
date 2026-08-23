@@ -1,0 +1,1452 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 103001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription1030011]",
+          "descriptions": {
+            "zh-CN": "寇柏以镜面映射出故乡那片万里冰封的雪山幻境。降至冰点的刺骨寒气无情地夺走敌人的体温、力气与生命——寇柏使自己恢复5%最大生命值。再对攻击力最高的3名敌人造成攻击力×240%的物理伤害，40%概率附加「脱力」状态，效果持续4回合，使附带者减少20%战斗期间的攻击力。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "少女がその場に映し出すのは、凍てつく故郷の雪山。刺すような絶対零度の冷気で敵から体温を、気力を、そして生命をも容赦なく削り取っていく──自身のHPを自身の最大HP×5%回復する。その後攻撃力が高い敵3体に攻撃力×240%の物理攻撃を行い、40%の確率で4ターンの間対象に『脱力』を付与する。付帯者のバトル中ステータスの攻撃力が20%減少する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription1030012]",
+          "descriptions": {
+            "zh-CN": "附加「脱力」状态的概率提升为70%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "『脱力』を付与する確率が70%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1030013]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×440%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃のダメージが攻撃力×440%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1030014]",
+          "descriptions": {
+            "zh-CN": "强化胧冰幻镜，「脱力」的攻击力降幅提升为40%。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "朧氷面鏡を強化する。『脱力』の攻撃力の減少量が40%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription1030015]",
+          "descriptions": {
+            "zh-CN": "强化胧冰幻镜，造成的物理伤害提升为攻击力×480%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "朧氷面鏡を強化する。物理攻撃のダメージが攻撃力×480%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription1030011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              103001001,
+              103001002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription1030012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              103001001,
+              103001202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1030013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              103001001,
+              103001302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1030014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              103001001,
+              103001402
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription1030015]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              103001001,
+              103001502
+            ]
+          }
+        ],
+        "Id": 103001,
+        "IsIgnore": null,
+        "Memo": "コベルSR:Lv1 少女がその場に映し出すのは、凍てつく故郷の雪山。刺すような絶対零度の冷気で敵から体温を、気力を、そして生命をも容赦なく削り取っていく──自身のHPを自身の最大HP×5%回復する。その後攻撃力が高い敵3体に攻撃力×240%の物理攻撃を行い、40%の確率で4ターンの間対象に『脱力』を付与する。付帯者のバトル中ステータスの攻撃力が20%減少する。/ Lv2 『脱力』を付与する確率が70%になる。/ Lv3 物理攻撃のダメージが攻撃力×440%になる。/ Ex1 朧氷面鏡を強化する。『脱力』の攻撃力の減少量が40%になる。/ Ex3 朧氷面鏡を強化する。物理攻撃のダメージが攻撃力×480%になる。",
+        "NameKey": "[ActiveSkillName103001]",
+        "RootActiveSkillId": 103001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName103001]",
+      "names": {
+        "zh-CN": "胧冰幻镜"
+      },
+      "source_memo_ja": "コベルSR:Lv1 少女がその場に映し出すのは、凍てつく故郷の雪山。刺すような絶対零度の冷気で敵から体温を、気力を、そして生命をも容赦なく削り取っていく──自身のHPを自身の最大HP×5%回復する。その後攻撃力が高い敵3体に攻撃力×240%の物理攻撃を行い、40%の確率で4ターンの間対象に『脱力』を付与する。付帯者のバトル中ステータスの攻撃力が20%減少する。/ Lv2 『脱力』を付与する確率が70%になる。/ Lv3 物理攻撃のダメージが攻撃力×440%になる。/ Ex1 朧氷面鏡を強化する。『脱力』の攻撃力の減少量が40%になる。/ Ex3 朧氷面鏡を強化する。物理攻撃のダメージが攻撃力×480%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "少女がその場に映し出すのは、凍てつく故郷の雪山。刺すような絶対零度の冷気で敵から体温を、気力を、そして生命をも容赦なく削り取っていく──自身のHPを自身の最大HP×5%回復する。その後攻撃力が高い敵3体に攻撃力×240%の物理攻撃を行い、40%の確率で4ターンの間対象に『脱力』を付与する。付帯者のバトル中ステータスの攻撃力が20%減少する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "『脱力』を付与する確率が70%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃のダメージが攻撃力×440%になる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "朧氷面鏡を強化する。『脱力』の攻撃力の減少量が40%になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "朧氷面鏡を強化する。物理攻撃のダメージが攻撃力×480%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 103002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription1030021]",
+          "descriptions": {
+            "zh-CN": "“大家快接好！这是可以恢复体力的小菇儿！”寇柏使生命值百分比最低的友军恢复寇柏攻击力×30%的生命值。此效果连续发动3次。“嗳呀！小菇儿咋飞到敌人那边去咧……！”再对生命值百分比最高的3名敌人造成攻击力×280%的物理伤害，70%概率附加「中毒」状态，效果持续2回合，每回合行动开始时造成附带者当前生命值×5%的伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「みんな！　薬効があるきのこで回復してけれ！」HP割合が最も低い味方のHPを自身の攻撃力×30%回復する。これを3回発動する。「んた！　きのこが敵の方さ……！」その後HP割合が高い敵3体に攻撃力×280%の物理攻撃を行い、70%の確率で2ターンの間対象に『毒』を付与する。毎ターン行動開始時に付帯者の現在HP×5%のダメージを与える。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription1030022]",
+          "descriptions": {
+            "zh-CN": "「中毒」造成的伤害提升为附带者当前生命值×10%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "『毒』のダメージが付帯者の現在HP×10%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription1030023]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×480%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃のダメージが攻撃力×480%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription1030024]",
+          "descriptions": {
+            "zh-CN": "发动攻击前，如果寇柏或友军在战斗中发动主动技能触发恢复生命值的效果达15次以上，造成的物理伤害提升为攻击力×1920%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "さらに物理攻撃の前にバトル中自身か味方のアクティブスキルによるHPを回復する効果の発動回数が15以上の場合、物理攻撃のダメージが攻撃力×1920%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription1030021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              103002001,
+              103002001,
+              103002001,
+              103002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription1030022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              103002001,
+              103002001,
+              103002001,
+              103002202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription1030023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              103002001,
+              103002001,
+              103002001,
+              103002302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription1030024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              103002001,
+              103002001,
+              103002001,
+              103002402
+            ]
+          }
+        ],
+        "Id": 103002,
+        "IsIgnore": null,
+        "Memo": "コベルSR:Lv1 「みんな！　薬効があるきのこで回復してけれ！」HP割合が最も低い味方のHPを自身の攻撃力×30%回復する。これを3回発動する。「んた！　きのこが敵の方さ……！」その後HP割合が高い敵3体に攻撃力×280%の物理攻撃を行い、70%の確率で2ターンの間対象に『毒』を付与する。毎ターン行動開始時に付帯者の現在HP×5%のダメージを与える。/ Lv2 『毒』のダメージが付帯者の現在HP×10%になる。/ Lv3 物理攻撃のダメージが攻撃力×480%になる。/ Lv4 さらに物理攻撃の前にバトル中自身か味方のアクティブスキルによるHPを回復する効果の発動回数が15以上の場合、物理攻撃のダメージが攻撃力×1920%になる。",
+        "NameKey": "[ActiveSkillName103002]",
+        "RootActiveSkillId": 103002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName103002]",
+      "names": {
+        "zh-CN": "山林的…恩赐？"
+      },
+      "source_memo_ja": "コベルSR:Lv1 「みんな！　薬効があるきのこで回復してけれ！」HP割合が最も低い味方のHPを自身の攻撃力×30%回復する。これを3回発動する。「んた！　きのこが敵の方さ……！」その後HP割合が高い敵3体に攻撃力×280%の物理攻撃を行い、70%の確率で2ターンの間対象に『毒』を付与する。毎ターン行動開始時に付帯者の現在HP×5%のダメージを与える。/ Lv2 『毒』のダメージが付帯者の現在HP×10%になる。/ Lv3 物理攻撃のダメージが攻撃力×480%になる。/ Lv4 さらに物理攻撃の前にバトル中自身か味方のアクティブスキルによるHPを回復する効果の発動回数が15以上の場合、物理攻撃のダメージが攻撃力×1920%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「みんな！　薬効があるきのこで回復してけれ！」HP割合が最も低い味方のHPを自身の攻撃力×30%回復する。これを3回発動する。「んた！　きのこが敵の方さ……！」その後HP割合が高い敵3体に攻撃力×280%の物理攻撃を行い、70%の確率で2ターンの間対象に『毒』を付与する。毎ターン行動開始時に付帯者の現在HP×5%のダメージを与える。"
+        },
+        {
+          "label": "Lv2",
+          "text": "『毒』のダメージが付帯者の現在HP×10%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃のダメージが攻撃力×480%になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "さらに物理攻撃の前にバトル中自身か味方のアクティブスキルによるHPを回復する効果の発動回数が15以上の場合、物理攻撃のダメージが攻撃力×1920%になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 89,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 89,
+            "CollectionLevel": 1,
+            "Id": 8901,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ラケルタの試練​(コベル,ケルベロス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 50.0,
+              "value_text": "+50×角色等级"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 50.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 89,
+            "CollectionLevel": 2,
+            "Id": 8902,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ラケルタの試練​(コベル,ケルベロス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 50.0,
+              "value_text": "+50×角色等级"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 50.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 89,
+            "CollectionLevel": 3,
+            "Id": 8903,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ラケルタの試練​(コベル,ケルベロス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 50.0,
+              "value_text": "+50×角色等级"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 50.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 89,
+            "CollectionLevel": 4,
+            "Id": 8904,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ラケルタの試練​(コベル,ケルベロス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 210.0,
+              "value_text": "+2.1%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 55.0,
+              "value_text": "+55×角色等级"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 210.0
+              },
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 55.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 89,
+            "CollectionLevel": 5,
+            "Id": 8905,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ラケルタの試練​(コベル,ケルベロス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 220.0,
+              "value_text": "+2.2%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 60.0,
+              "value_text": "+60×角色等级"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 220.0
+              },
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 60.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 89,
+            "CollectionLevel": 6,
+            "Id": 8906,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ラケルタの試練​(コベル,ケルベロス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 230.0,
+              "value_text": "+2.3%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 65.0,
+              "value_text": "+65×角色等级"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 230.0
+              },
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 65.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 89,
+            "CollectionLevel": 7,
+            "Id": 8907,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ラケルタの試練​(コベル,ケルベロス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 240.0,
+              "value_text": "+2.4%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 240.0
+              },
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 89,
+            "CollectionLevel": 8,
+            "Id": 8908,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ラケルタの試練​(コベル,ケルベロス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 250.0,
+              "value_text": "+2.5%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 75.0,
+              "value_text": "+75×角色等级"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 250.0
+              },
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 75.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 89,
+            "CollectionLevel": 9,
+            "Id": 8909,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ラケルタの試練​(コベル,ケルベロス)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 89,
+        "IsIgnore": null,
+        "Memo": "ラケルタの試練​(コベル,ケルベロス)",
+        "NameKey": "[CharacterCollectionName89]",
+        "RequiredCharacterIds": [
+          103,
+          43
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2026-02-12 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName89]",
+      "names": {
+        "zh-CN": "蝎虎座的试炼"
+      },
+      "required_character_ids": [
+        103,
+        43
+      ],
+      "required_characters": [
+        {
+          "id": 103,
+          "names": {
+            "zh-CN": "寇柏"
+          }
+        },
+        {
+          "id": 43,
+          "names": {
+            "zh-CN": "克尔柏洛丝"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2026-02-12 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 3,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 103,
+    "job_flags": 2,
+    "master_record": {
+      "ActiveSkillIds": [
+        103001,
+        103002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 97,
+        "Health": 73,
+        "Intelligence": 89,
+        "Muscle": 73
+      },
+      "BaseParameterGrossCoefficient": 332,
+      "CharacterType": 0,
+      "ElementType": 3,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 103,
+      "InitialBattleParameter": {
+        "AttackPower": -2,
+        "Avoidance": 0,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 5,
+        "DebuffResist": 0,
+        "Defense": 7,
+        "DefensePenetration": 0,
+        "HP": 0,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 3179
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 2,
+      "Memo": "コベル",
+      "Name2Key": "",
+      "NameKey": "[CharacterName103]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        103003,
+        103004,
+        103005
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2026-02-12 15:00:00"
+    },
+    "memo": "コベル",
+    "name_key": "[CharacterName103]",
+    "names": {
+      "zh-CN": "寇柏"
+    },
+    "speed": 3179,
+    "start_time_jst": "2026-02-12 15:00:00",
+    "subtitle_key": "",
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 1031120240,
+    "exclusive_effect_id": 630,
+    "icon_id": 722,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 1031120250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 137,
+        "EquipmentEvolutionId": 147,
+        "EquipmentExclusiveSkillDescriptionId": 105,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 2,
+        "ExclusiveEffectId": 630,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 722,
+        "Id": 1031120240,
+        "IsIgnore": null,
+        "Memo": "コベルLR240_銃",
+        "NameKey": "[EquipmentName717]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": null,
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 1,
+            "ChangeParameterType": 2,
+            "Value": 2200.0
+          },
+          {
+            "BattleParameterType": 15,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 103,
+        "Id": 630,
+        "IsIgnore": null,
+        "Memo": "コベルLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill103Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill103Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill103Description3]",
+        "Id": 105,
+        "IsIgnore": null,
+        "Memo": "コベル銃"
+      }
+    },
+    "name_key": "[EquipmentName717]",
+    "names": {
+      "zh-CN": "雪鳞露珠"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Hp",
+        "parameter_type": 1,
+        "raw_value": 2200.0,
+        "value_text": "+22%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "DebuffHit",
+        "parameter_type": 15,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill103Description1]",
+        "descriptions": {
+          "zh-CN": "强化胧冰幻镜，「脱力」的攻击力降幅提升为40%。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill103Description2]",
+        "descriptions": {
+          "zh-CN": "强化龙神的庇佑，「回血量上升」与「最大生命值上升」的附加目标增加为全体友军。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill103Description3]",
+        "descriptions": {
+          "zh-CN": "强化胧冰幻镜，造成的物理伤害提升为攻击力×480%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": false,
+  "missing_localization_keys": [
+    "",
+    "*"
+  ],
+  "passive_skills": [
+    {
+      "id": 103003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription1030031]",
+          "descriptions": {
+            "zh-CN": "“龙神大人一直保佑着大家。保佑着山犬联邦的大山，也保佑着俺们……”战斗开始时，寇柏使附近的2名友军增加10%回血量，效果持续2回合。当寇柏失去战斗能力时，解除此技能附加的「回血量上升」状态。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「竜神さまは、いつだって見守ってけでるんだど。ルプスのお山も、おらたちのことも……」バトル開始時、2ターンの間自身に隣接する味方2体の被回復量を10%増加させる。自身が戦闘不能になったとき、このスキルで付与した味方の『被回復量増加』を解除する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription1030032]",
+          "descriptions": {
+            "zh-CN": "战斗开始时，使附近的2名友军额外增加最大生命值，增幅为寇柏最大生命值×20%（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "バトル開始時、さらに自身に隣接する味方2体の最大HPを自身の最大HP×20%増加させる（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription1030033]",
+          "descriptions": {
+            "zh-CN": "「回血量上升」效果增加为6回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "『被回復量増加』のターン数が6ターンになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription1030034]",
+          "descriptions": {
+            "zh-CN": "强化龙神的庇佑，「回血量上升」与「最大生命值上升」的附加目标增加为全体友军。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "竜神さまのご加護を強化する。『被回復量増加』と『最大HP増加』の対象が味方全体になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 103003,
+        "IsIgnore": null,
+        "Memo": "コベルSR:Lv1 「竜神さまは、いつだって見守ってけでるんだど。ルプスのお山も、おらたちのことも……」バトル開始時、2ターンの間自身に隣接する味方2体の被回復量を10%増加させる。自身が戦闘不能になったとき、このスキルで付与した味方の『被回復量増加』を解除する。/ Lv2 バトル開始時、さらに自身に隣接する味方2体の最大HPを自身の最大HP×20%増加させる（解除不可）。/ Lv3 『被回復量増加』のターン数が6ターンになる。/ Ex2 竜神さまのご加護を強化する。『被回復量増加』と『最大HP増加』の対象が味方全体になる。",
+        "NameKey": "[PassiveSkillName103003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription1030031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 103003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 6,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 103003002
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 62,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 103003002
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription1030032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 103003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 6,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 103003002
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 62,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 103003002
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 103003203
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription1030033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 103003301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 6,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 103003302
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 62,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 103003302
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 103003203
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription1030034]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 103003401
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 6,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 103003302
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 62,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 103003302
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 103003403
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName103003]",
+      "names": {
+        "zh-CN": "龙神的庇佑"
+      },
+      "source_memo_ja": "コベルSR:Lv1 「竜神さまは、いつだって見守ってけでるんだど。ルプスのお山も、おらたちのことも……」バトル開始時、2ターンの間自身に隣接する味方2体の被回復量を10%増加させる。自身が戦闘不能になったとき、このスキルで付与した味方の『被回復量増加』を解除する。/ Lv2 バトル開始時、さらに自身に隣接する味方2体の最大HPを自身の最大HP×20%増加させる（解除不可）。/ Lv3 『被回復量増加』のターン数が6ターンになる。/ Ex2 竜神さまのご加護を強化する。『被回復量増加』と『最大HP増加』の対象が味方全体になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「竜神さまは、いつだって見守ってけでるんだど。ルプスのお山も、おらたちのことも……」バトル開始時、2ターンの間自身に隣接する味方2体の被回復量を10%増加させる。自身が戦闘不能になったとき、このスキルで付与した味方の『被回復量増加』を解除する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "バトル開始時、さらに自身に隣接する味方2体の最大HPを自身の最大HP×20%増加させる（解除不可）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "『被回復量増加』のターン数が6ターンになる。"
+        },
+        {
+          "label": "Ex2",
+          "text": "竜神さまのご加護を強化する。『被回復量増加』と『最大HP増加』の対象が味方全体になる。"
+        }
+      ]
+    },
+    {
+      "id": 103004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription1030041]",
+          "descriptions": {
+            "zh-CN": "“俺还是没胆，还是会害怕到发抖。可是……可是……”寇柏用颤抖的双腿踏出了那一步。比起眼睁睁地失去最要紧的朋友，她更讨厌一直这么窝囊的自己——当寇柏受到攻击时，使自己恢复承受伤害×20%的生命值。当攻击使寇柏失去战斗能力时，无法触发此技能。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "今も怖くて震えが止まらない。でも。それでも……彼女は震える足で踏み出す。何もせずに大切なものを失うより、無力な自分のままでいることの方がもっと嫌だから。自身が攻撃を受けたとき、自身のHPを被ダメージ×20%回復する。攻撃で自身が戦闘不能になった場合、このスキルの自身のHPを回復する効果は発動しない。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription1030042]",
+          "descriptions": {
+            "zh-CN": "生命值恢复量提升为承受伤害×40%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "HPの回復量が被ダメージ×40%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription1030043]",
+          "descriptions": {
+            "zh-CN": "战斗开始时，寇柏额外减少40%自身承受伤害（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらにバトル開始時、自身の被ダメージが40%減少する（解除不可）。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 103004,
+        "IsIgnore": null,
+        "Memo": "コベルSR:Lv1 今も怖くて震えが止まらない。でも。それでも……彼女は震える足で踏み出す。何もせずに大切なものを失うより、無力な自分のままでいることの方がもっと嫌だから。自身が攻撃を受けたとき、自身のHPを被ダメージ×20%回復する。攻撃で自身が戦闘不能になった場合、このスキルの自身のHPを回復する効果は発動しない。/ Lv2 HPの回復量が被ダメージ×40%になる。/ Lv3 さらにバトル開始時、自身の被ダメージが40%減少する（解除不可）。",
+        "NameKey": "[PassiveSkillName103004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription1030041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 103004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription1030042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 103004201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription1030043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 103004201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 103004302
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName103004]",
+      "names": {
+        "zh-CN": "踏出第一步的巫女"
+      },
+      "source_memo_ja": "コベルSR:Lv1 今も怖くて震えが止まらない。でも。それでも……彼女は震える足で踏み出す。何もせずに大切なものを失うより、無力な自分のままでいることの方がもっと嫌だから。自身が攻撃を受けたとき、自身のHPを被ダメージ×20%回復する。攻撃で自身が戦闘不能になった場合、このスキルの自身のHPを回復する効果は発動しない。/ Lv2 HPの回復量が被ダメージ×40%になる。/ Lv3 さらにバトル開始時、自身の被ダメージが40%減少する（解除不可）。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "今も怖くて震えが止まらない。でも。それでも……彼女は震える足で踏み出す。何もせずに大切なものを失うより、無力な自分のままでいることの方がもっと嫌だから。自身が攻撃を受けたとき、自身のHPを被ダメージ×20%回復する。攻撃で自身が戦闘不能になった場合、このスキルの自身のHPを回復する効果は発動しない。"
+        },
+        {
+          "label": "Lv2",
+          "text": "HPの回復量が被ダメージ×40%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらにバトル開始時、自身の被ダメージが40%減少する（解除不可）。"
+        }
+      ]
+    },
+    {
+      "id": 103005,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "*",
+          "descriptions": {
+            "zh-CN": null
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "Id": 103005,
+        "IsIgnore": null,
+        "Memo": "*",
+        "NameKey": "*",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "*",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 14,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 103005001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 15,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 103005001
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "*",
+      "names": {
+        "zh-CN": null
+      },
+      "source_memo_ja": "*",
+      "source_memo_sections_ja": []
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

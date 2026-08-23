@@ -1,0 +1,1514 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 63001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription630011]",
+          "descriptions": {
+            "zh-CN": "漆黑的正义之火吞噬敌人，随机对4名敌人造成攻击力×480%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "黒に染まった正義の炎が敵を呑み込む。ランダムな敵4体に攻撃力×480%の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription630012]",
+          "descriptions": {
+            "zh-CN": "发动攻击前，70%概率使技能目标额外减少40%抗暴率，效果持续2回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに物理攻撃の前に70%の確率で2ターンの間対象のクリティカル耐性率を40%減少させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription630013]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×580%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃のダメージが攻撃力×580%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription630014]",
+          "descriptions": {
+            "zh-CN": "强化正义的黑炎，技能目标增加为5名随机敌人。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "黒き正義の炎を強化する。黒き正義の炎の対象がランダムな敵5体になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription630011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              63001001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription630012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              63001201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription630013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              63001301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription630014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              63001401
+            ]
+          }
+        ],
+        "Id": 63001,
+        "IsIgnore": null,
+        "Memo": "パラデアSR:Lv1 黒に染まった正義の炎が敵を呑み込む。ランダムな敵4体に攻撃力×480%の物理攻撃を行う。/ Lv2 さらに物理攻撃の前に70%の確率で2ターンの間対象のクリティカル耐性率を40%減少させる。/ Lv3 物理攻撃のダメージが攻撃力×580%になる。/ Ex1 黒き正義の炎を強化する。黒き正義の炎の対象がランダムな敵5体になる。",
+        "NameKey": "[ActiveSkillName63001]",
+        "RootActiveSkillId": 63001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName63001]",
+      "names": {
+        "zh-CN": "正义的黑炎"
+      },
+      "source_memo_ja": "パラデアSR:Lv1 黒に染まった正義の炎が敵を呑み込む。ランダムな敵4体に攻撃力×480%の物理攻撃を行う。/ Lv2 さらに物理攻撃の前に70%の確率で2ターンの間対象のクリティカル耐性率を40%減少させる。/ Lv3 物理攻撃のダメージが攻撃力×580%になる。/ Ex1 黒き正義の炎を強化する。黒き正義の炎の対象がランダムな敵5体になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "黒に染まった正義の炎が敵を呑み込む。ランダムな敵4体に攻撃力×480%の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに物理攻撃の前に70%の確率で2ターンの間対象のクリティカル耐性率を40%減少させる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃のダメージが攻撃力×580%になる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "黒き正義の炎を強化する。黒き正義の炎の対象がランダムな敵5体になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 63002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription630021]",
+          "descriptions": {
+            "zh-CN": "“如果我还有用处的话……！”帕拉底亚随机对敌人进行4次攻击，每次造成攻击力×480%的物理伤害。“我并不想要这股力量，但我愿意用它来保护大家……！”发动攻击前，如果帕拉底亚身上附带正义魔女附加的「暴击率上升」状态，且叠加数为20层以上时，则消耗所有层数发动技能漆黑弹雨。［漆黑弹雨］随机对敌人进行4次攻击，每次造成攻击力×960%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「こんな私でも、まだお役に立てるなら……！」ランダムな敵に4回攻撃力×480%の物理攻撃を行う。「望まない力だとしても、皆を守れるなら、私は……！」物理攻撃の前に自身が正義の魔女で付与した『クリティカル率増加』のスタック数が20以上の場合、スタック数を0にしてバレットストームの代わりにブラックバレットを発動する。[ブラックバレット]ランダムな敵に4回攻撃力×960%の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[ActiveSkillDescription630022]",
+          "descriptions": {
+            "zh-CN": "强化漆黑弹雨，此攻击必定暴击。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "ブラックバレットを強化する。必ずクリティカルヒットするようになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[ActiveSkillDescription630023]",
+          "descriptions": {
+            "zh-CN": "强化漆黑弹雨，发动攻击前额外解除技能目标身上的2种增益效果（只对每名目标进行1次弱化效果命中与否的判定）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "ブラックバレットを強化する。さらに物理攻撃の前に対象のバフを2つ解除するようになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription630024]",
+          "descriptions": {
+            "zh-CN": "弹雨风暴造成的物理伤害提升为攻击力×880%，漆黑弹雨造成的物理伤害提升为攻击力×1760%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "バレットストームの物理攻撃のダメージが攻撃力×880%になり、ブラックバレットの物理攻撃のダメージが攻撃力×1760%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription630025]",
+          "descriptions": {
+            "zh-CN": "强化弹雨风暴与漆黑弹雨，弹雨风暴造成的物理伤害提升为攻击力×980%，漆黑弹雨造成的物理伤害提升为攻击力×1960%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "バレットストームとブラックバレットを強化する。バレットストームの物理攻撃のダメージが攻撃力×980%になり、ブラックバレットの物理攻撃のダメージが攻撃力×1960%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription630021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              63002001,
+              63002002,
+              63002002,
+              63002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[ActiveSkillDescription630022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              63002001,
+              63002002,
+              63002002,
+              63002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[ActiveSkillDescription630023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              63002001,
+              63002002,
+              63002002,
+              63002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription630024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              63002401,
+              63002402,
+              63002402,
+              63002402
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription630025]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              63002501,
+              63002502,
+              63002502,
+              63002502
+            ]
+          }
+        ],
+        "Id": 63002,
+        "IsIgnore": null,
+        "Memo": "パラデアSR:Lv1 「こんな私でも、まだお役に立てるなら……！」ランダムな敵に4回攻撃力×480%の物理攻撃を行う。「望まない力だとしても、皆を守れるなら、私は……！」物理攻撃の前に自身が正義の魔女で付与した『クリティカル率増加』のスタック数が20以上の場合、スタック数を0にしてバレットストームの代わりにブラックバレットを発動する。[ブラックバレット]ランダムな敵に4回攻撃力×960%の物理攻撃を行う。/ Lv2 ブラックバレットを強化する。必ずクリティカルヒットするようになる。/ Lv3 ブラックバレットを強化する。さらに物理攻撃の前に対象のバフを2つ解除するようになる。/ Lv4 バレットストームの物理攻撃のダメージが攻撃力×880%になり、ブラックバレットの物理攻撃のダメージが攻撃力×1760%になる。/ Ex3 バレットストームとブラックバレットを強化する。バレットストームの物理攻撃のダメージが攻撃力×980%になり、ブラックバレットの物理攻撃のダメージが攻撃力×1960%になる。",
+        "NameKey": "[ActiveSkillName63002]",
+        "RootActiveSkillId": 63002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName63002]",
+      "names": {
+        "zh-CN": "弹雨风暴"
+      },
+      "source_memo_ja": "パラデアSR:Lv1 「こんな私でも、まだお役に立てるなら……！」ランダムな敵に4回攻撃力×480%の物理攻撃を行う。「望まない力だとしても、皆を守れるなら、私は……！」物理攻撃の前に自身が正義の魔女で付与した『クリティカル率増加』のスタック数が20以上の場合、スタック数を0にしてバレットストームの代わりにブラックバレットを発動する。[ブラックバレット]ランダムな敵に4回攻撃力×960%の物理攻撃を行う。/ Lv2 ブラックバレットを強化する。必ずクリティカルヒットするようになる。/ Lv3 ブラックバレットを強化する。さらに物理攻撃の前に対象のバフを2つ解除するようになる。/ Lv4 バレットストームの物理攻撃のダメージが攻撃力×880%になり、ブラックバレットの物理攻撃のダメージが攻撃力×1760%になる。/ Ex3 バレットストームとブラックバレットを強化する。バレットストームの物理攻撃のダメージが攻撃力×980%になり、ブラックバレットの物理攻撃のダメージが攻撃力×1960%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「こんな私でも、まだお役に立てるなら……！」ランダムな敵に4回攻撃力×480%の物理攻撃を行う。「望まない力だとしても、皆を守れるなら、私は……！」物理攻撃の前に自身が正義の魔女で付与した『クリティカル率増加』のスタック数が20以上の場合、スタック数を0にしてバレットストームの代わりにブラックバレットを発動する。[ブラックバレット]ランダムな敵に4回攻撃力×960%の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "ブラックバレットを強化する。必ずクリティカルヒットするようになる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "ブラックバレットを強化する。さらに物理攻撃の前に対象のバフを2つ解除するようになる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "バレットストームの物理攻撃のダメージが攻撃力×880%になり、ブラックバレットの物理攻撃のダメージが攻撃力×1760%になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "バレットストームとブラックバレットを強化する。バレットストームの物理攻撃のダメージが攻撃力×980%になり、ブラックバレットの物理攻撃のダメージが攻撃力×1960%になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 44,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 20.0,
+              "value_text": "+20×角色等级"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 20.0
+              }
+            ],
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 44,
+            "CollectionLevel": 1,
+            "Id": 4401,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ムスカの解放(パラデア,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 44,
+            "CollectionLevel": 2,
+            "Id": 4402,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ムスカの解放(パラデア,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 44,
+            "CollectionLevel": 3,
+            "Id": 4403,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ムスカの解放(パラデア,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 44,
+            "CollectionLevel": 4,
+            "Id": 4404,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ムスカの解放(パラデア,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 41.0,
+              "value_text": "+41×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 160.0,
+              "value_text": "+1.6%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 41.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 160.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 44,
+            "CollectionLevel": 5,
+            "Id": 4405,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ムスカの解放(パラデア,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 42.0,
+              "value_text": "+42×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 170.0,
+              "value_text": "+1.7%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 42.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 170.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 44,
+            "CollectionLevel": 6,
+            "Id": 4406,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ムスカの解放(パラデア,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 43.0,
+              "value_text": "+43×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 180.0,
+              "value_text": "+1.8%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 43.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 180.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 44,
+            "CollectionLevel": 7,
+            "Id": 4407,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ムスカの解放(パラデア,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 44.0,
+              "value_text": "+44×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 190.0,
+              "value_text": "+1.9%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 44.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 190.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 44,
+            "CollectionLevel": 8,
+            "Id": 4408,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ムスカの解放(パラデア,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 45.0,
+              "value_text": "+45×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 45.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 44,
+            "CollectionLevel": 9,
+            "Id": 4409,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ムスカの解放(パラデア,ルナリンド)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 44,
+        "IsIgnore": null,
+        "Memo": "ムスカの解放(パラデア,ルナリンド)",
+        "NameKey": "[CharacterCollectionName44]",
+        "RequiredCharacterIds": [
+          63,
+          46
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2024-03-14 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName44]",
+      "names": {
+        "zh-CN": "苍蝇座的解放"
+      },
+      "required_character_ids": [
+        63,
+        46
+      ],
+      "required_characters": [
+        {
+          "id": 63,
+          "names": {
+            "zh-CN": "帕拉底亚"
+          }
+        },
+        {
+          "id": 46,
+          "names": {
+            "zh-CN": "露娜琳德"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2024-03-14 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 1,
+    "element_type": 6,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 63,
+    "job_flags": 2,
+    "master_record": {
+      "ActiveSkillIds": [
+        63001,
+        63002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 103,
+        "Health": 64,
+        "Intelligence": 80,
+        "Muscle": 90
+      },
+      "BaseParameterGrossCoefficient": 337,
+      "CharacterType": 1,
+      "ElementType": 6,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 63,
+      "InitialBattleParameter": {
+        "AttackPower": 5,
+        "Avoidance": 0,
+        "Critical": 1,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 7,
+        "DefensePenetration": 0,
+        "HP": -3,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 3065
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 2,
+      "Memo": "パラデア",
+      "Name2Key": "[CharacterSubName63]",
+      "NameKey": "[CharacterName63]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        63003,
+        63004,
+        63005
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2024-03-14 15:00:00"
+    },
+    "memo": "パラデア",
+    "name_key": "[CharacterName63]",
+    "names": {
+      "zh-CN": "帕拉底亚"
+    },
+    "speed": 3065,
+    "start_time_jst": "2024-03-14 15:00:00",
+    "subtitle_key": "[CharacterSubName63]",
+    "subtitles": {
+      "zh-CN": "正义魔女"
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 631120240,
+    "exclusive_effect_id": 354,
+    "icon_id": 482,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 631120250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 91,
+        "EquipmentEvolutionId": 101,
+        "EquipmentExclusiveSkillDescriptionId": 59,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 2,
+        "ExclusiveEffectId": 354,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 482,
+        "Id": 631120240,
+        "IsIgnore": null,
+        "Memo": "パラデアLR240_銃",
+        "NameKey": "[EquipmentName477]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": [
+          {
+            "BaseParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 800.0
+          }
+        ],
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 7,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 63,
+        "Id": 354,
+        "IsIgnore": null,
+        "Memo": "パラデアLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill63Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill63Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill63Description3]",
+        "Id": 59,
+        "IsIgnore": null,
+        "Memo": "パラデア銃"
+      }
+    },
+    "name_key": "[EquipmentName477]",
+    "names": {
+      "zh-CN": "和平使者"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "base",
+        "parameter_code": "Energy",
+        "parameter_type": 2,
+        "raw_value": 800.0,
+        "value_text": "+8%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Critical",
+        "parameter_type": 7,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill63Description1]",
+        "descriptions": {
+          "zh-CN": "强化正义的黑炎，技能目标增加为5名随机敌人。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill63Description2]",
+        "descriptions": {
+          "zh-CN": "强化人类联军总司令，战斗开始时，使幽冥属性的其他友军获得2层「多重屏障」（无法被解除）。当技能目标受到最大生命值×20%以上的伤害时，消耗1层屏障来抵消该伤害。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill63Description3]",
+        "descriptions": {
+          "zh-CN": "强化弹雨风暴与漆黑弹雨，弹雨风暴造成的物理伤害提升为攻击力×980%，漆黑弹雨造成的物理伤害提升为攻击力×1960%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": false,
+  "missing_localization_keys": [
+    "*"
+  ],
+  "passive_skills": [
+    {
+      "id": 63003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[PassiveSkillDescription630031]",
+          "descriptions": {
+            "zh-CN": "“用你的力量拯救世界吧，直到这股力量将世界毁灭。”每当听见恶魔的低语，她的心便逐渐染上浓重的黑影……当攻击暴击时，帕拉底亚获得1层增益效果，使自己增加1%暴击率（无法被解除）。每次暴击使增益效果的叠加数增加1层（最多20层）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「その力で世界を守るといい。その力で世界を滅ぼすまで」囁く声が聞こえるたびに、心が黒く染まっていく……。自身が攻撃して、クリティカルヒットした場合、自身にクリティカル率が1％増加するバフを付与する（解除不可）。クリティカルヒットした回数1回につきスタック数が1増加する（最大20回まで）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[PassiveSkillDescription630032]",
+          "descriptions": {
+            "zh-CN": "技能触发条件增加为帕拉底亚或友军的攻击暴击。友军每次暴击使增益效果的叠加数增加1层。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "このスキルが味方が攻撃してクリティカルヒットした場合にも発動するようになる。味方が攻撃してクリティカルヒットした回数1回につきスタック数が1増加する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription630033]",
+          "descriptions": {
+            "zh-CN": "暴击率增幅提升为2%，增幅上限提升为40%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "クリティカル率の増加量が2%になり、増加量最大値が40%になる。自身か味方が攻撃してクリティカルヒットした回数1回につきスタック数が1増加する。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 63003,
+        "IsIgnore": null,
+        "Memo": "パラデアSR:Lv1 「その力で世界を守るといい。その力で世界を滅ぼすまで」囁く声が聞こえるたびに、心が黒く染まっていく……。自身が攻撃して、クリティカルヒットした場合、自身にクリティカル率が1％増加するバフを付与する（解除不可）。クリティカルヒットした回数1回につきスタック数が1増加する（最大20回まで）。/ Lv2 このスキルが味方が攻撃してクリティカルヒットした場合にも発動するようになる。味方が攻撃してクリティカルヒットした回数1回につきスタック数が1増加する。/ Lv3 クリティカル率の増加量が2%になり、増加量最大値が40%になる。自身か味方が攻撃してクリティカルヒットした回数1回につきスタック数が1増加する。",
+        "NameKey": "[PassiveSkillName63003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[PassiveSkillDescription630031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 9,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 63003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[PassiveSkillDescription630032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 9,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 63003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 22,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 63003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription630033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 9,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 63003301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 22,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 63003301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName63003]",
+      "names": {
+        "zh-CN": "正义魔女"
+      },
+      "source_memo_ja": "パラデアSR:Lv1 「その力で世界を守るといい。その力で世界を滅ぼすまで」囁く声が聞こえるたびに、心が黒く染まっていく……。自身が攻撃して、クリティカルヒットした場合、自身にクリティカル率が1％増加するバフを付与する（解除不可）。クリティカルヒットした回数1回につきスタック数が1増加する（最大20回まで）。/ Lv2 このスキルが味方が攻撃してクリティカルヒットした場合にも発動するようになる。味方が攻撃してクリティカルヒットした回数1回につきスタック数が1増加する。/ Lv3 クリティカル率の増加量が2%になり、増加量最大値が40%になる。自身か味方が攻撃してクリティカルヒットした回数1回につきスタック数が1増加する。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「その力で世界を守るといい。その力で世界を滅ぼすまで」囁く声が聞こえるたびに、心が黒く染まっていく……。自身が攻撃して、クリティカルヒットした場合、自身にクリティカル率が1％増加するバフを付与する（解除不可）。クリティカルヒットした回数1回につきスタック数が1増加する（最大20回まで）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "このスキルが味方が攻撃してクリティカルヒットした場合にも発動するようになる。味方が攻撃してクリティカルヒットした回数1回につきスタック数が1増加する。"
+        },
+        {
+          "label": "Lv3",
+          "text": "クリティカル率の増加量が2%になり、増加量最大値が40%になる。自身か味方が攻撃してクリティカルヒットした回数1回につきスタック数が1増加する。"
+        }
+      ]
+    },
+    {
+      "id": 63004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription630041]",
+          "descriptions": {
+            "zh-CN": "我想成为温暖人心的灯火，而不是焚尽恶魔的烈火……战斗开始时，帕拉底亚获得3层「多重屏障」（无法被解除）。当她受到最大生命值×20%以上的伤害时，消耗1层屏障来抵消该伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "悪魔を焼き尽くす炎ではなく、誰かの心に温もりを与える、そんな灯火になりたかった……。バトル開始時自身に3層の『多重バリア』を付与する（解除不可）。自身の最大HP×20%以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription630042]",
+          "descriptions": {
+            "zh-CN": "帕拉底亚在同一波攻击中每暴击2次，使攻击力最高的幽冥属性友军获得1层「多重屏障」（最多叠加2层）（无法被解除）。当技能目标受到最大生命值×10%以上的伤害时，消耗1层屏障来抵消该伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに自身が攻撃して、クリティカルヒットした場合、その攻撃内でクリティカルヒットした回数2回につき冥属性のうち攻撃力が最も高い味方に1層の『多重バリア』を付与する（最大2層まで）（解除不可）。自身の最大HP×10%以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription630043]",
+          "descriptions": {
+            "zh-CN": "帕拉底亚攻击暴击时的「多重屏障」附加目标增加为攻击力最高的3名幽冥属性友军。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "自身が攻撃してクリティカルヒットした場合に『多重バリア』を付与する対象が冥属性のうち攻撃力が高い味方3体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription630044]",
+          "descriptions": {
+            "zh-CN": "强化人类联军总司令，战斗开始时，使幽冥属性的其他友军获得2层「多重屏障」（无法被解除）。当技能目标受到最大生命值×20%以上的伤害时，消耗1层屏障来抵消该伤害。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "人類軍全権指揮官を強化する。バトル開始時、さらに自身以外の冥属性の味方全体に2層の『多重バリア』を付与する（解除不可）。自身の最大HP×20%以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 63004,
+        "IsIgnore": null,
+        "Memo": "パラデアSR:Lv1 悪魔を焼き尽くす炎ではなく、誰かの心に温もりを与える、そんな灯火になりたかった……。バトル開始時自身に3層の『多重バリア』を付与する（解除不可）。自身の最大HP×20%以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。/ Lv2 さらに自身が攻撃して、クリティカルヒットした場合、その攻撃内でクリティカルヒットした回数2回につき冥属性のうち攻撃力が最も高い味方に1層の『多重バリア』を付与する（最大2層まで）（解除不可）。自身の最大HP×10%以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。/ Lv3 自身が攻撃してクリティカルヒットした場合に『多重バリア』を付与する対象が冥属性のうち攻撃力が高い味方3体になる。/ Ex2 人類軍全権指揮官を強化する。バトル開始時、さらに自身以外の冥属性の味方全体に2層の『多重バリア』を付与する（解除不可）。自身の最大HP×20%以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。",
+        "NameKey": "[PassiveSkillName63004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription630041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 63004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription630042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 63004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 9,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 63004203
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 9,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 63004204
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 9,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 63004205
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 9,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 63004204
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 9,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 63004205
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 33,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 63004206
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription630043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 63004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 9,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 63004203
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 9,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 63004304
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 9,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 63004205
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 9,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 63004304
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 9,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 63004205
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 33,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 63004206
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription630044]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 63004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 63004402
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 9,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 63004203
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 9,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 63004304
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 9,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 63004205
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 9,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 63004304
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 9,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 63004205
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 33,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 63004206
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName63004]",
+      "names": {
+        "zh-CN": "人类联军总司令"
+      },
+      "source_memo_ja": "パラデアSR:Lv1 悪魔を焼き尽くす炎ではなく、誰かの心に温もりを与える、そんな灯火になりたかった……。バトル開始時自身に3層の『多重バリア』を付与する（解除不可）。自身の最大HP×20%以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。/ Lv2 さらに自身が攻撃して、クリティカルヒットした場合、その攻撃内でクリティカルヒットした回数2回につき冥属性のうち攻撃力が最も高い味方に1層の『多重バリア』を付与する（最大2層まで）（解除不可）。自身の最大HP×10%以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。/ Lv3 自身が攻撃してクリティカルヒットした場合に『多重バリア』を付与する対象が冥属性のうち攻撃力が高い味方3体になる。/ Ex2 人類軍全権指揮官を強化する。バトル開始時、さらに自身以外の冥属性の味方全体に2層の『多重バリア』を付与する（解除不可）。自身の最大HP×20%以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "悪魔を焼き尽くす炎ではなく、誰かの心に温もりを与える、そんな灯火になりたかった……。バトル開始時自身に3層の『多重バリア』を付与する（解除不可）。自身の最大HP×20%以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに自身が攻撃して、クリティカルヒットした場合、その攻撃内でクリティカルヒットした回数2回につき冥属性のうち攻撃力が最も高い味方に1層の『多重バリア』を付与する（最大2層まで）（解除不可）。自身の最大HP×10%以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。"
+        },
+        {
+          "label": "Lv3",
+          "text": "自身が攻撃してクリティカルヒットした場合に『多重バリア』を付与する対象が冥属性のうち攻撃力が高い味方3体になる。"
+        },
+        {
+          "label": "Ex2",
+          "text": "人類軍全権指揮官を強化する。バトル開始時、さらに自身以外の冥属性の味方全体に2層の『多重バリア』を付与する（解除不可）。自身の最大HP×20%以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。"
+        }
+      ]
+    },
+    {
+      "id": 63005,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "*",
+          "descriptions": {
+            "zh-CN": null
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "Id": 63005,
+        "IsIgnore": null,
+        "Memo": "*",
+        "NameKey": "*",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "*",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 32,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 63002000
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "*",
+      "names": {
+        "zh-CN": null
+      },
+      "source_memo_ja": "*",
+      "source_memo_sections_ja": []
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

@@ -1,0 +1,1321 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 126001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription1260011]",
+          "descriptions": {
+            "zh-CN": "“这次到我来保护其他人了！”米赫里使全体友军获得「护盾」，「护盾」值为状态效果生效前的附加目标最大生命值×10%，效果持续2回合。再随机对4名敌人造成攻击力×410%的魔法伤害。战斗中自第3次发动此技能起，不再附加「护盾」，造成的魔法伤害提升为攻击力×1640%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「今度は私が、誰かを守れるようにならなきゃ！」2ターンの間味方全体にステータス増減前の対象の最大HP×10%の『シールド』を付与する。その後ランダムな敵4体に攻撃力×410%の魔法攻撃を行う。バトル中このスキルを使うのが3回目以降の場合、『シールド』の付与は行わず、魔法攻撃のダメージが攻撃力×1640%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription1260012]",
+          "descriptions": {
+            "zh-CN": "当「护盾」的附加目标为流金属性时，使「护盾」值额外提升状态效果生效前的米赫里攻击力×100%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに『シールド』を付与する対象が黄属性の場合、『シールド』の大きさがステータス増減前の付与者自身の攻撃力×100%大きくなる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1260013]",
+          "descriptions": {
+            "zh-CN": "「护盾」效果增加为4回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "『シールド』のターン数が4ターンになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1260014]",
+          "descriptions": {
+            "zh-CN": "强化薪火相传，「护盾」值提升为状态效果生效前的附加目标最大生命值×30%。当附加目标为流金属性时，使「护盾」值额外提升状态效果生效前的米赫里攻击力×400%。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "継がれた灯火を強化する。『シールド』の大きさがステータス増減前の対象の最大HP×30%になる。対象が黄属性の場合に得られる『シールド』の増加量がステータス増減前の付与者自身の攻撃力×400%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription1260011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              126001001,
+              126001002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription1260012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              126001201,
+              126001002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1260013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              126001301,
+              126001002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1260014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              126001401,
+              126001002
+            ]
+          }
+        ],
+        "Id": 126001,
+        "IsIgnore": null,
+        "Memo": "ミフリSR:Lv1 「今度は私が、誰かを守れるようにならなきゃ！」2ターンの間味方全体にステータス増減前の対象の最大HP×10%の『シールド』を付与する。その後ランダムな敵4体に攻撃力×410%の魔法攻撃を行う。バトル中このスキルを使うのが3回目以降の場合、『シールド』の付与は行わず、魔法攻撃のダメージが攻撃力×1640%になる。/ Lv2 さらに『シールド』を付与する対象が黄属性の場合、『シールド』の大きさがステータス増減前の付与者自身の攻撃力×100%大きくなる。/ Lv3 『シールド』のターン数が4ターンになる。/ Ex1 継がれた灯火を強化する。『シールド』の大きさがステータス増減前の対象の最大HP×30%になる。対象が黄属性の場合に得られる『シールド』の増加量がステータス増減前の付与者自身の攻撃力×400%になる。",
+        "NameKey": "[ActiveSkillName126001]",
+        "RootActiveSkillId": 126001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName126001]",
+      "names": {
+        "zh-CN": "薪火相传"
+      },
+      "source_memo_ja": "ミフリSR:Lv1 「今度は私が、誰かを守れるようにならなきゃ！」2ターンの間味方全体にステータス増減前の対象の最大HP×10%の『シールド』を付与する。その後ランダムな敵4体に攻撃力×410%の魔法攻撃を行う。バトル中このスキルを使うのが3回目以降の場合、『シールド』の付与は行わず、魔法攻撃のダメージが攻撃力×1640%になる。/ Lv2 さらに『シールド』を付与する対象が黄属性の場合、『シールド』の大きさがステータス増減前の付与者自身の攻撃力×100%大きくなる。/ Lv3 『シールド』のターン数が4ターンになる。/ Ex1 継がれた灯火を強化する。『シールド』の大きさがステータス増減前の対象の最大HP×30%になる。対象が黄属性の場合に得られる『シールド』の増加量がステータス増減前の付与者自身の攻撃力×400%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「今度は私が、誰かを守れるようにならなきゃ！」2ターンの間味方全体にステータス増減前の対象の最大HP×10%の『シールド』を付与する。その後ランダムな敵4体に攻撃力×410%の魔法攻撃を行う。バトル中このスキルを使うのが3回目以降の場合、『シールド』の付与は行わず、魔法攻撃のダメージが攻撃力×1640%になる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに『シールド』を付与する対象が黄属性の場合、『シールド』の大きさがステータス増減前の付与者自身の攻撃力×100%大きくなる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "『シールド』のターン数が4ターンになる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "継がれた灯火を強化する。『シールド』の大きさがステータス増減前の対象の最大HP×30%になる。対象が黄属性の場合に得られる『シールド』の増加量がステータス増減前の付与者自身の攻撃力×400%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 126002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription1260021]",
+          "descriptions": {
+            "zh-CN": "“尽管放马过来吧！来啊～！”米赫里随机对敌人进行3次攻击，每次造成攻击力×260%的魔法伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「どこからでもかかってこーい！　おりゃー！」ランダムな敵に3回攻撃力×260%の魔法攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription1260022]",
+          "descriptions": {
+            "zh-CN": "攻击次数增加为4次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "魔法攻撃の回数が4回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription1260023]",
+          "descriptions": {
+            "zh-CN": "攻击结束后，米赫里额外获得「轻快」状态，效果持续1回合，提高技能冷却时间恢复速度1，加快再度发动技能的时间。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらに最後の魔法攻撃の後、自身に1ターンの間『軽快』を付与する。毎ターン行動終了時にスキルクールタイムの減少を1早め、次回のスキル発動が早くなる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription1260024]",
+          "descriptions": {
+            "zh-CN": "战斗中自第3次发动此技能起，造成的魔法伤害提升为攻击力×1040%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "バトル中このスキルを使うのが3回目以降の場合、魔法攻撃のダメージが攻撃力×1040%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription1260025]",
+          "descriptions": {
+            "zh-CN": "强化炎火幻景，造成的魔法伤害提升为攻击力×280%。战斗中自第3次发动此技能起，造成的魔法伤害提升为攻击力×1120%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "アレヴ・セラープを強化する。魔法攻撃のダメージが攻撃力×280%になる。バトル中このスキルを使うのが3回目以降の場合、魔法攻撃のダメージが攻撃力×1120%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription1260021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              126002001,
+              126002002,
+              126002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription1260022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              126002001,
+              126002002,
+              126002002,
+              126002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription1260023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              126002001,
+              126002002,
+              126002002,
+              126002002,
+              126002303
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription1260024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              126002401,
+              126002402,
+              126002402,
+              126002402,
+              126002303
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription1260025]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              126002501,
+              126002502,
+              126002502,
+              126002502,
+              126002303
+            ]
+          }
+        ],
+        "Id": 126002,
+        "IsIgnore": null,
+        "Memo": "ミフリSR:Lv1 「どこからでもかかってこーい！　おりゃー！」ランダムな敵に3回攻撃力×260%の魔法攻撃を行う。/ Lv2 魔法攻撃の回数が4回になる。/ Lv3 さらに最後の魔法攻撃の後、自身に1ターンの間『軽快』を付与する。毎ターン行動終了時にスキルクールタイムの減少を1早め、次回のスキル発動が早くなる。/ Lv4 バトル中このスキルを使うのが3回目以降の場合、魔法攻撃のダメージが攻撃力×1040%になる。/ Ex3 アレヴ・セラープを強化する。魔法攻撃のダメージが攻撃力×280%になる。バトル中このスキルを使うのが3回目以降の場合、魔法攻撃のダメージが攻撃力×1120%になる。",
+        "NameKey": "[ActiveSkillName126002]",
+        "RootActiveSkillId": 126002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName126002]",
+      "names": {
+        "zh-CN": "炎火幻景"
+      },
+      "source_memo_ja": "ミフリSR:Lv1 「どこからでもかかってこーい！　おりゃー！」ランダムな敵に3回攻撃力×260%の魔法攻撃を行う。/ Lv2 魔法攻撃の回数が4回になる。/ Lv3 さらに最後の魔法攻撃の後、自身に1ターンの間『軽快』を付与する。毎ターン行動終了時にスキルクールタイムの減少を1早め、次回のスキル発動が早くなる。/ Lv4 バトル中このスキルを使うのが3回目以降の場合、魔法攻撃のダメージが攻撃力×1040%になる。/ Ex3 アレヴ・セラープを強化する。魔法攻撃のダメージが攻撃力×280%になる。バトル中このスキルを使うのが3回目以降の場合、魔法攻撃のダメージが攻撃力×1120%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「どこからでもかかってこーい！　おりゃー！」ランダムな敵に3回攻撃力×260%の魔法攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "魔法攻撃の回数が4回になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらに最後の魔法攻撃の後、自身に1ターンの間『軽快』を付与する。毎ターン行動終了時にスキルクールタイムの減少を1早め、次回のスキル発動が早くなる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "バトル中このスキルを使うのが3回目以降の場合、魔法攻撃のダメージが攻撃力×1040%になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "アレヴ・セラープを強化する。魔法攻撃のダメージが攻撃力×280%になる。バトル中このスキルを使うのが3回目以降の場合、魔法攻撃のダメージが攻撃力×1120%になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 77,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 500.0,
+              "value_text": "+500"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 77,
+            "CollectionLevel": 1,
+            "Id": 7701,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カシオペイアの同盟(ユルディズ,ミフリ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              },
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 77,
+            "CollectionLevel": 2,
+            "Id": 7702,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カシオペイアの同盟(ユルディズ,ミフリ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              },
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 77,
+            "CollectionLevel": 3,
+            "Id": 7703,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カシオペイアの同盟(ユルディズ,ミフリ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              },
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 77,
+            "CollectionLevel": 4,
+            "Id": 7704,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カシオペイアの同盟(ユルディズ,ミフリ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1050.0,
+              "value_text": "+1,050"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 75.0,
+              "value_text": "+75×角色等级"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1050.0
+              },
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 75.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 77,
+            "CollectionLevel": 5,
+            "Id": 7705,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カシオペイアの同盟(ユルディズ,ミフリ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1100.0,
+              "value_text": "+1,100"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 80.0,
+              "value_text": "+80×角色等级"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1100.0
+              },
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 80.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 77,
+            "CollectionLevel": 6,
+            "Id": 7706,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カシオペイアの同盟(ユルディズ,ミフリ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1150.0,
+              "value_text": "+1,150"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 85.0,
+              "value_text": "+85×角色等级"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1150.0
+              },
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 85.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 77,
+            "CollectionLevel": 7,
+            "Id": 7707,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カシオペイアの同盟(ユルディズ,ミフリ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1200.0,
+              "value_text": "+1,200"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 90.0,
+              "value_text": "+90×角色等级"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1200.0
+              },
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 90.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 77,
+            "CollectionLevel": 8,
+            "Id": 7708,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カシオペイアの同盟(ユルディズ,ミフリ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1250.0,
+              "value_text": "+1,250"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "CriticalResist",
+              "parameter_type": 8,
+              "raw_value": 95.0,
+              "value_text": "+95×角色等级"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1250.0
+              },
+              {
+                "BattleParameterType": 8,
+                "ChangeParameterType": 3,
+                "Value": 95.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 77,
+            "CollectionLevel": 9,
+            "Id": 7709,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カシオペイアの同盟(ユルディズ,ミフリ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 77,
+        "IsIgnore": null,
+        "Memo": "カシオペイアの同盟(ユルディズ,ミフリ)",
+        "NameKey": "[CharacterCollectionName77]",
+        "RequiredCharacterIds": [
+          124,
+          126
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2025-08-14 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName77]",
+      "names": {
+        "zh-CN": "仙后座的同盟"
+      },
+      "required_character_ids": [
+        124,
+        126
+      ],
+      "required_characters": [
+        {
+          "id": 124,
+          "names": {
+            "zh-CN": "耶尔德兹"
+          }
+        },
+        {
+          "id": 126,
+          "names": {
+            "zh-CN": "米赫里"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2025-08-14 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 4,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 126,
+    "job_flags": 4,
+    "master_record": {
+      "ActiveSkillIds": [
+        126001,
+        126002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 84,
+        "Health": 69,
+        "Intelligence": 97,
+        "Muscle": 83
+      },
+      "BaseParameterGrossCoefficient": 333,
+      "CharacterType": 0,
+      "ElementType": 4,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 126,
+      "InitialBattleParameter": {
+        "AttackPower": -3,
+        "Avoidance": 1,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 10,
+        "DefensePenetration": 0,
+        "HP": -3,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 5,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 3136
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 4,
+      "Memo": "ミフリ",
+      "Name2Key": null,
+      "NameKey": "[CharacterName126]",
+      "NormalSkillId": 102,
+      "PassiveSkillIds": [
+        126003,
+        126004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2025-09-16 15:00:00"
+    },
+    "memo": "ミフリ",
+    "name_key": "[CharacterName126]",
+    "names": {
+      "zh-CN": "米赫里"
+    },
+    "speed": 3136,
+    "start_time_jst": "2025-09-16 15:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 1261130240,
+    "exclusive_effect_id": 570,
+    "icon_id": 860,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 1261130250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 127,
+        "EquipmentEvolutionId": 137,
+        "EquipmentExclusiveSkillDescriptionId": 95,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 4,
+        "ExclusiveEffectId": 570,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 860,
+        "Id": 1261130240,
+        "IsIgnore": null,
+        "Memo": "ミフリLR240_書",
+        "NameKey": "[EquipmentName855]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": null,
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 13,
+            "ChangeParameterType": 2,
+            "Value": 500.0
+          },
+          {
+            "BattleParameterType": 8,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 126,
+        "Id": 570,
+        "IsIgnore": null,
+        "Memo": "ミフリLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill126Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill126Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill126Description3]",
+        "Id": 95,
+        "IsIgnore": null,
+        "Memo": "ミフリ魔導書"
+      }
+    },
+    "name_key": "[EquipmentName855]",
+    "names": {
+      "zh-CN": "炎火传承"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Defense",
+        "parameter_type": 13,
+        "raw_value": 500.0,
+        "value_text": "+5%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "CriticalResist",
+        "parameter_type": 8,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill126Description1]",
+        "descriptions": {
+          "zh-CN": "强化薪火相传，「护盾」值提升为状态效果生效前的附加目标最大生命值×30%。当附加目标为流金属性时，使「护盾」值额外提升状态效果生效前的米赫里攻击力×400%。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill126Description2]",
+        "descriptions": {
+          "zh-CN": "强化阳焰之拥，承受伤害降幅提升为75%。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill126Description3]",
+        "descriptions": {
+          "zh-CN": "强化炎火幻景，造成的魔法伤害提升为攻击力×280%。战斗中自第3次发动此技能起，造成的魔法伤害提升为攻击力×1120%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 126003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription1260031]",
+          "descriptions": {
+            "zh-CN": "“哈哈哈！吾乃火灵之子，米赫里是也！汝等还不速速退散！　……这段开场白，以后可以不说了吗？”行动开始时，米赫里获得1层「阳焰灯火」（最多15层）（无法被解除）。每层「阳焰灯火」使附带者增加5%攻击力。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「ふはは！　おそれおののけ！　我こそが炎の申し子、ミフリなり！　……この口上、もう辞めていい……？」自身の行動開始時、自身に『陽炎の灯』を1スタック付与する（最大15スタックまで）（解除不可）。このバフは1スタックにつき付帯者の攻撃力を5%増加させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription1260032]",
+          "descriptions": {
+            "zh-CN": "如果场上有身上附带4种以上增益效果的友军，获得的「阳焰灯火」层数增加为2层。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらにバフを4つ以上付帯している味方がいる場合、『陽炎の灯』の付与スタック数が2になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription1260033]",
+          "descriptions": {
+            "zh-CN": "「阳焰灯火」的附加目标增加为米赫里与攻击力最高的其他友军。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "『陽炎の灯』を付与する対象が自身と自身以外の攻撃力が最も高い味方になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 126003,
+        "IsIgnore": null,
+        "Memo": "ミフリSR:Lv1 「ふはは！　おそれおののけ！　我こそが炎の申し子、ミフリなり！　……この口上、もう辞めていい……？」自身の行動開始時、自身に『陽炎の灯』を1スタック付与する（最大15スタックまで）（解除不可）。このバフは1スタックにつき付帯者の攻撃力を5%増加させる。/ Lv2 さらにバフを4つ以上付帯している味方がいる場合、『陽炎の灯』の付与スタック数が2になる。/ Lv3 『陽炎の灯』を付与する対象が自身と自身以外の攻撃力が最も高い味方になる。",
+        "NameKey": "[PassiveSkillName126003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription1260031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 32,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 126003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription1260032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 32,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 126003201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription1260033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 32,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 126003201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 32,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 126003302
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName126003]",
+      "names": {
+        "zh-CN": "火灵之子"
+      },
+      "source_memo_ja": "ミフリSR:Lv1 「ふはは！　おそれおののけ！　我こそが炎の申し子、ミフリなり！　……この口上、もう辞めていい……？」自身の行動開始時、自身に『陽炎の灯』を1スタック付与する（最大15スタックまで）（解除不可）。このバフは1スタックにつき付帯者の攻撃力を5%増加させる。/ Lv2 さらにバフを4つ以上付帯している味方がいる場合、『陽炎の灯』の付与スタック数が2になる。/ Lv3 『陽炎の灯』を付与する対象が自身と自身以外の攻撃力が最も高い味方になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「ふはは！　おそれおののけ！　我こそが炎の申し子、ミフリなり！　……この口上、もう辞めていい……？」自身の行動開始時、自身に『陽炎の灯』を1スタック付与する（最大15スタックまで）（解除不可）。このバフは1スタックにつき付帯者の攻撃力を5%増加させる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらにバフを4つ以上付帯している味方がいる場合、『陽炎の灯』の付与スタック数が2になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "『陽炎の灯』を付与する対象が自身と自身以外の攻撃力が最も高い味方になる。"
+        }
+      ]
+    },
+    {
+      "id": 126004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription1260041]",
+          "descriptions": {
+            "zh-CN": "那是无法看见，却真实存在的温暖守护——纵使留下它的人已经逝去，这份慈爱仍会不断为米赫里祈福，使米赫里减少20%自身承受伤害（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "それは目に見えずとも確かにそこにあるもの。慈しむ者が消えても絶えず続くことを祈るような、温かな守り。自身の被ダメージが20%減少する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription1260042]",
+          "descriptions": {
+            "zh-CN": "额外增加15%物理暴击伤害降低（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに自身の物理クリダメ緩和が15%増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription1260043]",
+          "descriptions": {
+            "zh-CN": "物理暴击伤害降低的增幅提升为30%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理クリダメ緩和の増加量が30%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription1260044]",
+          "descriptions": {
+            "zh-CN": "强化阳焰之拥，承受伤害降幅提升为75%。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "陽炎の抱擁を強化する。被ダメージの減少量が75%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 126004,
+        "IsIgnore": null,
+        "Memo": "ミフリSR:Lv1 それは目に見えずとも確かにそこにあるもの。慈しむ者が消えても絶えず続くことを祈るような、温かな守り。自身の被ダメージが20%減少する（解除不可）。/ Lv2 さらに自身の物理クリダメ緩和が15%増加する（解除不可）。/ Lv3 物理クリダメ緩和の増加量が30%になる。/ Ex2 陽炎の抱擁を強化する。被ダメージの減少量が75%になる。",
+        "NameKey": "[PassiveSkillName126004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription1260041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 126004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription1260042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 126004201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription1260043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 126004301
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription1260044]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 126004401
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName126004]",
+      "names": {
+        "zh-CN": "阳焰之拥"
+      },
+      "source_memo_ja": "ミフリSR:Lv1 それは目に見えずとも確かにそこにあるもの。慈しむ者が消えても絶えず続くことを祈るような、温かな守り。自身の被ダメージが20%減少する（解除不可）。/ Lv2 さらに自身の物理クリダメ緩和が15%増加する（解除不可）。/ Lv3 物理クリダメ緩和の増加量が30%になる。/ Ex2 陽炎の抱擁を強化する。被ダメージの減少量が75%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "それは目に見えずとも確かにそこにあるもの。慈しむ者が消えても絶えず続くことを祈るような、温かな守り。自身の被ダメージが20%減少する（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに自身の物理クリダメ緩和が15%増加する（解除不可）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理クリダメ緩和の増加量が30%になる。"
+        },
+        {
+          "label": "Ex2",
+          "text": "陽炎の抱擁を強化する。被ダメージの減少量が75%になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

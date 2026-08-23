@@ -1,0 +1,235 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 1001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription10011]",
+          "descriptions": {
+            "zh-CN": "莫妮卡随机对1名敌人造成攻击力×105%的物理伤害，并以服侍他人的热忱支援受伤的同伴，随机使3名友军恢复莫妮卡攻击力×60%的生命值。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "ランダムな敵1体に攻撃力×105％の物理攻撃を行う。奉仕の心で傷つく仲間を支援し、ランダムな味方3体のHPを自身の攻撃力×60％回復する。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription10011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              1001001,
+              1001002
+            ]
+          }
+        ],
+        "Id": 1001,
+        "IsIgnore": null,
+        "Memo": "モニカN: /Lv1　ランダムな敵1体に攻撃力×105％の物理攻撃を行う。奉仕の心で傷つく仲間を支援し、ランダムな味方3体のHPを自身の攻撃力×60％回復する。",
+        "NameKey": "[ActiveSkillName1001]",
+        "RootActiveSkillId": 1001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName1001]",
+      "names": {
+        "zh-CN": "加油！"
+      },
+      "source_memo_ja": "モニカN: /Lv1　ランダムな敵1体に攻撃力×105％の物理攻撃を行う。奉仕の心で傷つく仲間を支援し、ランダムな味方3体のHPを自身の攻撃力×60％回復する。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "ランダムな敵1体に攻撃力×105％の物理攻撃を行う。奉仕の心で傷つく仲間を支援し、ランダムな味方3体のHPを自身の攻撃力×60％回復する。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 1002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription10021]",
+          "descriptions": {
+            "zh-CN": "莫妮卡为宅邸同伴着想的心意化作治疗的力量，使当前生命值最低的友军恢复莫妮卡攻击力×80%的生命值。并为同伴加油打气，使技能目标增加20%防御力，效果持续2回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "屋敷の仲間を想う心が癒しの力となり、現在HPが最も低い味方のHPを自身の攻撃力×80％回復する。さらに侍女の応援で、2ターンの間対象の防御力を20％増加させる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription10021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              1002001
+            ]
+          }
+        ],
+        "Id": 1002,
+        "IsIgnore": null,
+        "Memo": "モニカN: /Lv1　屋敷の仲間を想う心が癒しの力となり、現在HPが最も低い味方のHPを自身の攻撃力×80％回復する。さらに侍女の応援で、2ターンの間対象の防御力を20％増加させる。",
+        "NameKey": "[ActiveSkillName1002]",
+        "RootActiveSkillId": 1002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName1002]",
+      "names": {
+        "zh-CN": "我来帮忙！"
+      },
+      "source_memo_ja": "モニカN: /Lv1　屋敷の仲間を想う心が癒しの力となり、現在HPが最も低い味方のHPを自身の攻撃力×80％回復する。さらに侍女の応援で、2ターンの間対象の防御力を20％増加させる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "屋敷の仲間を想う心が癒しの力となり、現在HPが最も低い味方のHPを自身の攻撃力×80％回復する。さらに侍女の応援で、2ターンの間対象の防御力を20％増加させる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [],
+  "character": {
+    "character_type": 0,
+    "element_type": 1,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 1,
+    "job_flags": 2,
+    "master_record": {
+      "ActiveSkillIds": [
+        1001,
+        1002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 89,
+        "Health": 92,
+        "Intelligence": 80,
+        "Muscle": 80
+      },
+      "BaseParameterGrossCoefficient": 341,
+      "CharacterType": 0,
+      "ElementType": 1,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 1,
+      "InitialBattleParameter": {
+        "AttackPower": -4,
+        "Avoidance": 4,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 10,
+        "DefensePenetration": 0,
+        "HP": -2,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 2,
+        "Speed": 2600
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 0,
+      "JobFlags": 2,
+      "Memo": "モニカ",
+      "Name2Key": null,
+      "NameKey": "[CharacterName1]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [],
+      "RarityFlags": 1,
+      "RequireFragmentCount": 0,
+      "StartTimeFixJST": "2020-01-01 00:00:00"
+    },
+    "memo": "モニカ",
+    "name_key": "[CharacterName1]",
+    "names": {
+      "zh-CN": "莫妮卡"
+    },
+    "speed": 2600,
+    "start_time_jst": "2020-01-01 00:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": null,
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

@@ -1,0 +1,2253 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 72001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription720011]",
+          "descriptions": {
+            "zh-CN": "“百发百中的神枪手，将为各位带来最精彩的表演！”科迪使攻击力最高的友军获得1种增益效果，该效果包含增加25%命中率并减少25%闪避率，效果持续1回合。“暖场表演结束，接下来才是重头戏！”巨大的花朵在夜空中绽放，撒下花雨落在破坏祭典的敌人身上——随机对敌人进行4次攻击，每次造成攻击力×200%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「百発百中のガンマンが、最高のショーを見せてあげる！」1ターンの間攻撃力が最も高い味方の命中率を25%増加させ、回避率を25%減少させる。これらは1つのバフとして扱う。「仕掛けは十分。ここからが本番だよ」さらに夜空に咲いた大輪の花が、祭りを邪魔する敵に降り注ぐ──その後ランダムな敵に4回攻撃力×200%の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription720012]",
+          "descriptions": {
+            "zh-CN": "「命中率上升」与「闪避率下降」效果增加为4回合，造成的物理伤害提升为攻击力×330%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "『命中率増加』と『回避率減少』のターン数が4ターンになり、物理攻撃のダメージが攻撃力×330%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription720013]",
+          "descriptions": {
+            "zh-CN": "「命中率上升」与「闪避率下降」的附加目标增加为攻击力最高的2名友军。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "『命中率増加』と『回避率減少』の対象が攻撃力が高い味方2体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription720014]",
+          "descriptions": {
+            "zh-CN": ""
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "花雷を強化する。命中率の増加量が50%、回避率の減少量が50%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription720015]",
+          "descriptions": {
+            "zh-CN": ""
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "花雷を強化する。物理攻撃の回数が5回になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription720011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              72001001,
+              72001002,
+              72001003,
+              72001003,
+              72001003
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription720012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              72001201,
+              72001202,
+              72001203,
+              72001203,
+              72001203
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription720013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              72001301,
+              72001202,
+              72001203,
+              72001203,
+              72001203
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription720014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              72001401,
+              72001202,
+              72001203,
+              72001203,
+              72001203
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription720015]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              72001401,
+              72001202,
+              72001203,
+              72001203,
+              72001203,
+              72001203
+            ]
+          }
+        ],
+        "Id": 72001,
+        "IsIgnore": null,
+        "Memo": "浴衣コルディSR:Lv1 「百発百中のガンマンが、最高のショーを見せてあげる！」1ターンの間攻撃力が最も高い味方の命中率を25%増加させ、回避率を25%減少させる。これらは1つのバフとして扱う。「仕掛けは十分。ここからが本番だよ」さらに夜空に咲いた大輪の花が、祭りを邪魔する敵に降り注ぐ──その後ランダムな敵に4回攻撃力×200%の物理攻撃を行う。/ Lv2 『命中率増加』と『回避率減少』のターン数が4ターンになり、物理攻撃のダメージが攻撃力×330%になる。/ Lv3 『命中率増加』と『回避率減少』の対象が攻撃力が高い味方2体になる。/ Ex1 花雷を強化する。命中率の増加量が50%、回避率の減少量が50%になる。/ Ex3 花雷を強化する。物理攻撃の回数が5回になる。",
+        "NameKey": "[ActiveSkillName72001]",
+        "RootActiveSkillId": 72001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName72001]",
+      "names": {
+        "zh-CN": "烟花雷动"
+      },
+      "source_memo_ja": "浴衣コルディSR:Lv1 「百発百中のガンマンが、最高のショーを見せてあげる！」1ターンの間攻撃力が最も高い味方の命中率を25%増加させ、回避率を25%減少させる。これらは1つのバフとして扱う。「仕掛けは十分。ここからが本番だよ」さらに夜空に咲いた大輪の花が、祭りを邪魔する敵に降り注ぐ──その後ランダムな敵に4回攻撃力×200%の物理攻撃を行う。/ Lv2 『命中率増加』と『回避率減少』のターン数が4ターンになり、物理攻撃のダメージが攻撃力×330%になる。/ Lv3 『命中率増加』と『回避率減少』の対象が攻撃力が高い味方2体になる。/ Ex1 花雷を強化する。命中率の増加量が50%、回避率の減少量が50%になる。/ Ex3 花雷を強化する。物理攻撃の回数が5回になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「百発百中のガンマンが、最高のショーを見せてあげる！」1ターンの間攻撃力が最も高い味方の命中率を25%増加させ、回避率を25%減少させる。これらは1つのバフとして扱う。「仕掛けは十分。ここからが本番だよ」さらに夜空に咲いた大輪の花が、祭りを邪魔する敵に降り注ぐ──その後ランダムな敵に4回攻撃力×200%の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "『命中率増加』と『回避率減少』のターン数が4ターンになり、物理攻撃のダメージが攻撃力×330%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "『命中率増加』と『回避率減少』の対象が攻撃力が高い味方2体になる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "花雷を強化する。命中率の増加量が50%、回避率の減少量が50%になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "花雷を強化する。物理攻撃の回数が5回になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 72002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription720021]",
+          "descriptions": {
+            "zh-CN": "烟火高速连发，随机对4名敌人造成攻击力×200%的物理伤害。“嗨起来啦！”祭典的热闹气氛使科迪的心情无比亢奋，当她身上附带1种以上增益效果时，造成的物理伤害增加为1.5倍。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "連続連射で打ち上げられた花火が、ランダムな敵4体に攻撃力×200%の物理攻撃を行う。「テンション上がってきた！」さらに祭りの雰囲気が気分を高潮させ、自身が付帯しているバフの個数が1以上の場合、物理攻撃のダメージが1.5倍になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription720022]",
+          "descriptions": {
+            "zh-CN": "使生命值百分比最低的友军额外恢复技能总伤害×30%的生命值。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらにHP割合が最も低い味方のHPをこのスキルの総与ダメージ×30%回復する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription720023]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×300%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃のダメージが攻撃力×300%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription720024]",
+          "descriptions": {
+            "zh-CN": "技能目标增加为5名随机敌人。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "このスキルの対象がランダムな敵5体になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription720021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              72002001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription720022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              72002001,
+              72002202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription720023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              72002301,
+              72002202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription720024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              72002401,
+              72002202
+            ]
+          }
+        ],
+        "Id": 72002,
+        "IsIgnore": null,
+        "Memo": "浴衣コルディSR:Lv1 連続連射で打ち上げられた花火が、ランダムな敵4体に攻撃力×200%の物理攻撃を行う。「テンション上がってきた！」さらに祭りの雰囲気が気分を高潮させ、自身が付帯しているバフの個数が1以上の場合、物理攻撃のダメージが1.5倍になる。/ Lv2 さらにHP割合が最も低い味方のHPをこのスキルの総与ダメージ×30%回復する。/ Lv3 物理攻撃のダメージが攻撃力×300%になる。/ Lv4 このスキルの対象がランダムな敵5体になる。",
+        "NameKey": "[ActiveSkillName72002]",
+        "RootActiveSkillId": 72002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName72002]",
+      "names": {
+        "zh-CN": "烟花齐放"
+      },
+      "source_memo_ja": "浴衣コルディSR:Lv1 連続連射で打ち上げられた花火が、ランダムな敵4体に攻撃力×200%の物理攻撃を行う。「テンション上がってきた！」さらに祭りの雰囲気が気分を高潮させ、自身が付帯しているバフの個数が1以上の場合、物理攻撃のダメージが1.5倍になる。/ Lv2 さらにHP割合が最も低い味方のHPをこのスキルの総与ダメージ×30%回復する。/ Lv3 物理攻撃のダメージが攻撃力×300%になる。/ Lv4 このスキルの対象がランダムな敵5体になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "連続連射で打ち上げられた花火が、ランダムな敵4体に攻撃力×200%の物理攻撃を行う。「テンション上がってきた！」さらに祭りの雰囲気が気分を高潮させ、自身が付帯しているバフの個数が1以上の場合、物理攻撃のダメージが1.5倍になる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらにHP割合が最も低い味方のHPをこのスキルの総与ダメージ×30%回復する。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃のダメージが攻撃力×300%になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "このスキルの対象がランダムな敵5体になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 24,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 24,
+            "CollectionLevel": 1,
+            "Id": 2401,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ドラドの一撃(浴衣コルディ,コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              },
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 24,
+            "CollectionLevel": 2,
+            "Id": 2402,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ドラドの一撃(浴衣コルディ,コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              },
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 24,
+            "CollectionLevel": 3,
+            "Id": 2403,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ドラドの一撃(浴衣コルディ,コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              },
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 24,
+            "CollectionLevel": 4,
+            "Id": 2404,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ドラドの一撃(浴衣コルディ,コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 75.0,
+              "value_text": "+75×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 210.0,
+              "value_text": "+2.1%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 75.0
+              },
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 210.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 24,
+            "CollectionLevel": 5,
+            "Id": 2405,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ドラドの一撃(浴衣コルディ,コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 80.0,
+              "value_text": "+80×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 220.0,
+              "value_text": "+2.2%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 80.0
+              },
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 220.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 24,
+            "CollectionLevel": 6,
+            "Id": 2406,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ドラドの一撃(浴衣コルディ,コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 85.0,
+              "value_text": "+85×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 230.0,
+              "value_text": "+2.3%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 85.0
+              },
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 230.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 24,
+            "CollectionLevel": 7,
+            "Id": 2407,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ドラドの一撃(浴衣コルディ,コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 90.0,
+              "value_text": "+90×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 240.0,
+              "value_text": "+2.4%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 90.0
+              },
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 240.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 24,
+            "CollectionLevel": 8,
+            "Id": 2408,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ドラドの一撃(浴衣コルディ,コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 95.0,
+              "value_text": "+95×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 250.0,
+              "value_text": "+2.5%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 95.0
+              },
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 24,
+            "CollectionLevel": 9,
+            "Id": 2409,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ドラドの一撃(浴衣コルディ,コルディ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 24,
+        "IsIgnore": null,
+        "Memo": "ドラドの一撃(浴衣コルディ,コルディ)",
+        "NameKey": "[CharacterCollectionName23]",
+        "RequiredCharacterIds": [
+          72,
+          27
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2023-08-14 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName23]",
+      "names": {
+        "zh-CN": "剑鱼座的一击"
+      },
+      "required_character_ids": [
+        72,
+        27
+      ],
+      "required_characters": [
+        {
+          "id": 72,
+          "names": {
+            "zh-CN": "科迪"
+          }
+        },
+        {
+          "id": 27,
+          "names": {
+            "zh-CN": "科迪"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2023-08-14 00:00:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 75,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 20.0,
+              "value_text": "+20×角色等级"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 20.0
+              }
+            ],
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 75,
+            "CollectionLevel": 1,
+            "Id": 7501,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "クシフィアスの共演(フラック,浴衣コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 75,
+            "CollectionLevel": 2,
+            "Id": 7502,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "クシフィアスの共演(フラック,浴衣コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 75,
+            "CollectionLevel": 3,
+            "Id": 7503,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "クシフィアスの共演(フラック,浴衣コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 75,
+            "CollectionLevel": 4,
+            "Id": 7504,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "クシフィアスの共演(フラック,浴衣コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 41.0,
+              "value_text": "+41×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 160.0,
+              "value_text": "+1.6%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 41.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 160.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 75,
+            "CollectionLevel": 5,
+            "Id": 7505,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "クシフィアスの共演(フラック,浴衣コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 42.0,
+              "value_text": "+42×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 170.0,
+              "value_text": "+1.7%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 42.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 170.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 75,
+            "CollectionLevel": 6,
+            "Id": 7506,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "クシフィアスの共演(フラック,浴衣コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 43.0,
+              "value_text": "+43×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 180.0,
+              "value_text": "+1.8%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 43.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 180.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 75,
+            "CollectionLevel": 7,
+            "Id": 7507,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "クシフィアスの共演(フラック,浴衣コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 44.0,
+              "value_text": "+44×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 190.0,
+              "value_text": "+1.9%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 44.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 190.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 75,
+            "CollectionLevel": 8,
+            "Id": 7508,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "クシフィアスの共演(フラック,浴衣コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 45.0,
+              "value_text": "+45×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffHit",
+              "parameter_type": 15,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 45.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 15,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 75,
+            "CollectionLevel": 9,
+            "Id": 7509,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "クシフィアスの共演(フラック,浴衣コルディ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 75,
+        "IsIgnore": null,
+        "Memo": "クシフィアスの共演(フラック,浴衣コルディ)",
+        "NameKey": "[CharacterCollectionName75]",
+        "RequiredCharacterIds": [
+          122,
+          72
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2025-06-16 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName75]",
+      "names": {
+        "zh-CN": "旗鱼座的同台"
+      },
+      "required_character_ids": [
+        122,
+        72
+      ],
+      "required_characters": [
+        {
+          "id": 122,
+          "names": {
+            "zh-CN": "弗莱可"
+          }
+        },
+        {
+          "id": 72,
+          "names": {
+            "zh-CN": "科迪"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2025-06-16 00:00:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 97,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 97,
+            "CollectionLevel": 1,
+            "Id": 9701,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "トゥルドゥスの歌声(夏プリマヴェーラ,浴衣コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 97,
+            "CollectionLevel": 2,
+            "Id": 9702,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "トゥルドゥスの歌声(夏プリマヴェーラ,浴衣コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 97,
+            "CollectionLevel": 3,
+            "Id": 9703,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "トゥルドゥスの歌声(夏プリマヴェーラ,浴衣コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 97,
+            "CollectionLevel": 4,
+            "Id": 9704,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "トゥルドゥスの歌声(夏プリマヴェーラ,浴衣コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 71.0,
+              "value_text": "+71×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 210.0,
+              "value_text": "+2.1%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 71.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 210.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 97,
+            "CollectionLevel": 5,
+            "Id": 9705,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "トゥルドゥスの歌声(夏プリマヴェーラ,浴衣コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 72.0,
+              "value_text": "+72×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 220.0,
+              "value_text": "+2.2%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 72.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 220.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 97,
+            "CollectionLevel": 6,
+            "Id": 9706,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "トゥルドゥスの歌声(夏プリマヴェーラ,浴衣コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 73.0,
+              "value_text": "+73×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 230.0,
+              "value_text": "+2.3%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 73.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 230.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 97,
+            "CollectionLevel": 7,
+            "Id": 9707,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "トゥルドゥスの歌声(夏プリマヴェーラ,浴衣コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 74.0,
+              "value_text": "+74×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 240.0,
+              "value_text": "+2.4%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 74.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 240.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 97,
+            "CollectionLevel": 8,
+            "Id": 9708,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "トゥルドゥスの歌声(夏プリマヴェーラ,浴衣コルディ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 75.0,
+              "value_text": "+75×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 250.0,
+              "value_text": "+2.5%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 75.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 97,
+            "CollectionLevel": 9,
+            "Id": 9709,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "トゥルドゥスの歌声(夏プリマヴェーラ,浴衣コルディ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 97,
+        "IsIgnore": null,
+        "Memo": "トゥルドゥスの歌声(夏プリマヴェーラ,浴衣コルディ)",
+        "NameKey": "[CharacterCollectionName97]",
+        "RequiredCharacterIds": [
+          149,
+          72
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2026-07-15 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName97]",
+      "names": {
+        "zh-CN": "画眉座的歌声"
+      },
+      "required_character_ids": [
+        149,
+        72
+      ],
+      "required_characters": [
+        {
+          "id": 149,
+          "names": {
+            "zh-CN": "普莉玛维拉"
+          }
+        },
+        {
+          "id": 72,
+          "names": {
+            "zh-CN": "科迪"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2026-07-15 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 2,
+    "element_type": 2,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 72,
+    "job_flags": 2,
+    "master_record": {
+      "ActiveSkillIds": [
+        72001,
+        72002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 99,
+        "Health": 59,
+        "Intelligence": 84,
+        "Muscle": 84
+      },
+      "BaseParameterGrossCoefficient": 326,
+      "CharacterType": 2,
+      "ElementType": 2,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 72,
+      "InitialBattleParameter": {
+        "AttackPower": 3,
+        "Avoidance": -1,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 10,
+        "DefensePenetration": 0,
+        "HP": -3,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 1,
+        "Speed": 3575
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 2,
+      "Memo": "浴衣コルディ",
+      "Name2Key": "[CharacterSubName72]",
+      "NameKey": "[CharacterName72]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        72003,
+        72004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2023-08-14 15:00:00"
+    },
+    "memo": "浴衣コルディ",
+    "name_key": "[CharacterName72]",
+    "names": {
+      "zh-CN": "科迪"
+    },
+    "speed": 3575,
+    "start_time_jst": "2023-08-14 15:00:00",
+    "subtitle_key": "[CharacterSubName72]",
+    "subtitles": {
+      "zh-CN": "夏日残响"
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 4264,
+    "exclusive_effect_id": 270,
+    "icon_id": 536,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 4265,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 77,
+        "EquipmentEvolutionId": 87,
+        "EquipmentExclusiveSkillDescriptionId": 45,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 2,
+        "ExclusiveEffectId": 270,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 536,
+        "Id": 4264,
+        "IsIgnore": null,
+        "Memo": "浴衣コルディLR240_銃",
+        "NameKey": "[EquipmentName410]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": null,
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 5,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          },
+          {
+            "BattleParameterType": 13,
+            "ChangeParameterType": 2,
+            "Value": 500.0
+          }
+        ],
+        "CharacterId": 72,
+        "Id": 270,
+        "IsIgnore": null,
+        "Memo": "浴衣コルディLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill72Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill72Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill72Description3]",
+        "Id": 45,
+        "IsIgnore": null,
+        "Memo": "浴衣コルディ銃"
+      }
+    },
+    "name_key": "[EquipmentName410]",
+    "names": {
+      "zh-CN": "夏日狂欢"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Hit",
+        "parameter_type": 5,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Defense",
+        "parameter_type": 13,
+        "raw_value": 500.0,
+        "value_text": "+5%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill72Description1]",
+        "descriptions": {
+          "zh-CN": "强化烟花雷动，命中率增幅与闪避率降幅提升为50%。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill72Description2]",
+        "descriptions": {
+          "zh-CN": "强化嗨翻祭典，技能目标增加为攻击力最高的2名友军。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill72Description3]",
+        "descriptions": {
+          "zh-CN": "强化烟花雷动，攻击次数增加为5次。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 72003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription720031]",
+          "descriptions": {
+            "zh-CN": "“这么难得的祭典，大家跟着我再嗨一点～♪”回合开始时，使攻击力最高的友军增加攻击力，增幅为科迪攻击力×20%，效果持续1回合。此技能须在结束4次行动后才可再次触发。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「折角のお祭りなんだから、もっともーっとアゲてこ♪」ターン開始時1ターンの間攻撃力が最も高い味方の攻撃力を自身の攻撃力×20%増加させる。このスキルは4ターンに1回発動する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription720032]",
+          "descriptions": {
+            "zh-CN": "「攻击力上升」效果增加为2回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "『攻撃力増加』のターン数が2ターンになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription720033]",
+          "descriptions": {
+            "zh-CN": "攻击力增幅提升为科迪攻击力×60%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "攻撃力の増加量が自身の攻撃力×60%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription720034]",
+          "descriptions": {
+            "zh-CN": ""
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "お祭り騒ぎを強化する。お祭り騒ぎの対象が攻撃力が高い味方2体になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 72003,
+        "IsIgnore": null,
+        "Memo": "浴衣コルディSR:Lv1 「折角のお祭りなんだから、もっともーっとアゲてこ♪」ターン開始時1ターンの間攻撃力が最も高い味方の攻撃力を自身の攻撃力×20%増加させる。このスキルは4ターンに1回発動する。/ Lv2 『攻撃力増加』のターン数が2ターンになる。/ Lv3 攻撃力の増加量が自身の攻撃力×60%になる。/ Ex2 お祭り騒ぎを強化する。お祭り騒ぎの対象が攻撃力が高い味方2体になる。",
+        "NameKey": "[PassiveSkillName72003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription720031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 72003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription720032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 72003201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription720033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 72003301
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription720034]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 72003401
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName72003]",
+      "names": {
+        "zh-CN": "嗨翻祭典"
+      },
+      "source_memo_ja": "浴衣コルディSR:Lv1 「折角のお祭りなんだから、もっともーっとアゲてこ♪」ターン開始時1ターンの間攻撃力が最も高い味方の攻撃力を自身の攻撃力×20%増加させる。このスキルは4ターンに1回発動する。/ Lv2 『攻撃力増加』のターン数が2ターンになる。/ Lv3 攻撃力の増加量が自身の攻撃力×60%になる。/ Ex2 お祭り騒ぎを強化する。お祭り騒ぎの対象が攻撃力が高い味方2体になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「折角のお祭りなんだから、もっともーっとアゲてこ♪」ターン開始時1ターンの間攻撃力が最も高い味方の攻撃力を自身の攻撃力×20%増加させる。このスキルは4ターンに1回発動する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "『攻撃力増加』のターン数が2ターンになる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "攻撃力の増加量が自身の攻撃力×60%になる。"
+        },
+        {
+          "label": "Ex2",
+          "text": "お祭り騒ぎを強化する。お祭り騒ぎの対象が攻撃力が高い味方2体になる。"
+        }
+      ]
+    },
+    {
+      "id": 72004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription720041]",
+          "descriptions": {
+            "zh-CN": "现在正是百发百中的神枪手露一手绝活的时候——每次攻击使科迪增加3%防御力与魔法防御力，效果持续1回合（最多叠加10层，合计30%）（无法被解除）。每次攻击再使防御力与魔法防御力增幅提升3%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "百発百中のガンマンの腕の見せ所――自身が攻撃するたび、1ターンの間自身の防御力と魔法防御力がそれぞれ3%増加する（最大30%まで）（解除不可）。攻撃した回数1回につき増加量が3%大きくなる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription720042]",
+          "descriptions": {
+            "zh-CN": "技能触发条件增加为科迪进行攻击与受到攻击。每次受到攻击，再使防御力与魔法防御力增幅提升3%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "このスキルが自身が攻撃を受けるたびにも発動するようになる。自身が攻撃を受けた回数1回につき増加量が3％大きくなる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription720043]",
+          "descriptions": {
+            "zh-CN": "防御力与魔法防御力增幅提升为10%，增幅上限提升为100%。每次进行攻击或受到攻击，再使防御力与魔法防御力增幅提升10%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "防御力と魔法防御力の増加量が10%になり、増加量最大値が100%になる。攻撃した回数1回につき、もしくは自身が攻撃を受けた回数1回につき増加量が10%大きくなる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 72004,
+        "IsIgnore": null,
+        "Memo": "浴衣コルディSR:Lv1 百発百中のガンマンの腕の見せ所――自身が攻撃するたび、1ターンの間自身の防御力と魔法防御力がそれぞれ3%増加する（最大30%まで）（解除不可）。攻撃した回数1回につき増加量が3%大きくなる。/ Lv2 このスキルが自身が攻撃を受けるたびにも発動するようになる。自身が攻撃を受けた回数1回につき増加量が3％大きくなる。/ Lv3 防御力と魔法防御力の増加量が10%になり、増加量最大値が100%になる。攻撃した回数1回につき、もしくは自身が攻撃を受けた回数1回につき増加量が10%大きくなる。",
+        "NameKey": "[PassiveSkillName72004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription720041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 9,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 72004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription720042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 9,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 72004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 72004202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription720043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 9,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 72004301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 72004302
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName72004]",
+      "names": {
+        "zh-CN": "欢呼喝彩"
+      },
+      "source_memo_ja": "浴衣コルディSR:Lv1 百発百中のガンマンの腕の見せ所――自身が攻撃するたび、1ターンの間自身の防御力と魔法防御力がそれぞれ3%増加する（最大30%まで）（解除不可）。攻撃した回数1回につき増加量が3%大きくなる。/ Lv2 このスキルが自身が攻撃を受けるたびにも発動するようになる。自身が攻撃を受けた回数1回につき増加量が3％大きくなる。/ Lv3 防御力と魔法防御力の増加量が10%になり、増加量最大値が100%になる。攻撃した回数1回につき、もしくは自身が攻撃を受けた回数1回につき増加量が10%大きくなる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "百発百中のガンマンの腕の見せ所――自身が攻撃するたび、1ターンの間自身の防御力と魔法防御力がそれぞれ3%増加する（最大30%まで）（解除不可）。攻撃した回数1回につき増加量が3%大きくなる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "このスキルが自身が攻撃を受けるたびにも発動するようになる。自身が攻撃を受けた回数1回につき増加量が3％大きくなる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "防御力と魔法防御力の増加量が10%になり、増加量最大値が100%になる。攻撃した回数1回につき、もしくは自身が攻撃を受けた回数1回につき増加量が10%大きくなる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

@@ -1,0 +1,1305 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 9001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription90011]",
+          "descriptions": {
+            "zh-CN": "雷霆万钧的强力一击。对当前生命值最高的敌人造成攻击力×400%的物理伤害。好战的维京人决不放过强敌，当技能目标的生命值为60%以上时，此攻击必定暴击。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "雷霆の如き重い一撃。現在HPが最も高い敵に攻撃力×400%の物理攻撃を行う。強敵を逃さないヴァイキングの闘争心により、対象のHP割合が60%以上の場合、この攻撃は必ずクリティカルヒットする。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription90012]",
+          "descriptions": {
+            "zh-CN": "追加索尼娅战技×250%的直接伤害（如果技能目标失去战斗能力，无法触发此攻击）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに自身の技力×250％の直接攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription90013]",
+          "descriptions": {
+            "zh-CN": "如果技能目标仍然存活，索尼娅再次发动此技能（最多1次）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらにこのスキルで敵を戦闘不能にできなかった場合、このスキルを再発動する（再発動は1回まで）。　/専用1 アックスボンバーを強化する。ギルドバトル・グランドバトルで使用した場合、物理攻撃のダメージが攻撃力×540%になる。　/専用2 アックスボンバーを強化する。ギルドバトル・グランドバトルで使用した場合、物理攻撃のダメージが攻撃力×720%になる。　/専用3 アックスボンバーを強化する。直接攻撃のダメージが自身の技力×280%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription90014]",
+          "descriptions": {
+            "zh-CN": "[ActiveSkillDescription90014]"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": null
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription90015]",
+          "descriptions": {
+            "zh-CN": "[ActiveSkillDescription90015]"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 5,
+          "source_memo_ja": null
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription90016]",
+          "descriptions": {
+            "zh-CN": "[ActiveSkillDescription90016]"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 6,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription90011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              9001001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription90012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              9001201,
+              9001202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription90013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              9001201,
+              9001202,
+              9001302,
+              9001202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription90014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              9001401,
+              9001202,
+              9001402,
+              9001202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription90015]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              9001501,
+              9001202,
+              9001502,
+              9001202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription90016]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 6,
+            "SubSetSkillIds": [
+              9001501,
+              9001602,
+              9001502,
+              9001602
+            ]
+          }
+        ],
+        "Id": 9001,
+        "IsIgnore": null,
+        "Memo": "ソーニャSR: /Lv1　雷霆の如き重い一撃。現在HPが最も高い敵に攻撃力×400%の物理攻撃を行う。強敵を逃さないヴァイキングの闘争心により、対象のHP割合が60%以上の場合、この攻撃は必ずクリティカルヒットする。　/Lv2 さらに自身の技力×250％の直接攻撃を行う。　/Lv3 さらにこのスキルで敵を戦闘不能にできなかった場合、このスキルを再発動する（再発動は1回まで）。　/専用1 アックスボンバーを強化する。ギルドバトル・グランドバトルで使用した場合、物理攻撃のダメージが攻撃力×540%になる。　/専用2 アックスボンバーを強化する。ギルドバトル・グランドバトルで使用した場合、物理攻撃のダメージが攻撃力×720%になる。　/専用3 アックスボンバーを強化する。直接攻撃のダメージが自身の技力×280%になる。",
+        "NameKey": "[ActiveSkillName9001]",
+        "RootActiveSkillId": 9001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 3
+      },
+      "max_cooldown": 3,
+      "name_key": "[ActiveSkillName9001]",
+      "names": {
+        "zh-CN": "斧爆弹"
+      },
+      "source_memo_ja": "ソーニャSR: /Lv1　雷霆の如き重い一撃。現在HPが最も高い敵に攻撃力×400%の物理攻撃を行う。強敵を逃さないヴァイキングの闘争心により、対象のHP割合が60%以上の場合、この攻撃は必ずクリティカルヒットする。　/Lv2 さらに自身の技力×250％の直接攻撃を行う。　/Lv3 さらにこのスキルで敵を戦闘不能にできなかった場合、このスキルを再発動する（再発動は1回まで）。　/専用1 アックスボンバーを強化する。ギルドバトル・グランドバトルで使用した場合、物理攻撃のダメージが攻撃力×540%になる。　/専用2 アックスボンバーを強化する。ギルドバトル・グランドバトルで使用した場合、物理攻撃のダメージが攻撃力×720%になる。　/専用3 アックスボンバーを強化する。直接攻撃のダメージが自身の技力×280%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "雷霆の如き重い一撃。現在HPが最も高い敵に攻撃力×400%の物理攻撃を行う。強敵を逃さないヴァイキングの闘争心により、対象のHP割合が60%以上の場合、この攻撃は必ずクリティカルヒットする。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに自身の技力×250％の直接攻撃を行う。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらにこのスキルで敵を戦闘不能にできなかった場合、このスキルを再発動する（再発動は1回まで）。　/専用1 アックスボンバーを強化する。ギルドバトル・グランドバトルで使用した場合、物理攻撃のダメージが攻撃力×540%になる。　/専用2 アックスボンバーを強化する。ギルドバトル・グランドバトルで使用した場合、物理攻撃のダメージが攻撃力×720%になる。　/専用3 アックスボンバーを強化する。直接攻撃のダメージが自身の技力×280%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 9002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription90021]",
+          "descriptions": {
+            "zh-CN": "风驰电掣的迅猛急袭。对当前生命值最低的敌人造成攻击力×400%的物理伤害。顺从本能的维京人对虚弱的敌人毫不留情，当技能目标的生命值为60%以下时，此攻击必定暴击。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "旋風の如き素早い急襲。現在HPが最も低い敵に攻撃力×400％の物理攻撃を行う。弱った敵にも容赦しないヴァイキングの本能により、対象のHP割合が60％以下の場合、この攻撃は必ずクリティカルヒットする。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription90022]",
+          "descriptions": {
+            "zh-CN": "追加索尼娅战技×250%的直接伤害（如果技能目标失去战斗能力，无法触发此攻击）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに自身の技力×250％の直接攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription90023]",
+          "descriptions": {
+            "zh-CN": "造成的直接伤害提升为索尼娅战技×280%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "直接攻撃のダメージが自身の技力×280%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription90024]",
+          "descriptions": {
+            "zh-CN": "如果技能目标失去战斗能力，索尼娅再次发动此技能（最多1次）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "さらにこのスキルで敵を戦闘不能にした場合、このスキルを再発動する（再発動は1回まで）。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription90021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              9002001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription90022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              9002201,
+              9002202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription90023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              9002201,
+              9002301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription90024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              9002201,
+              9002301,
+              9002402,
+              9002404
+            ]
+          }
+        ],
+        "Id": 9002,
+        "IsIgnore": null,
+        "Memo": "ソーニャSR: /Lv1　旋風の如き素早い急襲。現在HPが最も低い敵に攻撃力×400％の物理攻撃を行う。弱った敵にも容赦しないヴァイキングの本能により、対象のHP割合が60％以下の場合、この攻撃は必ずクリティカルヒットする。　/Lv2 さらに自身の技力×250％の直接攻撃を行う。　/Lv3 直接攻撃のダメージが自身の技力×280%になる。　/Lv4 さらにこのスキルで敵を戦闘不能にした場合、このスキルを再発動する（再発動は1回まで）。",
+        "NameKey": "[ActiveSkillName9002]",
+        "RootActiveSkillId": 9002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName9002]",
+      "names": {
+        "zh-CN": "黑旋风"
+      },
+      "source_memo_ja": "ソーニャSR: /Lv1　旋風の如き素早い急襲。現在HPが最も低い敵に攻撃力×400％の物理攻撃を行う。弱った敵にも容赦しないヴァイキングの本能により、対象のHP割合が60％以下の場合、この攻撃は必ずクリティカルヒットする。　/Lv2 さらに自身の技力×250％の直接攻撃を行う。　/Lv3 直接攻撃のダメージが自身の技力×280%になる。　/Lv4 さらにこのスキルで敵を戦闘不能にした場合、このスキルを再発動する（再発動は1回まで）。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "旋風の如き素早い急襲。現在HPが最も低い敵に攻撃力×400％の物理攻撃を行う。弱った敵にも容赦しないヴァイキングの本能により、対象のHP割合が60％以下の場合、この攻撃は必ずクリティカルヒットする。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに自身の技力×250％の直接攻撃を行う。"
+        },
+        {
+          "label": "Lv3",
+          "text": "直接攻撃のダメージが自身の技力×280%になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "さらにこのスキルで敵を戦闘不能にした場合、このスキルを再発動する（再発動は1回まで）。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 26,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 26,
+            "CollectionLevel": 1,
+            "Id": 2601,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "プロキオンの双牙(ソーニャ,ソルティーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 26,
+            "CollectionLevel": 2,
+            "Id": 2602,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "プロキオンの双牙(ソーニャ,ソルティーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 26,
+            "CollectionLevel": 3,
+            "Id": 2603,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "プロキオンの双牙(ソーニャ,ソルティーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 26,
+            "CollectionLevel": 4,
+            "Id": 2604,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "プロキオンの双牙(ソーニャ,ソルティーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 210.0,
+              "value_text": "+2.1%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 71.0,
+              "value_text": "+71×角色等级"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 210.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 71.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 26,
+            "CollectionLevel": 5,
+            "Id": 2605,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "プロキオンの双牙(ソーニャ,ソルティーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 220.0,
+              "value_text": "+2.2%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 72.0,
+              "value_text": "+72×角色等级"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 220.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 72.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 26,
+            "CollectionLevel": 6,
+            "Id": 2606,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "プロキオンの双牙(ソーニャ,ソルティーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 230.0,
+              "value_text": "+2.3%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 73.0,
+              "value_text": "+73×角色等级"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 230.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 73.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 26,
+            "CollectionLevel": 7,
+            "Id": 2607,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "プロキオンの双牙(ソーニャ,ソルティーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 240.0,
+              "value_text": "+2.4%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 74.0,
+              "value_text": "+74×角色等级"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 240.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 74.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 26,
+            "CollectionLevel": 8,
+            "Id": 2608,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "プロキオンの双牙(ソーニャ,ソルティーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 250.0,
+              "value_text": "+2.5%"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 75.0,
+              "value_text": "+75×角色等级"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 250.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 3,
+                "Value": 75.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 26,
+            "CollectionLevel": 9,
+            "Id": 2609,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "プロキオンの双牙(ソーニャ,ソルティーナ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 26,
+        "IsIgnore": null,
+        "Memo": "プロキオンの双牙(ソーニャ,ソルティーナ)",
+        "NameKey": "[CharacterCollectionName26]",
+        "RequiredCharacterIds": [
+          9,
+          5
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2023-09-07 14:30:00"
+      },
+      "name_key": "[CharacterCollectionName26]",
+      "names": {
+        "zh-CN": "小白犬的双牙"
+      },
+      "required_character_ids": [
+        9,
+        5
+      ],
+      "required_characters": [
+        {
+          "id": 9,
+          "names": {
+            "zh-CN": "索尼娅"
+          }
+        },
+        {
+          "id": 5,
+          "names": {
+            "zh-CN": "索尔缇娜"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2023-09-07 14:30:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 1,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 9,
+    "job_flags": 2,
+    "master_record": {
+      "ActiveSkillIds": [
+        9001,
+        9002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 100,
+        "Health": 67,
+        "Intelligence": 85,
+        "Muscle": 84
+      },
+      "BaseParameterGrossCoefficient": 336,
+      "CharacterType": 0,
+      "ElementType": 1,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 9,
+      "InitialBattleParameter": {
+        "AttackPower": 2,
+        "Avoidance": 0,
+        "Critical": 1,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 6,
+        "DefensePenetration": 0,
+        "HP": 2,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 3376
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 2,
+      "Memo": "ソーニャ",
+      "Name2Key": null,
+      "NameKey": "[CharacterName9]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        9003,
+        9004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2022-12-28 15:30:00"
+    },
+    "memo": "ソーニャ",
+    "name_key": "[CharacterName9]",
+    "names": {
+      "zh-CN": "索尼娅"
+    },
+    "speed": 3376,
+    "start_time_jst": "2022-12-28 15:30:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 1944,
+    "exclusive_effect_id": 30,
+    "icon_id": 230,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 1945,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 37,
+        "EquipmentEvolutionId": 47,
+        "EquipmentExclusiveSkillDescriptionId": 5,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 2,
+        "ExclusiveEffectId": 30,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 230,
+        "Id": 1944,
+        "IsIgnore": null,
+        "Memo": "ソーニャLR240_銃",
+        "NameKey": "[EquipmentName225]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": null,
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 5,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          },
+          {
+            "BattleParameterType": 9,
+            "ChangeParameterType": 1,
+            "Value": 3500.0
+          }
+        ],
+        "CharacterId": 9,
+        "Id": 30,
+        "IsIgnore": null,
+        "Memo": "ソーニャLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill9Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill9Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill9Description3]",
+        "Id": 5,
+        "IsIgnore": null,
+        "Memo": "ソーニャ銃"
+      }
+    },
+    "name_key": "[EquipmentName225]",
+    "names": {
+      "zh-CN": "维京战斧"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Hit",
+        "parameter_type": 5,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      },
+      {
+        "change_parameter_type": 1,
+        "kind": "battle",
+        "parameter_code": "CriticalDamageEnhance",
+        "parameter_type": 9,
+        "raw_value": 3500.0,
+        "value_text": "+3,500"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill9Description1]",
+        "descriptions": {
+          "zh-CN": "强化斧爆弹，在公会战・跨服公会战中造成的物理伤害提升为攻击力×540%。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill9Description2]",
+        "descriptions": {
+          "zh-CN": "强化斧爆弹，在公会战・跨服公会战中造成的物理伤害提升为攻击力×720%。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill9Description3]",
+        "descriptions": {
+          "zh-CN": "强化斧爆弹，造成的直接伤害提升为索尼娅战技×280%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 9003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription90031]",
+          "descriptions": {
+            "zh-CN": "索尼娅大喊干杯，把补充精力的饮料一口喝光，使自己增加20%最大生命值与命中率（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "大きな声で乾杯を叫び、元気が出るドリンクを飲み干す。自身の最大HPと命中率が20％増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription90032]",
+          "descriptions": {
+            "zh-CN": "额外增加20%攻击力（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに自身の攻撃力が20％増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription90033]",
+          "descriptions": {
+            "zh-CN": "最大生命值与攻击力增幅提升为30%，命中率增幅提升为50%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "最大HPと攻撃力の増加量がそれぞれ30％になる。命中率の増加量が50％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 9003,
+        "IsIgnore": null,
+        "Memo": "ソーニャSR: /Lv1　大きな声で乾杯を叫び、元気が出るドリンクを飲み干す。自身の最大HPと命中率が20％増加する（解除不可）。　/Lv2 さらに自身の攻撃力が20％増加する（解除不可）。　/Lv3 最大HPと攻撃力の増加量がそれぞれ30％になる。命中率の増加量が50％になる。",
+        "NameKey": "[PassiveSkillName9003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription90031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 9003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription90032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 9003201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription90033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 9003301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName9003]",
+      "names": {
+        "zh-CN": "干杯！"
+      },
+      "source_memo_ja": "ソーニャSR: /Lv1　大きな声で乾杯を叫び、元気が出るドリンクを飲み干す。自身の最大HPと命中率が20％増加する（解除不可）。　/Lv2 さらに自身の攻撃力が20％増加する（解除不可）。　/Lv3 最大HPと攻撃力の増加量がそれぞれ30％になる。命中率の増加量が50％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "大きな声で乾杯を叫び、元気が出るドリンクを飲み干す。自身の最大HPと命中率が20％増加する（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに自身の攻撃力が20％増加する（解除不可）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "最大HPと攻撃力の増加量がそれぞれ30％になる。命中率の増加量が50％になる。"
+        }
+      ]
+    },
+    {
+      "id": 9004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription90041]",
+          "descriptions": {
+            "zh-CN": "索尼娅发出维京战吼，战斗开始时，使全体友军增加2%攻击力（无法被解除）。战斗开始时每名存活在场上的其他友军，再使攻击力增幅提升2%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "ヴァイキングの勝鬨を上げて、バトル開始時味方全体の攻撃力を2％増加させる（解除不可）。バトル開始時の自身以外の味方の生存数1体につき増加量が2％大きくなる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription90042]",
+          "descriptions": {
+            "zh-CN": "使全体友军额外增加2%最大生命值（无法被解除）。战斗开始时每名存活在场上的其他友军，再使最大生命值增幅提升2%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに味方全体の最大HPを2％増加させる（解除不可）。バトル開始時の自身以外の味方の生存数1体につき増加量が2％大きくなる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription90043]",
+          "descriptions": {
+            "zh-CN": "攻击力与最大生命值增幅提升为3%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "攻撃力の増加量が3％、最大HPの増加量が3％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 9004,
+        "IsIgnore": null,
+        "Memo": "ソーニャSR: /Lv1　ヴァイキングの勝鬨を上げて、バトル開始時味方全体の攻撃力を2％増加させる（解除不可）。バトル開始時の自身以外の味方の生存数1体につき増加量が2％大きくなる。　/Lv2 さらに味方全体の最大HPを2％増加させる（解除不可）。バトル開始時の自身以外の味方の生存数1体につき増加量が2％大きくなる。　/Lv3 攻撃力の増加量が3％、最大HPの増加量が3％になる。",
+        "NameKey": "[PassiveSkillName9004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription90041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 9004002
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 9004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription90042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 9004002
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 9004201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription90043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 9004002
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 9004301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName9004]",
+      "names": {
+        "zh-CN": "维京人的力量！"
+      },
+      "source_memo_ja": "ソーニャSR: /Lv1　ヴァイキングの勝鬨を上げて、バトル開始時味方全体の攻撃力を2％増加させる（解除不可）。バトル開始時の自身以外の味方の生存数1体につき増加量が2％大きくなる。　/Lv2 さらに味方全体の最大HPを2％増加させる（解除不可）。バトル開始時の自身以外の味方の生存数1体につき増加量が2％大きくなる。　/Lv3 攻撃力の増加量が3％、最大HPの増加量が3％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "ヴァイキングの勝鬨を上げて、バトル開始時味方全体の攻撃力を2％増加させる（解除不可）。バトル開始時の自身以外の味方の生存数1体につき増加量が2％大きくなる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに味方全体の最大HPを2％増加させる（解除不可）。バトル開始時の自身以外の味方の生存数1体につき増加量が2％大きくなる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "攻撃力の増加量が3％、最大HPの増加量が3％になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

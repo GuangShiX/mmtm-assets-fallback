@@ -1,0 +1,1427 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 77001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription770011]",
+          "descriptions": {
+            "zh-CN": "“好啦……开始狩猎吧？”米娜修玛力随机对3名敌人造成攻击力×450%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "ランダムな敵3体に攻撃力×450％の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription770012]",
+          "descriptions": {
+            "zh-CN": "当技能目标的类型为射手时，此攻击必定命中，造成的物理伤害增加为1.5倍。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに対象のタイプがスナイパーの場合、物理攻撃のダメージが1.5倍になり、必ず命中するようになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription770013]",
+          "descriptions": {
+            "zh-CN": "当技能目标的类型非射手时，70%概率使技能目标额外减少15%速度，效果持续2回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらに対象のタイプがスナイパー以外の場合、70%の確率で2ターンの間対象のスピードを15%減少させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription770014]",
+          "descriptions": {
+            "zh-CN": "强化狩猎山猫，造成的物理伤害提升为攻击力×600%。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "スキル1を強化する。物理攻撃のダメージが攻撃力×600%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription770011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              77001001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription770012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              77001201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription770013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              77001301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription770014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              77001401
+            ]
+          }
+        ],
+        "Id": 77001,
+        "IsIgnore": null,
+        "Memo": "ミナシュマリSR:Lv1 ランダムな敵3体に攻撃力×450％の物理攻撃を行う。 /Lv2 さらに対象のタイプがスナイパーの場合、物理攻撃のダメージが1.5倍になり、必ず命中するようになる。 /Lv3 さらに対象のタイプがスナイパー以外の場合、70%の確率で2ターンの間対象のスピードを15%減少させる。 /Ex1 スキル1を強化する。物理攻撃のダメージが攻撃力×600%になる。",
+        "NameKey": "[ActiveSkillName77001]",
+        "RootActiveSkillId": 77001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName77001]",
+      "names": {
+        "zh-CN": "狩猎山猫"
+      },
+      "source_memo_ja": "ミナシュマリSR:Lv1 ランダムな敵3体に攻撃力×450％の物理攻撃を行う。 /Lv2 さらに対象のタイプがスナイパーの場合、物理攻撃のダメージが1.5倍になり、必ず命中するようになる。 /Lv3 さらに対象のタイプがスナイパー以外の場合、70%の確率で2ターンの間対象のスピードを15%減少させる。 /Ex1 スキル1を強化する。物理攻撃のダメージが攻撃力×600%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "ランダムな敵3体に攻撃力×450％の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに対象のタイプがスナイパーの場合、物理攻撃のダメージが1.5倍になり、必ず命中するようになる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらに対象のタイプがスナイパー以外の場合、70%の確率で2ターンの間対象のスピードを15%減少させる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "スキル1を強化する。物理攻撃のダメージが攻撃力×600%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 77002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription770021]",
+          "descriptions": {
+            "zh-CN": "受过的伤、流过的血，都是让獠牙更锋利，足以咬断猎物喉咙的养分。米娜修玛力随机对2名敌人造成攻击力×540%的物理伤害。发动此技能前，米娜修玛力与友军每次受到攻击，可使技能造成的物理伤害增加攻击力×10%（最多可叠加到740%）（对多个目标发动的攻击则以受到攻击的友军人数来计算次数）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "ランダムな敵2体に攻撃力×540％の物理攻撃を行う。このスキルを発動するまでに自身と味方が攻撃を受けた回数1回につき物理攻撃のダメージが攻撃力×10%大きくなる（最大攻撃力×740%まで）（ただし複数体を対象とする攻撃は攻撃を受けた自身と味方の数分カウントされる）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription770022]",
+          "descriptions": {
+            "zh-CN": "发动此技能前，米娜修玛力与友军每次受到攻击，可使技能造成的物理伤害增加攻击力×20%（最多可叠加到940%）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "このスキルを発動するまでに自身と味方が攻撃を受けた回数1回につき増加するダメージが攻撃力×20%になる（最大攻撃力×940%まで）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription770023]",
+          "descriptions": {
+            "zh-CN": "技能目标增加为3名随机敌人。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "このスキルの対象がランダムな敵3体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription770024]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×640%（最多可叠加到1040%）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "物理攻撃のダメージが攻撃力×640%になる（最大攻撃力×1040%まで）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription770025]",
+          "descriptions": {
+            "zh-CN": "强化为复仇而活，造成的物理伤害提升为攻击力×700%（最多可叠加到1100%）。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "スキル2を強化する。物理攻撃のダメージが攻撃力×700%になる（最大攻撃力×1100%まで）。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription770021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              77002001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription770022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              77002201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription770023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              77002301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription770024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              77002401
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription770025]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              77002501
+            ]
+          }
+        ],
+        "Id": 77002,
+        "IsIgnore": null,
+        "Memo": "ミナシュマリSR:Lv1 ランダムな敵2体に攻撃力×540％の物理攻撃を行う。このスキルを発動するまでに自身と味方が攻撃を受けた回数1回につき物理攻撃のダメージが攻撃力×10%大きくなる（最大攻撃力×740%まで）（ただし複数体を対象とする攻撃は攻撃を受けた自身と味方の数分カウントされる）。 /Lv2 このスキルを発動するまでに自身と味方が攻撃を受けた回数1回につき増加するダメージが攻撃力×20%になる（最大攻撃力×940%まで）。 /Lv3 このスキルの対象がランダムな敵3体になる。/Lv4 物理攻撃のダメージが攻撃力×640%になる（最大攻撃力×1040%まで）。  /Ex3 スキル2を強化する。物理攻撃のダメージが攻撃力×700%になる（最大攻撃力×1100%まで）。",
+        "NameKey": "[ActiveSkillName77002]",
+        "RootActiveSkillId": 77002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName77002]",
+      "names": {
+        "zh-CN": "为复仇而活"
+      },
+      "source_memo_ja": "ミナシュマリSR:Lv1 ランダムな敵2体に攻撃力×540％の物理攻撃を行う。このスキルを発動するまでに自身と味方が攻撃を受けた回数1回につき物理攻撃のダメージが攻撃力×10%大きくなる（最大攻撃力×740%まで）（ただし複数体を対象とする攻撃は攻撃を受けた自身と味方の数分カウントされる）。 /Lv2 このスキルを発動するまでに自身と味方が攻撃を受けた回数1回につき増加するダメージが攻撃力×20%になる（最大攻撃力×940%まで）。 /Lv3 このスキルの対象がランダムな敵3体になる。/Lv4 物理攻撃のダメージが攻撃力×640%になる（最大攻撃力×1040%まで）。  /Ex3 スキル2を強化する。物理攻撃のダメージが攻撃力×700%になる（最大攻撃力×1100%まで）。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "ランダムな敵2体に攻撃力×540％の物理攻撃を行う。このスキルを発動するまでに自身と味方が攻撃を受けた回数1回につき物理攻撃のダメージが攻撃力×10%大きくなる（最大攻撃力×740%まで）（ただし複数体を対象とする攻撃は攻撃を受けた自身と味方の数分カウントされる）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "このスキルを発動するまでに自身と味方が攻撃を受けた回数1回につき増加するダメージが攻撃力×20%になる（最大攻撃力×940%まで）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "このスキルの対象がランダムな敵3体になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "物理攻撃のダメージが攻撃力×640%になる（最大攻撃力×1040%まで）。"
+        },
+        {
+          "label": "Ex3",
+          "text": "スキル2を強化する。物理攻撃のダメージが攻撃力×700%になる（最大攻撃力×1100%まで）。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 49,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 49,
+            "CollectionLevel": 1,
+            "Id": 4901,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アプスの応報(ミナシュマリ,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 49,
+            "CollectionLevel": 2,
+            "Id": 4902,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アプスの応報(ミナシュマリ,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 49,
+            "CollectionLevel": 3,
+            "Id": 4903,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アプスの応報(ミナシュマリ,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 49,
+            "CollectionLevel": 4,
+            "Id": 4904,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アプスの応報(ミナシュマリ,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3100.0,
+              "value_text": "+3,100"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 210.0,
+              "value_text": "+2.1%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3100.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 210.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 49,
+            "CollectionLevel": 5,
+            "Id": 4905,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アプスの応報(ミナシュマリ,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3200.0,
+              "value_text": "+3,200"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 220.0,
+              "value_text": "+2.2%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3200.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 220.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 49,
+            "CollectionLevel": 6,
+            "Id": 4906,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アプスの応報(ミナシュマリ,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3300.0,
+              "value_text": "+3,300"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 230.0,
+              "value_text": "+2.3%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3300.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 230.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 49,
+            "CollectionLevel": 7,
+            "Id": 4907,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アプスの応報(ミナシュマリ,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3400.0,
+              "value_text": "+3,400"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 240.0,
+              "value_text": "+2.4%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3400.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 240.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 49,
+            "CollectionLevel": 8,
+            "Id": 4908,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アプスの応報(ミナシュマリ,アイビー)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 3500.0,
+              "value_text": "+3,500"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 250.0,
+              "value_text": "+2.5%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3500.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 2,
+                "Value": 250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 49,
+            "CollectionLevel": 9,
+            "Id": 4909,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アプスの応報(ミナシュマリ,アイビー)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 49,
+        "IsIgnore": null,
+        "Memo": "アプスの応報(ミナシュマリ,アイビー)",
+        "NameKey": "[CharacterCollectionName49]",
+        "RequiredCharacterIds": [
+          77,
+          25
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2024-06-14 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName49]",
+      "names": {
+        "zh-CN": "天燕座的报应"
+      },
+      "required_character_ids": [
+        77,
+        25
+      ],
+      "required_characters": [
+        {
+          "id": 77,
+          "names": {
+            "zh-CN": "米娜修玛力"
+          }
+        },
+        {
+          "id": 25,
+          "names": {
+            "zh-CN": "艾薇"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2024-06-14 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 1,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 77,
+    "job_flags": 1,
+    "master_record": {
+      "ActiveSkillIds": [
+        77001,
+        77002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 85,
+        "Health": 69,
+        "Intelligence": 85,
+        "Muscle": 105
+      },
+      "BaseParameterGrossCoefficient": 344,
+      "CharacterType": 0,
+      "ElementType": 1,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 77,
+      "InitialBattleParameter": {
+        "AttackPower": 5,
+        "Avoidance": 0,
+        "Critical": -3,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 1,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 7,
+        "DefensePenetration": 0,
+        "HP": 0,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 2792
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 1,
+      "Memo": "ミナシュマリ",
+      "Name2Key": null,
+      "NameKey": "[CharacterName77]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        77003,
+        77004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2024-06-14 15:00:00"
+    },
+    "memo": "ミナシュマリ",
+    "name_key": "[CharacterName77]",
+    "names": {
+      "zh-CN": "米娜修玛力"
+    },
+    "speed": 2792,
+    "start_time_jst": "2024-06-14 15:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 771110240,
+    "exclusive_effect_id": 390,
+    "icon_id": 566,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 771110250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 97,
+        "EquipmentEvolutionId": 107,
+        "EquipmentExclusiveSkillDescriptionId": 65,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 1,
+        "ExclusiveEffectId": 390,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 566,
+        "Id": 771110240,
+        "IsIgnore": null,
+        "Memo": "ミナシュマリLR240_剣",
+        "NameKey": "[EquipmentName561]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": null,
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 13,
+            "ChangeParameterType": 2,
+            "Value": 500.0
+          },
+          {
+            "BattleParameterType": 8,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 77,
+        "Id": 390,
+        "IsIgnore": null,
+        "Memo": "ミナシュマリLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill77Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill77Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill77Description3]",
+        "Id": 65,
+        "IsIgnore": null,
+        "Memo": "ミナシュマリ剣"
+      }
+    },
+    "name_key": "[EquipmentName561]",
+    "names": {
+      "zh-CN": "不共戴天"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Defense",
+        "parameter_type": 13,
+        "raw_value": 500.0,
+        "value_text": "+5%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "CriticalResist",
+        "parameter_type": 8,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill77Description1]",
+        "descriptions": {
+          "zh-CN": "强化狩猎山猫，造成的物理伤害提升为攻击力×600%。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill77Description2]",
+        "descriptions": {
+          "zh-CN": "强化热心的小狐狸，「多重屏障」增加为3层。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill77Description3]",
+        "descriptions": {
+          "zh-CN": "强化为复仇而活，造成的物理伤害提升为攻击力×700%（最多可叠加到1100%）。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 77003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription770031]",
+          "descriptions": {
+            "zh-CN": "“消除气息的方法？这个很简单啊！”如何隐藏气息、消除声音——她所传授的方法，就像一头盯上猎物的野兽。战斗开始时，米娜修玛力使自己与攻击力最高的其他友军获得「隐身」状态，效果持续1回合（无法被解除）。当米娜修玛力受到攻击，生命值降到50%以下或失去战斗能力时，解除此技能附加的「隐身」状态。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "バトル開始時自身と自身以外の攻撃力が最も高い味方に1ターンの間『ステルス』を付与する（解除不可）。自身が攻撃を受けて、自身のHP割合が50%以下になった場合、もしくは自身が戦闘不能になったとき、このスキルで付与した自身と味方の『ステルス』を解除する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription770032]",
+          "descriptions": {
+            "zh-CN": "「隐身」效果增加为2回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "『ステルス』のターン数が2ターンになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription770033]",
+          "descriptions": {
+            "zh-CN": "当米娜修玛力受到攻击，生命值降到50%以下时，获得1层「多重屏障」（无法被解除）。当她受到最大生命值×10%以上的伤害时，消耗1层屏障来抵消该伤害。此技能须在结束4次行动后才可再次触发。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "自身が攻撃を受けて、自身のHP割合が50%以下になった場合、さらに自身に1層の『多重バリア』を付与する（解除不可）。自身の最大HP×10%以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。この効果は4ターンに1回発動する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription770034]",
+          "descriptions": {
+            "zh-CN": "强化热心的小狐狸，「多重屏障」增加为3层。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "スキル3を強化する。『多重バリア』が3層になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 77003,
+        "IsIgnore": null,
+        "Memo": "ミナシュマリSR:Lv1 バトル開始時自身と自身以外の攻撃力が最も高い味方に1ターンの間『ステルス』を付与する（解除不可）。自身が攻撃を受けて、自身のHP割合が50%以下になった場合、もしくは自身が戦闘不能になったとき、このスキルで付与した自身と味方の『ステルス』を解除する。 /Lv2 『ステルス』のターン数が2ターンになる。 /Lv3 自身が攻撃を受けて、自身のHP割合が50%以下になった場合、さらに自身に1層の『多重バリア』を付与する（解除不可）。自身の最大HP×10%以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。この効果は4ターンに1回発動する。 /Ex2 スキル3を強化する。『多重バリア』が3層になる。",
+        "NameKey": "[PassiveSkillName77003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription770031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 77003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 77003002
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 77003003
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 6,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 77003004
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 62,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 77003004
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription770032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 77003201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 77003202
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 77003203
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 6,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 77003204
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 62,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 77003204
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription770033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 77003301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 77003302
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 77003303
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 77003304
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 6,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 77003305
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 62,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 77003305
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription770034]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 77003401
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 77003402
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 77003403
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 77003404
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 6,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 77003405
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 62,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 77003405
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName77003]",
+      "names": {
+        "zh-CN": "热心的小狐狸"
+      },
+      "source_memo_ja": "ミナシュマリSR:Lv1 バトル開始時自身と自身以外の攻撃力が最も高い味方に1ターンの間『ステルス』を付与する（解除不可）。自身が攻撃を受けて、自身のHP割合が50%以下になった場合、もしくは自身が戦闘不能になったとき、このスキルで付与した自身と味方の『ステルス』を解除する。 /Lv2 『ステルス』のターン数が2ターンになる。 /Lv3 自身が攻撃を受けて、自身のHP割合が50%以下になった場合、さらに自身に1層の『多重バリア』を付与する（解除不可）。自身の最大HP×10%以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。この効果は4ターンに1回発動する。 /Ex2 スキル3を強化する。『多重バリア』が3層になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "バトル開始時自身と自身以外の攻撃力が最も高い味方に1ターンの間『ステルス』を付与する（解除不可）。自身が攻撃を受けて、自身のHP割合が50%以下になった場合、もしくは自身が戦闘不能になったとき、このスキルで付与した自身と味方の『ステルス』を解除する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "『ステルス』のターン数が2ターンになる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "自身が攻撃を受けて、自身のHP割合が50%以下になった場合、さらに自身に1層の『多重バリア』を付与する（解除不可）。自身の最大HP×10%以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。この効果は4ターンに1回発動する。"
+        },
+        {
+          "label": "Ex2",
+          "text": "スキル3を強化する。『多重バリア』が3層になる。"
+        }
+      ]
+    },
+    {
+      "id": 77004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription770041]",
+          "descriptions": {
+            "zh-CN": "每当有人在面前倒下，就会唤醒当时的记忆，激起她心中强烈的悲愤之情。每当1名友军失去战斗能力，米娜修玛力使自己增加30%攻击力（最多叠加2层，合计60%）（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "自身以外の味方が戦闘不能になったとき、戦闘不能になった味方の数1体につき自身の攻撃力が30%増加する（合計で最大60%まで）（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription770042]",
+          "descriptions": {
+            "zh-CN": "友军失去战斗能力时的攻击力增幅提升为40%（最多叠加2层，合计80%）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "自身以外の味方が戦闘不能になったときに上昇する攻撃力の増加量が40%になる（合計で最大80%まで）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription770043]",
+          "descriptions": {
+            "zh-CN": "友军失去战斗能力时的攻击力增幅提升为50%（最多叠加2层，合计100%）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "自身以外の味方が戦闘不能になったときに上昇する攻撃力の増加量が50%になる（合計で最大100%まで）。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 77004,
+        "IsIgnore": null,
+        "Memo": "ミナシュマリSR:Lv1 自身以外の味方が戦闘不能になったとき、戦闘不能になった味方の数1体につき自身の攻撃力が30%増加する（合計で最大60%まで）（解除不可）。 /Lv2 自身以外の味方が戦闘不能になったときに上昇する攻撃力の増加量が40%になる（合計で最大80%まで）。 /Lv3 自身以外の味方が戦闘不能になったときに上昇する攻撃力の増加量が50%になる（合計で最大100%まで）。",
+        "NameKey": "[PassiveSkillName77004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription770041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 7,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 77004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription770042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 7,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 77004201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription770043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 7,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 77004301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName77004]",
+      "names": {
+        "zh-CN": "雪白与鲜红色追忆"
+      },
+      "source_memo_ja": "ミナシュマリSR:Lv1 自身以外の味方が戦闘不能になったとき、戦闘不能になった味方の数1体につき自身の攻撃力が30%増加する（合計で最大60%まで）（解除不可）。 /Lv2 自身以外の味方が戦闘不能になったときに上昇する攻撃力の増加量が40%になる（合計で最大80%まで）。 /Lv3 自身以外の味方が戦闘不能になったときに上昇する攻撃力の増加量が50%になる（合計で最大100%まで）。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "自身以外の味方が戦闘不能になったとき、戦闘不能になった味方の数1体につき自身の攻撃力が30%増加する（合計で最大60%まで）（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "自身以外の味方が戦闘不能になったときに上昇する攻撃力の増加量が40%になる（合計で最大80%まで）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "自身以外の味方が戦闘不能になったときに上昇する攻撃力の増加量が50%になる（合計で最大100%まで）。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

@@ -1,0 +1,1313 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 42001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription420011]",
+          "descriptions": {
+            "zh-CN": "福尔蒂娜虔诚祈求同伴平安的心，使全体友军获得福尔蒂娜攻击力×120%的「护盾」与「再生」状态，效果持续1回合，每回合行动开始时恢复福尔蒂娜最大生命值×7%的生命值。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "仲間の無事を願い、一心に祈る心が、味方全体に1ターンの間自身の攻撃力×120%の『シールド』と『再生』を付与する。毎ターン行動開始時に付帯者のHPを付与者の最大HP×7%回復する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription420012]",
+          "descriptions": {
+            "zh-CN": "「护盾」值提升为福尔蒂娜攻击力×150%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "『シールド』の大きさが自身の攻撃力×150%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription420013]",
+          "descriptions": {
+            "zh-CN": "「护盾」与「再生」效果增加为3回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "『シールド』と『再生』のターン数がそれぞれ3ターンになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription420014]",
+          "descriptions": {
+            "zh-CN": "强化圣女的祈祷，「护盾」值提升为福尔蒂娜攻击力×400%。战斗中前2次发动此技能时，福尔蒂娜获得的「护盾」值提升为福尔蒂娜攻击力×600%。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "聖女の祈りを強化する。『シールド』の大きさが自身の攻撃力×400%になる。バトル中このスキルを発動するのが2回目以前の場合、自身に付与する『シールド』の大きさが自身の攻撃力×600%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription420015]",
+          "descriptions": {
+            "zh-CN": "强化圣女的祈祷，「护盾」值提升为福尔蒂娜攻击力×440%。战斗中前2次发动此技能时，福尔蒂娜获得的「护盾」值提升为福尔蒂娜攻击力×660%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "聖女の祈りを強化する。『シールド』の大きさが自身の攻撃力×440%になる。バトル中このスキルを発動するのが2回目以前の場合、自身に付与する『シールド』の大きさが自身の攻撃力×660%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription420011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              42001001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription420012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              42001201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription420013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              42001301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription420014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              42001401
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription420015]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              42001501
+            ]
+          }
+        ],
+        "Id": 42001,
+        "IsIgnore": null,
+        "Memo": "【聖剣の魔女】フォルティナSR:Lv1 仲間の無事を願い、一心に祈る心が、味方全体に1ターンの間自身の攻撃力×120%の『シールド』と『再生』を付与する。毎ターン行動開始時に付帯者のHPを付与者の最大HP×7%回復する。/ Lv2 『シールド』の大きさが自身の攻撃力×150%になる。/ Lv3 『シールド』と『再生』のターン数がそれぞれ3ターンになる。/ Ex1 聖女の祈りを強化する。『シールド』の大きさが自身の攻撃力×400%になる。バトル中このスキルを発動するのが2回目以前の場合、自身に付与する『シールド』の大きさが自身の攻撃力×600%になる。/ Ex3 聖女の祈りを強化する。『シールド』の大きさが自身の攻撃力×440%になる。バトル中このスキルを発動するのが2回目以前の場合、自身に付与する『シールド』の大きさが自身の攻撃力×660%になる。",
+        "NameKey": "[ActiveSkillName42001]",
+        "RootActiveSkillId": 42001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName42001]",
+      "names": {
+        "zh-CN": "圣女的祈祷"
+      },
+      "source_memo_ja": "【聖剣の魔女】フォルティナSR:Lv1 仲間の無事を願い、一心に祈る心が、味方全体に1ターンの間自身の攻撃力×120%の『シールド』と『再生』を付与する。毎ターン行動開始時に付帯者のHPを付与者の最大HP×7%回復する。/ Lv2 『シールド』の大きさが自身の攻撃力×150%になる。/ Lv3 『シールド』と『再生』のターン数がそれぞれ3ターンになる。/ Ex1 聖女の祈りを強化する。『シールド』の大きさが自身の攻撃力×400%になる。バトル中このスキルを発動するのが2回目以前の場合、自身に付与する『シールド』の大きさが自身の攻撃力×600%になる。/ Ex3 聖女の祈りを強化する。『シールド』の大きさが自身の攻撃力×440%になる。バトル中このスキルを発動するのが2回目以前の場合、自身に付与する『シールド』の大きさが自身の攻撃力×660%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "仲間の無事を願い、一心に祈る心が、味方全体に1ターンの間自身の攻撃力×120%の『シールド』と『再生』を付与する。毎ターン行動開始時に付帯者のHPを付与者の最大HP×7%回復する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "『シールド』の大きさが自身の攻撃力×150%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "『シールド』と『再生』のターン数がそれぞれ3ターンになる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "聖女の祈りを強化する。『シールド』の大きさが自身の攻撃力×400%になる。バトル中このスキルを発動するのが2回目以前の場合、自身に付与する『シールド』の大きさが自身の攻撃力×600%になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "聖女の祈りを強化する。『シールド』の大きさが自身の攻撃力×440%になる。バトル中このスキルを発動するのが2回目以前の場合、自身に付与する『シールド』の大きさが自身の攻撃力×660%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 42002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription420021]",
+          "descriptions": {
+            "zh-CN": "无数光剑降下神罚，对生命值百分比最低的敌人造成攻击力×340%的物理伤害。剑身发出疗伤圣光，使生命值百分比最低的友军恢复技能总伤害×80%的生命值。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "無数の光の剣が神の裁きを下し、HP割合が最も低い敵に攻撃力×340%の物理攻撃を行う。さらに剣が癒しの光を放ち、HP割合が最も低い味方のHPをこのスキルの総与ダメージ×80%回復する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription420022]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×380%，生命值恢复量提升为技能总伤害×120%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "物理攻撃のダメージが攻撃力×380%、HP回復量がこのスキルの総与ダメージ×120%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription420023]",
+          "descriptions": {
+            "zh-CN": "物理攻击结束后，对技能目标追加福尔蒂娜力量×125%的直接伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらに物理攻撃の後、対象に自身の腕力×125%の直接攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription420024]",
+          "descriptions": {
+            "zh-CN": "如果技能目标仍然存活，福尔蒂娜在恢复友军生命值前再次发动物理攻击与直接攻击（最多1次）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "さらにこのスキルで敵を戦闘不能にできなかった場合、HP回復の前に物理攻撃と直接攻撃を再発動する（再発動は1回まで）。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription420021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              42002001,
+              42002006
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription420022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              42002201,
+              42002206
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription420023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              42002301,
+              42002302,
+              42002206
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription420024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              42002301,
+              42002302,
+              42002403,
+              42002404,
+              42002405,
+              42002406,
+              42002206
+            ]
+          }
+        ],
+        "Id": 42002,
+        "IsIgnore": null,
+        "Memo": "【聖剣の魔女】フォルティナSR:Lv1 無数の光の剣が神の裁きを下し、HP割合が最も低い敵に攻撃力×340%の物理攻撃を行う。さらに剣が癒しの光を放ち、HP割合が最も低い味方のHPをこのスキルの総与ダメージ×80%回復する。/ Lv2 物理攻撃のダメージが攻撃力×380%、HP回復量がこのスキルの総与ダメージ×120%になる。/ Lv3 さらに物理攻撃の後、対象に自身の腕力×125%の直接攻撃を行う。/ Lv4 さらにこのスキルで敵を戦闘不能にできなかった場合、HP回復の前に物理攻撃と直接攻撃を再発動する（再発動は1回まで）。",
+        "NameKey": "[ActiveSkillName42002]",
+        "RootActiveSkillId": 42002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName42002]",
+      "names": {
+        "zh-CN": "光剑的圣域"
+      },
+      "source_memo_ja": "【聖剣の魔女】フォルティナSR:Lv1 無数の光の剣が神の裁きを下し、HP割合が最も低い敵に攻撃力×340%の物理攻撃を行う。さらに剣が癒しの光を放ち、HP割合が最も低い味方のHPをこのスキルの総与ダメージ×80%回復する。/ Lv2 物理攻撃のダメージが攻撃力×380%、HP回復量がこのスキルの総与ダメージ×120%になる。/ Lv3 さらに物理攻撃の後、対象に自身の腕力×125%の直接攻撃を行う。/ Lv4 さらにこのスキルで敵を戦闘不能にできなかった場合、HP回復の前に物理攻撃と直接攻撃を再発動する（再発動は1回まで）。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "無数の光の剣が神の裁きを下し、HP割合が最も低い敵に攻撃力×340%の物理攻撃を行う。さらに剣が癒しの光を放ち、HP割合が最も低い味方のHPをこのスキルの総与ダメージ×80%回復する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "物理攻撃のダメージが攻撃力×380%、HP回復量がこのスキルの総与ダメージ×120%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらに物理攻撃の後、対象に自身の腕力×125%の直接攻撃を行う。"
+        },
+        {
+          "label": "Lv4",
+          "text": "さらにこのスキルで敵を戦闘不能にできなかった場合、HP回復の前に物理攻撃と直接攻撃を再発動する（再発動は1回まで）。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 10,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 5.0,
+              "value_text": "+5×角色等级"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 5.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 10,
+            "CollectionLevel": 1,
+            "Id": 1001,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ミモザの抱擁(フォルティナ,オリヴィエ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 15.0,
+              "value_text": "+15×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 500.0,
+              "value_text": "+5%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 15.0
+              },
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 10,
+            "CollectionLevel": 2,
+            "Id": 1002,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ミモザの抱擁(フォルティナ,オリヴィエ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 15.0,
+              "value_text": "+15×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 500.0,
+              "value_text": "+5%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 15.0
+              },
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 10,
+            "CollectionLevel": 3,
+            "Id": 1003,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ミモザの抱擁(フォルティナ,オリヴィエ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 15.0,
+              "value_text": "+15×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 500.0,
+              "value_text": "+5%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 15.0
+              },
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 500.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 10,
+            "CollectionLevel": 4,
+            "Id": 1004,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ミモザの抱擁(フォルティナ,オリヴィエ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 18.0,
+              "value_text": "+18×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 550.0,
+              "value_text": "+5.5%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 18.0
+              },
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 550.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 10,
+            "CollectionLevel": 5,
+            "Id": 1005,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ミモザの抱擁(フォルティナ,オリヴィエ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 20.0,
+              "value_text": "+20×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 600.0,
+              "value_text": "+6%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 20.0
+              },
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 600.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 10,
+            "CollectionLevel": 6,
+            "Id": 1006,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ミモザの抱擁(フォルティナ,オリヴィエ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 22.0,
+              "value_text": "+22×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 650.0,
+              "value_text": "+6.5%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 22.0
+              },
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 650.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 10,
+            "CollectionLevel": 7,
+            "Id": 1007,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ミモザの抱擁(フォルティナ,オリヴィエ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 24.0,
+              "value_text": "+24×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 700.0,
+              "value_text": "+7%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 24.0
+              },
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 700.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 10,
+            "CollectionLevel": 8,
+            "Id": 1008,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ミモザの抱擁(フォルティナ,オリヴィエ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 26.0,
+              "value_text": "+26×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hp",
+              "parameter_type": 1,
+              "raw_value": 750.0,
+              "value_text": "+7.5%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 26.0
+              },
+              {
+                "BattleParameterType": 1,
+                "ChangeParameterType": 2,
+                "Value": 750.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 10,
+            "CollectionLevel": 9,
+            "Id": 1009,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ミモザの抱擁(フォルティナ,オリヴィエ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 10,
+        "IsIgnore": null,
+        "Memo": "ミモザの抱擁（フォルティナ,オリヴィエ）",
+        "NameKey": "[CharacterCollectionName10]",
+        "RequiredCharacterIds": [
+          42,
+          38
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2023-03-23 14:30:00"
+      },
+      "name_key": "[CharacterCollectionName10]",
+      "names": {
+        "zh-CN": "十字架三的拥抱"
+      },
+      "required_character_ids": [
+        42,
+        38
+      ],
+      "required_characters": [
+        {
+          "id": 42,
+          "names": {
+            "zh-CN": "福尔蒂娜"
+          }
+        },
+        {
+          "id": 38,
+          "names": {
+            "zh-CN": "奥莉维亚"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2023-03-23 14:30:00"
+    }
+  ],
+  "character": {
+    "character_type": 1,
+    "element_type": 5,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 42,
+    "job_flags": 1,
+    "master_record": {
+      "ActiveSkillIds": [
+        42001,
+        42002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 86,
+        "Health": 73,
+        "Intelligence": 84,
+        "Muscle": 94
+      },
+      "BaseParameterGrossCoefficient": 337,
+      "CharacterType": 1,
+      "ElementType": 5,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 42,
+      "InitialBattleParameter": {
+        "AttackPower": -3,
+        "Avoidance": 2,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 10,
+        "DefensePenetration": 0,
+        "HP": -3,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 4,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 3059
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 1,
+      "Memo": "フォルティナ",
+      "Name2Key": "[CharacterSubName42]",
+      "NameKey": "[CharacterName42]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        42003,
+        42004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2022-10-21 15:00:00"
+    },
+    "memo": "フォルティナ",
+    "name_key": "[CharacterName42]",
+    "names": {
+      "zh-CN": "福尔蒂娜"
+    },
+    "speed": 3059,
+    "start_time_jst": "2022-10-21 15:00:00",
+    "subtitle_key": "[CharacterSubName42]",
+    "subtitles": {
+      "zh-CN": "圣剑魔女"
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 3162,
+    "exclusive_effect_id": 156,
+    "icon_id": 356,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 3163,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 58,
+        "EquipmentEvolutionId": 68,
+        "EquipmentExclusiveSkillDescriptionId": 26,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 1,
+        "ExclusiveEffectId": 156,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 356,
+        "Id": 3162,
+        "IsIgnore": null,
+        "Memo": "フォルティナLR240_剣",
+        "NameKey": "[EquipmentName351]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": [
+          {
+            "BaseParameterType": 4,
+            "ChangeParameterType": 2,
+            "Value": 800.0
+          }
+        ],
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 5,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 42,
+        "Id": 156,
+        "IsIgnore": null,
+        "Memo": "フォルティナLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill42Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill42Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill42Description3]",
+        "Id": 26,
+        "IsIgnore": null,
+        "Memo": "フォルティナ魔導書"
+      }
+    },
+    "name_key": "[EquipmentName351]",
+    "names": {
+      "zh-CN": "圣女十字架"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "base",
+        "parameter_code": "Health",
+        "parameter_type": 4,
+        "raw_value": 800.0,
+        "value_text": "+8%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Hit",
+        "parameter_type": 5,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill42Description1]",
+        "descriptions": {
+          "zh-CN": "强化圣女的祈祷，「护盾」值提升为福尔蒂娜攻击力×400%。战斗中前2次发动此技能时，福尔蒂娜获得的「护盾」值提升为福尔蒂娜攻击力×600%。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill42Description2]",
+        "descriptions": {
+          "zh-CN": "强化天主的赠礼，防御力与物理防御力增幅提升为150%。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill42Description3]",
+        "descriptions": {
+          "zh-CN": "强化圣女的祈祷，「护盾」值提升为福尔蒂娜攻击力×440%。战斗中前2次发动此技能时，福尔蒂娜获得的「护盾」值提升为福尔蒂娜攻击力×660%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": false,
+  "missing_localization_keys": [
+    "*"
+  ],
+  "passive_skills": [
+    {
+      "id": 42003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription420031]",
+          "descriptions": {
+            "zh-CN": "“主啊，请赐予我们力量……”福尔蒂娜向神祈祷，使她在回合开始时获得「控制效果免疫」，效果持续3回合（无法被解除）。此技能须在结束5次行动后才可再次触发。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "主よ、我らに力を──。神への祈りが力となり、ターン開始時自身に3ターンの間『行動阻害無効』を付与する（解除不可）。このスキルは発動後5回行動終了するまで再び発動しない。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription420032]",
+          "descriptions": {
+            "zh-CN": "此技能须在结束4次行动后才可再次触发。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "このスキルが発動後4回行動終了することで発動するようになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription420033]",
+          "descriptions": {
+            "zh-CN": "回合开始时，使状态效果生效前的攻击力最高的其他友军额外获得「控制效果免疫」，效果持续2回合（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "ターン開始時さらに自身以外のステータス増減前の攻撃力が最も高い味方に2ターンの間『行動阻害無効』を付与するようになる（解除不可）。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 42003,
+        "IsIgnore": null,
+        "Memo": "【聖剣の魔女】フォルティナSR:Lv1 主よ、我らに力を──。神への祈りが力となり、ターン開始時自身に3ターンの間『行動阻害無効』を付与する（解除不可）。このスキルは発動後5回行動終了するまで再び発動しない。/ Lv2 このスキルが発動後4回行動終了することで発動するようになる。/ Lv3 ターン開始時さらに自身以外のステータス増減前の攻撃力が最も高い味方に2ターンの間『行動阻害無効』を付与するようになる（解除不可）。",
+        "NameKey": "[PassiveSkillName42003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription420031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 5,
+                "SubSetSkillId": 42003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription420032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 42003201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription420033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 42003301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 42003302
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName42003]",
+      "names": {
+        "zh-CN": "圣剑的守护"
+      },
+      "source_memo_ja": "【聖剣の魔女】フォルティナSR:Lv1 主よ、我らに力を──。神への祈りが力となり、ターン開始時自身に3ターンの間『行動阻害無効』を付与する（解除不可）。このスキルは発動後5回行動終了するまで再び発動しない。/ Lv2 このスキルが発動後4回行動終了することで発動するようになる。/ Lv3 ターン開始時さらに自身以外のステータス増減前の攻撃力が最も高い味方に2ターンの間『行動阻害無効』を付与するようになる（解除不可）。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "主よ、我らに力を──。神への祈りが力となり、ターン開始時自身に3ターンの間『行動阻害無効』を付与する（解除不可）。このスキルは発動後5回行動終了するまで再び発動しない。"
+        },
+        {
+          "label": "Lv2",
+          "text": "このスキルが発動後4回行動終了することで発動するようになる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "ターン開始時さらに自身以外のステータス増減前の攻撃力が最も高い味方に2ターンの間『行動阻害無効』を付与するようになる（解除不可）。"
+        }
+      ]
+    },
+    {
+      "id": 42004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription420041]",
+          "descriptions": {
+            "zh-CN": "“主啊，请你保佑我……”福尔蒂娜将困难视为神给予的考验，虔敬的祈祷化作力量，使她增加20%防御力（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "主よ、どうか加護を──。困難すら神からの試練と受け止める敬虔な祈りが力となる。自身の防御力が20%増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription420042]",
+          "descriptions": {
+            "zh-CN": "额外增加20%伤害反弹（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに自身のカウンタが20%増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription420043]",
+          "descriptions": {
+            "zh-CN": "额外增加50%物理防御力（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらに自身の物理防御力が50%増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "*",
+          "descriptions": {
+            "zh-CN": null
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "神様からの贈り物を強化する。防御力と物理防御力の増加量がそれぞれ150%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 42004,
+        "IsIgnore": null,
+        "Memo": "【聖剣の魔女】フォルティナSR:Lv1 主よ、どうか加護を──。困難すら神からの試練と受け止める敬虔な祈りが力となる。自身の防御力が20%増加する（解除不可）。/ Lv2 さらに自身のカウンタが20%増加する（解除不可）。/ Lv3 さらに自身の物理防御力が50%増加する（解除不可）。/ Ex2 神様からの贈り物を強化する。防御力と物理防御力の増加量がそれぞれ150%になる。",
+        "NameKey": "[PassiveSkillName42004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription420041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 42004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription420042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 42004201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription420043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 42004301
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "*",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 42004401
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName42004]",
+      "names": {
+        "zh-CN": "天主的赠礼"
+      },
+      "source_memo_ja": "【聖剣の魔女】フォルティナSR:Lv1 主よ、どうか加護を──。困難すら神からの試練と受け止める敬虔な祈りが力となる。自身の防御力が20%増加する（解除不可）。/ Lv2 さらに自身のカウンタが20%増加する（解除不可）。/ Lv3 さらに自身の物理防御力が50%増加する（解除不可）。/ Ex2 神様からの贈り物を強化する。防御力と物理防御力の増加量がそれぞれ150%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "主よ、どうか加護を──。困難すら神からの試練と受け止める敬虔な祈りが力となる。自身の防御力が20%増加する（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに自身のカウンタが20%増加する（解除不可）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらに自身の物理防御力が50%増加する（解除不可）。"
+        },
+        {
+          "label": "Ex2",
+          "text": "神様からの贈り物を強化する。防御力と物理防御力の増加量がそれぞれ150%になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

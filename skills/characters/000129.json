@@ -1,0 +1,1418 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 129001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription1290011]",
+          "descriptions": {
+            "zh-CN": "冥府守护兽的咆哮让愚者的灵魂灰飞烟灭。“嗷呜嗷呜～！”克尔柏洛丝随机对敌人进行6次攻击，每次造成攻击力×240%的魔法伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "冥府を守る獣の咆哮が、愚者の魂を消し飛ばす。「がうがう～！」ランダムな敵に6回攻撃力×240%の魔法攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription1290012]",
+          "descriptions": {
+            "zh-CN": "造成的魔法伤害提升为攻击力×340%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "魔法攻撃のダメージが攻撃力×340%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1290013]",
+          "descriptions": {
+            "zh-CN": "发动攻击前，如果克尔柏洛丝身上附带「温柔的魔法」状态，造成的魔法伤害提升为攻击力×510%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "魔法攻撃の前に自身が『優しい魔法』を付帯している場合、魔法攻撃のダメージが攻撃力×510%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1290014]",
+          "descriptions": {
+            "zh-CN": "强化守护兽的咆哮，攻击次数增加为10次。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "守護獣の咆哮を強化する。魔法攻撃の回数が10回になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription1290011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              129001001,
+              129001002,
+              129001002,
+              129001002,
+              129001002,
+              129001002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription1290012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              129001201,
+              129001202,
+              129001202,
+              129001202,
+              129001202,
+              129001202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1290013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              129001301,
+              129001302,
+              129001302,
+              129001302,
+              129001302,
+              129001302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1290014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              129001301,
+              129001302,
+              129001302,
+              129001302,
+              129001302,
+              129001302,
+              129001302,
+              129001302,
+              129001302,
+              129001302
+            ]
+          }
+        ],
+        "Id": 129001,
+        "IsIgnore": null,
+        "Memo": "宝物ケルベロスSR:Lv1 冥府を守る獣の咆哮が、愚者の魂を消し飛ばす。「がうがう～！」ランダムな敵に6回攻撃力×240%の魔法攻撃を行う。/ Lv2 魔法攻撃のダメージが攻撃力×340%になる。/ Lv3 魔法攻撃の前に自身が『優しい魔法』を付帯している場合、魔法攻撃のダメージが攻撃力×510%になる。/ Ex1 守護獣の咆哮を強化する。魔法攻撃の回数が10回になる。",
+        "NameKey": "[ActiveSkillName129001]",
+        "RootActiveSkillId": 129001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName129001]",
+      "names": {
+        "zh-CN": "守护兽的咆哮"
+      },
+      "source_memo_ja": "宝物ケルベロスSR:Lv1 冥府を守る獣の咆哮が、愚者の魂を消し飛ばす。「がうがう～！」ランダムな敵に6回攻撃力×240%の魔法攻撃を行う。/ Lv2 魔法攻撃のダメージが攻撃力×340%になる。/ Lv3 魔法攻撃の前に自身が『優しい魔法』を付帯している場合、魔法攻撃のダメージが攻撃力×510%になる。/ Ex1 守護獣の咆哮を強化する。魔法攻撃の回数が10回になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "冥府を守る獣の咆哮が、愚者の魂を消し飛ばす。「がうがう～！」ランダムな敵に6回攻撃力×240%の魔法攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "魔法攻撃のダメージが攻撃力×340%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "魔法攻撃の前に自身が『優しい魔法』を付帯している場合、魔法攻撃のダメージが攻撃力×510%になる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "守護獣の咆哮を強化する。魔法攻撃の回数が10回になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 129002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription1290021]",
+          "descriptions": {
+            "zh-CN": "自冥界降下的审判雷霆，将污秽的灵魂彻底摧毁。“噼里啪啦轰隆——！”克尔柏洛丝随机对2名敌人造成攻击力×720%的魔法伤害。攻击结束后，再对本回合内曾以「多重屏障」抵消伤害的敌人追加1次直接攻击，造成的伤害量为目标在本回合内以「多重屏障」抵消的伤害量×20%。此直接攻击无视目标的「多重屏障」，且无法暴击。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "罪人を裁く冥界の雷が、穢れた魂を打ち砕く。「ビリビリどっかーん！」ランダムな敵2体に攻撃力×720%の魔法攻撃を行う。魔法攻撃の後、このターン中に『多重バリア』でダメージを無効化した敵に、対象がこのターン中に『多重バリア』で無効化にしたダメージ×20%の直接攻撃を行う。この直接攻撃は対象の『多重バリア』を無視し、クリティカルヒットしない。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription1290022]",
+          "descriptions": {
+            "zh-CN": "攻击目标增加为3名随机敌人。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "魔法攻撃の対象がランダムな敵3体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription1290023]",
+          "descriptions": {
+            "zh-CN": "造成的魔法伤害提升为攻击力×1320%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "魔法攻撃のダメージが攻撃力×1320%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription1290024]",
+          "descriptions": {
+            "zh-CN": "发动攻击前，如果克尔柏洛丝身上附带「温柔的魔法」状态，造成的魔法伤害提升为攻击力×1980%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "魔法攻撃の前に自身が『優しい魔法』を付帯している場合、魔法攻撃のダメージが攻撃力×1980%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription1290021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              129002001,
+              129002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription1290022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              129002201,
+              129002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription1290023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              129002301,
+              129002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription1290024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              129002401,
+              129002002
+            ]
+          }
+        ],
+        "Id": 129002,
+        "IsIgnore": null,
+        "Memo": "宝物ケルベロスSR:Lv1 罪人を裁く冥界の雷が、穢れた魂を打ち砕く。「ビリビリどっかーん！」ランダムな敵2体に攻撃力×720%の魔法攻撃を行う。魔法攻撃の後、このターン中に『多重バリア』でダメージを無効化した敵に、対象がこのターン中に『多重バリア』で無効化にしたダメージ×20%の直接攻撃を行う。この直接攻撃は対象の『多重バリア』を無視し、クリティカルヒットしない。/ Lv2 魔法攻撃の対象がランダムな敵3体になる。/ Lv3 魔法攻撃のダメージが攻撃力×1320%になる。/ Lv4 魔法攻撃の前に自身が『優しい魔法』を付帯している場合、魔法攻撃のダメージが攻撃力×1980%になる。",
+        "NameKey": "[ActiveSkillName129002]",
+        "RootActiveSkillId": 129002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName129002]",
+      "names": {
+        "zh-CN": "哈迪斯之雷"
+      },
+      "source_memo_ja": "宝物ケルベロスSR:Lv1 罪人を裁く冥界の雷が、穢れた魂を打ち砕く。「ビリビリどっかーん！」ランダムな敵2体に攻撃力×720%の魔法攻撃を行う。魔法攻撃の後、このターン中に『多重バリア』でダメージを無効化した敵に、対象がこのターン中に『多重バリア』で無効化にしたダメージ×20%の直接攻撃を行う。この直接攻撃は対象の『多重バリア』を無視し、クリティカルヒットしない。/ Lv2 魔法攻撃の対象がランダムな敵3体になる。/ Lv3 魔法攻撃のダメージが攻撃力×1320%になる。/ Lv4 魔法攻撃の前に自身が『優しい魔法』を付帯している場合、魔法攻撃のダメージが攻撃力×1980%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "罪人を裁く冥界の雷が、穢れた魂を打ち砕く。「ビリビリどっかーん！」ランダムな敵2体に攻撃力×720%の魔法攻撃を行う。魔法攻撃の後、このターン中に『多重バリア』でダメージを無効化した敵に、対象がこのターン中に『多重バリア』で無効化にしたダメージ×20%の直接攻撃を行う。この直接攻撃は対象の『多重バリア』を無視し、クリティカルヒットしない。"
+        },
+        {
+          "label": "Lv2",
+          "text": "魔法攻撃の対象がランダムな敵3体になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "魔法攻撃のダメージが攻撃力×1320%になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "魔法攻撃の前に自身が『優しい魔法』を付帯している場合、魔法攻撃のダメージが攻撃力×1980%になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 82,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 100.0,
+              "value_text": "+100"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 82,
+            "CollectionLevel": 1,
+            "Id": 8201,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・ミノルの宝物​(宝物ケルベロス,ケルベロス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 250.0,
+              "value_text": "+250"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 250.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 82,
+            "CollectionLevel": 2,
+            "Id": 8202,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・ミノルの宝物​(宝物ケルベロス,ケルベロス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 250.0,
+              "value_text": "+250"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 250.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 82,
+            "CollectionLevel": 3,
+            "Id": 8203,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・ミノルの宝物​(宝物ケルベロス,ケルベロス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 250.0,
+              "value_text": "+250"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 250.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 82,
+            "CollectionLevel": 4,
+            "Id": 8204,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・ミノルの宝物​(宝物ケルベロス,ケルベロス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 255.0,
+              "value_text": "+255"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 160.0,
+              "value_text": "+1.6%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 255.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 2,
+                "Value": 160.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 82,
+            "CollectionLevel": 5,
+            "Id": 8205,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・ミノルの宝物​(宝物ケルベロス,ケルベロス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 260.0,
+              "value_text": "+260"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 170.0,
+              "value_text": "+1.7%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 260.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 2,
+                "Value": 170.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 82,
+            "CollectionLevel": 6,
+            "Id": 8206,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・ミノルの宝物​(宝物ケルベロス,ケルベロス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 265.0,
+              "value_text": "+265"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 180.0,
+              "value_text": "+1.8%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 265.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 2,
+                "Value": 180.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 82,
+            "CollectionLevel": 7,
+            "Id": 8207,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・ミノルの宝物​(宝物ケルベロス,ケルベロス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 270.0,
+              "value_text": "+270"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 190.0,
+              "value_text": "+1.9%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 270.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 2,
+                "Value": 190.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 82,
+            "CollectionLevel": 8,
+            "Id": 8208,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・ミノルの宝物​(宝物ケルベロス,ケルベロス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 275.0,
+              "value_text": "+275"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "Hit",
+              "parameter_type": 5,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 275.0
+              },
+              {
+                "BattleParameterType": 5,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 82,
+            "CollectionLevel": 9,
+            "Id": 8209,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カニス・ミノルの宝物​(宝物ケルベロス,ケルベロス)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 82,
+        "IsIgnore": null,
+        "Memo": "カニス・ミノルの宝物​(宝物ケルベロス,ケルベロス)",
+        "NameKey": "[CharacterCollectionName82]",
+        "RequiredCharacterIds": [
+          129,
+          43
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2025-10-30 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName82]",
+      "names": {
+        "zh-CN": "小犬座的宝物"
+      },
+      "required_character_ids": [
+        129,
+        43
+      ],
+      "required_characters": [
+        {
+          "id": 129,
+          "names": {
+            "zh-CN": "克尔柏洛丝"
+          }
+        },
+        {
+          "id": 43,
+          "names": {
+            "zh-CN": "克尔柏洛丝"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2025-10-30 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 2,
+    "element_type": 6,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 129,
+    "job_flags": 4,
+    "master_record": {
+      "ActiveSkillIds": [
+        129001,
+        129002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 81,
+        "Health": 76,
+        "Intelligence": 104,
+        "Muscle": 88
+      },
+      "BaseParameterGrossCoefficient": 349,
+      "CharacterType": 2,
+      "ElementType": 6,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 129,
+      "InitialBattleParameter": {
+        "AttackPower": 5,
+        "Avoidance": 0,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 7,
+        "DefensePenetration": 0,
+        "HP": 0,
+        "Hit": 1,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": -3,
+        "Speed": 2563
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 4,
+      "Memo": "宝物ケルベロス",
+      "Name2Key": "[CharacterSubName129]",
+      "NameKey": "[CharacterName129]",
+      "NormalSkillId": 102,
+      "PassiveSkillIds": [
+        129003,
+        129004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2025-10-30 15:00:00"
+    },
+    "memo": "宝物ケルベロス",
+    "name_key": "[CharacterName129]",
+    "names": {
+      "zh-CN": "克尔柏洛丝"
+    },
+    "speed": 2563,
+    "start_time_jst": "2025-10-30 15:00:00",
+    "subtitle_key": "[CharacterSubName129]",
+    "subtitles": {
+      "zh-CN": "魔法糖果"
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 1291130240,
+    "exclusive_effect_id": 594,
+    "icon_id": 878,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 1291130250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 131,
+        "EquipmentEvolutionId": 141,
+        "EquipmentExclusiveSkillDescriptionId": 99,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 4,
+        "ExclusiveEffectId": 594,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 878,
+        "Id": 1291130240,
+        "IsIgnore": null,
+        "Memo": "宝物ケルベロスLR240_書",
+        "NameKey": "[EquipmentName873]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": null,
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 12,
+            "ChangeParameterType": 1,
+            "Value": 7000.0
+          },
+          {
+            "BattleParameterType": 18,
+            "ChangeParameterType": 1,
+            "Value": 1500.0
+          }
+        ],
+        "CharacterId": 129,
+        "Id": 594,
+        "IsIgnore": null,
+        "Memo": "宝物ケルベロスLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill129Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill129Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill129Description3]",
+        "Id": 99,
+        "IsIgnore": null,
+        "Memo": "宝物ケルベロス魔導書"
+      }
+    },
+    "name_key": "[EquipmentName873]",
+    "names": {
+      "zh-CN": "魔法糖果"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 1,
+        "kind": "battle",
+        "parameter_code": "DefensePenetration",
+        "parameter_type": 12,
+        "raw_value": 7000.0,
+        "value_text": "+7,000"
+      },
+      {
+        "change_parameter_type": 1,
+        "kind": "battle",
+        "parameter_code": "HpDrain",
+        "parameter_type": 18,
+        "raw_value": 1500.0,
+        "value_text": "+1,500"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill129Description1]",
+        "descriptions": {
+          "zh-CN": "强化守护兽的咆哮，攻击次数增加为10次。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill129Description2]",
+        "descriptions": {
+          "zh-CN": "强化全世界最幸福的魔法，「温柔的魔法」存在期间，伤害阻绝量提升为85%；「温柔的魔法」解除后，伤害阻绝量提升为70%。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill129Description3]",
+        "descriptions": {
+          "zh-CN": "强化跟姐姐一起！，命中率增幅提升为50%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 129003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription1290031]",
+          "descriptions": {
+            "zh-CN": "我还是好怕力量会失控。但是，牵手时掌心传来的融融暖意，会一直守护着我——当克尔柏洛丝受到致命伤害时，保留1点生命值不死，并使自己恢复50%最大生命值。再获得「温柔的魔法」状态，效果持续4回合（无法被解除）。当克尔柏洛丝在身上附带「温柔的魔法」状态时受到攻击，阻绝30%伤害。保留1点生命值不死效果每场战斗最多触发1次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "力の暴走はまだ怖い。だけど、つないだ手の温かさが、いつも私を守ってくれるから──。自身が致命的なダメージを受けたとき、HP1で耐え、自身のHPを自身の最大HP×50%回復する。その後自身に4ターンの間『優しい魔法』を付与する（解除不可）。『優しい魔法』を付帯している間、自身が攻撃を受けたとき、ダメージを30%遮断する。HP1で耐える効果はバトル中1回のみ発動する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription1290032]",
+          "descriptions": {
+            "zh-CN": "当克尔柏洛丝在「温柔的魔法」解除后受到攻击，阻绝20%伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに『優しい魔法』が解除された後に自身が攻撃を受けたとき、ダメージを20%遮断する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription1290033]",
+          "descriptions": {
+            "zh-CN": "当克尔柏洛丝受到致命伤害时，在恢复生命值前额外解除身上附带的1种弱化效果。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "自身が致命的なダメージを受けたとき、さらにHP回復の前に自身の弱体効果を1つ解除する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription1290034]",
+          "descriptions": {
+            "zh-CN": "强化全世界最幸福的魔法，「温柔的魔法」存在期间，伤害阻绝量提升为85%；「温柔的魔法」解除后，伤害阻绝量提升为70%。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "世界一幸せな魔法を強化する。『優しい魔法』を付帯している間のダメージの遮断量が85%になり、『優しい魔法』が解除された後のダメージの遮断量が70%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 129003,
+        "IsIgnore": null,
+        "Memo": "宝物ケルベロスSR:Lv1 力の暴走はまだ怖い。だけど、つないだ手の温かさが、いつも私を守ってくれるから──。自身が致命的なダメージを受けたとき、HP1で耐え、自身のHPを自身の最大HP×50%回復する。その後自身に4ターンの間『優しい魔法』を付与する（解除不可）。『優しい魔法』を付帯している間、自身が攻撃を受けたとき、ダメージを30%遮断する。HP1で耐える効果はバトル中1回のみ発動する。/ Lv2 さらに『優しい魔法』が解除された後に自身が攻撃を受けたとき、ダメージを20%遮断する。/ Lv3 自身が致命的なダメージを受けたとき、さらにHP回復の前に自身の弱体効果を1つ解除する。/ Ex2 世界一幸せな魔法を強化する。『優しい魔法』を付帯している間のダメージの遮断量が85%になり、『優しい魔法』が解除された後のダメージの遮断量が70%になる。",
+        "NameKey": "[PassiveSkillName129003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription1290031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 5,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 129003002
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 52,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 129003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 129003003
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription1290032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 5,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 129003202
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 52,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 129003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 129003203
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription1290033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 5,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 129003302
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 52,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 129003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 129003203
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription1290034]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 5,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 129003402
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 52,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 129003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 129003403
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName129003]",
+      "names": {
+        "zh-CN": "全世界最幸福的魔法"
+      },
+      "source_memo_ja": "宝物ケルベロスSR:Lv1 力の暴走はまだ怖い。だけど、つないだ手の温かさが、いつも私を守ってくれるから──。自身が致命的なダメージを受けたとき、HP1で耐え、自身のHPを自身の最大HP×50%回復する。その後自身に4ターンの間『優しい魔法』を付与する（解除不可）。『優しい魔法』を付帯している間、自身が攻撃を受けたとき、ダメージを30%遮断する。HP1で耐える効果はバトル中1回のみ発動する。/ Lv2 さらに『優しい魔法』が解除された後に自身が攻撃を受けたとき、ダメージを20%遮断する。/ Lv3 自身が致命的なダメージを受けたとき、さらにHP回復の前に自身の弱体効果を1つ解除する。/ Ex2 世界一幸せな魔法を強化する。『優しい魔法』を付帯している間のダメージの遮断量が85%になり、『優しい魔法』が解除された後のダメージの遮断量が70%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "力の暴走はまだ怖い。だけど、つないだ手の温かさが、いつも私を守ってくれるから──。自身が致命的なダメージを受けたとき、HP1で耐え、自身のHPを自身の最大HP×50%回復する。その後自身に4ターンの間『優しい魔法』を付与する（解除不可）。『優しい魔法』を付帯している間、自身が攻撃を受けたとき、ダメージを30%遮断する。HP1で耐える効果はバトル中1回のみ発動する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに『優しい魔法』が解除された後に自身が攻撃を受けたとき、ダメージを20%遮断する。"
+        },
+        {
+          "label": "Lv3",
+          "text": "自身が致命的なダメージを受けたとき、さらにHP回復の前に自身の弱体効果を1つ解除する。"
+        },
+        {
+          "label": "Ex2",
+          "text": "世界一幸せな魔法を強化する。『優しい魔法』を付帯している間のダメージの遮断量が85%になり、『優しい魔法』が解除された後のダメージの遮断量が70%になる。"
+        }
+      ]
+    },
+    {
+      "id": 129004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription1290041]",
+          "descriptions": {
+            "zh-CN": "“不管是打扫还是做糖果，说早安还是晚安，我全～都要跟姐姐一起！”战斗开始时，克尔柏洛丝使自己增加40%命中率（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "お料理もお掃除も、おはようもおやすみも、ぜーんぶお姉ちゃんと一緒がいいの！バトル開始時、自身の命中率が40%増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription1290042]",
+          "descriptions": {
+            "zh-CN": "战斗开始时，使附近的2名友军额外增加10%攻击力（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "バトル開始時、さらに自身に隣接する味方2体の攻撃力が10%増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription1290043]",
+          "descriptions": {
+            "zh-CN": "战斗开始时，使附近的2名友军额外增加10%速度（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "バトル開始時、さらに自身に隣接する味方2体のスピードが10%増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription1290044]",
+          "descriptions": {
+            "zh-CN": "强化跟姐姐一起！，命中率增幅提升为50%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "お姉ちゃんと一緒！を強化する。命中率の増加量が50%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 129004,
+        "IsIgnore": null,
+        "Memo": "宝物ケルベロスSR:Lv1 お料理もお掃除も、おはようもおやすみも、ぜーんぶお姉ちゃんと一緒がいいの！バトル開始時、自身の命中率が40%増加する（解除不可）。/ Lv2 バトル開始時、さらに自身に隣接する味方2体の攻撃力が10%増加する（解除不可）。/ Lv3 バトル開始時、さらに自身に隣接する味方2体のスピードが10%増加する（解除不可）。/ Ex3 お姉ちゃんと一緒！を強化する。命中率の増加量が50%になる。",
+        "NameKey": "[PassiveSkillName129004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription1290041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 129004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription1290042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 129004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 129004202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription1290043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 129004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 129004202
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 28,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 129004303
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription1290044]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 129004401
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 129004202
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 28,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 129004303
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName129004]",
+      "names": {
+        "zh-CN": "跟姐姐一起！"
+      },
+      "source_memo_ja": "宝物ケルベロスSR:Lv1 お料理もお掃除も、おはようもおやすみも、ぜーんぶお姉ちゃんと一緒がいいの！バトル開始時、自身の命中率が40%増加する（解除不可）。/ Lv2 バトル開始時、さらに自身に隣接する味方2体の攻撃力が10%増加する（解除不可）。/ Lv3 バトル開始時、さらに自身に隣接する味方2体のスピードが10%増加する（解除不可）。/ Ex3 お姉ちゃんと一緒！を強化する。命中率の増加量が50%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "お料理もお掃除も、おはようもおやすみも、ぜーんぶお姉ちゃんと一緒がいいの！バトル開始時、自身の命中率が40%増加する（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "バトル開始時、さらに自身に隣接する味方2体の攻撃力が10%増加する（解除不可）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "バトル開始時、さらに自身に隣接する味方2体のスピードが10%増加する（解除不可）。"
+        },
+        {
+          "label": "Ex3",
+          "text": "お姉ちゃんと一緒！を強化する。命中率の増加量が50%になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

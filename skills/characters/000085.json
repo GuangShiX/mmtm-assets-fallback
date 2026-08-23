@@ -1,0 +1,1268 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 85001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription850011]",
+          "descriptions": {
+            "zh-CN": "“连我也来和你一起战斗，这可是你的荣幸！”玛提尔德使自己与攻击力最高的其他友军获得1种增益效果，该效果包含增加20%攻击力、暴击率与命中率，效果持续1回合（无法被解除）。“谁！刚才是谁叫我小不点？！”再对攻击力最高的敌人造成攻击力×380%的魔法伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「私も一緒に戦ってあげる、光栄に思いなさいっ」1ターンの間自身と自身以外の攻撃力が最も高い味方の、攻撃力とクリティカル率と命中率をそれぞれ20%増加させる（解除不可）。「誰よ、今チビって言ったの！？」その後攻撃力が最も高い敵に攻撃力×380%の魔法攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription850012]",
+          "descriptions": {
+            "zh-CN": "当增益效果附加目标身上附带玛提尔德严选香蕉附加的增益效果时，解除玛提尔德严选香蕉附加的增益效果，使此技能附加的增益效果增加为4回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらにバフを付与する対象がマチルダ厳選バナナで付与したバフを付帯している場合そのバフを解除し、このスキルで付与するバフのターン数が4ターンになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription850013]",
+          "descriptions": {
+            "zh-CN": "造成的魔法伤害提升为攻击力×680%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "魔法攻撃のダメージが攻撃力×680%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription850014]",
+          "descriptions": {
+            "zh-CN": "强化乔巴里的女王，攻击力、暴击率与命中率增幅提升为50%。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "ジョバリの女王を強化する。攻撃力とクリティカル率と命中率の増加量がそれぞれ50%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription850011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              85001001,
+              85001002,
+              85001003
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription850012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              85001201,
+              85001202,
+              85001003
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription850013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              85001201,
+              85001202,
+              85001303
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription850014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              85001401,
+              85001402,
+              85001303
+            ]
+          }
+        ],
+        "Id": 85001,
+        "IsIgnore": null,
+        "Memo": "マチルダSR:Lv1 「私も一緒に戦ってあげる、光栄に思いなさいっ」1ターンの間自身と自身以外の攻撃力が最も高い味方の、攻撃力とクリティカル率と命中率をそれぞれ20%増加させる（解除不可）。「誰よ、今チビって言ったの！？」その後攻撃力が最も高い敵に攻撃力×380%の魔法攻撃を行う。/ Lv2 さらにバフを付与する対象がマチルダ厳選バナナで付与したバフを付帯している場合そのバフを解除し、このスキルで付与するバフのターン数が4ターンになる。/ Lv3 魔法攻撃のダメージが攻撃力×680%になる。/ Ex1 ジョバリの女王を強化する。攻撃力とクリティカル率と命中率の増加量がそれぞれ50%になる。",
+        "NameKey": "[ActiveSkillName85001]",
+        "RootActiveSkillId": 85001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName85001]",
+      "names": {
+        "zh-CN": "乔巴里的女王"
+      },
+      "source_memo_ja": "マチルダSR:Lv1 「私も一緒に戦ってあげる、光栄に思いなさいっ」1ターンの間自身と自身以外の攻撃力が最も高い味方の、攻撃力とクリティカル率と命中率をそれぞれ20%増加させる（解除不可）。「誰よ、今チビって言ったの！？」その後攻撃力が最も高い敵に攻撃力×380%の魔法攻撃を行う。/ Lv2 さらにバフを付与する対象がマチルダ厳選バナナで付与したバフを付帯している場合そのバフを解除し、このスキルで付与するバフのターン数が4ターンになる。/ Lv3 魔法攻撃のダメージが攻撃力×680%になる。/ Ex1 ジョバリの女王を強化する。攻撃力とクリティカル率と命中率の増加量がそれぞれ50%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「私も一緒に戦ってあげる、光栄に思いなさいっ」1ターンの間自身と自身以外の攻撃力が最も高い味方の、攻撃力とクリティカル率と命中率をそれぞれ20%増加させる（解除不可）。「誰よ、今チビって言ったの！？」その後攻撃力が最も高い敵に攻撃力×380%の魔法攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらにバフを付与する対象がマチルダ厳選バナナで付与したバフを付帯している場合そのバフを解除し、このスキルで付与するバフのターン数が4ターンになる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "魔法攻撃のダメージが攻撃力×680%になる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "ジョバリの女王を強化する。攻撃力とクリティカル率と命中率の増加量がそれぞれ50%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 85002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription850021]",
+          "descriptions": {
+            "zh-CN": "“我绝不会认输！”肩负着整支民族的兴亡，玛提尔德挺身而出——对防御力最高的2名敌人造成攻击力×340%的魔法伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「絶対に負けないんだから！」少女は立ち向かう、一族の命運を背負う者として――防御力が高い敵2体に攻撃力×340%の魔法攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription850022]",
+          "descriptions": {
+            "zh-CN": "攻击结束后，如果玛提尔德的生命值为50%以上，再对防御力最低的2名敌人追加攻击力×340%的魔法伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに魔法攻撃の後に自身のHP割合が50%以上の場合、防御力が低い敵2体に攻撃力×340%の魔法攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription850023]",
+          "descriptions": {
+            "zh-CN": "第一波攻击结束后，如果玛提尔德的生命值低于50%，则使自己与攻击力最高的其他友军恢复玛提尔德攻击力×50%的生命值。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらに最初の魔法攻撃の後に自身のHP割合が50%未満の場合、2回目の魔法攻撃の代わりに自身と自身以外の攻撃力が最も高い味方のHPを自身の攻撃力×50%回復する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription850024]",
+          "descriptions": {
+            "zh-CN": "战斗中第1次发动此技能为自己与友军恢复生命值时，生命值恢复量额外提升为玛提尔德攻击力×100%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "さらにバトル中このスキルの自身と味方のHPを回復する効果を使うのが1回目の場合、HPの回復量が自身の攻撃力×100%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription850025]",
+          "descriptions": {
+            "zh-CN": "强化小小的勇气，第一波攻击与追加攻击造成的魔法伤害提升为攻击力×380%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "小さな勇気を強化する。最初の魔法攻撃と2回目の魔法攻撃のダメージがそれぞれ攻撃力×380%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription850021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              85002001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription850022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              85002001,
+              85002202,
+              85002203
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription850023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              85002001,
+              85002202,
+              85002203,
+              85002304,
+              85002305
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription850024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              85002001,
+              85002202,
+              85002203,
+              85002404,
+              85002405
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription850025]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              85002501,
+              85002202,
+              85002503,
+              85002404,
+              85002405
+            ]
+          }
+        ],
+        "Id": 85002,
+        "IsIgnore": null,
+        "Memo": "マチルダSR:Lv1 「絶対に負けないんだから！」少女は立ち向かう、一族の命運を背負う者として――防御力が高い敵2体に攻撃力×340%の魔法攻撃を行う。/ Lv2 さらに魔法攻撃の後に自身のHP割合が50%以上の場合、防御力が低い敵2体に攻撃力×340%の魔法攻撃を行う。/ Lv3 さらに最初の魔法攻撃の後に自身のHP割合が50%未満の場合、2回目の魔法攻撃の代わりに自身と自身以外の攻撃力が最も高い味方のHPを自身の攻撃力×50%回復する。/ Lv4 さらにバトル中このスキルの自身と味方のHPを回復する効果を使うのが1回目の場合、HPの回復量が自身の攻撃力×100%になる。/ Ex3 小さな勇気を強化する。最初の魔法攻撃と2回目の魔法攻撃のダメージがそれぞれ攻撃力×380%になる。",
+        "NameKey": "[ActiveSkillName85002]",
+        "RootActiveSkillId": 85002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName85002]",
+      "names": {
+        "zh-CN": "小小的勇气"
+      },
+      "source_memo_ja": "マチルダSR:Lv1 「絶対に負けないんだから！」少女は立ち向かう、一族の命運を背負う者として――防御力が高い敵2体に攻撃力×340%の魔法攻撃を行う。/ Lv2 さらに魔法攻撃の後に自身のHP割合が50%以上の場合、防御力が低い敵2体に攻撃力×340%の魔法攻撃を行う。/ Lv3 さらに最初の魔法攻撃の後に自身のHP割合が50%未満の場合、2回目の魔法攻撃の代わりに自身と自身以外の攻撃力が最も高い味方のHPを自身の攻撃力×50%回復する。/ Lv4 さらにバトル中このスキルの自身と味方のHPを回復する効果を使うのが1回目の場合、HPの回復量が自身の攻撃力×100%になる。/ Ex3 小さな勇気を強化する。最初の魔法攻撃と2回目の魔法攻撃のダメージがそれぞれ攻撃力×380%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「絶対に負けないんだから！」少女は立ち向かう、一族の命運を背負う者として――防御力が高い敵2体に攻撃力×340%の魔法攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに魔法攻撃の後に自身のHP割合が50%以上の場合、防御力が低い敵2体に攻撃力×340%の魔法攻撃を行う。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらに最初の魔法攻撃の後に自身のHP割合が50%未満の場合、2回目の魔法攻撃の代わりに自身と自身以外の攻撃力が最も高い味方のHPを自身の攻撃力×50%回復する。"
+        },
+        {
+          "label": "Lv4",
+          "text": "さらにバトル中このスキルの自身と味方のHPを回復する効果を使うのが1回目の場合、HPの回復量が自身の攻撃力×100%になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "小さな勇気を強化する。最初の魔法攻撃と2回目の魔法攻撃のダメージがそれぞれ攻撃力×380%になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 41,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageReflect",
+              "parameter_type": 17,
+              "raw_value": 150.0,
+              "value_text": "+150"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 17,
+                "ChangeParameterType": 1,
+                "Value": 150.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 41,
+            "CollectionLevel": 1,
+            "Id": 4101,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ジョバリの希望(マチルダ,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageReflect",
+              "parameter_type": 17,
+              "raw_value": 300.0,
+              "value_text": "+300"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 17,
+                "ChangeParameterType": 1,
+                "Value": 300.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 41,
+            "CollectionLevel": 2,
+            "Id": 4102,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ジョバリの希望(マチルダ,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageReflect",
+              "parameter_type": 17,
+              "raw_value": 300.0,
+              "value_text": "+300"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 17,
+                "ChangeParameterType": 1,
+                "Value": 300.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 41,
+            "CollectionLevel": 3,
+            "Id": 4103,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ジョバリの希望(マチルダ,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageReflect",
+              "parameter_type": 17,
+              "raw_value": 310.0,
+              "value_text": "+310"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 17,
+                "ChangeParameterType": 1,
+                "Value": 310.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 41,
+            "CollectionLevel": 4,
+            "Id": 4104,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ジョバリの希望(マチルダ,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageReflect",
+              "parameter_type": 17,
+              "raw_value": 320.0,
+              "value_text": "+320"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 17,
+                "ChangeParameterType": 1,
+                "Value": 320.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 41,
+            "CollectionLevel": 5,
+            "Id": 4105,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ジョバリの希望(マチルダ,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageReflect",
+              "parameter_type": 17,
+              "raw_value": 330.0,
+              "value_text": "+330"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 17,
+                "ChangeParameterType": 1,
+                "Value": 330.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 41,
+            "CollectionLevel": 6,
+            "Id": 4106,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ジョバリの希望(マチルダ,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageReflect",
+              "parameter_type": 17,
+              "raw_value": 340.0,
+              "value_text": "+340"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 17,
+                "ChangeParameterType": 1,
+                "Value": 340.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 41,
+            "CollectionLevel": 7,
+            "Id": 4107,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ジョバリの希望(マチルダ,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageReflect",
+              "parameter_type": 17,
+              "raw_value": 350.0,
+              "value_text": "+350"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 17,
+                "ChangeParameterType": 1,
+                "Value": 350.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 41,
+            "CollectionLevel": 8,
+            "Id": 4108,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ジョバリの希望(マチルダ,ニーナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageReflect",
+              "parameter_type": 17,
+              "raw_value": 360.0,
+              "value_text": "+360"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 17,
+                "ChangeParameterType": 1,
+                "Value": 360.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 41,
+            "CollectionLevel": 9,
+            "Id": 4109,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ジョバリの希望(マチルダ,ニーナ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 41,
+        "IsIgnore": null,
+        "Memo": "ジョバリの希望(マチルダ,ニーナ)",
+        "NameKey": "[CharacterCollectionName41]",
+        "RequiredCharacterIds": [
+          85,
+          28
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2024-02-22 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName41]",
+      "names": {
+        "zh-CN": "乔巴里的希望"
+      },
+      "required_character_ids": [
+        85,
+        28
+      ],
+      "required_characters": [
+        {
+          "id": 85,
+          "names": {
+            "zh-CN": "玛提尔德"
+          }
+        },
+        {
+          "id": 28,
+          "names": {
+            "zh-CN": "妮娜"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2024-02-22 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 2,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 85,
+    "job_flags": 4,
+    "master_record": {
+      "ActiveSkillIds": [
+        85001,
+        85002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 84,
+        "Health": 67,
+        "Intelligence": 99,
+        "Muscle": 84
+      },
+      "BaseParameterGrossCoefficient": 334,
+      "CharacterType": 0,
+      "ElementType": 2,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 85,
+      "InitialBattleParameter": {
+        "AttackPower": -3,
+        "Avoidance": 1,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 10,
+        "DefensePenetration": 0,
+        "HP": -3,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 5,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 3181
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 4,
+      "Memo": "マチルダ",
+      "Name2Key": null,
+      "NameKey": "[CharacterName85]",
+      "NormalSkillId": 102,
+      "PassiveSkillIds": [
+        85003,
+        85004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2024-02-22 15:00:00"
+    },
+    "memo": "マチルダ",
+    "name_key": "[CharacterName85]",
+    "names": {
+      "zh-CN": "玛提尔德"
+    },
+    "speed": 3181,
+    "start_time_jst": "2024-02-22 15:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 851130240,
+    "exclusive_effect_id": 342,
+    "icon_id": 614,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 851130250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 89,
+        "EquipmentEvolutionId": 99,
+        "EquipmentExclusiveSkillDescriptionId": 57,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 4,
+        "ExclusiveEffectId": 342,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 614,
+        "Id": 851130240,
+        "IsIgnore": null,
+        "Memo": "マチルダLR240_書",
+        "NameKey": "[EquipmentName609]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": [
+          {
+            "BaseParameterType": 3,
+            "ChangeParameterType": 2,
+            "Value": 800.0
+          }
+        ],
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 1,
+            "ChangeParameterType": 2,
+            "Value": 2200.0
+          },
+          {
+            "BattleParameterType": 5,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 85,
+        "Id": 342,
+        "IsIgnore": null,
+        "Memo": "マチルダLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill85Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill85Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill85Description3]",
+        "Id": 57,
+        "IsIgnore": null,
+        "Memo": "マチルダ魔導書"
+      }
+    },
+    "name_key": "[EquipmentName609]",
+    "names": {
+      "zh-CN": "王树权杖"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "base",
+        "parameter_code": "Intelligence",
+        "parameter_type": 3,
+        "raw_value": 800.0,
+        "value_text": "+8%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Hp",
+        "parameter_type": 1,
+        "raw_value": 2200.0,
+        "value_text": "+22%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Hit",
+        "parameter_type": 5,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill85Description1]",
+        "descriptions": {
+          "zh-CN": "强化乔巴里的女王，攻击力、暴击率与命中率增幅提升为50%。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill85Description2]",
+        "descriptions": {
+          "zh-CN": "强化玛提尔德严选香蕉，命中率增幅提升为30%。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill85Description3]",
+        "descriptions": {
+          "zh-CN": "强化小小的勇气，第一波攻击与追加攻击造成的魔法伤害提升为攻击力×380%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 85003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription850031]",
+          "descriptions": {
+            "zh-CN": "“给你，这是我特地为你留的哦！”回合开始时，玛提尔德使自己与攻击力最高的其他友军获得1种增益效果，该效果包含增加5%攻击力、暴击率与命中率，效果持续4回合。此技能须在结束4次行动后才可再次触发。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「あげる、私のとっておきよ！」ターン開始時4ターンの間自身と自身以外の攻撃力が最も高い味方の、攻撃力とクリティカル率と命中率をそれぞれ5%増加させる。このスキルは4ターンに1回発動する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription850032]",
+          "descriptions": {
+            "zh-CN": "攻击力、暴击率与命中率增幅提升为10%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "攻撃力とクリティカル率と命中率の増加量がそれぞれ10%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription850033]",
+          "descriptions": {
+            "zh-CN": "命中率增幅提升为20%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "命中率の増加量が20%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription850034]",
+          "descriptions": {
+            "zh-CN": "强化玛提尔德严选香蕉，命中率增幅提升为30%。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "マチルダ厳選バナナを強化する。命中率の増加量が30%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 85003,
+        "IsIgnore": null,
+        "Memo": "マチルダSR:Lv1 「あげる、私のとっておきよ！」ターン開始時4ターンの間自身と自身以外の攻撃力が最も高い味方の、攻撃力とクリティカル率と命中率をそれぞれ5%増加させる。このスキルは4ターンに1回発動する。/ Lv2 攻撃力とクリティカル率と命中率の増加量がそれぞれ10%になる。/ Lv3 命中率の増加量が20%になる。/ Ex2 マチルダ厳選バナナを強化する。命中率の増加量が30%になる。",
+        "NameKey": "[PassiveSkillName85003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription850031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 85003001
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 85003002
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 85003003
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription850032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 85003201
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 85003202
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 85003203
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription850033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 85003301
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 85003302
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 85003303
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription850034]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 85003401
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 85003402
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 85003403
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName85003]",
+      "names": {
+        "zh-CN": "玛提尔德严选香蕉"
+      },
+      "source_memo_ja": "マチルダSR:Lv1 「あげる、私のとっておきよ！」ターン開始時4ターンの間自身と自身以外の攻撃力が最も高い味方の、攻撃力とクリティカル率と命中率をそれぞれ5%増加させる。このスキルは4ターンに1回発動する。/ Lv2 攻撃力とクリティカル率と命中率の増加量がそれぞれ10%になる。/ Lv3 命中率の増加量が20%になる。/ Ex2 マチルダ厳選バナナを強化する。命中率の増加量が30%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「あげる、私のとっておきよ！」ターン開始時4ターンの間自身と自身以外の攻撃力が最も高い味方の、攻撃力とクリティカル率と命中率をそれぞれ5%増加させる。このスキルは4ターンに1回発動する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "攻撃力とクリティカル率と命中率の増加量がそれぞれ10%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "命中率の増加量が20%になる。"
+        },
+        {
+          "label": "Ex2",
+          "text": "マチルダ厳選バナナを強化する。命中率の増加量が30%になる。"
+        }
+      ]
+    },
+    {
+      "id": 85004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription850041]",
+          "descriptions": {
+            "zh-CN": "强烈的意念跨越时空的限制，持续守护着她——当玛提尔德受到攻击时，阻绝10%伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "強い想いは次元を超え、少女を守り続ける――自身が攻撃を受けたとき、ダメージを10%遮断する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription850042]",
+          "descriptions": {
+            "zh-CN": "当玛提尔德受到攻击且存活在场上的其他友军数为2名以上时，阻绝30%伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "自身が攻撃を受けたときに自身以外の味方の生存数が2体以上いる場合、遮断の効果が30%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription850043]",
+          "descriptions": {
+            "zh-CN": "当玛提尔德受到攻击且存活在场上的其他友军数为2名以上时，阻绝40%伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "自身が攻撃を受けたときに自身以外の味方の生存数が2体以上いる場合、遮断の効果が40%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 85004,
+        "IsIgnore": null,
+        "Memo": "マチルダSR:Lv1 強い想いは次元を超え、少女を守り続ける――自身が攻撃を受けたとき、ダメージを10%遮断する。/ Lv2 自身が攻撃を受けたときに自身以外の味方の生存数が2体以上いる場合、遮断の効果が30%になる。/ Lv3 自身が攻撃を受けたときに自身以外の味方の生存数が2体以上いる場合、遮断の効果が40%になる。",
+        "NameKey": "[PassiveSkillName85004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription850041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 85004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription850042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 85004201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription850043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 85004301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName85004]",
+      "names": {
+        "zh-CN": "灵魂相系的主从"
+      },
+      "source_memo_ja": "マチルダSR:Lv1 強い想いは次元を超え、少女を守り続ける――自身が攻撃を受けたとき、ダメージを10%遮断する。/ Lv2 自身が攻撃を受けたときに自身以外の味方の生存数が2体以上いる場合、遮断の効果が30%になる。/ Lv3 自身が攻撃を受けたときに自身以外の味方の生存数が2体以上いる場合、遮断の効果が40%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "強い想いは次元を超え、少女を守り続ける――自身が攻撃を受けたとき、ダメージを10%遮断する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "自身が攻撃を受けたときに自身以外の味方の生存数が2体以上いる場合、遮断の効果が30%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "自身が攻撃を受けたときに自身以外の味方の生存数が2体以上いる場合、遮断の効果が40%になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

@@ -1,0 +1,1358 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 84001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription840011]",
+          "descriptions": {
+            "zh-CN": "“贯穿敌人。”巨大的冰柱在敌人上方凝结，宛如庞大的星体直坠而下——随机对4名敌人造成攻击力×440%的魔法伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「貫きます」敵の頭上に形成された巨大な氷が、巨星のごとく落ちる――ランダムな敵4体に攻撃力×440%の魔法攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription840012]",
+          "descriptions": {
+            "zh-CN": "当莉兹的生命值为50%以上时，造成的魔法伤害增加为1.5倍。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに自身のHP割合が50%以上の場合、魔法攻撃のダメージが1.5倍になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription840013]",
+          "descriptions": {
+            "zh-CN": "造成的魔法伤害提升为攻击力×540%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "魔法攻撃のダメージが攻撃力×540%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription840014]",
+          "descriptions": {
+            "zh-CN": "强化永恒之枪，技能目标增加为5名随机敌人。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "グングニルを強化する。グングニルの対象がランダムな敵5体になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription840011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              84001001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription840012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              84001201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription840013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              84001301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription840014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              84001401
+            ]
+          }
+        ],
+        "Id": 84001,
+        "IsIgnore": null,
+        "Memo": "リズSR:Lv1 「貫きます」敵の頭上に形成された巨大な氷が、巨星のごとく落ちる――ランダムな敵4体に攻撃力×440%の魔法攻撃を行う。/ Lv2 さらに自身のHP割合が50%以上の場合、魔法攻撃のダメージが1.5倍になる。/ Lv3 魔法攻撃のダメージが攻撃力×540%になる。/ Ex1 グングニルを強化する。グングニルの対象がランダムな敵5体になる。",
+        "NameKey": "[ActiveSkillName84001]",
+        "RootActiveSkillId": 84001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName84001]",
+      "names": {
+        "zh-CN": "永恒之枪"
+      },
+      "source_memo_ja": "リズSR:Lv1 「貫きます」敵の頭上に形成された巨大な氷が、巨星のごとく落ちる――ランダムな敵4体に攻撃力×440%の魔法攻撃を行う。/ Lv2 さらに自身のHP割合が50%以上の場合、魔法攻撃のダメージが1.5倍になる。/ Lv3 魔法攻撃のダメージが攻撃力×540%になる。/ Ex1 グングニルを強化する。グングニルの対象がランダムな敵5体になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「貫きます」敵の頭上に形成された巨大な氷が、巨星のごとく落ちる――ランダムな敵4体に攻撃力×440%の魔法攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに自身のHP割合が50%以上の場合、魔法攻撃のダメージが1.5倍になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "魔法攻撃のダメージが攻撃力×540%になる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "グングニルを強化する。グングニルの対象がランダムな敵5体になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 84002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription840021]",
+          "descriptions": {
+            "zh-CN": "“到此为止了。”寒气逼人的冰晶从上空落下，随机对敌人进行4次攻击，每次造成攻击力×460%的魔法伤害。冰晶缓缓夺走敌人的体温，使人意识逐渐朦胧——每次攻击之后，30%概率对技能目标附加「晕厥」状态，效果持续1回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「終わりです」冷気をまとう氷晶が頭上より降り注ぐ――ランダムな敵に4回攻撃力×460%の魔法攻撃を行う。氷晶は敵の体温を徐々に奪い、やがて意識さえ霞ませる――攻撃するたび30%の確率で対象に1ターンの間『気絶』を付与する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription840022]",
+          "descriptions": {
+            "zh-CN": "攻击次数增加为5次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "魔法攻撃の回数が5回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription840023]",
+          "descriptions": {
+            "zh-CN": "附加「晕厥」状态的概率提升为50%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "『気絶』を付与する確率が50%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription840024]",
+          "descriptions": {
+            "zh-CN": "造成的魔法伤害提升为攻击力×660%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "魔法攻撃のダメージが攻撃力×660%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription840025]",
+          "descriptions": {
+            "zh-CN": "强化泉水，造成的魔法伤害提升为攻击力×720%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "スプリングウォーターを強化する。魔法攻撃のダメージが攻撃力×720%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription840021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              84002001,
+              84002002,
+              84002002,
+              84002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription840022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              84002201,
+              84002202,
+              84002202,
+              84002202,
+              84002202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription840023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              84002301,
+              84002302,
+              84002302,
+              84002302,
+              84002302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription840024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              84002401,
+              84002402,
+              84002402,
+              84002402,
+              84002402
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription840025]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              84002501,
+              84002502,
+              84002502,
+              84002502,
+              84002502
+            ]
+          }
+        ],
+        "Id": 84002,
+        "IsIgnore": null,
+        "Memo": "リズSR:Lv1 「終わりです」冷気をまとう氷晶が頭上より降り注ぐ――ランダムな敵に4回攻撃力×460%の魔法攻撃を行う。氷晶は敵の体温を徐々に奪い、やがて意識さえ霞ませる――攻撃するたび30%の確率で対象に1ターンの間『気絶』を付与する。/ Lv2 魔法攻撃の回数が5回になる。/ Lv3 『気絶』を付与する確率が50%になる。/ Lv4 魔法攻撃のダメージが攻撃力×660%になる。/ Ex3 スプリングウォーターを強化する。魔法攻撃のダメージが攻撃力×720%になる。",
+        "NameKey": "[ActiveSkillName84002]",
+        "RootActiveSkillId": 84002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName84002]",
+      "names": {
+        "zh-CN": "泉水"
+      },
+      "source_memo_ja": "リズSR:Lv1 「終わりです」冷気をまとう氷晶が頭上より降り注ぐ――ランダムな敵に4回攻撃力×460%の魔法攻撃を行う。氷晶は敵の体温を徐々に奪い、やがて意識さえ霞ませる――攻撃するたび30%の確率で対象に1ターンの間『気絶』を付与する。/ Lv2 魔法攻撃の回数が5回になる。/ Lv3 『気絶』を付与する確率が50%になる。/ Lv4 魔法攻撃のダメージが攻撃力×660%になる。/ Ex3 スプリングウォーターを強化する。魔法攻撃のダメージが攻撃力×720%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「終わりです」冷気をまとう氷晶が頭上より降り注ぐ――ランダムな敵に4回攻撃力×460%の魔法攻撃を行う。氷晶は敵の体温を徐々に奪い、やがて意識さえ霞ませる――攻撃するたび30%の確率で対象に1ターンの間『気絶』を付与する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "魔法攻撃の回数が5回になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "『気絶』を付与する確率が50%になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "魔法攻撃のダメージが攻撃力×660%になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "スプリングウォーターを強化する。魔法攻撃のダメージが攻撃力×720%になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 40,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 40,
+            "CollectionLevel": 1,
+            "Id": 4001,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ギルサニアの玲瓏(リズ,フローレンス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 250.0,
+              "value_text": "+250"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 250.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 40,
+            "CollectionLevel": 2,
+            "Id": 4002,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ギルサニアの玲瓏(リズ,フローレンス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 250.0,
+              "value_text": "+250"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 250.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 40,
+            "CollectionLevel": 3,
+            "Id": 4003,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ギルサニアの玲瓏(リズ,フローレンス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 250.0,
+              "value_text": "+250"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 40,
+            "CollectionLevel": 4,
+            "Id": 4004,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ギルサニアの玲瓏(リズ,フローレンス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 210.0,
+              "value_text": "+2.1%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 255.0,
+              "value_text": "+255"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 210.0
+              },
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 255.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 40,
+            "CollectionLevel": 5,
+            "Id": 4005,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ギルサニアの玲瓏(リズ,フローレンス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 220.0,
+              "value_text": "+2.2%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 260.0,
+              "value_text": "+260"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 220.0
+              },
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 260.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 40,
+            "CollectionLevel": 6,
+            "Id": 4006,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ギルサニアの玲瓏(リズ,フローレンス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 230.0,
+              "value_text": "+2.3%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 265.0,
+              "value_text": "+265"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 230.0
+              },
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 265.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 40,
+            "CollectionLevel": 7,
+            "Id": 4007,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ギルサニアの玲瓏(リズ,フローレンス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 240.0,
+              "value_text": "+2.4%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 270.0,
+              "value_text": "+270"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 240.0
+              },
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 270.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 40,
+            "CollectionLevel": 8,
+            "Id": 4008,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ギルサニアの玲瓏(リズ,フローレンス)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 250.0,
+              "value_text": "+2.5%"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageEnhance",
+              "parameter_type": 14,
+              "raw_value": 275.0,
+              "value_text": "+275"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 250.0
+              },
+              {
+                "BattleParameterType": 14,
+                "ChangeParameterType": 1,
+                "Value": 275.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 40,
+            "CollectionLevel": 9,
+            "Id": 4009,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ギルサニアの玲瓏(リズ,フローレンス)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 40,
+        "IsIgnore": null,
+        "Memo": "ギルサニアの玲瓏(リズ,フローレンス)",
+        "NameKey": "[CharacterCollectionName40]",
+        "RequiredCharacterIds": [
+          84,
+          8
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2024-02-15 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName40]",
+      "names": {
+        "zh-CN": "吉鲁萨尼亚的玲珑"
+      },
+      "required_character_ids": [
+        84,
+        8
+      ],
+      "required_characters": [
+        {
+          "id": 84,
+          "names": {
+            "zh-CN": "莉兹"
+          }
+        },
+        {
+          "id": 8,
+          "names": {
+            "zh-CN": "佛罗伦斯"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2024-02-15 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 1,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 84,
+    "job_flags": 4,
+    "master_record": {
+      "ActiveSkillIds": [
+        84001,
+        84002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 80,
+        "Health": 65,
+        "Intelligence": 103,
+        "Muscle": 91
+      },
+      "BaseParameterGrossCoefficient": 339,
+      "CharacterType": 0,
+      "ElementType": 1,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 84,
+      "InitialBattleParameter": {
+        "AttackPower": 5,
+        "Avoidance": 0,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 7,
+        "DefensePenetration": 0,
+        "HP": 0,
+        "Hit": 1,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": -3,
+        "Speed": 2999
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 4,
+      "Memo": "リズ",
+      "Name2Key": null,
+      "NameKey": "[CharacterName84]",
+      "NormalSkillId": 102,
+      "PassiveSkillIds": [
+        84003,
+        84004,
+        84005
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2024-02-15 15:00:00"
+    },
+    "memo": "リズ",
+    "name_key": "[CharacterName84]",
+    "names": {
+      "zh-CN": "莉兹"
+    },
+    "speed": 2999,
+    "start_time_jst": "2024-02-15 15:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 841130240,
+    "exclusive_effect_id": 336,
+    "icon_id": 608,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 841130250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 88,
+        "EquipmentEvolutionId": 98,
+        "EquipmentExclusiveSkillDescriptionId": 56,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 4,
+        "ExclusiveEffectId": 336,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 608,
+        "Id": 841130240,
+        "IsIgnore": null,
+        "Memo": "リズLR240_書",
+        "NameKey": "[EquipmentName603]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": [
+          {
+            "BaseParameterType": 4,
+            "ChangeParameterType": 2,
+            "Value": 800.0
+          }
+        ],
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 15,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 84,
+        "Id": 336,
+        "IsIgnore": null,
+        "Memo": "リズLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill84Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill84Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill84Description3]",
+        "Id": 56,
+        "IsIgnore": null,
+        "Memo": "リズ魔導書"
+      }
+    },
+    "name_key": "[EquipmentName603]",
+    "names": {
+      "zh-CN": "苍蓝魔典"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "base",
+        "parameter_code": "Health",
+        "parameter_type": 4,
+        "raw_value": 800.0,
+        "value_text": "+8%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "DebuffHit",
+        "parameter_type": 15,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill84Description1]",
+        "descriptions": {
+          "zh-CN": "强化永恒之枪，技能目标增加为5名随机敌人。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill84Description2]",
+        "descriptions": {
+          "zh-CN": "战斗开始时，使莉兹增加20%速度，效果持续1回合。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill84Description3]",
+        "descriptions": {
+          "zh-CN": "强化泉水，造成的魔法伤害提升为攻击力×720%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": false,
+  "missing_localization_keys": [
+    "*"
+  ],
+  "passive_skills": [
+    {
+      "id": 84003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription840031]",
+          "descriptions": {
+            "zh-CN": "篝火精神的帝国、极北之地的雪国、远在天边的地域、位于西方的军国、神灵栖息的森林……旅程中留下的无数轨迹，如今依旧历历在目——如果行动开始时身上附带「暴击率上升」状态，莉兹使自己增加20%攻击力，效果持续1回合（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "篝火の帝国、極北の雪国、天涯の地、西の軍事国家、神宿りの森……。数多の旅路の軌跡は、今も鮮やかに――自身の行動開始時、自身が『クリティカル率増加』を付帯している場合、1ターンの間自身の攻撃力が20%増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription840032]",
+          "descriptions": {
+            "zh-CN": "攻击力增幅提升为30%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "攻撃力の増加量が30%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription840033]",
+          "descriptions": {
+            "zh-CN": "攻击力增幅提升为50%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "攻撃力の増加量が50%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 84003,
+        "IsIgnore": null,
+        "Memo": "リズSR:Lv1 篝火の帝国、極北の雪国、天涯の地、西の軍事国家、神宿りの森……。数多の旅路の軌跡は、今も鮮やかに――自身の行動開始時、自身が『クリティカル率増加』を付帯している場合、1ターンの間自身の攻撃力が20%増加する（解除不可）。/ Lv2 攻撃力の増加量が30%になる。/ Lv3 攻撃力の増加量が50%になる。",
+        "NameKey": "[PassiveSkillName84003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription840031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 32,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 84003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription840032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 32,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 84003201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription840033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 32,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 84003301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName84003]",
+      "names": {
+        "zh-CN": "一起翻阅文献吧"
+      },
+      "source_memo_ja": "リズSR:Lv1 篝火の帝国、極北の雪国、天涯の地、西の軍事国家、神宿りの森……。数多の旅路の軌跡は、今も鮮やかに――自身の行動開始時、自身が『クリティカル率増加』を付帯している場合、1ターンの間自身の攻撃力が20%増加する（解除不可）。/ Lv2 攻撃力の増加量が30%になる。/ Lv3 攻撃力の増加量が50%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "篝火の帝国、極北の雪国、天涯の地、西の軍事国家、神宿りの森……。数多の旅路の軌跡は、今も鮮やかに――自身の行動開始時、自身が『クリティカル率増加』を付帯している場合、1ターンの間自身の攻撃力が20%増加する（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "攻撃力の増加量が30%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "攻撃力の増加量が50%になる。"
+        }
+      ]
+    },
+    {
+      "id": 84004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription840041]",
+          "descriptions": {
+            "zh-CN": "“无论前方的路有多么艰险，我都不会停止前进。”在每回合开始时或受到攻击后，如果莉兹的生命值低于75%，获得「再生」状态，效果持续1回合，每回合行动开始时恢复7%最大生命值（无法被解除）。此技能每场战斗最多触发1次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「どのような困難があろうとも、私は歩みを止めません」ターン開始時、もしくは自身が攻撃を受けたとき、自身のHP割合が75%未満の場合、1ターンの間自身に『再生』を付与する（解除不可）。毎ターン行動開始時に自身のHPを自身の最大HP×7%回復する。このスキルはバトル中1回のみ発動する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription840042]",
+          "descriptions": {
+            "zh-CN": "「再生」的恢复量提升为25%最大生命值。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "『再生』での回復量が自身の最大HP×25%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription840043]",
+          "descriptions": {
+            "zh-CN": "「再生」效果增加为2回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "『再生』のターン数が2ターンになる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 84004,
+        "IsIgnore": null,
+        "Memo": "リズSR:Lv1 「どのような困難があろうとも、私は歩みを止めません」ターン開始時、もしくは自身が攻撃を受けたとき、自身のHP割合が75%未満の場合、1ターンの間自身に『再生』を付与する（解除不可）。毎ターン行動開始時に自身のHPを自身の最大HP×7%回復する。このスキルはバトル中1回のみ発動する。/ Lv2 『再生』での回復量が自身の最大HP×25%になる。/ Lv3 『再生』のターン数が2ターンになる。",
+        "NameKey": "[PassiveSkillName84004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription840041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 84004001
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 84004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription840042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 84004201
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 84004201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription840043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 84004301
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 99999,
+                "SubSetSkillId": 84004301
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName84004]",
+      "names": {
+        "zh-CN": "玲珑的秘书官"
+      },
+      "source_memo_ja": "リズSR:Lv1 「どのような困難があろうとも、私は歩みを止めません」ターン開始時、もしくは自身が攻撃を受けたとき、自身のHP割合が75%未満の場合、1ターンの間自身に『再生』を付与する（解除不可）。毎ターン行動開始時に自身のHPを自身の最大HP×7%回復する。このスキルはバトル中1回のみ発動する。/ Lv2 『再生』での回復量が自身の最大HP×25%になる。/ Lv3 『再生』のターン数が2ターンになる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「どのような困難があろうとも、私は歩みを止めません」ターン開始時、もしくは自身が攻撃を受けたとき、自身のHP割合が75%未満の場合、1ターンの間自身に『再生』を付与する（解除不可）。毎ターン行動開始時に自身のHPを自身の最大HP×7%回復する。このスキルはバトル中1回のみ発動する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "『再生』での回復量が自身の最大HP×25%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "『再生』のターン数が2ターンになる。"
+        }
+      ]
+    },
+    {
+      "id": 84005,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription840051]",
+          "descriptions": {
+            "zh-CN": "战斗开始时，使莉兹增加20%速度，效果持续1回合。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "バトル開始時1ターンの間自身のスピードが20%増加する。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 84005,
+        "IsIgnore": null,
+        "Memo": "リズSR:Lv1 バトル開始時1ターンの間自身のスピードが20%増加する。",
+        "NameKey": "*",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription840051]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 28,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 84005001
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "*",
+      "names": {
+        "zh-CN": null
+      },
+      "source_memo_ja": "リズSR:Lv1 バトル開始時1ターンの間自身のスピードが20%増加する。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "バトル開始時1ターンの間自身のスピードが20%増加する。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

@@ -1,0 +1,1378 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 50001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription500011]",
+          "descriptions": {
+            "zh-CN": "阿姆斯特朗下令死魂灵大军进攻，对攻击力最高的2名敌人造成攻击力×500%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "影の軍勢を進攻させ、攻撃力が高い敵2体に攻撃力×500%の物理攻撃を行う。/ Lv2\\n さらにこのスキルで敵を戦闘不能にできなかった場合、このスキルを再発動する（再発動は1回まで）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription500012]",
+          "descriptions": {
+            "zh-CN": "如果技能目标全部存活，阿姆斯特朗再次发动此技能（最多1次）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "\\n物理攻撃のダメージが攻撃力×600%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription500013]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×600%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "電撃作戦を強化する。電撃作戦の対象が攻撃力が高い敵3体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription500014]",
+          "descriptions": {
+            "zh-CN": ""
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription500011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              50001001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription500012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              50001001,
+              50001202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription500013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              50001301,
+              50001302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription500014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              50001401,
+              50001402
+            ]
+          }
+        ],
+        "Id": 50001,
+        "IsIgnore": null,
+        "Memo": "アームストロングSR:Lv1 影の軍勢を進攻させ、攻撃力が高い敵2体に攻撃力×500%の物理攻撃を行う。/ Lv2\\n さらにこのスキルで敵を戦闘不能にできなかった場合、このスキルを再発動する（再発動は1回まで）。/ Lv3 \\n物理攻撃のダメージが攻撃力×600%になる。/ Ex1 電撃作戦を強化する。電撃作戦の対象が攻撃力が高い敵3体になる。",
+        "NameKey": "[ActiveSkillName50001]",
+        "RootActiveSkillId": 50001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName50001]",
+      "names": {
+        "zh-CN": "闪击战"
+      },
+      "source_memo_ja": "アームストロングSR:Lv1 影の軍勢を進攻させ、攻撃力が高い敵2体に攻撃力×500%の物理攻撃を行う。/ Lv2\\n さらにこのスキルで敵を戦闘不能にできなかった場合、このスキルを再発動する（再発動は1回まで）。/ Lv3 \\n物理攻撃のダメージが攻撃力×600%になる。/ Ex1 電撃作戦を強化する。電撃作戦の対象が攻撃力が高い敵3体になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "影の軍勢を進攻させ、攻撃力が高い敵2体に攻撃力×500%の物理攻撃を行う。/ Lv2\\n さらにこのスキルで敵を戦闘不能にできなかった場合、このスキルを再発動する（再発動は1回まで）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "\\n物理攻撃のダメージが攻撃力×600%になる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "電撃作戦を強化する。電撃作戦の対象が攻撃力が高い敵3体になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 50002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription500021]",
+          "descriptions": {
+            "zh-CN": "死魂灵大军炮火齐发，随机对敌人进行6次攻击，每次造成攻击力×250%的物理伤害。当技能目标的生命值为50%以上时，造成的物理伤害增加为1.5倍。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "影の軍勢による一斉射撃。ランダムな敵に6回攻撃力×250%の物理攻撃を行う。対象のHP割合が50%以上の場合、物理攻撃のダメージが1.5倍になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription500022]",
+          "descriptions": {
+            "zh-CN": "当技能目标的生命值低于50%时，此攻击必定命中。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "\\nさらに対象のHP割合が50%未満の場合、この攻撃は必ず命中する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription500023]",
+          "descriptions": {
+            "zh-CN": "攻击次数增加为8次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "\\n物理攻撃の回数が8回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription500024]",
+          "descriptions": {
+            "zh-CN": "当技能目标的生命值为50%以上时，物理伤害增幅提升为2倍。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "\\n対象のHP割合が50%以上の場合、物理攻撃のダメージが2倍になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription500025]",
+          "descriptions": {
+            "zh-CN": ""
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "一斉射撃を強化する。物理攻撃のダメージが攻撃力×300%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription500021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              50002001,
+              50002002,
+              50002002,
+              50002002,
+              50002002,
+              50002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription500022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              50002201,
+              50002202,
+              50002202,
+              50002202,
+              50002202,
+              50002202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription500023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              50002201,
+              50002202,
+              50002202,
+              50002202,
+              50002202,
+              50002202,
+              50002202,
+              50002202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription500024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              50002401,
+              50002402,
+              50002402,
+              50002402,
+              50002402,
+              50002402,
+              50002402,
+              50002402
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription500025]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              50002501,
+              50002502,
+              50002502,
+              50002502,
+              50002502,
+              50002502,
+              50002502,
+              50002502
+            ]
+          }
+        ],
+        "Id": 50002,
+        "IsIgnore": null,
+        "Memo": "アームストロングSR: Lv1 影の軍勢による一斉射撃。ランダムな敵に6回攻撃力×250%の物理攻撃を行う。対象のHP割合が50%以上の場合、物理攻撃のダメージが1.5倍になる。/ Lv2 \\nさらに対象のHP割合が50%未満の場合、この攻撃は必ず命中する。/Lv3 \\n物理攻撃の回数が8回になる。/Lv4 \\n対象のHP割合が50%以上の場合、物理攻撃のダメージが2倍になる。/ Ex3 一斉射撃を強化する。物理攻撃のダメージが攻撃力×300%になる。",
+        "NameKey": "[ActiveSkillName50002]",
+        "RootActiveSkillId": 50002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName50002]",
+      "names": {
+        "zh-CN": "齐射"
+      },
+      "source_memo_ja": "アームストロングSR: Lv1 影の軍勢による一斉射撃。ランダムな敵に6回攻撃力×250%の物理攻撃を行う。対象のHP割合が50%以上の場合、物理攻撃のダメージが1.5倍になる。/ Lv2 \\nさらに対象のHP割合が50%未満の場合、この攻撃は必ず命中する。/Lv3 \\n物理攻撃の回数が8回になる。/Lv4 \\n対象のHP割合が50%以上の場合、物理攻撃のダメージが2倍になる。/ Ex3 一斉射撃を強化する。物理攻撃のダメージが攻撃力×300%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "影の軍勢による一斉射撃。ランダムな敵に6回攻撃力×250%の物理攻撃を行う。対象のHP割合が50%以上の場合、物理攻撃のダメージが1.5倍になる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "\\nさらに対象のHP割合が50%未満の場合、この攻撃は必ず命中する。"
+        },
+        {
+          "label": "Lv3",
+          "text": "\\n物理攻撃の回数が8回になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "\\n対象のHP割合が50%以上の場合、物理攻撃のダメージが2倍になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "一斉射撃を強化する。物理攻撃のダメージが攻撃力×300%になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 25,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 20.0,
+              "value_text": "+20×角色等级"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 20.0
+              }
+            ],
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 25,
+            "CollectionLevel": 1,
+            "Id": 2501,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "オリオンの撃鉄(アームストロング,ハトホル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 25,
+            "CollectionLevel": 2,
+            "Id": 2502,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "オリオンの撃鉄(アームストロング,ハトホル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 25,
+            "CollectionLevel": 3,
+            "Id": 2503,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "オリオンの撃鉄(アームストロング,ハトホル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 25,
+            "CollectionLevel": 4,
+            "Id": 2504,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "オリオンの撃鉄(アームストロング,ハトホル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 45.0,
+              "value_text": "+45×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 71.0,
+              "value_text": "+71×角色等级"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 45.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 71.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 25,
+            "CollectionLevel": 5,
+            "Id": 2505,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "オリオンの撃鉄(アームストロング,ハトホル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 50.0,
+              "value_text": "+50×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 72.0,
+              "value_text": "+72×角色等级"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 50.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 72.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 25,
+            "CollectionLevel": 6,
+            "Id": 2506,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "オリオンの撃鉄(アームストロング,ハトホル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 55.0,
+              "value_text": "+55×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 73.0,
+              "value_text": "+73×角色等级"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 55.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 73.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 25,
+            "CollectionLevel": 7,
+            "Id": 2507,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "オリオンの撃鉄(アームストロング,ハトホル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 60.0,
+              "value_text": "+60×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 74.0,
+              "value_text": "+74×角色等级"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 60.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 74.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 25,
+            "CollectionLevel": 8,
+            "Id": 2508,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "オリオンの撃鉄(アームストロング,ハトホル)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Energy",
+              "parameter_type": 2,
+              "raw_value": 65.0,
+              "value_text": "+65×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 75.0,
+              "value_text": "+75×角色等级"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 2,
+                "ChangeParameterType": 3,
+                "Value": 65.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 75.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 25,
+            "CollectionLevel": 9,
+            "Id": 2509,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "オリオンの撃鉄(アームストロング,ハトホル)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 25,
+        "IsIgnore": null,
+        "Memo": "オリオンの撃鉄(アームストロング,ハトホル)",
+        "NameKey": "[CharacterCollectionName25]",
+        "RequiredCharacterIds": [
+          50,
+          37
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2023-08-31 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName25]",
+      "names": {
+        "zh-CN": "猎户座的击锤"
+      },
+      "required_character_ids": [
+        50,
+        37
+      ],
+      "required_characters": [
+        {
+          "id": 50,
+          "names": {
+            "zh-CN": "阿姆斯特朗"
+          }
+        },
+        {
+          "id": 37,
+          "names": {
+            "zh-CN": "哈索儿"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2023-08-31 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 1,
+    "element_type": 6,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 50,
+    "job_flags": 2,
+    "master_record": {
+      "ActiveSkillIds": [
+        50001,
+        50002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 104,
+        "Health": 64,
+        "Intelligence": 78,
+        "Muscle": 91
+      },
+      "BaseParameterGrossCoefficient": 337,
+      "CharacterType": 1,
+      "ElementType": 6,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 50,
+      "InitialBattleParameter": {
+        "AttackPower": 3,
+        "Avoidance": 0,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 9,
+        "DefensePenetration": 0,
+        "HP": -2,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 3047
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 2,
+      "Memo": "アームストロング",
+      "Name2Key": "[CharacterSubName50]",
+      "NameKey": "[CharacterName50]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        50003,
+        50004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2023-08-31 15:00:00"
+    },
+    "memo": "アームストロング",
+    "name_key": "[CharacterName50]",
+    "names": {
+      "zh-CN": "阿姆斯特朗"
+    },
+    "speed": 3047,
+    "start_time_jst": "2023-08-31 15:00:00",
+    "subtitle_key": "[CharacterSubName50]",
+    "subtitles": {
+      "zh-CN": "英灵魔女"
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 3626,
+    "exclusive_effect_id": 204,
+    "icon_id": 404,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 3627,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 66,
+        "EquipmentEvolutionId": 76,
+        "EquipmentExclusiveSkillDescriptionId": 34,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 2,
+        "ExclusiveEffectId": 204,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 404,
+        "Id": 3626,
+        "IsIgnore": null,
+        "Memo": "アームストロングLR240_銃",
+        "NameKey": "[EquipmentName399]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": [
+          {
+            "BaseParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 800.0
+          }
+        ],
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 9,
+            "ChangeParameterType": 1,
+            "Value": 3500.0
+          }
+        ],
+        "CharacterId": 50,
+        "Id": 204,
+        "IsIgnore": null,
+        "Memo": "アームストロングLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill50Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill50Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill50Description3]",
+        "Id": 34,
+        "IsIgnore": null,
+        "Memo": "アームストロング銃"
+      }
+    },
+    "name_key": "[EquipmentName399]",
+    "names": {
+      "zh-CN": "1805式魔力型手枪"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "base",
+        "parameter_code": "Energy",
+        "parameter_type": 2,
+        "raw_value": 800.0,
+        "value_text": "+8%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 1,
+        "kind": "battle",
+        "parameter_code": "CriticalDamageEnhance",
+        "parameter_type": 9,
+        "raw_value": 3500.0,
+        "value_text": "+3,500"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill50Description1]",
+        "descriptions": {
+          "zh-CN": "强化闪击战，技能目标增加为攻击力最高的3名敌人。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill50Description2]",
+        "descriptions": {
+          "zh-CN": "强化弹性防御，阻绝60%伤害。每次攻击暴击减少2%阻绝效果（最低降至40%），增加4%攻击力（最多40%）。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill50Description3]",
+        "descriptions": {
+          "zh-CN": "强化齐射，造成的物理伤害提升为攻击力×300%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 50003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription500031]",
+          "descriptions": {
+            "zh-CN": "汝欲和平，必先备战。阿姆斯特朗使自己增加20%暴击伤害强化（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "平和を欲するならば、戦いの準備を。自身のクリティカルダメージが20%増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription500032]",
+          "descriptions": {
+            "zh-CN": "回合开始时，使自己与速度最高的其他友军额外增加20%暴击率，效果持续2回合。此技能须在结束4次行动后才可再次触发。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "\\nさらにターン開始時2ターンの間自身と自身以外のスピードが最も高い味方のクリティカル率を20％増加させる。このスキルは4ターンに1回発動する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription500033]",
+          "descriptions": {
+            "zh-CN": "暴击伤害强化与暴击率增幅提升为40%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "\\nクリティカルダメージとクリティカル率の増加量がそれぞれ40%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 50003,
+        "IsIgnore": null,
+        "Memo": "アームストロングSR:Lv1 平和を欲するならば、戦いの準備を。自身のクリティカルダメージが20%増加する（解除不可）。/ Lv2 \\nさらにターン開始時2ターンの間自身と自身以外のスピードが最も高い味方のクリティカル率を20％増加させる。このスキルは4ターンに1回発動する。/ Lv3 \\nクリティカルダメージとクリティカル率の増加量がそれぞれ40%になる。",
+        "NameKey": "[PassiveSkillName50003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription500031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 50003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription500032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 50003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 50003202
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 50003203
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 50003204
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription500033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 50003301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 50003302
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 50003303
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 50003304
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName50003]",
+      "names": {
+        "zh-CN": "备战"
+      },
+      "source_memo_ja": "アームストロングSR:Lv1 平和を欲するならば、戦いの準備を。自身のクリティカルダメージが20%増加する（解除不可）。/ Lv2 \\nさらにターン開始時2ターンの間自身と自身以外のスピードが最も高い味方のクリティカル率を20％増加させる。このスキルは4ターンに1回発動する。/ Lv3 \\nクリティカルダメージとクリティカル率の増加量がそれぞれ40%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "平和を欲するならば、戦いの準備を。自身のクリティカルダメージが20%増加する（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "\\nさらにターン開始時2ターンの間自身と自身以外のスピードが最も高い味方のクリティカル率を20％増加させる。このスキルは4ターンに1回発動する。"
+        },
+        {
+          "label": "Lv3",
+          "text": "\\nクリティカルダメージとクリティカル率の増加量がそれぞれ40%になる。"
+        }
+      ]
+    },
+    {
+      "id": 50004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription500041]",
+          "descriptions": {
+            "zh-CN": "灵活用兵是北方最强部队的精髓。当阿姆斯特朗受到攻击时，阻绝30%伤害。当阿姆斯特朗的攻击暴击时，使阻绝效果减少2%。每次攻击暴击，再使阻绝效果降幅提升2%（最低降至10%）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "巧みな用兵こそ北部最強と言われた部隊の神髄。自身が攻撃を受けたとき、ダメージを30%遮断する。（遮断された後のダメージ量に対して、他のダメージ軽減（『被ダメージ減少』等）が計算される）自身が攻撃して、クリティカルヒットした場合、遮断の効果が2％減少する。クリティカルヒットした回数1回につき減少量が2％大きくなる（最小10%まで）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription500042]",
+          "descriptions": {
+            "zh-CN": "如果阿姆斯特朗在上一回合的攻击中打出暴击，每回合开始时使自己额外增加2%攻击力（无法被解除）。每次攻击暴击，再使攻击力增幅提升2%（最多20%）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "\\nさらに毎ターン開始時、前のターンに自身が攻撃して、クリティカルヒットした場合、自身の攻撃力が2％増加する（解除不可）。クリティカルヒットした回数1回につき増加量が2％大きくなる（最大20%まで）。/ Lv3\\nダメージを50%遮断する。クリティカルヒットした回数1回につき減少する遮断の効果が2％（最小30％まで）、増加する攻撃力が3％になる（最大30％まで）。/ ExLv2\\n弾性防御を強化する。ダメージを60%遮断する。クリティカルヒットした回数1回につき減少する遮断の効果が2％（最小40％まで）、増加する攻撃力が4％になる（最大40％まで）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription500043]",
+          "descriptions": {
+            "zh-CN": "阻绝50%伤害。每次攻击暴击减少2%阻绝效果（最低降至30%），增加3%攻击力（最多30%）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": null
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[PassiveSkillDescription500044]",
+          "descriptions": {
+            "zh-CN": ""
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "Id": 50004,
+        "IsIgnore": null,
+        "Memo": "アームストロングSR:Lv1 巧みな用兵こそ北部最強と言われた部隊の神髄。自身が攻撃を受けたとき、ダメージを30%遮断する。（遮断された後のダメージ量に対して、他のダメージ軽減（『被ダメージ減少』等）が計算される）自身が攻撃して、クリティカルヒットした場合、遮断の効果が2％減少する。クリティカルヒットした回数1回につき減少量が2％大きくなる（最小10%まで）。/ Lv2 \\nさらに毎ターン開始時、前のターンに自身が攻撃して、クリティカルヒットした場合、自身の攻撃力が2％増加する（解除不可）。クリティカルヒットした回数1回につき増加量が2％大きくなる（最大20%まで）。/ Lv3\\nダメージを50%遮断する。クリティカルヒットした回数1回につき減少する遮断の効果が2％（最小30％まで）、増加する攻撃力が3％になる（最大30％まで）。/ ExLv2\\n弾性防御を強化する。ダメージを60%遮断する。クリティカルヒットした回数1回につき減少する遮断の効果が2％（最小40％まで）、増加する攻撃力が4％になる（最大40％まで）。",
+        "NameKey": "[PassiveSkillName50004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription500041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 50004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription500042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 50004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 50004202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription500043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 50004301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 50004302
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[PassiveSkillDescription500044]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 50004401
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 50004402
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName50004]",
+      "names": {
+        "zh-CN": "弹性防御"
+      },
+      "source_memo_ja": "アームストロングSR:Lv1 巧みな用兵こそ北部最強と言われた部隊の神髄。自身が攻撃を受けたとき、ダメージを30%遮断する。（遮断された後のダメージ量に対して、他のダメージ軽減（『被ダメージ減少』等）が計算される）自身が攻撃して、クリティカルヒットした場合、遮断の効果が2％減少する。クリティカルヒットした回数1回につき減少量が2％大きくなる（最小10%まで）。/ Lv2 \\nさらに毎ターン開始時、前のターンに自身が攻撃して、クリティカルヒットした場合、自身の攻撃力が2％増加する（解除不可）。クリティカルヒットした回数1回につき増加量が2％大きくなる（最大20%まで）。/ Lv3\\nダメージを50%遮断する。クリティカルヒットした回数1回につき減少する遮断の効果が2％（最小30％まで）、増加する攻撃力が3％になる（最大30％まで）。/ ExLv2\\n弾性防御を強化する。ダメージを60%遮断する。クリティカルヒットした回数1回につき減少する遮断の効果が2％（最小40％まで）、増加する攻撃力が4％になる（最大40％まで）。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "巧みな用兵こそ北部最強と言われた部隊の神髄。自身が攻撃を受けたとき、ダメージを30%遮断する。（遮断された後のダメージ量に対して、他のダメージ軽減（『被ダメージ減少』等）が計算される）自身が攻撃して、クリティカルヒットした場合、遮断の効果が2％減少する。クリティカルヒットした回数1回につき減少量が2％大きくなる（最小10%まで）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "\\nさらに毎ターン開始時、前のターンに自身が攻撃して、クリティカルヒットした場合、自身の攻撃力が2％増加する（解除不可）。クリティカルヒットした回数1回につき増加量が2％大きくなる（最大20%まで）。/ Lv3\\nダメージを50%遮断する。クリティカルヒットした回数1回につき減少する遮断の効果が2％（最小30％まで）、増加する攻撃力が3％になる（最大30％まで）。/ ExLv2\\n弾性防御を強化する。ダメージを60%遮断する。クリティカルヒットした回数1回につき減少する遮断の効果が2％（最小40％まで）、増加する攻撃力が4％になる（最大40％まで）。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

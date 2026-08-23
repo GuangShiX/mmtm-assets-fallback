@@ -1,0 +1,593 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 4001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription40011]",
+          "descriptions": {
+            "zh-CN": "“跟大姐姐一起跳舞吧？”洛基对攻击力最高的敌人造成攻击力×350%的物理伤害。“这是我们两人之间的小秘密哦～”30%概率对技能目标附加「沉默」状态，效果持续1回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「お姉さんと一緒に踊りましょう？」攻撃力が最も高い敵に攻撃力×350%の物理攻撃を行う。「これは二人だけのヒミツよ」30％の確率で対象に1ターンの間『沈黙』を付与する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[ActiveSkillDescription40012]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×370%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "物理攻撃のダメージが攻撃力×370%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[ActiveSkillDescription40013]",
+          "descriptions": {
+            "zh-CN": "附加「沉默」状态的概率提升为50%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "『沈黙』を付与する確率が50％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription40011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              4001001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[ActiveSkillDescription40012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              4001201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[ActiveSkillDescription40013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              4001301
+            ]
+          }
+        ],
+        "Id": 4001,
+        "IsIgnore": null,
+        "Memo": "ロキR: /Lv1　「お姉さんと一緒に踊りましょう？」攻撃力が最も高い敵に攻撃力×350%の物理攻撃を行う。「これは二人だけのヒミツよ」30％の確率で対象に1ターンの間『沈黙』を付与する。　/Lv2 物理攻撃のダメージが攻撃力×370%になる。　/Lv3 『沈黙』を付与する確率が50％になる。",
+        "NameKey": "[ActiveSkillName4001]",
+        "RootActiveSkillId": 4001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName4001]",
+      "names": {
+        "zh-CN": "桃色陷阱"
+      },
+      "source_memo_ja": "ロキR: /Lv1　「お姉さんと一緒に踊りましょう？」攻撃力が最も高い敵に攻撃力×350%の物理攻撃を行う。「これは二人だけのヒミツよ」30％の確率で対象に1ターンの間『沈黙』を付与する。　/Lv2 物理攻撃のダメージが攻撃力×370%になる。　/Lv3 『沈黙』を付与する確率が50％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「お姉さんと一緒に踊りましょう？」攻撃力が最も高い敵に攻撃力×350%の物理攻撃を行う。「これは二人だけのヒミツよ」30％の確率で対象に1ターンの間『沈黙』を付与する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "物理攻撃のダメージが攻撃力×370%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "『沈黙』を付与する確率が50％になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 4002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription40021]",
+          "descriptions": {
+            "zh-CN": "料事如神的塔罗牌预言“厄运”，对当前生命值最低的敌人造成攻击力×380%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "百発百中のタロットカードが「災厄の運命」を予言し、現在HPが最も低い敵に攻撃力×380%の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription40022]",
+          "descriptions": {
+            "zh-CN": "如果技能目标失去战斗能力，洛基额外获得攻击力×200%的「护盾」，效果持续4回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらにこのスキルで敵を戦闘不能にした場合、4ターンの間自身に自身の攻撃力×200％の『シールド』を付与する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription40023]",
+          "descriptions": {
+            "zh-CN": "「护盾」值提升为攻击力×300%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "『シールド』の大きさが自身の攻撃力×300％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[ActiveSkillDescription40024]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×420%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "物理攻撃のダメージが攻撃力×420%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription40021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              4002001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription40022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              4002201,
+              4002202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription40023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              4002301,
+              4002302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[ActiveSkillDescription40024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              4002401,
+              4002402
+            ]
+          }
+        ],
+        "Id": 4002,
+        "IsIgnore": null,
+        "Memo": "ロキR: /Lv1　百発百中のタロットカードが「災厄の運命」を予言し、現在HPが最も低い敵に攻撃力×380%の物理攻撃を行う。　/Lv2 さらにこのスキルで敵を戦闘不能にした場合、4ターンの間自身に自身の攻撃力×200％の『シールド』を付与する。/Lv3 『シールド』の大きさが自身の攻撃力×300％になる。　/Lv4 物理攻撃のダメージが攻撃力×420%になる。",
+        "NameKey": "[ActiveSkillName4002]",
+        "RootActiveSkillId": 4002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName4002]",
+      "names": {
+        "zh-CN": "塔罗牌：高塔"
+      },
+      "source_memo_ja": "ロキR: /Lv1　百発百中のタロットカードが「災厄の運命」を予言し、現在HPが最も低い敵に攻撃力×380%の物理攻撃を行う。　/Lv2 さらにこのスキルで敵を戦闘不能にした場合、4ターンの間自身に自身の攻撃力×200％の『シールド』を付与する。/Lv3 『シールド』の大きさが自身の攻撃力×300％になる。　/Lv4 物理攻撃のダメージが攻撃力×420%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "百発百中のタロットカードが「災厄の運命」を予言し、現在HPが最も低い敵に攻撃力×380%の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらにこのスキルで敵を戦闘不能にした場合、4ターンの間自身に自身の攻撃力×200％の『シールド』を付与する。"
+        },
+        {
+          "label": "Lv3",
+          "text": "『シールド』の大きさが自身の攻撃力×300％になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "物理攻撃のダメージが攻撃力×420%になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 88,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 88,
+            "CollectionLevel": 1,
+            "Id": 8801,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 1,
+            "Memo": "アルニタクの開花​(ロキ,ペトラ,リブラ,ソテイラ)"
+          },
+          "max_level_increase": 1
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 88,
+            "CollectionLevel": 2,
+            "Id": 8802,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 3,
+            "Memo": "アルニタクの開花​(ロキ,ペトラ,リブラ,ソテイラ)"
+          },
+          "max_level_increase": 3
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 88,
+            "CollectionLevel": 3,
+            "Id": 8803,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 5,
+            "Memo": "アルニタクの開花​(ロキ,ペトラ,リブラ,ソテイラ)"
+          },
+          "max_level_increase": 5
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 88,
+        "IsIgnore": null,
+        "Memo": "アルニタクの開花​(ロキ,ペトラ,リブラ,ソテイラ)",
+        "NameKey": "[CharacterCollectionName88]",
+        "RequiredCharacterIds": [
+          4,
+          14,
+          24,
+          34
+        ],
+        "RequiredPartyLv": 300,
+        "StartTimeFixJST": "2025-10-16 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName88]",
+      "names": {
+        "zh-CN": "金粟星的绽放"
+      },
+      "required_character_ids": [
+        4,
+        14,
+        24,
+        34
+      ],
+      "required_characters": [
+        {
+          "id": 4,
+          "names": {
+            "zh-CN": "洛基"
+          }
+        },
+        {
+          "id": 14,
+          "names": {
+            "zh-CN": "佩特拉"
+          }
+        },
+        {
+          "id": 24,
+          "names": {
+            "zh-CN": "莉布拉"
+          }
+        },
+        {
+          "id": 34,
+          "names": {
+            "zh-CN": "索缇莉亚"
+          }
+        }
+      ],
+      "required_party_level": 300,
+      "start_time_jst": "2025-10-16 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 1,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 4,
+    "job_flags": 2,
+    "master_record": {
+      "ActiveSkillIds": [
+        4001,
+        4002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 100,
+        "Health": 68,
+        "Intelligence": 84,
+        "Muscle": 85
+      },
+      "BaseParameterGrossCoefficient": 337,
+      "CharacterType": 0,
+      "ElementType": 1,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 4,
+      "InitialBattleParameter": {
+        "AttackPower": 0,
+        "Avoidance": 0,
+        "Critical": 3,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 6,
+        "DefensePenetration": 0,
+        "HP": 3,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 3066
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 32,
+      "JobFlags": 2,
+      "Memo": "ロキ",
+      "Name2Key": null,
+      "NameKey": "[CharacterName4]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        4003
+      ],
+      "RarityFlags": 2,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2020-01-01 00:00:00"
+    },
+    "memo": "ロキ",
+    "name_key": "[CharacterName4]",
+    "names": {
+      "zh-CN": "洛基"
+    },
+    "speed": 3066,
+    "start_time_jst": "2020-01-01 00:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": null,
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 4003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription40031]",
+          "descriptions": {
+            "zh-CN": "自己的命运由自己决定。洛基依照自己的意志抽出战车牌，使自己增加10%速度（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "自分の運命は自分で決める。自らの意思で戦車のカードを引き、自身のスピードが10％増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[PassiveSkillDescription40032]",
+          "descriptions": {
+            "zh-CN": "额外增加10%暴击率（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに自身のクリティカル確率が10％増加する（解除不可）。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 4003,
+        "IsIgnore": null,
+        "Memo": "ロキR: /Lv1　自分の運命は自分で決める。自らの意思で戦車のカードを引き、自身のスピードが10％増加する（解除不可）。　/Lv2 さらに自身のクリティカル確率が10％増加する（解除不可）。",
+        "NameKey": "[PassiveSkillName4003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription40031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 28,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 4003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[PassiveSkillDescription40032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 28,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 4003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 4003201
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName4003]",
+      "names": {
+        "zh-CN": "塔罗牌：战车"
+      },
+      "source_memo_ja": "ロキR: /Lv1　自分の運命は自分で決める。自らの意思で戦車のカードを引き、自身のスピードが10％増加する（解除不可）。　/Lv2 さらに自身のクリティカル確率が10％増加する（解除不可）。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "自分の運命は自分で決める。自らの意思で戦車のカードを引き、自身のスピードが10％増加する（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに自身のクリティカル確率が10％増加する（解除不可）。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

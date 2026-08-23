@@ -1,0 +1,583 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 3001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription30011]",
+          "descriptions": {
+            "zh-CN": "艾莉丝对领主的忠心耿耿化作力量，随机对3名敌人造成攻击力×320%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "領主への篤い忠誠が力となり、ランダムな敵3体に攻撃力×320％の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[ActiveSkillDescription30012]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×350%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "物理攻撃のダメージが攻撃力×350%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[ActiveSkillDescription30013]",
+          "descriptions": {
+            "zh-CN": "技能目标增加为5名随机敌人。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "このスキルの対象がランダムな敵5体になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription30011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              3001001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[ActiveSkillDescription30012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              3001201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[ActiveSkillDescription30013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              3001301
+            ]
+          }
+        ],
+        "Id": 3001,
+        "IsIgnore": null,
+        "Memo": "アイリスR: /Lv1　領主への篤い忠誠が力となり、ランダムな敵3体に攻撃力×320％の物理攻撃を行う。　/Lv2 物理攻撃のダメージが攻撃力×350%になる。　/Lv3 このスキルの対象がランダムな敵5体になる。",
+        "NameKey": "[ActiveSkillName3001]",
+        "RootActiveSkillId": 3001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName3001]",
+      "names": {
+        "zh-CN": "保卫者之刃"
+      },
+      "source_memo_ja": "アイリスR: /Lv1　領主への篤い忠誠が力となり、ランダムな敵3体に攻撃力×320％の物理攻撃を行う。　/Lv2 物理攻撃のダメージが攻撃力×350%になる。　/Lv3 このスキルの対象がランダムな敵5体になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "領主への篤い忠誠が力となり、ランダムな敵3体に攻撃力×320％の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "物理攻撃のダメージが攻撃力×350%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "このスキルの対象がランダムな敵5体になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 3002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription30021]",
+          "descriptions": {
+            "zh-CN": "艾莉丝将保护领主的决心灌注于剑刃，随机对3名敌人造成攻击力×340%的物理伤害。这份决心化作魔力侵蚀对手，对技能目标附加「流血」状态，效果持续2回合，每回合行动开始时造成艾莉丝攻击力×20%的伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "領主を守るという決意を込めた刃で、ランダムな敵3体に攻撃力×340％の物理攻撃を行う。決意は魔力となって相手を侵し、対象に2ターンの間『出血』を付与する。毎ターン行動開始時に自身の攻撃力×20％のダメージを与える。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription30022]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×360%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "物理攻撃のダメージが攻撃力×360％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription30023]",
+          "descriptions": {
+            "zh-CN": "「流血」造成的伤害提升为艾莉丝攻击力×35%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "『出血』のダメージが自身の攻撃力×35％になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[ActiveSkillDescription30024]",
+          "descriptions": {
+            "zh-CN": "技能目标增加为5名随机敌人。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "このスキルの対象がランダムな敵5体になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription30021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              3002001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription30022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              3002201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription30023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              3002301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[ActiveSkillDescription30024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              3002401
+            ]
+          }
+        ],
+        "Id": 3002,
+        "IsIgnore": null,
+        "Memo": "アイリスR: /Lv1　領主を守るという決意を込めた刃で、ランダムな敵3体に攻撃力×340％の物理攻撃を行う。決意は魔力となって相手を侵し、対象に2ターンの間『出血』を付与する。毎ターン行動開始時に自身の攻撃力×20％のダメージを与える。　/Lv2 物理攻撃のダメージが攻撃力×360％になる。　/Lv3 『出血』のダメージが自身の攻撃力×35％になる。　/Lv4 このスキルの対象がランダムな敵5体になる。",
+        "NameKey": "[ActiveSkillName3002]",
+        "RootActiveSkillId": 3002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName3002]",
+      "names": {
+        "zh-CN": "忠诚的魔刃"
+      },
+      "source_memo_ja": "アイリスR: /Lv1　領主を守るという決意を込めた刃で、ランダムな敵3体に攻撃力×340％の物理攻撃を行う。決意は魔力となって相手を侵し、対象に2ターンの間『出血』を付与する。毎ターン行動開始時に自身の攻撃力×20％のダメージを与える。　/Lv2 物理攻撃のダメージが攻撃力×360％になる。　/Lv3 『出血』のダメージが自身の攻撃力×35％になる。　/Lv4 このスキルの対象がランダムな敵5体になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "領主を守るという決意を込めた刃で、ランダムな敵3体に攻撃力×340％の物理攻撃を行う。決意は魔力となって相手を侵し、対象に2ターンの間『出血』を付与する。毎ターン行動開始時に自身の攻撃力×20％のダメージを与える。"
+        },
+        {
+          "label": "Lv2",
+          "text": "物理攻撃のダメージが攻撃力×360％になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "『出血』のダメージが自身の攻撃力×35％になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "このスキルの対象がランダムな敵5体になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 71,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 71,
+            "CollectionLevel": 1,
+            "Id": 7101,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 1,
+            "Memo": "ミンタカの開花(アイリス,テオドラ,ロザリー,チェルナ)"
+          },
+          "max_level_increase": 1
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 71,
+            "CollectionLevel": 2,
+            "Id": 7102,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 3,
+            "Memo": "ミンタカの開花(アイリス,テオドラ,ロザリー,チェルナ)"
+          },
+          "max_level_increase": 3
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 71,
+            "CollectionLevel": 3,
+            "Id": 7103,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 5,
+            "Memo": "ミンタカの開花(アイリス,テオドラ,ロザリー,チェルナ)"
+          },
+          "max_level_increase": 5
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 71,
+        "IsIgnore": null,
+        "Memo": "ミンタカの開花(アイリス,テオドラ,ロザリー,チェルナ)",
+        "NameKey": "[CharacterCollectionName71]",
+        "RequiredCharacterIds": [
+          3,
+          13,
+          23,
+          33
+        ],
+        "RequiredPartyLv": 300,
+        "StartTimeFixJST": "2025-04-15 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName71]",
+      "names": {
+        "zh-CN": "腰带星的绽放"
+      },
+      "required_character_ids": [
+        3,
+        13,
+        23,
+        33
+      ],
+      "required_characters": [
+        {
+          "id": 3,
+          "names": {
+            "zh-CN": "艾莉丝"
+          }
+        },
+        {
+          "id": 13,
+          "names": {
+            "zh-CN": "狄奥多拉"
+          }
+        },
+        {
+          "id": 23,
+          "names": {
+            "zh-CN": "罗莎莉"
+          }
+        },
+        {
+          "id": 33,
+          "names": {
+            "zh-CN": "切尔娜"
+          }
+        }
+      ],
+      "required_party_level": 300,
+      "start_time_jst": "2025-04-15 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 1,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 3,
+    "job_flags": 1,
+    "master_record": {
+      "ActiveSkillIds": [
+        3001,
+        3002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 85,
+        "Health": 69,
+        "Intelligence": 85,
+        "Muscle": 99
+      },
+      "BaseParameterGrossCoefficient": 338,
+      "CharacterType": 0,
+      "ElementType": 1,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 3,
+      "InitialBattleParameter": {
+        "AttackPower": 3,
+        "Avoidance": 0,
+        "Critical": -3,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 3,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 10,
+        "DefensePenetration": 0,
+        "HP": -3,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 3133
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 32,
+      "JobFlags": 1,
+      "Memo": "アイリス",
+      "Name2Key": null,
+      "NameKey": "[CharacterName3]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        3003
+      ],
+      "RarityFlags": 2,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2020-01-01 00:00:00"
+    },
+    "memo": "アイリス",
+    "name_key": "[CharacterName3]",
+    "names": {
+      "zh-CN": "艾莉丝"
+    },
+    "speed": 3133,
+    "start_time_jst": "2020-01-01 00:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": null,
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 3003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription30031]",
+          "descriptions": {
+            "zh-CN": "艾莉丝对领主的感情深藏在心中，化作她的魔力。战斗开始时，艾莉丝使攻击力最高的友军获得1层「多重屏障」（无法被解除）。当技能目标受到最大生命值×10%以上的伤害时，消耗1层屏障来抵消该伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "胸に秘めた領主への想いが魔力へと変わり、バトル開始時攻撃力が最も高い味方に1層の『多重バリア』を付与する（解除不可）。最大HP×10％以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[PassiveSkillDescription30032]",
+          "descriptions": {
+            "zh-CN": "「多重屏障」存在期间，技能目标额外获得「弱化效果免疫」状态（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに攻撃力が最も高い味方が『多重バリア』を付帯している間『弱体効果無効』を付与する（解除不可）。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 3003,
+        "IsIgnore": null,
+        "Memo": "アイリスR: /Lv1　胸に秘めた領主への想いが魔力へと変わり、バトル開始時攻撃力が最も高い味方に1層の『多重バリア』を付与する（解除不可）。最大HP×10％以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。　/Lv2 さらに攻撃力が最も高い味方が『多重バリア』を付帯している間『弱体効果無効』を付与する（解除不可）。",
+        "NameKey": "[PassiveSkillName3003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription30031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 3003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[PassiveSkillDescription30032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 3003201
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName3003]",
+      "names": {
+        "zh-CN": "不言之情"
+      },
+      "source_memo_ja": "アイリスR: /Lv1　胸に秘めた領主への想いが魔力へと変わり、バトル開始時攻撃力が最も高い味方に1層の『多重バリア』を付与する（解除不可）。最大HP×10％以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。　/Lv2 さらに攻撃力が最も高い味方が『多重バリア』を付帯している間『弱体効果無効』を付与する（解除不可）。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "胸に秘めた領主への想いが魔力へと変わり、バトル開始時攻撃力が最も高い味方に1層の『多重バリア』を付与する（解除不可）。最大HP×10％以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに攻撃力が最も高い味方が『多重バリア』を付帯している間『弱体効果無効』を付与する（解除不可）。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

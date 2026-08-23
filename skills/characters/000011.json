@@ -1,0 +1,236 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 11001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription110011]",
+          "descriptions": {
+            "zh-CN": "夏乐的隐藏人格爆发，随机对1名敌人造成攻击力×130%的物理伤害。性情大变的攻击行为令敌人丧失斗志，使技能目标减少20%攻击力，效果持续2回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "裏の人格が飛び出し、ランダムな敵1体に攻撃力×130％の物理攻撃を行う。豹変したまま攻撃する事で敵の戦意を喪失させ、2ターンの間対象の攻撃力を20％減少させる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription110011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              11001001
+            ]
+          }
+        ],
+        "Id": 11001,
+        "IsIgnore": null,
+        "Memo": "シャーロットN: /Lv1　裏の人格が飛び出し、ランダムな敵1体に攻撃力×130％の物理攻撃を行う。豹変したまま攻撃する事で敵の戦意を喪失させ、2ターンの間対象の攻撃力を20％減少させる。",
+        "NameKey": "[ActiveSkillName11001]",
+        "RootActiveSkillId": 11001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName11001]",
+      "names": {
+        "zh-CN": "阴暗面"
+      },
+      "source_memo_ja": "シャーロットN: /Lv1　裏の人格が飛び出し、ランダムな敵1体に攻撃力×130％の物理攻撃を行う。豹変したまま攻撃する事で敵の戦意を喪失させ、2ターンの間対象の攻撃力を20％減少させる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "裏の人格が飛び出し、ランダムな敵1体に攻撃力×130％の物理攻撃を行う。豹変したまま攻撃する事で敵の戦意を喪失させ、2ターンの間対象の攻撃力を20％減少させる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 11002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription110021]",
+          "descriptions": {
+            "zh-CN": "夏乐极力忍让，想避免不必要的伤亡却反被打伤，导致隐藏人格现身大肆破坏，随机对敌人进行3次攻击，每次造成攻击力×120%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "相手を必要以上に傷つけないように我慢していたが、傷つけられた事で裏の人格が出現して暴れ回り、ランダムな敵に3回攻撃力×120％の物理攻撃を行う。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription110021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              11002001,
+              11002002,
+              11002003
+            ]
+          }
+        ],
+        "Id": 11002,
+        "IsIgnore": null,
+        "Memo": "シャーロットN: /Lv1　相手を必要以上に傷つけないように我慢していたが、傷つけられた事で裏の人格が出現して暴れ回り、ランダムな敵に3回攻撃力×120％の物理攻撃を行う。",
+        "NameKey": "[ActiveSkillName11002]",
+        "RootActiveSkillId": 11002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName11002]",
+      "names": {
+        "zh-CN": "隐藏人格・狂笑"
+      },
+      "source_memo_ja": "シャーロットN: /Lv1　相手を必要以上に傷つけないように我慢していたが、傷つけられた事で裏の人格が出現して暴れ回り、ランダムな敵に3回攻撃力×120％の物理攻撃を行う。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "相手を必要以上に傷つけないように我慢していたが、傷つけられた事で裏の人格が出現して暴れ回り、ランダムな敵に3回攻撃力×120％の物理攻撃を行う。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [],
+  "character": {
+    "character_type": 0,
+    "element_type": 2,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 11,
+    "job_flags": 1,
+    "master_record": {
+      "ActiveSkillIds": [
+        11001,
+        11002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 85,
+        "Health": 69,
+        "Intelligence": 84,
+        "Muscle": 100
+      },
+      "BaseParameterGrossCoefficient": 338,
+      "CharacterType": 0,
+      "ElementType": 2,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 11,
+      "InitialBattleParameter": {
+        "AttackPower": 2,
+        "Avoidance": 0,
+        "Critical": -3,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 2,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 10,
+        "DefensePenetration": 0,
+        "HP": -3,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 3,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 2716
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 0,
+      "JobFlags": 1,
+      "Memo": "シャーロット",
+      "Name2Key": null,
+      "NameKey": "[CharacterName11]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [],
+      "RarityFlags": 1,
+      "RequireFragmentCount": 0,
+      "StartTimeFixJST": "2020-01-01 00:00:00"
+    },
+    "memo": "シャーロット",
+    "name_key": "[CharacterName11]",
+    "names": {
+      "zh-CN": "夏乐"
+    },
+    "speed": 2716,
+    "start_time_jst": "2020-01-01 00:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": null,
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

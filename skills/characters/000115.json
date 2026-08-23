@@ -1,0 +1,1340 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 115001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription1150011]",
+          "descriptions": {
+            "zh-CN": "“老师，请看着我……”波普莉获得1层「言灵魔咒」（最多5层）（无法被解除）。每层「言灵魔咒」使波普莉增加4%命中率。“吹、吹飞他们～～！”再对速度最高的敌人进行4次攻击，每次造成攻击力×210%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「見ていてください、先生」自身に『言霊のおまじない』を1スタック付与する（最大5スタックまで）（解除不可）。このバフは1スタックにつき自身の命中率を4%増加させる。「ふ、吹き飛べ～～」その後スピードが最も高い敵に4回攻撃力×210%の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription1150012]",
+          "descriptions": {
+            "zh-CN": "发动攻击前，如果波普莉身上附带的「言灵魔咒」达3层以上，造成的物理伤害提升为攻击力×630%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "物理攻撃の前に自身の『言霊のおまじない』のスタック数が3以上の場合、物理攻撃のダメージが攻撃力×630%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1150013]",
+          "descriptions": {
+            "zh-CN": "当队伍中的其他流金属性友军数为2名以上时，获得的「言灵魔咒」层数增加为2层。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらに自身以外の黄属性の味方の編成数が2体以上の場合、『言霊のおまじない』の付与スタック数が2になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1150014]",
+          "descriptions": {
+            "zh-CN": "强化灵言之风，攻击次数增加为6次。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "言ノ葉の風を強化する。物理攻撃の回数が6回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription1150015]",
+          "descriptions": {
+            "zh-CN": "强化灵言之风，命中率增幅提升为5%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "言ノ葉の風を強化する。命中率の増加量が5%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription1150011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              115001001,
+              115001002,
+              115001003,
+              115001003,
+              115001003
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription1150012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              115001001,
+              115001202,
+              115001203,
+              115001203,
+              115001203
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1150013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              115001301,
+              115001202,
+              115001203,
+              115001203,
+              115001203
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1150014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              115001301,
+              115001402,
+              115001403,
+              115001403,
+              115001403,
+              115001403,
+              115001403
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription1150015]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              115001501,
+              115001402,
+              115001403,
+              115001403,
+              115001403,
+              115001403,
+              115001403
+            ]
+          }
+        ],
+        "Id": 115001,
+        "IsIgnore": null,
+        "Memo": "ポプリSR:Lv1 「見ていてください、先生」自身に『言霊のおまじない』を1スタック付与する（最大5スタックまで）（解除不可）。このバフは1スタックにつき自身の命中率を4%増加させる。「ふ、吹き飛べ～～」その後スピードが最も高い敵に4回攻撃力×210%の物理攻撃を行う。/ Lv2 物理攻撃の前に自身の『言霊のおまじない』のスタック数が3以上の場合、物理攻撃のダメージが攻撃力×630%になる。/ Lv3 さらに自身以外の黄属性の味方の編成数が2体以上の場合、『言霊のおまじない』の付与スタック数が2になる。/ Ex1 言ノ葉の風を強化する。物理攻撃の回数が6回になる。/ Ex3 言ノ葉の風を強化する。命中率の増加量が5%になる。",
+        "NameKey": "[ActiveSkillName115001]",
+        "RootActiveSkillId": 115001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName115001]",
+      "names": {
+        "zh-CN": "灵言之风"
+      },
+      "source_memo_ja": "ポプリSR:Lv1 「見ていてください、先生」自身に『言霊のおまじない』を1スタック付与する（最大5スタックまで）（解除不可）。このバフは1スタックにつき自身の命中率を4%増加させる。「ふ、吹き飛べ～～」その後スピードが最も高い敵に4回攻撃力×210%の物理攻撃を行う。/ Lv2 物理攻撃の前に自身の『言霊のおまじない』のスタック数が3以上の場合、物理攻撃のダメージが攻撃力×630%になる。/ Lv3 さらに自身以外の黄属性の味方の編成数が2体以上の場合、『言霊のおまじない』の付与スタック数が2になる。/ Ex1 言ノ葉の風を強化する。物理攻撃の回数が6回になる。/ Ex3 言ノ葉の風を強化する。命中率の増加量が5%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「見ていてください、先生」自身に『言霊のおまじない』を1スタック付与する（最大5スタックまで）（解除不可）。このバフは1スタックにつき自身の命中率を4%増加させる。「ふ、吹き飛べ～～」その後スピードが最も高い敵に4回攻撃力×210%の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "物理攻撃の前に自身の『言霊のおまじない』のスタック数が3以上の場合、物理攻撃のダメージが攻撃力×630%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらに自身以外の黄属性の味方の編成数が2体以上の場合、『言霊のおまじない』の付与スタック数が2になる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "言ノ葉の風を強化する。物理攻撃の回数が6回になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "言ノ葉の風を強化する。命中率の増加量が5%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 115002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription1150021]",
+          "descriptions": {
+            "zh-CN": "“会有点冷哦～”波普莉以言灵之力召唤冰砾砸向敌人，对速度最高的敌人进行3次攻击，每次造成攻击力×340%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「ちょっと冷えますよ～」言霊によって生み出された氷の礫が敵に向かう。スピードが最も高い敵に3回攻撃力×340%の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription1150022]",
+          "descriptions": {
+            "zh-CN": "发动攻击前，如果波普莉身上附带的「言灵魔咒」达3层以上，造成的物理伤害提升为攻击力×1020%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "物理攻撃の前に自身の『言霊のおまじない』のスタック数が3以上の場合、物理攻撃のダメージが攻撃力×1020%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription1150023]",
+          "descriptions": {
+            "zh-CN": "发动攻击前，如果波普莉身上附带的「言灵魔咒」达5层，造成的物理伤害提升为攻击力×2720%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃の前に自身の『言霊のおまじない』のスタック数が5の場合、物理攻撃のダメージが攻撃力×2720%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription1150024]",
+          "descriptions": {
+            "zh-CN": "攻击次数增加为4次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "物理攻撃の回数が4回になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription1150021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              115002001,
+              115002002,
+              115002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription1150022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              115002201,
+              115002202,
+              115002202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription1150023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              115002301,
+              115002302,
+              115002302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription1150024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              115002301,
+              115002302,
+              115002302,
+              115002302
+            ]
+          }
+        ],
+        "Id": 115002,
+        "IsIgnore": null,
+        "Memo": "ポプリSR:Lv1 「ちょっと冷えますよ～」言霊によって生み出された氷の礫が敵に向かう。スピードが最も高い敵に3回攻撃力×340%の物理攻撃を行う。/ Lv2 物理攻撃の前に自身の『言霊のおまじない』のスタック数が3以上の場合、物理攻撃のダメージが攻撃力×1020%になる。/ Lv3 物理攻撃の前に自身の『言霊のおまじない』のスタック数が5の場合、物理攻撃のダメージが攻撃力×2720%になる。/ Lv4 物理攻撃の回数が4回になる。",
+        "NameKey": "[ActiveSkillName115002]",
+        "RootActiveSkillId": 115002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName115002]",
+      "names": {
+        "zh-CN": "急冻之声"
+      },
+      "source_memo_ja": "ポプリSR:Lv1 「ちょっと冷えますよ～」言霊によって生み出された氷の礫が敵に向かう。スピードが最も高い敵に3回攻撃力×340%の物理攻撃を行う。/ Lv2 物理攻撃の前に自身の『言霊のおまじない』のスタック数が3以上の場合、物理攻撃のダメージが攻撃力×1020%になる。/ Lv3 物理攻撃の前に自身の『言霊のおまじない』のスタック数が5の場合、物理攻撃のダメージが攻撃力×2720%になる。/ Lv4 物理攻撃の回数が4回になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「ちょっと冷えますよ～」言霊によって生み出された氷の礫が敵に向かう。スピードが最も高い敵に3回攻撃力×340%の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "物理攻撃の前に自身の『言霊のおまじない』のスタック数が3以上の場合、物理攻撃のダメージが攻撃力×1020%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃の前に自身の『言霊のおまじない』のスタック数が5の場合、物理攻撃のダメージが攻撃力×2720%になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "物理攻撃の回数が4回になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 69,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 69,
+            "CollectionLevel": 1,
+            "Id": 6901,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "フォルナックスの勇気(ポプリ,マーリン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 15.0,
+              "value_text": "+15×角色等级"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              },
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 15.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 69,
+            "CollectionLevel": 2,
+            "Id": 6902,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "フォルナックスの勇気(ポプリ,マーリン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 15.0,
+              "value_text": "+15×角色等级"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              },
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 15.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 69,
+            "CollectionLevel": 3,
+            "Id": 6903,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "フォルナックスの勇気(ポプリ,マーリン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 15.0,
+              "value_text": "+15×角色等级"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              },
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 15.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 69,
+            "CollectionLevel": 4,
+            "Id": 6904,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "フォルナックスの勇気(ポプリ,マーリン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 75.0,
+              "value_text": "+75×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 16.0,
+              "value_text": "+16×角色等级"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 75.0
+              },
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 16.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 69,
+            "CollectionLevel": 5,
+            "Id": 6905,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "フォルナックスの勇気(ポプリ,マーリン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 80.0,
+              "value_text": "+80×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 17.0,
+              "value_text": "+17×角色等级"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 80.0
+              },
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 17.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 69,
+            "CollectionLevel": 6,
+            "Id": 6906,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "フォルナックスの勇気(ポプリ,マーリン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 85.0,
+              "value_text": "+85×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 18.0,
+              "value_text": "+18×角色等级"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 85.0
+              },
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 18.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 69,
+            "CollectionLevel": 7,
+            "Id": 6907,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "フォルナックスの勇気(ポプリ,マーリン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 90.0,
+              "value_text": "+90×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 19.0,
+              "value_text": "+19×角色等级"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 90.0
+              },
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 19.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 69,
+            "CollectionLevel": 8,
+            "Id": 6908,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "フォルナックスの勇気(ポプリ,マーリン)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Critical",
+              "parameter_type": 7,
+              "raw_value": 95.0,
+              "value_text": "+95×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Defense",
+              "parameter_type": 13,
+              "raw_value": 20.0,
+              "value_text": "+20×角色等级"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 7,
+                "ChangeParameterType": 3,
+                "Value": 95.0
+              },
+              {
+                "BattleParameterType": 13,
+                "ChangeParameterType": 3,
+                "Value": 20.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 69,
+            "CollectionLevel": 9,
+            "Id": 6909,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "フォルナックスの勇気(ポプリ,マーリン)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 69,
+        "IsIgnore": null,
+        "Memo": "フォルナックスの勇気(ポプリ,マーリン)",
+        "NameKey": "[CharacterCollectionName69]",
+        "RequiredCharacterIds": [
+          115,
+          26
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2025-03-31 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName69]",
+      "names": {
+        "zh-CN": "天炉座的勇气"
+      },
+      "required_character_ids": [
+        115,
+        26
+      ],
+      "required_characters": [
+        {
+          "id": 115,
+          "names": {
+            "zh-CN": "波普莉"
+          }
+        },
+        {
+          "id": 26,
+          "names": {
+            "zh-CN": "梅琳"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2025-03-31 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 4,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 115,
+    "job_flags": 2,
+    "master_record": {
+      "ActiveSkillIds": [
+        115001,
+        115002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 102,
+        "Health": 67,
+        "Intelligence": 83,
+        "Muscle": 83
+      },
+      "BaseParameterGrossCoefficient": 336,
+      "CharacterType": 0,
+      "ElementType": 4,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 115,
+      "InitialBattleParameter": {
+        "AttackPower": 0,
+        "Avoidance": 0,
+        "Critical": 1,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 8,
+        "DefensePenetration": 0,
+        "HP": -1,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 2,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 3036
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 2,
+      "Memo": "ポプリ",
+      "Name2Key": null,
+      "NameKey": "[CharacterName115]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        115003,
+        115004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2025-03-31 15:00:00"
+    },
+    "memo": "ポプリ",
+    "name_key": "[CharacterName115]",
+    "names": {
+      "zh-CN": "波普莉"
+    },
+    "speed": 3036,
+    "start_time_jst": "2025-03-31 15:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 1151120240,
+    "exclusive_effect_id": 504,
+    "icon_id": 794,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 1151120250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 116,
+        "EquipmentEvolutionId": 126,
+        "EquipmentExclusiveSkillDescriptionId": 84,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 2,
+        "ExclusiveEffectId": 504,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 794,
+        "Id": 1151120240,
+        "IsIgnore": null,
+        "Memo": "ポプリLR240_銃",
+        "NameKey": "[EquipmentName789]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": null,
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 16,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          },
+          {
+            "BattleParameterType": 7,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          }
+        ],
+        "CharacterId": 115,
+        "Id": 504,
+        "IsIgnore": null,
+        "Memo": "ポプリLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill115Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill115Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill115Description3]",
+        "Id": 84,
+        "IsIgnore": null,
+        "Memo": "ポプリ銃"
+      }
+    },
+    "name_key": "[EquipmentName789]",
+    "names": {
+      "zh-CN": "勇气的魔法"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "DebuffResist",
+        "parameter_type": 16,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Critical",
+        "parameter_type": 7,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill115Description1]",
+        "descriptions": {
+          "zh-CN": "强化灵言之风，攻击次数增加为6次。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill115Description2]",
+        "descriptions": {
+          "zh-CN": "强化老师的教诲，抗暴率增幅提升为60%。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill115Description3]",
+        "descriptions": {
+          "zh-CN": "强化灵言之风，命中率增幅提升为5%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 115003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription1150031]",
+          "descriptions": {
+            "zh-CN": "“要相信自己，要有相信自己的勇气。这是老师给我的教诲……所以我会、相信我自己！”回合开始时，波普莉使自己增加20%抗暴率、50%防御力与50%物理防御力，效果持续4回合。此技能须在结束4次行动后才可再次触发。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「自分を信じろ、信じる勇気を持て。それが先生の教え……だから私は、自分を信じる！」ターン開始時4ターンの間自身のクリティカル耐性率が20%、防御力が50%、物理防御力が50%増加する。このスキルは発動後4回行動終了するまで再び発動しない。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription1150032]",
+          "descriptions": {
+            "zh-CN": "抗暴率增幅提升为40%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "クリティカル耐性率の増加量が40%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription1150033]",
+          "descriptions": {
+            "zh-CN": "防御力与物理防御力增幅提升为100%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "防御力と物理防御力の増加量がそれぞれ100%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription1150034]",
+          "descriptions": {
+            "zh-CN": "强化老师的教诲，抗暴率增幅提升为60%。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "先生の教えを強化する。クリティカル耐性率の増加量が60%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 115003,
+        "IsIgnore": null,
+        "Memo": "ポプリSR:Lv1 「自分を信じろ、信じる勇気を持て。それが先生の教え……だから私は、自分を信じる！」ターン開始時4ターンの間自身のクリティカル耐性率が20%、防御力が50%、物理防御力が50%増加する。このスキルは発動後4回行動終了するまで再び発動しない。/ Lv2 クリティカル耐性率の増加量が40%になる。/ Lv3 防御力と物理防御力の増加量がそれぞれ100%になる。/ Ex2 先生の教えを強化する。クリティカル耐性率の増加量が60%になる。",
+        "NameKey": "[PassiveSkillName115003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription1150031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 115003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription1150032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 115003201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription1150033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 115003301
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription1150034]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 115003401
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName115003]",
+      "names": {
+        "zh-CN": "老师的教诲"
+      },
+      "source_memo_ja": "ポプリSR:Lv1 「自分を信じろ、信じる勇気を持て。それが先生の教え……だから私は、自分を信じる！」ターン開始時4ターンの間自身のクリティカル耐性率が20%、防御力が50%、物理防御力が50%増加する。このスキルは発動後4回行動終了するまで再び発動しない。/ Lv2 クリティカル耐性率の増加量が40%になる。/ Lv3 防御力と物理防御力の増加量がそれぞれ100%になる。/ Ex2 先生の教えを強化する。クリティカル耐性率の増加量が60%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「自分を信じろ、信じる勇気を持て。それが先生の教え……だから私は、自分を信じる！」ターン開始時4ターンの間自身のクリティカル耐性率が20%、防御力が50%、物理防御力が50%増加する。このスキルは発動後4回行動終了するまで再び発動しない。"
+        },
+        {
+          "label": "Lv2",
+          "text": "クリティカル耐性率の増加量が40%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "防御力と物理防御力の増加量がそれぞれ100%になる。"
+        },
+        {
+          "label": "Ex2",
+          "text": "先生の教えを強化する。クリティカル耐性率の増加量が60%になる。"
+        }
+      ]
+    },
+    {
+      "id": 115004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription1150041]",
+          "descriptions": {
+            "zh-CN": "“这股力量曾经令我害怕，但我想用它来保护大家——”回合开始时，波普莉使全体友军获得「增益效果护罩」，效果持续4回合。此技能须在结束4次行动后才可再次触发。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "昔は怖かったこの力で、今度はみんなを守りたい――ターン開始時味方全体に4ターンの間『バフカバー』を付与する。このスキルは発動後4回行動終了するまで再び発動しない。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription1150042]",
+          "descriptions": {
+            "zh-CN": "战斗开始时，波普莉额外减少30%自身承受伤害（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらにバトル開始時自身の被ダメージが30%減少する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription1150043]",
+          "descriptions": {
+            "zh-CN": "承受伤害降幅提升为60%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "被ダメージの減少量が60%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 115004,
+        "IsIgnore": null,
+        "Memo": "ポプリSR:Lv1 昔は怖かったこの力で、今度はみんなを守りたい――ターン開始時味方全体に4ターンの間『バフカバー』を付与する。このスキルは発動後4回行動終了するまで再び発動しない。/ Lv2 さらにバトル開始時自身の被ダメージが30%減少する（解除不可）。/ Lv3 被ダメージの減少量が60%になる。",
+        "NameKey": "[PassiveSkillName115004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription1150041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 115004002
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription1150042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 115004201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 115004002
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription1150043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 115004301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 115004002
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName115004]",
+      "names": {
+        "zh-CN": "言灵的魔法"
+      },
+      "source_memo_ja": "ポプリSR:Lv1 昔は怖かったこの力で、今度はみんなを守りたい――ターン開始時味方全体に4ターンの間『バフカバー』を付与する。このスキルは発動後4回行動終了するまで再び発動しない。/ Lv2 さらにバトル開始時自身の被ダメージが30%減少する（解除不可）。/ Lv3 被ダメージの減少量が60%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "昔は怖かったこの力で、今度はみんなを守りたい――ターン開始時味方全体に4ターンの間『バフカバー』を付与する。このスキルは発動後4回行動終了するまで再び発動しない。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらにバトル開始時自身の被ダメージが30%減少する（解除不可）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "被ダメージの減少量が60%になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

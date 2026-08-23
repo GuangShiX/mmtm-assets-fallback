@@ -1,0 +1,1329 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 108001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription1080011]",
+          "descriptions": {
+            "zh-CN": "轻柔如雪的回忆飘落在心中，化为闪闪发亮的结晶，守护着心爱的她与她的笑容。露娜琳德随机对3名敌人造成攻击力×480%的物理伤害，40%概率附加「脱力」状态，效果持续4回合，使附带者减少30%战斗期间的攻击力。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "心に降る、雪のように優しい想いが結晶となって輝き、大切なあの子の笑顔を守る。ランダムな敵3体に攻撃力×480%の物理攻撃を行い、40%の確率で4ターンの間対象に『脱力』を付与する。付帯者のバトル中ステータスの攻撃力が30％減少する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription1080012]",
+          "descriptions": {
+            "zh-CN": "附加「脱力」状态的概率提升为70%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "『脱力』を付与する確率が70%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1080013]",
+          "descriptions": {
+            "zh-CN": "第7回合起，造成的物理伤害提升为攻击力×1920%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "このスキルを7ターン目以降に発動した場合、物理攻撃のダメージが攻撃力×1920%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1080014]",
+          "descriptions": {
+            "zh-CN": "强化钻石星尘，技能目标增加为5名随机敌人。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "ダイヤモンドダストを強化する。ダイヤモンドダストの対象がランダムな敵5体になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription1080011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              108001001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription1080012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              108001201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1080013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              108001301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1080014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              108001401
+            ]
+          }
+        ],
+        "Id": 108001,
+        "IsIgnore": null,
+        "Memo": "冬ルナリンドSR:Lv1 心に降る、雪のように優しい想いが結晶となって輝き、大切なあの子の笑顔を守る。ランダムな敵3体に攻撃力×480%の物理攻撃を行い、40%の確率で4ターンの間対象に『脱力』を付与する。付帯者のバトル中ステータスの攻撃力が30％減少する。/ Lv2 『脱力』を付与する確率が70%になる。/ Lv3 このスキルを7ターン目以降に発動した場合、物理攻撃のダメージが攻撃力×1920%になる。/ Ex1 ダイヤモンドダストを強化する。ダイヤモンドダストの対象がランダムな敵5体になる。",
+        "NameKey": "[ActiveSkillName108001]",
+        "RootActiveSkillId": 108001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName108001]",
+      "names": {
+        "zh-CN": "钻石星尘"
+      },
+      "source_memo_ja": "冬ルナリンドSR:Lv1 心に降る、雪のように優しい想いが結晶となって輝き、大切なあの子の笑顔を守る。ランダムな敵3体に攻撃力×480%の物理攻撃を行い、40%の確率で4ターンの間対象に『脱力』を付与する。付帯者のバトル中ステータスの攻撃力が30％減少する。/ Lv2 『脱力』を付与する確率が70%になる。/ Lv3 このスキルを7ターン目以降に発動した場合、物理攻撃のダメージが攻撃力×1920%になる。/ Ex1 ダイヤモンドダストを強化する。ダイヤモンドダストの対象がランダムな敵5体になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "心に降る、雪のように優しい想いが結晶となって輝き、大切なあの子の笑顔を守る。ランダムな敵3体に攻撃力×480%の物理攻撃を行い、40%の確率で4ターンの間対象に『脱力』を付与する。付帯者のバトル中ステータスの攻撃力が30％減少する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "『脱力』を付与する確率が70%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "このスキルを7ターン目以降に発動した場合、物理攻撃のダメージが攻撃力×1920%になる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "ダイヤモンドダストを強化する。ダイヤモンドダストの対象がランダムな敵5体になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 108002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription1080021]",
+          "descriptions": {
+            "zh-CN": "露娜琳德凝聚魔力加以压缩，使寒气逼人的魔力迸发出太阳般耀眼的冷焰，随机对4名敌人造成攻击力×520%的物理伤害，70%概率附加「侵蚀」状态，效果持续1回合，每回合行动开始时造成技能总伤害×10%的伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "冷たい魔力が凝縮し、太陽のように燃え上がる。ランダムな敵4体に攻撃力×520%の物理攻撃を行い、70%の確率で1ターンの間対象に『浸食』を付与する。毎ターン行動開始時にこのスキルの総与ダメージ×10%のダメージを与える。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription1080022]",
+          "descriptions": {
+            "zh-CN": "「侵蚀」效果增加为2回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "『浸食』のターン数が2ターンになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription1080023]",
+          "descriptions": {
+            "zh-CN": "技能目标增加为5名随机敌人。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "このスキルの対象がランダムな敵5体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription1080024]",
+          "descriptions": {
+            "zh-CN": "第7回合起，造成的物理伤害提升为攻击力×2080%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "このスキルを7ターン目以降に発動した場合、物理攻撃のダメージが攻撃力×2080%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription1080025]",
+          "descriptions": {
+            "zh-CN": "强化冰晶冷焰，造成的物理伤害提升为攻击力×580%。第7回合起，造成的物理伤害提升为攻击力×2320%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "コールドフレアを強化する。物理攻撃のダメージが攻撃力×580%になる。このスキルを7ターン目以降に発動した場合、物理攻撃のダメージが攻撃力×2320%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription1080021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              108002001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription1080022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              108002201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription1080023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              108002301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription1080024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              108002401
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription1080025]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              108002501
+            ]
+          }
+        ],
+        "Id": 108002,
+        "IsIgnore": null,
+        "Memo": "冬ルナリンドSR:Lv1 冷たい魔力が凝縮し、太陽のように燃え上がる。ランダムな敵4体に攻撃力×520%の物理攻撃を行い、70%の確率で1ターンの間対象に『浸食』を付与する。毎ターン行動開始時にこのスキルの総与ダメージ×10%のダメージを与える。/ Lv2 『浸食』のターン数が2ターンになる。/ Lv3 このスキルの対象がランダムな敵5体になる。/ Lv4 このスキルを7ターン目以降に発動した場合、物理攻撃のダメージが攻撃力×2080%になる。/ Ex3 コールドフレアを強化する。物理攻撃のダメージが攻撃力×580%になる。このスキルを7ターン目以降に発動した場合、物理攻撃のダメージが攻撃力×2320%になる。",
+        "NameKey": "[ActiveSkillName108002]",
+        "RootActiveSkillId": 108002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName108002]",
+      "names": {
+        "zh-CN": "冰晶冷焰"
+      },
+      "source_memo_ja": "冬ルナリンドSR:Lv1 冷たい魔力が凝縮し、太陽のように燃え上がる。ランダムな敵4体に攻撃力×520%の物理攻撃を行い、70%の確率で1ターンの間対象に『浸食』を付与する。毎ターン行動開始時にこのスキルの総与ダメージ×10%のダメージを与える。/ Lv2 『浸食』のターン数が2ターンになる。/ Lv3 このスキルの対象がランダムな敵5体になる。/ Lv4 このスキルを7ターン目以降に発動した場合、物理攻撃のダメージが攻撃力×2080%になる。/ Ex3 コールドフレアを強化する。物理攻撃のダメージが攻撃力×580%になる。このスキルを7ターン目以降に発動した場合、物理攻撃のダメージが攻撃力×2320%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "冷たい魔力が凝縮し、太陽のように燃え上がる。ランダムな敵4体に攻撃力×520%の物理攻撃を行い、70%の確率で1ターンの間対象に『浸食』を付与する。毎ターン行動開始時にこのスキルの総与ダメージ×10%のダメージを与える。"
+        },
+        {
+          "label": "Lv2",
+          "text": "『浸食』のターン数が2ターンになる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "このスキルの対象がランダムな敵5体になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "このスキルを7ターン目以降に発動した場合、物理攻撃のダメージが攻撃力×2080%になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "コールドフレアを強化する。物理攻撃のダメージが攻撃力×580%になる。このスキルを7ターン目以降に発動した場合、物理攻撃のダメージが攻撃力×2320%になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 63,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 500.0,
+              "value_text": "+500"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 500.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 63,
+            "CollectionLevel": 1,
+            "Id": 6301,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カストルの親愛(冬ルナリンド,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 63,
+            "CollectionLevel": 2,
+            "Id": 6302,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カストルの親愛(冬ルナリンド,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 63,
+            "CollectionLevel": 3,
+            "Id": 6303,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カストルの親愛(冬ルナリンド,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1000.0,
+              "value_text": "+1,000"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 3000.0,
+              "value_text": "+3,000"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1000.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3000.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 63,
+            "CollectionLevel": 4,
+            "Id": 6304,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カストルの親愛(冬ルナリンド,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1050.0,
+              "value_text": "+1,050"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 3100.0,
+              "value_text": "+3,100"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1050.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3100.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 63,
+            "CollectionLevel": 5,
+            "Id": 6305,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カストルの親愛(冬ルナリンド,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1100.0,
+              "value_text": "+1,100"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 3200.0,
+              "value_text": "+3,200"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1100.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 63,
+            "CollectionLevel": 6,
+            "Id": 6306,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カストルの親愛(冬ルナリンド,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1150.0,
+              "value_text": "+1,150"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 3300.0,
+              "value_text": "+3,300"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1150.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3300.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 63,
+            "CollectionLevel": 7,
+            "Id": 6307,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カストルの親愛(冬ルナリンド,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1200.0,
+              "value_text": "+1,200"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 3400.0,
+              "value_text": "+3,400"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1200.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3400.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 63,
+            "CollectionLevel": 8,
+            "Id": 6308,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カストルの親愛(冬ルナリンド,ルナリンド)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicCriticalDamageRelax",
+              "parameter_type": 11,
+              "raw_value": 1250.0,
+              "value_text": "+1,250"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "MagicDamageRelax",
+              "parameter_type": 4,
+              "raw_value": 3500.0,
+              "value_text": "+3,500"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 11,
+                "ChangeParameterType": 1,
+                "Value": 1250.0
+              },
+              {
+                "BattleParameterType": 4,
+                "ChangeParameterType": 1,
+                "Value": 3500.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 63,
+            "CollectionLevel": 9,
+            "Id": 6309,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "カストルの親愛(冬ルナリンド,ルナリンド)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 63,
+        "IsIgnore": null,
+        "Memo": "カストルの親愛(冬ルナリンド,ルナリンド)",
+        "NameKey": "[CharacterCollectionName63]",
+        "RequiredCharacterIds": [
+          108,
+          46
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2024-12-13 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName63]",
+      "names": {
+        "zh-CN": "卡斯托尔的亲爱"
+      },
+      "required_character_ids": [
+        108,
+        46
+      ],
+      "required_characters": [
+        {
+          "id": 108,
+          "names": {
+            "zh-CN": "露娜琳德"
+          }
+        },
+        {
+          "id": 46,
+          "names": {
+            "zh-CN": "露娜琳德"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2024-12-13 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 2,
+    "element_type": 3,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 108,
+    "job_flags": 2,
+    "master_record": {
+      "ActiveSkillIds": [
+        108001,
+        108002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 101,
+        "Health": 67,
+        "Intelligence": 79,
+        "Muscle": 89
+      },
+      "BaseParameterGrossCoefficient": 336,
+      "CharacterType": 2,
+      "ElementType": 3,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 108,
+      "InitialBattleParameter": {
+        "AttackPower": 5,
+        "Avoidance": 0,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 8,
+        "DefensePenetration": 0,
+        "HP": -3,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 3037
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 2,
+      "Memo": "冬ルナリンド",
+      "Name2Key": "[CharacterSubName108]",
+      "NameKey": "[CharacterName108]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        108003,
+        108004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2024-12-13 15:00:00"
+    },
+    "memo": "冬ルナリンド",
+    "name_key": "[CharacterName108]",
+    "names": {
+      "zh-CN": "露娜琳德"
+    },
+    "speed": 3037,
+    "start_time_jst": "2024-12-13 15:00:00",
+    "subtitle_key": "[CharacterSubName108]",
+    "subtitles": {
+      "zh-CN": "圣夜的妖精"
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 1081120240,
+    "exclusive_effect_id": 462,
+    "icon_id": 752,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 1081120250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 109,
+        "EquipmentEvolutionId": 119,
+        "EquipmentExclusiveSkillDescriptionId": 77,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 2,
+        "ExclusiveEffectId": 462,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 752,
+        "Id": 1081120240,
+        "IsIgnore": null,
+        "Memo": "冬ルナリンドLR240_銃",
+        "NameKey": "[EquipmentName747]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": [
+          {
+            "BaseParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 800.0
+          }
+        ],
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 1,
+            "ChangeParameterType": 2,
+            "Value": 2200.0
+          }
+        ],
+        "CharacterId": 108,
+        "Id": 462,
+        "IsIgnore": null,
+        "Memo": "冬ルナリンドLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill108Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill108Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill108Description3]",
+        "Id": 77,
+        "IsIgnore": null,
+        "Memo": "冬ルナリンド銃"
+      }
+    },
+    "name_key": "[EquipmentName747]",
+    "names": {
+      "zh-CN": "雪白围巾"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "base",
+        "parameter_code": "Energy",
+        "parameter_type": 2,
+        "raw_value": 800.0,
+        "value_text": "+8%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Hp",
+        "parameter_type": 1,
+        "raw_value": 2200.0,
+        "value_text": "+22%"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill108Description1]",
+        "descriptions": {
+          "zh-CN": "强化钻石星尘，技能目标增加为5名随机敌人。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill108Description2]",
+        "descriptions": {
+          "zh-CN": "强化融雪的暖意，承受伤害降幅提升为60%。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill108Description3]",
+        "descriptions": {
+          "zh-CN": "强化冰晶冷焰，造成的物理伤害提升为攻击力×580%。第7回合起，造成的物理伤害提升为攻击力×2320%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 108003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription1080031]",
+          "descriptions": {
+            "zh-CN": "一直以来，因为有你在我身边，我才能每天都保持笑容。谢谢索索，我也最喜欢你了。回合开始时，露娜琳德使速度最高的友军获得1层「多重屏障」（无法被解除）。当技能目标受到伤害时，消耗1层屏障来抵消该伤害。此技能须在结束8次行动后才可再次触发。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "あなたが隣に居てくれるから、私はいつも笑顔になれる。ありがとう。私もあなたが大好きよ。ターン開始時スピードが最も高い味方に1層の『多重バリア』を付与する（解除不可）。ダメージを受けると、バリアを1層消費してそのダメージを無効化する。このスキルは発動後8回行動終了するまで再び発動しない。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription1080032]",
+          "descriptions": {
+            "zh-CN": "当「多重屏障」的附加目标为业红或苍翠属性时，「多重屏障」增加为2层。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに『多重バリア』を付与する対象が紅属性もしくは翠属性の場合、付与する『多重バリア』が2層になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription1080033]",
+          "descriptions": {
+            "zh-CN": "当「多重屏障」的附加目标为业红或苍翠属性时，「多重屏障」增加为4层。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "『多重バリア』を付与する対象が紅属性もしくは翠属性の場合に付与する『多重バリア』が4層になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 108003,
+        "IsIgnore": null,
+        "Memo": "冬ルナリンドSR:Lv1 あなたが隣に居てくれるから、私はいつも笑顔になれる。ありがとう。私もあなたが大好きよ。ターン開始時スピードが最も高い味方に1層の『多重バリア』を付与する（解除不可）。ダメージを受けると、バリアを1層消費してそのダメージを無効化する。このスキルは発動後8回行動終了するまで再び発動しない。/ Lv2 さらに『多重バリア』を付与する対象が紅属性もしくは翠属性の場合、付与する『多重バリア』が2層になる。/ Lv3 『多重バリア』を付与する対象が紅属性もしくは翠属性の場合に付与する『多重バリア』が4層になる。",
+        "NameKey": "[PassiveSkillName108003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription1080031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 8,
+                "SubSetSkillId": 108003001
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 8,
+                "SubSetSkillId": 108003002
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription1080032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 8,
+                "SubSetSkillId": 108003201
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 8,
+                "SubSetSkillId": 108003202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription1080033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 8,
+                "SubSetSkillId": 108003301
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 8,
+                "SubSetSkillId": 108003302
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName108003]",
+      "names": {
+        "zh-CN": "姐姐的爱"
+      },
+      "source_memo_ja": "冬ルナリンドSR:Lv1 あなたが隣に居てくれるから、私はいつも笑顔になれる。ありがとう。私もあなたが大好きよ。ターン開始時スピードが最も高い味方に1層の『多重バリア』を付与する（解除不可）。ダメージを受けると、バリアを1層消費してそのダメージを無効化する。このスキルは発動後8回行動終了するまで再び発動しない。/ Lv2 さらに『多重バリア』を付与する対象が紅属性もしくは翠属性の場合、付与する『多重バリア』が2層になる。/ Lv3 『多重バリア』を付与する対象が紅属性もしくは翠属性の場合に付与する『多重バリア』が4層になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "あなたが隣に居てくれるから、私はいつも笑顔になれる。ありがとう。私もあなたが大好きよ。ターン開始時スピードが最も高い味方に1層の『多重バリア』を付与する（解除不可）。ダメージを受けると、バリアを1層消費してそのダメージを無効化する。このスキルは発動後8回行動終了するまで再び発動しない。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに『多重バリア』を付与する対象が紅属性もしくは翠属性の場合、付与する『多重バリア』が2層になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "『多重バリア』を付与する対象が紅属性もしくは翠属性の場合に付与する『多重バリア』が4層になる。"
+        }
+      ]
+    },
+    {
+      "id": 108004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription1080041]",
+          "descriptions": {
+            "zh-CN": "她温柔的爱带来暖意，融化了我凝结成冰的心——使露娜琳德减少20%自身承受伤害（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "あの子の優しい気持ちが、凍り付いた私の心に温もりをくれる。自身の被ダメージが20%減少する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription1080042]",
+          "descriptions": {
+            "zh-CN": "战斗开始时，使露娜琳德额外增加80%吸血，效果持续6回合（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらにバトル開始時6ターンの間自身のHPドレインが80%増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription1080043]",
+          "descriptions": {
+            "zh-CN": "第7回合开始时，露娜琳德重置技能冷却时间。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらに7ターン目のターン開始時、自身のスキルクールタイムカウントを0にする。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription1080044]",
+          "descriptions": {
+            "zh-CN": "强化融雪的暖意，承受伤害降幅提升为60%。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "雪解けの温もりを強化する。被ダメージの減少量が60％になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 108004,
+        "IsIgnore": null,
+        "Memo": "冬ルナリンドSR:Lv1 あの子の優しい気持ちが、凍り付いた私の心に温もりをくれる。自身の被ダメージが20%減少する（解除不可）。/ Lv2 さらにバトル開始時6ターンの間自身のHPドレインが80%増加する（解除不可）。/ Lv3 さらに7ターン目のターン開始時、自身のスキルクールタイムカウントを0にする。/ Ex2 雪解けの温もりを強化する。被ダメージの減少量が60％になる。",
+        "NameKey": "[PassiveSkillName108004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription1080041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 108004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription1080042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 108004201
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription1080043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 108004201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 108004302
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription1080044]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 108004401
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 108004302
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName108004]",
+      "names": {
+        "zh-CN": "融雪的暖意"
+      },
+      "source_memo_ja": "冬ルナリンドSR:Lv1 あの子の優しい気持ちが、凍り付いた私の心に温もりをくれる。自身の被ダメージが20%減少する（解除不可）。/ Lv2 さらにバトル開始時6ターンの間自身のHPドレインが80%増加する（解除不可）。/ Lv3 さらに7ターン目のターン開始時、自身のスキルクールタイムカウントを0にする。/ Ex2 雪解けの温もりを強化する。被ダメージの減少量が60％になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "あの子の優しい気持ちが、凍り付いた私の心に温もりをくれる。自身の被ダメージが20%減少する（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらにバトル開始時6ターンの間自身のHPドレインが80%増加する（解除不可）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらに7ターン目のターン開始時、自身のスキルクールタイムカウントを0にする。"
+        },
+        {
+          "label": "Ex2",
+          "text": "雪解けの温もりを強化する。被ダメージの減少量が60％になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}

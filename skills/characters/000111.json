@@ -1,0 +1,1388 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 111001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription1110011]",
+          "descriptions": {
+            "zh-CN": "青色光芒与金色光华——前者射向对女孩心怀恶意的敌人，后者带来守护的力量。两者都是属于女孩自身的力量，却又隐约带着来自其他魔女的气息。姬璃使攻击力最高的友军增加10%攻击力与暴击率，效果持续4回合。再随机对5名敌人造成攻击力×180%的魔法伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "蒼い光と、金の光。前者は少女に悪意を持つ者たちを襲い、後者は守るための力を授ける。いずれも少女一人の力だが、わずかに別の魔女の力が混じっているようだ。4ターンの間攻撃力が最も高い味方の攻撃力とクリティカル率をそれぞれ10%増加させる。その後ランダムな敵5体に攻撃力×180%の魔法攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription1110012]",
+          "descriptions": {
+            "zh-CN": "第7回合起，攻击力与暴击率增幅提升为40%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "このスキルを7ターン目以降に発動した場合、攻撃力とクリティカル率の増加量がそれぞれ40%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1110013]",
+          "descriptions": {
+            "zh-CN": "造成的魔法伤害提升为攻击力×330%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "魔法攻撃のダメージが攻撃力×330%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1110014]",
+          "descriptions": {
+            "zh-CN": "强化青金色祝福，增益效果附加目标增加为攻击力最高的2名友军。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "蒼金の祝福を強化する。バフを付与する対象が攻撃力が高い味方2体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription1110015]",
+          "descriptions": {
+            "zh-CN": "强化青金色祝福，造成的魔法伤害提升为攻击力×360%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "蒼金の祝福を強化する。魔法攻撃のダメージが攻撃力×360%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription1110011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              111001001,
+              111001002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription1110012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              111001201,
+              111001002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1110013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              111001201,
+              111001302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1110014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              111001401,
+              111001302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription1110015]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              111001401,
+              111001502
+            ]
+          }
+        ],
+        "Id": 111001,
+        "IsIgnore": null,
+        "Memo": "ティリーSR:Lv1 蒼い光と、金の光。前者は少女に悪意を持つ者たちを襲い、後者は守るための力を授ける。いずれも少女一人の力だが、わずかに別の魔女の力が混じっているようだ。4ターンの間攻撃力が最も高い味方の攻撃力とクリティカル率をそれぞれ10%増加させる。その後ランダムな敵5体に攻撃力×180%の魔法攻撃を行う。/ Lv2 このスキルを7ターン目以降に発動した場合、攻撃力とクリティカル率の増加量がそれぞれ40%になる。/ Lv3 魔法攻撃のダメージが攻撃力×330%になる。/ Ex1 蒼金の祝福を強化する。バフを付与する対象が攻撃力が高い味方2体になる。/ Ex3 蒼金の祝福を強化する。魔法攻撃のダメージが攻撃力×360%になる。",
+        "NameKey": "[ActiveSkillName111001]",
+        "RootActiveSkillId": 111001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName111001]",
+      "names": {
+        "zh-CN": "青金色祝福"
+      },
+      "source_memo_ja": "ティリーSR:Lv1 蒼い光と、金の光。前者は少女に悪意を持つ者たちを襲い、後者は守るための力を授ける。いずれも少女一人の力だが、わずかに別の魔女の力が混じっているようだ。4ターンの間攻撃力が最も高い味方の攻撃力とクリティカル率をそれぞれ10%増加させる。その後ランダムな敵5体に攻撃力×180%の魔法攻撃を行う。/ Lv2 このスキルを7ターン目以降に発動した場合、攻撃力とクリティカル率の増加量がそれぞれ40%になる。/ Lv3 魔法攻撃のダメージが攻撃力×330%になる。/ Ex1 蒼金の祝福を強化する。バフを付与する対象が攻撃力が高い味方2体になる。/ Ex3 蒼金の祝福を強化する。魔法攻撃のダメージが攻撃力×360%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "蒼い光と、金の光。前者は少女に悪意を持つ者たちを襲い、後者は守るための力を授ける。いずれも少女一人の力だが、わずかに別の魔女の力が混じっているようだ。4ターンの間攻撃力が最も高い味方の攻撃力とクリティカル率をそれぞれ10%増加させる。その後ランダムな敵5体に攻撃力×180%の魔法攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "このスキルを7ターン目以降に発動した場合、攻撃力とクリティカル率の増加量がそれぞれ40%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "魔法攻撃のダメージが攻撃力×330%になる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "蒼金の祝福を強化する。バフを付与する対象が攻撃力が高い味方2体になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "蒼金の祝福を強化する。魔法攻撃のダメージが攻撃力×360%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 111002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription1110021]",
+          "descriptions": {
+            "zh-CN": "“我很抱歉，可是我不能让你伤害我的同伴……！”姬璃的意念化为青色闪光，击碎敌人布下的重重防线，随机对敌人进行3次攻击，每次造成攻击力×180%的魔法伤害。此攻击优先以身上附带「多重屏障」的敌人为目标。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「ごめんなさい。でも仲間が傷つくのは見ていられないんです……！」少女の想いは青い閃光となり、敵の施した幾重の守りさえも打ち砕く。ランダムな敵に3回攻撃力×180%の魔法攻撃を行う。この攻撃は『多重バリア』を付帯している敵を優先的に攻撃する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription1110022]",
+          "descriptions": {
+            "zh-CN": "攻击次数增加为4次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "魔法攻撃の回数が4回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription1110023]",
+          "descriptions": {
+            "zh-CN": "造成的魔法伤害提升为攻击力×240%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "魔法攻撃のダメージが攻撃力×240%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription1110024]",
+          "descriptions": {
+            "zh-CN": "攻击次数增加为5次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "魔法攻撃の回数が5回になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription1110021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              111002001,
+              111002002,
+              111002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription1110022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              111002001,
+              111002002,
+              111002002,
+              111002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription1110023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              111002301,
+              111002302,
+              111002302,
+              111002302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription1110024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              111002401,
+              111002402,
+              111002402,
+              111002402,
+              111002402
+            ]
+          }
+        ],
+        "Id": 111002,
+        "IsIgnore": null,
+        "Memo": "ティリーSR:Lv1 「ごめんなさい。でも仲間が傷つくのは見ていられないんです……！」少女の想いは青い閃光となり、敵の施した幾重の守りさえも打ち砕く。ランダムな敵に3回攻撃力×180%の魔法攻撃を行う。この攻撃は『多重バリア』を付帯している敵を優先的に攻撃する。/ Lv2 魔法攻撃の回数が4回になる。/ Lv3 魔法攻撃のダメージが攻撃力×240%になる。/ Lv4 魔法攻撃の回数が5回になる。",
+        "NameKey": "[ActiveSkillName111002]",
+        "RootActiveSkillId": 111002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName111002]",
+      "names": {
+        "zh-CN": "青蓝色闪光"
+      },
+      "source_memo_ja": "ティリーSR:Lv1 「ごめんなさい。でも仲間が傷つくのは見ていられないんです……！」少女の想いは青い閃光となり、敵の施した幾重の守りさえも打ち砕く。ランダムな敵に3回攻撃力×180%の魔法攻撃を行う。この攻撃は『多重バリア』を付帯している敵を優先的に攻撃する。/ Lv2 魔法攻撃の回数が4回になる。/ Lv3 魔法攻撃のダメージが攻撃力×240%になる。/ Lv4 魔法攻撃の回数が5回になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「ごめんなさい。でも仲間が傷つくのは見ていられないんです……！」少女の想いは青い閃光となり、敵の施した幾重の守りさえも打ち砕く。ランダムな敵に3回攻撃力×180%の魔法攻撃を行う。この攻撃は『多重バリア』を付帯している敵を優先的に攻撃する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "魔法攻撃の回数が4回になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "魔法攻撃のダメージが攻撃力×240%になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "魔法攻撃の回数が5回になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 66,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 15.0,
+              "value_text": "+15×角色等级"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 15.0
+              }
+            ],
+            "BattleParameterChangeInfos": null,
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 66,
+            "CollectionLevel": 1,
+            "Id": 6601,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アクルックスの未来​(ティリー,ルスティカ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 15.0,
+              "value_text": "+15×角色等级"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 15.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 66,
+            "CollectionLevel": 2,
+            "Id": 6602,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アクルックスの未来​(ティリー,ルスティカ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 15.0,
+              "value_text": "+15×角色等级"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 15.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 66,
+            "CollectionLevel": 3,
+            "Id": 6603,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アクルックスの未来​(ティリー,ルスティカ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 15.0,
+              "value_text": "+15×角色等级"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 15.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 66,
+            "CollectionLevel": 4,
+            "Id": 6604,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アクルックスの未来​(ティリー,ルスティカ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 35.0,
+              "value_text": "+35×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 20.0,
+              "value_text": "+20×角色等级"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 35.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 20.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 66,
+            "CollectionLevel": 5,
+            "Id": 6605,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アクルックスの未来​(ティリー,ルスティカ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 25.0,
+              "value_text": "+25×角色等级"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 25.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 66,
+            "CollectionLevel": 6,
+            "Id": 6606,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アクルックスの未来​(ティリー,ルスティカ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 45.0,
+              "value_text": "+45×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 45.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 66,
+            "CollectionLevel": 7,
+            "Id": 6607,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アクルックスの未来​(ティリー,ルスティカ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 50.0,
+              "value_text": "+50×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 35.0,
+              "value_text": "+35×角色等级"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 50.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 35.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 66,
+            "CollectionLevel": 8,
+            "Id": 6608,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アクルックスの未来​(ティリー,ルスティカ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Intelligence",
+              "parameter_type": 3,
+              "raw_value": 55.0,
+              "value_text": "+55×角色等级"
+            },
+            {
+              "change_parameter_type": 3,
+              "kind": "battle",
+              "parameter_code": "Avoidance",
+              "parameter_type": 6,
+              "raw_value": 40.0,
+              "value_text": "+40×角色等级"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 3,
+                "ChangeParameterType": 3,
+                "Value": 55.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 6,
+                "ChangeParameterType": 3,
+                "Value": 40.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 66,
+            "CollectionLevel": 9,
+            "Id": 6609,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "アクルックスの未来​(ティリー,ルスティカ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 66,
+        "IsIgnore": null,
+        "Memo": "アクルックスの未来​(ティリー,ルスティカ)",
+        "NameKey": "[CharacterCollectionName66]",
+        "RequiredCharacterIds": [
+          111,
+          113
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2025-02-28 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName66]",
+      "names": {
+        "zh-CN": "十字架二的未来"
+      },
+      "required_character_ids": [
+        111,
+        113
+      ],
+      "required_characters": [
+        {
+          "id": 111,
+          "names": {
+            "zh-CN": "姬璃"
+          }
+        },
+        {
+          "id": 113,
+          "names": {
+            "zh-CN": "鹭丝堤卡"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2025-02-28 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 0,
+    "element_type": 3,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 111,
+    "job_flags": 4,
+    "master_record": {
+      "ActiveSkillIds": [
+        111001,
+        111002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 78,
+        "Health": 87,
+        "Intelligence": 91,
+        "Muscle": 79
+      },
+      "BaseParameterGrossCoefficient": 335,
+      "CharacterType": 0,
+      "ElementType": 3,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 111,
+      "InitialBattleParameter": {
+        "AttackPower": -5,
+        "Avoidance": 1,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 10,
+        "DefensePenetration": 0,
+        "HP": -1,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 5,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 3074
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 4,
+      "Memo": "ティリー",
+      "Name2Key": null,
+      "NameKey": "[CharacterName111]",
+      "NormalSkillId": 102,
+      "PassiveSkillIds": [
+        111003,
+        111004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2025-01-31 15:00:00"
+    },
+    "memo": "ティリー",
+    "name_key": "[CharacterName111]",
+    "names": {
+      "zh-CN": "姬璃"
+    },
+    "speed": 3074,
+    "start_time_jst": "2025-01-31 15:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 1111130240,
+    "exclusive_effect_id": 480,
+    "icon_id": 770,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 1111130250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 112,
+        "EquipmentEvolutionId": 122,
+        "EquipmentExclusiveSkillDescriptionId": 80,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 4,
+        "ExclusiveEffectId": 480,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 770,
+        "Id": 1111130240,
+        "IsIgnore": null,
+        "Memo": "ティリーLR240_書",
+        "NameKey": "[EquipmentName765]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": null,
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 16,
+            "ChangeParameterType": 2,
+            "Value": 1000.0
+          },
+          {
+            "BattleParameterType": 10,
+            "ChangeParameterType": 1,
+            "Value": 3500.0
+          }
+        ],
+        "CharacterId": 111,
+        "Id": 480,
+        "IsIgnore": null,
+        "Memo": "ティリーLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill111Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill111Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill111Description3]",
+        "Id": 80,
+        "IsIgnore": null,
+        "Memo": "ティリー魔導書"
+      }
+    },
+    "name_key": "[EquipmentName765]",
+    "names": {
+      "zh-CN": "流泪之日"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "DebuffResist",
+        "parameter_type": 16,
+        "raw_value": 1000.0,
+        "value_text": "+10%"
+      },
+      {
+        "change_parameter_type": 1,
+        "kind": "battle",
+        "parameter_code": "PhysicalCriticalDamageRelax",
+        "parameter_type": 10,
+        "raw_value": 3500.0,
+        "value_text": "+3,500"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill111Description1]",
+        "descriptions": {
+          "zh-CN": "强化青金色祝福，增益效果附加目标增加为攻击力最高的2名友军。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill111Description2]",
+        "descriptions": {
+          "zh-CN": "强化青鸟的回忆，抗暴率增幅提升为60%。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill111Description3]",
+        "descriptions": {
+          "zh-CN": "强化青金色祝福，造成的魔法伤害提升为攻击力×360%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 111003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription1110031]",
+          "descriptions": {
+            "zh-CN": "“谢谢你带花来看我。希望你能答应我，留在她身旁陪伴她。其实她很怕寂寞的。”奥拉的愿望，至今依然守护着女孩——当姬璃受到攻击时，使自己恢复承受伤害×30%的生命值。当攻击使姬璃失去战斗能力时，无法触发此技能。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「お花を持ってきてくれてありがとう。叶うならどうか、あの子と一緒にいてあげて。本当は寂しがりやなの」いつかの彼女の願いは、今も少女を守っている──自身が攻撃を受けたとき、自身のHPを被ダメージ×30%回復する。この攻撃で自身が戦闘不能になった場合、このスキルは発動しない。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription1110032]",
+          "descriptions": {
+            "zh-CN": "战斗开始时，使姬璃额外增加80%最大生命值（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらにバトル開始時自身の最大HPが80%増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription1110033]",
+          "descriptions": {
+            "zh-CN": "生命值恢复量提升为承受伤害×60%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "HPの回復量が被ダメージ×60%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 111003,
+        "IsIgnore": null,
+        "Memo": "ティリーSR:Lv1 「お花を持ってきてくれてありがとう。叶うならどうか、あの子と一緒にいてあげて。本当は寂しがりやなの」いつかの彼女の願いは、今も少女を守っている──自身が攻撃を受けたとき、自身のHPを被ダメージ×30%回復する。この攻撃で自身が戦闘不能になった場合、このスキルは発動しない。/ Lv2 さらにバトル開始時自身の最大HPが80%増加する（解除不可）。/ Lv3 HPの回復量が被ダメージ×60%になる。",
+        "NameKey": "[PassiveSkillName111003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription1110031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 111003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription1110032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 111003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 111003202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription1110033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 8,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 111003301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 111003202
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName111003]",
+      "names": {
+        "zh-CN": "澄金色庇佑"
+      },
+      "source_memo_ja": "ティリーSR:Lv1 「お花を持ってきてくれてありがとう。叶うならどうか、あの子と一緒にいてあげて。本当は寂しがりやなの」いつかの彼女の願いは、今も少女を守っている──自身が攻撃を受けたとき、自身のHPを被ダメージ×30%回復する。この攻撃で自身が戦闘不能になった場合、このスキルは発動しない。/ Lv2 さらにバトル開始時自身の最大HPが80%増加する（解除不可）。/ Lv3 HPの回復量が被ダメージ×60%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「お花を持ってきてくれてありがとう。叶うならどうか、あの子と一緒にいてあげて。本当は寂しがりやなの」いつかの彼女の願いは、今も少女を守っている──自身が攻撃を受けたとき、自身のHPを被ダメージ×30%回復する。この攻撃で自身が戦闘不能になった場合、このスキルは発動しない。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらにバトル開始時自身の最大HPが80%増加する（解除不可）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "HPの回復量が被ダメージ×60%になる。"
+        }
+      ]
+    },
+    {
+      "id": 111004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription1110041]",
+          "descriptions": {
+            "zh-CN": "“奶奶对我很严格，但也是真心地疼我。即使活在纷争不断的世界里，那些温暖的回忆，也会永远留在我心中……”战斗开始时，姬璃使攻击力最高的友军增加30%抗暴率（无法被解除）。在每回合开始时或敌人失去战斗能力后，如果存活在场上的敌人数为4名以下，解除「抗暴率上升」状态。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "おばあちゃんは厳しかったけど、優しい人だった。争いばかりの世界でも、温かな思い出は、いつまでもこの胸に留まっている──バトル開始時攻撃力が最も高い味方のクリティカル耐性率を30%増加させる（解除不可）。『クリティカル耐性率増加』は毎ターン開始時もしくは敵が戦闘不能になったとき、敵の生存数が4体以下の場合解除される。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription1110042]",
+          "descriptions": {
+            "zh-CN": "「抗暴率上升」的附加目标增加为攻击力最高的2名友军。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "『クリティカル耐性率増加』の対象が攻撃力が高い味方2体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription1110043]",
+          "descriptions": {
+            "zh-CN": "「抗暴率上升」的附加目标增加为攻击力最高的3名友军。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "『クリティカル耐性率増加』の対象が攻撃力が高い味方3体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription1110044]",
+          "descriptions": {
+            "zh-CN": "强化青鸟的回忆，抗暴率增幅提升为60%。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "青い鳥の思い出を強化する。クリティカル耐性率の増加量が60%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 111004,
+        "IsIgnore": null,
+        "Memo": "ティリーSR:Lv1 おばあちゃんは厳しかったけど、優しい人だった。争いばかりの世界でも、温かな思い出は、いつまでもこの胸に留まっている──バトル開始時攻撃力が最も高い味方のクリティカル耐性率を30%増加させる（解除不可）。『クリティカル耐性率増加』は毎ターン開始時もしくは敵が戦闘不能になったとき、敵の生存数が4体以下の場合解除される。/ Lv2 『クリティカル耐性率増加』の対象が攻撃力が高い味方2体になる。/ Lv3 『クリティカル耐性率増加』の対象が攻撃力が高い味方3体になる。/ Ex2 青い鳥の思い出を強化する。クリティカル耐性率の増加量が60%になる。",
+        "NameKey": "[PassiveSkillName111004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription1110041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 111004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 111004002
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 45,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 111004003
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription1110042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 111004201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 111004002
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 45,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 111004003
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription1110043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 111004301
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 111004002
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 45,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 111004003
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription1110044]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 111004401
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 111004402
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 45,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 111004403
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName111004]",
+      "names": {
+        "zh-CN": "青鸟的回忆"
+      },
+      "source_memo_ja": "ティリーSR:Lv1 おばあちゃんは厳しかったけど、優しい人だった。争いばかりの世界でも、温かな思い出は、いつまでもこの胸に留まっている──バトル開始時攻撃力が最も高い味方のクリティカル耐性率を30%増加させる（解除不可）。『クリティカル耐性率増加』は毎ターン開始時もしくは敵が戦闘不能になったとき、敵の生存数が4体以下の場合解除される。/ Lv2 『クリティカル耐性率増加』の対象が攻撃力が高い味方2体になる。/ Lv3 『クリティカル耐性率増加』の対象が攻撃力が高い味方3体になる。/ Ex2 青い鳥の思い出を強化する。クリティカル耐性率の増加量が60%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "おばあちゃんは厳しかったけど、優しい人だった。争いばかりの世界でも、温かな思い出は、いつまでもこの胸に留まっている──バトル開始時攻撃力が最も高い味方のクリティカル耐性率を30%増加させる（解除不可）。『クリティカル耐性率増加』は毎ターン開始時もしくは敵が戦闘不能になったとき、敵の生存数が4体以下の場合解除される。"
+        },
+        {
+          "label": "Lv2",
+          "text": "『クリティカル耐性率増加』の対象が攻撃力が高い味方2体になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "『クリティカル耐性率増加』の対象が攻撃力が高い味方3体になる。"
+        },
+        {
+          "label": "Ex2",
+          "text": "青い鳥の思い出を強化する。クリティカル耐性率の増加量が60%になる。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.20.0",
+    "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
+        "size": 836158
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "dcf363771fb6ca0ef693ffdae8632191",
+        "size": 294157
+      },
+      "CharacterCollectionMB": {
+        "md5": "f0e027017e44c475bce7efc44336eba7",
+        "size": 22183
+      },
+      "CharacterMB": {
+        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
+        "size": 93585
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "f39c11d377a753e73af7f13b5be0192e",
+        "size": 179461
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
+        "size": 24505
+      },
+      "EquipmentMB": {
+        "md5": "da13df87037d5d796652151277d62bfc",
+        "size": 12480073
+      },
+      "PassiveSkillMB": {
+        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
+        "size": 935888
+      },
+      "TextResourceZhCnMB": {
+        "md5": "cf479de23c1b1b72cc1500c6a5538fff",
+        "size": 5174720
+      }
+    },
+    "generated_at": "2026-08-20T05:30:07.489000+00:00",
+    "master_version": "1787203807489"
+  }
+}
