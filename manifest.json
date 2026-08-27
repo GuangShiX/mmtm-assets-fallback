@@ -2,30 +2,30 @@
   "schema_version": 2,
   "game": "MementoMori",
   "package_name": "jp.boi.mementomori.android",
-  "version": "4.20.0",
+  "version": "4.21.0",
   "ref": "main",
-  "archive_ref": "v4.20.0",
-  "generated_at": "2026-08-13T08:02:32.342707+00:00",
+  "archive_ref": "v4.21.0",
+  "generated_at": "2026-08-27T10:28:13.726828+00:00",
   "base_url": "https://raw.githubusercontent.com/GuangShiX/mmtm-assets-fallback/main",
   "cache_strategy": "stable-path-sha256",
-  "asset_count": 1437,
-  "total_bytes": 34710626,
+  "asset_count": 1487,
+  "total_bytes": 35208508,
   "category_counts": {
     "characters": 149,
     "enemies": 60,
     "equipment": 896,
-    "items": 247,
+    "items": 248,
     "spheres": 64,
-    "ui": 21
+    "ui": 70
   },
   "generation_mode": "critical-package-plus-official-hot-update",
-  "asset_version": "681754e23d407ef99f955d91d1da991b439bb2f7_2",
-  "master_version": "1786604792220",
-  "hot_update_asset_count": 11,
+  "asset_version": "4a851fa27b84c8c1a05e57608a16c6486c404219_1",
+  "master_version": "1787808602106",
+  "hot_update_asset_count": 12,
   "hot_update_category_counts": {
     "characters": 2,
     "equipment": 6,
-    "items": 3
+    "items": 4
   },
   "assets": [
     {
@@ -14934,6 +14934,20 @@
       ]
     },
     {
+      "category": "items",
+      "name": "Item_0266.png",
+      "path": "assets/items/Item_0266.png",
+      "sha256": "c659ca6aba3b8909a3e73aa157871a41b0661da5375ea61fb0c2d7860388da04",
+      "size": 24097,
+      "source_resource_key": "Assets/AddressableConvertAssets/Icon/Item/Item_0266.png",
+      "source_bundles": [
+        "57d7d5355790bdd3d21dcf4a0e48f3be.bundle"
+      ],
+      "source_catalog_keys": [
+        "Icon/Item/Item_0266"
+      ]
+    },
+    {
       "category": "spheres",
       "name": "SPH_0100.png",
       "path": "assets/spheres/SPH_0100.png",
@@ -15650,6 +15664,292 @@
     },
     {
       "category": "ui",
+      "name": "arrow_s_03.png",
+      "path": "assets/ui/arrow_s_03.png",
+      "sha256": "f83eae18b35e82ba95132487c4f91169666a47a516094390ac2b6b68cbbdaf00",
+      "size": 8709,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:-7936630444619305876",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "base_badge.png",
+      "path": "assets/ui/base_badge.png",
+      "sha256": "9ef3ef85fb6620e30c31c86a8cbc4fcfe764cb7d255d3034aadde780a9991d33",
+      "size": 1980,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:7353049288387067519",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "base_empty_01.png",
+      "path": "assets/ui/base_empty_01.png",
+      "sha256": "7d76c574c3ac1adb4da159ffceb7c665369f2cf1cac29998241fba9b75f1b4ed",
+      "size": 20919,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:1773499283002002171",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "base_filter_01.png",
+      "path": "assets/ui/base_filter_01.png",
+      "sha256": "8d75be7e2d62fde3116a13a7ed74cd4704401b4001b5fdabf293c7e2c19fc1d6",
+      "size": 3353,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:-3132984773571521735",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "base_filter_02.png",
+      "path": "assets/ui/base_filter_02.png",
+      "sha256": "88d221d27f8cc0854d4ad34568dd312a7a5b254a313253c3b1c629403d217ae1",
+      "size": 1141,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:122942991565598052",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "base_headline_01.png",
+      "path": "assets/ui/base_headline_01.png",
+      "sha256": "e5ae823c50a4bbd81633b15d924a70efe501ab3186779a6280e79a837c18aef8",
+      "size": 11275,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:1952638727236340029",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "base_l_01.png",
+      "path": "assets/ui/base_l_01.png",
+      "sha256": "615354e5ff051458bc3fa9377c05f5ba49a1c878dcb220ca7e3c8c56b5d0d763",
+      "size": 7918,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:-209331593658347362",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "base_number_02.png",
+      "path": "assets/ui/base_number_02.png",
+      "sha256": "8b3247bd3e39a08e788ee53b93491fddbffa247bdced77761bbe47f6cb51aeff",
+      "size": 4256,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:5946256594037321492",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "base_number_05.png",
+      "path": "assets/ui/base_number_05.png",
+      "sha256": "5dfbc3d0b745203ad437b1de5d184845a9dcd08a5279c6df5a367d855d37724f",
+      "size": 2880,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:-5439522325398417994",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "base_number_06.png",
+      "path": "assets/ui/base_number_06.png",
+      "sha256": "4c500198d051a732d7ea5b79cf91b1b82db8372eb40cc03b160c29f8fc5c4146",
+      "size": 7241,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:1397767338018931938",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "base_number_07.png",
+      "path": "assets/ui/base_number_07.png",
+      "sha256": "e8919cf325385646882b3c98d5ba3b73178347c56b116c2b499b32f0e83a1d1f",
+      "size": 7216,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:-322091196480969821",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "base_s_03.png",
+      "path": "assets/ui/base_s_03.png",
+      "sha256": "f876ad045a2141438f41503547326223f684cfdeed2034a3cf8b66fce01058d0",
+      "size": 657,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:2581787357807244695",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "base_scenario.png",
+      "path": "assets/ui/base_scenario.png",
+      "sha256": "5043135a9b77c8ed8a6413032c8b0f0d24ad0bcf55ac5d015205ea7cfc74d3e8",
+      "size": 486,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:-8607811319899876321",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "base_square_02.png",
+      "path": "assets/ui/base_square_02.png",
+      "sha256": "624509c562742baf0247f22752e46eaa93f9b4491f8ada997661b7b8e4f23d45",
+      "size": 128,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:7177998034908807354",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "base_square_03.png",
+      "path": "assets/ui/base_square_03.png",
+      "sha256": "0fd61357f3fd7b0d03ccae7b18a3daf00ffee8bf2bbb3395a8a64f0d7e5725df",
+      "size": 3838,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:-8143180566630208193",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "base_square_04.png",
+      "path": "assets/ui/base_square_04.png",
+      "sha256": "1459d1f082e756b50b29c9e341633c963fd1dc99d89dd27feb673d268760ab33",
+      "size": 2867,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:1684462749406366409",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "base_white.png",
+      "path": "assets/ui/base_white.png",
+      "sha256": "d0fb55b22cf2ca0488497f2b25e99ae529aba7fa8c57b3d7615efd7b5c24746a",
+      "size": 79,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:1824546214925891967",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "button_l_01.png",
+      "path": "assets/ui/button_l_01.png",
+      "sha256": "7479077e846b1a3e093231fc7959c5d1ea9b23049b7561a3599b6de1aa9505e5",
+      "size": 19580,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:3238318852840847152",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "button_l_01_white.png",
+      "path": "assets/ui/button_l_01_white.png",
+      "sha256": "f3ad640d778890d4b41b1678bb5843fc0f9bb13c7ac28bcab38fc9b7bab25bc6",
+      "size": 17641,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:7791610343162537528",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "button_m_02.png",
+      "path": "assets/ui/button_m_02.png",
+      "sha256": "f1a045f901021438775a97c6678442e7222f3dd81d78e03e2be9618488c1e057",
+      "size": 9608,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:7989500206908579775",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "button_plus_01.png",
+      "path": "assets/ui/button_plus_01.png",
+      "sha256": "41ef61b8bc2d25b9dc47761cb78289aa962b13e00430801e4d091281bb716add",
+      "size": 4997,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:1030472395220465131",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "button_s_01.png",
+      "path": "assets/ui/button_s_01.png",
+      "sha256": "4a743b458a58f79723ffd837feaca7c829ac5712bf330eb59529cd4b60ea4ee3",
+      "size": 28300,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:-1755945720466835644",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "decoration_border_02.png",
+      "path": "assets/ui/decoration_border_02.png",
+      "sha256": "cf8becbe21c2a11e3164c37402cab530a13ca8e876517dc711089c8115bf4c54",
+      "size": 886,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:1521203811573564315",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "decoration_brush_02.png",
+      "path": "assets/ui/decoration_brush_02.png",
+      "sha256": "eb8f30804138c247b92c9cd7297cd940b1497a9b4719ed9ec79e348e6b02909c",
+      "size": 10638,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:-9208731022093818432",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "equipment_synchro_cell_base.png",
+      "path": "assets/ui/equipment_synchro_cell_base.png",
+      "sha256": "b262b9205898799ac31d5a282b92227ded98ae0a9360eed6ce415f2182e573f2",
+      "size": 23059,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:-2007846165186072746",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "equipment_synchro_chain.png",
+      "path": "assets/ui/equipment_synchro_chain.png",
+      "sha256": "cee045e24c1cf9a28e85da4dfcb538d03ae42c773b811a58c3eae9134eb46e4a",
+      "size": 8116,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:-4905361599507396011",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
       "name": "frame_common_lr_slice.png",
       "path": "assets/ui/frame_common_lr_slice.png",
       "sha256": "a9df6f5c1fa3397db1386077999773bdef3fde2e3d5683efe6a363538efe2828",
@@ -15749,6 +16049,50 @@
     },
     {
       "category": "ui",
+      "name": "gradation_01.png",
+      "path": "assets/ui/gradation_01.png",
+      "sha256": "cb33106fa31b1e954558ec96d776baf637fe21c9d8286f3bc9d12cf5aa8a2c1c",
+      "size": 355,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:1188499791809247278",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "gradation_02.png",
+      "path": "assets/ui/gradation_02.png",
+      "sha256": "fe0629260d2a70f71cbfd88c5f7e8212c8563215f13cadb2bda4b0d2516f24f3",
+      "size": 270,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:-6049132265794864434",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "icon_battle_power_01.png",
+      "path": "assets/ui/icon_battle_power_01.png",
+      "sha256": "ae6ff1c948ebf02e5cba6608147f650f2fee4494e994f459e8c6f61c73c502a3",
+      "size": 2719,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:7135929920685556753",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "icon_check_03.png",
+      "path": "assets/ui/icon_check_03.png",
+      "sha256": "edd71b1c62a436e00638e2b4cbe57ed157d30a377247adb36a668954cb8eeb8f",
+      "size": 3692,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:1366839477598422982",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
       "name": "icon_element_0.png",
       "path": "assets/ui/icon_element_0.png",
       "sha256": "fd3b3bf377d9f799c739e7fe1a34b7af0c23427090dd8bcdfd7812902db66a2c",
@@ -15826,6 +16170,94 @@
     },
     {
       "category": "ui",
+      "name": "icon_fragment.png",
+      "path": "assets/ui/icon_fragment.png",
+      "sha256": "ef6ee9cad7c6481c5e417f3610503538591fda54361df6c9e33d97121f0d9df9",
+      "size": 3281,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:871785765871144079",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "icon_guest.png",
+      "path": "assets/ui/icon_guest.png",
+      "sha256": "89c8190698dabf0b5a7474242aca587dac9fef8bf7c4dcd384e923e4c6548510",
+      "size": 3101,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:-8288118977695308252",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "icon_job_warrior.png",
+      "path": "assets/ui/icon_job_warrior.png",
+      "sha256": "4b27447642b622dab1f584078982b673caca82804ca11e6a140abc7a36721e19",
+      "size": 4681,
+      "source_resource_key": "assets/aa/Android/d8e6c8c3a22da3265163f34736d7d400.bundle#Sprite:3315186087643974228",
+      "source_bundles": [
+        "d8e6c8c3a22da3265163f34736d7d400.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "icon_lock.png",
+      "path": "assets/ui/icon_lock.png",
+      "sha256": "9c0898324ea04aee592706015083f516b7415e0c154b8f0c5a6997e9741ea884",
+      "size": 4282,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:-6260361209761894465",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "icon_lock_equipment.png",
+      "path": "assets/ui/icon_lock_equipment.png",
+      "sha256": "15823acdffc132023f049c5c51a355bfc7caebeb7daba9bd868b3c88bcbc6fcf",
+      "size": 3792,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:-6297145478823677419",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "icon_monologue.png",
+      "path": "assets/ui/icon_monologue.png",
+      "sha256": "6c3fe271d150e70a026c347ba38dced588d46a3012a4e23fdca9adc36f77e75d",
+      "size": 7649,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:-2189472106519721800",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "icon_playericon.png",
+      "path": "assets/ui/icon_playericon.png",
+      "sha256": "bd85f480d4d6ffd3cb0fdc21e7f6d5b73b9e672c82be8234b43b2247c008b9f5",
+      "size": 3183,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:2537191109807717443",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "icon_plus.png",
+      "path": "assets/ui/icon_plus.png",
+      "sha256": "4c2c24957bb5be99c2afd746e7f1ae348b308a5aa87a13a5449670728788694e",
+      "size": 3182,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:-4744213151340944299",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
       "name": "icon_rarity_plus_star_1.png",
       "path": "assets/ui/icon_rarity_plus_star_1.png",
       "sha256": "9998c41c3b1eefa17baba1f1d4b66f0e08e014206dfa0fd8bbd8a1ad718364f4",
@@ -15848,6 +16280,28 @@
     },
     {
       "category": "ui",
+      "name": "icon_sort.png",
+      "path": "assets/ui/icon_sort.png",
+      "sha256": "168836837fc783a843d7f2576ca65f14bfd74919e8731f8da8a55f8dcf5df6cb",
+      "size": 3115,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:-8379797821313696907",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "image_levellink.png",
+      "path": "assets/ui/image_levellink.png",
+      "sha256": "2e63052d4bfeaf8f008ad0ab4d82573dcb494ada4e8e9bc25f6572c33722ec59",
+      "size": 180541,
+      "source_resource_key": "assets/aa/Android/9d875ebbbfd0bb3ee95c1b0c83fe7113.bundle#Sprite:-7289088003548960120",
+      "source_bundles": [
+        "9d875ebbbfd0bb3ee95c1b0c83fe7113.bundle"
+      ]
+    },
+    {
+      "category": "ui",
       "name": "plate_character.png",
       "path": "assets/ui/plate_character.png",
       "sha256": "ca036f33a7a148f23eda9ec812e2730e59c44136e2c6d9d9069634cc767ed402",
@@ -15859,11 +16313,110 @@
     },
     {
       "category": "ui",
+      "name": "plate_character_white_slice.png",
+      "path": "assets/ui/plate_character_white_slice.png",
+      "sha256": "eaa199509319ad1870c8d880edb6d3184e7be1b88774ff4440ba96fdf84d67c3",
+      "size": 2236,
+      "source_resource_key": "assets/aa/Android/d8e6c8c3a22da3265163f34736d7d400.bundle#Sprite:9052636962010035177",
+      "source_bundles": [
+        "d8e6c8c3a22da3265163f34736d7d400.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "scrollbar_background_02.png",
+      "path": "assets/ui/scrollbar_background_02.png",
+      "sha256": "11ddbe9eec50380adf1eefd74a68c77b2e32cdce478e7b9774a1ff88ba938da6",
+      "size": 980,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:2701630905874254935",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "scrollbar_foreground.png",
+      "path": "assets/ui/scrollbar_foreground.png",
+      "sha256": "c03a38757606eaabe0147d3c58abd3c63662bb3e1248a47e71706b4ca3c31be3",
+      "size": 1636,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:-3722189543158228027",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "sliderbar_foreground.png",
+      "path": "assets/ui/sliderbar_foreground.png",
+      "sha256": "9979be98af5b28706448ba3560b4fc7d8f77fbea7360ecff1148946b0dbaa68a",
+      "size": 953,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:5600924631735190081",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
       "name": "tab_bg.png",
       "path": "assets/ui/tab_bg.png",
       "sha256": "17da41cead1ddd6cf18b8ee4b84bd6749eb1ca303f37418fd8c9f7aa0bc643bf",
       "size": 19191,
       "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:-7675992540283874117",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "toggle_01_off.png",
+      "path": "assets/ui/toggle_01_off.png",
+      "sha256": "c5dab47ccce68afd0a352de9ad59be404f271228fc7d1427b8dd074f82cbd9ca",
+      "size": 7008,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:1688305901921842351",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "toggle_all_off.png",
+      "path": "assets/ui/toggle_all_off.png",
+      "sha256": "c94ce452226365dbf52c57e8729c53ec4debbeab54e7a7907d7804743b3a4a2a",
+      "size": 8565,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:24656165584700625",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "toggle_all_on.png",
+      "path": "assets/ui/toggle_all_on.png",
+      "sha256": "f2ff63d3ce4eba26f489efa36fd9b05f688c076b4807d410d7a321baa769bf8a",
+      "size": 8825,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:-3377116646705242324",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "toggle_attribute_off.png",
+      "path": "assets/ui/toggle_attribute_off.png",
+      "sha256": "db925a5a67c6b04018ac897126895a14f0a7b80b3b6698b99020aab511f13c83",
+      "size": 5133,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:4256152702172845657",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "toggle_attribute_on.png",
+      "path": "assets/ui/toggle_attribute_on.png",
+      "sha256": "29948cefab76e99db6e72ad74c23ffe1603da91d88d852ebe664d8d3ef684af4",
+      "size": 6838,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:-4129292243201349199",
       "source_bundles": [
         "29121095407936fd11fb775fb8b7cfef.bundle"
       ]
