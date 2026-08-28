@@ -51,6 +51,15 @@ jobs:
           --output .
           --repository GuangShiX/mmtm-assets-fallback
 
+      - name: Verify requested official images
+        id: image_verify
+        if: steps.images.outcome == 'success'
+        continue-on-error: true
+        run: >-
+          python _tracker/asset_requests.py
+          verify-repository
+          --repository .
+
       - name: Detect and export Master skill updates
         id: skills
         continue-on-error: true
@@ -105,7 +114,7 @@ jobs:
           --language zh-CN
 
       - name: Commit data changes
-        if: always() && steps.skills.outcome == 'success' && steps.card_verify.outcome == 'success'
+        if: always() && steps.images.outcome == 'success' && steps.image_verify.outcome == 'success' && steps.skills.outcome == 'success' && steps.card_verify.outcome == 'success'
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
@@ -136,10 +145,11 @@ jobs:
           fi
 
       - name: Report updater failures
-        if: steps.images.outcome == 'failure' || steps.skills.outcome == 'failure' || steps.cards.outcome == 'failure' || steps.card_verify.outcome == 'failure'
+        if: steps.images.outcome == 'failure' || steps.image_verify.outcome == 'failure' || steps.skills.outcome == 'failure' || steps.cards.outcome == 'failure' || steps.card_verify.outcome == 'failure'
         shell: bash
         run: |
           echo "image updater: ${{ steps.images.outcome }}"
+          echo "official image verifier: ${{ steps.image_verify.outcome }}"
           echo "Master skill updater: ${{ steps.skills.outcome }}"
           echo "skill card renderer: ${{ steps.cards.outcome }}"
           echo "skill card verifier: ${{ steps.card_verify.outcome }}"

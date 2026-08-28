@@ -5,28 +5,32 @@
   "version": "4.21.0",
   "ref": "main",
   "archive_ref": "v4.21.0",
-  "generated_at": "2026-08-27T10:28:13.726828+00:00",
+  "generated_at": "2026-08-27T18:37:05.022846+00:00",
   "base_url": "https://raw.githubusercontent.com/GuangShiX/mmtm-assets-fallback/main",
   "cache_strategy": "stable-path-sha256",
-  "asset_count": 1487,
-  "total_bytes": 35208508,
+  "asset_count": 1517,
+  "total_bytes": 54626378,
   "category_counts": {
-    "characters": 149,
+    "characters": 163,
     "enemies": 60,
     "equipment": 896,
     "items": 248,
     "spheres": 64,
-    "ui": 70
+    "ui": 86
   },
   "generation_mode": "critical-package-plus-official-hot-update",
   "asset_version": "4a851fa27b84c8c1a05e57608a16c6486c404219_1",
   "master_version": "1787808602106",
-  "hot_update_asset_count": 12,
+  "hot_update_asset_count": 16,
   "hot_update_category_counts": {
-    "characters": 2,
+    "characters": 6,
     "equipment": 6,
     "items": 4
   },
+  "request_registry_sha256": "8ea09d7a12e0164fdf8e40ea461f18968d6d3acbb1d1676d4a57d9df147adc80",
+  "request_registry_status": "complete",
+  "requested_asset_count": 100,
+  "missing_requested_assets": [],
   "assets": [
     {
       "category": "characters",
@@ -492,6 +496,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000042_00_em_001.png",
+      "path": "assets/characters/CHR_000042_00_em_001.png",
+      "sha256": "73392283406ea5741b1a9c91bc6bdc10c67c634ccdadafa963065bcccba2992e",
+      "size": 36408,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000042/CHR_000042_00_em_001.png",
+      "source_bundles": [
+        "1b1ef1d6cd6d34b60c9c6a938906bb29.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000042_00_s.png",
       "path": "assets/characters/CHR_000042_00_s.png",
       "sha256": "0ce766ce3b7bfde1e4b208f8a498f856c0c0dd30c5daf740f7651b98a638237e",
@@ -554,6 +569,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000044/CHR_000044_01_s.png",
       "source_bundles": [
         "515474c7fcc5019b3de80dfd9d435a44.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000045_00_em_002.png",
+      "path": "assets/characters/CHR_000045_00_em_002.png",
+      "sha256": "f29d414e3b1631059c23ed2d22cc05dacc904f43ee40d0211f4cb55e23cbffe9",
+      "size": 33887,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000045/CHR_000045_00_em_002.png",
+      "source_bundles": [
+        "717c4e7d595b2f92cd4bce473a20cc04.bundle"
       ]
     },
     {
@@ -855,6 +881,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000065_00_em_001.png",
+      "path": "assets/characters/CHR_000065_00_em_001.png",
+      "sha256": "c68b54af0dd0caf70fd0c589badc90564591fd4d87b0ec1f950591de6e3768fc",
+      "size": 37072,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000065/CHR_000065_00_em_001.png",
+      "source_bundles": [
+        "f3580dbaceae3474d6c478caa399e5cb.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000065_00_s.png",
       "path": "assets/characters/CHR_000065_00_s.png",
       "sha256": "72dbccfeb944e7723c4ca4e70199fadd06fd7bb196bf5acc8ed17a41bd32c6ef",
@@ -888,6 +925,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000068_00_em_001.png",
+      "path": "assets/characters/CHR_000068_00_em_001.png",
+      "sha256": "f7c2738269ca9c24ad5725b8cfc60e964fadea4beebb507b6e7d396a57c20d10",
+      "size": 34883,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000068/CHR_000068_00_em_001.png",
+      "source_bundles": [
+        "e4e99420b79f2c68b73dcf9ce2629a48.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000068_00_s.png",
       "path": "assets/characters/CHR_000068_00_s.png",
       "sha256": "2c1d97af9c9464ae4af70c3b116ccf369c08df7e766ce508cd72567249c4066e",
@@ -895,6 +943,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000068/CHR_000068_00_s.png",
       "source_bundles": [
         "e0a828ecb112ec86719ffe6ad2b72643.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000069_00_em_001.png",
+      "path": "assets/characters/CHR_000069_00_em_001.png",
+      "sha256": "83c3cdf13f4597183a6359980aeb1eaa9046c79b0aa4f5dd186e3eee3440d444",
+      "size": 33341,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000069/CHR_000069_00_em_001.png",
+      "source_bundles": [
+        "d128be5e0ec1289770e4b040fc0ed814.bundle"
       ]
     },
     {
@@ -928,6 +987,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000070/CHR_000070_00_s.png",
       "source_bundles": [
         "66aaee5c10b4b7273de9d298b7c4d2c6.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000071_00_em_001.png",
+      "path": "assets/characters/CHR_000071_00_em_001.png",
+      "sha256": "83676106b99081837288763b15f200a7d2168564ff33cedbb34ec8547185b0ee",
+      "size": 33701,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000071/CHR_000071_00_em_001.png",
+      "source_bundles": [
+        "1b222ab13c3ad569af82eee0785b8a9f.bundle"
       ]
     },
     {
@@ -976,6 +1046,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000075_00_em_001.png",
+      "path": "assets/characters/CHR_000075_00_em_001.png",
+      "sha256": "6272b5cd1bf17d1779569789cf5865f9e8a9d5c27ca1e62d7ea642fcd161159b",
+      "size": 37018,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000075/CHR_000075_00_em_001.png",
+      "source_bundles": [
+        "9f4b2c7283edaa0d6a6e2491f238b7c0.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000075_00_s.png",
       "path": "assets/characters/CHR_000075_00_s.png",
       "sha256": "9d2a4056b2a1b6b7408ced4c0701e8a97b83ec255c2fa1b94467b348db69038c",
@@ -983,6 +1064,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000075/CHR_000075_00_s.png",
       "source_bundles": [
         "361364fdb19cebfae21d9f25d284fb3c.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000076_00_em_001.png",
+      "path": "assets/characters/CHR_000076_00_em_001.png",
+      "sha256": "915c69876536858e5e3f63b3c3d1e92232bbe5c44f98861311b688d8e46b2737",
+      "size": 35732,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000076/CHR_000076_00_em_001.png",
+      "source_bundles": [
+        "7c4e0e03c6ec2bbf749559892215815f.bundle"
       ]
     },
     {
@@ -1005,6 +1097,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000077/CHR_000077_00_s.png",
       "source_bundles": [
         "36c855cdae3d5496b9e4ba11d1fc08a6.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000078_00_em_001.png",
+      "path": "assets/characters/CHR_000078_00_em_001.png",
+      "sha256": "e4aba8419f9c2132c77403090c000691d666f01cdf1b1c89bce5c981548a65a7",
+      "size": 34461,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000078/CHR_000078_00_em_001.png",
+      "source_bundles": [
+        "7520e5f44fcbec752c7fc2d970c91489.bundle"
       ]
     },
     {
@@ -1152,6 +1255,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000089_00_em_001.png",
+      "path": "assets/characters/CHR_000089_00_em_001.png",
+      "sha256": "bd518dad98f8259a3a2def73d88068b7edf834b35927f7b2e154c0bdad2d76f4",
+      "size": 36272,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000089/CHR_000089_00_em_001.png",
+      "source_bundles": [
+        "22039121c41279c77d0af9bba17b47fe.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000089_00_s.png",
       "path": "assets/characters/CHR_000089_00_s.png",
       "sha256": "d881b66bcb6554c3b707b1412133bbb3e0ea6ea77edc621ba77274735cf9fffd",
@@ -1254,6 +1368,20 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000101_00_em_001.png",
+      "path": "assets/characters/CHR_000101_00_em_001.png",
+      "sha256": "015a6ae91546b106a26a08eb68a426676ae5770b03b644d586c96d7d17fd59cd",
+      "size": 35548,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000101/CHR_000101_00_em_001.png",
+      "source_bundles": [
+        "02b75cdbdcd9ec1a6d01c9609672b108.bundle"
+      ],
+      "source_catalog_keys": [
+        "CharacterIcon/CHR_000101/CHR_000101_00_em_001"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000101_00_s.png",
       "path": "assets/characters/CHR_000101_00_s.png",
       "sha256": "08508c18e0c392358561f15f8a3cc9400dba056074007bfcb27ea63ca262149d",
@@ -1261,6 +1389,20 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000101/CHR_000101_00_s.png",
       "source_bundles": [
         "cca5d3e0bd432c47b095818dbcb25914.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000102_00_em_001.png",
+      "path": "assets/characters/CHR_000102_00_em_001.png",
+      "sha256": "d1070c3ad2223465c85d21915487533c85797e7d2887f7901a91509a240e59dd",
+      "size": 33201,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000102/CHR_000102_00_em_001.png",
+      "source_bundles": [
+        "d7af265a052f2bfed0f2423113c9f055.bundle"
+      ],
+      "source_catalog_keys": [
+        "CharacterIcon/CHR_000102/CHR_000102_00_em_001"
       ]
     },
     {
@@ -1507,6 +1649,20 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000129_00_em_001.png",
+      "path": "assets/characters/CHR_000129_00_em_001.png",
+      "sha256": "c3c812c4eb697f3a97f7f7fe02d3b9f0d20e80ea51bab7d92c2cc082642134fb",
+      "size": 35987,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000129/CHR_000129_00_em_001.png",
+      "source_bundles": [
+        "26415ec12ffb09137ad32e707edf2fe3.bundle"
+      ],
+      "source_catalog_keys": [
+        "CharacterIcon/CHR_000129/CHR_000129_00_em_001"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000129_00_s.png",
       "path": "assets/characters/CHR_000129_00_s.png",
       "sha256": "73843c7e45950f012166a91d93669faefaa73b7f5b8e6e0de0f48f5fa28e92ce",
@@ -1558,6 +1714,20 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000134/CHR_000134_00_s.png",
       "source_bundles": [
         "87355626a26afb953b37b8cf34d11cc5.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000135_00_em_001.png",
+      "path": "assets/characters/CHR_000135_00_em_001.png",
+      "sha256": "09ef6bfbe621f2ed7fb831bb9967a68b984f03c757a027789b4f98a43011716d",
+      "size": 34882,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000135/CHR_000135_00_em_001.png",
+      "source_bundles": [
+        "01331a88516851a9698b81984b4b555c.bundle"
+      ],
+      "source_catalog_keys": [
+        "CharacterIcon/CHR_000135/CHR_000135_00_em_001"
       ]
     },
     {
@@ -15664,6 +15834,149 @@
     },
     {
       "category": "ui",
+      "name": "Castle_0_0.png",
+      "path": "assets/ui/Castle_0_0.png",
+      "sha256": "5a4020a2f087d8dde15941fb6958103e8be5fe6b6482f22253e321515e4f56f5",
+      "size": 18148,
+      "source_resource_key": "Assets/AddressableLocalAssets/UI/GvG/Castle/Castle_0_0.png",
+      "source_bundles": [
+        "6aac39f431cfc65f2d26885eaa8ed456.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "Castle_0_1.png",
+      "path": "assets/ui/Castle_0_1.png",
+      "sha256": "04a61985119b41a885532b5c8599bf75bb00789ce2b53de4c92828c5537e308a",
+      "size": 23767,
+      "source_resource_key": "Assets/AddressableLocalAssets/UI/GvG/Castle/Castle_0_1.png",
+      "source_bundles": [
+        "f87205e855df2aae215e7ea3c8474957.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "Castle_0_2.png",
+      "path": "assets/ui/Castle_0_2.png",
+      "sha256": "93f315b583e74cccee282990285ad30087129c6c4e22b0e26491b9941632a196",
+      "size": 42178,
+      "source_resource_key": "Assets/AddressableLocalAssets/UI/GvG/Castle/Castle_0_2.png",
+      "source_bundles": [
+        "183842c6bf7d4fad8b6a8b1c47e9a995.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "Castle_1_0.png",
+      "path": "assets/ui/Castle_1_0.png",
+      "sha256": "a1eafd777f7cea99dfeee5b1ffeaad421828663e7d1d23254eaed4923c62ccbd",
+      "size": 18078,
+      "source_resource_key": "Assets/AddressableLocalAssets/UI/GvG/Castle/Castle_1_0.png",
+      "source_bundles": [
+        "9f7d70dc20402edc1ca9eb4bacf572e4.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "Castle_1_1.png",
+      "path": "assets/ui/Castle_1_1.png",
+      "sha256": "cf9952c3e17d15e8a4d8b9cc12eabb6199814bd4909cc27248e52a2e30e31f1e",
+      "size": 23762,
+      "source_resource_key": "Assets/AddressableLocalAssets/UI/GvG/Castle/Castle_1_1.png",
+      "source_bundles": [
+        "689d63a26ddfeb3252e4eaec6a7f46fd.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "Castle_1_2.png",
+      "path": "assets/ui/Castle_1_2.png",
+      "sha256": "36790eb96e8fb12a5d2227a0ba24302c749e7894d8eea881a729034c26a7a000",
+      "size": 42969,
+      "source_resource_key": "Assets/AddressableLocalAssets/UI/GvG/Castle/Castle_1_2.png",
+      "source_bundles": [
+        "569a6b6f2fadf885342341f2a67fef5a.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "Map_0.png",
+      "path": "assets/ui/Map_0.png",
+      "sha256": "1824730a2d6ea6ded2f00959014f4525b559282b0b0d906de7291583124349cd",
+      "size": 10482883,
+      "source_resource_key": "Assets/AddressableLocalAssets/UI/GvG/Map/Map_0.png",
+      "source_bundles": [
+        "d2203f7802b3b0d40ba1a71887de8cc7.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "Map_1.png",
+      "path": "assets/ui/Map_1.png",
+      "sha256": "094b6557e478b0bea066d93d2a297d8f7f7a5491844c446173fcb436ce154fd9",
+      "size": 7950589,
+      "source_resource_key": "Assets/AddressableLocalAssets/UI/GvG/Map/Map_1.png",
+      "source_bundles": [
+        "09a5b8d6e80dbe4f59a740d07f2b5b2b.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "RQB_000001.png",
+      "path": "assets/ui/RQB_000001.png",
+      "sha256": "e2de49f5de67986a2e428ff899e3dc8456713eba277aacdf999fc5d06c528d1e",
+      "size": 56852,
+      "source_resource_key": "Assets/AddressableConvertAssets/Banner/LocalRaid/RQB_000001.png",
+      "source_bundles": [
+        "ce2cfa7c4fa814be50d9c146ac2025e6.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "RQB_000002.png",
+      "path": "assets/ui/RQB_000002.png",
+      "sha256": "1600357c1c82fbbf988c51e10844c18c713cc819efd25f836c50ff7be84a2d03",
+      "size": 53691,
+      "source_resource_key": "Assets/AddressableConvertAssets/Banner/LocalRaid/RQB_000002.png",
+      "source_bundles": [
+        "0af72d944f270db5d8b690b4230cb9d1.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "RQB_000003.png",
+      "path": "assets/ui/RQB_000003.png",
+      "sha256": "536011d86cc744971fcf60882e2d49c3466ebb76fc0008d9d1e6b26453d4213e",
+      "size": 60319,
+      "source_resource_key": "Assets/AddressableConvertAssets/Banner/LocalRaid/RQB_000003.png",
+      "source_bundles": [
+        "b5248d9bee76ebc6ea21b0fc03d117b7.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "RQB_000004.png",
+      "path": "assets/ui/RQB_000004.png",
+      "sha256": "125d990c5564449b208f1f7db3cccfca1395e740f5b86d17a76a2e29c4972171",
+      "size": 55058,
+      "source_resource_key": "Assets/AddressableConvertAssets/Banner/LocalRaid/RQB_000004.png",
+      "source_bundles": [
+        "70ef2d6ce28198e653606d10ab3d876e.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "RQB_000005.png",
+      "path": "assets/ui/RQB_000005.png",
+      "sha256": "197f6193b2e529d0507ce3090970c77a17b40fb9ad3b5b3aeeabb99942802b51",
+      "size": 59700,
+      "source_resource_key": "Assets/AddressableConvertAssets/Banner/LocalRaid/RQB_000005.png",
+      "source_bundles": [
+        "5548d1eab9457d82f5f9ba08118d5e10.bundle"
+      ]
+    },
+    {
+      "category": "ui",
       "name": "arrow_s_03.png",
       "path": "assets/ui/arrow_s_03.png",
       "sha256": "f83eae18b35e82ba95132487c4f91169666a47a516094390ac2b6b68cbbdaf00",
@@ -15741,6 +16054,17 @@
     },
     {
       "category": "ui",
+      "name": "base_metal.png",
+      "path": "assets/ui/base_metal.png",
+      "sha256": "8ddf57d3d48a3aeeb9efb565961cf6bdf1092ec9ec04adc1961e814c14430952",
+      "size": 23579,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:8786396882440038648",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
       "name": "base_number_02.png",
       "path": "assets/ui/base_number_02.png",
       "sha256": "8b3247bd3e39a08e788ee53b93491fddbffa247bdced77761bbe47f6cb51aeff",
@@ -15779,6 +16103,17 @@
       "sha256": "e8919cf325385646882b3c98d5ba3b73178347c56b116c2b499b32f0e83a1d1f",
       "size": 7216,
       "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:-322091196480969821",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "base_ribbon_01.png",
+      "path": "assets/ui/base_ribbon_01.png",
+      "sha256": "5e5d0a854e182a7a7d2c696e3053422cfe7859a68bf1be217e424031e1cbd3fb",
+      "size": 13344,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:-2213561631699853073",
       "source_bundles": [
         "29121095407936fd11fb775fb8b7cfef.bundle"
       ]
@@ -16373,6 +16708,17 @@
       "sha256": "c5dab47ccce68afd0a352de9ad59be404f271228fc7d1427b8dd074f82cbd9ca",
       "size": 7008,
       "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:1688305901921842351",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "toggle_04_off.png",
+      "path": "assets/ui/toggle_04_off.png",
+      "sha256": "98f4e731fe9880de6c962f217c51ee09eede11b18fa3354a2c82e9f7b47ff41d",
+      "size": 560,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:366755172800441101",
       "source_bundles": [
         "29121095407936fd11fb775fb8b7cfef.bundle"
       ]

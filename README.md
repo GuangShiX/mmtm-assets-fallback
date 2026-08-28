@@ -74,6 +74,14 @@ request. New or stale cards are rendered and verified before any data commit.
 Changes are committed automatically; `v<game-version>` tags are retained only for
 rollback.
 
+Official art is added on demand through the tracker's
+`config/official_asset_requests.json`, not by copying files into this repository.
+The image job treats that request file's SHA-256 as an update key, rebuilds the
+official package subset when the request set changes, merges exact Addressables
+targets, and then runs `asset_requests.py verify-repository`. A data commit is
+blocked unless every requested asset has a canonical path, matching size/hash,
+valid PNG data, source evidence, and a complete current request fingerprint.
+
 ## Notice
 
 This is an unofficial, non-commercial fan-project backup. MementoMori and the
