@@ -11,7 +11,7 @@ APKs, complete character artwork, raw Unity objects, or complete Master database
 
 ```text
 assets/
-  characters/   # Small character portraits
+  characters/   # Complete published player avatars and small character portraits
   enemies/      # Enemy portraits
   equipment/    # Equipment icons
   spheres/      # Rune/sphere icons
@@ -74,13 +74,22 @@ request. New or stale cards are rendered and verified before any data commit.
 Changes are committed automatically; `v<game-version>` tags are retained only for
 rollback.
 
-Official art is added on demand through the tracker's
-`config/official_asset_requests.json`, not by copying files into this repository.
-The image job treats that request file's SHA-256 as an update key, rebuilds the
-official package subset when the request set changes, merges exact Addressables
-targets, and then runs `asset_requests.py verify-repository`. A data commit is
-blocked unless every requested asset has a canonical path, matching size/hash,
-valid PNG data, source evidence, and a complete current request fingerprint.
+Official art policy lives in the tracker's `config/official_asset_requests.json`
+and generated `config/player_avatar_inventory.json`; files are never copied into
+this repository by hand. The repository keeps every published compact player
+avatar that can be traced to `CharacterMB` or `SpecialIconItemMB`, plus canonical
+small-icon families for characters, enemies, equipment, items, and spheres.
+Master rows reserved without an official image remain audit records and are not
+published as fake or missing files. Larger UI and scene art is still added only
+for an identified consumer.
+
+The image job treats the combined request and avatar-inventory SHA-256 as an
+update key, rebuilds the official package subset when it changes, discovers
+matching official sprites, merges Addressables targets, and then runs
+`asset_requests.py verify-repository`. A data commit is blocked unless every
+required asset has a canonical path, matching size/hash, valid PNG data, source
+evidence, and a complete current request fingerprint. Published differential
+avatars must also map back to the current `SpecialIconItemMB` inventory.
 
 ## Notice
 

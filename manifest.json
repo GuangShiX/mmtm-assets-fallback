@@ -5,13 +5,13 @@
   "version": "4.21.0",
   "ref": "main",
   "archive_ref": "v4.21.0",
-  "generated_at": "2026-08-27T18:37:05.022846+00:00",
+  "generated_at": "2026-08-28T11:15:09.782666+00:00",
   "base_url": "https://raw.githubusercontent.com/GuangShiX/mmtm-assets-fallback/main",
   "cache_strategy": "stable-path-sha256",
-  "asset_count": 1517,
-  "total_bytes": 54626378,
+  "asset_count": 1631,
+  "total_bytes": 58661938,
   "category_counts": {
-    "characters": 163,
+    "characters": 277,
     "enemies": 60,
     "equipment": 896,
     "items": 248,
@@ -21,17 +21,28 @@
   "generation_mode": "critical-package-plus-official-hot-update",
   "asset_version": "4a851fa27b84c8c1a05e57608a16c6486c404219_1",
   "master_version": "1787808602106",
-  "hot_update_asset_count": 16,
+  "hot_update_asset_count": 27,
   "hot_update_category_counts": {
-    "characters": 6,
+    "characters": 17,
     "equipment": 6,
     "items": 4
   },
-  "request_registry_sha256": "8ea09d7a12e0164fdf8e40ea461f18968d6d3acbb1d1676d4a57d9df147adc80",
+  "request_registry_sha256": "1e46d7cb9b007bab8dfbd8e4362a68727ee5e069de65f8b57bf43301bda1fe61",
   "request_registry_status": "complete",
-  "requested_asset_count": 100,
+  "requested_asset_count": 219,
   "missing_requested_assets": [],
   "assets": [
+    {
+      "category": "characters",
+      "name": "CHR_000001_00_em_001.png",
+      "path": "assets/characters/CHR_000001_00_em_001.png",
+      "sha256": "0225126441d13f43df0c06ce633532c379ccb017ef3614eda8a135b0fdc53f30",
+      "size": 35305,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000001/CHR_000001_00_em_001.png",
+      "source_bundles": [
+        "a42437518cc5b8e356d0e9ac75f83124.bundle"
+      ]
+    },
     {
       "category": "characters",
       "name": "CHR_000001_00_s.png",
@@ -41,6 +52,39 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000001/CHR_000001_00_s.png",
       "source_bundles": [
         "b55224b04f868ec24d30c9e69d460ff2.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000002_00_em_001.png",
+      "path": "assets/characters/CHR_000002_00_em_001.png",
+      "sha256": "e98faba272ad04b7e2679a4f837ce0aeb538be5b774912bd63825f676fa58710",
+      "size": 34402,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000002/CHR_000002_00_em_001.png",
+      "source_bundles": [
+        "394b624e285326fe816a7ff347a0e178.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000002_00_em_002.png",
+      "path": "assets/characters/CHR_000002_00_em_002.png",
+      "sha256": "325d433e9248da95a41fd9ade08d79b1e3759f20bccd8ed94ab46a5069702de5",
+      "size": 39303,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000002/CHR_000002_00_em_002.png",
+      "source_bundles": [
+        "140d60bd895453f1fa8eee55e4bdfd7c.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000002_00_em_003.png",
+      "path": "assets/characters/CHR_000002_00_em_003.png",
+      "sha256": "bc33c05c8b39e3c96570c5201dc89c63703610b6eb763270c6ee700c3161b22e",
+      "size": 32358,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000002/CHR_000002_00_em_003.png",
+      "source_bundles": [
+        "dc0ba29dab30b047512d66100aad4451.bundle"
       ]
     },
     {
@@ -56,6 +100,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000003_00_em_001.png",
+      "path": "assets/characters/CHR_000003_00_em_001.png",
+      "sha256": "081e0949e51c92b457ac35d4defe67b9d98679f89e500d8bb3f5c9ae6dd48430",
+      "size": 34818,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000003/CHR_000003_00_em_001.png",
+      "source_bundles": [
+        "01e704651b6b59aa8f1b9f05e688017c.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000003_00_s.png",
       "path": "assets/characters/CHR_000003_00_s.png",
       "sha256": "25af105593b03ebd4a60b9ea432839372485d17542812c33d62348bda9a51f3c",
@@ -63,6 +118,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000003/CHR_000003_00_s.png",
       "source_bundles": [
         "48b6f45e7eaa1d4aeb45959a32e24f7b.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000004_00_em_001.png",
+      "path": "assets/characters/CHR_000004_00_em_001.png",
+      "sha256": "fe4260a256faae788ecd49f1f26f29c09ccc94e13f8c291716a38dcb5da863ac",
+      "size": 34071,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000004/CHR_000004_00_em_001.png",
+      "source_bundles": [
+        "d2c15be5b9243c76063381ec2982a4fd.bundle"
       ]
     },
     {
@@ -78,6 +144,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000005_00_em_001.png",
+      "path": "assets/characters/CHR_000005_00_em_001.png",
+      "sha256": "4806e0eaa77b1d093ee8b178ba284cd5eaca7cfd03ea0ae3c71d7c435a2f1531",
+      "size": 33538,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000005/CHR_000005_00_em_001.png",
+      "source_bundles": [
+        "0aeb04562fe6a8f6aba241e74b41c952.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000005_00_s.png",
       "path": "assets/characters/CHR_000005_00_s.png",
       "sha256": "b875fa920784bdcd16efed965aca8be55f34288bb4046f496dd95d0af020d678",
@@ -85,6 +162,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000005/CHR_000005_00_s.png",
       "source_bundles": [
         "d577b79ec5f2963863e0c6d0cdb58002.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000006_00_em_001.png",
+      "path": "assets/characters/CHR_000006_00_em_001.png",
+      "sha256": "15c30e8c0046a7039cb4f6ce9093705a4aeb3d06d860f7de3e8d6aec92d9c832",
+      "size": 37310,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000006/CHR_000006_00_em_001.png",
+      "source_bundles": [
+        "19412b0d1ede4c922d293f0f789e227a.bundle"
       ]
     },
     {
@@ -100,6 +188,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000007_00_em_001.png",
+      "path": "assets/characters/CHR_000007_00_em_001.png",
+      "sha256": "d9f139d8bbbbe7bb8e016284dcd2e8831b272ca5ffa5d778f58057d72d08be31",
+      "size": 37603,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000007/CHR_000007_00_em_001.png",
+      "source_bundles": [
+        "c363888a6d945d9ab61590c4976bcce0.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000007_00_s.png",
       "path": "assets/characters/CHR_000007_00_s.png",
       "sha256": "c9f4cec133aa07413dee6a2f24695bb38ecc74f2321cd18216c125614a3e6412",
@@ -107,6 +206,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000007/CHR_000007_00_s.png",
       "source_bundles": [
         "2850b1a165e2eff5497244a95b704202.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000008_00_em_001.png",
+      "path": "assets/characters/CHR_000008_00_em_001.png",
+      "sha256": "beb97bb9b5e8b9aba7b57c116510d863cdae3fb4600b5033276d322dac2fc0d8",
+      "size": 36867,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000008/CHR_000008_00_em_001.png",
+      "source_bundles": [
+        "2fe6b50c37858683c6fc99ef303c8aec.bundle"
       ]
     },
     {
@@ -122,6 +232,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000009_00_em_001.png",
+      "path": "assets/characters/CHR_000009_00_em_001.png",
+      "sha256": "96167697361221e27873f2a8fab50ed1ceb2ff5271a312e0d19aa56df154aedc",
+      "size": 32470,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000009/CHR_000009_00_em_001.png",
+      "source_bundles": [
+        "6a97e6ef53e3d3b9d644b63edbeb6518.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000009_00_s.png",
       "path": "assets/characters/CHR_000009_00_s.png",
       "sha256": "6ed23dafb6a57ec16749407747ce9dfbcd9c77231d720020954fede198629163",
@@ -129,6 +250,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000009/CHR_000009_00_s.png",
       "source_bundles": [
         "501e03fffc0c50d09bbe7d440551b5dc.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000010_00_em_001.png",
+      "path": "assets/characters/CHR_000010_00_em_001.png",
+      "sha256": "2a0ac8eb1e3924f1d345fcc871a382a0ec954578d9ede9930199895b37dc3949",
+      "size": 38234,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000010/CHR_000010_00_em_001.png",
+      "source_bundles": [
+        "a536835e9c33ced6e6b5c4dc4d3823c7.bundle"
       ]
     },
     {
@@ -144,6 +276,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000011_00_em_001.png",
+      "path": "assets/characters/CHR_000011_00_em_001.png",
+      "sha256": "8ea5b40d855180dd61f11acd02210d766ef40a9f5b2417b7fdfceb4b42a3d38f",
+      "size": 34786,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000011/CHR_000011_00_em_001.png",
+      "source_bundles": [
+        "c875c4ad902709618acca695b5d228b5.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000011_00_s.png",
       "path": "assets/characters/CHR_000011_00_s.png",
       "sha256": "ae537c3e1bc225d125765289edfa6b66414df15ab10f811361345406f0a0cc61",
@@ -151,6 +294,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000011/CHR_000011_00_s.png",
       "source_bundles": [
         "7899ce62c5863ed5906f14f248e65533.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000012_00_em_001.png",
+      "path": "assets/characters/CHR_000012_00_em_001.png",
+      "sha256": "f2251a11db55ff3b5287730d21e3271b191aa6f6e5f4ea58e1ba554b594d40e2",
+      "size": 36471,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000012/CHR_000012_00_em_001.png",
+      "source_bundles": [
+        "ff37686d976ad82d7e9b5f73b2f77e05.bundle"
       ]
     },
     {
@@ -166,6 +320,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000013_00_em_001.png",
+      "path": "assets/characters/CHR_000013_00_em_001.png",
+      "sha256": "62355b1f6ec0cd6e3fc512048ed26f7c6ed5735022bfe820ae9fd9723a592364",
+      "size": 34895,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000013/CHR_000013_00_em_001.png",
+      "source_bundles": [
+        "0947d5928a169b9c1a38f7140c0933c5.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000013_00_s.png",
       "path": "assets/characters/CHR_000013_00_s.png",
       "sha256": "4b6ecaaef8615463efb4d6c3a5afd0c426e1cc2ec0adb0d1eea29954443ce3eb",
@@ -173,6 +338,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000013/CHR_000013_00_s.png",
       "source_bundles": [
         "e1ba64a57a67d997ea1076a5e0908c0b.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000014_00_em_001.png",
+      "path": "assets/characters/CHR_000014_00_em_001.png",
+      "sha256": "19ddbd3909f37fb36c0d757730691c14997fa4f6be1c6733ff8dd76384a79b69",
+      "size": 29789,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000014/CHR_000014_00_em_001.png",
+      "source_bundles": [
+        "0137fa5a0174186ab8cd5dd0ebe2ac4b.bundle"
       ]
     },
     {
@@ -188,6 +364,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000015_00_em_001.png",
+      "path": "assets/characters/CHR_000015_00_em_001.png",
+      "sha256": "b6739ac9d2b3ccfa7d0e42a5f90d33c211b83d72cfafd6e00bf3bea16ab9a905",
+      "size": 34522,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000015/CHR_000015_00_em_001.png",
+      "source_bundles": [
+        "cdb522092b1593324a2bdfa3a4969623.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000015_00_s.png",
       "path": "assets/characters/CHR_000015_00_s.png",
       "sha256": "3e4ccaf2dc080e40303a2cd4be435d1178e06b4ff752a4fc35f0c1931023bc83",
@@ -195,6 +382,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000015/CHR_000015_00_s.png",
       "source_bundles": [
         "c7120faf3c2bec0854a492a071befd9d.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000016_00_em_001.png",
+      "path": "assets/characters/CHR_000016_00_em_001.png",
+      "sha256": "d768e20435a05a5a332788f85ffbf9b9f617ba1a64c6647e2c7c053dee31f5c2",
+      "size": 34375,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000016/CHR_000016_00_em_001.png",
+      "source_bundles": [
+        "be2e7756170ecf07c932ee68bb764043.bundle"
       ]
     },
     {
@@ -210,6 +408,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000017_00_em_001.png",
+      "path": "assets/characters/CHR_000017_00_em_001.png",
+      "sha256": "f0ec0090150dc67e2a0850d9127659be1134636cf7c6796186ea054eb20d844e",
+      "size": 38132,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000017/CHR_000017_00_em_001.png",
+      "source_bundles": [
+        "4bb55ad3384c7888d7cb0d4b705ae31d.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000017_00_s.png",
       "path": "assets/characters/CHR_000017_00_s.png",
       "sha256": "552a08631efd0dc470d8b55c4c586fba31c0d5d2fd834c44570b1f991d3c86d2",
@@ -217,6 +426,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000017/CHR_000017_00_s.png",
       "source_bundles": [
         "b34664bf7fbd4388287949591f6825af.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000018_00_em_001.png",
+      "path": "assets/characters/CHR_000018_00_em_001.png",
+      "sha256": "85d71f329227f9c0e1820b506119191621f4d06ee49789c9adf612361d4d4b27",
+      "size": 38065,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000018/CHR_000018_00_em_001.png",
+      "source_bundles": [
+        "2ca18c3246f8b742c94fd7a07c96144c.bundle"
       ]
     },
     {
@@ -232,6 +452,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000019_00_em_001.png",
+      "path": "assets/characters/CHR_000019_00_em_001.png",
+      "sha256": "54051712ecf28650605d3d374be9b4ee81e6e6d89898a6d3a4df5c295c3e137f",
+      "size": 36734,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000019/CHR_000019_00_em_001.png",
+      "source_bundles": [
+        "6aa53b2b773336fbcb8760483236f18a.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000019_00_s.png",
       "path": "assets/characters/CHR_000019_00_s.png",
       "sha256": "bf62dd371ed13bb7b4880283ea7174e01a4a00529dcc3c40a55379141d1621df",
@@ -239,6 +470,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000019/CHR_000019_00_s.png",
       "source_bundles": [
         "3573125d7d39a19da8ccf099795fb745.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000020_00_em_001.png",
+      "path": "assets/characters/CHR_000020_00_em_001.png",
+      "sha256": "5a2180e60533aa75ea011d54893908b0bac7342528d6c284af2a6e35794143bd",
+      "size": 38809,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000020/CHR_000020_00_em_001.png",
+      "source_bundles": [
+        "5e5d21561df56921791759bf3807c560.bundle"
       ]
     },
     {
@@ -254,6 +496,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000021_00_em_001.png",
+      "path": "assets/characters/CHR_000021_00_em_001.png",
+      "sha256": "129cd670001958f13484151fb8ea250173c0f7ae3157e215d1e0d13ef4983901",
+      "size": 31373,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000021/CHR_000021_00_em_001.png",
+      "source_bundles": [
+        "51fcd8dbbdc17a59e9c71755325f8b18.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000021_00_s.png",
       "path": "assets/characters/CHR_000021_00_s.png",
       "sha256": "498cac5fce9b69de32770ddf7dea5597d57be29145936a019ea6d4c65908c5bf",
@@ -261,6 +514,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000021/CHR_000021_00_s.png",
       "source_bundles": [
         "345ffb15f375c00a9a73a509f3432776.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000022_00_em_001.png",
+      "path": "assets/characters/CHR_000022_00_em_001.png",
+      "sha256": "e227b8f94ae888d79dc294f7d8bdbd0a7386fe04c40d058fd6c88c575405815c",
+      "size": 38182,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000022/CHR_000022_00_em_001.png",
+      "source_bundles": [
+        "a22f53360af46381035e55159d543340.bundle"
       ]
     },
     {
@@ -276,6 +540,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000023_00_em_001.png",
+      "path": "assets/characters/CHR_000023_00_em_001.png",
+      "sha256": "31a2b92bf604a0b723a561e81bb3561d3495eadd9b72edd9e5abd3b770a8e172",
+      "size": 37775,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000023/CHR_000023_00_em_001.png",
+      "source_bundles": [
+        "90655283f64f5b99c9fd6be284011b04.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000023_00_s.png",
       "path": "assets/characters/CHR_000023_00_s.png",
       "sha256": "c21b3c131c92ee206232c6b21f63e359d4fad775f5b880c79e22f828f226913e",
@@ -283,6 +558,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000023/CHR_000023_00_s.png",
       "source_bundles": [
         "d7e553054f1a84d145dd4e573dbb60c0.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000024_00_em_001.png",
+      "path": "assets/characters/CHR_000024_00_em_001.png",
+      "sha256": "e7bef6ca2cf5969dad71bb79cb9379275d8a10cea1d3740aa5420a281d98473e",
+      "size": 35872,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000024/CHR_000024_00_em_001.png",
+      "source_bundles": [
+        "6f7d731a2fccd6e4aa3ff137ec013584.bundle"
       ]
     },
     {
@@ -298,6 +584,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000025_00_em_001.png",
+      "path": "assets/characters/CHR_000025_00_em_001.png",
+      "sha256": "1d389473c7e271805a79fe2647d67d1b8ae69da1a6ef5c39ed277e3e0aec57e2",
+      "size": 38500,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000025/CHR_000025_00_em_001.png",
+      "source_bundles": [
+        "e4e9e4c7d1259a04852d8eea385b30dd.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000025_00_s.png",
       "path": "assets/characters/CHR_000025_00_s.png",
       "sha256": "7e1a989e8b8752a2166a46b15dea65163a46d2b0b7e6d77f87ba6166d5ca6bbe",
@@ -305,6 +602,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000025/CHR_000025_00_s.png",
       "source_bundles": [
         "144c587d91c3f74b0f70ecdfc1f2d0e4.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000026_00_em_001.png",
+      "path": "assets/characters/CHR_000026_00_em_001.png",
+      "sha256": "40a1edbd3ecc6485b1395e86ea7757a7269155f95d8d1d3ef29822a8786f23ba",
+      "size": 36744,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000026/CHR_000026_00_em_001.png",
+      "source_bundles": [
+        "23aff65036acffdad830da40772593cc.bundle"
       ]
     },
     {
@@ -320,6 +628,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000027_00_em_001.png",
+      "path": "assets/characters/CHR_000027_00_em_001.png",
+      "sha256": "c62e11de881ff91fb71e4132e635dfe551bd47b6d5d2cdb0b802780101fcbc32",
+      "size": 35554,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000027/CHR_000027_00_em_001.png",
+      "source_bundles": [
+        "1bffd462b52d1bccc896abcb2ee9d187.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000027_00_s.png",
       "path": "assets/characters/CHR_000027_00_s.png",
       "sha256": "5e5576117762ebbc9b7d5f77cf02bce7192e4078f552af3c84a76ac98876464d",
@@ -327,6 +646,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000027/CHR_000027_00_s.png",
       "source_bundles": [
         "c2d2b3e844d81b903df584cfb3cda760.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000028_00_em_001.png",
+      "path": "assets/characters/CHR_000028_00_em_001.png",
+      "sha256": "5188bfde0a6d2c9c01fee216207ea8619d3469582acd94c3834ba5b5ccf58eee",
+      "size": 37392,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000028/CHR_000028_00_em_001.png",
+      "source_bundles": [
+        "ed86193bdaaeff647fa7c679c6b44313.bundle"
       ]
     },
     {
@@ -342,6 +672,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000029_00_em_001.png",
+      "path": "assets/characters/CHR_000029_00_em_001.png",
+      "sha256": "54f867247dfc8c18ba1a2ddb88e3930fbde82736772fc7527dc46eed98ec32fb",
+      "size": 32066,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000029/CHR_000029_00_em_001.png",
+      "source_bundles": [
+        "e9d701e3d0ea14e305394c3f0290618a.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000029_00_s.png",
       "path": "assets/characters/CHR_000029_00_s.png",
       "sha256": "e116f71c7c6b2ed0b3c48bc25ed2797a7554b4e9ce2645675ab949aefbe0c730",
@@ -349,6 +690,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000029/CHR_000029_00_s.png",
       "source_bundles": [
         "ea8c7b2eefb8c7eed1c0fe649242f2ff.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000030_00_em_001.png",
+      "path": "assets/characters/CHR_000030_00_em_001.png",
+      "sha256": "172e4382e016b546cd0716a56dd8c4ab23b5c61ce35c0ed92fd85f400dc68e9a",
+      "size": 38257,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000030/CHR_000030_00_em_001.png",
+      "source_bundles": [
+        "c2d10e7283a0434db44a21bb22b2f3e0.bundle"
       ]
     },
     {
@@ -364,6 +716,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000031_00_em_001.png",
+      "path": "assets/characters/CHR_000031_00_em_001.png",
+      "sha256": "7f552545a51a4efe8e0bf7136928db0a37e7e4c2493212f3563d79aa60ed952e",
+      "size": 36474,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000031/CHR_000031_00_em_001.png",
+      "source_bundles": [
+        "25867ba8d07fb61db808cc3d3b097e53.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000031_00_s.png",
       "path": "assets/characters/CHR_000031_00_s.png",
       "sha256": "3356358986d931397074568a8db67894c9f2a2cdfc80a904dad6ad66daa59999",
@@ -371,6 +734,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000031/CHR_000031_00_s.png",
       "source_bundles": [
         "cc4db80af6817775463e7d0a5635433b.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000032_00_em_001.png",
+      "path": "assets/characters/CHR_000032_00_em_001.png",
+      "sha256": "d48a8593a0b5b65c2cc2b39630ba0e8c6801858227f908ae2320b387513d015f",
+      "size": 37274,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000032/CHR_000032_00_em_001.png",
+      "source_bundles": [
+        "d92aa803af37b36c03d9874ccdc1a0e6.bundle"
       ]
     },
     {
@@ -386,6 +760,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000033_00_em_001.png",
+      "path": "assets/characters/CHR_000033_00_em_001.png",
+      "sha256": "26cd8000f56270ba1e00e52ebeae84c9f381c8548935e891038ac1903bfd05f4",
+      "size": 35521,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000033/CHR_000033_00_em_001.png",
+      "source_bundles": [
+        "3aeb1ce05e618e42ba86149cb2d16a5d.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000033_00_s.png",
       "path": "assets/characters/CHR_000033_00_s.png",
       "sha256": "b85f6295fb593b241877f164a28faad1b071ddc8adb062d99de757cfc7b6df92",
@@ -393,6 +778,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000033/CHR_000033_00_s.png",
       "source_bundles": [
         "7678702426730521f882c438c41f6bd4.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000034_00_em_001.png",
+      "path": "assets/characters/CHR_000034_00_em_001.png",
+      "sha256": "015a0005484c50ab9bee8fbd9e4aa7d43f1ea687a34d9d1f957abd014b043f3b",
+      "size": 34569,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000034/CHR_000034_00_em_001.png",
+      "source_bundles": [
+        "bcea14245ca8432ee10a4bdbab0aad69.bundle"
       ]
     },
     {
@@ -408,6 +804,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000035_00_em_001.png",
+      "path": "assets/characters/CHR_000035_00_em_001.png",
+      "sha256": "fb97523c1386b158407dad7b57854b1834ec9498b8099c6a313a9140ec08ce69",
+      "size": 39840,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000035/CHR_000035_00_em_001.png",
+      "source_bundles": [
+        "a9176048acf75bb36f07df390260445b.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000035_00_s.png",
       "path": "assets/characters/CHR_000035_00_s.png",
       "sha256": "7562e646c9a1f755b22f691ebf0b4d4ee2a36477d39c78aca62c4ed2a507e878",
@@ -415,6 +822,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000035/CHR_000035_00_s.png",
       "source_bundles": [
         "b1e03ab12d344d91a2c1e90996d034a4.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000036_00_em_001.png",
+      "path": "assets/characters/CHR_000036_00_em_001.png",
+      "sha256": "27169c07e277adceb3a0db62e10d7a295d917e1005e4359c0067560dfc92756d",
+      "size": 36293,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000036/CHR_000036_00_em_001.png",
+      "source_bundles": [
+        "ef33320f654e2dfb6408b2d208f053ac.bundle"
       ]
     },
     {
@@ -430,6 +848,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000037_00_em_001.png",
+      "path": "assets/characters/CHR_000037_00_em_001.png",
+      "sha256": "1de6728833018c427c14e35ae99b403b5b6d1f01f59e49fdaee4e1f8d36d06fd",
+      "size": 38526,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000037/CHR_000037_00_em_001.png",
+      "source_bundles": [
+        "f0dc866d1dcc7b226c5beec6e4a6289b.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000037_00_s.png",
       "path": "assets/characters/CHR_000037_00_s.png",
       "sha256": "ac3a91df07011f2197f7e01af616e5ac22a7debfcb33aa7ee14ea19440cf9629",
@@ -437,6 +866,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000037/CHR_000037_00_s.png",
       "source_bundles": [
         "1b2d2598ac41097691543ee949f14f50.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000038_00_em_001.png",
+      "path": "assets/characters/CHR_000038_00_em_001.png",
+      "sha256": "c4d7f713b6802db4ba2125986bae810b26ff074bc300c825a7ea7cb45268e315",
+      "size": 33354,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000038/CHR_000038_00_em_001.png",
+      "source_bundles": [
+        "75f8d5f00bfab1edf9b931c586065552.bundle"
       ]
     },
     {
@@ -452,6 +892,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000039_00_em_001.png",
+      "path": "assets/characters/CHR_000039_00_em_001.png",
+      "sha256": "4c9d2f19e1ad20d4d3f99a56bacc771f1f094c89324b331322e0b7656c4ed222",
+      "size": 34034,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000039/CHR_000039_00_em_001.png",
+      "source_bundles": [
+        "1cb107996b625e4554d6f729b46331ae.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000039_00_s.png",
       "path": "assets/characters/CHR_000039_00_s.png",
       "sha256": "475330d24d4b803e25c0a7755aa1b0481d679a3a8f0c276457fa65a421a2844a",
@@ -463,6 +914,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000040_00_em_001.png",
+      "path": "assets/characters/CHR_000040_00_em_001.png",
+      "sha256": "91b6dd809a4b5734aad4ac009ca4f4cd0b0f4fde27ffb8c2630cbbc2eef1dd3c",
+      "size": 36306,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000040/CHR_000040_00_em_001.png",
+      "source_bundles": [
+        "bf6f9b5fda65cc9b67b8f9faaf854817.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000040_00_s.png",
       "path": "assets/characters/CHR_000040_00_s.png",
       "sha256": "c093b6b0fe30998d783084ba5939b30a8332f638f106e84b50e3c4cc30a11a41",
@@ -470,6 +932,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000040/CHR_000040_00_s.png",
       "source_bundles": [
         "e0ec637db6440b59b8b20c7d502b2c17.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000041_00_em_001.png",
+      "path": "assets/characters/CHR_000041_00_em_001.png",
+      "sha256": "44fdb4f30bd8232822fbd1a3274a4b1df4f07e289a1dbf0f18c2b7c69bfb3233",
+      "size": 38911,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000041/CHR_000041_00_em_001.png",
+      "source_bundles": [
+        "9ccd351b6c2b9be998adcd30c04919e1.bundle"
       ]
     },
     {
@@ -529,6 +1002,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000043_00_em_001.png",
+      "path": "assets/characters/CHR_000043_00_em_001.png",
+      "sha256": "b820485b57e58c07eafc8d1eaed53584ed00d4b011557b475fcf7c12ae69183a",
+      "size": 35520,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000043/CHR_000043_00_em_001.png",
+      "source_bundles": [
+        "a806ee21da05c7e42201dae25fa9ca0c.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000043_00_s.png",
       "path": "assets/characters/CHR_000043_00_s.png",
       "sha256": "5e801887526f048a8cca779ed9d605685e42c0443b9a00ce64ded8e86cf4ea43",
@@ -551,6 +1035,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000044_00_em_001.png",
+      "path": "assets/characters/CHR_000044_00_em_001.png",
+      "sha256": "a3b5616d9d8ca26c35d5c0a82934ce9bce26de7c4c585460eedbee7464c7a10b",
+      "size": 38069,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000044/CHR_000044_00_em_001.png",
+      "source_bundles": [
+        "28cf7070ca33d4bbdf5233fef6acae28.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000044_00_s.png",
       "path": "assets/characters/CHR_000044_00_s.png",
       "sha256": "3916debb0b2842ac7d9dba00ab6fffedbf4e707d6f6ad65d6ab156a3f272faa6",
@@ -569,6 +1064,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000044/CHR_000044_01_s.png",
       "source_bundles": [
         "515474c7fcc5019b3de80dfd9d435a44.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000045_00_em_001.png",
+      "path": "assets/characters/CHR_000045_00_em_001.png",
+      "sha256": "05122917aaeb0ab67675110377f3e7636f1e8daffaa3f34d5b1abb3eef7b5c5c",
+      "size": 39363,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000045/CHR_000045_00_em_001.png",
+      "source_bundles": [
+        "e2ab3d1e4ba5777ba42d901b3cfc012c.bundle"
       ]
     },
     {
@@ -606,6 +1112,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000046_00_em_001.png",
+      "path": "assets/characters/CHR_000046_00_em_001.png",
+      "sha256": "61448096a98fb294fbad7c5845758bf38ca95f0cde6bb30ac15bae28a5ac804e",
+      "size": 35183,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000046/CHR_000046_00_em_001.png",
+      "source_bundles": [
+        "5d0b0bc9c66d3c79c27ed3bc7bef699d.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000046_00_s.png",
       "path": "assets/characters/CHR_000046_00_s.png",
       "sha256": "48aa26b1880f804fbcb3e81cf49bd6fb811de2211d7b5a25d4ba9e1ab755da7d",
@@ -624,6 +1141,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000046/CHR_000046_01_s.png",
       "source_bundles": [
         "26f0a3d27ac8f8dab7c0e4f44ec8e0b0.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000047_00_em_001.png",
+      "path": "assets/characters/CHR_000047_00_em_001.png",
+      "sha256": "ce2ea821dce536986b5e1de3cf81ecba2246b1feac7b655a47b51ab971ea78fc",
+      "size": 36268,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000047/CHR_000047_00_em_001.png",
+      "source_bundles": [
+        "92660084b9aa9c3aebb456721f3cc333.bundle"
       ]
     },
     {
@@ -650,6 +1178,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000048_00_em_001.png",
+      "path": "assets/characters/CHR_000048_00_em_001.png",
+      "sha256": "40a7a89e74588df695c99460edea0ee59da1f34b6fe7c4edba64d03b473b2095",
+      "size": 34783,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000048/CHR_000048_00_em_001.png",
+      "source_bundles": [
+        "b58a05090c6cfbc6e5f96367c07a7297.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000048_00_s.png",
       "path": "assets/characters/CHR_000048_00_s.png",
       "sha256": "62c18eb9589ca7e08651da471de5176b2d820822b1f5f4b563331f5716abbe8f",
@@ -668,6 +1207,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000048/CHR_000048_01_s.png",
       "source_bundles": [
         "be27a2ab11863acff5e2241e9c2191ed.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000049_00_em_001.png",
+      "path": "assets/characters/CHR_000049_00_em_001.png",
+      "sha256": "db26f315d4bbea6bf0624279b5faf4edd67d04ff07977d8d3fccbbd424a638b5",
+      "size": 37537,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000049/CHR_000049_00_em_001.png",
+      "source_bundles": [
+        "7e395ac2d903823f6c2f1fbbbbf9a785.bundle"
       ]
     },
     {
@@ -694,6 +1244,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000050_00_em_001.png",
+      "path": "assets/characters/CHR_000050_00_em_001.png",
+      "sha256": "022aff5e6e56853bbc2ac2639d0ea23b4ba11e8ad7fa744fa3072533be40b490",
+      "size": 34930,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000050/CHR_000050_00_em_001.png",
+      "source_bundles": [
+        "073bf8a5ec6465adcecc33d31bdf0d18.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000050_00_s.png",
       "path": "assets/characters/CHR_000050_00_s.png",
       "sha256": "619039db1c7b64f539ce4502838e997d4017948ed0899c343409329cea74a1fc",
@@ -716,6 +1277,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000051_00_em_001.png",
+      "path": "assets/characters/CHR_000051_00_em_001.png",
+      "sha256": "15c875e444f65105565a2ee2f347c5cc35d091a855d5dd96ee106daa6208774b",
+      "size": 33463,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000051/CHR_000051_00_em_001.png",
+      "source_bundles": [
+        "a12dff0ea06241ac8ca6eb9ef5a2e6ff.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000051_00_s.png",
       "path": "assets/characters/CHR_000051_00_s.png",
       "sha256": "5e368aa4c17f1c1f2496359545d86d819c3d95728a457cdf2c702534622af83a",
@@ -723,6 +1295,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000051/CHR_000051_00_s.png",
       "source_bundles": [
         "874fe6e10e96c1242bd2056ec2208a19.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000052_00_em_001.png",
+      "path": "assets/characters/CHR_000052_00_em_001.png",
+      "sha256": "2d5af01d941ccc15ceea814c7d67b9bb30968d848fbe91f058c80b7e37b9f9bb",
+      "size": 35942,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000052/CHR_000052_00_em_001.png",
+      "source_bundles": [
+        "87d99a87c584d1106c879a3b8d656f50.bundle"
       ]
     },
     {
@@ -738,6 +1321,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000053_00_em_001.png",
+      "path": "assets/characters/CHR_000053_00_em_001.png",
+      "sha256": "bf58bae9f822e845d4fbfb5e99d13bd9b71c8520ce23a6f90137f22d008fa305",
+      "size": 35860,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000053/CHR_000053_00_em_001.png",
+      "source_bundles": [
+        "f810bc048d02cb9c3c88c510e419abaf.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000053_00_s.png",
       "path": "assets/characters/CHR_000053_00_s.png",
       "sha256": "e5048b53700ced3ab17ba75ab6ededf55e37ba976f38471a6e73345bff2b4463",
@@ -745,6 +1339,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000053/CHR_000053_00_s.png",
       "source_bundles": [
         "201fa0fd8b8ff28085454d35a17e2c12.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000054_00_em_001.png",
+      "path": "assets/characters/CHR_000054_00_em_001.png",
+      "sha256": "198183c3283bd841c42fe80ce419c20d1306f748332d77290dc1c4ab2a2976ae",
+      "size": 35939,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000054/CHR_000054_00_em_001.png",
+      "source_bundles": [
+        "7a345af8f6a465e4db29b712b968a6ef.bundle"
       ]
     },
     {
@@ -760,6 +1365,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000055_00_em_001.png",
+      "path": "assets/characters/CHR_000055_00_em_001.png",
+      "sha256": "f8d7e48e216e94bd0c4ae627da6bf3ff8c9e23e6d8d55953b6f6199083777202",
+      "size": 37468,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000055/CHR_000055_00_em_001.png",
+      "source_bundles": [
+        "7af0df59a4db334c8f7f8654ad02a918.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000055_00_s.png",
       "path": "assets/characters/CHR_000055_00_s.png",
       "sha256": "855d9d23781f2c8267f3118b0cc538730dca4e991051bdae0f63962b1472eb57",
@@ -767,6 +1383,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000055/CHR_000055_00_s.png",
       "source_bundles": [
         "8d36e1fc11f5c5fd3f46edd18311211e.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000056_00_em_001.png",
+      "path": "assets/characters/CHR_000056_00_em_001.png",
+      "sha256": "cab0a3282faed67c75a303a5ef55e47010bff9047200a4ea4a22777f2173417d",
+      "size": 32988,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000056/CHR_000056_00_em_001.png",
+      "source_bundles": [
+        "28f9566f29cee7585585b04aa48b0e93.bundle"
       ]
     },
     {
@@ -782,6 +1409,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000057_00_em_001.png",
+      "path": "assets/characters/CHR_000057_00_em_001.png",
+      "sha256": "04f098da7939938a06e4efcefc9fd4ac558a466936d791d6d6880ff0a202e13b",
+      "size": 39148,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000057/CHR_000057_00_em_001.png",
+      "source_bundles": [
+        "541fcc5f5e8944643d9767859d736443.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000057_00_s.png",
       "path": "assets/characters/CHR_000057_00_s.png",
       "sha256": "eb33967241bf77b90f6f71ce474c961d166f40075e676a0fc57dc40446a99415",
@@ -789,6 +1427,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000057/CHR_000057_00_s.png",
       "source_bundles": [
         "7b4032fd0e542b18baddfc496e143401.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000058_00_em_001.png",
+      "path": "assets/characters/CHR_000058_00_em_001.png",
+      "sha256": "1d1d77f021158f919b63e444a2b4f397eb3a3838abac0c27939cf17d0057ee14",
+      "size": 38550,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000058/CHR_000058_00_em_001.png",
+      "source_bundles": [
+        "1c21605680a7a2e49fc059a5022ca7a4.bundle"
       ]
     },
     {
@@ -804,6 +1453,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000059_00_em_001.png",
+      "path": "assets/characters/CHR_000059_00_em_001.png",
+      "sha256": "57c7c3fa4234b0de3a18373a57b5f69915deae751da47d8c09a8e6c1657a5797",
+      "size": 36059,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000059/CHR_000059_00_em_001.png",
+      "source_bundles": [
+        "832dcf0206afdd6a6e52f55873cbd441.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000059_00_s.png",
       "path": "assets/characters/CHR_000059_00_s.png",
       "sha256": "40c3c47a7173fcb9e834649c40a117a71e786010b4a9c175fbbdd22d6b68ba2a",
@@ -811,6 +1471,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000059/CHR_000059_00_s.png",
       "source_bundles": [
         "ac9ddc207d328a196f161992ffc7d66a.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000060_00_em_001.png",
+      "path": "assets/characters/CHR_000060_00_em_001.png",
+      "sha256": "e847a000bf9ac55c262e755df67e7a1356c58ebe11990eee0599da06ac907738",
+      "size": 32381,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000060/CHR_000060_00_em_001.png",
+      "source_bundles": [
+        "9d40902d88bf3a5eccd2405503054ef9.bundle"
       ]
     },
     {
@@ -826,6 +1497,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000061_00_em_001.png",
+      "path": "assets/characters/CHR_000061_00_em_001.png",
+      "sha256": "347c7cf8aef72052b6f6e19eba3949459d43e9bc0f18157f1625ec61f41503d2",
+      "size": 36729,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000061/CHR_000061_00_em_001.png",
+      "source_bundles": [
+        "ccd80d8e1ccf563760b4df46d2d594f3.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000061_00_s.png",
       "path": "assets/characters/CHR_000061_00_s.png",
       "sha256": "f23ed9f0d4d761ae78f18728a60aea225491820f3489ac0c25cd7172d007ebef",
@@ -837,6 +1519,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000062_00_em_001.png",
+      "path": "assets/characters/CHR_000062_00_em_001.png",
+      "sha256": "e662f9a720030c169ad735294b2d991b9eafd348d18c0e2027d8d99593eeb10e",
+      "size": 36403,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000062/CHR_000062_00_em_001.png",
+      "source_bundles": [
+        "44c6155cc4d744301e004c3162a0be05.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000062_00_s.png",
       "path": "assets/characters/CHR_000062_00_s.png",
       "sha256": "c5cfd565397a1f2168121cbd0514f575321d21030335d2a39a9c0eb174a22a8b",
@@ -844,6 +1537,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000062/CHR_000062_00_s.png",
       "source_bundles": [
         "a73b2c7ecbf0badbeadf6b0ee193944e.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000063_00_em_001.png",
+      "path": "assets/characters/CHR_000063_00_em_001.png",
+      "sha256": "c801a352c9e721b2c8e1e5fa5cc1766146507d8238c9026ffe8f687b7254c313",
+      "size": 33920,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000063/CHR_000063_00_em_001.png",
+      "source_bundles": [
+        "4de7c8752d2705da25c4675b58adc4bf.bundle"
       ]
     },
     {
@@ -866,6 +1570,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000063/CHR_000063_01_s.png",
       "source_bundles": [
         "c444ba2e3e4a8aa44d891821091ea2d0.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000064_00_em_001.png",
+      "path": "assets/characters/CHR_000064_00_em_001.png",
+      "sha256": "5e9cd84ad983f90d1bdd2fb7e87096a61f17f4ef678039e6114b266ae8ce4aad",
+      "size": 32364,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000064/CHR_000064_00_em_001.png",
+      "source_bundles": [
+        "b8ce9195f873f48bd4e68a37d319a33c.bundle"
       ]
     },
     {
@@ -903,6 +1618,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000066_00_em_001.png",
+      "path": "assets/characters/CHR_000066_00_em_001.png",
+      "sha256": "90c45914cbb8ae35f3dee0bcecc563a42ea8a37e7ff581f8b9ce4d0d78429a73",
+      "size": 33748,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000066/CHR_000066_00_em_001.png",
+      "source_bundles": [
+        "f65507d12cac882bda707536df76d890.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000066_00_s.png",
       "path": "assets/characters/CHR_000066_00_s.png",
       "sha256": "450f7dd0634818ebccc7f972d96b6e83d8582f6b331e9a3a82f36bd8fc9d28e4",
@@ -910,6 +1636,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000066/CHR_000066_00_s.png",
       "source_bundles": [
         "d699005e80fc9864c48c1b897643f4c5.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000067_00_em_001.png",
+      "path": "assets/characters/CHR_000067_00_em_001.png",
+      "sha256": "1da200742cc9e7d279b66a57d39a093904ef4b18601759eb44e285b7673ec92f",
+      "size": 34952,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000067/CHR_000067_00_em_001.png",
+      "source_bundles": [
+        "10d6b862d5edc2b76f883938b39aa564.bundle"
       ]
     },
     {
@@ -980,6 +1717,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000070_00_em_001.png",
+      "path": "assets/characters/CHR_000070_00_em_001.png",
+      "sha256": "35b599b053fd55ec993c7b5ef4ed863e928a526d9dc89a1061669d999cbcb1c6",
+      "size": 33089,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000070/CHR_000070_00_em_001.png",
+      "source_bundles": [
+        "7d71913f825fe4f2a3d54df127e38ee4.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000070_00_s.png",
       "path": "assets/characters/CHR_000070_00_s.png",
       "sha256": "54c21a69ad52e41833d46ef037d64dd30d27e40725b55719fe228c0f21446f2f",
@@ -1013,6 +1761,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000072_00_em_001.png",
+      "path": "assets/characters/CHR_000072_00_em_001.png",
+      "sha256": "9d89637406ddc5c7fb3db7c3961796d40218febacc1aaf349326c583b25d077a",
+      "size": 33023,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000072/CHR_000072_00_em_001.png",
+      "source_bundles": [
+        "d6b4ca3dba697bfab6b549a7204798ae.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000072_00_s.png",
       "path": "assets/characters/CHR_000072_00_s.png",
       "sha256": "e884fea0554906871a358b30382a0027f3a0afab3238cb74a08dfaa027bf0c76",
@@ -1024,6 +1783,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000073_00_em_001.png",
+      "path": "assets/characters/CHR_000073_00_em_001.png",
+      "sha256": "9c10846dfadef5d2c714f7dbd371f854e816cd5ec1f5374db812cb83e89f0cde",
+      "size": 35093,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000073/CHR_000073_00_em_001.png",
+      "source_bundles": [
+        "c9af8d1ba7922fc17045cd7ba5ff74c1.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000073_00_s.png",
       "path": "assets/characters/CHR_000073_00_s.png",
       "sha256": "aa519be960eb7bbaac18e03493c42b7a7a0cb7340ab2161afc786d3d04424ca8",
@@ -1031,6 +1801,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000073/CHR_000073_00_s.png",
       "source_bundles": [
         "cb8399af0972fdb0ca178ca8441bf7a4.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000074_00_em_001.png",
+      "path": "assets/characters/CHR_000074_00_em_001.png",
+      "sha256": "b55a9d0daf5a6e5124b261b85b4ee7f49808f04de02a0c80a746ae2490de24ec",
+      "size": 33918,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000074/CHR_000074_00_em_001.png",
+      "source_bundles": [
+        "119a8178e05e8c2eb2c85069d3916573.bundle"
       ]
     },
     {
@@ -1090,6 +1871,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000077_00_em_001.png",
+      "path": "assets/characters/CHR_000077_00_em_001.png",
+      "sha256": "98552b7beee2e1cb89c4dfdf3e2457d3366c0cecb94e8dd2ecd9551c16e7788d",
+      "size": 35346,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000077/CHR_000077_00_em_001.png",
+      "source_bundles": [
+        "492b664d1e9224bf94c44e54ca1ea549.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000077_00_s.png",
       "path": "assets/characters/CHR_000077_00_s.png",
       "sha256": "0753f4c35eeb147d929a5097f5ac3d230442c05478de15b7ef353a3be78a2cfa",
@@ -1123,6 +1915,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000079_00_em_001.png",
+      "path": "assets/characters/CHR_000079_00_em_001.png",
+      "sha256": "d0e0368c33562ab561c1ec848ec9cd1fd9ffcba6fdc4ea08702cec2cf4af67e6",
+      "size": 34443,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000079/CHR_000079_00_em_001.png",
+      "source_bundles": [
+        "ef1f9e41a97b043cef31f92b90d3fd84.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000079_00_s.png",
       "path": "assets/characters/CHR_000079_00_s.png",
       "sha256": "4629c58a56ac4e71c1221acf8f42291525321141eea52dfb929c6f0a159a41e3",
@@ -1130,6 +1933,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000079/CHR_000079_00_s.png",
       "source_bundles": [
         "b4a45a63379b1a0c333c764825f0bebb.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000080_00_em_001.png",
+      "path": "assets/characters/CHR_000080_00_em_001.png",
+      "sha256": "f7379ddc0c7ae8ff195057dcbd419eee2b8bfaa3e6d6ef3e420533e41dfe529b",
+      "size": 35515,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000080/CHR_000080_00_em_001.png",
+      "source_bundles": [
+        "b5478402ab7675aec55c85dd14dd593f.bundle"
       ]
     },
     {
@@ -1145,6 +1959,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000081_00_em_001.png",
+      "path": "assets/characters/CHR_000081_00_em_001.png",
+      "sha256": "a48d44c09cfe006fd303df5fb6ea2bb1478e886b4280957981d2bf227a6ca98b",
+      "size": 33462,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000081/CHR_000081_00_em_001.png",
+      "source_bundles": [
+        "fff7e9d199e5ca14bb5318b949b2ae29.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000081_00_s.png",
       "path": "assets/characters/CHR_000081_00_s.png",
       "sha256": "86ae7fae548e19cc984887cb0d5083471ca2e4c95cfe0d1bd215144085ef8f25",
@@ -1152,6 +1977,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000081/CHR_000081_00_s.png",
       "source_bundles": [
         "df179a125f72969704748afd8664df17.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000082_00_em_001.png",
+      "path": "assets/characters/CHR_000082_00_em_001.png",
+      "sha256": "d5ea48f3fd695885959f1ed0d2c09f1b285a6accfb020b3bfe90f0e5eb82348d",
+      "size": 34119,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000082/CHR_000082_00_em_001.png",
+      "source_bundles": [
+        "a62d0eb36686881dbe74c8fb118520eb.bundle"
       ]
     },
     {
@@ -1167,6 +2003,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000083_00_em_001.png",
+      "path": "assets/characters/CHR_000083_00_em_001.png",
+      "sha256": "58af8468fe0b98e1c0bd384fa04d8970d927026ec428ccf4733de5250bcd4b6a",
+      "size": 35871,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000083/CHR_000083_00_em_001.png",
+      "source_bundles": [
+        "e1e1cc0c4d1336e0c9fa5d82a3e9b8c2.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000083_00_s.png",
       "path": "assets/characters/CHR_000083_00_s.png",
       "sha256": "d8c2a37bbf5d7054784b18ed48e833d6339e9a16d6625160b9fa28c4a9e4402c",
@@ -1174,6 +2021,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000083/CHR_000083_00_s.png",
       "source_bundles": [
         "91cadebc09581cfe8c50632d570140f8.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000084_00_em_001.png",
+      "path": "assets/characters/CHR_000084_00_em_001.png",
+      "sha256": "b5be606a9ac1ef95d9aec8a7a183a59ea69ae19991d76218b079e6f52b73f5e8",
+      "size": 32997,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000084/CHR_000084_00_em_001.png",
+      "source_bundles": [
+        "ae8677e5369ebae56d34b4f8036dc11e.bundle"
       ]
     },
     {
@@ -1189,6 +2047,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000085_00_em_001.png",
+      "path": "assets/characters/CHR_000085_00_em_001.png",
+      "sha256": "0ffc6a4ff8a74af29df940502838e366014c9755ea728109078ddbf12f70cd64",
+      "size": 32638,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000085/CHR_000085_00_em_001.png",
+      "source_bundles": [
+        "cda7ed0df8f0204a281ebbd0e427b14a.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000085_00_s.png",
       "path": "assets/characters/CHR_000085_00_s.png",
       "sha256": "dc3bba88ed2551ba60d06a2583ceb68c4d179b403d7347c6895d7c1715aedfba",
@@ -1196,6 +2065,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000085/CHR_000085_00_s.png",
       "source_bundles": [
         "aa7e44dedf5544b2e8365c2de4f48938.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000086_00_em_001.png",
+      "path": "assets/characters/CHR_000086_00_em_001.png",
+      "sha256": "91c7bd48e791cdfca91a4c35768420cbc585f3fe73c75b553c9a8ef2ab201b60",
+      "size": 35680,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000086/CHR_000086_00_em_001.png",
+      "source_bundles": [
+        "e27fe20bea6dd557d60cbe51c1a45447.bundle"
       ]
     },
     {
@@ -1222,6 +2102,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000087_00_em_001.png",
+      "path": "assets/characters/CHR_000087_00_em_001.png",
+      "sha256": "5f4cd1c618a8963327b7aa9b208445845d675c8451a82b19c47b4a5573a98664",
+      "size": 33920,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000087/CHR_000087_00_em_001.png",
+      "source_bundles": [
+        "e8127d5a71145aab2eb385adbbbe77ee.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000087_00_s.png",
       "path": "assets/characters/CHR_000087_00_s.png",
       "sha256": "9d6efebf5940d6898ff263a2b9119f3617f27d014057263f4b184d6765890bec",
@@ -1240,6 +2131,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000087/CHR_000087_01_s.png",
       "source_bundles": [
         "7870c563724b0eb18801fb2ddf635ec0.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000088_00_em_001.png",
+      "path": "assets/characters/CHR_000088_00_em_001.png",
+      "sha256": "335d1df3528b5e9dc4dac6efc87131a95535715d6d32e5e24de0c99595d5c270",
+      "size": 35082,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000088/CHR_000088_00_em_001.png",
+      "source_bundles": [
+        "90d34b4dc8a8f939574a0d9b8d94fb26.bundle"
       ]
     },
     {
@@ -1299,6 +2201,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000093_00_em_001.png",
+      "path": "assets/characters/CHR_000093_00_em_001.png",
+      "sha256": "9cae6c20a205314aff45507f00e66a51c96c0a3de43a615e41c1cbf7130a3df3",
+      "size": 33894,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000093/CHR_000093_00_em_001.png",
+      "source_bundles": [
+        "d3cc6b07076052ddeaf97e80447b0ba9.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000093_00_s.png",
       "path": "assets/characters/CHR_000093_00_s.png",
       "sha256": "240ab300f63561c6f4b24d5abaa6a5d5ae5517970bc53a768d317f4edb1fa9c5",
@@ -1310,6 +2223,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000095_00_em_001.png",
+      "path": "assets/characters/CHR_000095_00_em_001.png",
+      "sha256": "3e138385ba5421a4508460c84ea051ba40e66747504cc378f82134eece45ecdf",
+      "size": 37186,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000095/CHR_000095_00_em_001.png",
+      "source_bundles": [
+        "8d0a28e94b04be79f5620034fb5a00f7.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000095_00_s.png",
       "path": "assets/characters/CHR_000095_00_s.png",
       "sha256": "1b0d6415be39098cf0c268361193eded81352aac6c258a014b8c1a3d2e5199de",
@@ -1317,6 +2241,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000095/CHR_000095_00_s.png",
       "source_bundles": [
         "f58ae504b0ab90227fb29efbb0628abe.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000096_00_em_001.png",
+      "path": "assets/characters/CHR_000096_00_em_001.png",
+      "sha256": "869a3fccca4e776e68839be8ee94195a536a2a4c2ee0df96ea43f5f0856f295a",
+      "size": 36112,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000096/CHR_000096_00_em_001.png",
+      "source_bundles": [
+        "b39ae3ecba335340b236532d1be9265d.bundle"
       ]
     },
     {
@@ -1346,6 +2281,20 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000099_00_em_001.png",
+      "path": "assets/characters/CHR_000099_00_em_001.png",
+      "sha256": "ed098bc5c4d6610a1eb82d6cc14ce90dcb91176eae11989acee65e86be3a77b9",
+      "size": 32772,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000099/CHR_000099_00_em_001.png",
+      "source_bundles": [
+        "edf1496573013ba08dfde8b7b650630f.bundle"
+      ],
+      "source_catalog_keys": [
+        "CharacterIcon/CHR_000099/CHR_000099_00_em_001"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000099_00_s.png",
       "path": "assets/characters/CHR_000099_00_s.png",
       "sha256": "05b4e91d71705647dc99e8ff0410a6d86327dffbb0dc0aac315f24892e134783",
@@ -1353,6 +2302,20 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000099/CHR_000099_00_s.png",
       "source_bundles": [
         "0d0b94a4b5345fb568c12173bb566170.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000100_00_em_001.png",
+      "path": "assets/characters/CHR_000100_00_em_001.png",
+      "sha256": "3fde1412f9de7d778f4614a4fda73465fe0917726bc6721d4dd203ba76ed9a0e",
+      "size": 33957,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000100/CHR_000100_00_em_001.png",
+      "source_bundles": [
+        "66ebe704f6fed7033894abeee4216cc2.bundle"
+      ],
+      "source_catalog_keys": [
+        "CharacterIcon/CHR_000100/CHR_000100_00_em_001"
       ]
     },
     {
@@ -1418,6 +2381,20 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000103_00_em_001.png",
+      "path": "assets/characters/CHR_000103_00_em_001.png",
+      "sha256": "dfb792d5d84c3ded35cbb0902399ca7523a26171279344ff8efb21abb8f4666e",
+      "size": 36891,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000103/CHR_000103_00_em_001.png",
+      "source_bundles": [
+        "44c4e590805c9e986f00ac840c5d1811.bundle"
+      ],
+      "source_catalog_keys": [
+        "CharacterIcon/CHR_000103/CHR_000103_00_em_001"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000103_00_s.png",
       "path": "assets/characters/CHR_000103_00_s.png",
       "sha256": "d1f189813b49a8f8a3b4f3f4402d1acef7dd163d883d4b330aaaeda1a16b307b",
@@ -1425,6 +2402,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000103/CHR_000103_00_s.png",
       "source_bundles": [
         "9ce1d68801ca14c397e72e848683a6fc.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000105_00_em_001.png",
+      "path": "assets/characters/CHR_000105_00_em_001.png",
+      "sha256": "a2a89ab0bc8a39689f95c861d13aef4290e2ff546f75d6626cbc1b20bde2eaaa",
+      "size": 36022,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000105/CHR_000105_00_em_001.png",
+      "source_bundles": [
+        "f4e915dc83cdc5e528fddf2e67ab8e4c.bundle"
       ]
     },
     {
@@ -1440,6 +2428,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000106_00_em_001.png",
+      "path": "assets/characters/CHR_000106_00_em_001.png",
+      "sha256": "ec34c5797f09ec61c1c9bf115fa7239d281f316989e9fac2d46008c54452e4b9",
+      "size": 38508,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000106/CHR_000106_00_em_001.png",
+      "source_bundles": [
+        "19638f0f60d7a29b5904fa9694dddfc6.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000106_00_s.png",
       "path": "assets/characters/CHR_000106_00_s.png",
       "sha256": "a4dc5fbf0e53f395ad7b805b868d4ab73e2efa1f3ed52aaf7b9edb515f035761",
@@ -1447,6 +2446,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000106/CHR_000106_00_s.png",
       "source_bundles": [
         "49cf5dd8cc204435cb7e7848b19be8b7.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000107_00_em_001.png",
+      "path": "assets/characters/CHR_000107_00_em_001.png",
+      "sha256": "565b48f974b67afefa5f09ceb710eb7ac9efa739db11cf1ae90967d560004751",
+      "size": 34004,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000107/CHR_000107_00_em_001.png",
+      "source_bundles": [
+        "1de8cfa2b8164bc01af518d0a842e817.bundle"
       ]
     },
     {
@@ -1462,6 +2472,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000108_00_em_001.png",
+      "path": "assets/characters/CHR_000108_00_em_001.png",
+      "sha256": "8c8d9ee35c8fd0cb47a89b00049665149ae4fcb94b0a5591867387388069b9fa",
+      "size": 33445,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000108/CHR_000108_00_em_001.png",
+      "source_bundles": [
+        "e5d2b0dbdf1ff4ec8fe619e62884a8a9.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000108_00_s.png",
       "path": "assets/characters/CHR_000108_00_s.png",
       "sha256": "1016c8a528cbddbf990452827c29debb952366d9d7affd1305a593f9fbb2867f",
@@ -1469,6 +2490,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000108/CHR_000108_00_s.png",
       "source_bundles": [
         "f45f31679dda8cf718a1ba467b7471bb.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000109_00_em_001.png",
+      "path": "assets/characters/CHR_000109_00_em_001.png",
+      "sha256": "a0f88c685a7a000a0975c1950acca3b951e356bd9e9711e5989e2358b24639f0",
+      "size": 37661,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000109/CHR_000109_00_em_001.png",
+      "source_bundles": [
+        "4024e16926323c3cbb4843a9639efd76.bundle"
       ]
     },
     {
@@ -1484,6 +2516,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000111_00_em_001.png",
+      "path": "assets/characters/CHR_000111_00_em_001.png",
+      "sha256": "faf09b4e483516aed85c0476524c5ebf7bbe57c42602fc371ff5aefc63fb855e",
+      "size": 34585,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000111/CHR_000111_00_em_001.png",
+      "source_bundles": [
+        "61648360e3b27430f14121367130cd04.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000111_00_s.png",
       "path": "assets/characters/CHR_000111_00_s.png",
       "sha256": "a50f125c7da0690ce5e98709be5420194f3f2cd158364f8ed38f708ea3632cb4",
@@ -1491,6 +2534,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000111/CHR_000111_00_s.png",
       "source_bundles": [
         "29bf1131746a7beeadb5a99fe75fb5db.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000112_00_em_001.png",
+      "path": "assets/characters/CHR_000112_00_em_001.png",
+      "sha256": "63f9c164a4e328e6c5067d1b5178db49f88cf48f205d72255c419dfa5f5e8cee",
+      "size": 33329,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000112/CHR_000112_00_em_001.png",
+      "source_bundles": [
+        "cf3eaaf9f7bb05a257d561b13ad88844.bundle"
       ]
     },
     {
@@ -1506,6 +2560,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000113_00_em_001.png",
+      "path": "assets/characters/CHR_000113_00_em_001.png",
+      "sha256": "2dd25556c301b9e6e245f63d49d5ec4bcf76696214e949c5401840203e376ec9",
+      "size": 33656,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000113/CHR_000113_00_em_001.png",
+      "source_bundles": [
+        "dbe63ea32fde31c0ee00a6a1c3fc2024.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000113_00_s.png",
       "path": "assets/characters/CHR_000113_00_s.png",
       "sha256": "7c1dd241968fccce69972e4986a475f566c941d749f5bac8309cc39e9bac324b",
@@ -1513,6 +2578,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000113/CHR_000113_00_s.png",
       "source_bundles": [
         "66aefc27e4b0a05354e366eb32d38411.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000114_00_em_001.png",
+      "path": "assets/characters/CHR_000114_00_em_001.png",
+      "sha256": "e18053cc75f8b6d8bbdc46bad0be9cfd4e2ec64d4bd0f1c4af09e035e8a61232",
+      "size": 39334,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000114/CHR_000114_00_em_001.png",
+      "source_bundles": [
+        "51eba058c2bbf9294f2fbce041788f81.bundle"
       ]
     },
     {
@@ -1528,6 +2604,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000115_00_em_001.png",
+      "path": "assets/characters/CHR_000115_00_em_001.png",
+      "sha256": "f8e8b9ce119853c88c36026deed25c04e3bf7bc3bf21fa13f0c9db7acdffa726",
+      "size": 33784,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000115/CHR_000115_00_em_001.png",
+      "source_bundles": [
+        "091711705a4f8f78dea68de1a32a0792.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000115_00_s.png",
       "path": "assets/characters/CHR_000115_00_s.png",
       "sha256": "4ff419b406490cec936c1ae0d4caf373a54fdbb1daf129f80a7486f24323d835",
@@ -1535,6 +2622,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000115/CHR_000115_00_s.png",
       "source_bundles": [
         "212f18f1ef47ec3d953372589f84c6c7.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000116_00_em_001.png",
+      "path": "assets/characters/CHR_000116_00_em_001.png",
+      "sha256": "f50c4ded5307b647d20009d003addc1a72bfc43609e38080fd751d9b23f64395",
+      "size": 35898,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000116/CHR_000116_00_em_001.png",
+      "source_bundles": [
+        "19cd2177087f333e3b4330fb3d7049ef.bundle"
       ]
     },
     {
@@ -1550,6 +2648,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000117_00_em_001.png",
+      "path": "assets/characters/CHR_000117_00_em_001.png",
+      "sha256": "acea2b20f7a751a3fbdda289b9199df8733bf7c89dcb3f49bffc5f52fb7f4091",
+      "size": 33412,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000117/CHR_000117_00_em_001.png",
+      "source_bundles": [
+        "e07f1f6815d522e3a031427898a51b27.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000117_00_s.png",
       "path": "assets/characters/CHR_000117_00_s.png",
       "sha256": "63bf89d156759cd2865b2eaaa81ad8e5db64c65e0621c12cc5f0685f6b0be683",
@@ -1557,6 +2666,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000117/CHR_000117_00_s.png",
       "source_bundles": [
         "8e023b48905e5f465f62272c829099ce.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000121_00_em_001.png",
+      "path": "assets/characters/CHR_000121_00_em_001.png",
+      "sha256": "b684799e49717ca7bd121461e9c094b9ea425bf1627d1093471445ce1d69f6c7",
+      "size": 35084,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000121/CHR_000121_00_em_001.png",
+      "source_bundles": [
+        "ba22cb80ba88089508c238eafa594ca5.bundle"
       ]
     },
     {
@@ -1572,6 +2692,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000122_00_em_001.png",
+      "path": "assets/characters/CHR_000122_00_em_001.png",
+      "sha256": "45b429ee9b414b6e1af8caf61db3f75378d334027d25bb0bbddaa83c7e09cf9e",
+      "size": 34937,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000122/CHR_000122_00_em_001.png",
+      "source_bundles": [
+        "0a25694c7ecfc04fc275ff5e8e08bf58.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000122_00_s.png",
       "path": "assets/characters/CHR_000122_00_s.png",
       "sha256": "a6376a31289f9d9ad990f835198633d66c165bca2cbb6cff21c1ee94345a1139",
@@ -1579,6 +2710,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000122/CHR_000122_00_s.png",
       "source_bundles": [
         "bd35430ae168ef97ace1a63c8ae00b9a.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000123_00_em_001.png",
+      "path": "assets/characters/CHR_000123_00_em_001.png",
+      "sha256": "6cac9e066664b57dcd23ebe961938032314760cd79c7dab0414b8e30eb9435d4",
+      "size": 35148,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000123/CHR_000123_00_em_001.png",
+      "source_bundles": [
+        "cce07d51edb391c74039da04daecd2ea.bundle"
       ]
     },
     {
@@ -1594,6 +2736,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000124_00_em_001.png",
+      "path": "assets/characters/CHR_000124_00_em_001.png",
+      "sha256": "01007ff7bae43443a67ff4578b59c16baf6be24d8eb7da8c6487e585042ecea7",
+      "size": 34914,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000124/CHR_000124_00_em_001.png",
+      "source_bundles": [
+        "41515f9ccc34e8ddd9cb9fc0c558dc57.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000124_00_s.png",
       "path": "assets/characters/CHR_000124_00_s.png",
       "sha256": "986e015913460bb64d2c7662bc689bad35179fe412aaaef00ecfef01d3614c85",
@@ -1601,6 +2754,17 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000124/CHR_000124_00_s.png",
       "source_bundles": [
         "e809fbd47983a6c2483d0c1d5a25e071.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000125_00_em_001.png",
+      "path": "assets/characters/CHR_000125_00_em_001.png",
+      "sha256": "e4ec6f9feacf322b0e639caa204ac904f6222447f8cfbd56098a41c41e67796a",
+      "size": 35416,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000125/CHR_000125_00_em_001.png",
+      "source_bundles": [
+        "66f472f338ba6b8b2b51a5e90c0d6fd0.bundle"
       ]
     },
     {
@@ -1616,6 +2780,17 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000126_00_em_001.png",
+      "path": "assets/characters/CHR_000126_00_em_001.png",
+      "sha256": "151cc226bb9ae5f523189c55239ccfca8b700278ef31f8b52615fdc778d9b43c",
+      "size": 33266,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000126/CHR_000126_00_em_001.png",
+      "source_bundles": [
+        "9984b8da23860aa45b23e0262f7cc983.bundle"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000126_00_s.png",
       "path": "assets/characters/CHR_000126_00_s.png",
       "sha256": "6ed697de7e8b13aeb6031da2d18cb8235fbcbb0003ccbd6a4a7633b7ddc92086",
@@ -1623,6 +2798,20 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000126/CHR_000126_00_s.png",
       "source_bundles": [
         "7fa395ff2bc58421fc0e9dd4ce12dcfd.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000128_00_em_001.png",
+      "path": "assets/characters/CHR_000128_00_em_001.png",
+      "sha256": "fe4da5edba818092c2f61d1ec3c7cb640f7ebee0913063e8e4cfd510dd13858f",
+      "size": 36752,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000128/CHR_000128_00_em_001.png",
+      "source_bundles": [
+        "49d119ae16d0ce28dca6d4c9d0a46c1a.bundle"
+      ],
+      "source_catalog_keys": [
+        "CharacterIcon/CHR_000128/CHR_000128_00_em_001"
       ]
     },
     {
@@ -1674,6 +2863,20 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000130_00_em_001.png",
+      "path": "assets/characters/CHR_000130_00_em_001.png",
+      "sha256": "2da19b91132af32cab284006fa1196ab2ed2f8f31665f536a8cdbeb088f6e047",
+      "size": 33013,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000130/CHR_000130_00_em_001.png",
+      "source_bundles": [
+        "f55ed191288d0a1c37890c2a15d994dd.bundle"
+      ],
+      "source_catalog_keys": [
+        "CharacterIcon/CHR_000130/CHR_000130_00_em_001"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000130_00_s.png",
       "path": "assets/characters/CHR_000130_00_s.png",
       "sha256": "062cd82b812a6aa6bf89ef58a7f5ff1b41d33fe7c82fba3024f497370caa03dd",
@@ -1681,6 +2884,20 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000130/CHR_000130_00_s.png",
       "source_bundles": [
         "28f9d505e0970440d15c8b27706fa25d.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000131_00_em_001.png",
+      "path": "assets/characters/CHR_000131_00_em_001.png",
+      "sha256": "9783bbb014e02a7ac55c0c656135098f940392ef2cadf9750b72e6a45f85d34f",
+      "size": 30463,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000131/CHR_000131_00_em_001.png",
+      "source_bundles": [
+        "3973d8c50f184ab4dc34c70ba9b94b16.bundle"
+      ],
+      "source_catalog_keys": [
+        "CharacterIcon/CHR_000131/CHR_000131_00_em_001"
       ]
     },
     {
@@ -1696,6 +2913,20 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000132_00_em_001.png",
+      "path": "assets/characters/CHR_000132_00_em_001.png",
+      "sha256": "a77a3bee56b70ebda64c166094fccb4e000ebfb370b9dbcc062d1e0d10d7d126",
+      "size": 37465,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000132/CHR_000132_00_em_001.png",
+      "source_bundles": [
+        "61f70f042c03e93b9f5aa42648cc2628.bundle"
+      ],
+      "source_catalog_keys": [
+        "CharacterIcon/CHR_000132/CHR_000132_00_em_001"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000132_00_s.png",
       "path": "assets/characters/CHR_000132_00_s.png",
       "sha256": "d6947492d1a2fb70ea74997b6b1f014db25024768d3195b4bcd9e61fd671f6de",
@@ -1703,6 +2934,20 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000132/CHR_000132_00_s.png",
       "source_bundles": [
         "69afe65663f6af979fdfb27b85c69285.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000134_00_em_001.png",
+      "path": "assets/characters/CHR_000134_00_em_001.png",
+      "sha256": "9c97dcb51d350f1cb6cfb414fae68751997fa7de19855ca4373e8b0200b67675",
+      "size": 31603,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000134/CHR_000134_00_em_001.png",
+      "source_bundles": [
+        "d86577e581d897806ecc4e77133451ac.bundle"
+      ],
+      "source_catalog_keys": [
+        "CharacterIcon/CHR_000134/CHR_000134_00_em_001"
       ]
     },
     {
@@ -1743,6 +2988,20 @@
     },
     {
       "category": "characters",
+      "name": "CHR_000137_00_em_001.png",
+      "path": "assets/characters/CHR_000137_00_em_001.png",
+      "sha256": "5ee1e51dc0331016c07de7091f91674006d65abde2c824f06c5a9d07c42fa0f5",
+      "size": 34404,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000137/CHR_000137_00_em_001.png",
+      "source_bundles": [
+        "e4c511f1c92b6bfe6eac3399c5143e5f.bundle"
+      ],
+      "source_catalog_keys": [
+        "CharacterIcon/CHR_000137/CHR_000137_00_em_001"
+      ]
+    },
+    {
+      "category": "characters",
       "name": "CHR_000137_00_s.png",
       "path": "assets/characters/CHR_000137_00_s.png",
       "sha256": "af504169abbbf5ed8435859cffa23ed104393799b556de69e5213cde6824f272",
@@ -1750,6 +3009,20 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000137/CHR_000137_00_s.png",
       "source_bundles": [
         "0be428cc48be906234235d273f0106be.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000139_00_em_001.png",
+      "path": "assets/characters/CHR_000139_00_em_001.png",
+      "sha256": "815db4f3abf6eb0e2b2c37309452020e89a099c44ca9d32de92ae0b3b44a0916",
+      "size": 34364,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000139/CHR_000139_00_em_001.png",
+      "source_bundles": [
+        "b6c08a7e2afb738069a29e060fd7d79b.bundle"
+      ],
+      "source_catalog_keys": [
+        "CharacterIcon/CHR_000139/CHR_000139_00_em_001"
       ]
     },
     {
@@ -1783,6 +3056,20 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000140/CHR_000140_01_s.png",
       "source_bundles": [
         "aa308287d49828bdd4a8e13d79023608.bundle"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000141_00_em_001.png",
+      "path": "assets/characters/CHR_000141_00_em_001.png",
+      "sha256": "51e6aacc5ea1bee84509fe6f9bd6b9a433f65d6e3c3fd62310cff32d4923ea4e",
+      "size": 36844,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000141/CHR_000141_00_em_001.png",
+      "source_bundles": [
+        "a44cfedf7bce77d52ae5645725e0a665.bundle"
+      ],
+      "source_catalog_keys": [
+        "CharacterIcon/CHR_000141/CHR_000141_00_em_001"
       ]
     },
     {
