@@ -2,7 +2,14 @@ name: Update MementoMori data
 
 on:
   schedule:
-    - cron: "37 */6 * * *"
+    # GitHub cron is UTC. Keep three baseline checks outside the usual
+    # Asia/Shanghai maintenance window (02:37, 08:37, and 20:37 UTC+8).
+    - cron: "37 0,12,18 * * *"
+    # Maintenance watch: every 15 minutes from 13:19 through 16:19 UTC+8.
+    # This includes a pre-maintenance snapshot and a post-maintenance buffer.
+    - cron: "19,34,49 5 * * *"
+    - cron: "4,19,34,49 6-7 * * *"
+    - cron: "4,19 8 * * *"
   workflow_dispatch:
 
 permissions:
