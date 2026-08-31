@@ -135,17 +135,29 @@ jobs:
           --mode compact
           --language zh-CN
 
-      - name: Commit data changes
-        if: always() && steps.images.outcome == 'success' && steps.image_verify.outcome == 'success' && steps.skills.outcome == 'success' && steps.card_verify.outcome == 'success'
+      - name: Commit verified data changes
+        if: >-
+          always() &&
+          (
+            (steps.images.outcome == 'success' && steps.image_verify.outcome == 'success') ||
+            steps.skills.outcome == 'success' ||
+            steps.card_verify.outcome == 'success'
+          )
+        env:
+          IMAGES_VERIFIED: ${{ steps.images.outcome == 'success' && steps.image_verify.outcome == 'success' }}
+          SKILLS_VERIFIED: ${{ steps.skills.outcome == 'success' }}
+          CARDS_VERIFIED: ${{ steps.card_verify.outcome == 'success' }}
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A -- assets manifest.json latest.json
-          if [ -e skills ]; then
+          if [ "$IMAGES_VERIFIED" = "true" ]; then
+            git add -A -- assets manifest.json latest.json
+          fi
+          if [ "$SKILLS_VERIFIED" = "true" ] && [ -e skills ]; then
             git add -A -- skills
           fi
-          if [ -e cards ]; then
+          if [ "$CARDS_VERIFIED" = "true" ] && [ -e cards ]; then
             git add -A -- cards
           fi
           if git diff --cached --quiet; then
@@ -160,10 +172,12 @@ jobs:
           fi
           git commit -m "Update MementoMori data for $version ($master)"
           git push origin main
-          git fetch --tags
-          if ! git rev-parse "refs/tags/v$version" >/dev/null 2>&1; then
-            git tag "v$version"
-            git push origin "v$version"
+          if [ "$IMAGES_VERIFIED" = "true" ]; then
+            git fetch --tags
+            if ! git rev-parse "refs/tags/v$version" >/dev/null 2>&1; then
+              git tag "v$version"
+              git push origin "v$version"
+            fi
           fi
 
       - name: Report updater failures

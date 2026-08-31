@@ -75,9 +75,11 @@ MessagePack books against `master-catalog`, then selects released characters by
 `StartTimeFixJST` rather than assuming IDs are monotonic. Before requesting card
 assets, CI compares the latest skill JSON, portrait-template version, output size,
 and PNG hash with `cards/manifest.json`; current cards make no official resource
-request. New or stale cards are rendered and verified before any data commit.
-Changes are committed automatically; `v<game-version>` tags are retained only for
-rollback.
+request. Verified image and skill JSON updates are committed independently of
+derived card rendering, so a temporarily missing card asset does not delay
+official skill text publication. Cards remain excluded until their own
+verification passes. Changes are committed automatically; `v<game-version>`
+tags are retained only for rollback.
 
 Official art policy lives in the tracker's `config/official_asset_requests.json`
 and generated `config/player_avatar_inventory.json`; files are never copied into
