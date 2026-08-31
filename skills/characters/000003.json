@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription30011]",
           "descriptions": {
+            "ja-JP": "領主への篤い忠誠が力となり、ランダムな敵3体に攻撃力×320%の物理攻撃を行う。",
             "zh-CN": "艾莉丝对领主的忠心耿耿化作力量，随机对3名敌人造成攻击力×320%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 61,
           "description_key": "[ActiveSkillDescription30012]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×350%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×350%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 121,
           "description_key": "[ActiveSkillDescription30013]",
           "descriptions": {
+            "ja-JP": "このスキルの対象がランダムな敵5体になる。",
             "zh-CN": "技能目标增加为5名随机敌人。"
           },
           "equipment_rarity_flags": 0,
@@ -94,6 +97,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName3001]",
       "names": {
+        "ja-JP": "ガーディアンブレード",
         "zh-CN": "保卫者之刃"
       },
       "source_memo_ja": "アイリスR: /Lv1　領主への篤い忠誠が力となり、ランダムな敵3体に攻撃力×320％の物理攻撃を行う。　/Lv2 物理攻撃のダメージが攻撃力×350%になる。　/Lv3 このスキルの対象がランダムな敵5体になる。",
@@ -123,6 +127,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription30021]",
           "descriptions": {
+            "ja-JP": "領主を守るという決意を込めた刃で、ランダムな敵3体に攻撃力×340%の物理攻撃を行う。決意は魔力となって相手を侵し、対象に2ターンの間『出血』を付与する。毎ターン行動開始時に自身の攻撃力×20%のダメージを与える。",
             "zh-CN": "艾莉丝将保护领主的决心灌注于剑刃，随机对3名敌人造成攻击力×340%的物理伤害。这份决心化作魔力侵蚀对手，对技能目标附加「流血」状态，效果持续2回合，每回合行动开始时造成艾莉丝攻击力×20%的伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -137,6 +142,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription30022]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×360%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×360%。"
           },
           "equipment_rarity_flags": 0,
@@ -151,6 +157,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription30023]",
           "descriptions": {
+            "ja-JP": "『出血』のダメージが自身の攻撃力×35%になる。",
             "zh-CN": "「流血」造成的伤害提升为艾莉丝攻击力×35%。"
           },
           "equipment_rarity_flags": 0,
@@ -165,6 +172,7 @@
           "character_level": 141,
           "description_key": "[ActiveSkillDescription30024]",
           "descriptions": {
+            "ja-JP": "このスキルの対象がランダムな敵5体になる。",
             "zh-CN": "技能目标增加为5名随机敌人。"
           },
           "equipment_rarity_flags": 0,
@@ -230,6 +238,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName3002]",
       "names": {
+        "ja-JP": "忠誠の魔刃",
         "zh-CN": "忠诚的魔刃"
       },
       "source_memo_ja": "アイリスR: /Lv1　領主を守るという決意を込めた刃で、ランダムな敵3体に攻撃力×340％の物理攻撃を行う。決意は魔力となって相手を侵し、対象に2ターンの間『出血』を付与する。毎ターン行動開始時に自身の攻撃力×20％のダメージを与える。　/Lv2 物理攻撃のダメージが攻撃力×360％になる。　/Lv3 『出血』のダメージが自身の攻撃力×35％になる。　/Lv4 このスキルの対象がランダムな敵5体になる。",
@@ -333,6 +342,7 @@
       },
       "name_key": "[CharacterCollectionName71]",
       "names": {
+        "ja-JP": "ミンタカの開花",
         "zh-CN": "腰带星的绽放"
       },
       "required_character_ids": [
@@ -345,24 +355,28 @@
         {
           "id": 3,
           "names": {
+            "ja-JP": "アイリス",
             "zh-CN": "艾莉丝"
           }
         },
         {
           "id": 13,
           "names": {
+            "ja-JP": "テオドラ",
             "zh-CN": "狄奥多拉"
           }
         },
         {
           "id": 23,
           "names": {
+            "ja-JP": "ロザリー",
             "zh-CN": "罗莎莉"
           }
         },
         {
           "id": 33,
           "names": {
+            "ja-JP": "チェルナ",
             "zh-CN": "切尔娜"
           }
         }
@@ -431,12 +445,14 @@
     "memo": "アイリス",
     "name_key": "[CharacterName3]",
     "names": {
+      "ja-JP": "アイリス",
       "zh-CN": "艾莉丝"
     },
     "speed": 3133,
     "start_time_jst": "2020-01-01 00:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -454,6 +470,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription30031]",
           "descriptions": {
+            "ja-JP": "胸に秘めた領主への想いが魔力へと変わり、バトル開始時攻撃力が最も高い味方に1層の『多重バリア』を付与する（解除不可）。最大HP×10%以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。",
             "zh-CN": "艾莉丝对领主的感情深藏在心中，化作她的魔力。战斗开始时，艾莉丝使攻击力最高的友军获得1层「多重屏障」（无法被解除）。当技能目标受到最大生命值×10%以上的伤害时，消耗1层屏障来抵消该伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -468,6 +485,7 @@
           "character_level": 101,
           "description_key": "[PassiveSkillDescription30032]",
           "descriptions": {
+            "ja-JP": "さらに攻撃力が最も高い味方が『多重バリア』を付帯している間『弱体効果無効』を付与する（解除不可）。",
             "zh-CN": "「多重屏障」存在期间，技能目标额外获得「弱化效果免疫」状态（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -520,6 +538,7 @@
       },
       "name_key": "[PassiveSkillName3003]",
       "names": {
+        "ja-JP": "秘められた想い",
         "zh-CN": "不言之情"
       },
       "source_memo_ja": "アイリスR: /Lv1　胸に秘めた領主への想いが魔力へと変わり、バトル開始時攻撃力が最も高い味方に1層の『多重バリア』を付与する（解除不可）。最大HP×10％以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。　/Lv2 さらに攻撃力が最も高い味方が『多重バリア』を付帯している間『弱体効果無効』を付与する（解除不可）。",
@@ -571,6 +590,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

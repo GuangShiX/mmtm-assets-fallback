@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription880011]",
           "descriptions": {
+            "ja-JP": "杖に宿る主様の力を借り、ランダムな敵4体に攻撃力×240%の魔法攻撃を行う。",
             "zh-CN": "罗莎莉借助主人留在法杖上的力量，随机对4名敌人造成攻击力×240%的魔法伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription880012]",
           "descriptions": {
+            "ja-JP": "さらに魔法攻撃の前に70%の確率で1ターンの間対象の被ダメージを10%増加させる。",
             "zh-CN": "发动攻击前，70%概率使技能目标额外增加10%承受伤害，效果持续1回合。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription880013]",
           "descriptions": {
+            "ja-JP": "『被ダメージ増加』のターン数が2ターンになる。",
             "zh-CN": "「承受伤害上升」效果增加为2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription880014]",
           "descriptions": {
+            "ja-JP": "フラジャイルを強化する。フラジャイルの対象がランダムな敵5体になる。",
             "zh-CN": "强化虚弱，技能目标增加为5名随机敌人。"
           },
           "equipment_rarity_flags": 128,
@@ -118,6 +122,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName88001]",
       "names": {
+        "ja-JP": "フラジャイル",
         "zh-CN": "虚弱"
       },
       "source_memo_ja": "使徒ロザリーSR:Lv1 杖に宿る主様の力を借り、ランダムな敵4体に攻撃力×240%の魔法攻撃を行う。/ Lv2 さらに魔法攻撃の前に70%の確率で1ターンの間対象の被ダメージを10%増加させる。/ Lv3 『被ダメージ増加』のターン数が2ターンになる。/ Ex1 フラジャイルを強化する。フラジャイルの対象がランダムな敵5体になる。",
@@ -151,6 +156,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription880021]",
           "descriptions": {
+            "ja-JP": "契約により得た天使の力で、ランダムな敵に8回攻撃力×160%の魔法攻撃を行う。魔法攻撃の前に自身の『記憶』のスタック数が15の場合、『記憶』を解除してエンジェルレイの代わりにソウルサクリファイスを発動する。[ソウルサクリファイス]ランダムな敵に8回攻撃力×160%の魔法攻撃を行う。その後自身に隣接する味方2体のスキルクールタイムカウントを1減少させる。",
             "zh-CN": "罗莎莉释放缔结契约后得到的天使之力，随机对敌人进行8次攻击，每次造成攻击力×160%的魔法伤害。发动攻击前，如果罗莎莉身上附带的「记忆」达15层，则解除所有「记忆」发动技能灵魂献祭。［灵魂献祭］随机对敌人进行8次攻击，每次造成攻击力×160%的魔法伤害。再使附近的2名友军减少技能冷却时间1。"
           },
           "equipment_rarity_flags": 0,
@@ -165,6 +171,7 @@
           "character_level": 41,
           "description_key": "[ActiveSkillDescription880022]",
           "descriptions": {
+            "ja-JP": "ソウルサクリファイスを強化する。最後の魔法攻撃の後、さらに2ターンの間自身に隣接する味方2体の攻撃力をステータス増減前の自身の最大HP×10%分増加させる（解除不可）。",
             "zh-CN": "强化灵魂献祭，攻击结束后，使附近的2名友军额外增加攻击力，增幅为状态效果生效前的罗莎莉最大生命值×10%，效果持续2回合（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -179,6 +186,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription880023]",
           "descriptions": {
+            "ja-JP": "ソウルサクリファイスを強化する。スキルクールタイムカウントの減少量が2になる。",
             "zh-CN": "强化灵魂献祭，技能冷却时间减少量提升为2。"
           },
           "equipment_rarity_flags": 0,
@@ -193,6 +201,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription880024]",
           "descriptions": {
+            "ja-JP": "エンジェルレイとソウルサクリファイスの魔法攻撃の回数がそれぞれ10回になる。",
             "zh-CN": "天使之光与灵魂献祭的攻击次数增加为10次。"
           },
           "equipment_rarity_flags": 0,
@@ -207,6 +216,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription880025]",
           "descriptions": {
+            "ja-JP": "エンジェルレイとソウルサクリファイスを強化する。エンジェルレイとソウルサクリファイスの魔法攻撃のダメージがそれぞれ攻撃力×180%になる。",
             "zh-CN": "强化天使之光与灵魂献祭，造成的魔法伤害提升为攻击力×180%。"
           },
           "equipment_rarity_flags": 512,
@@ -321,6 +331,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName88002]",
       "names": {
+        "ja-JP": "エンジェルレイ",
         "zh-CN": "天使之光"
       },
       "source_memo_ja": "使徒ロザリーSR:Lv1 契約により得た天使の力で、ランダムな敵に8回攻撃力×160%の魔法攻撃を行う。魔法攻撃の前に自身の『記憶』のスタック数が15の場合、『記憶』を解除してエンジェルレイの代わりにソウルサクリファイスを発動する。[ソウルサクリファイス]ランダムな敵に8回攻撃力×160%の魔法攻撃を行う。その後自身に隣接する味方2体のスキルクールタイムカウントを1減少させる。/ Lv2 ソウルサクリファイスを強化する。魔法攻撃の後、さらに2ターンの間自身に隣接する味方2体の攻撃力をステータス増減前の自身の最大HP×10%分増加させる（解除不可）。/ Lv3 ソウルサクリファイスを強化する。スキルクールタイムカウントの減少量が2になる。/ Lv4 エンジェルレイとソウルサクリファイスの魔法攻撃の回数がそれぞれ10回になる。/ Ex3 エンジェルレイとソウルサクリファイスを強化する。エンジェルレイとソウルサクリファイスの魔法攻撃のダメージがそれぞれ攻撃力×180%になる。",
@@ -779,6 +790,7 @@
       },
       "name_key": "[CharacterCollectionName46]",
       "names": {
+        "ja-JP": "カリーナの初恋",
         "zh-CN": "船底座的初恋"
       },
       "required_character_ids": [
@@ -789,12 +801,14 @@
         {
           "id": 88,
           "names": {
+            "ja-JP": "ロザリー",
             "zh-CN": "罗莎莉"
           }
         },
         {
           "id": 16,
           "names": {
+            "ja-JP": "フレイシア",
             "zh-CN": "小苍兰"
           }
         }
@@ -1232,6 +1246,7 @@
       },
       "name_key": "[CharacterCollectionName74]",
       "names": {
+        "ja-JP": "グラの花畑",
         "zh-CN": "古拉的花田"
       },
       "required_character_ids": [
@@ -1242,12 +1257,14 @@
         {
           "id": 121,
           "names": {
+            "ja-JP": "ルミカ",
             "zh-CN": "璐米佳"
           }
         },
         {
           "id": 88,
           "names": {
+            "ja-JP": "ロザリー",
             "zh-CN": "罗莎莉"
           }
         }
@@ -1318,12 +1335,14 @@
     "memo": "使徒ロザリー",
     "name_key": "[CharacterName88]",
     "names": {
+      "ja-JP": "ロザリー",
       "zh-CN": "罗莎莉"
     },
     "speed": 2646,
     "start_time_jst": "2024-04-26 15:00:00",
     "subtitle_key": "[CharacterSubName88]",
     "subtitles": {
+      "ja-JP": "カリタスの使徒",
       "zh-CN": "卡利他使徒"
     }
   },
@@ -1398,6 +1417,7 @@
     },
     "name_key": "[EquipmentName627]",
     "names": {
+      "ja-JP": "主様の形見の杖",
       "zh-CN": "故主遗杖"
     },
     "passive_effects": [
@@ -1431,6 +1451,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill88Description1]",
         "descriptions": {
+          "ja-JP": "フラジャイルを強化する。フラジャイルの対象がランダムな敵5体になる。",
           "zh-CN": "强化虚弱，技能目标增加为5名随机敌人。"
         },
         "equipment_rarity_flags": 128,
@@ -1439,6 +1460,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill88Description2]",
         "descriptions": {
+          "ja-JP": "永遠なる想いを強化する。『結界』のダメージの遮断量がステータス増減前の付与者の最大HP×50%分になる。",
           "zh-CN": "强化永恒的意志，「结界」的伤害阻绝量提升为状态效果生效前的罗莎莉最大生命值×50%。"
         },
         "equipment_rarity_flags": 256,
@@ -1447,6 +1469,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill88Description3]",
         "descriptions": {
+          "ja-JP": "エンジェルレイとソウルサクリファイスを強化する。エンジェルレイとソウルサクリファイスの魔法攻撃のダメージがそれぞれ攻撃力×180%になる。",
           "zh-CN": "强化天使之光与灵魂献祭，造成的魔法伤害提升为攻击力×180%。"
         },
         "equipment_rarity_flags": 512,
@@ -1469,6 +1492,7 @@
           "character_level": 11,
           "description_key": "[PassiveSkillDescription880031]",
           "descriptions": {
+            "ja-JP": "200年想い続けたその純粋な魂の輝きに惹かれて、天使は祝福を授けた。バトル開始時自身に『記憶』を1スタック付与する（解除不可）。自身か味方がアクティブスキルで弱体効果を受けるたび、自身と味方が付帯している弱体効果の個数の合計分、『記憶』のスタック数が増加する（最大15スタックまで）。ただし自身のスキルの効果で『記憶』が解除された後は新たに『記憶』を付与しない。『記憶』のスタック数が15になった場合、自身の攻撃力がステータス増減前の自身の最大HP×10%分増加する（解除不可）。",
             "zh-CN": "两百年来，她的爱始终如一。纯粹的灵魂散发的纯净光辉，让天使为之动容并授予祝福。战斗开始时，罗莎莉获得1层「记忆」（无法被解除）。当罗莎莉或友军被附加主动技能造成的弱化效果时，罗莎莉与友军身上每附带1种弱化效果，使「记忆」的叠加数增加1层（最多15层）。当「记忆」的叠加数达15层时，使罗莎莉增加攻击力，增幅为状态效果生效前的罗莎莉最大生命值×10%（无法被解除）。发动灵魂献祭后「记忆」不再重新叠加。"
           },
           "equipment_rarity_flags": 0,
@@ -1483,6 +1507,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription880032]",
           "descriptions": {
+            "ja-JP": "さらに2ターン目以降の毎ターン開始時、『記憶』のスタック数が3増加する。",
             "zh-CN": "第2回合起，罗莎莉在每回合开始时额外获得3层「记忆」。"
           },
           "equipment_rarity_flags": 0,
@@ -1497,6 +1522,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription880033]",
           "descriptions": {
+            "ja-JP": "『記憶』のスタック数が15になった場合、さらに自身の弱体効果を2つ解除し、自身に2ターンの間ステータス増減前の自身の最大HP×80%の『シールド』を付与する（解除不可）。",
             "zh-CN": "当「记忆」的叠加数达15层时，罗莎莉额外解除身上附带的2种弱化效果，并获得状态效果生效前的最大生命值×80%的「护盾」，效果持续2回合（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1621,6 +1647,7 @@
       },
       "name_key": "[PassiveSkillName88003]",
       "names": {
+        "ja-JP": "愛の使徒",
         "zh-CN": "爱的使徒"
       },
       "source_memo_ja": "使徒ロザリーSR:Lv1 200年想い続けたその純粋な魂の輝きに惹かれて、天使は祝福を授けた。バトル開始時自身に『記憶』を1スタック付与する（解除不可）。自身か味方がアクティブスキルで弱体効果を受けるたび、自身と味方が付帯している弱体効果の個数の合計分、『記憶』のスタック数が増加する（最大15スタックまで）。ただし自身のスキルの効果で『記憶』が解除された後は新たに『記憶』を付与しない。『記憶』のスタック数が15になった場合、自身の攻撃力がステータス増減前の自身の最大HP×10%分増加する（解除不可）。/ Lv2 さらに2ターン目以降の毎ターン開始時、『記憶』のスタック数が3増加する。/ Lv3 『記憶』のスタック数が15になった場合、さらに自身の弱体効果を2つ解除し、自身に2ターンの間ステータス増減前の自身の最大HP×80%の『シールド』を付与する（解除不可）。",
@@ -1648,6 +1675,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription880041]",
           "descriptions": {
+            "ja-JP": "もう逢うことはできなくても、その想いは今もロザリーと共に在る。バトル開始時1ターンの間自身と自身に隣接する味方1体に『結界』を付与する（解除不可）。このバフの付帯者が付帯者自身の最大HP×20%を超えるダメージの攻撃を受けたとき、最大HP×20%を超えた分のダメージをステータス増減前の付与者の最大HP×20%分遮断する。",
             "zh-CN": "纵使无法再相见，故主的意志永远与罗莎莉同在。战斗开始时，使罗莎莉与附近的1名友军获得「结界」，效果持续1回合（无法被解除）。当此增益效果的附带者受到攻击，承受伤害超过最大生命值的20%时，阻绝超量部分的伤害，阻绝量为状态效果生效前的罗莎莉最大生命值×20%。"
           },
           "equipment_rarity_flags": 0,
@@ -1662,6 +1690,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription880042]",
           "descriptions": {
+            "ja-JP": "『結界』のターン数が2ターンになる。",
             "zh-CN": "「结界」效果增加为2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -1676,6 +1705,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription880043]",
           "descriptions": {
+            "ja-JP": "『結界』を付与する味方の対象が自身に隣接する味方2体になる。",
             "zh-CN": "「结界」的附加目标增加为罗莎莉与附近的2名友军。"
           },
           "equipment_rarity_flags": 0,
@@ -1690,6 +1720,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription880044]",
           "descriptions": {
+            "ja-JP": "永遠なる想いを強化する。『結界』のダメージの遮断量がステータス増減前の付与者の最大HP×50%分になる。",
             "zh-CN": "强化永恒的意志，「结界」的伤害阻绝量提升为状态效果生效前的罗莎莉最大生命值×50%。"
           },
           "equipment_rarity_flags": 256,
@@ -1774,6 +1805,7 @@
       },
       "name_key": "[PassiveSkillName88004]",
       "names": {
+        "ja-JP": "永遠なる想い",
         "zh-CN": "永恒的意志"
       },
       "source_memo_ja": "使徒ロザリーSR:Lv1 もう逢うことはできなくても、その想いは今もロザリーと共に在る。バトル開始時1ターンの間自身と自身に隣接する味方1体に『結界』を付与する（解除不可）。このバフの付帯者が付帯者自身の最大HP×20%を超えるダメージの攻撃を受けた場合、最大HP×20%を超えた分のダメージをステータス増減前の付与者の最大HP×20%分遮断する。/ Lv2 『結界』のターン数が2ターンになる。/ Lv3 『結界』を付与する味方の対象が自身に隣接する味方2体になる。/ Ex2 永遠なる想いを強化する。このバフの付帯者が付帯者自身の最大HP×20%を超えるダメージの攻撃を受けた場合、最大HP×20%を超えた分のダメージをステータス増減前の付与者の最大HP×50%分遮断するようになる。",
@@ -1805,6 +1837,7 @@
           "character_level": 21,
           "description_key": "*",
           "descriptions": {
+            "ja-JP": null,
             "zh-CN": null
           },
           "equipment_rarity_flags": 0,
@@ -1838,6 +1871,7 @@
       },
       "name_key": "*",
       "names": {
+        "ja-JP": null,
         "zh-CN": null
       },
       "source_memo_ja": "*",
@@ -1880,6 +1914,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription260011]",
           "descriptions": {
+            "ja-JP": "師の教えを思い出し、仲間を助ける──かつてあの人が自分にしてくれたように。攻撃力が最も高い味方が弱体効果を付帯している場合、対象の弱体効果を1つ解除する。",
             "zh-CN": "梅琳谨记着师父的教诲，出手帮助她的同伴——就像师父过去为她所做的一样。当攻击力最高的友军身上附带弱化效果时，梅琳为技能目标解除身上的1种弱化效果。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription260012]",
           "descriptions": {
+            "ja-JP": "さらに対象が弱体効果を付帯していない場合、2ターンの間対象の攻撃力を30%増加させる。",
             "zh-CN": "当技能目标身上没有弱化效果时，使技能目标额外增加30%攻击力，效果持续2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription260013]",
           "descriptions": {
+            "ja-JP": "攻撃力の増加量が40%になる。",
             "zh-CN": "攻击力增幅提升为40%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription260014]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription260014]",
             "zh-CN": "[ActiveSkillDescription260014]"
           },
           "equipment_rarity_flags": 128,
@@ -64,6 +68,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription260015]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription260015]",
             "zh-CN": "[ActiveSkillDescription260015]"
           },
           "equipment_rarity_flags": 256,
@@ -75,6 +80,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription260016]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription260016]",
             "zh-CN": "[ActiveSkillDescription260016]"
           },
           "equipment_rarity_flags": 512,
@@ -157,6 +163,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName26001]",
       "names": {
+        "ja-JP": "お師匠さまのように",
         "zh-CN": "向师父看齐"
       },
       "source_memo_ja": "マーリンSR: /Lv1　師の教えを思い出し、仲間を助ける──かつてあの人が自分にしてくれたように。攻撃力が最も高い味方が弱体効果を付帯している場合、対象の弱体効果を1つ解除する。　/Lv2 さらに対象が弱体効果を付帯していない場合、2ターンの間対象の攻撃力を30％増加させる。　/Lv3 攻撃力の増加量が40％になる。　/専用1 お師匠さまのようにを強化する。さらに対象のHP割合が50％未満の場合、対象のHPを自身の攻撃力×350％回復する。対象のHP割合が50％以上の場合、2ターンの間対象のクリティカルダメージを20％増加させる。　/専用2 お師匠さまのようにを強化する。お師匠様のようにの対象が攻撃力が高い味方2体になり、弱体効果解除量が2つになる。　/専用3 お師匠さまのようにを強化する。クリティカルダメージの増加量が40％になる。",
@@ -186,6 +193,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription260021]",
           "descriptions": {
+            "ja-JP": "殺到する蔦の奔流は相手を押し流し、あるいは絡みついて力を吸い取る。HP割合が高い敵2体のバフを1つ解除し、攻撃力×320%の魔法攻撃を行う。",
             "zh-CN": "蜂拥而至的常春藤洪流吞没对手，缠绕并吸取对方的力量。梅琳解除生命值百分比最高的2名敌人身上的1种增益效果，造成攻击力×320%的魔法伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -200,6 +208,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription260022]",
           "descriptions": {
+            "ja-JP": "さらにHP割合が最も低い味方のHPをこのスキルの総与ダメージ×15%回復する。",
             "zh-CN": "使生命值百分比最低的友军额外恢复技能总伤害×15%的生命值。"
           },
           "equipment_rarity_flags": 0,
@@ -214,6 +223,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription260023]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×380%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×380%。"
           },
           "equipment_rarity_flags": 0,
@@ -228,6 +238,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription260024]",
           "descriptions": {
+            "ja-JP": "魔法攻撃の対象がHP割合の高い敵3体になる。",
             "zh-CN": "攻击目标增加为生命值百分比最高的3名敌人。"
           },
           "equipment_rarity_flags": 0,
@@ -296,6 +307,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName26002]",
       "names": {
+        "ja-JP": "ヴァインストリーム",
         "zh-CN": "藤蔓洪流"
       },
       "source_memo_ja": "マーリンSR: /Lv1　殺到する蔦の奔流は相手を押し流し、あるいは絡みついて力を吸い取る。HP割合が高い敵2体のバフを1つ解除し、攻撃力×320%の魔法攻撃を行う。　/Lv2 さらにHP割合が最も低い味方のHPをこのスキルの総与ダメージ×15％回復する。　/Lv3 魔法攻撃のダメージが攻撃力×380%になる。　/Lv4 魔法攻撃の対象がHP割合の高い敵3体になる。",
@@ -751,6 +763,7 @@
       },
       "name_key": "[CharacterCollectionName4]",
       "names": {
+        "ja-JP": "ウルススの心眼",
         "zh-CN": "大熊座的心之眼"
       },
       "required_character_ids": [
@@ -762,18 +775,21 @@
         {
           "id": 26,
           "names": {
+            "ja-JP": "マーリン",
             "zh-CN": "梅琳"
           }
         },
         {
           "id": 27,
           "names": {
+            "ja-JP": "コルディ",
             "zh-CN": "科迪"
           }
         },
         {
           "id": 29,
           "names": {
+            "ja-JP": "メルティーユ",
             "zh-CN": "茉缇"
           }
         }
@@ -1212,6 +1228,7 @@
       },
       "name_key": "[CharacterCollectionName22]",
       "names": {
+        "ja-JP": "ムネモシネの契約",
         "zh-CN": "忆神星的契约"
       },
       "required_character_ids": [
@@ -1223,18 +1240,21 @@
         {
           "id": 40,
           "names": {
+            "ja-JP": "カロル",
             "zh-CN": "卡罗"
           }
         },
         {
           "id": 16,
           "names": {
+            "ja-JP": "フレイシア",
             "zh-CN": "小苍兰"
           }
         },
         {
           "id": 26,
           "names": {
+            "ja-JP": "マーリン",
             "zh-CN": "梅琳"
           }
         }
@@ -1673,6 +1693,7 @@
       },
       "name_key": "[CharacterCollectionName27]",
       "names": {
+        "ja-JP": "テレスコピウムの星光",
         "zh-CN": "望远镜座的星光"
       },
       "required_character_ids": [
@@ -1684,18 +1705,21 @@
         {
           "id": 57,
           "names": {
+            "ja-JP": "ステラ",
             "zh-CN": "史黛拉"
           }
         },
         {
           "id": 26,
           "names": {
+            "ja-JP": "マーリン",
             "zh-CN": "梅琳"
           }
         },
         {
           "id": 46,
           "names": {
+            "ja-JP": "ルナリンド",
             "zh-CN": "露娜琳德"
           }
         }
@@ -2141,6 +2165,7 @@
       },
       "name_key": "[CharacterCollectionName57]",
       "names": {
+        "ja-JP": "ミクロスコープの探求",
         "zh-CN": "显微镜座的探求"
       },
       "required_character_ids": [
@@ -2151,12 +2176,14 @@
         {
           "id": 86,
           "names": {
+            "ja-JP": "メリア",
             "zh-CN": "玫莉亚"
           }
         },
         {
           "id": 26,
           "names": {
+            "ja-JP": "マーリン",
             "zh-CN": "梅琳"
           }
         }
@@ -2594,6 +2621,7 @@
       },
       "name_key": "[CharacterCollectionName69]",
       "names": {
+        "ja-JP": "フォルナックスの勇気",
         "zh-CN": "天炉座的勇气"
       },
       "required_character_ids": [
@@ -2604,12 +2632,14 @@
         {
           "id": 115,
           "names": {
+            "ja-JP": "ポプリ",
             "zh-CN": "波普莉"
           }
         },
         {
           "id": 26,
           "names": {
+            "ja-JP": "マーリン",
             "zh-CN": "梅琳"
           }
         }
@@ -2679,12 +2709,14 @@
     "memo": "マーリン",
     "name_key": "[CharacterName26]",
     "names": {
+      "ja-JP": "マーリン",
       "zh-CN": "梅琳"
     },
     "speed": 2888,
     "start_time_jst": "2020-01-01 00:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -2758,6 +2790,7 @@
     },
     "name_key": "[EquipmentName279]",
     "names": {
+      "ja-JP": "豊穣の杖",
       "zh-CN": "丰饶之杖"
     },
     "passive_effects": [
@@ -2791,6 +2824,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill26Description1]",
         "descriptions": {
+          "ja-JP": "お師匠さまのようにを強化する。さらに対象のHP割合が50%未満の場合、対象のHPを自身の攻撃力×350%回復する。対象のHP割合が50%以上の場合、2ターンの間対象のクリダメ強化を20%増加させる。",
           "zh-CN": "强化向师父看齐，当技能目标的生命值低于50%时，使技能目标额外恢复梅琳攻击力×350%的生命值；当技能目标的生命值为50%以上时，使技能目标额外增加20%暴击伤害强化，效果持续2回合。"
         },
         "equipment_rarity_flags": 128,
@@ -2799,6 +2833,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill26Description2]",
         "descriptions": {
+          "ja-JP": "お師匠さまのようにを強化する。お師匠さまのようにの対象が攻撃力が高い味方2体になり、弱体効果の解除数が2つになる。",
           "zh-CN": "强化向师父看齐，技能目标增加为攻击力最高的2名友军，解除的弱化效果增加为2种。"
         },
         "equipment_rarity_flags": 256,
@@ -2807,6 +2842,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill26Description3]",
         "descriptions": {
+          "ja-JP": "お師匠さまのようにを強化する。クリダメ強化の増加量が40%になる。",
           "zh-CN": "强化向师父看齐，暴击伤害强化增幅提升为40%。"
         },
         "equipment_rarity_flags": 512,
@@ -2827,6 +2863,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription260031]",
           "descriptions": {
+            "ja-JP": "「わ、わたしのお弟子さんに……なってみませんか？」毎ターン開始時味方の生存数が3体以上の場合、自身と自身に隣接する味方1体のクリティカル率を20%増加させる（解除不可）。味方の生存数が2体以下の場合、かわりに自身と自身に隣接する味方1体の防御力を20%増加させる（解除不可）。",
             "zh-CN": "“你、你要不要拜我为师……？”如果存活在场上的友军数为3名以上，梅琳在每回合开始时使自己与附近的1名友军增加20%暴击率（无法被解除）；如果存活在场上的友军数为2名以下，梅琳在每回合开始时使自己与附近的1名友军增加20%防御力（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -2841,6 +2878,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription260032]",
           "descriptions": {
+            "ja-JP": "防御力とクリティカル率の増加量がそれぞれ40%になる。",
             "zh-CN": "防御力与暴击率增幅提升为40%。"
           },
           "equipment_rarity_flags": 0,
@@ -2855,6 +2893,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription260033]",
           "descriptions": {
+            "ja-JP": "このスキルの対象が自身と自身に隣接する味方2体になる。",
             "zh-CN": "技能目标增加为梅琳与附近的2名友军。"
           },
           "equipment_rarity_flags": 0,
@@ -2937,6 +2976,7 @@
       },
       "name_key": "[PassiveSkillName26003]",
       "names": {
+        "ja-JP": "お弟子さん募集中！",
         "zh-CN": "徒弟招募中！"
       },
       "source_memo_ja": "マーリンSR: /Lv1　「わ、わたしのお弟子さんに……なってみませんか？」毎ターン開始時味方の生存数が3体以上の場合、自身と自身に隣接する味方1体のクリティカル率を20％増加させる（解除不可）。味方の生存数が2体以下の場合、かわりに自身と自身に隣接する味方1体の防御力を20％増加させる（解除不可）。　/Lv2 防御力とクリティカル確率の増加量がそれぞれ40％になる。　/Lv3 このスキルの対象が自身と自身に隣接する味方2体になる。",
@@ -2964,6 +3004,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription260041]",
           "descriptions": {
+            "ja-JP": "師とは弟子を導き、そして守る者。毎ターン開始時もしくは自身が攻撃を受けたとき、自身のHP割合が50%未満の場合、自身と自身に隣接する味方1体に『再生』を付与する（解除不可）。毎ターン行動開始時に付帯者のHPを付帯者自身の最大HP×3%回復する。",
             "zh-CN": "师父是引导徒弟、保护徒弟的人。在每回合开始时或受到攻击后，如果梅琳的生命值低于50%，使自己与附近的1名友军获得「再生」状态，每回合行动开始时恢复3%最大生命值（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -2978,6 +3019,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription260042]",
           "descriptions": {
+            "ja-JP": "『再生』での回復量が付帯者自身の最大HP×5%になる。",
             "zh-CN": "「再生」的恢复量提升为5%最大生命值。"
           },
           "equipment_rarity_flags": 0,
@@ -2992,6 +3034,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription260043]",
           "descriptions": {
+            "ja-JP": "このスキルの対象が自身と自身に隣接する味方2体になる。",
             "zh-CN": "技能目标增加为梅琳与附近的2名友军。"
           },
           "equipment_rarity_flags": 0,
@@ -3109,6 +3152,7 @@
       },
       "name_key": "[PassiveSkillName26004]",
       "names": {
+        "ja-JP": "師弟の絆",
         "zh-CN": "师徒情深"
       },
       "source_memo_ja": "マーリンSR: /Lv1　師とは弟子を導き、そして守る者。毎ターン開始時、もしくは自身が攻撃を受けたとき、自身のHP割合が50％未満の場合、自身と自身に隣接する味方1体に『再生』を付与する（解除不可）。毎ターン行動開始時に自身のHPを自身の最大HP×3％回復する。　/Lv2 『再生』での回復量が自身の最大HP×5％になる。　/Lv3 このスキルの対象が自身と自身に隣接する味方2体になる。",
@@ -3164,6 +3208,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

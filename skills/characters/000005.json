@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription50011]",
           "descriptions": {
+            "ja-JP": "あふれる冷気で相手を包み込み、ランダムな敵2体に攻撃力×420%の魔法攻撃を行う。凍えた意識は強烈な睡魔に襲われ、クリティカルヒットした場合、1ターンの間対象のクリティカル耐性率を80%減少させ、『睡眠』を付与する。これらは一つの弱体効果として扱われ、対象が攻撃を受けたとき解除される。",
             "zh-CN": "索尔缇娜释放冰冷的寒气包围对手，随机对2名敌人造成攻击力×420%的魔法伤害。强烈的睡意侵袭冻结的意识，当技能暴击时，对技能目标附加1种弱化效果，该效果包含减少80%抗暴率并附加「沉睡」状态，效果持续1回合，当技能目标受到攻击时解除效果。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription50012]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×460%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×460%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription50013]",
           "descriptions": {
+            "ja-JP": "このスキルの対象がランダムな敵3体になる。",
             "zh-CN": "技能目标增加为3名随机敌人。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription50014]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription50014]",
             "zh-CN": "[ActiveSkillDescription50014]"
           },
           "equipment_rarity_flags": 128,
@@ -64,6 +68,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription50015]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription50015]",
             "zh-CN": "[ActiveSkillDescription50015]"
           },
           "equipment_rarity_flags": 512,
@@ -136,6 +141,7 @@
       "max_cooldown": 5,
       "name_key": "[ActiveSkillName5001]",
       "names": {
+        "ja-JP": "スノウドリーム",
         "zh-CN": "冰雪梦域"
       },
       "source_memo_ja": "ソルティーナSR: /Lv1　あふれる冷気で相手を包み込み、ランダムな敵2体に攻撃力×420%の魔法攻撃を行う。凍えた意識は強烈な睡魔に襲われ、クリティカルヒットした場合、1ターンの間対象のクリティカル耐性率を80%減少させ、『睡眠』を付与する。『睡眠』は対象が攻撃を受けたとき解除される。/Lv2 魔法攻撃のダメージが攻撃力×460%になる。　/Lv3 このスキルの対象がランダムな敵3体になる。　/専用1 スノウドリームを強化する。魔法攻撃のダメージが攻撃力×480%になる。　/専用3 スノウドリームを強化する。スノウドリームの対象がランダムな敵4体になる。",
@@ -165,6 +171,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription50021]",
           "descriptions": {
+            "ja-JP": "ロザリーに教わったその魔法は、相手の魔力をも利用して氷の刃を編み上げる。攻撃力が最も高い敵に攻撃力×520%の魔法攻撃を行う。魔力の氷は精神まで凍り付かせ、対象の魔力が自身よりも低い場合、70%の確率で1ターンの間『気絶』を付与する。",
             "zh-CN": "索尔缇娜施展罗莎莉教导的魔法，利用对手的魔力凝冰成剑，对攻击力最高的敌人造成攻击力×520%的魔法伤害。魔力凝结的寒冰能冻结神志，当技能目标的魔力低于自己时，70%概率附加「晕厥」状态，效果持续1回合。"
           },
           "equipment_rarity_flags": 0,
@@ -179,6 +186,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription50022]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×600%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×600%。"
           },
           "equipment_rarity_flags": 0,
@@ -193,6 +201,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription50023]",
           "descriptions": {
+            "ja-JP": "『気絶』を付与する確率が100%になる。",
             "zh-CN": "附加「晕厥」状态的概率提升为100%。"
           },
           "equipment_rarity_flags": 0,
@@ -207,6 +216,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription50024]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×780%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×780%。"
           },
           "equipment_rarity_flags": 0,
@@ -221,6 +231,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription50025]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription50025]",
             "zh-CN": "[ActiveSkillDescription50025]"
           },
           "equipment_rarity_flags": 256,
@@ -293,6 +304,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName5002]",
       "names": {
+        "ja-JP": "アイススパイン",
         "zh-CN": "冰锥术"
       },
       "source_memo_ja": "ソルティーナSR: /Lv1　ロザリーに教わったその魔法は、相手の魔力をも利用して氷の刃を編み上げる。攻撃力が最も高い敵に攻撃力×520％の魔法攻撃を行う。魔力の氷は精神まで凍り付かせ、対象の魔力が自身よりも低い場合、70％の確率で1ターンの間『気絶』を付与する。　/Lv2 魔法攻撃のダメージが攻撃力×600%になる。　/Lv3 『気絶』を付与する確率が100％になる。　/Lv4 魔法攻撃のダメージが攻撃力×780%になる。　/専用2 アイススパインを強化する。『気絶』のターン数が2ターンになる。",
@@ -757,6 +769,7 @@
       },
       "name_key": "[CharacterCollectionName7]",
       "names": {
+        "ja-JP": "アルビレオの宝石",
         "zh-CN": "天鹅座的宝石"
       },
       "required_character_ids": [
@@ -769,24 +782,28 @@
         {
           "id": 5,
           "names": {
+            "ja-JP": "ソルティーナ",
             "zh-CN": "索尔缇娜"
           }
         },
         {
           "id": 7,
           "names": {
+            "ja-JP": "フェンリル",
             "zh-CN": "芬里尔"
           }
         },
         {
           "id": 8,
           "names": {
+            "ja-JP": "フローレンス",
             "zh-CN": "佛罗伦斯"
           }
         },
         {
           "id": 46,
           "names": {
+            "ja-JP": "ルナリンド",
             "zh-CN": "露娜琳德"
           }
         }
@@ -1224,6 +1241,7 @@
       },
       "name_key": "[CharacterCollectionName18]",
       "names": {
+        "ja-JP": "アフロディーテの親心",
         "zh-CN": "阿芙萝黛蒂的亲情"
       },
       "required_character_ids": [
@@ -1234,12 +1252,14 @@
         {
           "id": 47,
           "names": {
+            "ja-JP": "ヴァルリーデ",
             "zh-CN": "瓦尔丽黛"
           }
         },
         {
           "id": 5,
           "names": {
+            "ja-JP": "ソルティーナ",
             "zh-CN": "索尔缇娜"
           }
         }
@@ -1677,6 +1697,7 @@
       },
       "name_key": "[CharacterCollectionName26]",
       "names": {
+        "ja-JP": "プロキオンの双牙",
         "zh-CN": "小白犬的双牙"
       },
       "required_character_ids": [
@@ -1687,12 +1708,14 @@
         {
           "id": 9,
           "names": {
+            "ja-JP": "ソーニャ",
             "zh-CN": "索尼娅"
           }
         },
         {
           "id": 5,
           "names": {
+            "ja-JP": "ソルティーナ",
             "zh-CN": "索尔缇娜"
           }
         }
@@ -2130,6 +2153,7 @@
       },
       "name_key": "[CharacterCollectionName47]",
       "names": {
+        "ja-JP": "プテロミスの秘伝",
         "zh-CN": "飞鼠座的秘传"
       },
       "required_character_ids": [
@@ -2140,12 +2164,14 @@
         {
           "id": 78,
           "names": {
+            "ja-JP": "アサヒ",
             "zh-CN": "朝日"
           }
         },
         {
           "id": 5,
           "names": {
+            "ja-JP": "ソルティーナ",
             "zh-CN": "索尔缇娜"
           }
         }
@@ -2583,6 +2609,7 @@
       },
       "name_key": "[CharacterCollectionName62]",
       "names": {
+        "ja-JP": "ポルックスの親愛",
         "zh-CN": "波吕克斯的亲爱"
       },
       "required_character_ids": [
@@ -2593,12 +2620,14 @@
         {
           "id": 107,
           "names": {
+            "ja-JP": "ソルティーナ",
             "zh-CN": "索尔缇娜"
           }
         },
         {
           "id": 5,
           "names": {
+            "ja-JP": "ソルティーナ",
             "zh-CN": "索尔缇娜"
           }
         }
@@ -2668,12 +2697,14 @@
     "memo": "ソルティーナ",
     "name_key": "[CharacterName5]",
     "names": {
+      "ja-JP": "ソルティーナ",
       "zh-CN": "索尔缇娜"
     },
     "speed": 3302,
     "start_time_jst": "2020-01-01 00:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -2747,6 +2778,7 @@
     },
     "name_key": "[EquipmentName201]",
     "names": {
+      "ja-JP": "ソルスフィア",
       "zh-CN": "耀日天球"
     },
     "passive_effects": [
@@ -2780,6 +2812,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill5Description1]",
         "descriptions": {
+          "ja-JP": "スノウドリームを強化する。魔法攻撃のダメージが攻撃力×480%になる。",
           "zh-CN": "强化冰雪梦域，造成的魔法伤害提升为攻击力×480%。"
         },
         "equipment_rarity_flags": 128,
@@ -2788,6 +2821,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill5Description2]",
         "descriptions": {
+          "ja-JP": "アイススパインを強化する。『気絶』のターン数が2ターンになる。",
           "zh-CN": "强化冰锥术，「晕厥」效果增加为2回合。"
         },
         "equipment_rarity_flags": 256,
@@ -2796,6 +2830,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill5Description3]",
         "descriptions": {
+          "ja-JP": "スノウドリームを強化する。スノウドリームの対象がランダムな敵4体になる。",
           "zh-CN": "强化冰雪梦域，技能目标增加为4名随机敌人。"
         },
         "equipment_rarity_flags": 512,
@@ -2816,6 +2851,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription50031]",
           "descriptions": {
+            "ja-JP": "どんなに辛くても、このぬいぐるみを抱きしめれば──お姉ちゃんが助けてくれる。自身がアクティブスキルで弱体効果を受けて、自身が付帯している弱体効果の個数が2以上の場合、自身の弱体効果を全て解除する。このスキルは発動後4回行動終了するまで再び発動しない。",
             "zh-CN": "难过的时候只要抱紧小熊布偶，姐姐就会来安慰我。当索尔缇娜被附加主动技能造成的弱化效果，且身上附带2种以上弱化效果时，触发技能解除所有弱化效果。此技能须在结束4次行动后才可再次触发。"
           },
           "equipment_rarity_flags": 0,
@@ -2830,6 +2866,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription50032]",
           "descriptions": {
+            "ja-JP": "さらに3ターンの間自身のクリティカル率が20%増加する（解除不可）。",
             "zh-CN": "额外增加20%暴击率，效果持续3回合（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -2844,6 +2881,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription50033]",
           "descriptions": {
+            "ja-JP": "クリティカル率の増加量が50%になる。",
             "zh-CN": "暴击率增幅提升为50%。"
           },
           "equipment_rarity_flags": 0,
@@ -2912,6 +2950,7 @@
       },
       "name_key": "[PassiveSkillName5003]",
       "names": {
+        "ja-JP": "クマさんのぬいぐるみ",
         "zh-CN": "小熊布偶"
       },
       "source_memo_ja": "ソルティーナSR: /Lv1　どんなに辛くても、このぬいぐるみを抱きしめれば──お姉ちゃんが助けてくれる。自身が弱体効果を受けて、自身が付帯している弱体効果の個数が2以上の場合、自身の弱体効果を全て解除する。このスキルは4ターンに1回発動する。　/Lv2 さらに3ターンの間自身のクリティカル率が20％増加する（解除不可）。　/Lv3 クリティカル率の増加量が50％になる。",
@@ -2939,6 +2978,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription50041]",
           "descriptions": {
+            "ja-JP": "お姉ちゃんは、わたしが絶対に助けるんだ！　それまでは絶対に倒れない！　ターン開始時自身に2層の『多重バリア』を付与する（解除不可）。自身の最大HP×10%以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。このスキルは発動後4回行動終了するまで再び発動しない。",
             "zh-CN": "把姐姐救出来之前，我绝对不会倒下！索尔缇娜在回合开始时获得2层「多重屏障」（无法被解除）。当她受到最大生命值×10%以上的伤害时，消耗1层屏障来抵消该伤害。此技能须在结束4次行动后才可再次触发。"
           },
           "equipment_rarity_flags": 0,
@@ -2953,6 +2993,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription50042]",
           "descriptions": {
+            "ja-JP": "『多重バリア』が4層になる。",
             "zh-CN": "「多重屏障」增加为4层。"
           },
           "equipment_rarity_flags": 0,
@@ -2967,6 +3008,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription50043]",
           "descriptions": {
+            "ja-JP": "さらに自身が『多重バリア』を付帯している間クリティカル率が30%増加する（解除不可）。",
             "zh-CN": "「多重屏障」存在期间，额外增加30%暴击率（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -3035,6 +3077,7 @@
       },
       "name_key": "[PassiveSkillName5004]",
       "names": {
+        "ja-JP": "姉妹の絆",
         "zh-CN": "姐妹情深"
       },
       "source_memo_ja": "ソルティーナSR: /Lv1　お姉ちゃんは、わたしが絶対に助けるんだ！　それまでは絶対に倒れない！　ターン開始時自身に2層の『多重バリア』を付与する（解除不可）。自身の最大HP×10％以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。このスキルは4ターンに1回発動する。　/Lv2 『多重バリア』が4層になる。　/Lv3 さらに自身が『多重バリア』を付帯している間クリティカル確率が30％増加する（解除不可）。",
@@ -3090,6 +3133,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

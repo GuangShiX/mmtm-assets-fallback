@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription520011]",
           "descriptions": {
+            "ja-JP": "主に迫る危険が大きいほど、剣はより強く覚醒する。4ターンの間自身の与ダメージが20%増加する。このターン中に対象が攻撃を受けた回数によって与ダメージの増加量は上昇し、36%、48%、56%、60%の順に大きくなる（最大4回まで）。その後攻撃力が最も高い敵に攻撃力×980%の物理攻撃を行い、自身のHPをこのスキルの総与ダメージ×30%回復する。",
             "zh-CN": "主人面临的处境越危险，黑剑释放的力量越强大，使希维增加20%输出伤害，效果持续4回合。输出伤害增幅根据附加目标在本回合内受过的攻击次数提升，依序为36%、48%、56%、60%（最多4次）。再对攻击力最高的敌人造成攻击力×980%的物理伤害，使希维恢复技能总伤害×30%的生命值。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription520012]",
           "descriptions": {
+            "ja-JP": "『与ダメージ増加』の対象が自身と自身以外のスピードが低い味方2体になる。",
             "zh-CN": "「输出伤害上升」的附加目标增加为希维与速度最低的2名友军。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription520013]",
           "descriptions": {
+            "ja-JP": "与ダメージの増加量が25%になる。このターン中に対象が攻撃を受けた回数によって与ダメージの増加量は上昇し、45%、60%、70%、75%の順に大きくなる（最大4回まで）。",
             "zh-CN": "输出伤害增幅提升为25%。增幅根据附加目标在本回合内受过的攻击次数提升，依序为45%、60%、70%、75%（最多4次）。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription520014]",
           "descriptions": {
+            "ja-JP": "",
             "zh-CN": ""
           },
           "equipment_rarity_flags": 128,
@@ -67,6 +71,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription520015]",
           "descriptions": {
+            "ja-JP": "",
             "zh-CN": ""
           },
           "equipment_rarity_flags": 256,
@@ -153,6 +158,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName52001]",
       "names": {
+        "ja-JP": "リアクティブブレイド",
         "zh-CN": "反击之剑"
       },
       "source_memo_ja": "シヴィSR:Lv1 主に迫る危険が大きいほど、剣はより強く覚醒する。4ターンの間自身の与ダメージが20%増加する。このターン中に対象が攻撃によるダメージを受けた回数によって与ダメージの増加量は上昇し、36%、48%、56%、60%の順に大きくなる（最大4回まで）。その後攻撃力が最も高い敵に攻撃力×980%の物理攻撃を行い、自身のHPをこのスキルの総与ダメージ×30%回復する。/ Lv2\\n 『与ダメージ増加』の対象が自身と自身以外のスピードが低い味方2体になる。/ Lv3 与ダメージの増加量が25％になる。このターン中に対象が攻撃によるダメージを受けた回数によって与ダメージの増加量は上昇し、45%、60%、70%、75%の順に大きくなる（最大4回まで）。/ Ex1 リアクティブブレイドを強化する。物理攻撃のダメージが攻撃力×1170%になる。/Ex2 \\nリアクティブブレイドを強化する。与ダメージの増加量が30％になる。このターン中に対象が攻撃によるダメージを受けた回数によって与ダメージの増加量は上昇し、54%、72%、84%、90%の順に大きくなる（最大4回まで）。",
@@ -186,6 +192,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription520021]",
           "descriptions": {
+            "ja-JP": "その黒き刃は命を吸い取り、主の仲間へと分け与える。ランダムな敵3体に攻撃力×310%の物理攻撃を行い、スピードが最も低い味方のHPをこのスキルの総与ダメージ×15%回復する。",
             "zh-CN": "漆黑的利剑吸取对手的生命，并转移到主人的同伴身上，随机对3名敌人造成攻击力×310%的物理伤害，使速度最低的友军恢复技能总伤害×15%的生命值。"
           },
           "equipment_rarity_flags": 0,
@@ -200,6 +207,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription520022]",
           "descriptions": {
+            "ja-JP": "さらにスピードが最も低い味方の弱体効果を全て解除する。",
             "zh-CN": "额外解除速度最低的友军身上的所有弱化效果。"
           },
           "equipment_rarity_flags": 0,
@@ -214,6 +222,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription520023]",
           "descriptions": {
+            "ja-JP": "HP回復と弱体効果解除の対象がスピードが低い味方3体になる。",
             "zh-CN": "生命值恢复与弱化效果解除目标增加为速度最低的3名友军。"
           },
           "equipment_rarity_flags": 0,
@@ -228,6 +237,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription520024]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×530%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×530%。"
           },
           "equipment_rarity_flags": 0,
@@ -242,6 +252,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription520025]",
           "descriptions": {
+            "ja-JP": "",
             "zh-CN": ""
           },
           "equipment_rarity_flags": 512,
@@ -322,6 +333,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName52002]",
       "names": {
+        "ja-JP": "アブソーブブレイド",
         "zh-CN": "噬命之剑"
       },
       "source_memo_ja": "シヴィSR: Lv1 その黒き刃は命を吸い取り、主の仲間へと分け与える。ランダムな敵3体に攻撃力×310%の物理攻撃を行い、スピードが最も低い味方のHPをこのスキルの総与ダメージ×15%回復する。/ Lv2 \\nさらにスピードが最も低い味方の弱体効果を全て解除する。/Lv3 \\nHP回復と弱体効果解除の対象がスピードが低い味方3体になる。/Lv4 \\n物理攻撃のダメージが攻撃力×530%になる。/ Ex3 アブソーブブレイドを強化する。物理攻撃の対象がランダムな敵4体になる。",
@@ -788,6 +800,7 @@
       },
       "name_key": "[CharacterCollectionName15]",
       "names": {
+        "ja-JP": "コルウスの吐息",
         "zh-CN": "乌鸦座的叹息"
       },
       "required_character_ids": [
@@ -798,12 +811,14 @@
         {
           "id": 52,
           "names": {
+            "ja-JP": "シヴィ",
             "zh-CN": "希维"
           }
         },
         {
           "id": 36,
           "names": {
+            "ja-JP": "トロポン",
             "zh-CN": "托波波"
           }
         }
@@ -873,12 +888,14 @@
     "memo": "シヴィ",
     "name_key": "[CharacterName52]",
     "names": {
+      "ja-JP": "シヴィ",
       "zh-CN": "希维"
     },
     "speed": 2855,
     "start_time_jst": "2023-05-15 15:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -953,6 +970,7 @@
     },
     "name_key": "[EquipmentName404]",
     "names": {
+      "ja-JP": "ソールブリンガー",
       "zh-CN": "日升者"
     },
     "passive_effects": [
@@ -986,6 +1004,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill52Description1]",
         "descriptions": {
+          "ja-JP": "リアクティブブレイドを強化する。物理攻撃のダメージが攻撃力×1170%になる。",
           "zh-CN": "强化反击之剑，造成的物理伤害提升为攻击力×1170%。"
         },
         "equipment_rarity_flags": 128,
@@ -994,6 +1013,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill52Description2]",
         "descriptions": {
+          "ja-JP": "リアクティブブレイドを強化する。与ダメージの増加量が30%になる。このターン中に対象が攻撃を受けた回数によって与ダメージの増加量は上昇し、54%、72%、84%、90%の順に大きくなる（最大4回まで）。",
           "zh-CN": "强化反击之剑，输出伤害增幅提升为30%。增幅根据附加目标在本回合内受过的攻击次数提升，依序为54%、72%、84%、90%（最多4次）。"
         },
         "equipment_rarity_flags": 256,
@@ -1002,6 +1022,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill52Description3]",
         "descriptions": {
+          "ja-JP": "アブソーブブレイドを強化する。物理攻撃の対象がランダムな敵4体になる。",
           "zh-CN": "强化噬命之剑，攻击目标增加为4名随机敌人。"
         },
         "equipment_rarity_flags": 512,
@@ -1022,6 +1043,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription520031]",
           "descriptions": {
+            "ja-JP": "戦うのは苦手だし面倒だから、みんなに頑張ってもらいたいっす。という主の願いを受けて剣が仲間にも力を付与し、自身と自身に隣接する味方1体の防御力と物理防御力がそれぞれ25%増加する（解除不可）。",
             "zh-CN": "“打架好麻烦哦我不想打架，希望其他人可以多加把劲。”黑剑感知到主人的心愿，将它的力量分给其他同伴，使希维与附近的1名友军增加25%防御力与物理防御力（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1036,6 +1058,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription520032]",
           "descriptions": {
+            "ja-JP": "このスキルの対象が自身と自身に隣接する味方2体になる。",
             "zh-CN": "技能目标增加为希维与附近的2名友军。"
           },
           "equipment_rarity_flags": 0,
@@ -1050,6 +1073,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription520033]",
           "descriptions": {
+            "ja-JP": "自身のみ防御力と物理防御力の増加量がそれぞれ100%になる。",
             "zh-CN": "希维的防御力与物理防御力增幅提升为100%。"
           },
           "equipment_rarity_flags": 0,
@@ -1118,6 +1142,7 @@
       },
       "name_key": "[PassiveSkillName52003]",
       "names": {
+        "ja-JP": "みんな頑張るっす！",
         "zh-CN": "加把劲啊各位！"
       },
       "source_memo_ja": "シヴィSR:Lv1 戦うのは苦手だし面倒だから、みんなに頑張ってもらいたいっす。という主の願いを受けて剣が仲間にも力を付与し、自身と自身に隣接する味方1体の防御力と物理防御力がそれぞれ25%増加する（解除不可）。/ Lv2 \\nこのスキルの対象が自身と自身に隣接する味方2体になる。/ Lv3 \\n自身のみ防御力と物理防御力の増加量がそれぞれ100%になる。",
@@ -1145,6 +1170,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription520041]",
           "descriptions": {
+            "ja-JP": "剣は主を守護し続ける。その使命を全うするまで。自身がアクティブスキルで弱体効果を受けて、自身が付帯している弱体効果の個数が2以上の場合、自身の弱体効果を全て解除する。このスキルは発動後4回行動終了するまで再び発動しない。",
             "zh-CN": "在完成使命之前，黑剑会始终守护着它的主人。当希维被附加主动技能造成的弱化效果，且身上附带2种以上弱化效果时，触发技能解除所有弱化效果。此技能须在结束4次行动后才可再次触发。"
           },
           "equipment_rarity_flags": 0,
@@ -1159,6 +1185,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription520042]",
           "descriptions": {
+            "ja-JP": "さらに3ターンの間自身の被ダメージが15%減少する。",
             "zh-CN": "额外减少15%自身承受伤害，效果持续3回合。"
           },
           "equipment_rarity_flags": 0,
@@ -1173,6 +1200,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription520043]",
           "descriptions": {
+            "ja-JP": "被ダメージの減少量が30%になる。",
             "zh-CN": "承受伤害降幅提升为30%。"
           },
           "equipment_rarity_flags": 0,
@@ -1238,6 +1266,7 @@
       },
       "name_key": "[PassiveSkillName52004]",
       "names": {
+        "ja-JP": "魔剣の守護",
         "zh-CN": "魔剑的守护"
       },
       "source_memo_ja": "シヴィSR:Lv1 剣は主を守護し続ける。その使命を全うするまで。自身が弱体効果を受けて、自身が付帯している弱体効果の個数が2以上の場合、自身の弱体効果を全て解除する。このスキルは4ターンに1回発動する。/ Lv2 \\nさらに3ターンの間自身の被ダメージが15%減少する。/ Lv3\\n被ダメージの減少量が30%になる。",
@@ -1289,6 +1318,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

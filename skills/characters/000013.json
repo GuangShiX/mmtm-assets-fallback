@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription130011]",
           "descriptions": {
+            "ja-JP": "振り絞った勇気が運命を切り開く力となり、現在HPが最も高い敵に攻撃力×420%の魔法攻撃を行う。傾いた天秤から溢れる力が、対象に3ターンの間『出血』を付与する。毎ターン行動開始時に自身の攻撃力×5%のダメージを与える。",
             "zh-CN": "狄奥多拉鼓起的勇气化作打破命运的力量，对当前生命值最高的敌人造成攻击力×420%的魔法伤害。这股力量从倾斜的天秤中溢出，对技能目标附加「流血」状态，效果持续3回合，每回合行动开始时造成狄奥多拉攻击力×5%的伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 61,
           "description_key": "[ActiveSkillDescription130012]",
           "descriptions": {
+            "ja-JP": "『出血』のダメージが攻撃力×7%になる。",
             "zh-CN": "「流血」造成的伤害提升为狄奥多拉攻击力×7%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 121,
           "description_key": "[ActiveSkillDescription130013]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×480%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×480%。"
           },
           "equipment_rarity_flags": 0,
@@ -94,6 +97,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName13001]",
       "names": {
+        "ja-JP": "天秤の運命",
         "zh-CN": "天秤的命运"
       },
       "source_memo_ja": "テオドラR: /Lv1　振り絞った勇気が運命を切り開く力となり、現在HPが最も高い敵に攻撃力×420％の魔法攻撃を行う。傾いた天秤から溢れる力が、対象に3ターンの間『出血』を付与する。毎ターン行動開始時に自身の攻撃力×5％のダメージを与える。　/Lv2 『出血』のダメージが攻撃力×7％になる。　/Lv3 魔法攻撃のダメージが攻撃力×480%になる。",
@@ -123,6 +127,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription130021]",
           "descriptions": {
+            "ja-JP": "迷いのない心が力となり、現在HPが高い敵2体に攻撃力×390%の魔法攻撃を行う。さらに相手の戦意を挫く事で、50%の確率で2ターンの間対象の防御力を20%減少させる。",
             "zh-CN": "狄奥多拉坚定的心化作力量，对当前生命值最高的2名敌人造成攻击力×390%的魔法伤害。她打击对手的士气，50%概率使技能目标减少20%防御力，效果持续2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -137,6 +142,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription130022]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×410%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×410%。"
           },
           "equipment_rarity_flags": 0,
@@ -151,6 +157,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription130023]",
           "descriptions": {
+            "ja-JP": "『防御力減少』を付与する確率が70%になる。",
             "zh-CN": "附加「防御力下降」状态的概率提升为70%。"
           },
           "equipment_rarity_flags": 0,
@@ -165,6 +172,7 @@
           "character_level": 141,
           "description_key": "[ActiveSkillDescription130024]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×450%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×450%。"
           },
           "equipment_rarity_flags": 0,
@@ -230,6 +238,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName13002]",
       "names": {
+        "ja-JP": "選択の秤",
         "zh-CN": "抉择的天秤"
       },
       "source_memo_ja": "テオドラR: /Lv1　迷いのない心が力となり、現在HPが高い敵2体に攻撃力×390％の魔法攻撃を行う。さらに相手の戦意を挫く事で、50％の確率で2ターンの間対象の防御力を20％減少させる。　/Lv2 魔法攻撃のダメージが攻撃力×410%になる。　/Lv3 防御力を減少させる確率が70％になる。　/Lv4 魔法攻撃のダメージが攻撃力×450%になる。",
@@ -333,6 +342,7 @@
       },
       "name_key": "[CharacterCollectionName71]",
       "names": {
+        "ja-JP": "ミンタカの開花",
         "zh-CN": "腰带星的绽放"
       },
       "required_character_ids": [
@@ -345,24 +355,28 @@
         {
           "id": 3,
           "names": {
+            "ja-JP": "アイリス",
             "zh-CN": "艾莉丝"
           }
         },
         {
           "id": 13,
           "names": {
+            "ja-JP": "テオドラ",
             "zh-CN": "狄奥多拉"
           }
         },
         {
           "id": 23,
           "names": {
+            "ja-JP": "ロザリー",
             "zh-CN": "罗莎莉"
           }
         },
         {
           "id": 33,
           "names": {
+            "ja-JP": "チェルナ",
             "zh-CN": "切尔娜"
           }
         }
@@ -431,12 +445,14 @@
     "memo": "テオドラ",
     "name_key": "[CharacterName13]",
     "names": {
+      "ja-JP": "テオドラ",
       "zh-CN": "狄奥多拉"
     },
     "speed": 2866,
     "start_time_jst": "2020-01-01 00:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -454,6 +470,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription130031]",
           "descriptions": {
+            "ja-JP": "宿屋名物の弁当で、自身の最大HPが20%増加する（解除不可）。",
             "zh-CN": "狄奥多拉享用旅店的招牌便当，使自己增加20%最大生命值（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -468,6 +485,7 @@
           "character_level": 101,
           "description_key": "[PassiveSkillDescription130032]",
           "descriptions": {
+            "ja-JP": "さらに自身の弱体効果命中率が20%増加する（解除不可）。",
             "zh-CN": "额外增加20%弱化效果命中率（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -520,6 +538,7 @@
       },
       "name_key": "[PassiveSkillName13003]",
       "names": {
+        "ja-JP": "お手製弁当",
         "zh-CN": "自制便当"
       },
       "source_memo_ja": "テオドラR: /Lv1　宿屋名物の弁当で、自身の最大HPが20％増加する（解除不可）。　/Lv2 さらに自身の弱体効果命中率が20％増加する（解除不可）。",
@@ -571,6 +590,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

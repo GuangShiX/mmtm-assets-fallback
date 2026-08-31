@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription1170011]",
           "descriptions": {
+            "ja-JP": "止まりかけの心臓が鳴らすのは、錆びついた魂の鎮魂歌。ランダムな敵3体に攻撃力×380%の魔法攻撃を行う。",
             "zh-CN": "即将停止跳动的心脏，奏响一曲锈迹斑斑的镇魂歌。A.A.随机对3名敌人造成攻击力×380%的魔法伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription1170012]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×680%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×680%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1170013]",
           "descriptions": {
+            "ja-JP": "さらに魔法攻撃のダメージが『多重バリア』で無効化された場合、対象に攻撃力×680%の魔法攻撃を行う（追加攻撃は最大1回まで）。",
             "zh-CN": "当伤害被「多重屏障」抵消时，A.A.额外对技能目标追加攻击力×680%的魔法伤害（最多1次）。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1170014]",
           "descriptions": {
+            "ja-JP": "ラスト・レクイエムを強化する。ラスト・レクイエムの対象がランダムな敵5体になる。",
             "zh-CN": "强化锈蚀镇魂曲，技能目标增加为5名随机敌人。"
           },
           "equipment_rarity_flags": 128,
@@ -120,6 +124,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName117001]",
       "names": {
+        "ja-JP": "ラスト・レクイエム",
         "zh-CN": "锈蚀镇魂曲"
       },
       "source_memo_ja": "制服A.A.SR:Lv1 止まりかけの心臓が鳴らすのは、錆びついた魂の鎮魂歌。ランダムな敵3体に攻撃力×380%の魔法攻撃を行う。/ Lv2 魔法攻撃のダメージが攻撃力×680%になる。/ Lv3 さらに最初の魔法攻撃のダメージが『多重バリア』で無効化された場合、対象に攻撃力×680％の魔法攻撃を行う（追加攻撃は最大1回まで）。/ Ex1 ラスト・レクイエムを強化する。ラスト・レクイエムの対象がランダムな敵5体になる。",
@@ -153,6 +158,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription1170021]",
           "descriptions": {
+            "ja-JP": "壊れた翼から零れる錆が、浸食した相手を崩壊させる。ランダムな敵2体に攻撃力×740%の魔法攻撃を行う。",
             "zh-CN": "自残破铁翼上落下的铁锈，腐蚀并瓦解对手，随机对2名敌人造成攻击力×740%的魔法伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -167,6 +173,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription1170022]",
           "descriptions": {
+            "ja-JP": "このスキルの対象がランダムな敵3体になる。",
             "zh-CN": "技能目标增加为3名随机敌人。"
           },
           "equipment_rarity_flags": 0,
@@ -181,6 +188,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription1170023]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×1640%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×1640%。"
           },
           "equipment_rarity_flags": 0,
@@ -195,6 +203,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription1170024]",
           "descriptions": {
+            "ja-JP": "さらに魔法攻撃のダメージが『多重バリア』で無効化された場合、対象に攻撃力×1640%の魔法攻撃を行う（追加攻撃は最大1回まで）。",
             "zh-CN": "当伤害被「多重屏障」抵消时，额外对技能目标追加攻击力×1640%的魔法伤害（最多1次）。"
           },
           "equipment_rarity_flags": 0,
@@ -209,6 +218,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription1170025]",
           "descriptions": {
+            "ja-JP": "錆鉄の崩翼を強化する。最初の魔法攻撃と追加攻撃のダメージがそれぞれ攻撃力×1790%になる。",
             "zh-CN": "强化锈铁残翼，第一波攻击与追加攻击造成的魔法伤害提升为攻击力×1790%。"
           },
           "equipment_rarity_flags": 512,
@@ -286,6 +296,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName117002]",
       "names": {
+        "ja-JP": "錆鉄の崩翼",
         "zh-CN": "锈铁残翼"
       },
       "source_memo_ja": "制服A.A.SR:Lv1 壊れた翼から零れる錆が、浸食した相手を崩壊させる。ランダムな敵2体に攻撃力×740%の魔法攻撃を行う。/ Lv2 このスキルの対象がランダムな敵3体になる。/ Lv3 魔法攻撃のダメージが攻撃力×1640%になる。/ Lv4 さらに最初の魔法攻撃のダメージが『多重バリア』で無効化された場合、対象に攻撃力×1640%の魔法攻撃を行う（追加攻撃は最大1回まで）。/ Ex3 錆鉄の崩翼を強化する。最初の魔法攻撃と追加攻撃のダメージがそれぞれ攻撃力×1790%になる。",
@@ -745,6 +756,7 @@
       },
       "name_key": "[CharacterCollectionName72]",
       "names": {
+        "ja-JP": "ポラリスの愛情",
         "zh-CN": "北极星的爱情"
       },
       "required_character_ids": [
@@ -756,18 +768,21 @@
         {
           "id": 117,
           "names": {
+            "ja-JP": "Ａ.Ａ.",
             "zh-CN": "A.A."
           }
         },
         {
           "id": 48,
           "names": {
+            "ja-JP": "Ａ.Ａ.",
             "zh-CN": "A.A."
           }
         },
         {
           "id": 29,
           "names": {
+            "ja-JP": "メルティーユ",
             "zh-CN": "茉缇"
           }
         }
@@ -837,12 +852,14 @@
     "memo": "制服Ａ.Ａ.",
     "name_key": "[CharacterName117]",
     "names": {
+      "ja-JP": "Ａ.Ａ.",
       "zh-CN": "A.A."
     },
     "speed": 2607,
     "start_time_jst": "2025-04-30 15:00:00",
     "subtitle_key": "[CharacterSubName117]",
     "subtitles": {
+      "ja-JP": "錆鉄の空",
       "zh-CN": "锈铁的天空"
     }
   },
@@ -916,6 +933,7 @@
     },
     "name_key": "[EquipmentName801]",
     "names": {
+      "ja-JP": "希望の翼",
       "zh-CN": "希望之翼"
     },
     "passive_effects": [
@@ -949,6 +967,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill117Description1]",
         "descriptions": {
+          "ja-JP": "ラスト・レクイエムを強化する。ラスト・レクイエムの対象がランダムな敵5体になる。",
           "zh-CN": "强化锈蚀镇魂曲，技能目标增加为5名随机敌人。"
         },
         "equipment_rarity_flags": 128,
@@ -957,6 +976,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill117Description2]",
         "descriptions": {
+          "ja-JP": "天使の残光を強化する。『シールド』の大きさがステータス増減前の対象の最大HP×100%になる。",
           "zh-CN": "强化天使余晖，「护盾」值提升为状态效果生效前的附加目标最大生命值×100%。"
         },
         "equipment_rarity_flags": 256,
@@ -965,6 +985,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill117Description3]",
         "descriptions": {
+          "ja-JP": "錆鉄の崩翼を強化する。最初の魔法攻撃と追加攻撃のダメージがそれぞれ攻撃力×1790%になる。",
           "zh-CN": "强化锈铁残翼，第一波攻击与追加攻击造成的魔法伤害提升为攻击力×1790%。"
         },
         "equipment_rarity_flags": 512,
@@ -985,6 +1006,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription1170031]",
           "descriptions": {
+            "ja-JP": "私の命を延ばす為に、博士がくれた呪いの力は、今もかすかな光で私を守っている。バトル開始時攻撃力が高い味方3体に1ターンの間『沈黙無効』を付与する。",
             "zh-CN": "博士为了让我延续生命而给我的诅咒之力，至今还散发着微弱的光芒守护我。战斗开始时，A.A.使攻击力最高的3名友军获得「沉默免疫」，效果持续1回合。"
           },
           "equipment_rarity_flags": 0,
@@ -999,6 +1021,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription1170032]",
           "descriptions": {
+            "ja-JP": "さらに1、11、21、31ターン目のターン開始時攻撃力が最も高い味方に、1ターンの間ステータス増減前の対象の最大HP×30%の『シールド』を付与する（解除不可）。『シールド』を付与する効果は自身が戦闘不能の場合でも発動する。",
             "zh-CN": "第1、11、21、31回合开始时，A.A.使攻击力最高的友军额外获得「护盾」，「护盾」值为状态效果生效前的附加目标最大生命值×30%，效果持续1回合（无法被解除）。失去战斗能力仍可触发「护盾」附加效果。"
           },
           "equipment_rarity_flags": 0,
@@ -1013,6 +1036,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription1170033]",
           "descriptions": {
+            "ja-JP": "さらに味方編成内で同じ属性の味方の編成数が3体以上の場合、『シールド』を付与する対象が攻撃力が高い味方3体になる。",
             "zh-CN": "如果队伍中属性相同的友军达3名以上，「护盾」的附加目标增加为攻击力最高的3名友军。"
           },
           "equipment_rarity_flags": 0,
@@ -1027,6 +1051,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription1170034]",
           "descriptions": {
+            "ja-JP": "天使の残光を強化する。『シールド』の大きさがステータス増減前の対象の最大HP×100%になる。",
             "zh-CN": "强化天使余晖，「护盾」值提升为状态效果生效前的附加目标最大生命值×100%。"
           },
           "equipment_rarity_flags": 256,
@@ -1146,6 +1171,7 @@
       },
       "name_key": "[PassiveSkillName117003]",
       "names": {
+        "ja-JP": "天使の残光",
         "zh-CN": "天使余晖"
       },
       "source_memo_ja": "制服A.A.SR:Lv1 私の命を延ばす為に、博士がくれた呪いの力は、今もかすかな光で私を守っている。バトル開始時攻撃力が高い味方3体に1ターンの間『沈黙無効』を付与する。/ Lv2 さらに1、11、21、31ターン目のターン開始時攻撃力が最も高い味方に、1ターンの間ステータス増減前の対象の最大HP×30%の『シールド』を付与する（解除不可）。『シールド』を付与する効果は自身が戦闘不能の場合でも発動する。/ Lv3 さらに味方編成内で同じ属性の味方の編成数が3体以上の場合、『シールド』を付与する対象が攻撃力が高い味方3体になる。/ Ex2 天使の残光を強化する。『シールド』の大きさがステータス増減前の対象の最大HP×100%になる。",
@@ -1177,6 +1203,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription1170041]",
           "descriptions": {
+            "ja-JP": "それは呪われた力でも、奇跡の力でもない。博士と妹が私にくれた、ありふれた人の力。自身が攻撃を受けたとき、ダメージを20%遮断する。",
             "zh-CN": "这股力量不是诅咒，也并非奇迹。是博士和妹妹给我的——属于平凡人类的力量。当A.A.受到攻击时，阻绝20%伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -1191,6 +1218,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription1170042]",
           "descriptions": {
+            "ja-JP": "ダメージの遮断量が40%になる。",
             "zh-CN": "伤害阻绝量提升为40%。"
           },
           "equipment_rarity_flags": 0,
@@ -1205,6 +1233,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription1170043]",
           "descriptions": {
+            "ja-JP": "ダメージの遮断量が60%になる。さらに4ターン目のターン終了時まで、ダメージの遮断量が80%になる。",
             "zh-CN": "伤害阻绝量提升为60%。第4回合结束前的伤害阻绝量额外提升为80%。"
           },
           "equipment_rarity_flags": 0,
@@ -1273,6 +1302,7 @@
       },
       "name_key": "[PassiveSkillName117004]",
       "names": {
+        "ja-JP": "星に願いを",
         "zh-CN": "向星星许愿"
       },
       "source_memo_ja": "制服A.A.SR:Lv1 それは呪われた力でも、奇跡の力でもない。博士と妹が私にくれた、ありふれた人の力。自身が攻撃を受けたとき、ダメージを20%遮断する。/ Lv2 ダメージの遮断量が40%になる。/ Lv3 ダメージの遮断量が60%になる。さらに4ターン目のターン終了時まで、ダメージの遮断量が80%になる。",
@@ -1328,6 +1358,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

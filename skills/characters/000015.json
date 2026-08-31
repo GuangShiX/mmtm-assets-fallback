@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription150011]",
           "descriptions": {
+            "ja-JP": "稲妻の如く青く光るレイピアで連撃を繰り出し、ランダムな敵に5回攻撃力×390%の物理攻撃を行う。「一瞬の躊躇いが命とりだ！」相手のスキを見逃さず一気にたたみかける。クリティカルヒットした場合、以降の連撃は必ずクリティカルヒットする。",
             "zh-CN": "萨宾娜快如闪电的刺剑连击闪耀着苍蓝的剑光，随机对敌人进行5次攻击，每次造成攻击力×390%的物理伤害。“一瞬间的迟疑足以要了你的命！”萨宾娜抓住破绽，不给对手喘息的机会。当技能暴击时，后续的连击必定暴击。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription150012]",
           "descriptions": {
+            "ja-JP": "さらにクリティカルヒットが4回以上発生した場合、2ターンの間自身の防御力が70%増加する。",
             "zh-CN": "当暴击次数达4次以上时，萨宾娜使自己额外增加70%防御力，效果持续2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription150013]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×420%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×420%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription150014]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription150014]",
             "zh-CN": "[ActiveSkillDescription150014]"
           },
           "equipment_rarity_flags": 128,
@@ -64,6 +68,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription150015]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription150015]",
             "zh-CN": "[ActiveSkillDescription150015]"
           },
           "equipment_rarity_flags": 256,
@@ -162,6 +167,7 @@
       "max_cooldown": 5,
       "name_key": "[ActiveSkillName15001]",
       "names": {
+        "ja-JP": "蒼穹の輪舞",
         "zh-CN": "苍穹之圆舞"
       },
       "source_memo_ja": "サブリナSR: /Lv1　稲妻の如く青く光るレイピアで連撃を繰り出し、ランダムな敵に5回攻撃力×390%の物理攻撃を行う。「一瞬の躊躇いが命とりだ！」相手のスキを見逃さず一気にたたみかける。クリティカルヒットした場合、以降の連撃は必ずクリティカルヒットする。　/Lv2 クリティカルヒットが4回以上発生した場合、2ターンの間自身の防御力が70％増加する。　/Lv3 物理攻撃のダメージが攻撃力×420%になる。　/専用1 蒼穹の輪舞を強化する。クリティカルヒットが4回以上発生した場合、さらに自身に2ターンの間『気絶返し』を付与するようになる。攻撃を受けたとき30％の確率で、攻撃してきた敵に2ターンの間『気絶』を付与するようになる。　/専用2 蒼穹の輪舞を強化する。物理攻撃の回数が7回になる。",
@@ -191,6 +197,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription150021]",
           "descriptions": {
+            "ja-JP": "「奮い立て、一切の迷いを捨てろ！」戦士の気迫が、相手の戦意を喪失させる。ランダムな敵に3回攻撃力×420%の物理攻撃を行い、30%の確率で1ターンの間対象のスピードを10%減少させる。対象が『スピード減少』を付帯している場合、物理攻撃のダメージが1.5倍になる。",
             "zh-CN": "“奋勇向前，抛开所有迷惘吧！”萨宾娜身上的战士气魄令对手丧失斗志。随机对敌人进行3次攻击，每次造成攻击力×420%的物理伤害，30%概率使技能目标减少10%速度，效果持续1回合。当技能目标身上附带「速度下降」状态时，造成的物理伤害增加为1.5倍。"
           },
           "equipment_rarity_flags": 0,
@@ -205,6 +212,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription150022]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×480%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×480%。"
           },
           "equipment_rarity_flags": 0,
@@ -219,6 +227,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription150023]",
           "descriptions": {
+            "ja-JP": "スピードの減少量が15%になる。",
             "zh-CN": "速度降幅提升为15%。"
           },
           "equipment_rarity_flags": 0,
@@ -233,6 +242,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription150024]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×520%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×520%。"
           },
           "equipment_rarity_flags": 0,
@@ -247,6 +257,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription150025]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription150025]",
             "zh-CN": "[ActiveSkillDescription150025]"
           },
           "equipment_rarity_flags": 512,
@@ -330,6 +341,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName15002]",
       "names": {
+        "ja-JP": "群青の乱舞",
         "zh-CN": "蔚蓝之乱舞"
       },
       "source_memo_ja": "サブリナSR: /Lv1　「奮い立て、一切の迷いを捨てろ！」戦士の気迫が、相手の戦意を喪失させる。ランダムな敵に3回攻撃力×420％の物理攻撃を行い、30%の確率で1ターンの間対象のスピードを10％減少させる。対象が『スピード減少』を付帯している場合、物理攻撃のダメージが1.5倍になる。　/Lv2 物理攻撃のダメージが攻撃力×480%になる。　/Lv3 スピードの減少量が15％になる。　/Lv4 物理攻撃のダメージが攻撃力×520%になる。対象が『スピード減少』を付帯している場合に与えるダメージが攻撃力×780%になる。　/専用3 群青の乱舞を強化する。物理攻撃の回数が4回になる。",
@@ -786,6 +798,7 @@
       },
       "name_key": "[CharacterCollectionName5]",
       "names": {
+        "ja-JP": "モノケロスの咆哮",
         "zh-CN": "独角兽座的咆哮"
       },
       "required_character_ids": [
@@ -798,24 +811,28 @@
         {
           "id": 15,
           "names": {
+            "ja-JP": "サブリナ",
             "zh-CN": "萨宾娜"
           }
         },
         {
           "id": 17,
           "names": {
+            "ja-JP": "アモール",
             "zh-CN": "爱沐尔"
           }
         },
         {
           "id": 25,
           "names": {
+            "ja-JP": "アイビー",
             "zh-CN": "艾薇"
           }
         },
         {
           "id": 28,
           "names": {
+            "ja-JP": "ニーナ",
             "zh-CN": "妮娜"
           }
         }
@@ -1261,6 +1278,7 @@
       },
       "name_key": "[CharacterCollectionName20]",
       "names": {
+        "ja-JP": "デルフィヌスの青旗",
         "zh-CN": "海豚座的蓝旗"
       },
       "required_character_ids": [
@@ -1271,12 +1289,14 @@
         {
           "id": 70,
           "names": {
+            "ja-JP": "サブリナ",
             "zh-CN": "萨宾娜"
           }
         },
         {
           "id": 15,
           "names": {
+            "ja-JP": "サブリナ",
             "zh-CN": "萨宾娜"
           }
         }
@@ -1714,6 +1734,7 @@
       },
       "name_key": "[CharacterCollectionName45]",
       "names": {
+        "ja-JP": "エリダヌスの神託",
         "zh-CN": "波江座的神谕"
       },
       "required_character_ids": [
@@ -1724,12 +1745,14 @@
         {
           "id": 75,
           "names": {
+            "ja-JP": "モルガナ",
             "zh-CN": "摩嘉娜"
           }
         },
         {
           "id": 15,
           "names": {
+            "ja-JP": "サブリナ",
             "zh-CN": "萨宾娜"
           }
         }
@@ -1799,12 +1822,14 @@
     "memo": "サブリナ",
     "name_key": "[CharacterName15]",
     "names": {
+      "ja-JP": "サブリナ",
       "zh-CN": "萨宾娜"
     },
     "speed": 2966,
     "start_time_jst": "2020-01-01 00:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -1879,6 +1904,7 @@
     },
     "name_key": "[EquipmentName237]",
     "names": {
+      "ja-JP": "リヴィエール",
       "zh-CN": "瑞拜尔之剑"
     },
     "passive_effects": [
@@ -1912,6 +1938,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill15Description1]",
         "descriptions": {
+          "ja-JP": "蒼穹の輪舞を強化する。クリティカルヒットが4回以上発生した場合、さらに自身に2ターンの間『気絶返し』を付与するようになる。攻撃を受けたとき30%の確率で、攻撃してきた敵に2ターンの間『気絶』を付与するようになる。",
           "zh-CN": "强化苍穹之圆舞，当暴击次数达4次以上时，萨宾娜额外获得「晕厥反击」，效果持续2回合。当她受到攻击时，30%概率对发动攻击的敌人附加「晕厥」状态，效果持续2回合。"
         },
         "equipment_rarity_flags": 128,
@@ -1920,6 +1947,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill15Description2]",
         "descriptions": {
+          "ja-JP": "蒼穹の輪舞を強化する。物理攻撃の回数が7回になる。",
           "zh-CN": "强化苍穹之圆舞，攻击次数增加为7次。"
         },
         "equipment_rarity_flags": 256,
@@ -1928,6 +1956,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill15Description3]",
         "descriptions": {
+          "ja-JP": "群青の乱舞を強化する。物理攻撃の回数が4回になる。",
           "zh-CN": "强化蔚蓝之乱舞，攻击次数增加为4次。"
         },
         "equipment_rarity_flags": 512,
@@ -1948,6 +1977,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription150031]",
           "descriptions": {
+            "ja-JP": "「勇を示せ！」自分自身に喝をいれ、ターン開始時自身が弱体効果を付帯している場合、自身の弱体効果を1つ解除する。このスキルは発動後4回行動終了するまで再び発動しない。",
             "zh-CN": "“展现勇气吧！”萨宾娜喝斥自己，回合开始时，如果萨宾娜身上附带弱化效果，触发技能解除自己身上的1种弱化效果。此技能须在结束4次行动后才可再次触发。"
           },
           "equipment_rarity_flags": 0,
@@ -1962,6 +1992,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription150032]",
           "descriptions": {
+            "ja-JP": "弱体効果の解除数が全てになる。",
             "zh-CN": "解除所有弱化效果。"
           },
           "equipment_rarity_flags": 0,
@@ -1976,6 +2007,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription150033]",
           "descriptions": {
+            "ja-JP": "さらに自身に2ターンの間『行動阻害無効』を付与する（解除不可）。",
             "zh-CN": "额外获得「控制效果免疫」，效果持续2回合（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -2044,6 +2076,7 @@
       },
       "name_key": "[PassiveSkillName15003]",
       "names": {
+        "ja-JP": "ブレイブ・アライブ",
         "zh-CN": "生之勇气"
       },
       "source_memo_ja": "サブリナSR: /Lv1　「勇を示せ！」自分自身に喝をいれ、ターン開始時自身が弱体効果を付帯している場合、自身の弱体効果を1つ解除する。このスキルは4ターンに1回発動する。　/Lv2 弱体効果解除量が全てになる。　/Lv3 さらに自身に2ターンの間『行動阻害無効』を付与する（解除不可）。",
@@ -2071,6 +2104,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription150041]",
           "descriptions": {
+            "ja-JP": "母の愛と、幼き頃の夢が、生きる力となる。毎ターン開始時自身の最大HPが3%増加する（最大20スタックまで）（解除不可）。",
             "zh-CN": "母亲的爱与儿时的梦想，化作萨宾娜活下去的力量，使她在每回合开始时增加3%最大生命值（最多叠加20层）（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -2085,6 +2119,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription150042]",
           "descriptions": {
+            "ja-JP": "最大HPの増加量が5%になる。",
             "zh-CN": "最大生命值增幅提升为5%。"
           },
           "equipment_rarity_flags": 0,
@@ -2099,6 +2134,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription150043]",
           "descriptions": {
+            "ja-JP": "最大HPの増加量が7%になる。",
             "zh-CN": "最大生命值增幅提升为7%。"
           },
           "equipment_rarity_flags": 0,
@@ -2167,6 +2203,7 @@
       },
       "name_key": "[PassiveSkillName15004]",
       "names": {
+        "ja-JP": "夢翔の愛",
         "zh-CN": "翱翔的梦与爱"
       },
       "source_memo_ja": "サブリナSR: /Lv1　母の愛と、幼き頃の夢が、生きる力となる。毎ターン開始時自身の最大HPが3％増加する（最大20回まで）（解除不可）。　/Lv2 最大HPの増加量が5％になる。　/Lv3 最大HPの増加量が7％になる。",
@@ -2222,6 +2259,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription750011]",
           "descriptions": {
+            "ja-JP": "呼び出された黒き疾風が戦場を薙ぎ払う。自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵に5回攻撃力×320%の魔法攻撃を行う。",
             "zh-CN": "摩嘉娜召唤黑色疾风横扫战场，使自己受到当前生命值×20%的自损伤害，随机对敌人进行5次攻击，每次造成攻击力×320%的魔法伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription750012]",
           "descriptions": {
+            "ja-JP": "さらに自身が奮起する心で付与した『攻撃力増加』のスタック数が2以上の場合、自身のHPをこのスキルの総与ダメージ×10%回復する。",
             "zh-CN": "如果摩嘉娜身上附带奋起之心附加的「攻击力上升」状态，且叠加数为2层以上时，使自己额外恢复技能总伤害×10%的生命值。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription750013]",
           "descriptions": {
+            "ja-JP": "さらに攻撃するたび50%の確率で2ターンの間対象の被回復量を20%減少させる。",
             "zh-CN": "每次攻击之后，50%概率使技能目标额外减少20%回血量，效果持续2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription750014]",
           "descriptions": {
+            "ja-JP": "プラハーンを強化する。魔法攻撃のダメージが攻撃力×420%になる。",
             "zh-CN": "强化黑鸦葬歌，造成的魔法伤害提升为攻击力×420%。"
           },
           "equipment_rarity_flags": 128,
@@ -141,6 +145,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName75001]",
       "names": {
+        "ja-JP": "プラハーン",
         "zh-CN": "黑鸦葬歌"
       },
       "source_memo_ja": "モルガナSR:Lv1 呼び出された黒き疾風が戦場を薙ぎ払う。自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵に5回攻撃力×320%の魔法攻撃を行う。/ Lv2 さらに自身が奮起する心で付与した『攻撃力増加』のスタック数が2以上の場合、自身のHPをこのスキルの総与ダメージ×10%回復する。/ Lv3 さらに攻撃するたび50%の確率で2ターンの間対象の被回復量を20%減少させる。/ Ex1 プラハーンを強化する。魔法攻撃のダメージが攻撃力×420%になる。",
@@ -174,6 +179,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription750021]",
           "descriptions": {
+            "ja-JP": "呼び出された赤き槍が敵を狙い穿つ。自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵に2回攻撃力×420%の魔法攻撃を行う。",
             "zh-CN": "摩嘉娜召唤鲜红长矛贯穿敌人，使自己受到当前生命值×20%的自损伤害，随机对敌人进行2次攻击，每次造成攻击力×420%的魔法伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -188,6 +194,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription750022]",
           "descriptions": {
+            "ja-JP": "魔法攻撃の回数が3回になる。",
             "zh-CN": "攻击次数增加为3次。"
           },
           "equipment_rarity_flags": 0,
@@ -202,6 +209,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription750023]",
           "descriptions": {
+            "ja-JP": "さらに自身が奮起する心で付与した『攻撃力増加』のスタック数1つにつき攻撃回数が1回多くなる（合計で最大7回まで）。",
             "zh-CN": "摩嘉娜身上每附带1层奋起之心附加的「攻击力上升」状态，攻击次数额外增加1次（合计最多7连击）。"
           },
           "equipment_rarity_flags": 0,
@@ -216,6 +224,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription750024]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×520%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×520%。"
           },
           "equipment_rarity_flags": 0,
@@ -230,6 +239,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription750025]",
           "descriptions": {
+            "ja-JP": "ボーヤルグを強化する。魔法攻撃のダメージが攻撃力×580%になる。",
             "zh-CN": "强化赤角之矛，造成的魔法伤害提升为攻击力×580%。"
           },
           "equipment_rarity_flags": 512,
@@ -331,6 +341,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName75002]",
       "names": {
+        "ja-JP": "ボーヤルグ",
         "zh-CN": "赤角之矛"
       },
       "source_memo_ja": "モルガナSR:Lv1 呼び出された赤き槍が敵を狙い穿つ。自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵に2回攻撃力×420%の魔法攻撃を行う。/ Lv2 魔法攻撃の回数が3回になる。/ Lv3 さらに自身が奮起する心で付与した『攻撃力増加』のスタック数1つにつき攻撃回数が1回多くなる（合計で最大7回まで）。/ Lv4 魔法攻撃のダメージが攻撃力×520%になる。/ Ex3 ボーヤルグを強化する。魔法攻撃のダメージが攻撃力×580%になる。",
@@ -789,6 +800,7 @@
       },
       "name_key": "[CharacterCollectionName45]",
       "names": {
+        "ja-JP": "エリダヌスの神託",
         "zh-CN": "波江座的神谕"
       },
       "required_character_ids": [
@@ -799,12 +811,14 @@
         {
           "id": 75,
           "names": {
+            "ja-JP": "モルガナ",
             "zh-CN": "摩嘉娜"
           }
         },
         {
           "id": 15,
           "names": {
+            "ja-JP": "サブリナ",
             "zh-CN": "萨宾娜"
           }
         }
@@ -1242,6 +1256,7 @@
       },
       "name_key": "[CharacterCollectionName65]",
       "names": {
+        "ja-JP": "リゲルの審判​",
         "zh-CN": "巨人星的审判"
       },
       "required_character_ids": [
@@ -1252,12 +1267,14 @@
         {
           "id": 93,
           "names": {
+            "ja-JP": "アルトリア",
             "zh-CN": "阿尔托莉亚"
           }
         },
         {
           "id": 75,
           "names": {
+            "ja-JP": "モルガナ",
             "zh-CN": "摩嘉娜"
           }
         }
@@ -1696,6 +1713,7 @@
       },
       "name_key": "[CharacterCollectionName87]",
       "names": {
+        "ja-JP": "アケルナルの神童​",
         "zh-CN": "河尾星的神童"
       },
       "required_character_ids": [
@@ -1707,18 +1725,21 @@
         {
           "id": 135,
           "names": {
+            "ja-JP": "メルラン",
             "zh-CN": "梅尔林"
           }
         },
         {
           "id": 93,
           "names": {
+            "ja-JP": "アルトリア",
             "zh-CN": "阿尔托莉亚"
           }
         },
         {
           "id": 75,
           "names": {
+            "ja-JP": "モルガナ",
             "zh-CN": "摩嘉娜"
           }
         }
@@ -1788,12 +1809,14 @@
     "memo": "モルガナ",
     "name_key": "[CharacterName75]",
     "names": {
+      "ja-JP": "モルガナ",
       "zh-CN": "摩嘉娜"
     },
     "speed": 2715,
     "start_time_jst": "2024-04-15 15:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -1868,6 +1891,7 @@
     },
     "name_key": "[EquipmentName549]",
     "names": {
+      "ja-JP": "アインジールの魔導書",
       "zh-CN": "天使魔导书"
     },
     "passive_effects": [
@@ -1901,6 +1925,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill75Description1]",
         "descriptions": {
+          "ja-JP": "プラハーンを強化する。魔法攻撃のダメージが攻撃力×420%になる。",
           "zh-CN": "强化黑鸦葬歌，造成的魔法伤害提升为攻击力×420%。"
         },
         "equipment_rarity_flags": 128,
@@ -1909,6 +1934,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill75Description2]",
         "descriptions": {
+          "ja-JP": "絆の力を強化する。『シールド』の大きさが自身の攻撃力×200%になる。1ターン目のターン開始時の自身以外の紅属性の味方の生存数1体につき『シールド』の大きさが自身の攻撃力×200%大きくなる（合計で最大1000%まで）。",
           "zh-CN": "强化团结的力量，「护盾」值提升为攻击力×200%。第1回合开始时每名存活在场上的其他业红属性友军，再使「护盾」值提升攻击力×200%（合计最多1000%）。"
         },
         "equipment_rarity_flags": 256,
@@ -1917,6 +1943,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill75Description3]",
         "descriptions": {
+          "ja-JP": "ボーヤルグを強化する。魔法攻撃のダメージが攻撃力×580%になる。",
           "zh-CN": "强化赤角之矛，造成的魔法伤害提升为攻击力×580%。"
         },
         "equipment_rarity_flags": 512,
@@ -1937,6 +1964,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription750031]",
           "descriptions": {
+            "ja-JP": "仲間を想う優しい心が、彼女に戦う勇気を与える。自身か味方が自傷ダメージを受けた場合、自身に攻撃力が10%増加するバフを付与する（解除不可）。自傷ダメージを受けた回数1回につきスタック数が1増加する（最大4スタックまで）。",
             "zh-CN": "摩嘉娜对同伴的关心，带给她奋勇作战的勇气。当摩嘉娜或友军受到自损伤害时，摩嘉娜获得1层增益效果，使自己增加10%攻击力（无法被解除）。每次受到自损伤害使增益效果的叠加数增加1层（最多4层）。"
           },
           "equipment_rarity_flags": 0,
@@ -1951,6 +1979,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription750032]",
           "descriptions": {
+            "ja-JP": "さらにバトル開始時自身の物理防御力が25%増加する（解除不可）。",
             "zh-CN": "战斗开始时，摩嘉娜额外增加25%物理防御力（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1965,6 +1994,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription750033]",
           "descriptions": {
+            "ja-JP": "物理防御力の増加量が50%になる。",
             "zh-CN": "物理防御力增幅提升为50%。"
           },
           "equipment_rarity_flags": 0,
@@ -2068,6 +2098,7 @@
       },
       "name_key": "[PassiveSkillName75003]",
       "names": {
+        "ja-JP": "奮起する心",
         "zh-CN": "奋起之心"
       },
       "source_memo_ja": "モルガナSR:Lv1 仲間を想う優しい心が、彼女に戦う勇気を与える。自身か味方が自傷ダメージを受けた場合、自身に攻撃力が10%増加するバフを1回付与する（最大4回まで）（解除不可）。/ Lv2 さらにバトル開始時自身の物理防御力が25%増加する（解除不可）。/ Lv3 物理防御力の増加量が50%になる。",
@@ -2095,6 +2126,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription750041]",
           "descriptions": {
+            "ja-JP": "「人と人との絆こそが、悪魔に対抗できる唯一の力なの！」バトル開始時自身の攻撃力を5%増加させる（解除不可）。バトル開始時の自身以外の紅属性の味方の生存数1体につき攻撃力の増加量が5%大きくなる（合計で最大25%まで）。",
             "zh-CN": "“团结合作是人类对抗恶魔的唯一力量！”战斗开始时，摩嘉娜使自己增加5%攻击力（无法被解除）。战斗开始时每名存活在场上的其他业红属性友军，再使攻击力增幅提升5%（合计最多25%）。"
           },
           "equipment_rarity_flags": 0,
@@ -2109,6 +2141,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription750042]",
           "descriptions": {
+            "ja-JP": "さらに1ターン目のターン開始時自身に6ターンの間自身の攻撃力×100%の『シールド』を付与する（解除不可）。1ターン目のターン開始時の自身以外の紅属性の味方の生存数1体につき『シールド』の大きさが自身の攻撃力×100%大きくなる（合計で最大500%まで）。",
             "zh-CN": "第1回合开始时，摩嘉娜额外获得攻击力×100%的「护盾」，效果持续6回合（无法被解除）。战斗开始时每名存活在场上的其他业红属性友军，再使「护盾」值提升攻击力×100%（合计最多500%）。"
           },
           "equipment_rarity_flags": 0,
@@ -2123,6 +2156,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription750043]",
           "descriptions": {
+            "ja-JP": "攻撃力の増加量が10%になる。バトル開始時の自身以外の紅属性の味方の生存数1体につき攻撃力の増加量が10%大きくなる（合計で最大50%まで）。",
             "zh-CN": "攻击力增幅提升为10%。战斗开始时每名存活在场上的其他业红属性友军，再使攻击力增幅提升10%（合计最多50%）。"
           },
           "equipment_rarity_flags": 0,
@@ -2137,6 +2171,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription750044]",
           "descriptions": {
+            "ja-JP": "絆の力を強化する。『シールド』の大きさが自身の攻撃力×200%になる。1ターン目のターン開始時の自身以外の紅属性の味方の生存数1体につき『シールド』の大きさが自身の攻撃力×200%大きくなる（合計で最大1000%まで）。",
             "zh-CN": "强化团结的力量，「护盾」值提升为攻击力×200%。第1回合开始时每名存活在场上的其他业红属性友军，再使「护盾」值提升攻击力×200%（合计最多1000%）。"
           },
           "equipment_rarity_flags": 256,
@@ -2242,6 +2277,7 @@
       },
       "name_key": "[PassiveSkillName75004]",
       "names": {
+        "ja-JP": "絆の力",
         "zh-CN": "团结的力量"
       },
       "source_memo_ja": "モルガナSR:Lv1 「人と人との絆こそが、悪魔に対抗できる唯一の力なの！」バトル開始時自身の攻撃力を5%増加させる（解除不可）。バトル開始時の自身以外の紅属性の味方の数1体につき攻撃力の増加量が5%大きくなる（合計で最大25%まで）。/ Lv2 さらにバトル開始時自身に6ターンの間自身の攻撃力×100%の『シールド』を付与する（解除不可）。バトル開始時の自身以外の紅属性の味方の数1体につき『シールド』の大きさが自身の攻撃力×100%大きくなる（合計で最大500%まで）。/ Lv3 攻撃力の増加量が10%になる。バトル開始時の自身以外の紅属性の味方の数1体につき攻撃力の増加量が10%大きくなる（合計で最大50%まで）。/ Ex2 絆の力を強化する。シールドの大きさが自身の攻撃力×200%になる。バトル開始時の自身以外の紅属性の味方の数1体につき『シールド』の大きさが自身の攻撃力×200%大きくなる（合計で最大1000%まで）。",
@@ -2301,6 +2337,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

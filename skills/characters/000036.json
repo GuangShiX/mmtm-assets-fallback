@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription360011]",
           "descriptions": {
+            "ja-JP": "複数のナイフが敵を囲む。狙いは誰か、どのナイフが本物かは、受けてみないと分からない。ランダムな敵5体に攻撃力×260%の魔法攻撃を行う。弱点を見抜く詐欺師の眼力で、このスキルを発動するたび魔法攻撃のダメージが攻撃力×70%ずつ大きくなる。",
             "zh-CN": "托波波用无数飞刀将敌人团团包围。哪把是真刀？哪把是假刀？谁是被锁定的目标？这要亲自挨一刀才知道。随机对5名敌人造成攻击力×260%的魔法伤害。骗术师的眼力能看穿对方的弱点，每次发动骗术师之刺，可使技能造成的魔法伤害增加攻击力×70%。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription360012]",
           "descriptions": {
+            "ja-JP": "さらに自身のHPをこのスキルの総与ダメージ×20%回復する。",
             "zh-CN": "额外恢复技能总伤害×20%的生命值。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription360013]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×310%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×310%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription360014]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription360014]",
             "zh-CN": "[ActiveSkillDescription360014]"
           },
           "equipment_rarity_flags": 128,
@@ -64,6 +68,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription360015]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription360015]",
             "zh-CN": "[ActiveSkillDescription360015]"
           },
           "equipment_rarity_flags": 256,
@@ -75,6 +80,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription360016]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription360016]",
             "zh-CN": "[ActiveSkillDescription360016]"
           },
           "equipment_rarity_flags": 512,
@@ -162,6 +168,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName36001]",
       "names": {
+        "ja-JP": "ライアースティング",
         "zh-CN": "骗术师之刺"
       },
       "source_memo_ja": "トロポンSR: /Lv1　複数のナイフが敵を囲む。狙いは誰か、どのナイフが本物かは、受けてみないと分からない。ランダムな敵5体に攻撃力×260%の魔法攻撃を行う。弱点を見抜く詐欺師の眼力で、このスキルを使うたび魔法攻撃のダメージが攻撃力×70%ずつ大きくなる。　/Lv2 さらに自身のHPをこのスキルの総与ダメージ×20％回復する。　/Lv3 魔法攻撃のダメージが攻撃力×310%になる。　/専用1 ライアースティングを強化する。さらに30%の確率で敵のHPドレインを2ターンの間30％減少させる。　/専用2 ライアースティングを強化する。魔法攻撃のダメージが攻撃力×340%になる。　/専用3 ライアースティングを強化する。『HPドレイン減少』を付与する確率が60％になる。",
@@ -191,6 +198,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription360021]",
           "descriptions": {
+            "ja-JP": "詐欺師は欺いてこそ。ランダムな敵5体に攻撃力×270%の魔法攻撃を行い、影から飛び出した隠れたナイフが、ランダムな敵1体に自身の魔力×260%の直接攻撃を行う。",
             "zh-CN": "我骗故我在，托波波随机对5名敌人造成攻击力×270%的魔法伤害，再从影子里偷偷射出一把飞刀，随机对1名敌人追加托波波魔力×260%的直接伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -205,6 +213,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription360022]",
           "descriptions": {
+            "ja-JP": "さらにこのスキルで敵を戦闘不能にした場合、自身が付帯しているバフ全てのターン数を2増加させる。",
             "zh-CN": "如果技能目标失去战斗能力，托波波身上的所有增益效果额外增加2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -219,6 +228,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription360023]",
           "descriptions": {
+            "ja-JP": "直接攻撃のダメージが自身の魔力×320%になる。",
             "zh-CN": "追加的直接伤害提升为托波波魔力×320%。"
           },
           "equipment_rarity_flags": 0,
@@ -233,6 +243,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription360024]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×350%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×350%。"
           },
           "equipment_rarity_flags": 0,
@@ -305,6 +316,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName36002]",
       "names": {
+        "ja-JP": "トリックスター",
         "zh-CN": "诡计大师"
       },
       "source_memo_ja": "トロポンSR: /Lv1　詐欺師は欺いてこそ。ランダムな敵5体に攻撃力×270%の魔法攻撃を行い、影から飛び出した隠れたナイフが、ランダムな敵1体に自身の魔力×260%の直接攻撃を行う。　/Lv2 さらにこのスキルで敵を戦闘不能にした場合、自身が付帯しているバフ全てのターン数を2増加させる。　/Lv3 直接攻撃のダメージが自身の魔力×320%になる。　/Lv4 魔法攻撃のダメージが攻撃力×350%になる。",
@@ -769,6 +781,7 @@
       },
       "name_key": "[CharacterCollectionName6]",
       "names": {
+        "ja-JP": "アンドロメダの戦剣",
         "zh-CN": "仙女座的战剑"
       },
       "required_character_ids": [
@@ -781,24 +794,28 @@
         {
           "id": 36,
           "names": {
+            "ja-JP": "トロポン",
             "zh-CN": "托波波"
           }
         },
         {
           "id": 38,
           "names": {
+            "ja-JP": "オリヴィエ",
             "zh-CN": "奥莉维亚"
           }
         },
         {
           "id": 39,
           "names": {
+            "ja-JP": "プリマヴェーラ",
             "zh-CN": "普莉玛维拉"
           }
         },
         {
           "id": 41,
           "names": {
+            "ja-JP": "ナターシャ",
             "zh-CN": "娜塔夏"
           }
         }
@@ -1244,6 +1261,7 @@
       },
       "name_key": "[CharacterCollectionName15]",
       "names": {
+        "ja-JP": "コルウスの吐息",
         "zh-CN": "乌鸦座的叹息"
       },
       "required_character_ids": [
@@ -1254,12 +1272,14 @@
         {
           "id": 52,
           "names": {
+            "ja-JP": "シヴィ",
             "zh-CN": "希维"
           }
         },
         {
           "id": 36,
           "names": {
+            "ja-JP": "トロポン",
             "zh-CN": "托波波"
           }
         }
@@ -1705,6 +1725,7 @@
       },
       "name_key": "[CharacterCollectionName35]",
       "names": {
+        "ja-JP": "ホロロギウムの奇跡",
         "zh-CN": "时钟座的奇迹"
       },
       "required_character_ids": [
@@ -1715,12 +1736,14 @@
         {
           "id": 74,
           "names": {
+            "ja-JP": "トロポン",
             "zh-CN": "托波波"
           }
         },
         {
           "id": 36,
           "names": {
+            "ja-JP": "トロポン",
             "zh-CN": "托波波"
           }
         }
@@ -2166,6 +2189,7 @@
       },
       "name_key": "[CharacterCollectionName60]",
       "names": {
+        "ja-JP": "レプスの探知",
         "zh-CN": "天兔座的探知"
       },
       "required_character_ids": [
@@ -2176,12 +2200,14 @@
         {
           "id": 106,
           "names": {
+            "ja-JP": "ユリーカ",
             "zh-CN": "尤里卡"
           }
         },
         {
           "id": 36,
           "names": {
+            "ja-JP": "トロポン",
             "zh-CN": "托波波"
           }
         }
@@ -2251,12 +2277,14 @@
     "memo": "トロポン",
     "name_key": "[CharacterName36]",
     "names": {
+      "ja-JP": "トロポン",
       "zh-CN": "托波波"
     },
     "speed": 2657,
     "start_time_jst": "2020-01-01 00:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -2330,6 +2358,7 @@
     },
     "name_key": "[EquipmentName315]",
     "names": {
+      "ja-JP": "詐欺師の隠し爪",
       "zh-CN": "骗术师的獠牙"
     },
     "passive_effects": [
@@ -2363,6 +2392,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill36Description1]",
         "descriptions": {
+          "ja-JP": "ライアースティングを強化する。さらに30%の確率で敵のHPドレインを2ターンの間30%減少させる。",
           "zh-CN": "强化骗术师之刺，30%概率使敌人额外减少30%吸血，效果持续2回合。"
         },
         "equipment_rarity_flags": 128,
@@ -2371,6 +2401,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill36Description2]",
         "descriptions": {
+          "ja-JP": "ライアースティングを強化する。魔法攻撃のダメージが攻撃力×340%になる。",
           "zh-CN": "强化骗术师之刺，造成的魔法伤害提升为攻击力×340%。"
         },
         "equipment_rarity_flags": 256,
@@ -2379,6 +2410,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill36Description3]",
         "descriptions": {
+          "ja-JP": "ライアースティングを強化する。『HPドレイン減少』を付与する確率が60%になる。",
           "zh-CN": "强化骗术师之刺，附加「吸血效果下降」状态的概率提升为60%。"
         },
         "equipment_rarity_flags": 512,
@@ -2399,6 +2431,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription360031]",
           "descriptions": {
+            "ja-JP": "哀しい現実を包み込む優しい嘘で、自身の最大HPが20%増加する（解除不可）。",
             "zh-CN": "托波波用善意的谎言包装悲哀的现实，使自己增加20%最大生命值（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -2413,6 +2446,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription360032]",
           "descriptions": {
+            "ja-JP": "最大HPの増加量が40%になる。",
             "zh-CN": "最大生命值增幅提升为40%。"
           },
           "equipment_rarity_flags": 0,
@@ -2427,6 +2461,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription360033]",
           "descriptions": {
+            "ja-JP": "さらに自身のスピードが20%増加する（解除不可）。",
             "zh-CN": "额外增加20%速度（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -2502,6 +2537,7 @@
       },
       "name_key": "[PassiveSkillName36003]",
       "names": {
+        "ja-JP": "優しい詐欺師",
         "zh-CN": "善良的骗术师"
       },
       "source_memo_ja": "トロポンSR: /Lv1　哀しい現実を包み込む優しい嘘で、自身の最大HPが20％増加する（解除不可）。　/Lv2 最大HPの増加量が40％になる。　/Lv3 さらに自身のスピードが20％増加する（解除不可）。",
@@ -2529,6 +2565,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription360041]",
           "descriptions": {
+            "ja-JP": "詐欺師は盗んだ瞬間すら気取らせない。その手際はまるで魔法のよう──。自身がクリティカルヒットを受けた場合、75%の確率で攻撃してきた敵のバフを1つ奪取する。",
             "zh-CN": "骗术师出手的瞬间神不知鬼不觉，高超的手法宛如施展魔法。当托波波受到暴击时，75%概率从发动攻击的敌人身上夺取1种增益效果。"
           },
           "equipment_rarity_flags": 0,
@@ -2543,6 +2580,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription360042]",
           "descriptions": {
+            "ja-JP": "さらに自身がクリティカルヒットでない攻撃を受けたとき、自身の弱体効果を1つ解除し、その効果を75%の確率で攻撃してきた敵にコピーする。",
             "zh-CN": "当托波波受到攻击且不是暴击时，额外解除自己身上的1种弱化效果，并以75%概率复制到发动攻击的敌人身上。"
           },
           "equipment_rarity_flags": 0,
@@ -2557,6 +2595,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription360043]",
           "descriptions": {
+            "ja-JP": "敵のバフを奪取する確率と自身の弱体効果を解除して敵にコピーする確率がそれぞれ100%になる。",
             "zh-CN": "夺取增益效果与解除并复制弱化效果的概率提升为100%。"
           },
           "equipment_rarity_flags": 0,
@@ -2625,6 +2664,7 @@
       },
       "name_key": "[PassiveSkillName36004]",
       "names": {
+        "ja-JP": "イリュージョン",
         "zh-CN": "障眼法"
       },
       "source_memo_ja": "トロポンSR: /Lv1　詐欺師は盗んだ瞬間すら気取らせない。その手際はまるで魔法のよう──。自身がクリティカルヒットを受けた場合、75％の確率で攻撃してきた敵のバフを1つ解除し、成功した場合にその効果を自身に付与する。　/Lv2 さらに自身がクリティカルヒットでない攻撃を受けたとき、自身の弱体効果を1つ解除し、その効果を75％の確率で攻撃してきた敵に付与する。　/Lv3 敵のバフを解除して自身に付与する確率と自身の弱体効果を解除して敵に付与する確率がそれぞれ100％になる。",
@@ -2680,6 +2720,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

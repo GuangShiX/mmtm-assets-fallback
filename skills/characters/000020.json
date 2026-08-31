@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription200011]",
           "descriptions": {
+            "ja-JP": "相手の急所を的確に見抜いて撃ち抜く。ランダムな敵3体に攻撃力×380%の物理攻撃を行い、3ターンの間『出血』を付与する。毎ターン行動開始時に自身の攻撃力×25%のダメージを与える。",
             "zh-CN": "黛安精准命中对手的要害，随机对3名敌人造成攻击力×380%的物理伤害，并附加「流血」状态，效果持续3回合，每回合行动开始时造成黛安攻击力×25%的伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription200012]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×410%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×410%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription200013]",
           "descriptions": {
+            "ja-JP": "さらに自身に3ターンの間『再生』を付与する。毎ターン行動開始時に自身のHPを最大HP×5%回復する。",
             "zh-CN": "额外获得「再生」状态，效果持续3回合，每回合行动开始时恢复5%最大生命值。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription200014]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription200014]",
             "zh-CN": "[ActiveSkillDescription200014]"
           },
           "equipment_rarity_flags": 128,
@@ -64,6 +68,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription200015]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription200015]",
             "zh-CN": "[ActiveSkillDescription200015]"
           },
           "equipment_rarity_flags": 512,
@@ -139,6 +144,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName20001]",
       "names": {
+        "ja-JP": "貫通弾",
         "zh-CN": "穿甲弹"
       },
       "source_memo_ja": "ディアンSR: /Lv1　相手の急所を的確に見抜いて撃ち抜く。ランダムな敵3体に攻撃力×380％の物理攻撃を行い、3ターンの間『出血』を付与する。毎ターン行動開始時に自身の攻撃力×25％のダメージを与える。　/Lv2 物理攻撃のダメージが攻撃力×410%になる。　/Lv3 さらに自身に3ターンの間『再生』を付与する。毎ターン行動開始時に自身のHPを最大HP×5％回復する。　/専用1 貫通弾を強化する。貫通弾の対象がランダムな敵5体になる。　/専用3 貫通弾を強化する。『出血』と『再生』のターン数がそれぞれ4ターンになる。",
@@ -168,6 +174,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription200021]",
           "descriptions": {
+            "ja-JP": "呪いの獣について調べるうち、自身もまた獣の力を手に入れた。自身のHP割合が40%以上の場合に発動。自身に自身の最大HP×35%の自傷ダメージを与え、ランダムな敵2体に消費したHP×60%の直接攻撃を行う。発動条件を満たさない場合通常攻撃を行う。",
             "zh-CN": "调查诅咒邪兽的过程中，黛安自己也得到了邪兽的力量。当黛安的生命值为40%以上时，可触发被诅咒的子弹，使自己受到最大生命值×35%的自损伤害，并随机对2名敌人造成消耗生命值×60%的直接伤害。当生命值低于技能触发条件时，黛安改为进行普通攻击。"
           },
           "equipment_rarity_flags": 0,
@@ -182,6 +189,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription200022]",
           "descriptions": {
+            "ja-JP": "直接攻撃のダメージが消費したHP×75%になる。",
             "zh-CN": "造成的直接伤害提升为消耗生命值×75%。"
           },
           "equipment_rarity_flags": 0,
@@ -196,6 +204,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription200023]",
           "descriptions": {
+            "ja-JP": "直接攻撃のダメージが消費したHP×85%になる。",
             "zh-CN": "造成的直接伤害提升为消耗生命值×85%。"
           },
           "equipment_rarity_flags": 0,
@@ -210,6 +219,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription200024]",
           "descriptions": {
+            "ja-JP": "直接攻撃のダメージが消費したHP×100%になる。",
             "zh-CN": "造成的直接伤害提升为消耗生命值×100%。"
           },
           "equipment_rarity_flags": 0,
@@ -224,6 +234,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription200025]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription200025]",
             "zh-CN": "[ActiveSkillDescription200025]"
           },
           "equipment_rarity_flags": 256,
@@ -301,6 +312,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName20002]",
       "names": {
+        "ja-JP": "カースドバレット",
         "zh-CN": "被诅咒的子弹"
       },
       "source_memo_ja": "ディアンSR: /Lv1　呪いの獣について調べるうち、自身もまた獣の力を手に入れた。自身のHP割合が40％より大きい場合に発動。自身に自身の最大HP×35％の自傷ダメージを与え、ランダムな敵2体に消費したHP×60％の直接攻撃を行う。発動条件を満たさない場合通常攻撃を行う。　/Lv2 直接攻撃のダメージが消費したHP×75％になる。　/Lv3 直接攻撃のダメージが消費したHP×85％になる。　/Lv4 直接攻撃のダメージが消費したHP×100％になる。　/専用2 カースドバレットを強化する。カースドバレットの対象がランダムな敵3体になる。",
@@ -756,6 +768,7 @@
       },
       "name_key": "[CharacterCollectionName3]",
       "names": {
+        "ja-JP": "ジェミニの庇翼",
         "zh-CN": "双子座的庇翼"
       },
       "required_character_ids": [
@@ -767,18 +780,21 @@
         {
           "id": 16,
           "names": {
+            "ja-JP": "フレイシア",
             "zh-CN": "小苍兰"
           }
         },
         {
           "id": 18,
           "names": {
+            "ja-JP": "リーン",
             "zh-CN": "琳恩"
           }
         },
         {
           "id": 20,
           "names": {
+            "ja-JP": "ディアン",
             "zh-CN": "黛安"
           }
         }
@@ -1216,6 +1232,7 @@
       },
       "name_key": "[CharacterCollectionName19]",
       "names": {
+        "ja-JP": "フェリスの洞察",
         "zh-CN": "猫座的洞察"
       },
       "required_character_ids": [
@@ -1226,12 +1243,14 @@
         {
           "id": 67,
           "names": {
+            "ja-JP": "リシェス",
             "zh-CN": "丽瑟丝"
           }
         },
         {
           "id": 20,
           "names": {
+            "ja-JP": "ディアン",
             "zh-CN": "黛安"
           }
         }
@@ -1669,6 +1688,7 @@
       },
       "name_key": "[CharacterCollectionName32]",
       "names": {
+        "ja-JP": "カマエレオンの制圧",
         "zh-CN": "蝘蜓座的压制"
       },
       "required_character_ids": [
@@ -1679,12 +1699,14 @@
         {
           "id": 68,
           "names": {
+            "ja-JP": "フェーネ",
             "zh-CN": "菲尼"
           }
         },
         {
           "id": 20,
           "names": {
+            "ja-JP": "ディアン",
             "zh-CN": "黛安"
           }
         }
@@ -2122,6 +2144,7 @@
       },
       "name_key": "[CharacterCollectionName43]",
       "names": {
+        "ja-JP": "カプリコルヌスの弾孔",
         "zh-CN": "摩羯座的弹孔"
       },
       "required_character_ids": [
@@ -2132,12 +2155,14 @@
         {
           "id": 59,
           "names": {
+            "ja-JP": "エイル",
             "zh-CN": "埃尔"
           }
         },
         {
           "id": 20,
           "names": {
+            "ja-JP": "ディアン",
             "zh-CN": "黛安"
           }
         }
@@ -2207,12 +2232,14 @@
     "memo": "ディアン",
     "name_key": "[CharacterName20]",
     "names": {
+      "ja-JP": "ディアン",
       "zh-CN": "黛安"
     },
     "speed": 3080,
     "start_time_jst": "2020-01-01 00:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -2287,6 +2314,7 @@
     },
     "name_key": "[EquipmentName267]",
     "names": {
+      "ja-JP": "天使の咆哮",
       "zh-CN": "天使之咆哮"
     },
     "passive_effects": [
@@ -2320,6 +2348,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill20Description1]",
         "descriptions": {
+          "ja-JP": "貫通弾を強化する。貫通弾の対象がランダムな敵5体になる。",
           "zh-CN": "强化穿甲弹，技能目标增加为5名随机敌人。"
         },
         "equipment_rarity_flags": 128,
@@ -2328,6 +2357,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill20Description2]",
         "descriptions": {
+          "ja-JP": "カースドバレットを強化する。カースドバレットの対象がランダムな敵3体になる。",
           "zh-CN": "强化被诅咒的子弹，技能目标增加为3名随机敌人。"
         },
         "equipment_rarity_flags": 256,
@@ -2336,6 +2366,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill20Description3]",
         "descriptions": {
+          "ja-JP": "貫通弾を強化する。『出血』と『再生』のターン数がそれぞれ4ターンになる。",
           "zh-CN": "强化穿甲弹，「流血」与「再生」效果增加为4回合。"
         },
         "equipment_rarity_flags": 512,
@@ -2356,6 +2387,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription200031]",
           "descriptions": {
+            "ja-JP": "心を込めた献身的なサポートで、バトル開始時4ターンの間自身の、3ターンの間攻撃力が最も高い味方の回避率を30%増加させる。",
             "zh-CN": "黛安全心全意为同伴提供支援，战斗开始时，使自己增加30%闪避率，效果持续4回合。再使攻击力最高的友军增加30%闪避率，效果持续3回合。"
           },
           "equipment_rarity_flags": 0,
@@ -2370,6 +2402,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription200032]",
           "descriptions": {
+            "ja-JP": "『回避率増加』のターン数が自身は6ターン、攻撃力が最も高い味方は5ターンになる。",
             "zh-CN": "黛安获得的「闪避率上升」效果增加为6回合，攻击力最高的友军获得的「闪避率上升」效果增加为5回合。"
           },
           "equipment_rarity_flags": 0,
@@ -2384,6 +2417,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription200033]",
           "descriptions": {
+            "ja-JP": "回避率の増加量が50%になる。",
             "zh-CN": "闪避率增幅提升为50%。"
           },
           "equipment_rarity_flags": 0,
@@ -2473,6 +2507,7 @@
       },
       "name_key": "[PassiveSkillName20003]",
       "names": {
+        "ja-JP": "奉仕の精神",
         "zh-CN": "服务精神"
       },
       "source_memo_ja": "ディアンSR: /Lv1　心を込めた献身的なサポートで、バトル開始時4ターンの間自身の、3ターンの間攻撃力が最も高い味方の回避率を30％増加させる。　/Lv2 『回避率増加』のターン数が自身は6ターン、攻撃力が最も高い味方は5ターンになる。　/Lv3 回避率の増加量が50％になる。",
@@ -2500,6 +2535,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription200041]",
           "descriptions": {
+            "ja-JP": "一人でも多くの仲間を救うため、従者は最後まで戦場に残り続ける。自身が攻撃を受けて、HP割合が40%未満になり、味方の生存数が2体以上の場合、自身に『透明』を付与する（解除不可）。『透明』は毎ターン開始時もしくは味方が戦闘不能になったとき、味方の生存数が1体以下の場合解除される。このスキルはバトル中1回のみ発動する。",
             "zh-CN": "为了尽量救护更多同伴，侍从必须在战场上存活到最后一刻。当黛安受到攻击，生命值低于40%且存活在场上的友军数为2名以上时，获得「透明」状态（无法被解除）。在每回合开始时或友军失去战斗能力后，如果存活在场上的友军数为1名以下，解除「透明」状态。此技能每场战斗最多触发1次。"
           },
           "equipment_rarity_flags": 0,
@@ -2514,6 +2550,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription200042]",
           "descriptions": {
+            "ja-JP": "さらに自身の通常攻撃を強化する。通常攻撃時ランダムな敵2体に攻撃力×250%の物理攻撃を行い、50%の確率で対象のバフを1つ解除する。このスキルは毎ターン開始時もしくは味方が戦闘不能になったとき、味方の生存数が1体以下の場合解除される。",
             "zh-CN": "强化黛安的普通攻击，普攻时随机对2名敌人造成攻击力×250%的物理伤害，50%概率解除普攻目标身上的1种增益效果。在每回合开始时或友军失去战斗能力后，如果存活在场上的友军数为1名以下，解除技能效果。"
           },
           "equipment_rarity_flags": 0,
@@ -2528,6 +2565,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription200043]",
           "descriptions": {
+            "ja-JP": "バフ解除の確率が100%になる。",
             "zh-CN": "解除增益效果的概率提升为100%。"
           },
           "equipment_rarity_flags": 0,
@@ -2638,6 +2676,7 @@
       },
       "name_key": "[PassiveSkillName20004]",
       "names": {
+        "ja-JP": "従者の心得",
         "zh-CN": "侍从之道"
       },
       "source_memo_ja": "ディアンSR: /Lv1　一人でも多くの仲間を救うため、従者は最後まで戦場に残り続ける。自身が攻撃を受けて、HP割合が40％未満になり、味方の生存数が2体以上の場合、自身に『透明』を付与する（解除不可）。『透明』は毎ターン開始時、もしくは味方が戦闘不能になったとき、味方の生存数が1体以下の場合解除される。このスキルはバトル中1回のみ発動する。　/Lv2 さらに自身の通常攻撃を強化する。通常攻撃時ランダムな敵2体に攻撃力×250％の物理攻撃を行い、50％の確率で対象のバフを1つ解除する。このスキルは毎ターン開始時、もしくは味方が戦闘不能になったとき、味方の生存数が1体以下の場合解除される。　/Lv3 バフ解除の確率が100％になる。",
@@ -2693,6 +2732,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

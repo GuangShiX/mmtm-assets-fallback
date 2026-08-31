@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription1120011]",
           "descriptions": {
+            "ja-JP": "羽衣を手にしているかのように見紛うほど軽やかな動きだが、その一振りには凄まじい力が宿り、多くの敵を一瞬で薙ぎ払う。自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵に6回攻撃力×220%の物理攻撃を行う。70%の確率で2ターンの間対象のスピードを15%減少させる。",
             "zh-CN": "静的动作轻巧如燕，手中所执仿佛一缕羽衣，挥出的一击却带有万钧之力，转瞬之间横扫众多敌人。静使自己受到当前生命值×20%的自损伤害，并随机对敌人进行6次攻击，每次造成攻击力×220%的物理伤害。70%概率使技能目标减少15%速度，效果持续2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription1120012]",
           "descriptions": {
+            "ja-JP": "スピードの減少量が30%になる。",
             "zh-CN": "速度降幅提升为30%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1120013]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×520%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×520%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1120014]",
           "descriptions": {
+            "ja-JP": "一閃・白羽衣を強化する。物理攻撃の回数が8回になる。",
             "zh-CN": "强化剑光一闪・白羽衣，攻击次数增加为8次。"
           },
           "equipment_rarity_flags": 128,
@@ -67,6 +71,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription1120015]",
           "descriptions": {
+            "ja-JP": "一閃・白羽衣を強化する。物理攻撃のダメージが攻撃力×580%になる。",
             "zh-CN": "强化剑光一闪・白羽衣，造成的物理伤害提升为攻击力×580%。"
           },
           "equipment_rarity_flags": 512,
@@ -176,6 +181,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName112001]",
       "names": {
+        "ja-JP": "一閃・白羽衣",
         "zh-CN": "剑光一闪・白羽衣"
       },
       "source_memo_ja": "春シズSR:Lv1 羽衣を手にしているかのように見紛うほど軽やかな動きだが、その一振りには凄まじい力が宿り、多くの敵を一瞬で薙ぎ払う。自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵に6回攻撃力×220%の物理攻撃を行う。70%の確率で2ターンの間対象のスピードを15%減少させる。/ Lv2 スピードの減少量が30%になる。/ Lv3 物理攻撃のダメージが攻撃力×520%になる。/ Ex1 一閃・白羽衣を強化する。物理攻撃の回数が8回になる。/ Ex3 一閃・白羽衣を強化する。物理攻撃のダメージが攻撃力×580%になる。",
@@ -213,6 +219,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription1120021]",
           "descriptions": {
+            "ja-JP": "白糸の滝を思わせる繊細な太刀筋。しかし、その刃は雨垂れが石を穿つように、岩をも断つ力を宿している。自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵2体に攻撃力×620%の物理攻撃を行う。",
             "zh-CN": "静的刀法如银丝飞瀑般纤巧，却如那穿石的雨滴般，带有破石断岩的威力。静使自己受到当前生命值×20%的自损伤害，并随机对2名敌人造成攻击力×620%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -227,6 +234,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription1120022]",
           "descriptions": {
+            "ja-JP": "このスキルの対象がランダムな敵3体になる。",
             "zh-CN": "技能目标增加为3名随机敌人。"
           },
           "equipment_rarity_flags": 0,
@@ -241,6 +249,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription1120023]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×1120%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×1120%。"
           },
           "equipment_rarity_flags": 0,
@@ -255,6 +264,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription1120024]",
           "descriptions": {
+            "ja-JP": "さらに物理攻撃の前に対象の現在HPが自身よりも高い場合、物理攻撃のダメージが攻撃力×1680%になる。",
             "zh-CN": "当技能目标的当前生命值高于自己时，造成的物理伤害提升为攻击力×1680%。"
           },
           "equipment_rarity_flags": 0,
@@ -269,6 +279,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription1120025]",
           "descriptions": {
+            "ja-JP": "玉水割りを強化する。物理攻撃のダメージが攻撃力×1520%になる。物理攻撃の前に対象の現在HPが自身よりも高い場合、物理攻撃のダメージが攻撃力×2280%になる。",
             "zh-CN": "强化玉水断，造成的物理伤害提升为攻击力×1520%。当技能目标的当前生命值高于自己时，造成的物理伤害提升为攻击力×2280%。"
           },
           "equipment_rarity_flags": 256,
@@ -349,6 +360,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName112002]",
       "names": {
+        "ja-JP": "玉水割り",
         "zh-CN": "玉水断"
       },
       "source_memo_ja": "春シズSR:Lv1 白糸の滝を思わせる繊細な太刀筋。しかし、その刃は雨垂れが石を穿つように、岩をも断つ力を宿している。自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵2体に攻撃力×620%の物理攻撃を行う。/ Lv2 このスキルの対象がランダムな敵3体になる。/ Lv3 物理攻撃のダメージが攻撃力×1120%になる。/ Lv4 さらに物理攻撃の前に対象の現在HPが自身よりも高い場合、物理攻撃のダメージが攻撃力×1680%になる。/ Ex2 玉水割りを強化する。物理攻撃のダメージが攻撃力×1520%になる。物理攻撃の前に対象の現在HPが自身よりも高い場合、物理攻撃のダメージが攻撃力×2280%になる。",
@@ -815,6 +827,7 @@
       },
       "name_key": "[CharacterCollectionName67]",
       "names": {
+        "ja-JP": "グルスの白椿​",
         "zh-CN": "天鹤座的白山茶"
       },
       "required_character_ids": [
@@ -825,12 +838,14 @@
         {
           "id": 112,
           "names": {
+            "ja-JP": "シズ",
             "zh-CN": "静"
           }
         },
         {
           "id": 56,
           "names": {
+            "ja-JP": "クラウディア",
             "zh-CN": "克劳蒂亚"
           }
         }
@@ -900,12 +915,14 @@
     "memo": "春シズ",
     "name_key": "[CharacterName112]",
     "names": {
+      "ja-JP": "シズ",
       "zh-CN": "静"
     },
     "speed": 3582,
     "start_time_jst": "2025-02-14 15:00:00",
     "subtitle_key": "[CharacterSubName112]",
     "subtitles": {
+      "ja-JP": "雪花の誓い",
       "zh-CN": "傲雪花誓"
     }
   },
@@ -979,6 +996,7 @@
     },
     "name_key": "[EquipmentName771]",
     "names": {
+      "ja-JP": "白雪一点花",
       "zh-CN": "白雪一点花"
     },
     "passive_effects": [
@@ -1012,6 +1030,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill112Description1]",
         "descriptions": {
+          "ja-JP": "一閃・白羽衣を強化する。物理攻撃の回数が8回になる。",
           "zh-CN": "强化剑光一闪・白羽衣，攻击次数增加为8次。"
         },
         "equipment_rarity_flags": 128,
@@ -1020,6 +1039,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill112Description2]",
         "descriptions": {
+          "ja-JP": "玉水割りを強化する。物理攻撃のダメージが攻撃力×1520%になる。物理攻撃の前に対象の現在HPが自身よりも高い場合、物理攻撃のダメージが攻撃力×2280%になる。",
           "zh-CN": "强化玉水断，造成的物理伤害提升为攻击力×1520%。当技能目标的当前生命值高于自己时，造成的物理伤害提升为攻击力×2280%。"
         },
         "equipment_rarity_flags": 256,
@@ -1028,6 +1048,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill112Description3]",
         "descriptions": {
+          "ja-JP": "一閃・白羽衣を強化する。物理攻撃のダメージが攻撃力×580%になる。",
           "zh-CN": "强化剑光一闪・白羽衣，造成的物理伤害提升为攻击力×580%。"
         },
         "equipment_rarity_flags": 512,
@@ -1048,6 +1069,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription1120031]",
           "descriptions": {
+            "ja-JP": "夜を照らす月光の如く佇む。呼吸を整え、心を静め──力を一点に集中させる。バトル開始時自身の攻撃力が、ステータス増減前の自身の防御力×100%分増加する（解除不可）。",
             "zh-CN": "立定时宁静如照亮黑夜的月光。静调息凝神——集中力量于一点之上。战斗开始时，使自己增加攻击力，增幅为状态效果生效前的静防御力×100%（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1062,6 +1084,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription1120032]",
           "descriptions": {
+            "ja-JP": "攻撃力の増加量がステータス増減前の自身の防御力×200%分になる。",
             "zh-CN": "攻击力增幅提升为状态效果生效前的静防御力×200%。"
           },
           "equipment_rarity_flags": 0,
@@ -1076,6 +1099,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription1120033]",
           "descriptions": {
+            "ja-JP": "さらにバトル開始時自身に1層の『多重バリア』を付与する（解除不可）。自身の最大HP×20%以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。",
             "zh-CN": "战斗开始时，静额外获得1层「多重屏障」（无法被解除）。当静受到最大生命值×20%以上的伤害时，消耗1层屏障来抵消该伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -1151,6 +1175,7 @@
       },
       "name_key": "[PassiveSkillName112003]",
       "names": {
+        "ja-JP": "月照の構え",
         "zh-CN": "起手式・月照"
       },
       "source_memo_ja": "春シズSR:Lv1 夜を照らす月光の如く佇む。呼吸を整え、心を静め――力を一点に集中させる。バトル開始時自身の攻撃力が、ステータス増減前の自身の防御力×100%分増加する（解除不可）。/ Lv2 攻撃力の増加量がステータス増減前の自身の防御力×200%分になる。/ Lv3 さらにバトル開始時自身に1層の『多重バリア』を付与する（解除不可）。自身の最大HP×20％以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。",
@@ -1178,6 +1203,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription1120041]",
           "descriptions": {
+            "ja-JP": "誰かのためではなく、あるがままで良い。誰かに価値を、意味を見出してもらうのではなく、ただ自らの意志で少女は剣を振るう。自身の行動開始時、1ターンの間カウンタが最も高い敵の被ダメージを10%増加させる。対象の防御力が自身よりも低い場合、さらに対象のカウンタを20%減少させる。これらは一つの弱体効果として扱う。このスキルは発動後4回行動終了するまで再び発動しない。",
             "zh-CN": "不为他人，只为自己而活。她遵循自己的意志，不让别人决定自己的价值与存在的意义。行动开始时，静对伤害反弹最高的敌人附加1种弱化效果，该效果包含增加10%承受伤害，效果持续1回合，并且当技能目标的防御力低于自己时，额外减少20%伤害反弹。此技能须在结束4次行动后才可再次触发。"
           },
           "equipment_rarity_flags": 0,
@@ -1192,6 +1218,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription1120042]",
           "descriptions": {
+            "ja-JP": "このスキルで付与する弱体効果のターン数が2ターンになる。",
             "zh-CN": "此技能附加的弱化效果增加为2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -1206,6 +1233,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription1120043]",
           "descriptions": {
+            "ja-JP": "カウンタの減少量が40%になる。",
             "zh-CN": "伤害反弹降幅提升为40%。"
           },
           "equipment_rarity_flags": 0,
@@ -1274,6 +1302,7 @@
       },
       "name_key": "[PassiveSkillName112004]",
       "names": {
+        "ja-JP": "一花冬至為誰開",
         "zh-CN": "孤花冬至为谁开"
       },
       "source_memo_ja": "春シズSR:Lv1 誰かのためではなく、あるがままで良い。誰かに価値を、意味を見出してもらうのではなく、ただ自らの意志で少女は剣を振るう。自身の行動開始時、1ターンの間カウンタが最も高い敵の被ダメージを10%増加させる。対象の防御力が自身よりも低い場合、さらに対象のカウンタを20%減少させる。これらは一つの弱体効果として扱う。このスキルは発動後4回行動終了するまで再び発動しない。/ Lv2 このスキルで付与する弱体効果のターン数が2ターンになる。/ Lv3 カウンタの減少量が40%になる。",
@@ -1329,6 +1358,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription1500011]",
           "descriptions": {
+            "ja-JP": "「みんなで勝つぞ！」HP割合が最も低い味方のHPを自身の攻撃力×5%回復する。「これが私の覚悟だ！」その後ランダムな敵に2回攻撃力×520%の物理攻撃を行う。このスキルを7ターン目以降に発動した場合、このスキルの味方のHPを回復する効果は発動せず、物理攻撃のダメージが攻撃力×1040%になる。",
             "zh-CN": "“一起赢下这场战斗！”佛罗伦斯使生命值百分比最低的友军恢复佛罗伦斯攻击力×5%的生命值。“这就是我的觉悟！”再随机对敌人进行2次攻击，每次造成攻击力×520%的物理伤害。第7回合起，发动此技能不会恢复生命值，造成的物理伤害提升为攻击力×1040%。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription1500012]",
           "descriptions": {
+            "ja-JP": "HPの回復量が自身の攻撃力×15%になる。",
             "zh-CN": "生命值恢复量提升为佛罗伦斯攻击力×15%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1500013]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×890%になる。このスキルを7ターン目以降に発動した場合、物理攻撃のダメージが攻撃力×1780%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×890%。第7回合起，造成的物理伤害提升为攻击力×1780%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1500014]",
           "descriptions": {
+            "ja-JP": "一閃光斬を強化する。物理攻撃の回数が3回になる。",
             "zh-CN": "强化闪光瞬辉斩，攻击次数增加为3次。"
           },
           "equipment_rarity_flags": 128,
@@ -67,6 +71,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription1500015]",
           "descriptions": {
+            "ja-JP": "一閃光斬を強化する。物理攻撃のダメージが攻撃力×980%になる。このスキルを7ターン目以降に発動した場合、物理攻撃のダメージが攻撃力×1960%になる。",
             "zh-CN": "强化闪光瞬辉斩，造成的物理伤害提升为攻击力×980%。第7回合起，造成的物理伤害提升为攻击力×1960%。"
           },
           "equipment_rarity_flags": 512,
@@ -154,6 +159,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName150001]",
       "names": {
+        "ja-JP": "一閃光斬",
         "zh-CN": "闪光瞬辉斩"
       },
       "source_memo_ja": "黄昏フローレンスSR:Lv1 「みんなで勝つぞ！」HP割合が最も低い味方のHPを自身の攻撃力×5%回復する。「これが私の覚悟だ！」その後ランダムな敵に2回攻撃力×520%の物理攻撃を行う。このスキルを7ターン目以降に発動した場合、このスキルの味方のHPを回復する効果は発動せず、物理攻撃のダメージが攻撃力×1040%になる。/ Lv2 HPの回復量が自身の攻撃力×15%になる。/ Lv3 物理攻撃のダメージが攻撃力×890%になる。このスキルを7ターン目以降に発動した場合、物理攻撃のダメージが攻撃力×1780%になる。/ Ex1 一閃光斬を強化する。物理攻撃の回数が3回になる。/ Ex3 一閃光斬を強化する。物理攻撃のダメージが攻撃力×980%になる。このスキルを7ターン目以降に発動した場合、物理攻撃のダメージが攻撃力×1960%になる。",
@@ -191,6 +197,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription1500021]",
           "descriptions": {
+            "ja-JP": "「黄昏に散れ！」自身が『黄昏の誓い』を付帯している場合に発動。切り裂く刃は夕陽を散らし、残光を降らす──ランダムな敵に4回攻撃力×650%の物理攻撃を行う。",
             "zh-CN": "“消散于暮色之中吧！”当佛罗伦斯身上附带「黄昏之誓」状态时，可发动此技能。锋刃斩碎暮光，散落满天余晖——随机对敌人进行4次攻击，每次造成攻击力×650%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -205,6 +212,7 @@
           "character_level": 41,
           "description_key": "[ActiveSkillDescription1500022]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×1050%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×1050%。"
           },
           "equipment_rarity_flags": 0,
@@ -219,6 +227,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription1500023]",
           "descriptions": {
+            "ja-JP": "物理攻撃の回数が6回になる。",
             "zh-CN": "攻击次数增加为6次。"
           },
           "equipment_rarity_flags": 0,
@@ -233,6 +242,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription1500024]",
           "descriptions": {
+            "ja-JP": "さらにクリティカルヒットするたび攻撃回数が1回多くなる（合計で最大10回まで）。",
             "zh-CN": "每次技能暴击，使攻击次数增加1次（合计最多10连击）。"
           },
           "equipment_rarity_flags": 0,
@@ -318,6 +328,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName150002]",
       "names": {
+        "ja-JP": "夕空光散",
         "zh-CN": "夕照光闪"
       },
       "source_memo_ja": "黄昏フローレンスSR:Lv1 「黄昏に散れ！」自身が『黄昏の誓い』を付帯している場合に発動。切り裂く刃は夕陽を散らし、残光を降らす──ランダムな敵に4回攻撃力×650%の物理攻撃を行う。/ Lv2 物理攻撃のダメージが攻撃力×1050%になる。/ Lv3 物理攻撃の回数が6回になる。/ Lv4 さらにクリティカルヒットするたび攻撃回数が1回多くなる（合計で最大10回まで）。",
@@ -780,6 +791,7 @@
       },
       "name_key": "[CharacterCollectionName99]",
       "names": {
+        "ja-JP": "クルクスの天誓",
         "zh-CN": "南十字座的约誓"
       },
       "required_character_ids": [
@@ -790,12 +802,14 @@
         {
           "id": 150,
           "names": {
+            "ja-JP": "フローレンス",
             "zh-CN": "佛罗伦斯"
           }
         },
         {
           "id": 151,
           "names": {
+            "ja-JP": "フォルティナ",
             "zh-CN": "福尔蒂娜"
           }
         }
@@ -865,12 +879,14 @@
     "memo": "黄昏フローレンス",
     "name_key": "[CharacterName150]",
     "names": {
+      "ja-JP": "フローレンス",
       "zh-CN": "佛罗伦斯"
     },
     "speed": 3077,
     "start_time_jst": "2026-08-13 15:00:00",
     "subtitle_key": "[CharacterSubName150]",
     "subtitles": {
+      "ja-JP": "黄昏の誓い",
       "zh-CN": "黄昏之誓"
     }
   },
@@ -945,6 +961,7 @@
     },
     "name_key": "[EquipmentName999]",
     "names": {
+      "ja-JP": "トワイナイト",
       "zh-CN": "骑士的黄昏"
     },
     "passive_effects": [
@@ -978,6 +995,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill150Description1]",
         "descriptions": {
+          "ja-JP": "一閃光斬を強化する。物理攻撃の回数が3回になる。",
           "zh-CN": "强化闪光瞬辉斩，攻击次数增加为3次。"
         },
         "equipment_rarity_flags": 128,
@@ -986,6 +1004,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill150Description2]",
         "descriptions": {
+          "ja-JP": "黄昏の騎士を強化する。被ダメージの減少量が40%、最大HPの増加量が100%になる。",
           "zh-CN": "强化黄昏的骑士，承受伤害降幅提升为40%，最大生命值增幅提升为100%。"
         },
         "equipment_rarity_flags": 256,
@@ -994,6 +1013,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill150Description3]",
         "descriptions": {
+          "ja-JP": "一閃光斬を強化する。物理攻撃のダメージが攻撃力×980%になる。このスキルを7ターン目以降に発動した場合、物理攻撃のダメージが攻撃力×1960%になる。",
           "zh-CN": "强化闪光瞬辉斩，造成的物理伤害提升为攻击力×980%。第7回合起，造成的物理伤害提升为攻击力×1960%。"
         },
         "equipment_rarity_flags": 512,
@@ -1014,6 +1034,7 @@
           "character_level": 11,
           "description_key": "[PassiveSkillDescription1500031]",
           "descriptions": {
+            "ja-JP": "たとえどんなに遠く離れていても、心は常に君と共に──自身か味方のアクティブスキルがHPを回復する効果を発動したとき、自身に攻撃力とクリティカル率がそれぞれ1%増加するバフを1スタック付与する（最大10スタックまで）（解除不可）。7ターン目以降の毎ターン開始時、このスキルで付与したバフのスタック数が10の場合、自身に『黄昏の誓い』を付与する（解除不可）。",
             "zh-CN": "即使相隔再远，我的心也始终与你同在——当佛罗伦斯或友军发动主动技能触发恢复生命值的效果时，佛罗伦斯获得1层增益效果，增加1%攻击力与暴击率（最多10层）（无法被解除）。第7回合起，在每回合开始时，如果佛罗伦斯身上附带10层此技能附加的增益效果，获得「黄昏之誓」状态（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1028,6 +1049,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription1500032]",
           "descriptions": {
+            "ja-JP": "攻撃力とクリティカル率の増加量がそれぞれ6%になる。",
             "zh-CN": "攻击力与暴击率增幅提升为6%。"
           },
           "equipment_rarity_flags": 0,
@@ -1042,6 +1064,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription1500033]",
           "descriptions": {
+            "ja-JP": "さらにバトル開始時、10ターンの間自身の防御力と物理防御力がそれぞれ100%増加する。",
             "zh-CN": "战斗开始时，使自己额外增加100%防御力与100%物理防御力，效果持续10回合。"
           },
           "equipment_rarity_flags": 0,
@@ -1159,6 +1182,7 @@
       },
       "name_key": "[PassiveSkillName150003]",
       "names": {
+        "ja-JP": "夕陽色の絆",
         "zh-CN": "夕阳色的情谊"
       },
       "source_memo_ja": "黄昏フローレンスSR:Lv1 たとえどんなに遠く離れていても、心は常に君と共に──自身か味方のアクティブスキルがHPを回復する効果を発動したとき、自身に攻撃力とクリティカル率がそれぞれ1%増加するバフを1スタック付与する（最大10スタックまで）（解除不可）。7ターン目以降の毎ターン開始時、このスキルで付与したバフのスタック数が10の場合、自身に『黄昏の誓い』を付与する（解除不可）。/ Lv2 攻撃力とクリティカル率の増加量がそれぞれ6%になる。/ Lv3 さらにバトル開始時、10ターンの間自身の防御力と物理防御力がそれぞれ100%増加する。",
@@ -1186,6 +1210,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription1500041]",
           "descriptions": {
+            "ja-JP": "誓いは自分への戒め。もうこの心が、誓いが揺らぐことはない。君が信じてくれている限り──バトル開始時、10ターンの間自身の通常攻撃を強化する。通常攻撃時、ランダムな敵5体に攻撃力×390%の物理攻撃を行い、その後HP割合が低い味方3体のHPを対象の最大HP×10%回復する。",
             "zh-CN": "誓言是约束自己的戒律。只要你仍相信着我，这颗心、这份誓言，便永远不会动摇——战斗开始时，佛罗伦斯强化自己的普通攻击，效果持续10回合。普攻时随机对5名敌人造成攻击力×390%的物理伤害，再使生命值百分比最低的3名友军恢复10%最大生命值。"
           },
           "equipment_rarity_flags": 0,
@@ -1200,6 +1225,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription1500042]",
           "descriptions": {
+            "ja-JP": "バトル開始時、さらに自身の被ダメージが10%減少し、最大HPが20%増加する（解除不可）。",
             "zh-CN": "战斗开始时，佛罗伦斯额外减少10%自身承受伤害，使自己增加20%最大生命值（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1214,6 +1240,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription1500043]",
           "descriptions": {
+            "ja-JP": "さらにHP回復の前にHP回復の対象のHP割合が50%以上で、行動阻害を付帯している場合、HP回復の対象の行動阻害を全て解除する。",
             "zh-CN": "当生命值恢复目标原本的生命值为50%以上，且身上附带控制效果时，额外解除目标身上的所有控制效果。"
           },
           "equipment_rarity_flags": 0,
@@ -1228,6 +1255,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription1500044]",
           "descriptions": {
+            "ja-JP": "黄昏の騎士を強化する。被ダメージの減少量が40%、最大HPの増加量が100%になる。",
             "zh-CN": "强化黄昏的骑士，承受伤害降幅提升为40%，最大生命值增幅提升为100%。"
           },
           "equipment_rarity_flags": 256,
@@ -1312,6 +1340,7 @@
       },
       "name_key": "[PassiveSkillName150004]",
       "names": {
+        "ja-JP": "黄昏の騎士",
         "zh-CN": "黄昏的骑士"
       },
       "source_memo_ja": "黄昏フローレンスSR:Lv1 誓いは自分への戒め。もうこの心が、誓いが揺らぐことはない。君が信じてくれている限り──バトル開始時、10ターンの間自身の通常攻撃を強化する。通常攻撃時、ランダムな敵5体に攻撃力×390%の物理攻撃を行い、HP割合が低い味方3体のHPを対象の最大HP×10%回復する。/ Lv2 バトル開始時、さらに自身の被ダメージが20%減少し、最大HPが40%増加する（解除不可）。/ Lv3 さらにHP回復の前にHP回復の対象のHP割合が50%以上で、行動阻害を付帯している場合、HP回復の対象の行動阻害を全て解除する。/ Ex2 黄昏の騎士を強化する。被ダメージの減少量が40%、最大HPの増加量が100%になる。",
@@ -1371,6 +1400,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

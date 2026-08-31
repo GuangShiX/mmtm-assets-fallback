@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription1140011]",
           "descriptions": {
+            "ja-JP": "「準備万端、いくわよ！」自身のHPを自身の最大HP×5%回復する。「私の力、見せてあげる！」その後ランダムな敵3体に攻撃力×360%の物理攻撃を行う。このスキルを7ターン目以降に発動した場合、このスキルの自身のHPを回復する効果は発動せず、物理攻撃のダメージが2倍になる。",
             "zh-CN": "“准备完毕，我们上吧！”宝拉使自己恢复5%最大生命值。“让你见识下我的厉害！”再随机对3名敌人造成攻击力×360%的物理伤害。第7回合起，发动此技能不会恢复生命值，造成的物理伤害增加为2倍。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription1140012]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×540%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×540%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1140013]",
           "descriptions": {
+            "ja-JP": "HPの回復量が自身の最大HP×10%になる。",
             "zh-CN": "生命值恢复量提升为10%最大生命值。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1140014]",
           "descriptions": {
+            "ja-JP": "シャインバレットを強化する。物理攻撃の対象がランダムな敵5体になる。",
             "zh-CN": "强化光之弹，攻击目标增加为5名随机敌人。"
           },
           "equipment_rarity_flags": 128,
@@ -67,6 +71,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription1140015]",
           "descriptions": {
+            "ja-JP": "シャインバレットを強化する。物理攻撃のダメージが攻撃力×590%になる。",
             "zh-CN": "强化光之弹，造成的物理伤害提升为攻击力×590%。"
           },
           "equipment_rarity_flags": 512,
@@ -147,6 +152,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName114001]",
       "names": {
+        "ja-JP": "シャインバレット",
         "zh-CN": "光之弹"
       },
       "source_memo_ja": "ポーラSR:Lv1 「準備万端、いくわよ！」自身のHPを自身の最大HP×5％回復する。「私の力、見せてあげる！」その後ランダムな敵3体に攻撃力×360％の物理攻撃を行う。このスキルを7ターン目以降に発動した場合、このスキルの自身のHPを回復する効果は発動せず、物理攻撃のダメージが2倍になる。/ Lv2 物理攻撃のダメージが攻撃力×540％になる。/ Lv3 HPの回復量が自身の最大HP×10％になる。/ Ex1 シャインバレットを強化する。物理攻撃の対象がランダムな敵5体になる。/ Ex3 シャインバレットを強化する。物理攻撃のダメージが攻撃力×590％になる。",
@@ -184,6 +190,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription1140021]",
           "descriptions": {
+            "ja-JP": "「これで、終わらせる……！」自身のHPを自身の最大HP×5%回復する。その後ランダムな敵に5回攻撃力×180%の物理攻撃を行う。このスキルを7ターン目以降に発動した場合、このスキルの自身のHPを回復する効果は発動せず、物理攻撃のダメージが2倍になる。",
             "zh-CN": "“看我一招解决你……！”宝拉使自己恢复5%最大生命值。再随机对敌人进行5次攻击，每次造成攻击力×180%的物理伤害。第7回合起，发动此技能不会恢复生命值，造成的物理伤害增加为2倍。"
           },
           "equipment_rarity_flags": 0,
@@ -198,6 +205,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription1140022]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×310%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×310%。"
           },
           "equipment_rarity_flags": 0,
@@ -212,6 +220,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription1140023]",
           "descriptions": {
+            "ja-JP": "物理攻撃の回数が8回になる。",
             "zh-CN": "攻击次数增加为8次。"
           },
           "equipment_rarity_flags": 0,
@@ -226,6 +235,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription1140024]",
           "descriptions": {
+            "ja-JP": "HPの回復量が自身の最大HP×10%になる。",
             "zh-CN": "生命值恢复量提升为10%最大生命值。"
           },
           "equipment_rarity_flags": 0,
@@ -317,6 +327,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName114002]",
       "names": {
+        "ja-JP": "リベルト・リベルタ",
         "zh-CN": "重生与解放"
       },
       "source_memo_ja": "ポーラSR:Lv1 「これで、終わらせる……！」自身のHPを自身の最大HP×5％回復する。その後ランダムな敵に5回攻撃力×180％の物理攻撃を行う。このスキルを7ターン目以降に発動した場合、このスキルの自身のHPを回復する効果は発動せず、物理攻撃のダメージが2倍になる。/ Lv2 物理攻撃のダメージが攻撃力×310％になる。/ Lv3 物理攻撃の回数が8回になる。/ Lv4 HPの回復量が自身の最大HP×10％になる。",
@@ -772,6 +783,7 @@
       },
       "name_key": "[CharacterCollectionName68]",
       "names": {
+        "ja-JP": "トリアングルムの距離",
         "zh-CN": "三角座的距离"
       },
       "required_character_ids": [
@@ -783,18 +795,21 @@
         {
           "id": 114,
           "names": {
+            "ja-JP": "ポーラ",
             "zh-CN": "宝拉"
           }
         },
         {
           "id": 89,
           "names": {
+            "ja-JP": "ルシール",
             "zh-CN": "露昕鲁"
           }
         },
         {
           "id": 87,
           "names": {
+            "ja-JP": "ネブラ",
             "zh-CN": "涅布拉"
           }
         }
@@ -865,12 +880,14 @@
     "memo": "ポーラ",
     "name_key": "[CharacterName114]",
     "names": {
+      "ja-JP": "ポーラ",
       "zh-CN": "宝拉"
     },
     "speed": 2956,
     "start_time_jst": "2025-03-17 15:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -944,6 +961,7 @@
     },
     "name_key": "[EquipmentName783]",
     "names": {
+      "ja-JP": "リベーレ・ランセ",
       "zh-CN": "自由之声"
     },
     "passive_effects": [
@@ -977,6 +995,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill114Description1]",
         "descriptions": {
+          "ja-JP": "シャインバレットを強化する。物理攻撃の対象がランダムな敵5体になる。",
           "zh-CN": "强化光之弹，攻击目标增加为5名随机敌人。"
         },
         "equipment_rarity_flags": 128,
@@ -985,6 +1004,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill114Description2]",
         "descriptions": {
+          "ja-JP": "報われない想いを強化する。最大HPの増加量が100%になる。",
           "zh-CN": "强化得不到回应的心意，最大生命值增幅提升为100%。"
         },
         "equipment_rarity_flags": 256,
@@ -993,6 +1013,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill114Description3]",
         "descriptions": {
+          "ja-JP": "シャインバレットを強化する。物理攻撃のダメージが攻撃力×590%になる。",
           "zh-CN": "强化光之弹，造成的物理伤害提升为攻击力×590%。"
         },
         "equipment_rarity_flags": 512,
@@ -1015,6 +1036,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription1140031]",
           "descriptions": {
+            "ja-JP": "「自分の未来は、自分で選ぶわ。もうリーダーひとりに背負わせたりしない！」自身か味方のアクティブスキルがHPを回復する効果を発動したとき、自身のHPを自身の最大HP×3%回復する。このスキルはバトル中15回のみ発動する（ただしギルドバトル・グランドバトルでの連戦においては、毎バトルごとに15回発動する）。",
             "zh-CN": "“我要自己选择我的未来。我不会再让老大一人扛起所有责任了！”当宝拉或友军发动主动技能触发恢复生命值的效果时，使宝拉恢复3%最大生命值。此技能每场战斗最多触发15次（在公会战、跨服公会战的连续对战中，每场战斗皆可触发15次）。"
           },
           "equipment_rarity_flags": 0,
@@ -1029,6 +1051,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription1140032]",
           "descriptions": {
+            "ja-JP": "自身か味方のアクティブスキルがHPを回復する効果を発動したとき、さらに翠属性の味方全体に攻撃力が5%増加するバフを1スタック付与する（最大15スタックまで）（解除不可）。",
             "zh-CN": "当宝拉或友军发动主动技能触发恢复生命值的效果时，使苍翠属性的全体友军额外获得1层增益效果，增加5%攻击力（最多叠加15层）（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1043,6 +1066,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription1140033]",
           "descriptions": {
+            "ja-JP": "HPの回復量が自身の最大HP×5%になる。",
             "zh-CN": "生命值恢复量提升为5%最大生命值。"
           },
           "equipment_rarity_flags": 0,
@@ -1160,6 +1184,7 @@
       },
       "name_key": "[PassiveSkillName114003]",
       "names": {
+        "ja-JP": "決断する勇気",
         "zh-CN": "决断的勇气"
       },
       "source_memo_ja": "ポーラSR:Lv1 「自分の未来は、自分で選ぶわ。もうリーダーひとりに背負わせたりしない！」自身か味方のアクティブスキルがHPを回復する効果を発動したとき、自身のHPを自身の最大HP×3％回復する。このスキルはバトル中15回のみ発動する（ただしギルドバトル・グランドバトルでの連戦においては、毎バトルごとに15回発動する）。/ Lv2 自身か味方のアクティブスキルがHPを回復する効果を発動したとき、さらに翠属性の味方全体に攻撃力が5％増加するバフを1スタック付与する（最大15スタックまで）(解除不可)。/ Lv3 HPの回復量が自身の最大HP×5％になる。",
@@ -1187,6 +1212,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription1140041]",
           "descriptions": {
+            "ja-JP": "あなたを諦められたら、どんなに楽なんだろう。それでもこの想いは捨てられなくて、今日も届かない想いを抱えて生きる。バトル開始時、自身の最大HPが40%増加する（解除不可）。",
             "zh-CN": "如果可以死了这条心，那该有多好……但我还是放不下对你的感情，只能继续抱着这份说不出口的心意活下去。战斗开始时，宝拉使自己增加40%最大生命值（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1201,6 +1227,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription1140042]",
           "descriptions": {
+            "ja-JP": "さらに7ターン目のターン開始時、自身のスキルクールタイムカウントを0にし、自身のスピードが30%増加する（解除不可）。",
             "zh-CN": "第7回合开始时，宝拉重置技能冷却时间，使自己增加30%速度（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1215,6 +1242,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription1140043]",
           "descriptions": {
+            "ja-JP": "バトル開始時、さらに自身の被ダメージが65%減少する（解除不可）。",
             "zh-CN": "战斗开始时，额外减少65%自身承受伤害（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1229,6 +1257,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription1140044]",
           "descriptions": {
+            "ja-JP": "報われない想いを強化する。最大HPの増加量が100%になる。",
             "zh-CN": "强化得不到回应的心意，最大生命值增幅提升为100%。"
           },
           "equipment_rarity_flags": 256,
@@ -1369,6 +1398,7 @@
       },
       "name_key": "[PassiveSkillName114004]",
       "names": {
+        "ja-JP": "報われない想い",
         "zh-CN": "得不到回应的心意"
       },
       "source_memo_ja": "ポーラSR:Lv1 あなたを諦められたら、どんなに楽なんだろう。それでもこの想いは捨てられなくて、今日も届かない想いを抱えて生きる。バトル開始時、自身の最大HPが40％増加する（解除不可）。/ Lv2 さらに7ターン目のターン開始時、自身のスキルクールタイムカウントを0にし、自身のスピードが30％増加する（解除不可）。/ Lv3 バトル開始時、さらに自身の被ダメージが65％減少する（解除不可）。/ Ex2 報われない想いを強化する。最大HPの増加量が100％になる。",
@@ -1400,6 +1430,7 @@
           "character_level": 41,
           "description_key": "*",
           "descriptions": {
+            "ja-JP": null,
             "zh-CN": null
           },
           "equipment_rarity_flags": 0,
@@ -1440,6 +1471,7 @@
       },
       "name_key": "*",
       "names": {
+        "ja-JP": null,
         "zh-CN": null
       },
       "source_memo_ja": "*",
@@ -1482,6 +1514,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

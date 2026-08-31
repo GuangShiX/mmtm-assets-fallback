@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription900011]",
           "descriptions": {
+            "ja-JP": "鞭は振るわれるたびに力の解放条件を積み上げていく──4ターンの間自身の攻撃力が20%増加する。その後ランダムな敵に2回攻撃力×360%の物理攻撃を行う。回数を重ねると、やがて本来の力を芽吹かせる──バトル中このスキルを発動するのが2回目以降の場合、攻撃力の増加量が40%になる。",
             "zh-CN": "力量解放条件随着嘉德利亚每次挥鞭逐渐达成——嘉德利亚使自己增加20%攻击力，效果持续4回合。再随机对敌人进行2次攻击，每次造成攻击力×360%的物理伤害。挥鞭达到一定次数后，原有的力量将破土而出——战斗中自第2次发动此技能起，攻击力增幅提升为40%。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription900012]",
           "descriptions": {
+            "ja-JP": "物理攻撃の回数が4回になる。",
             "zh-CN": "攻击次数增加为4次。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription900013]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×590%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×590%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription900014]",
           "descriptions": {
+            "ja-JP": "バーナリゼーションを強化する。さらにバトル中このスキルを発動するのが3回目以降の場合、攻撃力の増加量が80%になる。",
             "zh-CN": "强化春化作用，战斗中自第3次发动此技能起，攻击力增幅提升为80%。"
           },
           "equipment_rarity_flags": 128,
@@ -132,6 +136,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName90001]",
       "names": {
+        "ja-JP": "バーナリゼーション",
         "zh-CN": "春化作用"
       },
       "source_memo_ja": "カトレアSR:Lv1 鞭は振るわれるたびに力の解放条件を積み上げていく──4ターンの間自身の攻撃力が20%増加する。その後ランダムな敵に2回攻撃力×360%の物理攻撃を行う。回数を重ねると、やがて本来の力を芽吹かせる──バトル中このスキルを発動するのが2回目以降の場合、攻撃力の増加量が40%になる。/ Lv2 物理攻撃の回数が4回になる。/ Lv3 物理攻撃のダメージが攻撃力×590%になる。/ Ex1 バーナリゼーションを強化する。バトル中このスキルを発動するのが3回目以降の場合、さらに攻撃力の増加量が80%になる。",
@@ -165,6 +170,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription900021]",
           "descriptions": {
+            "ja-JP": "生命に共通する分裂の摂理を人為的に再現し、鞭撃を増殖させる。物理防御力が最も低い敵に4回攻撃力×410%の物理攻撃を行う。",
             "zh-CN": "嘉德利亚以人为方式重现细胞分裂原理，使自己挥出的鞭击大量增殖——对物理防御力最低的敌人进行4次攻击，每次造成攻击力×410%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -179,6 +185,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription900022]",
           "descriptions": {
+            "ja-JP": "物理攻撃の回数が6回になる。",
             "zh-CN": "攻击次数增加为6次。"
           },
           "equipment_rarity_flags": 0,
@@ -193,6 +200,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription900023]",
           "descriptions": {
+            "ja-JP": "さらにバトル中このスキルを発動するのが2回目以降の場合、物理攻撃の回数が9回になる。",
             "zh-CN": "战斗中自第2次发动此技能起，攻击次数增加为9次。"
           },
           "equipment_rarity_flags": 0,
@@ -207,6 +215,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription900024]",
           "descriptions": {
+            "ja-JP": "さらにバトル中このスキルを発動するのが3回目以降の場合、物理攻撃の回数が12回になる。",
             "zh-CN": "战斗中自第3次发动此技能起，攻击次数增加为12次。"
           },
           "equipment_rarity_flags": 0,
@@ -221,6 +230,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription900025]",
           "descriptions": {
+            "ja-JP": "トリア・メリステムを強化する。物理攻撃のダメージが攻撃力×470%になる。",
             "zh-CN": "强化三重分生组织，造成的物理伤害提升为攻击力×470%。"
           },
           "equipment_rarity_flags": 512,
@@ -334,6 +344,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName90002]",
       "names": {
+        "ja-JP": "トリア・メリステム",
         "zh-CN": "三重分生组织"
       },
       "source_memo_ja": "カトレアSR:Lv1 生命に共通する分裂の摂理を人為的に再現し、鞭撃を増殖させる。物理防御力が最も低い敵に4回攻撃力×410%の物理攻撃を行う。/ Lv2 物理攻撃の回数が6回になる。/ Lv3 さらにバトル中このスキルを発動するのが2回目以降の場合、物理攻撃の回数が9回になる。/ Lv4 さらにバトル中このスキルを発動するのが3回目以降の場合、物理攻撃の回数が12回になる。/ Ex3 トリア・メリステムを強化する。物理攻撃のダメージが攻撃力×470%になる。",
@@ -792,6 +803,7 @@
       },
       "name_key": "[CharacterCollectionName95]",
       "names": {
+        "ja-JP": "アルバートの真理",
         "zh-CN": "爱因斯坦座的真理"
       },
       "required_character_ids": [
@@ -802,12 +814,14 @@
         {
           "id": 92,
           "names": {
+            "ja-JP": "イディーネ",
             "zh-CN": "艾蒂涅"
           }
         },
         {
           "id": 90,
           "names": {
+            "ja-JP": "カトレア",
             "zh-CN": "嘉德利亚"
           }
         }
@@ -877,12 +891,14 @@
     "memo": "カトレア",
     "name_key": "[CharacterName90]",
     "names": {
+      "ja-JP": "カトレア",
       "zh-CN": "嘉德利亚"
     },
     "speed": 2984,
     "start_time_jst": "2026-05-28 15:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -956,6 +972,7 @@
     },
     "name_key": "[EquipmentName639]",
     "names": {
+      "ja-JP": "オムニラディクス",
       "zh-CN": "全知之根"
     },
     "passive_effects": [
@@ -989,6 +1006,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill90Description1]",
         "descriptions": {
+          "ja-JP": "バーナリゼーションを強化する。さらにバトル中このスキルを発動するのが3回目以降の場合、攻撃力の増加量が80%になる。",
           "zh-CN": "强化春化作用，战斗中自第3次发动此技能起，攻击力增幅提升为80%。"
         },
         "equipment_rarity_flags": 128,
@@ -997,6 +1015,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill90Description2]",
         "descriptions": {
+          "ja-JP": "未知への渇望を強化する。『シールド』の大きさがステータス増減前の自身の最大HP×200%になる。",
           "zh-CN": "强化对未知的渴望，「护盾」值提升为状态效果生效前的嘉德利亚最大生命值×200%。"
         },
         "equipment_rarity_flags": 256,
@@ -1005,6 +1024,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill90Description3]",
         "descriptions": {
+          "ja-JP": "トリア・メリステムを強化する。物理攻撃のダメージが攻撃力×470%になる。",
           "zh-CN": "强化三重分生组织，造成的物理伤害提升为攻击力×470%。"
         },
         "equipment_rarity_flags": 512,
@@ -1025,6 +1045,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription900031]",
           "descriptions": {
+            "ja-JP": "「私の手にかかれば造作もない」8ターン目のターン終了時、自身と自身以外の攻撃力が最も高い味方の弱体効果を1つ解除する。",
             "zh-CN": "“在我手里完全不费吹灰之力。”第8回合结束时，嘉德利亚解除自己与攻击力最高的其他友军身上的1种弱化效果。"
           },
           "equipment_rarity_flags": 0,
@@ -1039,6 +1060,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription900032]",
           "descriptions": {
+            "ja-JP": "弱体効果の解除数が2つになる。",
             "zh-CN": "解除的弱化效果增加为2种。"
           },
           "equipment_rarity_flags": 0,
@@ -1053,6 +1075,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription900033]",
           "descriptions": {
+            "ja-JP": "さらに自身以外の黄属性の味方の編成数が2体以上の場合、このスキルが4、12ターン目のターン終了時にも発動するようになる。",
             "zh-CN": "当队伍中的其他流金属性友军数为2名以上时，技能触发条件增加为第4、8、12回合结束时。"
           },
           "equipment_rarity_flags": 0,
@@ -1142,6 +1165,7 @@
       },
       "name_key": "[PassiveSkillName90003]",
       "names": {
+        "ja-JP": "万物の解析者",
         "zh-CN": "万物解析者"
       },
       "source_memo_ja": "カトレアSR:Lv1 「私の手にかかれば造作もない」8ターン目のターン終了時、自身と自身以外の攻撃力が最も高い味方の弱体効果を1つ解除する。/ Lv2 弱体効果の解除数が2つになる。/ Lv3 さらに自身以外の黄属性の味方の編成数が2体以上の場合、このスキルが4、12ターン目にも発動するようになる。",
@@ -1169,6 +1193,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription900041]",
           "descriptions": {
+            "ja-JP": "「この世界には、私が解き明かすべきものが残っている。それ以外に倒れない理由がいるかね？」ターン開始時、4ターンの間自身にステータス増減前の自身の最大HP×50%の『シールド』を付与する。このスキルは発動後4回行動終了するまで再び発動しない。",
             "zh-CN": "“这个世界上还有东西待我探明，所以我现在不能死。除此之外还需要什么理由吗？”回合开始时，嘉德利亚获得状态效果生效前的最大生命值×50%的「护盾」，效果持续4回合。此技能须在结束4次行动后才可再次触发。"
           },
           "equipment_rarity_flags": 0,
@@ -1183,6 +1208,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription900042]",
           "descriptions": {
+            "ja-JP": "さらにバトル開始時、自身の被ダメージが60%減少する（解除不可）。",
             "zh-CN": "战斗开始时，嘉德利亚额外减少60%自身承受伤害（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1197,6 +1223,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription900043]",
           "descriptions": {
+            "ja-JP": "ターン開始時、さらに4ターンの間自身の防御力が150%増加する。",
             "zh-CN": "回合开始时，使自己额外增加150%防御力，效果持续4回合。"
           },
           "equipment_rarity_flags": 0,
@@ -1211,6 +1238,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription900044]",
           "descriptions": {
+            "ja-JP": "未知への渇望を強化する。『シールド』の大きさがステータス増減前の自身の最大HP×200%になる。",
             "zh-CN": "强化对未知的渴望，「护盾」值提升为状态效果生效前的嘉德利亚最大生命值×200%。"
           },
           "equipment_rarity_flags": 256,
@@ -1330,6 +1358,7 @@
       },
       "name_key": "[PassiveSkillName90004]",
       "names": {
+        "ja-JP": "未知への渇望",
         "zh-CN": "对未知的渴望"
       },
       "source_memo_ja": "カトレアSR:Lv1 「この世界には、私が解き明かすべきものが残っている。それ以外に倒れない理由がいるかね？」ターン開始時、4ターンの間自身にステータス増減前の自身の最大HP×50%の『シールド』を付与する。このスキルは発動後4回行動終了するまで再び発動しない。/ Lv2 さらにバトル開始時、自身の被ダメージが60%減少する（解除不可）。/ Lv3 ターン開始時、さらに4ターンの間自身の防御力が150%増加する。/ Ex2 未知への渇望を強化する。『シールド』の大きさがステータス増減前の自身の最大HP×200%になる。",
@@ -1389,6 +1418,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

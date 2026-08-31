@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription20011]",
           "descriptions": {
+            "ja-JP": "心に秘めた力が刀身を赤く輝かせ、ランダムな敵1体に攻撃力×390%の物理攻撃を行い、2ターンの間『気絶』を付与する。",
             "zh-CN": "埋藏在伊利亚心中的力量让剑身发出赤红的光辉，随机对1名敌人造成攻击力×390%的物理伤害，并附加「晕厥」状态，效果持续2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 61,
           "description_key": "[ActiveSkillDescription20012]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×410%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×410%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 121,
           "description_key": "[ActiveSkillDescription20013]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×430%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×430%。"
           },
           "equipment_rarity_flags": 0,
@@ -94,6 +97,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName2001]",
       "names": {
+        "ja-JP": "信念の一撃",
         "zh-CN": "信念的重击"
       },
       "source_memo_ja": "イリアR: /Lv1　心に秘めた力が刀身を赤く輝かせ、ランダムな敵1体に攻撃力×390%の物理攻撃を行い、2ターンの間『気絶』を付与する。　/Lv2 物理攻撃のダメージが攻撃力×410%になる。　/Lv3 物理攻撃のダメージが攻撃力×430%になる。",
@@ -123,6 +127,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription20021]",
           "descriptions": {
+            "ja-JP": "魂から引き出した力を剣に乗せ、ランダムな敵1体に攻撃力×420%の物理攻撃を行う。",
             "zh-CN": "伊利亚将发自灵魂的力量灌注在剑刃上，随机对1名敌人造成攻击力×420%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -137,6 +142,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription20022]",
           "descriptions": {
+            "ja-JP": "さらに対象に自身の腕力×150%の直接攻撃を行う。",
             "zh-CN": "对技能目标追加伊利亚力量×150%的直接伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -151,6 +157,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription20023]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×540%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×540%。"
           },
           "equipment_rarity_flags": 0,
@@ -165,6 +172,7 @@
           "character_level": 141,
           "description_key": "[ActiveSkillDescription20024]",
           "descriptions": {
+            "ja-JP": "直接攻撃のダメージが自身の腕力×180%になる。",
             "zh-CN": "造成的直接伤害提升为伊利亚力量×180%。"
           },
           "equipment_rarity_flags": 0,
@@ -233,6 +241,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName2002]",
       "names": {
+        "ja-JP": "渾身の一振り",
         "zh-CN": "奋力的斩击"
       },
       "source_memo_ja": "イリアR: /Lv1　魂から引き出した力を剣に乗せ、ランダムな敵1体に攻撃力×420%の物理攻撃を行う。　/Lv2 さらに自身の腕力×150%の直接攻撃を行う。　/Lv3 物理攻撃のダメージが攻撃力×540%になる。　/Lv4 直接攻撃のダメージが自身の腕力×180%になる。",
@@ -336,6 +345,7 @@
       },
       "name_key": "[CharacterCollectionName58]",
       "names": {
+        "ja-JP": "アルニラムの開花",
         "zh-CN": "串绳星的绽放"
       },
       "required_character_ids": [
@@ -348,24 +358,28 @@
         {
           "id": 2,
           "names": {
+            "ja-JP": "イリア",
             "zh-CN": "伊利亚"
           }
         },
         {
           "id": 12,
           "names": {
+            "ja-JP": "アリアンロッド",
             "zh-CN": "阿丽安萝德"
           }
         },
         {
           "id": 22,
           "names": {
+            "ja-JP": "ザラ",
             "zh-CN": "萨拉"
           }
         },
         {
           "id": 32,
           "names": {
+            "ja-JP": "スクルド",
             "zh-CN": "诗寇蒂"
           }
         }
@@ -811,6 +825,7 @@
       },
       "name_key": "[CharacterCollectionName61]",
       "names": {
+        "ja-JP": "アルゴの覚悟",
         "zh-CN": "南船座的觉悟"
       },
       "required_character_ids": [
@@ -821,12 +836,14 @@
         {
           "id": 61,
           "names": {
+            "ja-JP": "イリア",
             "zh-CN": "伊利亚"
           }
         },
         {
           "id": 2,
           "names": {
+            "ja-JP": "イリア",
             "zh-CN": "伊利亚"
           }
         }
@@ -1272,6 +1289,7 @@
       },
       "name_key": "[CharacterCollectionName64]",
       "names": {
+        "ja-JP": "セクスタンスの指南",
         "zh-CN": "六分仪座的指南"
       },
       "required_character_ids": [
@@ -1282,12 +1300,14 @@
         {
           "id": 109,
           "names": {
+            "ja-JP": "アイリーン",
             "zh-CN": "厄瑞涅"
           }
         },
         {
           "id": 2,
           "names": {
+            "ja-JP": "イリア",
             "zh-CN": "伊利亚"
           }
         }
@@ -1356,12 +1376,14 @@
     "memo": "イリア",
     "name_key": "[CharacterName2]",
     "names": {
+      "ja-JP": "イリア",
       "zh-CN": "伊利亚"
     },
     "speed": 2733,
     "start_time_jst": "2020-01-01 00:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -1379,6 +1401,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription20031]",
           "descriptions": {
+            "ja-JP": "どんな逆境でも諦めない心で、自身の攻撃力が20%増加する（解除不可）。",
             "zh-CN": "伊利亚发挥面对任何逆境都不放弃的意志，使自己增加20%攻击力（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1393,6 +1416,7 @@
           "character_level": 101,
           "description_key": "[PassiveSkillDescription20032]",
           "descriptions": {
+            "ja-JP": "攻撃力の増加量が30%になる。",
             "zh-CN": "攻击力增幅提升为30%。"
           },
           "equipment_rarity_flags": 0,
@@ -1445,6 +1469,7 @@
       },
       "name_key": "[PassiveSkillName2003]",
       "names": {
+        "ja-JP": "諦めない心",
         "zh-CN": "不屈之心"
       },
       "source_memo_ja": "イリアR: /Lv1　どんな逆境でも諦めない心で、自身の攻撃力が20％増加する（解除不可）。　/Lv2 攻撃力の増加量が30％になる。",
@@ -1496,6 +1521,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

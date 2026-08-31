@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription560011]",
           "descriptions": {
+            "ja-JP": "その斬撃は怒り狂う龍神が如く──ランダムな敵に2回攻撃力×600%の物理攻撃を行う。零れ落ちた砂時計は止まらない。それなら最後の一粒が落ちるまで戦い続ける──自身のHP割合が低くなるほど物理攻撃のダメージが大きくなる（最大攻撃力×1350%まで）。ただしHP割合の判定は攻撃1回ごとに行う。",
             "zh-CN": "克劳蒂亚的斩击宛如龙神之怒——随机对敌人进行2次攻击，每次造成攻击力×600%的物理伤害。沙漏中的流沙无情地流逝，既然无力阻止，那就战到最后一颗沙粒落下为止——克劳蒂亚的生命值百分比越低，造成的物理伤害越高（最多攻击力×1350%）。生命值百分比在每次攻击结束后重新进行判定。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription560012]",
           "descriptions": {
+            "ja-JP": "さらに自身のHPをこのスキルの総与ダメージ×5%回復する。",
             "zh-CN": "额外恢复技能总伤害×5%的生命值。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription560013]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×800%になる（最大攻撃力×1800%まで）。",
             "zh-CN": "造成的物理伤害提升为攻击力×800%（最多攻击力×1800%）。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription560014]",
           "descriptions": {
+            "ja-JP": "双剣流奥義暴れ竜！！を強化する。HPの回復量がこのスキルの総与ダメージ×15%になる。",
             "zh-CN": "强化双剑流奥义・荒龙，生命值恢复量提升为技能总伤害×15%。"
           },
           "equipment_rarity_flags": 128,
@@ -125,6 +129,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName56001]",
       "names": {
+        "ja-JP": "双剣流奥義暴れ竜！！",
         "zh-CN": "双剑流奥义・荒龙"
       },
       "source_memo_ja": "クラウディアSR:Lv1 その斬撃は怒り狂う龍神が如く──ランダムな敵に2回攻撃力×600％の物理攻撃を行う。零れ落ちた砂時計は止まらない。それなら最後の一粒が落ちるまで戦い続ける──自身のHPが少なくなるほど物理攻撃のダメージが大きくなる（最大攻撃力×1350％まで）。ただしHP割合の判定は攻撃1回ごとに行う。/ Lv2 さらに自身のHPをこのスキルの総与ダメージ×5％回復する。/ Lv3 物理攻撃のダメージが攻撃力×800％になる（最大攻撃力×1800％まで）。/ Ex1 双剣流奥義暴れ竜！！を強化する。HPの回復量がこのスキルの総与ダメージ×15％になる。",
@@ -158,6 +163,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription560021]",
           "descriptions": {
+            "ja-JP": "「まだ倒れるわけにはいかないんだ！」自身のHP割合が50%未満の場合、2ターンの間攻撃力が最も高い敵の回避率を50%減少させ、『気絶』を付与する。これらは一つの弱体効果として扱う。「夕闇に散れ、双龍斬！」その後その敵に対して、弱体効果付与の有無に関わらず、攻撃力×500%の物理攻撃を行う。自身が『決死』を付帯している場合、自身のHPをこのスキルの総与ダメージ×15%回復する。",
             "zh-CN": "“我还不能倒下！”如果克劳蒂亚的生命值低于50%，对攻击力最高的敌人附加1种弱化效果，该效果包含减少50%闪避率并附加「晕厥」状态，效果持续2回合。“消散在暮色之中吧——双龙斩！！”再对技能目标造成攻击力×500%的物理伤害（此攻击的发动与否不受克劳蒂亚生命值百分比影响）。当克劳蒂亚身上附带「决死」状态时，使自己恢复技能总伤害×15%的生命值。"
           },
           "equipment_rarity_flags": 0,
@@ -172,6 +178,7 @@
           "character_level": 41,
           "description_key": "[ActiveSkillDescription560022]",
           "descriptions": {
+            "ja-JP": "さらに自身が『決死』を付帯していない場合、物理攻撃のダメージが2倍になる。",
             "zh-CN": "当克劳蒂亚身上没有「决死」状态时，造成的物理伤害提升为2倍。"
           },
           "equipment_rarity_flags": 0,
@@ -186,6 +193,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription560023]",
           "descriptions": {
+            "ja-JP": "さらにこのスキルで敵を戦闘不能にできなかった場合、HP回復の前に弱体効果付与と物理攻撃を再発動する（再発動は1回まで）。",
             "zh-CN": "如果技能目标仍然存活，克劳蒂亚在恢复生命值前再次发动弱化效果附加与物理攻击（最多1次）。"
           },
           "equipment_rarity_flags": 0,
@@ -200,6 +208,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription560024]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×900%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×900%。"
           },
           "equipment_rarity_flags": 0,
@@ -214,6 +223,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription560025]",
           "descriptions": {
+            "ja-JP": "秘剣・双龍斬！！を強化する。物理攻撃のダメージが攻撃力×1000%になる。",
             "zh-CN": "强化秘剑・双龙斩，造成的物理伤害提升为攻击力×1000%。"
           },
           "equipment_rarity_flags": 512,
@@ -297,6 +307,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName56002]",
       "names": {
+        "ja-JP": "秘剣・双龍斬！！",
         "zh-CN": "秘剑・双龙斩"
       },
       "source_memo_ja": "クラウディアSR:Lv1 「まだ倒れるわけにはいかないんだ！」自身のHP割合が50％未満の場合、2ターンの間攻撃力が最も高い敵の回避率を50％減少させ、『気絶』を付与する。これらは1つの弱体効果として扱う。「夕闇に散れ、双龍斬！」その後その敵に対して、弱体効果付与の有無に関わらず、攻撃力×500％の物理攻撃を行う。自身が『決死』を付帯している場合、自身のHPをこのスキルの総与ダメージ×15%回復する。/ Lv2 さらに自身が『決死』を付帯していない場合、物理攻撃のダメージが2倍になる。/ Lv3 さらにこのスキルで敵を戦闘不能にできなかった場合、HP回復の前に弱体効果付与と物理攻撃を再発動する（再発動は1回まで）。/ Lv4 物理攻撃のダメージが攻撃力×900％になる。/ Ex3 秘剣・双龍斬！！を強化する。物理攻撃のダメージが攻撃力×1000％になる。",
@@ -763,6 +774,7 @@
       },
       "name_key": "[CharacterCollectionName39]",
       "names": {
+        "ja-JP": "オフィウクスの双武",
         "zh-CN": "蛇夫座的双武"
       },
       "required_character_ids": [
@@ -773,12 +785,14 @@
         {
           "id": 56,
           "names": {
+            "ja-JP": "クラウディア",
             "zh-CN": "克劳蒂亚"
           }
         },
         {
           "id": 27,
           "names": {
+            "ja-JP": "コルディ",
             "zh-CN": "科迪"
           }
         }
@@ -1224,6 +1238,7 @@
       },
       "name_key": "[CharacterCollectionName67]",
       "names": {
+        "ja-JP": "グルスの白椿​",
         "zh-CN": "天鹤座的白山茶"
       },
       "required_character_ids": [
@@ -1234,12 +1249,14 @@
         {
           "id": 112,
           "names": {
+            "ja-JP": "シズ",
             "zh-CN": "静"
           }
         },
         {
           "id": 56,
           "names": {
+            "ja-JP": "クラウディア",
             "zh-CN": "克劳蒂亚"
           }
         }
@@ -1309,12 +1326,14 @@
     "memo": "クラウディア",
     "name_key": "[CharacterName56]",
     "names": {
+      "ja-JP": "クラウディア",
       "zh-CN": "克劳蒂亚"
     },
     "speed": 3056,
     "start_time_jst": "2024-01-31 15:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -1388,6 +1407,7 @@
     },
     "name_key": "[EquipmentName435]",
     "names": {
+      "ja-JP": "双竜の宝剣",
       "zh-CN": "双龙宝剑"
     },
     "passive_effects": [
@@ -1421,6 +1441,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill56Description1]",
         "descriptions": {
+          "ja-JP": "双剣流奥義暴れ竜！！を強化する。HPの回復量がこのスキルの総与ダメージ×15%になる。",
           "zh-CN": "强化双剑流奥义・荒龙，生命值恢复量提升为技能总伤害×15%。"
         },
         "equipment_rarity_flags": 128,
@@ -1429,6 +1450,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill56Description2]",
         "descriptions": {
+          "ja-JP": "私の生き様を強化する。ダメージを20%遮断する。自身のHP割合が低いほど遮断の効果が増加する（最大80%まで）。",
           "zh-CN": "强化我的传奇，阻绝20%伤害。克劳蒂亚的生命值越低，获得的阻绝效果越高（最多80%）。"
         },
         "equipment_rarity_flags": 256,
@@ -1437,6 +1459,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill56Description3]",
         "descriptions": {
+          "ja-JP": "秘剣・双龍斬！！を強化する。物理攻撃のダメージが攻撃力×1000%になる。",
           "zh-CN": "强化秘剑・双龙斩，造成的物理伤害提升为攻击力×1000%。"
         },
         "equipment_rarity_flags": 512,
@@ -1457,6 +1480,7 @@
           "character_level": 11,
           "description_key": "[PassiveSkillDescription560031]",
           "descriptions": {
+            "ja-JP": "命を燃やして敵を討つ、その覚悟が力を高める。バトル開始時40ターンの間自身に『決死』を付与する。残された時間が少ないほど、その刃は鋭く冴える──自身の攻撃力が40%増加し、毎ターン行動開始時自身に自身の現在HP×20%の自傷ダメージを与える（自傷ダメージは付帯者の攻撃力×100%を超えない）。これらは一つのバフとして扱う。",
             "zh-CN": "燃烧生命击败敌人——克劳蒂亚的觉悟使她的力量更加强大。战斗开始时，克劳蒂亚获得「决死」状态，效果持续40回合。剩下的时日越少，她的剑锋越是凌厉——使自己获得1种增益效果，该效果包含增加40%攻击力，并在每回合行动开始时，使自己受到当前生命值×20%的自损伤害（伤害量无法超过附带者攻击力×100%）。"
           },
           "equipment_rarity_flags": 0,
@@ -1471,6 +1495,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription560032]",
           "descriptions": {
+            "ja-JP": "攻撃力の増加量が60%になる。",
             "zh-CN": "攻击力增幅提升为60%。"
           },
           "equipment_rarity_flags": 0,
@@ -1485,6 +1510,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription560033]",
           "descriptions": {
+            "ja-JP": "攻撃力の増加量が80%になる。",
             "zh-CN": "攻击力增幅提升为80%。"
           },
           "equipment_rarity_flags": 0,
@@ -1553,6 +1579,7 @@
       },
       "name_key": "[PassiveSkillName56003]",
       "names": {
+        "ja-JP": "決死の覚悟",
         "zh-CN": "决死一战"
       },
       "source_memo_ja": "クラウディアSR:Lv1 命を燃やして敵を討つ、その覚悟が力を高める。バトル開始時40ターンの間自身に『決死』を付与する。残された時間が少ないほど、その刃は鋭く冴える──自身の攻撃力が40％増加し、毎ターン行動開始時自身に自身の現在HP×20％の自傷ダメージを与える（自傷ダメージは付帯者の攻撃力×100％を超えない）。これらは一つのバフとして扱う。/ Lv2 攻撃力の増加量が60％になる。/ Lv3 攻撃力の増加量が80％になる。",
@@ -1580,6 +1607,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription560041]",
           "descriptions": {
+            "ja-JP": "無敗にして無敵にして、最強──それが初代、いいや私だ。自身の最大HPが30%増加する（解除不可）。自身が攻撃を受けたとき、ダメージを5%遮断する。自身のHP割合が低いほど遮断の効果が増加する（最大20%まで）。",
             "zh-CN": "百战百胜，所向披靡——这是属于初代，不对，是属于我的传奇。克劳蒂亚使自己增加30%最大生命值（无法被解除）。当克劳蒂亚受到攻击时，阻绝5%伤害。克劳蒂亚的生命值越低，获得的阻绝效果越高（最多20%）。"
           },
           "equipment_rarity_flags": 0,
@@ -1594,6 +1622,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription560042]",
           "descriptions": {
+            "ja-JP": "ダメージを10%遮断する。自身のHP割合が低いほど遮断の効果が増加する（最大40%まで）。",
             "zh-CN": "阻绝10%伤害。克劳蒂亚的生命值越低，获得的阻绝效果越高（最多40%）。"
           },
           "equipment_rarity_flags": 0,
@@ -1608,6 +1637,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription560043]",
           "descriptions": {
+            "ja-JP": "最大HPの増加量が60%になる。",
             "zh-CN": "最大生命值增幅提升为60%。"
           },
           "equipment_rarity_flags": 0,
@@ -1622,6 +1652,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription560044]",
           "descriptions": {
+            "ja-JP": "私の生き様を強化する。ダメージを20%遮断する。自身のHP割合が低いほど遮断の効果が増加する（最大80%まで）。",
             "zh-CN": "强化我的传奇，阻绝20%伤害。克劳蒂亚的生命值越低，获得的阻绝效果越高（最多80%）。"
           },
           "equipment_rarity_flags": 256,
@@ -1734,6 +1765,7 @@
       },
       "name_key": "[PassiveSkillName56004]",
       "names": {
+        "ja-JP": "私の生き様",
         "zh-CN": "我的传奇"
       },
       "source_memo_ja": "クラウディアSR:Lv1 無敗にして無敵にして、最強――それが初代、いいや私だ。自身の最大HPが30％増加する（解除不可）。自身が攻撃を受けたとき、ダメージを5％遮断する。自身のHP割合が低いほど遮断の効果が増加する（最大20％まで）。/ Lv2 ダメージを10％遮断する。自身のHP割合が低いほど遮断の効果が増加する（最大40％まで）。/ Lv3 最大HPの増加量が60％になる。/ Ex2 私の生き様を強化する。ダメージを20％遮断する。自身のHP割合が低いほど遮断の効果が増加する（最大80％まで）。",
@@ -1793,6 +1825,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

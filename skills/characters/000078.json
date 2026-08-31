@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription780011]",
           "descriptions": {
+            "ja-JP": "「乱れ撃ちであります！」複数の暗器を投げ、ランダムな敵に5回攻撃力×280%の物理攻撃を行う。",
             "zh-CN": "“天女散花式也！”朝日掷出无数暗器，随机对敌人进行5次攻击，每次造成攻击力×280%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription780012]",
           "descriptions": {
+            "ja-JP": "さらに物理攻撃が回避された場合、10ターンの間自身の命中率が10%増加する。",
             "zh-CN": "当攻击落空时，使自己额外增加10%命中率，效果持续10回合。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription780013]",
           "descriptions": {
+            "ja-JP": "さらにこのスキルで敵を戦闘不能にできなかった場合、10ターンの間自身のクリティカル率が10%増加する。",
             "zh-CN": "如果技能目标仍然存活，使自己额外增加10%暴击率，效果持续10回合。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription780014]",
           "descriptions": {
+            "ja-JP": "忍法・乱れ刃を強化する。物理攻撃のダメージが攻撃力×380%になる。",
             "zh-CN": "强化忍术・天女散花，造成的物理伤害提升为攻击力×380%。"
           },
           "equipment_rarity_flags": 128,
@@ -151,6 +155,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName78001]",
       "names": {
+        "ja-JP": "忍法・乱れ刃",
         "zh-CN": "忍术・天女散花"
       },
       "source_memo_ja": "アサヒSR:Lv1 「乱れ撃ちであります！」複数の暗器を投げ、ランダムな敵に5回攻撃力×280%の物理攻撃を行う。/ Lv2 さらに物理攻撃が回避された場合、10ターンの間自身の命中率が10%増加する。/ Lv3 さらにこのスキルで敵を戦闘不能にできなかった場合、10ターンの間自身のクリティカル率が10%増加する。/ Ex1 忍法・乱れ刃を強化する。物理攻撃のダメージが攻撃力×380%になる。",
@@ -184,6 +189,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription780021]",
           "descriptions": {
+            "ja-JP": "「背中がガラ空きであります！」音もなく忍び寄り、影直伝の暗殺術で、攻撃力が最も高い敵に4回攻撃力×340%の物理攻撃を行う。",
             "zh-CN": "“背后空门大开也！”朝日施展影卫直传的暗杀术，悄无声息地贴近目标，对攻击力最高的敌人进行4次攻击，每次造成攻击力×340%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -198,6 +204,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription780022]",
           "descriptions": {
+            "ja-JP": "物理攻撃の回数が5回になる。",
             "zh-CN": "攻击次数增加为5次。"
           },
           "equipment_rarity_flags": 0,
@@ -212,6 +219,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription780023]",
           "descriptions": {
+            "ja-JP": "さらに自身が風林火山で付与した『攻撃力増加』のスタック数が6以上の場合、このスキルを再発動する（再発動は1回まで）。",
             "zh-CN": "如果朝日身上附带风林火山附加的「攻击力上升」状态，且叠加数为6层以上时，再次发动此技能（最多1次）。"
           },
           "equipment_rarity_flags": 0,
@@ -226,6 +234,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription780024]",
           "descriptions": {
+            "ja-JP": "さらに自身が風林火山で付与した『攻撃力増加』のスタック数が12以上の場合、再発動の回数が2回までになる。",
             "zh-CN": "如果朝日身上附带风林火山附加的「攻击力上升」状态，且叠加数为12层以上时，再次发动技能的次数增加为2次。"
           },
           "equipment_rarity_flags": 0,
@@ -240,6 +249,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription780025]",
           "descriptions": {
+            "ja-JP": "忍法・日影崩しを強化する。物理攻撃のダメージが攻撃力×380%になる。",
             "zh-CN": "强化忍术・崩日摧影，造成的物理伤害提升为攻击力×380%。"
           },
           "equipment_rarity_flags": 512,
@@ -359,6 +369,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName78002]",
       "names": {
+        "ja-JP": "忍法・日影崩し",
         "zh-CN": "忍术・崩日摧影"
       },
       "source_memo_ja": "アサヒSR:Lv1 「背中がガラ空きであります！」音もなく忍び寄り、影直伝の暗殺術で、攻撃力が最も高い敵に4回攻撃力×340%の物理攻撃を行う。/ Lv2 物理攻撃の回数が5回になる。/ Lv3 さらに自身が風林火山で付与した『攻撃力増加』のスタック数が6以上の場合、このスキルを再発動する（再発動は1回まで）。/ Lv4 さらに自身が風林火山で付与した『攻撃力増加』のスタック数が12以上の場合、再発動の回数が2回までになる。/ Ex3 忍法・日影崩しを強化する。物理攻撃のダメージが攻撃力×380%になる。",
@@ -817,6 +828,7 @@
       },
       "name_key": "[CharacterCollectionName47]",
       "names": {
+        "ja-JP": "プテロミスの秘伝",
         "zh-CN": "飞鼠座的秘传"
       },
       "required_character_ids": [
@@ -827,12 +839,14 @@
         {
           "id": 78,
           "names": {
+            "ja-JP": "アサヒ",
             "zh-CN": "朝日"
           }
         },
         {
           "id": 5,
           "names": {
+            "ja-JP": "ソルティーナ",
             "zh-CN": "索尔缇娜"
           }
         }
@@ -902,12 +916,14 @@
     "memo": "アサヒ",
     "name_key": "[CharacterName78]",
     "names": {
+      "ja-JP": "アサヒ",
       "zh-CN": "朝日"
     },
     "speed": 3044,
     "start_time_jst": "2024-05-15 15:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -981,6 +997,7 @@
     },
     "name_key": "[EquipmentName567]",
     "names": {
+      "ja-JP": "隠密流星",
       "zh-CN": "隐密流星"
     },
     "passive_effects": [
@@ -1014,6 +1031,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill78Description1]",
         "descriptions": {
+          "ja-JP": "忍法・乱れ刃を強化する。物理攻撃のダメージが攻撃力×380%になる。",
           "zh-CN": "强化忍术・天女散花，造成的物理伤害提升为攻击力×380%。"
         },
         "equipment_rarity_flags": 128,
@@ -1022,6 +1040,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill78Description2]",
         "descriptions": {
+          "ja-JP": "月影の従者を強化する。被ダメージの減少量が30%になる。",
           "zh-CN": "强化月影侍卫，承受伤害降幅提升为30%。"
         },
         "equipment_rarity_flags": 256,
@@ -1030,6 +1049,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill78Description3]",
         "descriptions": {
+          "ja-JP": "忍法・日影崩しを強化する。物理攻撃のダメージが攻撃力×380%になる。",
           "zh-CN": "强化忍术・崩日摧影，造成的物理伤害提升为攻击力×380%。"
         },
         "equipment_rarity_flags": 512,
@@ -1050,6 +1070,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription780031]",
           "descriptions": {
+            "ja-JP": "「風のように疾く、林のように静かに……自然に習う事、影の教えであります！」自身の行動終了時、自身に攻撃力が5%増加するバフを1スタック付与する（最大15スタックまで）（解除不可）。",
             "zh-CN": "“疾如风，徐如林……以自然为师乃是影卫的教诲！”行动结束时，朝日获得1层增益效果，使自己增加5%攻击力（最多叠加15层）（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1064,6 +1085,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription780032]",
           "descriptions": {
+            "ja-JP": "さらに自身の行動終了時に自身が付帯しているバフの個数が4以上の場合、『攻撃力増加』の付与スタック数が2になる（自身が付帯しているバフのターン数が減少した後にカウントされる）。",
             "zh-CN": "行动结束时，如果朝日身上附带4种以上增益效果，获得的「攻击力上升」效果增加为2层（增益效果总数于朝日身上附带的增益效果持续时间减少后进行计算）。"
           },
           "equipment_rarity_flags": 0,
@@ -1078,6 +1100,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription780033]",
           "descriptions": {
+            "ja-JP": "さらに自身の行動終了時に自身が付帯しているバフの個数が8以上の場合、『攻撃力増加』の付与スタック数が3になる（自身が付帯しているバフのターン数が減少した後にカウントされる）。",
             "zh-CN": "行动结束时，如果朝日身上附带8种以上增益效果，获得的「攻击力上升」效果增加为3层（增益效果总数于朝日身上附带的增益效果持续时间减少后进行计算）。"
           },
           "equipment_rarity_flags": 0,
@@ -1146,6 +1169,7 @@
       },
       "name_key": "[PassiveSkillName78003]",
       "names": {
+        "ja-JP": "風林火山",
         "zh-CN": "风林火山"
       },
       "source_memo_ja": "アサヒSR:Lv1 「風のように疾く、林のように静かに……自然に習う事、影の教えであります！」自身の行動終了時、自身に攻撃力が5%増加するバフを1回付与する（最大15回まで）（解除不可）。/ Lv2 さらに自身の行動終了時に自身が付帯しているバフの個数が4以上の場合、『攻撃力増加』の付与回数が2回になる（バフのターン数が減少した後にカウントされる）。/ Lv3 さらに自身の行動終了時に自身が付帯しているバフの個数が8以上の場合、『攻撃力増加』の付与回数が3回になる（バフのターン数が減少した後にカウントされる）。",
@@ -1173,6 +1197,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription780041]",
           "descriptions": {
+            "ja-JP": "「生きて役に立つ、それが護るという事であります！」バトル開始時10ターンの間自身の被ダメージが15%減少する。",
             "zh-CN": "“活着为主上效命，方为护主之道也！”战斗开始时，朝日减少15%自身承受伤害，效果持续10回合。"
           },
           "equipment_rarity_flags": 0,
@@ -1187,6 +1212,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription780042]",
           "descriptions": {
+            "ja-JP": "さらにバトル開始時自身以外の黄属性の味方の生存数が1体以上の場合、10ターンの間自身の防御力が150%、物理防御力が100%増加する。これらは一つのバフとして扱う。",
             "zh-CN": "战斗开始时，如果存活在场上的其他流金属性友军数为1名以上，朝日额外获得1种增益效果，该效果包含增加150%防御力与100%物理防御力，效果持续10回合。"
           },
           "equipment_rarity_flags": 0,
@@ -1201,6 +1227,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription780043]",
           "descriptions": {
+            "ja-JP": "さらに1ターン目のターン開始時自身以外の黄属性の味方の生存数が2体以上の場合、自身に10ターンの間自身の攻撃力×800%の『シールド』を付与する。",
             "zh-CN": "第1回合开始时，如果存活在场上的其他流金属性友军数为2名以上，朝日额外获得攻击力×800%的「护盾」，效果持续10回合。"
           },
           "equipment_rarity_flags": 0,
@@ -1215,6 +1242,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription780044]",
           "descriptions": {
+            "ja-JP": "月影の従者を強化する。被ダメージの減少量が30%になる。",
             "zh-CN": "强化月影侍卫，承受伤害降幅提升为30%。"
           },
           "equipment_rarity_flags": 256,
@@ -1313,6 +1341,7 @@
       },
       "name_key": "[PassiveSkillName78004]",
       "names": {
+        "ja-JP": "月影の従者",
         "zh-CN": "月影侍卫"
       },
       "source_memo_ja": "アサヒSR:Lv1 「生きて役に立つ、それが護るという事であります！」バトル開始時10ターンの間自身の被ダメージが15%減少する。/ Lv2 さらにバトル開始時自身以外の黄属性の味方の生存数が1体以上の場合、10ターンの間自身の防御力が150%、物理防御力が100%増加する。/ Lv3 さらにバトル開始時自身以外の黄属性の味方の生存数が2体以上の場合、自身に10ターンの間自身の攻撃力×800%の『シールド』を付与する。/ Ex2 月影の従者を強化する。被ダメージの減少量が30%になる。",
@@ -1372,6 +1401,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

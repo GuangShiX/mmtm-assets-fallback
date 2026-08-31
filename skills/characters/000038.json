@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription380011]",
           "descriptions": {
+            "ja-JP": "立ち向かう者たちへ、神の祝福あれ。2ターンの間味方全体の攻撃力を自身の攻撃力×15%増加させる。",
             "zh-CN": "神的祝福与勇敢的灵魂同在。使全体友军增加攻击力，增幅为奥莉维亚攻击力×15%，效果持续2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription380012]",
           "descriptions": {
+            "ja-JP": "さらに2ターンの間味方全体の防御力を自身の防御力×15%増加させる。",
             "zh-CN": "使全体友军额外增加防御力，增幅为奥莉维亚防御力×15%，效果持续2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription380013]",
           "descriptions": {
+            "ja-JP": "防御力の増加量が自身の防御力×30%、攻撃力の増加量が自身の攻撃力×30%になる。",
             "zh-CN": "防御力与攻击力增幅分别提升为奥莉维亚防御力×30%及攻击力×30%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription380014]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription380014]",
             "zh-CN": "[ActiveSkillDescription380014]"
           },
           "equipment_rarity_flags": 128,
@@ -64,6 +68,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription380015]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription380015]",
             "zh-CN": "[ActiveSkillDescription380015]"
           },
           "equipment_rarity_flags": 512,
@@ -136,6 +141,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName38001]",
       "names": {
+        "ja-JP": "勇気への祝福",
         "zh-CN": "为勇气献上祝福"
       },
       "source_memo_ja": "オリヴィエSR: /Lv1　立ち向かう者たちへ、神の祝福あれ。2ターンの間味方全体の攻撃力を自身の攻撃力×15％増加させる。　/Lv2 さらに2ターンの間味方全体の防御力を自身の防御力×15％増加させる。　/Lv3 防御力の増加量が自身の防御力×30%、攻撃力の増加量が自身の攻撃力×30%になる。　/専用1 勇気への祝福を強化する。防御力の増加量が自身の防御力×40%、攻撃力の増加量が自身の攻撃力×40%になる。　/専用3 勇気への祝福を強化する。防御力の増加量が自身の防御力×50%、攻撃力の増加量が自身の攻撃力×50%になる。",
@@ -165,6 +171,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription380021]",
           "descriptions": {
+            "ja-JP": "先陣を切って突撃し、ランダムな敵に4回攻撃力×350%の物理攻撃を行う。その勇気ある行動は神の祝福を呼び、味方全体にこのスキルの総与ダメージ×40%の『シールド』を付与する。",
             "zh-CN": "奥莉维亚在前方领军突击，随机对敌人进行4次攻击，每次造成攻击力×350%的物理伤害。她勇敢的行动唤来神的祝福，使全体友军获得技能总伤害×40%的「护盾」。"
           },
           "equipment_rarity_flags": 0,
@@ -179,6 +186,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription380022]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×390%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×390%。"
           },
           "equipment_rarity_flags": 0,
@@ -193,6 +201,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription380023]",
           "descriptions": {
+            "ja-JP": "さらにこのスキルで敵を戦闘不能にした場合、2ターンの間攻撃力が最も高い味方のクリダメ強化を30%増加させる。",
             "zh-CN": "如果技能目标失去战斗能力，奥莉维亚使攻击力最高的友军额外增加30%暴击伤害强化，效果持续2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -207,6 +216,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription380024]",
           "descriptions": {
+            "ja-JP": "物理攻撃の回数が5回になる。",
             "zh-CN": "攻击次数增加为5次。"
           },
           "equipment_rarity_flags": 0,
@@ -221,6 +231,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription380025]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription380025]",
             "zh-CN": "[ActiveSkillDescription380025]"
           },
           "equipment_rarity_flags": 256,
@@ -318,6 +329,7 @@
       "max_cooldown": 6,
       "name_key": "[ActiveSkillName38002]",
       "names": {
+        "ja-JP": "続け、聖なる旗に",
         "zh-CN": "跟随飘扬的圣旗"
       },
       "source_memo_ja": "オリヴィエSR: /Lv1　先陣を切って突撃し、ランダムな敵に4回攻撃力×350％の物理攻撃を行う。その勇気ある行動は神の祝福を呼び、味方全体にこのスキルの総与ダメージ×40％の『シールド』を付与する。　/Lv2 物理攻撃のダメージが攻撃力×390%になる。　/Lv3 さらにこのスキルで敵を戦闘不能にした場合、2ターンの間攻撃力が最も高い味方のクリティカルダメージを30％増加させる。　/Lv4 物理攻撃の回数が5回になる。　/専用2 続け、聖なる旗にを強化する。物理攻撃のダメージが攻撃力×450%になる。",
@@ -782,6 +794,7 @@
       },
       "name_key": "[CharacterCollectionName6]",
       "names": {
+        "ja-JP": "アンドロメダの戦剣",
         "zh-CN": "仙女座的战剑"
       },
       "required_character_ids": [
@@ -794,24 +807,28 @@
         {
           "id": 36,
           "names": {
+            "ja-JP": "トロポン",
             "zh-CN": "托波波"
           }
         },
         {
           "id": 38,
           "names": {
+            "ja-JP": "オリヴィエ",
             "zh-CN": "奥莉维亚"
           }
         },
         {
           "id": 39,
           "names": {
+            "ja-JP": "プリマヴェーラ",
             "zh-CN": "普莉玛维拉"
           }
         },
         {
           "id": 41,
           "names": {
+            "ja-JP": "ナターシャ",
             "zh-CN": "娜塔夏"
           }
         }
@@ -1249,6 +1266,7 @@
       },
       "name_key": "[CharacterCollectionName10]",
       "names": {
+        "ja-JP": "ミモザの抱擁",
         "zh-CN": "十字架三的拥抱"
       },
       "required_character_ids": [
@@ -1259,12 +1277,14 @@
         {
           "id": 42,
           "names": {
+            "ja-JP": "フォルティナ",
             "zh-CN": "福尔蒂娜"
           }
         },
         {
           "id": 38,
           "names": {
+            "ja-JP": "オリヴィエ",
             "zh-CN": "奥莉维亚"
           }
         }
@@ -1702,6 +1722,7 @@
       },
       "name_key": "[CharacterCollectionName30]",
       "names": {
+        "ja-JP": "キルキヌスの教導",
         "zh-CN": "圆规座的教导"
       },
       "required_character_ids": [
@@ -1712,12 +1733,14 @@
         {
           "id": 51,
           "names": {
+            "ja-JP": "ソフィア",
             "zh-CN": "苏菲亚"
           }
         },
         {
           "id": 38,
           "names": {
+            "ja-JP": "オリヴィエ",
             "zh-CN": "奥莉维亚"
           }
         }
@@ -1787,12 +1810,14 @@
     "memo": "オリヴィエ",
     "name_key": "[CharacterName38]",
     "names": {
+      "ja-JP": "オリヴィエ",
       "zh-CN": "奥莉维亚"
     },
     "speed": 3120,
     "start_time_jst": "2020-01-01 00:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -1866,6 +1891,7 @@
     },
     "name_key": "[EquipmentName327]",
     "names": {
+      "ja-JP": "ウナム・サンクタム",
       "zh-CN": "独一至圣之枪"
     },
     "passive_effects": [
@@ -1899,6 +1925,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill38Description1]",
         "descriptions": {
+          "ja-JP": "勇気への祝福を強化する。防御力の増加量が自身の防御力×40%、攻撃力の増加量が自身の攻撃力×40%になる。",
           "zh-CN": "强化为勇气献上祝福，防御力与攻击力增幅分别提升为奥莉维亚防御力×40%及攻击力×40%。"
         },
         "equipment_rarity_flags": 128,
@@ -1907,6 +1934,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill38Description2]",
         "descriptions": {
+          "ja-JP": "続け、聖なる旗にを強化する。物理攻撃のダメージが攻撃力×450%になる。",
           "zh-CN": "强化跟随飘扬的圣旗，造成的物理伤害提升为攻击力×450%。"
         },
         "equipment_rarity_flags": 256,
@@ -1915,6 +1943,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill38Description3]",
         "descriptions": {
+          "ja-JP": "勇気への祝福を強化する。防御力の増加量が自身の防御力×50%、攻撃力の増加量が自身の攻撃力×50%になる。",
           "zh-CN": "强化为勇气献上祝福，防御力与攻击力增幅分别提升为奥莉维亚防御力×50%及攻击力×50%。"
         },
         "equipment_rarity_flags": 512,
@@ -1935,6 +1964,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription380031]",
           "descriptions": {
+            "ja-JP": "地道に積んだ善行は必ず返ってくる。自身の最大HPが20%増加する（解除不可）。",
             "zh-CN": "踏实行善，必有善报，使奥莉维亚增加20%最大生命值（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1949,6 +1979,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription380032]",
           "descriptions": {
+            "ja-JP": "さらに自身の防御力が40%増加する（解除不可）。",
             "zh-CN": "额外增加40%防御力（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1963,6 +1994,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription380033]",
           "descriptions": {
+            "ja-JP": "最大HPの増加量が30%、防御力の増加量が50%になる。",
             "zh-CN": "最大生命值增幅提升为30%，防御力增幅提升为50%。"
           },
           "equipment_rarity_flags": 0,
@@ -2031,6 +2063,7 @@
       },
       "name_key": "[PassiveSkillName38003]",
       "names": {
+        "ja-JP": "善行の報い",
         "zh-CN": "善有善报"
       },
       "source_memo_ja": "オリヴィエSR: /Lv1　地道に積んだ善行は必ず返ってくる。自身の最大HPが20％増加する（解除不可）。　/Lv2 さらに自身の防御力が40％増加する（解除不可）。　/Lv3 最大HPの増加量が30％、防御力の増加量が50％になる。",
@@ -2058,6 +2091,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription380041]",
           "descriptions": {
+            "ja-JP": "寵愛を受ける者を傷つければ、神に見放される。自身がクリティカルヒットを受けた場合、1ターンの間攻撃してきた敵の攻撃力を15%減少させる。",
             "zh-CN": "若你伤害神的宠儿，神必定遗弃你。当奥莉维亚受到暴击时，使发动攻击的敌人减少15%攻击力，效果持续1回合。"
           },
           "equipment_rarity_flags": 0,
@@ -2072,6 +2106,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription380042]",
           "descriptions": {
+            "ja-JP": "攻撃力の減少量が25%になる。",
             "zh-CN": "攻击力降幅提升为25%。"
           },
           "equipment_rarity_flags": 0,
@@ -2086,6 +2121,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription380043]",
           "descriptions": {
+            "ja-JP": "攻撃力の減少量が40%になる。",
             "zh-CN": "攻击力降幅提升为40%。"
           },
           "equipment_rarity_flags": 0,
@@ -2154,6 +2190,7 @@
       },
       "name_key": "[PassiveSkillName38004]",
       "names": {
+        "ja-JP": "神に愛されし者",
         "zh-CN": "神的宠儿"
       },
       "source_memo_ja": "オリヴィエSR: /Lv1　寵愛を受ける者を傷つければ、神に見放される。自身がクリティカルヒットを受けた場合、1ターンの間攻撃してきた敵の攻撃力を15％減少させる。　/Lv2 攻撃力の減少量が25％になる。　/Lv3 攻撃力の減少量が40％になる。",
@@ -2209,6 +2246,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

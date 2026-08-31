@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription1350011]",
           "descriptions": {
+            "ja-JP": "メルランの操る光が魔力の結合を解離させ、干渉を阻害する。ランダムな敵3体に攻撃力×130%の魔法攻撃を行う。魔法攻撃の前に5ターンの間対象に魔法防御力が5%減少する弱体効果を1スタック付与する（最大8スタックまで）。",
             "zh-CN": "梅尔林操纵的光芒解离聚合的魔力，阻断来自魔力的干涉——随机对3名敌人造成攻击力×130%的魔法伤害。发动攻击前，对技能目标附加1层弱化效果，减少5%魔法防御力，效果持续5回合（最多叠加8层）。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription1350012]",
           "descriptions": {
+            "ja-JP": "さらに『魔法防御力減少』付与の判定の後、バトル中このスキルを発動するのが3回目以降の場合、このスキルで付与した対象の『魔法防御力減少』のスタック数を2増加させる。",
             "zh-CN": "战斗中自第3次发动此技能起，在「魔法防御力下降」附加判定结束后，使此技能附加的「魔法防御力下降」的叠加数额外增加2层。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1350013]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×400%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×400%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1350014]",
           "descriptions": {
+            "ja-JP": "ディソシエーションを強化する。魔法攻撃の対象がランダムな敵5体になる。",
             "zh-CN": "强化解离之光，技能目标增加为5名随机敌人。"
           },
           "equipment_rarity_flags": 128,
@@ -67,6 +71,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription1350015]",
           "descriptions": {
+            "ja-JP": "ディソシエーションを強化する。魔法攻撃のダメージが攻撃力×440%になる。",
             "zh-CN": "强化解离之光，造成的魔法伤害提升为攻击力×440%。"
           },
           "equipment_rarity_flags": 512,
@@ -142,6 +147,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName135001]",
       "names": {
+        "ja-JP": "ディソシエーション",
         "zh-CN": "解离之光"
       },
       "source_memo_ja": "メルランSR:Lv1 メルランの操る光が魔力の結合を解離させ、干渉を阻害する。ランダムな敵3体に攻撃力×130%の魔法攻撃を行う。魔法攻撃の前に5ターンの間対象に魔法防御力が5%減少する弱体効果を1スタック付与する（最大8スタックまで）。/ Lv2 さらに『魔法防御力減少』付与の判定の後、このスキルを発動するのが3回目以降の場合、このスキルで付与した対象の『魔法防御力減少』のスタック数を2増加させる。/ Lv3 魔法攻撃のダメージが攻撃力×400%になる。/ Ex1 ディソシエーションを強化する。魔法攻撃の対象がランダムな敵5体になる。/ Ex3 ディソシエーションを強化する。魔法攻撃のダメージが攻撃力×440%になる。",
@@ -179,6 +185,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription1350021]",
           "descriptions": {
+            "ja-JP": "収束した光の一射が万物を貫く。魔法防御力が最も低い敵に7回攻撃力×420%の魔法攻撃を行う。",
             "zh-CN": "梅尔林释放威力足以贯穿万物的凝聚光束——对魔法防御力最低的敌人进行7次攻击，每次造成攻击力×420%的魔法伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -193,6 +200,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription1350022]",
           "descriptions": {
+            "ja-JP": "さらにバトル中このスキルを発動するのが3回目以降の場合、魔法攻撃のダメージが攻撃力×630%になる。",
             "zh-CN": "战斗中自第3次发动此技能起，造成的魔法伤害提升为攻击力×630%。"
           },
           "equipment_rarity_flags": 0,
@@ -207,6 +215,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription1350023]",
           "descriptions": {
+            "ja-JP": "さらにバトル中このスキルを発動するのが4回目以降の場合、魔法攻撃のダメージが攻撃力×840%になる。",
             "zh-CN": "战斗中自第4次发动此技能起，造成的魔法伤害提升为攻击力×840%。"
           },
           "equipment_rarity_flags": 0,
@@ -221,6 +230,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription1350024]",
           "descriptions": {
+            "ja-JP": "バトル中このスキルを発動するのが4回目以降の場合、さらにこの攻撃は対象の『シールド』を無視する。",
             "zh-CN": "战斗中自第4次发动此技能起，此攻击无视技能目标的「护盾」。"
           },
           "equipment_rarity_flags": 0,
@@ -312,6 +322,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName135002]",
       "names": {
+        "ja-JP": "フォトンレイ",
         "zh-CN": "妖精光束"
       },
       "source_memo_ja": "メルランSR:Lv1 収束した光の一射が万物を貫く。魔法防御力が最も低い敵に7回攻撃力×420%の魔法攻撃を行う。/ Lv2 さらにこのスキルを発動するのが3回目以降の場合、魔法攻撃のダメージが攻撃力×630%になる。/ Lv3 さらにこのスキルを発動するのが4回目以降の場合、魔法攻撃のダメージが攻撃力×840%になる。/ Lv4 このスキルを発動するのが4回目以降の場合、さらにこの攻撃は対象の『シールド』を無視する。",
@@ -767,6 +778,7 @@
       },
       "name_key": "[CharacterCollectionName87]",
       "names": {
+        "ja-JP": "アケルナルの神童​",
         "zh-CN": "河尾星的神童"
       },
       "required_character_ids": [
@@ -778,18 +790,21 @@
         {
           "id": 135,
           "names": {
+            "ja-JP": "メルラン",
             "zh-CN": "梅尔林"
           }
         },
         {
           "id": 93,
           "names": {
+            "ja-JP": "アルトリア",
             "zh-CN": "阿尔托莉亚"
           }
         },
         {
           "id": 75,
           "names": {
+            "ja-JP": "モルガナ",
             "zh-CN": "摩嘉娜"
           }
         }
@@ -859,12 +874,14 @@
     "memo": "メルラン",
     "name_key": "[CharacterName135]",
     "names": {
+      "ja-JP": "メルラン",
       "zh-CN": "梅尔林"
     },
     "speed": 3018,
     "start_time_jst": "2026-01-29 15:00:00",
     "subtitle_key": "",
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -938,6 +955,7 @@
     },
     "name_key": "[EquipmentName909]",
     "names": {
+      "ja-JP": "妖精さんの小部屋",
       "zh-CN": "妖精的铃兰小窝"
     },
     "passive_effects": [
@@ -971,6 +989,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill135Description1]",
         "descriptions": {
+          "ja-JP": "ディソシエーションを強化する。魔法攻撃の対象がランダムな敵5体になる。",
           "zh-CN": "强化解离之光，技能目标增加为5名随机敌人。"
         },
         "equipment_rarity_flags": 128,
@@ -979,6 +998,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill135Description2]",
         "descriptions": {
+          "ja-JP": "虐げられた才能を強化する。『シールド』の大きさが自身の攻撃力×1000%になる。",
           "zh-CN": "强化饱受压抑的天赋，「护盾」值提升为梅尔林攻击力×1000%。"
         },
         "equipment_rarity_flags": 256,
@@ -987,6 +1007,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill135Description3]",
         "descriptions": {
+          "ja-JP": "ディソシエーションを強化する。魔法攻撃のダメージが攻撃力×440%になる。",
           "zh-CN": "强化解离之光，造成的魔法伤害提升为攻击力×440%。"
         },
         "equipment_rarity_flags": 512,
@@ -1009,6 +1030,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription1350031]",
           "descriptions": {
+            "ja-JP": "現実から逃避するための、自分にしか見えない妖精さん。それが類稀なる才能の片鱗であることを、本人はまだ理解していない。毎ターン開始時、自身に『妖精さん』を1スタック付与する（最大30スタックまで）（解除不可）。このバフは1スタックにつき自身の攻撃力を3%、物理防御力を5%増加させる。",
             "zh-CN": "只有自己能看见的妖精，是用来逃避现实的寄托——梅尔林还未意识到，它们正是一个人拥有稀世天赋的证明。每回合开始时，梅尔林获得1层「妖精」（最多30层）（无法被解除）。每层「妖精」使梅尔林增加3%攻击力与5%物理防御力。"
           },
           "equipment_rarity_flags": 0,
@@ -1023,6 +1045,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription1350032]",
           "descriptions": {
+            "ja-JP": "さらにターン開始時、4ターンの間自身に自身の攻撃力×200%の『シールド』を付与する。『シールド』を付与する効果は発動後4回行動終了するまで再び発動せず、13ターン目以降は発動しない。",
             "zh-CN": "回合开始时，梅尔林额外获得攻击力×200%的「护盾」，效果持续4回合。「护盾」附加效果须在结束4次行动后才可再次触发。自第13回合起无法触发此效果。"
           },
           "equipment_rarity_flags": 0,
@@ -1037,6 +1060,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription1350033]",
           "descriptions": {
+            "ja-JP": "さらに自身以外の黄属性の味方の編成数が2体以上の場合、『妖精さん』の付与スタック数が2になる。",
             "zh-CN": "当队伍中的其他流金属性友军数为2名以上时，获得的「妖精」层数增加为2层。"
           },
           "equipment_rarity_flags": 0,
@@ -1051,6 +1075,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription1350034]",
           "descriptions": {
+            "ja-JP": "虐げられた才能を強化する。『シールド』の大きさが自身の攻撃力×1000%になる。",
             "zh-CN": "强化饱受压抑的天赋，「护盾」值提升为梅尔林攻击力×1000%。"
           },
           "equipment_rarity_flags": 256,
@@ -1156,6 +1181,7 @@
       },
       "name_key": "[PassiveSkillName135003]",
       "names": {
+        "ja-JP": "虐げられた才能",
         "zh-CN": "饱受压抑的天赋"
       },
       "source_memo_ja": "メルランSR:Lv1 現実から逃避するための、自分にしか見えない妖精さん。それが類稀なる才能の片鱗であることを、本人はまだ理解していない。毎ターン開始時、自身に『妖精さん』を1スタック付与する（最大30スタックまで）（解除不可）。このバフは1スタックにつき自身の攻撃力を3%、物理防御力を5%増加させる。/ Lv2 ターン開始時、4ターンの間自身に自身の攻撃力×200%の『シールド』を付与する。『シールド』を付与する効果は発動後4回行動終了するまで再び発動せず、13ターン目以降は発動しない。/ Lv3 さらに自身以外の黄属性の味方の編成数が2体以上の場合、『妖精さん』の付与スタック数が2になる。/ Ex2 虐げられた才能を強化する。『シールド』の大きさが自身の攻撃力×1000%になる。",
@@ -1187,6 +1213,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription1350041]",
           "descriptions": {
+            "ja-JP": "「み、みんなのおかげで、少しだけなら笑えるようになって……だ、だから、今度は私が頑張る番なんです……！」ターン開始時、4ターンの間自身の被ダメージが10%減少し、防御力が30%増加する。このスキルは発動後4回行動終了するまで再び発動しない。",
             "zh-CN": "“多、多亏有大家，我才慢慢学会怎么笑了……所、所以，这次轮到我来努力了……！”回合开始时，梅尔林减少10%自身承受伤害，增加30%防御力，效果持续4回合。此技能须在结束4次行动后才可再次触发。"
           },
           "equipment_rarity_flags": 0,
@@ -1201,6 +1228,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription1350042]",
           "descriptions": {
+            "ja-JP": "防御力の増加量が150%になる。",
             "zh-CN": "防御力增幅提升为150%。"
           },
           "equipment_rarity_flags": 0,
@@ -1215,6 +1243,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription1350043]",
           "descriptions": {
+            "ja-JP": "被ダメージの減少量が30%になる。",
             "zh-CN": "承受伤害降幅提升为30%。"
           },
           "equipment_rarity_flags": 0,
@@ -1283,6 +1312,7 @@
       },
       "name_key": "[PassiveSkillName135004]",
       "names": {
+        "ja-JP": "振り絞る勇気",
         "zh-CN": "努力鼓起的勇气"
       },
       "source_memo_ja": "メルランSR:Lv1 「み、みんなのおかげで、少しだけなら笑えるようになって……だ、だから、今度は私が頑張る番なんです……！」ターン開始時、4ターンの間自身の被ダメージが10%減少し、防御力が30%増加する。このスキルは発動後4回行動終了するまで再び発動しない。/ Lv2 防御力の増加量が150%になる。/ Lv3 被ダメージの減少量が30%になる。",
@@ -1338,6 +1368,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription310011]",
           "descriptions": {
+            "ja-JP": "先代から継承した大技で、ランダムな敵1体に攻撃力×130%の物理攻撃を行う。山賊直伝の秘薬矢の効果で止血を遅らせ、50%の確率で対象に2ターンの間『出血』を付与する。毎ターン行動開始時に自身の攻撃力×20%のダメージを与える。",
             "zh-CN": "前任头目传授给加姆的必杀技，随机对1名敌人造成攻击力×130%的物理伤害。涂上山贼独门秘药的箭矢能推迟敌人伤口止血的速度，50%概率对技能目标附加「流血」状态，效果持续2回合，每回合行动开始时造成加姆攻击力×20%的伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -46,6 +47,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName31001]",
       "names": {
+        "ja-JP": "戦弓の一矢",
         "zh-CN": "战弓一箭"
       },
       "source_memo_ja": "ガルムN: /Lv1　先代から継承した大技で、ランダムな敵1体に攻撃力×130％の物理攻撃を行う。山賊直伝の秘薬矢の効果で止血を遅らせ、50％の確率で対象に2ターンの間『出血』を付与する。毎ターン行動開始時に自身の攻撃力×20％のダメージを与える。",
@@ -67,6 +69,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription310021]",
           "descriptions": {
+            "ja-JP": "仲間を狙う敵を遠方から射撃し、ランダムな敵3体に攻撃力×110%の物理攻撃を行う。そのまま遠方から狙いを定めて牽制し続け、2ターンの間対象のスピードを20%減少させる。",
             "zh-CN": "加姆从远方狙击想对同伴不利的敌人，随机对3名敌人造成攻击力×110%的物理伤害。她从远处持续牵制敌人，使技能目标减少20%速度，效果持续2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -102,6 +105,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName31002]",
       "names": {
+        "ja-JP": "追撃連射",
         "zh-CN": "追击连射"
       },
       "source_memo_ja": "ガルムN: /Lv1　仲間を狙う敵を遠方から射撃し、ランダムな敵3体に攻撃力×110％の物理攻撃を行う。そのまま遠方から狙いを定めて牽制し続け、2ターンの間対象のスピードを20％減少させる。",
@@ -172,12 +176,14 @@
     "memo": "ガルム",
     "name_key": "[CharacterName31]",
     "names": {
+      "ja-JP": "ガルム",
       "zh-CN": "加姆"
     },
     "speed": 2880,
     "start_time_jst": "2020-01-01 00:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -222,6 +228,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

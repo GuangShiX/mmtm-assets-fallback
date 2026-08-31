@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription950011]",
           "descriptions": {
+            "ja-JP": "「悪い子はどかんだ！」ランダムな敵5体に攻撃力×280%の物理攻撃を行う。「ボクにおーまーかーせー」その後2ターンの間味方全体の防御力を10%増加させる。",
             "zh-CN": "“不乖就要砰咚！”妮娜随机对5名敌人造成攻击力×280%的物理伤害。“交～给～我～吧～”再使全体友军增加10%防御力，效果持续2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription950012]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×380%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×380%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription950013]",
           "descriptions": {
+            "ja-JP": "さらにこのスキルでクリティカルヒットした回数1回につき防御力の増加量が5%大きくなる（合計で最大35%まで）。",
             "zh-CN": "每次技能暴击，使防御力增幅额外提升5%（合计最多35%）。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription950014]",
           "descriptions": {
+            "ja-JP": "迷子雷鳴を強化する。このスキルでクリティカルヒットした回数1回につき防御力の増加量が10%大きくなる（合計で最大60%まで）。",
             "zh-CN": "强化迷途之子的雷啼，每次技能暴击，使防御力增幅额外提升10%（合计最多60%）。"
           },
           "equipment_rarity_flags": 128,
@@ -67,6 +71,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription950015]",
           "descriptions": {
+            "ja-JP": "迷子雷鳴を強化する。物理攻撃のダメージが攻撃力×420%になる。",
             "zh-CN": "强化迷途之子的雷啼，造成的物理伤害提升为攻击力×420%。"
           },
           "equipment_rarity_flags": 512,
@@ -147,6 +152,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName95001]",
       "names": {
+        "ja-JP": "迷子雷鳴",
         "zh-CN": "迷途之子的雷啼"
       },
       "source_memo_ja": "夏ニーナSR:Lv1 「悪い子はどかんだ！」ランダムな敵5体に攻撃力×280％の物理攻撃を行う。「ボクにおーまーかーせー」その後2ターンの間味方全体の防御力を10％増加させる。/ Lv2 物理攻撃のダメージが攻撃力×380％になる。/ Lv3 さらにこのスキルでクリティカルヒットした回数1回につき防御力の増加量が5％大きくなる（合計で最大35％まで）。/ Ex1 迷子雷鳴を強化する。このスキルでクリティカルヒットした回数1回につき防御力の増加量が10％大きくなる（合計で最大60％まで）。/ Ex3 迷子雷鳴を強化する。物理攻撃のダメージが攻撃力×420％になる。",
@@ -184,6 +190,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription950021]",
           "descriptions": {
+            "ja-JP": "「あっちいけー！」ランダムな味方1体の弱体効果を1つ解除する。「さよ～うなら～！」その後ランダムな敵5体に攻撃力×320%の物理攻撃を行う。",
             "zh-CN": "“快点走开！！”妮娜随机解除1名友军身上的1种弱化效果。“再～见！”再随机对5名敌人造成攻击力×320%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -198,6 +205,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription950022]",
           "descriptions": {
+            "ja-JP": "さらに70%の確率で3ターンの間物理攻撃の対象の被ダメージを10%増加させる。",
             "zh-CN": "70%概率使攻击目标额外增加10%承受伤害，效果持续3回合。"
           },
           "equipment_rarity_flags": 0,
@@ -212,6 +220,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription950023]",
           "descriptions": {
+            "ja-JP": "弱体効果解除の対象がランダムな味方3体になる。",
             "zh-CN": "弱化效果解除目标增加为3名随机友军。"
           },
           "equipment_rarity_flags": 0,
@@ -226,6 +235,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription950024]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×420%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×420%。"
           },
           "equipment_rarity_flags": 0,
@@ -295,6 +305,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName95002]",
       "names": {
+        "ja-JP": "あっちいけー！！",
         "zh-CN": "快点走开！！"
       },
       "source_memo_ja": "夏ニーナSR:Lv1 「あっちいけー！」ランダムな味方1体の弱体効果を1つ解除する。「さよ～うなら～！」その後ランダムな敵5体に攻撃力×320％の物理攻撃を行う。/ Lv2 さらに70%の確率で3ターンの間物理攻撃の対象の被ダメージを10％増加させる。/ Lv3 弱体効果解除の対象がランダムな味方3体になる。/ Lv4 物理攻撃のダメージが攻撃力×420％になる。",
@@ -757,6 +768,7 @@
       },
       "name_key": "[CharacterCollectionName51]",
       "names": {
+        "ja-JP": "レグルスの冒険",
         "zh-CN": "小王子的冒险"
       },
       "required_character_ids": [
@@ -767,12 +779,14 @@
         {
           "id": 95,
           "names": {
+            "ja-JP": "ニーナ",
             "zh-CN": "妮娜"
           }
         },
         {
           "id": 28,
           "names": {
+            "ja-JP": "ニーナ",
             "zh-CN": "妮娜"
           }
         }
@@ -842,12 +856,14 @@
     "memo": "夏ニーナ",
     "name_key": "[CharacterName95]",
     "names": {
+      "ja-JP": "ニーナ",
       "zh-CN": "妮娜"
     },
     "speed": 2793,
     "start_time_jst": "2024-07-16 15:00:00",
     "subtitle_key": "[CharacterSubName95]",
     "subtitles": {
+      "ja-JP": "小さな大冒険",
       "zh-CN": "小小大冒险"
     }
   },
@@ -921,6 +937,7 @@
     },
     "name_key": "[EquipmentName669]",
     "names": {
+      "ja-JP": "まよいごりんご",
       "zh-CN": "迷失之子红苹果"
     },
     "passive_effects": [
@@ -954,6 +971,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill95Description1]",
         "descriptions": {
+          "ja-JP": "迷子雷鳴を強化する。このスキルでクリティカルヒットした回数1回につき防御力の増加量が10%大きくなる（合計で最大60%まで）。",
           "zh-CN": "强化迷途之子的雷啼，每次技能暴击，使防御力增幅额外提升10%（合计最多60%）。"
         },
         "equipment_rarity_flags": 128,
@@ -962,6 +980,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill95Description2]",
         "descriptions": {
+          "ja-JP": "よい子の印を強化する。さらに自身がこのスキルで付与した『シールド』を付帯している間、自身が攻撃を受けたとき、ダメージを40%遮断する。",
           "zh-CN": "强化乖宝宝印记，当妮娜在身上附带此技能附加的「护盾」时受到攻击，额外阻绝40%伤害。"
         },
         "equipment_rarity_flags": 256,
@@ -970,6 +989,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill95Description3]",
         "descriptions": {
+          "ja-JP": "迷子雷鳴を強化する。物理攻撃のダメージが攻撃力×420%になる。",
           "zh-CN": "强化迷途之子的雷啼，造成的物理伤害提升为攻击力×420%。"
         },
         "equipment_rarity_flags": 512,
@@ -990,6 +1010,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription950031]",
           "descriptions": {
+            "ja-JP": "「みんな元気になあれ～！　スペシャルニーナハイタッチ～！」自身がアクティブスキルで行動阻害を受けたとき、2ターンの間自身と自身以外の攻撃力が最も高い味方の攻撃力を10%増加させる（解除不可）。その後対象の弱体効果を2つ解除する。",
             "zh-CN": "“大家要打起精神～！超级宇宙无敌～妮娜击掌～！”当妮娜被附加主动技能造成的控制效果时，使自己与攻击力最高的其他友军增加10%攻击力，效果持续2回合（无法被解除），并解除技能目标身上的2种弱化效果。"
           },
           "equipment_rarity_flags": 0,
@@ -1004,6 +1025,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription950032]",
           "descriptions": {
+            "ja-JP": "さらにバフ付与の前に、自身が付帯している行動阻害のうち最も残りターン数が多いものの、ターン数1ターンにつき攻撃力の増加量が10%大きくなる（合計で最大40%まで）。",
             "zh-CN": "妮娜身上原本附带的控制效果持续时间越长，攻击力增幅越高，每剩余1回合，再使攻击力增幅提升10%（合计最多40%）（以剩余持续时间最长的控制效果为基准进行计算）。"
           },
           "equipment_rarity_flags": 0,
@@ -1018,6 +1040,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription950033]",
           "descriptions": {
+            "ja-JP": "このスキルの対象が自身と自身以外の攻撃力が高い味方2体になる。",
             "zh-CN": "技能目标增加为妮娜与攻击力最高的2名其他友军。"
           },
           "equipment_rarity_flags": 0,
@@ -1107,6 +1130,7 @@
       },
       "name_key": "[PassiveSkillName95003]",
       "names": {
+        "ja-JP": "ニーナハイタッチ",
         "zh-CN": "妮娜击掌"
       },
       "source_memo_ja": "夏ニーナSR:Lv1 「みんな元気になあれ～！　スペシャルニーナハイタッチ～！」自身がアクティブスキルで行動阻害を受けたとき、2ターンの間自身と自身以外の攻撃力が最も高い味方の攻撃力を10％増加させる（解除不可）。その後対象の弱体効果を2つ解除する。/ Lv2 さらにバフ付与の前に、自身が付帯している行動阻害のうち最も残りターン数が多いものの、ターン数1ターンにつき攻撃力の増加量が10％大きくなる（合計で最大40％まで）。/ Lv3 このスキルの対象が自身と自身以外の攻撃力が高い味方2体になる。",
@@ -1134,6 +1158,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription950041]",
           "descriptions": {
+            "ja-JP": "「悪い子から守ってくれるんだよ」1ターン目のターン開始時、もしくは自身以外の味方が戦闘不能になったとき、3ターンの間自身と自身以外の攻撃力が最も高い味方に自身の攻撃力×100%の『シールド』を付与する（解除不可）。対象がこのスキルで付与したバフを付帯している場合、効果は新しい値に上書きされる。",
             "zh-CN": "“这样坏孩子就不敢欺负我们了。”第1回合开始或其他友军失去战斗能力时，妮娜使自己与攻击力最高的其他友军获得妮娜攻击力×100%的「护盾」，效果持续3回合（无法被解除）。当技能目标身上附带此技能附加的增益效果时，重复附加的新效果将直接取代旧效果。"
           },
           "equipment_rarity_flags": 0,
@@ -1148,6 +1173,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription950042]",
           "descriptions": {
+            "ja-JP": "1ターン目のターン開始時、もしくは自身以外の味方が戦闘不能になったとき、さらに3ターンの間自身と自身以外の攻撃力が最も高い味方の攻撃力を5%増加させる（解除不可）。戦闘不能になっている味方の数1体につき、攻撃力の増加量が5%大きくなる（合計で最大25%まで）。",
             "zh-CN": "第1回合开始或其他友军失去战斗能力时，妮娜使自己与攻击力最高的其他友军额外增加5%攻击力，效果持续3回合（无法被解除）。每名失去战斗能力的友军，再使攻击力增幅提升5%（合计最多25%）。"
           },
           "equipment_rarity_flags": 0,
@@ -1162,6 +1188,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription950043]",
           "descriptions": {
+            "ja-JP": "『シールド』の大きさが自身の攻撃力×200%になる。",
             "zh-CN": "「护盾」值提升为妮娜攻击力×200%。"
           },
           "equipment_rarity_flags": 0,
@@ -1176,6 +1203,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription950044]",
           "descriptions": {
+            "ja-JP": "よい子の印を強化する。さらに自身がこのスキルで付与した『シールド』を付帯している間、自身が攻撃を受けたとき、ダメージを40%遮断する。",
             "zh-CN": "强化乖宝宝印记，当妮娜在身上附带此技能附加的「护盾」时受到攻击，额外阻绝40%伤害。"
           },
           "equipment_rarity_flags": 256,
@@ -1351,6 +1379,7 @@
       },
       "name_key": "[PassiveSkillName95004]",
       "names": {
+        "ja-JP": "よい子の印",
         "zh-CN": "乖宝宝印记"
       },
       "source_memo_ja": "夏ニーナSR:Lv1 「悪い子から守ってくれるんだよ」1ターン目のターン開始時、もしくは自身以外の味方が戦闘不能になったとき、3ターンの間自身と自身以外の攻撃力が最も高い味方に自身の攻撃力×100％の『シールド』を付与する（解除不可）。対象がこのスキルで付与したバフを付帯している場合、効果は新しい値に上書きされる。/ Lv2 1ターン目のターン開始時、もしくは自身以外の味方が戦闘不能になったとき、さらに3ターンの間自身と自身以外の攻撃力が最も高い味方の攻撃力を5％増加させる（解除不可）。戦闘不能になっている味方の数1体につき、攻撃力の増加量が5％大きくなる（合計で最大25％まで）。/ Lv3 『シールド』の大きさが自身の攻撃力×200％になる。/ Ex2 よい子の印を強化する。さらに自身がこのスキルで付与した『シールド』を付帯している間、自身が攻撃を受けたとき、ダメージを40％遮断する。",
@@ -1410,6 +1439,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

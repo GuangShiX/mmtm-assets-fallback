@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription640011]",
           "descriptions": {
+            "ja-JP": "魔法で生み出された夕闇が敵を惑わし力を奪う──攻撃力が高い敵2体のバフを1つ解除する。",
             "zh-CN": "吉薇艾尔以魔法造出一片苍茫暮色，迷惑敌人心智并夺走对手的力量——解除攻击力最高的2名敌人身上的1种增益效果。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription640012]",
           "descriptions": {
+            "ja-JP": "さらにバフ解除後に対象のHP割合が50%以上の場合、20%の確率で1ターンの間対象に『沈黙』を付与する。",
             "zh-CN": "增益效果解除后，如果技能目标的生命值为50%以上，20%概率额外附加「沉默」状态，效果持续1回合。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription640013]",
           "descriptions": {
+            "ja-JP": "バフ解除後に対象の魔力が自身よりも低い場合、『沈黙』を付与する確率が40%になる。",
             "zh-CN": "增益效果解除后，如果技能目标的魔力低于自己，附加「沉默」状态的概率提升为40%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription640014]",
           "descriptions": {
+            "ja-JP": "惑いの夕闇を強化する。『沈黙』を付与する確率が30%、対象の魔力が自身よりも低い場合60%になる。",
             "zh-CN": "强化幻惑暮霭，附加「沉默」状态的概率提升为30%。当技能目标的魔力低于自己时，附加「沉默」状态的概率提升为60%。"
           },
           "equipment_rarity_flags": 128,
@@ -118,6 +122,7 @@
       "max_cooldown": 5,
       "name_key": "[ActiveSkillName64001]",
       "names": {
+        "ja-JP": "惑いの夕闇",
         "zh-CN": "幻惑暮霭"
       },
       "source_memo_ja": "ギルウィアルSR:Lv1 魔法で生み出された夕闇が敵を惑わし力を奪う――攻撃力が高い敵2体のバフを1つ解除する。/ Lv2 さらにバフ解除後に対象のHP割合が50%以上の場合、20%の確率で1ターンの間対象に『沈黙』を付与する。/ Lv3 バフ解除後に対象の魔力が自身よりも低い場合、『沈黙』を付与する確率が40%になる。/ Ex1 惑いの夕闇を強化する。『沈黙』を付与する確率が30%、対象の魔力が自身よりも低い場合60%になる。",
@@ -151,6 +156,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription640021]",
           "descriptions": {
+            "ja-JP": "「安らかに眠り給えよ！」星光を放つ魔法が敵に降り注ぐ──ランダムな敵2体に攻撃力×780%の魔法攻撃を行う。",
             "zh-CN": "“赐予你安宁的长眠！”吉薇艾尔朝敌人释放闪耀着熠熠星光的魔法，随机对2名敌人造成攻击力×780%的魔法伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -165,6 +171,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription640022]",
           "descriptions": {
+            "ja-JP": "さらに魔法攻撃の後に40%の確率で1ターンの間対象に『沈黙』を付与する。",
             "zh-CN": "攻击结束后，40%概率对技能目标额外附加「沉默」状态，效果持续1回合。"
           },
           "equipment_rarity_flags": 0,
@@ -179,6 +186,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription640023]",
           "descriptions": {
+            "ja-JP": "さらに魔法攻撃の前に自身が弱体効果を付帯している場合、魔法攻撃のダメージが2倍になる。",
             "zh-CN": "如果吉薇艾尔身上原本附带弱化效果，造成的魔法伤害增加为2倍。"
           },
           "equipment_rarity_flags": 0,
@@ -193,6 +201,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription640024]",
           "descriptions": {
+            "ja-JP": "このスキルの対象がランダムな敵3体になる。",
             "zh-CN": "技能目标增加为3名随机敌人。"
           },
           "equipment_rarity_flags": 0,
@@ -207,6 +216,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription640025]",
           "descriptions": {
+            "ja-JP": "スターダストを強化する。『沈黙』を付与する確率が50%になる。",
             "zh-CN": "强化魔幻星尘，附加「沉默」状态的概率提升为50%。"
           },
           "equipment_rarity_flags": 256,
@@ -221,6 +231,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription640026]",
           "descriptions": {
+            "ja-JP": "スターダストを強化する。魔法攻撃のダメージが攻撃力×880%になる。",
             "zh-CN": "强化魔幻星尘，造成的魔法伤害提升为攻击力×880%。"
           },
           "equipment_rarity_flags": 512,
@@ -306,6 +317,7 @@
       "max_cooldown": 5,
       "name_key": "[ActiveSkillName64002]",
       "names": {
+        "ja-JP": "スターダスト",
         "zh-CN": "魔幻星尘"
       },
       "source_memo_ja": "ギルウィアルSR:Lv1 「安らかに眠り給えよ！」星光を放つ魔法が敵に降り注ぐ──ランダムな敵2体に攻撃力×780%の魔法攻撃を行う。/ Lv2 さらに魔法攻撃の後に40%の確率で1ターンの間対象に『沈黙』を付与する。/ Lv3 さらに魔法攻撃の前に自身が弱体効果を付帯している場合、魔法攻撃のダメージが2倍になる。/ Lv4 このスキルの対象がランダムな敵3体になる。/ Ex2 スターダストを強化する。『沈黙』を付与する確率が50%になる。/ Ex3 スターダストを強化する。魔法攻撃のダメージが攻撃力×880%になる。",
@@ -769,6 +781,7 @@
       },
       "name_key": "[CharacterCollectionName38]",
       "names": {
+        "ja-JP": "レティクルムの秘術",
         "zh-CN": "网罟座的秘术"
       },
       "required_character_ids": [
@@ -780,18 +793,21 @@
         {
           "id": 64,
           "names": {
+            "ja-JP": "ギルウィアル",
             "zh-CN": "吉薇艾尔"
           }
         },
         {
           "id": 35,
           "names": {
+            "ja-JP": "ミミ",
             "zh-CN": "咪咪"
           }
         },
         {
           "id": 37,
           "names": {
+            "ja-JP": "ハトホル",
             "zh-CN": "哈索儿"
           }
         }
@@ -861,12 +877,14 @@
     "memo": "ギルウィアル",
     "name_key": "[CharacterName64]",
     "names": {
+      "ja-JP": "ギルウィアル",
       "zh-CN": "吉薇艾尔"
     },
     "speed": 3269,
     "start_time_jst": "2024-01-15 15:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -941,6 +959,7 @@
     },
     "name_key": "[EquipmentName483]",
     "names": {
+      "ja-JP": "黄昏の星",
       "zh-CN": "黄昏之星"
     },
     "passive_effects": [
@@ -974,6 +993,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill64Description1]",
         "descriptions": {
+          "ja-JP": "惑いの夕闇を強化する。『沈黙』を付与する確率が30%、対象の魔力が自身よりも低い場合60%になる。",
           "zh-CN": "强化幻惑暮霭，附加「沉默」状态的概率提升为30%。当技能目标的魔力低于自己时，附加「沉默」状态的概率提升为60%。"
         },
         "equipment_rarity_flags": 128,
@@ -982,6 +1002,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill64Description2]",
         "descriptions": {
+          "ja-JP": "スターダストを強化する。『沈黙』を付与する確率が50%になる。",
           "zh-CN": "强化魔幻星尘，附加「沉默」状态的概率提升为50%。"
         },
         "equipment_rarity_flags": 256,
@@ -990,6 +1011,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill64Description3]",
         "descriptions": {
+          "ja-JP": "スターダストを強化する。魔法攻撃のダメージが攻撃力×880%になる。",
           "zh-CN": "强化魔幻星尘，造成的魔法伤害提升为攻击力×880%。"
         },
         "equipment_rarity_flags": 512,
@@ -1010,6 +1032,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription640031]",
           "descriptions": {
+            "ja-JP": "「魔法にはこういう使い方もあるのだよ！」自身がアクティブスキルで弱体効果を受けたとき、1ターンの間自身の弱体効果命中率が15%増加する。",
             "zh-CN": "“魔法还能这么用！”当吉薇艾尔被附加主动技能造成的弱化效果时，使自己增加15%弱化效果命中率，效果持续1回合。"
           },
           "equipment_rarity_flags": 0,
@@ -1024,6 +1047,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription640032]",
           "descriptions": {
+            "ja-JP": "このスキルが自身がアクティブスキルでバフを受けたときにも発動するようになる。",
             "zh-CN": "技能触发条件增加为吉薇艾尔被附加主动技能造成的弱化效果与获得主动技能附加的增益效果。"
           },
           "equipment_rarity_flags": 0,
@@ -1038,6 +1062,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription640033]",
           "descriptions": {
+            "ja-JP": "弱体効果命中率の増加量が30%になる。",
             "zh-CN": "弱化效果命中率增幅提升为30%。"
           },
           "equipment_rarity_flags": 0,
@@ -1120,6 +1145,7 @@
       },
       "name_key": "[PassiveSkillName64003]",
       "names": {
+        "ja-JP": "大魔女の教え",
         "zh-CN": "大魔女的点拨"
       },
       "source_memo_ja": "ギルウィアルSR:Lv1 「魔法にはこういう使い方もあるのだよ！」自身がアクティブスキルで弱体効果を受けたとき、1ターンの間自身の弱体効果命中率が15%増加する。/ Lv2 このスキルが自身がアクティブスキルでバフを受けたときにも発動するようになる。/ Lv3 弱体効果命中率の増加量が30%になる。",
@@ -1147,6 +1173,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription640041]",
           "descriptions": {
+            "ja-JP": "「魔女の戦い方を教えてやろう」未来のために遺そうとした知識が、魔女の力を最大限まで引き出す──自身のクリティカル耐性率が40%増加する（解除不可）。",
             "zh-CN": "“就让吾来告诉你——魔女应当如何作战。”吉薇艾尔打算留给后人的知识，将她体内的魔女之力激发至极限——使自己增加40%抗暴率（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1161,6 +1188,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription640042]",
           "descriptions": {
+            "ja-JP": "さらに自身がクリティカルヒットを受けた場合、クリティカル耐性率の増加量が20%大きくなる（最大2スタック、合計で最大80%まで）。",
             "zh-CN": "每当吉薇艾尔受到暴击，再使抗暴率增幅提升20%（最多叠加2层，合计80%）。"
           },
           "equipment_rarity_flags": 0,
@@ -1175,6 +1203,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription640043]",
           "descriptions": {
+            "ja-JP": "さらにバトル開始時自身に3層の『多重バリア』を付与する（解除不可）。ダメージを受けると、バリアを1層消費してそのダメージを無効化する。",
             "zh-CN": "战斗开始时，吉薇艾尔额外获得3层「多重屏障」（无法被解除）。当吉薇艾尔受到伤害时，消耗1层屏障来抵消该伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -1264,6 +1293,7 @@
       },
       "name_key": "[PassiveSkillName64004]",
       "names": {
+        "ja-JP": "黄昏の魔女",
         "zh-CN": "黄昏魔女"
       },
       "source_memo_ja": "ギルウィアルSR:Lv1 「魔女の戦い方を教えてやろう」未来のために遺そうとした知識が、魔女の力を最大限まで引き出す──自身のクリティカル耐性率が40%増加する（解除不可）。/ Lv2 さらに自身がクリティカルヒットを受けた場合、クリティカル耐性率の増加量が20%大きくなる（合計で最大80%まで）。/ Lv3 さらにバトル開始時自身に3層の『多重バリア』を付与する（解除不可）。ダメージを受けると、バリアを1層消費してそのダメージを無効化する。",
@@ -1319,6 +1349,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

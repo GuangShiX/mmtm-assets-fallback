@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription1510011]",
           "descriptions": {
+            "ja-JP": "「どうか、かの者をお守りください……！」3ターンの間自身と、自身よりもスピードが高い味方全体の防御力を自身の防御力×25%増加させる（解除不可）。その後ランダムな敵5体に攻撃力×240%の物理攻撃を行う。",
             "zh-CN": "“主啊，请守护你的子民！”福尔蒂娜使自己与速度高于自己的其他友军增加防御力，增幅为福尔蒂娜防御力×25%，效果持续3回合（无法被解除）。再随机对5名敌人造成攻击力×240%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription1510012]",
           "descriptions": {
+            "ja-JP": "さらに物理攻撃の前に、3ターンの間自身と、自身よりもスピードが高い味方全体の物理防御力を自身の物理防御力×25%、魔法防御力を自身の魔法防御力×25%増加させる（解除不可）。",
             "zh-CN": "发动攻击前，福尔蒂娜使自己与速度高于自己的其他友军额外增加物理防御力与魔法防御力，增幅分别为福尔蒂娜物理防御力×25%及福尔蒂娜魔法防御力×25%，效果持续3回合（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1510013]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×480%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×480%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1510014]",
           "descriptions": {
+            "ja-JP": "光剣の祈りを強化する。防御力の増加量が自身の防御力×50%、物理防御力の増加量が自身の物理防御力×50%、魔法防御力の増加量が自身の魔法防御力×50%になる。",
             "zh-CN": "强化光剑的祈祷，防御力、物理防御力与魔法防御力增幅分别提升为福尔蒂娜防御力×50%、福尔蒂娜物理防御力×50%及福尔蒂娜魔法防御力×50%。"
           },
           "equipment_rarity_flags": 128,
@@ -126,6 +130,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName151001]",
       "names": {
+        "ja-JP": "光剣の祈り",
         "zh-CN": "光剑的祈祷"
       },
       "source_memo_ja": "黄昏フォルティナSR:Lv1 「どうか、かの者をお守りください……！」3ターンの間自身と、自身よりもスピードが高い味方全体の防御力を自身の防御力×25%増加させる（解除不可）。その後ランダムな敵5体に攻撃力×240%の物理攻撃を行う。/ Lv2 さらに物理攻撃の前に、3ターンの間自身と自身以外のスピードが自身よりも高い味方全体の物理防御力を自身の物理防御力×25%、魔法防御力を自身の魔法防御力×25%増加させる（解除不可）。/ Lv3 物理攻撃のダメージが攻撃力×480%になる。/ Ex1 光剣の祈りを強化する。防御力の増加量が自身の防御力×50%、物理防御力の増加量が自身の物理防御力×50%、魔法防御力の増加量が自身の魔法防御力×50%になる。",
@@ -159,6 +164,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription1510021]",
           "descriptions": {
+            "ja-JP": "「全ては神のご意思のままに……」業を背負いし罪人に、神の裁きが下る。ランダムな敵に3回攻撃力×410%の物理攻撃を行う。",
             "zh-CN": "“遵行神的旨意……”身负罪孽之人必将受到神的惩罚。福尔蒂娜随机对敌人进行3次攻击，每次造成攻击力×410%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -173,6 +179,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription1510022]",
           "descriptions": {
+            "ja-JP": "さらに最後の物理攻撃の後、自身のHPをこのスキルの総与ダメージ×20%回復する。",
             "zh-CN": "攻击结束后，福尔蒂娜额外恢复技能总伤害×20%的生命值。"
           },
           "equipment_rarity_flags": 0,
@@ -187,6 +194,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription1510023]",
           "descriptions": {
+            "ja-JP": "物理攻撃の回数が5回になる。",
             "zh-CN": "攻击次数增加为5次。"
           },
           "equipment_rarity_flags": 0,
@@ -201,6 +209,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription1510024]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×560%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×560%。"
           },
           "equipment_rarity_flags": 0,
@@ -215,6 +224,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription1510025]",
           "descriptions": {
+            "ja-JP": "天秤の采配を強化する。物理攻撃のダメージが攻撃力×610%になる。",
             "zh-CN": "强化神意的天平，造成的物理伤害提升为攻击力×610%。"
           },
           "equipment_rarity_flags": 512,
@@ -310,6 +320,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName151002]",
       "names": {
+        "ja-JP": "天秤の采配",
         "zh-CN": "神意的天平"
       },
       "source_memo_ja": "黄昏フォルティナSR:Lv1 「全ては神のご意思のままに……」業を背負いし罪人に、神の裁きが下る。ランダムな敵に3回攻撃力×410%の物理攻撃を行う。/ Lv2 さらに最後の物理攻撃の後、自身のHPをこのスキルの総与ダメージ×20%回復する。/ Lv3 物理攻撃の回数が5回になる。/ Lv4 物理攻撃のダメージが攻撃力×560%になる。/ Ex2 天秤の采配を強化する。物理攻撃のダメージが攻撃力×610%になる。/ Ex3 天秤の采配を強化する。物理攻撃のダメージが攻撃力×610%になる。",
@@ -780,6 +791,7 @@
       },
       "name_key": "[CharacterCollectionName99]",
       "names": {
+        "ja-JP": "クルクスの天誓",
         "zh-CN": "南十字座的约誓"
       },
       "required_character_ids": [
@@ -790,12 +802,14 @@
         {
           "id": 150,
           "names": {
+            "ja-JP": "フローレンス",
             "zh-CN": "佛罗伦斯"
           }
         },
         {
           "id": 151,
           "names": {
+            "ja-JP": "フォルティナ",
             "zh-CN": "福尔蒂娜"
           }
         }
@@ -866,12 +880,14 @@
     "memo": "黄昏フォルティナ",
     "name_key": "[CharacterName151]",
     "names": {
+      "ja-JP": "フォルティナ",
       "zh-CN": "福尔蒂娜"
     },
     "speed": 3423,
     "start_time_jst": "2026-08-31 15:00:00",
     "subtitle_key": "[CharacterSubName151]",
     "subtitles": {
+      "ja-JP": "黄昏の約束",
       "zh-CN": "黄昏之约"
     }
   },
@@ -945,6 +961,7 @@
     },
     "name_key": "[EquipmentName1005]",
     "names": {
+      "ja-JP": "ホーリーナイト",
       "zh-CN": "圣女的黄昏"
     },
     "passive_effects": [
@@ -978,6 +995,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill151Description1]",
         "descriptions": {
+          "ja-JP": "光剣の祈りを強化する。防御力の増加量が自身の防御力×50%、物理防御力の増加量が自身の物理防御力×50%、魔法防御力の増加量が自身の魔法防御力×50%になる。",
           "zh-CN": "强化光剑的祈祷，防御力、物理防御力与魔法防御力增幅分别提升为福尔蒂娜防御力×50%、福尔蒂娜物理防御力×50%及福尔蒂娜魔法防御力×50%。"
         },
         "equipment_rarity_flags": 128,
@@ -986,6 +1004,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill151Description2]",
         "descriptions": {
+          "ja-JP": "バトル開始時、自身に2層の『多重バリア』を付与する（解除不可）。自身の最大HP×10%以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。",
           "zh-CN": "战斗开始时，福尔蒂娜获得2层「多重屏障」（无法被解除）。当她受到最大生命值×10%以上的伤害时，消耗1层屏障来抵消该伤害。"
         },
         "equipment_rarity_flags": 256,
@@ -994,6 +1013,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill151Description3]",
         "descriptions": {
+          "ja-JP": "天秤の采配を強化する。物理攻撃のダメージが攻撃力×610%になる。",
           "zh-CN": "强化神意的天平，造成的物理伤害提升为攻击力×610%。"
         },
         "equipment_rarity_flags": 512,
@@ -1016,6 +1036,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription1510031]",
           "descriptions": {
+            "ja-JP": "私の心を、どうかあなたの傍において。遠く離れていても、あなたの心に寄り添えるように──バトル開始時、味方編成内の属性が2種類以下の場合、味方全体のスピードを10%増加させる（解除不可）。",
             "zh-CN": "请让我的心，长伴在你左右。纵使彼此分离，两心仍能相依——战斗开始时，如果队伍中包含的角色属性为2种以下，福尔蒂娜使全体友军增加10%速度（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1030,6 +1051,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription1510032]",
           "descriptions": {
+            "ja-JP": "さらに2ターン目のターン開始時、3ターンの間自身と自身以外の攻撃力が高い味方2体の攻撃力を、自身の攻撃力×15%増加させる（解除不可）。",
             "zh-CN": "第2回合开始时，福尔蒂娜使自己与攻击力最高的2名其他友军额外增加攻击力，增幅为福尔蒂娜攻击力×15%，效果持续3回合（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1044,6 +1066,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription1510033]",
           "descriptions": {
+            "ja-JP": "攻撃力の増加量が自身の攻撃力×30%になる。",
             "zh-CN": "攻击力增幅提升为福尔蒂娜攻击力×30%。"
           },
           "equipment_rarity_flags": 0,
@@ -1140,6 +1163,7 @@
       },
       "name_key": "[PassiveSkillName151003]",
       "names": {
+        "ja-JP": "夕陽色の約束",
         "zh-CN": "夕阳色的约定"
       },
       "source_memo_ja": "黄昏フォルティナSR:Lv1 私の心を、どうかあなたの傍において。遠く離れていても、あなたの心に寄り添えるように──バトル開始時、味方編成内の属性が2種類以下の場合、味方全体のスピードを10%増加させる（解除不可）。/ Lv2 さらに2ターン目のターン開始時、3ターンの間自身と自身以外の攻撃力が高い味方2体の攻撃力を、自身の攻撃力×15%増加させる（解除不可）。/ Lv3 攻撃力の増加量が自身の攻撃力×30%になる。",
@@ -1167,6 +1191,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription1510041]",
           "descriptions": {
+            "ja-JP": "護り護られ、信じて頼る。そんな新しい関係でいたい。だから私にもあなたを護らせて──1ターン目の自身の行動開始時、自身に3ターンの間『献身』を付与する（解除不可）。自身以外の味方が受けるダメージ×50%を自身が代わりに受けるようになる。自身がこのスキルで付与した『献身』を付帯している間、自身が攻撃を受けたとき、ダメージを40%遮断する。",
             "zh-CN": "彼此守护，彼此信赖——我想和你结下这种全新的情谊。所以，也让我来保护你吧。第1回合行动开始时，福尔蒂娜获得「献身」状态，代其他友军承受50%攻击伤害，效果持续3回合（无法被解除）。如果福尔蒂娜在身上附带此技能附加的「献身」状态时受到攻击，阻绝40%伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -1181,6 +1206,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription1510042]",
           "descriptions": {
+            "ja-JP": "『献身』を付帯している間のダメージの遮断量が50%になる。",
             "zh-CN": "「献身」存在期间，伤害阻绝量提升为50%。"
           },
           "equipment_rarity_flags": 0,
@@ -1195,6 +1221,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription1510043]",
           "descriptions": {
+            "ja-JP": "『献身』を付帯している間のダメージの遮断量が65%になる。",
             "zh-CN": "「献身」存在期间，伤害阻绝量提升为65%。"
           },
           "equipment_rarity_flags": 0,
@@ -1284,6 +1311,7 @@
       },
       "name_key": "[PassiveSkillName151004]",
       "names": {
+        "ja-JP": "黄昏の聖女",
         "zh-CN": "黄昏的圣女"
       },
       "source_memo_ja": "黄昏フォルティナSR:Lv1 護り護られ、信じて頼る。そんな新しい関係でいたい。だから私にもあなたを護らせて──1ターン目の自身の行動開始時、自身に3ターンの間『献身』を付与する（解除不可）。自身以外の味方が受けるダメージ×50%を自身が代わりに受けるようになる。自身がこのスキルで付与した『献身』を付帯している間、自身が攻撃を受けたとき、ダメージを40%遮断する。/ Lv2 『献身』を付帯している間のダメージの遮断量が50%になる。/ Lv3 『献身』を付帯している間のダメージの遮断量が65%になる。",
@@ -1311,6 +1339,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription1510051]",
           "descriptions": {
+            "ja-JP": "バトル開始時、自身に2層の『多重バリア』を付与する（解除不可）。自身の最大HP×10%以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。",
             "zh-CN": "战斗开始时，福尔蒂娜获得2层「多重屏障」（无法被解除）。当她受到最大生命值×10%以上的伤害时，消耗1层屏障来抵消该伤害。"
           },
           "equipment_rarity_flags": 256,
@@ -1344,6 +1373,7 @@
       },
       "name_key": "*",
       "names": {
+        "ja-JP": null,
         "zh-CN": null
       },
       "source_memo_ja": "*",
@@ -1386,6 +1416,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

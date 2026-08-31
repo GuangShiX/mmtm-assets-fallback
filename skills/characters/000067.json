@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription670011]",
           "descriptions": {
+            "ja-JP": "「サービスタ～イム♪」戦場専用の商人は用意周到。攻撃に備え、味方を守るとっておき商品を大盤振る舞い。自身と自身以外のスピードが最も低い味方に1ターンの間自身の攻撃力×300%の『シールド』を付与する。",
             "zh-CN": "“好料大放送～♪”战地商人准备周全，为了防备来自敌人的攻击，丽瑟丝毫不吝啬地拿出一大堆保护同伴的压箱好货，使自己与速度最低的其他友军获得丽瑟丝攻击力×300%的「护盾」，效果持续1回合。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription670012]",
           "descriptions": {
+            "ja-JP": "さらに1ターンの間対象の弱体効果耐性率を50%増加させる。",
             "zh-CN": "使技能目标额外增加50%弱化效果抵抗率，效果持续1回合。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription670013]",
           "descriptions": {
+            "ja-JP": "『シールド』と『弱体効果耐性率増加』のターン数がそれぞれ3ターンになる。",
             "zh-CN": "「护盾」与「弱化效果抵抗率上升」效果增加为3回合。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription670014]",
           "descriptions": {
+            "ja-JP": "",
             "zh-CN": ""
           },
           "equipment_rarity_flags": 128,
@@ -67,6 +71,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription670015]",
           "descriptions": {
+            "ja-JP": "",
             "zh-CN": ""
           },
           "equipment_rarity_flags": 256,
@@ -144,6 +149,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName67001]",
       "names": {
+        "ja-JP": "サービスタイム",
         "zh-CN": "好料大放送"
       },
       "source_memo_ja": "リシェスSR:Lv1 「サービスタ～イム♪」戦場専用の商人は用意周到。攻撃に備え、味方を守るとっておき商品を大盤振る舞い。自身と自身以外のスピードが最も低い味方に1ターンの間自身の攻撃力×300%の『シールド』を付与する。/ Lv2\\n さらに1ターンの間対象の弱体効果耐性率を50%増加させる。/ Lv3 \\n『シールド』と『弱体効果耐性率増加』のターン数がそれぞれ3ターンになる。/ Ex1 サービスタイムを強化する。『シールド』の大きさが自身の攻撃力×500%になる。/ Ex2 サービスタイムを強化する。弱体効果耐性率の増加量が100%になる。",
@@ -177,6 +183,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription670021]",
           "descriptions": {
+            "ja-JP": "「そら、いってこい！」リシェスの合図でとけねこ隊長が突撃。ランダムな敵2体に攻撃力×490%の物理攻撃を行う。さらに顔にとけねこ隊長が張りつき、20%の確率で対象に1ターンの間『沈黙』を付与する。",
             "zh-CN": "“上吧！猫溶溶队长！”猫溶溶队长在丽瑟丝的指令下发动突击，随机对2名敌人造成攻击力×490%的物理伤害。它扑到对方脸上，20%概率对技能目标附加「沉默」状态，效果持续1回合。"
           },
           "equipment_rarity_flags": 0,
@@ -191,6 +198,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription670022]",
           "descriptions": {
+            "ja-JP": "このスキルの対象がランダムな敵3体になる。",
             "zh-CN": "技能目标增加为3名随机敌人。"
           },
           "equipment_rarity_flags": 0,
@@ -205,6 +213,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription670023]",
           "descriptions": {
+            "ja-JP": "『沈黙』を付与する確率が55%になる。",
             "zh-CN": "附加「沉默」状态的概率提升为55%。"
           },
           "equipment_rarity_flags": 0,
@@ -219,6 +228,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription670024]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×540%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×540%。"
           },
           "equipment_rarity_flags": 0,
@@ -233,6 +243,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription670025]",
           "descriptions": {
+            "ja-JP": "",
             "zh-CN": ""
           },
           "equipment_rarity_flags": 512,
@@ -308,6 +319,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName67002]",
       "names": {
+        "ja-JP": "突撃！とけねこ隊長",
         "zh-CN": "猫溶溶队长！突击！"
       },
       "source_memo_ja": "リシェスSR: Lv1 「そら、いってこい！」リシェスの合図でとけねこ隊長が突撃。ランダムな敵2体に攻撃力×490%の物理攻撃を行う。さらに顔にとけねこ隊長が張りつき、20%の確率で対象に1ターンの間『沈黙』を付与する。/ Lv2 \\nこのスキルの対象がランダムな敵3体になる。/Lv3 \\n『沈黙』を付与する確率が55%になる。/Lv4 \\n物理攻撃のダメージが攻撃力×540%になる。/ Ex3 突撃！とけねこ隊長を強化する。物理攻撃のダメージが攻撃力×590%になる。",
@@ -766,6 +778,7 @@
       },
       "name_key": "[CharacterCollectionName19]",
       "names": {
+        "ja-JP": "フェリスの洞察",
         "zh-CN": "猫座的洞察"
       },
       "required_character_ids": [
@@ -776,12 +789,14 @@
         {
           "id": 67,
           "names": {
+            "ja-JP": "リシェス",
             "zh-CN": "丽瑟丝"
           }
         },
         {
           "id": 20,
           "names": {
+            "ja-JP": "ディアン",
             "zh-CN": "黛安"
           }
         }
@@ -851,12 +866,14 @@
     "memo": "リシェス",
     "name_key": "[CharacterName67]",
     "names": {
+      "ja-JP": "リシェス",
       "zh-CN": "丽瑟丝"
     },
     "speed": 3596,
     "start_time_jst": "2023-06-14 15:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -931,6 +948,7 @@
     },
     "name_key": "[EquipmentName406]",
     "names": {
+      "ja-JP": "ヘルメスの導き",
       "zh-CN": "赫尔墨斯的指引"
     },
     "passive_effects": [
@@ -964,6 +982,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill67Description1]",
         "descriptions": {
+          "ja-JP": "サービスタイムを強化する。『シールド』の大きさが自身の攻撃力×500%になる。",
           "zh-CN": "强化好料大放送，「护盾」值提升为丽瑟丝攻击力×500%。"
         },
         "equipment_rarity_flags": 128,
@@ -972,6 +991,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill67Description2]",
         "descriptions": {
+          "ja-JP": "サービスタイムを強化する。弱体効果耐性率の増加量が100%になる。",
           "zh-CN": "强化好料大放送，弱化效果抵抗率增幅提升为100%。"
         },
         "equipment_rarity_flags": 256,
@@ -980,6 +1000,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill67Description3]",
         "descriptions": {
+          "ja-JP": "突撃！とけねこ隊長を強化する。物理攻撃のダメージが攻撃力×590%になる。",
           "zh-CN": "强化猫溶溶队长！突击！，造成的物理伤害提升为攻击力×590%。"
         },
         "equipment_rarity_flags": 512,
@@ -1000,6 +1021,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription670031]",
           "descriptions": {
+            "ja-JP": "「罪も痛みも、二人で乗り越えよう」寄り添う影が折れそうな心を支え、立ち向かう勇気を生む。自身の防御力が25%増加する（解除不可）。",
             "zh-CN": "“罪过也好痛苦也罢，都要两个人一起分担。”陪伴在身旁的那道身影，是丽瑟丝的心灵支柱，为她带来面对困难的勇气，使丽瑟丝增加25%防御力（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1014,6 +1036,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription670032]",
           "descriptions": {
+            "ja-JP": "このスキルの対象が自身と自身以外のスピードが最も低い味方になる。",
             "zh-CN": "技能目标增加为丽瑟丝与速度最低的其他友军。"
           },
           "equipment_rarity_flags": 0,
@@ -1028,6 +1051,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription670033]",
           "descriptions": {
+            "ja-JP": "防御力の増加量が50%になる。",
             "zh-CN": "防御力增幅提升为50%。"
           },
           "equipment_rarity_flags": 0,
@@ -1110,6 +1134,7 @@
       },
       "name_key": "[PassiveSkillName67003]",
       "names": {
+        "ja-JP": "寄り添う影",
         "zh-CN": "相伴的身影"
       },
       "source_memo_ja": "リシェスSR:Lv1 「罪も痛みも、二人で乗り越えよう」寄り添う影が折れそうな心を支え、立ち向かう勇気を生む。自身の防御力が25%増加する（解除不可）。/ Lv2 \\nこのスキルの対象が自身と自身以外のスピードが最も低い味方になる。/ Lv3 \\n防御力の増加量が50%になる。",
@@ -1137,6 +1162,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription670041]",
           "descriptions": {
+            "ja-JP": "戦場に商人がいれば、助かる命がたくさんある──味方が攻撃を受けて、HP割合が50%以下になった場合、その味方に1ターンの間自身の攻撃力×300%の『シールド』を付与する。このスキルは発動後5回行動終了するまで再び発動しない。",
             "zh-CN": "“战场上有了商人，就能救下无数条性命。”当友军受到攻击，生命值降到50%以下时，使该友军获得丽瑟丝攻击力×300%的「护盾」，效果持续1回合。此技能须在结束5次行动后才可再次触发。"
           },
           "equipment_rarity_flags": 0,
@@ -1151,6 +1177,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription670042]",
           "descriptions": {
+            "ja-JP": "このスキルが発動後4回行動終了することで発動するようになる。",
             "zh-CN": "此技能须在结束4次行动后才可再次触发。"
           },
           "equipment_rarity_flags": 0,
@@ -1165,6 +1192,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription670043]",
           "descriptions": {
+            "ja-JP": "『シールド』の大きさが自身の攻撃力×500%になる。",
             "zh-CN": "「护盾」值提升为丽瑟丝攻击力×500%。"
           },
           "equipment_rarity_flags": 0,
@@ -1251,6 +1279,7 @@
       },
       "name_key": "[PassiveSkillName67004]",
       "names": {
+        "ja-JP": "戦場専用の商人",
         "zh-CN": "战地商人"
       },
       "source_memo_ja": "リシェスSR:Lv1 戦場に商人がいれば、助かる命がたくさんある――味方が攻撃を受けて、HP割合が50%以下になった場合、その味方に1ターンの間自身の攻撃力×300%の『シールド』を付与する。このスキルは5ターンに1回発動する。/ Lv2 \\nこのスキルが4ターンに1回発動するようになる。/ Lv3\\n『シールド』の大きさが自身の攻撃力×500%になる。",
@@ -1302,6 +1331,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

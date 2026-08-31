@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription1300011]",
           "descriptions": {
+            "ja-JP": "「私の知識が必要かしら？」自身に自身の現在HP×10%の自傷ダメージを与え、ランダムな敵に3回攻撃力×300%の物理攻撃を行う。",
             "zh-CN": "“需要我提供知识吗？”艾谢使自己受到当前生命值×10%的自损伤害，随机对敌人进行3次攻击，每次造成攻击力×300%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription1300012]",
           "descriptions": {
+            "ja-JP": "さらに最後の物理攻撃の後自身の『解析』のスタック数が3以上の場合、このスキルを再発動する（再発動は1回まで）。",
             "zh-CN": "攻击结束后，如果艾谢身上附带的「解析」达3层以上，再次发动此技能（最多1次）。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1300013]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×610%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×610%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1300014]",
           "descriptions": {
+            "ja-JP": "英知の標を強化する。物理攻撃の回数が4回になる。",
             "zh-CN": "强化睿智的信标，攻击次数增加为4次。"
           },
           "equipment_rarity_flags": 128,
@@ -67,6 +71,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription1300015]",
           "descriptions": {
+            "ja-JP": "英知の標を強化する。物理攻撃のダメージが攻撃力×670%になる。",
             "zh-CN": "强化睿智的信标，造成的物理伤害提升为攻击力×670%。"
           },
           "equipment_rarity_flags": 512,
@@ -177,6 +182,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName130001]",
       "names": {
+        "ja-JP": "英知の標",
         "zh-CN": "睿智的信标"
       },
       "source_memo_ja": "アイシェSR:Lv1 「私の知識が必要かしら？」自身に自身の現在HP×10%の自傷ダメージを与え、ランダムな敵に3回攻撃力×300%の物理攻撃を行う。/ Lv2 さらに最後の物理攻撃の後自身の『解析』のスタック数が3以上の場合、このスキルを再発動する（再発動は1回まで）。/ Lv3 物理攻撃のダメージが攻撃力×610%になる。/ Ex1 英知の標を強化する。物理攻撃の回数が4回になる。/ Ex3 英知の標を強化する。物理攻撃のダメージが攻撃力×670%になる。",
@@ -214,6 +220,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription1300021]",
           "descriptions": {
+            "ja-JP": "「弱点はそこね！」自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵に3回攻撃力×400%の物理攻撃を行う。",
             "zh-CN": "“发现弱点！”艾谢使自己受到当前生命值×20%的自损伤害，随机对敌人进行3次攻击，每次造成攻击力×400%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -228,6 +235,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription1300022]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×760%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×760%。"
           },
           "equipment_rarity_flags": 0,
@@ -242,6 +250,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription1300023]",
           "descriptions": {
+            "ja-JP": "さらに対象のHP割合が高くなるほど物理攻撃のダメージが大きくなる（最大攻撃力×1520%まで）。ただしHP割合の判定は攻撃1回ごとに行う。",
             "zh-CN": "技能目标的生命值百分比越高，造成的物理伤害越高（最多攻击力×1520%）。生命值百分比在每次攻击结束后重新进行判定。"
           },
           "equipment_rarity_flags": 0,
@@ -256,6 +265,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription1300024]",
           "descriptions": {
+            "ja-JP": "物理攻撃の回数が5回になる。",
             "zh-CN": "攻击次数增加为5次。"
           },
           "equipment_rarity_flags": 0,
@@ -335,6 +345,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName130002]",
       "names": {
+        "ja-JP": "知識の輪",
         "zh-CN": "机关智识环"
       },
       "source_memo_ja": "アイシェSR:Lv1 「弱点はそこね！」自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵に3回攻撃力×400%の物理攻撃を行う。/ Lv2 物理攻撃のダメージが攻撃力×760%になる。/ Lv3 さらに対象のHP割合が高くなるほど物理攻撃のダメージが大きくなる（最大攻撃力×1520%まで）。ただしHP割合の判定は攻撃1回ごとに行う。/ Lv4 物理攻撃の回数が5回になる。",
@@ -797,6 +808,7 @@
       },
       "name_key": "[CharacterCollectionName83]",
       "names": {
+        "ja-JP": "インドゥスの知己",
         "zh-CN": "印第安座的知己"
       },
       "required_character_ids": [
@@ -807,12 +819,14 @@
         {
           "id": 130,
           "names": {
+            "ja-JP": "アイシェ",
             "zh-CN": "艾谢"
           }
         },
         {
           "id": 128,
           "names": {
+            "ja-JP": "リヴェリア",
             "zh-CN": "利伯瑞娅"
           }
         }
@@ -882,12 +896,14 @@
     "memo": "アイシェ",
     "name_key": "[CharacterName130]",
     "names": {
+      "ja-JP": "アイシェ",
       "zh-CN": "艾谢"
     },
     "speed": 3424,
     "start_time_jst": "2025-11-13 15:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -961,6 +977,7 @@
     },
     "name_key": "[EquipmentName879]",
     "names": {
+      "ja-JP": "知賢の標",
       "zh-CN": "贤知仪"
     },
     "passive_effects": [
@@ -994,6 +1011,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill130Description1]",
         "descriptions": {
+          "ja-JP": "英知の標を強化する。物理攻撃の回数が4回になる。",
           "zh-CN": "强化睿智的信标，攻击次数增加为4次。"
         },
         "equipment_rarity_flags": 128,
@@ -1002,6 +1020,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill130Description2]",
         "descriptions": {
+          "ja-JP": "理の解読者を強化する。攻撃力の増加量が10%になる。",
           "zh-CN": "强化原理解读者，攻击力增幅提升为10%。"
         },
         "equipment_rarity_flags": 256,
@@ -1010,6 +1029,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill130Description3]",
         "descriptions": {
+          "ja-JP": "英知の標を強化する。物理攻撃のダメージが攻撃力×670%になる。",
           "zh-CN": "强化睿智的信标，造成的物理伤害提升为攻击力×670%。"
         },
         "equipment_rarity_flags": 512,
@@ -1030,6 +1050,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription1300031]",
           "descriptions": {
+            "ja-JP": "知識は人々の生活を豊かにするためにあるのよ──自身か味方が自傷ダメージを受けた場合、自身に『解析』を1スタック付与する（最大6スタックまで）（解除不可）。このバフは1スタックにつき自身の攻撃力を3%増加させる。",
             "zh-CN": "知识是为了丰富每一个人的生活——当艾谢或友军受到自损伤害时，艾谢获得1层「解析」（最多6层）（无法被解除）。每层「解析」使艾谢增加3%攻击力。"
           },
           "equipment_rarity_flags": 0,
@@ -1044,6 +1065,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription1300032]",
           "descriptions": {
+            "ja-JP": "さらに『解析』のスタック数が6になった場合、自身のスピードが15%増加する（解除不可）。",
             "zh-CN": "当「解析」的叠加数达6层时，使艾谢额外增加15%速度（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1058,6 +1080,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription1300033]",
           "descriptions": {
+            "ja-JP": "スピードの増加量が30%になる。",
             "zh-CN": "速度增幅提升为30%。"
           },
           "equipment_rarity_flags": 0,
@@ -1072,6 +1095,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription1300034]",
           "descriptions": {
+            "ja-JP": "理の解読者を強化する。攻撃力の増加量が10%になる。",
             "zh-CN": "强化原理解读者，攻击力增幅提升为10%。"
           },
           "equipment_rarity_flags": 256,
@@ -1184,6 +1208,7 @@
       },
       "name_key": "[PassiveSkillName130003]",
       "names": {
+        "ja-JP": "理の解読者",
         "zh-CN": "原理解读者"
       },
       "source_memo_ja": "アイシェSR:Lv1 知識は人々の生活を豊かにするためにあるのよ──自身か味方が自傷ダメージを受けた場合、自身に『解析』を1スタック付与する（最大6スタックまで）（解除不可）。このバフは1スタックにつき自身の攻撃力を3%増加させる。/ Lv2 さらに『解析』のスタック数が6になった場合、自身のスピードが15%増加する（解除不可）。/ Lv3 スピードの増加量が30%になる。/ Ex2 理の解読者を強化する。攻撃力の増加量が10%になる。",
@@ -1215,6 +1240,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription1300041]",
           "descriptions": {
+            "ja-JP": "この出会いが間違いというなら、私がそれを正解にしてみせる──自身が攻撃して、攻撃の後に対象が弱体効果を付帯している場合、30%の確率で対象が付帯しているバフ1つのターン数を1減少させる。",
             "zh-CN": "“如果说我们的相遇是一场错误，那我只要把它变成正确答案就好。”艾谢发动攻击后，如果攻击目标身上附带弱化效果，30%概率使攻击目标身上附带的1种增益效果持续时间减少1回合。"
           },
           "equipment_rarity_flags": 0,
@@ -1229,6 +1255,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription1300042]",
           "descriptions": {
+            "ja-JP": "さらにバトル開始時自身に1層の『多重バリア』を付与する（解除不可）。自身の最大HP×20%以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。",
             "zh-CN": "战斗开始时，艾谢额外获得1层「多重屏障」（无法被解除）。当艾谢受到最大生命值×20%以上的伤害时，消耗1层屏障来抵消该伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -1243,6 +1270,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription1300043]",
           "descriptions": {
+            "ja-JP": "バフのターン数を減少させる確率が70%になる。",
             "zh-CN": "减少增益效果持续时间的概率提升为70%。"
           },
           "equipment_rarity_flags": 0,
@@ -1325,6 +1353,7 @@
       },
       "name_key": "[PassiveSkillName130004]",
       "names": {
+        "ja-JP": "小さな友達",
         "zh-CN": "年轻的朋友"
       },
       "source_memo_ja": "アイシェSR:Lv1 この出会いが間違いというなら、私がそれを正解にしてみせる──自身が攻撃して、対象が弱体効果を付帯している場合、30%の確率で対象が付帯しているバフ1つのターン数を1減少させる。/ Lv2 さらにバトル開始時自身に1層の『多重バリア』を付与する（解除不可）。自身の最大HP×20%以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。/ Lv3 バフのターン数を減少させる確率が70%になる。",
@@ -1380,6 +1409,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

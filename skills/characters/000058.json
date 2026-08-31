@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription580011]",
           "descriptions": {
+            "ja-JP": "「徹底抗戦、開始！」数多の戦場で奇跡を起こした剣たちが魔法陣から飛び出し、標的に一斉に降り注ぐ。ランダムな敵5体に攻撃力×350%の魔法攻撃を行う。「防がせない……！」純粋に守りたいと願う気持ちは時に戦況を大きく覆す。魔法攻撃の前に2ターンの間対象の魔法防御力を20%減少させ、被ダメージを10%増加させる。",
             "zh-CN": "“抗争到底，开始反击！”过去在无数战场上带来奇迹的宝剑自魔法阵中飞出，朝目标一齐落下，随机对5名敌人造成攻击力×350%的魔法伤害。“别想挡住我的攻击……！”想要保护他人的纯粹愿望有时会彻底颠覆战局。发动攻击前，亚缇使技能目标减少20%魔法防御力并增加10%承受伤害，效果持续2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription580012]",
           "descriptions": {
+            "ja-JP": "さらに自身が付与した『クリティカル耐性率増加』を付帯している場合、自身にクリティカル耐性率が10%増加するバフを2スタック、付帯していない場合は3スタック付与する（最大10スタックまで）（解除不可）。",
             "zh-CN": "当亚缇身上附带由自己附加的「抗暴率上升」效果时，额外获得2层相同的增益效果；当亚缇身上没有自己附加的「抗暴率上升」效果时，额外获得的增益效果增加为3层（最多叠加10层）（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription580013]",
           "descriptions": {
+            "ja-JP": "『魔法防御力減少』と『被ダメージ増加』のターン数がそれぞれ4ターンになる。",
             "zh-CN": "「魔法防御力下降」与「承受伤害上升」效果增加为4回合。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription580014]",
           "descriptions": {
+            "ja-JP": "*",
             "zh-CN": ""
           },
           "equipment_rarity_flags": 128,
@@ -118,6 +122,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName58001]",
       "names": {
+        "ja-JP": "徹底抗戦！",
         "zh-CN": "抗争到底！"
       },
       "source_memo_ja": "アーティSR:Lv1 「徹底抗戦、開始！」最も強いと思う武器の複製品を魔法で生み出し、ランダムな敵5体に攻撃力×350％の魔法攻撃を行う。「防がせない……！」純粋に守りたい気持ちは時に鋭い刃となる。魔法攻撃の前に2ターンの間対象の魔法防御力を20％減少させ、被ダメージを10％増加させる。/ Lv2\\n さらに自身が付与した『クリティカル耐性率増加』を付帯している場合、自身にクリティカル耐性率が10％増加するバフを2回、付帯していない場合は3回付与する（最大10回まで）（解除不可）。/ Lv3 \\n『魔法防御力減少』と『被ダメージ増加』のターン数がそれぞれ4ターンになる。/ Ex1 徹底抗戦！を強化する。魔法防御力の減少量が40%、被ダメージの増加量が20%になる。",
@@ -147,6 +152,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription580021]",
           "descriptions": {
+            "ja-JP": "「戦い、終わらせるためなら……！」魔剣の複製品を魔法で生み出し、ランダムな敵に5回攻撃力×170%の魔法攻撃を行う。終戦を願う気持ちは時に歪な光を生む。魔法攻撃の前に対象のHP割合が自身よりも低い場合、魔法攻撃のダメージが1.5倍になる。",
             "zh-CN": "“为了终结这场战争……！”亚缇用魔法制造出魔剑的复制品，随机对敌人进行5次攻击，每次造成攻击力×170%的魔法伤害。想要结束战争的心情时而化为扭曲的光芒，当技能目标的生命值百分比低于自己时，造成的魔法伤害增加为1.5倍。"
           },
           "equipment_rarity_flags": 0,
@@ -161,6 +167,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription580022]",
           "descriptions": {
+            "ja-JP": "さらに魔法攻撃の前に対象が弱体効果を付帯している場合、必ずクリティカルヒットする。",
             "zh-CN": "当技能目标身上附带弱化效果时，此攻击必定暴击。"
           },
           "equipment_rarity_flags": 0,
@@ -175,6 +182,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription580023]",
           "descriptions": {
+            "ja-JP": "魔法攻撃の回数が7回になる。さらに自身のHPをこのスキルの総与ダメージ×20%回復する。",
             "zh-CN": "攻击次数增加为7次，并额外恢复技能总伤害×20%的生命值。"
           },
           "equipment_rarity_flags": 0,
@@ -189,6 +197,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription580024]",
           "descriptions": {
+            "ja-JP": "魔法攻撃の前に対象のHP割合が自身よりも低い場合で得られる魔法攻撃のダメージ上昇量が2倍になる。",
             "zh-CN": "当技能目标的生命值百分比低于自己时，魔法伤害增幅提升为2倍。"
           },
           "equipment_rarity_flags": 0,
@@ -203,6 +212,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription580025]",
           "descriptions": {
+            "ja-JP": "*",
             "zh-CN": ""
           },
           "equipment_rarity_flags": 512,
@@ -307,6 +317,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName58002]",
       "names": {
+        "ja-JP": "災厄の剣",
         "zh-CN": "灾厄之剑"
       },
       "source_memo_ja": "アーティSR: Lv1 「戦い、終わらせるためなら……！」魔剣の複製品を魔法で生み出し、ランダムな敵に5回攻撃力×170％の魔法攻撃を行う。終戦を願う気持ちは時に歪な光を生む。魔法攻撃の前に対象のHP割合が自身より低い場合、魔法攻撃のダメージが1.5倍になる。/ Lv2 \\nさらに魔法攻撃の前に対象が弱体効果を付帯している場合、必ずクリティカルヒットする。/Lv3 \\n魔法攻撃の回数が7回になる。さらに自身のHPをこのスキルの総与ダメージ×20%回復する。/Lv4 \\n魔法攻撃の前に対象のHP割合が自身より低い場合、魔法攻撃のダメージが2倍になる。/ Ex3 災厄の剣を強化する。魔法攻撃のダメージが攻撃力×200％になる。",
@@ -773,6 +784,7 @@
       },
       "name_key": "[CharacterCollectionName17]",
       "names": {
+        "ja-JP": "アウリガの知恵",
         "zh-CN": "御夫座的智慧"
       },
       "required_character_ids": [
@@ -783,12 +795,14 @@
         {
           "id": 58,
           "names": {
+            "ja-JP": "アーティ",
             "zh-CN": "亚缇"
           }
         },
         {
           "id": 29,
           "names": {
+            "ja-JP": "メルティーユ",
             "zh-CN": "茉缇"
           }
         }
@@ -858,12 +872,14 @@
     "memo": "アーティ",
     "name_key": "[CharacterName58]",
     "names": {
+      "ja-JP": "アーティ",
       "zh-CN": "亚缇"
     },
     "speed": 2734,
     "start_time_jst": "2023-05-31 15:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -938,6 +954,7 @@
     },
     "name_key": "[EquipmentName405]",
     "names": {
+      "ja-JP": "ウルカヌス・サークル",
       "zh-CN": "兀儿肯努斯圆阵"
     },
     "passive_effects": [
@@ -971,6 +988,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill58Description1]",
         "descriptions": {
+          "ja-JP": "徹底抗戦！を強化する。魔法防御力の減少量が40%、被ダメージの増加量が20%になる。",
           "zh-CN": "强化抗争到底！，魔法防御力降幅提升为40%，承受伤害增幅提升为20%。"
         },
         "equipment_rarity_flags": 128,
@@ -979,6 +997,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill58Description2]",
         "descriptions": {
+          "ja-JP": "魔剣の創造主を強化する。5%を超えた分のダメージを90%遮断する。",
           "zh-CN": "强化魔剑锻造者，阻绝超量部分×90%的伤害。"
         },
         "equipment_rarity_flags": 256,
@@ -987,6 +1006,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill58Description3]",
         "descriptions": {
+          "ja-JP": "災厄の剣を強化する。魔法攻撃のダメージが攻撃力×200%になる。",
           "zh-CN": "强化灾厄之剑，造成的魔法伤害提升为攻击力×200%。"
         },
         "equipment_rarity_flags": 512,
@@ -1007,6 +1027,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription580031]",
           "descriptions": {
+            "ja-JP": "「二人なら、乗り越えられる」寄り添う影が挫けそうな心を何度も奮い立たせる。自身の最大HPが15%増加する（解除不可）。",
             "zh-CN": "“两个人一起，就能跨越任何困难。”陪伴在身旁的那道身影，让亚缇一次又一次地振作起来，使自己增加15%最大生命值（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1021,6 +1042,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription580032]",
           "descriptions": {
+            "ja-JP": "さらに自身の被ダメージが15%減少する（解除不可）。",
             "zh-CN": "额外减少15%自身承受伤害（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1035,6 +1057,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription580033]",
           "descriptions": {
+            "ja-JP": "最大HPの増加量が30%、被ダメージの減少量が30%になる。",
             "zh-CN": "最大生命值增幅与承受伤害降幅提升为30%。"
           },
           "equipment_rarity_flags": 0,
@@ -1103,6 +1126,7 @@
       },
       "name_key": "[PassiveSkillName58003]",
       "names": {
+        "ja-JP": "相棒の影",
         "zh-CN": "搭档的身影"
       },
       "source_memo_ja": "アーティSR:Lv1 「二人なら、乗り越えられる」寄り添う影が挫けそうな心を何度も奮い立たせる。自身の最大HPが15％増加する（解除不可）。/ Lv2 \\nさらに自身の被ダメージが15％減少する（解除不可）。/ Lv3 \\n最大HPの増加量が30%、被ダメージの減少量が30%になる。",
@@ -1130,6 +1154,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription580041]",
           "descriptions": {
+            "ja-JP": "かつて魔剣を生み出した強大な魔力が、自身を守る力となる。バトル開始時自身にクリティカル耐性率が10%増加するバフを3スタック付与する（最大10スタックまで）（解除不可）。自身が最大HPの5%を超えるダメージの攻撃を受けたとき、自身が付与した『クリティカル耐性率増加』のスタック数を1消費して、5%を超えた分のダメージを50%遮断する。",
             "zh-CN": "强大的魔力过去让亚缇得以制造出魔剑，如今则成为亚缇保护自己的力量。战斗开始时，亚缇获得3层增益效果，每层使自己增加10%抗暴率（最多叠加10层）（无法被解除）。当亚缇受到攻击，承受伤害超过最大生命值的5%时，消耗1层增益效果来阻绝超量部分×50%的伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -1144,6 +1169,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription580042]",
           "descriptions": {
+            "ja-JP": "5%を超えた分のダメージを70%遮断する。",
             "zh-CN": "阻绝超量部分×70%的伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -1158,6 +1184,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription580043]",
           "descriptions": {
+            "ja-JP": "『クリティカル耐性率増加』の付与スタック数が8になる。",
             "zh-CN": "「抗暴率上升」效果增加为8层。"
           },
           "equipment_rarity_flags": 0,
@@ -1169,6 +1196,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription580044]",
           "descriptions": {
+            "ja-JP": "*",
             "zh-CN": ""
           },
           "equipment_rarity_flags": 256,
@@ -1306,6 +1334,7 @@
       },
       "name_key": "[PassiveSkillName58004]",
       "names": {
+        "ja-JP": "魔剣の創造主",
         "zh-CN": "魔剑锻造者"
       },
       "source_memo_ja": "アーティSR:Lv1 かつて魔剣を生み出した強大な魔力が、自身を守る力となる。バトル開始時自身にクリティカル耐性率が10％増加するバフを3回付与する（最大10回まで）（解除不可）。自身が最大HPの5％を超えるダメージの攻撃を受けた場合、自身が付与した『クリティカル耐性率増加』のスタック数を1消費して、5%を超えた分のダメージを50％遮断する。/ Lv2 \\n5%を超えた分のダメージを70%遮断する。/ Lv3\\n『クリティカル耐性増加』の付与回数が5回になる。/ ExLv2\\n魔剣の創造主を強化する。5%を超えた分のダメージを90%遮断する。",
@@ -1357,6 +1386,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

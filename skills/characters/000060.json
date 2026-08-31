@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription600011]",
           "descriptions": {
+            "ja-JP": "命の呪いは、時として他者から奪い自らの命に変える。2ターンの間自身のHPドレインが20%増加し、ランダムな敵3体に攻撃力×380%の物理攻撃を行う。",
             "zh-CN": "不死的诅咒时而夺取他人的生命化为己用，使菲雅增加20%吸血，效果持续2回合，并随机对3名敌人造成攻击力×380%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription600012]",
           "descriptions": {
+            "ja-JP": "『HPドレイン増加』のターン数が4ターンになり、増加量が40%になる。",
             "zh-CN": "「吸血上升」效果增加为4回合，增幅提升为40%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription600013]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×480%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×480%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription600014]",
           "descriptions": {
+            "ja-JP": "",
             "zh-CN": ""
           },
           "equipment_rarity_flags": 128,
@@ -122,6 +126,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName60001]",
       "names": {
+        "ja-JP": "ライフスティール",
         "zh-CN": "生命窃取"
       },
       "source_memo_ja": "フィアーSR:Lv1 命の呪いは、時として他者から奪い自らの命に変える。2ターンの間自身のHPドレインが20%増加し、ランダムな敵3体に攻撃力×380%の物理攻撃を行う。/ Lv2 『HPドレイン増加』のターン数が4ターンになり、増加量が40%になる。/ Lv3 物理攻撃のダメージが攻撃力×480%になる。/ Ex1 ライフスティールを強化する。ライフスティールの対象がランダムな敵5体になる。",
@@ -155,6 +160,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription600021]",
           "descriptions": {
+            "ja-JP": "生と死は表裏一体。命の呪いが死を切り離し、その因果を相手へ返す。ランダムな敵2体に過去20ターンで受けた自身の総被ダメージ×10%の直接攻撃を行う。",
             "zh-CN": "生死原是一体两面——不死的诅咒剥离菲雅身上的死亡，将带来死亡的业力物归原主，随机对2名敌人造成过去20回合内菲雅承受总伤害×10%的直接伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -169,6 +175,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription600022]",
           "descriptions": {
+            "ja-JP": "直接攻撃のダメージが過去20ターンで受けた自身の総被ダメージ×15%になる。",
             "zh-CN": "造成的直接伤害提升为过去20回合内菲雅承受总伤害×15%。"
           },
           "equipment_rarity_flags": 0,
@@ -183,6 +190,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription600023]",
           "descriptions": {
+            "ja-JP": "このスキルの対象がランダムな敵3体になる。",
             "zh-CN": "技能目标增加为3名随机敌人。"
           },
           "equipment_rarity_flags": 0,
@@ -197,6 +205,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription600024]",
           "descriptions": {
+            "ja-JP": "直接攻撃のダメージが過去20ターンで受けた自身の総被ダメージ×20%になる。",
             "zh-CN": "造成的直接伤害提升为过去20回合内菲雅承受总伤害×20%。"
           },
           "equipment_rarity_flags": 0,
@@ -262,6 +271,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName60002]",
       "names": {
+        "ja-JP": "カウンターグリム",
         "zh-CN": "业力反弹"
       },
       "source_memo_ja": "フィアーSR:Lv1 生と死は表裏一体。命の呪いが死を切り離し、その因果を相手へ返す。ランダムな敵2体に過去20ターンで受けた自身の総被ダメージ×10%の直接攻撃を行う。/ Lv2 直接攻撃のダメージが過去20ターンで受けた自身の総被ダメージ×15%になる。/ Lv3 このスキルの対象がランダムな敵3体になる。/ Lv4 直接攻撃のダメージが過去20ターンで受けた自身の総被ダメージ×20%になる。",
@@ -612,6 +622,7 @@
       },
       "name_key": "[CharacterCollectionName24]",
       "names": {
+        "ja-JP": "サジテリアスの逆光​",
         "zh-CN": "射手座的逆光​"
       },
       "required_character_ids": [
@@ -622,12 +633,14 @@
         {
           "id": 60,
           "names": {
+            "ja-JP": "フィアー",
             "zh-CN": "菲雅"
           }
         },
         {
           "id": 6,
           "names": {
+            "ja-JP": "アムレート",
             "zh-CN": "阿姆蕾特"
           }
         }
@@ -1073,6 +1086,7 @@
       },
       "name_key": "[CharacterCollectionName93]",
       "names": {
+        "ja-JP": "サジテリアスの光源​",
         "zh-CN": "射手座的光源"
       },
       "required_character_ids": [
@@ -1083,12 +1097,14 @@
         {
           "id": 134,
           "names": {
+            "ja-JP": "フィアー",
             "zh-CN": "菲雅"
           }
         },
         {
           "id": 60,
           "names": {
+            "ja-JP": "フィアー",
             "zh-CN": "菲雅"
           }
         }
@@ -1158,12 +1174,14 @@
     "memo": "フィアー",
     "name_key": "[CharacterName60]",
     "names": {
+      "ja-JP": "フィアー",
       "zh-CN": "菲雅"
     },
     "speed": 2645,
     "start_time_jst": "2023-07-31 15:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -1238,6 +1256,7 @@
     },
     "name_key": "[EquipmentName409]",
     "names": {
+      "ja-JP": "愚鈍の鉄塊",
       "zh-CN": "愚钝的铁块"
     },
     "passive_effects": [
@@ -1271,6 +1290,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill60Description1]",
         "descriptions": {
+          "ja-JP": "ライフスティールを強化する。ライフスティールの対象がランダムな敵5体になる。",
           "zh-CN": "强化生命窃取，技能目标增加为5名随机敌人。"
         },
         "equipment_rarity_flags": 128,
@@ -1279,6 +1299,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill60Description2]",
         "descriptions": {
+          "ja-JP": "不死の力を強化する。自身に隣接する味方2体の最大HPの増加量が自身の最大HP×50%になる。",
           "zh-CN": "强化不死之力，使菲雅附近的2名友军增加最大生命值，增幅提升为菲雅最大生命值×50%。"
         },
         "equipment_rarity_flags": 256,
@@ -1287,6 +1308,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill60Description3]",
         "descriptions": {
+          "ja-JP": "遺された力を強化する。HPの回復量が被ダメージ×30%になる（最大で自身の最大HP×15%まで）。",
           "zh-CN": "强化遗留的力量，生命值恢复量提升为承受伤害×30%（最多15%最大生命值）。"
         },
         "equipment_rarity_flags": 512,
@@ -1307,6 +1329,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription600031]",
           "descriptions": {
+            "ja-JP": "過剰なまでの生命力は自分だけでなく、仲間の命までも巻き込んでいく。バトル開始時自身に隣接する味方1体の最大HPを自身の最大HP×20%増加させる（解除不可）。その後自身の最大HPが40%増加する（解除不可）。",
             "zh-CN": "菲雅身上过剩的生命力连带影响了她的同伴。战斗开始时，使附近的1名友军增加最大生命值，增幅为菲雅最大生命值×20%（无法被解除）。再使自己增加40%最大生命值（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1321,6 +1344,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription600032]",
           "descriptions": {
+            "ja-JP": "自身の最大HPの増加量が100%になる。",
             "zh-CN": "菲雅的最大生命值增幅提升为100%。"
           },
           "equipment_rarity_flags": 0,
@@ -1335,6 +1359,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription600033]",
           "descriptions": {
+            "ja-JP": "最大HPを増加させる味方の対象が自身に隣接する味方2体になる。",
             "zh-CN": "技能目标增加为菲雅与附近的2名友军。"
           },
           "equipment_rarity_flags": 0,
@@ -1349,6 +1374,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription600034]",
           "descriptions": {
+            "ja-JP": "",
             "zh-CN": ""
           },
           "equipment_rarity_flags": 256,
@@ -1430,6 +1456,7 @@
       },
       "name_key": "[PassiveSkillName60003]",
       "names": {
+        "ja-JP": "不死の力",
         "zh-CN": "不死之力"
       },
       "source_memo_ja": "フィアーSR:Lv1過剰なまでの生命力は自分だけでなく、仲間の命までも巻き込んでいく。バトル開始時自身に隣接する味方1体の最大HPを自身の最大HP×20％増加させる（解除不可）。その後自身の最大HPが40%増加する（解除不可）。/ Lv2 自身の最大HPの増加量が100%になる。/ Lv3 最大HPを増加させる味方の対象が自身に隣接する味方2体になる。/ Ex2 不死の力を強化する。自身に隣接する味方2体の最大HPの増加量が自身の最大HP×50％になる。",
@@ -1457,6 +1484,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription600041]",
           "descriptions": {
+            "ja-JP": "世界をも滅ぼしうる力は、最後はたった一人の少女を救うために使われた。ターン開始時、1ターンの間スピードが最も低い味方のカウンタを5%増加させる。対象が自身の場合増加量が20%になる。このスキルは発動後4回行動終了するまで再び発動しない。",
             "zh-CN": "足以毁灭世界的力量，最后被用来拯救一名平凡的少女。回合开始时，使速度最低的友军增加5%伤害反弹，效果持续1回合。技能目标为菲雅时，伤害反弹增幅提升为20%。此技能须在结束4次行动后才可再次触发。"
           },
           "equipment_rarity_flags": 0,
@@ -1471,6 +1499,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription600042]",
           "descriptions": {
+            "ja-JP": "さらに自身が攻撃を受けたとき、自身のHPを被ダメージ×20%回復する（最大で自身の最大HP×10%まで）。攻撃で自身が戦闘不能になった場合、このスキルは発動しない。",
             "zh-CN": "当菲雅受到攻击时，额外恢复承受伤害×20%的生命值（最多10%最大生命值）。当攻击使菲雅失去战斗能力时，无法触发此技能。"
           },
           "equipment_rarity_flags": 0,
@@ -1485,6 +1514,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription600043]",
           "descriptions": {
+            "ja-JP": "『カウンタ増加』のターン数が2ターンになり、増加量が10%、対象が自身の場合30%になる。",
             "zh-CN": "「伤害反弹上升」效果增加为2回合，增幅提升为10%。技能目标为菲雅时，增幅提升为30%。"
           },
           "equipment_rarity_flags": 0,
@@ -1499,6 +1529,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription600044]",
           "descriptions": {
+            "ja-JP": "",
             "zh-CN": ""
           },
           "equipment_rarity_flags": 512,
@@ -1632,6 +1663,7 @@
       },
       "name_key": "[PassiveSkillName60004]",
       "names": {
+        "ja-JP": "遺された力",
         "zh-CN": "遗留的力量"
       },
       "source_memo_ja": "フィアーSR:Lv1 世界をも滅ぼしうる力は、最後はたった一人の少女を救うために使われた。ターン開始時、1ターンの間スピードが最も低い味方のカウンタを5%増加させる。対象が自身の場合増加量が20％になる。このスキルは4ターンに1回発動する。/ Lv2 さらに自身が攻撃を受けたとき、自身のHPを被ダメージ×20%回復する（最大で自身の最大HP×10%まで）。この攻撃で自身が戦闘不能になった場合、このスキルは発動しない。/ Lv3 『カウンタ増加』のターン数が2ターンになり、増加量が10%、対象が自身の場合30%になる。/ Ex3 遺された力を強化する。HPの回復量が被ダメージ×30%になる（最大で自身の最大HP×15%まで）。",
@@ -1691,6 +1723,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

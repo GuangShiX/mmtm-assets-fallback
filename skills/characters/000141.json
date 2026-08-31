@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription1410011]",
           "descriptions": {
+            "ja-JP": "指先一つで世界を滅ぼすと言われた力はもうなく、今はただその残滓が宿るのみ。攻撃力が高い敵2体に攻撃力×160%の魔法攻撃を行い、30%の確率で対象に1ターンの間『気絶』を付与する。",
             "zh-CN": "那股据说动动手指便能毁灭世界的强大力量已不复存在，如今只剩下少许残渣。百合对攻击力最高的2名敌人造成攻击力×160%的魔法伤害，30%概率附加「晕厥」状态，效果持续1回合。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription1410012]",
           "descriptions": {
+            "ja-JP": "『気絶』を付与する確率が70%になる。",
             "zh-CN": "附加「晕厥」状态的概率提升为70%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1410013]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×220%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×220%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1410014]",
           "descriptions": {
+            "ja-JP": "ファントムダストを強化する。ファントムダストの対象が攻撃力が高い敵3体になる。",
             "zh-CN": "强化虚幻沙尘，技能目标增加为攻击力最高的3名敌人。"
           },
           "equipment_rarity_flags": 128,
@@ -67,6 +71,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription1410015]",
           "descriptions": {
+            "ja-JP": "ファントムダストを強化する。魔法攻撃のダメージが攻撃力×240%になる。",
             "zh-CN": "强化虚幻沙尘，造成的魔法伤害提升为攻击力×240%。"
           },
           "equipment_rarity_flags": 512,
@@ -142,6 +147,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName141001]",
       "names": {
+        "ja-JP": "ファントムダスト",
         "zh-CN": "虚幻沙尘"
       },
       "source_memo_ja": "リリーSR:Lv1 指先一つで世界を滅ぼすと言われた力はもうなく、今はただその残滓が宿るのみ。攻撃力が高い敵2体に攻撃力×160%の魔法攻撃を行い、30%の確率で対象に1ターンの間『気絶』を付与する。/ Lv2 『気絶』を付与する確率が70%になる。/ Lv3 魔法攻撃のダメージが攻撃力×220%になる。/ Ex1 ファントムダストを強化する。ファントムダストの対象が攻撃力が高い敵3体になる。/ Ex3 ファントムダストを強化する。魔法攻撃のダメージが攻撃力×240%になる。",
@@ -179,6 +185,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription1410021]",
           "descriptions": {
+            "ja-JP": "万物を形作る理を解いた時、砂粒にも満たない元素へ還る。ランダムな敵に6回攻撃力×160%の魔法攻撃を行う。",
             "zh-CN": "当构筑万物的原理崩解时，一切都将重新分解为比砂粒更微小的元素。百合随机对敌人进行6次攻击，每次造成攻击力×160%的魔法伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -193,6 +200,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription1410022]",
           "descriptions": {
+            "ja-JP": "さらに魔法攻撃の前に4ターンの間対象の被回復量を40%減少させる。",
             "zh-CN": "发动攻击前，使技能目标额外减少40%回血量，效果持续4回合。"
           },
           "equipment_rarity_flags": 0,
@@ -207,6 +215,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription1410023]",
           "descriptions": {
+            "ja-JP": "魔法攻撃の回数が10回になる。",
             "zh-CN": "攻击次数增加为10次。"
           },
           "equipment_rarity_flags": 0,
@@ -221,6 +230,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription1410024]",
           "descriptions": {
+            "ja-JP": "魔法攻撃の前に自身の『残り香』のスタック数が20の場合、魔法攻撃のダメージが攻撃力×320%になる。",
             "zh-CN": "发动攻击前，如果百合身上附带的「残香」达20层，造成的魔法伤害提升为攻击力×320%。"
           },
           "equipment_rarity_flags": 0,
@@ -314,6 +324,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName141002]",
       "names": {
+        "ja-JP": "ラストグレイン",
         "zh-CN": "微粒化"
       },
       "source_memo_ja": "リリーSR:Lv1 万物を形作る理を解いた時、砂粒にも満たない元素へ還る。ランダムな敵に6回攻撃力×160%の魔法攻撃を行う。/ Lv2 さらに魔法攻撃の前に4ターンの間対象の被回復量を40%減少させる。/ Lv3 魔法攻撃の回数が10回になる。/ Lv4 魔法攻撃の前に自身の『残り香』のスタック数が20の場合、魔法攻撃のダメージが攻撃力×320%になる。",
@@ -768,6 +779,7 @@
       },
       "name_key": "[CharacterCollectionName94]",
       "names": {
+        "ja-JP": "ルクバトの投影​",
         "zh-CN": "马膝星的投影"
       },
       "required_character_ids": [
@@ -778,12 +790,14 @@
         {
           "id": 141,
           "names": {
+            "ja-JP": "リリー",
             "zh-CN": "百合"
           }
         },
         {
           "id": 134,
           "names": {
+            "ja-JP": "フィアー",
             "zh-CN": "菲雅"
           }
         }
@@ -853,12 +867,14 @@
     "memo": "リリー",
     "name_key": "[CharacterName141]",
     "names": {
+      "ja-JP": "リリー",
       "zh-CN": "百合"
     },
     "speed": 3058,
     "start_time_jst": "2026-04-30 15:00:00",
     "subtitle_key": "",
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -933,6 +949,7 @@
     },
     "name_key": "[EquipmentName945]",
     "names": {
+      "ja-JP": "贖罪の徒花",
       "zh-CN": "赎罪的谎花"
     },
     "passive_effects": [
@@ -966,6 +983,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill141Description1]",
         "descriptions": {
+          "ja-JP": "ファントムダストを強化する。ファントムダストの対象が攻撃力が高い敵3体になる。",
           "zh-CN": "强化虚幻沙尘，技能目标增加为攻击力最高的3名敌人。"
         },
         "equipment_rarity_flags": 128,
@@ -974,6 +992,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill141Description2]",
         "descriptions": {
+          "ja-JP": "情報転写体を強化する。スピードの増加量が30%になる。",
           "zh-CN": "强化记忆转录载体，速度增幅提升为30%。"
         },
         "equipment_rarity_flags": 256,
@@ -982,6 +1001,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill141Description3]",
         "descriptions": {
+          "ja-JP": "ファントムダストを強化する。魔法攻撃のダメージが攻撃力×240%になる。",
           "zh-CN": "强化虚幻沙尘，造成的魔法伤害提升为攻击力×240%。"
         },
         "equipment_rarity_flags": 512,
@@ -1004,6 +1024,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription1410031]",
           "descriptions": {
+            "ja-JP": "「私は、花に遺されていた魂の欠片と、フィアーの中にある記憶を、杖の力で結びつけたもの。つまり幽霊みたいなものなんだ」バトル開始時、2ターンの間自身の弱体効果命中率が15%増加する（解除不可）。",
             "zh-CN": "“我是借助神杖拥有的情谊之力，把残留在花朵里的灵魂碎片，与留在菲雅心中的记忆结合而成的存在——也就是像幽灵一般的存在。”战斗开始时，百合使自己增加15%弱化效果命中率，效果持续2回合（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1018,6 +1039,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription1410032]",
           "descriptions": {
+            "ja-JP": "弱体効果命中率の増加量が30%になる。",
             "zh-CN": "弱化效果命中率增幅提升为30%。"
           },
           "equipment_rarity_flags": 0,
@@ -1032,6 +1054,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription1410033]",
           "descriptions": {
+            "ja-JP": "バトル開始時、さらに味方編成内で同じ属性の味方の編成数が3体以上の場合、2ターンの間自身のスピードが10%増加する（解除不可）。",
             "zh-CN": "战斗开始时，如果队伍中属性相同的友军达3名以上，百合使自己增加10%速度，效果持续2回合（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1046,6 +1069,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription1410034]",
           "descriptions": {
+            "ja-JP": "情報転写体を強化する。スピードの増加量が30%になる。",
             "zh-CN": "强化记忆转录载体，速度增幅提升为30%。"
           },
           "equipment_rarity_flags": 256,
@@ -1144,6 +1168,7 @@
       },
       "name_key": "[PassiveSkillName141003]",
       "names": {
+        "ja-JP": "情報転写体",
         "zh-CN": "记忆转录载体"
       },
       "source_memo_ja": "リリーSR:Lv1 「私は、花に遺されていた魂の欠片と、フィアーの中にある記憶を、杖の力で結びつけたもの。つまり幽霊みたいなものなんだ」バトル開始時、2ターンの間自身の弱体効果命中率が15%増加する（解除不可）。/ Lv2 弱体効果命中率の増加量が30%になる。/ Lv3 バトル開始時、さらに味方編成内で同じ属性の味方の編成数が3体以上の場合、2ターンの間自身のスピードが10%増加する（解除不可）。/ Ex2 情報転写体を強化する。スピードの増加量が30%になる。",
@@ -1175,6 +1200,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription1410041]",
           "descriptions": {
+            "ja-JP": "かつて切り捨てた罪悪感が、彼女をこの世に縛り付ける核となった。自身か味方がアクティブスキルで弱体効果を付与するたび、弱体効果を1つ以上付帯している敵の数分、自身に『残り香』を1スタック付与する（最大20スタックまで）（解除不可）。このバフは1スタックにつき付帯者の攻撃力を2%増加させる。",
             "zh-CN": "曾舍弃的罪恶感，成为将她束缚在人世间的核心。当百合或友军发动主动技能附加弱化效果时，每名身上附带1种以上弱化效果的敌人，使百合获得1层「残香」（最多20层）（无法被解除）。每层「残香」使附带者增加2%攻击力。"
           },
           "equipment_rarity_flags": 0,
@@ -1189,6 +1215,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription1410042]",
           "descriptions": {
+            "ja-JP": "『残り香』を付与する対象が自身と自身以外の攻撃力が最も高い味方になる。",
             "zh-CN": "「残香」的附加目标增加为百合与攻击力最高的其他友军。"
           },
           "equipment_rarity_flags": 0,
@@ -1203,6 +1230,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription1410043]",
           "descriptions": {
+            "ja-JP": "『残り香』を付与する対象が自身と自身以外の攻撃力が高い味方2体になる。",
             "zh-CN": "「残香」的附加目标增加为百合与攻击力最高的2名其他友军。"
           },
           "equipment_rarity_flags": 0,
@@ -1320,6 +1348,7 @@
       },
       "name_key": "[PassiveSkillName141004]",
       "names": {
+        "ja-JP": "後悔の残り香",
         "zh-CN": "悔恨残香"
       },
       "source_memo_ja": "リリーSR:Lv1 かつて切り捨てた罪悪感が、彼女をこの世に縛り付ける核となった。自身か味方がアクティブスキルで弱体効果を付与するたび、弱体効果を1つ以上付帯している敵の数分、自身に『残り香』を1スタック付与する（最大20スタックまで）（解除不可）。このバフは1スタックにつき付帯者の攻撃力を2%増加させる。/ Lv2 『残り香』を付与する対象が自身と自身以外の攻撃力が最も高い味方になる。/ Lv3 『残り香』を付与する対象が自身と自身以外の攻撃力が高い味方2体になる。",
@@ -1375,6 +1404,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

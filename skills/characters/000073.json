@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription730011]",
           "descriptions": {
+            "ja-JP": "「愛を届けるからね……」ランダムな敵5体に攻撃力×180%の物理攻撃を行い、2ターンの間自身以外のスピードが最も高い味方のクリティカル率を30%増加させる。",
             "zh-CN": "“收下我的爱吧……”爱沐尔随机对5名敌人造成攻击力×180%的物理伤害，使速度最高的其他友军增加30%暴击率，效果持续2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription730012]",
           "descriptions": {
+            "ja-JP": "さらに自身の物理攻撃でクリティカルヒットが1回以上発生した場合、味方に付与する『クリティカル率増加』の増加量が5%大きくなる。自身の物理攻撃でクリティカルヒットした回数1回につき増加量が5%大きくなる（合計で最大55%まで）。",
             "zh-CN": "技能暴击1次以上时，使暴击率增幅额外提升5%。每次技能暴击再使暴击率增幅提升5%（合计最多55%）。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription730013]",
           "descriptions": {
+            "ja-JP": "さらに物理攻撃の前に2ターンの間自身のクリティカル率が30%増加する。",
             "zh-CN": "发动攻击前使自己额外增加30%暴击率，效果持续2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription730014]",
           "descriptions": {
+            "ja-JP": "聖なる夜の贈り物を強化する。物理攻撃の後の『クリティカル率増加』の対象が自身以外のスピードが高い味方3体になる。",
             "zh-CN": "强化圣夜的礼物，攻击结束后的「暴击率上升」附加目标增加为速度最高的3名其他友军。"
           },
           "equipment_rarity_flags": 128,
@@ -124,6 +128,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName73001]",
       "names": {
+        "ja-JP": "聖なる夜の贈り物",
         "zh-CN": "圣夜的礼物"
       },
       "source_memo_ja": "聖夜アモールSR:Lv1 「愛を届けるからね……」ランダムな敵5体に攻撃力×180%の物理攻撃を行い、2ターンの間自身以外のスピードが最も高い味方のクリティカル率を30%増加させる。/ Lv2 さらに自身の物理攻撃でクリティカルヒットが1回以上発生した場合、味方に付与する『クリティカル率増加』の増加量が5%大きくなる。自身の物理攻撃でクリティカルヒットした回数1回につき増加量が5%大きくなる（合計で最大55%まで）。/ Lv3 さらに物理攻撃の前に2ターンの間自身のクリティカル率が30%増加する。/ Ex1 聖なる夜の贈り物を強化する。物理攻撃後の『クリティカル率増加』の対象が自身以外のスピードが高い味方3体になる。",
@@ -157,6 +162,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription730021]",
           "descriptions": {
+            "ja-JP": "「王子様を傷つける奴は許さない……！」HP割合が最も高い敵に2回攻撃力×240%の物理攻撃を行う。ただしHP割合の判定は攻撃1回ごとに行う。このスキルで敵を戦闘不能にできなかった場合、このスキルを再発動する（再発動は1回まで）。",
             "zh-CN": "“我不允许任何人伤害王子殿下……！”爱沐尔对生命值百分比最高的敌人进行2次攻击，每次造成攻击力×240%的物理伤害。生命值百分比在每次攻击结束后重新进行判定。如果技能目标仍然存活，爱沐尔再次发动此技能（最多1次）。"
           },
           "equipment_rarity_flags": 0,
@@ -171,6 +177,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription730022]",
           "descriptions": {
+            "ja-JP": "さらに自身のHP割合が50%以下の場合、物理攻撃のダメージが1.5倍になる。",
             "zh-CN": "当爱沐尔的生命值为50%以下时，造成的物理伤害增加为1.5倍。"
           },
           "equipment_rarity_flags": 0,
@@ -185,6 +192,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription730023]",
           "descriptions": {
+            "ja-JP": "物理攻撃の回数が3回になる。",
             "zh-CN": "攻击次数增加为3次。"
           },
           "equipment_rarity_flags": 0,
@@ -199,6 +207,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription730024]",
           "descriptions": {
+            "ja-JP": "自身のHP割合が50%以下の場合で得られる物理攻撃のダメージ上昇量が2倍になる。",
             "zh-CN": "当爱沐尔的生命值为50%以下时，物理伤害增幅提升为2倍。"
           },
           "equipment_rarity_flags": 0,
@@ -213,6 +222,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription730025]",
           "descriptions": {
+            "ja-JP": "運命の赤い茨を強化する。物理攻撃のダメージが攻撃力×340%になる。",
             "zh-CN": "强化命运的红棘，造成的物理伤害提升为攻击力×340%。"
           },
           "equipment_rarity_flags": 512,
@@ -319,6 +329,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName73002]",
       "names": {
+        "ja-JP": "運命の赤い茨",
         "zh-CN": "命运的红棘"
       },
       "source_memo_ja": "聖夜アモールSR:Lv1 「王子様を傷つける奴は許さない……！」HP割合が最も高い敵に2回攻撃力×240%の物理攻撃を行う。ただしHP割合の判定は攻撃1回ごとに行う。このスキルで敵を戦闘不能にできなかった場合、このスキルを再発動する（再発動は1回まで）。/ Lv2 さらに自身のHP割合が50%以下の場合、物理攻撃のダメージが1.5倍になる。/ Lv3 物理攻撃の回数が3回になる。/ Lv4 自身のHP割合が50％以下の場合で得られる物理攻撃のダメージ上昇量が2倍になる。/ Ex3 運命の赤い茨を強化する。物理攻撃のダメージが攻撃力×340%になる。",
@@ -785,6 +796,7 @@
       },
       "name_key": "[CharacterCollectionName34]",
       "names": {
+        "ja-JP": "コマ・ベレニケの恋路",
         "zh-CN": "后发座的情路"
       },
       "required_character_ids": [
@@ -795,12 +807,14 @@
         {
           "id": 73,
           "names": {
+            "ja-JP": "アモール",
             "zh-CN": "爱沐尔"
           }
         },
         {
           "id": 17,
           "names": {
+            "ja-JP": "アモール",
             "zh-CN": "爱沐尔"
           }
         }
@@ -870,12 +884,14 @@
     "memo": "聖夜アモール",
     "name_key": "[CharacterName73]",
     "names": {
+      "ja-JP": "アモール",
       "zh-CN": "爱沐尔"
     },
     "speed": 3450,
     "start_time_jst": "2023-11-30 15:00:00",
     "subtitle_key": "[CharacterSubName73]",
     "subtitles": {
+      "ja-JP": "聖夜の贈り物",
       "zh-CN": "圣夜的礼物"
     }
   },
@@ -949,6 +965,7 @@
     },
     "name_key": "[EquipmentName537]",
     "names": {
+      "ja-JP": "愛の贈り物",
       "zh-CN": "爱的礼物"
     },
     "passive_effects": [
@@ -982,6 +999,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill73Description1]",
         "descriptions": {
+          "ja-JP": "聖なる夜の贈り物を強化する。物理攻撃の後の『クリティカル率増加』の対象が自身以外のスピードが高い味方3体になる。",
           "zh-CN": "强化圣夜的礼物，攻击结束后的「暴击率上升」附加目标增加为速度最高的3名其他友军。"
         },
         "equipment_rarity_flags": 128,
@@ -990,6 +1008,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill73Description2]",
         "descriptions": {
+          "ja-JP": "ずっとあなたの傍にを強化する。攻撃力の増加量が40%になる。",
           "zh-CN": "强化永生相随，攻击力增幅提升为40%。"
         },
         "equipment_rarity_flags": 256,
@@ -998,6 +1017,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill73Description3]",
         "descriptions": {
+          "ja-JP": "運命の赤い茨を強化する。物理攻撃のダメージが攻撃力×340%になる。",
           "zh-CN": "强化命运的红棘，造成的物理伤害提升为攻击力×340%。"
         },
         "equipment_rarity_flags": 512,
@@ -1018,6 +1038,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription730031]",
           "descriptions": {
+            "ja-JP": "「愛してるよ。これからもずっと。永遠に……」自身が戦闘不能になったとき、自身の最大HP×25%のHPを回復して復活する。その後自身の最大HPが50%増加する（解除不可）。このスキルはバトル中1回のみ発動する。",
             "zh-CN": "“我爱你。此生不渝，直到永远……”失去战斗能力时，爱沐尔将复活并恢复25%最大生命值，再使自己增加50%最大生命值（无法被解除）。此技能每场战斗最多触发1次。"
           },
           "equipment_rarity_flags": 0,
@@ -1032,6 +1053,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription730032]",
           "descriptions": {
+            "ja-JP": "復活後、さらに3ターンの間攻撃力が高い味方2体の攻撃力を20%増加させる。",
             "zh-CN": "爱沐尔复活后，使攻击力最高的2名友军额外增加20%攻击力，效果持续3回合。"
           },
           "equipment_rarity_flags": 0,
@@ -1046,6 +1068,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription730033]",
           "descriptions": {
+            "ja-JP": "復活後、さらに攻撃力が高い味方2体のスキルクールタイムカウントを2減少させる。",
             "zh-CN": "爱沐尔复活后，使攻击力最高的2名友军额外减少技能冷却时间2。"
           },
           "equipment_rarity_flags": 0,
@@ -1060,6 +1083,7 @@
           "character_level": 181,
           "description_key": "[PassiveSkillDescription730034]",
           "descriptions": {
+            "ja-JP": "ずっとあなたの傍にを強化する。攻撃力の増加量が40%になる。",
             "zh-CN": "强化永生相随，攻击力增幅提升为40%。"
           },
           "equipment_rarity_flags": 256,
@@ -1193,6 +1217,7 @@
       },
       "name_key": "[PassiveSkillName73003]",
       "names": {
+        "ja-JP": "ずっとあなたの傍に",
         "zh-CN": "永生相随"
       },
       "source_memo_ja": "聖夜アモールSR:Lv1 「愛してるよ。これからもずっと。永遠に……」自身が戦闘不能になったとき、自身の最大HP×25%のHPを回復して復活する。その後自身の最大HPが50%増加する（解除不可）。このスキルはバトル中1回のみ発動する。/ Lv2 復活後、さらに3ターンの間攻撃力が高い味方2体の攻撃力を20%増加させる。/ Lv3 復活後、さらに攻撃力が高い味方2体のスキルクールタイムカウントを2減少させる。/ Ex2 ずっとあなたの傍にを強化する。攻撃力の増加量が40%になる。",
@@ -1224,6 +1249,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription730041]",
           "descriptions": {
+            "ja-JP": "「あなたを想うだけで、幸せな気持ちがあふれて止まらないの……」バトル開始時自身に隣接する味方2体の被ダメージを30%減少させる。『被ダメージ減少』はターン経過では解除されず、対象が1回目の攻撃を受けたときに解除される。",
             "zh-CN": "“一想到你，我的心里便会洋溢着幸福……”战斗开始时，爱沐尔使附近的2名友军减少30%承受伤害。当技能目标受到1次攻击后，解除「承受伤害下降」状态。"
           },
           "equipment_rarity_flags": 0,
@@ -1238,6 +1264,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription730042]",
           "descriptions": {
+            "ja-JP": "『被ダメージ減少』の対象が味方全体になる。",
             "zh-CN": "「承受伤害下降」的附加目标增加为全体友军。"
           },
           "equipment_rarity_flags": 0,
@@ -1252,6 +1279,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription730043]",
           "descriptions": {
+            "ja-JP": "被ダメージの減少量が60%になる。",
             "zh-CN": "承受伤害降幅提升为60%。"
           },
           "equipment_rarity_flags": 0,
@@ -1320,6 +1348,7 @@
       },
       "name_key": "[PassiveSkillName73004]",
       "names": {
+        "ja-JP": "募りあふれる想い",
         "zh-CN": "日久情深"
       },
       "source_memo_ja": "聖夜アモールSR:Lv1 「あなたを想うだけで、幸せな気持ちがあふれて止まらないの……」バトル開始時自身に隣接する味方2体の被ダメージを30%減少させる。『被ダメージ減少』はターン経過では解除されず、対象が攻撃を受けたときただちに解除される。/ Lv2 『被ダメージ減少』の対象が味方全体になる。/ Lv3 被ダメージの減少量が60%になる。",
@@ -1375,6 +1404,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

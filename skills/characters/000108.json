@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription1080011]",
           "descriptions": {
+            "ja-JP": "心に降る、雪のように優しい想いが結晶となって輝き、大切なあの子の笑顔を守る。ランダムな敵3体に攻撃力×480%の物理攻撃を行い、40%の確率で4ターンの間対象に『脱力』を付与する。付帯者のバトル中ステータスの攻撃力が30%減少する。",
             "zh-CN": "轻柔如雪的回忆飘落在心中，化为闪闪发亮的结晶，守护着心爱的她与她的笑容。露娜琳德随机对3名敌人造成攻击力×480%的物理伤害，40%概率附加「脱力」状态，效果持续4回合，使附带者减少30%战斗期间的攻击力。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription1080012]",
           "descriptions": {
+            "ja-JP": "『脱力』を付与する確率が70%になる。",
             "zh-CN": "附加「脱力」状态的概率提升为70%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1080013]",
           "descriptions": {
+            "ja-JP": "このスキルを7ターン目以降に発動した場合、物理攻撃のダメージが攻撃力×1920%になる。",
             "zh-CN": "第7回合起，造成的物理伤害提升为攻击力×1920%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1080014]",
           "descriptions": {
+            "ja-JP": "ダイヤモンドダストを強化する。ダイヤモンドダストの対象がランダムな敵5体になる。",
             "zh-CN": "强化钻石星尘，技能目标增加为5名随机敌人。"
           },
           "equipment_rarity_flags": 128,
@@ -118,6 +122,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName108001]",
       "names": {
+        "ja-JP": "ダイヤモンドダスト",
         "zh-CN": "钻石星尘"
       },
       "source_memo_ja": "冬ルナリンドSR:Lv1 心に降る、雪のように優しい想いが結晶となって輝き、大切なあの子の笑顔を守る。ランダムな敵3体に攻撃力×480%の物理攻撃を行い、40%の確率で4ターンの間対象に『脱力』を付与する。付帯者のバトル中ステータスの攻撃力が30％減少する。/ Lv2 『脱力』を付与する確率が70%になる。/ Lv3 このスキルを7ターン目以降に発動した場合、物理攻撃のダメージが攻撃力×1920%になる。/ Ex1 ダイヤモンドダストを強化する。ダイヤモンドダストの対象がランダムな敵5体になる。",
@@ -151,6 +156,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription1080021]",
           "descriptions": {
+            "ja-JP": "冷たい魔力が凝縮し、太陽のように燃え上がる。ランダムな敵4体に攻撃力×520%の物理攻撃を行い、70%の確率で1ターンの間対象に『浸食』を付与する。毎ターン行動開始時にこのスキルの総与ダメージ×10%のダメージを与える。",
             "zh-CN": "露娜琳德凝聚魔力加以压缩，使寒气逼人的魔力迸发出太阳般耀眼的冷焰，随机对4名敌人造成攻击力×520%的物理伤害，70%概率附加「侵蚀」状态，效果持续1回合，每回合行动开始时造成技能总伤害×10%的伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -165,6 +171,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription1080022]",
           "descriptions": {
+            "ja-JP": "『浸食』のターン数が2ターンになる。",
             "zh-CN": "「侵蚀」效果增加为2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -179,6 +186,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription1080023]",
           "descriptions": {
+            "ja-JP": "このスキルの対象がランダムな敵5体になる。",
             "zh-CN": "技能目标增加为5名随机敌人。"
           },
           "equipment_rarity_flags": 0,
@@ -193,6 +201,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription1080024]",
           "descriptions": {
+            "ja-JP": "このスキルを7ターン目以降に発動した場合、物理攻撃のダメージが攻撃力×2080%になる。",
             "zh-CN": "第7回合起，造成的物理伤害提升为攻击力×2080%。"
           },
           "equipment_rarity_flags": 0,
@@ -207,6 +216,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription1080025]",
           "descriptions": {
+            "ja-JP": "コールドフレアを強化する。物理攻撃のダメージが攻撃力×580%になる。このスキルを7ターン目以降に発動した場合、物理攻撃のダメージが攻撃力×2320%になる。",
             "zh-CN": "强化冰晶冷焰，造成的物理伤害提升为攻击力×580%。第7回合起，造成的物理伤害提升为攻击力×2320%。"
           },
           "equipment_rarity_flags": 512,
@@ -282,6 +292,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName108002]",
       "names": {
+        "ja-JP": "コールドフレア",
         "zh-CN": "冰晶冷焰"
       },
       "source_memo_ja": "冬ルナリンドSR:Lv1 冷たい魔力が凝縮し、太陽のように燃え上がる。ランダムな敵4体に攻撃力×520%の物理攻撃を行い、70%の確率で1ターンの間対象に『浸食』を付与する。毎ターン行動開始時にこのスキルの総与ダメージ×10%のダメージを与える。/ Lv2 『浸食』のターン数が2ターンになる。/ Lv3 このスキルの対象がランダムな敵5体になる。/ Lv4 このスキルを7ターン目以降に発動した場合、物理攻撃のダメージが攻撃力×2080%になる。/ Ex3 コールドフレアを強化する。物理攻撃のダメージが攻撃力×580%になる。このスキルを7ターン目以降に発動した場合、物理攻撃のダメージが攻撃力×2320%になる。",
@@ -740,6 +751,7 @@
       },
       "name_key": "[CharacterCollectionName63]",
       "names": {
+        "ja-JP": "カストルの親愛",
         "zh-CN": "卡斯托尔的亲爱"
       },
       "required_character_ids": [
@@ -750,12 +762,14 @@
         {
           "id": 108,
           "names": {
+            "ja-JP": "ルナリンド",
             "zh-CN": "露娜琳德"
           }
         },
         {
           "id": 46,
           "names": {
+            "ja-JP": "ルナリンド",
             "zh-CN": "露娜琳德"
           }
         }
@@ -825,12 +839,14 @@
     "memo": "冬ルナリンド",
     "name_key": "[CharacterName108]",
     "names": {
+      "ja-JP": "ルナリンド",
       "zh-CN": "露娜琳德"
     },
     "speed": 3037,
     "start_time_jst": "2024-12-13 15:00:00",
     "subtitle_key": "[CharacterSubName108]",
     "subtitles": {
+      "ja-JP": "聖夜の妖精",
       "zh-CN": "圣夜的妖精"
     }
   },
@@ -905,6 +921,7 @@
     },
     "name_key": "[EquipmentName747]",
     "names": {
+      "ja-JP": "白雪のマフラー",
       "zh-CN": "雪白围巾"
     },
     "passive_effects": [
@@ -938,6 +955,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill108Description1]",
         "descriptions": {
+          "ja-JP": "ダイヤモンドダストを強化する。ダイヤモンドダストの対象がランダムな敵5体になる。",
           "zh-CN": "强化钻石星尘，技能目标增加为5名随机敌人。"
         },
         "equipment_rarity_flags": 128,
@@ -946,6 +964,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill108Description2]",
         "descriptions": {
+          "ja-JP": "雪解けの温もりを強化する。被ダメージの減少量が60%になる。",
           "zh-CN": "强化融雪的暖意，承受伤害降幅提升为60%。"
         },
         "equipment_rarity_flags": 256,
@@ -954,6 +973,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill108Description3]",
         "descriptions": {
+          "ja-JP": "コールドフレアを強化する。物理攻撃のダメージが攻撃力×580%になる。このスキルを7ターン目以降に発動した場合、物理攻撃のダメージが攻撃力×2320%になる。",
           "zh-CN": "强化冰晶冷焰，造成的物理伤害提升为攻击力×580%。第7回合起，造成的物理伤害提升为攻击力×2320%。"
         },
         "equipment_rarity_flags": 512,
@@ -974,6 +994,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription1080031]",
           "descriptions": {
+            "ja-JP": "あなたが隣に居てくれるから、私はいつも笑顔になれる。ありがとう。私もあなたが大好きよ。ターン開始時スピードが最も高い味方に1層の『多重バリア』を付与する（解除不可）。ダメージを受けると、バリアを1層消費してそのダメージを無効化する。このスキルは発動後8回行動終了するまで再び発動しない。",
             "zh-CN": "一直以来，因为有你在我身边，我才能每天都保持笑容。谢谢索索，我也最喜欢你了。回合开始时，露娜琳德使速度最高的友军获得1层「多重屏障」（无法被解除）。当技能目标受到伤害时，消耗1层屏障来抵消该伤害。此技能须在结束8次行动后才可再次触发。"
           },
           "equipment_rarity_flags": 0,
@@ -988,6 +1009,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription1080032]",
           "descriptions": {
+            "ja-JP": "さらに『多重バリア』を付与する対象が紅属性もしくは翠属性の場合、付与する『多重バリア』が2層になる。",
             "zh-CN": "当「多重屏障」的附加目标为业红或苍翠属性时，「多重屏障」增加为2层。"
           },
           "equipment_rarity_flags": 0,
@@ -1002,6 +1024,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription1080033]",
           "descriptions": {
+            "ja-JP": "『多重バリア』を付与する対象が紅属性もしくは翠属性の場合に付与する『多重バリア』が4層になる。",
             "zh-CN": "当「多重屏障」的附加目标为业红或苍翠属性时，「多重屏障」增加为4层。"
           },
           "equipment_rarity_flags": 0,
@@ -1091,6 +1114,7 @@
       },
       "name_key": "[PassiveSkillName108003]",
       "names": {
+        "ja-JP": "姉の愛",
         "zh-CN": "姐姐的爱"
       },
       "source_memo_ja": "冬ルナリンドSR:Lv1 あなたが隣に居てくれるから、私はいつも笑顔になれる。ありがとう。私もあなたが大好きよ。ターン開始時スピードが最も高い味方に1層の『多重バリア』を付与する（解除不可）。ダメージを受けると、バリアを1層消費してそのダメージを無効化する。このスキルは発動後8回行動終了するまで再び発動しない。/ Lv2 さらに『多重バリア』を付与する対象が紅属性もしくは翠属性の場合、付与する『多重バリア』が2層になる。/ Lv3 『多重バリア』を付与する対象が紅属性もしくは翠属性の場合に付与する『多重バリア』が4層になる。",
@@ -1118,6 +1142,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription1080041]",
           "descriptions": {
+            "ja-JP": "あの子の優しい気持ちが、凍り付いた私の心に温もりをくれる。自身の被ダメージが20%減少する（解除不可）。",
             "zh-CN": "她温柔的爱带来暖意，融化了我凝结成冰的心——使露娜琳德减少20%自身承受伤害（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1132,6 +1157,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription1080042]",
           "descriptions": {
+            "ja-JP": "さらにバトル開始時6ターンの間自身のHPドレインが80%増加する（解除不可）。",
             "zh-CN": "战斗开始时，使露娜琳德额外增加80%吸血，效果持续6回合（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1146,6 +1172,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription1080043]",
           "descriptions": {
+            "ja-JP": "さらに7ターン目のターン開始時、自身のスキルクールタイムカウントを0にする。",
             "zh-CN": "第7回合开始时，露娜琳德重置技能冷却时间。"
           },
           "equipment_rarity_flags": 0,
@@ -1160,6 +1187,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription1080044]",
           "descriptions": {
+            "ja-JP": "雪解けの温もりを強化する。被ダメージの減少量が60%になる。",
             "zh-CN": "强化融雪的暖意，承受伤害降幅提升为60%。"
           },
           "equipment_rarity_flags": 256,
@@ -1258,6 +1286,7 @@
       },
       "name_key": "[PassiveSkillName108004]",
       "names": {
+        "ja-JP": "雪解けの温もり",
         "zh-CN": "融雪的暖意"
       },
       "source_memo_ja": "冬ルナリンドSR:Lv1 あの子の優しい気持ちが、凍り付いた私の心に温もりをくれる。自身の被ダメージが20%減少する（解除不可）。/ Lv2 さらにバトル開始時6ターンの間自身のHPドレインが80%増加する（解除不可）。/ Lv3 さらに7ターン目のターン開始時、自身のスキルクールタイムカウントを0にする。/ Ex2 雪解けの温もりを強化する。被ダメージの減少量が60％になる。",
@@ -1317,6 +1346,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

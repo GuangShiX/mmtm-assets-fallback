@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription480011]",
           "descriptions": {
+            "ja-JP": "無造作に振るわれた剣翼から錆があふれ出し、ランダムな敵に3回攻撃力×520%の魔法攻撃を行う。",
             "zh-CN": "A.A.随手挥出的剑翼释放出铁锈，随机对敌人进行3次攻击，每次造成攻击力×520%的魔法伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription480012]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×710%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×710%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription480013]",
           "descriptions": {
+            "ja-JP": "魔法攻撃の回数が4回になる。",
             "zh-CN": "攻击次数增加为4次。"
           },
           "equipment_rarity_flags": 0,
@@ -101,6 +104,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName48001]",
       "names": {
+        "ja-JP": "錆鉄の剣閃",
         "zh-CN": "锈铁之剑芒"
       },
       "source_memo_ja": "A.A.SR:Lv1 無造作に振るわれた剣翼から錆があふれ出し、ランダムな敵に3回攻撃力×520％の魔法攻撃を行う。/ Lv2 魔法攻撃のダメージが攻撃力×710％になる。/ Lv3 魔法攻撃の回数が4回になる。",
@@ -130,6 +134,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription480021]",
           "descriptions": {
+            "ja-JP": "造られた体に秘めるのは絶大な魔力。解放するだけで錆が周囲を埋め尽くし、こびり付き、奪い尽くす。ランダムな敵4体に自身の魔力×290%の直接攻撃を行い、自身のHPをこのスキルの総与ダメージ×15%回復する。",
             "zh-CN": "人工打造的躯体里蕴藏着庞大的魔力，一旦释放出来，铺天盖地的铁锈将附着并吞噬四周，随机对4名敌人造成A.A.魔力×290%的直接伤害，并使A.A.恢复技能总伤害×15%的生命值。"
           },
           "equipment_rarity_flags": 0,
@@ -144,6 +149,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription480022]",
           "descriptions": {
+            "ja-JP": "直接攻撃のダメージが自身の魔力×390%になる。",
             "zh-CN": "造成的直接伤害提升为A.A.魔力×390%。"
           },
           "equipment_rarity_flags": 0,
@@ -158,6 +164,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription480023]",
           "descriptions": {
+            "ja-JP": "HP回復量がこのスキルの総与ダメージ×20%になる。",
             "zh-CN": "生命值恢复量提升为技能总伤害×20%。"
           },
           "equipment_rarity_flags": 0,
@@ -172,6 +179,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription480024]",
           "descriptions": {
+            "ja-JP": "直接攻撃のダメージが自身の魔力×890%になる。",
             "zh-CN": "造成的直接伤害提升为A.A.魔力×890%。"
           },
           "equipment_rarity_flags": 0,
@@ -186,6 +194,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription480025]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription480025]",
             "zh-CN": "[ActiveSkillDescription480025]"
           },
           "equipment_rarity_flags": 512,
@@ -266,6 +275,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName48002]",
       "names": {
+        "ja-JP": "リミッター解除",
         "zh-CN": "限制器解除"
       },
       "source_memo_ja": "A.A.SR:Lv1 造られた体に秘めるのは絶大な魔力。解放するだけで錆が周囲を埋め尽くし、こびり付き、奪い尽くす。ランダムな敵4体に自身の魔力×290％の直接攻撃を行い、自身のHPをこのスキルの総与ダメージ×15％回復する。/ Lv2 直接攻撃のダメージが自身の魔力×390%になる。/ Lv3 HP回復量がこのスキルの総与ダメージ×20％になる。/ Lv4 直接攻撃のダメージが自身の魔力×890%になる。/ Ex3 リミッター解除を強化する。直接攻撃のダメージが自身の魔力×980%になる。",
@@ -732,6 +742,7 @@
       },
       "name_key": "[CharacterCollectionName36]",
       "names": {
+        "ja-JP": "ウルサ・ミノルの心根",
         "zh-CN": "小熊座的真心"
       },
       "required_character_ids": [
@@ -742,12 +753,14 @@
         {
           "id": 48,
           "names": {
+            "ja-JP": "Ａ.Ａ.",
             "zh-CN": "A.A."
           }
         },
         {
           "id": 29,
           "names": {
+            "ja-JP": "メルティーユ",
             "zh-CN": "茉缇"
           }
         }
@@ -1185,6 +1198,7 @@
       },
       "name_key": "[CharacterCollectionName70]",
       "names": {
+        "ja-JP": "オクタンスの残火",
         "zh-CN": "八分仪座的余火"
       },
       "required_character_ids": [
@@ -1195,12 +1209,14 @@
         {
           "id": 116,
           "names": {
+            "ja-JP": "Ｄ.Ｄ.",
             "zh-CN": "D.D."
           }
         },
         {
           "id": 48,
           "names": {
+            "ja-JP": "Ａ.Ａ.",
             "zh-CN": "A.A."
           }
         }
@@ -1639,6 +1655,7 @@
       },
       "name_key": "[CharacterCollectionName72]",
       "names": {
+        "ja-JP": "ポラリスの愛情",
         "zh-CN": "北极星的爱情"
       },
       "required_character_ids": [
@@ -1650,18 +1667,21 @@
         {
           "id": 117,
           "names": {
+            "ja-JP": "Ａ.Ａ.",
             "zh-CN": "A.A."
           }
         },
         {
           "id": 48,
           "names": {
+            "ja-JP": "Ａ.Ａ.",
             "zh-CN": "A.A."
           }
         },
         {
           "id": 29,
           "names": {
+            "ja-JP": "メルティーユ",
             "zh-CN": "茉缇"
           }
         }
@@ -1732,12 +1752,14 @@
     "memo": "Ａ.Ａ.",
     "name_key": "[CharacterName48]",
     "names": {
+      "ja-JP": "Ａ.Ａ.",
       "zh-CN": "A.A."
     },
     "speed": 2687,
     "start_time_jst": "2023-02-15 15:00:00",
     "subtitle_key": "[CharacterSubName48]",
     "subtitles": {
+      "ja-JP": "錆鉄の魔女",
       "zh-CN": "锈铁魔女"
     }
   },
@@ -1812,6 +1834,7 @@
     },
     "name_key": "[EquipmentName387]",
     "names": {
+      "ja-JP": "錆鉄の翼剣",
       "zh-CN": "锈铁之翼"
     },
     "passive_effects": [
@@ -1845,6 +1868,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill48Description1]",
         "descriptions": {
+          "ja-JP": "愛の天使を強化する。さらに4ターン目のターン終了時まで、ダメージの遮断量が85%になる。",
           "zh-CN": "强化爱的天使，第4回合结束前的伤害阻绝量额外提升为85%。"
         },
         "equipment_rarity_flags": 128,
@@ -1853,6 +1877,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill48Description2]",
         "descriptions": {
+          "ja-JP": "自身の命中率が40%増加する（解除不可）。",
           "zh-CN": "使A.A.增加40%命中率（无法被解除）。"
         },
         "equipment_rarity_flags": 256,
@@ -1861,6 +1886,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill48Description3]",
         "descriptions": {
+          "ja-JP": "リミッター解除を強化する。直接攻撃のダメージが自身の魔力×980%になる。",
           "zh-CN": "强化限制器解除，造成的直接伤害提升为A.A.魔力×980%。"
         },
         "equipment_rarity_flags": 512,
@@ -1883,6 +1909,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription480031]",
           "descriptions": {
+            "ja-JP": "数えきれないほどの屍を積み上げて、その「最高傑作」は造られた。自身の通常攻撃を強化する。通常攻撃時ランダムな敵1体に自身の魔力×150%の直接攻撃を行う。",
             "zh-CN": "这具“最佳杰作”的诞生，建立在数不尽的尸体之上。A.A.强化自己的普通攻击，普攻时随机对1名敌人造成A.A.魔力×150%的直接伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -1897,6 +1924,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription480032]",
           "descriptions": {
+            "ja-JP": "直接攻撃のダメージが自身の魔力×330%になる。",
             "zh-CN": "造成的直接伤害提升为A.A.魔力×330%。"
           },
           "equipment_rarity_flags": 0,
@@ -1911,6 +1939,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription480033]",
           "descriptions": {
+            "ja-JP": "直接攻撃の対象がランダムな敵3体になる。",
             "zh-CN": "攻击目标增加为3名随机敌人。"
           },
           "equipment_rarity_flags": 0,
@@ -1979,6 +2008,7 @@
       },
       "name_key": "[PassiveSkillName48003]",
       "names": {
+        "ja-JP": "最高傑作",
         "zh-CN": "最佳杰作"
       },
       "source_memo_ja": "A.A.SR:Lv1 数えきれないほどの屍を積み上げて、その「最高傑作」は造られた。自身の通常攻撃を強化する。通常攻撃時ランダムな敵1体に自身の魔力×150％の直接攻撃を行う。/ Lv2 直接攻撃のダメージが自身の魔力×330％になる。/ Lv3 直接攻撃の対象がランダムな敵3体になる。",
@@ -2006,6 +2036,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription480041]",
           "descriptions": {
+            "ja-JP": "内に眠る守護天使が宿主を守る。自身が攻撃を受けたとき、ダメージを25%遮断する。",
             "zh-CN": "沉眠于体内的守护天使保护着宿主。当A.A.受到攻击时，阻绝25%伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -2020,6 +2051,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription480042]",
           "descriptions": {
+            "ja-JP": "ダメージの遮断量が40%になる。",
             "zh-CN": "伤害阻绝量提升为40%。"
           },
           "equipment_rarity_flags": 0,
@@ -2034,6 +2066,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription480043]",
           "descriptions": {
+            "ja-JP": "ダメージの遮断量が60%になる。",
             "zh-CN": "伤害阻绝量提升为60%。"
           },
           "equipment_rarity_flags": 0,
@@ -2048,6 +2081,7 @@
           "character_level": 161,
           "description_key": "*",
           "descriptions": {
+            "ja-JP": null,
             "zh-CN": null
           },
           "equipment_rarity_flags": 128,
@@ -2132,6 +2166,7 @@
       },
       "name_key": "[PassiveSkillName48004]",
       "names": {
+        "ja-JP": "愛の天使",
         "zh-CN": "爱的天使"
       },
       "source_memo_ja": "A.A.SR:Lv1 内に眠る守護天使が宿主を守る。自身が攻撃を受けたとき、ダメージを25％遮断する。/ Lv2 ダメージの遮断量が40%になる。/ Lv3 ダメージの遮断量が60%になる。/ Ex1 愛の天使を強化する。さらに4ターン目のターン終了時まで、ダメージの遮断量が85%になる。",
@@ -2163,6 +2198,7 @@
           "character_level": 181,
           "description_key": "*",
           "descriptions": {
+            "ja-JP": null,
             "zh-CN": null
           },
           "equipment_rarity_flags": 256,
@@ -2196,6 +2232,7 @@
       },
       "name_key": "*",
       "names": {
+        "ja-JP": null,
         "zh-CN": null
       },
       "source_memo_ja": "*",
@@ -2238,6 +2275,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription340011]",
           "descriptions": {
+            "ja-JP": "「どれにしようかな、ソテイラのいうとおり！」適当に魔法を撃ち、ランダムな敵に6回攻撃力×160%の魔法攻撃を行う。",
             "zh-CN": "“点兵点将跟我走，点到不走是小狗！”索缇莉亚随意发射魔法，随机对敌人进行6次攻击，每次造成攻击力×160%的魔法伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 61,
           "description_key": "[ActiveSkillDescription340012]",
           "descriptions": {
+            "ja-JP": "魔法攻撃の回数が8回になる。",
             "zh-CN": "攻击次数增加为8次。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 121,
           "description_key": "[ActiveSkillDescription340013]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×190%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×190%。"
           },
           "equipment_rarity_flags": 0,
@@ -113,6 +116,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName34001]",
       "names": {
+        "ja-JP": "どれにしようかな！",
         "zh-CN": "点兵点将跟我走！"
       },
       "source_memo_ja": "ソテイラR: /Lv1　「どれにしようかな、ソテイラのいうとおり！」適当に魔法を撃ち、ランダムな敵に6回攻撃力×160%の魔法攻撃を行う。　/Lv2 魔法攻撃の回数が8回になる。　/Lv3 魔法攻撃のダメージが攻撃力×190%になる。",
@@ -142,6 +146,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription340021]",
           "descriptions": {
+            "ja-JP": "「あ！」と指を差した方向には何もない。しかし釣られてしまった！　スピードが最も高い敵に攻撃力×390%の魔法攻撃を行い、3ターンの間スピードを20%減少させる。",
             "zh-CN": "索缇莉亚示意对方“快看！”的地方什么都没有，结果对方上当啦！对速度最高的敌人造成攻击力×390%的魔法伤害，并使技能目标减少20%速度，效果持续3回合。"
           },
           "equipment_rarity_flags": 0,
@@ -156,6 +161,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription340022]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×420%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×420%。"
           },
           "equipment_rarity_flags": 0,
@@ -170,6 +176,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription340023]",
           "descriptions": {
+            "ja-JP": "スピードの減少量が30%になる。",
             "zh-CN": "速度降幅提升为30%。"
           },
           "equipment_rarity_flags": 0,
@@ -184,6 +191,7 @@
           "character_level": 141,
           "description_key": "[ActiveSkillDescription340024]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×480%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×480%。"
           },
           "equipment_rarity_flags": 0,
@@ -249,6 +257,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName34002]",
       "names": {
+        "ja-JP": "あ！　あれなんだ！？",
         "zh-CN": "快看！有牛在天上飞！"
       },
       "source_memo_ja": "ソテイラR: /Lv1　「あ！」と指を差した方向には何もない。しかし釣られてしまった！　スピードが最も高い敵に攻撃力×390％の魔法攻撃を行い、3ターンの間スピードを20％減少させる。　/Lv2 魔法攻撃のダメージが攻撃力×420%になる。　/Lv3 スピードの減少量が30％になる。　/Lv4 魔法攻撃のダメージが攻撃力×480%になる。",
@@ -352,6 +361,7 @@
       },
       "name_key": "[CharacterCollectionName88]",
       "names": {
+        "ja-JP": "アルニタクの開花​",
         "zh-CN": "金粟星的绽放"
       },
       "required_character_ids": [
@@ -364,24 +374,28 @@
         {
           "id": 4,
           "names": {
+            "ja-JP": "ロキ",
             "zh-CN": "洛基"
           }
         },
         {
           "id": 14,
           "names": {
+            "ja-JP": "ペトラ",
             "zh-CN": "佩特拉"
           }
         },
         {
           "id": 24,
           "names": {
+            "ja-JP": "リブラ",
             "zh-CN": "莉布拉"
           }
         },
         {
           "id": 34,
           "names": {
+            "ja-JP": "ソテイラ",
             "zh-CN": "索缇莉亚"
           }
         }
@@ -450,12 +464,14 @@
     "memo": "ソテイラ",
     "name_key": "[CharacterName34]",
     "names": {
+      "ja-JP": "ソテイラ",
       "zh-CN": "索缇莉亚"
     },
     "speed": 3019,
     "start_time_jst": "2020-01-01 00:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -473,6 +489,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription340031]",
           "descriptions": {
+            "ja-JP": "寝ぼけたはーちゃんが相手をくちばしでつつく。自身が攻撃を受けたとき30%の確率で、攻撃してきた敵に1ターンの間『出血』を付与する。毎ターン行動開始時に自身の攻撃力×20%のダメージを与える。",
             "zh-CN": "睡得迷迷糊糊的小破狠啄对手。当索缇莉亚受到攻击时，30%概率对发动攻击的敌人附加「流血」状态，效果持续1回合，每回合行动开始时造成索缇莉亚攻击力×20%的伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -487,6 +504,7 @@
           "character_level": 101,
           "description_key": "[PassiveSkillDescription340032]",
           "descriptions": {
+            "ja-JP": "『出血』を付与する確率が50%になる。",
             "zh-CN": "附加「流血」状态的概率提升为50%。"
           },
           "equipment_rarity_flags": 0,
@@ -539,6 +557,7 @@
       },
       "name_key": "[PassiveSkillName34003]",
       "names": {
+        "ja-JP": "はーちゃん、おはよ！",
         "zh-CN": "小破早安！"
       },
       "source_memo_ja": "ソテイラR: /Lv1　寝ぼけたはーちゃんが相手をくちばしでつつく。自身が攻撃を受けたとき30％の確率で、攻撃してきた敵に1ターンの間『出血』を付与する。毎ターン行動開始時に自身の攻撃力×20％のダメージを与える。　/Lv2 『出血』を付与する確率が50％になる。",
@@ -590,6 +609,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

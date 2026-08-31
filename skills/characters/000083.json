@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription830011]",
           "descriptions": {
+            "ja-JP": "「魔法のキャンディをどうぞ！」ランダムな敵3体に攻撃力×140%の物理攻撃を行い、自身以外の攻撃力が最も高い味方に『隠し味』を1スタック付与する（最大15スタックまで）（解除不可）。このバフは1スタックにつき付帯者の攻撃力を6%増加させる。",
             "zh-CN": "“请尝尝魔法糖果！”芬里尔随机对3名敌人造成攻击力×140%的物理伤害，再使攻击力最高的其他友军获得1层「独门秘方」（最多15层）（无法被解除）。每层「独门秘方」使附带者增加6%攻击力。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription830012]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×280%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×280%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription830013]",
           "descriptions": {
+            "ja-JP": "さらにこのスキルを7ターン目以降に発動した場合、『隠し味』の付与スタック数が3になる。",
             "zh-CN": "第7回合起，获得的「独门秘方」层数增加为3层。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription830014]",
           "descriptions": {
+            "ja-JP": "マジカルキャンディを強化する。物理攻撃の対象がランダムな敵5体になる。",
             "zh-CN": "强化魔法糖果，攻击目标增加为5名随机敌人。"
           },
           "equipment_rarity_flags": 128,
@@ -122,6 +126,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName83001]",
       "names": {
+        "ja-JP": "マジカルキャンディ",
         "zh-CN": "魔法糖果"
       },
       "source_memo_ja": "宝物フェンリルSR:Lv1 「魔法のキャンディをどうぞ！」ランダムな敵3体に攻撃力×140%の物理攻撃を行い、自身以外の攻撃力が最も高い味方に『隠し味』を1スタック付与する（最大15スタックまで）（解除不可）。このバフは1スタックにつき付帯者の攻撃力を6%増加させる。/ Lv2 物理攻撃のダメージが攻撃力×280%になる。/ Lv3 さらにこのスキルを7ターン目以降に発動した場合、『隠し味』の付与スタック数が3になる。/ Ex1 マジカルキャンディを強化する。物理攻撃の対象がランダムな敵5体になる。",
@@ -155,6 +160,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription830021]",
           "descriptions": {
+            "ja-JP": "「元気が出るおまじないです」ランダムな敵に3回攻撃力×160%の物理攻撃を行う。最後の物理攻撃の後自身以外の攻撃力が最も高い味方に『隠し味』を1スタック付与する（最大15スタックまで）（解除不可）。このバフは1スタックにつき付帯者の攻撃力を6%増加させる。",
             "zh-CN": "“这是能让人打起精神的咒语！”芬里尔随机对敌人进行3次攻击，每次造成攻击力×160%的物理伤害。攻击结束后，再使攻击力最高的其他友军获得1层「独门秘方」（最多15层）（无法被解除）。每层「独门秘方」使附带者增加6%攻击力。"
           },
           "equipment_rarity_flags": 0,
@@ -169,6 +175,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription830022]",
           "descriptions": {
+            "ja-JP": "物理攻撃の回数が5回になる。",
             "zh-CN": "攻击次数增加为5次。"
           },
           "equipment_rarity_flags": 0,
@@ -183,6 +190,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription830023]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×290%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×290%。"
           },
           "equipment_rarity_flags": 0,
@@ -197,6 +205,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription830024]",
           "descriptions": {
+            "ja-JP": "さらにこのスキルを7ターン目以降に発動した場合、『隠し味』付与の後に自身のスキルクールタイムカウントが5減少する。",
             "zh-CN": "第7回合起，芬里尔在附加「独门秘方」后，使自己减少技能冷却时间5。"
           },
           "equipment_rarity_flags": 0,
@@ -211,6 +220,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription830025]",
           "descriptions": {
+            "ja-JP": "魔法のフレーバーを強化する。物理攻撃のダメージが攻撃力×320%になる。",
             "zh-CN": "强化魔法口味，造成的物理伤害提升为攻击力×320%。"
           },
           "equipment_rarity_flags": 512,
@@ -311,6 +321,7 @@
       "max_cooldown": 5,
       "name_key": "[ActiveSkillName83002]",
       "names": {
+        "ja-JP": "魔法のフレーバー",
         "zh-CN": "魔法口味"
       },
       "source_memo_ja": "宝物フェンリルSR:Lv1 「元気が出るおまじないです」ランダムな敵に3回攻撃力×160%の物理攻撃を行う。最後の物理攻撃の後自身以外の攻撃力が最も高い味方に『隠し味』を1スタック付与する。/ Lv2 物理攻撃の回数が5回になる。/ Lv3 物理攻撃のダメージが攻撃力×290%になる。/ Lv4 さらにこのスキルを7ターン目以降に発動した場合、『隠し味』付与の後に自身のスキルクールタイムカウントを5減少させる。/ Ex3 魔法のフレーバーを強化する。物理攻撃のダメージが攻撃力×320%になる。",
@@ -777,6 +788,7 @@
       },
       "name_key": "[CharacterCollectionName81]",
       "names": {
+        "ja-JP": "ループスの宝物",
         "zh-CN": "豺狼座的宝物"
       },
       "required_character_ids": [
@@ -787,12 +799,14 @@
         {
           "id": 83,
           "names": {
+            "ja-JP": "フェンリル",
             "zh-CN": "芬里尔"
           }
         },
         {
           "id": 7,
           "names": {
+            "ja-JP": "フェンリル",
             "zh-CN": "芬里尔"
           }
         }
@@ -862,12 +876,14 @@
     "memo": "宝物フェンリル",
     "name_key": "[CharacterName83]",
     "names": {
+      "ja-JP": "フェンリル",
       "zh-CN": "芬里尔"
     },
     "speed": 3294,
     "start_time_jst": "2025-10-16 15:00:00",
     "subtitle_key": "[CharacterSubName83]",
     "subtitles": {
+      "ja-JP": "二人だけの宝物",
       "zh-CN": "两人的宝物"
     }
   },
@@ -942,6 +958,7 @@
     },
     "name_key": "[EquipmentName597]",
     "names": {
+      "ja-JP": "泡雪のミトン",
       "zh-CN": "雪柔隔热手套"
     },
     "passive_effects": [
@@ -975,6 +992,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill83Description1]",
         "descriptions": {
+          "ja-JP": "マジカルキャンディを強化する。物理攻撃の対象がランダムな敵5体になる。",
           "zh-CN": "强化魔法糖果，攻击目标增加为5名随机敌人。"
         },
         "equipment_rarity_flags": 128,
@@ -983,6 +1001,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill83Description2]",
         "descriptions": {
+          "ja-JP": "世界一優しい魔法を強化する。『結界』のダメージの遮断量が50%になる。",
           "zh-CN": "强化全世界最温柔的魔法，「结界」的伤害阻绝量提升为50%。"
         },
         "equipment_rarity_flags": 256,
@@ -991,6 +1010,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill83Description3]",
         "descriptions": {
+          "ja-JP": "魔法のフレーバーを強化する。物理攻撃のダメージが攻撃力×320%になる。",
           "zh-CN": "强化魔法口味，造成的物理伤害提升为攻击力×320%。"
         },
         "equipment_rarity_flags": 512,
@@ -1011,6 +1031,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription830031]",
           "descriptions": {
+            "ja-JP": "繋いだこの手を二度と離さない。だから大丈夫、勇気を出して──自身が攻撃を受けたとき、ダメージを30%遮断する。",
             "zh-CN": "“姐姐绝对不会放开你的手，所以不要怕，鼓起勇气来。”当芬里尔受到攻击时，阻绝30%伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -1025,6 +1046,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription830032]",
           "descriptions": {
+            "ja-JP": "ターン開始時、自身に隣接する味方2体に4ターンの間『結界』を付与する（解除不可）。このバフの付帯者が付帯者自身の最大HP×10%を超えるダメージの攻撃を受けた場合、最大HP×10%を超えた分のダメージを20%遮断する。『結界』を付与する効果は発動後4回行動終了するまで再び発動しない。",
             "zh-CN": "回合开始时，芬里尔使附近的2名友军获得「结界」，效果持续4回合（无法被解除）。当此增益效果的附带者受到攻击，承受伤害超过最大生命值的10%时，阻绝超量部分×20%的伤害。「结界」附加效果须在结束4次行动后才可再次触发。"
           },
           "equipment_rarity_flags": 0,
@@ -1039,6 +1061,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription830033]",
           "descriptions": {
+            "ja-JP": "自身が攻撃を受けたときのダメージの遮断量が60%になる。",
             "zh-CN": "芬里尔受到攻击时的伤害阻绝量提升为60%。"
           },
           "equipment_rarity_flags": 0,
@@ -1053,6 +1076,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription830034]",
           "descriptions": {
+            "ja-JP": "世界一優しい魔法を強化する。『結界』のダメージの遮断量が50%になる。",
             "zh-CN": "强化全世界最温柔的魔法，「结界」的伤害阻绝量提升为50%。"
           },
           "equipment_rarity_flags": 256,
@@ -1158,6 +1182,7 @@
       },
       "name_key": "[PassiveSkillName83003]",
       "names": {
+        "ja-JP": "世界一優しい魔法",
         "zh-CN": "全世界最温柔的魔法"
       },
       "source_memo_ja": "宝物フェンリルSR:Lv1 繋いだこの手を二度と離さない。だから大丈夫、勇気を出して──自身が攻撃を受けたとき、ダメージを30%遮断する。/ Lv2 ターン開始時、自身に隣接する味方2体に4ターンの間『結界』を付与する（解除不可）。このバフの付帯者が付帯者自身の最大HP×10%を超えるダメージの攻撃を受けた場合、最大HP×10%を超えた分のダメージを20%遮断する。『結界』を付与する効果は発動後4回行動終了するまで再び発動しない。/ Lv3 自身が攻撃を受けたときのダメージの遮断量が60%になる。/ Ex2 世界一優しい魔法を強化する。『結界』のダメージの遮断量が50%になる。",
@@ -1189,6 +1214,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription830041]",
           "descriptions": {
+            "ja-JP": "おいしい料理の隠し味は愛情。誰かを想う心が料理をよりあったかくする──6ターン目までの毎ターン終了時、味方全体のHPを自身の攻撃力×10%回復する。",
             "zh-CN": "爱是让料理更美味的独门秘方。心中想着对方，会让料理变得更温暖——第1回合到第6回合的每回合结束时，使全体友军恢复芬里尔攻击力×10%的生命值。"
           },
           "equipment_rarity_flags": 0,
@@ -1203,6 +1229,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription830042]",
           "descriptions": {
+            "ja-JP": "さらにバトル開始時1ターンの間味方全体のクリティカル耐性率を60%増加させる。",
             "zh-CN": "战斗开始时，使全体友军额外增加60%抗暴率，效果持续1回合。"
           },
           "equipment_rarity_flags": 0,
@@ -1217,6 +1244,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription830043]",
           "descriptions": {
+            "ja-JP": "HPの回復量が自身の攻撃力×50%になる。",
             "zh-CN": "生命值恢复量提升为芬里尔攻击力×50%。"
           },
           "equipment_rarity_flags": 0,
@@ -1299,6 +1327,7 @@
       },
       "name_key": "[PassiveSkillName83004]",
       "names": {
+        "ja-JP": "愛情たっぷり",
         "zh-CN": "满满的爱"
       },
       "source_memo_ja": "宝物フェンリルSR:Lv1 おいしい料理の隠し味は愛情。誰かを想う心が料理をよりあったかくする──6ターン目までの毎ターン終了時、味方全体のHPを自身の攻撃力×10%回復する。/ Lv2 さらにバトル開始時1ターンの間味方全体のクリティカル耐性率を60%増加させる。/ Lv3 HPの回復量が自身の攻撃力×50%になる。",
@@ -1354,6 +1383,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

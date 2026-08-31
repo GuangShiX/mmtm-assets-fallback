@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription120011]",
           "descriptions": {
+            "ja-JP": "騎士を正義と信じる心が力となり、ランダムな敵に2回攻撃力×320%の物理攻撃を行う。強い正義感が悪を挫き、対象が弱体効果を付帯している場合、物理攻撃のダメージが1.5倍になる。",
             "zh-CN": "阿丽安萝德相信骑士代表正义的信心化作力量，随机对敌人进行2次攻击，每次造成攻击力×320%的物理伤害。强烈的正义感重挫邪恶，当技能目标身上附带弱化效果时，造成的物理伤害增加为1.5倍。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 61,
           "description_key": "[ActiveSkillDescription120012]",
           "descriptions": {
+            "ja-JP": "物理攻撃の回数が3回になる。",
             "zh-CN": "攻击次数增加为3次。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 121,
           "description_key": "[ActiveSkillDescription120013]",
           "descriptions": {
+            "ja-JP": "対象が弱体効果を付帯している場合で得られる物理攻撃のダメージ上昇量が2倍になる。",
             "zh-CN": "当技能目标身上附带弱化效果时，物理伤害增幅提升为2倍。"
           },
           "equipment_rarity_flags": 0,
@@ -99,6 +102,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName12001]",
       "names": {
+        "ja-JP": "正義の鉄槌",
         "zh-CN": "正义的铁锤"
       },
       "source_memo_ja": "アリアンロッドR: /Lv1　騎士を正義と信じる心が力となり、ランダムな敵に2回攻撃力×320%の物理攻撃を行う。強い正義感が悪を挫き、対象が弱体効果を付帯している場合、物理攻撃のダメージが1.5倍になる。　/Lv2 物理攻撃の回数が3回になる。　/Lv3 対象が弱体効果を付帯している場合のダメージの増加量が2倍になる。",
@@ -128,6 +132,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription120021]",
           "descriptions": {
+            "ja-JP": "強敵相手に怯まず立ち向かう騎士の精神で、ランダムな敵2体に攻撃力×290%の物理攻撃を行う。対象の攻撃力が自身よりも高い場合、2ターンの間攻撃力を40%減少させる。",
             "zh-CN": "阿丽安萝德发挥不畏强敌，勇敢迎战的骑士精神，随机对2名敌人造成攻击力×290%的物理伤害。当技能目标的攻击力高于自己时，使技能目标减少40%攻击力，效果持续2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -142,6 +147,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription120022]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×320%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×320%。"
           },
           "equipment_rarity_flags": 0,
@@ -156,6 +162,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription120023]",
           "descriptions": {
+            "ja-JP": "このスキルの対象がランダムな敵3体になる。",
             "zh-CN": "技能目标增加为3名随机敌人。"
           },
           "equipment_rarity_flags": 0,
@@ -170,6 +177,7 @@
           "character_level": 141,
           "description_key": "[ActiveSkillDescription120024]",
           "descriptions": {
+            "ja-JP": "さらに『攻撃力減少』付与の判定の前に対象の攻撃力が自身よりも低い場合、2ターンの間『不治』を付与する。",
             "zh-CN": "「攻击力下降」附加判定前，如果技能目标的攻击力低于阿丽安萝德，额外附加「不治」状态，效果持续2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -235,6 +243,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName12002]",
       "names": {
+        "ja-JP": "勇猛果敢",
         "zh-CN": "勇猛果敢"
       },
       "source_memo_ja": "アリアンロッドR: /Lv1　強敵相手に怯まず立ち向かう騎士の精神で、ランダムな敵2体に攻撃力×290％の物理攻撃を行う。対象の攻撃力が自身よりも高い場合、2ターンの間攻撃力を40％減少させる。　/Lv2 物理攻撃のダメージが攻撃力×320%になる。　/Lv3 このスキルの対象がランダムな敵3体になる。　/Lv4 さらに対象の攻撃力が自身よりも低い場合、2ターンの間『不治』を付与する。",
@@ -338,6 +347,7 @@
       },
       "name_key": "[CharacterCollectionName58]",
       "names": {
+        "ja-JP": "アルニラムの開花",
         "zh-CN": "串绳星的绽放"
       },
       "required_character_ids": [
@@ -350,24 +360,28 @@
         {
           "id": 2,
           "names": {
+            "ja-JP": "イリア",
             "zh-CN": "伊利亚"
           }
         },
         {
           "id": 12,
           "names": {
+            "ja-JP": "アリアンロッド",
             "zh-CN": "阿丽安萝德"
           }
         },
         {
           "id": 22,
           "names": {
+            "ja-JP": "ザラ",
             "zh-CN": "萨拉"
           }
         },
         {
           "id": 32,
           "names": {
+            "ja-JP": "スクルド",
             "zh-CN": "诗寇蒂"
           }
         }
@@ -436,12 +450,14 @@
     "memo": "アリアンロッド",
     "name_key": "[CharacterName12]",
     "names": {
+      "ja-JP": "アリアンロッド",
       "zh-CN": "阿丽安萝德"
     },
     "speed": 2921,
     "start_time_jst": "2020-01-01 00:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -459,6 +475,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription120031]",
           "descriptions": {
+            "ja-JP": "騎士を志した始まりの気持ちが力となり、自身の弱体効果命中率が20%増加する（解除不可）。",
             "zh-CN": "阿丽安萝德立志成为骑士的初心化作力量，使自己增加20%弱化效果命中率（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -473,6 +490,7 @@
           "character_level": 101,
           "description_key": "[PassiveSkillDescription120032]",
           "descriptions": {
+            "ja-JP": "弱体効果命中率の増加量が30%になる。",
             "zh-CN": "弱化效果命中率增幅提升为30%。"
           },
           "equipment_rarity_flags": 0,
@@ -525,6 +543,7 @@
       },
       "name_key": "[PassiveSkillName12003]",
       "names": {
+        "ja-JP": "憧れの銀色",
         "zh-CN": "憧憬的银白"
       },
       "source_memo_ja": "アリアンロッドR: /Lv1　騎士を志した始まりの気持ちが力となり、自身の弱体効果命中率が20％増加する（解除不可）。　/Lv2 弱体効果命中率の増加量が30％になる。",
@@ -576,6 +595,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

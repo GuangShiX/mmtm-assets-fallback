@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription70011]",
           "descriptions": {
+            "ja-JP": "魔力をこめた渾身の一撃で、ランダムな敵1体に攻撃力×490%の魔法攻撃を行う。さらに包み込むような優しさが、踏み出す者の背中を押し、自身に隣接する味方1体のスキルクールタイムカウントを1減少させる。",
             "zh-CN": "芬里尔凝聚所有魔力奋力一击，随机对1名敌人造成攻击力×490%的魔法伤害。她的温柔包容是同伴前进的动力，使附近的1名友军减少技能冷却时间1。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription70012]",
           "descriptions": {
+            "ja-JP": "スキルクールタイムカウントを減少させる対象が自身に隣接する味方2体になる。",
             "zh-CN": "技能冷却时间减少目标增加为芬里尔附近的2名友军。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription70013]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×720%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×720%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription70014]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription70014]",
             "zh-CN": "[ActiveSkillDescription70014]"
           },
           "equipment_rarity_flags": 128,
@@ -64,6 +68,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription70015]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription70015]",
             "zh-CN": "[ActiveSkillDescription70015]"
           },
           "equipment_rarity_flags": 256,
@@ -75,6 +80,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription70016]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription70016]",
             "zh-CN": "[ActiveSkillDescription70016]"
           },
           "equipment_rarity_flags": 512,
@@ -163,6 +169,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName7001]",
       "names": {
+        "ja-JP": "雪狼の牙",
         "zh-CN": "雪狼之牙"
       },
       "source_memo_ja": "フェンリルSR: /Lv1　魔力をこめた渾身の一撃で、ランダムな敵1体に攻撃力×490%の魔法攻撃を行う。さらに包み込むような優しさが、踏み出す者の背中を押し、自身に隣接する味方1体のスキルクールタイムカウントを1減少させる。　/Lv2 スキルクールタイムカウントを減少させる対象が自身に隣接する味方2体になる。　/Lv3 魔法攻撃のダメージが攻撃力×720%になる。　/専用1 雪狼の牙を強化する。スキルクールタイムカウントの減少量が2になる。　/専用2 雪狼の牙を強化する。さらに2ターンの間自身に隣接する味方2体の攻撃力を10％増加させる。　/専用3 雪狼の牙を強化する。攻撃力の増加量が20％になる。",
@@ -192,6 +199,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription70021]",
           "descriptions": {
+            "ja-JP": "もう誰も傷つけさせない──敵には凍てつく吹雪が吹き荒れ、味方には光の雨が降り注ぐ。ランダムな敵5体に攻撃力×230%の魔法攻撃を行い、自身と自身に隣接する味方1体の弱体効果を2つ解除する。",
             "zh-CN": "“我不会再让任何人受到伤害了！”刺骨的暴风雪刮向敌人，温暖的光雨落向友军。芬里尔随机对5名敌人造成攻击力×230%的魔法伤害，解除自己与附近1名友军身上的2种弱化效果。"
           },
           "equipment_rarity_flags": 0,
@@ -206,6 +214,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription70022]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×290%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×290%。"
           },
           "equipment_rarity_flags": 0,
@@ -220,6 +229,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription70023]",
           "descriptions": {
+            "ja-JP": "弱体効果を解除する対象が自身と自身に隣接する味方2体になる。",
             "zh-CN": "弱化效果解除目标增加为芬里尔与附近的2名友军。"
           },
           "equipment_rarity_flags": 0,
@@ -234,6 +244,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription70024]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×380%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×380%。"
           },
           "equipment_rarity_flags": 0,
@@ -303,6 +314,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName7002]",
       "names": {
+        "ja-JP": "アイシクルシャワー",
         "zh-CN": "冰暴洗礼"
       },
       "source_memo_ja": "フェンリルSR: /Lv1　もう誰も傷つけさせない──敵には凍てつく吹雪が吹き荒れ、味方には光の雨が降り注ぐ。ランダムな敵5体に攻撃力×230%の魔法攻撃を行い、自身と自身に隣接する味方1体の弱体効果を2つ解除する。　/Lv2 魔法攻撃のダメージが攻撃力×290%になる。　/Lv3 弱体効果を解除する対象が自身と自身に隣接する味方2体になる。　/Lv4 魔法攻撃のダメージが攻撃力×380%になる。",
@@ -767,6 +779,7 @@
       },
       "name_key": "[CharacterCollectionName7]",
       "names": {
+        "ja-JP": "アルビレオの宝石",
         "zh-CN": "天鹅座的宝石"
       },
       "required_character_ids": [
@@ -779,24 +792,28 @@
         {
           "id": 5,
           "names": {
+            "ja-JP": "ソルティーナ",
             "zh-CN": "索尔缇娜"
           }
         },
         {
           "id": 7,
           "names": {
+            "ja-JP": "フェンリル",
             "zh-CN": "芬里尔"
           }
         },
         {
           "id": 8,
           "names": {
+            "ja-JP": "フローレンス",
             "zh-CN": "佛罗伦斯"
           }
         },
         {
           "id": 46,
           "names": {
+            "ja-JP": "ルナリンド",
             "zh-CN": "露娜琳德"
           }
         }
@@ -1243,6 +1260,7 @@
       },
       "name_key": "[CharacterCollectionName12]",
       "names": {
+        "ja-JP": "カニス・マヨルの遠吠",
         "zh-CN": "大犬座的长啸"
       },
       "required_character_ids": [
@@ -1254,18 +1272,21 @@
         {
           "id": 54,
           "names": {
+            "ja-JP": "シフォン",
             "zh-CN": "戚风"
           }
         },
         {
           "id": 7,
           "names": {
+            "ja-JP": "フェンリル",
             "zh-CN": "芬里尔"
           }
         },
         {
           "id": 10,
           "names": {
+            "ja-JP": "モーザ",
             "zh-CN": "墨瑟"
           }
         }
@@ -1703,6 +1724,7 @@
       },
       "name_key": "[CharacterCollectionName33]",
       "names": {
+        "ja-JP": "カニス・ミノルの相愛",
         "zh-CN": "小犬座的相思"
       },
       "required_character_ids": [
@@ -1713,12 +1735,14 @@
         {
           "id": 43,
           "names": {
+            "ja-JP": "ケルベロス",
             "zh-CN": "克尔柏洛丝"
           }
         },
         {
           "id": 7,
           "names": {
+            "ja-JP": "フェンリル",
             "zh-CN": "芬里尔"
           }
         }
@@ -2164,6 +2188,7 @@
       },
       "name_key": "[CharacterCollectionName81]",
       "names": {
+        "ja-JP": "ループスの宝物",
         "zh-CN": "豺狼座的宝物"
       },
       "required_character_ids": [
@@ -2174,12 +2199,14 @@
         {
           "id": 83,
           "names": {
+            "ja-JP": "フェンリル",
             "zh-CN": "芬里尔"
           }
         },
         {
           "id": 7,
           "names": {
+            "ja-JP": "フェンリル",
             "zh-CN": "芬里尔"
           }
         }
@@ -2249,12 +2276,14 @@
     "memo": "フェンリル",
     "name_key": "[CharacterName7]",
     "names": {
+      "ja-JP": "フェンリル",
       "zh-CN": "芬里尔"
     },
     "speed": 2894,
     "start_time_jst": "2020-01-01 00:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -2329,6 +2358,7 @@
     },
     "name_key": "[EquipmentName213]",
     "names": {
+      "ja-JP": "ヴァナルガンド",
       "zh-CN": "瓦恩之精的利爪"
     },
     "passive_effects": [
@@ -2362,6 +2392,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill7Description1]",
         "descriptions": {
+          "ja-JP": "雪狼の牙を強化する。スキルクールタイムカウントの減少量が2になる。",
           "zh-CN": "强化雪狼之牙，技能冷却时间减少量提升为2。"
         },
         "equipment_rarity_flags": 128,
@@ -2370,6 +2401,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill7Description2]",
         "descriptions": {
+          "ja-JP": "雪狼の牙を強化する。さらに2ターンの間自身に隣接する味方2体の攻撃力を10%増加させる。",
           "zh-CN": "强化雪狼之牙，使芬里尔附近的2名友军额外增加10%攻击力，效果持续2回合。"
         },
         "equipment_rarity_flags": 256,
@@ -2378,6 +2410,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill7Description3]",
         "descriptions": {
+          "ja-JP": "雪狼の牙を強化する。攻撃力の増加量が20%になる。",
           "zh-CN": "强化雪狼之牙，攻击力增幅提升为20%。"
         },
         "equipment_rarity_flags": 512,
@@ -2398,6 +2431,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription70031]",
           "descriptions": {
+            "ja-JP": "癒しの光が雪のように降り注ぎ、味方が攻撃を受けるか回避した後にHP割合が50%以下になった場合、その味方のHPをその味方の最大HP×5%回復する。このスキルは発動後1回行動終了するまで再び発動しない。",
             "zh-CN": "治疗之光如雪花落下，当友军受到攻击或成功闪避攻击后，生命值降到50%以下时，芬里尔使该友军恢复5%最大生命值。此技能须在结束1次行动后才可再次触发。"
           },
           "equipment_rarity_flags": 0,
@@ -2412,6 +2446,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription70032]",
           "descriptions": {
+            "ja-JP": "HP回復量が対象の最大HP×10%になる。",
             "zh-CN": "生命值恢复量提升为技能目标的10%最大生命值。"
           },
           "equipment_rarity_flags": 0,
@@ -2426,6 +2461,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription70033]",
           "descriptions": {
+            "ja-JP": "HP回復量が対象の最大HP×20%になる。",
             "zh-CN": "生命值恢复量提升为技能目标的20%最大生命值。"
           },
           "equipment_rarity_flags": 0,
@@ -2515,6 +2551,7 @@
       },
       "name_key": "[PassiveSkillName7003]",
       "names": {
+        "ja-JP": "スノープリズム",
         "zh-CN": "冰晶棱光"
       },
       "source_memo_ja": "フェンリルSR: /Lv1　癒しの光が雪のように降り注ぎ、味方が攻撃を受けて、HP割合が50％以下になった場合、その味方のHPをその味方の最大HP×5％回復する。このスキルは1ターンに1回発動する。　/Lv2 HP回復量が対象の最大HP×10％になる。　/Lv3 HP回復量が対象の最大HP×20％になる。",
@@ -2542,6 +2579,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription70041]",
           "descriptions": {
+            "ja-JP": "大丈夫──それは魔法の言葉。自身の防御力が30%増加する（解除不可）。",
             "zh-CN": "没事了——这句话是魔法的咒语，使芬里尔增加30%防御力（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -2556,6 +2594,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription70042]",
           "descriptions": {
+            "ja-JP": "防御力の増加量が60%になる。",
             "zh-CN": "防御力增幅提升为60%。"
           },
           "equipment_rarity_flags": 0,
@@ -2570,6 +2609,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription70043]",
           "descriptions": {
+            "ja-JP": "防御力の増加量が80%になる。",
             "zh-CN": "防御力增幅提升为80%。"
           },
           "equipment_rarity_flags": 0,
@@ -2638,6 +2678,7 @@
       },
       "name_key": "[PassiveSkillName7004]",
       "names": {
+        "ja-JP": "ブレイブエール",
         "zh-CN": "勇气鼓舞"
       },
       "source_memo_ja": "フェンリルSR: /Lv1　大丈夫──それは魔法の言葉。自身の防御力が30％増加する（解除不可）。　/Lv2 防御力の増加量が60％になる。　/Lv3 防御力の増加量が80％になる。",
@@ -2693,6 +2734,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

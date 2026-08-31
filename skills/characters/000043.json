@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription430011]",
           "descriptions": {
+            "ja-JP": "制御不能な雷装の力によって、ランダムな敵に3回攻撃力×350%の物理攻撃を行う。容赦のない獣の爪は、力なき者を鎧ごと切り裂き、対象の腕力が自身よりも低い場合、1ターンの間物理防御力を50%減少させる。",
             "zh-CN": "克尔柏洛丝以无法抑制的雷霆之力，随机对敌人进行3次攻击，每次造成攻击力×350%的物理伤害。无情的兽爪撕裂弱者的铠甲，当技能目标的力量低于自己时，使技能目标减少50%物理防御力，效果持续1回合。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription430012]",
           "descriptions": {
+            "ja-JP": "物理攻撃の回数が6回になる。",
             "zh-CN": "攻击次数增加为6次。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription430013]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×520%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×520%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription430014]",
           "descriptions": {
+            "ja-JP": "雷啼の爪を強化する。さらにこのスキルで敵を戦闘不能にした場合、2ターンの間自身のクリダメ強化が30%増加する。",
             "zh-CN": "强化雷啼之爪，如果技能目标失去战斗能力，克尔柏洛丝额外增加30%暴击伤害强化，效果持续2回合。"
           },
           "equipment_rarity_flags": 128,
@@ -67,6 +71,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription430015]",
           "descriptions": {
+            "ja-JP": "雷啼の爪を強化する。クリダメ強化の増加量が60%になる。",
             "zh-CN": "强化雷啼之爪，暴击伤害强化增幅提升为60%。"
           },
           "equipment_rarity_flags": 512,
@@ -166,6 +171,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName43001]",
       "names": {
+        "ja-JP": "雷啼の爪",
         "zh-CN": "雷啼之爪"
       },
       "source_memo_ja": "ケルベロスSR:Lv1 制御不能な雷装の力によって、ランダムな敵に3回攻撃力×350%の物理攻撃を行う。容赦のない獣の爪は、力なき者を鎧ごと切り裂き、対象の腕力が自身よりも低い場合、1ターンの間物理防御力を50%減少させる。/ Lv2 物理攻撃の回数が6回になる。/ Lv3 物理攻撃のダメージが攻撃力×520%になる。/ Ex1 雷啼の爪を強化する。さらにこのスキルで敵を戦闘不能にした場合、2ターンの間自身のクリダメ強化が30%増加する。/ Ex3 雷啼の爪を強化する。クリダメ強化の増加量が60%になる。",
@@ -203,6 +209,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription430021]",
           "descriptions": {
+            "ja-JP": "呪われた雷が弱った敵を狙い撃つ。HP割合が最も低い敵に3回攻撃力×380%の物理攻撃を行う。",
             "zh-CN": "克尔柏洛丝以咒雷劈开虚弱的敌人，对生命值百分比最低的敌人进行3次攻击，每次造成攻击力×380%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -217,6 +224,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription430022]",
           "descriptions": {
+            "ja-JP": "さらにこのスキルで敵を戦闘不能にできず、対象のHP割合が15%以下かつ現在HPが自身の攻撃力×1500%以下の場合、即時戦闘不能にする。",
             "zh-CN": "如果技能目标仍然存活，生命值为15%以下且当前生命值为克尔柏洛丝攻击力×1500%以下时，立即失去战斗能力。"
           },
           "equipment_rarity_flags": 0,
@@ -231,6 +239,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription430023]",
           "descriptions": {
+            "ja-JP": "物理攻撃の回数が5回になる。",
             "zh-CN": "攻击次数增加为5次。"
           },
           "equipment_rarity_flags": 0,
@@ -245,6 +254,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription430024]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×480%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×480%。"
           },
           "equipment_rarity_flags": 0,
@@ -325,6 +335,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName43002]",
       "names": {
+        "ja-JP": "タルタロスの雷",
         "zh-CN": "塔尔塔罗斯之雷"
       },
       "source_memo_ja": "ケルベロスSR:Lv1 呪われた雷が弱った敵を狙い撃つ。HP割合が最も低い敵に3回攻撃力×380%の物理攻撃を行う。/ Lv2 さらにこのスキルで敵を戦闘不能にできず、対象のHP割合が15%以下かつ現在HPが自身の攻撃力×1500%以下の場合、即時戦闘不能にする。/ Lv3 物理攻撃の回数が5回になる。/ Lv4 物理攻撃のダメージが攻撃力×480%になる。",
@@ -779,6 +790,7 @@
       },
       "name_key": "[CharacterCollectionName33]",
       "names": {
+        "ja-JP": "カニス・ミノルの相愛",
         "zh-CN": "小犬座的相思"
       },
       "required_character_ids": [
@@ -789,12 +801,14 @@
         {
           "id": 43,
           "names": {
+            "ja-JP": "ケルベロス",
             "zh-CN": "克尔柏洛丝"
           }
         },
         {
           "id": 7,
           "names": {
+            "ja-JP": "フェンリル",
             "zh-CN": "芬里尔"
           }
         }
@@ -1232,6 +1246,7 @@
       },
       "name_key": "[CharacterCollectionName82]",
       "names": {
+        "ja-JP": "カニス・ミノルの宝物​",
         "zh-CN": "小犬座的宝物"
       },
       "required_character_ids": [
@@ -1242,12 +1257,14 @@
         {
           "id": 129,
           "names": {
+            "ja-JP": "ケルベロス",
             "zh-CN": "克尔柏洛丝"
           }
         },
         {
           "id": 43,
           "names": {
+            "ja-JP": "ケルベロス",
             "zh-CN": "克尔柏洛丝"
           }
         }
@@ -1685,6 +1702,7 @@
       },
       "name_key": "[CharacterCollectionName89]",
       "names": {
+        "ja-JP": "ラケルタの試練​",
         "zh-CN": "蝎虎座的试炼"
       },
       "required_character_ids": [
@@ -1695,12 +1713,14 @@
         {
           "id": 103,
           "names": {
+            "ja-JP": "コベル",
             "zh-CN": "寇柏"
           }
         },
         {
           "id": 43,
           "names": {
+            "ja-JP": "ケルベロス",
             "zh-CN": "克尔柏洛丝"
           }
         }
@@ -1770,12 +1790,14 @@
     "memo": "ケルベロス",
     "name_key": "[CharacterName43]",
     "names": {
+      "ja-JP": "ケルベロス",
       "zh-CN": "克尔柏洛丝"
     },
     "speed": 3363,
     "start_time_jst": "2023-01-17 15:00:00",
     "subtitle_key": "[CharacterSubName43]",
     "subtitles": {
+      "ja-JP": "雷啼の魔女",
       "zh-CN": "雷啼魔女"
     }
   },
@@ -1850,6 +1872,7 @@
     },
     "name_key": "[EquipmentName357]",
     "names": {
+      "ja-JP": "トールハンマー",
       "zh-CN": "雷神之锤"
     },
     "passive_effects": [
@@ -1883,6 +1906,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill43Description1]",
         "descriptions": {
+          "ja-JP": "雷啼の爪を強化する。さらにこのスキルで敵を戦闘不能にした場合、2ターンの間自身のクリダメ強化が30%増加する。",
           "zh-CN": "强化雷啼之爪，如果技能目标失去战斗能力，克尔柏洛丝额外增加30%暴击伤害强化，效果持续2回合。"
         },
         "equipment_rarity_flags": 128,
@@ -1891,6 +1915,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill43Description2]",
         "descriptions": {
+          "ja-JP": "制御不能の力を強化する。さらにバトル開始時、2ターンの間自身のスピードが20%増加する（解除不可）。",
           "zh-CN": "强化失控的力量，战斗开始时，克尔柏洛丝使自己额外增加20%速度，效果持续2回合（无法被解除）。"
         },
         "equipment_rarity_flags": 256,
@@ -1899,6 +1924,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill43Description3]",
         "descriptions": {
+          "ja-JP": "雷啼の爪を強化する。クリダメ強化の増加量が60%になる。",
           "zh-CN": "强化雷啼之爪，暴击伤害强化增幅提升为60%。"
         },
         "equipment_rarity_flags": 512,
@@ -1921,6 +1947,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription430031]",
           "descriptions": {
+            "ja-JP": "「大丈夫。もう怖くないよ」。その言葉が、夜の闇を優しく取り払う──。2ターン目のターン開始時自身の弱体効果を2つ解除する。",
             "zh-CN": "“没事了，不怕不怕。”——这句话会温柔地赶走可怕的黑夜。第2回合开始时，克尔柏洛丝解除自己身上的2种弱化效果。"
           },
           "equipment_rarity_flags": 0,
@@ -1935,6 +1962,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription430032]",
           "descriptions": {
+            "ja-JP": "弱体効果の解除数が全てになる。",
             "zh-CN": "解除所有弱化效果。"
           },
           "equipment_rarity_flags": 0,
@@ -1949,6 +1977,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription430033]",
           "descriptions": {
+            "ja-JP": "さらに弱体効果解除の前に自身が弱体効果を付帯していない場合、自身に3ターンの間『弱体効果無効』を付与する。",
             "zh-CN": "如果身上原本没有弱化效果，克尔柏洛丝额外获得「弱化效果免疫」，效果持续3回合。"
           },
           "equipment_rarity_flags": 0,
@@ -2017,6 +2046,7 @@
       },
       "name_key": "[PassiveSkillName43003]",
       "names": {
+        "ja-JP": "魔法の言葉",
         "zh-CN": "魔法的咒语"
       },
       "source_memo_ja": "ケルベロスSR:Lv1 「大丈夫。もう怖くないよ」。その言葉が、夜の闇を優しく取り払う──。2ターン目のターン開始時自身の弱体効果を2つ解除する。/ Lv2 弱体効果の解除数が全てになる。/ Lv3 さらに弱体効果解除の前に自身が弱体効果を付帯していない場合、自身に3ターンの間『弱体効果無効』を付与する。",
@@ -2044,6 +2074,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription430041]",
           "descriptions": {
+            "ja-JP": "小さな体に秘められるのは、空を穿つ神の怒り。自身の攻撃力が20%増加する（解除不可）。",
             "zh-CN": "娇小的身体里，藏着劈天裂地的神灵之怒。克尔柏洛丝使自己增加20%攻击力（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -2058,6 +2089,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription430042]",
           "descriptions": {
+            "ja-JP": "攻撃力の増加量が40%になる。",
             "zh-CN": "攻击力增幅提升为40%。"
           },
           "equipment_rarity_flags": 0,
@@ -2072,6 +2104,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription430043]",
           "descriptions": {
+            "ja-JP": "さらに自身のクリティカル率が20%増加する（解除不可）。",
             "zh-CN": "额外增加20%暴击率（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -2086,6 +2119,7 @@
           "character_level": 240,
           "description_key": "*",
           "descriptions": {
+            "ja-JP": null,
             "zh-CN": null
           },
           "equipment_rarity_flags": 256,
@@ -2177,6 +2211,7 @@
       },
       "name_key": "[PassiveSkillName43004]",
       "names": {
+        "ja-JP": "制御不能の力",
         "zh-CN": "失控的力量"
       },
       "source_memo_ja": "ケルベロスSR:Lv1 小さな体に秘められるのは、空を穿つ神の怒り。自身の攻撃力が20%増加する（解除不可）。/ Lv2 攻撃力の増加量が40%になる。/ Lv3 さらに自身のクリティカル率が20%増加する（解除不可）。/ Ex2 制御不能の力を強化する。さらにバトル開始時、2ターンの間自身のスピードが20%増加する（解除不可）。",
@@ -2236,6 +2271,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

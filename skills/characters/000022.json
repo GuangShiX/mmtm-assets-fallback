@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription220011]",
           "descriptions": {
+            "ja-JP": "渾身の力を込めて、正面の敵に攻撃力×480%の物理攻撃を行い、50%の確率で1ターンの間『気絶』を付与する。",
             "zh-CN": "萨拉灌注全身之力，对面前的敌人造成攻击力×480%的物理伤害，50%概率附加「晕厥」状态，效果持续1回合。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 61,
           "description_key": "[ActiveSkillDescription220012]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×520%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×520%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 121,
           "description_key": "[ActiveSkillDescription220013]",
           "descriptions": {
+            "ja-JP": "『気絶』を付与する確率が70%になる。",
             "zh-CN": "附加「晕厥」状态的概率提升为70%。"
           },
           "equipment_rarity_flags": 0,
@@ -94,6 +97,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName22001]",
       "names": {
+        "ja-JP": "全力突撃",
         "zh-CN": "全力突击"
       },
       "source_memo_ja": "ザラR: /Lv1　渾身の力を込めて、正面の敵に攻撃力×480％の物理攻撃を行い、50％の確率で1ターンの間『気絶』を付与する。　/Lv2 物理攻撃のダメージが攻撃力×520%になる。　/Lv3 『気絶』を付与する確率が70％になる。",
@@ -123,6 +127,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription220021]",
           "descriptions": {
+            "ja-JP": "魔女の力を使った高速の進撃で、正面の敵とそれに隣接する敵2体に攻撃力×410%の物理攻撃を行う。",
             "zh-CN": "萨拉使用魔女之力进行高速冲锋，对面前的敌人与该敌人附近的2名敌人造成攻击力×410%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -137,6 +142,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription220022]",
           "descriptions": {
+            "ja-JP": "さらに50%の確率で3ターンの間対象のスピードを10%減少させる。",
             "zh-CN": "50%概率使技能目标额外减少10%速度，效果持续3回合。"
           },
           "equipment_rarity_flags": 0,
@@ -151,6 +157,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription220023]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×480%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×480%。"
           },
           "equipment_rarity_flags": 0,
@@ -165,6 +172,7 @@
           "character_level": 141,
           "description_key": "[ActiveSkillDescription220024]",
           "descriptions": {
+            "ja-JP": "スピードの減少量が20%になる。",
             "zh-CN": "速度降幅提升为20%。"
           },
           "equipment_rarity_flags": 0,
@@ -230,6 +238,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName22002]",
       "names": {
+        "ja-JP": "正面突破",
         "zh-CN": "正面冲锋"
       },
       "source_memo_ja": "ザラR: /Lv1　魔女の力を使った高速の進撃で、正面の敵とそれに隣接する敵2体に攻撃力×410％の物理攻撃を行う。　/Lv2 さらに50％の確率で3ターンの間対象のスピードを10％減少させる。　/Lv3 物理攻撃のダメージが攻撃力×480%になる。　/Lv4 スピードの減少量が20％になる。",
@@ -333,6 +342,7 @@
       },
       "name_key": "[CharacterCollectionName58]",
       "names": {
+        "ja-JP": "アルニラムの開花",
         "zh-CN": "串绳星的绽放"
       },
       "required_character_ids": [
@@ -345,24 +355,28 @@
         {
           "id": 2,
           "names": {
+            "ja-JP": "イリア",
             "zh-CN": "伊利亚"
           }
         },
         {
           "id": 12,
           "names": {
+            "ja-JP": "アリアンロッド",
             "zh-CN": "阿丽安萝德"
           }
         },
         {
           "id": 22,
           "names": {
+            "ja-JP": "ザラ",
             "zh-CN": "萨拉"
           }
         },
         {
           "id": 32,
           "names": {
+            "ja-JP": "スクルド",
             "zh-CN": "诗寇蒂"
           }
         }
@@ -431,12 +445,14 @@
     "memo": "ザラ",
     "name_key": "[CharacterName22]",
     "names": {
+      "ja-JP": "ザラ",
       "zh-CN": "萨拉"
     },
     "speed": 2766,
     "start_time_jst": "2020-01-01 00:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -454,6 +470,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription220031]",
           "descriptions": {
+            "ja-JP": "魔力を使って守りを固めることで、毎ターン開始時もしくは自身が攻撃を受けたとき、自身のHP割合が30%未満の場合、自身の被ダメージが20%減少する（解除不可）。毎ターン開始時自身のHP割合が30%以上の場合『被ダメージ減少』は解除される。",
             "zh-CN": "萨拉使用魔力加强防御，在每回合开始时或受到攻击后，如果萨拉的生命值低于30%，减少20%自身承受伤害（无法被解除）。每回合开始时，如果萨拉的生命值达30%以上，解除「承受伤害下降」状态。"
           },
           "equipment_rarity_flags": 0,
@@ -468,6 +485,7 @@
           "character_level": 101,
           "description_key": "[PassiveSkillDescription220032]",
           "descriptions": {
+            "ja-JP": "被ダメージの減少量が30%になる。",
             "zh-CN": "承受伤害降幅提升为30%"
           },
           "equipment_rarity_flags": 0,
@@ -548,6 +566,7 @@
       },
       "name_key": "[PassiveSkillName22003]",
       "names": {
+        "ja-JP": "防御態勢",
         "zh-CN": "防御态势"
       },
       "source_memo_ja": "ザラR: /Lv1　魔力を使って守りを固めることで、毎ターン開始時、もしくは自身が攻撃を受けたとき、自身のHP割合が30％未満の場合、自身の被ダメージが20％減少する（解除不可）。毎ターン開始時自身のHP割合が30％以上の場合このスキルは解除される。　/Lv2 被ダメージの減少量が30％になる。",
@@ -599,6 +618,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

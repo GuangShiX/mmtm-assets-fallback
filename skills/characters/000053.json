@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription530011]",
           "descriptions": {
+            "ja-JP": "水のおともだちを呼んで攻撃してもらう。ランダムな敵3体に攻撃力×430%の魔法攻撃を行う。水の乙女が触れた者の生気を奪い取り、60%の確率で1ターンの間対象の攻撃力を15%減少させる。対象の魔力が自身よりも低い場合、『攻撃力減少』のターン数が2ターンになる。",
             "zh-CN": "维拉呼唤水中的朋友进行攻击，随机对3名敌人造成攻击力×430%的魔法伤害。水灵化身的少女从她触及的对象身上夺走精气，60%概率使技能目标减少15%攻击力，效果持续1回合。当技能目标的魔力低于维拉时，「攻击力下降」效果增加为2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription530012]",
           "descriptions": {
+            "ja-JP": "攻撃力の減少量が35%になる。",
             "zh-CN": "攻击力降幅提升为35%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription530013]",
           "descriptions": {
+            "ja-JP": "『攻撃力減少』を付与する確率が100%になる。",
             "zh-CN": "附加「攻击力下降」状态的概率提升为100%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription530014]",
           "descriptions": {
+            "ja-JP": "",
             "zh-CN": ""
           },
           "equipment_rarity_flags": 128,
@@ -67,6 +71,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription530015]",
           "descriptions": {
+            "ja-JP": "",
             "zh-CN": ""
           },
           "equipment_rarity_flags": 256,
@@ -139,6 +144,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName53001]",
       "names": {
+        "ja-JP": "ウンディーネ",
         "zh-CN": "温蒂妮"
       },
       "source_memo_ja": "ウィーラSR:Lv1 水のおともだちを呼んで攻撃してもらう。ランダムな敵3体に攻撃力×430％の魔法攻撃を行う。水の乙女が触れた者の生気を奪い取り、60％の確率で1ターンの間対象の攻撃力を15％減少させる。対象の魔力が自身よりも低い場合、『攻撃力減少』のターン数が2ターンになる。/ Lv2\\n 攻撃力の減少量が35％になる。/ Lv3 \\n攻撃力を減少させる確率が100％になる。/ Ex1 ウンディーネを強化する。魔法攻撃の対象がランダムな敵4体になる。/Ex2 \\nウンディーネを強化する。魔法攻撃のダメージが攻撃力×480％になる。",
@@ -172,6 +178,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription530021]",
           "descriptions": {
+            "ja-JP": "水の妖精にお願いして攻撃してもらう。ランダムな敵に3回攻撃力×310%の魔法攻撃を行う。まとわりついた水が相手の動きを遅くさせ、5ターンの間対象のスピードを15%減少させる（最大3スタックまで）。",
             "zh-CN": "维拉请求水中的妖精发动攻击，随机对敌人进行3次攻击，每次造成攻击力×310%的魔法伤害。缠绕的水流令对手难以行动，使技能目标减少15%速度，效果持续5回合（最多叠加3层）。"
           },
           "equipment_rarity_flags": 0,
@@ -186,6 +193,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription530022]",
           "descriptions": {
+            "ja-JP": "魔法攻撃の回数が4回になり、『スピード減少』のスタック数が最大4になる。",
             "zh-CN": "攻击次数增加为4次，「速度下降」效果最多可叠加4层。"
           },
           "equipment_rarity_flags": 0,
@@ -200,6 +208,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription530023]",
           "descriptions": {
+            "ja-JP": "『スピード減少』を付帯している敵を対象とする場合、魔法攻撃のダメージが1.5倍になる。",
             "zh-CN": "当技能目标身上附带「速度下降」状态时，造成的魔法伤害增加为1.5倍。"
           },
           "equipment_rarity_flags": 0,
@@ -214,6 +223,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription530024]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×380%になり、さらに自身のHPをこのスキルの総与ダメージ×30%回復する。",
             "zh-CN": "造成的魔法伤害提升为攻击力×380%，并使维拉额外恢复技能总伤害×30%的生命值。"
           },
           "equipment_rarity_flags": 0,
@@ -228,6 +238,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription530025]",
           "descriptions": {
+            "ja-JP": "",
             "zh-CN": ""
           },
           "equipment_rarity_flags": 512,
@@ -319,6 +330,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName53002]",
       "names": {
+        "ja-JP": "アンダイン",
         "zh-CN": "昂丁"
       },
       "source_memo_ja": "ウィーラSR: Lv1 水の妖精にお願いして攻撃してもらう。ランダムな敵に3回攻撃力×310％の魔法攻撃を行う。まとわりついた水が相手の動きを遅くさせ、5ターンの間対象のスピードを15％減少させる（最大3回まで）。/ Lv2 \\n魔法攻撃の回数が4回になり、『スピード減少』のスタック数が最大4回になる。/Lv3 \\n『スピード減少』を付帯している敵を対象とする場合、魔法攻撃のダメージが1.5倍になる。/Lv4 \\n魔法攻撃のダメージが攻撃力×380%になり、さらに自身のHPをこのスキルの総与ダメージ×30％回復する。/ Ex3 アンダインを強化する。魔法攻撃のダメージが攻撃力×420％になる。",
@@ -778,6 +790,7 @@
       },
       "name_key": "[CharacterCollectionName9]",
       "names": {
+        "ja-JP": "ピスケスの愛護",
         "zh-CN": "双鱼座的怜惜"
       },
       "required_character_ids": [
@@ -789,18 +802,21 @@
         {
           "id": 53,
           "names": {
+            "ja-JP": "ウィーラ",
             "zh-CN": "维拉"
           }
         },
         {
           "id": 35,
           "names": {
+            "ja-JP": "ミミ",
             "zh-CN": "咪咪"
           }
         },
         {
           "id": 28,
           "names": {
+            "ja-JP": "ニーナ",
             "zh-CN": "妮娜"
           }
         }
@@ -870,12 +886,14 @@
     "memo": "ウィーラ",
     "name_key": "[CharacterName53]",
     "names": {
+      "ja-JP": "ウィーラ",
       "zh-CN": "维拉"
     },
     "speed": 3654,
     "start_time_jst": "2023-03-16 15:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -949,6 +967,7 @@
     },
     "name_key": "[EquipmentName401]",
     "names": {
+      "ja-JP": "おさかなさん",
       "zh-CN": "鱼鱼"
     },
     "passive_effects": [
@@ -982,6 +1001,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill53Description1]",
         "descriptions": {
+          "ja-JP": "ウンディーネを強化する。魔法攻撃の対象がランダムな敵4体になる。",
           "zh-CN": "强化温蒂妮，技能目标增加为4名随机敌人。"
         },
         "equipment_rarity_flags": 128,
@@ -990,6 +1010,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill53Description2]",
         "descriptions": {
+          "ja-JP": "ウンディーネを強化する。魔法攻撃のダメージが攻撃力×480%になる。",
           "zh-CN": "强化温蒂妮，造成的魔法伤害提升为攻击力×480%。"
         },
         "equipment_rarity_flags": 256,
@@ -998,6 +1019,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill53Description3]",
         "descriptions": {
+          "ja-JP": "アンダインを強化する。魔法攻撃のダメージが攻撃力×420%になる。",
           "zh-CN": "强化昂丁，造成的魔法伤害提升为攻击力×420%。"
         },
         "equipment_rarity_flags": 512,
@@ -1018,6 +1040,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription530031]",
           "descriptions": {
+            "ja-JP": "雨が教えてくれるの。だからウィー、どこにいるかわかるよ。自身の命中率が20%増加する（解除不可）。",
             "zh-CN": "雨水会告诉我，所以小维知道你在哪里哦。维拉使自己增加20%命中率（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1032,6 +1055,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription530032]",
           "descriptions": {
+            "ja-JP": "さらに自身の弱体効果命中率が20%増加する（解除不可）。",
             "zh-CN": "额外增加20%弱化效果命中率（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1046,6 +1070,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription530033]",
           "descriptions": {
+            "ja-JP": "命中率と弱体効果命中率の増加量がそれぞれ40%になる。",
             "zh-CN": "命中率与弱化效果命中率增幅提升为40%。"
           },
           "equipment_rarity_flags": 0,
@@ -1111,6 +1136,7 @@
       },
       "name_key": "[PassiveSkillName53003]",
       "names": {
+        "ja-JP": "雨が教えてくれるの",
         "zh-CN": "雨水会告诉我"
       },
       "source_memo_ja": "ウィーラSR: Lv1 雨が教えてくれるの。だからウィー、どこにいるかわかるよ。自身の命中率が20％増加する（解除不可）。/ Lv2\\nさらに自身の弱体効果命中率が20％増加する（解除不可）。/ Lv3 \\n命中率と弱体効果命中率の増加量がそれぞれ40％になる。",
@@ -1134,6 +1160,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription530041]",
           "descriptions": {
+            "ja-JP": "「だって、ルゥちゃんは、ウィーの大切なお友達だから……！」自身が攻撃を受けて、HP割合が40%未満になった場合、自身の弱体効果を全て解除する。このスキルは発動後4回行動終了するまで再び発動しない。",
             "zh-CN": "“因为小露是小维最重要的朋友……！”当维拉受到攻击，生命值低于40%时，触发技能解除所有弱化效果。此技能须在结束4次行动后才可再次触发。"
           },
           "equipment_rarity_flags": 0,
@@ -1148,6 +1175,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription530042]",
           "descriptions": {
+            "ja-JP": "さらに2ターンの間自身に自身の攻撃力×300%の『シールド』を付与する。",
             "zh-CN": "额外获得攻击力×300%的「护盾」，效果持续2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -1162,6 +1190,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription530043]",
           "descriptions": {
+            "ja-JP": "『シールド』のターン数が3ターンになる。",
             "zh-CN": "「护盾」效果增加为3回合。"
           },
           "equipment_rarity_flags": 0,
@@ -1227,6 +1256,7 @@
       },
       "name_key": "[PassiveSkillName53004]",
       "names": {
+        "ja-JP": "ふたりぼっちの絆",
         "zh-CN": "只有你陪着我"
       },
       "source_memo_ja": "ウィーラSR: Lv1 「だって、ルゥちゃんは、ウィーの大切なお友達だから……！」自身が攻撃を受けて、HP割合が40％未満になった場合、自身の弱体効果を全て解除する。このスキルは4ターンに1回発動する。/ Lv2 \\nさらに1->2ターンの間自身に自身の攻撃力×300％の『シールド』を付与する。/ Lv3\\n『シールド』のターン数が2->3ターンになる。",
@@ -1278,6 +1308,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription930011]",
           "descriptions": {
+            "ja-JP": "仲間のためなら自身を省みない、真っすぐな心が光を放つ。自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵に3回攻撃力×280%の物理攻撃を行う。",
             "zh-CN": "阿尔托莉亚为同伴奋不顾身的真性情绽放出耀眼光彩，使自己受到当前生命值×20%的自损伤害，并随机对敌人进行3次攻击，每次造成攻击力×280%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription930012]",
           "descriptions": {
+            "ja-JP": "さらに物理攻撃の対象が翠属性の場合、攻撃するたび70%の確率で対象に1ターンの間『気絶』を付与する。",
             "zh-CN": "当技能目标为苍翠属性时，每次攻击之后，70%概率附加「晕厥」状态，效果持续1回合。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription930013]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×480%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×480%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription930014]",
           "descriptions": {
+            "ja-JP": "コールブランドを強化する。物理攻撃の回数が6回になる。",
             "zh-CN": "强化断钢圣剑，攻击次数增加为6次。"
           },
           "equipment_rarity_flags": 128,
@@ -67,6 +71,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription930015]",
           "descriptions": {
+            "ja-JP": "コールブランドを強化する。物理攻撃のダメージが攻撃力×520%になる。",
             "zh-CN": "强化断钢圣剑，造成的物理伤害提升为攻击力×520%。"
           },
           "equipment_rarity_flags": 512,
@@ -163,6 +168,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName93001]",
       "names": {
+        "ja-JP": "コールブランド",
         "zh-CN": "断钢圣剑"
       },
       "source_memo_ja": "アルトリアSR:Lv1 仲間のためなら自身を省みない、真っすぐな心が光を放つ。自身に自身の現在HP×20％の自傷ダメージを与え、ランダムな敵に3回攻撃力×280％の物理攻撃を行う。/ Lv2 さらに物理攻撃の対象が翠属性の場合、攻撃するたび70％の確率で対象に1ターンの間『気絶』を付与する。/ Lv3 物理攻撃のダメージが攻撃力×480％になる。/ Ex1 コールブランドを強化する。物理攻撃の回数が6回になる。/ Ex3 コールブランドを強化する。物理攻撃のダメージが攻撃力×520％になる。",
@@ -200,6 +206,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription930021]",
           "descriptions": {
+            "ja-JP": "正義の心がある限り、鋼の刃は何度でも聖剣になる。自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵に5回攻撃力×320%の物理攻撃を行う。",
             "zh-CN": "只要保有一颗充满正义感的心，平凡的钢铁将一次又一次地蜕变为圣剑。阿尔托莉亚使自己受到当前生命值×20%的自损伤害，并随机对敌人进行5次攻击，每次造成攻击力×320%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -214,6 +221,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription930022]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×540%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×540%。"
           },
           "equipment_rarity_flags": 0,
@@ -228,6 +236,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription930023]",
           "descriptions": {
+            "ja-JP": "さらに自身が奮い立つ正義で付与した『攻撃力増加』のスタック数1つにつき、物理攻撃のダメージが攻撃力×150%大きくなる（最大攻撃力×1140%まで）。",
             "zh-CN": "阿尔托莉亚身上每附带1层振奋之义附加的「攻击力上升」状态，造成的物理伤害增加攻击力×150%（最多可叠加到1140%）。"
           },
           "equipment_rarity_flags": 0,
@@ -242,6 +251,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription930024]",
           "descriptions": {
+            "ja-JP": "物理攻撃の回数が7回になる。",
             "zh-CN": "攻击次数增加为7次。"
           },
           "equipment_rarity_flags": 0,
@@ -329,6 +339,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName93002]",
       "names": {
+        "ja-JP": "キャリバーン",
         "zh-CN": "王者圣剑"
       },
       "source_memo_ja": "アルトリアSR:Lv1 正義の心がある限り、鋼の刃は何度でも聖剣になる。自身に自身の現在HP×20％の自傷ダメージを与え、ランダムな敵に5回攻撃力×320％の物理攻撃を行う。/ Lv2 物理攻撃のダメージが攻撃力×540％になる。/ Lv3 さらに自身が奮い立つ正義で付与した『攻撃力増加』のスタック数1つにつき、物理攻撃のダメージが攻撃力×150％大きくなる（最大攻撃力×1140％まで）。/ Lv4 物理攻撃の回数が7回になる。",
@@ -783,6 +794,7 @@
       },
       "name_key": "[CharacterCollectionName65]",
       "names": {
+        "ja-JP": "リゲルの審判​",
         "zh-CN": "巨人星的审判"
       },
       "required_character_ids": [
@@ -793,12 +805,14 @@
         {
           "id": 93,
           "names": {
+            "ja-JP": "アルトリア",
             "zh-CN": "阿尔托莉亚"
           }
         },
         {
           "id": 75,
           "names": {
+            "ja-JP": "モルガナ",
             "zh-CN": "摩嘉娜"
           }
         }
@@ -1237,6 +1251,7 @@
       },
       "name_key": "[CharacterCollectionName87]",
       "names": {
+        "ja-JP": "アケルナルの神童​",
         "zh-CN": "河尾星的神童"
       },
       "required_character_ids": [
@@ -1248,18 +1263,21 @@
         {
           "id": 135,
           "names": {
+            "ja-JP": "メルラン",
             "zh-CN": "梅尔林"
           }
         },
         {
           "id": 93,
           "names": {
+            "ja-JP": "アルトリア",
             "zh-CN": "阿尔托莉亚"
           }
         },
         {
           "id": 75,
           "names": {
+            "ja-JP": "モルガナ",
             "zh-CN": "摩嘉娜"
           }
         }
@@ -1329,12 +1347,14 @@
     "memo": "アルトリア",
     "name_key": "[CharacterName93]",
     "names": {
+      "ja-JP": "アルトリア",
       "zh-CN": "阿尔托莉亚"
     },
     "speed": 3572,
     "start_time_jst": "2025-01-15 15:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -1408,6 +1428,7 @@
     },
     "name_key": "[EquipmentName657]",
     "names": {
+      "ja-JP": "聖剣カラドヴルフ",
       "zh-CN": "圣剑卡里德福洛斯"
     },
     "passive_effects": [
@@ -1441,6 +1462,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill93Description1]",
         "descriptions": {
+          "ja-JP": "コールブランドを強化する。物理攻撃の回数が6回になる。",
           "zh-CN": "强化断钢圣剑，攻击次数增加为6次。"
         },
         "equipment_rarity_flags": 128,
@@ -1449,6 +1471,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill93Description2]",
         "descriptions": {
+          "ja-JP": "聖剣の鞘を強化する。さらに対象が紅属性の場合、2ターンの間対象のスピードを20%増加させる（解除不可）。",
           "zh-CN": "强化圣剑之鞘，当技能目标为业红属性时，额外增加20%速度，效果持续2回合（无法被解除）。"
         },
         "equipment_rarity_flags": 256,
@@ -1457,6 +1480,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill93Description3]",
         "descriptions": {
+          "ja-JP": "コールブランドを強化する。物理攻撃のダメージが攻撃力×520%になる。",
           "zh-CN": "强化断钢圣剑，造成的物理伤害提升为攻击力×520%。"
         },
         "equipment_rarity_flags": 512,
@@ -1477,6 +1501,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription930031]",
           "descriptions": {
+            "ja-JP": "仲間を想う正義の心が、彼女に再び立ち上がる力を与える。自身か味方が自傷ダメージを受けた場合、自身に攻撃力が5%増加するバフを付与する（解除不可）。自傷ダメージを受けた回数1回につきスタック数が1増加する（最大4スタックまで）。",
             "zh-CN": "阿尔托莉亚对同伴的义气，带给她重新振作的力量。当阿尔托莉亚或友军受到自损伤害时，阿尔托莉亚获得1层增益效果，使自己增加5%攻击力（无法被解除）。每次受到自损伤害使增益效果的叠加数增加1层（最多4层）。"
           },
           "equipment_rarity_flags": 0,
@@ -1491,6 +1516,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription930032]",
           "descriptions": {
+            "ja-JP": "攻撃力の増加量が10%になる。",
             "zh-CN": "攻击力增幅提升为10%。"
           },
           "equipment_rarity_flags": 0,
@@ -1505,6 +1531,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription930033]",
           "descriptions": {
+            "ja-JP": "さらにバトル開始時自身に1層の『多重バリア』を付与する（解除不可）。自身の最大HP×10%以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。",
             "zh-CN": "战斗开始时，阿尔托莉亚额外获得1层「多重屏障」（无法被解除）。当她受到最大生命值×10%以上的伤害时，消耗1层屏障来抵消该伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -1601,6 +1628,7 @@
       },
       "name_key": "[PassiveSkillName93003]",
       "names": {
+        "ja-JP": "奮い立つ正義",
         "zh-CN": "振奋之义"
       },
       "source_memo_ja": "アルトリアSR:Lv1 仲間を想う正義の心が、彼女に再び立ち上がる力を与える。自身か味方が自傷ダメージを受けた場合、自身に攻撃力が5％増加するバフを付与する（解除不可）。自傷ダメージを受けた回数1回につきスタック数が1増加する（最大4スタックまで）。/ Lv2 攻撃力の増加量が10％になる。/ Lv3 さらにバトル開始時自身に1層の多重バリアを付与する（解除不可）。自身の最大HP×10％以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。",
@@ -1628,6 +1656,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription930041]",
           "descriptions": {
+            "ja-JP": "聖剣の器である鞘には、疲れた刃を癒し、仲間を鼓舞する力がある。バトル開始時、1ターンの間自身以外のスピードが最も低い味方の攻撃力を、自身の攻撃力×20%増加させる（解除不可）。",
             "zh-CN": "这副剑鞘是圣剑的容器，带有修复受损剑刃、鼓舞同伴士气的力量。战斗开始时，阿尔托莉亚使速度最低的其他友军增加攻击力，增幅为阿尔托莉亚攻击力×20%，效果持续1回合（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1642,6 +1671,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription930042]",
           "descriptions": {
+            "ja-JP": "『攻撃力増加』のターン数が2ターンになる。",
             "zh-CN": "「攻击力上升」效果增加为2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -1656,6 +1686,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription930043]",
           "descriptions": {
+            "ja-JP": "攻撃力の増加量が自身の攻撃力×50%になる。",
             "zh-CN": "攻击力增幅提升为阿尔托莉亚攻击力×50%。"
           },
           "equipment_rarity_flags": 0,
@@ -1670,6 +1701,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription930044]",
           "descriptions": {
+            "ja-JP": "聖剣の鞘を強化する。さらに対象が紅属性の場合、2ターンの間対象のスピードを20%増加させる（解除不可）。",
             "zh-CN": "强化圣剑之鞘，当技能目标为业红属性时，额外增加20%速度，效果持续2回合（无法被解除）。"
           },
           "equipment_rarity_flags": 256,
@@ -1761,6 +1793,7 @@
       },
       "name_key": "[PassiveSkillName93004]",
       "names": {
+        "ja-JP": "聖剣の鞘",
         "zh-CN": "圣剑之鞘"
       },
       "source_memo_ja": "アルトリアSR:Lv1 聖剣の器である鞘には、疲れた刃を癒し、仲間を鼓舞する力がある。バトル開始時、1ターンの間自身以外のスピードが最も低い味方の攻撃力を、自身の攻撃力×20％増加させる（解除不可）。/ Lv2 『攻撃力増加』のターン数が2ターンになる。/ Lv3 攻撃力の増加量が自身の攻撃力×50％になる。/ Ex2 聖剣の鞘を強化する。さらに対象が紅属性の場合、2ターンの間対象のスピードを20％増加させる（解除不可）。",
@@ -1820,6 +1853,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

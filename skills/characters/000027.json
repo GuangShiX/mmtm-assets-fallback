@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription270011]",
           "descriptions": {
+            "ja-JP": "早撃ちの演目は得意中の得意。ランダムな敵に4回攻撃力×420%の物理攻撃を行う。",
             "zh-CN": "快枪是科迪最拿手的招牌表演。随机对敌人进行4次攻击，每次造成攻击力×420%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription270012]",
           "descriptions": {
+            "ja-JP": "さらにこのスキルで敵を戦闘不能にした場合、1ターンの間自身の攻撃力が50%増加する。",
             "zh-CN": "如果技能目标失去战斗能力，科迪额外增加50%攻击力，效果持续1回合。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription270013]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×570%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×570%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription270014]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription270014]",
             "zh-CN": "[ActiveSkillDescription270014]"
           },
           "equipment_rarity_flags": 128,
@@ -64,6 +68,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription270015]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription270015]",
             "zh-CN": "[ActiveSkillDescription270015]"
           },
           "equipment_rarity_flags": 256,
@@ -75,6 +80,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription270016]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription270016]",
             "zh-CN": "[ActiveSkillDescription270016]"
           },
           "equipment_rarity_flags": 512,
@@ -181,6 +187,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName27001]",
       "names": {
+        "ja-JP": "クイック&デッド",
         "zh-CN": "致命快感"
       },
       "source_memo_ja": "コルディSR: /Lv1　早撃ちの演目は得意中の得意。ランダムな敵に4回攻撃力×420%の物理攻撃を行う。　/Lv2 さらにこのスキルで敵を戦闘不能にした場合、1ターンの間自身の攻撃力が50％増加する。　/Lv3 物理攻撃のダメージが攻撃力×570%になる。　/専用1 クイック&デッドを強化する。さらに物理攻撃前に2ターンの間対象の防御力を80％減少させる。　/専用2 クイック&デッドを強化する。『防御力減少』と『攻撃力増加』のターン数がそれぞれ3ターンになる。　/専用3 クイック&デッドを強化する。物理攻撃の回数が5回になる。",
@@ -210,6 +217,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription270021]",
           "descriptions": {
+            "ja-JP": "目にも留まらぬ連続射撃は、もはや曲芸の域に達した。ランダムな敵5体に攻撃力×390%の物理攻撃を行う。スリルが集中力を高め、自身のHP割合が50%以下の場合、物理攻撃のダメージが1.5倍になる。",
             "zh-CN": "科迪令人目不暇接的连续射击已达到艺术的境界，随机对5名敌人造成攻击力×390%的物理伤害。亢奋使科迪的专注力提升，当她的生命值为50%以下时，造成的物理伤害增加为1.5倍。"
           },
           "equipment_rarity_flags": 0,
@@ -224,6 +232,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription270022]",
           "descriptions": {
+            "ja-JP": "さらに対象が弱体効果を付帯している場合、必ずクリティカルヒットする。",
             "zh-CN": "当技能目标身上附带弱化效果时，此攻击必定暴击。"
           },
           "equipment_rarity_flags": 0,
@@ -238,6 +247,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription270023]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×520%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×520%。"
           },
           "equipment_rarity_flags": 0,
@@ -252,6 +262,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription270024]",
           "descriptions": {
+            "ja-JP": "自身のHP割合が50%以下の場合で得られる物理攻撃のダメージ上昇量が2倍になる。",
             "zh-CN": "当科迪的生命值为50%以下时，物理伤害增幅提升为2倍。"
           },
           "equipment_rarity_flags": 0,
@@ -317,6 +328,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName27002]",
       "names": {
+        "ja-JP": "ファニングショット",
         "zh-CN": "拨扇速射"
       },
       "source_memo_ja": "コルディSR: /Lv1　目にも留まらぬ連続射撃は、もはや曲芸の域に達した。ランダムな敵5体に攻撃力×390％の物理攻撃を行う。スリルが集中力を高め、自身のHP割合が50％以下の場合、物理攻撃のダメージが1.5倍になる。　/Lv2 さらに対象が弱体効果を付帯している場合、必ずクリティカルヒットする。　/Lv3 物理攻撃のダメージが攻撃力×520%になる。　/Lv4 ダメージの増加量が2倍になる。",
@@ -772,6 +784,7 @@
       },
       "name_key": "[CharacterCollectionName4]",
       "names": {
+        "ja-JP": "ウルススの心眼",
         "zh-CN": "大熊座的心之眼"
       },
       "required_character_ids": [
@@ -783,18 +796,21 @@
         {
           "id": 26,
           "names": {
+            "ja-JP": "マーリン",
             "zh-CN": "梅琳"
           }
         },
         {
           "id": 27,
           "names": {
+            "ja-JP": "コルディ",
             "zh-CN": "科迪"
           }
         },
         {
           "id": 29,
           "names": {
+            "ja-JP": "メルティーユ",
             "zh-CN": "茉缇"
           }
         }
@@ -1232,6 +1248,7 @@
       },
       "name_key": "[CharacterCollectionName23]",
       "names": {
+        "ja-JP": "ドラドの一撃",
         "zh-CN": "剑鱼座的一击"
       },
       "required_character_ids": [
@@ -1242,12 +1259,14 @@
         {
           "id": 72,
           "names": {
+            "ja-JP": "コルディ",
             "zh-CN": "科迪"
           }
         },
         {
           "id": 27,
           "names": {
+            "ja-JP": "コルディ",
             "zh-CN": "科迪"
           }
         }
@@ -1693,6 +1712,7 @@
       },
       "name_key": "[CharacterCollectionName39]",
       "names": {
+        "ja-JP": "オフィウクスの双武",
         "zh-CN": "蛇夫座的双武"
       },
       "required_character_ids": [
@@ -1703,12 +1723,14 @@
         {
           "id": 56,
           "names": {
+            "ja-JP": "クラウディア",
             "zh-CN": "克劳蒂亚"
           }
         },
         {
           "id": 27,
           "names": {
+            "ja-JP": "コルディ",
             "zh-CN": "科迪"
           }
         }
@@ -2146,6 +2168,7 @@
       },
       "name_key": "[CharacterCollectionName76]",
       "names": {
+        "ja-JP": "ドラドの栄冠",
         "zh-CN": "剑鱼座的桂冠"
       },
       "required_character_ids": [
@@ -2156,12 +2179,14 @@
         {
           "id": 123,
           "names": {
+            "ja-JP": "コルディ",
             "zh-CN": "科迪"
           }
         },
         {
           "id": 27,
           "names": {
+            "ja-JP": "コルディ",
             "zh-CN": "科迪"
           }
         }
@@ -2231,12 +2256,14 @@
     "memo": "コルディ",
     "name_key": "[CharacterName27]",
     "names": {
+      "ja-JP": "コルディ",
       "zh-CN": "科迪"
     },
     "speed": 3562,
     "start_time_jst": "2020-01-01 00:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -2310,6 +2337,7 @@
     },
     "name_key": "[EquipmentName285]",
     "names": {
+      "ja-JP": "ジャック＆ポット",
       "zh-CN": "Jack & Pot"
     },
     "passive_effects": [
@@ -2343,6 +2371,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill27Description1]",
         "descriptions": {
+          "ja-JP": "クイック&デッドを強化する。さらに物理攻撃前に1ターンの間対象の防御力を80%減少させる。",
           "zh-CN": "强化致命快感，发动攻击前使技能目标额外减少80%防御力，效果持续1回合。"
         },
         "equipment_rarity_flags": 128,
@@ -2351,6 +2380,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill27Description2]",
         "descriptions": {
+          "ja-JP": "クイック&デッドを強化する。『防御力減少』と『攻撃力増加』のターン数がそれぞれ2ターンになる。",
           "zh-CN": "强化致命快感，「防御力下降」与「攻击力上升」效果增加为2回合。"
         },
         "equipment_rarity_flags": 256,
@@ -2359,6 +2389,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill27Description3]",
         "descriptions": {
+          "ja-JP": "クイック&デッドを強化する。物理攻撃の回数が5回になる。",
           "zh-CN": "强化致命快感，攻击次数增加为5次。"
         },
         "equipment_rarity_flags": 512,
@@ -2379,6 +2410,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription270031]",
           "descriptions": {
+            "ja-JP": "観客の視線を釘付けにするほど、その感覚も研ぎ澄まされていく。自身の攻撃力が30%増加する（解除不可）。",
             "zh-CN": "观众投来的热烈视线让科迪的感官越发敏锐，使她增加30%攻击力（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -2393,6 +2425,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription270032]",
           "descriptions": {
+            "ja-JP": "さらに自身の防御貫通が30%増加する（解除不可）。",
             "zh-CN": "额外增加30%防御穿透（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -2407,6 +2440,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription270033]",
           "descriptions": {
+            "ja-JP": "攻撃力と防御貫通の増加量がそれぞれ40%になる。",
             "zh-CN": "攻击力与防御穿透增幅提升为40%。"
           },
           "equipment_rarity_flags": 0,
@@ -2475,6 +2509,7 @@
       },
       "name_key": "[PassiveSkillName27003]",
       "names": {
+        "ja-JP": "わたしにご注目！",
         "zh-CN": "看过来看过来！"
       },
       "source_memo_ja": "コルディSR: /Lv1　観客の視線を釘付けにするほど、その感覚も研ぎ澄まされていく。自身の攻撃力が30％増加する（解除不可）。　/Lv2 さらに自身の防御貫通が30％増加する（解除不可）。　/Lv3 攻撃力と防御貫通の増加量がそれぞれ40％になる。",
@@ -2502,6 +2537,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription270041]",
           "descriptions": {
+            "ja-JP": "その振る舞いは常に相手を翻弄する──火薬の匂いとともに。ターン開始時2ターンの間自身に『行動阻害無効』を付与する（解除不可）。このスキルは発動後3回行動終了するまで再び発動しない。",
             "zh-CN": "硝烟掠过鼻尖，似坠迷雾深渊——科迪的言行总是让对手捉摸不定。她在回合开始时获得「控制效果免疫」，效果持续2回合（无法被解除）。此技能须在结束3次行动后才可再次触发。"
           },
           "equipment_rarity_flags": 0,
@@ -2516,6 +2552,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription270042]",
           "descriptions": {
+            "ja-JP": "『行動阻害無効』のターン数が3ターンになる。",
             "zh-CN": "「控制效果免疫」效果增加为3回合。"
           },
           "equipment_rarity_flags": 0,
@@ -2530,6 +2567,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription270043]",
           "descriptions": {
+            "ja-JP": "『行動阻害無効』から『弱体効果無効』に変化する。",
             "zh-CN": "「控制效果免疫」进化为「弱化效果免疫」。"
           },
           "equipment_rarity_flags": 0,
@@ -2598,6 +2636,7 @@
       },
       "name_key": "[PassiveSkillName27004]",
       "names": {
+        "ja-JP": "硝煙に巻く",
         "zh-CN": "烟雾弹"
       },
       "source_memo_ja": "コルディSR: /Lv1　その振る舞いは常に相手を翻弄する──火薬の匂いとともに。ターン開始時2ターンの間自身に『行動阻害無効』を付与する（解除不可）。このスキルは3ターンに1回発動する。　/Lv2 『行動阻害無効』のターン数が3ターンになる。　/Lv3 『行動阻害無効』から『弱体効果無効』に変化する。",
@@ -2653,6 +2692,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription1150011]",
           "descriptions": {
+            "ja-JP": "「見ていてください、先生」自身に『言霊のおまじない』を1スタック付与する（最大5スタックまで）（解除不可）。このバフは1スタックにつき自身の命中率を4%増加させる。「ふ、吹き飛べ～～」その後スピードが最も高い敵に4回攻撃力×210%の物理攻撃を行う。",
             "zh-CN": "“老师，请看着我……”波普莉获得1层「言灵魔咒」（最多5层）（无法被解除）。每层「言灵魔咒」使波普莉增加4%命中率。“吹、吹飞他们～～！”再对速度最高的敌人进行4次攻击，每次造成攻击力×210%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription1150012]",
           "descriptions": {
+            "ja-JP": "物理攻撃の前に自身の『言霊のおまじない』のスタック数が3以上の場合、物理攻撃のダメージが攻撃力×630%になる。",
             "zh-CN": "发动攻击前，如果波普莉身上附带的「言灵魔咒」达3层以上，造成的物理伤害提升为攻击力×630%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1150013]",
           "descriptions": {
+            "ja-JP": "さらに自身以外の黄属性の味方の編成数が2体以上の場合、『言霊のおまじない』の付与スタック数が2になる。",
             "zh-CN": "当队伍中的其他流金属性友军数为2名以上时，获得的「言灵魔咒」层数增加为2层。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1150014]",
           "descriptions": {
+            "ja-JP": "言ノ葉の風を強化する。物理攻撃の回数が6回になる。",
             "zh-CN": "强化灵言之风，攻击次数增加为6次。"
           },
           "equipment_rarity_flags": 128,
@@ -67,6 +71,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription1150015]",
           "descriptions": {
+            "ja-JP": "言ノ葉の風を強化する。命中率の増加量が5%になる。",
             "zh-CN": "强化灵言之风，命中率增幅提升为5%。"
           },
           "equipment_rarity_flags": 512,
@@ -166,6 +171,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName115001]",
       "names": {
+        "ja-JP": "言ノ葉の風",
         "zh-CN": "灵言之风"
       },
       "source_memo_ja": "ポプリSR:Lv1 「見ていてください、先生」自身に『言霊のおまじない』を1スタック付与する（最大5スタックまで）（解除不可）。このバフは1スタックにつき自身の命中率を4%増加させる。「ふ、吹き飛べ～～」その後スピードが最も高い敵に4回攻撃力×210%の物理攻撃を行う。/ Lv2 物理攻撃の前に自身の『言霊のおまじない』のスタック数が3以上の場合、物理攻撃のダメージが攻撃力×630%になる。/ Lv3 さらに自身以外の黄属性の味方の編成数が2体以上の場合、『言霊のおまじない』の付与スタック数が2になる。/ Ex1 言ノ葉の風を強化する。物理攻撃の回数が6回になる。/ Ex3 言ノ葉の風を強化する。命中率の増加量が5%になる。",
@@ -203,6 +209,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription1150021]",
           "descriptions": {
+            "ja-JP": "「ちょっと冷えますよ～」言霊によって生み出された氷の礫が敵に向かう。スピードが最も高い敵に3回攻撃力×340%の物理攻撃を行う。",
             "zh-CN": "“会有点冷哦～”波普莉以言灵之力召唤冰砾砸向敌人，对速度最高的敌人进行3次攻击，每次造成攻击力×340%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -217,6 +224,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription1150022]",
           "descriptions": {
+            "ja-JP": "物理攻撃の前に自身の『言霊のおまじない』のスタック数が3以上の場合、物理攻撃のダメージが攻撃力×1020%になる。",
             "zh-CN": "发动攻击前，如果波普莉身上附带的「言灵魔咒」达3层以上，造成的物理伤害提升为攻击力×1020%。"
           },
           "equipment_rarity_flags": 0,
@@ -231,6 +239,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription1150023]",
           "descriptions": {
+            "ja-JP": "物理攻撃の前に自身の『言霊のおまじない』のスタック数が5の場合、物理攻撃のダメージが攻撃力×2720%になる。",
             "zh-CN": "发动攻击前，如果波普莉身上附带的「言灵魔咒」达5层，造成的物理伤害提升为攻击力×2720%。"
           },
           "equipment_rarity_flags": 0,
@@ -245,6 +254,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription1150024]",
           "descriptions": {
+            "ja-JP": "物理攻撃の回数が4回になる。",
             "zh-CN": "攻击次数增加为4次。"
           },
           "equipment_rarity_flags": 0,
@@ -319,6 +329,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName115002]",
       "names": {
+        "ja-JP": "凍える声",
         "zh-CN": "急冻之声"
       },
       "source_memo_ja": "ポプリSR:Lv1 「ちょっと冷えますよ～」言霊によって生み出された氷の礫が敵に向かう。スピードが最も高い敵に3回攻撃力×340%の物理攻撃を行う。/ Lv2 物理攻撃の前に自身の『言霊のおまじない』のスタック数が3以上の場合、物理攻撃のダメージが攻撃力×1020%になる。/ Lv3 物理攻撃の前に自身の『言霊のおまじない』のスタック数が5の場合、物理攻撃のダメージが攻撃力×2720%になる。/ Lv4 物理攻撃の回数が4回になる。",
@@ -773,6 +784,7 @@
       },
       "name_key": "[CharacterCollectionName69]",
       "names": {
+        "ja-JP": "フォルナックスの勇気",
         "zh-CN": "天炉座的勇气"
       },
       "required_character_ids": [
@@ -783,12 +795,14 @@
         {
           "id": 115,
           "names": {
+            "ja-JP": "ポプリ",
             "zh-CN": "波普莉"
           }
         },
         {
           "id": 26,
           "names": {
+            "ja-JP": "マーリン",
             "zh-CN": "梅琳"
           }
         }
@@ -858,12 +872,14 @@
     "memo": "ポプリ",
     "name_key": "[CharacterName115]",
     "names": {
+      "ja-JP": "ポプリ",
       "zh-CN": "波普莉"
     },
     "speed": 3036,
     "start_time_jst": "2025-03-31 15:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -937,6 +953,7 @@
     },
     "name_key": "[EquipmentName789]",
     "names": {
+      "ja-JP": "勇気の魔法",
       "zh-CN": "勇气的魔法"
     },
     "passive_effects": [
@@ -970,6 +987,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill115Description1]",
         "descriptions": {
+          "ja-JP": "言ノ葉の風を強化する。物理攻撃の回数が6回になる。",
           "zh-CN": "强化灵言之风，攻击次数增加为6次。"
         },
         "equipment_rarity_flags": 128,
@@ -978,6 +996,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill115Description2]",
         "descriptions": {
+          "ja-JP": "先生の教えを強化する。クリティカル耐性率の増加量が60%になる。",
           "zh-CN": "强化老师的教诲，抗暴率增幅提升为60%。"
         },
         "equipment_rarity_flags": 256,
@@ -986,6 +1005,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill115Description3]",
         "descriptions": {
+          "ja-JP": "言ノ葉の風を強化する。命中率の増加量が5%になる。",
           "zh-CN": "强化灵言之风，命中率增幅提升为5%。"
         },
         "equipment_rarity_flags": 512,
@@ -1006,6 +1026,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription1150031]",
           "descriptions": {
+            "ja-JP": "「自分を信じろ、信じる勇気を持て。それが先生の教え……だから私は、自分を信じる！」ターン開始時4ターンの間自身のクリティカル耐性率が20%、防御力が50%、物理防御力が50%増加する。このスキルは発動後4回行動終了するまで再び発動しない。",
             "zh-CN": "“要相信自己，要有相信自己的勇气。这是老师给我的教诲……所以我会、相信我自己！”回合开始时，波普莉使自己增加20%抗暴率、50%防御力与50%物理防御力，效果持续4回合。此技能须在结束4次行动后才可再次触发。"
           },
           "equipment_rarity_flags": 0,
@@ -1020,6 +1041,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription1150032]",
           "descriptions": {
+            "ja-JP": "クリティカル耐性率の増加量が40%になる。",
             "zh-CN": "抗暴率增幅提升为40%。"
           },
           "equipment_rarity_flags": 0,
@@ -1034,6 +1056,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription1150033]",
           "descriptions": {
+            "ja-JP": "防御力と物理防御力の増加量がそれぞれ100%になる。",
             "zh-CN": "防御力与物理防御力增幅提升为100%。"
           },
           "equipment_rarity_flags": 0,
@@ -1048,6 +1071,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription1150034]",
           "descriptions": {
+            "ja-JP": "先生の教えを強化する。クリティカル耐性率の増加量が60%になる。",
             "zh-CN": "强化老师的教诲，抗暴率增幅提升为60%。"
           },
           "equipment_rarity_flags": 256,
@@ -1132,6 +1156,7 @@
       },
       "name_key": "[PassiveSkillName115003]",
       "names": {
+        "ja-JP": "先生の教え",
         "zh-CN": "老师的教诲"
       },
       "source_memo_ja": "ポプリSR:Lv1 「自分を信じろ、信じる勇気を持て。それが先生の教え……だから私は、自分を信じる！」ターン開始時4ターンの間自身のクリティカル耐性率が20%、防御力が50%、物理防御力が50%増加する。このスキルは発動後4回行動終了するまで再び発動しない。/ Lv2 クリティカル耐性率の増加量が40%になる。/ Lv3 防御力と物理防御力の増加量がそれぞれ100%になる。/ Ex2 先生の教えを強化する。クリティカル耐性率の増加量が60%になる。",
@@ -1163,6 +1188,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription1150041]",
           "descriptions": {
+            "ja-JP": "昔は怖かったこの力で、今度はみんなを守りたい──ターン開始時味方全体に4ターンの間『バフカバー』を付与する。このスキルは発動後4回行動終了するまで再び発動しない。",
             "zh-CN": "“这股力量曾经令我害怕，但我想用它来保护大家——”回合开始时，波普莉使全体友军获得「增益效果护罩」，效果持续4回合。此技能须在结束4次行动后才可再次触发。"
           },
           "equipment_rarity_flags": 0,
@@ -1177,6 +1203,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription1150042]",
           "descriptions": {
+            "ja-JP": "さらにバトル開始時自身の被ダメージが30%減少する（解除不可）。",
             "zh-CN": "战斗开始时，波普莉额外减少30%自身承受伤害（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1191,6 +1218,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription1150043]",
           "descriptions": {
+            "ja-JP": "被ダメージの減少量が60%になる。",
             "zh-CN": "承受伤害降幅提升为60%。"
           },
           "equipment_rarity_flags": 0,
@@ -1273,6 +1301,7 @@
       },
       "name_key": "[PassiveSkillName115004]",
       "names": {
+        "ja-JP": "言霊の魔法",
         "zh-CN": "言灵的魔法"
       },
       "source_memo_ja": "ポプリSR:Lv1 昔は怖かったこの力で、今度はみんなを守りたい――ターン開始時味方全体に4ターンの間『バフカバー』を付与する。このスキルは発動後4回行動終了するまで再び発動しない。/ Lv2 さらにバトル開始時自身の被ダメージが30%減少する（解除不可）。/ Lv3 被ダメージの減少量が60%になる。",
@@ -1328,6 +1357,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

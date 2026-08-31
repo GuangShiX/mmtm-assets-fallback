@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription850011]",
           "descriptions": {
+            "ja-JP": "「私も一緒に戦ってあげる、光栄に思いなさいっ」1ターンの間自身と自身以外の攻撃力が最も高い味方の、攻撃力とクリティカル率と命中率をそれぞれ20%増加させる（解除不可）。これらは一つのバフとして扱う。「誰よ、今チビって言ったの！？」その後攻撃力が最も高い敵に攻撃力×380%の魔法攻撃を行う。",
             "zh-CN": "“连我也来和你一起战斗，这可是你的荣幸！”玛提尔德使自己与攻击力最高的其他友军获得1种增益效果，该效果包含增加20%攻击力、暴击率与命中率，效果持续1回合（无法被解除）。“谁！刚才是谁叫我小不点？！”再对攻击力最高的敌人造成攻击力×380%的魔法伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription850012]",
           "descriptions": {
+            "ja-JP": "さらにバフを付与する対象がマチルダ厳選バナナで付与したバフを付帯している場合そのバフを解除し、このスキルで付与するバフのターン数が4ターンになる。",
             "zh-CN": "当增益效果附加目标身上附带玛提尔德严选香蕉附加的增益效果时，解除玛提尔德严选香蕉附加的增益效果，使此技能附加的增益效果增加为4回合。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription850013]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×680%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×680%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription850014]",
           "descriptions": {
+            "ja-JP": "ジョバリの女王を強化する。攻撃力とクリティカル率と命中率の増加量がそれぞれ50%になる。",
             "zh-CN": "强化乔巴里的女王，攻击力、暴击率与命中率增幅提升为50%。"
           },
           "equipment_rarity_flags": 128,
@@ -126,6 +130,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName85001]",
       "names": {
+        "ja-JP": "ジョバリの女王",
         "zh-CN": "乔巴里的女王"
       },
       "source_memo_ja": "マチルダSR:Lv1 「私も一緒に戦ってあげる、光栄に思いなさいっ」1ターンの間自身と自身以外の攻撃力が最も高い味方の、攻撃力とクリティカル率と命中率をそれぞれ20%増加させる（解除不可）。「誰よ、今チビって言ったの！？」その後攻撃力が最も高い敵に攻撃力×380%の魔法攻撃を行う。/ Lv2 さらにバフを付与する対象がマチルダ厳選バナナで付与したバフを付帯している場合そのバフを解除し、このスキルで付与するバフのターン数が4ターンになる。/ Lv3 魔法攻撃のダメージが攻撃力×680%になる。/ Ex1 ジョバリの女王を強化する。攻撃力とクリティカル率と命中率の増加量がそれぞれ50%になる。",
@@ -159,6 +164,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription850021]",
           "descriptions": {
+            "ja-JP": "「絶対に負けないんだから！」少女は立ち向かう、一族の命運を背負う者として──防御力が高い敵2体に攻撃力×340%の魔法攻撃を行う。",
             "zh-CN": "“我绝不会认输！”肩负着整支民族的兴亡，玛提尔德挺身而出——对防御力最高的2名敌人造成攻击力×340%的魔法伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -173,6 +179,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription850022]",
           "descriptions": {
+            "ja-JP": "さらに魔法攻撃の後に自身のHP割合が50%以上の場合、防御力が低い敵2体に攻撃力×340%の魔法攻撃を行う。",
             "zh-CN": "攻击结束后，如果玛提尔德的生命值为50%以上，再对防御力最低的2名敌人追加攻击力×340%的魔法伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -187,6 +194,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription850023]",
           "descriptions": {
+            "ja-JP": "さらに最初の魔法攻撃の後に自身のHP割合が50%未満の場合、2回目の魔法攻撃の代わりに自身と自身以外の攻撃力が最も高い味方のHPを自身の攻撃力×50%回復する。",
             "zh-CN": "第一波攻击结束后，如果玛提尔德的生命值低于50%，则使自己与攻击力最高的其他友军恢复玛提尔德攻击力×50%的生命值。"
           },
           "equipment_rarity_flags": 0,
@@ -201,6 +209,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription850024]",
           "descriptions": {
+            "ja-JP": "さらにバトル中このスキルの自身と味方のHPを回復する効果を発動するのが1回目の場合、HPの回復量が自身の攻撃力×100%になる。",
             "zh-CN": "战斗中第1次发动此技能为自己与友军恢复生命值时，生命值恢复量额外提升为玛提尔德攻击力×100%。"
           },
           "equipment_rarity_flags": 0,
@@ -215,6 +224,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription850025]",
           "descriptions": {
+            "ja-JP": "小さな勇気を強化する。最初の魔法攻撃と2回目の魔法攻撃のダメージがそれぞれ攻撃力×380%になる。",
             "zh-CN": "强化小小的勇气，第一波攻击与追加攻击造成的魔法伤害提升为攻击力×380%。"
           },
           "equipment_rarity_flags": 512,
@@ -304,6 +314,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName85002]",
       "names": {
+        "ja-JP": "小さな勇気",
         "zh-CN": "小小的勇气"
       },
       "source_memo_ja": "マチルダSR:Lv1 「絶対に負けないんだから！」少女は立ち向かう、一族の命運を背負う者として――防御力が高い敵2体に攻撃力×340%の魔法攻撃を行う。/ Lv2 さらに魔法攻撃の後に自身のHP割合が50%以上の場合、防御力が低い敵2体に攻撃力×340%の魔法攻撃を行う。/ Lv3 さらに最初の魔法攻撃の後に自身のHP割合が50%未満の場合、2回目の魔法攻撃の代わりに自身と自身以外の攻撃力が最も高い味方のHPを自身の攻撃力×50%回復する。/ Lv4 さらにバトル中このスキルの自身と味方のHPを回復する効果を使うのが1回目の場合、HPの回復量が自身の攻撃力×100%になる。/ Ex3 小さな勇気を強化する。最初の魔法攻撃と2回目の魔法攻撃のダメージがそれぞれ攻撃力×380%になる。",
@@ -658,6 +669,7 @@
       },
       "name_key": "[CharacterCollectionName41]",
       "names": {
+        "ja-JP": "ジョバリの希望",
         "zh-CN": "乔巴里的希望"
       },
       "required_character_ids": [
@@ -668,12 +680,14 @@
         {
           "id": 85,
           "names": {
+            "ja-JP": "マチルダ",
             "zh-CN": "玛提尔德"
           }
         },
         {
           "id": 28,
           "names": {
+            "ja-JP": "ニーナ",
             "zh-CN": "妮娜"
           }
         }
@@ -743,12 +757,14 @@
     "memo": "マチルダ",
     "name_key": "[CharacterName85]",
     "names": {
+      "ja-JP": "マチルダ",
       "zh-CN": "玛提尔德"
     },
     "speed": 3181,
     "start_time_jst": "2024-02-22 15:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -823,6 +839,7 @@
     },
     "name_key": "[EquipmentName609]",
     "names": {
+      "ja-JP": "レギス・アルブル",
       "zh-CN": "王树权杖"
     },
     "passive_effects": [
@@ -856,6 +873,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill85Description1]",
         "descriptions": {
+          "ja-JP": "ジョバリの女王を強化する。攻撃力とクリティカル率と命中率の増加量がそれぞれ50%になる。",
           "zh-CN": "强化乔巴里的女王，攻击力、暴击率与命中率增幅提升为50%。"
         },
         "equipment_rarity_flags": 128,
@@ -864,6 +882,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill85Description2]",
         "descriptions": {
+          "ja-JP": "マチルダ厳選バナナを強化する。命中率の増加量が30%になる。",
           "zh-CN": "强化玛提尔德严选香蕉，命中率增幅提升为30%。"
         },
         "equipment_rarity_flags": 256,
@@ -872,6 +891,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill85Description3]",
         "descriptions": {
+          "ja-JP": "小さな勇気を強化する。最初の魔法攻撃と2回目の魔法攻撃のダメージがそれぞれ攻撃力×380%になる。",
           "zh-CN": "强化小小的勇气，第一波攻击与追加攻击造成的魔法伤害提升为攻击力×380%。"
         },
         "equipment_rarity_flags": 512,
@@ -892,6 +912,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription850031]",
           "descriptions": {
+            "ja-JP": "「あげる、私のとっておきよ！」ターン開始時4ターンの間自身と自身以外の攻撃力が最も高い味方の、攻撃力とクリティカル率と命中率をそれぞれ5%増加させる。これらは一つのバフとして扱う。このスキルは発動後4回行動終了するまで再び発動しない。",
             "zh-CN": "“给你，这是我特地为你留的哦！”回合开始时，玛提尔德使自己与攻击力最高的其他友军获得1种增益效果，该效果包含增加5%攻击力、暴击率与命中率，效果持续4回合。此技能须在结束4次行动后才可再次触发。"
           },
           "equipment_rarity_flags": 0,
@@ -906,6 +927,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription850032]",
           "descriptions": {
+            "ja-JP": "攻撃力とクリティカル率と命中率の増加量がそれぞれ10%になる。",
             "zh-CN": "攻击力、暴击率与命中率增幅提升为10%。"
           },
           "equipment_rarity_flags": 0,
@@ -920,6 +942,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription850033]",
           "descriptions": {
+            "ja-JP": "命中率の増加量が20%になる。",
             "zh-CN": "命中率增幅提升为20%。"
           },
           "equipment_rarity_flags": 0,
@@ -934,6 +957,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription850034]",
           "descriptions": {
+            "ja-JP": "マチルダ厳選バナナを強化する。命中率の増加量が30%になる。",
             "zh-CN": "强化玛提尔德严选香蕉，命中率增幅提升为30%。"
           },
           "equipment_rarity_flags": 256,
@@ -1074,6 +1098,7 @@
       },
       "name_key": "[PassiveSkillName85003]",
       "names": {
+        "ja-JP": "マチルダ厳選バナナ",
         "zh-CN": "玛提尔德严选香蕉"
       },
       "source_memo_ja": "マチルダSR:Lv1 「あげる、私のとっておきよ！」ターン開始時4ターンの間自身と自身以外の攻撃力が最も高い味方の、攻撃力とクリティカル率と命中率をそれぞれ5%増加させる。このスキルは4ターンに1回発動する。/ Lv2 攻撃力とクリティカル率と命中率の増加量がそれぞれ10%になる。/ Lv3 命中率の増加量が20%になる。/ Ex2 マチルダ厳選バナナを強化する。命中率の増加量が30%になる。",
@@ -1105,6 +1130,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription850041]",
           "descriptions": {
+            "ja-JP": "強い想いは次元を超え、少女を守り続ける──自身が攻撃を受けたとき、ダメージを10%遮断する。",
             "zh-CN": "强烈的意念跨越时空的限制，持续守护着她——当玛提尔德受到攻击时，阻绝10%伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -1119,6 +1145,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription850042]",
           "descriptions": {
+            "ja-JP": "自身が攻撃を受けたときに自身以外の味方の生存数が2体以上の場合、遮断の効果が30%になる。",
             "zh-CN": "当玛提尔德受到攻击且存活在场上的其他友军数为2名以上时，阻绝30%伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -1133,6 +1160,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription850043]",
           "descriptions": {
+            "ja-JP": "自身が攻撃を受けたときに自身以外の味方の生存数が2体以上の場合、遮断の効果が40%になる。",
             "zh-CN": "当玛提尔德受到攻击且存活在场上的其他友军数为2名以上时，阻绝40%伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -1201,6 +1229,7 @@
       },
       "name_key": "[PassiveSkillName85004]",
       "names": {
+        "ja-JP": "魂繋の主従",
         "zh-CN": "灵魂相系的主从"
       },
       "source_memo_ja": "マチルダSR:Lv1 強い想いは次元を超え、少女を守り続ける――自身が攻撃を受けたとき、ダメージを10%遮断する。/ Lv2 自身が攻撃を受けたときに自身以外の味方の生存数が2体以上いる場合、遮断の効果が30%になる。/ Lv3 自身が攻撃を受けたときに自身以外の味方の生存数が2体以上いる場合、遮断の効果が40%になる。",
@@ -1256,6 +1285,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

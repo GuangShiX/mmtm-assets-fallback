@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription1280011]",
           "descriptions": {
+            "ja-JP": "「行くぞ、モチモチ！」相棒と共に敵に突撃──ランダムな敵に5回攻撃力×180%の物理攻撃を行う。物理攻撃の前に70%の確率で対象に2ターンの間『砂塵』を1スタック付与する（最大4スタックまで）。この弱体効果は1スタックにつき付帯者の被ダメージを5%増加させる。",
             "zh-CN": "“糯糯，咱们上！”利伯瑞娅与好搭档一同向敌人发动突袭——随机对敌人进行5次攻击，每次造成攻击力×180%的物理伤害。发动攻击前，70%概率对技能目标附加1层「沙尘」，效果持续2回合（最多4层）。每层「沙尘」使附带者增加5%承受伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription1280012]",
           "descriptions": {
+            "ja-JP": "さらに『砂塵』付与の判定の後、対象のHP割合が70%以上の場合、対象の『砂塵』のスタック数を1増加させる。",
             "zh-CN": "「沙尘」附加判定结束后，如果技能目标的生命值为70%以上，「沙尘」的叠加数额外增加1层。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1280013]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×480%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×480%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1280014]",
           "descriptions": {
+            "ja-JP": "砂塵の猛攻を強化する。物理攻撃の回数が8回になる。",
             "zh-CN": "强化沙尘猛袭，攻击次数增加为8次。"
           },
           "equipment_rarity_flags": 128,
@@ -137,6 +141,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName128001]",
       "names": {
+        "ja-JP": "砂塵の猛攻",
         "zh-CN": "沙尘猛袭"
       },
       "source_memo_ja": "リヴェリアSR:Lv1 「行くぞ、モチモチ！」相棒と共に敵に突撃──ランダムな敵に5回攻撃力×180%の物理攻撃を行う。物理攻撃の前に70%の確率で2ターンの間対象に『砂塵』を1スタック付与する（最大4スタックまで）。この弱体効果は1スタックにつき付帯者の被ダメージを5%増加させる。/ Lv2 さらに『砂塵』付与の判定の後、対象のHP割合が70%以上の場合、対象の『砂塵』のスタック数を1増加させる（対象が『砂塵』を付帯していない場合発動しない）。/ Lv3 物理攻撃のダメージが攻撃力×480%になる。/Ex1 砂塵の猛攻を強化する。物理攻撃の回数が8回になる。",
@@ -170,6 +175,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription1280021]",
           "descriptions": {
+            "ja-JP": "複数の砂嵐が敵を取り囲む──ランダムな敵に4回攻撃力×210%の物理攻撃を行う。「大地に還れ！」物理攻撃の前に対象が『砂塵』を4スタック付帯している場合、対象のバフを同時に2つ解除する（弱体効果命中の判定は一度のみ行う）。",
             "zh-CN": "利伯瑞娅召唤数道尘卷风包围敌人——随机对敌人进行4次攻击，每次造成攻击力×210%的物理伤害。“给咱回归大地！”发动攻击前，如果技能目标身上附带4层「沙尘」，解除目标身上的2种增益效果（只对每名目标进行1次弱化效果命中与否的判定）。"
           },
           "equipment_rarity_flags": 0,
@@ -184,6 +190,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription1280022]",
           "descriptions": {
+            "ja-JP": "物理攻撃の回数が5回になる。",
             "zh-CN": "攻击次数增加为5次。"
           },
           "equipment_rarity_flags": 0,
@@ -198,6 +205,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription1280023]",
           "descriptions": {
+            "ja-JP": "さらに最後の物理攻撃の後『砂塵』を4スタック付帯している敵がいる場合、自身のスキルクールタイムカウントを0にする。スキルクールタイムカウントを0にする効果はバトル中1回のみ発動する（ただしギルドバトル・グランドバトルでの連戦においては、毎バトルごとに1回発動する）。",
             "zh-CN": "攻击结束后，如果场上有身上附带4层「沙尘」的敌人，利伯瑞娅使自己重置技能冷却时间。技能冷却时间重置效果每场战斗最多发动1次（在公会战、跨服公会战的连续对战中，每场战斗皆可发动1次）。"
           },
           "equipment_rarity_flags": 0,
@@ -212,6 +220,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription1280024]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×710%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×710%。"
           },
           "equipment_rarity_flags": 0,
@@ -226,6 +235,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription1280025]",
           "descriptions": {
+            "ja-JP": "砂塵乱風を強化する。物理攻撃のダメージが攻撃力×780%になる。",
             "zh-CN": "强化尘卷风暴，造成的物理伤害提升为攻击力×780%。"
           },
           "equipment_rarity_flags": 512,
@@ -323,6 +333,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName128002]",
       "names": {
+        "ja-JP": "砂塵乱風",
         "zh-CN": "尘卷风暴"
       },
       "source_memo_ja": "リヴェリアSR:Lv1 複数の砂嵐が敵を取り囲む──ランダムな敵に4回攻撃力×210%の物理攻撃を行う。「大地に還れ！」物理攻撃の前に対象が『砂塵』を4スタック付帯している場合、対象のバフを2つ解除する。/ Lv2 物理攻撃の回数が5回になる。/ Lv3 さらに最後の物理攻撃の後『砂塵』を4スタック付帯している敵がいる場合、自身のスキルクールタイムカウントを0にする。スキルクールタイムカウントを0にする効果はバトル中1回のみ発動する（ただしギルドバトル・グランドバトルでの連戦においては、毎バトルごとに1回発動する）。/ Lv4 物理攻撃のダメージが攻撃力×710%になる。/Ex3 砂塵乱風を強化する。物理攻撃のダメージが攻撃力×780%になる。",
@@ -789,6 +800,7 @@
       },
       "name_key": "[CharacterCollectionName83]",
       "names": {
+        "ja-JP": "インドゥスの知己",
         "zh-CN": "印第安座的知己"
       },
       "required_character_ids": [
@@ -799,12 +811,14 @@
         {
           "id": 130,
           "names": {
+            "ja-JP": "アイシェ",
             "zh-CN": "艾谢"
           }
         },
         {
           "id": 128,
           "names": {
+            "ja-JP": "リヴェリア",
             "zh-CN": "利伯瑞娅"
           }
         }
@@ -874,12 +888,14 @@
     "memo": "リヴェリア",
     "name_key": "[CharacterName128]",
     "names": {
+      "ja-JP": "リヴェリア",
       "zh-CN": "利伯瑞娅"
     },
     "speed": 3597,
     "start_time_jst": "2025-12-25 15:00:00",
     "subtitle_key": "[CharacterSubName128]",
     "subtitles": {
+      "ja-JP": "砂塵の魔女",
       "zh-CN": "沙尘魔女"
     }
   },
@@ -954,6 +970,7 @@
     },
     "name_key": "[EquipmentName867]",
     "names": {
+      "ja-JP": "モチモチ",
       "zh-CN": "糯糯"
     },
     "passive_effects": [
@@ -987,6 +1004,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill128Description1]",
         "descriptions": {
+          "ja-JP": "砂塵の猛攻を強化する。物理攻撃の回数が8回になる。",
           "zh-CN": "强化沙尘猛袭，攻击次数增加为8次。"
         },
         "equipment_rarity_flags": 128,
@@ -995,6 +1013,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill128Description2]",
         "descriptions": {
+          "ja-JP": "戦士の鼓舞を強化する。戦士の鼓舞の対象が攻撃力が高い味方2体になる。",
           "zh-CN": "强化勇士战舞，技能目标增加为攻击力最高的2名友军。"
         },
         "equipment_rarity_flags": 256,
@@ -1003,6 +1022,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill128Description3]",
         "descriptions": {
+          "ja-JP": "砂塵乱風を強化する。物理攻撃のダメージが攻撃力×780%になる。",
           "zh-CN": "强化尘卷风暴，造成的物理伤害提升为攻击力×780%。"
         },
         "equipment_rarity_flags": 512,
@@ -1023,6 +1043,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription1280031]",
           "descriptions": {
+            "ja-JP": "砂塵の民に伝わる、仲間のために捧げるダンス。仲間の士気を高め、砂塵の神の加護を与えるといわれている。バトル開始時、1ターンの間攻撃力が最も高い味方の攻撃力をステータス増減前の対象の防御力×50%分増加させる（解除不可）。",
             "zh-CN": "这是沙尘之民献给战友的传统舞蹈，据说可提振战友士气、赋予沙尘之神的庇佑——战斗开始时，利伯瑞娅使攻击力最高的友军增加攻击力，增幅为状态效果生效前的技能目标防御力×50%，效果持续1回合（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1037,6 +1058,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription1280032]",
           "descriptions": {
+            "ja-JP": "攻撃力の増加量がステータス増減前の対象の防御力×200%分になる。",
             "zh-CN": "攻击力增幅提升为状态效果生效前的技能目标防御力×200%。"
           },
           "equipment_rarity_flags": 0,
@@ -1051,6 +1073,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription1280033]",
           "descriptions": {
+            "ja-JP": "『攻撃力増加』のターン数が4ターンになる。",
             "zh-CN": "「攻击力上升」效果增加为4回合。"
           },
           "equipment_rarity_flags": 0,
@@ -1065,6 +1088,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription1280034]",
           "descriptions": {
+            "ja-JP": "戦士の鼓舞を強化する。戦士の鼓舞の対象が攻撃力が高い味方2体になる。",
             "zh-CN": "强化勇士战舞，技能目标增加为攻击力最高的2名友军。"
           },
           "equipment_rarity_flags": 256,
@@ -1149,6 +1173,7 @@
       },
       "name_key": "[PassiveSkillName128003]",
       "names": {
+        "ja-JP": "戦士の鼓舞",
         "zh-CN": "勇士战舞"
       },
       "source_memo_ja": "リヴェリアSR:Lv1 砂塵の民に伝わる、仲間のために捧げるダンス。仲間の士気を高め、砂塵の神の加護を与えるといわれている。バトル開始時、1ターンの間攻撃力が最も高い味方の攻撃力をステータス増減前の対象の防御力×50%分増加させる（解除不可）。/ Lv2 攻撃力の増加量がステータス増減前の対象の防御力×200%分になる。/ Lv3 『攻撃力増加』のターン数が4ターンになる。/Ex2 戦士の鼓舞を強化する。戦士の鼓舞の対象が攻撃力が高い味方2体になる。",
@@ -1180,6 +1205,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription1280041]",
           "descriptions": {
+            "ja-JP": "「もう迷わない！　アイシェとうら、ずっと友達……！」バトル開始時、2ターンの間自身の命中率が25%増加する（解除不可）。",
             "zh-CN": "“咱，再也不会迷茫了！艾谢和咱，永远做朋友……！”战斗开始时，利伯瑞娅使自己增加25%命中率，效果持续2回合（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1194,6 +1220,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription1280042]",
           "descriptions": {
+            "ja-JP": "命中率の増加量が50%になる。",
             "zh-CN": "命中率增幅提升为50%。"
           },
           "equipment_rarity_flags": 0,
@@ -1208,6 +1235,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription1280043]",
           "descriptions": {
+            "ja-JP": "さらに1ターン目と2ターン目のターン開始時、自身に1層の『多重バリア』を付与する（最大1層まで）（解除不可）。自身の最大HP×10%以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。",
             "zh-CN": "第1回合与第2回合开始时，利伯瑞娅额外获得1层「多重屏障」（最多1层）（无法被解除）。当她受到最大生命值×10%以上的伤害时，消耗1层屏障来抵消该伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -1283,6 +1311,7 @@
       },
       "name_key": "[PassiveSkillName128004]",
       "names": {
+        "ja-JP": "はじめての友達",
         "zh-CN": "第一个朋友"
       },
       "source_memo_ja": "リヴェリアSR:Lv1 「もう迷わない！　アイシェとうら、ずっと友達……！」バトル開始時、2ターンの間自身の命中率が25%増加する（解除不可）。/ Lv2 命中率の増加量が50%になる。/ Lv3 さらに1ターン目と2ターン目のターン開始時、自身に1層の『多重バリア』を付与する（最大1層まで）（解除不可）。自身の最大HP×10%以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。",
@@ -1338,6 +1367,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

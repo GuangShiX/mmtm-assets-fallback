@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription1230011]",
           "descriptions": {
+            "ja-JP": "「それでは、楽しいショーにご案内～♪」1ターンの間自身のスピードが5%減少する。この付与は弱体効果命中率と耐性率を無視する。その後ランダムな敵2体に攻撃力×680%の物理攻撃を行う。",
             "zh-CN": "“为各位观众隆重介绍这次的精彩表演～♪”科迪使自己减少5%速度，效果持续1回合。附加此效果时无视弱化效果命中率与弱化效果抵抗率。再随机对2名敌人造成攻击力×680%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription1230012]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×880%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×880%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1230013]",
           "descriptions": {
+            "ja-JP": "さらに物理攻撃の前に自身の『笑顔喝采』のスタック数が5の場合、物理攻撃のダメージが攻撃力×1320%になる。",
             "zh-CN": "发动攻击前，如果科迪身上附带的「欢笑喝彩」达5层，造成的物理伤害提升为攻击力×1320%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1230014]",
           "descriptions": {
+            "ja-JP": "ファンファーレ！！を強化する。物理攻撃の対象がランダムな敵3体になる。",
             "zh-CN": "强化奏乐，开场！，攻击目标增加为3名随机敌人。"
           },
           "equipment_rarity_flags": 128,
@@ -122,6 +126,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName123001]",
       "names": {
+        "ja-JP": "ファンファーレ！！",
         "zh-CN": "奏乐，开场！"
       },
       "source_memo_ja": "団長コルディSR:Lv1 「それでは、楽しいショーにご案内～♪」1ターンの間自身のスピードが5%減少する。この弱体効果は必ず付与される。その後ランダムな敵2体に攻撃力×680%の物理攻撃を行う。/ Lv2 物理攻撃のダメージが攻撃力×880%になる。/ Lv3 さらに物理攻撃の前に自身の『笑顔喝采』のスタック数が5の場合、物理攻撃のダメージが攻撃力×1320%になる。/ Ex1 ファンファーレ！！を強化する。物理攻撃の対象がランダムな敵3体になる。",
@@ -155,6 +160,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription1230021]",
           "descriptions": {
+            "ja-JP": "「続いての演目はこちら～♪」得意の早撃ちでお客さんの視線を釘付け。ランダムな敵2体に攻撃力×880%の物理攻撃を行う。",
             "zh-CN": "“请看下一个节目～♪”科迪用拿手的快枪速射牢牢吸引观众的目光，随机对2名敌人造成攻击力×880%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -169,6 +175,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription1230022]",
           "descriptions": {
+            "ja-JP": "さらに物理攻撃の前に敵の生存数が1体の場合、物理攻撃の回数が3回になる。",
             "zh-CN": "发动攻击前，如果存活在场上的敌人数为1名，攻击次数增加为3次。"
           },
           "equipment_rarity_flags": 0,
@@ -183,6 +190,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription1230023]",
           "descriptions": {
+            "ja-JP": "このスキルの対象がランダムな敵3体になる。",
             "zh-CN": "技能目标增加为3名随机敌人。"
           },
           "equipment_rarity_flags": 0,
@@ -197,6 +205,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription1230024]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×1080%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×1080%。"
           },
           "equipment_rarity_flags": 0,
@@ -211,6 +220,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription1230025]",
           "descriptions": {
+            "ja-JP": "クイック＆スターを強化する。物理攻撃のダメージが攻撃力×1180%になる。",
             "zh-CN": "强化星速快感，造成的物理伤害提升为攻击力×1180%。"
           },
           "equipment_rarity_flags": 512,
@@ -302,6 +312,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName123002]",
       "names": {
+        "ja-JP": "クイック＆スター",
         "zh-CN": "星速快感"
       },
       "source_memo_ja": "団長コルディSR:Lv1 「続いての演目はこちら～♪」得意の早撃ちでお客さんの視線を釘付け。ランダムな敵2体に攻撃力×880%の物理攻撃を行う。/ Lv2 さらに物理攻撃の前に敵の生存数が1体の場合、物理攻撃の回数が3回になる。/ Lv3 このスキルの対象がランダムな敵3体になる。/ Lv4 物理攻撃のダメージが攻撃力×1080%になる。/ Ex3 クイック＆スターを強化する。物理攻撃のダメージが攻撃力×1180%になる。",
@@ -760,6 +771,7 @@
       },
       "name_key": "[CharacterCollectionName76]",
       "names": {
+        "ja-JP": "ドラドの栄冠",
         "zh-CN": "剑鱼座的桂冠"
       },
       "required_character_ids": [
@@ -770,12 +782,14 @@
         {
           "id": 123,
           "names": {
+            "ja-JP": "コルディ",
             "zh-CN": "科迪"
           }
         },
         {
           "id": 27,
           "names": {
+            "ja-JP": "コルディ",
             "zh-CN": "科迪"
           }
         }
@@ -846,12 +860,14 @@
     "memo": "団長コルディ",
     "name_key": "[CharacterName123]",
     "names": {
+      "ja-JP": "コルディ",
       "zh-CN": "科迪"
     },
     "speed": 2662,
     "start_time_jst": "2025-07-31 15:00:00",
     "subtitle_key": "[CharacterSubName123]",
     "subtitles": {
+      "ja-JP": "サーカスの団長",
       "zh-CN": "马戏团团长"
     }
   },
@@ -926,6 +942,7 @@
     },
     "name_key": "[EquipmentName837]",
     "names": {
+      "ja-JP": "グレイテストショー",
       "zh-CN": "大欢乐秀"
     },
     "passive_effects": [
@@ -959,6 +976,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill123Description1]",
         "descriptions": {
+          "ja-JP": "ファンファーレ！！を強化する。物理攻撃の対象がランダムな敵3体になる。",
           "zh-CN": "强化奏乐，开场！，攻击目标增加为3名随机敌人。"
         },
         "equipment_rarity_flags": 128,
@@ -967,6 +985,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill123Description2]",
         "descriptions": {
+          "ja-JP": "バトル開始時、藍属性の味方全体に2層の『多重バリア』を付与する（解除不可）。自身の最大HP×10%以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。",
           "zh-CN": "战斗开始时，科迪使忧蓝属性的全体友军获得2层「多重屏障」（无法被解除）。当技能目标受到最大生命值×10%以上的伤害时，消耗1层屏障来抵消该伤害。"
         },
         "equipment_rarity_flags": 256,
@@ -975,6 +994,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill123Description3]",
         "descriptions": {
+          "ja-JP": "クイック＆スターを強化する。物理攻撃のダメージが攻撃力×1180%になる。",
           "zh-CN": "强化星速快感，造成的物理伤害提升为攻击力×1180%。"
         },
         "equipment_rarity_flags": 512,
@@ -997,6 +1017,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription1230031]",
           "descriptions": {
+            "ja-JP": "世界中の人を笑顔にする。この夢を叶えるまで、あたしは止まらないよ。自身がアクティブスキルで弱体効果を受けたとき、自身に『笑顔喝采』を1スタック付与する（最大5スタックまで）（解除不可）。このバフは1スタックにつき自身の攻撃力を10%増加させる。",
             "zh-CN": "我要为全世界的人们带来欢笑！在实现这个梦想之前，我的表演是不会落幕的哦！当科迪被附加主动技能造成的弱化效果时，获得1层「欢笑喝彩」（最多5层）（无法被解除）。每层「欢笑喝彩」使科迪增加10%攻击力。"
           },
           "equipment_rarity_flags": 0,
@@ -1011,6 +1032,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription1230032]",
           "descriptions": {
+            "ja-JP": "さらに受けた弱体効果が行動阻害の場合、『笑顔喝采』の付与スタック数が5になる。",
             "zh-CN": "当科迪被附加的弱化效果为控制效果时，获得的「欢笑喝彩」层数增加为5层。"
           },
           "equipment_rarity_flags": 0,
@@ -1025,6 +1047,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription1230033]",
           "descriptions": {
+            "ja-JP": "さらに自身の行動開始時、自身の弱体効果を3つ解除する。",
             "zh-CN": "行动开始时，额外解除自己身上的3种弱化效果。"
           },
           "equipment_rarity_flags": 0,
@@ -1114,6 +1137,7 @@
       },
       "name_key": "[PassiveSkillName123003]",
       "names": {
+        "ja-JP": "みんなの笑顔のために",
         "zh-CN": "播撒欢笑与快乐"
       },
       "source_memo_ja": "団長コルディSR:Lv1 世界中の人を笑顔にする。この夢を叶えるまで、あたしは止まらないよ。自身がアクティブスキルで弱体効果を受けたとき、自身に『笑顔喝采』を1スタック付与する（最大5スタックまで）（解除不可）。このバフは1スタックにつき自身の攻撃力を10%増加させる。/ Lv2 さらに受けた弱体効果が行動阻害の場合、『笑顔喝采』の付与スタック数が5になる。/ Lv3 さらに自身の行動開始時、自身の弱体効果を3つ解除する。",
@@ -1141,6 +1165,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription1230041]",
           "descriptions": {
+            "ja-JP": "「あたし達にしかできない最高のショーをお届けするよ！　さあみんな、あたしについてきて！」自身の被ダメージが30%減少する（解除不可）。",
             "zh-CN": "“让我们为观众献上其他地方绝对看不到的精彩表演吧！各位，跟我一起来！”科迪减少30%自身承受伤害（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1155,6 +1180,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription1230042]",
           "descriptions": {
+            "ja-JP": "さらに1ターン目のターン開始時、4ターンの間自身に自身の攻撃力×500%の『シールド』を付与する（解除不可）。",
             "zh-CN": "第1回合开始时，科迪额外获得攻击力×500%的「护盾」，效果持续4回合（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1169,6 +1195,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription1230043]",
           "descriptions": {
+            "ja-JP": "被ダメージの減少量が60%になる。",
             "zh-CN": "承受伤害降幅提升为60%。"
           },
           "equipment_rarity_flags": 0,
@@ -1251,6 +1278,7 @@
       },
       "name_key": "[PassiveSkillName123004]",
       "names": {
+        "ja-JP": "フランサーカス団団長",
         "zh-CN": "法兰马戏团团长"
       },
       "source_memo_ja": "団長コルディSR:Lv1 「あたし達にしかできない最高のショーをお届けするよ！　さあみんな、あたしについてきて！」自身の被ダメージが30%減少する（解除不可）。/ Lv2 さらに1ターン目のターン開始時、4ターンの間自身に自身の攻撃力×500%の『シールド』を付与する（解除不可）。/ Lv3 被ダメージの減少量が60%になる。",
@@ -1278,6 +1306,7 @@
           "character_level": 240,
           "description_key": "*",
           "descriptions": {
+            "ja-JP": null,
             "zh-CN": null
           },
           "equipment_rarity_flags": 256,
@@ -1311,6 +1340,7 @@
       },
       "name_key": "*",
       "names": {
+        "ja-JP": null,
         "zh-CN": null
       },
       "source_memo_ja": "*",
@@ -1353,6 +1383,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

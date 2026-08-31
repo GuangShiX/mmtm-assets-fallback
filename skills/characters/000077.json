@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription770011]",
           "descriptions": {
+            "ja-JP": "「さぁて……狩りをはじめよっか？」ランダムな敵3体に攻撃力×450%の物理攻撃を行う。",
             "zh-CN": "“好啦……开始狩猎吧？”米娜修玛力随机对3名敌人造成攻击力×450%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription770012]",
           "descriptions": {
+            "ja-JP": "さらに対象のタイプがスナイパーの場合、物理攻撃のダメージが1.5倍になり、必ず命中するようになる。",
             "zh-CN": "当技能目标的类型为射手时，此攻击必定命中，造成的物理伤害增加为1.5倍。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription770013]",
           "descriptions": {
+            "ja-JP": "さらに対象のタイプがスナイパー以外の場合、70%の確率で2ターンの間対象のスピードを15%減少させる。",
             "zh-CN": "当技能目标的类型非射手时，70%概率使技能目标额外减少15%速度，效果持续2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription770014]",
           "descriptions": {
+            "ja-JP": "山猫狩りを強化する。物理攻撃のダメージが攻撃力×600%になる。",
             "zh-CN": "强化狩猎山猫，造成的物理伤害提升为攻击力×600%。"
           },
           "equipment_rarity_flags": 128,
@@ -118,6 +122,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName77001]",
       "names": {
+        "ja-JP": "山猫狩り",
         "zh-CN": "狩猎山猫"
       },
       "source_memo_ja": "ミナシュマリSR:Lv1 ランダムな敵3体に攻撃力×450％の物理攻撃を行う。 /Lv2 さらに対象のタイプがスナイパーの場合、物理攻撃のダメージが1.5倍になり、必ず命中するようになる。 /Lv3 さらに対象のタイプがスナイパー以外の場合、70%の確率で2ターンの間対象のスピードを15%減少させる。 /Ex1 スキル1を強化する。物理攻撃のダメージが攻撃力×600%になる。",
@@ -151,6 +156,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription770021]",
           "descriptions": {
+            "ja-JP": "傷の数、流れた血。それらはすべて、あいつの首元に立てる牙を研ぐための糧となる。ランダムな敵2体に攻撃力×540%の物理攻撃を行う。このスキルを発動するまでに自身と味方が攻撃を受けた回数1回につき物理攻撃のダメージが攻撃力×10%大きくなる（最大攻撃力×740%まで）（ただし複数体を対象とする攻撃は攻撃を受けた自身を含む味方の数分カウントされる）。",
             "zh-CN": "受过的伤、流过的血，都是让獠牙更锋利，足以咬断猎物喉咙的养分。米娜修玛力随机对2名敌人造成攻击力×540%的物理伤害。发动此技能前，米娜修玛力与友军每次受到攻击，可使技能造成的物理伤害增加攻击力×10%（最多可叠加到740%）（对多个目标发动的攻击则以受到攻击的友军人数来计算次数）。"
           },
           "equipment_rarity_flags": 0,
@@ -165,6 +171,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription770022]",
           "descriptions": {
+            "ja-JP": "このスキルを発動するまでに自身と味方が攻撃を受けた回数1回につき増加するダメージが攻撃力×20%になる（最大攻撃力×940%まで）。",
             "zh-CN": "发动此技能前，米娜修玛力与友军每次受到攻击，可使技能造成的物理伤害增加攻击力×20%（最多可叠加到940%）。"
           },
           "equipment_rarity_flags": 0,
@@ -179,6 +186,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription770023]",
           "descriptions": {
+            "ja-JP": "このスキルの対象がランダムな敵3体になる。",
             "zh-CN": "技能目标增加为3名随机敌人。"
           },
           "equipment_rarity_flags": 0,
@@ -193,6 +201,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription770024]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×640%になる（最大攻撃力×1040%まで）。",
             "zh-CN": "造成的物理伤害提升为攻击力×640%（最多可叠加到1040%）。"
           },
           "equipment_rarity_flags": 0,
@@ -207,6 +216,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription770025]",
           "descriptions": {
+            "ja-JP": "復讐に生きるを強化する。物理攻撃のダメージが攻撃力×700%になる（最大攻撃力×1100%まで）。",
             "zh-CN": "强化为复仇而活，造成的物理伤害提升为攻击力×700%（最多可叠加到1100%）。"
           },
           "equipment_rarity_flags": 512,
@@ -282,6 +292,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName77002]",
       "names": {
+        "ja-JP": "復讐に生きる",
         "zh-CN": "为复仇而活"
       },
       "source_memo_ja": "ミナシュマリSR:Lv1 ランダムな敵2体に攻撃力×540％の物理攻撃を行う。このスキルを発動するまでに自身と味方が攻撃を受けた回数1回につき物理攻撃のダメージが攻撃力×10%大きくなる（最大攻撃力×740%まで）（ただし複数体を対象とする攻撃は攻撃を受けた自身と味方の数分カウントされる）。 /Lv2 このスキルを発動するまでに自身と味方が攻撃を受けた回数1回につき増加するダメージが攻撃力×20%になる（最大攻撃力×940%まで）。 /Lv3 このスキルの対象がランダムな敵3体になる。/Lv4 物理攻撃のダメージが攻撃力×640%になる（最大攻撃力×1040%まで）。  /Ex3 スキル2を強化する。物理攻撃のダメージが攻撃力×700%になる（最大攻撃力×1100%まで）。",
@@ -748,6 +759,7 @@
       },
       "name_key": "[CharacterCollectionName49]",
       "names": {
+        "ja-JP": "アプスの応報",
         "zh-CN": "天燕座的报应"
       },
       "required_character_ids": [
@@ -758,12 +770,14 @@
         {
           "id": 77,
           "names": {
+            "ja-JP": "ミナシュマリ",
             "zh-CN": "米娜修玛力"
           }
         },
         {
           "id": 25,
           "names": {
+            "ja-JP": "アイビー",
             "zh-CN": "艾薇"
           }
         }
@@ -833,12 +847,14 @@
     "memo": "ミナシュマリ",
     "name_key": "[CharacterName77]",
     "names": {
+      "ja-JP": "ミナシュマリ",
       "zh-CN": "米娜修玛力"
     },
     "speed": 2792,
     "start_time_jst": "2024-06-14 15:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -912,6 +928,7 @@
     },
     "name_key": "[EquipmentName561]",
     "names": {
+      "ja-JP": "不倶戴天",
       "zh-CN": "不共戴天"
     },
     "passive_effects": [
@@ -945,6 +962,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill77Description1]",
         "descriptions": {
+          "ja-JP": "山猫狩りを強化する。物理攻撃のダメージが攻撃力×600%になる。",
           "zh-CN": "强化狩猎山猫，造成的物理伤害提升为攻击力×600%。"
         },
         "equipment_rarity_flags": 128,
@@ -953,6 +971,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill77Description2]",
         "descriptions": {
+          "ja-JP": "親切な狐の子を強化する。『多重バリア』が3層になる。",
           "zh-CN": "强化热心的小狐狸，「多重屏障」增加为3层。"
         },
         "equipment_rarity_flags": 256,
@@ -961,6 +980,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill77Description3]",
         "descriptions": {
+          "ja-JP": "復讐に生きるを強化する。物理攻撃のダメージが攻撃力×700%になる（最大攻撃力×1100%まで）。",
           "zh-CN": "强化为复仇而活，造成的物理伤害提升为攻击力×700%（最多可叠加到1100%）。"
         },
         "equipment_rarity_flags": 512,
@@ -981,6 +1001,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription770031]",
           "descriptions": {
+            "ja-JP": "「気配の消し方？　そんなの簡単だよ」息の殺し方、音を立てぬ方法──彼女が伝授するのは、獲物を狙う獣のそれである。バトル開始時自身と自身以外の攻撃力が最も高い味方に1ターンの間『ステルス』を付与する（解除不可）。自身が攻撃を受けて、自身のHP割合が50%以下になった場合、もしくは自身が戦闘不能になったとき、このスキルで付与した自身と味方の『ステルス』を解除する。",
             "zh-CN": "“消除气息的方法？这个很简单啊！”如何隐藏气息、消除声音——她所传授的方法，就像一头盯上猎物的野兽。战斗开始时，米娜修玛力使自己与攻击力最高的其他友军获得「隐身」状态，效果持续1回合（无法被解除）。当米娜修玛力受到攻击，生命值降到50%以下或失去战斗能力时，解除此技能附加的「隐身」状态。"
           },
           "equipment_rarity_flags": 0,
@@ -995,6 +1016,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription770032]",
           "descriptions": {
+            "ja-JP": "『ステルス』のターン数が2ターンになる。",
             "zh-CN": "「隐身」效果增加为2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -1009,6 +1031,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription770033]",
           "descriptions": {
+            "ja-JP": "自身が攻撃を受けて、自身のHP割合が50%以下になった場合、さらに自身に1層の『多重バリア』を付与する（解除不可）。自身の最大HP×10%以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。このスキルは発動後4回行動終了するまで再び発動しない。",
             "zh-CN": "当米娜修玛力受到攻击，生命值降到50%以下时，获得1层「多重屏障」（无法被解除）。当她受到最大生命值×10%以上的伤害时，消耗1层屏障来抵消该伤害。此技能须在结束4次行动后才可再次触发。"
           },
           "equipment_rarity_flags": 0,
@@ -1023,6 +1046,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription770034]",
           "descriptions": {
+            "ja-JP": "親切な狐の子を強化する。『多重バリア』が3層になる。",
             "zh-CN": "强化热心的小狐狸，「多重屏障」增加为3层。"
           },
           "equipment_rarity_flags": 256,
@@ -1233,6 +1257,7 @@
       },
       "name_key": "[PassiveSkillName77003]",
       "names": {
+        "ja-JP": "親切な狐の子",
         "zh-CN": "热心的小狐狸"
       },
       "source_memo_ja": "ミナシュマリSR:Lv1 バトル開始時自身と自身以外の攻撃力が最も高い味方に1ターンの間『ステルス』を付与する（解除不可）。自身が攻撃を受けて、自身のHP割合が50%以下になった場合、もしくは自身が戦闘不能になったとき、このスキルで付与した自身と味方の『ステルス』を解除する。 /Lv2 『ステルス』のターン数が2ターンになる。 /Lv3 自身が攻撃を受けて、自身のHP割合が50%以下になった場合、さらに自身に1層の『多重バリア』を付与する（解除不可）。自身の最大HP×10%以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。この効果は4ターンに1回発動する。 /Ex2 スキル3を強化する。『多重バリア』が3層になる。",
@@ -1264,6 +1289,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription770041]",
           "descriptions": {
+            "ja-JP": "誰かが倒れる度にあの日の記憶が蘇り──彼女の悲憤は色濃く浮かび上がる。自身以外の味方が戦闘不能になったとき、戦闘不能になった味方の数1体につき自身の攻撃力が30%増加する（合計で最大2スタック、60%まで）（解除不可）。",
             "zh-CN": "每当有人在面前倒下，就会唤醒当时的记忆，激起她心中强烈的悲愤之情。每当1名友军失去战斗能力，米娜修玛力使自己增加30%攻击力（最多叠加2层，合计60%）（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1278,6 +1304,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription770042]",
           "descriptions": {
+            "ja-JP": "自身以外の味方が戦闘不能になったときに上昇する攻撃力の増加量が40%になる（合計で最大2スタック、80%まで）。",
             "zh-CN": "友军失去战斗能力时的攻击力增幅提升为40%（最多叠加2层，合计80%）。"
           },
           "equipment_rarity_flags": 0,
@@ -1292,6 +1319,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription770043]",
           "descriptions": {
+            "ja-JP": "自身以外の味方が戦闘不能になったときに上昇する攻撃力の増加量が50%になる（合計で最大2スタック、100%まで）。",
             "zh-CN": "友军失去战斗能力时的攻击力增幅提升为50%（最多叠加2层，合计100%）。"
           },
           "equipment_rarity_flags": 0,
@@ -1360,6 +1388,7 @@
       },
       "name_key": "[PassiveSkillName77004]",
       "names": {
+        "ja-JP": "白と赤の追憶",
         "zh-CN": "雪白与鲜红色追忆"
       },
       "source_memo_ja": "ミナシュマリSR:Lv1 自身以外の味方が戦闘不能になったとき、戦闘不能になった味方の数1体につき自身の攻撃力が30%増加する（合計で最大60%まで）（解除不可）。 /Lv2 自身以外の味方が戦闘不能になったときに上昇する攻撃力の増加量が40%になる（合計で最大80%まで）。 /Lv3 自身以外の味方が戦闘不能になったときに上昇する攻撃力の増加量が50%になる（合計で最大100%まで）。",
@@ -1415,6 +1444,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

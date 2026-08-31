@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription400011]",
           "descriptions": {
+            "ja-JP": "その蝶の翅に触れた者は、一時的に記憶を失う──ランダムな敵2体に攻撃力×490%の魔法攻撃を行い、20%の確率で1ターンの間対象に『沈黙』を付与する。",
             "zh-CN": "碰到蝶翼的人会短暂地失去记忆——卡罗随机对2名敌人造成攻击力×490%的魔法伤害，20%概率附加「沉默」状态，效果持续1回合。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription400012]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×540%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×540%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription400013]",
           "descriptions": {
+            "ja-JP": "このスキルの対象がランダムな敵3体になる。",
             "zh-CN": "技能目标增加为3名随机敌人。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription400014]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription400014]",
             "zh-CN": "[ActiveSkillDescription400014]"
           },
           "equipment_rarity_flags": 128,
@@ -64,6 +68,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription400015]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription400015]",
             "zh-CN": "[ActiveSkillDescription400015]"
           },
           "equipment_rarity_flags": 256,
@@ -75,6 +80,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription400016]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription400016]",
             "zh-CN": "[ActiveSkillDescription400016]"
           },
           "equipment_rarity_flags": 512,
@@ -157,6 +163,7 @@
       "max_cooldown": 5,
       "name_key": "[ActiveSkillName40001]",
       "names": {
+        "ja-JP": "忘却の翅",
         "zh-CN": "忘却的蝶翼"
       },
       "source_memo_ja": "カロルSR: /Lv1　その蝶の翅に触れた者は、一時的に記憶を失う──ランダムな敵2体に攻撃力×490％の魔法攻撃を行い、20％の確率で1ターンの間対象に『沈黙』を付与する。　/Lv2 魔法攻撃のダメージが攻撃力×540%になる。　/Lv3 このスキルの対象がランダムな敵3体になる。　/専用1 忘却の翅を強化する。『沈黙』を付与する確率が35％になる。　/専用2 忘却の翅を強化する。『沈黙』を付与する確率が55％になる。　/専用3 忘却の翅を強化する。魔法攻撃のダメージが攻撃力×590%になる。",
@@ -186,6 +193,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription400021]",
           "descriptions": {
+            "ja-JP": "記憶を奪う鱗粉を纏った蝶を使役し、ランダムな敵3体のバフを同時に2つ解除する（弱体効果命中の判定は一度のみ行う）。怯んだ間隙を突き、対象に攻撃力×410%の魔法攻撃を行う。",
             "zh-CN": "卡罗操纵的蝴蝶带有夺取记忆的鳞粉，随机解除3名敌人身上的2种增益效果（只对每名目标进行1次弱化效果命中与否的判定）。趁对方心生胆怯的间隙，对技能目标造成攻击力×410%的魔法伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -200,6 +208,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription400022]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×480%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×480%。"
           },
           "equipment_rarity_flags": 0,
@@ -214,6 +223,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription400023]",
           "descriptions": {
+            "ja-JP": "さらにバフ解除の前に対象がバフを付帯していない場合、2ターンの間対象の防御力を40%減少させる。",
             "zh-CN": "如果技能目标身上原本没有增益效果，卡罗使技能目标额外减少40%防御力，效果持续2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -228,6 +238,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription400024]",
           "descriptions": {
+            "ja-JP": "このスキルの対象がランダムな敵5体になる。",
             "zh-CN": "技能目标增加为5名随机敌人。"
           },
           "equipment_rarity_flags": 0,
@@ -293,6 +304,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName40002]",
       "names": {
+        "ja-JP": "喪失の鱗粉",
         "zh-CN": "失却的鳞粉"
       },
       "source_memo_ja": "カロルSR: /Lv1　記憶を奪う鱗粉を纏った蝶を使役し、ランダムな敵3体のバフを2つ解除する。怯んだ間隙を突き、対象に攻撃力×310%の魔法攻撃を行う。　/Lv2 魔法攻撃のダメージが攻撃力×365%になる。　/Lv3 さらにバフ解除の前に対象がバフを付帯していない場合、2ターンの間対象の防御力を40％減少させる。　/Lv4 このスキルの対象がランダムな敵5体になる。",
@@ -748,6 +760,7 @@
       },
       "name_key": "[CharacterCollectionName22]",
       "names": {
+        "ja-JP": "ムネモシネの契約",
         "zh-CN": "忆神星的契约"
       },
       "required_character_ids": [
@@ -759,18 +772,21 @@
         {
           "id": 40,
           "names": {
+            "ja-JP": "カロル",
             "zh-CN": "卡罗"
           }
         },
         {
           "id": 16,
           "names": {
+            "ja-JP": "フレイシア",
             "zh-CN": "小苍兰"
           }
         },
         {
           "id": 26,
           "names": {
+            "ja-JP": "マーリン",
             "zh-CN": "梅琳"
           }
         }
@@ -1208,6 +1224,7 @@
       },
       "name_key": "[CharacterCollectionName79]",
       "names": {
+        "ja-JP": "コルンバの言伝",
         "zh-CN": "天鸽座的书信"
       },
       "required_character_ids": [
@@ -1218,12 +1235,14 @@
         {
           "id": 102,
           "names": {
+            "ja-JP": "リーベ",
             "zh-CN": "莉贝"
           }
         },
         {
           "id": 40,
           "names": {
+            "ja-JP": "カロル",
             "zh-CN": "卡罗"
           }
         }
@@ -1293,12 +1312,14 @@
     "memo": "カロル",
     "name_key": "[CharacterName40]",
     "names": {
+      "ja-JP": "カロル",
       "zh-CN": "卡罗"
     },
     "speed": 3452,
     "start_time_jst": "2022-12-15 15:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -1373,6 +1394,7 @@
     },
     "name_key": "[EquipmentName339]",
     "names": {
+      "ja-JP": "勿忘草の日記帳",
       "zh-CN": "勿忘草日记本"
     },
     "passive_effects": [
@@ -1406,6 +1428,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill40Description1]",
         "descriptions": {
+          "ja-JP": "忘却の翅を強化する。『沈黙』を付与する確率が35%になる。",
           "zh-CN": "强化忘却的蝶翼，附加「沉默」状态的概率提升为35%。"
         },
         "equipment_rarity_flags": 128,
@@ -1414,6 +1437,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill40Description2]",
         "descriptions": {
+          "ja-JP": "忘却の翅を強化する。『沈黙』を付与する確率が55%になる。",
           "zh-CN": "强化忘却的蝶翼，附加「沉默」状态的概率提升为55%。"
         },
         "equipment_rarity_flags": 256,
@@ -1422,6 +1446,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill40Description3]",
         "descriptions": {
+          "ja-JP": "忘却の翅を強化する。魔法攻撃のダメージが攻撃力×590%になる。",
           "zh-CN": "强化忘却的蝶翼，造成的魔法伤害提升为攻击力×590%。"
         },
         "equipment_rarity_flags": 512,
@@ -1442,6 +1467,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription400031]",
           "descriptions": {
+            "ja-JP": "やがて忘れてしまうからこそ、今の仲間を傷つける敵は許さない──その思いが運命に抗う力となる。味方が攻撃を受けるか回避したとき、自身のHPを自身の失ったHP×3%回復する。",
             "zh-CN": "不久后就会遗忘一切的卡罗，不容许敌人伤害此时此刻的同伴——她的意志化作对抗命运的力量，当友军受到攻击或成功闪避攻击时，使卡罗恢复3%损耗生命值。"
           },
           "equipment_rarity_flags": 0,
@@ -1456,6 +1482,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription400032]",
           "descriptions": {
+            "ja-JP": "HPの回復量が自身の失ったHP×5%になる。",
             "zh-CN": "生命值恢复量提升为5%损耗生命值。"
           },
           "equipment_rarity_flags": 0,
@@ -1470,6 +1497,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription400033]",
           "descriptions": {
+            "ja-JP": "HPの回復量が自身の失ったHP×7%になる。",
             "zh-CN": "生命值恢复量提升为7%损耗生命值。"
           },
           "equipment_rarity_flags": 0,
@@ -1559,6 +1587,7 @@
       },
       "name_key": "[PassiveSkillName40003]",
       "names": {
+        "ja-JP": "メメント",
         "zh-CN": "记忆的碎片"
       },
       "source_memo_ja": "カロルSR: /Lv1　やがて忘れてしまうからこそ、今の仲間を傷つける敵は許さない──その思いが運命に抗う力となる。味方が攻撃を受けたとき、自身のHPを自身の失ったHP×3％回復する。　/Lv2 HPの回復量が自身の失ったHP×5％になる。　/Lv3 HPの回復量が自身の失ったHP×7％になる。",
@@ -1586,6 +1615,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription400041]",
           "descriptions": {
+            "ja-JP": "忘れてしまえば、痛みはない。バトル開始時味方全体の防御力を15%増加させる。",
             "zh-CN": "忘掉就不会感到痛苦了。战斗开始时，使全体友军增加15%防御力。"
           },
           "equipment_rarity_flags": 0,
@@ -1600,6 +1630,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription400042]",
           "descriptions": {
+            "ja-JP": "防御力の増加量が25%になる。",
             "zh-CN": "防御力增幅提升为25%。"
           },
           "equipment_rarity_flags": 0,
@@ -1614,6 +1645,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription400043]",
           "descriptions": {
+            "ja-JP": "自身のみ防御力の増加量が120%になる。",
             "zh-CN": "卡罗的防御力增幅提升为120%。"
           },
           "equipment_rarity_flags": 0,
@@ -1689,6 +1721,7 @@
       },
       "name_key": "[PassiveSkillName40004]",
       "names": {
+        "ja-JP": "破り捨てたページ",
         "zh-CN": "撕毁的书页"
       },
       "source_memo_ja": "カロルSR: /Lv1　忘れてしまえば、痛みはない。バトル開始時味方５名の防御力を15％増加させる。/ Lv2 防御力の増加量が25％になる。/ Lv2 さらに自身の防御力を95%増加させる（永続、解除可能）",
@@ -1744,6 +1777,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

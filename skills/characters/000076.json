@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription760011]",
           "descriptions": {
+            "ja-JP": "「シルフさん、力を貸してください」ランダムな敵5体に攻撃力×150%の魔法攻撃を行い、自身以外の攻撃力が最も高い味方のHPを対象の最大HP×10%回復する。",
             "zh-CN": "“精灵西尔芙，请帮助我们。”优妮随机对5名敌人造成攻击力×150%的魔法伤害，使攻击力最高的其他友军恢复10%最大生命值。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription760012]",
           "descriptions": {
+            "ja-JP": "さらにHP回復の対象が弱体効果を付帯している場合、対象の弱体効果を1つ解除する。",
             "zh-CN": "当生命值恢复目标身上附带弱化效果时，额外解除目标身上的1种弱化效果。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription760013]",
           "descriptions": {
+            "ja-JP": "弱体効果の解除数が2つになる。",
             "zh-CN": "解除的弱化效果增加为2种。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription760014]",
           "descriptions": {
+            "ja-JP": "シルフの舞風を強化する。HPの回復量が対象の最大HP×15%になる。",
             "zh-CN": "强化西尔芙之风，生命值恢复量提升为15%最大生命值。"
           },
           "equipment_rarity_flags": 128,
@@ -122,6 +126,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName76001]",
       "names": {
+        "ja-JP": "シルフの舞風",
         "zh-CN": "西尔芙之风"
       },
       "source_memo_ja": "ユニSR:Lv1 「シルフさん、力を貸してください」ランダムな敵5体に攻撃力×150％の魔法攻撃を行い、自身以外の攻撃力が最も高い味方のHPを対象の最大HP×10％回復する。/ Lv2 さらにHP回復の対象が弱体効果を付帯している場合、対象の弱体効果を1つ解除する。/ Lv3 弱体効果解除量が2つになる。/ Ex1 シルフの舞風を強化する。HPの回復量が対象の最大HP×15％になる。",
@@ -155,6 +160,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription760021]",
           "descriptions": {
+            "ja-JP": "「痛みを取り除く、それが治療師の務めです」HP割合が最も低い味方のHPを自身の最大HP×2%回復し、対象が弱体効果を付帯している場合、対象の弱体効果を1つ解除する。",
             "zh-CN": "“抚平伤痛是治疗师的职责。”使生命值百分比最低的友军恢复优妮最大生命值×2%的生命值。当技能目标身上附带弱化效果时，解除目标身上的1种弱化效果。"
           },
           "equipment_rarity_flags": 0,
@@ -169,6 +175,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription760022]",
           "descriptions": {
+            "ja-JP": "さらにこのスキルを再発動する（再発動は1回まで）。",
             "zh-CN": "再次发动此技能（最多1次）。"
           },
           "equipment_rarity_flags": 0,
@@ -183,6 +190,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription760023]",
           "descriptions": {
+            "ja-JP": "HPの回復量が自身の最大HP×3%になる。",
             "zh-CN": "生命值恢复量提升为优妮最大生命值×3%。"
           },
           "equipment_rarity_flags": 0,
@@ -197,6 +205,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription760024]",
           "descriptions": {
+            "ja-JP": "再発動の回数が3回までになる。",
             "zh-CN": "再次发动技能的次数增加为3次。"
           },
           "equipment_rarity_flags": 0,
@@ -211,6 +220,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription760025]",
           "descriptions": {
+            "ja-JP": "ユニコーンの息吹を強化する。HPの回復量が自身の最大HP×4%になる。",
             "zh-CN": "强化独角兽的灵息，生命值恢复量提升为优妮最大生命值×4%。"
           },
           "equipment_rarity_flags": 512,
@@ -294,6 +304,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName76002]",
       "names": {
+        "ja-JP": "ユニコーンの息吹",
         "zh-CN": "独角兽的灵息"
       },
       "source_memo_ja": "ユニSR:Lv1 「痛みを取り除く、それが治療師の務めです」HP割合が最も低い味方のHPを自身の最大HP×2％回復し、対象が弱体効果を付帯している場合、対象の弱体効果を1つ解除する。/ Lv2 さらにこのスキルを再発動する（再発動は1回まで）。/ Lv3 HPの回復量が自身の最大HP×3％になる。/ Lv4 再発動の回数が3回までになる。/ Ex3 ユニコーンの息吹を強化する。HPの回復量が自身の最大HP×4％になる。",
@@ -760,6 +771,7 @@
       },
       "name_key": "[CharacterCollectionName42]",
       "names": {
+        "ja-JP": "ヴィルゴの献身",
         "zh-CN": "处女座的献身"
       },
       "required_character_ids": [
@@ -770,12 +782,14 @@
         {
           "id": 76,
           "names": {
+            "ja-JP": "ユニ",
             "zh-CN": "优妮"
           }
         },
         {
           "id": 39,
           "names": {
+            "ja-JP": "プリマヴェーラ",
             "zh-CN": "普莉玛维拉"
           }
         }
@@ -845,12 +859,14 @@
     "memo": "ユニ",
     "name_key": "[CharacterName76]",
     "names": {
+      "ja-JP": "ユニ",
       "zh-CN": "优妮"
     },
     "speed": 2889,
     "start_time_jst": "2024-02-29 15:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -925,6 +941,7 @@
     },
     "name_key": "[EquipmentName555]",
     "names": {
+      "ja-JP": "木漏れ日ボトル",
       "zh-CN": "树影日光瓶"
     },
     "passive_effects": [
@@ -958,6 +975,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill76Description1]",
         "descriptions": {
+          "ja-JP": "シルフの舞風を強化する。HPの回復量が対象の最大HP×15%になる。",
           "zh-CN": "强化西尔芙之风，生命值恢复量提升为15%最大生命值。"
         },
         "equipment_rarity_flags": 128,
@@ -966,6 +984,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill76Description2]",
         "descriptions": {
+          "ja-JP": "治療師としての心得を強化する。自身以外の攻撃力が最も高い味方の最大HPの増加量が自身の最大HP×50%になる。",
           "zh-CN": "强化治疗师的人生格言，攻击力最高的其他友军的最大生命值增幅，提升为优妮最大生命值×50%。"
         },
         "equipment_rarity_flags": 256,
@@ -974,6 +993,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill76Description3]",
         "descriptions": {
+          "ja-JP": "ユニコーンの息吹を強化する。HPの回復量が自身の最大HP×4%になる。",
           "zh-CN": "强化独角兽的灵息，生命值恢复量提升为优妮最大生命值×4%。"
         },
         "equipment_rarity_flags": 512,
@@ -994,6 +1014,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription760031]",
           "descriptions": {
+            "ja-JP": "怪我をしたら誰だって痛いですからね──バトル開始時、自身以外の攻撃力が最も高い味方の最大HPを自身の最大HP×15%増加させる（解除不可）。2ターン目から10ターン目までの毎ターン開始時、自身以外のHP割合が最も低い味方の最大HPを自身の最大HP×10%増加させる（最大9スタック、90%まで）（解除不可）。",
             "zh-CN": "“不管是谁，受了伤都会痛。”战斗开始时，优妮使攻击力最高的其他友军增加最大生命值，增幅为优妮最大生命值×15%（无法被解除）。并在第2回合到第10回合的每回合开始时，使生命值百分比最低的其他友军增加最大生命值，增幅为优妮最大生命值×10%（最多叠加9层，合计90%）（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1008,6 +1029,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription760032]",
           "descriptions": {
+            "ja-JP": "2ターン目から10ターン目までの毎ターン開始時、最大HPを増加させた後、さらに対象のHPを自身の攻撃力×10%回復する。",
             "zh-CN": "优妮在第2回合到第10回合的每回合开始时，使生命值百分比最低的其他友军增加最大生命值，并使技能目标额外恢复优妮攻击力×10%的生命值。"
           },
           "equipment_rarity_flags": 0,
@@ -1022,6 +1044,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription760033]",
           "descriptions": {
+            "ja-JP": "自身以外の攻撃力が最も高い味方の最大HPの増加量が自身の最大HP×30%になる。",
             "zh-CN": "攻击力最高的其他友军的最大生命值增幅，提升为优妮最大生命值×30%。"
           },
           "equipment_rarity_flags": 0,
@@ -1036,6 +1059,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription760034]",
           "descriptions": {
+            "ja-JP": "治療師としての心得を強化する。自身以外の攻撃力が最も高い味方の最大HPの増加量が自身の最大HP×50%になる。",
             "zh-CN": "强化治疗师的人生格言，攻击力最高的其他友军的最大生命值增幅，提升为优妮最大生命值×50%。"
           },
           "equipment_rarity_flags": 256,
@@ -1148,6 +1172,7 @@
       },
       "name_key": "[PassiveSkillName76003]",
       "names": {
+        "ja-JP": "治療師としての心得",
         "zh-CN": "治疗师的人生格言"
       },
       "source_memo_ja": "ユニSR:Lv1 怪我をしたら誰だって痛いですからね――バトル開始時、自身以外の攻撃力が最も高い味方の最大HPを自身の最大HP×15％増加させる（解除不可）。2ターン目から10ターン目までの毎ターン開始時、自身以外のHP割合が最も低い味方の最大HPを自身の最大HP×10％増加させる（最大90%まで）（解除不可）。/ Lv2 2ターン目から10ターン目までの毎ターン開始時、最大HPを増加させた後、さらに対象のHPを自身の攻撃力×10％回復する。/ Lv3 自身以外の攻撃力が最も高い味方の最大HPの増加量が自身の最大HP×30％になる。/ Ex2 治療師としての心得を強化する。自身以外の攻撃力が最も高い味方の最大HPの増加量が自身の最大HP×50％になる。",
@@ -1179,6 +1204,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription760041]",
           "descriptions": {
+            "ja-JP": "たくさんの「ありがとう」が、挫けそうな私の心を何度だって守ってくれます──自身の防御力とクリティカル耐性率がそれぞれ30%増加する（解除不可）。",
             "zh-CN": "“那一声声「谢谢你」，一直守护着我屡屡受挫的心……”优妮使自己增加30%防御力与抗暴率（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1193,6 +1219,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription760042]",
           "descriptions": {
+            "ja-JP": "さらにバトル開始時2ターンの間自身に隣接する味方2体の被回復量を20%増加させる。",
             "zh-CN": "战斗开始时，优妮使附近的2名友军额外增加20%回血量，效果持续2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -1207,6 +1234,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription760043]",
           "descriptions": {
+            "ja-JP": "防御力とクリティカル耐性率の増加量がそれぞれ50%になる。",
             "zh-CN": "防御力与抗暴率增幅提升为50%。"
           },
           "equipment_rarity_flags": 0,
@@ -1289,6 +1317,7 @@
       },
       "name_key": "[PassiveSkillName76004]",
       "names": {
+        "ja-JP": "ありがとうの花束",
         "zh-CN": "满载谢意的花束"
       },
       "source_memo_ja": "ユニSR:Lv1 たくさんの「ありがとう」が、挫けそうな私の心を何度だって守ってくれます――自身の防御力とクリティカル耐性率がそれぞれ30％増加する（解除不可）。/ Lv2 さらにバトル開始時2ターンの間自身に隣接する味方2体の被回復量を20％増加させる。/ Lv3 防御力とクリティカル耐性率の増加量がそれぞれ50%になる。",
@@ -1344,6 +1373,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

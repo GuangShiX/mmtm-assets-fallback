@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription250011]",
           "descriptions": {
+            "ja-JP": "「やっちゃえ、エマちゃん！」ランダムな敵3体に攻撃力×420%の物理攻撃を行う。「あんまり赤くないね？　アタシが染めてあげる！」HP割合が最も高い敵に自身の技力×320%の直接攻撃を行う。",
             "zh-CN": "“艾玛，打他！”艾薇随机对3名敌人造成攻击力×420%的物理伤害。“你怎么不是红色的？我来帮你涂成红红的！”再对生命值百分比最高的敌人造成艾薇战技×320%的直接伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription250012]",
           "descriptions": {
+            "ja-JP": "さらに自身のHP割合が35%以下の場合、直接攻撃のダメージが2倍になる。",
             "zh-CN": "当艾薇的生命值为35%以下时，追加的直接伤害增加为2倍。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription250013]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×530%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×530%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription250014]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription250014]",
             "zh-CN": "[ActiveSkillDescription250014]"
           },
           "equipment_rarity_flags": 128,
@@ -64,6 +68,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription250015]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription250015]",
             "zh-CN": "[ActiveSkillDescription250015]"
           },
           "equipment_rarity_flags": 512,
@@ -141,6 +146,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName25001]",
       "names": {
+        "ja-JP": "エマちゃんアタック！",
         "zh-CN": "小艾玛攻击！"
       },
       "source_memo_ja": "アイビーSR: /Lv1　「やっちゃえ、エマちゃん！」ランダムな敵3体に攻撃力×420%の物理攻撃を行う。「あんまり赤くないね？　アタシが染めてあげる！」HP割合が最も高い敵に自身の技力×320%の直接攻撃を行う。　/Lv2 さらに自身のHP割合が35％以下の場合、直接攻撃のダメージが2倍になる。　/Lv3 物理攻撃のダメージが攻撃力×530%になる。　/専用1 エマちゃんアタック！を強化する。エマちゃんアタック！の対象がランダムな敵5体になる。　/専用3 エマちゃんアタック！を強化する。直接攻撃のダメージが自身の技力×380%になる。",
@@ -170,6 +176,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription250021]",
           "descriptions": {
+            "ja-JP": "古いお人形さんには、赤いドレスのプレゼント。HP割合が最も低い敵に攻撃力×420%の物理攻撃を行う。自身が付帯しているバフ1つにつき攻撃回数が1回多くなる（合計で最大3回まで）。「もっと赤く染めないと」対象が弱体効果を付帯している場合、物理攻撃のダメージが1.5倍になる。",
             "zh-CN": "红红的洋装，送给旧娃娃。艾薇对生命值百分比最低的敌人造成攻击力×420%的物理伤害。艾薇身上每附带1种增益效果，攻击次数增加1次（合计最多3连击）。“再红一点更漂亮～”当技能目标身上附带弱化效果时，造成的物理伤害增加为1.5倍。"
           },
           "equipment_rarity_flags": 0,
@@ -184,6 +191,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription250022]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×540%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×540%。"
           },
           "equipment_rarity_flags": 0,
@@ -198,6 +206,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription250023]",
           "descriptions": {
+            "ja-JP": "物理攻撃の回数が合計で最大5回までになる。",
             "zh-CN": "攻击次数上限增加为5次。"
           },
           "equipment_rarity_flags": 0,
@@ -212,6 +221,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription250024]",
           "descriptions": {
+            "ja-JP": "物理攻撃が必ず命中するようになる。",
             "zh-CN": "此攻击必定命中。"
           },
           "equipment_rarity_flags": 0,
@@ -226,6 +236,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription250025]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription250025]",
             "zh-CN": "[ActiveSkillDescription250025]"
           },
           "equipment_rarity_flags": 256,
@@ -314,6 +325,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName25002]",
       "names": {
+        "ja-JP": "お人形さん遊び♪",
         "zh-CN": "娃娃游戏♪"
       },
       "source_memo_ja": "アイビーSR: /Lv1　古いお人形さんには、赤いドレスのプレゼント。HP割合が最も低い敵に攻撃力×420％の物理攻撃を行う。自身が付帯しているバフ1つにつき攻撃回数が1回多くなる（合計で最大3回まで）。「もっと赤く染めないと」対象が弱体効果を付帯している場合、物理攻撃のダメージが1.5倍になる。　/Lv2 物理攻撃のダメージが攻撃力×540％になる。　/Lv3 物理攻撃の回数が合計で最大5回までになる。　/Lv4 物理攻撃が必ず命中するようになる。　/専用2 お人形さん遊び♪を強化する。物理攻撃のダメージが攻撃力×640％になる。",
@@ -770,6 +782,7 @@
       },
       "name_key": "[CharacterCollectionName5]",
       "names": {
+        "ja-JP": "モノケロスの咆哮",
         "zh-CN": "独角兽座的咆哮"
       },
       "required_character_ids": [
@@ -782,24 +795,28 @@
         {
           "id": 15,
           "names": {
+            "ja-JP": "サブリナ",
             "zh-CN": "萨宾娜"
           }
         },
         {
           "id": 17,
           "names": {
+            "ja-JP": "アモール",
             "zh-CN": "爱沐尔"
           }
         },
         {
           "id": 25,
           "names": {
+            "ja-JP": "アイビー",
             "zh-CN": "艾薇"
           }
         },
         {
           "id": 28,
           "names": {
+            "ja-JP": "ニーナ",
             "zh-CN": "妮娜"
           }
         }
@@ -1246,6 +1263,7 @@
       },
       "name_key": "[CharacterCollectionName11]",
       "names": {
+        "ja-JP": "サーペンスの愛執",
         "zh-CN": "巨蛇座的依恋"
       },
       "required_character_ids": [
@@ -1257,18 +1275,21 @@
         {
           "id": 55,
           "names": {
+            "ja-JP": "レア",
             "zh-CN": "蕾雅"
           }
         },
         {
           "id": 17,
           "names": {
+            "ja-JP": "アモール",
             "zh-CN": "爱沐尔"
           }
         },
         {
           "id": 25,
           "names": {
+            "ja-JP": "アイビー",
             "zh-CN": "艾薇"
           }
         }
@@ -1706,6 +1727,7 @@
       },
       "name_key": "[CharacterCollectionName37]",
       "names": {
+        "ja-JP": "ピクシスの激情",
         "zh-CN": "罗盘座的激情"
       },
       "required_character_ids": [
@@ -1716,12 +1738,14 @@
         {
           "id": 66,
           "names": {
+            "ja-JP": "アイリス",
             "zh-CN": "艾莉丝"
           }
         },
         {
           "id": 25,
           "names": {
+            "ja-JP": "アイビー",
             "zh-CN": "艾薇"
           }
         }
@@ -2167,6 +2191,7 @@
       },
       "name_key": "[CharacterCollectionName49]",
       "names": {
+        "ja-JP": "アプスの応報",
         "zh-CN": "天燕座的报应"
       },
       "required_character_ids": [
@@ -2177,12 +2202,14 @@
         {
           "id": 77,
           "names": {
+            "ja-JP": "ミナシュマリ",
             "zh-CN": "米娜修玛力"
           }
         },
         {
           "id": 25,
           "names": {
+            "ja-JP": "アイビー",
             "zh-CN": "艾薇"
           }
         }
@@ -2620,6 +2647,7 @@
       },
       "name_key": "[CharacterCollectionName91]",
       "names": {
+        "ja-JP": "ロサの花棘​",
         "zh-CN": "玫瑰座的棘刺"
       },
       "required_character_ids": [
@@ -2630,12 +2658,14 @@
         {
           "id": 99,
           "names": {
+            "ja-JP": "リリコット",
             "zh-CN": "莉莉珂特"
           }
         },
         {
           "id": 25,
           "names": {
+            "ja-JP": "アイビー",
             "zh-CN": "艾薇"
           }
         }
@@ -2705,12 +2735,14 @@
     "memo": "アイビー",
     "name_key": "[CharacterName25]",
     "names": {
+      "ja-JP": "アイビー",
       "zh-CN": "艾薇"
     },
     "speed": 2790,
     "start_time_jst": "2020-01-01 00:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -2784,6 +2816,7 @@
     },
     "name_key": "[EquipmentName273]",
     "names": {
+      "ja-JP": "エマちゃん",
       "zh-CN": "艾玛"
     },
     "passive_effects": [
@@ -2817,6 +2850,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill25Description1]",
         "descriptions": {
+          "ja-JP": "エマちゃんアタック！を強化する。エマちゃんアタック！の対象がランダムな敵5体になる。",
           "zh-CN": "强化小艾玛攻击！，技能目标增加为5名随机敌人。"
         },
         "equipment_rarity_flags": 128,
@@ -2825,6 +2859,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill25Description2]",
         "descriptions": {
+          "ja-JP": "お人形さん遊び♪を強化する。物理攻撃のダメージが攻撃力×640%になる。",
           "zh-CN": "强化娃娃游戏♪，造成的物理伤害提升为攻击力×640%。"
         },
         "equipment_rarity_flags": 256,
@@ -2833,6 +2868,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill25Description3]",
         "descriptions": {
+          "ja-JP": "エマちゃんアタック！を強化する。直接攻撃のダメージが自身の技力×380%になる。",
           "zh-CN": "强化小艾玛攻击！，造成的直接伤害提升为艾薇战技×380%。"
         },
         "equipment_rarity_flags": 512,
@@ -2853,6 +2889,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription250031]",
           "descriptions": {
+            "ja-JP": "お気に入りのお人形さんの赤を見るほどに、彼女の中にある「赤の執着」が目を覚ましていく。バトル開始時、7ターンの間自身の攻撃力が20%増加する。味方が戦闘不能になったとき、攻撃力の増加量が20%大きくなる（合計で最大5スタック、100%まで）。このバフによって攻撃力が増加するたびにバフの残りターン数は7ターンに延長される。",
             "zh-CN": "看到心爱的娃娃变红，艾薇心中对“红色的执着”开始逐渐苏醒。战斗开始时，艾薇使自己增加20%攻击力，效果持续7回合。每当1名友军失去战斗能力，再使攻击力增幅提升20%（最多叠加5层，合计100%）。每当此增益效果使艾薇的攻击力上升时，剩余的效果持续时间重置为7回合。"
           },
           "equipment_rarity_flags": 0,
@@ -2867,6 +2904,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription250032]",
           "descriptions": {
+            "ja-JP": "バトル開始時と味方が戦闘不能になったときに上昇する攻撃力の増加量がそれぞれ30%になる（合計で最大5スタック、150%まで）。",
             "zh-CN": "战斗开始时与友军失去战斗能力时的攻击力增幅提升为30%（最多叠加5层，合计150%）。"
           },
           "equipment_rarity_flags": 0,
@@ -2881,6 +2919,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription250033]",
           "descriptions": {
+            "ja-JP": "バトル開始時と味方が戦闘不能になったときに上昇する攻撃力の増加量がそれぞれ50%になる（合計で最大5スタック、250%まで）。",
             "zh-CN": "战斗开始时与友军失去战斗能力时的攻击力增幅提升为50%（最多叠加5层，合计250%）。"
           },
           "equipment_rarity_flags": 0,
@@ -2970,6 +3009,7 @@
       },
       "name_key": "[PassiveSkillName25003]",
       "names": {
+        "ja-JP": "レッドプリンセス",
         "zh-CN": "腥红公主"
       },
       "source_memo_ja": "アイビーSR: /Lv1　お気に入りのお人形さんの赤を見た瞬間、彼女の中にある「赤の執着」が目を覚ます。味方が戦闘不能になった場合、7ターンの間自身の攻撃力が20％増加する（最大4回まで）。　/Lv2 攻撃力の増加量が30％になる。　/Lv3 攻撃力の増加量が50％になる。",
@@ -2997,6 +3037,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription250041]",
           "descriptions": {
+            "ja-JP": "「あなたの赤色、どんな色？」自身の通常攻撃を強化する。通常攻撃時ランダムな敵1体に攻撃力×120%の物理攻撃を行う。「みーつけたぁ」新しいお人形を見つけ、元気よく飛びかかる。対象のスピードが自身よりも低い場合、30%の確率で1ターンの間『気絶』を付与する。",
             "zh-CN": "“你的红色是哪一种红色？”艾薇强化自己的普通攻击，普攻时随机对1名敌人造成攻击力×120%的物理伤害。“抓到你了～！”发现新娃娃的艾薇开心地扑上去，当普攻目标的速度低于自己时，30%概率附加「晕厥」状态，效果持续1回合。"
           },
           "equipment_rarity_flags": 0,
@@ -3011,6 +3052,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription250042]",
           "descriptions": {
+            "ja-JP": "物理攻撃の対象がランダムな敵2体になる。",
             "zh-CN": "普攻目标增加为2名随机敌人。"
           },
           "equipment_rarity_flags": 0,
@@ -3025,6 +3067,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription250043]",
           "descriptions": {
+            "ja-JP": "『気絶』を付与する確率が50%になる。",
             "zh-CN": "附加「晕厥」状态的概率提升为50%。"
           },
           "equipment_rarity_flags": 0,
@@ -3093,6 +3136,7 @@
       },
       "name_key": "[PassiveSkillName25004]",
       "names": {
+        "ja-JP": "まっかっかー♪",
         "zh-CN": "红通通～♪"
       },
       "source_memo_ja": "アイビーSR: /Lv1　「あなたの赤色、どんな色？」自身の通常攻撃を強化する。通常攻撃時ランダムな敵1体に攻撃力×120％の物理攻撃を行う。「みーつけたぁ」新しいお人形を見つけ、元気よく飛びかかる。対象のスピードが自身よりも低い場合、30％の確率で1ターンの間『気絶』を付与する。　/Lv2 物理攻撃の対象がランダムな敵2体になる。　/Lv3 『気絶』を付与する確率が50％になる。",
@@ -3148,6 +3192,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

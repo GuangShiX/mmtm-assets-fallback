@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription100011]",
           "descriptions": {
+            "ja-JP": "死へといざなう霊魂たちによって、ランダムな敵4体に攻撃力×380%の魔法攻撃を行い、2ターンの間『毒』を付与する。毎ターン行動開始時に付帯者の現在HP×3%のダメージを与える。",
             "zh-CN": "无数灵魂引诱生者走向死亡，随机对4名敌人造成攻击力×380%的魔法伤害，并附加「中毒」状态，效果持续2回合，每回合行动开始时造成附带者当前生命值×3%的伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription100012]",
           "descriptions": {
+            "ja-JP": "さらにクリティカルヒットした場合、対象のバフを1つ解除する。",
             "zh-CN": "技能暴击时，额外解除技能目标身上的1种增益效果。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription100013]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×420%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×420%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription100014]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription100014]",
             "zh-CN": "[ActiveSkillDescription100014]"
           },
           "equipment_rarity_flags": 128,
@@ -64,6 +68,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription100015]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription100015]",
             "zh-CN": "[ActiveSkillDescription100015]"
           },
           "equipment_rarity_flags": 256,
@@ -75,6 +80,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription100016]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription100016]",
             "zh-CN": "[ActiveSkillDescription100016]"
           },
           "equipment_rarity_flags": 512,
@@ -157,6 +163,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName10001]",
       "names": {
+        "ja-JP": "レストインピース",
         "zh-CN": "愿死者安息"
       },
       "source_memo_ja": "モーザSR: /Lv1　死へといざなう霊魂たちによって、ランダムな敵4体に攻撃力×380％の魔法攻撃を行い、2ターンの間『毒』を付与する。毎ターン行動開始時に現在HP×3％のダメージを与える。　/Lv2 さらにクリティカルヒットした場合、対象のバフを1つ解除する。　/Lv3 魔法攻撃のダメージが攻撃力×420%になる。　/専用1 レストインピースを強化する。『毒』のダメージが現在HP×4％に増加する。　/専用2 レストインピースを強化する。『毒』のターン数が4ターンになる。　/専用3 レストインピースを強化する。『毒』のダメージが現在HP×5％に増加する。",
@@ -186,6 +193,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription100021]",
           "descriptions": {
+            "ja-JP": "強い恨みを持つ悪霊に憑依させ、ランダムな敵に3回攻撃力×350%の魔法攻撃を行う。さらに対象が『毒』を付帯している場合、3ターンの間『不治』を付与する。",
             "zh-CN": "怨气冲天的恶灵附着在墨瑟身上，随机对敌人进行3次攻击，每次造成攻击力×350%的魔法伤害。当技能目标身上附带「中毒」状态时，附加「不治」状态，效果持续3回合。"
           },
           "equipment_rarity_flags": 0,
@@ -200,6 +208,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription100022]",
           "descriptions": {
+            "ja-JP": "魔法攻撃の回数が4回になる。",
             "zh-CN": "攻击次数增加为4次。"
           },
           "equipment_rarity_flags": 0,
@@ -214,6 +223,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription100023]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×380%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×380%。"
           },
           "equipment_rarity_flags": 0,
@@ -228,6 +238,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription100024]",
           "descriptions": {
+            "ja-JP": "『不治』のターン数が4ターンになる。",
             "zh-CN": "「不治」效果增加为4回合。"
           },
           "equipment_rarity_flags": 0,
@@ -304,6 +315,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName10002]",
       "names": {
+        "ja-JP": "葬送の合図",
         "zh-CN": "送葬的信号"
       },
       "source_memo_ja": "モーザSR: /Lv1　強い恨みを持つ悪霊に憑依させ、ランダムな敵に3回攻撃力×350％の魔法攻撃を行う。さらに対象が『毒』を付帯している場合、3ターンの間『不治』を付与する。　/Lv2 魔法攻撃の回数が4回になる。　/Lv3 魔法攻撃のダメージが攻撃力×380%になる。　/Lv4 『不治』のターン数が4ターンになる。",
@@ -758,6 +770,7 @@
       },
       "name_key": "[CharacterCollectionName1]",
       "names": {
+        "ja-JP": "トーラスの守護",
         "zh-CN": "金牛座的守护"
       },
       "required_character_ids": [
@@ -768,12 +781,14 @@
         {
           "id": 6,
           "names": {
+            "ja-JP": "アムレート",
             "zh-CN": "阿姆蕾特"
           }
         },
         {
           "id": 10,
           "names": {
+            "ja-JP": "モーザ",
             "zh-CN": "墨瑟"
           }
         }
@@ -1220,6 +1235,7 @@
       },
       "name_key": "[CharacterCollectionName12]",
       "names": {
+        "ja-JP": "カニス・マヨルの遠吠",
         "zh-CN": "大犬座的长啸"
       },
       "required_character_ids": [
@@ -1231,18 +1247,21 @@
         {
           "id": 54,
           "names": {
+            "ja-JP": "シフォン",
             "zh-CN": "戚风"
           }
         },
         {
           "id": 7,
           "names": {
+            "ja-JP": "フェンリル",
             "zh-CN": "芬里尔"
           }
         },
         {
           "id": 10,
           "names": {
+            "ja-JP": "モーザ",
             "zh-CN": "墨瑟"
           }
         }
@@ -1680,6 +1699,7 @@
       },
       "name_key": "[CharacterCollectionName21]",
       "names": {
+        "ja-JP": "ボランスの鎮魂",
         "zh-CN": "飞鱼座的镇魂"
       },
       "required_character_ids": [
@@ -1690,12 +1710,14 @@
         {
           "id": 71,
           "names": {
+            "ja-JP": "モーザ",
             "zh-CN": "墨瑟"
           }
         },
         {
           "id": 10,
           "names": {
+            "ja-JP": "モーザ",
             "zh-CN": "墨瑟"
           }
         }
@@ -2134,6 +2156,7 @@
       },
       "name_key": "[CharacterCollectionName98]",
       "names": {
+        "ja-JP": "ウルクの尻尾",
         "zh-CN": "家犬的尾巴"
       },
       "required_character_ids": [
@@ -2145,18 +2168,21 @@
         {
           "id": 153,
           "names": {
+            "ja-JP": "シロ",
             "zh-CN": "小白"
           }
         },
         {
           "id": 54,
           "names": {
+            "ja-JP": "シフォン",
             "zh-CN": "戚风"
           }
         },
         {
           "id": 10,
           "names": {
+            "ja-JP": "モーザ",
             "zh-CN": "墨瑟"
           }
         }
@@ -2226,12 +2252,14 @@
     "memo": "モーザ",
     "name_key": "[CharacterName10]",
     "names": {
+      "ja-JP": "モーザ",
       "zh-CN": "墨瑟"
     },
     "speed": 2826,
     "start_time_jst": "2020-01-01 00:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -2305,6 +2333,7 @@
     },
     "name_key": "[EquipmentName231]",
     "names": {
+      "ja-JP": "黒紫の弔葬具",
       "zh-CN": "幽紫送葬器"
     },
     "passive_effects": [
@@ -2338,6 +2367,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill10Description1]",
         "descriptions": {
+          "ja-JP": "レストインピースを強化する。『毒』のダメージが付帯者の現在HP×4%になる。",
           "zh-CN": "强化愿死者安息，「中毒」造成的伤害提升为附带者当前生命值×4%。"
         },
         "equipment_rarity_flags": 128,
@@ -2346,6 +2376,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill10Description2]",
         "descriptions": {
+          "ja-JP": "レストインピースを強化する。『毒』のターン数が4ターンになる。",
           "zh-CN": "强化愿死者安息，「中毒」效果增加为4回合。"
         },
         "equipment_rarity_flags": 256,
@@ -2354,6 +2385,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill10Description3]",
         "descriptions": {
+          "ja-JP": "レストインピースを強化する。『毒』のダメージが付帯者の現在HP×5%になる。",
           "zh-CN": "强化愿死者安息，「中毒」造成的伤害提升为附带者当前生命值×5%。"
         },
         "equipment_rarity_flags": 512,
@@ -2374,6 +2406,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription100031]",
           "descriptions": {
+            "ja-JP": "救われた霊魂たちが墓守の祈りに応える。自身が攻撃を受けて、HP割合が初めて70%、40%を下回った場合、自身に3ターンの間『再生』を付与する（解除不可）。毎ターン行動開始時に自身のHPを自身の最大HP×10%回復する。",
             "zh-CN": "获得救赎的灵魂回应守墓人的祈祷。当墨瑟受到攻击，生命值首次低于70%、40%时，获得「再生」状态，效果持续3回合，每回合行动开始时恢复10%最大生命值（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -2388,6 +2421,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription100032]",
           "descriptions": {
+            "ja-JP": "さらに3ターンの間自身に『カウンタ変更』を付与する（解除不可）。カウンタダメージが、自身の攻撃力×200%になる。",
             "zh-CN": "额外获得「伤害反弹特化」，效果持续3回合，反弹伤害提升为墨瑟攻击力×200%（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -2402,6 +2436,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription100033]",
           "descriptions": {
+            "ja-JP": "『再生』と『カウンタ変更』のターン数がそれぞれ4ターンになる。",
             "zh-CN": "「再生」与「伤害反弹特化」效果增加为4回合。"
           },
           "equipment_rarity_flags": 0,
@@ -2491,6 +2526,7 @@
       },
       "name_key": "[PassiveSkillName10003]",
       "names": {
+        "ja-JP": "弔いの祈り",
         "zh-CN": "哀悼祈福"
       },
       "source_memo_ja": "モーザSR: /Lv1　救われた霊魂たちが墓守の祈りに応える。自身が攻撃を受けて、HP割合が初めて70％、40％を下回った場合、自身に3ターンの間『再生』を付与する（解除不可）。毎ターン行動開始時に自身のHPを自身の最大HP×10％回復する。　/Lv2 さらに3ターンの間自身に『カウンタ変更』を付与する（解除不可）。カウンタのダメージが、自身の攻撃力×200％になる。　/Lv3 『再生』と『カウンタ変更』のターン数がそれぞれ4ターンになる。",
@@ -2518,6 +2554,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription100041]",
           "descriptions": {
+            "ja-JP": "厳かな鐘の音が魂たちを呼び寄せ、自身の攻撃力が15%増加する（解除不可）。",
             "zh-CN": "庄严肃穆的钟声唤来众多灵魂，使墨瑟增加15%攻击力（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -2532,6 +2569,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription100042]",
           "descriptions": {
+            "ja-JP": "攻撃力の増加量が30%になる。",
             "zh-CN": "攻击力增幅提升为30%。"
           },
           "equipment_rarity_flags": 0,
@@ -2546,6 +2584,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription100043]",
           "descriptions": {
+            "ja-JP": "さらにクリティカル率が30%増加する（解除不可）。",
             "zh-CN": "额外增加30%暴击率（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -2614,6 +2653,7 @@
       },
       "name_key": "[PassiveSkillName10004]",
       "names": {
+        "ja-JP": "弔鐘の響き",
         "zh-CN": "丧钟的低鸣"
       },
       "source_memo_ja": "モーザSR: /Lv1　厳かな鐘の音が魂たちを呼び寄せ、自身の攻撃力が15％増加する（解除不可）。　/Lv2 攻撃力の増加量が30％になる。　/Lv3 さらにクリティカル率が30％増加する（解除不可）。",
@@ -2669,6 +2709,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

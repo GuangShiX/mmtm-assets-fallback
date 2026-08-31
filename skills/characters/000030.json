@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription300011]",
           "descriptions": {
+            "ja-JP": "道は違えど誇りは同じ──最後は一撃にて葬ろう。ランダムな敵5体に攻撃力×460%の物理攻撃を行う。対象の腕力が自身よりも低い場合、この攻撃は必ずクリティカルヒットする。さらに腕力が最も高い敵に自身の腕力×150%の直接攻撃を行う。",
             "zh-CN": "不同的道路，不变的荣耀——最后一击，送敌人上路。光士随机对5名敌人造成攻击力×460%的物理伤害。当技能目标的力量低于自己时，此攻击必定暴击。再对力量最高的敌人追加光士力量×150%的直接伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription300012]",
           "descriptions": {
+            "ja-JP": "さらに1ターンの間腕力が最も高い敵の攻撃力を50%減少させる（このスキル発動時の対象の攻撃力に対して計算される）。",
             "zh-CN": "使力量最高的敌人额外减少50%攻击力，效果持续1回合（以技能发动时的攻击力为基准进行计算）。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription300013]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×540%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×540%。"
           },
           "equipment_rarity_flags": 0,
@@ -97,6 +100,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName30001]",
       "names": {
+        "ja-JP": "光導の一閃",
         "zh-CN": "引光一闪"
       },
       "source_memo_ja": "ルークSR: /Lv1　道は違えど誇りは同じ──最後は一撃にて葬ろう。ランダムな敵5体に攻撃力×460%の物理攻撃を行う。対象の腕力が自身よりも低い場合、この攻撃は必ずクリティカルヒットする。さらに腕力が最も高い敵に自身の腕力×150％の直接攻撃を行う。　/Lv2 さらに1ターンの間腕力が最も高い敵の攻撃力を50％減少させる（このスキル発動時の対象の攻撃力に対して計算される）。　/Lv3 物理攻撃のダメージが攻撃力×540%になる。",
@@ -126,6 +130,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription300021]",
           "descriptions": {
+            "ja-JP": "騎士の誇りにかけて──この一撃に全霊を込める。ランダムな敵1体の『シールド』を全て解除し、自身の腕力×400%の直接攻撃を行う。この攻撃は対象の『ダメージ無効』『シールド』『多重バリア』を無視する。",
             "zh-CN": "光士赌上骑士的荣誉，将所有力量灌注于这一击，随机解除1名敌人的所有「护盾」，造成光士力量×400%的直接伤害。此攻击无视技能目标的「伤害免疫」、「护盾」与「多重屏障」。"
           },
           "equipment_rarity_flags": 0,
@@ -140,6 +145,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription300022]",
           "descriptions": {
+            "ja-JP": "直接攻撃のダメージが自身の腕力×480%になる。",
             "zh-CN": "造成的直接伤害提升为光士力量×480%。"
           },
           "equipment_rarity_flags": 0,
@@ -154,6 +160,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription300023]",
           "descriptions": {
+            "ja-JP": "さらに『シールド』解除の前に対象が『シールド』を付帯していない場合、直接攻撃のダメージが1.5倍になる。",
             "zh-CN": "如果技能目标身上原本没有「护盾」，造成的直接伤害增加为1.5倍。"
           },
           "equipment_rarity_flags": 0,
@@ -168,6 +175,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription300024]",
           "descriptions": {
+            "ja-JP": "直接攻撃のダメージが自身の腕力×520%になる。",
             "zh-CN": "造成的直接伤害提升为光士力量×520%。"
           },
           "equipment_rarity_flags": 0,
@@ -235,6 +243,7 @@
       "max_cooldown": 5,
       "name_key": "[ActiveSkillName30002]",
       "names": {
+        "ja-JP": "ナイトプライド",
         "zh-CN": "骑士荣耀"
       },
       "source_memo_ja": "ルークSR: /Lv1　騎士の誇りにかけて──この一撃に全霊を込める。ランダムな敵1体の『シールド』を全て解除し、自身の腕力×400％の直接攻撃を行う。この攻撃は対象の『ダメージ無効』『シールド』『多重バリア』を無視する。　/Lv2 直接攻撃のダメージが自身の腕力×480％になる。　/Lv3 さらに『シールド』解除の前に対象が『シールド』を付帯していない場合、直接攻撃のダメージが1.5倍になる。　/Lv4 直接攻撃のダメージが自身の腕力×520％になる。",
@@ -697,6 +706,7 @@
       },
       "name_key": "[CharacterCollectionName16]",
       "names": {
+        "ja-JP": "アルゴルの武勇",
         "zh-CN": "斩魔者的勇猛"
       },
       "required_character_ids": [
@@ -707,12 +717,14 @@
         {
           "id": 30,
           "names": {
+            "ja-JP": "ルーク",
             "zh-CN": "光士"
           }
         },
         {
           "id": 18,
           "names": {
+            "ja-JP": "リーン",
             "zh-CN": "琳恩"
           }
         }
@@ -1158,6 +1170,7 @@
       },
       "name_key": "[CharacterCollectionName48]",
       "names": {
+        "ja-JP": "ヴェナティキの忠義",
         "zh-CN": "猎犬座的忠诚"
       },
       "required_character_ids": [
@@ -1168,12 +1181,14 @@
         {
           "id": 82,
           "names": {
+            "ja-JP": "アレクサンドラ",
             "zh-CN": "亚历珊卓"
           }
         },
         {
           "id": 30,
           "names": {
+            "ja-JP": "ルーク",
             "zh-CN": "光士"
           }
         }
@@ -1619,6 +1634,7 @@
       },
       "name_key": "[CharacterCollectionName73]",
       "names": {
+        "ja-JP": "ベスパの使命",
         "zh-CN": "雀蜂座的使命"
       },
       "required_character_ids": [
@@ -1629,12 +1645,14 @@
         {
           "id": 100,
           "names": {
+            "ja-JP": "モワノー",
             "zh-CN": "穆瓦诺"
           }
         },
         {
           "id": 30,
           "names": {
+            "ja-JP": "ルーク",
             "zh-CN": "光士"
           }
         }
@@ -1705,12 +1723,14 @@
     "memo": "ルーク",
     "name_key": "[CharacterName30]",
     "names": {
+      "ja-JP": "ルーク",
       "zh-CN": "光士"
     },
     "speed": 3093,
     "start_time_jst": "2022-11-30 15:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -1784,6 +1804,7 @@
     },
     "name_key": "[EquipmentName303]",
     "names": {
+      "ja-JP": "光導ノ誓剣",
       "zh-CN": "引光者的誓言之剑"
     },
     "passive_effects": [
@@ -1817,6 +1838,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill30Description1]",
         "descriptions": {
+          "ja-JP": "毎ターン開始時自身のHPを自身の攻撃力×5%回復する。",
           "zh-CN": "在每回合开始时使光士恢复攻击力×5%的生命值。"
         },
         "equipment_rarity_flags": 128,
@@ -1825,6 +1847,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill30Description2]",
         "descriptions": {
+          "ja-JP": "HPの回復量が自身の攻撃力×20%になる。",
           "zh-CN": "生命值恢复量提升为光士攻击力×20%。"
         },
         "equipment_rarity_flags": 256,
@@ -1833,6 +1856,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill30Description3]",
         "descriptions": {
+          "ja-JP": "HPの回復量が自身の攻撃力×25%になる。",
           "zh-CN": "生命值恢复量提升为光士攻击力×25%。"
         },
         "equipment_rarity_flags": 512,
@@ -1853,6 +1877,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription300031]",
           "descriptions": {
+            "ja-JP": "「死」に愛されたその運命は──魂すら蝕んでいく。自身が攻撃して、クリティカルヒットした場合、対象の被ダメージを5%増加させる（最大5スタックまで）。",
             "zh-CN": "被“死亡”眷顾的命运，侵蚀他人的灵魂。当攻击暴击时，使攻击目标增加5%承受伤害（最多叠加5层）。"
           },
           "equipment_rarity_flags": 0,
@@ -1867,6 +1892,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription300032]",
           "descriptions": {
+            "ja-JP": "被ダメージの増加量が10%になる。",
             "zh-CN": "承受伤害增幅提升为10%。"
           },
           "equipment_rarity_flags": 0,
@@ -1881,6 +1907,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription300033]",
           "descriptions": {
+            "ja-JP": "被ダメージの増加量が15%になる。",
             "zh-CN": "承受伤害增幅提升为15%。"
           },
           "equipment_rarity_flags": 0,
@@ -1949,6 +1976,7 @@
       },
       "name_key": "[PassiveSkillName30003]",
       "names": {
+        "ja-JP": "君ガ為ノ剣",
         "zh-CN": "护主之剑"
       },
       "source_memo_ja": "ルークSR: /Lv1　「死」に愛されたその運命は──魂すら蝕んでいく。自身が攻撃して、クリティカルヒットした場合、対象の被ダメージを5％増加させる（最大5回まで）。　/Lv2 被ダメージの増加量が10%になる。　/Lv3 被ダメージの増加量が15%になる。",
@@ -1976,6 +2004,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription300041]",
           "descriptions": {
+            "ja-JP": "死の運命に抗う──それが我が力となる。バトル開始時4ターンの間自身のクリティカル耐性率が30%増加する。",
             "zh-CN": "反抗死亡的宿命，化为自己的力量。战斗开始时，光士使自己增加30%抗暴率，效果持续4回合。"
           },
           "equipment_rarity_flags": 0,
@@ -1990,6 +2019,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription300042]",
           "descriptions": {
+            "ja-JP": "クリティカル耐性率の増加量が60%になる。",
             "zh-CN": "抗暴率增幅提升为60%。"
           },
           "equipment_rarity_flags": 0,
@@ -2004,6 +2034,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription300043]",
           "descriptions": {
+            "ja-JP": "バトル開始時さらに3ターンの間自身に隣接する味方1体のクリティカル耐性率を60%増加させるようになる。",
             "zh-CN": "使光士附近的1名友军额外增加60%抗暴率，效果持续3回合。"
           },
           "equipment_rarity_flags": 0,
@@ -2072,6 +2103,7 @@
       },
       "name_key": "[PassiveSkillName30004]",
       "names": {
+        "ja-JP": "誇り高き騎士",
         "zh-CN": "光荣的骑士"
       },
       "source_memo_ja": "ルークSR: /Lv1　死の運命に抗う──それが我が力となる。バトル開始時4ターンの間自身のクリティカル耐性率が30％増加する。　/Lv2 クリティカル耐性率の増加量が60％になる。　/Lv3 バトル開始時さらに3ターンの間自身に隣接する味方1体のクリティカル耐性率を60％増加させるようになる。",
@@ -2099,6 +2131,7 @@
           "character_level": 161,
           "description_key": "[PassiveSkillDescription300051]",
           "descriptions": {
+            "ja-JP": "毎ターン開始時自身のHPを自身の攻撃力×5%回復する。",
             "zh-CN": "在每回合开始时使光士恢复攻击力×5%的生命值。"
           },
           "equipment_rarity_flags": 128,
@@ -2113,6 +2146,7 @@
           "character_level": 181,
           "description_key": "[PassiveSkillDescription300052]",
           "descriptions": {
+            "ja-JP": "HPの回復量が自身の攻撃力×20%になる。",
             "zh-CN": "生命值恢复量提升为攻击力×20%。"
           },
           "equipment_rarity_flags": 256,
@@ -2127,6 +2161,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription300053]",
           "descriptions": {
+            "ja-JP": "HPの回復量が自身の攻撃力×25%になる。",
             "zh-CN": "生命值恢复量提升为攻击力×25%。"
           },
           "equipment_rarity_flags": 512,
@@ -2195,6 +2230,7 @@
       },
       "name_key": "[PassiveSkillName30005]",
       "names": {
+        "ja-JP": "光導ノ誓剣",
         "zh-CN": "引光者的誓言之剑"
       },
       "source_memo_ja": "ルークSR: /Lv1　毎ターン開始時自身のHPを自身の攻撃力×5％回復する。　/Lv2 HPの回復量が自身の攻撃力×20％になる。　/Lv3 HPの回復量が自身の攻撃力×25％になる。",
@@ -2250,6 +2286,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

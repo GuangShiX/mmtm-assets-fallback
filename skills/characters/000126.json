@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription1260011]",
           "descriptions": {
+            "ja-JP": "「今度は私が、誰かを守れるようにならなきゃ！」2ターンの間味方全体にステータス増減前の対象の最大HP×10%の『シールド』を付与する。その後ランダムな敵4体に攻撃力×410%の魔法攻撃を行う。バトル中このスキルを発動するのが3回目以降の場合、『シールド』の付与は行わず、魔法攻撃のダメージが攻撃力×1640%になる。",
             "zh-CN": "“这次到我来保护其他人了！”米赫里使全体友军获得「护盾」，「护盾」值为状态效果生效前的附加目标最大生命值×10%，效果持续2回合。再随机对4名敌人造成攻击力×410%的魔法伤害。战斗中自第3次发动此技能起，不再附加「护盾」，造成的魔法伤害提升为攻击力×1640%。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription1260012]",
           "descriptions": {
+            "ja-JP": "さらに『シールド』を付与する対象が黄属性の場合、『シールド』の大きさがステータス増減前の付与者自身の攻撃力×100%大きくなる。",
             "zh-CN": "当「护盾」的附加目标为流金属性时，使「护盾」值额外提升状态效果生效前的米赫里攻击力×100%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1260013]",
           "descriptions": {
+            "ja-JP": "『シールド』のターン数が4ターンになる。",
             "zh-CN": "「护盾」效果增加为4回合。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1260014]",
           "descriptions": {
+            "ja-JP": "継がれた灯火を強化する。『シールド』の大きさがステータス増減前の対象の最大HP×30%になる。対象が黄属性の場合に得られる『シールド』の増加量がステータス増減前の付与者自身の攻撃力×400%になる。",
             "zh-CN": "强化薪火相传，「护盾」值提升为状态效果生效前的附加目标最大生命值×30%。当附加目标为流金属性时，使「护盾」值额外提升状态效果生效前的米赫里攻击力×400%。"
           },
           "equipment_rarity_flags": 128,
@@ -122,6 +126,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName126001]",
       "names": {
+        "ja-JP": "継がれた灯火",
         "zh-CN": "薪火相传"
       },
       "source_memo_ja": "ミフリSR:Lv1 「今度は私が、誰かを守れるようにならなきゃ！」2ターンの間味方全体にステータス増減前の対象の最大HP×10%の『シールド』を付与する。その後ランダムな敵4体に攻撃力×410%の魔法攻撃を行う。バトル中このスキルを使うのが3回目以降の場合、『シールド』の付与は行わず、魔法攻撃のダメージが攻撃力×1640%になる。/ Lv2 さらに『シールド』を付与する対象が黄属性の場合、『シールド』の大きさがステータス増減前の付与者自身の攻撃力×100%大きくなる。/ Lv3 『シールド』のターン数が4ターンになる。/ Ex1 継がれた灯火を強化する。『シールド』の大きさがステータス増減前の対象の最大HP×30%になる。対象が黄属性の場合に得られる『シールド』の増加量がステータス増減前の付与者自身の攻撃力×400%になる。",
@@ -155,6 +160,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription1260021]",
           "descriptions": {
+            "ja-JP": "「どこからでもかかってこーい！　おりゃー！」ランダムな敵に3回攻撃力×260%の魔法攻撃を行う。",
             "zh-CN": "“尽管放马过来吧！来啊～！”米赫里随机对敌人进行3次攻击，每次造成攻击力×260%的魔法伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -169,6 +175,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription1260022]",
           "descriptions": {
+            "ja-JP": "魔法攻撃の回数が4回になる。",
             "zh-CN": "攻击次数增加为4次。"
           },
           "equipment_rarity_flags": 0,
@@ -183,6 +190,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription1260023]",
           "descriptions": {
+            "ja-JP": "さらに最後の魔法攻撃の後、自身に1ターンの間『軽快』を付与する。毎ターン行動終了時にスキルクールタイムカウントの減少を1早め、次回のスキル発動が早くなる。",
             "zh-CN": "攻击结束后，米赫里额外获得「轻快」状态，效果持续1回合，提高技能冷却时间恢复速度1，加快再度发动技能的时间。"
           },
           "equipment_rarity_flags": 0,
@@ -197,6 +205,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription1260024]",
           "descriptions": {
+            "ja-JP": "バトル中このスキルを発動するのが3回目以降の場合、魔法攻撃のダメージが攻撃力×1040%になる。",
             "zh-CN": "战斗中自第3次发动此技能起，造成的魔法伤害提升为攻击力×1040%。"
           },
           "equipment_rarity_flags": 0,
@@ -211,6 +220,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription1260025]",
           "descriptions": {
+            "ja-JP": "アレヴ・セラープを強化する。魔法攻撃のダメージが攻撃力×280%になる。バトル中このスキルを発動するのが3回目以降の場合、魔法攻撃のダメージが攻撃力×1120%になる。",
             "zh-CN": "强化炎火幻景，造成的魔法伤害提升为攻击力×280%。战斗中自第3次发动此技能起，造成的魔法伤害提升为攻击力×1120%。"
           },
           "equipment_rarity_flags": 512,
@@ -303,6 +313,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName126002]",
       "names": {
+        "ja-JP": "アレヴ・セラープ",
         "zh-CN": "炎火幻景"
       },
       "source_memo_ja": "ミフリSR:Lv1 「どこからでもかかってこーい！　おりゃー！」ランダムな敵に3回攻撃力×260%の魔法攻撃を行う。/ Lv2 魔法攻撃の回数が4回になる。/ Lv3 さらに最後の魔法攻撃の後、自身に1ターンの間『軽快』を付与する。毎ターン行動終了時にスキルクールタイムの減少を1早め、次回のスキル発動が早くなる。/ Lv4 バトル中このスキルを使うのが3回目以降の場合、魔法攻撃のダメージが攻撃力×1040%になる。/ Ex3 アレヴ・セラープを強化する。魔法攻撃のダメージが攻撃力×280%になる。バトル中このスキルを使うのが3回目以降の場合、魔法攻撃のダメージが攻撃力×1120%になる。",
@@ -761,6 +772,7 @@
       },
       "name_key": "[CharacterCollectionName77]",
       "names": {
+        "ja-JP": "カシオペイアの同盟",
         "zh-CN": "仙后座的同盟"
       },
       "required_character_ids": [
@@ -771,12 +783,14 @@
         {
           "id": 124,
           "names": {
+            "ja-JP": "ユルディズ",
             "zh-CN": "耶尔德兹"
           }
         },
         {
           "id": 126,
           "names": {
+            "ja-JP": "ミフリ",
             "zh-CN": "米赫里"
           }
         }
@@ -846,12 +860,14 @@
     "memo": "ミフリ",
     "name_key": "[CharacterName126]",
     "names": {
+      "ja-JP": "ミフリ",
       "zh-CN": "米赫里"
     },
     "speed": 3136,
     "start_time_jst": "2025-09-16 15:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -925,6 +941,7 @@
     },
     "name_key": "[EquipmentName855]",
     "names": {
+      "ja-JP": "アレヴ・ミラス",
       "zh-CN": "炎火传承"
     },
     "passive_effects": [
@@ -958,6 +975,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill126Description1]",
         "descriptions": {
+          "ja-JP": "継がれた灯火を強化する。『シールド』の大きさがステータス増減前の対象の最大HP×30%になる。対象が黄属性の場合に得られる『シールド』の増加量がステータス増減前の付与者自身の攻撃力×400%になる。",
           "zh-CN": "强化薪火相传，「护盾」值提升为状态效果生效前的附加目标最大生命值×30%。当附加目标为流金属性时，使「护盾」值额外提升状态效果生效前的米赫里攻击力×400%。"
         },
         "equipment_rarity_flags": 128,
@@ -966,6 +984,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill126Description2]",
         "descriptions": {
+          "ja-JP": "陽炎の抱擁を強化する。被ダメージの減少量が75%になる。",
           "zh-CN": "强化阳焰之拥，承受伤害降幅提升为75%。"
         },
         "equipment_rarity_flags": 256,
@@ -974,6 +993,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill126Description3]",
         "descriptions": {
+          "ja-JP": "アレヴ・セラープを強化する。魔法攻撃のダメージが攻撃力×280%になる。バトル中このスキルを発動するのが3回目以降の場合、魔法攻撃のダメージが攻撃力×1120%になる。",
           "zh-CN": "强化炎火幻景，造成的魔法伤害提升为攻击力×280%。战斗中自第3次发动此技能起，造成的魔法伤害提升为攻击力×1120%。"
         },
         "equipment_rarity_flags": 512,
@@ -994,6 +1014,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription1260031]",
           "descriptions": {
+            "ja-JP": "「ふはは！　おそれおののけ！　我こそが炎の申し子、ミフリなり！　……この口上、もう辞めていい……？」自身の行動開始時、自身に『陽炎の灯』を1スタック付与する（最大15スタックまで）（解除不可）。このバフは1スタックにつき付帯者の攻撃力を5%増加させる。",
             "zh-CN": "“哈哈哈！吾乃火灵之子，米赫里是也！汝等还不速速退散！　……这段开场白，以后可以不说了吗？”行动开始时，米赫里获得1层「阳焰灯火」（最多15层）（无法被解除）。每层「阳焰灯火」使附带者增加5%攻击力。"
           },
           "equipment_rarity_flags": 0,
@@ -1008,6 +1029,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription1260032]",
           "descriptions": {
+            "ja-JP": "さらにバフを4つ以上付帯している味方がいる場合、『陽炎の灯』の付与スタック数が2になる。",
             "zh-CN": "如果场上有身上附带4种以上增益效果的友军，获得的「阳焰灯火」层数增加为2层。"
           },
           "equipment_rarity_flags": 0,
@@ -1022,6 +1044,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription1260033]",
           "descriptions": {
+            "ja-JP": "『陽炎の灯』を付与する対象が自身と自身以外の攻撃力が最も高い味方になる。",
             "zh-CN": "「阳焰灯火」的附加目标增加为米赫里与攻击力最高的其他友军。"
           },
           "equipment_rarity_flags": 0,
@@ -1097,6 +1120,7 @@
       },
       "name_key": "[PassiveSkillName126003]",
       "names": {
+        "ja-JP": "炎の申し子",
         "zh-CN": "火灵之子"
       },
       "source_memo_ja": "ミフリSR:Lv1 「ふはは！　おそれおののけ！　我こそが炎の申し子、ミフリなり！　……この口上、もう辞めていい……？」自身の行動開始時、自身に『陽炎の灯』を1スタック付与する（最大15スタックまで）（解除不可）。このバフは1スタックにつき付帯者の攻撃力を5%増加させる。/ Lv2 さらにバフを4つ以上付帯している味方がいる場合、『陽炎の灯』の付与スタック数が2になる。/ Lv3 『陽炎の灯』を付与する対象が自身と自身以外の攻撃力が最も高い味方になる。",
@@ -1124,6 +1148,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription1260041]",
           "descriptions": {
+            "ja-JP": "それは目に見えずとも確かにそこにあるもの。慈しむ者が消えても絶えず続くことを祈るような、温かな守り。自身の被ダメージが20%減少する（解除不可）。",
             "zh-CN": "那是无法看见，却真实存在的温暖守护——纵使留下它的人已经逝去，这份慈爱仍会不断为米赫里祈福，使米赫里减少20%自身承受伤害（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1138,6 +1163,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription1260042]",
           "descriptions": {
+            "ja-JP": "さらに自身の物理クリダメ緩和が15%増加する（解除不可）。",
             "zh-CN": "额外增加15%物理暴击伤害降低（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1152,6 +1178,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription1260043]",
           "descriptions": {
+            "ja-JP": "物理クリダメ緩和の増加量が30%になる。",
             "zh-CN": "物理暴击伤害降低的增幅提升为30%。"
           },
           "equipment_rarity_flags": 0,
@@ -1166,6 +1193,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription1260044]",
           "descriptions": {
+            "ja-JP": "陽炎の抱擁を強化する。被ダメージの減少量が75%になる。",
             "zh-CN": "强化阳焰之拥，承受伤害降幅提升为75%。"
           },
           "equipment_rarity_flags": 256,
@@ -1250,6 +1278,7 @@
       },
       "name_key": "[PassiveSkillName126004]",
       "names": {
+        "ja-JP": "陽炎の抱擁",
         "zh-CN": "阳焰之拥"
       },
       "source_memo_ja": "ミフリSR:Lv1 それは目に見えずとも確かにそこにあるもの。慈しむ者が消えても絶えず続くことを祈るような、温かな守り。自身の被ダメージが20%減少する（解除不可）。/ Lv2 さらに自身の物理クリダメ緩和が15%増加する（解除不可）。/ Lv3 物理クリダメ緩和の増加量が30%になる。/ Ex2 陽炎の抱擁を強化する。被ダメージの減少量が75%になる。",
@@ -1309,6 +1338,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

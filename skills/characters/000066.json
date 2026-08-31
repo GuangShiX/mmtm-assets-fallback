@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription660011]",
           "descriptions": {
+            "ja-JP": "「どうせ薄汚い獣同士。醜く殺しあいましょう？」攻撃力が高い敵3体に攻撃力×620%の物理攻撃を行う。",
             "zh-CN": "“反正我们同样是肮脏的野兽，来拼个你死我活吧？”艾莉丝对攻击力最高的3名敌人造成攻击力×620%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription660012]",
           "descriptions": {
+            "ja-JP": "さらに物理攻撃の後、70%の確率で2ターンの間対象の攻撃力を10%減少させる。",
             "zh-CN": "攻击结束后，70%概率使技能目标额外减少10%攻击力，效果持续2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription660013]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×920%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×920%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription660014]",
           "descriptions": {
+            "ja-JP": "フェイタルクラッシュを強化する。物理攻撃のダメージが攻撃力×1120%になる。",
             "zh-CN": "强化致命重击，造成的物理伤害提升为攻击力×1120%。"
           },
           "equipment_rarity_flags": 128,
@@ -118,6 +122,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName66001]",
       "names": {
+        "ja-JP": "フェイタルクラッシュ",
         "zh-CN": "致命重击"
       },
       "source_memo_ja": "黒鎧アイリスSR:Lv1 「どうせ薄汚い獣同士。醜く殺しあいましょう？」攻撃力が高い敵3体に攻撃力×620%の物理攻撃を行う。/ Lv2 さらに物理攻撃の後、70%の確率で2ターンの間対象の攻撃力を10%減少させる。/ Lv3 物理攻撃のダメージが攻撃力×920%になる。/ Ex1 フェイタルクラッシュを強化する。物理攻撃のダメージが攻撃力×1120%になる。",
@@ -151,6 +156,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription660021]",
           "descriptions": {
+            "ja-JP": "無慈悲に、無造作に、一切の容赦もなく。ランダムな敵に4回攻撃力×390%の物理攻撃を行う。",
             "zh-CN": "冷酷、凶残且无情——艾莉丝随机对敌人进行4次攻击，每次造成攻击力×390%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -165,6 +171,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription660022]",
           "descriptions": {
+            "ja-JP": "さらに物理攻撃の前に対象が『攻撃力減少』を付帯している場合、物理攻撃のダメージが2倍になる。",
             "zh-CN": "当技能目标身上附带「攻击力下降」状态时，造成的物理伤害增加为2倍。"
           },
           "equipment_rarity_flags": 0,
@@ -179,6 +186,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription660023]",
           "descriptions": {
+            "ja-JP": "物理攻撃の回数が6回になる。",
             "zh-CN": "攻击次数增加为6次。"
           },
           "equipment_rarity_flags": 0,
@@ -193,6 +201,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription660024]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×440%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×440%。"
           },
           "equipment_rarity_flags": 0,
@@ -207,6 +216,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription660025]",
           "descriptions": {
+            "ja-JP": "圧壊を強化する。物理攻撃のダメージが攻撃力×490%になる。",
             "zh-CN": "强化粉碎，造成的物理伤害提升为攻击力×490%。"
           },
           "equipment_rarity_flags": 512,
@@ -303,6 +313,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName66002]",
       "names": {
+        "ja-JP": "圧壊",
         "zh-CN": "粉碎"
       },
       "source_memo_ja": "黒鎧アイリスSR:Lv1 無慈悲に、無造作に、一切の容赦もなく。ランダムな敵に4回攻撃力×390%の物理攻撃を行う。/ Lv2 さらに物理攻撃の前に対象が『攻撃力減少』を付帯している場合、物理攻撃のダメージが2倍になる。/ Lv3 物理攻撃の回数が6回になる。/ Lv4 物理攻撃のダメージが攻撃力×440%になる。/ Ex3 圧壊を強化する。物理攻撃のダメージが攻撃力×490%になる。",
@@ -761,6 +772,7 @@
       },
       "name_key": "[CharacterCollectionName37]",
       "names": {
+        "ja-JP": "ピクシスの激情",
         "zh-CN": "罗盘座的激情"
       },
       "required_character_ids": [
@@ -771,12 +783,14 @@
         {
           "id": 66,
           "names": {
+            "ja-JP": "アイリス",
             "zh-CN": "艾莉丝"
           }
         },
         {
           "id": 25,
           "names": {
+            "ja-JP": "アイビー",
             "zh-CN": "艾薇"
           }
         }
@@ -846,12 +860,14 @@
     "memo": "黒鎧アイリス",
     "name_key": "[CharacterName66]",
     "names": {
+      "ja-JP": "アイリス",
       "zh-CN": "艾莉丝"
     },
     "speed": 2933,
     "start_time_jst": "2023-12-26 15:00:00",
     "subtitle_key": "[CharacterSubName66]",
     "subtitles": {
+      "ja-JP": "黒鎧の従者",
       "zh-CN": "黑铠从者"
     }
   },
@@ -925,6 +941,7 @@
     },
     "name_key": "[EquipmentName495]",
     "names": {
+      "ja-JP": "ヘヴィブランド",
       "zh-CN": "钝铁重剑"
     },
     "passive_effects": [
@@ -958,6 +975,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill66Description1]",
         "descriptions": {
+          "ja-JP": "フェイタルクラッシュを強化する。物理攻撃のダメージが攻撃力×1120%になる。",
           "zh-CN": "强化致命重击，造成的物理伤害提升为攻击力×1120%。"
         },
         "equipment_rarity_flags": 128,
@@ -966,6 +984,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill66Description2]",
         "descriptions": {
+          "ja-JP": "零れ落ちた想いを強化する。『結界』のダメージの遮断量が70%になる。",
           "zh-CN": "强化未果之情，「结界」的伤害阻绝量提升为70%。"
         },
         "equipment_rarity_flags": 256,
@@ -974,6 +993,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill66Description3]",
         "descriptions": {
+          "ja-JP": "圧壊を強化する。物理攻撃のダメージが攻撃力×490%になる。",
           "zh-CN": "强化粉碎，造成的物理伤害提升为攻击力×490%。"
         },
         "equipment_rarity_flags": 512,
@@ -994,6 +1014,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription660031]",
           "descriptions": {
+            "ja-JP": "自分を必要としてくれる人の傍で、その人を支えること。欲しいのはたったそれだけだった。バトル開始時2ターンの間自身に『結界』を付与する。このバフの付帯者が付帯者自身の最大HP×20%を超えるダメージの攻撃を受けたとき、最大HP×20%を超えた分のダメージを50%遮断する。",
             "zh-CN": "我只希望能够待在需要我的人身边、成为对方的后盾——战斗开始时，艾莉丝获得「结界」，效果持续2回合。当此增益效果的附带者受到攻击，承受伤害超过最大生命值的20%时，阻绝超量部分×50%的伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -1008,6 +1029,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription660032]",
           "descriptions": {
+            "ja-JP": "さらに自身以外の攻撃力が最も高い味方にも『結界』を付与する。",
             "zh-CN": "使攻击力最高的其他友军额外获得「结界」。"
           },
           "equipment_rarity_flags": 0,
@@ -1022,6 +1044,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription660033]",
           "descriptions": {
+            "ja-JP": "さらに自身以外のスピードが最も高い味方にも『結界』を付与する（付与する対象が攻撃力が最も高い味方と同一である場合、このスキルによる『結界』は重ね掛けの効果により上書きされ、自身とその味方の2体にのみ付与される）。",
             "zh-CN": "使速度最高的其他友军额外获得「结界」（技能目标与攻击力最高的其他友军重复时，重复附加的新「结界」将直接取代旧「结界」）。"
           },
           "equipment_rarity_flags": 0,
@@ -1036,6 +1059,7 @@
           "character_level": 181,
           "description_key": "[PassiveSkillDescription660034]",
           "descriptions": {
+            "ja-JP": "零れ落ちた想いを強化する。『結界』のダメージの遮断量が70%になる。",
             "zh-CN": "强化未果之情，「结界」的伤害阻绝量提升为70%。"
           },
           "equipment_rarity_flags": 256,
@@ -1155,6 +1179,7 @@
       },
       "name_key": "[PassiveSkillName66003]",
       "names": {
+        "ja-JP": "零れ落ちた想い",
         "zh-CN": "未果之情"
       },
       "source_memo_ja": "黒鎧アイリスSR:Lv1 自分を必要としてくれる人の傍で、その人を支えること。欲しいのはたったそれだけだった。バトル開始時2ターンの間自身に『結界』を付与する。このバフを付帯したキャラが最大HP×20%を超えるダメージの攻撃を受けた場合、最大HP×20%を超えた分のダメージを50%遮断する。/ Lv2 さらに自身以外の攻撃力が最も高い味方にも『結界』を付与する。/ Lv3 さらに自身以外のスピードが最も高い味方にも『結界』を付与する（付与する対象が攻撃力が最も高い味方と同一である場合、このスキルによる『結界』は重ね掛けの効果により上書きされ、自身とその味方の2体にのみ付与される）。/ Ex2 零れ落ちた想いを強化する。このバフを付帯したキャラが最大HP×20%を超えるダメージの攻撃を受けた場合、最大HP×20%を超えた分のダメージを70%遮断するようになる。",
@@ -1186,6 +1211,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription660041]",
           "descriptions": {
+            "ja-JP": "絶望に抗う不屈の魂が、自身の運命を捻じ曲げた。自身が攻撃を受けて、HP割合が30%以下になった場合、自身に2ターンの間自身の攻撃力×50%の『シールド』を付与する（解除不可）。このスキルはバトル中1回のみ発動する。",
             "zh-CN": "艾莉丝对抗绝望时，以不屈不挠的灵魂，成功地扭转了自己的命运。当艾莉丝受到攻击，生命值降到30%以下时，获得攻击力×50%的「护盾」，效果持续2回合（无法被解除）。此技能每场战斗最多触发1次。"
           },
           "equipment_rarity_flags": 0,
@@ -1200,6 +1226,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription660042]",
           "descriptions": {
+            "ja-JP": "さらにこのスキル発動時の敵の生存数1体につき『シールド』の大きさが自身の攻撃力×50%大きくなる（合計で最大300%まで）。",
             "zh-CN": "技能发动时，每名存活在场上的敌人，再使「护盾」值额外提升攻击力×50%（合计最多300%）。"
           },
           "equipment_rarity_flags": 0,
@@ -1214,6 +1241,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription660043]",
           "descriptions": {
+            "ja-JP": "『シールド』のターン数が3ターンになる。",
             "zh-CN": "「护盾」效果增加为3回合。"
           },
           "equipment_rarity_flags": 0,
@@ -1282,6 +1310,7 @@
       },
       "name_key": "[PassiveSkillName66004]",
       "names": {
+        "ja-JP": "不屈の魂",
         "zh-CN": "不屈的灵魂"
       },
       "source_memo_ja": "黒鎧アイリスSR:Lv1 絶望に抗う不屈の魂が、自身の運命を捻じ曲げた。自身が攻撃を受けて、HP割合が30%以下になった場合、自身に2ターンの間自身の攻撃力×50%の『シールド』を付与する（解除不可）。このスキルはバトル中1回のみ発動する。/ Lv2 さらにこのスキル発動時の敵の生存数1体につき『シールド』の大きさが自身の攻撃力×50%大きくなる（合計で最大300%まで）。/ Lv3 『シールド』のターン数が3ターンになる。",
@@ -1337,6 +1366,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

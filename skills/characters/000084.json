@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription840011]",
           "descriptions": {
+            "ja-JP": "「貫きます」敵の頭上に形成された巨大な氷が、巨星のごとく落ちる──ランダムな敵4体に攻撃力×440%の魔法攻撃を行う。",
             "zh-CN": "“贯穿敌人。”巨大的冰柱在敌人上方凝结，宛如庞大的星体直坠而下——随机对4名敌人造成攻击力×440%的魔法伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription840012]",
           "descriptions": {
+            "ja-JP": "さらに自身のHP割合が50%以上の場合、魔法攻撃のダメージが1.5倍になる。",
             "zh-CN": "当莉兹的生命值为50%以上时，造成的魔法伤害增加为1.5倍。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription840013]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×540%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×540%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription840014]",
           "descriptions": {
+            "ja-JP": "グングニルを強化する。グングニルの対象がランダムな敵5体になる。",
             "zh-CN": "强化永恒之枪，技能目标增加为5名随机敌人。"
           },
           "equipment_rarity_flags": 128,
@@ -118,6 +122,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName84001]",
       "names": {
+        "ja-JP": "グングニル",
         "zh-CN": "永恒之枪"
       },
       "source_memo_ja": "リズSR:Lv1 「貫きます」敵の頭上に形成された巨大な氷が、巨星のごとく落ちる――ランダムな敵4体に攻撃力×440%の魔法攻撃を行う。/ Lv2 さらに自身のHP割合が50%以上の場合、魔法攻撃のダメージが1.5倍になる。/ Lv3 魔法攻撃のダメージが攻撃力×540%になる。/ Ex1 グングニルを強化する。グングニルの対象がランダムな敵5体になる。",
@@ -151,6 +156,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription840021]",
           "descriptions": {
+            "ja-JP": "「終わりです」冷気をまとう氷晶が頭上より降り注ぐ──ランダムな敵に4回攻撃力×460%の魔法攻撃を行う。氷晶は敵の体温を徐々に奪い、やがて意識さえ霞ませる──攻撃するたび30%の確率で対象に1ターンの間『気絶』を付与する。",
             "zh-CN": "“到此为止了。”寒气逼人的冰晶从上空落下，随机对敌人进行4次攻击，每次造成攻击力×460%的魔法伤害。冰晶缓缓夺走敌人的体温，使人意识逐渐朦胧——每次攻击之后，30%概率对技能目标附加「晕厥」状态，效果持续1回合。"
           },
           "equipment_rarity_flags": 0,
@@ -165,6 +171,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription840022]",
           "descriptions": {
+            "ja-JP": "魔法攻撃の回数が5回になる。",
             "zh-CN": "攻击次数增加为5次。"
           },
           "equipment_rarity_flags": 0,
@@ -179,6 +186,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription840023]",
           "descriptions": {
+            "ja-JP": "『気絶』を付与する確率が50%になる。",
             "zh-CN": "附加「晕厥」状态的概率提升为50%。"
           },
           "equipment_rarity_flags": 0,
@@ -193,6 +201,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription840024]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×660%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×660%。"
           },
           "equipment_rarity_flags": 0,
@@ -207,6 +216,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription840025]",
           "descriptions": {
+            "ja-JP": "スプリングウォーターを強化する。魔法攻撃のダメージが攻撃力×720%になる。",
             "zh-CN": "强化泉水，造成的魔法伤害提升为攻击力×720%。"
           },
           "equipment_rarity_flags": 512,
@@ -301,6 +311,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName84002]",
       "names": {
+        "ja-JP": "スプリングウォーター",
         "zh-CN": "泉水"
       },
       "source_memo_ja": "リズSR:Lv1 「終わりです」冷気をまとう氷晶が頭上より降り注ぐ――ランダムな敵に4回攻撃力×460%の魔法攻撃を行う。氷晶は敵の体温を徐々に奪い、やがて意識さえ霞ませる――攻撃するたび30%の確率で対象に1ターンの間『気絶』を付与する。/ Lv2 魔法攻撃の回数が5回になる。/ Lv3 『気絶』を付与する確率が50%になる。/ Lv4 魔法攻撃のダメージが攻撃力×660%になる。/ Ex3 スプリングウォーターを強化する。魔法攻撃のダメージが攻撃力×720%になる。",
@@ -759,6 +770,7 @@
       },
       "name_key": "[CharacterCollectionName40]",
       "names": {
+        "ja-JP": "ギルサニアの玲瓏",
         "zh-CN": "吉鲁萨尼亚的玲珑"
       },
       "required_character_ids": [
@@ -769,12 +781,14 @@
         {
           "id": 84,
           "names": {
+            "ja-JP": "リズ",
             "zh-CN": "莉兹"
           }
         },
         {
           "id": 8,
           "names": {
+            "ja-JP": "フローレンス",
             "zh-CN": "佛罗伦斯"
           }
         }
@@ -845,12 +859,14 @@
     "memo": "リズ",
     "name_key": "[CharacterName84]",
     "names": {
+      "ja-JP": "リズ",
       "zh-CN": "莉兹"
     },
     "speed": 2999,
     "start_time_jst": "2024-02-15 15:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -925,6 +941,7 @@
     },
     "name_key": "[EquipmentName603]",
     "names": {
+      "ja-JP": "蒼の魔道書",
       "zh-CN": "苍蓝魔典"
     },
     "passive_effects": [
@@ -958,6 +975,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill84Description1]",
         "descriptions": {
+          "ja-JP": "グングニルを強化する。グングニルの対象がランダムな敵5体になる。",
           "zh-CN": "强化永恒之枪，技能目标增加为5名随机敌人。"
         },
         "equipment_rarity_flags": 128,
@@ -966,6 +984,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill84Description2]",
         "descriptions": {
+          "ja-JP": "バトル開始時1ターンの間自身のスピードが20%増加する。",
           "zh-CN": "战斗开始时，使莉兹增加20%速度，效果持续1回合。"
         },
         "equipment_rarity_flags": 256,
@@ -974,6 +993,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill84Description3]",
         "descriptions": {
+          "ja-JP": "スプリングウォーターを強化する。魔法攻撃のダメージが攻撃力×720%になる。",
           "zh-CN": "强化泉水，造成的魔法伤害提升为攻击力×720%。"
         },
         "equipment_rarity_flags": 512,
@@ -996,6 +1016,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription840031]",
           "descriptions": {
+            "ja-JP": "篝火の帝国、極北の雪国、天涯の地、西の軍事国家、神宿りの森……。数多の旅路の軌跡は、今も鮮やかに──自身の行動開始時、自身が『クリティカル率増加』を付帯している場合、1ターンの間自身の攻撃力が20%増加する（解除不可）。",
             "zh-CN": "篝火精神的帝国、极北之地的雪国、远在天边的地域、位于西方的军国、神灵栖息的森林……旅程中留下的无数轨迹，如今依旧历历在目——如果行动开始时身上附带「暴击率上升」状态，莉兹使自己增加20%攻击力，效果持续1回合（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1010,6 +1031,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription840032]",
           "descriptions": {
+            "ja-JP": "攻撃力の増加量が30%になる。",
             "zh-CN": "攻击力增幅提升为30%。"
           },
           "equipment_rarity_flags": 0,
@@ -1024,6 +1046,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription840033]",
           "descriptions": {
+            "ja-JP": "攻撃力の増加量が50%になる。",
             "zh-CN": "攻击力增幅提升为50%。"
           },
           "equipment_rarity_flags": 0,
@@ -1092,6 +1115,7 @@
       },
       "name_key": "[PassiveSkillName84003]",
       "names": {
+        "ja-JP": "文献を紐解きましょう",
         "zh-CN": "一起翻阅文献吧"
       },
       "source_memo_ja": "リズSR:Lv1 篝火の帝国、極北の雪国、天涯の地、西の軍事国家、神宿りの森……。数多の旅路の軌跡は、今も鮮やかに――自身の行動開始時、自身が『クリティカル率増加』を付帯している場合、1ターンの間自身の攻撃力が20%増加する（解除不可）。/ Lv2 攻撃力の増加量が30%になる。/ Lv3 攻撃力の増加量が50%になる。",
@@ -1119,6 +1143,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription840041]",
           "descriptions": {
+            "ja-JP": "「どのような困難があろうとも、私は歩みを止めません」ターン開始時もしくは自身が攻撃を受けたとき、自身のHP割合が75%未満の場合、1ターンの間自身に『再生』を付与する（解除不可）。毎ターン行動開始時に自身のHPを自身の最大HP×7%回復する。このスキルはバトル中1回のみ発動する。",
             "zh-CN": "“无论前方的路有多么艰险，我都不会停止前进。”在每回合开始时或受到攻击后，如果莉兹的生命值低于75%，获得「再生」状态，效果持续1回合，每回合行动开始时恢复7%最大生命值（无法被解除）。此技能每场战斗最多触发1次。"
           },
           "equipment_rarity_flags": 0,
@@ -1133,6 +1158,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription840042]",
           "descriptions": {
+            "ja-JP": "『再生』での回復量が自身の最大HP×25%になる。",
             "zh-CN": "「再生」的恢复量提升为25%最大生命值。"
           },
           "equipment_rarity_flags": 0,
@@ -1147,6 +1173,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription840043]",
           "descriptions": {
+            "ja-JP": "『再生』のターン数が2ターンになる。",
             "zh-CN": "「再生」效果增加为2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -1236,6 +1263,7 @@
       },
       "name_key": "[PassiveSkillName84004]",
       "names": {
+        "ja-JP": "玲瓏の秘書官",
         "zh-CN": "玲珑的秘书官"
       },
       "source_memo_ja": "リズSR:Lv1 「どのような困難があろうとも、私は歩みを止めません」ターン開始時、もしくは自身が攻撃を受けたとき、自身のHP割合が75%未満の場合、1ターンの間自身に『再生』を付与する（解除不可）。毎ターン行動開始時に自身のHPを自身の最大HP×7%回復する。このスキルはバトル中1回のみ発動する。/ Lv2 『再生』での回復量が自身の最大HP×25%になる。/ Lv3 『再生』のターン数が2ターンになる。",
@@ -1263,6 +1291,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription840051]",
           "descriptions": {
+            "ja-JP": "バトル開始時1ターンの間自身のスピードが20%増加する。",
             "zh-CN": "战斗开始时，使莉兹增加20%速度，效果持续1回合。"
           },
           "equipment_rarity_flags": 256,
@@ -1299,6 +1328,7 @@
       },
       "name_key": "*",
       "names": {
+        "ja-JP": null,
         "zh-CN": null
       },
       "source_memo_ja": "リズSR:Lv1 バトル開始時1ターンの間自身のスピードが20%増加する。",
@@ -1346,6 +1376,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

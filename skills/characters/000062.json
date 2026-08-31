@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription620011]",
           "descriptions": {
+            "ja-JP": "吹き荒れる爆炎がランダムな敵3体に攻撃力×200%の魔法攻撃を行う。さらに聖なる炎が仲間を癒し、悪しき力を退ける──攻撃力が高い味方2体のHPを自身の攻撃力×50%回復し、対象の弱体効果を1つ解除する。",
             "zh-CN": "熊熊烈焰随机对3名敌人造成攻击力×200%的魔法伤害。圣洁的火焰治愈同伴的伤势，并驱散邪恶的力量——使攻击力最高的2名友军恢复普莉希拉攻击力×50%的生命值，并为技能目标解除身上的1种弱化效果。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription620012]",
           "descriptions": {
+            "ja-JP": "さらに2ターンの間攻撃力が高い味方2体の弱体効果耐性率を40%増加させる。",
             "zh-CN": "使攻击力最高的2名友军额外增加40%弱化效果抵抗率，效果持续2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription620013]",
           "descriptions": {
+            "ja-JP": "弱体効果の解除数が2つになる。さらに最初の魔法攻撃でクリティカルヒットが1回以上発生した場合、弱体効果の解除数が3つになる。",
             "zh-CN": "解除的弱化效果增加为2种。当第一波攻击暴击1次以上时，解除的弱化效果增加为3种。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription620014]",
           "descriptions": {
+            "ja-JP": "聖炎の灯火を強化する。HPを回復し弱体効果を解除する対象が攻撃力が高い味方3体になる。",
             "zh-CN": "强化圣焰灯火，生命值恢复与弱化效果解除目标增加为攻击力最高的3名友军。"
           },
           "equipment_rarity_flags": 128,
@@ -67,6 +71,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription620015]",
           "descriptions": {
+            "ja-JP": "聖炎の灯火を強化する。弱体効果耐性率の増加量が80%になる。",
             "zh-CN": "强化圣焰灯火，弱化效果抵抗率增幅提升为80%。"
           },
           "equipment_rarity_flags": 256,
@@ -147,6 +152,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName62001]",
       "names": {
+        "ja-JP": "聖炎の灯火",
         "zh-CN": "圣焰灯火"
       },
       "source_memo_ja": "プリシラSR:Lv1 吹き荒れる爆炎がランダムな敵3体に攻撃力×200%の魔法攻撃を行う。さらに聖なる炎が仲間を癒し、悪しき力を退ける――攻撃力が高い味方2体のHPを自身の攻撃力×50%回復し、対象の弱体効果を1つ解除する。/ Lv2 さらに2ターンの間攻撃力が高い味方2体の弱体効果耐性率を40%増加させる。/ Lv3 弱体効果解除量が2つになる。さらに最初の魔法攻撃でクリティカルヒットが1回以上発生した場合、弱体効果解除量が3つになる。/ Ex1 聖炎の灯火を強化する。HPを回復し弱体効果を解除する対象が攻撃力が高い味方3体になる。/ Ex2 聖炎の灯火を強化する。弱体効果耐性率の増加量が80%になる。",
@@ -184,6 +190,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription620021]",
           "descriptions": {
+            "ja-JP": "天から降り注ぐ光がランダムな敵3体に攻撃力×200%の魔法攻撃を行う。さらに光り輝く雨が仲間を癒す──HP割合が低い味方2体のHPを自身の攻撃力×50%回復し、1ターンの間対象に『再生』を付与する。毎ターン行動開始時に付帯者のHPを付帯者自身の最大HP×3%回復する。",
             "zh-CN": "从天而降的光芒随机对3名敌人造成攻击力×200%的魔法伤害。璀璨的光雨治愈同伴的伤势——使生命值百分比最低的2名友军恢复普莉希拉攻击力×50%的生命值，并附加「再生」状态，效果持续1回合，每回合行动开始时恢复3%最大生命值。"
           },
           "equipment_rarity_flags": 0,
@@ -198,6 +205,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription620022]",
           "descriptions": {
+            "ja-JP": "さらに最初の魔法攻撃でクリティカルヒットが1回以上発生した場合、『再生』のターン数が1ターン増加する。クリティカルヒットした回数1回につきターン数が1増加する。",
             "zh-CN": "第一波攻击暴击1次以上时，使「再生」效果额外增加1回合。每次暴击再使「再生」效果增加1回合。"
           },
           "equipment_rarity_flags": 0,
@@ -212,6 +220,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription620023]",
           "descriptions": {
+            "ja-JP": "HPを回復し『再生』を付与する対象がHP割合が低い味方3体になる。",
             "zh-CN": "生命值恢复与「再生」状态的附加目标增加为生命值百分比最低的3名友军。"
           },
           "equipment_rarity_flags": 0,
@@ -226,6 +235,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription620024]",
           "descriptions": {
+            "ja-JP": "『再生』での回復量が付帯者自身の最大HP×5%になる。",
             "zh-CN": "「再生」的恢复量提升为5%最大生命值。"
           },
           "equipment_rarity_flags": 0,
@@ -240,6 +250,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription620025]",
           "descriptions": {
+            "ja-JP": "シャイニングシャワーを強化する。HPの回復量が自身の攻撃力×100%になる。",
             "zh-CN": "强化光明之雨，生命值恢复量提升为普莉希拉攻击力×100%。"
           },
           "equipment_rarity_flags": 512,
@@ -320,6 +331,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName62002]",
       "names": {
+        "ja-JP": "シャイニングシャワー",
         "zh-CN": "光明之雨"
       },
       "source_memo_ja": "プリシラSR:Lv1 天から降り注ぐ光がランダムな敵3体に攻撃力×200%の魔法攻撃を行う。さらに光り輝く雨が仲間を癒す――HP割合が低い味方2体のHPを自身の攻撃力×50%回復し、1ターンの間対象に『再生』を付与する。毎ターン行動開始時に自身のHPを自身の最大HP×3%回復する。/ Lv2 さらに最初の魔法攻撃でクリティカルヒットが1回以上発生した場合、『再生』のターン数が1ターン増加する。クリティカルヒットした回数1回につきターン数が1増加する。/ Lv3 HPを回復し『再生』を付与する対象がHP割合が低い味方3体になる。/ Lv4 『再生』での回復量が自身の最大HP×5%になる。/ Ex3 シャイニングシャワーを強化する。HPの回復量が自身の攻撃力×100%になる。",
@@ -786,6 +798,7 @@
       },
       "name_key": "[CharacterCollectionName28]",
       "names": {
+        "ja-JP": "コロナボレアリスの約束",
         "zh-CN": "北冕座的约定"
       },
       "required_character_ids": [
@@ -796,12 +809,14 @@
         {
           "id": 62,
           "names": {
+            "ja-JP": "プリシラ",
             "zh-CN": "普莉希拉"
           }
         },
         {
           "id": 18,
           "names": {
+            "ja-JP": "リーン",
             "zh-CN": "琳恩"
           }
         }
@@ -871,12 +886,14 @@
     "memo": "プリシラ",
     "name_key": "[CharacterName62]",
     "names": {
+      "ja-JP": "プリシラ",
       "zh-CN": "普莉希拉"
     },
     "speed": 3167,
     "start_time_jst": "2023-09-29 15:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -950,6 +967,7 @@
     },
     "name_key": "[EquipmentName471]",
     "names": {
+      "ja-JP": "ラプンツェル",
       "zh-CN": "长发姑娘"
     },
     "passive_effects": [
@@ -983,6 +1001,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill62Description1]",
         "descriptions": {
+          "ja-JP": "聖炎の灯火を強化する。HPを回復し弱体効果を解除する対象が攻撃力が高い味方3体になる。",
           "zh-CN": "强化圣焰灯火，生命值恢复与弱化效果解除目标增加为攻击力最高的3名友军。"
         },
         "equipment_rarity_flags": 128,
@@ -991,6 +1010,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill62Description2]",
         "descriptions": {
+          "ja-JP": "聖炎の灯火を強化する。弱体効果耐性率の増加量が80%になる。",
           "zh-CN": "强化圣焰灯火，弱化效果抵抗率增幅提升为80%。"
         },
         "equipment_rarity_flags": 256,
@@ -999,6 +1019,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill62Description3]",
         "descriptions": {
+          "ja-JP": "シャイニングシャワーを強化する。HPの回復量が自身の攻撃力×100%になる。",
           "zh-CN": "强化光明之雨，生命值恢复量提升为普莉希拉攻击力×100%。"
         },
         "equipment_rarity_flags": 512,
@@ -1019,6 +1040,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription620031]",
           "descriptions": {
+            "ja-JP": "きっと助けにきてくれるって信じてた──自身の最大HPが25%、魔法防御力が50%増加する（解除不可）。",
             "zh-CN": "普莉希拉始终相信琳恩一定会来救她——使自己增加25%最大生命值与50%魔法防御力（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1033,6 +1055,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription620032]",
           "descriptions": {
+            "ja-JP": "さらに自身のクリティカル率が20%増加する（解除不可）。",
             "zh-CN": "使自己额外增加20%暴击率（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1047,6 +1070,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription620033]",
           "descriptions": {
+            "ja-JP": "最大HPの増加量が50%、魔法防御力の増加量が100%、クリティカル率の増加量が40%になる。",
             "zh-CN": "最大生命值增幅提升为50%，魔法防御力增幅提升为100%，暴击率增幅提升为40%。"
           },
           "equipment_rarity_flags": 0,
@@ -1115,6 +1139,7 @@
       },
       "name_key": "[PassiveSkillName62003]",
       "names": {
+        "ja-JP": "果たされた約束",
         "zh-CN": "兑现的承诺"
       },
       "source_memo_ja": "プリシラSR:Lv1 きっと助けにきてくれるって信じてた――自身の最大HPが25%、魔法防御力が50％増加する（解除不可）。/ Lv2 さらに自身のクリティカル率が20%増加する（解除不可）。/ Lv3 最大HPの増加量が50%、魔法防御力の増加量が100%、クリティカル率の増加量が40%になる。",
@@ -1142,6 +1167,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription620041]",
           "descriptions": {
+            "ja-JP": "孤独に耐え続けた心が自身を守る力となる──バトル開始時3ターンの間自身の防御力が50%増加する（解除不可）。自身がアクティブスキルで弱体効果を受けたとき、自身が付与した『防御力増加』のターン数を1ターン消費し、自身の全ての弱体効果のターン数が2ターン減少する。",
             "zh-CN": "长期忍受孤独的心化为普莉希拉保护自己的力量——战斗开始时，使自己增加50%防御力，效果持续3回合（无法被解除）。当普莉希拉被附加主动技能造成的弱化效果时，消耗1回合自己附加的「防御力上升」效果，使身上的所有弱化效果减少2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -1156,6 +1182,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription620042]",
           "descriptions": {
+            "ja-JP": "自身がアクティブスキルで弱体効果を受けて、『防御力増加』のターン数を消費したとき、さらにHP割合が最も低い味方のHPを自身の攻撃力×50%回復するようになる。",
             "zh-CN": "当普莉希拉被附加主动技能造成的弱化效果，消耗1回合自己附加的「防御力上升」效果时，使生命值百分比最低的友军额外恢复普莉希拉攻击力×50%的生命值。"
           },
           "equipment_rarity_flags": 0,
@@ -1170,6 +1197,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription620043]",
           "descriptions": {
+            "ja-JP": "『防御力増加』のターン数が5ターンになる。",
             "zh-CN": "「防御力上升」效果增加为5回合。"
           },
           "equipment_rarity_flags": 0,
@@ -1287,6 +1315,7 @@
       },
       "name_key": "[PassiveSkillName62004]",
       "names": {
+        "ja-JP": "囚われの姫",
         "zh-CN": "受困牢笼的女孩"
       },
       "source_memo_ja": "プリシラSR:Lv1 孤独に耐え続けた心が自身を守る力となる――バトル開始時3ターンの間自身の防御力が50%増加する（解除不可）。自身がアクティブスキルで弱体効果を受けたとき、自身が付与した『防御力増加』のターン数を1ターン消費し、自身の全ての弱体効果のターン数が2ターン減少する。/ Lv2 自身がアクティブスキルで弱体効果を受けて、『防御力増加』のターン数を消費したとき、さらにHP割合が最も低い味方のHPを自身の攻撃力×50％回復するようになる。/ Lv3 『防御力増加』のターン数が5ターンになる。",
@@ -1342,6 +1371,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

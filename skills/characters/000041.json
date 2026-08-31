@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription410011]",
           "descriptions": {
+            "ja-JP": "亡き人を弔うためのその花は、生者をも弔う呪いの花となった。ランダムな敵に3回攻撃力×550%の物理攻撃を行う。花は生者を求めて絡みつき、対象の腕力が自身よりも低い場合、50%の確率で1ターンの間『気絶』を付与する。",
             "zh-CN": "娜塔夏用来追悼死者的花，最后化为咒杀生灵的花，随机对敌人进行3次攻击，每次造成攻击力×550%的物理伤害。渴望生命的花朵缠绕生灵，当技能目标的力量低于自己时，50%概率附加「晕厥」状态，效果持续1回合。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription410012]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×595%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×595%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription410013]",
           "descriptions": {
+            "ja-JP": "物理攻撃の回数が5回になる。",
             "zh-CN": "攻击次数增加为5次。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription410014]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription410014]",
             "zh-CN": "[ActiveSkillDescription410014]"
           },
           "equipment_rarity_flags": 128,
@@ -64,6 +68,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription410015]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription410015]",
             "zh-CN": "[ActiveSkillDescription410015]"
           },
           "equipment_rarity_flags": 256,
@@ -75,6 +80,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription410016]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription410016]",
             "zh-CN": "[ActiveSkillDescription410016]"
           },
           "equipment_rarity_flags": 512,
@@ -177,6 +183,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName41001]",
       "names": {
+        "ja-JP": "花葬",
         "zh-CN": "花葬"
       },
       "source_memo_ja": "【弔花の魔女】\\nナターシャSR: /Lv1　亡き人を弔うためのその花は、生者をも弔う呪いの花となった。ランダムな敵に3回攻撃力×550％の物理攻撃を行う。花は生者を求めて絡みつき、対象の腕力が自身よりも低い場合、50％の確率で1ターンの間『気絶』を付与する。　/Lv2 物理攻撃のダメージが攻撃力×595%になる。　/Lv3 物理攻撃の回数が5回になる。　/専用1 花葬を強化する。『気絶』を付与する確率が65％になる。　/専用2 花葬を強化する。『気絶』を付与する確率が75％になる。　/専用3 花葬を強化する。物理攻撃のダメージが攻撃力×610%になる。",
@@ -206,6 +213,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription410021]",
           "descriptions": {
+            "ja-JP": "世界がお花でいっぱいになれば、みんな幸せになれるよね。だから、お花で埋め尽くそう──。ランダムな敵3体に攻撃力×510%の物理攻撃を行う。",
             "zh-CN": "“如果全世界都开满花儿，大家就能过上幸福快乐的生活了。所以，让世界变成一片花海吧……”娜塔夏随机对3名敌人造成攻击力×510%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -220,6 +228,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription410022]",
           "descriptions": {
+            "ja-JP": "さらに対象のHP割合が20%未満の場合、自身の腕力×340%の直接攻撃を行う。",
             "zh-CN": "当技能目标的生命值低于20%时，追加娜塔夏力量×340%的直接伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -234,6 +243,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription410023]",
           "descriptions": {
+            "ja-JP": "このスキルの対象がランダムな敵5体になる。",
             "zh-CN": "技能目标增加为5名随机敌人。"
           },
           "equipment_rarity_flags": 0,
@@ -248,6 +258,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription410024]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×530%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×530%。"
           },
           "equipment_rarity_flags": 0,
@@ -316,6 +327,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName41002]",
       "names": {
+        "ja-JP": "綺麗なお花がいっぱい",
         "zh-CN": "无际花海"
       },
       "source_memo_ja": "【弔花の魔女】\\nナターシャSR: /Lv1　世界がお花でいっぱいになれば、みんな幸せになれるよね。だから、お花で埋め尽くそう──。ランダムな敵3体に攻撃力×510%の物理攻撃を行う。　/Lv2 さらに対象のHP割合が20％未満の場合、自身の腕力×340％の直接攻撃を行う。　/Lv3 このスキルの対象がランダムな敵5体になる。　/Lv4 物理攻撃のダメージが攻撃力×530%になる。",
@@ -780,6 +792,7 @@
       },
       "name_key": "[CharacterCollectionName6]",
       "names": {
+        "ja-JP": "アンドロメダの戦剣",
         "zh-CN": "仙女座的战剑"
       },
       "required_character_ids": [
@@ -792,24 +805,28 @@
         {
           "id": 36,
           "names": {
+            "ja-JP": "トロポン",
             "zh-CN": "托波波"
           }
         },
         {
           "id": 38,
           "names": {
+            "ja-JP": "オリヴィエ",
             "zh-CN": "奥莉维亚"
           }
         },
         {
           "id": 39,
           "names": {
+            "ja-JP": "プリマヴェーラ",
             "zh-CN": "普莉玛维拉"
           }
         },
         {
           "id": 41,
           "names": {
+            "ja-JP": "ナターシャ",
             "zh-CN": "娜塔夏"
           }
         }
@@ -1248,6 +1265,7 @@
       },
       "name_key": "[CharacterCollectionName13]",
       "names": {
+        "ja-JP": "アルファルドの猛火",
         "zh-CN": "孤独者的烈火"
       },
       "required_character_ids": [
@@ -1259,18 +1277,21 @@
         {
           "id": 19,
           "names": {
+            "ja-JP": "ベル",
             "zh-CN": "贝尔"
           }
         },
         {
           "id": 16,
           "names": {
+            "ja-JP": "フレイシア",
             "zh-CN": "小苍兰"
           }
         },
         {
           "id": 41,
           "names": {
+            "ja-JP": "ナターシャ",
             "zh-CN": "娜塔夏"
           }
         }
@@ -1709,6 +1730,7 @@
       },
       "name_key": "[CharacterCollectionName29]",
       "names": {
+        "ja-JP": "ボーテスの聖光",
         "zh-CN": "牧夫座的圣光"
       },
       "required_character_ids": [
@@ -1720,18 +1742,21 @@
         {
           "id": 45,
           "names": {
+            "ja-JP": "エルフリンデ",
             "zh-CN": "埃尔芙琳黛"
           }
         },
         {
           "id": 41,
           "names": {
+            "ja-JP": "ナターシャ",
             "zh-CN": "娜塔夏"
           }
         },
         {
           "id": 46,
           "names": {
+            "ja-JP": "ルナリンド",
             "zh-CN": "露娜琳德"
           }
         }
@@ -2169,6 +2194,7 @@
       },
       "name_key": "[CharacterCollectionName59]",
       "names": {
+        "ja-JP": "ヴェラの花束",
         "zh-CN": "船帆座的繁花"
       },
       "required_character_ids": [
@@ -2179,12 +2205,14 @@
         {
           "id": 105,
           "names": {
+            "ja-JP": "ナターシャ",
             "zh-CN": "娜塔夏"
           }
         },
         {
           "id": 41,
           "names": {
+            "ja-JP": "ナターシャ",
             "zh-CN": "娜塔夏"
           }
         }
@@ -2254,12 +2282,14 @@
     "memo": "ナターシャ",
     "name_key": "[CharacterName41]",
     "names": {
+      "ja-JP": "ナターシャ",
       "zh-CN": "娜塔夏"
     },
     "speed": 2926,
     "start_time_jst": "2020-01-01 00:00:00",
     "subtitle_key": "[CharacterSubName41]",
     "subtitles": {
+      "ja-JP": "弔花の魔女",
       "zh-CN": "悼花魔女"
     }
   },
@@ -2333,6 +2363,7 @@
     },
     "name_key": "[EquipmentName345]",
     "names": {
+      "ja-JP": "花葬の鎌",
       "zh-CN": "葬花之镰"
     },
     "passive_effects": [
@@ -2366,6 +2397,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill41Description1]",
         "descriptions": {
+          "ja-JP": "花葬を強化する。『気絶』を付与する確率が65%になる。",
           "zh-CN": "强化花葬，附加「晕厥」状态的概率提升为65%。"
         },
         "equipment_rarity_flags": 128,
@@ -2374,6 +2406,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill41Description2]",
         "descriptions": {
+          "ja-JP": "花葬を強化する。『気絶』を付与する確率が75%になる。",
           "zh-CN": "强化花葬，附加「晕厥」状态的概率提升为75%。"
         },
         "equipment_rarity_flags": 256,
@@ -2382,6 +2415,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill41Description3]",
         "descriptions": {
+          "ja-JP": "花葬を強化する。物理攻撃のダメージが攻撃力×610%になる。",
           "zh-CN": "强化花葬，造成的物理伤害提升为攻击力×610%。"
         },
         "equipment_rarity_flags": 512,
@@ -2402,6 +2436,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription410031]",
           "descriptions": {
+            "ja-JP": "たとえもう会えなくても、二人の愛は、ずっと胸の中に──。自身のHP割合が50%未満で、攻撃を受けた場合、ダメージを20%遮断する。",
             "zh-CN": "“就算以后见不到爸爸妈妈了，他们的爱还是会永远留在我心中……”当娜塔夏在生命值低于50%时受到攻击，阻绝20%伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -2416,6 +2451,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription410032]",
           "descriptions": {
+            "ja-JP": "ダメージを30%遮断する。",
             "zh-CN": "阻绝30%伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -2430,6 +2466,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription410033]",
           "descriptions": {
+            "ja-JP": "ダメージを40%遮断する。",
             "zh-CN": "阻绝40%伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -2498,6 +2535,7 @@
       },
       "name_key": "[PassiveSkillName41003]",
       "names": {
+        "ja-JP": "両親の愛",
         "zh-CN": "父母的爱"
       },
       "source_memo_ja": "【弔花の魔女】\\nナターシャSR: /Lv1　たとえもう会えなくても、二人の愛は、ずっと胸の中に──。自身のHP割合が50％未満で、攻撃を受けた場合、ダメージを20％遮断する。　/Lv2 被ダメージの減少量が30％になる。　/Lv3 被ダメージの減少量が40％になる。",
@@ -2525,6 +2563,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription410041]",
           "descriptions": {
+            "ja-JP": "その花は絶望を養分に咲き誇る。自身の攻撃力が30%増加する（解除不可）。",
             "zh-CN": "以绝望为养分盛开的花朵，使娜塔夏增加30%攻击力（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -2539,6 +2578,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription410042]",
           "descriptions": {
+            "ja-JP": "さらに自身のクリダメ強化が30%増加する（解除不可）。",
             "zh-CN": "额外增加30%暴击伤害强化（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -2553,6 +2593,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription410043]",
           "descriptions": {
+            "ja-JP": "攻撃力とクリダメ強化の増加量がそれぞれ40%になる。",
             "zh-CN": "攻击力与暴击伤害强化增幅提升为40%。"
           },
           "equipment_rarity_flags": 0,
@@ -2621,6 +2662,7 @@
       },
       "name_key": "[PassiveSkillName41004]",
       "names": {
+        "ja-JP": "弔花の魔女",
         "zh-CN": "悼花魔女"
       },
       "source_memo_ja": "【弔花の魔女】\\nナターシャSR: /Lv1　その花は絶望を養分に咲き誇る。自身の攻撃力が30％増加する（解除不可）。　/Lv2 さらに自身のクリティカルダメージが30％増加する（解除不可）。　/Lv3 攻撃力とクリティカルダメージの増加量がそれぞれ40％になる。",
@@ -2676,6 +2718,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

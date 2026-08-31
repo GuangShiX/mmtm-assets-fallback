@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription1110011]",
           "descriptions": {
+            "ja-JP": "蒼い光と、金の光。前者は少女に悪意を持つ者たちを襲い、後者は守るための力を授ける。いずれも少女一人の力だが、わずかに別の魔女の力が混じっているようだ。4ターンの間攻撃力が最も高い味方の攻撃力とクリティカル率をそれぞれ10%増加させる。その後ランダムな敵5体に攻撃力×180%の魔法攻撃を行う。",
             "zh-CN": "青色光芒与金色光华——前者射向对女孩心怀恶意的敌人，后者带来守护的力量。两者都是属于女孩自身的力量，却又隐约带着来自其他魔女的气息。姬璃使攻击力最高的友军增加10%攻击力与暴击率，效果持续4回合。再随机对5名敌人造成攻击力×180%的魔法伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription1110012]",
           "descriptions": {
+            "ja-JP": "このスキルを7ターン目以降に発動した場合、攻撃力とクリティカル率の増加量がそれぞれ40%になる。",
             "zh-CN": "第7回合起，攻击力与暴击率增幅提升为40%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1110013]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×330%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×330%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1110014]",
           "descriptions": {
+            "ja-JP": "蒼金の祝福を強化する。バフを付与する対象が攻撃力が高い味方2体になる。",
             "zh-CN": "强化青金色祝福，增益效果附加目标增加为攻击力最高的2名友军。"
           },
           "equipment_rarity_flags": 128,
@@ -67,6 +71,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription1110015]",
           "descriptions": {
+            "ja-JP": "蒼金の祝福を強化する。魔法攻撃のダメージが攻撃力×360%になる。",
             "zh-CN": "强化青金色祝福，造成的魔法伤害提升为攻击力×360%。"
           },
           "equipment_rarity_flags": 512,
@@ -147,6 +152,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName111001]",
       "names": {
+        "ja-JP": "蒼金の祝福",
         "zh-CN": "青金色祝福"
       },
       "source_memo_ja": "ティリーSR:Lv1 蒼い光と、金の光。前者は少女に悪意を持つ者たちを襲い、後者は守るための力を授ける。いずれも少女一人の力だが、わずかに別の魔女の力が混じっているようだ。4ターンの間攻撃力が最も高い味方の攻撃力とクリティカル率をそれぞれ10%増加させる。その後ランダムな敵5体に攻撃力×180%の魔法攻撃を行う。/ Lv2 このスキルを7ターン目以降に発動した場合、攻撃力とクリティカル率の増加量がそれぞれ40%になる。/ Lv3 魔法攻撃のダメージが攻撃力×330%になる。/ Ex1 蒼金の祝福を強化する。バフを付与する対象が攻撃力が高い味方2体になる。/ Ex3 蒼金の祝福を強化する。魔法攻撃のダメージが攻撃力×360%になる。",
@@ -184,6 +190,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription1110021]",
           "descriptions": {
+            "ja-JP": "「ごめんなさい。でも仲間が傷つくのは見ていられないんです……！」少女の想いは青い閃光となり、敵の施した幾重の守りさえも打ち砕く。ランダムな敵に3回攻撃力×180%の魔法攻撃を行う。この攻撃は『多重バリア』を付帯している敵を優先的に攻撃する。",
             "zh-CN": "“我很抱歉，可是我不能让你伤害我的同伴……！”姬璃的意念化为青色闪光，击碎敌人布下的重重防线，随机对敌人进行3次攻击，每次造成攻击力×180%的魔法伤害。此攻击优先以身上附带「多重屏障」的敌人为目标。"
           },
           "equipment_rarity_flags": 0,
@@ -198,6 +205,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription1110022]",
           "descriptions": {
+            "ja-JP": "魔法攻撃の回数が4回になる。",
             "zh-CN": "攻击次数增加为4次。"
           },
           "equipment_rarity_flags": 0,
@@ -212,6 +220,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription1110023]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×240%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×240%。"
           },
           "equipment_rarity_flags": 0,
@@ -226,6 +235,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription1110024]",
           "descriptions": {
+            "ja-JP": "魔法攻撃の回数が5回になる。",
             "zh-CN": "攻击次数增加为5次。"
           },
           "equipment_rarity_flags": 0,
@@ -303,6 +313,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName111002]",
       "names": {
+        "ja-JP": "カエルラの閃光",
         "zh-CN": "青蓝色闪光"
       },
       "source_memo_ja": "ティリーSR:Lv1 「ごめんなさい。でも仲間が傷つくのは見ていられないんです……！」少女の想いは青い閃光となり、敵の施した幾重の守りさえも打ち砕く。ランダムな敵に3回攻撃力×180%の魔法攻撃を行う。この攻撃は『多重バリア』を付帯している敵を優先的に攻撃する。/ Lv2 魔法攻撃の回数が4回になる。/ Lv3 魔法攻撃のダメージが攻撃力×240%になる。/ Lv4 魔法攻撃の回数が5回になる。",
@@ -765,6 +776,7 @@
       },
       "name_key": "[CharacterCollectionName66]",
       "names": {
+        "ja-JP": "アクルックスの未来​",
         "zh-CN": "十字架二的未来"
       },
       "required_character_ids": [
@@ -775,12 +787,14 @@
         {
           "id": 111,
           "names": {
+            "ja-JP": "ティリー",
             "zh-CN": "姬璃"
           }
         },
         {
           "id": 113,
           "names": {
+            "ja-JP": "ルスティカ",
             "zh-CN": "鹭丝堤卡"
           }
         }
@@ -850,12 +864,14 @@
     "memo": "ティリー",
     "name_key": "[CharacterName111]",
     "names": {
+      "ja-JP": "ティリー",
       "zh-CN": "姬璃"
     },
     "speed": 3074,
     "start_time_jst": "2025-01-31 15:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -929,6 +945,7 @@
     },
     "name_key": "[EquipmentName765]",
     "names": {
+      "ja-JP": "ラクリモーサ",
       "zh-CN": "流泪之日"
     },
     "passive_effects": [
@@ -962,6 +979,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill111Description1]",
         "descriptions": {
+          "ja-JP": "蒼金の祝福を強化する。バフを付与する対象が攻撃力が高い味方2体になる。",
           "zh-CN": "强化青金色祝福，增益效果附加目标增加为攻击力最高的2名友军。"
         },
         "equipment_rarity_flags": 128,
@@ -970,6 +988,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill111Description2]",
         "descriptions": {
+          "ja-JP": "青い鳥の思い出を強化する。クリティカル耐性率の増加量が60%になる。",
           "zh-CN": "强化青鸟的回忆，抗暴率增幅提升为60%。"
         },
         "equipment_rarity_flags": 256,
@@ -978,6 +997,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill111Description3]",
         "descriptions": {
+          "ja-JP": "蒼金の祝福を強化する。魔法攻撃のダメージが攻撃力×360%になる。",
           "zh-CN": "强化青金色祝福，造成的魔法伤害提升为攻击力×360%。"
         },
         "equipment_rarity_flags": 512,
@@ -998,6 +1018,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription1110031]",
           "descriptions": {
+            "ja-JP": "「お花を持ってきてくれてありがとう。叶うならどうか、あの子と一緒にいてあげて。本当は寂しがりやなの」いつかの彼女の願いは、今も少女を守っている──自身が攻撃を受けたとき、自身のHPを被ダメージ×30%回復する。攻撃で自身が戦闘不能になった場合、このスキルは発動しない。",
             "zh-CN": "“谢谢你带花来看我。希望你能答应我，留在她身旁陪伴她。其实她很怕寂寞的。”奥拉的愿望，至今依然守护着女孩——当姬璃受到攻击时，使自己恢复承受伤害×30%的生命值。当攻击使姬璃失去战斗能力时，无法触发此技能。"
           },
           "equipment_rarity_flags": 0,
@@ -1012,6 +1033,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription1110032]",
           "descriptions": {
+            "ja-JP": "さらにバトル開始時自身の最大HPが80%増加する（解除不可）。",
             "zh-CN": "战斗开始时，使姬璃额外增加80%最大生命值（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1026,6 +1048,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription1110033]",
           "descriptions": {
+            "ja-JP": "HPの回復量が被ダメージ×60%になる。",
             "zh-CN": "生命值恢复量提升为承受伤害×60%。"
           },
           "equipment_rarity_flags": 0,
@@ -1108,6 +1131,7 @@
       },
       "name_key": "[PassiveSkillName111003]",
       "names": {
+        "ja-JP": "金無垢の加護",
         "zh-CN": "澄金色庇佑"
       },
       "source_memo_ja": "ティリーSR:Lv1 「お花を持ってきてくれてありがとう。叶うならどうか、あの子と一緒にいてあげて。本当は寂しがりやなの」いつかの彼女の願いは、今も少女を守っている──自身が攻撃を受けたとき、自身のHPを被ダメージ×30%回復する。この攻撃で自身が戦闘不能になった場合、このスキルは発動しない。/ Lv2 さらにバトル開始時自身の最大HPが80%増加する（解除不可）。/ Lv3 HPの回復量が被ダメージ×60%になる。",
@@ -1135,6 +1159,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription1110041]",
           "descriptions": {
+            "ja-JP": "おばあちゃんは厳しかったけど、優しい人だった。争いばかりの世界でも、温かな思い出は、いつまでもこの胸に留まっている──バトル開始時攻撃力が最も高い味方のクリティカル耐性率を30%増加させる（解除不可）。『クリティカル耐性率増加』は毎ターン開始時もしくは敵が戦闘不能になったとき、敵の生存数が4体以下の場合解除される。",
             "zh-CN": "“奶奶对我很严格，但也是真心地疼我。即使活在纷争不断的世界里，那些温暖的回忆，也会永远留在我心中……”战斗开始时，姬璃使攻击力最高的友军增加30%抗暴率（无法被解除）。在每回合开始时或敌人失去战斗能力后，如果存活在场上的敌人数为4名以下，解除「抗暴率上升」状态。"
           },
           "equipment_rarity_flags": 0,
@@ -1149,6 +1174,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription1110042]",
           "descriptions": {
+            "ja-JP": "『クリティカル耐性率増加』の対象が攻撃力が高い味方2体になる。",
             "zh-CN": "「抗暴率上升」的附加目标增加为攻击力最高的2名友军。"
           },
           "equipment_rarity_flags": 0,
@@ -1163,6 +1189,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription1110043]",
           "descriptions": {
+            "ja-JP": "『クリティカル耐性率増加』の対象が攻撃力が高い味方3体になる。",
             "zh-CN": "「抗暴率上升」的附加目标增加为攻击力最高的3名友军。"
           },
           "equipment_rarity_flags": 0,
@@ -1177,6 +1204,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription1110044]",
           "descriptions": {
+            "ja-JP": "青い鳥の思い出を強化する。クリティカル耐性率の増加量が60%になる。",
             "zh-CN": "强化青鸟的回忆，抗暴率增幅提升为60%。"
           },
           "equipment_rarity_flags": 256,
@@ -1317,6 +1345,7 @@
       },
       "name_key": "[PassiveSkillName111004]",
       "names": {
+        "ja-JP": "青い鳥の思い出",
         "zh-CN": "青鸟的回忆"
       },
       "source_memo_ja": "ティリーSR:Lv1 おばあちゃんは厳しかったけど、優しい人だった。争いばかりの世界でも、温かな思い出は、いつまでもこの胸に留まっている──バトル開始時攻撃力が最も高い味方のクリティカル耐性率を30%増加させる（解除不可）。『クリティカル耐性率増加』は毎ターン開始時もしくは敵が戦闘不能になったとき、敵の生存数が4体以下の場合解除される。/ Lv2 『クリティカル耐性率増加』の対象が攻撃力が高い味方2体になる。/ Lv3 『クリティカル耐性率増加』の対象が攻撃力が高い味方3体になる。/ Ex2 青い鳥の思い出を強化する。クリティカル耐性率の増加量が60%になる。",
@@ -1376,6 +1405,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription160011]",
           "descriptions": {
+            "ja-JP": "強力な突風が吹き荒れ、ランダムな敵3体に攻撃力×260%の魔法攻撃を行う。",
             "zh-CN": "狂风呼啸，小苍兰随机对3名敌人造成攻击力×260%的魔法伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription160012]",
           "descriptions": {
+            "ja-JP": "さらにHP割合が最も低い敵にこのスキルの総与ダメージ×20%の直接攻撃を行う。",
             "zh-CN": "对生命值百分比最低的敌人追加技能总伤害×20%的直接伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription160013]",
           "descriptions": {
+            "ja-JP": "最初の魔法攻撃のダメージが攻撃力×280%になる。",
             "zh-CN": "第一波攻击造成的魔法伤害提升为攻击力×280%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription160014]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription160014]",
             "zh-CN": "[ActiveSkillDescription160014]"
           },
           "equipment_rarity_flags": 128,
@@ -64,6 +68,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription160015]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription160015]",
             "zh-CN": "[ActiveSkillDescription160015]"
           },
           "equipment_rarity_flags": 256,
@@ -75,6 +80,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription160016]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription160016]",
             "zh-CN": "[ActiveSkillDescription160016]"
           },
           "equipment_rarity_flags": 512,
@@ -162,6 +168,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName16001]",
       "names": {
+        "ja-JP": "ファイナルテンペスト",
         "zh-CN": "终焉疾风"
       },
       "source_memo_ja": "フレイシアSR: /Lv1　強力な突風が吹き荒れ、ランダムな敵3体に攻撃力×260%の魔法攻撃を行う。　/Lv2 さらにHP割合が最も低い敵にこのスキルの総与ダメージ×20％の直接攻撃を行う。　/Lv3 最初の魔法攻撃のダメージが攻撃力×280%になる。　/専用1 ファイナルテンペストを強化する。さらに対象の魔力が自身よりも低い場合、1ターンの間クリダメ強化を15％減少させる。　/専用2 ファイナルテンペストを強化する。ファイナルテンペストの対象がランダムな敵5体になる。　/専用3 ファイナルテンペストを強化する。追加の直接攻撃のダメージがこのスキルの総与ダメージ×25%になる。",
@@ -191,6 +198,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription160021]",
           "descriptions": {
+            "ja-JP": "花の香り漂う風が、傷ついた仲間を包み込む。HP割合が低い味方3体のHPを自身の魔力×250%回復する。",
             "zh-CN": "习习和风带着花香，吹拂负伤的同伴，使生命值百分比最低的3名友军恢复小苍兰魔力×250%的生命值。"
           },
           "equipment_rarity_flags": 0,
@@ -205,6 +213,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription160022]",
           "descriptions": {
+            "ja-JP": "回復の前に対象のHP割合が15%以下の場合、回復量が1.5倍になる。",
             "zh-CN": "如果技能目标原本的生命值为15%以下，恢复量增加为1.5倍。"
           },
           "equipment_rarity_flags": 0,
@@ -219,6 +228,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription160023]",
           "descriptions": {
+            "ja-JP": "回復の前に対象のHP割合が15%以下の場合、さらに2ターンの間対象の防御力を20%増加させるようになる。",
             "zh-CN": "如果技能目标原本的生命值为15%以下，小苍兰使技能目标额外增加20%防御力，效果持续2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -233,6 +243,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription160024]",
           "descriptions": {
+            "ja-JP": "HPの回復量が自身の魔力×270%になる。",
             "zh-CN": "生命值恢复量提升为小苍兰魔力×270%。"
           },
           "equipment_rarity_flags": 0,
@@ -298,6 +309,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName16002]",
       "names": {
+        "ja-JP": "エデンフラワー",
         "zh-CN": "伊甸之花"
       },
       "source_memo_ja": "フレイシアSR: /Lv1　花の香り漂う風が、傷ついた仲間を包み込む。HP割合が低い味方3体のHPを自身の魔力×250%回復する。　/Lv2 回復の前に対象のHP割合が15％以下の場合、回復量が1.5倍になる。　/Lv3 回復の前に対象のHP割合が15％以下の場合、さらに2ターンの間対象の防御力を20％増加させるようになる。　/Lv4 HPの回復量が自身の魔力×270%になる。",
@@ -753,6 +765,7 @@
       },
       "name_key": "[CharacterCollectionName3]",
       "names": {
+        "ja-JP": "ジェミニの庇翼",
         "zh-CN": "双子座的庇翼"
       },
       "required_character_ids": [
@@ -764,18 +777,21 @@
         {
           "id": 16,
           "names": {
+            "ja-JP": "フレイシア",
             "zh-CN": "小苍兰"
           }
         },
         {
           "id": 18,
           "names": {
+            "ja-JP": "リーン",
             "zh-CN": "琳恩"
           }
         },
         {
           "id": 20,
           "names": {
+            "ja-JP": "ディアン",
             "zh-CN": "黛安"
           }
         }
@@ -1214,6 +1230,7 @@
       },
       "name_key": "[CharacterCollectionName13]",
       "names": {
+        "ja-JP": "アルファルドの猛火",
         "zh-CN": "孤独者的烈火"
       },
       "required_character_ids": [
@@ -1225,18 +1242,21 @@
         {
           "id": 19,
           "names": {
+            "ja-JP": "ベル",
             "zh-CN": "贝尔"
           }
         },
         {
           "id": 16,
           "names": {
+            "ja-JP": "フレイシア",
             "zh-CN": "小苍兰"
           }
         },
         {
           "id": 41,
           "names": {
+            "ja-JP": "ナターシャ",
             "zh-CN": "娜塔夏"
           }
         }
@@ -1675,6 +1695,7 @@
       },
       "name_key": "[CharacterCollectionName22]",
       "names": {
+        "ja-JP": "ムネモシネの契約",
         "zh-CN": "忆神星的契约"
       },
       "required_character_ids": [
@@ -1686,18 +1707,21 @@
         {
           "id": 40,
           "names": {
+            "ja-JP": "カロル",
             "zh-CN": "卡罗"
           }
         },
         {
           "id": 16,
           "names": {
+            "ja-JP": "フレイシア",
             "zh-CN": "小苍兰"
           }
         },
         {
           "id": 26,
           "names": {
+            "ja-JP": "マーリン",
             "zh-CN": "梅琳"
           }
         }
@@ -2135,6 +2159,7 @@
       },
       "name_key": "[CharacterCollectionName46]",
       "names": {
+        "ja-JP": "カリーナの初恋",
         "zh-CN": "船底座的初恋"
       },
       "required_character_ids": [
@@ -2145,12 +2170,14 @@
         {
           "id": 88,
           "names": {
+            "ja-JP": "ロザリー",
             "zh-CN": "罗莎莉"
           }
         },
         {
           "id": 16,
           "names": {
+            "ja-JP": "フレイシア",
             "zh-CN": "小苍兰"
           }
         }
@@ -2220,12 +2247,14 @@
     "memo": "フレイシア",
     "name_key": "[CharacterName16]",
     "names": {
+      "ja-JP": "フレイシア",
       "zh-CN": "小苍兰"
     },
     "speed": 2680,
     "start_time_jst": "2020-01-01 00:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -2299,6 +2328,7 @@
     },
     "name_key": "[EquipmentName243]",
     "names": {
+      "ja-JP": "六花の教本",
       "zh-CN": "谈花手记"
     },
     "passive_effects": [
@@ -2332,6 +2362,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill16Description1]",
         "descriptions": {
+          "ja-JP": "ファイナルテンペストを強化する。さらに対象の魔力が自身よりも低い場合、1ターンの間クリダメ強化を15%減少させる。",
           "zh-CN": "强化终焉疾风，当技能目标的魔力低于小苍兰时，使技能目标额外减少15%暴击伤害强化，效果持续1回合。"
         },
         "equipment_rarity_flags": 128,
@@ -2340,6 +2371,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill16Description2]",
         "descriptions": {
+          "ja-JP": "ファイナルテンペストを強化する。ファイナルテンペストの対象がランダムな敵5体になる。",
           "zh-CN": "强化终焉疾风，技能目标增加为5名随机敌人。"
         },
         "equipment_rarity_flags": 256,
@@ -2348,6 +2380,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill16Description3]",
         "descriptions": {
+          "ja-JP": "ファイナルテンペストを強化する。追加の直接攻撃のダメージがこのスキルの総与ダメージ×25%になる。",
           "zh-CN": "强化终焉疾风，追加攻击造成的直接伤害提升为技能总伤害×25%。"
         },
         "equipment_rarity_flags": 512,
@@ -2368,6 +2401,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription160031]",
           "descriptions": {
+            "ja-JP": "もう誰にも傷ついてほしくないから──生きる力を宿した風が、仲間を包み込む。自身が生存している間味方全体の被ダメージが5%減少する（解除不可）。",
             "zh-CN": "不希望再看到任何人受伤的小苍兰，用充满生命力的清风吹拂同伴。当小苍兰存活在场上时，使全体友军减少5%承受伤害（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -2382,6 +2416,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription160032]",
           "descriptions": {
+            "ja-JP": "被ダメージの減少量が10%になり、さらに味方全体の回避率を10%増加させる（解除不可）。",
             "zh-CN": "承受伤害降幅提升为10%，并使全体友军额外增加10%闪避率（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -2396,6 +2431,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription160033]",
           "descriptions": {
+            "ja-JP": "被ダメージの減少量が15%、回避率の増加量が15%になる。",
             "zh-CN": "承受伤害降幅与闪避率增幅提升为15%。"
           },
           "equipment_rarity_flags": 0,
@@ -2506,6 +2542,7 @@
       },
       "name_key": "[PassiveSkillName16003]",
       "names": {
+        "ja-JP": "虹色の光風",
         "zh-CN": "七彩的光风"
       },
       "source_memo_ja": "フレイシアSR: /Lv1　もう誰にも傷ついてほしくないから──生きる力を宿した風が、仲間を包み込む。自身が生存している間味方全体の被ダメージが5％減少する（解除不可）。　/Lv2 被ダメージの減少量が10％になり、さらに味方全体の回避率を10%増加させる（解除不可）。　/Lv3 被ダメージの減少量が15％、回避率の増加量が15％になる。",
@@ -2533,6 +2570,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription160041]",
           "descriptions": {
+            "ja-JP": "あの人がくれた心の種が花開く時。自身の通常攻撃を強化する。通常攻撃時30%の確率で、自身のHPを自身の攻撃力×10%回復する。",
             "zh-CN": "奶奶在她心中留下种子，如今正是种子开花的时刻。小苍兰强化自己的普通攻击，普攻时30%概率使自己恢复攻击力×10%的生命值。"
           },
           "equipment_rarity_flags": 0,
@@ -2547,6 +2585,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription160042]",
           "descriptions": {
+            "ja-JP": "HP回復の対象が自身とHP割合が最も低い味方になる。",
             "zh-CN": "生命值恢复目标增加为小苍兰与生命值百分比最低的友军。"
           },
           "equipment_rarity_flags": 0,
@@ -2561,6 +2600,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription160043]",
           "descriptions": {
+            "ja-JP": "HPの回復量が自身の攻撃力×20%になる。",
             "zh-CN": "生命值恢复量提升为小苍兰攻击力×20%。"
           },
           "equipment_rarity_flags": 0,
@@ -2629,6 +2669,7 @@
       },
       "name_key": "[PassiveSkillName16004]",
       "names": {
+        "ja-JP": "ココロのタネ",
         "zh-CN": "心之种子"
       },
       "source_memo_ja": "フレイシアSR: /Lv1　あの人がくれた心の種が花開く時。自身の通常攻撃を強化する。通常攻撃時30%の確率で、自身のHPを自身の攻撃力×10％回復する。　/Lv2 HP回復の対象が自身とHP割合が最も低い味方になる。　/Lv3 HPの回復量が自身の攻撃力×20％になる。",
@@ -2684,6 +2725,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

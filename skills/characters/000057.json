@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription570011]",
           "descriptions": {
+            "ja-JP": "「闇の支配者たる我が命じる……滅びよ！」自作の呪文で、HP割合が低い敵2体に攻撃力×300%の物理攻撃を行い、20%の確率で1ターンの間対象に『沈黙』を付与する。「倒れてください倒れてください倒れてください……」言霊の力が敵の行動を食い止める呪いとなり、対象の腕力が自身よりも低い場合、『沈黙』を付与する確率が40%になる。",
             "zh-CN": "“吾乃黑暗支配者……听吾号令——毁灭吧！”史黛拉施展自创的咒语，对生命值百分比最低的2名敌人造成攻击力×300%的物理伤害，20%概率附加「沉默」状态，效果持续1回合。“快倒下去吧快倒下去吧快倒下去吧……”言语中的力量化为封印敌人行动的诅咒，当技能目标的力量低于自己时，附加「沉默」状态的概率提升为40%。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription570012]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×400%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×400%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription570013]",
           "descriptions": {
+            "ja-JP": "このスキルの対象がHP割合が低い敵3体になる。",
             "zh-CN": "技能目标增加为生命值百分比最低的3名敌人。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription570014]",
           "descriptions": {
+            "ja-JP": "",
             "zh-CN": ""
           },
           "equipment_rarity_flags": 128,
@@ -118,6 +122,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName57001]",
       "names": {
+        "ja-JP": "カオス・スペル",
         "zh-CN": "混沌魔咒"
       },
       "source_memo_ja": "ステラSR:Lv1 「闇の支配者たる我が命じる……滅びよ！」自作の呪文で、HP割合が低い敵2体に攻撃力×300%の物理攻撃を行い、20%の確率で1ターンの間対象に『沈黙』を付与する。「倒れてください倒れてください倒れてください……」言霊の力が敵の行動を食い止める呪いとなり、対象の腕力が自身よりも低い場合、『沈黙』を付与する確率が40%になる。/ Lv2 物理攻撃のダメージが攻撃力×400%になる。/ Lv3 このスキルの対象がHP割合が低い敵3体になる。/ Ex1 カオス・スペルを強化する。『沈黙』を付与する確率が40%、対象の腕力が自身よりも低い場合80%になる。",
@@ -151,6 +156,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription570021]",
           "descriptions": {
+            "ja-JP": "「ついに封印を解く時が来たようだな！」眼帯の中に封じてきた大いなる力が解放される。攻撃力が最も高い敵に攻撃力×800%の物理攻撃を行い、HP割合が最も低い味方のHPをこのスキルの総与ダメージ×25%回復する。",
             "zh-CN": "“看来是我解除封印的时候了！”史黛拉解放封印在眼罩下的强大力量，对攻击力最高的敌人造成攻击力×800%的物理伤害，使生命值百分比最低的友军恢复技能总伤害×25%的生命值。"
           },
           "equipment_rarity_flags": 0,
@@ -165,6 +171,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription570022]",
           "descriptions": {
+            "ja-JP": "HP回復量がこのスキルの総与ダメージ×50%になる。",
             "zh-CN": "生命值恢复量提升为技能总伤害×50%。"
           },
           "equipment_rarity_flags": 0,
@@ -179,6 +186,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription570023]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×1000%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×1000%。"
           },
           "equipment_rarity_flags": 0,
@@ -193,6 +201,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription570024]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×1200%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×1200%。"
           },
           "equipment_rarity_flags": 0,
@@ -262,6 +271,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName57002]",
       "names": {
+        "ja-JP": "邪眼発動",
         "zh-CN": "邪眼启动"
       },
       "source_memo_ja": "ステラSR:Lv1 「ついに封印を解く時が来たようだな！」眼帯の中に封じてきた大いなる力が解放される。攻撃力が最も高い敵に攻撃力×800%の物理攻撃を行い、HP割合が最も低い味方のHPをこのスキルの総与ダメージ×25%回復する。/ Lv2 HP回復量がこのスキルの総与ダメージ×50%になる。/ Lv3 物理攻撃のダメージが攻撃力×1000%になる。/ Lv4 物理攻撃のダメージが攻撃力×1200%になる。",
@@ -717,6 +727,7 @@
       },
       "name_key": "[CharacterCollectionName27]",
       "names": {
+        "ja-JP": "テレスコピウムの星光",
         "zh-CN": "望远镜座的星光"
       },
       "required_character_ids": [
@@ -728,18 +739,21 @@
         {
           "id": 57,
           "names": {
+            "ja-JP": "ステラ",
             "zh-CN": "史黛拉"
           }
         },
         {
           "id": 26,
           "names": {
+            "ja-JP": "マーリン",
             "zh-CN": "梅琳"
           }
         },
         {
           "id": 46,
           "names": {
+            "ja-JP": "ルナリンド",
             "zh-CN": "露娜琳德"
           }
         }
@@ -1177,6 +1191,7 @@
       },
       "name_key": "[CharacterCollectionName85]",
       "names": {
+        "ja-JP": "テレスコピウムの星影",
         "zh-CN": "望远镜座的星辉"
       },
       "required_character_ids": [
@@ -1187,12 +1202,14 @@
         {
           "id": 132,
           "names": {
+            "ja-JP": "ステラ",
             "zh-CN": "史黛拉"
           }
         },
         {
           "id": 57,
           "names": {
+            "ja-JP": "ステラ",
             "zh-CN": "史黛拉"
           }
         }
@@ -1263,12 +1280,14 @@
     "memo": "ステラ",
     "name_key": "[CharacterName57]",
     "names": {
+      "ja-JP": "ステラ",
       "zh-CN": "史黛拉"
     },
     "speed": 2698,
     "start_time_jst": "2023-09-15 15:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -1343,6 +1362,7 @@
     },
     "name_key": "[EquipmentName441]",
     "names": {
+      "ja-JP": "混沌の覇者",
       "zh-CN": "混沌霸主"
     },
     "passive_effects": [
@@ -1376,6 +1396,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill57Description1]",
         "descriptions": {
+          "ja-JP": "カオス・スペルを強化する。『沈黙』を付与する確率が40%、対象の腕力が自身よりも低い場合80%になる。",
           "zh-CN": "强化混沌魔咒，附加「沉默」状态的概率提升为40%。当技能目标的力量低于史黛拉时，附加「沉默」状态的概率提升为80%。"
         },
         "equipment_rarity_flags": 128,
@@ -1384,6 +1405,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill57Description2]",
         "descriptions": {
+          "ja-JP": "星を統べる者を強化する。『沈黙』を付与する確率が80%になる。",
           "zh-CN": "强化星辰主宰，附加「沉默」状态的概率提升为80%。"
         },
         "equipment_rarity_flags": 256,
@@ -1392,6 +1414,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill57Description3]",
         "descriptions": {
+          "ja-JP": "バトル開始時1ターンの間自身のスピードが25%増加する（解除不可）。",
           "zh-CN": "战斗开始时，使史黛拉增加25%速度，效果持续1回合（无法被解除）。"
         },
         "equipment_rarity_flags": 512,
@@ -1412,6 +1435,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription570031]",
           "descriptions": {
+            "ja-JP": "長年練習し続けた自作の呪文が、本物の魔法となる──。1ターン目のターン開始時自身に3ターンの間自身の攻撃力×400%の『シールド』を付与する（解除不可）。",
             "zh-CN": "长年以来不断练习的自创咒语变成真正的魔法——第1回合开始时，史黛拉获得攻击力×400%的「护盾」，效果持续3回合（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1426,6 +1450,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription570032]",
           "descriptions": {
+            "ja-JP": "『シールド』のターン数が6ターンになる。",
             "zh-CN": "「护盾」效果增加为6回合。"
           },
           "equipment_rarity_flags": 0,
@@ -1440,6 +1465,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription570033]",
           "descriptions": {
+            "ja-JP": "『シールド』の大きさが自身の攻撃力×800%になる。",
             "zh-CN": "「护盾」值提升为攻撃力×800%。"
           },
           "equipment_rarity_flags": 0,
@@ -1508,6 +1534,7 @@
       },
       "name_key": "[PassiveSkillName57003]",
       "names": {
+        "ja-JP": "ステラさんシールド",
         "zh-CN": "史黛拉至尊护盾"
       },
       "source_memo_ja": "ステラSR:Lv1 長年練習し続けた自作の呪文が、本物の魔法となる――。バトル開始時自身に3ターンの間自身の攻撃力×400%の『シールド』を付与する（解除不可）。/ Lv2 『シールド』のターン数が6ターンになる。/ Lv3 『シールド』の大きさが自身の攻撃力×800%になる。",
@@ -1535,6 +1562,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription570041]",
           "descriptions": {
+            "ja-JP": "「ボスの光は、いつだって私を守ってくれる──」バトル開始時10ターンの間自身の防御力が25%増加する。自身が攻撃を受けたとき、自身が付与した『防御力増加』のターン数が1減少する。自身で付与した『防御力増加』を付帯していない状態で自身が攻撃を受けたとき、10ターンの間自身の防御力が25%増加し、40%の確率でランダムな敵5体に1ターンの間『沈黙』を付与する。攻撃で自身が戦闘不能になった場合、このスキルは発動しない。",
             "zh-CN": "“老大的光芒，总是在身边保护着我……”战斗开始时，史黛拉使自己增加25%防御力，效果持续10回合。每次受到攻击时，该「防御力上升」效果减少1回合。当史黛拉受到攻击，且身上没有自己附加的「防御力上升」效果时，使自己增加25%防御力，效果持续10回合，并以40%概率随机对5名敌人附加「沉默」状态，效果持续1回合。当攻击使史黛拉失去战斗能力时，无法触发此技能。"
           },
           "equipment_rarity_flags": 0,
@@ -1549,6 +1577,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription570042]",
           "descriptions": {
+            "ja-JP": "防御力の増加量が50%になる。",
             "zh-CN": "防御力增幅提升为50%。"
           },
           "equipment_rarity_flags": 0,
@@ -1563,6 +1592,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription570043]",
           "descriptions": {
+            "ja-JP": "『沈黙』のターン数が2ターンになる。",
             "zh-CN": "「沉默」效果增加为2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -1577,6 +1607,7 @@
           "character_level": 181,
           "description_key": "[PassiveSkillDescription570044]",
           "descriptions": {
+            "ja-JP": "",
             "zh-CN": ""
           },
           "equipment_rarity_flags": 256,
@@ -1717,6 +1748,7 @@
       },
       "name_key": "[PassiveSkillName57004]",
       "names": {
+        "ja-JP": "星を統べる者",
         "zh-CN": "星辰主宰"
       },
       "source_memo_ja": "ステラSR:Lv1 「ボスの光は、いつだって私を守ってくれる――」バトル開始時10ターンの間自身の防御力が25%増加する。自身が攻撃を受けたとき、自身が付与した『防御力増加』のターン数が1減少する。自身で付与した『防御力増加』を付帯していない状態で自身が攻撃を受けたとき、40%の確率でランダムな敵5体に1ターンの間『沈黙』を付与し、10ターンの間自身の防御力が25%増加する。この攻撃で自身が戦闘不能になった場合、このスキルは発動しない。/ Lv2 防御力の増加量が50%になる。/ Lv3 『沈黙』のターン数が2ターンになる。/ Ex2 星を統べる者を強化する。『沈黙』を付与する確率が80%になる。",
@@ -1748,6 +1780,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription570051]",
           "descriptions": {
+            "ja-JP": "",
             "zh-CN": ""
           },
           "equipment_rarity_flags": 512,
@@ -1784,6 +1817,7 @@
       },
       "name_key": null,
       "names": {
+        "ja-JP": null,
         "zh-CN": null
       },
       "source_memo_ja": "ステラSR:Ex3 バトル開始時1ターンの間自身のスピードが25%増加する（解除不可）。",
@@ -1831,6 +1865,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

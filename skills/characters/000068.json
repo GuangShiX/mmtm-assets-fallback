@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription680011]",
           "descriptions": {
+            "ja-JP": "行動を阻害するジャミング砲弾を敵の頭上で破裂させ、ランダムな敵5体に攻撃力×380%の物理攻撃を行う。充填された特殊金属片が周囲に降りそそぎ、40%の確率で2ターンの間対象の弱体効果命中率を50%減少させ『バフ無効』を付与する。これらは一つの弱体効果として扱う。",
             "zh-CN": "阻碍行动的干扰弹在敌人上方爆炸，随机对5名敌人造成攻击力×380%的物理伤害。炮弹内装填的特殊金属片迸落在四周，40%概率对技能目标附加1种弱化效果，该效果包含减少50%弱化效果命中率并附加「增益效果免疫」状态，效果持续2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription680012]",
           "descriptions": {
+            "ja-JP": "『弱体効果命中率減少』と『バフ無効』のターン数が4ターンになる。",
             "zh-CN": "「弱化效果命中率下降」与「增益效果免疫」效果增加为4回合。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription680013]",
           "descriptions": {
+            "ja-JP": "『弱体効果命中率減少』と『バフ無効』を付与する確率が70%になる。",
             "zh-CN": "附加「弱化效果命中率下降」与「增益效果免疫」状态的概率提升为70%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription680014]",
           "descriptions": {
+            "ja-JP": "ジャミング砲弾を強化する。物理攻撃のダメージが攻撃力×480%になる。",
             "zh-CN": "强化干扰弹，造成的物理伤害提升为攻击力×480%。"
           },
           "equipment_rarity_flags": 128,
@@ -118,6 +122,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName68001]",
       "names": {
+        "ja-JP": "ジャミング砲弾",
         "zh-CN": "干扰弹"
       },
       "source_memo_ja": "フェーネSR:Lv1 行動を阻害するジャミング砲弾を敵の頭上で破裂させ、ランダムな敵5体に攻撃力×380%の物理攻撃を行う。充填された特殊金属片が周囲に降りそそぎ、40%の確率で2ターンの間対象の弱体効果命中率を50%減少させ『バフ無効』を付与する。これらは1つの弱体効果として扱う。/ Lv2 『弱体効果命中率減少』と『バフ無効』のターン数が4ターンになる。/ Lv3 『弱体効果命中率減少』と『バフ無効』を付与する確率が70%になる。/ Ex1 ジャミング砲弾を強化する。物理攻撃のダメージが攻撃力×480%になる。",
@@ -151,6 +156,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription680021]",
           "descriptions": {
+            "ja-JP": "悪魔の体を内側から破壊する特殊弾頭砲弾で、脅威認定した敵を狙い撃つ。HP割合が最も高い敵に攻撃力×580%の物理攻撃を行い、40%の確率で2ターンの間対象に『浸食』を付与する。毎ターン行動開始時にこのスキルの総与ダメージ×40%のダメージを与える。バトル中このスキルを発動するのが2回目以降の場合、物理攻撃のダメージが2倍になる。",
             "zh-CN": "菲尼锁定具有威胁性的敌人，发射弹头经过改造、可从恶魔体内进行破坏的特殊炮弹，对生命值百分比最高的敌人造成攻击力×580%的物理伤害，40%概率附加「侵蚀」状态，效果持续2回合，每回合行动开始时造成技能总伤害×40%的伤害。战斗中自第2次发动此技能起，造成的物理伤害增加为2倍。"
           },
           "equipment_rarity_flags": 0,
@@ -165,6 +171,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription680022]",
           "descriptions": {
+            "ja-JP": "『浸食』のターン数が4ターンになる。",
             "zh-CN": "「侵蚀」效果增加为4回合。"
           },
           "equipment_rarity_flags": 0,
@@ -179,6 +186,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription680023]",
           "descriptions": {
+            "ja-JP": "『浸食』を付与する確率が70%になる。",
             "zh-CN": "附加「侵蚀」状态的概率提升为70%。"
           },
           "equipment_rarity_flags": 0,
@@ -193,6 +201,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription680024]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×680%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×680%。"
           },
           "equipment_rarity_flags": 0,
@@ -207,6 +216,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription680025]",
           "descriptions": {
+            "ja-JP": "魔力浸透砲弾を強化する。『浸食』のダメージがスキルの総与ダメージ×50%になる。",
             "zh-CN": "强化魔力渗透弹，「侵蚀」造成的伤害提升为技能总伤害×50%。"
           },
           "equipment_rarity_flags": 512,
@@ -282,6 +292,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName68002]",
       "names": {
+        "ja-JP": "魔力浸透砲弾",
         "zh-CN": "魔力渗透弹"
       },
       "source_memo_ja": "フェーネSR:Lv1 悪魔の体を内側から破壊する特殊弾頭砲弾で、脅威認定した敵を狙い撃つ。HP割合が最も高い敵に攻撃力×580%の物理攻撃を行い、40%の確率で2ターンの間対象に『浸食』を付与する。毎ターン行動開始時にこのスキルの総与ダメージ×40%のダメージを与える。バトル中このスキルを使うのが2回目以降の場合、物理攻撃のダメージが2倍になる。/ Lv2 『浸食』のターン数が4ターンになる。/ Lv3 『浸食』を付与する確率が70%になる。/ Lv4 物理攻撃のダメージが攻撃力×680%になる。/ Ex3 魔力浸透砲弾を強化する。『浸食』のダメージがスキルの総与ダメージ×50%になる。",
@@ -740,6 +751,7 @@
       },
       "name_key": "[CharacterCollectionName32]",
       "names": {
+        "ja-JP": "カマエレオンの制圧",
         "zh-CN": "蝘蜓座的压制"
       },
       "required_character_ids": [
@@ -750,12 +762,14 @@
         {
           "id": 68,
           "names": {
+            "ja-JP": "フェーネ",
             "zh-CN": "菲尼"
           }
         },
         {
           "id": 20,
           "names": {
+            "ja-JP": "ディアン",
             "zh-CN": "黛安"
           }
         }
@@ -826,12 +840,14 @@
     "memo": "フェーネ",
     "name_key": "[CharacterName68]",
     "names": {
+      "ja-JP": "フェーネ",
       "zh-CN": "菲尼"
     },
     "speed": 2853,
     "start_time_jst": "2023-11-15 15:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -906,6 +922,7 @@
     },
     "name_key": "[EquipmentName507]",
     "names": {
+      "ja-JP": "M260携行型砲撃銃",
       "zh-CN": "M260手持型冲击炮"
     },
     "passive_effects": [
@@ -939,6 +956,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill68Description1]",
         "descriptions": {
+          "ja-JP": "ジャミング砲弾を強化する。物理攻撃のダメージが攻撃力×480%になる。",
           "zh-CN": "强化干扰弹，造成的物理伤害提升为攻击力×480%。"
         },
         "equipment_rarity_flags": 128,
@@ -947,6 +965,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill68Description2]",
         "descriptions": {
+          "ja-JP": "バトル開始時自身以外のスピードが低い味方2体の最大HPを30%増加させる（解除不可）。",
           "zh-CN": "战斗开始时，使速度最低的2名其他友军增加30%最大生命值（无法被解除）。"
         },
         "equipment_rarity_flags": 256,
@@ -955,6 +974,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill68Description3]",
         "descriptions": {
+          "ja-JP": "魔力浸透砲弾を強化する。『浸食』のダメージがスキルの総与ダメージ×50%になる。",
           "zh-CN": "强化魔力渗透弹，「侵蚀」造成的伤害提升为技能总伤害×50%。"
         },
         "equipment_rarity_flags": 512,
@@ -977,6 +997,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription680031]",
           "descriptions": {
+            "ja-JP": "自身の位置を特定された時、即座に身を隠すのも優秀な砲兵に必要な能力である。自身が攻撃を受けて、HP割合が40%未満になり、味方の生存数が2体以上の場合、2ターンの間自身に『透明』を付与する（解除不可）。このスキルはバトル中1回のみ発動する。",
             "zh-CN": "所在位置遭敌人锁定时，一名优秀的炮兵必须能立即隐藏自己的行踪。当菲尼受到攻击，生命值低于40%且存活在场上的友军数为2名以上时，获得「透明」状态，效果持续2回合（无法被解除）。此技能每场战斗最多触发1次。"
           },
           "equipment_rarity_flags": 0,
@@ -991,6 +1012,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription680032]",
           "descriptions": {
+            "ja-JP": "自身が攻撃を受けたとき、『透明』を付与するHP割合の条件が70%未満になる。",
             "zh-CN": "当菲尼受到攻击，生命值低于70%且存活在场上的友军数为2名以上时，获得「透明」状态，效果持续2回合（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1005,6 +1027,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription680033]",
           "descriptions": {
+            "ja-JP": "『透明』のターン数が3ターンになる。",
             "zh-CN": "「透明」效果增加为3回合。"
           },
           "equipment_rarity_flags": 0,
@@ -1073,6 +1096,7 @@
       },
       "name_key": "[PassiveSkillName68003]",
       "names": {
+        "ja-JP": "砲兵部隊上級兵",
         "zh-CN": "炮兵部队上级兵"
       },
       "source_memo_ja": "フェーネSR:Lv1 自身の位置を特定された時、即座に身を隠すのも優秀な砲兵に必要な能力である。自身が攻撃を受けて、HP割合が40%未満になり、味方の生存数が2体以上の場合、2ターンの間自身に『透明』を付与する（解除不可）。このスキルはバトル中1回のみ発動する。/ Lv2 自身が攻撃を受けたとき、『透明』を付与するHP割合の条件が70％未満になる/ Lv3 『透明』のターン数が3ターンになる。",
@@ -1100,6 +1124,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription680041]",
           "descriptions": {
+            "ja-JP": "開発段階のため一度しか使用できないが、特殊機構の採用により即座に次弾装填が可能となった。3ターン目のターン開始時、自身の魔力浸透砲弾のスキルクールタイムカウントを0にする。このスキルはバトル中1回のみ発動する。",
             "zh-CN": "菲尼采用目前还在研发阶段，只能使用一次的特殊装置，让自己得以在开炮后立刻重新装填弹药。第3回合开始时，菲尼重置魔力渗透弹的技能冷却时间。此技能每场战斗最多触发1次。"
           },
           "equipment_rarity_flags": 0,
@@ -1114,6 +1139,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription680042]",
           "descriptions": {
+            "ja-JP": "3ターン目のターン開始時、さらに1ターンの間自身のスピードが15%増加する（解除不可）。",
             "zh-CN": "第3回合开始时，菲尼使自己额外增加15%速度，效果持续1回合（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1128,6 +1154,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription680043]",
           "descriptions": {
+            "ja-JP": "スピードの増加量が30%になる。",
             "zh-CN": "速度增幅提升为30%。"
           },
           "equipment_rarity_flags": 0,
@@ -1196,6 +1223,7 @@
       },
       "name_key": "[PassiveSkillName68004]",
       "names": {
+        "ja-JP": "高速装填装置",
         "zh-CN": "高速装填装置"
       },
       "source_memo_ja": "フェーネSR:Lv1 開発段階のため一度しか使用できないが、特殊機構の採用により即座に次弾装填が可能となった。3ターン目のターン開始時、自身の魔力浸透砲弾のスキルクールタイムカウントを0にする。このスキルはバトル中1回のみ発動する。/ Lv2 3ターン目のターン開始時、さらに1ターンの間自身のスピードが15%増加する（解除不可）。/ Lv3 スピードの増加量が30%になる。",
@@ -1223,6 +1251,7 @@
           "character_level": 181,
           "description_key": "[PassiveSkillDescription680051]",
           "descriptions": {
+            "ja-JP": "バトル開始時自身以外のスピードが低い味方2体の最大HPを30%増加させる（解除不可）。",
             "zh-CN": "战斗开始时，使速度最低的2名其他友军增加30%最大生命值（无法被解除）。"
           },
           "equipment_rarity_flags": 256,
@@ -1259,6 +1288,7 @@
       },
       "name_key": "*",
       "names": {
+        "ja-JP": null,
         "zh-CN": null
       },
       "source_memo_ja": "フェーネSR:Lv1 バトル開始時自身以外のスピードが低い味方2体の最大HPを30%増加させる（解除不可）。",
@@ -1306,6 +1336,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

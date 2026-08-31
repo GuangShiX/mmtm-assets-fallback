@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription440011]",
           "descriptions": {
+            "ja-JP": "水底から精霊を呼び出し、触れた者を腐敗させる呪いの雨を降らせる。ランダムな敵5体に攻撃力×320%の魔法攻撃を行い、50%の確率で1ターンの間対象の与ダメージを10%減少させる。対象の魔力が自身よりも低い場合、『与ダメージ減少』を付与する確率が100%になる。",
             "zh-CN": "露莎卡召唤湖水深处的精灵，降下腐蚀万物的诅咒之雨，随机对5名敌人造成攻击力×320%的魔法伤害，50%概率使技能目标减少10%输出伤害，效果持续1回合。当技能目标的魔力低于自己时，附加「输出伤害下降」状态的概率提升为100%。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription440012]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×480%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×480%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription440013]",
           "descriptions": {
+            "ja-JP": "与ダメージの減少量が15%になる。",
             "zh-CN": "输出伤害降幅提升为15%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription440014]",
           "descriptions": {
+            "ja-JP": "",
             "zh-CN": ""
           },
           "equipment_rarity_flags": 128,
@@ -67,6 +71,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription440015]",
           "descriptions": {
+            "ja-JP": "",
             "zh-CN": ""
           },
           "equipment_rarity_flags": 256,
@@ -142,6 +147,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName44001]",
       "names": {
+        "ja-JP": "キキーモラの腐り雨",
         "zh-CN": "奇奇莫拉的腐雨"
       },
       "source_memo_ja": "【天泣の魔女】ルサールカSR: Lv1 水底から精霊を呼び出し、触れた者を腐敗させる呪いの雨を降らせる。ランダムな敵5体に攻撃力×320％の魔法攻撃を行う。対象の魔力が自身よりも低い場合100%、そうでない場合50％の確率で1ターンの間対象の与ダメージを10%減少させる。 / Lv2 \\n魔法攻撃のダメージが攻撃力×480%になる。 / Lv3 \\n与ダメージの減少量が15％になる。 / Ex1 \\nキキーモラの腐り雨を強化する。『与ダメージ減少』のターン数が2ターンになる。/ Ex2 \\nキキーモラの腐り雨を強化する。魔法攻撃のダメージが攻撃力×580％になる。",
@@ -179,6 +185,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription440021]",
           "descriptions": {
+            "ja-JP": "冥き水底から荒ぶる水霊の王を呼び出して攻撃する。ランダムな敵に3回攻撃力×400%の魔法攻撃を行う。対象が弱体効果を付帯している場合、魔法攻撃のダメージが1.5倍になる。",
             "zh-CN": "露莎卡召唤来自幽暗水底的水灵之王，随机对敌人进行3次攻击，每次造成攻击力×400%的魔法伤害。当技能目标身上附带弱化效果时，造成的魔法伤害增加为1.5倍。"
           },
           "equipment_rarity_flags": 0,
@@ -193,6 +200,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription440022]",
           "descriptions": {
+            "ja-JP": "魔法攻撃の回数が4回になる。",
             "zh-CN": "攻击次数增加为4次。"
           },
           "equipment_rarity_flags": 0,
@@ -207,6 +215,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription440023]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×470%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×470%。"
           },
           "equipment_rarity_flags": 0,
@@ -221,6 +230,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription440024]",
           "descriptions": {
+            "ja-JP": "対象が弱体効果を付帯している場合で得られる魔法攻撃のダメージ上昇量が2倍になる。",
             "zh-CN": "当技能目标身上附带弱化效果时，魔法伤害增幅提升为2倍。"
           },
           "equipment_rarity_flags": 0,
@@ -297,6 +307,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName44002]",
       "names": {
+        "ja-JP": "ヴォドニークの濁り竜",
         "zh-CN": "沃加诺伊的浊龙"
       },
       "source_memo_ja": "【天泣の魔女】ルサールカSR: Lv1 冥き水底から荒ぶる水霊の王を呼び出して攻撃する。ランダムな敵に3回攻撃力×400％の魔法攻撃を行う。対象が弱体効果を付帯している場合、魔法攻撃のダメージが1.5倍になる。/ Lv2 \\n魔法攻撃の回数が4回になる。 / Lv3 \\n魔法攻撃のダメージが攻撃力×470％になる。 / Lv4 \\n対象が弱体効果を付帯している場合、魔法攻撃のダメージが2倍になる。",
@@ -647,6 +658,7 @@
       },
       "name_key": "[CharacterCollectionName14]",
       "names": {
+        "ja-JP": "アクエリアスの流星",
         "zh-CN": "水瓶座的流星"
       },
       "required_character_ids": [
@@ -657,12 +669,14 @@
         {
           "id": 44,
           "names": {
+            "ja-JP": "ルサールカ",
             "zh-CN": "露莎卡"
           }
         },
         {
           "id": 39,
           "names": {
+            "ja-JP": "プリマヴェーラ",
             "zh-CN": "普莉玛维拉"
           }
         }
@@ -733,12 +747,14 @@
     "memo": "ルサールカ",
     "name_key": "[CharacterName44]",
     "names": {
+      "ja-JP": "ルサールカ",
       "zh-CN": "露莎卡"
     },
     "speed": 2972,
     "start_time_jst": "2023-04-28 15:00:00",
     "subtitle_key": "[CharacterSubName44]",
     "subtitles": {
+      "ja-JP": "天泣の魔女",
       "zh-CN": "天泣魔女"
     }
   },
@@ -812,6 +828,7 @@
     },
     "name_key": "[EquipmentName363]",
     "names": {
+      "ja-JP": "サンドリヨン",
       "zh-CN": "灰姑娘"
     },
     "passive_effects": [
@@ -845,6 +862,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill44Description1]",
         "descriptions": {
+          "ja-JP": "キキーモラの腐り雨を強化する。『与ダメージ減少』のターン数が2ターンになる。",
           "zh-CN": "强化奇奇莫拉的腐雨，「输出伤害下降」效果增加为2回合。"
         },
         "equipment_rarity_flags": 128,
@@ -853,6 +871,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill44Description2]",
         "descriptions": {
+          "ja-JP": "キキーモラの腐り雨を強化する。魔法攻撃のダメージが攻撃力×580%になる。",
           "zh-CN": "强化奇奇莫拉的腐雨，造成的魔法伤害提升为攻击力×580%。"
         },
         "equipment_rarity_flags": 256,
@@ -861,6 +880,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill44Description3]",
         "descriptions": {
+          "ja-JP": "バトル開始時1ターンの間自身のスピードが30%増加する。",
           "zh-CN": "战斗开始时，使露莎卡增加30%速度，效果持续1回合。"
         },
         "equipment_rarity_flags": 512,
@@ -881,6 +901,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription440031]",
           "descriptions": {
+            "ja-JP": "捨てられ、裏切られ、絶望しても──少女は信じ続けた。きっとあの人が来てくれるはず……。その儚い願いが、少女にもう一度だけ光を与える──。自身が戦闘不能になったとき、自身の最大HP×10%のHPを回復して復活し、自身のスキルクールタイムカウントを0にする。このスキルはバトル中1回のみ発動する。",
             "zh-CN": "父母离弃她、兄长背叛她，深陷绝望的少女，仍然相信他一定会来找她……这脆弱的心愿使少女的生命重获光明——失去战斗能力时，露莎卡将复活并恢复10%最大生命值，使自己重置技能冷却时间。此技能每场战斗最多触发1次。"
           },
           "equipment_rarity_flags": 0,
@@ -895,6 +916,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription440032]",
           "descriptions": {
+            "ja-JP": "さらに自身に1層の『多重バリア』を付与する。ダメージを受けると、バリアを1層消費してそのダメージを無効化する。",
             "zh-CN": "额外获得1层「多重屏障」。当露莎卡受到伤害时，消耗1层屏障来抵消该伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -909,6 +931,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription440033]",
           "descriptions": {
+            "ja-JP": "『多重バリア』が5層になる。さらに1ターンの間自身の攻撃力が70%、スピードが30%増加する。さらに自身以外の味方全体に1層の『多重バリア』を付与する。ダメージを受けると、バリアを1層消費してそのダメージを無効化する。",
             "zh-CN": "「多重屏障」增加为5层。使自己额外增加70%攻击力与30%速度，效果持续1回合。再使其他友军获得1层「多重屏障」。当技能目标受到伤害时，消耗1层屏障来抵消该伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -1023,6 +1046,7 @@
       },
       "name_key": "[PassiveSkillName44003]",
       "names": {
+        "ja-JP": "生贄の乙女",
         "zh-CN": "活祭少女"
       },
       "source_memo_ja": "【天泣の魔女】ルサールカSR:　Lv1　捨てられ、裏切られ、絶望しても──少女は信じ続けた。きっとあの人が来てくれるはず……。その儚い願いが、少女にもう一度だけ光を与える──。自身が戦闘不能になったとき、自身の最大HP×10％のHPを回復して復活し、自身のスキルクールタイムカウントを0にする。このスキルはバトル中1回のみ発動する。/ Lv2 \\nさらに自身に1層の『多重バリア』を付与する。ダメージを受けると、バリアを1層消費してそのダメージを無効化する。 / Lv3\\n『多重バリア』が5層になる。さらに1ターンの間自身の攻撃力が70％、スピードが30％増加する。さらに自身以外の味方全体に1層の『多重バリア』を付与する。ダメージを受けると、バリアを1層消費してそのダメージを無効化する。",
@@ -1046,6 +1070,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription440041]",
           "descriptions": {
+            "ja-JP": "少女の流した絶望の涙が、100年やむことのない悲しみの雨となった。バトル開始時もしくは自身が攻撃を受けたとき、自身のHP割合が30%未満の場合、3ターンの間自身の物魔防御貫通が30%増加する。次に自身が攻撃を受けたときこのバフは解除され、再度HP割合の判定を行う。",
             "zh-CN": "少女流下的绝望泪水，化为百年不曾停歇的悲伤之雨。战斗开始时或受到攻击后，如果露莎卡的生命值低于30%，使自己增加30%物魔防御穿透，效果持续3回合。每当露莎卡受到攻击后，解除此增益效果并重新进行生命值百分比判定。"
           },
           "equipment_rarity_flags": 0,
@@ -1060,6 +1085,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription440042]",
           "descriptions": {
+            "ja-JP": "バトル開始時もしくは自身が攻撃を受けたとき、さらに自身のHP割合が70%以上の場合、3ターンの間自身のクリティカル耐性率が30%増加する。次に自身が攻撃を受けたときこのバフは解除され、再度HP割合の判定を行う。",
             "zh-CN": "战斗开始时或受到攻击后，如果露莎卡的生命值为70%以上，额外增加30%抗暴率，效果持续3回合。每当露莎卡受到攻击后，解除此增益效果并重新进行生命值百分比判定。"
           },
           "equipment_rarity_flags": 0,
@@ -1074,6 +1100,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription440043]",
           "descriptions": {
+            "ja-JP": "バトル開始時もしくは自身が攻撃を受けたとき、『物魔防御貫通増加』を付与する条件が自身のHP割合が50%未満の場合、『クリティカル耐性率増加』を付与する条件が自身のHP割合が50%以上の場合になる。物魔防御貫通とクリティカル耐性率の増加量がそれぞれ50%になる。",
             "zh-CN": "战斗开始时或受到攻击后，如果露莎卡的生命值低于50%，获得「物魔防御穿透上升」效果；如果生命值为50%以上，获得「抗暴率上升」效果。物魔防御穿透与抗暴率增幅提升为50%。"
           },
           "equipment_rarity_flags": 0,
@@ -1184,6 +1211,7 @@
       },
       "name_key": "[PassiveSkillName44004]",
       "names": {
+        "ja-JP": "天泣の魔女",
         "zh-CN": "天泣魔女"
       },
       "source_memo_ja": "【天泣の魔女】ルサールカSR:　Lv1 少女の流した絶望の涙が、100年やむことのない悲しみの雨となった。バトル開始時、もしくは自身が攻撃を受けたとき、自身のHP割合が50％未満の場合、2ターンの間自身の物魔防御貫通が30％増加する。次に自身が攻撃を受けたときこのバフは解除され、再度HP割合の判定を行う。 / Lv2 バトル開始時、もしくは自身が攻撃を受けたとき、さらに自身のHP割合が70%以上の場合、3ターンの間自身のクリティカル耐性率が30%増加する。次に自身が攻撃を受けたときこのバフは解除され、再度HP割合の判定を行う。 / Lv3 バトル開始時、もしくは自身が攻撃を受けたとき、『物魔防御貫通増加』を付与する条件が自身のHP割合が50％未満の場合、『クリティカル耐性率増加』を付与する条件が自身のHP割合が50％以上の場合になる。物魔防御貫通とクリティカル耐性率の増加量がそれぞれ50％になる。",
@@ -1211,6 +1239,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription440051]",
           "descriptions": {
+            "ja-JP": "バトル開始時、1ターンの間自身のスピードが30%増加する。",
             "zh-CN": "战斗开始时，使露莎卡增加30%速度，效果持续1回合。"
           },
           "equipment_rarity_flags": 512,
@@ -1244,6 +1273,7 @@
       },
       "name_key": "[PassiveSkillName44005]",
       "names": {
+        "ja-JP": "サンドリヨン",
         "zh-CN": "灰姑娘"
       },
       "source_memo_ja": "【天泣の魔女】ルサールカSR:　専用3、1ターン目のターン開始時、スピードが1ターンの間30%上昇（解除可能）",
@@ -1286,6 +1316,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

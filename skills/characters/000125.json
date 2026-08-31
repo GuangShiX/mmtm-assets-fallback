@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription1250011]",
           "descriptions": {
+            "ja-JP": "「カプッてしちゃうぞ♪」ランダムな敵5体に攻撃力×210%の物理攻撃を行う。",
             "zh-CN": "“卡蜜拉要咬你咯♪”卡蜜拉随机对5名敌人造成攻击力×210%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription1250012]",
           "descriptions": {
+            "ja-JP": "さらに対象に2ターンの間『出血』を付与する。毎ターン行動開始時に自身の攻撃力×20%のダメージを与える。",
             "zh-CN": "对技能目标额外附加「流血」状态，效果持续2回合，每回合行动开始时造成卡蜜拉攻击力×20%的伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1250013]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×420%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×420%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1250014]",
           "descriptions": {
+            "ja-JP": "スウィートバイトを強化する。『出血』のダメージが自身の攻撃力×50%になる。",
             "zh-CN": "强化腥甜之吻，「流血」造成的伤害提升为卡蜜拉攻击力×50%。"
           },
           "equipment_rarity_flags": 128,
@@ -118,6 +122,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName125001]",
       "names": {
+        "ja-JP": "スウィートバイト",
         "zh-CN": "腥甜之吻"
       },
       "source_memo_ja": "カーミラSR:Lv1 「カプッてしちゃうぞ♪」ランダムな敵5体に攻撃力×210%の物理攻撃を行う。/ Lv2 さらに対象に2ターンの間『出血』を付与する。毎ターン行動開始時に自身の攻撃力×20%のダメージを与える。/ Lv3 物理攻撃のダメージが攻撃力×420%になる。/ Ex1 スウィートバイトを強化する。『出血』のダメージが自身の攻撃力×50%になる。",
@@ -151,6 +156,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription1250021]",
           "descriptions": {
+            "ja-JP": "「あははっ！　よわよわのざっこざこ～！」HP割合が低い敵2体に攻撃力×320%の物理攻撃を行う。",
             "zh-CN": "“啊哈哈！不经打的小喽啰～！”卡蜜拉对生命值百分比最低的2名敌人造成攻击力×320%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -165,6 +171,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription1250022]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×570%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×570%。"
           },
           "equipment_rarity_flags": 0,
@@ -179,6 +186,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription1250023]",
           "descriptions": {
+            "ja-JP": "さらに対象が弱体効果を付帯していない場合、物理攻撃のダメージが攻撃力×1710%になる。",
             "zh-CN": "当技能目标身上没有弱化效果时，造成的物理伤害提升为攻击力×1710%。"
           },
           "equipment_rarity_flags": 0,
@@ -193,6 +201,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription1250024]",
           "descriptions": {
+            "ja-JP": "このスキルの対象がHP割合が低い敵3体になる。",
             "zh-CN": "技能目标增加为生命值百分比最低的3名敌人。"
           },
           "equipment_rarity_flags": 0,
@@ -207,6 +216,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription1250025]",
           "descriptions": {
+            "ja-JP": "ブラッディムーンを強化する。物理攻撃のダメージが攻撃力×630%になる。対象が弱体効果を付帯していない場合、物理攻撃のダメージが攻撃力×1890%になる。",
             "zh-CN": "强化腥红之月，造成的物理伤害提升为攻击力×630%。当技能目标身上没有弱化效果时，造成的物理伤害提升为攻击力×1890%。"
           },
           "equipment_rarity_flags": 512,
@@ -282,6 +292,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName125002]",
       "names": {
+        "ja-JP": "ブラッディムーン",
         "zh-CN": "腥红之月"
       },
       "source_memo_ja": "カーミラSR:Lv1 「あははっ！　よわよわのざっこざこ～！」HP割合が低い敵2体に攻撃力×320%の物理攻撃を行う。/ Lv2 物理攻撃のダメージが攻撃力×570%になる。/ Lv3 さらに対象が弱体効果を付帯していない場合、物理攻撃のダメージが攻撃力×1710%になる。/ Lv4 このスキルの対象がHP割合が低い敵3体になる。/ Ex3 ブラッディムーンを強化する。物理攻撃のダメージが攻撃力×630%になる。対象が弱体効果を付帯していない場合、物理攻撃のダメージが攻撃力×1890%になる。",
@@ -740,6 +751,7 @@
       },
       "name_key": "[CharacterCollectionName78]",
       "names": {
+        "ja-JP": "ジラファの虚像",
         "zh-CN": "鹿豹座的虚像"
       },
       "required_character_ids": [
@@ -750,12 +762,14 @@
         {
           "id": 125,
           "names": {
+            "ja-JP": "カーミラ",
             "zh-CN": "卡蜜拉"
           }
         },
         {
           "id": 109,
           "names": {
+            "ja-JP": "アイリーン",
             "zh-CN": "厄瑞涅"
           }
         }
@@ -1201,6 +1215,7 @@
       },
       "name_key": "[CharacterCollectionName90]",
       "names": {
+        "ja-JP": "アラネアの悪夢​",
         "zh-CN": "蜘蛛座的噩梦"
       },
       "required_character_ids": [
@@ -1211,12 +1226,14 @@
         {
           "id": 137,
           "names": {
+            "ja-JP": "レジーナ",
             "zh-CN": "雷金娜"
           }
         },
         {
           "id": 125,
           "names": {
+            "ja-JP": "カーミラ",
             "zh-CN": "卡蜜拉"
           }
         }
@@ -1287,12 +1304,14 @@
     "memo": "カーミラ",
     "name_key": "[CharacterName125]",
     "names": {
+      "ja-JP": "カーミラ",
       "zh-CN": "卡蜜拉"
     },
     "speed": 2672,
     "start_time_jst": "2025-08-28 15:00:00",
     "subtitle_key": "",
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -1367,6 +1386,7 @@
     },
     "name_key": "[EquipmentName849]",
     "names": {
+      "ja-JP": "イアルトーグの髪飾り",
       "zh-CN": "蝠形发饰"
     },
     "passive_effects": [
@@ -1400,6 +1420,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill125Description1]",
         "descriptions": {
+          "ja-JP": "スウィートバイトを強化する。『出血』のダメージが自身の攻撃力×50%になる。",
           "zh-CN": "强化腥甜之吻，「流血」造成的伤害提升为卡蜜拉攻击力×50%。"
         },
         "equipment_rarity_flags": 128,
@@ -1408,6 +1429,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill125Description2]",
         "descriptions": {
+          "ja-JP": "1ターン目のターン開始時、攻撃力が高い敵3体に4ターンの間『脱力』を付与する。付帯者のバトル中ステータスの攻撃力が40%減少する。",
           "zh-CN": "第1回合开始时，卡蜜拉对攻击力最高的3名敌人附加「脱力」状态，效果持续4回合，使附带者减少40%战斗期间的攻击力。"
         },
         "equipment_rarity_flags": 256,
@@ -1416,6 +1438,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill125Description3]",
         "descriptions": {
+          "ja-JP": "ブラッディムーンを強化する。物理攻撃のダメージが攻撃力×630%になる。対象が弱体効果を付帯していない場合、物理攻撃のダメージが攻撃力×1890%になる。",
           "zh-CN": "强化腥红之月，造成的物理伤害提升为攻击力×630%。当技能目标身上没有弱化效果时，造成的物理伤害提升为攻击力×1890%。"
         },
         "equipment_rarity_flags": 512,
@@ -1439,6 +1462,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription1250031]",
           "descriptions": {
+            "ja-JP": "「カーミラちゃんお腹すいちゃったから、ちょーっとだけ命をもらうね♪」4ターン目までの毎ターン開始時、1ターンの間スピードが最も高い敵の物魔防御貫通を20%減少させる。",
             "zh-CN": "“卡蜜拉肚子饿了，分一点生命给卡蜜拉吧♪”第1回合到第4回合的每回合开始时，卡蜜拉使速度最高的敌人减少20%物魔防御穿透，效果持续1回合。"
           },
           "equipment_rarity_flags": 0,
@@ -1453,6 +1477,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription1250032]",
           "descriptions": {
+            "ja-JP": "さらに対象のHP割合が10%以下の場合、対象に1ターンの間『気絶』を付与する。",
             "zh-CN": "当技能目标的生命值为10%以下时，额外附加「晕厥」状态，效果持续1回合。"
           },
           "equipment_rarity_flags": 0,
@@ -1467,6 +1492,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription1250033]",
           "descriptions": {
+            "ja-JP": "物魔防御貫通の減少量が50%になる。",
             "zh-CN": "物魔防御穿透降幅提升为50%。"
           },
           "equipment_rarity_flags": 0,
@@ -1556,6 +1582,7 @@
       },
       "name_key": "[PassiveSkillName125003]",
       "names": {
+        "ja-JP": "エナジードレイン",
         "zh-CN": "精气吸食"
       },
       "source_memo_ja": "カーミラSR:Lv1 「カーミラちゃんお腹すいちゃったから、ちょーっとだけ命をもらうね♪」4ターン目までの毎ターン開始時、1ターンの間スピードが最も高い敵の物魔防御貫通を20%減少させる。/ Lv2 さらにスピードが最も高い敵のHP割合が10%以下の場合、対象に1ターンの間『気絶』を付与する。/ Lv3 物魔防御貫通の減少量が50%になる。",
@@ -1583,6 +1610,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription1250041]",
           "descriptions": {
+            "ja-JP": "「もう誰にも負けない。運命にも悪魔にも！　だってカーミラちゃんは最強なんだから！」自身の被ダメージが20%減少する（解除不可）。",
             "zh-CN": "“命运也好，恶魔也罢，卡蜜拉不会再输给任何人了！因为卡蜜拉是全世界最厉害的人！”卡蜜拉减少20%自身承受伤害（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1597,6 +1625,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription1250042]",
           "descriptions": {
+            "ja-JP": "被ダメージの減少量が40%になる。",
             "zh-CN": "承受伤害降幅提升为40%。"
           },
           "equipment_rarity_flags": 0,
@@ -1611,6 +1640,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription1250043]",
           "descriptions": {
+            "ja-JP": "被ダメージの減少量が75%になる。",
             "zh-CN": "承受伤害降幅提升为75%。"
           },
           "equipment_rarity_flags": 0,
@@ -1679,6 +1709,7 @@
       },
       "name_key": "[PassiveSkillName125004]",
       "names": {
+        "ja-JP": "カーミラちゃんは最強",
         "zh-CN": "卡蜜拉最厉害"
       },
       "source_memo_ja": "カーミラSR:Lv1 「もう誰にも負けない。運命にも悪魔にも！　だってカーミラちゃんは最強なんだから！」自身の被ダメージが20%減少する（解除不可）。/ Lv2 被ダメージの減少量が40%になる。/ Lv3 被ダメージの減少量が75%になる。",
@@ -1706,6 +1737,7 @@
           "character_level": 240,
           "description_key": "*",
           "descriptions": {
+            "ja-JP": null,
             "zh-CN": null
           },
           "equipment_rarity_flags": 256,
@@ -1739,6 +1771,7 @@
       },
       "name_key": "*",
       "names": {
+        "ja-JP": null,
         "zh-CN": null
       },
       "source_memo_ja": "*",
@@ -1781,6 +1814,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

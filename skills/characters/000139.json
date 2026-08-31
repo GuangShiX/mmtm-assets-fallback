@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription1390011]",
           "descriptions": {
+            "ja-JP": "「せかせかしないの。そんなせっかちさんは、アタシが鍵かけちゃいまーす！」ランダムな敵3体に攻撃力×240%の魔法攻撃を行い、70%の確率で2ターンの間対象のスピードを20%減少させる。",
             "zh-CN": "“猴急什么呀？遇到这种急性子的人，就得让我来上个锁～！”翠西随机对3名敌人造成攻击力×240%的魔法伤害，70%概率使技能目标减少20%速度，效果持续2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription1390012]",
           "descriptions": {
+            "ja-JP": "さらに対象の魔力が自身よりも低い場合、『スピード減少』のターン数が5ターンになる。",
             "zh-CN": "当技能目标的魔力低于自己时，「速度下降」效果增加为5回合。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1390013]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×330%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×330%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1390014]",
           "descriptions": {
+            "ja-JP": "レイジーロックを強化する。レイジーロックの対象がランダムな敵5体になる。",
             "zh-CN": "强化懒洋洋之锁，技能目标增加为5名随机敌人。"
           },
           "equipment_rarity_flags": 128,
@@ -67,6 +71,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription1390015]",
           "descriptions": {
+            "ja-JP": "レイジーロックを強化する。魔法攻撃のダメージが攻撃力×360%になる。",
             "zh-CN": "强化懒洋洋之锁，造成的魔法伤害提升为攻击力×360%。"
           },
           "equipment_rarity_flags": 512,
@@ -142,6 +147,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName139001]",
       "names": {
+        "ja-JP": "レイジーロック",
         "zh-CN": "懒洋洋之锁"
       },
       "source_memo_ja": "トリクシーSR:Lv1 「せかせかしないの。そんなせっかちさんは、アタシが鍵かけちゃいまーす！」ランダムな敵3体に攻撃力×240%の魔法攻撃を行い、70%の確率で2ターンの間対象のスピードを20%減少させる。/ Lv2 さらに対象の魔力が自身よりも低い場合、『スピード減少』のターン数が5ターンになる。/ Lv3 魔法攻撃のダメージが攻撃力×330%になる。/ Ex1 レイジーロックを強化する。レイジーロックの対象がランダムな敵5体になる。/ Ex3 レイジーロックを強化する。魔法攻撃のダメージが攻撃力×360%になる。",
@@ -179,6 +185,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription1390021]",
           "descriptions": {
+            "ja-JP": "「知ってる？　サボり癖って移るらしいよ～？　本当に移ったら……なんかごめんね？」ランダムな敵4体に攻撃力×260%の魔法攻撃を行う。その後70%の確率で攻撃力が最も高い敵に1ターンの間『気絶』を付与する。",
             "zh-CN": "“你知道吗？摸鱼这种习惯好像会传染哦～？要是害你中招……那就对不住咯？”翠西随机对4名敌人造成攻击力×260%的魔法伤害。再以70%概率对攻击力最高的敌人附加「晕厥」状态，效果持续1回合。"
           },
           "equipment_rarity_flags": 0,
@@ -193,6 +200,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription1390022]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×380%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×380%。"
           },
           "equipment_rarity_flags": 0,
@@ -207,6 +215,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription1390023]",
           "descriptions": {
+            "ja-JP": "魔法攻撃の後、さらに自身が付帯しているバフの個数が4以上の場合、『気絶』のターン数が2ターンになる。",
             "zh-CN": "攻击结束后，如果翠西身上附带4种以上增益效果，「晕厥」效果增加为2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -221,6 +230,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription1390024]",
           "descriptions": {
+            "ja-JP": "さらにバトル中このスキルを発動するのが3回目以降の場合、魔法攻撃のダメージが攻撃力×1520%になる。",
             "zh-CN": "战斗中自第3次发动此技能起，造成的魔法伤害提升为攻击力×1520%。"
           },
           "equipment_rarity_flags": 0,
@@ -290,6 +300,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName139002]",
       "names": {
+        "ja-JP": "トリッキースランバー",
         "zh-CN": "狡兔睡懒觉"
       },
       "source_memo_ja": "トリクシーSR:Lv1 「知ってる？　サボり癖って移るらしいよ～？　本当に移ったら……なんかごめんね？」ランダムな敵4体に攻撃力×260%の魔法攻撃を行う。その後70%の確率で攻撃力が最も高い敵に1ターンの間『気絶』を付与する。/ Lv2 魔法攻撃のダメージが攻撃力×380%になる。/ Lv3 魔法攻撃の後、さらに自身が付帯しているバフの個数が4以上の場合、『気絶』のターン数が2ターンになる。/ Lv4 さらにバトル中このスキルを発動するのが3回目以降の場合、魔法攻撃のダメージが攻撃力×1520%になる。",
@@ -752,6 +763,7 @@
       },
       "name_key": "[CharacterCollectionName92]",
       "names": {
+        "ja-JP": "タルルガルルの奇術​",
         "zh-CN": "公鸡座的奇巧"
       },
       "required_character_ids": [
@@ -762,12 +774,14 @@
         {
           "id": 139,
           "names": {
+            "ja-JP": "トリクシー",
             "zh-CN": "翠西"
           }
         },
         {
           "id": 106,
           "names": {
+            "ja-JP": "ユリーカ",
             "zh-CN": "尤里卡"
           }
         }
@@ -837,12 +851,14 @@
     "memo": "トリクシー",
     "name_key": "[CharacterName139]",
     "names": {
+      "ja-JP": "トリクシー",
       "zh-CN": "翠西"
     },
     "speed": 3178,
     "start_time_jst": "2026-03-31 15:00:00",
     "subtitle_key": "",
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -916,6 +932,7 @@
     },
     "name_key": "[EquipmentName933]",
     "names": {
+      "ja-JP": "ワンダリング・バニー",
       "zh-CN": "好奇漂流兔"
     },
     "passive_effects": [
@@ -949,6 +966,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill139Description1]",
         "descriptions": {
+          "ja-JP": "レイジーロックを強化する。レイジーロックの対象がランダムな敵5体になる。",
           "zh-CN": "强化懒洋洋之锁，技能目标增加为5名随机敌人。"
         },
         "equipment_rarity_flags": 128,
@@ -957,6 +975,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill139Description2]",
         "descriptions": {
+          "ja-JP": "怠け者の黒兎を強化する。被ダメージの減少量が70%になる。",
           "zh-CN": "强化懒惰的黑兔，承受伤害降幅提升为70%。"
         },
         "equipment_rarity_flags": 256,
@@ -965,6 +984,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill139Description3]",
         "descriptions": {
+          "ja-JP": "レイジーロックを強化する。魔法攻撃のダメージが攻撃力×360%になる。",
           "zh-CN": "强化懒洋洋之锁，造成的魔法伤害提升为攻击力×360%。"
         },
         "equipment_rarity_flags": 512,
@@ -987,6 +1007,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription1390031]",
           "descriptions": {
+            "ja-JP": "「アタシが働きすぎ？　逆でーす。後でサボれるように前もって準備しとくの！」1ターン目のターン開始時、10ターンの間自身に自身の攻撃力×100%の『シールド』を付与する。『弱体効果無効』もしくは『行動阻害無効』を付帯している敵がいる場合、『シールド』を付与する対象が味方全体になる。",
             "zh-CN": "“我太勤快？才不是呢～提前做好准备，之后才好偷懒啊！”第1回合开始时，翠西获得翠西攻击力×100%的「护盾」，效果持续10回合。如果场上有身上附带「弱化效果免疫」或「控制效果免疫」状态的敌人，「护盾」的附加目标增加为全体友军。"
           },
           "equipment_rarity_flags": 0,
@@ -1001,6 +1022,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription1390032]",
           "descriptions": {
+            "ja-JP": "さらにバトル開始時、自身の被ダメージが10%減少する（解除不可）。",
             "zh-CN": "战斗开始时，翠西额外减少10%自身承受伤害（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1015,6 +1037,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription1390033]",
           "descriptions": {
+            "ja-JP": "『シールド』の大きさが自身の攻撃力×200%になる。さらに『シールド』を付与する対象が黄属性の場合、『シールド』の大きさが自身の攻撃力×500%になる。",
             "zh-CN": "「护盾」值提升为翠西攻击力×200%。当「护盾」的附加目标为流金属性时，「护盾」值提升为翠西攻击力×500%。"
           },
           "equipment_rarity_flags": 0,
@@ -1029,6 +1052,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription1390034]",
           "descriptions": {
+            "ja-JP": "怠け者の黒兎を強化する。被ダメージの減少量が70%になる。",
             "zh-CN": "强化懒惰的黑兔，承受伤害降幅提升为70%。"
           },
           "equipment_rarity_flags": 256,
@@ -1162,6 +1186,7 @@
       },
       "name_key": "[PassiveSkillName139003]",
       "names": {
+        "ja-JP": "怠け者の黒兎",
         "zh-CN": "懒惰的黑兔"
       },
       "source_memo_ja": "トリクシーSR:Lv1 「アタシが働きすぎ？　逆でーす。後でサボれるように前もって準備しとくの！」1ターン目のターン開始時、10ターンの間自身に自身の攻撃力×100%の『シールド』を付与する。『弱体効果無効』もしくは『行動阻害無効』を付帯している敵がいる場合、『シールド』を付与する対象が味方全体になる。/ Lv2 バトル開始時、さらに自身の被ダメージが10%減少する（解除不可）。/ Lv3 『シールド』の大きさが自身の攻撃力×200%になる。さらに『シールド』を付与する対象が黄属性の場合、『シールド』の大きさが自身の攻撃力×500%になる。/ Ex2 怠け者の黒兎を強化する。被ダメージの減少量が70%になる。",
@@ -1193,6 +1218,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription1390041]",
           "descriptions": {
+            "ja-JP": "「見届けるって約束しちゃったんだよねぇ、困ったことにさ。それまではほんのちょびーっとだけ……ね？」自身の行動開始時、4ターンの間自身の防御力が20%、命中率が30%増加する。このスキルは発動後4回行動終了するまで再び発動しない。",
             "zh-CN": "“一不小心就答应去陪你一起见证了，真是伤脑筋。在看到结局之前，我就稍微再努力那么一丢～丢吧？”行动开始时，翠西使自己增加20%防御力与30%命中率，效果持续4回合。此技能须在结束4次行动后才可再次触发。"
           },
           "equipment_rarity_flags": 0,
@@ -1207,6 +1233,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription1390042]",
           "descriptions": {
+            "ja-JP": "自身の行動開始時、さらに自身以外の黄属性の味方の編成数が2体以上の場合、4ターンの間自身のHPドレインが20%増加する。",
             "zh-CN": "行动开始时，如果队伍中的其他流金属性友军数为2名以上，翠西使自己额外增加20%吸血，效果持续4回合。"
           },
           "equipment_rarity_flags": 0,
@@ -1221,6 +1248,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription1390043]",
           "descriptions": {
+            "ja-JP": "防御力の増加量が100%になる。",
             "zh-CN": "防御力增幅提升为100%。"
           },
           "equipment_rarity_flags": 0,
@@ -1289,6 +1317,7 @@
       },
       "name_key": "[PassiveSkillName139004]",
       "names": {
+        "ja-JP": "漂流者の終着地",
         "zh-CN": "流浪者的终点站"
       },
       "source_memo_ja": "トリクシーSR:Lv1 「見届けるって約束しちゃったんだよねぇ、困ったことにさ。それまではほんのちょびーっとだけ……ね？」自身の行動開始時、4ターンの間自身の防御力が20%、命中率が30%増加する。このスキルは発動後4回行動終了するまで再び発動しない。/ Lv2 自身の行動開始時、さらに自身以外の黄属性の味方の編成数が2体以上の場合、4ターンの間自身のHPドレインが20%増加する。/ Lv3 防御力の増加量が100%になる。",
@@ -1344,6 +1373,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription290011]",
           "descriptions": {
+            "ja-JP": "あの子を守るためなら、どんな力でも利用する。たとえそれが、悪魔の力でも。ランダムな敵4体に攻撃力×290%の魔法攻撃を行い、3ターンの間自身にこのスキルの総与ダメージ×25%の『シールド』を付与する。",
             "zh-CN": "为了保护那个孩子，茉缇可以不择手段，甚至不惜借助恶魔的力量。茉缇随机对4名敌人造成攻击力×290%的魔法伤害，并获得技能总伤害×25%的「护盾」，效果持续3回合。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription290012]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×350%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×350%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription290013]",
           "descriptions": {
+            "ja-JP": "『シールド』の大きさがこのスキルの総与ダメージ×40%になる。",
             "zh-CN": "「护盾」值提升为技能总伤害×40%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription290014]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription290014]",
             "zh-CN": "[ActiveSkillDescription290014]"
           },
           "equipment_rarity_flags": 128,
@@ -119,6 +123,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName29001]",
       "names": {
+        "ja-JP": "生命転化",
         "zh-CN": "生命转化"
       },
       "source_memo_ja": "メルティーユSR: /Lv1　あの子を守るためなら、どんな力でも利用する。たとえそれが、悪魔の力でも。ランダムな敵4体に攻撃力×290％の魔法攻撃を行い、3ターンの間自身にこのスキルの総与ダメージ×25％の『シールド』を付与する。　/Lv2 魔法攻撃のダメージが攻撃力×350%になる。　/Lv3 『シールド』の大きさがこのスキルの総与ダメージ×40%になる。　/専用1 生命転化を強化する。魔法攻撃のダメージが攻撃力×410%になる。",
@@ -148,6 +153,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription290021]",
           "descriptions": {
+            "ja-JP": "あの子の不調なら、どんなに些細な変化でも見逃さない。誰よりも「命」を識る彼女の技術で、攻撃力が最も高い味方のスキルクールタイムカウントを1減少させる。",
             "zh-CN": "那个孩子的异状与任何细微变化都逃不过茉缇的眼睛。她对“生命”的了解无人能及，运用自己的技术，使攻击力最高的友军减少技能冷却时间1。"
           },
           "equipment_rarity_flags": 0,
@@ -162,6 +168,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription290022]",
           "descriptions": {
+            "ja-JP": "さらに3ターンの間対象の攻撃力を65%増加させる。",
             "zh-CN": "使技能目标额外增加65%攻击力，效果持续3回合。"
           },
           "equipment_rarity_flags": 0,
@@ -176,6 +183,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription290023]",
           "descriptions": {
+            "ja-JP": "さらに対象が弱体効果を付帯している場合、対象の弱体効果を全て解除する。",
             "zh-CN": "额外解除技能目标身上的所有弱化效果。"
           },
           "equipment_rarity_flags": 0,
@@ -190,6 +198,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription290024]",
           "descriptions": {
+            "ja-JP": "スキルクールタイムカウントの減少量が2になる。",
             "zh-CN": "技能冷却时间减少量提升为2。"
           },
           "equipment_rarity_flags": 0,
@@ -204,6 +213,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription290025]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription290025]",
             "zh-CN": "[ActiveSkillDescription290025]"
           },
           "equipment_rarity_flags": 256,
@@ -215,6 +225,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription290026]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription290026]",
             "zh-CN": "[ActiveSkillDescription290026]"
           },
           "equipment_rarity_flags": 512,
@@ -297,6 +308,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName29002]",
       "names": {
+        "ja-JP": "メンテナンス",
         "zh-CN": "维修保养"
       },
       "source_memo_ja": "メルティーユSR: /Lv1　あの子の不調なら、どんなに些細な変化でも見逃さない。誰よりも「命」を識る彼女の技術で、攻撃力が最も高い味方のスキルクールタイムカウントを1減少させる。　/Lv2 さらに3ターンの間対象の攻撃力を65％増加させる。　/Lv3 さらに対象が弱体効果を付帯している場合、対象の弱体効果を全て解除する。　/Lv4 スキルクールタイムカウントの減少量が2になる。　/専用2 メンテナンスを強化する。攻撃力の増加量が85％になる。　/専用3 メンテナンスを強化する。さらに3ターンの間攻撃力が最も高い味方の防御力を65％増加させる。",
@@ -752,6 +764,7 @@
       },
       "name_key": "[CharacterCollectionName4]",
       "names": {
+        "ja-JP": "ウルススの心眼",
         "zh-CN": "大熊座的心之眼"
       },
       "required_character_ids": [
@@ -763,18 +776,21 @@
         {
           "id": 26,
           "names": {
+            "ja-JP": "マーリン",
             "zh-CN": "梅琳"
           }
         },
         {
           "id": 27,
           "names": {
+            "ja-JP": "コルディ",
             "zh-CN": "科迪"
           }
         },
         {
           "id": 29,
           "names": {
+            "ja-JP": "メルティーユ",
             "zh-CN": "茉缇"
           }
         }
@@ -1220,6 +1236,7 @@
       },
       "name_key": "[CharacterCollectionName17]",
       "names": {
+        "ja-JP": "アウリガの知恵",
         "zh-CN": "御夫座的智慧"
       },
       "required_character_ids": [
@@ -1230,12 +1247,14 @@
         {
           "id": 58,
           "names": {
+            "ja-JP": "アーティ",
             "zh-CN": "亚缇"
           }
         },
         {
           "id": 29,
           "names": {
+            "ja-JP": "メルティーユ",
             "zh-CN": "茉缇"
           }
         }
@@ -1681,6 +1700,7 @@
       },
       "name_key": "[CharacterCollectionName36]",
       "names": {
+        "ja-JP": "ウルサ・ミノルの心根",
         "zh-CN": "小熊座的真心"
       },
       "required_character_ids": [
@@ -1691,12 +1711,14 @@
         {
           "id": 48,
           "names": {
+            "ja-JP": "Ａ.Ａ.",
             "zh-CN": "A.A."
           }
         },
         {
           "id": 29,
           "names": {
+            "ja-JP": "メルティーユ",
             "zh-CN": "茉缇"
           }
         }
@@ -2142,6 +2164,7 @@
       },
       "name_key": "[CharacterCollectionName55]",
       "names": {
+        "ja-JP": "ノーマの分析",
         "zh-CN": "矩尺座的分析"
       },
       "required_character_ids": [
@@ -2152,12 +2175,14 @@
         {
           "id": 79,
           "names": {
+            "ja-JP": "セルリア",
             "zh-CN": "瑟露莉亚"
           }
         },
         {
           "id": 29,
           "names": {
+            "ja-JP": "メルティーユ",
             "zh-CN": "茉缇"
           }
         }
@@ -2596,6 +2621,7 @@
       },
       "name_key": "[CharacterCollectionName72]",
       "names": {
+        "ja-JP": "ポラリスの愛情",
         "zh-CN": "北极星的爱情"
       },
       "required_character_ids": [
@@ -2607,18 +2633,21 @@
         {
           "id": 117,
           "names": {
+            "ja-JP": "Ａ.Ａ.",
             "zh-CN": "A.A."
           }
         },
         {
           "id": 48,
           "names": {
+            "ja-JP": "Ａ.Ａ.",
             "zh-CN": "A.A."
           }
         },
         {
           "id": 29,
           "names": {
+            "ja-JP": "メルティーユ",
             "zh-CN": "茉缇"
           }
         }
@@ -2688,12 +2717,14 @@
     "memo": "メルティーユ",
     "name_key": "[CharacterName29]",
     "names": {
+      "ja-JP": "メルティーユ",
       "zh-CN": "茉缇"
     },
     "speed": 2796,
     "start_time_jst": "2020-01-01 00:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -2768,6 +2799,7 @@
     },
     "name_key": "[EquipmentName297]",
     "names": {
+      "ja-JP": "アルケウスの理",
       "zh-CN": "万能溶剂原理"
     },
     "passive_effects": [
@@ -2801,6 +2833,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill29Description1]",
         "descriptions": {
+          "ja-JP": "生命転化を強化する。魔法攻撃のダメージが攻撃力×410%になる。",
           "zh-CN": "强化生命转化，造成的魔法伤害提升为攻击力×410%。"
         },
         "equipment_rarity_flags": 128,
@@ -2809,6 +2842,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill29Description2]",
         "descriptions": {
+          "ja-JP": "メンテナンスを強化する。攻撃力の増加量が85%になる。",
           "zh-CN": "强化维修保养，攻击力增幅提升为85%。"
         },
         "equipment_rarity_flags": 256,
@@ -2817,6 +2851,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill29Description3]",
         "descriptions": {
+          "ja-JP": "メンテナンスを強化する。さらに3ターンの間攻撃力が最も高い味方の防御力を65%増加させる。",
           "zh-CN": "强化维修保养，使攻击力最高的友军额外增加65%防御力，效果持续3回合。"
         },
         "equipment_rarity_flags": 512,
@@ -2837,6 +2872,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription290031]",
           "descriptions": {
+            "ja-JP": "その体は愛する子を守るために造られた。毎ターン開始時もしくは自身が攻撃を受けたとき、自身のHP割合が40%未満の場合、4ターンの間自身に『再生』を付与する（解除不可）。毎ターン行動開始時に自身のHPを自身の最大HP×15%回復する。",
             "zh-CN": "为了保护心爱的孩子，茉缇打造了这个躯体。在每回合开始时或受到攻击后，如果茉缇的生命值低于40%，获得「再生」状态，效果持续4回合，每回合行动开始时恢复15%最大生命值（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -2851,6 +2887,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription290032]",
           "descriptions": {
+            "ja-JP": "『再生』での回復量が自身の最大HP×20%になる。",
             "zh-CN": "「再生」的恢复量提升为20%最大生命值。"
           },
           "equipment_rarity_flags": 0,
@@ -2865,6 +2902,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription290033]",
           "descriptions": {
+            "ja-JP": "さらに自身に4ターンの間『ステルス』を付与する（解除不可）。",
             "zh-CN": "额外获得「隐身」状态，效果持续4回合（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -2975,6 +3013,7 @@
       },
       "name_key": "[PassiveSkillName29003]",
       "names": {
+        "ja-JP": "ホムンクルスボディ",
         "zh-CN": "人造人之躯"
       },
       "source_memo_ja": "メルティーユSR: /Lv1　その体は愛する子を守るために造られた。毎ターン開始時、もしくは自身が攻撃を受けたとき、自身のHP割合が40％未満の場合、4ターンの間自身に『再生』を付与する（解除不可）。毎ターン行動開始時に自身のHPを自身の最大HP×15％回復する。　/Lv2 『再生』での回復量が自身の最大HP×20%になる。　/Lv3 さらに自身に4ターンの間『ステルス』を付与する（解除不可）。",
@@ -3002,6 +3041,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription290041]",
           "descriptions": {
+            "ja-JP": "長年にわたるホムンクルスの研究成果は、自分の体にも適用されている。自身の弱体効果耐性率が30%増加する（解除不可）。",
             "zh-CN": "茉缇多年来的人造人研究成果也适用于自己的身体，使她增加30%弱化效果抵抗率（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -3016,6 +3056,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription290042]",
           "descriptions": {
+            "ja-JP": "弱体効果耐性率の増加量が50%になる。",
             "zh-CN": "弱化效果抵抗率增幅提升为50%。"
           },
           "equipment_rarity_flags": 0,
@@ -3030,6 +3071,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription290043]",
           "descriptions": {
+            "ja-JP": "弱体効果耐性率の増加量が100%になる。",
             "zh-CN": "弱化效果抵抗率增幅提升为100%。"
           },
           "equipment_rarity_flags": 0,
@@ -3098,6 +3140,7 @@
       },
       "name_key": "[PassiveSkillName29004]",
       "names": {
+        "ja-JP": "研究成果",
         "zh-CN": "研究成果"
       },
       "source_memo_ja": "メルティーユSR: /Lv1　長年にわたるホムンクルスの研究成果は、自分の体にも適用されている。自身の弱体効果耐性率が30％増加する（解除不可）。　/Lv2 弱体効果耐性率の増加量が50％になる。　/Lv3 弱体効果耐性率の増加量が100％になる。",
@@ -3153,6 +3196,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

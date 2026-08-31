@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription390011]",
           "descriptions": {
+            "ja-JP": "歌姫の旋律は世界を創造する──戦場を表現した旋律で、正面の敵に2回攻撃力×360%の物理攻撃を行う。その歌を聞いた者は心を奪われ、対象のスピードが自身よりも低い場合、15%の確率で1ターンの間『気絶』を付与する。",
             "zh-CN": "名伶的歌声能创造世界——普莉玛维拉用旋律来表现战场，对面前的敌人进行2次攻击，每次造成攻击力×360%的物理伤害。歌声带走听众的心，当技能目标的速度低于自己时，15%概率附加「晕厥」状态，效果持续1回合。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription390012]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×410%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×410%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription390013]",
           "descriptions": {
+            "ja-JP": "物理攻撃の回数が4回になる。",
             "zh-CN": "攻击次数增加为4次。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription390014]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription390014]",
             "zh-CN": "[ActiveSkillDescription390014]"
           },
           "equipment_rarity_flags": 128,
@@ -123,6 +127,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName39001]",
       "names": {
+        "ja-JP": "至高の旋律",
         "zh-CN": "至高无上的旋律"
       },
       "source_memo_ja": "プリマヴェーラSR: /Lv1　歌姫の旋律は世界を創造する──戦場を表現した旋律で、正面の敵に2回攻撃力×360％の物理攻撃を行う。その歌を聞いた者は心を奪われ、対象のスピードが自身よりも低い場合、15％の確率で1ターンの間『気絶』を付与する。　/Lv2 物理攻撃のダメージが攻撃力×410%になる。　/Lv3 物理攻撃の回数が4回になる。　/専用1 至高の旋律を強化する。『気絶』を付与する確率が30％になる。",
@@ -152,6 +157,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription390021]",
           "descriptions": {
+            "ja-JP": "歌を合図に、相棒の小鳥が特攻。正面の敵に攻撃力×455%の物理攻撃を行う。平和を願う歌が相手の戦意を喪失させ、クリティカルヒットした場合、対象に3ターンの間『バフ無効』を付与する。",
             "zh-CN": "以歌声为信号，小鸟搭档发起特攻，对普莉玛维拉面前的敌人造成攻击力×455%的物理伤害。祈求和平的歌声令对手丧失斗志，当技能暴击时，对技能目标附加「增益效果免疫」状态，效果持续3回合。"
           },
           "equipment_rarity_flags": 0,
@@ -166,6 +172,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription390022]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×520%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×520%。"
           },
           "equipment_rarity_flags": 0,
@@ -180,6 +187,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription390023]",
           "descriptions": {
+            "ja-JP": "このスキルの対象が正面の敵とそれに隣接する敵2体になる。",
             "zh-CN": "技能目标增加为面前的敌人与该敌人附近的2名敌人。"
           },
           "equipment_rarity_flags": 0,
@@ -194,6 +202,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription390024]",
           "descriptions": {
+            "ja-JP": "クリティカルヒットした場合、さらに3ターンの間対象の防御力を20%減少させるようになる。",
             "zh-CN": "技能暴击时，使技能目标额外减少20%防御力，效果持续3回合。"
           },
           "equipment_rarity_flags": 0,
@@ -208,6 +217,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription390025]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription390025]",
             "zh-CN": "[ActiveSkillDescription390025]"
           },
           "equipment_rarity_flags": 256,
@@ -219,6 +229,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription390026]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription390026]",
             "zh-CN": "[ActiveSkillDescription390026]"
           },
           "equipment_rarity_flags": 512,
@@ -301,6 +312,7 @@
       "max_cooldown": 3,
       "name_key": "[ActiveSkillName39002]",
       "names": {
+        "ja-JP": "レ・ロズ・ブル",
         "zh-CN": "蓝蔷薇二重唱"
       },
       "source_memo_ja": "プリマヴェーラSR: /Lv1　歌を合図に、相棒の小鳥が特攻。正面の敵に攻撃力×455％の物理攻撃を行う。平和を願う歌が相手の戦意を喪失させ、クリティカルヒットした場合、対象に3ターンの間『バフ無効』を付与する。　/Lv2 物理攻撃のダメージが攻撃力×520%になる。　/Lv3 このスキルの対象が正面の敵とそれに隣接する敵2体になる。　/Lv4 クリティカルヒットした場合、さらに3ターンの間対象の防御力を20％減少させるようになる。　/専用2 レ・ロズ・ブルを強化する。『バフ無効』と『防御力減少』のターン数がそれぞれ4ターンになる。　/専用3 レ・ロズ・ブルを強化する。防御力の減少量が30％になる。",
@@ -765,6 +777,7 @@
       },
       "name_key": "[CharacterCollectionName6]",
       "names": {
+        "ja-JP": "アンドロメダの戦剣",
         "zh-CN": "仙女座的战剑"
       },
       "required_character_ids": [
@@ -777,24 +790,28 @@
         {
           "id": 36,
           "names": {
+            "ja-JP": "トロポン",
             "zh-CN": "托波波"
           }
         },
         {
           "id": 38,
           "names": {
+            "ja-JP": "オリヴィエ",
             "zh-CN": "奥莉维亚"
           }
         },
         {
           "id": 39,
           "names": {
+            "ja-JP": "プリマヴェーラ",
             "zh-CN": "普莉玛维拉"
           }
         },
         {
           "id": 41,
           "names": {
+            "ja-JP": "ナターシャ",
             "zh-CN": "娜塔夏"
           }
         }
@@ -1128,6 +1145,7 @@
       },
       "name_key": "[CharacterCollectionName14]",
       "names": {
+        "ja-JP": "アクエリアスの流星",
         "zh-CN": "水瓶座的流星"
       },
       "required_character_ids": [
@@ -1138,12 +1156,14 @@
         {
           "id": 44,
           "names": {
+            "ja-JP": "ルサールカ",
             "zh-CN": "露莎卡"
           }
         },
         {
           "id": 39,
           "names": {
+            "ja-JP": "プリマヴェーラ",
             "zh-CN": "普莉玛维拉"
           }
         }
@@ -1589,6 +1609,7 @@
       },
       "name_key": "[CharacterCollectionName42]",
       "names": {
+        "ja-JP": "ヴィルゴの献身",
         "zh-CN": "处女座的献身"
       },
       "required_character_ids": [
@@ -1599,12 +1620,14 @@
         {
           "id": 76,
           "names": {
+            "ja-JP": "ユニ",
             "zh-CN": "优妮"
           }
         },
         {
           "id": 39,
           "names": {
+            "ja-JP": "プリマヴェーラ",
             "zh-CN": "普莉玛维拉"
           }
         }
@@ -2050,6 +2073,7 @@
       },
       "name_key": "[CharacterCollectionName54]",
       "names": {
+        "ja-JP": "リュラの旋律​",
         "zh-CN": "天琴座的旋律"
       },
       "required_character_ids": [
@@ -2060,12 +2084,14 @@
         {
           "id": 65,
           "names": {
+            "ja-JP": "アイネ",
             "zh-CN": "哀音"
           }
         },
         {
           "id": 39,
           "names": {
+            "ja-JP": "プリマヴェーラ",
             "zh-CN": "普莉玛维拉"
           }
         }
@@ -2135,12 +2161,14 @@
     "memo": "プリマヴェーラ",
     "name_key": "[CharacterName39]",
     "names": {
+      "ja-JP": "プリマヴェーラ",
       "zh-CN": "普莉玛维拉"
     },
     "speed": 3268,
     "start_time_jst": "2020-01-01 00:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -2214,6 +2242,7 @@
     },
     "name_key": "[EquipmentName333]",
     "names": {
+      "ja-JP": "プチマヴェーラ",
       "zh-CN": "普莉鸟维拉"
     },
     "passive_effects": [
@@ -2247,6 +2276,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill39Description1]",
         "descriptions": {
+          "ja-JP": "至高の旋律を強化する。『気絶』を付与する確率が30%になる。",
           "zh-CN": "强化至高无上的旋律，附加「晕厥」状态的概率提升为30%。"
         },
         "equipment_rarity_flags": 128,
@@ -2255,6 +2285,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill39Description2]",
         "descriptions": {
+          "ja-JP": "レ・ロズ・ブルを強化する。『バフ無効』と『防御力減少』のターン数がそれぞれ4ターンになる。",
           "zh-CN": "强化蓝蔷薇二重唱，「增益效果免疫」与「防御力下降」效果增加为4回合。"
         },
         "equipment_rarity_flags": 256,
@@ -2263,6 +2294,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill39Description3]",
         "descriptions": {
+          "ja-JP": "レ・ロズ・ブルを強化する。防御力の減少量が30%になる。",
           "zh-CN": "强化蓝蔷薇二重唱，防御力降幅提升为30%。"
         },
         "equipment_rarity_flags": 512,
@@ -2283,6 +2315,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription390031]",
           "descriptions": {
+            "ja-JP": "歌は心、祈るように歌えば届く。バトル開始時味方全体の攻撃力を2%増加させる（解除不可）。バトル開始時の自身以外の味方の生存数1体につき増加量が2%大きくなる。",
             "zh-CN": "歌声源自内心。只要用心歌唱，就能打动人心。战斗开始时，普莉玛维拉使全体友军增加2%攻击力（无法被解除）。战斗开始时每名存活在场上的其他友军，再使攻击力增幅提升2%。"
           },
           "equipment_rarity_flags": 0,
@@ -2297,6 +2330,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription390032]",
           "descriptions": {
+            "ja-JP": "さらに味方全体のスピードを2%増加させる（解除不可）。バトル開始時の自身以外の味方の生存数1体につき増加量が2%大きくなる。",
             "zh-CN": "使全体友军额外增加2%速度（无法被解除）。战斗开始时每名存活在场上的其他友军，再使速度增幅提升2%。"
           },
           "equipment_rarity_flags": 0,
@@ -2311,6 +2345,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription390033]",
           "descriptions": {
+            "ja-JP": "攻撃力とスピードの増加量がそれぞれ3%になる。",
             "zh-CN": "攻击力与速度增幅提升为3%。"
           },
           "equipment_rarity_flags": 0,
@@ -2414,6 +2449,7 @@
       },
       "name_key": "[PassiveSkillName39003]",
       "names": {
+        "ja-JP": "歌姫の福音",
         "zh-CN": "名伶的福音"
       },
       "source_memo_ja": "プリマヴェーラSR: /Lv1　歌は心、祈るように歌えば届く。バトル開始時味方全体の攻撃力を2％増加させる（解除不可）。バトル開始時の自身以外の味方の生存数1体につき増加量が2％大きくなる。　/Lv2 さらに味方全体のスピードを2％増加させる（解除不可）。バトル開始時の自身以外の味方の生存数1体につき増加量が2％大きくなる。　/Lv3 攻撃力とスピードの増加量がそれぞれ3％になる。",
@@ -2441,6 +2477,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription390041]",
           "descriptions": {
+            "ja-JP": "その名に恥じぬ歌姫になってみせる。自身の攻撃力が20%増加する（解除不可）（このスキル発動時の自身の攻撃力に対して計算される）。",
             "zh-CN": "我会成为出色的名伶，不让“普莉玛维拉”的名号蒙羞。普莉玛维拉使自己增加20%攻击力（无法被解除）（以技能发动时的攻击力为基准进行计算）。"
           },
           "equipment_rarity_flags": 0,
@@ -2455,6 +2492,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription390042]",
           "descriptions": {
+            "ja-JP": "攻撃力の増加量が35%になる。",
             "zh-CN": "攻击力增幅提升为35%。"
           },
           "equipment_rarity_flags": 0,
@@ -2469,6 +2507,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription390043]",
           "descriptions": {
+            "ja-JP": "さらに自身の弱体効果耐性率が100%増加する（解除不可）。",
             "zh-CN": "额外增加100%弱化效果抵抗率（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -2537,6 +2576,7 @@
       },
       "name_key": "[PassiveSkillName39004]",
       "names": {
+        "ja-JP": "至高の歌姫",
         "zh-CN": "绝世名伶"
       },
       "source_memo_ja": "プリマヴェーラSR: /Lv1　その名に恥じぬ歌姫になってみせる。自身の攻撃力が20％増加する（解除不可）（このスキル発動時の自身の攻撃力に対して計算される）。　/Lv2 攻撃力の増加量が35％になる。　/Lv3 さらに自身の弱体効果耐性率が100％増加する（解除不可）。",
@@ -2592,6 +2632,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

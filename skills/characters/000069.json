@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription690011]",
           "descriptions": {
+            "ja-JP": "「妾のために励むのじゃ」夢幻の霧から生まれし月光が味方に降り注ぎ、2ターンの間味方全体のクリティカル率を20%増加させる。夢のような美しい風景に心を奪われた時、幻が悪夢となって襲いかかる。その後ランダムな敵5体に攻撃力×280%の魔法攻撃を行う。",
             "zh-CN": "“为妾身鞠躬尽瘁罢。”如梦似幻的迷雾间亮起月光，洒落在友军身上，使全体友军增加20%暴击率，效果持续2回合。美如幻境的景象摄人心魄，随后化为噩梦扑面而来，随机对5名敌人造成攻击力×280%的魔法伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription690012]",
           "descriptions": {
+            "ja-JP": "さらに魔法攻撃の前に2ターンの間味方全体のクリダメ強化を20%増加させる。",
             "zh-CN": "发动攻击前使全体友军额外增加20%暴击伤害强化，效果持续2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription690013]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×380%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×380%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription690014]",
           "descriptions": {
+            "ja-JP": "鏡花水月を強化する。『クリティカル率増加』と『クリダメ強化増加』のターン数がそれぞれ4ターンになる。",
             "zh-CN": "强化镜花水月，「暴击率上升」与「暴击伤害强化上升」效果增加为4回合。"
           },
           "equipment_rarity_flags": 128,
@@ -122,6 +126,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName69001]",
       "names": {
+        "ja-JP": "鏡花水月",
         "zh-CN": "镜花水月"
       },
       "source_memo_ja": "カグヤSR:Lv1 「妾のために励むのじゃ」夢幻の霧から生まれし月光が味方に降り注ぎ、2ターンの間味方全体のクリティカル率を20%増加させる。夢のような美しい風景に心を奪われた時、幻が悪夢となって襲いかかる。その後ランダムな敵5体に攻撃力×280%の魔法攻撃を行う。/ Lv2 さらに魔法攻撃の前に2ターンの間味方全体のクリティカルダメージを20%増加させる。/ Lv3 魔法攻撃のダメージが攻撃力×380%になる。/ Ex1 鏡花水月を強化する。『クリティカル率増加』と『クリティカルダメージ増加』のターン数がそれぞれ4ターンになる。",
@@ -155,6 +160,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription690021]",
           "descriptions": {
+            "ja-JP": "「醒めぬ夢に堕ちるがいい」夢幻の霧が敵を惑わし、ランダムな敵4体に攻撃力×420%の魔法攻撃を行う。",
             "zh-CN": "“赐你一场无尽之梦。”如梦似幻的迷雾使敌人迷失心智，随机对4名敌人造成攻击力×420%的魔法伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -169,6 +175,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription690022]",
           "descriptions": {
+            "ja-JP": "このスキルの対象がランダムな敵5体になる。",
             "zh-CN": "技能目标增加为5名随机敌人。"
           },
           "equipment_rarity_flags": 0,
@@ -183,6 +190,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription690023]",
           "descriptions": {
+            "ja-JP": "さらに魔法攻撃の前に対象が弱体効果を付帯している場合、魔法攻撃のダメージが1.5倍になる。",
             "zh-CN": "当技能目标身上附带弱化效果时，造成的魔法伤害增加为1.5倍。"
           },
           "equipment_rarity_flags": 0,
@@ -197,6 +205,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription690024]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×560%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×560%。"
           },
           "equipment_rarity_flags": 0,
@@ -211,6 +220,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription690025]",
           "descriptions": {
+            "ja-JP": "胡蝶之夢を強化する。魔法攻撃のダメージが攻撃力×620%になる。",
             "zh-CN": "强化晓梦迷蝶，造成的魔法伤害提升为攻击力×620%。"
           },
           "equipment_rarity_flags": 512,
@@ -286,6 +296,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName69002]",
       "names": {
+        "ja-JP": "胡蝶之夢",
         "zh-CN": "晓梦迷蝶"
       },
       "source_memo_ja": "カグヤSR:Lv1 「醒めぬ夢に堕ちるがいい」夢幻の霧が敵を惑わし、ランダムな敵4体に攻撃力×420%の魔法攻撃を行う。/ Lv2 このスキルの対象がランダムな敵5体になる。/ Lv3 さらに魔法攻撃の前に対象が弱体効果を付帯している場合、魔法攻撃のダメージが1.5倍になる。/ Lv4 魔法攻撃のダメージが攻撃力×560%になる。/ Ex3 胡蝶之夢を強化する。魔法攻撃のダメージが攻撃力×620%になる。",
@@ -744,6 +755,7 @@
       },
       "name_key": "[CharacterCollectionName50]",
       "names": {
+        "ja-JP": "セプトラムの威光",
         "zh-CN": "王笏座的威势"
       },
       "required_character_ids": [
@@ -754,12 +766,14 @@
         {
           "id": 69,
           "names": {
+            "ja-JP": "カグヤ",
             "zh-CN": "辉夜"
           }
         },
         {
           "id": 17,
           "names": {
+            "ja-JP": "アモール",
             "zh-CN": "爱沐尔"
           }
         }
@@ -829,12 +843,14 @@
     "memo": "カグヤ",
     "name_key": "[CharacterName69]",
     "names": {
+      "ja-JP": "カグヤ",
       "zh-CN": "辉夜"
     },
     "speed": 2872,
     "start_time_jst": "2024-06-28 15:00:00",
     "subtitle_key": "[CharacterSubName69]",
     "subtitles": {
+      "ja-JP": "夢幻の魔女",
       "zh-CN": "幻梦魔女"
     }
   },
@@ -909,6 +925,7 @@
     },
     "name_key": "[EquipmentName513]",
     "names": {
+      "ja-JP": "月詠絵巻",
       "zh-CN": "月咏画轴"
     },
     "passive_effects": [
@@ -942,6 +959,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill69Description1]",
         "descriptions": {
+          "ja-JP": "鏡花水月を強化する。『クリティカル率増加』と『クリダメ強化増加』のターン数がそれぞれ4ターンになる。",
           "zh-CN": "强化镜花水月，「暴击率上升」与「暴击伤害强化上升」效果增加为4回合。"
         },
         "equipment_rarity_flags": 128,
@@ -950,6 +968,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill69Description2]",
         "descriptions": {
+          "ja-JP": "孤高の月を強化する。カウンタダメージが自身の魔力×600%になり、『シールド』の大きさが自身の攻撃力×1000%になる。さらに自身以外のタイプがソーサラーの味方の編成数が1体以上の場合、カウンタダメージが自身の魔力×900%になる。",
           "zh-CN": "强化孤高之月，反弹伤害提升为辉夜魔力×600%，「护盾」值提升为攻击力×1000%。当队伍中的其他法师类型友军数为1名以上时，反弹伤害提升为辉夜魔力×900%。"
         },
         "equipment_rarity_flags": 256,
@@ -958,6 +977,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill69Description3]",
         "descriptions": {
+          "ja-JP": "胡蝶之夢を強化する。魔法攻撃のダメージが攻撃力×620%になる。",
           "zh-CN": "强化晓梦迷蝶，造成的魔法伤害提升为攻击力×620%。"
         },
         "equipment_rarity_flags": 512,
@@ -978,6 +998,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription690031]",
           "descriptions": {
+            "ja-JP": "「妾だけは生き残らなくてはならぬ。それが生かされた者の務めじゃ」バトル開始時自身に4ターンの間『カウンタ変更』を付与する（解除不可）。カウンタダメージが自身の魔力×200%になる。『カウンタ変更』は毎ターン開始時もしくは自身が攻撃を受けた時、自身のHP割合が100%未満の場合解除される。唯一無二の月には誰も触れる事は許されない──さらに1ターン目のターン開始時自身に4ターンの間自身の攻撃力×200%の『シールド』を付与する（解除不可）。",
             "zh-CN": "“唯有妾身命不可殒，此乃生者所应为之。”战斗开始时，辉夜获得「伤害反弹特化」，效果持续4回合，反弹伤害提升为辉夜魔力×200%（无法被解除）。在每回合开始时或受到攻击后，如果辉夜的生命值低于100%，解除「伤害反弹特化」。世上独一无二的明月，不容他人侵犯——第1回合开始时，辉夜获得攻击力×200%的「护盾」，效果持续4回合（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -992,6 +1013,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription690032]",
           "descriptions": {
+            "ja-JP": "カウンタダメージが自身の魔力×300%になる。",
             "zh-CN": "反弹伤害提升为辉夜魔力×300%。"
           },
           "equipment_rarity_flags": 0,
@@ -1006,6 +1028,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription690033]",
           "descriptions": {
+            "ja-JP": "『シールド』の大きさが自身の攻撃力×400%になる。",
             "zh-CN": "「护盾」值提升为攻击力×400%。"
           },
           "equipment_rarity_flags": 0,
@@ -1020,6 +1043,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription690034]",
           "descriptions": {
+            "ja-JP": "孤高の月を強化する。カウンタダメージが自身の魔力×600%になり、『シールド』の大きさが自身の攻撃力×1000%になる。さらに自身以外のタイプがソーサラーの味方の編成数が1体以上の場合、カウンタダメージが自身の魔力×900%になる。",
             "zh-CN": "强化孤高之月，反弹伤害提升为辉夜魔力×600%，「护盾」值提升为攻击力×1000%。当队伍中的其他法师类型友军数为1名以上时，反弹伤害提升为辉夜魔力×900%。"
           },
           "equipment_rarity_flags": 256,
@@ -1188,6 +1212,7 @@
       },
       "name_key": "[PassiveSkillName69003]",
       "names": {
+        "ja-JP": "孤高の月",
         "zh-CN": "孤高之月"
       },
       "source_memo_ja": "カグヤSR:Lv1 「妾だけは生き残らなくてはならぬ。それが生かされた者の務めじゃ」バトル開始時自身に4ターンの間『カウンタ変更』を付与する（解除不可）。カウンタダメージが自身の魔力×200%になる。『カウンタ変更』は毎ターン開始時もしくは自身が攻撃を受けた時、自身のHP割合が100%未満の場合解除される。唯一無二の月には誰も触れる事は許されない――さらに1ターン目のターン開始時自身に4ターンの間自身の攻撃力×200%の『シールド』を付与する（解除不可）。/ Lv2 カウンタダメージが自身の魔力×300%になる。/ Lv3 『シールド』の大きさが自身の攻撃力×400%になる。/ Ex2 孤高の月を強化する。カウンタダメージが自身の魔力×600%になり、『シールド』の大きさが自身の攻撃力×1000%になる。さらに自身以外のタイプがソーサラーの味方の編成数が1体以上の場合、カウンタダメージが自身の魔力×900%になる。",
@@ -1219,6 +1244,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription690041]",
           "descriptions": {
+            "ja-JP": "気高くも美しい月は、夜が濃いほどに輝く──自身がアクティブスキルで弱体効果を受けたとき、70%の確率で4ターンの間弱体効果を付与してきた敵の物魔防御貫通を25%、攻撃力を10%減少させる。これらは一つの弱体効果として扱う。",
             "zh-CN": "高贵而美丽的月亮，在深沉的夜色中愈发皎洁——当辉夜被附加主动技能造成的弱化效果时，70%概率对附加弱化效果的敌人附加1种弱化效果，减少25%物魔防御穿透与10%攻击力，效果持续4回合。"
           },
           "equipment_rarity_flags": 0,
@@ -1233,6 +1259,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription690042]",
           "descriptions": {
+            "ja-JP": "さらにバトル開始時、自身の被ダメージが40%減少する（解除不可）。",
             "zh-CN": "战斗开始时，辉夜额外减少40%自身承受伤害（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1247,6 +1274,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription690043]",
           "descriptions": {
+            "ja-JP": "物魔防御貫通の減少量が50%、攻撃力の減少量が20%になる。",
             "zh-CN": "物魔防御穿透降幅提升为50%，攻击力降幅提升为20%。"
           },
           "equipment_rarity_flags": 0,
@@ -1329,6 +1357,7 @@
       },
       "name_key": "[PassiveSkillName69004]",
       "names": {
+        "ja-JP": "夢幻の姫",
         "zh-CN": "幻梦公主"
       },
       "source_memo_ja": "カグヤSR:Lv1 気高くも美しい月は、夜が濃いほどに輝く──自身がアクティブスキルで弱体効果を受けたとき、70%の確率で4ターンの間弱体効果を付与してきた敵の物魔防御貫通を25%、攻撃力を10%減少させる。これらは一つの弱体効果として扱う。/ Lv2 さらにバトル開始時、自身の被ダメージが40%減少する（解除不可）。/ Lv3 物魔防御貫通の減少量が50%、攻撃力の減少量が20%になる。",
@@ -1384,6 +1413,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

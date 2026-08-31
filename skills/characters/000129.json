@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription1290011]",
           "descriptions": {
+            "ja-JP": "冥府を守る獣の咆哮が、愚者の魂を消し飛ばす。「がうがう～！」ランダムな敵に6回攻撃力×240%の魔法攻撃を行う。",
             "zh-CN": "冥府守护兽的咆哮让愚者的灵魂灰飞烟灭。“嗷呜嗷呜～！”克尔柏洛丝随机对敌人进行6次攻击，每次造成攻击力×240%的魔法伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription1290012]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×340%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×340%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1290013]",
           "descriptions": {
+            "ja-JP": "魔法攻撃の前に自身が『優しい魔法』を付帯している場合、魔法攻撃のダメージが攻撃力×510%になる。",
             "zh-CN": "发动攻击前，如果克尔柏洛丝身上附带「温柔的魔法」状态，造成的魔法伤害提升为攻击力×510%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1290014]",
           "descriptions": {
+            "ja-JP": "守護獣の咆哮を強化する。魔法攻撃の回数が10回になる。",
             "zh-CN": "强化守护兽的咆哮，攻击次数增加为10次。"
           },
           "equipment_rarity_flags": 128,
@@ -142,6 +146,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName129001]",
       "names": {
+        "ja-JP": "守護獣の咆哮",
         "zh-CN": "守护兽的咆哮"
       },
       "source_memo_ja": "宝物ケルベロスSR:Lv1 冥府を守る獣の咆哮が、愚者の魂を消し飛ばす。「がうがう～！」ランダムな敵に6回攻撃力×240%の魔法攻撃を行う。/ Lv2 魔法攻撃のダメージが攻撃力×340%になる。/ Lv3 魔法攻撃の前に自身が『優しい魔法』を付帯している場合、魔法攻撃のダメージが攻撃力×510%になる。/ Ex1 守護獣の咆哮を強化する。魔法攻撃の回数が10回になる。",
@@ -175,6 +180,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription1290021]",
           "descriptions": {
+            "ja-JP": "罪人を裁く冥界の雷が、穢れた魂を打ち砕く。「ビリビリどっかーん！」ランダムな敵2体に攻撃力×720%の魔法攻撃を行う。魔法攻撃の後、このターン中に『多重バリア』でダメージを無効化した敵に、対象がこのターン中に『多重バリア』で無効化したダメージ×20%の直接攻撃を行う。この直接攻撃は対象の『多重バリア』を無視し、クリティカルヒットしない。",
             "zh-CN": "自冥界降下的审判雷霆，将污秽的灵魂彻底摧毁。“噼里啪啦轰隆——！”克尔柏洛丝随机对2名敌人造成攻击力×720%的魔法伤害。攻击结束后，再对本回合内曾以「多重屏障」抵消伤害的敌人追加1次直接攻击，造成的伤害量为目标在本回合内以「多重屏障」抵消的伤害量×20%。此直接攻击无视目标的「多重屏障」，且无法暴击。"
           },
           "equipment_rarity_flags": 0,
@@ -189,6 +195,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription1290022]",
           "descriptions": {
+            "ja-JP": "魔法攻撃の対象がランダムな敵3体になる。",
             "zh-CN": "攻击目标增加为3名随机敌人。"
           },
           "equipment_rarity_flags": 0,
@@ -203,6 +210,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription1290023]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×1320%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×1320%。"
           },
           "equipment_rarity_flags": 0,
@@ -217,6 +225,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription1290024]",
           "descriptions": {
+            "ja-JP": "魔法攻撃の前に自身が『優しい魔法』を付帯している場合、魔法攻撃のダメージが攻撃力×1980%になる。",
             "zh-CN": "发动攻击前，如果克尔柏洛丝身上附带「温柔的魔法」状态，造成的魔法伤害提升为攻击力×1980%。"
           },
           "equipment_rarity_flags": 0,
@@ -286,6 +295,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName129002]",
       "names": {
+        "ja-JP": "ハデスの冥雷",
         "zh-CN": "哈迪斯之雷"
       },
       "source_memo_ja": "宝物ケルベロスSR:Lv1 罪人を裁く冥界の雷が、穢れた魂を打ち砕く。「ビリビリどっかーん！」ランダムな敵2体に攻撃力×720%の魔法攻撃を行う。魔法攻撃の後、このターン中に『多重バリア』でダメージを無効化した敵に、対象がこのターン中に『多重バリア』で無効化にしたダメージ×20%の直接攻撃を行う。この直接攻撃は対象の『多重バリア』を無視し、クリティカルヒットしない。/ Lv2 魔法攻撃の対象がランダムな敵3体になる。/ Lv3 魔法攻撃のダメージが攻撃力×1320%になる。/ Lv4 魔法攻撃の前に自身が『優しい魔法』を付帯している場合、魔法攻撃のダメージが攻撃力×1980%になる。",
@@ -740,6 +750,7 @@
       },
       "name_key": "[CharacterCollectionName82]",
       "names": {
+        "ja-JP": "カニス・ミノルの宝物​",
         "zh-CN": "小犬座的宝物"
       },
       "required_character_ids": [
@@ -750,12 +761,14 @@
         {
           "id": 129,
           "names": {
+            "ja-JP": "ケルベロス",
             "zh-CN": "克尔柏洛丝"
           }
         },
         {
           "id": 43,
           "names": {
+            "ja-JP": "ケルベロス",
             "zh-CN": "克尔柏洛丝"
           }
         }
@@ -825,12 +838,14 @@
     "memo": "宝物ケルベロス",
     "name_key": "[CharacterName129]",
     "names": {
+      "ja-JP": "ケルベロス",
       "zh-CN": "克尔柏洛丝"
     },
     "speed": 2563,
     "start_time_jst": "2025-10-30 15:00:00",
     "subtitle_key": "[CharacterSubName129]",
     "subtitles": {
+      "ja-JP": "魔法のキャンディ",
       "zh-CN": "魔法糖果"
     }
   },
@@ -904,6 +919,7 @@
     },
     "name_key": "[EquipmentName873]",
     "names": {
+      "ja-JP": "魔法のキャンディ",
       "zh-CN": "魔法糖果"
     },
     "passive_effects": [
@@ -937,6 +953,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill129Description1]",
         "descriptions": {
+          "ja-JP": "守護獣の咆哮を強化する。魔法攻撃の回数が10回になる。",
           "zh-CN": "强化守护兽的咆哮，攻击次数增加为10次。"
         },
         "equipment_rarity_flags": 128,
@@ -945,6 +962,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill129Description2]",
         "descriptions": {
+          "ja-JP": "世界一幸せな魔法を強化する。『優しい魔法』を付帯している間のダメージの遮断量が85%になり、『優しい魔法』が解除された後のダメージの遮断量が70%になる。",
           "zh-CN": "强化全世界最幸福的魔法，「温柔的魔法」存在期间，伤害阻绝量提升为85%；「温柔的魔法」解除后，伤害阻绝量提升为70%。"
         },
         "equipment_rarity_flags": 256,
@@ -953,6 +971,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill129Description3]",
         "descriptions": {
+          "ja-JP": "お姉ちゃんと一緒！を強化する。命中率の増加量が50%になる。",
           "zh-CN": "强化跟姐姐一起！，命中率增幅提升为50%。"
         },
         "equipment_rarity_flags": 512,
@@ -973,6 +992,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription1290031]",
           "descriptions": {
+            "ja-JP": "力の暴走はまだ怖い。だけど、つないだ手の温かさが、いつも私を守ってくれるから──。自身が致命的なダメージを受けたとき、HP1で耐え、自身のHPを自身の最大HP×50%回復する。その後自身に4ターンの間『優しい魔法』を付与する（解除不可）。『優しい魔法』を付帯している間、自身が攻撃を受けたとき、ダメージを30%遮断する。HP1で耐える効果はバトル中1回のみ発動する。",
             "zh-CN": "我还是好怕力量会失控。但是，牵手时掌心传来的融融暖意，会一直守护着我——当克尔柏洛丝受到致命伤害时，保留1点生命值不死，并使自己恢复50%最大生命值。再获得「温柔的魔法」状态，效果持续4回合（无法被解除）。当克尔柏洛丝在身上附带「温柔的魔法」状态时受到攻击，阻绝30%伤害。保留1点生命值不死效果每场战斗最多触发1次。"
           },
           "equipment_rarity_flags": 0,
@@ -987,6 +1007,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription1290032]",
           "descriptions": {
+            "ja-JP": "さらに『優しい魔法』が解除された後に自身が攻撃を受けたとき、ダメージを20%遮断する。",
             "zh-CN": "当克尔柏洛丝在「温柔的魔法」解除后受到攻击，阻绝20%伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -1001,6 +1022,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription1290033]",
           "descriptions": {
+            "ja-JP": "自身が致命的なダメージを受けたとき、さらにHP回復の前に自身の弱体効果を1つ解除する。",
             "zh-CN": "当克尔柏洛丝受到致命伤害时，在恢复生命值前额外解除身上附带的1种弱化效果。"
           },
           "equipment_rarity_flags": 0,
@@ -1015,6 +1037,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription1290034]",
           "descriptions": {
+            "ja-JP": "世界一幸せな魔法を強化する。『優しい魔法』を付帯している間のダメージの遮断量が85%になり、『優しい魔法』が解除された後のダメージの遮断量が70%になる。",
             "zh-CN": "强化全世界最幸福的魔法，「温柔的魔法」存在期间，伤害阻绝量提升为85%；「温柔的魔法」解除后，伤害阻绝量提升为70%。"
           },
           "equipment_rarity_flags": 256,
@@ -1155,6 +1178,7 @@
       },
       "name_key": "[PassiveSkillName129003]",
       "names": {
+        "ja-JP": "世界一幸せな魔法",
         "zh-CN": "全世界最幸福的魔法"
       },
       "source_memo_ja": "宝物ケルベロスSR:Lv1 力の暴走はまだ怖い。だけど、つないだ手の温かさが、いつも私を守ってくれるから──。自身が致命的なダメージを受けたとき、HP1で耐え、自身のHPを自身の最大HP×50%回復する。その後自身に4ターンの間『優しい魔法』を付与する（解除不可）。『優しい魔法』を付帯している間、自身が攻撃を受けたとき、ダメージを30%遮断する。HP1で耐える効果はバトル中1回のみ発動する。/ Lv2 さらに『優しい魔法』が解除された後に自身が攻撃を受けたとき、ダメージを20%遮断する。/ Lv3 自身が致命的なダメージを受けたとき、さらにHP回復の前に自身の弱体効果を1つ解除する。/ Ex2 世界一幸せな魔法を強化する。『優しい魔法』を付帯している間のダメージの遮断量が85%になり、『優しい魔法』が解除された後のダメージの遮断量が70%になる。",
@@ -1186,6 +1210,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription1290041]",
           "descriptions": {
+            "ja-JP": "お料理もお掃除も、おはようもおやすみも、ぜーんぶお姉ちゃんと一緒がいいの！バトル開始時、自身の命中率が40%増加する（解除不可）。",
             "zh-CN": "“不管是打扫还是做糖果，说早安还是晚安，我全～都要跟姐姐一起！”战斗开始时，克尔柏洛丝使自己增加40%命中率（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1200,6 +1225,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription1290042]",
           "descriptions": {
+            "ja-JP": "バトル開始時、さらに自身に隣接する味方2体の攻撃力が10%増加する（解除不可）。",
             "zh-CN": "战斗开始时，使附近的2名友军额外增加10%攻击力（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1214,6 +1240,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription1290043]",
           "descriptions": {
+            "ja-JP": "バトル開始時、さらに自身に隣接する味方2体のスピードが10%増加する（解除不可）。",
             "zh-CN": "战斗开始时，使附近的2名友军额外增加10%速度（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1228,6 +1255,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription1290044]",
           "descriptions": {
+            "ja-JP": "お姉ちゃんと一緒！を強化する。命中率の増加量が50%になる。",
             "zh-CN": "强化跟姐姐一起！，命中率增幅提升为50%。"
           },
           "equipment_rarity_flags": 512,
@@ -1347,6 +1375,7 @@
       },
       "name_key": "[PassiveSkillName129004]",
       "names": {
+        "ja-JP": "お姉ちゃんと一緒！",
         "zh-CN": "跟姐姐一起！"
       },
       "source_memo_ja": "宝物ケルベロスSR:Lv1 お料理もお掃除も、おはようもおやすみも、ぜーんぶお姉ちゃんと一緒がいいの！バトル開始時、自身の命中率が40%増加する（解除不可）。/ Lv2 バトル開始時、さらに自身に隣接する味方2体の攻撃力が10%増加する（解除不可）。/ Lv3 バトル開始時、さらに自身に隣接する味方2体のスピードが10%増加する（解除不可）。/ Ex3 お姉ちゃんと一緒！を強化する。命中率の増加量が50%になる。",
@@ -1406,6 +1435,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

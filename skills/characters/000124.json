@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription1240011]",
           "descriptions": {
+            "ja-JP": "たとえ無様であろうと、彼女は何度でも立ち上がり牙を振るう。大切なものを守るために──自身のHPを自身の最大HP×5%回復する。その後攻撃力が高い敵2体に攻撃力×380%の物理攻撃を行い、40%の確率で6ターンの間対象に『バフ無効』を付与する。",
             "zh-CN": "不管再怎么不堪，耶尔德兹都会一次又一次爬起来守护族群，以獠牙迎战敌人——耶尔德兹使自己恢复5%最大生命值。再对攻击力最高的2名敌人造成攻击力×380%的物理伤害，40%概率附加「增益效果免疫」状态，效果持续6回合。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription1240012]",
           "descriptions": {
+            "ja-JP": "『バフ無効』を付与する確率が70%になる。",
             "zh-CN": "附加「增益效果免疫」状态的概率提升为70%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1240013]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×620%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×620%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1240014]",
           "descriptions": {
+            "ja-JP": "不屈の牙を強化する。物理攻撃の対象が攻撃力が高い敵3体になる。",
             "zh-CN": "强化不屈之牙，攻击目标增加为攻击力最高的3名敌人。"
           },
           "equipment_rarity_flags": 128,
@@ -67,6 +71,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription1240015]",
           "descriptions": {
+            "ja-JP": "不屈の牙を強化する。物理攻撃のダメージが攻撃力×680%になる。",
             "zh-CN": "强化不屈之牙，造成的物理伤害提升为攻击力×680%。"
           },
           "equipment_rarity_flags": 512,
@@ -147,6 +152,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName124001]",
       "names": {
+        "ja-JP": "不屈の牙",
         "zh-CN": "不屈之牙"
       },
       "source_memo_ja": "ユルディズSR:Lv1 たとえ無様であろうと、彼女は何度でも立ち上がり牙を振るう。大切なものを守るために──自身のHPを自身の最大HP×5%回復する。その後攻撃力が高い敵2体に攻撃力×380%の物理攻撃を行い、40%の確率で6ターンの間対象に『バフ無効』を付与する。/ Lv2 『バフ無効』を付与する確率が70%になる。/ Lv3 物理攻撃のダメージが攻撃力×620%になる。/ Ex1 不屈の牙を強化する。物理攻撃の対象が攻撃力が高い敵3体になる。/ Ex3 不屈の牙を強化する。物理攻撃のダメージが攻撃力×680%になる。",
@@ -184,6 +190,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription1240021]",
           "descriptions": {
+            "ja-JP": "一人で石の民と戦うその姿は、まさに狼のようであった。故に人々は畏怖と畏敬を込めて呼んだ。「狼の娘」と。自身のHPを自身の最大HP×5%回復する。その後攻撃力が最も高い敵に3回攻撃力×220%の物理攻撃を行う。",
             "zh-CN": "独自迎战岩石之民的耶尔德兹，身姿宛如一头凶猛的野狼，因此人们敬畏地称呼她——狼族的女儿。耶尔德兹使自己恢复5%最大生命值。再对攻击力最高的敌人进行3次攻击，每次造成攻击力×220%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -198,6 +205,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription1240022]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×280%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×280%。"
           },
           "equipment_rarity_flags": 0,
@@ -212,6 +220,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription1240023]",
           "descriptions": {
+            "ja-JP": "物理攻撃の回数が4回になる。",
             "zh-CN": "攻击次数增加为4次。"
           },
           "equipment_rarity_flags": 0,
@@ -226,6 +235,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription1240024]",
           "descriptions": {
+            "ja-JP": "物理攻撃の前に自身の『狼と人の絆』のスタック数が10の場合、物理攻撃のダメージが攻撃力×1120%になる。",
             "zh-CN": "发动攻击前，如果耶尔德兹身上附带的「狼与人的情谊」达10层，造成的物理伤害提升为攻击力×1120%。"
           },
           "equipment_rarity_flags": 0,
@@ -305,6 +315,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName124002]",
       "names": {
+        "ja-JP": "星狼の爪撃",
         "zh-CN": "星狼爪击"
       },
       "source_memo_ja": "ユルディズSR:Lv1 一人で石の民と戦うその姿は、まさに狼のようであった。故に人々は畏怖と畏敬を込めて呼んだ。「狼の娘」と。自身のHPを自身の最大HP×5%回復する。その後攻撃力が最も高い敵に3回攻撃力×220%の物理攻撃を行う。/ Lv2 物理攻撃のダメージが攻撃力×280%になる。/ Lv3 物理攻撃の回数が4回になる。/ Lv4 物理攻撃の前に自身の『狼と人の絆』のスタック数が10の場合、物理攻撃のダメージが攻撃力×1120%になる。",
@@ -759,6 +770,7 @@
       },
       "name_key": "[CharacterCollectionName77]",
       "names": {
+        "ja-JP": "カシオペイアの同盟",
         "zh-CN": "仙后座的同盟"
       },
       "required_character_ids": [
@@ -769,12 +781,14 @@
         {
           "id": 124,
           "names": {
+            "ja-JP": "ユルディズ",
             "zh-CN": "耶尔德兹"
           }
         },
         {
           "id": 126,
           "names": {
+            "ja-JP": "ミフリ",
             "zh-CN": "米赫里"
           }
         }
@@ -844,12 +858,14 @@
     "memo": "ユルディズ",
     "name_key": "[CharacterName124]",
     "names": {
+      "ja-JP": "ユルディズ",
       "zh-CN": "耶尔德兹"
     },
     "speed": 3146,
     "start_time_jst": "2025-08-14 15:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -923,6 +939,7 @@
     },
     "name_key": "[EquipmentName843]",
     "names": {
+      "ja-JP": "シヤフ・ディシ",
       "zh-CN": "黑色狼牙"
     },
     "passive_effects": [
@@ -956,6 +973,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill124Description1]",
         "descriptions": {
+          "ja-JP": "不屈の牙を強化する。物理攻撃の対象が攻撃力が高い敵3体になる。",
           "zh-CN": "强化不屈之牙，攻击目标增加为攻击力最高的3名敌人。"
         },
         "equipment_rarity_flags": 128,
@@ -964,6 +982,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill124Description2]",
         "descriptions": {
+          "ja-JP": "天の動かぬ標を強化する。バフを付与する対象が翠属性の場合、防御力と物理防御力の増加量がそれぞれ80%、物理クリダメ緩和の増加量が40%になる。",
           "zh-CN": "强化天上不变的信标，当增益效果的附加目标为苍翠属性时，防御力与物理防御力增幅提升为80%，物理暴击伤害降低的增幅提升为40%。"
         },
         "equipment_rarity_flags": 256,
@@ -972,6 +991,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill124Description3]",
         "descriptions": {
+          "ja-JP": "不屈の牙を強化する。物理攻撃のダメージが攻撃力×680%になる。",
           "zh-CN": "强化不屈之牙，造成的物理伤害提升为攻击力×680%。"
         },
         "equipment_rarity_flags": 512,
@@ -992,6 +1012,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription1240031]",
           "descriptions": {
+            "ja-JP": "かつてはただ遠くに在るだけの冷たい光だったが、今は人の心に寄り添うような温もりを宿している。バトル開始時、自身の最大HPが40%増加する（解除不可）。",
             "zh-CN": "过去的她，是一道高挂在遥远天际的冰冷星光，而如今光芒中拥有了几许能够触及人心的温度。战斗开始时，耶尔德兹使自己增加40%最大生命值（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1006,6 +1027,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription1240032]",
           "descriptions": {
+            "ja-JP": "さらにバトル開始時、自身と自身以外の攻撃力が最も高い味方の防御力と物理防御力と物理クリダメ緩和をそれぞれ20%増加させる（解除不可）。",
             "zh-CN": "战斗开始时，使自己与攻击力最高的其他友军额外增加20%防御力、物理防御力与物理暴击伤害降低（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1020,6 +1042,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription1240033]",
           "descriptions": {
+            "ja-JP": "最大HPの増加量が100%になる。",
             "zh-CN": "最大生命值增幅提升为100%。"
           },
           "equipment_rarity_flags": 0,
@@ -1034,6 +1057,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription1240034]",
           "descriptions": {
+            "ja-JP": "天の動かぬ標を強化する。バフを付与する対象が翠属性の場合、防御力と物理防御力の増加量がそれぞれ80%、物理クリダメ緩和の増加量が40%になる。",
             "zh-CN": "强化天上不变的信标，当增益效果的附加目标为苍翠属性时，防御力与物理防御力增幅提升为80%，物理暴击伤害降低的增幅提升为40%。"
           },
           "equipment_rarity_flags": 256,
@@ -1160,6 +1184,7 @@
       },
       "name_key": "[PassiveSkillName124003]",
       "names": {
+        "ja-JP": "天の動かぬ標",
         "zh-CN": "天上不变的信标"
       },
       "source_memo_ja": "ユルディズSR:Lv1 かつてはただ遠くに在るだけの冷たい光だったが、今は人の心に寄り添うような温もりを宿している。バトル開始時、自身の最大HPが40%増加する（解除不可）。/ Lv2 さらにバトル開始時、自身と自身以外の攻撃力が最も高い味方の防御力を20%、物理防御力を20%、物理クリダメ緩和を20%増加させる（解除不可）。/ Lv3 最大HPの増加量が100%になる。/ Ex2 天の動かぬ標を強化する。バフを付与する対象が翠属性の場合、防御力の増加量が80%、物理防御力の増加量が80%、物理クリダメ緩和の増加量が40%になる。",
@@ -1191,6 +1216,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription1240041]",
           "descriptions": {
+            "ja-JP": "弱き者が淘汰されるは自然の摂理。その冷徹な理は真実だと少女は知っている。だが、大切なものをその理のままに切り捨てないと、あの日に固く誓った。自身か味方のアクティブスキルがHPを回復する効果を発動したとき、自身に『狼と人の絆』を1スタック付与する（最大10スタックまで）（解除不可）。このバフは1スタックにつき付帯者の攻撃力と命中率をそれぞれ4%増加させる。",
             "zh-CN": "弱者会被淘汰是自然的规律。少女深知这条冷酷的法则是不争的事实。然而她在那一天立下誓言：绝不屈服于自然法则，舍弃自己的族群与家人。当耶尔德兹或友军发动主动技能触发恢复生命值的效果时，耶尔德兹获得1层「狼与人的情谊」（最多10层）（无法被解除）。每层「狼与人的情谊」使附带者增加4%攻击力与命中率。"
           },
           "equipment_rarity_flags": 0,
@@ -1205,6 +1231,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription1240042]",
           "descriptions": {
+            "ja-JP": "『狼と人の絆』を付与する対象が自身と自身以外の攻撃力が最も高い味方になる。",
             "zh-CN": "「狼与人的情谊」的附加目标增加为耶尔德兹与攻击力最高的其他友军。"
           },
           "equipment_rarity_flags": 0,
@@ -1219,6 +1246,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription1240043]",
           "descriptions": {
+            "ja-JP": "攻撃力と命中率の増加量がそれぞれ8%になる。",
             "zh-CN": "攻击力与命中率增幅提升为8%。"
           },
           "equipment_rarity_flags": 0,
@@ -1336,6 +1364,7 @@
       },
       "name_key": "[PassiveSkillName124004]",
       "names": {
+        "ja-JP": "揺るがぬ誓い",
         "zh-CN": "坚定的誓言"
       },
       "source_memo_ja": "ユルディズSR:Lv1 弱き者が淘汰されるは自然の摂理。その冷徹な理は真実だと少女は知っている。だが、大切なものをその理のままに切り捨てないと、あの日に固く誓った。自身か味方のアクティブスキルがHPを回復する効果を発動したとき、自身に『狼と人の絆』を1スタック付与する（最大10スタックまで）（解除不可）。このバフは1スタックにつき付帯者の攻撃力を4%増加させ、命中率を4%増加させる。/ Lv2 『狼と人の絆』を付与する対象が自身と自身以外の攻撃力が最も高い味方になる。/ Lv3 攻撃力の増加量が8%、命中率の増加量が8%になる。",
@@ -1391,6 +1420,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

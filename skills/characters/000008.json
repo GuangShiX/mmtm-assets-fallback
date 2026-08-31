@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription80011]",
           "descriptions": {
+            "ja-JP": "紅く鋭い光を放つ槍で、ランダムな敵に3回攻撃力×460%の物理攻撃を行う。相手を倒すほど士気が上昇していき、クリティカルヒットするたび攻撃回数が1回多くなる（合計で最大6回まで）。",
             "zh-CN": "佛罗伦斯挥舞长枪释放锐不可挡的红光，随机对敌人进行3次攻击，每次造成攻击力×460%的物理伤害。打倒对手使她士气大增，当技能暴击时，攻击次数增加1次（合计最多6连击）。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription80012]",
           "descriptions": {
+            "ja-JP": "最初の物理攻撃の回数が4回、合計で最大8回までになる。",
             "zh-CN": "第一波攻击次数增加为4次，连击上限增加为8次。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription80013]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×480%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×480%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription80014]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription80014]",
             "zh-CN": "[ActiveSkillDescription80014]"
           },
           "equipment_rarity_flags": 128,
@@ -64,6 +68,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription80015]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription80015]",
             "zh-CN": "[ActiveSkillDescription80015]"
           },
           "equipment_rarity_flags": 256,
@@ -75,6 +80,7 @@
           "character_level": 240,
           "description_key": "*",
           "descriptions": {
+            "ja-JP": null,
             "zh-CN": null
           },
           "equipment_rarity_flags": 512,
@@ -201,6 +207,7 @@
       "max_cooldown": 5,
       "name_key": "[ActiveSkillName8001]",
       "names": {
+        "ja-JP": "紅天光槍",
         "zh-CN": "红光破天枪"
       },
       "source_memo_ja": "フローレンスSR: /Lv1　紅く鋭い光を放つ槍で、ランダムな敵に3回攻撃力×460%の物理攻撃を行う。相手を倒すほど士気が上昇していき、クリティカルヒットするたび攻撃回数が1回多くなる（合計で最大6回まで）。　/Lv2 最初の物理攻撃の回数が4回、合計で最大8回までになる。　/Lv3 物理攻撃のダメージが攻撃力×480%になる。　/専用1 紅天光槍を強化する。さらに物理攻撃の前に1ターンの間対象のクリティカル耐性率を40％減少させる。　/専用2 紅天光槍を強化する。最初の物理攻撃の回数が6回、合計で最大10回までになる。　/専用3 紅天光槍と戦舞・光散双槍を強化する。紅天光槍の物理攻撃のダメージと戦舞・光散双槍の最初の物理攻撃のダメージがそれぞれ攻撃力×525％になる。",
@@ -230,6 +237,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription80021]",
           "descriptions": {
+            "ja-JP": "舞うように戦場に駆け、ランダムな敵5体に攻撃力×480%の物理攻撃を行う。「最後まで手を抜くな！」このスキルで敵を戦闘不能にした場合、現在HPが最も低い敵に攻撃力×520%の物理攻撃を行う。",
             "zh-CN": "佛罗伦斯在战场上纵横驰骋，宛若起舞，随机对5名敌人造成攻击力×480%的物理伤害。“不到最后千万别松懈！”如果技能目标失去战斗能力，再对当前生命值最低的敌人追加攻击力×520%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -244,6 +252,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription80022]",
           "descriptions": {
+            "ja-JP": "追加攻撃のダメージが攻撃力×560%になる。",
             "zh-CN": "造成的追加伤害提升为攻击力×560%。"
           },
           "equipment_rarity_flags": 0,
@@ -258,6 +267,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription80023]",
           "descriptions": {
+            "ja-JP": "最初の物理攻撃のダメージが攻撃力×510%になる。",
             "zh-CN": "第一波攻击造成的物理伤害提升为攻击力×510%。"
           },
           "equipment_rarity_flags": 0,
@@ -272,6 +282,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription80024]",
           "descriptions": {
+            "ja-JP": "追加攻撃の回数が2回になる。",
             "zh-CN": "追加攻击次数增加为2次。"
           },
           "equipment_rarity_flags": 0,
@@ -286,6 +297,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription80025]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription80025]",
             "zh-CN": "[ActiveSkillDescription80025]"
           },
           "equipment_rarity_flags": 512,
@@ -365,6 +377,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName8002]",
       "names": {
+        "ja-JP": "戦舞・光散双槍",
         "zh-CN": "战舞・闪光双枪"
       },
       "source_memo_ja": "フローレンスSR: /Lv1　舞うように戦場に駆け、ランダムな敵5体に攻撃力×480%の物理攻撃を行う。「最後まで手を抜くな！」このスキルで敵を戦闘不能にした場合、現在HPが最も低い敵に攻撃力×520%の物理攻撃を行う。　/Lv2 追加攻撃のダメージが攻撃力×560%になる。　/Lv3 最初の物理攻撃のダメージが攻撃力×510%になる。　/Lv4 追加攻撃の回数が2回になる。　/専用3 紅天光槍と戦舞・光散双槍を強化する。紅天光槍の物理攻撃のダメージと戦舞・光散双槍の最初の物理攻撃のダメージがそれぞれ攻撃力×525％になる。",
@@ -829,6 +842,7 @@
       },
       "name_key": "[CharacterCollectionName7]",
       "names": {
+        "ja-JP": "アルビレオの宝石",
         "zh-CN": "天鹅座的宝石"
       },
       "required_character_ids": [
@@ -841,24 +855,28 @@
         {
           "id": 5,
           "names": {
+            "ja-JP": "ソルティーナ",
             "zh-CN": "索尔缇娜"
           }
         },
         {
           "id": 7,
           "names": {
+            "ja-JP": "フェンリル",
             "zh-CN": "芬里尔"
           }
         },
         {
           "id": 8,
           "names": {
+            "ja-JP": "フローレンス",
             "zh-CN": "佛罗伦斯"
           }
         },
         {
           "id": 46,
           "names": {
+            "ja-JP": "ルナリンド",
             "zh-CN": "露娜琳德"
           }
         }
@@ -1297,6 +1315,7 @@
       },
       "name_key": "[CharacterCollectionName8]",
       "names": {
+        "ja-JP": "アルテミスの誓約",
         "zh-CN": "阿缇密斯的誓约"
       },
       "required_character_ids": [
@@ -1308,18 +1327,21 @@
         {
           "id": 49,
           "names": {
+            "ja-JP": "オフィーリア",
             "zh-CN": "奥菲莉娅"
           }
         },
         {
           "id": 6,
           "names": {
+            "ja-JP": "アムレート",
             "zh-CN": "阿姆蕾特"
           }
         },
         {
           "id": 8,
           "names": {
+            "ja-JP": "フローレンス",
             "zh-CN": "佛罗伦斯"
           }
         }
@@ -1757,6 +1779,7 @@
       },
       "name_key": "[CharacterCollectionName40]",
       "names": {
+        "ja-JP": "ギルサニアの玲瓏",
         "zh-CN": "吉鲁萨尼亚的玲珑"
       },
       "required_character_ids": [
@@ -1767,12 +1790,14 @@
         {
           "id": 84,
           "names": {
+            "ja-JP": "リズ",
             "zh-CN": "莉兹"
           }
         },
         {
           "id": 8,
           "names": {
+            "ja-JP": "フローレンス",
             "zh-CN": "佛罗伦斯"
           }
         }
@@ -1842,12 +1867,14 @@
     "memo": "フローレンス",
     "name_key": "[CharacterName8]",
     "names": {
+      "ja-JP": "フローレンス",
       "zh-CN": "佛罗伦斯"
     },
     "speed": 3022,
     "start_time_jst": "2020-01-01 00:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -1921,6 +1948,7 @@
     },
     "name_key": "[EquipmentName219]",
     "names": {
+      "ja-JP": "紅誓の天槍",
       "zh-CN": "深红誓约之圣枪"
     },
     "passive_effects": [
@@ -1954,6 +1982,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill8Description1]",
         "descriptions": {
+          "ja-JP": "紅天光槍を強化する。さらに物理攻撃の前に1ターンの間対象のクリティカル耐性率を40%減少させる。",
           "zh-CN": "强化红光破天枪，发动攻击前使技能目标额外减少40%抗暴率，效果持续1回合。"
         },
         "equipment_rarity_flags": 128,
@@ -1962,6 +1991,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill8Description2]",
         "descriptions": {
+          "ja-JP": "紅天光槍を強化する。最初の物理攻撃の回数が6回、合計で最大10回までになる。",
           "zh-CN": "强化红光破天枪，第一波攻击次数增加为6次，连击上限增加为10次。"
         },
         "equipment_rarity_flags": 256,
@@ -1970,6 +2000,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill8Description3]",
         "descriptions": {
+          "ja-JP": "紅天光槍と戦舞・光散双槍を強化する。紅天光槍の物理攻撃のダメージと戦舞・光散双槍の最初の物理攻撃のダメージがそれぞれ攻撃力×525%になる。",
           "zh-CN": "强化红光破天枪与战舞・闪光双枪，造成的物理伤害提升为攻击力×525%。"
         },
         "equipment_rarity_flags": 512,
@@ -1992,6 +2023,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription80031]",
           "descriptions": {
+            "ja-JP": "必ず護る──かつての誓いの言葉によって、毎ターン開始時自身のクリティカル率が2%増加する（最大15スタック、30%まで）（解除不可）。",
             "zh-CN": "“我一定会守护你！”佛罗伦斯谨记曾经许下的誓言，在每回合开始时使自己增加2%暴击率（最多叠加15层，合计30%）（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -2006,6 +2038,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription80032]",
           "descriptions": {
+            "ja-JP": "クリティカル率の増加量が4%になり、増加量最大値が60%になる。",
             "zh-CN": "暴击率增幅提升为4%，增幅上限提升为60%。"
           },
           "equipment_rarity_flags": 0,
@@ -2020,6 +2053,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription80033]",
           "descriptions": {
+            "ja-JP": "クリティカル率の増加量が6%になり、増加量最大値が90%になる。",
             "zh-CN": "暴击率增幅提升为6%，增幅上限提升为90%。"
           },
           "equipment_rarity_flags": 0,
@@ -2088,6 +2122,7 @@
       },
       "name_key": "[PassiveSkillName8003]",
       "names": {
+        "ja-JP": "聖女の守護者",
         "zh-CN": "圣女守护者"
       },
       "source_memo_ja": "フローレンスSR: /Lv1　必ず護る──かつての誓いの言葉によって、毎ターン開始時自身のクリティカル率が2％増加する（最大30％まで）（解除不可）。　/Lv2 クリティカル率の増加量が4％になり、増加量最大値が60％になる。　/Lv3 クリティカル率の増加量が6％になり、増加量最大値が90％になる。",
@@ -2115,6 +2150,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription80041]",
           "descriptions": {
+            "ja-JP": "誓いも仲間も護ってみせる。自身の攻撃力が20%増加する（解除不可）。",
             "zh-CN": "“我会坚守誓言，保护战友。”佛罗伦斯使自己增加20%攻击力（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -2129,6 +2165,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription80042]",
           "descriptions": {
+            "ja-JP": "さらに自身の与ダメージが20%増加する（解除不可）。",
             "zh-CN": "额外增加20%输出伤害（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -2143,6 +2180,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription80043]",
           "descriptions": {
+            "ja-JP": "攻撃力と与ダメージの増加量がそれぞれ30%になる。",
             "zh-CN": "攻击力与输出伤害增幅提升为30%。"
           },
           "equipment_rarity_flags": 0,
@@ -2211,6 +2249,7 @@
       },
       "name_key": "[PassiveSkillName8004]",
       "names": {
+        "ja-JP": "天誓の契り",
         "zh-CN": "天契的誓约"
       },
       "source_memo_ja": "フローレンスSR: /Lv1　誓いも仲間も護ってみせる。自身の攻撃力が20％増加する（解除不可）。　/Lv2 さらに自身の与ダメージが20％増加する（解除不可）。　/Lv3 攻撃力と与ダメージの増加量がそれぞれ30％になる。",
@@ -2266,6 +2305,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

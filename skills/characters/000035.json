@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription350011]",
           "descriptions": {
+            "ja-JP": "野良猫のような素早い動きで、ランダムな敵に4回攻撃力×275%の物理攻撃を行う。倒した数が多いほど野生の本能が刺激され、このスキルで敵を戦闘不能にするたび攻撃回数が1回多くなる（合計で最大8回まで）。",
             "zh-CN": "咪咪发挥流浪猫般的矫捷身手，随机对敌人进行4次攻击，每次造成攻击力×275%的物理伤害。击败的敌人越多，越容易激发野生动物的本能，每使1名技能目标失去战斗能力，攻击次数增加1次（合计最多8连击）。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription350012]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×315%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×315%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription350013]",
           "descriptions": {
+            "ja-JP": "最初の物理攻撃の回数が5回、合計で最大9回までになる。",
             "zh-CN": "第一波攻击次数增加为5次，连击上限增加为9次。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription350014]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription350014]",
             "zh-CN": "[ActiveSkillDescription350014]"
           },
           "equipment_rarity_flags": 128,
@@ -145,6 +149,7 @@
       "max_cooldown": 5,
       "name_key": "[ActiveSkillName35001]",
       "names": {
+        "ja-JP": "ワイルドクロー",
         "zh-CN": "野性的利爪"
       },
       "source_memo_ja": "ミミSR: /Lv1　野良猫のような素早い動きで、ランダムな敵に4回攻撃力×275%の物理攻撃を行う。倒した数が多いほど野生の本能が刺激され、このスキルで敵を戦闘不能にするたび攻撃回数が1回多くなる（合計で最大8回まで）。　/Lv2 物理攻撃のダメージが攻撃力×315%になる。　/Lv3 最初の物理攻撃の回数が5回、合計で最大9回までになる。　/専用1 ワイルドクローを強化する。物理攻撃のダメージが攻撃力×340%になる。",
@@ -174,6 +179,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription350021]",
           "descriptions": {
+            "ja-JP": "憧れの踊り子のマネをして、覚えたてのダンスを披露。ランダムな敵3体に攻撃力×260%の物理攻撃を行う。自身が付帯しているバフ1つにつき物理攻撃のダメージが攻撃力×40%大きくなる（最大攻撃力×420%まで）。4ターンの間自身にこのスキルの総与ダメージ×20%の『シールド』を付与する。",
             "zh-CN": "咪咪模仿她崇拜的舞娘，表演自己刚学会的舞蹈，随机对3名敌人造成攻击力×260%的物理伤害。咪咪身上每附带1种增益效果，造成的物理伤害增加攻击力×40%（最多可叠加到420%）。攻击结束后，咪咪获得技能总伤害×20%的「护盾」，效果持续4回合。"
           },
           "equipment_rarity_flags": 0,
@@ -188,6 +194,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription350022]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×290%になり、自身が付帯しているバフ1つにつき増加するダメージが攻撃力×60%になる（最大攻撃力×530%まで）。",
             "zh-CN": "造成的物理伤害提升为攻击力×290%。咪咪身上每附带1种增益效果，造成的物理伤害增幅提升为攻击力×60%（最多可叠加到530%）。"
           },
           "equipment_rarity_flags": 0,
@@ -202,6 +209,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription350023]",
           "descriptions": {
+            "ja-JP": "このスキルの対象がランダムな敵5体になる。",
             "zh-CN": "技能目标增加为5名随机敌人。"
           },
           "equipment_rarity_flags": 0,
@@ -216,6 +224,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription350024]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×350%になる（最大攻撃力×590%まで）。",
             "zh-CN": "造成的物理伤害提升为攻击力×350%（最多可叠加到590%）。"
           },
           "equipment_rarity_flags": 0,
@@ -230,6 +239,7 @@
           "character_level": 181,
           "description_key": "*",
           "descriptions": {
+            "ja-JP": null,
             "zh-CN": null
           },
           "equipment_rarity_flags": 256,
@@ -241,6 +251,7 @@
           "character_level": 240,
           "description_key": "*",
           "descriptions": {
+            "ja-JP": null,
             "zh-CN": null
           },
           "equipment_rarity_flags": 512,
@@ -331,6 +342,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName35002]",
       "names": {
+        "ja-JP": "宵猫のワルツ",
         "zh-CN": "夜猫华尔兹"
       },
       "source_memo_ja": "ミミSR: /Lv1　憧れの踊り子のマネをして、覚えたてのダンスを披露。ランダムな敵3体に攻撃力×260％の物理攻撃を行う。自身が付帯しているバフ1つにつき物理攻撃のダメージが攻撃力×40％大きくなる（最大攻撃力×420％まで）。4ターンの間自身にこのスキルの総与ダメージ×20％の『シールド』を付与する。　/Lv2 物理攻撃のダメージが攻撃力×290％になり、自身が付帯しているバフ1つにつき増加するダメージが攻撃力×60％になる（最大攻撃力×530%まで）。　/Lv3 このスキルの対象がランダムな敵5体になる。　/Lv4 物理攻撃のダメージが攻撃力×350％になる（最大攻撃力×590%まで）。　/専用2 宵猫のワルツを強化する。『シールド』を付与する対象が自身とHP割合が最も低い味方になる。　/専用3 宵猫のワルツを強化する。『シールド』の大きさが総与ダメージ×30％になる。",
@@ -785,6 +797,7 @@
       },
       "name_key": "[CharacterCollectionName2]",
       "names": {
+        "ja-JP": "リンクスの輪舞",
         "zh-CN": "天猫座的圆舞曲"
       },
       "required_character_ids": [
@@ -795,12 +808,14 @@
         {
           "id": 35,
           "names": {
+            "ja-JP": "ミミ",
             "zh-CN": "咪咪"
           }
         },
         {
           "id": 37,
           "names": {
+            "ja-JP": "ハトホル",
             "zh-CN": "哈索儿"
           }
         }
@@ -1239,6 +1254,7 @@
       },
       "name_key": "[CharacterCollectionName9]",
       "names": {
+        "ja-JP": "ピスケスの愛護",
         "zh-CN": "双鱼座的怜惜"
       },
       "required_character_ids": [
@@ -1250,18 +1266,21 @@
         {
           "id": 53,
           "names": {
+            "ja-JP": "ウィーラ",
             "zh-CN": "维拉"
           }
         },
         {
           "id": 35,
           "names": {
+            "ja-JP": "ミミ",
             "zh-CN": "咪咪"
           }
         },
         {
           "id": 28,
           "names": {
+            "ja-JP": "ニーナ",
             "zh-CN": "妮娜"
           }
         }
@@ -1700,6 +1719,7 @@
       },
       "name_key": "[CharacterCollectionName38]",
       "names": {
+        "ja-JP": "レティクルムの秘術",
         "zh-CN": "网罟座的秘术"
       },
       "required_character_ids": [
@@ -1711,18 +1731,21 @@
         {
           "id": 64,
           "names": {
+            "ja-JP": "ギルウィアル",
             "zh-CN": "吉薇艾尔"
           }
         },
         {
           "id": 35,
           "names": {
+            "ja-JP": "ミミ",
             "zh-CN": "咪咪"
           }
         },
         {
           "id": 37,
           "names": {
+            "ja-JP": "ハトホル",
             "zh-CN": "哈索儿"
           }
         }
@@ -2168,6 +2191,7 @@
       },
       "name_key": "[CharacterCollectionName56]",
       "names": {
+        "ja-JP": "ヴルペクラの悪戯​",
         "zh-CN": "狐狸座的恶作剧"
       },
       "required_character_ids": [
@@ -2178,12 +2202,14 @@
         {
           "id": 81,
           "names": {
+            "ja-JP": "タマ",
             "zh-CN": "玉"
           }
         },
         {
           "id": 35,
           "names": {
+            "ja-JP": "ミミ",
             "zh-CN": "咪咪"
           }
         }
@@ -2253,12 +2279,14 @@
     "memo": "ミミ",
     "name_key": "[CharacterName35]",
     "names": {
+      "ja-JP": "ミミ",
       "zh-CN": "咪咪"
     },
     "speed": 3328,
     "start_time_jst": "2020-01-01 00:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -2332,6 +2360,7 @@
     },
     "name_key": "[EquipmentName309]",
     "names": {
+      "ja-JP": "ネコノテ",
       "zh-CN": "猫咪的小手"
     },
     "passive_effects": [
@@ -2365,6 +2394,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill35Description1]",
         "descriptions": {
+          "ja-JP": "ワイルドクローを強化する。物理攻撃のダメージが攻撃力×340%になる。",
           "zh-CN": "强化野性的利爪，造成的物理伤害提升为攻击力×340%。"
         },
         "equipment_rarity_flags": 128,
@@ -2373,6 +2403,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill35Description2]",
         "descriptions": {
+          "ja-JP": "宵猫のワルツを強化する。『シールド』を付与する対象が自身とHP割合が最も低い味方になる。",
           "zh-CN": "强化夜猫华尔兹，「护盾」的附加目标增加为咪咪与生命值百分比最低的友军。"
         },
         "equipment_rarity_flags": 256,
@@ -2381,6 +2412,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill35Description3]",
         "descriptions": {
+          "ja-JP": "宵猫のワルツを強化する。『シールド』の大きさが総与ダメージ×30%になる。",
           "zh-CN": "强化夜猫华尔兹，获得的「护盾」值提升为技能总伤害×30%。"
         },
         "equipment_rarity_flags": 512,
@@ -2403,6 +2435,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription350031]",
           "descriptions": {
+            "ja-JP": "大好きなダンスを披露。元気に踊って、気分上々。3ターン目以降の毎ターン開始時、2ターン以内に自身がダメージを受けていない場合、3ターンの間自身の攻撃力が40%増加する（解除不可）。",
             "zh-CN": "咪咪表演她最喜欢的舞蹈，活力四射地跳舞，开心得不得了。第3回合起，如果咪咪在2回合内没有受到伤害，在每回合开始时使自己增加40%攻击力，效果持续3回合（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -2417,6 +2450,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription350032]",
           "descriptions": {
+            "ja-JP": "攻撃力の増加量が60%になる。",
             "zh-CN": "攻击力增幅提升为60%。"
           },
           "equipment_rarity_flags": 0,
@@ -2431,6 +2465,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription350033]",
           "descriptions": {
+            "ja-JP": "攻撃力の増加量が80%になる。",
             "zh-CN": "攻击力增幅提升为80%。"
           },
           "equipment_rarity_flags": 0,
@@ -2499,6 +2534,7 @@
       },
       "name_key": "[PassiveSkillName35003]",
       "names": {
+        "ja-JP": "夢踊る野良猫",
         "zh-CN": "舞梦的野猫"
       },
       "source_memo_ja": "ミミSR: /Lv1　大好きなダンスを披露。元気に踊って、気分上々。3ターン目以降の毎ターン開始時、2ターン以内に自身がダメージを受けていない場合、3ターンの間自身の攻撃力が40％増加する（解除不可）。　/Lv2 攻撃力の増加量が60％になる。　/Lv3 攻撃力の増加量が80％になる。",
@@ -2526,6 +2562,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription350041]",
           "descriptions": {
+            "ja-JP": "ダンスは人と人を繋ぐ。ダンスに見惚れた者はつられて踊り出し、共犯者となる。バトル開始時防御力が最も高い敵と最も低い敵に『共鳴』を付与する（解除不可）。お互いが受けたダメージ×50%のダメージを受けるようになる。このスキルは『共鳴』を付帯している敵が戦闘不能になると解除される。",
             "zh-CN": "舞蹈让人产生共鸣，陶醉在舞姿中的观众随着咪咪一同起舞，成为她的共犯。战斗开始时，咪咪对防御力最高的敌人与防御力最低的敌人附加「共鸣」状态（无法被解除）。当其中一方受到攻击时，另一方同时受到50%伤害。此技能在身上附带「共鸣」状态的敌人失去战斗能力后解除。"
           },
           "equipment_rarity_flags": 0,
@@ -2540,6 +2577,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription350042]",
           "descriptions": {
+            "ja-JP": "『共鳴』で受けるダメージが互いに受けたダメージ×60%になる。",
             "zh-CN": "「共鸣」造成的伤害提升为60%。"
           },
           "equipment_rarity_flags": 0,
@@ -2554,6 +2592,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription350043]",
           "descriptions": {
+            "ja-JP": "『共鳴』で受けるダメージが互いに受けたダメージ×80%になる。",
             "zh-CN": "「共鸣」造成的伤害提升为80%。"
           },
           "equipment_rarity_flags": 0,
@@ -2664,6 +2703,7 @@
       },
       "name_key": "[PassiveSkillName35004]",
       "names": {
+        "ja-JP": "ユニゾンダンス",
         "zh-CN": "与猫共舞"
       },
       "source_memo_ja": "ミミSR: /Lv1　ダンスは人と人を繋ぐ。ダンスに見惚れた者はつられて踊り出し、共犯者となる。バトル開始時防御力が最も高い敵と最も低い敵に『共鳴』を付与する（解除不可）。お互いが受けたダメージ×50％のダメージを受けるようになる。このスキルは『共鳴』を付帯している敵が戦闘不能になると解除される。　/Lv2 『共鳴』で受けるダメージが互いに受けたダメージ×60％になる。　/Lv3 『共鳴』で受けるダメージが互いに受けたダメージ×80％になる。",
@@ -2719,6 +2759,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription1000011]",
           "descriptions": {
+            "ja-JP": "触れた者の力を奪うという夜花の雫をしみ込ませた刃で、ランダムな敵3体に攻撃力×540%の物理攻撃を行い、2ターンの間対象に『脱力』を付与する。付帯者のバトル中ステータスの攻撃力が20%減少する。",
             "zh-CN": "穆瓦诺将羽刃浸透可使人浑身无力的夜花之露，随机对3名敌人造成攻击力×540%的物理伤害，并附加「脱力」状态，效果持续2回合，使附带者减少20%战斗期间的攻击力。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription1000012]",
           "descriptions": {
+            "ja-JP": "さらに物理攻撃の前に4ターンの間対象の物理防御力を25%減少させる。オートバトル・ボスバトルで発動した場合、『物理防御力減少』が解除不可になる。無窮の塔で発動した場合、物理防御力の減少量が50%になる。",
             "zh-CN": "发动攻击前使技能目标额外减少25%物理防御力，效果持续4回合。在自动战斗・挑战首领中的「物理防御力下降」效果无法被解除。在无穷之塔中的物理防御力降幅提升为50%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1000013]",
           "descriptions": {
+            "ja-JP": "『脱力』の攻撃力の減少量が40%になり、ターン数が4ターンになる。",
             "zh-CN": "「脱力」的攻击力降幅提升为40%，效果增加为4回合。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1000014]",
           "descriptions": {
+            "ja-JP": "宵闇の羽刃を強化する。宵闇の羽刃の対象がランダムな敵5体になる。",
             "zh-CN": "强化暮夜羽刃，技能目标增加为5名随机敌人。"
           },
           "equipment_rarity_flags": 128,
@@ -67,6 +71,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription1000015]",
           "descriptions": {
+            "ja-JP": "宵闇の羽刃を強化する。物理攻撃のダメージが攻撃力×590%になる。",
             "zh-CN": "强化暮夜羽刃，造成的物理伤害提升为攻击力×590%。"
           },
           "equipment_rarity_flags": 512,
@@ -142,6 +147,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName100001]",
       "names": {
+        "ja-JP": "宵闇の羽刃",
         "zh-CN": "暮夜羽刃"
       },
       "source_memo_ja": "モワノーSR:Lv1 触れた者の力を奪うという夜花の雫をしみ込ませた刃で、ランダムな敵3体に攻撃力×540%の物理攻撃を行い、2ターンの間対象に『脱力』を付与する。付帯者のバトル中ステータスの攻撃力が20％減少する。/ Lv2 さらに物理攻撃の前に4ターンの間対象の物理防御力を25%減少させる。オートバトル・ボスバトルで使用した場合、『物理防御力減少』が解除不可になる。無窮の塔で使用した場合、物理防御力の減少量が50%になる。/ Lv3 『脱力』の攻撃力の減少量が40%になり、ターン数が4ターンになる。/ Ex1 宵闇の羽刃を強化する。宵闇の羽刃の対象がランダムな敵5体になる。/ Ex3 宵闇の羽刃を強化する。物理攻撃のダメージが攻撃力×590%になる。",
@@ -179,6 +185,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription1000021]",
           "descriptions": {
+            "ja-JP": "「急ぐ必要はございません。どうぞごゆるりと」ランダムな敵3体に攻撃力×360%の物理攻撃を行い、40%の確率で1ターンの間対象に『遅延』を付与する。毎ターン行動終了時にスキルクールタイムカウントの減少を1遅らせ、次回のスキル発動が遅くなる。",
             "zh-CN": "“不必着急，请慢慢来。”穆瓦诺随机对3名敌人造成攻击力×360%的物理伤害，40%概率附加「迟缓」状态，效果持续1回合，降低技能冷却时间恢复速度1，延缓再度发动技能的时间。"
           },
           "equipment_rarity_flags": 0,
@@ -193,6 +200,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription1000022]",
           "descriptions": {
+            "ja-JP": "『遅延』を付与する確率が70%になる。",
             "zh-CN": "附加「迟缓」状态的概率提升为70%。"
           },
           "equipment_rarity_flags": 0,
@@ -207,6 +215,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription1000023]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×980%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×980%。"
           },
           "equipment_rarity_flags": 0,
@@ -221,6 +230,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription1000024]",
           "descriptions": {
+            "ja-JP": "バトル中このスキルを発動するのが3回目以降の場合、物理攻撃のダメージが攻撃力×1960%になる。",
             "zh-CN": "战斗中自第3次发动此技能起，造成的物理伤害提升为攻击力×1960%。"
           },
           "equipment_rarity_flags": 0,
@@ -235,6 +245,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription1000025]",
           "descriptions": {
+            "ja-JP": "優雅なる執事を強化する。バトル中このスキルを発動するのが3回目以降の場合、物理攻撃のダメージが攻撃力×2450%になる。",
             "zh-CN": "强化优雅执事，战斗中自第3次发动此技能起，造成的物理伤害提升为攻击力×2450%。"
           },
           "equipment_rarity_flags": 256,
@@ -310,6 +321,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName100002]",
       "names": {
+        "ja-JP": "優雅なる執事",
         "zh-CN": "优雅执事"
       },
       "source_memo_ja": "モワノーSR:Lv1 「急ぐ必要はございません。どうぞごゆるりと」ランダムな敵3体に攻撃力×360%の物理攻撃を行い、40%の確率で1ターンの間対象に『遅延』を付与する。毎ターン行動終了時にスキルクールタイムカウントの減少を1遅らせ、次回のスキル発動が遅くなる。/ Lv2 『遅延』を付与する確率が70%になる。/ Lv3 物理攻撃のダメージが攻撃力×980%になる。/ Lv4 バトル中このスキルを発動するのが3回目以降の場合、物理攻撃のダメージが攻撃力×1960%になる。/ Ex2 優雅なる執事を強化する。バトル中このスキルを発動するのが3回目以降の場合、物理攻撃のダメージが攻撃力×2450%になる。",
@@ -776,6 +788,7 @@
       },
       "name_key": "[CharacterCollectionName73]",
       "names": {
+        "ja-JP": "ベスパの使命",
         "zh-CN": "雀蜂座的使命"
       },
       "required_character_ids": [
@@ -786,12 +799,14 @@
         {
           "id": 100,
           "names": {
+            "ja-JP": "モワノー",
             "zh-CN": "穆瓦诺"
           }
         },
         {
           "id": 30,
           "names": {
+            "ja-JP": "ルーク",
             "zh-CN": "光士"
           }
         }
@@ -1237,6 +1252,7 @@
       },
       "name_key": "[CharacterCollectionName86]",
       "names": {
+        "ja-JP": "アピスの愛着",
         "zh-CN": "蜜蜂座的依恋"
       },
       "required_character_ids": [
@@ -1247,12 +1263,14 @@
         {
           "id": 101,
           "names": {
+            "ja-JP": "エヴリン",
             "zh-CN": "伊芙琳"
           }
         },
         {
           "id": 100,
           "names": {
+            "ja-JP": "モワノー",
             "zh-CN": "穆瓦诺"
           }
         }
@@ -1322,12 +1340,14 @@
     "memo": "モワノー",
     "name_key": "[CharacterName100]",
     "names": {
+      "ja-JP": "モワノー",
       "zh-CN": "穆瓦诺"
     },
     "speed": 3145,
     "start_time_jst": "2025-05-30 15:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -1401,6 +1421,7 @@
     },
     "name_key": "[EquipmentName699]",
     "names": {
+      "ja-JP": "ニュイ・レミージュ",
       "zh-CN": "暗夜翎羽"
     },
     "passive_effects": [
@@ -1434,6 +1455,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill100Description1]",
         "descriptions": {
+          "ja-JP": "宵闇の羽刃を強化する。宵闇の羽刃の対象がランダムな敵5体になる。",
           "zh-CN": "强化暮夜羽刃，技能目标增加为5名随机敌人。"
         },
         "equipment_rarity_flags": 128,
@@ -1442,6 +1464,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill100Description2]",
         "descriptions": {
+          "ja-JP": "優雅なる執事を強化する。バトル中このスキルを発動するのが3回目以降の場合、物理攻撃のダメージが攻撃力×2450%になる。",
           "zh-CN": "强化优雅执事，战斗中自第3次发动此技能起，造成的物理伤害提升为攻击力×2450%。"
         },
         "equipment_rarity_flags": 256,
@@ -1450,6 +1473,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill100Description3]",
         "descriptions": {
+          "ja-JP": "宵闇の羽刃を強化する。物理攻撃のダメージが攻撃力×590%になる。",
           "zh-CN": "强化暮夜羽刃，造成的物理伤害提升为攻击力×590%。"
         },
         "equipment_rarity_flags": 512,
@@ -1470,6 +1494,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription1000031]",
           "descriptions": {
+            "ja-JP": "清純な貴族の子女。厳正な騎士。妖艶な踊り子。他者になりきるなど容易いことだ。これまでも幾度もしてきたことなのだから。自身の行動開始時、自身以外の付帯しているバフの個数が最も多い味方のランダムなバフを2つ自身にコピーする。このスキルは発動後4回行動終了するまで再び発動しない。",
             "zh-CN": "涉世未深的贵族子女、刚正不阿的骑士、妖艳美丽的舞娘……化身成他人轻而易举，因为以假面伪装已是家常便饭。行动开始时，穆瓦诺从附带增益效果最多的其他友军身上随机复制2种增益效果。此技能须在结束4次行动后才可再次触发。"
           },
           "equipment_rarity_flags": 0,
@@ -1484,6 +1509,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription1000032]",
           "descriptions": {
+            "ja-JP": "バフのコピー数が4つになる。",
             "zh-CN": "复制的增益效果增加为4种。"
           },
           "equipment_rarity_flags": 0,
@@ -1498,6 +1524,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription1000033]",
           "descriptions": {
+            "ja-JP": "バフのコピー数が全てになる。",
             "zh-CN": "复制所有增益效果。"
           },
           "equipment_rarity_flags": 0,
@@ -1566,6 +1593,7 @@
       },
       "name_key": "[PassiveSkillName100003]",
       "names": {
+        "ja-JP": "百色の仮面",
         "zh-CN": "千变假面"
       },
       "source_memo_ja": "モワノーSR:Lv1 清純な貴族の子女。厳正な騎士。妖艶な踊り子。他者になりきるなど容易いことだ。これまでも幾度もしてきたことなのだから。自身の行動開始時、自身以外の付帯しているバフの個数が最も多い味方のランダムなバフを2つ自身にコピーする。このスキルは発動後4回行動終了するまで再び発動しない。/ Lv2 バフのコピー数が4つになる。/ Lv3 バフのコピー数が全てになる。",
@@ -1593,6 +1621,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription1000041]",
           "descriptions": {
+            "ja-JP": "「お嬢様との約束がありますので、こんなところで倒れるわけにはいかないのです」1ターン目のターン開始時、4ターンの間自身に自身の攻撃力×200%の『シールド』を付与する（解除不可）。",
             "zh-CN": "“在下与小姐有约，绝不能在此倒下。”第1回合开始时，穆瓦诺获得攻击力×200%的「护盾」，效果持续4回合（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1607,6 +1636,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription1000042]",
           "descriptions": {
+            "ja-JP": "『シールド』のターン数が10ターンになる。",
             "zh-CN": "「护盾」效果增加为10回合。"
           },
           "equipment_rarity_flags": 0,
@@ -1621,6 +1651,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription1000043]",
           "descriptions": {
+            "ja-JP": "『シールド』の大きさが自身の攻撃力×800%になる。",
             "zh-CN": "「护盾」值提升为攻击力×800%。"
           },
           "equipment_rarity_flags": 0,
@@ -1689,6 +1720,7 @@
       },
       "name_key": "[PassiveSkillName100004]",
       "names": {
+        "ja-JP": "銀貨の約束",
         "zh-CN": "银币之约"
       },
       "source_memo_ja": "モワノーSR:Lv1 「お嬢様との約束がありますので、こんなところで倒れるわけにはいないのです」1ターン目のターン開始時、4ターンの間自身に自身の攻撃力×200%の『シールド』を付与する（解除不可）。/ Lv2 『シールド』のターン数が10ターンになる。/ Lv3 『シールド』の大きさが自身の攻撃力×800％になる。",
@@ -1744,6 +1776,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

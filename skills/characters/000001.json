@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription10011]",
           "descriptions": {
+            "ja-JP": "ランダムな敵1体に攻撃力×105%の物理攻撃を行う。奉仕の心で傷つく仲間を支援し、ランダムな味方3体のHPを自身の攻撃力×60%回復する。",
             "zh-CN": "莫妮卡随机对1名敌人造成攻击力×105%的物理伤害，并以服侍他人的热忱支援受伤的同伴，随机使3名友军恢复莫妮卡攻击力×60%的生命值。"
           },
           "equipment_rarity_flags": 0,
@@ -47,6 +48,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName1001]",
       "names": {
+        "ja-JP": "がんばってください！",
         "zh-CN": "加油！"
       },
       "source_memo_ja": "モニカN: /Lv1　ランダムな敵1体に攻撃力×105％の物理攻撃を行う。奉仕の心で傷つく仲間を支援し、ランダムな味方3体のHPを自身の攻撃力×60％回復する。",
@@ -68,6 +70,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription10021]",
           "descriptions": {
+            "ja-JP": "屋敷の仲間を想う心が癒しの力となり、現在HPが最も低い味方のHPを自身の攻撃力×80%回復する。さらに侍女の応援で、2ターンの間対象の防御力を20%増加させる。",
             "zh-CN": "莫妮卡为宅邸同伴着想的心意化作治疗的力量，使当前生命值最低的友军恢复莫妮卡攻击力×80%的生命值。并为同伴加油打气，使技能目标增加20%防御力，效果持续2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -103,6 +106,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName1002]",
       "names": {
+        "ja-JP": "お手伝いします！",
         "zh-CN": "我来帮忙！"
       },
       "source_memo_ja": "モニカN: /Lv1　屋敷の仲間を想う心が癒しの力となり、現在HPが最も低い味方のHPを自身の攻撃力×80％回復する。さらに侍女の応援で、2ターンの間対象の防御力を20％増加させる。",
@@ -173,12 +177,14 @@
     "memo": "モニカ",
     "name_key": "[CharacterName1]",
     "names": {
+      "ja-JP": "モニカ",
       "zh-CN": "莫妮卡"
     },
     "speed": 2600,
     "start_time_jst": "2020-01-01 00:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -223,6 +229,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

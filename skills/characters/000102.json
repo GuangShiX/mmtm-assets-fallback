@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription1020011]",
           "descriptions": {
+            "ja-JP": "込めた想いを守るように、封蝋は手紙を閉じる。便りを待つ人へ必ず伝えるために。自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵に3回攻撃力×210%の物理攻撃を行う。その後70%の確率で攻撃力が最も高い敵に1ターンの間『気絶』を付与する。",
             "zh-CN": "火漆将信件封缄，像是为了守护信中寄托的情感，直到它抵达收件人心中。莉贝使自己受到当前生命值×20%的自损伤害，随机对敌人进行3次攻击，每次造成攻击力×210%的物理伤害。再以70%概率对攻击力最高的敌人附加「晕厥」状态，效果持续1回合。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription1020012]",
           "descriptions": {
+            "ja-JP": "さらに物理攻撃の前に2ターンの間対象の防御力と物理防御力をそれぞれ10%減少させる。",
             "zh-CN": "发动攻击前使技能目标额外减少10%防御力与物理防御力，效果持续2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1020013]",
           "descriptions": {
+            "ja-JP": "物理攻撃の回数が5回になる。",
             "zh-CN": "攻击次数增加为5次。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1020014]",
           "descriptions": {
+            "ja-JP": "シーリングスタンプを強化する。物理攻撃のダメージが攻撃力×360%になる。",
             "zh-CN": "强化火漆封缄，造成的物理伤害提升为攻击力×360%。"
           },
           "equipment_rarity_flags": 128,
@@ -67,6 +71,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription1020015]",
           "descriptions": {
+            "ja-JP": "シーリングスタンプを強化する。さらに自身以外の紅属性の味方の編成数が4体以上の場合、『気絶』の対象が攻撃力が高い敵2体になる。",
             "zh-CN": "强化火漆封缄，当队伍中的其他业红属性友军数为4名以上时，「晕厥」的附加目标增加为攻击力最高的2名敌人。"
           },
           "equipment_rarity_flags": 256,
@@ -81,6 +86,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription1020016]",
           "descriptions": {
+            "ja-JP": "シーリングスタンプを強化する。物理攻撃のダメージが攻撃力×390%になる。",
             "zh-CN": "强化火漆封缄，造成的物理伤害提升为攻击力×390%。"
           },
           "equipment_rarity_flags": 512,
@@ -200,6 +206,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName102001]",
       "names": {
+        "ja-JP": "シーリングスタンプ",
         "zh-CN": "火漆封缄"
       },
       "source_memo_ja": "リーベSR:Lv1 込めた想いを守るように、封蝋は手紙を閉じる。便りを待つ人へ必ず伝えるために。自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵に3回攻撃力×210%の物理攻撃を行う。その後70%の確率で攻撃力が最も高い敵に1ターンの間『気絶』を付与する。/ Lv2 さらに物理攻撃の前に2ターンの間対象の防御力と物理防御力をそれぞれ10%減少させる。/ Lv3 物理攻撃の回数が5回になる。/ Ex1 シーリングスタンプを強化する。物理攻撃のダメージが攻撃力×360%になる。/ Ex2 シーリングスタンプを強化する。さらに自身以外の紅属性の味方の編成数が4体以上の場合、『気絶』の対象が攻撃力が高い敵2体になる。/ Ex3 シーリングスタンプを強化する。物理攻撃のダメージが攻撃力×390%になる。",
@@ -241,6 +248,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription1020021]",
           "descriptions": {
+            "ja-JP": "一枚の紙片から始まった願いが、遠く離れた心と心を繋ぎ、想いを届ける奇跡に変わった。自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵に3回攻撃力×160%の物理攻撃を行う。",
             "zh-CN": "始于一张纸片的祈愿，让分隔两地的心彼此相系，化作传情达意的奇迹。莉贝使自己受到当前生命值×20%的自损伤害，随机对敌人进行3次攻击，每次造成攻击力×160%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -255,6 +263,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription1020022]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×320%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×320%。"
           },
           "equipment_rarity_flags": 0,
@@ -269,6 +278,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription1020023]",
           "descriptions": {
+            "ja-JP": "物理攻撃の対象が付帯している弱体効果1つにつき、物理攻撃のダメージが攻撃力×140%大きくなる（最大攻撃力×1020%まで）。",
             "zh-CN": "技能目标身上每附带1种弱化效果，造成的物理伤害增加攻击力×140%（最多可叠加到1020%）。"
           },
           "equipment_rarity_flags": 0,
@@ -283,6 +293,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription1020024]",
           "descriptions": {
+            "ja-JP": "物理攻撃の回数が5回になる。",
             "zh-CN": "攻击次数增加为5次。"
           },
           "equipment_rarity_flags": 0,
@@ -362,6 +373,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName102002]",
       "names": {
+        "ja-JP": "ペニーブラック",
         "zh-CN": "黑便士"
       },
       "source_memo_ja": "リーベSR:Lv1 一枚の紙片から始まった願いが、遠く離れた心と心を繋ぎ、想いを届ける奇跡に変わった。自身に自身の現在HP×20%の自傷ダメージを与え、ランダムな敵に3回攻撃力×160%の物理攻撃を行う。/ Lv2 物理攻撃のダメージが攻撃力×320%になる。/ Lv3 物理攻撃の対象が付帯している弱体効果1つにつき、物理攻撃のダメージが攻撃力×140%大きくなる（最大攻撃力×1020%まで）。/ Lv4 物理攻撃の回数が5回になる。",
@@ -816,6 +828,7 @@
       },
       "name_key": "[CharacterCollectionName79]",
       "names": {
+        "ja-JP": "コルンバの言伝",
         "zh-CN": "天鸽座的书信"
       },
       "required_character_ids": [
@@ -826,12 +839,14 @@
         {
           "id": 102,
           "names": {
+            "ja-JP": "リーベ",
             "zh-CN": "莉贝"
           }
         },
         {
           "id": 40,
           "names": {
+            "ja-JP": "カロル",
             "zh-CN": "卡罗"
           }
         }
@@ -901,12 +916,14 @@
     "memo": "リーベ",
     "name_key": "[CharacterName102]",
     "names": {
+      "ja-JP": "リーベ",
       "zh-CN": "莉贝"
     },
     "speed": 3592,
     "start_time_jst": "2025-09-30 15:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -980,6 +997,7 @@
     },
     "name_key": "[EquipmentName711]",
     "names": {
+      "ja-JP": "タイニーハンマー",
       "zh-CN": "小巧印章槌"
     },
     "passive_effects": [
@@ -1013,6 +1031,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill102Description1]",
         "descriptions": {
+          "ja-JP": "シーリングスタンプを強化する。物理攻撃のダメージが攻撃力×360%になる。",
           "zh-CN": "强化火漆封缄，造成的物理伤害提升为攻击力×360%。"
         },
         "equipment_rarity_flags": 128,
@@ -1021,6 +1040,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill102Description2]",
         "descriptions": {
+          "ja-JP": "シーリングスタンプを強化する。さらに自身以外の紅属性の味方の編成数が4体以上の場合、『気絶』の対象が攻撃力が高い敵2体になる。",
           "zh-CN": "强化火漆封缄，当队伍中的其他业红属性友军数为4名以上时，「晕厥」的附加目标增加为攻击力最高的2名敌人。"
         },
         "equipment_rarity_flags": 256,
@@ -1029,6 +1049,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill102Description3]",
         "descriptions": {
+          "ja-JP": "シーリングスタンプを強化する。物理攻撃のダメージが攻撃力×390%になる。",
           "zh-CN": "强化火漆封缄，造成的物理伤害提升为攻击力×390%。"
         },
         "equipment_rarity_flags": 512,
@@ -1049,6 +1070,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription1020031]",
           "descriptions": {
+            "ja-JP": "クローゼットに隠れ怯えていた私はもういない。あの暗闇から出て、両親の分まで今を生きるんだ。自身の行動開始時、1ターンの間自身と自身以外の攻撃力が最も高い味方の攻撃力を自身の攻撃力×3%増加させ、弱体効果を付帯している敵1体につき増加量が3%大きくなる（合計で最大18%まで）（解除不可）。",
             "zh-CN": "躲在衣橱里瑟瑟发抖的我已成为过去。我会走出那片阴影，连同爸爸妈妈的那份一起活下去——行动开始时，莉贝使自己与攻击力最高的其他友军增加攻击力，增幅为莉贝攻击力×3%，效果持续1回合。每名身上附带弱化效果的敌人，再使攻击力增幅提升3%（合计最多18%）（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1063,6 +1085,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription1020032]",
           "descriptions": {
+            "ja-JP": "攻撃力の増加量が5%になり、弱体効果を付帯している敵1体につき増加量が5%大きくなる（合計で最大30%まで）。",
             "zh-CN": "攻击力增幅提升为5%。每名身上附带弱化效果的敌人，再使攻击力增幅提升5%（合计最多30%）。"
           },
           "equipment_rarity_flags": 0,
@@ -1077,6 +1100,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription1020033]",
           "descriptions": {
+            "ja-JP": "攻撃力の増加量が10%になり、弱体効果を付帯している敵1体につき増加量が10%大きくなる（合計で最大60%まで）。",
             "zh-CN": "攻击力增幅提升为10%。每名身上附带弱化效果的敌人，再使攻击力增幅提升10%（合计最多60%）。"
           },
           "equipment_rarity_flags": 0,
@@ -1166,6 +1190,7 @@
       },
       "name_key": "[PassiveSkillName102003]",
       "names": {
+        "ja-JP": "動き出した時間",
         "zh-CN": "重新流动的时间"
       },
       "source_memo_ja": "リーベSR:Lv1 クローゼットに隠れ怯えていた私はもういない。あの暗闇から出て、両親の分まで今を生きるんだ。自身の行動開始時、1ターンの間自身と自身以外の攻撃力が最も高い味方の攻撃力を自身の攻撃力×3%増加させ、弱体効果を付帯している敵1体につき増加量が3%大きくなる（合計で最大18%まで）（解除不可）。/ Lv2 攻撃力の増加量が5%になり、弱体効果を付帯している敵1体につき増加量が5%大きくなる（合計で最大30%まで）。/ Lv3 攻撃力の増加量が10%になり、弱体効果を付帯している敵1体につき増加量が10%大きくなる（合計で最大60%まで）。",
@@ -1193,6 +1218,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription1020041]",
           "descriptions": {
+            "ja-JP": "心の大切さを知るからこそ、心がこもった手紙は、受け取るべき人に必ず届けなければならない。自身か味方が自傷ダメージを受けた場合、味方全体に攻撃力が3%増加するバフを1スタック付与する（解除不可）。自傷ダメージを受けた回数1回につきスタック数が1増加する（最大5スタックまで）。",
             "zh-CN": "正因为深知心意的宝贵，所以我必须把每封承载着心意的信件，都妥善送到收件人手中——当莉贝或友军受到自损伤害时，莉贝使全体友军获得1层增益效果，增加3%攻击力（无法被解除）。每次受到自损伤害使增益效果的叠加数增加1层（最多5层）。"
           },
           "equipment_rarity_flags": 0,
@@ -1207,6 +1233,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription1020042]",
           "descriptions": {
+            "ja-JP": "攻撃力の増加量が5%になる。",
             "zh-CN": "攻击力增幅提升为5%。"
           },
           "equipment_rarity_flags": 0,
@@ -1221,6 +1248,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription1020043]",
           "descriptions": {
+            "ja-JP": "さらにバトル開始時、自身に1層の『多重バリア』を付与する（解除不可）。自身の最大HP×10%以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。",
             "zh-CN": "战斗开始时，莉贝额外获得1层「多重屏障」（无法被解除）。当她受到最大生命值×10%以上的伤害时，消耗1层屏障来抵消该伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -1317,6 +1345,7 @@
       },
       "name_key": "[PassiveSkillName102004]",
       "names": {
+        "ja-JP": "郵便配達員の誓い",
         "zh-CN": "信使的誓言"
       },
       "source_memo_ja": "リーベSR:Lv1 心の大切さを知るからこそ、心がこもった手紙は、受け取るべき人に必ず届けなければならない。自身か味方が自傷ダメージを受けた場合、味方全体に攻撃力が3%増加するバフを1スタック付与する（解除不可）。自傷ダメージを受けた回数1回につきスタック数が1増加する（最大5スタックまで）。/ Lv2 攻撃力の増加量が5%になる。/ Lv3 さらにバトル開始時、自身に1層の『多重バリア』を付与する（解除不可）。自身の最大HP×10%以上のダメージを受けると、バリアを1層消費してそのダメージを無効化する。",
@@ -1372,6 +1401,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

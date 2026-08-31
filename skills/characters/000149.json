@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription1490011]",
           "descriptions": {
+            "ja-JP": "「さあ、わたくしの歌に心を委ねて……」自身と自身以外の攻撃力が最も高い味方に1ターンの間『金縛り』を付与する。このスキルで『金縛り』を付与する際、弱体効果命中率と耐性率を無視する。その後ランダムな敵3体に攻撃力×320%の物理攻撃を行う。",
             "zh-CN": "“来，请将身心托付给我的歌声……”普莉玛维拉对自己与攻击力最高的其他友军附加「定身」状态，效果持续1回合。附加此效果时无视弱化效果命中率与弱化效果抵抗率。再随机对3名敌人造成攻击力×320%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription1490012]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×460%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×460%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1490013]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×680%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×680%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1490014]",
           "descriptions": {
+            "ja-JP": "湖畔のメロディを強化する。物理攻撃の対象がランダムな敵5体になる。",
             "zh-CN": "强化湖畔的乐音，攻击目标增加为5名随机敌人。"
           },
           "equipment_rarity_flags": 128,
@@ -130,6 +134,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName149001]",
       "names": {
+        "ja-JP": "湖畔のメロディ",
         "zh-CN": "湖畔的乐音"
       },
       "source_memo_ja": "夏プリマヴェーラSR:Lv1 「さあ、わたくしの歌に心を委ねて……」自身と自身以外の攻撃力が最も高い味方に1ターンの間『金縛り』を付与する。この付与は弱体効果命中率と耐性率を無視する。その後ランダムな敵3体に攻撃力×320%の物理攻撃を行う。/ Lv2 物理攻撃のダメージが攻撃力×460%になる。/ Lv3 物理攻撃のダメージが攻撃力×680%になる。/ Ex1 湖畔のメロディを強化する。湖畔のメロディの対象がランダムな敵5体になる。",
@@ -163,6 +168,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription1490021]",
           "descriptions": {
+            "ja-JP": "「練習の成果を見せる時ですわ。さあ、リズムに合わせて……！」合唱しながら小鳥たちが特攻。ランダムな敵に2回攻撃力×480%の物理攻撃を行う。",
             "zh-CN": "“是时候展示练习的成果了。来吧，跟着节奏……！”普莉玛维拉指挥小鸟们齐唱着发起冲锋，随机对敌人进行2次攻击，每次造成攻击力×480%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -177,6 +183,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription1490022]",
           "descriptions": {
+            "ja-JP": "物理攻撃の回数が3回になる。",
             "zh-CN": "攻击次数增加为3次。"
           },
           "equipment_rarity_flags": 0,
@@ -191,6 +198,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription1490023]",
           "descriptions": {
+            "ja-JP": "さらに最初の物理攻撃の前にバトル中自身と味方がスキルで解除した弱体効果の個数の合計が10以上の場合、物理攻撃の回数が5回になる。",
             "zh-CN": "发动攻击前，如果普莉玛维拉与友军在战斗中因技能效果解除的弱化效果总数达10种以上，攻击次数增加为5次。"
           },
           "equipment_rarity_flags": 0,
@@ -205,6 +213,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription1490024]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×850%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×850%。"
           },
           "equipment_rarity_flags": 0,
@@ -219,6 +228,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription1490025]",
           "descriptions": {
+            "ja-JP": "コトリ行進曲を強化する。物理攻撃のダメージが攻撃力×940%になる。",
             "zh-CN": "强化小鸟进行曲，造成的物理伤害提升为攻击力×940%。"
           },
           "equipment_rarity_flags": 512,
@@ -318,6 +328,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName149002]",
       "names": {
+        "ja-JP": "コトリ行進曲",
         "zh-CN": "小鸟进行曲"
       },
       "source_memo_ja": "夏プリマヴェーラSR:Lv1 「練習の成果を見せる時ですわ。さあ、リズムに合わせて……！」合唱しながら小鳥たちが特攻。ランダムな敵に2回攻撃力×480%の物理攻撃を行う。/ Lv2 物理攻撃の回数が3回になる。/ Lv3 さらに最初の物理攻撃の前にバトル中自身と味方がスキルで解除した弱体効果の個数の合計が10以上の場合、物理攻撃の回数が5回になる。/ Lv4 物理攻撃のダメージが攻撃力×850%になる。/ Ex3 コトリ行進曲を強化する。物理攻撃のダメージが攻撃力×940%になる。",
@@ -784,6 +795,7 @@
       },
       "name_key": "[CharacterCollectionName97]",
       "names": {
+        "ja-JP": "トゥルドゥスの歌声",
         "zh-CN": "画眉座的歌声"
       },
       "required_character_ids": [
@@ -794,12 +806,14 @@
         {
           "id": 149,
           "names": {
+            "ja-JP": "プリマヴェーラ",
             "zh-CN": "普莉玛维拉"
           }
         },
         {
           "id": 72,
           "names": {
+            "ja-JP": "コルディ",
             "zh-CN": "科迪"
           }
         }
@@ -869,12 +883,14 @@
     "memo": "夏プリマヴェーラ",
     "name_key": "[CharacterName149]",
     "names": {
+      "ja-JP": "プリマヴェーラ",
       "zh-CN": "普莉玛维拉"
     },
     "speed": 2678,
     "start_time_jst": "2026-07-15 15:00:00",
     "subtitle_key": "[CharacterSubName149]",
     "subtitles": {
+      "ja-JP": "湖畔の歌姫",
       "zh-CN": "湖畔名伶"
     }
   },
@@ -948,6 +964,7 @@
     },
     "name_key": "[EquipmentName993]",
     "names": {
+      "ja-JP": "サマープチマヴェーラ",
       "zh-CN": "普莉鸟维拉的暑假"
     },
     "passive_effects": [
@@ -981,6 +998,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill149Description1]",
         "descriptions": {
+          "ja-JP": "湖畔のメロディを強化する。物理攻撃の対象がランダムな敵5体になる。",
           "zh-CN": "强化湖畔的乐音，攻击目标增加为5名随机敌人。"
         },
         "equipment_rarity_flags": 128,
@@ -989,6 +1007,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill149Description2]",
         "descriptions": {
+          "ja-JP": "歌姫の心音を強化する。被ダメージの減少量が70%になる。",
           "zh-CN": "强化名伶的心声，承受伤害降幅提升为70%。"
         },
         "equipment_rarity_flags": 256,
@@ -997,6 +1016,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill149Description3]",
         "descriptions": {
+          "ja-JP": "コトリ行進曲を強化する。物理攻撃のダメージが攻撃力×940%になる。",
           "zh-CN": "强化小鸟进行曲，造成的物理伤害提升为攻击力×940%。"
         },
         "equipment_rarity_flags": 512,
@@ -1017,6 +1037,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription1490031]",
           "descriptions": {
+            "ja-JP": "「枯れた大地に花を、荒んだ心に歌を……」その歌声は人々に希望を与え、奇跡を起こす——自身がアクティブスキルで弱体効果を受けたとき、自身の弱体効果を1つ解除し、自身に『至高の旋律』を1スタック付与する（最大10スタックまで）（解除不可）。このバフは1スタックにつき自身の攻撃力を2%増加させる。",
             "zh-CN": "“将花儿献给干涸的大地，将歌曲献给荒芜的心灵……”名伶的歌声为众人带来希望，并引发了奇迹——当普莉玛维拉被附加主动技能造成的弱化效果时，触发技能解除自己身上的1种弱化效果，并获得1层「至高无上的旋律」（最多10层）（无法被解除）。每层「至高无上的旋律」使普莉玛维拉增加2%攻击力。"
           },
           "equipment_rarity_flags": 0,
@@ -1031,6 +1052,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription1490032]",
           "descriptions": {
+            "ja-JP": "攻撃力の増加量が5%になる。",
             "zh-CN": "攻击力增幅提升为5%。"
           },
           "equipment_rarity_flags": 0,
@@ -1045,6 +1067,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription1490033]",
           "descriptions": {
+            "ja-JP": "さらに受けた弱体効果が行動阻害の場合、『至高の旋律』の付与スタック数が5になる。",
             "zh-CN": "当普莉玛维拉被附加的弱化效果为控制效果时，获得的「至高无上的旋律」层数增加为5层。"
           },
           "equipment_rarity_flags": 0,
@@ -1120,6 +1143,7 @@
       },
       "name_key": "[PassiveSkillName149003]",
       "names": {
+        "ja-JP": "奇跡の歌姫",
         "zh-CN": "奇迹名伶"
       },
       "source_memo_ja": "夏プリマヴェーラSR:Lv1 「枯れた大地に花を、荒んだ心に歌を……」その歌声は人々に希望を与え、奇跡を起こす——自身がアクティブスキルで弱体効果を受けたとき、自身の弱体効果を1つ解除し、自身に『至高の旋律』を1スタック付与する（最大10スタックまで）（解除不可）。このバフは1スタックにつき自身の攻撃力を2%増加させる。/ Lv2 攻撃力の増加量が5%になる。/ Lv3 さらに受けた弱体効果が行動阻害の場合、『至高の旋律』の付与スタック数が5になる。",
@@ -1147,6 +1171,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription1490041]",
           "descriptions": {
+            "ja-JP": "もう離さない、わたくしの、プリマヴェーラの音色——自身の被ダメージが30%減少する（解除不可）。",
             "zh-CN": "我不会再舍弃它了，这是属于我的声音，源自普莉玛维拉内心的声音——普莉玛维拉减少30%自身承受伤害（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1161,6 +1186,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription1490042]",
           "descriptions": {
+            "ja-JP": "さらにバトル開始時、6ターンの間自身の防御力が90%増加する（解除不可）。",
             "zh-CN": "战斗开始时，使自己额外增加90%防御力，效果持续6回合（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1175,6 +1201,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription1490043]",
           "descriptions": {
+            "ja-JP": "さらに自身以外の自身と同じ属性もしくは天属性の味方の編成数が2体以上の場合、防御力の増加量が150%になる。",
             "zh-CN": "当队伍中与普莉玛维拉属性相同的其他友军或天光属性友军数为2名以上时，防御力增幅提升为150%。"
           },
           "equipment_rarity_flags": 0,
@@ -1189,6 +1216,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription1490044]",
           "descriptions": {
+            "ja-JP": "歌姫の心音を強化する。被ダメージの減少量が70%になる。",
             "zh-CN": "强化名伶的心声，承受伤害降幅提升为70%。"
           },
           "equipment_rarity_flags": 256,
@@ -1294,6 +1322,7 @@
       },
       "name_key": "[PassiveSkillName149004]",
       "names": {
+        "ja-JP": "歌姫の心音",
         "zh-CN": "名伶的心声"
       },
       "source_memo_ja": "夏プリマヴェーラSR:Lv1 もう離さない、わたくしの、プリマヴェーラの音色——自身の被ダメージが30%減少する（解除不可）。/ Lv2 さらにバトル開始時、6ターンの間自身の防御力が90%増加する（解除不可）。/ Lv3 さらに自身以外の自身と同じ属性または天属性の味方の編成数が2体以上の場合、防御力の増加量が150%になる。/ Ex2 歌姫の心音を強化する。被ダメージの減少量が70%になる。",
@@ -1353,6 +1382,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

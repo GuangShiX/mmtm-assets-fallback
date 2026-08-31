@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription320011]",
           "descriptions": {
+            "ja-JP": "薬の開発に失敗して生まれた謎の液体で、ランダムな敵1体に攻撃力×320%の魔法攻撃を行う。副作用で、2ターンの間対象の攻撃力を10%減少させる。",
             "zh-CN": "药剂研发失败的产物，诗寇蒂用诡异的液体随机对1名敌人造成攻击力×320%的魔法伤害。副作用使技能目标减少10%攻击力，效果持续2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 61,
           "description_key": "[ActiveSkillDescription320012]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×360%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×360%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 121,
           "description_key": "[ActiveSkillDescription320013]",
           "descriptions": {
+            "ja-JP": "攻撃力の減少量が20%になる。",
             "zh-CN": "攻击力降幅提升为20%。"
           },
           "equipment_rarity_flags": 0,
@@ -94,6 +97,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName32001]",
       "names": {
+        "ja-JP": "失敗は成功の母だよ",
         "zh-CN": "失败是成功之母"
       },
       "source_memo_ja": "スクルドR: /Lv1　薬の開発に失敗して生まれた謎の液体で、ランダムな敵1体に攻撃力×320％の魔法攻撃を行う。副作用で、2ターンの間対象の攻撃力を10％減少させる。　/Lv2 魔法攻撃のダメージが攻撃力×360%になる。　/Lv3 攻撃力の減少量が20％になる。",
@@ -123,6 +127,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription320021]",
           "descriptions": {
+            "ja-JP": "癒しのアロマで仲間の疲労を回復、現在HPが低い味方2体のHPを自身の魔力×210%回復する。",
             "zh-CN": "诗寇蒂用疗愈的芳香精油为同伴消除疲劳，使当前生命值最低的2名友军恢复诗寇蒂魔力×210%的生命值。"
           },
           "equipment_rarity_flags": 0,
@@ -137,6 +142,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription320022]",
           "descriptions": {
+            "ja-JP": "HPの回復量が自身の魔力×230%になる。",
             "zh-CN": "生命值恢复量提升为诗寇蒂魔力×230%。"
           },
           "equipment_rarity_flags": 0,
@@ -151,6 +157,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription320023]",
           "descriptions": {
+            "ja-JP": "さらに2ターンの間対象のスピードを20%増加させる。",
             "zh-CN": "使技能目标额外增加20%速度，效果持续2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -165,6 +172,7 @@
           "character_level": 141,
           "description_key": "[ActiveSkillDescription320024]",
           "descriptions": {
+            "ja-JP": "このスキルの対象が現在HPが低い味方3体になる。",
             "zh-CN": "技能目标增加为当前生命值最低的3名友军。"
           },
           "equipment_rarity_flags": 0,
@@ -230,6 +238,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName32002]",
       "names": {
+        "ja-JP": "アロマヒール",
         "zh-CN": "芳香治疗"
       },
       "source_memo_ja": "スクルドR: /Lv1　癒しのアロマで仲間の疲労を回復、現在HPが低い味方2体のHPを自身の魔力×210％回復する。　/Lv2 HPの回復量が自身の魔力×230％になる。　/Lv3 さらに2ターンの間対象のスピードを20％増加させる。　/Lv4 このスキルの対象が現在HPが低い味方3体になる。",
@@ -333,6 +342,7 @@
       },
       "name_key": "[CharacterCollectionName58]",
       "names": {
+        "ja-JP": "アルニラムの開花",
         "zh-CN": "串绳星的绽放"
       },
       "required_character_ids": [
@@ -345,24 +355,28 @@
         {
           "id": 2,
           "names": {
+            "ja-JP": "イリア",
             "zh-CN": "伊利亚"
           }
         },
         {
           "id": 12,
           "names": {
+            "ja-JP": "アリアンロッド",
             "zh-CN": "阿丽安萝德"
           }
         },
         {
           "id": 22,
           "names": {
+            "ja-JP": "ザラ",
             "zh-CN": "萨拉"
           }
         },
         {
           "id": 32,
           "names": {
+            "ja-JP": "スクルド",
             "zh-CN": "诗寇蒂"
           }
         }
@@ -431,12 +445,14 @@
     "memo": "スクルド",
     "name_key": "[CharacterName32]",
     "names": {
+      "ja-JP": "スクルド",
       "zh-CN": "诗寇蒂"
     },
     "speed": 2590,
     "start_time_jst": "2020-01-01 00:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -454,6 +470,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription320031]",
           "descriptions": {
+            "ja-JP": "改良に改良を重ねて生み出した、疲労回復・スタミナ向上の特製薬湯で、自身の最大HPが20%増加する（解除不可）。ただし味は保証しない。",
             "zh-CN": "经过不断改良而成的特制汤药，具有消除疲劳、强身健体的功效，使诗寇蒂增加20%最大生命值（无法被解除）。口感风味，概不保证。"
           },
           "equipment_rarity_flags": 0,
@@ -468,6 +485,7 @@
           "character_level": 101,
           "description_key": "[PassiveSkillDescription320032]",
           "descriptions": {
+            "ja-JP": "最大HPの増加量が30%になる。",
             "zh-CN": "最大生命值增幅提升为30%。"
           },
           "equipment_rarity_flags": 0,
@@ -520,6 +538,7 @@
       },
       "name_key": "[PassiveSkillName32003]",
       "names": {
+        "ja-JP": "スクルドブレンド",
         "zh-CN": "诗寇蒂特调"
       },
       "source_memo_ja": "スクルドR: /Lv1　改良に改良を重ねて生み出した、疲労回復・スタミナ向上の特製薬湯で、自身の最大HPが20％増加する（解除不可）。ただし味は保証しない。　/Lv2 最大HPの増加量が30％になる。",
@@ -571,6 +590,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

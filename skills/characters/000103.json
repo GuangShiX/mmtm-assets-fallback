@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription1030011]",
           "descriptions": {
+            "ja-JP": "少女がその場に映し出すのは、凍てつく故郷の雪山。刺すような絶対零度の冷気で敵から体温を、気力を、そして生命をも容赦なく削り取っていく──自身のHPを自身の最大HP×5%回復する。その後攻撃力が高い敵3体に攻撃力×240%の物理攻撃を行い、40%の確率で4ターンの間対象に『脱力』を付与する。付帯者のバトル中ステータスの攻撃力が20%減少する。",
             "zh-CN": "寇柏以镜面映射出故乡那片万里冰封的雪山幻境。降至冰点的刺骨寒气无情地夺走敌人的体温、力气与生命——寇柏使自己恢复5%最大生命值。再对攻击力最高的3名敌人造成攻击力×240%的物理伤害，40%概率附加「脱力」状态，效果持续4回合，使附带者减少20%战斗期间的攻击力。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription1030012]",
           "descriptions": {
+            "ja-JP": "『脱力』を付与する確率が70%になる。",
             "zh-CN": "附加「脱力」状态的概率提升为70%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1030013]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×440%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×440%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1030014]",
           "descriptions": {
+            "ja-JP": "朧氷面鏡を強化する。『脱力』の攻撃力の減少量が40%になる。",
             "zh-CN": "强化胧冰幻镜，「脱力」的攻击力降幅提升为40%。"
           },
           "equipment_rarity_flags": 128,
@@ -67,6 +71,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription1030015]",
           "descriptions": {
+            "ja-JP": "朧氷面鏡を強化する。物理攻撃のダメージが攻撃力×480%になる。",
             "zh-CN": "强化胧冰幻镜，造成的物理伤害提升为攻击力×480%。"
           },
           "equipment_rarity_flags": 512,
@@ -147,6 +152,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName103001]",
       "names": {
+        "ja-JP": "朧氷面鏡",
         "zh-CN": "胧冰幻镜"
       },
       "source_memo_ja": "コベルSR:Lv1 少女がその場に映し出すのは、凍てつく故郷の雪山。刺すような絶対零度の冷気で敵から体温を、気力を、そして生命をも容赦なく削り取っていく──自身のHPを自身の最大HP×5%回復する。その後攻撃力が高い敵3体に攻撃力×240%の物理攻撃を行い、40%の確率で4ターンの間対象に『脱力』を付与する。付帯者のバトル中ステータスの攻撃力が20%減少する。/ Lv2 『脱力』を付与する確率が70%になる。/ Lv3 物理攻撃のダメージが攻撃力×440%になる。/ Ex1 朧氷面鏡を強化する。『脱力』の攻撃力の減少量が40%になる。/ Ex3 朧氷面鏡を強化する。物理攻撃のダメージが攻撃力×480%になる。",
@@ -184,6 +190,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription1030021]",
           "descriptions": {
+            "ja-JP": "「みんな！　薬効があるきのこで回復してけれ！」HP割合が最も低い味方のHPを自身の攻撃力×30%回復する。これを3回発動する。「んた！　きのこが敵の方さ……！」その後HP割合が高い敵3体に攻撃力×280%の物理攻撃を行い、70%の確率で2ターンの間対象に『毒』を付与する。毎ターン行動開始時に付帯者の現在HP×5%のダメージを与える。",
             "zh-CN": "“大家快接好！这是可以恢复体力的小菇儿！”寇柏使生命值百分比最低的友军恢复寇柏攻击力×30%的生命值。此效果连续发动3次。“嗳呀！小菇儿咋飞到敌人那边去咧……！”再对生命值百分比最高的3名敌人造成攻击力×280%的物理伤害，70%概率附加「中毒」状态，效果持续2回合，每回合行动开始时造成附带者当前生命值×5%的伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -198,6 +205,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription1030022]",
           "descriptions": {
+            "ja-JP": "『毒』のダメージが付帯者の現在HP×10%になる。",
             "zh-CN": "「中毒」造成的伤害提升为附带者当前生命值×10%。"
           },
           "equipment_rarity_flags": 0,
@@ -212,6 +220,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription1030023]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×480%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×480%。"
           },
           "equipment_rarity_flags": 0,
@@ -226,6 +235,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription1030024]",
           "descriptions": {
+            "ja-JP": "さらに物理攻撃の前にバトル中自身か味方のアクティブスキルによるHPを回復する効果の発動回数が15以上の場合、物理攻撃のダメージが攻撃力×1920%になる。",
             "zh-CN": "发动攻击前，如果寇柏或友军在战斗中发动主动技能触发恢复生命值的效果达15次以上，造成的物理伤害提升为攻击力×1920%。"
           },
           "equipment_rarity_flags": 0,
@@ -303,6 +313,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName103002]",
       "names": {
+        "ja-JP": "山の恵み……？",
         "zh-CN": "山林的…恩赐？"
       },
       "source_memo_ja": "コベルSR:Lv1 「みんな！　薬効があるきのこで回復してけれ！」HP割合が最も低い味方のHPを自身の攻撃力×30%回復する。これを3回発動する。「んた！　きのこが敵の方さ……！」その後HP割合が高い敵3体に攻撃力×280%の物理攻撃を行い、70%の確率で2ターンの間対象に『毒』を付与する。毎ターン行動開始時に付帯者の現在HP×5%のダメージを与える。/ Lv2 『毒』のダメージが付帯者の現在HP×10%になる。/ Lv3 物理攻撃のダメージが攻撃力×480%になる。/ Lv4 さらに物理攻撃の前にバトル中自身か味方のアクティブスキルによるHPを回復する効果の発動回数が15以上の場合、物理攻撃のダメージが攻撃力×1920%になる。",
@@ -757,6 +768,7 @@
       },
       "name_key": "[CharacterCollectionName89]",
       "names": {
+        "ja-JP": "ラケルタの試練​",
         "zh-CN": "蝎虎座的试炼"
       },
       "required_character_ids": [
@@ -767,12 +779,14 @@
         {
           "id": 103,
           "names": {
+            "ja-JP": "コベル",
             "zh-CN": "寇柏"
           }
         },
         {
           "id": 43,
           "names": {
+            "ja-JP": "ケルベロス",
             "zh-CN": "克尔柏洛丝"
           }
         }
@@ -843,12 +857,14 @@
     "memo": "コベル",
     "name_key": "[CharacterName103]",
     "names": {
+      "ja-JP": "コベル",
       "zh-CN": "寇柏"
     },
     "speed": 3179,
     "start_time_jst": "2026-02-12 15:00:00",
     "subtitle_key": "",
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -922,6 +938,7 @@
     },
     "name_key": "[EquipmentName717]",
     "names": {
+      "ja-JP": "雪鱗の露珠",
       "zh-CN": "雪鳞露珠"
     },
     "passive_effects": [
@@ -955,6 +972,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill103Description1]",
         "descriptions": {
+          "ja-JP": "朧氷面鏡を強化する。『脱力』の攻撃力の減少量が40%になる。",
           "zh-CN": "强化胧冰幻镜，「脱力」的攻击力降幅提升为40%。"
         },
         "equipment_rarity_flags": 128,
@@ -963,6 +981,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill103Description2]",
         "descriptions": {
+          "ja-JP": "竜神さまのご加護を強化する。『被回復量増加』と『最大HP増加』の対象が味方全体になる。",
           "zh-CN": "强化龙神的庇佑，「回血量上升」与「最大生命值上升」的附加目标增加为全体友军。"
         },
         "equipment_rarity_flags": 256,
@@ -971,6 +990,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill103Description3]",
         "descriptions": {
+          "ja-JP": "朧氷面鏡を強化する。物理攻撃のダメージが攻撃力×480%になる。",
           "zh-CN": "强化胧冰幻镜，造成的物理伤害提升为攻击力×480%。"
         },
         "equipment_rarity_flags": 512,
@@ -994,6 +1014,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription1030031]",
           "descriptions": {
+            "ja-JP": "「竜神さまは、いつだって見守ってけでるんだど。ルプスのお山も、おらたちのことも……」バトル開始時、2ターンの間自身に隣接する味方2体の被回復量を10%増加させる。自身が戦闘不能になったとき、このスキルで付与した味方の『被回復量増加』を解除する。",
             "zh-CN": "“龙神大人一直保佑着大家。保佑着山犬联邦的大山，也保佑着俺们……”战斗开始时，寇柏使附近的2名友军增加10%回血量，效果持续2回合。当寇柏失去战斗能力时，解除此技能附加的「回血量上升」状态。"
           },
           "equipment_rarity_flags": 0,
@@ -1008,6 +1029,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription1030032]",
           "descriptions": {
+            "ja-JP": "バトル開始時、さらに自身に隣接する味方2体の最大HPを自身の最大HP×20%増加させる（解除不可）。",
             "zh-CN": "战斗开始时，使附近的2名友军额外增加最大生命值，增幅为寇柏最大生命值×20%（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1022,6 +1044,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription1030033]",
           "descriptions": {
+            "ja-JP": "『被回復量増加』のターン数が6ターンになる。",
             "zh-CN": "「回血量上升」效果增加为6回合。"
           },
           "equipment_rarity_flags": 0,
@@ -1036,6 +1059,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription1030034]",
           "descriptions": {
+            "ja-JP": "竜神さまのご加護を強化する。『被回復量増加』と『最大HP増加』の対象が味方全体になる。",
             "zh-CN": "强化龙神的庇佑，「回血量上升」与「最大生命值上升」的附加目标增加为全体友军。"
           },
           "equipment_rarity_flags": 256,
@@ -1197,6 +1221,7 @@
       },
       "name_key": "[PassiveSkillName103003]",
       "names": {
+        "ja-JP": "竜神さまのご加護",
         "zh-CN": "龙神的庇佑"
       },
       "source_memo_ja": "コベルSR:Lv1 「竜神さまは、いつだって見守ってけでるんだど。ルプスのお山も、おらたちのことも……」バトル開始時、2ターンの間自身に隣接する味方2体の被回復量を10%増加させる。自身が戦闘不能になったとき、このスキルで付与した味方の『被回復量増加』を解除する。/ Lv2 バトル開始時、さらに自身に隣接する味方2体の最大HPを自身の最大HP×20%増加させる（解除不可）。/ Lv3 『被回復量増加』のターン数が6ターンになる。/ Ex2 竜神さまのご加護を強化する。『被回復量増加』と『最大HP増加』の対象が味方全体になる。",
@@ -1228,6 +1253,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription1030041]",
           "descriptions": {
+            "ja-JP": "今も怖くて震えが止まらない。でも。それでも……彼女は震える足で踏み出す。何もせずに大切なものを失うより、無力な自分のままでいることの方がもっと嫌だから。自身が攻撃を受けたとき、自身のHPを被ダメージ×20%回復する。攻撃で自身が戦闘不能になった場合、このスキルは発動しない。",
             "zh-CN": "“俺还是没胆，还是会害怕到发抖。可是……可是……”寇柏用颤抖的双腿踏出了那一步。比起眼睁睁地失去最要紧的朋友，她更讨厌一直这么窝囊的自己——当寇柏受到攻击时，使自己恢复承受伤害×20%的生命值。当攻击使寇柏失去战斗能力时，无法触发此技能。"
           },
           "equipment_rarity_flags": 0,
@@ -1242,6 +1268,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription1030042]",
           "descriptions": {
+            "ja-JP": "HPの回復量が被ダメージ×40%になる。",
             "zh-CN": "生命值恢复量提升为承受伤害×40%。"
           },
           "equipment_rarity_flags": 0,
@@ -1256,6 +1283,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription1030043]",
           "descriptions": {
+            "ja-JP": "さらにバトル開始時、自身の被ダメージが40%減少する（解除不可）。",
             "zh-CN": "战斗开始时，寇柏额外减少40%自身承受伤害（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1331,6 +1359,7 @@
       },
       "name_key": "[PassiveSkillName103004]",
       "names": {
+        "ja-JP": "踏み出す巫女",
         "zh-CN": "踏出第一步的巫女"
       },
       "source_memo_ja": "コベルSR:Lv1 今も怖くて震えが止まらない。でも。それでも……彼女は震える足で踏み出す。何もせずに大切なものを失うより、無力な自分のままでいることの方がもっと嫌だから。自身が攻撃を受けたとき、自身のHPを被ダメージ×20%回復する。攻撃で自身が戦闘不能になった場合、このスキルの自身のHPを回復する効果は発動しない。/ Lv2 HPの回復量が被ダメージ×40%になる。/ Lv3 さらにバトル開始時、自身の被ダメージが40%減少する（解除不可）。",
@@ -1358,6 +1387,7 @@
           "character_level": 181,
           "description_key": "*",
           "descriptions": {
+            "ja-JP": null,
             "zh-CN": null
           },
           "equipment_rarity_flags": 0,
@@ -1398,6 +1428,7 @@
       },
       "name_key": "*",
       "names": {
+        "ja-JP": null,
         "zh-CN": null
       },
       "source_memo_ja": "*",
@@ -1440,6 +1471,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

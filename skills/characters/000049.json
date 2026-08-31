@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription490011]",
           "descriptions": {
+            "ja-JP": "骸晶の力を宿した刃で、ランダムな敵5体に攻撃力×300%の物理攻撃を行う。",
             "zh-CN": "奥菲莉娅高举蕴藏着骸晶之力的剑刃，随机对5名敌人造成攻击力×300%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -22,6 +23,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription490012]",
           "descriptions": {
+            "ja-JP": "さらに自身のHPを自身の最大HP×20%回復する。",
             "zh-CN": "额外恢复20%最大生命值。"
           },
           "equipment_rarity_flags": 0,
@@ -33,6 +35,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription490013]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×380%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×380%。"
           },
           "equipment_rarity_flags": 0,
@@ -44,6 +47,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription490014]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription490014]",
             "zh-CN": "[ActiveSkillDescription490014]"
           },
           "equipment_rarity_flags": 256,
@@ -55,6 +59,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription490015]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription490015]",
             "zh-CN": "[ActiveSkillDescription490015]"
           },
           "equipment_rarity_flags": 512,
@@ -131,6 +136,7 @@
       "max_cooldown": 5,
       "name_key": "[ActiveSkillName49001]",
       "names": {
+        "ja-JP": "目を奪うは眩き刃",
         "zh-CN": "举剑，夺走所有的目光"
       },
       "source_memo_ja": "【骸晶の魔女】\\nオフィーリアSR: 骸晶の力を宿した刃で、ランダムな敵5体に攻撃力×300％の物理攻撃を行う。\\nさらに自身のHPを自身の最大HP×20％回復する。\\n物理攻撃のダメージが攻撃力×380％になる。\\n目を奪うは眩き刃を強化する。さらに3ターンの間自身の弱体効果耐性率が30％増加する。\\n目を奪うは眩き刃を強化する。弱体効果耐性率の増加量が50％になる。",
@@ -147,6 +153,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription490021]",
           "descriptions": {
+            "ja-JP": "刃から放たれる衝撃波により、ランダムな敵1体に攻撃力×560%の物理攻撃を行う。生み出された骸晶が相手の力を飲み込み、2ターンの間対象の攻撃力を25%減少させる。",
             "zh-CN": "奥菲莉娅挥剑释放冲击波，随机对1名敌人造成攻击力×560%的物理伤害。攻击时形成的骸晶吞噬对手的力量，使技能目标减少25%攻击力，效果持续2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -158,6 +165,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription490022]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×760%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×760%。"
           },
           "equipment_rarity_flags": 0,
@@ -169,6 +177,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription490023]",
           "descriptions": {
+            "ja-JP": "『攻撃力減少』のターン数が3ターンになる。",
             "zh-CN": "「攻击力下降」效果增加为3回合。"
           },
           "equipment_rarity_flags": 0,
@@ -180,6 +189,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription490024]",
           "descriptions": {
+            "ja-JP": "攻撃力の減少量が40%になる。",
             "zh-CN": "攻击力降幅提升为40%。"
           },
           "equipment_rarity_flags": 0,
@@ -242,6 +252,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName49002]",
       "names": {
+        "ja-JP": "クリスタルタイド",
         "zh-CN": "骸晶冲击波"
       },
       "source_memo_ja": "【骸晶の魔女】\\nオフィーリアSR: /刃から放たれる衝撃波により、ランダムな敵1体に攻撃力×560％の物理攻撃を行う。生み出された骸晶が相手の力を飲み込み、2ターンの間対象の攻撃力を25％減少させる。\\n物理攻撃のダメージが攻撃力×760％になる。\\n『攻撃力減少』のターン数が3ターンになる。\\n攻撃力の減少量が40%になる。",
@@ -680,6 +691,7 @@
       },
       "name_key": "[CharacterCollectionName8]",
       "names": {
+        "ja-JP": "アルテミスの誓約",
         "zh-CN": "阿缇密斯的誓约"
       },
       "required_character_ids": [
@@ -691,18 +703,21 @@
         {
           "id": 49,
           "names": {
+            "ja-JP": "オフィーリア",
             "zh-CN": "奥菲莉娅"
           }
         },
         {
           "id": 6,
           "names": {
+            "ja-JP": "アムレート",
             "zh-CN": "阿姆蕾特"
           }
         },
         {
           "id": 8,
           "names": {
+            "ja-JP": "フローレンス",
             "zh-CN": "佛罗伦斯"
           }
         }
@@ -773,12 +788,14 @@
     "memo": "オフィーリア",
     "name_key": "[CharacterName49]",
     "names": {
+      "ja-JP": "オフィーリア",
       "zh-CN": "奥菲莉娅"
     },
     "speed": 3007,
     "start_time_jst": "2023-02-28 15:00:00",
     "subtitle_key": "[CharacterSubName49]",
     "subtitles": {
+      "ja-JP": "骸晶の魔女",
       "zh-CN": "骸晶魔女"
     }
   },
@@ -853,6 +870,7 @@
     },
     "name_key": "[EquipmentName393]",
     "names": {
+      "ja-JP": "断罪の剣",
       "zh-CN": "断罪之剑"
     },
     "passive_effects": [
@@ -886,6 +904,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill49Description1]",
         "descriptions": {
+          "ja-JP": "自身が物理攻撃を受けたとき、自身のHPを被ダメージ×35%回復する。攻撃で自身が戦闘不能になった場合、このスキルは発動しない。",
           "zh-CN": "当奥菲莉娅受到物理攻击时，使自己恢复承受伤害×35%的生命值。当攻击使奥菲莉娅失去战斗能力时，无法触发此技能。"
         },
         "equipment_rarity_flags": 128,
@@ -894,6 +913,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill49Description2]",
         "descriptions": {
+          "ja-JP": "目を奪うは眩き刃を強化する。さらに3ターンの間自身の弱体効果耐性率が30%増加する。",
           "zh-CN": "强化举剑，夺走所有的目光，使奥菲莉娅额外增加30%弱化效果抵抗率，效果持续3回合。"
         },
         "equipment_rarity_flags": 256,
@@ -902,6 +922,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill49Description3]",
         "descriptions": {
+          "ja-JP": "目を奪うは眩き刃を強化する。弱体効果耐性率の増加量が50%になる。",
           "zh-CN": "强化举剑，夺走所有的目光，弱化效果抵抗率增幅提升为50%。"
         },
         "equipment_rarity_flags": 512,
@@ -924,6 +945,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription490031]",
           "descriptions": {
+            "ja-JP": "その目に宿るのは、今度こそ愛する人を守るという固い決意。ターン開始時自身のHP割合が60%以上の場合、自身に3ターンの間『挑発』を付与し、自身の回避率が50%減少する。このスキルは発動後4回行動終了するまで再び発動しない。",
             "zh-CN": "奥菲莉娅的眼神中带着坚定的决心，立志守护所爱，不再重蹈覆辙。在回合开始时，如果奥菲莉娅的生命值为60%以上，获得「挑衅」状态并减少50%闪避率，效果持续3回合。此技能须在结束4次行动后才可再次触发。"
           },
           "equipment_rarity_flags": 0,
@@ -935,6 +957,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription490032]",
           "descriptions": {
+            "ja-JP": "さらにこのスキルで自身の被ダメージが30%減少する。",
             "zh-CN": "额外减少30%自身承受伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -946,6 +969,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription490033]",
           "descriptions": {
+            "ja-JP": "さらにこのスキルで自身のカウンタが50%増加する。",
             "zh-CN": "额外增加50%伤害反弹。"
           },
           "equipment_rarity_flags": 0,
@@ -1011,6 +1035,7 @@
       },
       "name_key": "[PassiveSkillName49003]",
       "names": {
+        "ja-JP": "誓いを守る者",
         "zh-CN": "誓言守护者"
       },
       "source_memo_ja": "【骸晶の魔女】\\nオフィーリアSR: その目に宿るのは、今度こそ愛する人を守るという固い決意。ターン開始時自身のHP割合が60％以上の場合、自身に3ターンの間『挑発』を付与し、自身の回避率が50％減少する。対象がランダムである敵の攻撃を引き付ける。このスキルは4ターンに1回発動する。\\nさらにこのスキルで自身の被ダメージが30％減少する。\\nさらにこのスキルで自身のカウンタが50％増加する。",
@@ -1025,6 +1050,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription490041]",
           "descriptions": {
+            "ja-JP": "近衛騎士としての栄誉は、王の盾となることにあり。自身の最大HPとクリティカル耐性率がそれぞれ20%増加する（解除不可）。",
             "zh-CN": "以身为盾，护卫君王是近卫骑士的荣耀。奥菲莉娅使自己增加20%最大生命值与抗暴率（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1036,6 +1062,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription490042]",
           "descriptions": {
+            "ja-JP": "最大HPとクリティカル耐性率の増加量がそれぞれ40%になる。",
             "zh-CN": "最大生命值与抗暴率增幅提升为40%。"
           },
           "equipment_rarity_flags": 0,
@@ -1047,6 +1074,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription490043]",
           "descriptions": {
+            "ja-JP": "さらに自身が致命的なダメージを受けたとき、HP1で耐え、2ターンの間自身の、1ターンの間自身以外の味方全体の物理防御力を40%増加させる。このスキルはバトル中1回のみ発動する。",
             "zh-CN": "当奥菲莉娅受到致命伤害时，额外保留1点生命值不死，并使自己增加40%物理防御力，效果持续2回合。再使其他友军增加40%物理防御力，效果持续1回合。此技能每场战斗最多触发1次。"
           },
           "equipment_rarity_flags": 0,
@@ -1119,6 +1147,7 @@
       },
       "name_key": "[PassiveSkillName49004]",
       "names": {
+        "ja-JP": "近衛の誉れ",
         "zh-CN": "近卫的荣耀"
       },
       "source_memo_ja": "【骸晶の魔女】\\nオフィーリアSR: 近衛騎士としての栄誉は、王の盾となることにあり。自身の最大HPとクリティカル耐性率がそれぞれ20％増加する（解除不可）。\\n最大HPとクリティカル耐性率の増加量がそれぞれ40％になる。\\nさらに自身が致命的なダメージを受けたとき、HP1で耐え、2ターンの間自身の、1ターンの間自身以外の味方全体の物理防御力を40％増加させる。このスキルはバトル中1回のみ発動する。",
@@ -1133,6 +1162,7 @@
           "character_level": 161,
           "description_key": "*",
           "descriptions": {
+            "ja-JP": null,
             "zh-CN": null
           },
           "equipment_rarity_flags": 128,
@@ -1166,6 +1196,7 @@
       },
       "name_key": "*",
       "names": {
+        "ja-JP": null,
         "zh-CN": null
       },
       "source_memo_ja": "【骸晶の魔女】\\nオフィーリアSR: 自身が物理攻撃を受けたとき、自身のHPを受けたダメージ×35％回復する（この攻撃で自身が戦闘不能になった場合、このスキルは発動しない）。",
@@ -1208,6 +1239,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

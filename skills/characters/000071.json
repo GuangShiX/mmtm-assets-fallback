@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription710011]",
           "descriptions": {
+            "ja-JP": "楽園に眠る霊魂たちが目を覚まし、ランダムな敵3体に攻撃力×330%の魔法攻撃を行う。さらに眠りを妨げられた怒りが呪詛となり、2ターンの間対象に『毒』を付与する。毎ターン行動開始時に付帯者の現在HP×3%のダメージを与える。",
             "zh-CN": "沉眠于乐园里的灵魂被唤醒，随机对3名敌人造成攻击力×330%的魔法伤害。安眠受到惊扰的怒气化为诅咒，对技能目标附加「中毒」状态，效果持续2回合，每回合行动开始时造成附带者当前生命值×3%的伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription710012]",
           "descriptions": {
+            "ja-JP": "さらに『毒』付与の判定の後、『毒』を付帯している敵のうち攻撃力が最も高い敵の攻撃力を15%吸収し、2ターンの間自身に加える。",
             "zh-CN": "「中毒」附加判定结束后，额外吸收身上附带「中毒」状态且攻击力最高的敌人15%攻击力，效果持续2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription710013]",
           "descriptions": {
+            "ja-JP": "『毒』のターン数が4ターンになる。",
             "zh-CN": "「中毒」效果增加为4回合。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription710014]",
           "descriptions": {
+            "ja-JP": "",
             "zh-CN": ""
           },
           "equipment_rarity_flags": 128,
@@ -67,6 +71,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription710015]",
           "descriptions": {
+            "ja-JP": "",
             "zh-CN": ""
           },
           "equipment_rarity_flags": 256,
@@ -81,6 +86,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription710016]",
           "descriptions": {
+            "ja-JP": "",
             "zh-CN": ""
           },
           "equipment_rarity_flags": 512,
@@ -168,6 +174,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName71001]",
       "names": {
+        "ja-JP": "レストインパラダイス",
         "zh-CN": "愿魂归乐园"
       },
       "source_memo_ja": "水着モーザSR:Lv1 楽園に眠る霊魂たちが目を覚まし、ランダムな敵3体に攻撃力×330%の魔法攻撃を行う。さらに眠りを妨げられた怒りが呪詛となり、2ターンの間対象に『毒』を付与する。毎ターン行動開始時に現在HP×3%のダメージを与える。/ Lv2\\n さらに『毒』付与の判定の後、『毒』を付帯している敵のうち攻撃力が最も高い敵の攻撃力を15%吸収し、2ターンの間自身に加える。/ Lv3 \\n『毒』のターン数が4ターンになる。/ Ex1 レストインパラダイスを強化する。レストインパラダイスの対象がランダムな敵4体になる。/ Ex2 レストインパラダイスを強化する。攻撃力の吸収量が30%になる。/ Ex3 レストインパラダイスを強化する。『毒』のダメージが現在HP×5%に増加する。",
@@ -205,6 +212,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription710021]",
           "descriptions": {
+            "ja-JP": "水辺にはさまよう霊魂が集まりやすく、生者を見つけると群れをなして襲ってくる。ランダムな敵に3回攻撃力×210%の魔法攻撃を行う。",
             "zh-CN": "迷失的灵魂常聚集在水边，一旦发现活人便群起而攻，随机对敌人进行3次攻击，每次造成攻击力×210%的魔法伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -219,6 +227,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription710022]",
           "descriptions": {
+            "ja-JP": "さらに『毒』を付帯している敵1体につき攻撃回数が1回多くなる（合計で最大8回まで）。",
             "zh-CN": "每名身上附带「中毒」状态的敌人，再使攻击次数增加1次（合计最多8连击）。"
           },
           "equipment_rarity_flags": 0,
@@ -233,6 +242,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription710023]",
           "descriptions": {
+            "ja-JP": "最初の魔法攻撃の回数が4回、合計で最大9回までになる。",
             "zh-CN": "第一波攻击次数增加为4次，连击上限增加为9次。"
           },
           "equipment_rarity_flags": 0,
@@ -247,6 +257,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription710024]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×230%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×230%。"
           },
           "equipment_rarity_flags": 0,
@@ -337,6 +348,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName71002]",
       "names": {
+        "ja-JP": "水底の幽かな声",
         "zh-CN": "水底幽魂的低语"
       },
       "source_memo_ja": "水着モーザSR:Lv1 水辺にはさまよう霊魂が集まりやすく、生者を見つけると群れをなして襲ってくる。ランダムな敵に3回攻撃力×210%の魔法攻撃を行う。/ Lv2\\n さらに『毒』を付帯している敵1体につき攻撃回数が1回多くなる（合計で最大8回まで）。/ Lv3 \\n最初の魔法攻撃の回数が4回、合計で最大9回までになる。/ Lv4 魔法攻撃のダメージが攻撃力×230%になる。",
@@ -787,6 +799,7 @@
       },
       "name_key": "[CharacterCollectionName21]",
       "names": {
+        "ja-JP": "ボランスの鎮魂",
         "zh-CN": "飞鱼座的镇魂"
       },
       "required_character_ids": [
@@ -797,12 +810,14 @@
         {
           "id": 71,
           "names": {
+            "ja-JP": "モーザ",
             "zh-CN": "墨瑟"
           }
         },
         {
           "id": 10,
           "names": {
+            "ja-JP": "モーザ",
             "zh-CN": "墨瑟"
           }
         }
@@ -872,12 +887,14 @@
     "memo": "水着モーザ",
     "name_key": "[CharacterName71]",
     "names": {
+      "ja-JP": "モーザ",
       "zh-CN": "墨瑟"
     },
     "speed": 3245,
     "start_time_jst": "2023-07-13 15:00:00",
     "subtitle_key": "[CharacterSubName71]",
     "subtitles": {
+      "ja-JP": "墓守の夏休み",
       "zh-CN": "守墓人的暑假"
     }
   },
@@ -952,6 +969,7 @@
     },
     "name_key": "[EquipmentName408]",
     "names": {
+      "ja-JP": "トロピカルフロート",
       "zh-CN": "热带风情游泳圈"
     },
     "passive_effects": [
@@ -985,6 +1003,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill71Description1]",
         "descriptions": {
+          "ja-JP": "レストインパラダイスを強化する。レストインパラダイスの対象がランダムな敵4体になる。",
           "zh-CN": "强化愿魂归乐园，技能目标增加为4名随机敌人。"
         },
         "equipment_rarity_flags": 128,
@@ -993,6 +1012,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill71Description2]",
         "descriptions": {
+          "ja-JP": "レストインパラダイスを強化する。攻撃力の吸収量が30%になる。",
           "zh-CN": "强化愿魂归乐园，攻击力吸收效果提升为30%。"
         },
         "equipment_rarity_flags": 256,
@@ -1001,6 +1021,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill71Description3]",
         "descriptions": {
+          "ja-JP": "レストインパラダイスを強化する。『毒』のダメージが付帯者の現在HP×5%になる。",
           "zh-CN": "强化愿魂归乐园，「中毒」造成的伤害提升为附带者当前生命值×5%。"
         },
         "equipment_rarity_flags": 512,
@@ -1021,6 +1042,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription710031]",
           "descriptions": {
+            "ja-JP": "お墓の下でも、お墓の上でも、みーんなまとめて笑顔にしてあげる。その決意が新たな力となる。自身が攻撃を受けたとき、ダメージを20%遮断する。",
             "zh-CN": "“不管是入土前还是入土后，我都会让每个人的脸上充满笑容。”这份决心化为全新的力量，当墨瑟受到攻击时，阻绝20%伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -1035,6 +1057,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription710032]",
           "descriptions": {
+            "ja-JP": "攻撃してきた敵が『毒』を付帯している場合、もしくは自身がカウンタダメージを受けたとき、遮断の効果が50%になる。",
             "zh-CN": "当发动攻击的敌人身上附带「中毒」状态或墨瑟受到反弹伤害时，阻绝50%伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -1049,6 +1072,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription710033]",
           "descriptions": {
+            "ja-JP": "ダメージを50%遮断する。攻撃してきた敵が『毒』を付帯している場合、もしくは自身がカウンタダメージを受けたとき、遮断の効果が75%になる。",
             "zh-CN": "阻绝50%伤害。当发动攻击的敌人身上附带「中毒」状态或墨瑟受到反弹伤害时，阻绝75%伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -1117,6 +1141,7 @@
       },
       "name_key": "[PassiveSkillName71003]",
       "names": {
+        "ja-JP": "それが墓守の仕事",
         "zh-CN": "这是守墓人的工作"
       },
       "source_memo_ja": "水着モーザSR:Lv1 お墓の下でも、お墓の上でも、みーんなまとめて笑顔にしてあげる。その決意が新たな力となる。自身が攻撃を受けたとき、ダメージを20%遮断する。/ Lv2 \\nさらに攻撃してきた敵が『毒』を付帯している場合、ダメージを50%遮断する。/ Lv3 \\nダメージを50%遮断する。攻撃してきた敵が『毒』を付帯している場合、ダメージを75%遮断する。",
@@ -1144,6 +1169,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription710041]",
           "descriptions": {
+            "ja-JP": "「ライラは私が危なくなると、いつも助けに来てくれるね」毎ターン開始時、自身の攻撃力が3%増加する（最大20スタック、60%まで）（解除不可）。『毒』を付帯している敵1体につき増加量が3%大きくなる。",
             "zh-CN": "“只要我遇到危险，莱拉就会来救我。”每回合开始时使墨瑟增加3%攻击力（最多叠加20层，合计60%）（无法被解除）。每名身上附带「中毒」状态的敌人，再使攻击力增幅提升3%。"
           },
           "equipment_rarity_flags": 0,
@@ -1158,6 +1184,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription710042]",
           "descriptions": {
+            "ja-JP": "攻撃力の増加量が4%になり、増加量最大値が80%になる。『毒』を付帯している敵1体につき増加量が4%大きくなる。",
             "zh-CN": "攻击力增幅提升为4%，增幅上限提升为80%。每名身上附带「中毒」状态的敌人，再使攻击力增幅提升4%。"
           },
           "equipment_rarity_flags": 0,
@@ -1172,6 +1199,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription710043]",
           "descriptions": {
+            "ja-JP": "攻撃力の増加量が5%になり、増加量最大値が100%になる。『毒』を付帯している敵1体につき増加量が5%大きくなる。",
             "zh-CN": "攻击力增幅提升为5%，增幅上限提升为100%。每名身上附带「中毒」状态的敌人，再使攻击力增幅提升5%。"
           },
           "equipment_rarity_flags": 0,
@@ -1240,6 +1268,7 @@
       },
       "name_key": "[PassiveSkillName71004]",
       "names": {
+        "ja-JP": "ライラの守り",
         "zh-CN": "莱拉的保护"
       },
       "source_memo_ja": "水着モーザSR:Lv1 「ライラは私が危なくなると、いつも助けに来てくれるね」毎ターン開始時、自身の攻撃力が3%増加する（最大60%まで）（解除不可）。『毒』を付帯している敵1体につき増加量が3%大きくなる。/ Lv2 \\n攻撃力の増加量が4%になり、増加量最大値が80%になる。『毒』を付帯している敵1体につき増加量が4%大きくなる。/ Lv3 \\n攻撃力の増加量が5%になり、増加量最大値が100%になる。『毒』を付帯している敵1体につき増加量が5%大きくなる。",
@@ -1295,6 +1324,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

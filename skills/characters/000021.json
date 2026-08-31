@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription210011]",
           "descriptions": {
+            "ja-JP": "長大な刀を居合抜きし、ランダムな敵3体に攻撃力×130%の物理攻撃を行う。",
             "zh-CN": "静施展拔刀术，用巨大的长刀随机对3名敌人造成攻击力×130%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -46,6 +47,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName21001]",
       "names": {
+        "ja-JP": "卍抜け",
         "zh-CN": "卍拔"
       },
       "source_memo_ja": "シズN: /Lv1　長大な刀を居合抜きし、ランダムな敵3体に攻撃力×130％の物理攻撃を行う。",
@@ -67,6 +69,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription210021]",
           "descriptions": {
+            "ja-JP": "刀の重みも利用した渾身の打ち下ろしにより、ランダムな敵1体に攻撃力×200%の物理攻撃を行う。",
             "zh-CN": "静利用太刀本身的重量全力一斩，随机对1名敌人造成攻击力×200%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -102,6 +105,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName21002]",
       "names": {
+        "ja-JP": "一之太刀",
         "zh-CN": "一之太刀"
       },
       "source_memo_ja": "シズN: /Lv1　刀の重みも利用した渾身の打ち下ろしにより、ランダムな敵1体に攻撃力×200％の物理攻撃を行う。",
@@ -172,12 +176,14 @@
     "memo": "シズ",
     "name_key": "[CharacterName21]",
     "names": {
+      "ja-JP": "シズ",
       "zh-CN": "静"
     },
     "speed": 2520,
     "start_time_jst": "2020-01-01 00:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -222,6 +228,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

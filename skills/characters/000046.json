@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription460011]",
           "descriptions": {
+            "ja-JP": "弱い自分に絶望する心が氷の棺を生み出した。あふれ出す冥界の冷気が、ランダムな敵5体に攻撃力×245%の魔法攻撃を行う。その冷気は畏れた者の心を凍らせ、クリティカルヒットした場合、対象に1ターンの間『沈黙』を付与する。",
             "zh-CN": "露娜琳德对软弱的自己感到绝望，绝望的心化为冰棺，释放出冥界的寒气，随机对5名敌人造成攻击力×245%的魔法伤害。冥界寒气冻结畏惧者的心，当技能暴击时，对技能目标附加「沉默」状态，效果持续1回合。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription460012]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×265%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×265%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription460013]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×300%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×300%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription460014]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription460014]",
             "zh-CN": "[ActiveSkillDescription460014]"
           },
           "equipment_rarity_flags": 128,
@@ -64,6 +68,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription460015]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription460015]",
             "zh-CN": "[ActiveSkillDescription460015]"
           },
           "equipment_rarity_flags": 256,
@@ -75,6 +80,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription460016]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription460016]",
             "zh-CN": "[ActiveSkillDescription460016]"
           },
           "equipment_rarity_flags": 512,
@@ -160,6 +166,7 @@
       "max_cooldown": 7,
       "name_key": "[ActiveSkillName46001]",
       "names": {
+        "ja-JP": "アイスコフィン",
         "zh-CN": "幽冥冰棺"
       },
       "source_memo_ja": "【雪幻の魔女】\\nルナリンドSR: /Lv1　弱い自分に絶望する心が氷の棺を生み出した。あふれ出す冥界の冷気が、ランダムな敵5体に攻撃力×245%の魔法攻撃を行う。その冷気は畏れた者の心を凍らせ、クリティカルヒットした場合、対象に1ターンの間『沈黙』を付与する。　/Lv2 魔法攻撃のダメージが攻撃力×265%になる。　/Lv3 魔法攻撃のダメージが攻撃力×300%になる。　/専用1 アイスコフィンを強化する。さらに魔法攻撃の前に自身のクリティカル率が25％増加する。　/専用2 アイスコフィンを強化する。『沈黙』のターン数が3ターンになる。　/専用3 アイスコフィンを強化する。クリティカル率の増加量が40％になる。",
@@ -189,6 +196,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription460021]",
           "descriptions": {
+            "ja-JP": "全てを凍らせる雪幻の氷が、ランダムな敵5体に攻撃力×220%の魔法攻撃を行う。その絶望に囚われた者は呪いに体を蝕まれ、対象の魔力が自身よりも低い場合、2ターンの間『毒』を付与する。毎ターン行動開始時に付帯者の現在HP×10%のダメージを与える。",
             "zh-CN": "露娜琳德用冻结万物的雪幻之冰，随机对5名敌人造成攻击力×220%的魔法伤害。一旦被她的绝望囚禁，诅咒将侵蚀身体，当技能目标的魔力低于自己时，附加「中毒」状态，效果持续2回合，每回合行动开始时造成附带者当前生命值×10%的伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -203,6 +211,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription460022]",
           "descriptions": {
+            "ja-JP": "『毒』のダメージが付帯者の現在HP×15%になる。",
             "zh-CN": "「中毒」造成的伤害提升为附带者当前生命值×15%。"
           },
           "equipment_rarity_flags": 0,
@@ -217,6 +226,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription460023]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×285%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×285%。"
           },
           "equipment_rarity_flags": 0,
@@ -231,6 +241,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription460024]",
           "descriptions": {
+            "ja-JP": "『毒』のターン数が3ターンになる。",
             "zh-CN": "「中毒」效果增加为3回合。"
           },
           "equipment_rarity_flags": 0,
@@ -296,6 +307,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName46002]",
       "names": {
+        "ja-JP": "ディスペアード",
         "zh-CN": "绝望风雪"
       },
       "source_memo_ja": "【雪幻の魔女】\\nルナリンドSR: /Lv1　全てを凍らせる雪幻の氷が、ランダムな敵5体に攻撃力×220％の魔法攻撃を行う。その絶望に囚われた者は呪いに体を蝕まれ、対象の魔力が自身よりも低い場合、2ターンの間『毒』を付与する。毎ターン行動開始時に現在HP×10％のダメージを与える。　/Lv2 『毒』のダメージが現在HP×15％になる。　/Lv3 魔法攻撃のダメージが攻撃力×285%になる。　/Lv4 『毒』のターン数が3ターンになる。",
@@ -760,6 +772,7 @@
       },
       "name_key": "[CharacterCollectionName7]",
       "names": {
+        "ja-JP": "アルビレオの宝石",
         "zh-CN": "天鹅座的宝石"
       },
       "required_character_ids": [
@@ -772,24 +785,28 @@
         {
           "id": 5,
           "names": {
+            "ja-JP": "ソルティーナ",
             "zh-CN": "索尔缇娜"
           }
         },
         {
           "id": 7,
           "names": {
+            "ja-JP": "フェンリル",
             "zh-CN": "芬里尔"
           }
         },
         {
           "id": 8,
           "names": {
+            "ja-JP": "フローレンス",
             "zh-CN": "佛罗伦斯"
           }
         },
         {
           "id": 46,
           "names": {
+            "ja-JP": "ルナリンド",
             "zh-CN": "露娜琳德"
           }
         }
@@ -1228,6 +1245,7 @@
       },
       "name_key": "[CharacterCollectionName27]",
       "names": {
+        "ja-JP": "テレスコピウムの星光",
         "zh-CN": "望远镜座的星光"
       },
       "required_character_ids": [
@@ -1239,18 +1257,21 @@
         {
           "id": 57,
           "names": {
+            "ja-JP": "ステラ",
             "zh-CN": "史黛拉"
           }
         },
         {
           "id": 26,
           "names": {
+            "ja-JP": "マーリン",
             "zh-CN": "梅琳"
           }
         },
         {
           "id": 46,
           "names": {
+            "ja-JP": "ルナリンド",
             "zh-CN": "露娜琳德"
           }
         }
@@ -1689,6 +1710,7 @@
       },
       "name_key": "[CharacterCollectionName29]",
       "names": {
+        "ja-JP": "ボーテスの聖光",
         "zh-CN": "牧夫座的圣光"
       },
       "required_character_ids": [
@@ -1700,18 +1722,21 @@
         {
           "id": 45,
           "names": {
+            "ja-JP": "エルフリンデ",
             "zh-CN": "埃尔芙琳黛"
           }
         },
         {
           "id": 41,
           "names": {
+            "ja-JP": "ナターシャ",
             "zh-CN": "娜塔夏"
           }
         },
         {
           "id": 46,
           "names": {
+            "ja-JP": "ルナリンド",
             "zh-CN": "露娜琳德"
           }
         }
@@ -2157,6 +2182,7 @@
       },
       "name_key": "[CharacterCollectionName44]",
       "names": {
+        "ja-JP": "ムスカの解放",
         "zh-CN": "苍蝇座的解放"
       },
       "required_character_ids": [
@@ -2167,12 +2193,14 @@
         {
           "id": 63,
           "names": {
+            "ja-JP": "パラデア",
             "zh-CN": "帕拉底亚"
           }
         },
         {
           "id": 46,
           "names": {
+            "ja-JP": "ルナリンド",
             "zh-CN": "露娜琳德"
           }
         }
@@ -2610,6 +2638,7 @@
       },
       "name_key": "[CharacterCollectionName63]",
       "names": {
+        "ja-JP": "カストルの親愛",
         "zh-CN": "卡斯托尔的亲爱"
       },
       "required_character_ids": [
@@ -2620,12 +2649,14 @@
         {
           "id": 108,
           "names": {
+            "ja-JP": "ルナリンド",
             "zh-CN": "露娜琳德"
           }
         },
         {
           "id": 46,
           "names": {
+            "ja-JP": "ルナリンド",
             "zh-CN": "露娜琳德"
           }
         }
@@ -2695,12 +2726,14 @@
     "memo": "ルナリンド",
     "name_key": "[CharacterName46]",
     "names": {
+      "ja-JP": "ルナリンド",
       "zh-CN": "露娜琳德"
     },
     "speed": 3304,
     "start_time_jst": "2020-01-01 00:00:00",
     "subtitle_key": "[CharacterSubName46]",
     "subtitles": {
+      "ja-JP": "雪幻の魔女",
       "zh-CN": "雪幻魔女"
     }
   },
@@ -2775,6 +2808,7 @@
     },
     "name_key": "[EquipmentName375]",
     "names": {
+      "ja-JP": "ルナスフィア",
       "zh-CN": "辉月天球"
     },
     "passive_effects": [
@@ -2808,6 +2842,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill46Description1]",
         "descriptions": {
+          "ja-JP": "アイスコフィンを強化する。さらに魔法攻撃の前に自身のクリティカル率が25%増加する。",
           "zh-CN": "强化幽冥冰棺，发动攻击前使露娜琳德额外增加25%暴击率。"
         },
         "equipment_rarity_flags": 128,
@@ -2816,6 +2851,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill46Description2]",
         "descriptions": {
+          "ja-JP": "アイスコフィンを強化する。『沈黙』のターン数が3ターンになる。",
           "zh-CN": "强化幽冥冰棺，「沉默」效果增加为3回合。"
         },
         "equipment_rarity_flags": 256,
@@ -2824,6 +2860,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill46Description3]",
         "descriptions": {
+          "ja-JP": "アイスコフィンを強化する。クリティカル率の増加量が40%になる。",
           "zh-CN": "强化幽冥冰棺，暴击率增幅提升为40%。"
         },
         "equipment_rarity_flags": 512,
@@ -2844,6 +2881,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription460031]",
           "descriptions": {
+            "ja-JP": "大切な妹のためなら、どんな困難からでも守ってみせる。自身が生存している間味方全体の物理防御力を5%増加させる（解除不可）。",
             "zh-CN": "不管遇到什么困难，我都会保护心爱的妹妹。当露娜琳德存活在场上时，使全体友军增加5%物理防御力（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -2858,6 +2896,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription460032]",
           "descriptions": {
+            "ja-JP": "物理防御力の増加量が10%になる。",
             "zh-CN": "物理防御力增幅提升为10%。"
           },
           "equipment_rarity_flags": 0,
@@ -2872,6 +2911,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription460033]",
           "descriptions": {
+            "ja-JP": "物理防御力の増加量が20%になる。",
             "zh-CN": "物理防御力增幅提升为20%。"
           },
           "equipment_rarity_flags": 0,
@@ -2982,6 +3022,7 @@
       },
       "name_key": "[PassiveSkillName46003]",
       "names": {
+        "ja-JP": "姉妹の絆",
         "zh-CN": "姐妹情深"
       },
       "source_memo_ja": "【雪幻の魔女】\\nルナリンドSR: /Lv1　大切な妹のためなら、どんな困難からでも守ってみせる。自身が生存している間味方全体の物理防御力を5％増加させる（解除不可）。　/Lv2 物理防御力の増加量が10％になる。　/Lv3 物理防御力の増加量が20％になる。",
@@ -3009,6 +3050,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription460041]",
           "descriptions": {
+            "ja-JP": "痛みも、絶望も、何もかも。氷の中なら感じない。自身の被ダメージが25%減少する（解除不可）。",
             "zh-CN": "在寒冰中不会有任何感觉，无论是痛苦或绝望。使露娜琳德减少25%自身承受伤害（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -3023,6 +3065,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription460042]",
           "descriptions": {
+            "ja-JP": "さらに自身のHPドレインが25%増加する（解除不可）。",
             "zh-CN": "额外增加25%吸血（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -3037,6 +3080,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription460043]",
           "descriptions": {
+            "ja-JP": "被ダメージの減少量が40%になる。",
             "zh-CN": "承受伤害降幅提升为40%。"
           },
           "equipment_rarity_flags": 0,
@@ -3105,6 +3149,7 @@
       },
       "name_key": "[PassiveSkillName46004]",
       "names": {
+        "ja-JP": "凍てついた心",
         "zh-CN": "冰封之心"
       },
       "source_memo_ja": "【雪幻の魔女】\\nルナリンドSR: /Lv1　痛みも、絶望も、何もかも。氷の中なら感じない。自身の被ダメージが25％減少する（解除不可）。　/Lv2 さらに自身のHPドレインが25％増加する（解除不可）。　/Lv3 被ダメージの減少量が40％になる。",
@@ -3160,6 +3205,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

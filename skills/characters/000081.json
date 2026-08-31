@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription810011]",
           "descriptions": {
+            "ja-JP": "「我を崇めよ！」自称守り神の加護により、2ターンの間攻撃力が最も高い味方の命中率を20%増加させる。「歯向かう奴はこうじゃ！」その後ランダムな敵3体に攻撃力×280%の物理攻撃を行う。",
             "zh-CN": "“崇拜吾，敬畏吾罢！”自称为守护神的玉施以庇佑，使攻击力最高的友军增加20%命中率，效果持续2回合。“这便是与本仙作对的下场！”再随机对3名敌人造成攻击力×280%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription810012]",
           "descriptions": {
+            "ja-JP": "バトル中このスキルを発動するのが3回目以降の場合、命中率の増加量が80%になる。",
             "zh-CN": "战斗中自第3次发动此技能起，命中率增幅提升为80%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription810013]",
           "descriptions": {
+            "ja-JP": "『命中率増加』のターン数が4ターンになる。",
             "zh-CN": "「命中率上升」效果增加为4回合。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription810014]",
           "descriptions": {
+            "ja-JP": "妖狐燐火を強化する。『命中率増加』の対象が攻撃力が高い味方2体になる。",
             "zh-CN": "强化妖狐燐火，「命中率上升」的附加目标增加为攻击力最高的2名友军。"
           },
           "equipment_rarity_flags": 128,
@@ -122,6 +126,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName81001]",
       "names": {
+        "ja-JP": "妖狐燐火",
         "zh-CN": "妖狐燐火"
       },
       "source_memo_ja": "タマSR:Lv1 「我を崇めよ！」自称守り神の加護により、2ターンの間攻撃力が最も高い味方の命中率を20%増加させる。「歯向かう奴はこうじゃ！」その後ランダムな敵3体に攻撃力×280%の物理攻撃を行う。/ Lv2 バトル中このスキルを使うのが3回目以降の場合、命中率の増加量が80%になる。/ Lv3 『命中率増加』のターン数が4ターンになる。/ Ex1 妖狐燐火を強化する。『命中率増加』の対象が攻撃力が高い味方2体になる。",
@@ -155,6 +160,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription810021]",
           "descriptions": {
+            "ja-JP": "「悪名高きモノノケの底力、見せてくれよう！」妖術によって生まれた狐火が一斉に襲いかかる。攻撃力が最も高い敵に4回攻撃力×260%の物理攻撃を行う。",
             "zh-CN": "“让汝见识恶名昭彰的妖怪有多少能耐罢！”玉施展妖术，唤出数道狐火向敌人袭去，对攻击力最高的敌人进行4次攻击，每次造成攻击力×260%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -169,6 +175,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription810022]",
           "descriptions": {
+            "ja-JP": "さらに物理攻撃の前に4ターンの間対象の防御力と物理防御力をそれぞれ25%減少させる。",
             "zh-CN": "发动攻击前，使技能目标额外减少25%防御力与物理防御力，效果持续4回合。"
           },
           "equipment_rarity_flags": 0,
@@ -183,6 +190,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription810023]",
           "descriptions": {
+            "ja-JP": "防御力と物理防御力の減少量がそれぞれ50%になる。",
             "zh-CN": "防御力与物理防御力降幅提升为50%。"
           },
           "equipment_rarity_flags": 0,
@@ -197,6 +205,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription810024]",
           "descriptions": {
+            "ja-JP": "バトル中このスキルを発動するのが3回目以降の場合、物理攻撃のダメージが攻撃力×1040%になる。",
             "zh-CN": "战斗中自第3次发动此技能起，造成的物理伤害提升为攻击力×1040%。"
           },
           "equipment_rarity_flags": 0,
@@ -211,6 +220,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription810025]",
           "descriptions": {
+            "ja-JP": "狐火乱舞を強化する。物理攻撃のダメージが攻撃力×280%になる。バトル中このスキルを発動するのが3回目以降の場合、物理攻撃のダメージが攻撃力×1120%になる。",
             "zh-CN": "强化狐火乱舞。造成的物理伤害提升为攻击力×280%。战斗中自第3次发动此技能起，造成的物理伤害提升为攻击力×1120%。"
           },
           "equipment_rarity_flags": 512,
@@ -301,6 +311,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName81002]",
       "names": {
+        "ja-JP": "狐火乱舞",
         "zh-CN": "狐火乱舞"
       },
       "source_memo_ja": "タマSR:Lv1 「悪名高きモノノケの底力、見せてくれよう！」妖術によって生まれた狐火が一斉に襲いかかる。攻撃力が最も高い敵に4回攻撃力×260%の物理攻撃を行う。/ Lv2 さらに物理攻撃の前に4ターンの間対象の防御力と物理防御力をそれぞれ25%減少させる。/ Lv3 防御力と物理防御力の減少量がそれぞれ50%になる。/ Lv4 バトル中このスキルを使うのが3回目以降の場合、物理攻撃のダメージが攻撃力×1040%になる。/ Ex3 狐火乱舞を強化する。物理攻撃のダメージが攻撃力×280%になる。バトル中このスキルを使うのが3回目以降の場合、物理攻撃のダメージが攻撃力×1120%になる。",
@@ -767,6 +778,7 @@
       },
       "name_key": "[CharacterCollectionName56]",
       "names": {
+        "ja-JP": "ヴルペクラの悪戯​",
         "zh-CN": "狐狸座的恶作剧"
       },
       "required_character_ids": [
@@ -777,12 +789,14 @@
         {
           "id": 81,
           "names": {
+            "ja-JP": "タマ",
             "zh-CN": "玉"
           }
         },
         {
           "id": 35,
           "names": {
+            "ja-JP": "ミミ",
             "zh-CN": "咪咪"
           }
         }
@@ -852,12 +866,14 @@
     "memo": "タマ",
     "name_key": "[CharacterName81]",
     "names": {
+      "ja-JP": "タマ",
       "zh-CN": "玉"
     },
     "speed": 3286,
     "start_time_jst": "2024-09-30 15:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -931,6 +947,7 @@
     },
     "name_key": "[EquipmentName585]",
     "names": {
+      "ja-JP": "狐炎呪符",
       "zh-CN": "狐炎咒符"
     },
     "passive_effects": [
@@ -964,6 +981,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill81Description1]",
         "descriptions": {
+          "ja-JP": "妖狐燐火を強化する。『命中率増加』の対象が攻撃力が高い味方2体になる。",
           "zh-CN": "强化妖狐燐火，「命中率上升」的附加目标增加为攻击力最高的2名友军。"
         },
         "equipment_rarity_flags": 128,
@@ -972,6 +990,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill81Description2]",
         "descriptions": {
+          "ja-JP": "サイキョーの守り神を強化する。『シールド』の大きさがステータス増減前の対象の最大HP×80%になる。対象が黄属性の場合に得られる『シールド』の増加量が付与者自身の攻撃力×600%になる。",
           "zh-CN": "强化最强守护神，「护盾」值提升为状态效果生效前的附加目标最大生命值×80%。当附加目标为流金属性时，使「护盾」值额外提升玉攻击力×600%。"
         },
         "equipment_rarity_flags": 256,
@@ -980,6 +999,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill81Description3]",
         "descriptions": {
+          "ja-JP": "狐火乱舞を強化する。物理攻撃のダメージが攻撃力×280%になる。バトル中このスキルを発動するのが3回目以降の場合、物理攻撃のダメージが攻撃力×1120%になる。",
           "zh-CN": "强化狐火乱舞，造成的物理伤害提升为攻击力×280%。战斗中自第3次发动此技能起，造成的物理伤害提升为攻击力×1120%。"
         },
         "equipment_rarity_flags": 512,
@@ -1000,6 +1020,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription810031]",
           "descriptions": {
+            "ja-JP": "「ゆけ、子分ども！」ターン開始時攻撃力が最も高い味方に、4ターンの間ステータス増減前の対象の最大HP×30%の『シールド』と『チビタマ人形』3つを付与する。『チビタマ人形』は効果を持たないバフとして扱う。このスキルは発動後8回行動終了するまで再び発動しない。",
             "zh-CN": "“去罢，狐子狐孙们！”回合开始时，玉使攻击力最高的友军获得「护盾」与3个「小玉娃娃」，效果持续4回合。「护盾」值为状态效果生效前的附加目标最大生命值×30%。每个「小玉娃娃」视为1种不带任何效果的增益效果。此技能须在结束8次行动后才可再次触发。"
           },
           "equipment_rarity_flags": 0,
@@ -1014,6 +1035,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription810032]",
           "descriptions": {
+            "ja-JP": "さらに『シールド』を付与する対象が黄属性の場合、『シールド』の大きさが付与者自身の攻撃力×200%大きくなる。",
             "zh-CN": "当「护盾」的附加目标为流金属性时，使「护盾」值额外提升玉攻击力×200%。"
           },
           "equipment_rarity_flags": 0,
@@ -1028,6 +1050,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription810033]",
           "descriptions": {
+            "ja-JP": "『シールド』と『チビタマ人形』のターン数が8ターンになる。",
             "zh-CN": "「护盾」与「小玉娃娃」效果增加为8回合。"
           },
           "equipment_rarity_flags": 0,
@@ -1042,6 +1065,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription810034]",
           "descriptions": {
+            "ja-JP": "サイキョーの守り神を強化する。『シールド』の大きさがステータス増減前の対象の最大HP×80%になる。対象が黄属性の場合に得られる『シールド』の増加量が付与者自身の攻撃力×600%になる。",
             "zh-CN": "强化最强守护神，「护盾」值提升为状态效果生效前的附加目标最大生命值×80%。当附加目标为流金属性时，使「护盾」值额外提升玉攻击力×600%。"
           },
           "equipment_rarity_flags": 256,
@@ -1154,6 +1178,7 @@
       },
       "name_key": "[PassiveSkillName81003]",
       "names": {
+        "ja-JP": "サイキョーの守り神",
         "zh-CN": "最强守护神"
       },
       "source_memo_ja": "タマSR:Lv1 「ゆけ、子分ども！」ターン開始時攻撃力が最も高い味方に、4ターンの間ステータス増減前の対象の最大HP×30%の『シールド』と『チビタマ人形』3つを付与する。『チビタマ人形』は効果を持たないバフとして扱う。このスキルは発動後8回行動終了するまで再び発動しない。/ Lv2 さらに『シールド』を付与する対象が黄属性の場合、『シールド』の大きさが付与者自身の攻撃力×200%大きくなる。/ Lv3 『シールド』と『チビタマ人形』のターン数が8ターンになる。/ Ex2 サイキョーの守り神を強化する。『シールド』の大きさがステータス増減前の対象の最大HP×80%になる。対象が黄属性の場合に得られる『シールド』の増加量が付与者自身の攻撃力×600%になる。",
@@ -1185,6 +1210,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription810041]",
           "descriptions": {
+            "ja-JP": "「ケケッ、我が見つけられるかな？」自身が攻撃を受けて、HP割合が70%未満になり、味方の生存数が2体以上の場合、8ターンの間自身に『透明』を付与する（解除不可）。このスキルはバトル中1回のみ発動する。",
             "zh-CN": "“咯咯！汝可找得着本仙？”当玉受到攻击，生命值低于70%且存活在场上的友军数为2名以上时，获得「透明」状态，效果持续8回合（无法被解除）。此技能每场战斗最多触发1次。"
           },
           "equipment_rarity_flags": 0,
@@ -1199,6 +1225,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription810042]",
           "descriptions": {
+            "ja-JP": "『透明』のターン数が16ターンになる。",
             "zh-CN": "「透明」效果增加为16回合。"
           },
           "equipment_rarity_flags": 0,
@@ -1213,6 +1240,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription810043]",
           "descriptions": {
+            "ja-JP": "『透明』のターン数が32ターンになる。",
             "zh-CN": "「透明」效果增加为32回合。"
           },
           "equipment_rarity_flags": 0,
@@ -1281,6 +1309,7 @@
       },
       "name_key": "[PassiveSkillName81004]",
       "names": {
+        "ja-JP": "モノノケの悪戯",
         "zh-CN": "妖怪的恶作剧"
       },
       "source_memo_ja": "タマSR:Lv1 「ケケッ、我が見つけられるかな？」自身が攻撃を受けて、HP割合が70%未満になり、味方の生存数が2体以上の場合、8ターンの間自身に『透明』を付与する（解除不可）。このスキルはバトル中1回のみ発動する。/ Lv2 『透明』のターン数が16ターンになる。/ Lv3 『透明』のターン数が32ターンになる。",
@@ -1336,6 +1365,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

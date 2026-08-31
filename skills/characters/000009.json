@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription90011]",
           "descriptions": {
+            "ja-JP": "雷霆の如き重い一撃。現在HPが最も高い敵に攻撃力×400%の物理攻撃を行う。強敵を逃さないヴァイキングの闘争心により、対象のHP割合が60%以上の場合、この攻撃は必ずクリティカルヒットする。",
             "zh-CN": "雷霆万钧的强力一击。对当前生命值最高的敌人造成攻击力×400%的物理伤害。好战的维京人决不放过强敌，当技能目标的生命值为60%以上时，此攻击必定暴击。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription90012]",
           "descriptions": {
+            "ja-JP": "さらに自身の技力×250%の直接攻撃を行う（対象が戦闘不能になっている場合発動しない）。",
             "zh-CN": "追加索尼娅战技×250%的直接伤害（如果技能目标失去战斗能力，无法触发此攻击）。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription90013]",
           "descriptions": {
+            "ja-JP": "さらにこのスキルで敵を戦闘不能にできなかった場合、このスキルを再発動する（再発動は1回まで）。",
             "zh-CN": "如果技能目标仍然存活，索尼娅再次发动此技能（最多1次）。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription90014]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription90014]",
             "zh-CN": "[ActiveSkillDescription90014]"
           },
           "equipment_rarity_flags": 128,
@@ -64,6 +68,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription90015]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription90015]",
             "zh-CN": "[ActiveSkillDescription90015]"
           },
           "equipment_rarity_flags": 256,
@@ -75,6 +80,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription90016]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription90016]",
             "zh-CN": "[ActiveSkillDescription90016]"
           },
           "equipment_rarity_flags": 512,
@@ -170,6 +176,7 @@
       "max_cooldown": 3,
       "name_key": "[ActiveSkillName9001]",
       "names": {
+        "ja-JP": "アックスボンバー",
         "zh-CN": "斧爆弹"
       },
       "source_memo_ja": "ソーニャSR: /Lv1　雷霆の如き重い一撃。現在HPが最も高い敵に攻撃力×400%の物理攻撃を行う。強敵を逃さないヴァイキングの闘争心により、対象のHP割合が60%以上の場合、この攻撃は必ずクリティカルヒットする。　/Lv2 さらに自身の技力×250％の直接攻撃を行う。　/Lv3 さらにこのスキルで敵を戦闘不能にできなかった場合、このスキルを再発動する（再発動は1回まで）。　/専用1 アックスボンバーを強化する。ギルドバトル・グランドバトルで使用した場合、物理攻撃のダメージが攻撃力×540%になる。　/専用2 アックスボンバーを強化する。ギルドバトル・グランドバトルで使用した場合、物理攻撃のダメージが攻撃力×720%になる。　/専用3 アックスボンバーを強化する。直接攻撃のダメージが自身の技力×280%になる。",
@@ -199,6 +206,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription90021]",
           "descriptions": {
+            "ja-JP": "旋風の如き素早い急襲。現在HPが最も低い敵に攻撃力×400%の物理攻撃を行う。弱った敵にも容赦しないヴァイキングの本能により、対象のHP割合が60%以下の場合、この攻撃は必ずクリティカルヒットする。",
             "zh-CN": "风驰电掣的迅猛急袭。对当前生命值最低的敌人造成攻击力×400%的物理伤害。顺从本能的维京人对虚弱的敌人毫不留情，当技能目标的生命值为60%以下时，此攻击必定暴击。"
           },
           "equipment_rarity_flags": 0,
@@ -213,6 +221,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription90022]",
           "descriptions": {
+            "ja-JP": "さらに自身の技力×250%の直接攻撃を行う（対象が戦闘不能になっている場合発動しない）。",
             "zh-CN": "追加索尼娅战技×250%的直接伤害（如果技能目标失去战斗能力，无法触发此攻击）。"
           },
           "equipment_rarity_flags": 0,
@@ -227,6 +236,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription90023]",
           "descriptions": {
+            "ja-JP": "直接攻撃のダメージが自身の技力×280%になる。",
             "zh-CN": "造成的直接伤害提升为索尼娅战技×280%。"
           },
           "equipment_rarity_flags": 0,
@@ -241,6 +251,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription90024]",
           "descriptions": {
+            "ja-JP": "さらにこのスキルで敵を戦闘不能にした場合、このスキルを再発動する（再発動は1回まで）。",
             "zh-CN": "如果技能目标失去战斗能力，索尼娅再次发动此技能（最多1次）。"
           },
           "equipment_rarity_flags": 0,
@@ -311,6 +322,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName9002]",
       "names": {
+        "ja-JP": "ブラックストーム",
         "zh-CN": "黑旋风"
       },
       "source_memo_ja": "ソーニャSR: /Lv1　旋風の如き素早い急襲。現在HPが最も低い敵に攻撃力×400％の物理攻撃を行う。弱った敵にも容赦しないヴァイキングの本能により、対象のHP割合が60％以下の場合、この攻撃は必ずクリティカルヒットする。　/Lv2 さらに自身の技力×250％の直接攻撃を行う。　/Lv3 直接攻撃のダメージが自身の技力×280%になる。　/Lv4 さらにこのスキルで敵を戦闘不能にした場合、このスキルを再発動する（再発動は1回まで）。",
@@ -765,6 +777,7 @@
       },
       "name_key": "[CharacterCollectionName26]",
       "names": {
+        "ja-JP": "プロキオンの双牙",
         "zh-CN": "小白犬的双牙"
       },
       "required_character_ids": [
@@ -775,12 +788,14 @@
         {
           "id": 9,
           "names": {
+            "ja-JP": "ソーニャ",
             "zh-CN": "索尼娅"
           }
         },
         {
           "id": 5,
           "names": {
+            "ja-JP": "ソルティーナ",
             "zh-CN": "索尔缇娜"
           }
         }
@@ -850,12 +865,14 @@
     "memo": "ソーニャ",
     "name_key": "[CharacterName9]",
     "names": {
+      "ja-JP": "ソーニャ",
       "zh-CN": "索尼娅"
     },
     "speed": 3376,
     "start_time_jst": "2022-12-28 15:30:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -929,6 +946,7 @@
     },
     "name_key": "[EquipmentName225]",
     "names": {
+      "ja-JP": "ヴァイキングアックス",
       "zh-CN": "维京战斧"
     },
     "passive_effects": [
@@ -962,6 +980,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill9Description1]",
         "descriptions": {
+          "ja-JP": "アックスボンバーを強化する。ギルドバトル・グランドバトルで発動した場合、物理攻撃のダメージが攻撃力×540%になる。",
           "zh-CN": "强化斧爆弹，在公会战・跨服公会战中造成的物理伤害提升为攻击力×540%。"
         },
         "equipment_rarity_flags": 128,
@@ -970,6 +989,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill9Description2]",
         "descriptions": {
+          "ja-JP": "アックスボンバーを強化する。ギルドバトル・グランドバトルで発動した場合、物理攻撃のダメージが攻撃力×720%になる。",
           "zh-CN": "强化斧爆弹，在公会战・跨服公会战中造成的物理伤害提升为攻击力×720%。"
         },
         "equipment_rarity_flags": 256,
@@ -978,6 +998,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill9Description3]",
         "descriptions": {
+          "ja-JP": "アックスボンバーを強化する。直接攻撃のダメージが自身の技力×280%になる。",
           "zh-CN": "强化斧爆弹，造成的直接伤害提升为索尼娅战技×280%。"
         },
         "equipment_rarity_flags": 512,
@@ -998,6 +1019,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription90031]",
           "descriptions": {
+            "ja-JP": "大きな声で乾杯を叫び、元気が出るドリンクを飲み干す。自身の最大HPと命中率がそれぞれ20%増加する（解除不可）。",
             "zh-CN": "索尼娅大喊干杯，把补充精力的饮料一口喝光，使自己增加20%最大生命值与命中率（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1012,6 +1034,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription90032]",
           "descriptions": {
+            "ja-JP": "さらに自身の攻撃力が20%増加する（解除不可）。",
             "zh-CN": "额外增加20%攻击力（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1026,6 +1049,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription90033]",
           "descriptions": {
+            "ja-JP": "最大HPと攻撃力の増加量がそれぞれ30%、命中率の増加量が50%になる。",
             "zh-CN": "最大生命值与攻击力增幅提升为30%，命中率增幅提升为50%。"
           },
           "equipment_rarity_flags": 0,
@@ -1094,6 +1118,7 @@
       },
       "name_key": "[PassiveSkillName9003]",
       "names": {
+        "ja-JP": "スコール！",
         "zh-CN": "干杯！"
       },
       "source_memo_ja": "ソーニャSR: /Lv1　大きな声で乾杯を叫び、元気が出るドリンクを飲み干す。自身の最大HPと命中率が20％増加する（解除不可）。　/Lv2 さらに自身の攻撃力が20％増加する（解除不可）。　/Lv3 最大HPと攻撃力の増加量がそれぞれ30％になる。命中率の増加量が50％になる。",
@@ -1121,6 +1146,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription90041]",
           "descriptions": {
+            "ja-JP": "ヴァイキングの勝鬨を上げて、バトル開始時味方全体の攻撃力を2%増加させる（解除不可）。バトル開始時の自身以外の味方の生存数1体につき増加量が2%大きくなる。",
             "zh-CN": "索尼娅发出维京战吼，战斗开始时，使全体友军增加2%攻击力（无法被解除）。战斗开始时每名存活在场上的其他友军，再使攻击力增幅提升2%。"
           },
           "equipment_rarity_flags": 0,
@@ -1135,6 +1161,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription90042]",
           "descriptions": {
+            "ja-JP": "さらに味方全体の最大HPを2%増加させる（解除不可）。バトル開始時の自身以外の味方の生存数1体につき増加量が2%大きくなる。",
             "zh-CN": "使全体友军额外增加2%最大生命值（无法被解除）。战斗开始时每名存活在场上的其他友军，再使最大生命值增幅提升2%。"
           },
           "equipment_rarity_flags": 0,
@@ -1149,6 +1176,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription90043]",
           "descriptions": {
+            "ja-JP": "攻撃力と最大HPの増加量がそれぞれ3%になる。",
             "zh-CN": "攻击力与最大生命值增幅提升为3%。"
           },
           "equipment_rarity_flags": 0,
@@ -1238,6 +1266,7 @@
       },
       "name_key": "[PassiveSkillName9004]",
       "names": {
+        "ja-JP": "ヴァイキングパワー！",
         "zh-CN": "维京人的力量！"
       },
       "source_memo_ja": "ソーニャSR: /Lv1　ヴァイキングの勝鬨を上げて、バトル開始時味方全体の攻撃力を2％増加させる（解除不可）。バトル開始時の自身以外の味方の生存数1体につき増加量が2％大きくなる。　/Lv2 さらに味方全体の最大HPを2％増加させる（解除不可）。バトル開始時の自身以外の味方の生存数1体につき増加量が2％大きくなる。　/Lv3 攻撃力の増加量が3％、最大HPの増加量が3％になる。",
@@ -1293,6 +1322,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

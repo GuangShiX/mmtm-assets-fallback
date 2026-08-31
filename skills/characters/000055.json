@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription550011]",
           "descriptions": {
+            "ja-JP": "感情が爆発して滅茶苦茶に武器を振り回し、2ターンの間攻撃力が最も高い敵の回避率を30%減少させた後、対象に攻撃力×700%の物理攻撃を行う。その後80%の確率で対象に1ターンの間『気絶』を付与する。",
             "zh-CN": "情绪失控的蕾雅胡乱挥舞着武器，使攻击力最高的敌人减少30%闪避率，效果持续2回合，并对技能目标造成攻击力×700%的物理伤害。攻击结束后，80%概率对技能目标附加「晕厥」状态，效果持续1回合。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription550012]",
           "descriptions": {
+            "ja-JP": "さらに『気絶』付与の判定の後、対象が『気絶』を付帯していない場合、対象に攻撃力×900%の物理攻撃を行う（対象が戦闘不能になっている場合発動しない）。この攻撃は必ず命中する。",
             "zh-CN": "「晕厥」附加判定结束后，如果技能目标身上没有「晕厥」状态，蕾雅对技能目标追加攻击力×900%的物理伤害（如果技能目标失去战斗能力，无法触发此攻击）。此攻击必定命中。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription550013]",
           "descriptions": {
+            "ja-JP": "さらにこのスキルで敵を戦闘不能にできなかった場合、このスキルを再発動する（再発動は1回まで）。",
             "zh-CN": "如果技能目标仍然存活，蕾雅再次发动此技能（最多1次）。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription550014]",
           "descriptions": {
+            "ja-JP": "",
             "zh-CN": ""
           },
           "equipment_rarity_flags": 128,
@@ -67,6 +71,7 @@
           "character_level": 240,
           "description_key": "*",
           "descriptions": {
+            "ja-JP": null,
             "zh-CN": null
           },
           "equipment_rarity_flags": 512,
@@ -152,6 +157,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName55001]",
       "names": {
+        "ja-JP": "黙れ黙れ黙れぇっ！",
         "zh-CN": "闭嘴闭嘴闭嘴！"
       },
       "source_memo_ja": "レアSR:Lv1 癇癪を起して滅茶苦茶に武器を振り回し、2ターンの間攻撃力が最も高い敵の回避率を30％減少させた後、対象に攻撃力×700％の物理攻撃を行う。その後80％の確率で対象に1ターンの間『気絶』を付与する。/ Lv2 \\nさらに『気絶』付与の判定の後、対象が『気絶』を付帯していない場合、対象に攻撃力×900％の物理攻撃を行う。この攻撃は必ず命中する。ただし最初の攻撃で敵を戦闘不能にした場合、この攻撃は発動しない。/ Lv3 \\nさらにこのスキルで敵を戦闘不能にできなかった場合、このスキルを再発動する。/ Ex1 \\n黙れ黙れ黙れぇっ！を強化する。回避率の減少量が50％になる。/ Ex3 \\n黙れ黙れ黙れぇっ！を強化する。「回避率減少」のターン数が3ターンになる。",
@@ -189,6 +195,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription550021]",
           "descriptions": {
+            "ja-JP": "高ぶった感情は相手を仕留めるまでおさまらない。攻撃力が最も高い敵に攻撃力×800%の物理攻撃を行う。対象が『回避率減少』を付帯している場合、物理攻撃のダメージが1.5倍になる。",
             "zh-CN": "情绪激动的蕾雅不将对手置于死地不肯罢休，对攻击力最高的敌人造成攻击力×800%的物理伤害。当技能目标身上附带「闪避率下降」状态时，造成的物理伤害增加为1.5倍。"
           },
           "equipment_rarity_flags": 0,
@@ -203,6 +210,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription550022]",
           "descriptions": {
+            "ja-JP": "さらに対象が『回避率減少』を付帯していない場合、この攻撃は必ず命中する。",
             "zh-CN": "当技能目标身上没有「闪避率下降」状态时，此攻击必定命中。"
           },
           "equipment_rarity_flags": 0,
@@ -217,6 +225,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription550023]",
           "descriptions": {
+            "ja-JP": "さらに自身のHP割合が低くなるほど物理攻撃のダメージが大きくなる（最大攻撃力×1200%まで）。",
             "zh-CN": "蕾雅的生命值百分比越低，造成的物理伤害越高（最多攻击力×1200%）。"
           },
           "equipment_rarity_flags": 0,
@@ -231,6 +240,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription550024]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージの最大値が攻撃力×1600%になる。",
             "zh-CN": "造成的物理伤害上限提升为攻击力×1600%。"
           },
           "equipment_rarity_flags": 0,
@@ -245,6 +255,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription550025]",
           "descriptions": {
+            "ja-JP": "",
             "zh-CN": ""
           },
           "equipment_rarity_flags": 256,
@@ -320,6 +331,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName55002]",
       "names": {
+        "ja-JP": "見るな笑うなぁっ！",
         "zh-CN": "不准看我不准笑我！"
       },
       "source_memo_ja": "レアSR:Lv1 高ぶった感情は相手を仕留めるまでおさまらない。攻撃力が最も高い敵に攻撃力×800％の物理攻撃を行う。対象が『回避率減少』を付帯している場合、物理攻撃のダメージが1.5倍になる。/ Lv2 \\nさらに対象が『回避率減少』を付帯していない場合、この攻撃は必ず命中する。/ Lv3 \\nさらに自身のHPが少なくなるほど物理攻撃のダメージが大きくなる（最大で攻撃力×1200％まで）。/ Lv4 \\n物理攻撃のダメージの最大値が攻撃力×1600％になる。/ Ex2 \\n見るな笑うなぁっ！を強化する。物理攻撃のダメージの最大値が攻撃力×1800％になる。",
@@ -787,6 +799,7 @@
       },
       "name_key": "[CharacterCollectionName11]",
       "names": {
+        "ja-JP": "サーペンスの愛執",
         "zh-CN": "巨蛇座的依恋"
       },
       "required_character_ids": [
@@ -798,18 +811,21 @@
         {
           "id": 55,
           "names": {
+            "ja-JP": "レア",
             "zh-CN": "蕾雅"
           }
         },
         {
           "id": 17,
           "names": {
+            "ja-JP": "アモール",
             "zh-CN": "爱沐尔"
           }
         },
         {
           "id": 25,
           "names": {
+            "ja-JP": "アイビー",
             "zh-CN": "艾薇"
           }
         }
@@ -879,12 +895,14 @@
     "memo": "レア",
     "name_key": "[CharacterName55]",
     "names": {
+      "ja-JP": "レア",
       "zh-CN": "蕾雅"
     },
     "speed": 3571,
     "start_time_jst": "2023-03-31 15:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -959,6 +977,7 @@
     },
     "name_key": "[EquipmentName402]",
     "names": {
+      "ja-JP": "シリアルナイフ",
       "zh-CN": "连环杀机"
     },
     "passive_effects": [
@@ -992,6 +1011,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill55Description1]",
         "descriptions": {
+          "ja-JP": "黙れ黙れ黙れぇっ！を強化する。回避率の減少量が50%になる。",
           "zh-CN": "强化闭嘴闭嘴闭嘴！，闪避率降幅提升为50%。"
         },
         "equipment_rarity_flags": 128,
@@ -1000,6 +1020,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill55Description2]",
         "descriptions": {
+          "ja-JP": "見るな笑うなぁっ！を強化する。物理攻撃のダメージの最大値が攻撃力×1800%になる。",
           "zh-CN": "强化不准看我不准笑我！，造成的物理伤害上限提升为攻击力×1800%。"
         },
         "equipment_rarity_flags": 256,
@@ -1008,6 +1029,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill55Description3]",
         "descriptions": {
+          "ja-JP": "黙れ黙れ黙れぇっ！を強化する。『回避率減少』のターン数が3ターンになる。",
           "zh-CN": "强化闭嘴闭嘴闭嘴！，「闪避率下降」效果增加为3回合。"
         },
         "equipment_rarity_flags": 512,
@@ -1030,6 +1052,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription550031]",
           "descriptions": {
+            "ja-JP": "「や、や、やらなきゃ……！　こ、殺される前に……殺さなきゃ！」過剰な思い込みによって攻撃性が増し、自身の攻撃力が15%増加する（解除不可）。",
             "zh-CN": "“我、我、我必须先下手为强……！在、在对方杀了我之前……先杀了对方！”过多的臆测导致蕾雅充满攻击性，使她增加15%攻击力（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1044,6 +1067,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription550032]",
           "descriptions": {
+            "ja-JP": "さらに自身のクリダメ強化が15%増加する（解除不可）。",
             "zh-CN": "额外增加15%暴击伤害强化（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1058,6 +1082,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription550033]",
           "descriptions": {
+            "ja-JP": "攻撃力とクリダメ強化の増加量がそれぞれ35%になる。",
             "zh-CN": "攻击力与暴击伤害强化增幅提升为35%。"
           },
           "equipment_rarity_flags": 0,
@@ -1126,6 +1151,7 @@
       },
       "name_key": "[PassiveSkillName55003]",
       "names": {
+        "ja-JP": "精神錯乱",
         "zh-CN": "精神错乱"
       },
       "source_memo_ja": "レアSR:Lv1 「や、や、やらなきゃ……！　こ、殺される前に……殺さなきゃ！」過剰な思い込みによって攻撃性が増し、自身の攻撃力が15％増加する（解除不可）。/ Lv2 \\nさらに自身のクリティカルダメージが15％増加する（解除不可）。/ Lv3 \\n攻撃力とクリティカルダメージの増加量がそれぞれ35％になる。",
@@ -1153,6 +1179,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription550041]",
           "descriptions": {
+            "ja-JP": "「あの人笑ってる……き、きっと、私を笑ってるんだ……」周りの人には聞こえない笑い声に囚われ、人目を避けて生きてきた。バトル開始時自身に1ターンの間『ステルス』を付与する。",
             "zh-CN": "“那个人在笑……他、他一定是在笑我……”受困在旁人听不见的笑声中，蕾雅总是避开别人耳目过活。战斗开始时，蕾雅获得「隐身」状态，效果持续1回合。"
           },
           "equipment_rarity_flags": 0,
@@ -1167,6 +1194,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription550042]",
           "descriptions": {
+            "ja-JP": "『ステルス』のターン数が2ターンになる。",
             "zh-CN": "「隐身」效果增加为2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -1181,6 +1209,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription550043]",
           "descriptions": {
+            "ja-JP": "さらに自身が最大HPの25%を超えるダメージの攻撃を受けた場合、2ターンの間自身の被ダメージが15%減少する。このスキルは発動後4回行動終了するまで再び発動しない。",
             "zh-CN": "当蕾雅受到攻击，承受伤害超过最大生命值的25%时，额外减少15%自身承受伤害，效果持续2回合。此技能须在结束4次行动后才可再次触发。"
           },
           "equipment_rarity_flags": 0,
@@ -1253,6 +1282,7 @@
       },
       "name_key": "[PassiveSkillName55004]",
       "names": {
+        "ja-JP": "被害妄想",
         "zh-CN": "被害妄想"
       },
       "source_memo_ja": "レアSR:Lv1 「あの人笑ってる……き、きっと、私を笑ってるんだ……」周りの人には聞こえない笑い声に囚われ、人目を避けて生きてきた。バトル開始時自身に1ターンの間『ステルス』を付与する。/ Lv2 \\n『ステルス』のターン数が2ターンになる。/ Lv3\\nさらに自身が最大HPの25％を超えるダメージの攻撃を受けた場合、2ターンの間自身の被ダメージを15％減少させる。このスキルは4ターンに1回発動する。",
@@ -1304,6 +1334,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

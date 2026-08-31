@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription230011]",
           "descriptions": {
+            "ja-JP": "受け継いだ杖の力を解放して、ランダムな敵4体に攻撃力×290%の魔法攻撃を行う。封じられた古の魔法が相手の生命力を奪い、自身のHPをこのスキルの総与ダメージ×10%回復する。",
             "zh-CN": "罗莎莉从故主遗留的法杖中释放力量，随机对4名敌人造成攻击力×290%的魔法伤害。封印在法杖中的古老魔法夺取对手的生命力，使罗莎莉恢复技能总伤害×10%的生命值。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 61,
           "description_key": "[ActiveSkillDescription230012]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×320%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×320%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 121,
           "description_key": "[ActiveSkillDescription230013]",
           "descriptions": {
+            "ja-JP": "このスキルの対象がランダムな敵5体になる。",
             "zh-CN": "技能目标增加为5名随机敌人。"
           },
           "equipment_rarity_flags": 0,
@@ -97,6 +100,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName23001]",
       "names": {
+        "ja-JP": "ソウルレリック",
         "zh-CN": "殒落者之志"
       },
       "source_memo_ja": "ロザリーR: /Lv1　受け継いだ杖の力を解放して、ランダムな敵4体に攻撃力×290％の魔法攻撃を行う。封じられた古の魔法が相手の生命力を奪い、自身のHPをこのスキルの総与ダメージ×10%回復する。　/Lv2 魔法攻撃のダメージが攻撃力×320%になる。　/Lv3 このスキルの対象がランダムな敵5体になる。",
@@ -126,6 +130,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription230021]",
           "descriptions": {
+            "ja-JP": "ロザリーに宿る主の力が覚醒し、ランダムな敵2体に攻撃力×420%の魔法攻撃を行う。さらにロザリーを護ろうとする思いによって、自身に1ターンの間『ダメージ無効』を付与する。",
             "zh-CN": "故主遗留在罗莎莉身上的力量觉醒，随机对2名敌人造成攻击力×420%的魔法伤害。想要守护罗莎莉的心意化作力量，使罗莎莉获得「伤害免疫」，效果持续1回合。"
           },
           "equipment_rarity_flags": 0,
@@ -140,6 +145,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription230022]",
           "descriptions": {
+            "ja-JP": "さらに60%の確率で2ターンの間『出血』を付与する。毎ターン行動開始時に自身の攻撃力×10%のダメージを与える。",
             "zh-CN": "60%概率额外附加「流血」状态，效果持续2回合，每回合行动开始时造成罗莎莉攻击力×10%的伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -154,6 +160,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription230023]",
           "descriptions": {
+            "ja-JP": "魔法攻撃の対象がランダムな敵3体になる。",
             "zh-CN": "攻击目标增加为3名随机敌人。"
           },
           "equipment_rarity_flags": 0,
@@ -168,6 +175,7 @@
           "character_level": 141,
           "description_key": "[ActiveSkillDescription230024]",
           "descriptions": {
+            "ja-JP": "『ダメージ無効』のターン数が2ターンになる。",
             "zh-CN": "「伤害免疫」效果增加为2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -237,6 +245,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName23002]",
       "names": {
+        "ja-JP": "ソウルメモリー",
         "zh-CN": "殒落者之思"
       },
       "source_memo_ja": "ロザリーR: /Lv1　ロザリーに宿る主の力が覚醒し、ランダムな敵2体に攻撃力×420%の魔法攻撃を行う。さらにロザリーを護ろうとする思いによって、自身に1ターンの間『ダメージ無効』を付与する。　/Lv2 さらに60％の確率で2ターンの間『出血』を付与する。毎ターン行動開始時に自身の攻撃力×10%のダメージを与える。　/Lv3 魔法攻撃の対象がランダムな敵3体になる。　/Lv4 『ダメージ無効』のターン数が2ターンになる。",
@@ -340,6 +349,7 @@
       },
       "name_key": "[CharacterCollectionName71]",
       "names": {
+        "ja-JP": "ミンタカの開花",
         "zh-CN": "腰带星的绽放"
       },
       "required_character_ids": [
@@ -352,24 +362,28 @@
         {
           "id": 3,
           "names": {
+            "ja-JP": "アイリス",
             "zh-CN": "艾莉丝"
           }
         },
         {
           "id": 13,
           "names": {
+            "ja-JP": "テオドラ",
             "zh-CN": "狄奥多拉"
           }
         },
         {
           "id": 23,
           "names": {
+            "ja-JP": "ロザリー",
             "zh-CN": "罗莎莉"
           }
         },
         {
           "id": 33,
           "names": {
+            "ja-JP": "チェルナ",
             "zh-CN": "切尔娜"
           }
         }
@@ -438,12 +452,14 @@
     "memo": "ロザリー",
     "name_key": "[CharacterName23]",
     "names": {
+      "ja-JP": "ロザリー",
       "zh-CN": "罗莎莉"
     },
     "speed": 2800,
     "start_time_jst": "2020-01-01 00:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -461,6 +477,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription230031]",
           "descriptions": {
+            "ja-JP": "亡き主より受け継いだ命によって、バトル開始時自身に『再生』を付与する（解除不可）。毎ターン行動開始時に自身のHPを自身の最大HP×5%回復する。",
             "zh-CN": "从已逝故主身上承袭的生命，使罗莎莉在战斗开始时获得「再生」状态，每回合行动开始时恢复5%最大生命值（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -475,6 +492,7 @@
           "character_level": 101,
           "description_key": "[PassiveSkillDescription230032]",
           "descriptions": {
+            "ja-JP": "『再生』での回復量が自身の最大HP×10%になる。",
             "zh-CN": "「再生」的恢复量提升为10%最大生命值。"
           },
           "equipment_rarity_flags": 0,
@@ -527,6 +545,7 @@
       },
       "name_key": "[PassiveSkillName23003]",
       "names": {
+        "ja-JP": "繋がれた命",
         "zh-CN": "不朽之命"
       },
       "source_memo_ja": "ロザリーR: /Lv1　亡き主より受け継いだ命によって、バトル開始時自身に『再生』を付与する（解除不可）。毎ターン行動開始時に自身のHPを自身の最大HP×5％回復する。　/Lv2 『再生』での回復量が自身の最大HP×10％になる。",
@@ -578,6 +597,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

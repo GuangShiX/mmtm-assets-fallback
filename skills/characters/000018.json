@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription180011]",
           "descriptions": {
+            "ja-JP": "紅く輝く刃で、ランダムな敵に3回攻撃力×400%の物理攻撃を行う。クリティカルヒットした場合、1ターンの間自身の攻撃力が30%増加する。クリティカルヒットするたび攻撃力増加のターン数が1ターン多くなる。",
             "zh-CN": "琳恩以耀眼的火红剑刃随机对敌人进行3次攻击，每次造成攻击力×400%的物理伤害。当技能暴击时，使自己增加30%攻击力，效果持续1回合。每次暴击使攻击力增幅效果增加1回合。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription180012]",
           "descriptions": {
+            "ja-JP": "物理攻撃の回数が4回になる。",
             "zh-CN": "攻击次数增加为4次。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription180013]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×460%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×460%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription180014]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription180014]",
             "zh-CN": "[ActiveSkillDescription180014]"
           },
           "equipment_rarity_flags": 128,
@@ -64,6 +68,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription180015]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription180015]",
             "zh-CN": "[ActiveSkillDescription180015]"
           },
           "equipment_rarity_flags": 256,
@@ -75,6 +80,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription180016]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription180016]",
             "zh-CN": "[ActiveSkillDescription180016]"
           },
           "equipment_rarity_flags": 512,
@@ -184,6 +190,7 @@
       "max_cooldown": 5,
       "name_key": "[ActiveSkillName18001]",
       "names": {
+        "ja-JP": "クリムゾンスラッシュ",
         "zh-CN": "红莲斩击"
       },
       "source_memo_ja": "リーンSR: /Lv1　紅く輝く刃で、ランダムな敵に3回攻撃力×400％の物理攻撃を行う。クリティカルヒットした場合、1ターンの間自身の攻撃力が30％増加する。クリティカルヒットするたび攻撃力増加のターン数が1ターン多くなる。　/Lv2 物理攻撃の回数が4回になる。　/Lv3 物理攻撃のダメージが攻撃力×460%になる。　/専用1 クリムゾンスラッシュを強化する。攻撃力の増加量が50％になる。　/専用2 クリムゾンスラッシュを強化する。物理攻撃の回数が6回になる。　/専用3 クリムゾンスラッシュを強化する。物理攻撃のダメージが攻撃力×515%になる。",
@@ -213,6 +220,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription180021]",
           "descriptions": {
+            "ja-JP": "勇気を刃の煌めきに変え、ランダムな敵4体に攻撃力×350%の物理攻撃を行う。このスキルで敵を戦闘不能にした場合、HP割合が最も低い敵に攻撃力×480%の物理攻撃を行う。このスキルで敵を戦闘不能にするたび追加攻撃の攻撃回数が1回多くなる（追加攻撃は最大4回まで）。",
             "zh-CN": "勇气化作剑光，随机对4名敌人造成攻击力×350%的物理伤害。如果技能目标失去战斗能力，琳恩再对生命值百分比最低的敌人追加攻击力×480%的物理伤害。每使1名技能目标失去战斗能力，追加伤害的攻击次数增加1次（最多4次）。"
           },
           "equipment_rarity_flags": 0,
@@ -227,6 +235,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription180022]",
           "descriptions": {
+            "ja-JP": "さらに自身のHPをこのスキルの総与ダメージ×50%回復する。",
             "zh-CN": "额外恢复技能总伤害×50%的生命值。"
           },
           "equipment_rarity_flags": 0,
@@ -241,6 +250,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription180023]",
           "descriptions": {
+            "ja-JP": "このスキルの対象がランダムな敵5体になる。",
             "zh-CN": "技能目标增加为5名随机敌人。"
           },
           "equipment_rarity_flags": 0,
@@ -255,6 +265,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription180024]",
           "descriptions": {
+            "ja-JP": "最初の物理攻撃のダメージが攻撃力×550%になる。",
             "zh-CN": "第一波攻击造成的物理伤害提升为攻击力×550%。"
           },
           "equipment_rarity_flags": 0,
@@ -339,6 +350,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName18002]",
       "names": {
+        "ja-JP": "シャイニングブレイド",
         "zh-CN": "光明之刃"
       },
       "source_memo_ja": "リーンSR: /Lv1　勇気を刃の煌めきに変え、ランダムな敵4体に攻撃力×350%の物理攻撃を行う。このスキルで敵を戦闘不能にした場合、HP割合が最も低い敵に攻撃力×480%の物理攻撃を行う。このスキルで敵を戦闘不能にするたび追加攻撃の攻撃回数が1回多くなる。　/Lv2 さらに自身のHPをこのスキルの総与ダメージ×50％回復する。　/Lv3 このスキルの対象がランダムな敵5体になる。　/Lv4 最初の物理攻撃のダメージが攻撃力×550%になる。",
@@ -794,6 +806,7 @@
       },
       "name_key": "[CharacterCollectionName3]",
       "names": {
+        "ja-JP": "ジェミニの庇翼",
         "zh-CN": "双子座的庇翼"
       },
       "required_character_ids": [
@@ -805,18 +818,21 @@
         {
           "id": 16,
           "names": {
+            "ja-JP": "フレイシア",
             "zh-CN": "小苍兰"
           }
         },
         {
           "id": 18,
           "names": {
+            "ja-JP": "リーン",
             "zh-CN": "琳恩"
           }
         },
         {
           "id": 20,
           "names": {
+            "ja-JP": "ディアン",
             "zh-CN": "黛安"
           }
         }
@@ -1262,6 +1278,7 @@
       },
       "name_key": "[CharacterCollectionName16]",
       "names": {
+        "ja-JP": "アルゴルの武勇",
         "zh-CN": "斩魔者的勇猛"
       },
       "required_character_ids": [
@@ -1272,12 +1289,14 @@
         {
           "id": 30,
           "names": {
+            "ja-JP": "ルーク",
             "zh-CN": "光士"
           }
         },
         {
           "id": 18,
           "names": {
+            "ja-JP": "リーン",
             "zh-CN": "琳恩"
           }
         }
@@ -1723,6 +1742,7 @@
       },
       "name_key": "[CharacterCollectionName28]",
       "names": {
+        "ja-JP": "コロナボレアリスの約束",
         "zh-CN": "北冕座的约定"
       },
       "required_character_ids": [
@@ -1733,12 +1753,14 @@
         {
           "id": 62,
           "names": {
+            "ja-JP": "プリシラ",
             "zh-CN": "普莉希拉"
           }
         },
         {
           "id": 18,
           "names": {
+            "ja-JP": "リーン",
             "zh-CN": "琳恩"
           }
         }
@@ -1808,12 +1830,14 @@
     "memo": "リーン",
     "name_key": "[CharacterName18]",
     "names": {
+      "ja-JP": "リーン",
       "zh-CN": "琳恩"
     },
     "speed": 2813,
     "start_time_jst": "2020-01-01 00:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -1887,6 +1911,7 @@
     },
     "name_key": "[EquipmentName255]",
     "names": {
+      "ja-JP": "約束の紅刃",
       "zh-CN": "约定的红莲之刃"
     },
     "passive_effects": [
@@ -1920,6 +1945,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill18Description1]",
         "descriptions": {
+          "ja-JP": "クリムゾンスラッシュを強化する。攻撃力の増加量が50%になる。",
           "zh-CN": "强化红莲斩击，攻击力增幅提升为50%。"
         },
         "equipment_rarity_flags": 128,
@@ -1928,6 +1954,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill18Description2]",
         "descriptions": {
+          "ja-JP": "クリムゾンスラッシュを強化する。物理攻撃の回数が6回になる。",
           "zh-CN": "强化红莲斩击，攻击次数增加为6次。"
         },
         "equipment_rarity_flags": 256,
@@ -1936,6 +1963,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill18Description3]",
         "descriptions": {
+          "ja-JP": "クリムゾンスラッシュを強化する。物理攻撃のダメージが攻撃力×515%になる。",
           "zh-CN": "强化红莲斩击，造成的物理伤害提升为攻击力×515%。"
         },
         "equipment_rarity_flags": 512,
@@ -1956,6 +1984,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription180031]",
           "descriptions": {
+            "ja-JP": "大切な人との誓いを思い出し、1ターン目のターン開始時自身に3ターンの間自身の攻撃力×250%の『シールド』を付与する（解除不可）。",
             "zh-CN": "琳恩回想起她与挚友的约定，第1回合开始时，获得攻击力×250%的「护盾」，效果持续3回合（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1970,6 +1999,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription180032]",
           "descriptions": {
+            "ja-JP": "『シールド』のターン数が4ターンになる。",
             "zh-CN": "「护盾」效果增加为4回合。"
           },
           "equipment_rarity_flags": 0,
@@ -1984,6 +2014,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription180033]",
           "descriptions": {
+            "ja-JP": "『シールド』の大きさが自身の攻撃力×500%になる。",
             "zh-CN": "「护盾」值提升为攻击力×500%。"
           },
           "equipment_rarity_flags": 0,
@@ -2052,6 +2083,7 @@
       },
       "name_key": "[PassiveSkillName18003]",
       "names": {
+        "ja-JP": "あの日の誓い",
         "zh-CN": "往日的誓言"
       },
       "source_memo_ja": "リーンSR: /Lv1　大切な人との誓いを思い出し、バトル開始時自身に3ターンの間自身の攻撃力×250％の『シールド』を付与する（解除不可）。　/Lv2 『シールド』のターン数が4ターンになる。　/Lv3 『シールド』の大きさが自身の攻撃力×500％になる。",
@@ -2079,6 +2111,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription180041]",
           "descriptions": {
+            "ja-JP": "いかなる困難も乗り越えてみせるという決意により、毎ターン開始時もしくは自身が攻撃を受けたとき、自身のHP割合が50%未満の場合、自身のクリティカル率が30%増加する（解除不可）。",
             "zh-CN": "琳恩决心要跨越所有困难，在每回合开始时或受到攻击后，如果琳恩的生命值低于50%，使自己增加30%暴击率（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -2093,6 +2126,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription180042]",
           "descriptions": {
+            "ja-JP": "クリティカル率の増加量が40%になる。",
             "zh-CN": "暴击率增幅提升为40%。"
           },
           "equipment_rarity_flags": 0,
@@ -2107,6 +2141,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription180043]",
           "descriptions": {
+            "ja-JP": "クリティカル率の増加量が60%になる。",
             "zh-CN": "暴击率增幅提升为60%。"
           },
           "equipment_rarity_flags": 0,
@@ -2280,6 +2315,7 @@
       },
       "name_key": "[PassiveSkillName18004]",
       "names": {
+        "ja-JP": "不屈の決意",
         "zh-CN": "不屈不挠的决心"
       },
       "source_memo_ja": "リーンSR: /Lv1　いかなる困難も乗り越えてみせるという決意により、毎ターン開始時、もしくは自身が攻撃を受けたとき、自身のHP割合が50％未満の場合、自身のクリティカル率が30％増加する（解除不可）。　/Lv2 クリティカル率の増加量が40％になる。　/Lv3 クリティカル率の増加量が60％になる。",
@@ -2335,6 +2371,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

@@ -2,7 +2,8 @@
   "game": "MementoMori",
   "index_url": "https://raw.githubusercontent.com/GuangShiX/mmtm-assets-fallback/main/skills/index.json",
   "languages": [
-    "zh-CN"
+    "zh-CN",
+    "ja-JP"
   ],
   "latest_characters": [
     {
@@ -11,13 +12,15 @@
       "localization_complete": false,
       "memo": "黄昏フォルティナ",
       "names": {
+        "ja-JP": "フォルティナ",
         "zh-CN": "福尔蒂娜"
       },
       "path": "skills/characters/000151.json",
-      "sha256": "3f4baeee5610baf1b5b4b5233094fd88501641c8b07898ba8d1981da8cdf4fac",
-      "size": 52116,
+      "sha256": "f78a0d4ffa525b3a0aaaeeb926108dbd5fbe271846eda15a5e559ff7a6c586a6",
+      "size": 56297,
       "start_time_jst": "2026-08-31 15:00:00",
       "subtitles": {
+        "ja-JP": "黄昏の約束",
         "zh-CN": "黄昏之约"
       },
       "url": "https://raw.githubusercontent.com/GuangShiX/mmtm-assets-fallback/main/skills/characters/000151.json"
@@ -62,6 +65,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

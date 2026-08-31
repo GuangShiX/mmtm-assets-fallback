@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription1090011]",
           "descriptions": {
+            "ja-JP": "「お姉さんに任せて！」使い古した愛用の銃で、ランダムな敵4体に攻撃力×180%の物理攻撃を行う。",
             "zh-CN": "“包在姐姐身上！”厄瑞涅举起惯用的古董爱枪，随机对4名敌人造成攻击力×180%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription1090012]",
           "descriptions": {
+            "ja-JP": "さらに物理攻撃の前に4ターンの間対象の防御力を25%減少させる。オートバトル・ボスバトルで発動した場合、『防御力減少』が解除不可になる。無窮の塔で発動した場合、防御力の減少量が50%になる。",
             "zh-CN": "发动攻击前使技能目标额外减少25%防御力，效果持续4回合。在自动战斗・挑战首领中的「防御力下降」效果无法被解除。在无穷之塔中的防御力降幅提升为50%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1090013]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×260%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×260%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1090014]",
           "descriptions": {
+            "ja-JP": "アンティークショットを強化する。アンティークショットの対象がランダムな敵5体になる。",
             "zh-CN": "强化古典枪炮射击术，技能目标增加为5名随机敌人。"
           },
           "equipment_rarity_flags": 128,
@@ -67,6 +71,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription1090015]",
           "descriptions": {
+            "ja-JP": "アンティークショットを強化する。物理攻撃のダメージが攻撃力×280%になる。",
             "zh-CN": "强化古典枪炮射击术，造成的物理伤害提升为攻击力×280%。"
           },
           "equipment_rarity_flags": 512,
@@ -142,6 +147,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName109001]",
       "names": {
+        "ja-JP": "アンティークショット",
         "zh-CN": "古典枪炮射击术"
       },
       "source_memo_ja": "アイリーンSR:Lv1 「お姉さんに任せて！」使い古した愛用の銃で、ランダムな敵4体に攻撃力×180%の物理攻撃を行う。/ Lv2 さらに物理攻撃の前に4ターンの間対象の防御力を25%減少させる。オートバトル・ボスバトルで使用した場合、『防御力減少』が解除不可になる。無窮の塔で使用した場合、防御力の減少量が50%になる。/ Lv3 物理攻撃のダメージが攻撃力×260%になる。/ Ex1 アンティークショットを強化する。アンティークショットの対象がランダムな敵5体になる。/ Ex3 アンティークショットを強化する。物理攻撃のダメージが攻撃力×280%になる。",
@@ -179,6 +185,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription1090021]",
           "descriptions": {
+            "ja-JP": "「カッコいいところ見せないとね！」願いを込めて引き金を引けば、銃弾は天を貫く星に変わる。ランダムな敵に4回攻撃力×280%の物理攻撃を行う。バトル中このスキルを発動するのが3回目以降の場合、アストルムの代わりにアストルム・ナタリスを発動する。[アストルム・ナタリス]攻撃力が最も高い敵に6回攻撃力×560%の物理攻撃を行う。",
             "zh-CN": "“让你们见识一下姐姐的英姿！”厄瑞涅扣下扳机，满载希望与愿景的子弹化为闪亮的星星划破天际，随机对敌人进行4次攻击，每次造成攻击力×280%的物理伤害。战斗中自第3次发动此技能起，改为发动技能新星之火。［新星之火］对攻击力最高的敌人进行6次攻击，每次造成攻击力×560%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -193,6 +200,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription1090022]",
           "descriptions": {
+            "ja-JP": "アストルム・ナタリスを強化する。さらに最初の物理攻撃の前に1ターンの間自身の命中率が50%増加するようになる。",
             "zh-CN": "强化新星之火，发动攻击前使厄瑞涅额外增加50%命中率，效果持续1回合。"
           },
           "equipment_rarity_flags": 0,
@@ -207,6 +215,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription1090023]",
           "descriptions": {
+            "ja-JP": "アストルム・ナタリスを強化する。物理攻撃の回数が8回になる。",
             "zh-CN": "强化新星之火，攻击次数增加为8次。"
           },
           "equipment_rarity_flags": 0,
@@ -221,6 +230,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription1090024]",
           "descriptions": {
+            "ja-JP": "アストルムの物理攻撃のダメージが攻撃力×380%になり、アストルム・ナタリスの物理攻撃のダメージが攻撃力×760%になる。",
             "zh-CN": "星火造成的物理伤害提升为攻击力×380%，新星之火造成的物理伤害提升为攻击力×760%。"
           },
           "equipment_rarity_flags": 0,
@@ -298,6 +308,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName109002]",
       "names": {
+        "ja-JP": "アストルム",
         "zh-CN": "星火"
       },
       "source_memo_ja": "アイリーンSR:Lv1 「カッコいいところ見せないとね！」願いを込めて引き金を引けば、銃弾は天を貫く星に変わる。ランダムな敵に4回攻撃力×280%の物理攻撃を行う。バトル中このスキルを使うのが3回目以降の場合、アストルムの代わりにアストルム・ナタリスを発動する。[アストルム・ナタリス]攻撃力が最も高い敵に6回攻撃力×560%の物理攻撃を行う。/ Lv2 アストルム・ナタリスを強化する。さらに最初の物理攻撃の前に1ターンの間自身の命中率が50%増加するようになる。/ Lv3 アストルム・ナタリスを強化する。物理攻撃の回数が8回になる。/ Lv4 アストルムの物理攻撃のダメージが攻撃力×380%になり、アストルム・ナタリスの物理攻撃のダメージが攻撃力×760%になる。",
@@ -760,6 +771,7 @@
       },
       "name_key": "[CharacterCollectionName64]",
       "names": {
+        "ja-JP": "セクスタンスの指南",
         "zh-CN": "六分仪座的指南"
       },
       "required_character_ids": [
@@ -770,12 +782,14 @@
         {
           "id": 109,
           "names": {
+            "ja-JP": "アイリーン",
             "zh-CN": "厄瑞涅"
           }
         },
         {
           "id": 2,
           "names": {
+            "ja-JP": "イリア",
             "zh-CN": "伊利亚"
           }
         }
@@ -1213,6 +1227,7 @@
       },
       "name_key": "[CharacterCollectionName78]",
       "names": {
+        "ja-JP": "ジラファの虚像",
         "zh-CN": "鹿豹座的虚像"
       },
       "required_character_ids": [
@@ -1223,12 +1238,14 @@
         {
           "id": 125,
           "names": {
+            "ja-JP": "カーミラ",
             "zh-CN": "卡蜜拉"
           }
         },
         {
           "id": 109,
           "names": {
+            "ja-JP": "アイリーン",
             "zh-CN": "厄瑞涅"
           }
         }
@@ -1299,12 +1316,14 @@
     "memo": "アイリーン",
     "name_key": "[CharacterName109]",
     "names": {
+      "ja-JP": "アイリーン",
       "zh-CN": "厄瑞涅"
     },
     "speed": 3148,
     "start_time_jst": "2024-12-25 15:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -1379,6 +1398,7 @@
     },
     "name_key": "[EquipmentName753]",
     "names": {
+      "ja-JP": "カルーセルケイン",
       "zh-CN": "转轮手杖枪"
     },
     "passive_effects": [
@@ -1412,6 +1432,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill109Description1]",
         "descriptions": {
+          "ja-JP": "アンティークショットを強化する。アンティークショットの対象がランダムな敵5体になる。",
           "zh-CN": "强化古典枪炮射击术，技能目标增加为5名随机敌人。"
         },
         "equipment_rarity_flags": 128,
@@ -1420,6 +1441,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill109Description2]",
         "descriptions": {
+          "ja-JP": "頑張る姿を応援するよを強化する。『結界』のダメージの遮断量が45%になる。",
           "zh-CN": "强化姐姐为你加油～，「结界」的伤害阻绝量提升为45%。"
         },
         "equipment_rarity_flags": 256,
@@ -1428,6 +1450,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill109Description3]",
         "descriptions": {
+          "ja-JP": "アンティークショットを強化する。物理攻撃のダメージが攻撃力×280%になる。",
           "zh-CN": "强化古典枪炮射击术，造成的物理伤害提升为攻击力×280%。"
         },
         "equipment_rarity_flags": 512,
@@ -1450,6 +1473,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription1090031]",
           "descriptions": {
+            "ja-JP": "愛する教え子たちを守るための、運命を変える力が欲しい。その願いは、最も望まない形で叶えられた。ターン開始時3ターンの間自身の通常攻撃を強化する。通常攻撃時、付帯者自身のスキルクールタイムカウントが1減少し、付帯者自身の弱体効果を1つ解除する。その後付帯者自身の『通常攻撃強化』を解除する。このスキルは発動後3回行動終了するまで再び発動しない。",
             "zh-CN": "为了保护心爱的学生，厄瑞涅祈求上天赐给她改变命运的力量。这个愿望，却以她最不希望的形式实现了。回合开始时，厄瑞涅强化自己的普通攻击，效果持续3回合，普攻时使自己减少技能冷却时间1，并解除自己身上附带的1种弱化效果。普攻结束后，解除自己身上附带的「普攻强化」状态。此技能须在结束3次行动后才可再次触发。"
           },
           "equipment_rarity_flags": 0,
@@ -1464,6 +1488,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription1090032]",
           "descriptions": {
+            "ja-JP": "強化された通常攻撃時の弱体効果の解除数が2つになる。",
             "zh-CN": "「普攻强化」解除的弱化效果增加为2种。"
           },
           "equipment_rarity_flags": 0,
@@ -1478,6 +1503,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription1090033]",
           "descriptions": {
+            "ja-JP": "『通常攻撃強化』の対象が自身と自身以外のスピードが最も低い味方になる。",
             "zh-CN": "「普攻强化」的附加目标增加为厄瑞涅与速度最低的其他友军。"
           },
           "equipment_rarity_flags": 0,
@@ -1560,6 +1586,7 @@
       },
       "name_key": "[PassiveSkillName109003]",
       "names": {
+        "ja-JP": "暗き夜の契約",
         "zh-CN": "暗夜契约"
       },
       "source_memo_ja": "アイリーンSR:Lv1 愛する教え子たちを守るための、運命を変える力が欲しい。その願いは、最も望まない形で叶えられた。ターン開始時3ターンの間自身の通常攻撃を強化する。通常攻撃時、付帯者自身のスキルクールタイムが1減少し、付帯者自身の弱体効果を1つ解除する。その後付帯者自身の『通常攻撃強化』を解除する。このスキルは発動後3回行動終了するまで再び発動しない。/ Lv2 強化された通常攻撃時の弱体効果解除量が2つになる。/ Lv3 『通常攻撃強化』の対象が自身と自身以外のスピードが最も低い味方になる。",
@@ -1587,6 +1614,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription1090041]",
           "descriptions": {
+            "ja-JP": "私はみんなの頑張る姿が大好きなんだっ！自身が攻撃を受けたとき、ダメージを30%遮断する。",
             "zh-CN": "“大家努力的样子最迷人了！”当厄瑞涅受到攻击时，阻绝30%伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -1601,6 +1629,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription1090042]",
           "descriptions": {
+            "ja-JP": "さらにターン開始時自身以外のスピードが最も低い味方に4ターンの間『結界』を付与する（解除不可）。このバフの付帯者が攻撃を受けたとき、ダメージを30%遮断する。『結界』を付与する効果は発動後4回行動終了するまで再び発動しない。",
             "zh-CN": "回合开始时，厄瑞涅使速度最低的其他友军额外获得「结界」，效果持续4回合（无法被解除）。当此增益效果的附带者受到攻击时，阻绝30%伤害。「结界」附加效果须在结束4次行动后才可再次触发。"
           },
           "equipment_rarity_flags": 0,
@@ -1615,6 +1644,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription1090043]",
           "descriptions": {
+            "ja-JP": "自身が攻撃を受けたときのダメージの遮断量が70%になる。",
             "zh-CN": "厄瑞涅受到攻击时的伤害阻绝量提升为70%。"
           },
           "equipment_rarity_flags": 0,
@@ -1629,6 +1659,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription1090044]",
           "descriptions": {
+            "ja-JP": "頑張る姿を応援するよを強化する。『結界』のダメージの遮断量が45%になる。",
             "zh-CN": "强化姐姐为你加油～，「结界」的伤害阻绝量提升为45%。"
           },
           "equipment_rarity_flags": 256,
@@ -1755,6 +1786,7 @@
       },
       "name_key": "[PassiveSkillName109004]",
       "names": {
+        "ja-JP": "頑張る姿を応援するよ",
         "zh-CN": "姐姐为你加油～"
       },
       "source_memo_ja": "アイリーンSR:Lv1 私はみんなの頑張る姿が大好きなんだっ！自身が攻撃を受けたとき、ダメージを30%遮断する。/ Lv2 さらにターン開始時自身以外のスピードが最も低い味方に4ターンの間『結界』を付与する（解除不可）。このバフの付帯者が攻撃を受けたとき、ダメージを30%遮断する。『結界』を付与する効果は発動後4回行動終了するまで再び発動しない。/ Lv3 自身が攻撃を受けたときのダメージの遮断量が70%になる。/ Ex2 頑張る姿を応援するよを強化する。『結界』のダメージの遮断量が45%になる。",
@@ -1786,6 +1818,7 @@
           "character_level": 11,
           "description_key": "*",
           "descriptions": {
+            "ja-JP": null,
             "zh-CN": null
           },
           "equipment_rarity_flags": 0,
@@ -1819,6 +1852,7 @@
       },
       "name_key": "*",
       "names": {
+        "ja-JP": null,
         "zh-CN": null
       },
       "source_memo_ja": "*",
@@ -1861,6 +1895,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

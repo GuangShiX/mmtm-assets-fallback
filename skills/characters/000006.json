@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription60011]",
           "descriptions": {
+            "ja-JP": "呪いの結晶をも破壊する一撃を繰り出し、ランダムな敵3体に攻撃力×350%の物理攻撃を行う。魔力を切り裂く刃の力で、対象のタイプがソーサラーの場合、物理攻撃のダメージが1.5倍になる。",
             "zh-CN": "阿姆蕾特挥出威力足以破坏诅咒结晶的一剑，随机对3名敌人造成攻击力×350%的物理伤害。她的佩剑能斩断魔力，当技能目标的类型为法师时，造成的物理伤害增加为1.5倍。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription60012]",
           "descriptions": {
+            "ja-JP": "さらに2ターンの間対象の被ダメージを10%増加させる。",
             "zh-CN": "使技能目标额外增加10%承受伤害，效果持续2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription60013]",
           "descriptions": {
+            "ja-JP": "このスキルの対象がランダムな敵4体になる。",
             "zh-CN": "技能目标增加为4名随机敌人。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription60014]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription60014]",
             "zh-CN": "[ActiveSkillDescription60014]"
           },
           "equipment_rarity_flags": 128,
@@ -64,6 +68,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription60015]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription60015]",
             "zh-CN": "[ActiveSkillDescription60015]"
           },
           "equipment_rarity_flags": 512,
@@ -136,6 +141,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName6001]",
       "names": {
+        "ja-JP": "クリスタルブレイカー",
         "zh-CN": "骸晶粉碎者"
       },
       "source_memo_ja": "アムレートSR: /Lv1　呪いの結晶をも破壊する一撃を繰り出し、ランダムな敵3体に攻撃力×350%の物理攻撃を行う。魔力を切り裂く刃の力で、対象のタイプがソーサラーの場合、物理攻撃のダメージが1.5倍になる。　/Lv2 さらに2ターンの間対象の被ダメージを10％増加させる。　/Lv3 このスキルの対象がランダムな敵4体になる。　/専用1 クリスタルブレイカーを強化する。さらに2ターンの間対象に『拘束』を付与する。　/専用3 クリスタルブレイカーを強化する。対象のタイプがソーサラーの場合、物理攻撃のダメージが2倍になる。",
@@ -165,6 +171,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription60021]",
           "descriptions": {
+            "ja-JP": "研ぎ澄まされた剣技による連続攻撃。ランダムな敵に4回攻撃力×310%の物理攻撃を行う。隙は決して逃さず、攻撃するたび70%の確率で攻撃力×360%の物理攻撃を行う（追加攻撃は最大4回まで）。",
             "zh-CN": "阿姆蕾特施展精湛的剑法，攻势连绵不断，随机对敌人进行4次攻击，每次造成攻击力×310%的物理伤害。她决不放过任何破绽，每次攻击之后，70%概率追加攻击力×360%的物理伤害（最多4次）。"
           },
           "equipment_rarity_flags": 0,
@@ -179,6 +186,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription60022]",
           "descriptions": {
+            "ja-JP": "追加攻撃のダメージが攻撃力×380%になる。",
             "zh-CN": "造成的追加伤害提升为攻击力×380%。"
           },
           "equipment_rarity_flags": 0,
@@ -193,6 +201,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription60023]",
           "descriptions": {
+            "ja-JP": "さらにこのスキルで敵を戦闘不能にした場合、自身のHPを自身の最大HP×10%回復する。敵を戦闘不能にするたび回復量が自身の最大HP×10%大きくなる。",
             "zh-CN": "每使1名技能目标失去战斗能力，阿姆蕾特额外恢复10%最大生命值。"
           },
           "equipment_rarity_flags": 0,
@@ -207,6 +216,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription60024]",
           "descriptions": {
+            "ja-JP": "最初の物理攻撃のダメージが攻撃力×330%になる。",
             "zh-CN": "第一波攻击造成的物理伤害提升为攻击力×330%。"
           },
           "equipment_rarity_flags": 0,
@@ -221,6 +231,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription60025]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription60025]",
             "zh-CN": "[ActiveSkillDescription60025]"
           },
           "equipment_rarity_flags": 256,
@@ -331,6 +342,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName6002]",
       "names": {
+        "ja-JP": "剣によりて幕は降りる",
         "zh-CN": "举剑，拉下悲剧的帷幕"
       },
       "source_memo_ja": "アムレートSR: /Lv1　研ぎ澄まされた剣技による連続攻撃。ランダムな敵に4回攻撃力×310％の物理攻撃を行う。隙は決して逃さず、攻撃するたび30％の確率で攻撃力×360％の物理攻撃を行う。　/Lv2 追加攻撃のダメージが攻撃力×380%になる。　/Lv3 さらにこのスキルで敵を戦闘不能にした場合、自身のHPを自身の最大HP×10％回復する。敵を戦闘不能にするたび回復量が自身の最大HP×10％大きくなる。　/Lv4 最初の物理攻撃のダメージが攻撃力×330%になる。　/専用2 剣によりて幕は降りるを強化する。追加攻撃の確率が50％になりダメージが攻撃力×400%になる。",
@@ -785,6 +797,7 @@
       },
       "name_key": "[CharacterCollectionName1]",
       "names": {
+        "ja-JP": "トーラスの守護",
         "zh-CN": "金牛座的守护"
       },
       "required_character_ids": [
@@ -795,12 +808,14 @@
         {
           "id": 6,
           "names": {
+            "ja-JP": "アムレート",
             "zh-CN": "阿姆蕾特"
           }
         },
         {
           "id": 10,
           "names": {
+            "ja-JP": "モーザ",
             "zh-CN": "墨瑟"
           }
         }
@@ -1239,6 +1254,7 @@
       },
       "name_key": "[CharacterCollectionName8]",
       "names": {
+        "ja-JP": "アルテミスの誓約",
         "zh-CN": "阿缇密斯的誓约"
       },
       "required_character_ids": [
@@ -1250,18 +1266,21 @@
         {
           "id": 49,
           "names": {
+            "ja-JP": "オフィーリア",
             "zh-CN": "奥菲莉娅"
           }
         },
         {
           "id": 6,
           "names": {
+            "ja-JP": "アムレート",
             "zh-CN": "阿姆蕾特"
           }
         },
         {
           "id": 8,
           "names": {
+            "ja-JP": "フローレンス",
             "zh-CN": "佛罗伦斯"
           }
         }
@@ -1595,6 +1614,7 @@
       },
       "name_key": "[CharacterCollectionName24]",
       "names": {
+        "ja-JP": "サジテリアスの逆光​",
         "zh-CN": "射手座的逆光​"
       },
       "required_character_ids": [
@@ -1605,12 +1625,14 @@
         {
           "id": 60,
           "names": {
+            "ja-JP": "フィアー",
             "zh-CN": "菲雅"
           }
         },
         {
           "id": 6,
           "names": {
+            "ja-JP": "アムレート",
             "zh-CN": "阿姆蕾特"
           }
         }
@@ -2056,6 +2078,7 @@
       },
       "name_key": "[CharacterCollectionName52]",
       "names": {
+        "ja-JP": "リリウムの誓剣",
         "zh-CN": "百合花座的誓剑"
       },
       "required_character_ids": [
@@ -2066,12 +2089,14 @@
         {
           "id": 96,
           "names": {
+            "ja-JP": "アムレート",
             "zh-CN": "阿姆蕾特"
           }
         },
         {
           "id": 6,
           "names": {
+            "ja-JP": "アムレート",
             "zh-CN": "阿姆蕾特"
           }
         }
@@ -2141,12 +2166,14 @@
     "memo": "アムレート",
     "name_key": "[CharacterName6]",
     "names": {
+      "ja-JP": "アムレート",
       "zh-CN": "阿姆蕾特"
     },
     "speed": 2766,
     "start_time_jst": "2020-01-01 00:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -2221,6 +2248,7 @@
     },
     "name_key": "[EquipmentName207]",
     "names": {
+      "ja-JP": "誓願の剣",
       "zh-CN": "誓约之剑"
     },
     "passive_effects": [
@@ -2254,6 +2282,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill6Description1]",
         "descriptions": {
+          "ja-JP": "クリスタルブレイカーを強化する。さらに2ターンの間対象に『拘束』を付与する。",
           "zh-CN": "强化骸晶粉碎者，对技能目标额外附加「禁锢」状态，效果持续2回合。"
         },
         "equipment_rarity_flags": 128,
@@ -2262,6 +2291,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill6Description2]",
         "descriptions": {
+          "ja-JP": "剣によりて幕は降りるを強化する。追加攻撃のダメージが攻撃力×400%になる。",
           "zh-CN": "强化举剑，拉下悲剧的帷幕，造成的追加伤害提升为攻击力×400%。"
         },
         "equipment_rarity_flags": 256,
@@ -2270,6 +2300,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill6Description3]",
         "descriptions": {
+          "ja-JP": "クリスタルブレイカーを強化する。対象のタイプがソーサラーの場合で得られる物理攻撃のダメージ上昇量が2倍になる。",
           "zh-CN": "强化骸晶粉碎者，当技能目标的类型为法师时，物理伤害增幅提升为2倍。"
         },
         "equipment_rarity_flags": 512,
@@ -2290,6 +2321,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription60031]",
           "descriptions": {
+            "ja-JP": "王なればこそ、逆境の中の光とならん。たとえ死の淵であろうとも──毎ターン開始時もしくは自身が攻撃を受けたとき、自身のHP割合が低くなるほど自身の攻撃力が増加する（最大30%まで）（解除不可）。",
             "zh-CN": "王者必须成为逆境中的光明——即使处在死亡的深渊。在每回合开始时或受到攻击后，阿姆蕾特的生命值百分比越低，获得的攻击力增幅效果越高（最多30%）（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -2304,6 +2336,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription60032]",
           "descriptions": {
+            "ja-JP": "攻撃力の増加量最大値が50%になる。",
             "zh-CN": "攻击力增幅上限提升为50%。"
           },
           "equipment_rarity_flags": 0,
@@ -2318,6 +2351,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription60033]",
           "descriptions": {
+            "ja-JP": "攻撃力の増加量最大値が80%になる。",
             "zh-CN": "攻击力增幅上限提升为80%。"
           },
           "equipment_rarity_flags": 0,
@@ -2428,6 +2462,7 @@
       },
       "name_key": "[PassiveSkillName6003]",
       "names": {
+        "ja-JP": "一筋の光",
         "zh-CN": "一线光明"
       },
       "source_memo_ja": "アムレートSR: /Lv1　王なればこそ、逆境の中の光とならん。たとえ死の淵であろうとも──毎ターン開始時、もしくは自身が攻撃を受けたとき、自身のHPが少なくなるほど自身の攻撃力が上昇する（最大30%まで）（解除不可）。　/Lv2 攻撃力の増加量最大値が50％になる。　/Lv3 攻撃力の増加量最大値が80％になる。",
@@ -2455,6 +2490,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription60041]",
           "descriptions": {
+            "ja-JP": "その横顔に浮かぶのは、いかなる困難をも乗り越えて誓いを果たすという決意。自身が致命的なダメージを受けたとき、HP1で耐える。このスキルはバトル中1回のみ発動する。",
             "zh-CN": "阿姆蕾特的侧脸流露着坚毅，决心跨越一切困难实现她的誓言。当阿姆蕾特受到致命伤害时，保留1点生命值不死。此技能每场战斗最多触发1次。"
           },
           "equipment_rarity_flags": 0,
@@ -2469,6 +2505,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription60042]",
           "descriptions": {
+            "ja-JP": "さらに2ターンの間自身に『不死身』を付与する。",
             "zh-CN": "额外获得「不死之身」状态，效果持续2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -2483,6 +2520,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription60043]",
           "descriptions": {
+            "ja-JP": "『不死身』のターン数が3ターンになる。",
             "zh-CN": "「不死之身」效果增加为3回合。"
           },
           "equipment_rarity_flags": 0,
@@ -2551,6 +2589,7 @@
       },
       "name_key": "[PassiveSkillName6004]",
       "names": {
+        "ja-JP": "誓いを果たす者",
         "zh-CN": "誓言践行者"
       },
       "source_memo_ja": "アムレートSR: /Lv1　その横顔に浮かぶのは、いかなる困難をも乗り越えて誓いを果たすという決意。自身が致命的なダメージを受けたとき、HP1で耐える。このスキルはバトル中1回のみ発動する。　/Lv2 さらに2ターンの間自身に『不死身』を付与する。　/Lv3 『不死身』のターン数が3ターンになる。",
@@ -2606,6 +2645,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription990011]",
           "descriptions": {
+            "ja-JP": "「私の妹を傷つけさせない。私が消えた後も、どうかあの子を守って……！」自身に2回自身の現在HP×20%の自傷ダメージを与え、70%の確率で付帯しているバフの個数が最も多い敵のバフを2つ解除する。その後ランダムな敵に4回攻撃力×430%の物理攻撃を行う。",
             "zh-CN": "“谁都别想伤害我的妹妹。就算我不在世上了，这条缎带也会继续守护她……！”莉莉珂特使自己受到2次当前生命值×20%的自损伤害，70%概率解除附带增益效果最多的敌人身上的2种增益效果。再随机对敌人进行4次攻击，每次造成攻击力×430%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription990012]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×580%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×580%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription990013]",
           "descriptions": {
+            "ja-JP": "物理攻撃の回数が6回になる。",
             "zh-CN": "攻击次数增加为6次。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription990014]",
           "descriptions": {
+            "ja-JP": "誓い結うリボンを強化する。さらに自身以外の紅属性の味方の編成数が3体以上の場合、バフの解除数が6になる。",
             "zh-CN": "强化约定所系的缎带，当队伍中的其他业红属性友军数为3名以上时，解除的增益效果增加为6种。"
           },
           "equipment_rarity_flags": 128,
@@ -67,6 +71,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription990015]",
           "descriptions": {
+            "ja-JP": "誓い結うリボンを強化する。物理攻撃のダメージが攻撃力×630%になる。",
             "zh-CN": "强化约定所系的缎带，造成的物理伤害提升为攻击力×630%。"
           },
           "equipment_rarity_flags": 512,
@@ -178,6 +183,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName99001]",
       "names": {
+        "ja-JP": "誓い結うリボン",
         "zh-CN": "约定所系的缎带"
       },
       "source_memo_ja": "リリコットSR:Lv1 「私の妹を傷つけさせない。私が消えた後も、どうかあの子を守って……！」自身に2回自身の現在HP×20%の自傷ダメージを与え、70%の確率で付帯しているバフの個数が最も多い敵のバフを2つ解除する。その後ランダムな敵に4回攻撃力×430%の物理攻撃を行う。/ Lv2 物理攻撃のダメージが攻撃力×580%になる。/ Lv3 物理攻撃の回数が6回になる。/ Ex1 誓い結うリボンを強化する。さらに自身以外の紅属性の味方の編成数が3体以上の場合、バフの解除数が6になる。/ Ex3 誓い結うリボンを強化する。物理攻撃のダメージが攻撃力×630%になる。",
@@ -215,6 +221,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription990021]",
           "descriptions": {
+            "ja-JP": "「私たちの代わりに、リリコットを守って。あの子を導いてあげて……お願いね」自身に2回自身の現在HP×20%の自傷ダメージを与え、70%の確率で付帯しているバフの個数が最も多い敵のバフを2つ解除する。その後攻撃力が高い敵2体に攻撃力×740%の物理攻撃を行い、30%の確率で対象に1ターンの間『沈黙』を付与する。",
             "zh-CN": "“请替我们守护莉莉珂特，为她指引前进的方向……拜托了。”莉莉珂特使自己受到2次当前生命值×20%的自损伤害，70%概率解除附带增益效果最多的敌人身上的2种增益效果。再对攻击力最高的2名敌人造成攻击力×740%的物理伤害，30%概率附加「沉默」状态，效果持续1回合。"
           },
           "equipment_rarity_flags": 0,
@@ -229,6 +236,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription990022]",
           "descriptions": {
+            "ja-JP": "『沈黙』を付与する確率が70%になる。",
             "zh-CN": "附加「沉默」状态的概率提升为70%。"
           },
           "equipment_rarity_flags": 0,
@@ -243,6 +251,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription990023]",
           "descriptions": {
+            "ja-JP": "物理攻撃の対象が攻撃力が高い敵3体になる。",
             "zh-CN": "攻击目标增加为攻击力最高的3名敌人。"
           },
           "equipment_rarity_flags": 0,
@@ -257,6 +266,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription990024]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×1120%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×1120%。"
           },
           "equipment_rarity_flags": 0,
@@ -271,6 +281,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription990025]",
           "descriptions": {
+            "ja-JP": "願い託す花傘を強化する。『沈黙』のターン数が2ターンになる。",
             "zh-CN": "强化心愿所托的花伞，「沉默」效果增加为2回合。"
           },
           "equipment_rarity_flags": 256,
@@ -361,6 +372,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName99002]",
       "names": {
+        "ja-JP": "願い託す花傘",
         "zh-CN": "心愿所托的花伞"
       },
       "source_memo_ja": "リリコットSR:Lv1 「私たちの代わりに、リリコットを守って。あの子を導いてあげて……お願いね」自身に2回自身の現在HP×20%の自傷ダメージを与え、70%の確率で付帯しているバフの個数が最も多い敵のバフを2つ解除する。その後攻撃力が高い敵2体に攻撃力×740%の物理攻撃を行い、30%の確率で対象に1ターンの間『沈黙』を付与する。/ Lv2 『沈黙』を付与する確率が70%になる。/ Lv3 物理攻撃の対象が攻撃力が高い敵3体になる。/ Lv4 物理攻撃のダメージが攻撃力×1120%になる。/ Ex2 願い託す花傘を強化する。『沈黙』のターン数が2ターンになる。",
@@ -819,6 +831,7 @@
       },
       "name_key": "[CharacterCollectionName91]",
       "names": {
+        "ja-JP": "ロサの花棘​",
         "zh-CN": "玫瑰座的棘刺"
       },
       "required_character_ids": [
@@ -829,12 +842,14 @@
         {
           "id": 99,
           "names": {
+            "ja-JP": "リリコット",
             "zh-CN": "莉莉珂特"
           }
         },
         {
           "id": 25,
           "names": {
+            "ja-JP": "アイビー",
             "zh-CN": "艾薇"
           }
         }
@@ -904,12 +919,14 @@
     "memo": "リリコット",
     "name_key": "[CharacterName99]",
     "names": {
+      "ja-JP": "リリコット",
       "zh-CN": "莉莉珂特"
     },
     "speed": 3064,
     "start_time_jst": "2026-03-16 15:00:00",
     "subtitle_key": "",
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -983,6 +1000,7 @@
     },
     "name_key": "[EquipmentName693]",
     "names": {
+      "ja-JP": "ディア・フェアレディ",
       "zh-CN": "亲爱的小淑女"
     },
     "passive_effects": [
@@ -1016,6 +1034,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill99Description1]",
         "descriptions": {
+          "ja-JP": "誓い結うリボンを強化する。さらに自身以外の紅属性の味方の編成数が3体以上の場合、バフの解除数が6になる。",
           "zh-CN": "强化约定所系的缎带，当队伍中的其他业红属性友军数为3名以上时，解除的增益效果增加为6种。"
         },
         "equipment_rarity_flags": 128,
@@ -1024,6 +1043,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill99Description2]",
         "descriptions": {
+          "ja-JP": "願い託す花傘を強化する。『沈黙』のターン数が2ターンになる。",
           "zh-CN": "强化心愿所托的花伞，「沉默」效果增加为2回合。"
         },
         "equipment_rarity_flags": 256,
@@ -1032,6 +1052,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill99Description3]",
         "descriptions": {
+          "ja-JP": "誓い結うリボンを強化する。物理攻撃のダメージが攻撃力×630%になる。",
           "zh-CN": "强化约定所系的缎带，造成的物理伤害提升为攻击力×630%。"
         },
         "equipment_rarity_flags": 512,
@@ -1054,6 +1075,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription990031]",
           "descriptions": {
+            "ja-JP": "「私たちの愛が、どうかいつまでも貴女の支えとなりますように」自身が敵のバフを解除したとき、1ターンの間自身と自身以外の攻撃力が最も高い味方の攻撃力を自身の攻撃力×20%、防御力を自身の防御力×20%増加させる（解除不可）。",
             "zh-CN": "“但愿我们的爱，能成为你永远的后盾。”解除敌人身上的增益效果后，莉莉珂特使自己与攻击力最高的其他友军增加攻击力与防御力，增幅分别为莉莉珂特攻击力×20%及莉莉珂特防御力×20%，效果持续1回合（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1068,6 +1090,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription990032]",
           "descriptions": {
+            "ja-JP": "『攻撃力増加』と『防御力増加』のターン数が2ターンになる。",
             "zh-CN": "「攻击力上升」与「防御力上升」效果增加为2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -1082,6 +1105,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription990033]",
           "descriptions": {
+            "ja-JP": "さらに対象が紅属性の場合、攻撃力の増加量が自身の攻撃力×50%、防御力の増加量が自身の防御力×50%になる。",
             "zh-CN": "当技能目标为业红属性时，攻击力与防御力增幅分别提升为莉莉珂特攻击力×50%及莉莉珂特防御力×50%。"
           },
           "equipment_rarity_flags": 0,
@@ -1171,6 +1195,7 @@
       },
       "name_key": "[PassiveSkillName99003]",
       "names": {
+        "ja-JP": "祈り宿るブローチ",
         "zh-CN": "祝福所依的胸针"
       },
       "source_memo_ja": "リリコットSR:Lv1 「私たちの愛が、どうかいつまでも貴女の支えとなりますように」自身が敵のバフを解除したとき、1ターンの間自身と自身以外の攻撃力が最も高い味方の攻撃力を自身の攻撃力×20%、防御力を自身の防御力×20%増加させる（解除不可）。/ Lv2 『攻撃力増加』と『防御力増加』のターン数が2ターンになる。/ Lv3 さらに対象が紅属性の場合、攻撃力の増加量が自身の攻撃力×50%、防御力の増加量が自身の防御力×50%になる。",
@@ -1198,6 +1223,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription990041]",
           "descriptions": {
+            "ja-JP": "「ごめんなさい。もう同じ時間は刻めないけれど……貴女は止まらないで、リリコット」自身の通常攻撃を強化する。通常攻撃時ランダムな敵に3回攻撃力×300%の物理攻撃を行う。自身のHP割合が低くなるほど物理攻撃のダメージが大きくなる（最大攻撃力×600%まで）。ただしHP割合の判定は攻撃1回ごとに行う。",
             "zh-CN": "“对不起，往后的时光，姐姐没有办法陪你一起走了……莉莉珂特，别停下来，你要继续往前走。”莉莉珂特强化自己的普通攻击，普攻时随机对敌人进行3次攻击，每次造成攻击力×300%的物理伤害。莉莉珂特的生命值百分比越低，造成的物理伤害越高（最多攻击力×600%）。生命值百分比在每次攻击结束后重新进行判定。"
           },
           "equipment_rarity_flags": 0,
@@ -1212,6 +1238,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription990042]",
           "descriptions": {
+            "ja-JP": "さらにバトル開始時、4ターンの間自身のスピードが15%増加する（解除不可）。",
             "zh-CN": "战斗开始时，莉莉珂特使自己额外增加15%速度，效果持续4回合（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1226,6 +1253,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription990043]",
           "descriptions": {
+            "ja-JP": "スピードの増加量が30%になる。",
             "zh-CN": "速度增幅提升为30%。"
           },
           "equipment_rarity_flags": 0,
@@ -1308,6 +1336,7 @@
       },
       "name_key": "[PassiveSkillName99004]",
       "names": {
+        "ja-JP": "想い刻む懐中時計",
         "zh-CN": "思念所在的怀表"
       },
       "source_memo_ja": "リリコットSR:Lv1 「ごめんなさい。もう同じ時間は刻めないけれど……貴女は止まらないで、リリコット」自身の通常攻撃を強化する。通常攻撃時ランダムな敵に3回攻撃力×300%の物理攻撃を行う。自身のHP割合が低くなるほど物理攻撃のダメージが大きくなる（最大攻撃力×600%まで）。ただしHP割合の判定は攻撃1回ごとに行う。/ Lv2 さらにバトル開始時、4ターンの間自身のスピードが15%増加する（解除不可）。/ Lv3 スピードの増加量が30%になる。",
@@ -1363,6 +1392,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

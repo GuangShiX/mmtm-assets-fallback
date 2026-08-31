@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription1340011]",
           "descriptions": {
+            "ja-JP": "巨大な鉄剣を叩きつけるように振り回し、ランダムな敵3体に攻撃力×170%の物理攻撃を行う。",
             "zh-CN": "菲雅挥动巨大的铁剑重重砸下，随机对3名敌人造成攻击力×170%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription1340012]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×420%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×420%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1340013]",
           "descriptions": {
+            "ja-JP": "さらに物理攻撃のダメージが『多重バリア』で無効化された場合、対象に攻撃力×420%の物理攻撃を行う（追加攻撃は最大1回まで）。",
             "zh-CN": "当伤害被「多重屏障」抵消时，菲雅额外对技能目标追加攻击力×420%的物理伤害（最多1次）。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1340014]",
           "descriptions": {
+            "ja-JP": "ブレイクウォードを強化する。ブレイクウォードの対象がランダムな敵5体になる。",
             "zh-CN": "强化破防猛击，技能目标增加为5名随机敌人。"
           },
           "equipment_rarity_flags": 128,
@@ -67,6 +71,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription1340015]",
           "descriptions": {
+            "ja-JP": "ブレイクウォードを強化する。最初の物理攻撃と追加攻撃のダメージがそれぞれ攻撃力×460%になる。",
             "zh-CN": "强化破防猛击，第一波攻击与追加攻击造成的物理伤害提升为攻击力×460%。"
           },
           "equipment_rarity_flags": 512,
@@ -145,6 +150,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName134001]",
       "names": {
+        "ja-JP": "ブレイクウォード",
         "zh-CN": "破防猛击"
       },
       "source_memo_ja": "面影フィアーSR:Lv1 巨大な鉄剣を叩きつけるように振り回し、ランダムな敵3体に攻撃力×170%の物理攻撃を行う。/ Lv2 物理攻撃のダメージが攻撃力×420%になる。/ Lv3 さらに物理攻撃のダメージが『多重バリア』で無効化された場合、対象に攻撃力×420%の物理攻撃を行う（追加攻撃は最大1回まで）。/ Ex1 ブレイクウォードを強化する。ブレイクウォードの対象がランダムな敵5体になる。/ Ex3 ブレイクウォードを強化する。最初の物理攻撃と追加攻撃のダメージがそれぞれ攻撃力×460%になる。",
@@ -182,6 +188,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription1340021]",
           "descriptions": {
+            "ja-JP": "命の花が咲くように生命力が満ちあふれ、1ターンの間自身と自身以外の攻撃力が最も高い味方の防御力を5%減少させ、攻撃力を20%増加させる。『防御力減少』の付与は弱体効果命中率と耐性率を無視する。その後ランダムな敵3体に攻撃力×380%の物理攻撃を行う。",
             "zh-CN": "菲雅洋溢的生命力仿佛蓬勃绽放的花朵，使自己与攻击力最高的其他友军减少5%防御力并增加20%攻击力，效果持续1回合。附加「防御力下降」状态时无视弱化效果命中率与弱化效果抵抗率。再随机对3名敌人造成攻击力×380%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -196,6 +203,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription1340022]",
           "descriptions": {
+            "ja-JP": "攻撃力の増加量が30%になる。",
             "zh-CN": "攻击力增幅提升为30%。"
           },
           "equipment_rarity_flags": 0,
@@ -210,6 +218,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription1340023]",
           "descriptions": {
+            "ja-JP": "物理攻撃の対象がランダムな敵5体になる。",
             "zh-CN": "攻击目标增加为5名随机敌人。"
           },
           "equipment_rarity_flags": 0,
@@ -224,6 +233,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription1340024]",
           "descriptions": {
+            "ja-JP": "さらに物理攻撃の前に対象の『怠惰』のスタック数が12の場合、物理攻撃のダメージが攻撃力×570%になる。",
             "zh-CN": "发动攻击前，如果攻击目标身上附带的「懈怠」达12层，造成的物理伤害提升为攻击力×570%。"
           },
           "equipment_rarity_flags": 0,
@@ -301,6 +311,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName134002]",
       "names": {
+        "ja-JP": "ライフブルーム",
         "zh-CN": "生命绽放"
       },
       "source_memo_ja": "面影フィアーSR:Lv1 命の花が咲くように生命力が満ちあふれ、1ターンの間自身と自身以外の攻撃力が最も高い味方の防御力を5%減少させ、攻撃力を20%増加させる。『防御力減少』の付与は弱体効果命中率と耐性率を無視する。その後ランダムな敵3体に攻撃力×380%の物理攻撃を行う。/ Lv2 攻撃力の増加量が30%になる。/ Lv3 物理攻撃の対象がランダムな敵5体になる。/ Lv4 さらに物理攻撃の前に対象の『怠惰』のスタック数が12の場合、物理攻撃のダメージが攻撃力×570%になる。",
@@ -763,6 +774,7 @@
       },
       "name_key": "[CharacterCollectionName93]",
       "names": {
+        "ja-JP": "サジテリアスの光源​",
         "zh-CN": "射手座的光源"
       },
       "required_character_ids": [
@@ -773,12 +785,14 @@
         {
           "id": 134,
           "names": {
+            "ja-JP": "フィアー",
             "zh-CN": "菲雅"
           }
         },
         {
           "id": 60,
           "names": {
+            "ja-JP": "フィアー",
             "zh-CN": "菲雅"
           }
         }
@@ -1216,6 +1230,7 @@
       },
       "name_key": "[CharacterCollectionName94]",
       "names": {
+        "ja-JP": "ルクバトの投影​",
         "zh-CN": "马膝星的投影"
       },
       "required_character_ids": [
@@ -1226,12 +1241,14 @@
         {
           "id": 141,
           "names": {
+            "ja-JP": "リリー",
             "zh-CN": "百合"
           }
         },
         {
           "id": 134,
           "names": {
+            "ja-JP": "フィアー",
             "zh-CN": "菲雅"
           }
         }
@@ -1301,12 +1318,14 @@
     "memo": "面影フィアー",
     "name_key": "[CharacterName134]",
     "names": {
+      "ja-JP": "フィアー",
       "zh-CN": "菲雅"
     },
     "speed": 2785,
     "start_time_jst": "2026-04-15 15:00:00",
     "subtitle_key": "[CharacterSubName134]",
     "subtitles": {
+      "ja-JP": "在りし日の面影",
       "zh-CN": "往日身影"
     }
   },
@@ -1381,6 +1400,7 @@
     },
     "name_key": "[EquipmentName903]",
     "names": {
+      "ja-JP": "追想の鉄塊",
       "zh-CN": "追忆的铁块"
     },
     "passive_effects": [
@@ -1414,6 +1434,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill134Description1]",
         "descriptions": {
+          "ja-JP": "ブレイクウォードを強化する。ブレイクウォードの対象がランダムな敵5体になる。",
           "zh-CN": "强化破防猛击，技能目标增加为5名随机敌人。"
         },
         "equipment_rarity_flags": 128,
@@ -1422,6 +1443,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill134Description2]",
         "descriptions": {
+          "ja-JP": "あの人のようにを強化する。『結界』のダメージの遮断量が50%になる。",
           "zh-CN": "强化像她一样，「结界」的伤害阻绝量提升为50%。"
         },
         "equipment_rarity_flags": 256,
@@ -1430,6 +1452,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill134Description3]",
         "descriptions": {
+          "ja-JP": "ブレイクウォードを強化する。最初の物理攻撃と追加攻撃のダメージがそれぞれ攻撃力×460%になる。",
           "zh-CN": "强化破防猛击，第一波攻击与追加攻击造成的物理伤害提升为攻击力×460%。"
         },
         "equipment_rarity_flags": 512,
@@ -1450,6 +1473,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription1340031]",
           "descriptions": {
+            "ja-JP": "あの人が遺した優しさで、あの人のように誰かを救う。それが「人として生きる」ということだから。1ターン目と5ターン目のターン開始時、自身と自身以外の攻撃力が最も高い味方に2ターンの間『結界』を付与する（解除不可）。このバフの付帯者が攻撃を受けたとき、ダメージを20%遮断する。",
             "zh-CN": "用她留下来的温柔，像她一样去拯救其他人——这就是“活得像个人”的含义。第1回合与第5回合开始时，菲雅使自己与攻击力最高的其他友军获得「结界」，效果持续2回合（无法被解除）。当此增益效果的附带者受到攻击时，阻绝20%伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -1464,6 +1488,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription1340032]",
           "descriptions": {
+            "ja-JP": "さらにバトル開始時、自身の被ダメージが30%減少する（解除不可）。",
             "zh-CN": "战斗开始时，菲雅额外减少30%自身承受伤害（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1478,6 +1503,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription1340033]",
           "descriptions": {
+            "ja-JP": "被ダメージの減少量が70%になる。",
             "zh-CN": "承受伤害降幅提升为70%。"
           },
           "equipment_rarity_flags": 0,
@@ -1492,6 +1518,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription1340034]",
           "descriptions": {
+            "ja-JP": "あの人のようにを強化する。『結界』のダメージの遮断量が50%になる。",
             "zh-CN": "强化像她一样，「结界」的伤害阻绝量提升为50%。"
           },
           "equipment_rarity_flags": 256,
@@ -1653,6 +1680,7 @@
       },
       "name_key": "[PassiveSkillName134003]",
       "names": {
+        "ja-JP": "あの人のように",
         "zh-CN": "像她一样"
       },
       "source_memo_ja": "面影フィアーSR:Lv1 あの人が遺した優しさで、あの人のように誰かを救う。それが「人として生きる」ということだから。1ターン目と5ターン目のターン開始時、自身と自身以外の攻撃力が最も高い味方に2ターンの間『結界』を付与する（解除不可）。このバフの付帯者が攻撃を受けたとき、ダメージを20%遮断する。/ Lv2 さらにバトル開始時、自身の被ダメージが30%減少する（解除不可）。/ Lv3 被ダメージの減少量が70%になる。/ Ex2 あの人のようにを強化する。『結界』のダメージの遮断量が50%になる。",
@@ -1684,6 +1712,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription1340041]",
           "descriptions": {
+            "ja-JP": "向けられた悪意は、生死をつなぐ因果のように相手へと還る。自身か味方がアクティブスキルで弱体効果を受けたとき、ランダムな敵5体に2ターンの間『怠惰』を2スタック付与する（最大12スタックまで）。この弱体効果は1スタックにつき付帯者のクリティカル率を5%減少させる。",
             "zh-CN": "一如业力贯通生死，任何投向菲雅的恶意都将自食其果——当菲雅或友军被附加主动技能造成的弱化效果时，菲雅随机对5名敌人附加2层「懈怠」，效果持续2回合（最多12层）。每层「懈怠」使附带者减少5%暴击率。"
           },
           "equipment_rarity_flags": 0,
@@ -1698,6 +1727,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription1340042]",
           "descriptions": {
+            "ja-JP": "さらに『怠惰』付与の判定の後、対象が『クリティカル率増加』を付帯している場合、対象の『怠惰』のスタック数を1増加させる。",
             "zh-CN": "「懈怠」附加判定结束后，如果技能目标身上附带「暴击率上升」状态，「懈怠」的叠加数额外增加1层。"
           },
           "equipment_rarity_flags": 0,
@@ -1712,6 +1742,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription1340043]",
           "descriptions": {
+            "ja-JP": "自身か味方がアクティブスキルで弱体効果を受けたとき、さらに『怠惰』付与の前に自身の弱体効果を1つ解除する。",
             "zh-CN": "对技能目标附加「懈怠」状态前，菲雅额外解除自己身上的1种弱化效果。"
           },
           "equipment_rarity_flags": 0,
@@ -1815,6 +1846,7 @@
       },
       "name_key": "[PassiveSkillName134004]",
       "names": {
+        "ja-JP": "カウンターウィザー",
         "zh-CN": "衰竭反弹"
       },
       "source_memo_ja": "面影フィアーSR:Lv1 向けられた悪意は、生死をつなぐ因果のように相手へと還る。自身か味方がアクティブスキルで弱体効果を受けたとき、ランダムな敵5体に2ターンの間『怠惰』を2スタック付与する（最大12スタックまで）。この弱体効果は1スタックにつき付帯者のクリティカル率を5%減少させる。/ Lv2 さらに『怠惰』付与の判定の後、対象が『クリティカル率増加』を付帯している場合、対象の『怠惰』のスタック数を1増加させる。/ Lv3 自身か味方がアクティブスキルで弱体効果を受けたとき、さらに『怠惰』付与の前に自身の弱体効果を1つ解除する。",
@@ -1870,6 +1902,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

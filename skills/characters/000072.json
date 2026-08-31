@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription720011]",
           "descriptions": {
+            "ja-JP": "「百発百中のガンマンが、最高のショーを見せてあげる！」1ターンの間攻撃力が最も高い味方の命中率を25%増加させ、回避率を25%減少させる。これらは一つのバフとして扱う。「仕掛けは十分。ここからが本番だよ」さらに夜空に咲いた大輪の花が、祭りを邪魔する敵に降り注ぐ──その後ランダムな敵に4回攻撃力×200%の物理攻撃を行う。",
             "zh-CN": "“百发百中的神枪手，将为各位带来最精彩的表演！”科迪使攻击力最高的友军获得1种增益效果，该效果包含增加25%命中率并减少25%闪避率，效果持续1回合。“暖场表演结束，接下来才是重头戏！”巨大的花朵在夜空中绽放，撒下花雨落在破坏祭典的敌人身上——随机对敌人进行4次攻击，每次造成攻击力×200%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription720012]",
           "descriptions": {
+            "ja-JP": "『命中率増加』と『回避率減少』のターン数が4ターンになり、物理攻撃のダメージが攻撃力×330%になる。",
             "zh-CN": "「命中率上升」与「闪避率下降」效果增加为4回合，造成的物理伤害提升为攻击力×330%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription720013]",
           "descriptions": {
+            "ja-JP": "『命中率増加』と『回避率減少』の対象が攻撃力が高い味方2体になる。",
             "zh-CN": "「命中率上升」与「闪避率下降」的附加目标增加为攻击力最高的2名友军。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription720014]",
           "descriptions": {
+            "ja-JP": "",
             "zh-CN": ""
           },
           "equipment_rarity_flags": 128,
@@ -67,6 +71,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription720015]",
           "descriptions": {
+            "ja-JP": "",
             "zh-CN": ""
           },
           "equipment_rarity_flags": 512,
@@ -163,6 +168,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName72001]",
       "names": {
+        "ja-JP": "花雷",
         "zh-CN": "烟花雷动"
       },
       "source_memo_ja": "浴衣コルディSR:Lv1 「百発百中のガンマンが、最高のショーを見せてあげる！」1ターンの間攻撃力が最も高い味方の命中率を25%増加させ、回避率を25%減少させる。これらは1つのバフとして扱う。「仕掛けは十分。ここからが本番だよ」さらに夜空に咲いた大輪の花が、祭りを邪魔する敵に降り注ぐ──その後ランダムな敵に4回攻撃力×200%の物理攻撃を行う。/ Lv2 『命中率増加』と『回避率減少』のターン数が4ターンになり、物理攻撃のダメージが攻撃力×330%になる。/ Lv3 『命中率増加』と『回避率減少』の対象が攻撃力が高い味方2体になる。/ Ex1 花雷を強化する。命中率の増加量が50%、回避率の減少量が50%になる。/ Ex3 花雷を強化する。物理攻撃の回数が5回になる。",
@@ -200,6 +206,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription720021]",
           "descriptions": {
+            "ja-JP": "連続連射で打ち上げられた花火が、ランダムな敵4体に攻撃力×200%の物理攻撃を行う。「テンション上がってきた！」さらに祭りの雰囲気が気分を高潮させ、自身が付帯しているバフの個数が1以上の場合、物理攻撃のダメージが1.5倍になる。",
             "zh-CN": "烟火高速连发，随机对4名敌人造成攻击力×200%的物理伤害。“嗨起来啦！”祭典的热闹气氛使科迪的心情无比亢奋，当她身上附带1种以上增益效果时，造成的物理伤害增加为1.5倍。"
           },
           "equipment_rarity_flags": 0,
@@ -214,6 +221,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription720022]",
           "descriptions": {
+            "ja-JP": "さらにHP割合が最も低い味方のHPをこのスキルの総与ダメージ×30%回復する。",
             "zh-CN": "使生命值百分比最低的友军额外恢复技能总伤害×30%的生命值。"
           },
           "equipment_rarity_flags": 0,
@@ -228,6 +236,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription720023]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×300%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×300%。"
           },
           "equipment_rarity_flags": 0,
@@ -242,6 +251,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription720024]",
           "descriptions": {
+            "ja-JP": "このスキルの対象がランダムな敵5体になる。",
             "zh-CN": "技能目标增加为5名随机敌人。"
           },
           "equipment_rarity_flags": 0,
@@ -310,6 +320,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName72002]",
       "names": {
+        "ja-JP": "スターマイン",
         "zh-CN": "烟花齐放"
       },
       "source_memo_ja": "浴衣コルディSR:Lv1 連続連射で打ち上げられた花火が、ランダムな敵4体に攻撃力×200%の物理攻撃を行う。「テンション上がってきた！」さらに祭りの雰囲気が気分を高潮させ、自身が付帯しているバフの個数が1以上の場合、物理攻撃のダメージが1.5倍になる。/ Lv2 さらにHP割合が最も低い味方のHPをこのスキルの総与ダメージ×30%回復する。/ Lv3 物理攻撃のダメージが攻撃力×300%になる。/ Lv4 このスキルの対象がランダムな敵5体になる。",
@@ -764,6 +775,7 @@
       },
       "name_key": "[CharacterCollectionName23]",
       "names": {
+        "ja-JP": "ドラドの一撃",
         "zh-CN": "剑鱼座的一击"
       },
       "required_character_ids": [
@@ -774,12 +786,14 @@
         {
           "id": 72,
           "names": {
+            "ja-JP": "コルディ",
             "zh-CN": "科迪"
           }
         },
         {
           "id": 27,
           "names": {
+            "ja-JP": "コルディ",
             "zh-CN": "科迪"
           }
         }
@@ -1225,6 +1239,7 @@
       },
       "name_key": "[CharacterCollectionName75]",
       "names": {
+        "ja-JP": "クシフィアスの共演",
         "zh-CN": "旗鱼座的同台"
       },
       "required_character_ids": [
@@ -1235,12 +1250,14 @@
         {
           "id": 122,
           "names": {
+            "ja-JP": "フラック",
             "zh-CN": "弗莱可"
           }
         },
         {
           "id": 72,
           "names": {
+            "ja-JP": "コルディ",
             "zh-CN": "科迪"
           }
         }
@@ -1686,6 +1703,7 @@
       },
       "name_key": "[CharacterCollectionName97]",
       "names": {
+        "ja-JP": "トゥルドゥスの歌声",
         "zh-CN": "画眉座的歌声"
       },
       "required_character_ids": [
@@ -1696,12 +1714,14 @@
         {
           "id": 149,
           "names": {
+            "ja-JP": "プリマヴェーラ",
             "zh-CN": "普莉玛维拉"
           }
         },
         {
           "id": 72,
           "names": {
+            "ja-JP": "コルディ",
             "zh-CN": "科迪"
           }
         }
@@ -1771,12 +1791,14 @@
     "memo": "浴衣コルディ",
     "name_key": "[CharacterName72]",
     "names": {
+      "ja-JP": "コルディ",
       "zh-CN": "科迪"
     },
     "speed": 3575,
     "start_time_jst": "2023-08-14 15:00:00",
     "subtitle_key": "[CharacterSubName72]",
     "subtitles": {
+      "ja-JP": "夏の残響",
       "zh-CN": "夏日残响"
     }
   },
@@ -1850,6 +1872,7 @@
     },
     "name_key": "[EquipmentName410]",
     "names": {
+      "ja-JP": "グラッドサマー",
       "zh-CN": "夏日狂欢"
     },
     "passive_effects": [
@@ -1883,6 +1906,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill72Description1]",
         "descriptions": {
+          "ja-JP": "花雷を強化する。命中率の増加量が50%、回避率の減少量が50%になる。",
           "zh-CN": "强化烟花雷动，命中率增幅与闪避率降幅提升为50%。"
         },
         "equipment_rarity_flags": 128,
@@ -1891,6 +1915,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill72Description2]",
         "descriptions": {
+          "ja-JP": "お祭り騒ぎを強化する。お祭り騒ぎの対象が攻撃力が高い味方2体になる。",
           "zh-CN": "强化嗨翻祭典，技能目标增加为攻击力最高的2名友军。"
         },
         "equipment_rarity_flags": 256,
@@ -1899,6 +1924,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill72Description3]",
         "descriptions": {
+          "ja-JP": "花雷を強化する。物理攻撃の回数が5回になる。",
           "zh-CN": "强化烟花雷动，攻击次数增加为5次。"
         },
         "equipment_rarity_flags": 512,
@@ -1919,6 +1945,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription720031]",
           "descriptions": {
+            "ja-JP": "「折角のお祭りなんだから、もっともーっとアゲてこ♪」ターン開始時1ターンの間攻撃力が最も高い味方の攻撃力を自身の攻撃力×20%増加させる。このスキルは発動後4回行動終了するまで再び発動しない。",
             "zh-CN": "“这么难得的祭典，大家跟着我再嗨一点～♪”回合开始时，使攻击力最高的友军增加攻击力，增幅为科迪攻击力×20%，效果持续1回合。此技能须在结束4次行动后才可再次触发。"
           },
           "equipment_rarity_flags": 0,
@@ -1933,6 +1960,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription720032]",
           "descriptions": {
+            "ja-JP": "『攻撃力増加』のターン数が2ターンになる。",
             "zh-CN": "「攻击力上升」效果增加为2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -1947,6 +1975,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription720033]",
           "descriptions": {
+            "ja-JP": "攻撃力の増加量が自身の攻撃力×60%になる。",
             "zh-CN": "攻击力增幅提升为科迪攻击力×60%。"
           },
           "equipment_rarity_flags": 0,
@@ -1961,6 +1990,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription720034]",
           "descriptions": {
+            "ja-JP": "",
             "zh-CN": ""
           },
           "equipment_rarity_flags": 256,
@@ -2045,6 +2075,7 @@
       },
       "name_key": "[PassiveSkillName72003]",
       "names": {
+        "ja-JP": "お祭り騒ぎ",
         "zh-CN": "嗨翻祭典"
       },
       "source_memo_ja": "浴衣コルディSR:Lv1 「折角のお祭りなんだから、もっともーっとアゲてこ♪」ターン開始時1ターンの間攻撃力が最も高い味方の攻撃力を自身の攻撃力×20%増加させる。このスキルは4ターンに1回発動する。/ Lv2 『攻撃力増加』のターン数が2ターンになる。/ Lv3 攻撃力の増加量が自身の攻撃力×60%になる。/ Ex2 お祭り騒ぎを強化する。お祭り騒ぎの対象が攻撃力が高い味方2体になる。",
@@ -2076,6 +2107,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription720041]",
           "descriptions": {
+            "ja-JP": "百発百中のガンマンの腕の見せ所──自身が攻撃するたび、1ターンの間自身の防御力と魔法防御力がそれぞれ3%増加する（最大10スタック、30%まで）（解除不可）。攻撃した回数1回につき増加量が3%大きくなる。",
             "zh-CN": "现在正是百发百中的神枪手露一手绝活的时候——每次攻击使科迪增加3%防御力与魔法防御力，效果持续1回合（最多叠加10层，合计30%）（无法被解除）。每次攻击再使防御力与魔法防御力增幅提升3%。"
           },
           "equipment_rarity_flags": 0,
@@ -2090,6 +2122,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription720042]",
           "descriptions": {
+            "ja-JP": "このスキルが自身が攻撃を受けるたびにも発動するようになる。自身が攻撃を受けた回数1回につき増加量が3%大きくなる。",
             "zh-CN": "技能触发条件增加为科迪进行攻击与受到攻击。每次受到攻击，再使防御力与魔法防御力增幅提升3%。"
           },
           "equipment_rarity_flags": 0,
@@ -2104,6 +2137,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription720043]",
           "descriptions": {
+            "ja-JP": "防御力と魔法防御力の増加量が10%になり、増加量最大値が100%になる。攻撃した回数1回につき、もしくは自身が攻撃を受けた回数1回につき増加量が10%大きくなる。",
             "zh-CN": "防御力与魔法防御力增幅提升为10%，增幅上限提升为100%。每次进行攻击或受到攻击，再使防御力与魔法防御力增幅提升10%。"
           },
           "equipment_rarity_flags": 0,
@@ -2186,6 +2220,7 @@
       },
       "name_key": "[PassiveSkillName72004]",
       "names": {
+        "ja-JP": "拍手喝采",
         "zh-CN": "欢呼喝彩"
       },
       "source_memo_ja": "浴衣コルディSR:Lv1 百発百中のガンマンの腕の見せ所――自身が攻撃するたび、1ターンの間自身の防御力と魔法防御力がそれぞれ3%増加する（最大30%まで）（解除不可）。攻撃した回数1回につき増加量が3%大きくなる。/ Lv2 このスキルが自身が攻撃を受けるたびにも発動するようになる。自身が攻撃を受けた回数1回につき増加量が3％大きくなる。/ Lv3 防御力と魔法防御力の増加量が10%になり、増加量最大値が100%になる。攻撃した回数1回につき、もしくは自身が攻撃を受けた回数1回につき増加量が10%大きくなる。",
@@ -2241,6 +2276,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

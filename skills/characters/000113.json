@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription1130011]",
           "descriptions": {
+            "ja-JP": "長い間、一人で戦ってきた。だからこそ共に戦う者たちを、失いたくない──4ターンの間、付帯しているバフの個数が最も多い味方のHPドレインを10%増加させる。ひとたび剣を振るえば、周囲に真紅の露が降りる。その後ランダムな敵に3回攻撃力×420%の物理攻撃を行う。",
             "zh-CN": "长久以来只能孤身奋战的鹭丝堤卡，不愿失去与她并肩作战的同伴——使身上附带增益效果最多的友军增加10%吸血，效果持续4回合。每当她挥剑时，鲜红的露滴便会如雨点般洒落。再随机对敌人进行3次攻击，每次造成攻击力×420%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription1130012]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×580%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×580%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1130013]",
           "descriptions": {
+            "ja-JP": "HPドレインの増加量が30%になる。",
             "zh-CN": "吸血增幅提升为30%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1130014]",
           "descriptions": {
+            "ja-JP": "真紅の露を強化する。物理攻撃の回数が5回になる。",
             "zh-CN": "强化鲜红色露滴，攻击次数增加为5次。"
           },
           "equipment_rarity_flags": 128,
@@ -67,6 +71,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription1130015]",
           "descriptions": {
+            "ja-JP": "真紅の露を強化する。物理攻撃のダメージが攻撃力×640%になる。",
             "zh-CN": "强化鲜红色露滴，造成的物理伤害提升为攻击力×640%。"
           },
           "equipment_rarity_flags": 512,
@@ -161,6 +166,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName113001]",
       "names": {
+        "ja-JP": "真紅の露",
         "zh-CN": "鲜红色露滴"
       },
       "source_memo_ja": "ルスティカSR:Lv1 長い間、一人で戦ってきた。だからこそ共に戦う者たちを、失いたくない――4ターンの間、付帯しているバフの個数が最も多い味方のHPドレインを10％増加させる。ひとたび剣を振るえば、周囲に真紅の露が降りる。その後ランダムな敵に3回攻撃力×420％の物理攻撃を行う。/ Lv2 物理攻撃のダメージが攻撃力×580%になる。/ Lv3 HPドレインの増加量が30％になる。/ Ex1 真紅の露を強化する。物理攻撃の回数が5回になる。/ Ex3 真紅の露を強化する。物理攻撃のダメージが攻撃力×640％になる。",
@@ -198,6 +204,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription1130021]",
           "descriptions": {
+            "ja-JP": "火葬場から煙があがるのは、誰かが亡くなった証。煙が昇る度、悔恨に襲われ、それを無理やり力に変えた。その感覚は、煤のように今も身に染み付いている。4ターンの間、付帯しているバフの個数が最も多い味方の攻撃力を10%増加させる。その後攻撃力が最も高い敵に4回攻撃力×370%の物理攻撃を行う。",
             "zh-CN": "火葬场冒出的黑烟，是有人过世的象征。每当看见烟雾升起，鹭丝堤卡便会感到无尽的悔恨，并将这股悲愤强行转化为力量。那种感觉就像煤灰一样，至今仍附着在身上。鹭丝堤卡使身上附带增益效果最多的友军增加10%攻击力，效果持续4回合。再对攻击力最高的敌人进行4次攻击，每次造成攻击力×370%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -212,6 +219,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription1130022]",
           "descriptions": {
+            "ja-JP": "さらにこのスキルを発動するたび攻撃回数が1回多くなる（合計で最大6回まで）。",
             "zh-CN": "每次发动此技能，可使攻击次数增加1次（合计最多6连击）。"
           },
           "equipment_rarity_flags": 0,
@@ -226,6 +234,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription1130023]",
           "descriptions": {
+            "ja-JP": "攻撃力の増加量が30%になる。",
             "zh-CN": "攻击力增幅提升为30%。"
           },
           "equipment_rarity_flags": 0,
@@ -240,6 +249,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription1130024]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×740%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×740%。"
           },
           "equipment_rarity_flags": 0,
@@ -339,6 +349,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName113002]",
       "names": {
+        "ja-JP": "煤まみれの乙鳥",
         "zh-CN": "满身煤灰的燕子"
       },
       "source_memo_ja": "ルスティカSR:Lv1 火葬場から煙があがるのは、誰かが亡くなった証。煙が昇る度、悔恨に襲われ、それを無理やり力に変えた。その感覚は、煤のように今も身に染み付いている。4ターンの間、付帯しているバフの個数が最も多い味方の攻撃力を10％増加させる。その後攻撃力が最も高い敵に4回攻撃力×370％の物理攻撃を行う。/ Lv2 さらにこのスキルを使うたび攻撃回数が1回多くなる（合計で最大6回まで）。/ Lv3 攻撃力の増加量が30％になる。/ Lv4 物理攻撃のダメージが攻撃力×740%になる。",
@@ -801,6 +812,7 @@
       },
       "name_key": "[CharacterCollectionName66]",
       "names": {
+        "ja-JP": "アクルックスの未来​",
         "zh-CN": "十字架二的未来"
       },
       "required_character_ids": [
@@ -811,12 +823,14 @@
         {
           "id": 111,
           "names": {
+            "ja-JP": "ティリー",
             "zh-CN": "姬璃"
           }
         },
         {
           "id": 113,
           "names": {
+            "ja-JP": "ルスティカ",
             "zh-CN": "鹭丝堤卡"
           }
         }
@@ -886,12 +900,14 @@
     "memo": "ルスティカ",
     "name_key": "[CharacterName113]",
     "names": {
+      "ja-JP": "ルスティカ",
       "zh-CN": "鹭丝堤卡"
     },
     "speed": 3187,
     "start_time_jst": "2025-02-28 15:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -965,6 +981,7 @@
     },
     "name_key": "[EquipmentName777]",
     "names": {
+      "ja-JP": "インジェミスコ",
       "zh-CN": "罪人之叹"
     },
     "passive_effects": [
@@ -998,6 +1015,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill113Description1]",
         "descriptions": {
+          "ja-JP": "真紅の露を強化する。物理攻撃の回数が5回になる。",
           "zh-CN": "强化鲜红色露滴，攻击次数增加为5次。"
         },
         "equipment_rarity_flags": 128,
@@ -1006,6 +1024,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill113Description2]",
         "descriptions": {
+          "ja-JP": "蒼金繕いのルベウスを強化する。『シールド』の大きさが自身の攻撃力×400%になる。対象が黄属性の場合、『シールド』の大きさが自身の攻撃力×800%になる。",
           "zh-CN": "强化青金缮补的红宝石，「护盾」值提升为鹭丝堤卡攻击力×400%。当附加目标为流金属性时，「护盾」值提升为鹭丝堤卡攻击力×800%。"
         },
         "equipment_rarity_flags": 256,
@@ -1014,6 +1033,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill113Description3]",
         "descriptions": {
+          "ja-JP": "真紅の露を強化する。物理攻撃のダメージが攻撃力×640%になる。",
           "zh-CN": "强化鲜红色露滴，造成的物理伤害提升为攻击力×640%。"
         },
         "equipment_rarity_flags": 512,
@@ -1034,6 +1054,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription1130031]",
           "descriptions": {
+            "ja-JP": "生きる意味も理由も消え、あとは一人朽ちるのみ。だが、差し伸べられた小さな手に、もう一度生きる決意をした。そして願わくば、同じことを誰かに──自身の行動終了時、8ターンの間自身と自身以外の付帯しているバフの個数が最も多い味方に自身の攻撃力×50%の『シールド』を付与する（解除不可）。このスキルは発動後8回行動終了するまで再び発動しない。",
             "zh-CN": "活着的意义和理由都已消失，今后只用孤独地等待腐朽。然而，当女孩对她伸出小小的手时，鹭丝堤卡决定为了她再活一次，并期望有朝一日，自己也能带给某个人活下去的力量——行动结束时，鹭丝堤卡使自己与身上附带增益效果最多的其他友军，获得鹭丝堤卡攻击力×50%的「护盾」，效果持续8回合（无法被解除）。此技能须在结束8次行动后才可再次触发。"
           },
           "equipment_rarity_flags": 0,
@@ -1048,6 +1069,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription1130032]",
           "descriptions": {
+            "ja-JP": "『シールド』の大きさが自身の攻撃力×75%になる。",
             "zh-CN": "「护盾」值提升为鹭丝堤卡攻击力×75%。"
           },
           "equipment_rarity_flags": 0,
@@ -1062,6 +1084,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription1130033]",
           "descriptions": {
+            "ja-JP": "さらに『シールド』付与の対象が黄属性の場合、『シールド』の大きさが自身の攻撃力×150%になる。",
             "zh-CN": "当「护盾」的附加目标为流金属性时，「护盾」值提升为鹭丝堤卡攻击力×150%。"
           },
           "equipment_rarity_flags": 0,
@@ -1076,6 +1099,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription1130034]",
           "descriptions": {
+            "ja-JP": "蒼金繕いのルベウスを強化する。『シールド』の大きさが自身の攻撃力×400%になる。対象が黄属性の場合、『シールド』の大きさが自身の攻撃力×800%になる。",
             "zh-CN": "强化青金缮补的红宝石，「护盾」值提升为鹭丝堤卡攻击力×400%。当附加目标为流金属性时，「护盾」值提升为鹭丝堤卡攻击力×800%。"
           },
           "equipment_rarity_flags": 256,
@@ -1188,6 +1212,7 @@
       },
       "name_key": "[PassiveSkillName113003]",
       "names": {
+        "ja-JP": "蒼金繕いのルベウス",
         "zh-CN": "青金缮补的红宝石"
       },
       "source_memo_ja": "ルスティカSR:Lv1 生きる意味も理由も消え、あとは一人朽ちるのみ。だが、差し伸べられた小さな手に、もう一度生きる決意をした。そして願わくば、同じことを誰かに――自身の行動終了時、8ターンの間自身と自身以外の付帯しているバフの個数が最も多い味方に自身の攻撃力×50％の『シールド』を付与する（解除不可）。このスキルは発動後8回行動終了するまで再び発動しない。/ Lv2 『シールド』の大きさが自身の攻撃力×75％になる。/ Lv3 さらに『シールド』付与の対象が黄属性の場合、『シールド』の大きさが自身の攻撃力×150％になる。/ Ex2 蒼金繕いのルベウスを強化する。『シールド』の大きさが自身の攻撃力×400%になる。対象が黄属性の場合、『シールド』の大きさが自身の攻撃力×800%になる。",
@@ -1219,6 +1244,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription1130041]",
           "descriptions": {
+            "ja-JP": "「今度は奪わせない──」バトル開始時、自身に1ターンの間『青い鳥の守り人』を付与する（解除不可）。このバフは自身の被ダメージを75%減少させる。",
             "zh-CN": "“这次我不会再让你们得逞了。”战斗开始时，鹭丝堤卡获得「青鸟的守护者」状态，减少75%自身承受伤害，效果持续1回合（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1233,6 +1259,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription1130042]",
           "descriptions": {
+            "ja-JP": "さらに自身の行動終了時、バフを3つ以上付帯している味方がいる場合、自身に『青い鳥の守り人』を再付与する（自身が付帯しているバフのターン数が減少した後にカウントされる）。",
             "zh-CN": "行动结束时，如果场上有身上附带3种以上增益效果的友军，鹭丝堤卡再度获得「青鸟的守护者」状态（增益效果总数于鹭丝堤卡身上附带的增益效果持续时间减少后进行计算）。"
           },
           "equipment_rarity_flags": 0,
@@ -1247,6 +1274,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription1130043]",
           "descriptions": {
+            "ja-JP": "自身の行動開始時、バフを4つ以上付帯している味方がいる場合、1ターンの間自身の攻撃力が30%増加する（解除不可）。",
             "zh-CN": "行动开始时，如果场上有身上附带4种以上增益效果的友军，鹭丝堤卡使自己增加30%攻击力，效果持续1回合（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1336,6 +1364,7 @@
       },
       "name_key": "[PassiveSkillName113004]",
       "names": {
+        "ja-JP": "青い鳥の守り人",
         "zh-CN": "青鸟的守护者"
       },
       "source_memo_ja": "ルスティカSR:Lv1 「今度は奪わせない――」バトル開始時、自身に1ターンの間『青い鳥の守り人』を付与する（解除不可）。このバフは自身の被ダメージを75％減少させる。/ Lv2 さらに自身の行動終了時、バフを3つ以上付帯している味方がいる場合、自身に『青い鳥の守り人』を再付与する（自身が付帯しているバフのターン数が減少した後にカウントされる）。/ Lv3 自身の行動開始時、バフを4つ以上付帯している味方がいる場合、1ターンの間自身の攻撃力が30％増加する（解除不可）。",
@@ -1391,6 +1420,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

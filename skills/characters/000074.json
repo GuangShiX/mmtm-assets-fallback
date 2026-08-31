@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription740011]",
           "descriptions": {
+            "ja-JP": "「やっちゃうぞー！」時空を繋ぐ穴から飛び出した星が敵に降り注ぎ、現在HPが最も高い敵の攻撃力と防御力をそれぞれ15%吸収し、2ターンの間自身に加える（弱体効果命中の判定はそれぞれ別で行われる）。それは聖なる夜の奇跡か、トリックか──その後対象に対象の現在HP×10%の直接攻撃を行う。この直接攻撃はクリティカルヒットせず、直接攻撃のダメージは吸収後の自身の攻撃力×500%を超えない。",
             "zh-CN": "“我要出招咯——！”托波波从连接不同时空的神奇洞穴中发射星星，星星落在敌人身上，吸收当前生命值最高的敌人15%攻击力与15%防御力，效果持续2回合（弱化效果命中与否分别进行判定）。这是圣夜的奇迹？还是一场恶作剧？再对技能目标造成目标当前生命值×10%的直接伤害（无法暴击，伤害量无法超过托波波当前攻击力×500%）。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription740012]",
           "descriptions": {
+            "ja-JP": "直接攻撃のダメージが対象の現在HP×15%になる。",
             "zh-CN": "造成的直接伤害提升为技能目标当前生命值×15%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription740013]",
           "descriptions": {
+            "ja-JP": "さらに自身に2ターンの間このスキルの総与ダメージ×50%の『シールド』を付与する。",
             "zh-CN": "托波波额外获得技能总伤害×50%的「护盾」，效果持续2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription740014]",
           "descriptions": {
+            "ja-JP": "ミラクルスターを強化する。攻撃力と防御力の吸収量がそれぞれ35%になる。",
             "zh-CN": "强化奇迹星星，攻击力与防御力吸收量提升为35%。"
           },
           "equipment_rarity_flags": 128,
@@ -67,6 +71,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription740015]",
           "descriptions": {
+            "ja-JP": "ミラクルスターを強化する。直接攻撃のダメージが対象の現在HP×20%になる。",
             "zh-CN": "强化奇迹星星，造成的直接伤害提升为技能目标当前生命值×20%。"
           },
           "equipment_rarity_flags": 256,
@@ -81,6 +86,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription740016]",
           "descriptions": {
+            "ja-JP": "ミラクルスターを強化する。『シールド』の大きさがこのスキルの総与ダメージ×100%になる。",
             "zh-CN": "强化奇迹星星，「护盾」值提升为技能总伤害×100%。"
           },
           "equipment_rarity_flags": 512,
@@ -170,6 +176,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName74001]",
       "names": {
+        "ja-JP": "ミラクルスター",
         "zh-CN": "奇迹星星"
       },
       "source_memo_ja": "聖夜トロポンSR:Lv1 「やっちゃうぞー！」時空を繋ぐ穴から飛び出した星が敵に降り注ぎ、現在HPが最も高い敵の攻撃力と防御力をそれぞれ15％吸収し、2ターンの間自身に加える（弱体効果命中の判定はそれぞれ別で行われる）。それは聖なる夜の奇跡か、トリックか――その後対象に対象の現在HP×10％の直接攻撃を行う。この直接攻撃はクリティカルヒットせず、直接攻撃のダメージは吸収後の自身の攻撃力×500%を超えない。/ Lv2 直接攻撃のダメージが対象の現在HP×15％になる。/ Lv3 さらに自身に2ターンの間このスキルの総与ダメージ×50％の『シールド』を付与する。/ Ex1 ミラクルスターを強化する。攻撃力と防御力の吸収量がそれぞれ35％になる。/ Ex2 ミラクルスターを強化する。直接攻撃のダメージが対象の現在HP×20％になる。/ Ex3 ミラクルスターを強化する。『シールド』の大きさがこのスキルの総与ダメージ×100％になる。",
@@ -211,6 +218,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription740021]",
           "descriptions": {
+            "ja-JP": "時空を超えた魔法が穴から飛び出す。右かと思ったら左、上かと思ったら斜め横、どこから何が飛び出すか分からない──ランダムな敵5体に攻撃力×250%の魔法攻撃を行い、10%の確率で対象に1ターンの間『気絶』を付与する。",
             "zh-CN": "超越了时空的魔法，从神奇的洞穴里飞出来——左边或右边？上面或侧面？什么东西会从哪里飞出来？这要亲自挨一发才知道。托波波随机对5名敌人造成攻击力×250%的魔法伤害，10%概率附加「晕厥」状态，效果持续1回合。"
           },
           "equipment_rarity_flags": 0,
@@ -225,6 +233,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription740022]",
           "descriptions": {
+            "ja-JP": "さらにこのスキルで敵を戦闘不能にできなかった場合、自身が付帯しているバフ全てのターン数を1増加させる。このスキルによる攻撃時に自身に新たにバフが付与される場合、そのバフも対象となる。",
             "zh-CN": "如果技能目标仍然存活，托波波身上的所有增益效果额外增加1回合（包含此技能发动后使托波波获得的增益效果）。"
           },
           "equipment_rarity_flags": 0,
@@ -239,6 +248,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription740023]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×340%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×340%。"
           },
           "equipment_rarity_flags": 0,
@@ -253,6 +263,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription740024]",
           "descriptions": {
+            "ja-JP": "『気絶』を付与する確率が20%になる。",
             "zh-CN": "附加「晕厥」状态的概率提升为20%。"
           },
           "equipment_rarity_flags": 0,
@@ -321,6 +332,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName74002]",
       "names": {
+        "ja-JP": "イリュージョン！",
         "zh-CN": "障眼法！"
       },
       "source_memo_ja": "聖夜トロポンSR:Lv1 時空を超えた魔法が穴から飛び出す。右かと思ったら左、上かと思ったら斜め横、どこから何が飛び出すか分からない――ランダムな敵5体に攻撃力×250％の魔法攻撃を行い、10％の確率で対象に1ターンの間『気絶』を付与する。/ Lv2 さらにこのスキルで敵を戦闘不能にできなかった場合、自身が付帯しているバフ全てのターン数を1増加させる。このスキルによる攻撃時に聖夜の祈りの効果で自身に新たにバフが付与される場合、そのバフも対象となる。/ Lv3 魔法攻撃のダメージが攻撃力×340％になる。/ Lv4 『気絶』を付与する確率が20％になる。",
@@ -783,6 +795,7 @@
       },
       "name_key": "[CharacterCollectionName35]",
       "names": {
+        "ja-JP": "ホロロギウムの奇跡",
         "zh-CN": "时钟座的奇迹"
       },
       "required_character_ids": [
@@ -793,12 +806,14 @@
         {
           "id": 74,
           "names": {
+            "ja-JP": "トロポン",
             "zh-CN": "托波波"
           }
         },
         {
           "id": 36,
           "names": {
+            "ja-JP": "トロポン",
             "zh-CN": "托波波"
           }
         }
@@ -868,12 +883,14 @@
     "memo": "聖夜トロポン",
     "name_key": "[CharacterName74]",
     "names": {
+      "ja-JP": "トロポン",
       "zh-CN": "托波波"
     },
     "speed": 3057,
     "start_time_jst": "2023-12-13 15:00:00",
     "subtitle_key": "[CharacterSubName74]",
     "subtitles": {
+      "ja-JP": "聖夜の祈り",
       "zh-CN": "圣夜的祈愿"
     }
   },
@@ -947,6 +964,7 @@
     },
     "name_key": "[EquipmentName543]",
     "names": {
+      "ja-JP": "コロちゃん",
       "zh-CN": "托小波"
     },
     "passive_effects": [
@@ -980,6 +998,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill74Description1]",
         "descriptions": {
+          "ja-JP": "ミラクルスターを強化する。攻撃力と防御力の吸収量がそれぞれ35%になる。",
           "zh-CN": "强化奇迹星星，攻击力与防御力吸收量提升为35%。"
         },
         "equipment_rarity_flags": 128,
@@ -988,6 +1007,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill74Description2]",
         "descriptions": {
+          "ja-JP": "ミラクルスターを強化する。直接攻撃のダメージが対象の現在HP×20%になる。",
           "zh-CN": "强化奇迹星星，造成的直接伤害提升为技能目标当前生命值×20%。"
         },
         "equipment_rarity_flags": 256,
@@ -996,6 +1016,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill74Description3]",
         "descriptions": {
+          "ja-JP": "ミラクルスターを強化する。『シールド』の大きさがこのスキルの総与ダメージ×100%になる。",
           "zh-CN": "强化奇迹星星，「护盾」值提升为技能总伤害×100%。"
         },
         "equipment_rarity_flags": 512,
@@ -1016,6 +1037,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription740031]",
           "descriptions": {
+            "ja-JP": "聖なる夜は、お星さまが願い事を叶えてくれる──自身が攻撃したとき、10%の確率で対象が付帯しているバフを1つ奪取する。",
             "zh-CN": "圣夜的时候，天上的星星会实现我的愿望——托波波发动攻击后，10%概率从目标身上夺取1种增益效果。"
           },
           "equipment_rarity_flags": 0,
@@ -1030,6 +1052,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription740032]",
           "descriptions": {
+            "ja-JP": "敵のバフを奪取する確率が20%になる。",
             "zh-CN": "夺取增益效果的概率提升为20%。"
           },
           "equipment_rarity_flags": 0,
@@ -1044,6 +1067,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription740033]",
           "descriptions": {
+            "ja-JP": "敵のバフを奪取する確率が30%になる。",
             "zh-CN": "夺取增益效果的概率提升为30%。"
           },
           "equipment_rarity_flags": 0,
@@ -1112,6 +1136,7 @@
       },
       "name_key": "[PassiveSkillName74003]",
       "names": {
+        "ja-JP": "聖夜の祈り",
         "zh-CN": "圣夜的祈愿"
       },
       "source_memo_ja": "聖夜トロポンSR:Lv1 聖なる夜は、お星さまが願い事を叶えてくれる――自身が攻撃したとき、10％の確率で対象が付帯しているバフを1つ解除し、成功した場合にその効果を自身に付与する。/ Lv2 敵のバフを解除して自身に付与する確率が20％になる。/ Lv3 敵のバフを解除して自身に付与する確率が30％になる。",
@@ -1139,6 +1164,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription740041]",
           "descriptions": {
+            "ja-JP": "おとーさんとおかーさんは優しかった。優しい嘘で、アタシを守ってくれた──自身の最大HPが20%増加する（解除不可）。",
             "zh-CN": "“爸爸妈妈很善良，一直用善意的谎言保护我。”托波波使自己增加20%最大生命值（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1153,6 +1179,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription740042]",
           "descriptions": {
+            "ja-JP": "さらに自身の弱体効果命中率が20%増加する（解除不可）。",
             "zh-CN": "使自己额外增加20%弱化效果命中率（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1167,6 +1194,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription740043]",
           "descriptions": {
+            "ja-JP": "最大HPと弱体効果命中率の増加量がそれぞれ40%になる。",
             "zh-CN": "最大生命值与弱化效果命中率增幅提升为40%。"
           },
           "equipment_rarity_flags": 0,
@@ -1235,6 +1263,7 @@
       },
       "name_key": "[PassiveSkillName74004]",
       "names": {
+        "ja-JP": "優しい嘘",
         "zh-CN": "善意的谎言"
       },
       "source_memo_ja": "聖夜トロポンSR:Lv1 おとーさんとおかーさんは優しかった。優しい嘘で、アタシを守ってくれた――自身の最大HPが20％増加する（解除不可）。/ Lv2 さらに自身の弱体効果命中率が20％増加する（解除不可）。/ Lv3 最大HPと弱体効果命中率の増加量がそれぞれ40％になる。",
@@ -1290,6 +1319,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

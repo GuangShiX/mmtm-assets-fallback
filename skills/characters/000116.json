@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription1160011]",
           "descriptions": {
+            "ja-JP": "核として埋め込まれた錆鉄の力で、ランダムな敵2体に攻撃力×280%の魔法攻撃を行い、70%の確率で3ターンの間対象のクリティカル率を30%減少させる。その後70%の確率で攻撃力が最も高い敵に1ターンの間『気絶』を付与する。",
             "zh-CN": "D.D.发动研究员植入自己体内作为核心的锈铁之力，随机对2名敌人造成攻击力×280%的魔法伤害，70%概率使技能目标减少30%暴击率，效果持续3回合。再以70%概率对攻击力最高的敌人附加「晕厥」状态，效果持续1回合。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription1160012]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×420%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×420%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1160013]",
           "descriptions": {
+            "ja-JP": "魔法攻撃の対象がランダムな敵3体になる。",
             "zh-CN": "攻击目标增加为3名随机敌人。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1160014]",
           "descriptions": {
+            "ja-JP": "ラスト・リーヴァーを強化する。『気絶』のターン数が2ターンになる。",
             "zh-CN": "强化锈蚀掠夺者，「晕厥」效果增加为2回合。"
           },
           "equipment_rarity_flags": 128,
@@ -67,6 +71,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription1160015]",
           "descriptions": {
+            "ja-JP": "ラスト・リーヴァーを強化する。魔法攻撃のダメージが攻撃力×470%になる。",
             "zh-CN": "强化锈蚀掠夺者，造成的魔法伤害提升为攻击力×470%。"
           },
           "equipment_rarity_flags": 512,
@@ -147,6 +152,7 @@
       "max_cooldown": 5,
       "name_key": "[ActiveSkillName116001]",
       "names": {
+        "ja-JP": "ラスト・リーヴァー",
         "zh-CN": "锈蚀掠夺者"
       },
       "source_memo_ja": "D.D.SR:Lv1 ランダムな敵2体に攻撃力×280％の魔法攻撃を行い、70％の確率で3ターンの間対象のクリティカル率を30％減少させる。その後70％の確率で攻撃力が最も高い敵に1ターンの間『気絶』を付与する。/ Lv2 魔法攻撃のダメージが攻撃力×420％になる。/ Lv3 魔法攻撃の対象がランダムな敵3体になる。/ Ex1 スキル1を強化する。『気絶』のターン数が2ターンになる。/ Ex3 スキル1を強化する。魔法攻撃のダメージが攻撃力×470％になる。",
@@ -184,6 +190,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription1160021]",
           "descriptions": {
+            "ja-JP": "錆を呑みこむ朽鉄の力で、ランダムな敵に3回攻撃力×210%の魔法攻撃を行う。",
             "zh-CN": "D.D.发动吞噬铁锈的朽铁之力，随机对敌人进行3次攻击，每次造成攻击力×210%的魔法伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -198,6 +205,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription1160022]",
           "descriptions": {
+            "ja-JP": "魔法攻撃の回数が4回になる。",
             "zh-CN": "攻击次数增加为4次。"
           },
           "equipment_rarity_flags": 0,
@@ -212,6 +220,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription1160023]",
           "descriptions": {
+            "ja-JP": "さらにこのスキルを7ターン目以降に発動した場合、魔法攻撃の前に5ターンの間攻撃力が高い味方2体の攻撃力を50%増加させる。",
             "zh-CN": "第7回合起，发动攻击前使攻击力最高的2名友军额外增加50%攻击力，效果持续5回合。"
           },
           "equipment_rarity_flags": 0,
@@ -226,6 +235,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription1160024]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×530%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×530%。"
           },
           "equipment_rarity_flags": 0,
@@ -304,6 +314,7 @@
       "max_cooldown": 5,
       "name_key": "[ActiveSkillName116002]",
       "names": {
+        "ja-JP": "朽鉄の魔眼",
         "zh-CN": "朽铁魔眼"
       },
       "source_memo_ja": "D.D.SR:Lv1 ランダムな敵に3回攻撃力×210％の魔法攻撃を行う。/ Lv2 魔法攻撃の回数が4回になる。/ Lv3 さらにこのスキルを7ターン目以降に発動した場合、魔法攻撃の前に5ターンの間攻撃力が高い味方2体の攻撃力を50％増加させる。/ Lv4 魔法攻撃のダメージが攻撃力×530％になる。",
@@ -758,6 +769,7 @@
       },
       "name_key": "[CharacterCollectionName70]",
       "names": {
+        "ja-JP": "オクタンスの残火",
         "zh-CN": "八分仪座的余火"
       },
       "required_character_ids": [
@@ -768,12 +780,14 @@
         {
           "id": 116,
           "names": {
+            "ja-JP": "Ｄ.Ｄ.",
             "zh-CN": "D.D."
           }
         },
         {
           "id": 48,
           "names": {
+            "ja-JP": "Ａ.Ａ.",
             "zh-CN": "A.A."
           }
         }
@@ -843,12 +857,14 @@
     "memo": "Ｄ.Ｄ.",
     "name_key": "[CharacterName116]",
     "names": {
+      "ja-JP": "Ｄ.Ｄ.",
       "zh-CN": "D.D."
     },
     "speed": 3075,
     "start_time_jst": "2025-04-15 15:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -923,6 +939,7 @@
     },
     "name_key": "[EquipmentName795]",
     "names": {
+      "ja-JP": "至上の女神",
       "zh-CN": "至高女神"
     },
     "passive_effects": [
@@ -956,6 +973,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill116Description1]",
         "descriptions": {
+          "ja-JP": "ラスト・リーヴァーを強化する。『気絶』のターン数が2ターンになる。",
           "zh-CN": "强化锈蚀掠夺者，「晕厥」效果增加为2回合。"
         },
         "equipment_rarity_flags": 128,
@@ -964,6 +982,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill116Description2]",
         "descriptions": {
+          "ja-JP": "戦闘用ホムンクルスを強化する。自身が攻撃を受けて、攻撃してきた敵のスピードが自身よりも低い場合、もしくは自身がカウンタダメージを受けたとき、ダメージの遮断量が70%になる。",
           "zh-CN": "强化战斗用人造人，当D.D.受到攻击且发动攻击的敌人速度低于D.D.，或D.D.受到反弹伤害时，伤害阻绝量额外提升为70%。"
         },
         "equipment_rarity_flags": 256,
@@ -972,6 +991,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill116Description3]",
         "descriptions": {
+          "ja-JP": "ラスト・リーヴァーを強化する。魔法攻撃のダメージが攻撃力×470%になる。",
           "zh-CN": "强化锈蚀掠夺者，造成的魔法伤害提升为攻击力×470%。"
         },
         "equipment_rarity_flags": 512,
@@ -992,6 +1012,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription1160031]",
           "descriptions": {
+            "ja-JP": "お姉様の呪いを核にして、お姉様を模して造られた、血よりも濃い呪いの絆がアタシ達を結びつける。バトル開始時、自身と自身に隣接する味方1体のクリティカル耐性率を5%増加させる（解除不可）。",
             "zh-CN": "将姐姐的诅咒作为核心，以姐姐为模板打造而成——我们姐妹间共同的诅咒，就是比血缘更加深沉的联结。战斗开始时，D.D.使自己与附近的1名友军增加5%抗暴率（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1006,6 +1027,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription1160032]",
           "descriptions": {
+            "ja-JP": "クリティカル耐性率の増加量が15%になる。",
             "zh-CN": "抗暴率增幅提升为15%。"
           },
           "equipment_rarity_flags": 0,
@@ -1020,6 +1042,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription1160033]",
           "descriptions": {
+            "ja-JP": "このスキルの対象が自身と自身に隣接する味方2体になる。",
             "zh-CN": "技能目标增加为D.D.与附近的2名友军。"
           },
           "equipment_rarity_flags": 0,
@@ -1088,6 +1111,7 @@
       },
       "name_key": "[PassiveSkillName116003]",
       "names": {
+        "ja-JP": "廃鉄の姉妹",
         "zh-CN": "废铁姐妹"
       },
       "source_memo_ja": "D.D.SR:Lv1 バトル開始時、自身と自身に隣接する味方1体のクリティカル耐性率を5％増加させる（解除不可）。/ Lv2 クリティカル耐性率の増加量が15％になる。/ Lv3 このスキルの対象が自身と自身に隣接する味方2体になる。",
@@ -1115,6 +1139,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription1160041]",
           "descriptions": {
+            "ja-JP": "脆弱で愚かな人間を滅ぼすために、この命は造られた。バトル開始時、自身の最大HPが40%増加する（解除不可）。",
             "zh-CN": "我是被创造出来的生命，目的是为了消灭脆弱又愚蠢的人类。战斗开始时，D.D.使自己增加40%最大生命值（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1129,6 +1154,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription1160042]",
           "descriptions": {
+            "ja-JP": "さらに自身が攻撃を受けたとき、ダメージを50%遮断する。",
             "zh-CN": "当D.D.受到攻击时，额外阻绝50%伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -1143,6 +1169,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription1160043]",
           "descriptions": {
+            "ja-JP": "最大HPの増加量が100%になる。",
             "zh-CN": "最大生命值增幅提升为100%。"
           },
           "equipment_rarity_flags": 0,
@@ -1157,6 +1184,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription1160044]",
           "descriptions": {
+            "ja-JP": "戦闘用ホムンクルスを強化する。自身が攻撃を受けて、攻撃してきた敵のスピードが自身よりも低い場合、もしくは自身がカウンタダメージを受けたとき、ダメージの遮断量が70%になる。",
             "zh-CN": "强化战斗用人造人，当D.D.受到攻击且发动攻击的敌人速度低于D.D.，或D.D.受到反弹伤害时，伤害阻绝量额外提升为70%。"
           },
           "equipment_rarity_flags": 256,
@@ -1262,6 +1290,7 @@
       },
       "name_key": "[PassiveSkillName116004]",
       "names": {
+        "ja-JP": "戦闘用ホムンクルス",
         "zh-CN": "战斗用人造人"
       },
       "source_memo_ja": "D.D.SR:Lv1 バトル開始時、自身の最大HPが40％増加する（解除不可）。/ Lv2 さらに自身が攻撃を受けたとき、ダメージを50％遮断する。/ Lv3 最大HPの増加量が100％になる。/ Ex2 スキル4を強化する。自身が攻撃を受けたとき、さらに攻撃してきた敵のスピードが自身より低い場合、ダメージの遮断量が70％になる。",
@@ -1321,6 +1350,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription1320011]",
           "descriptions": {
+            "ja-JP": "「聖なる覇者よ、我に力を！」自身のHPを自身の最大HP×10%回復する。その後ランダムな敵3体に攻撃力×320%の魔法攻撃を行う。このスキルを7ターン目以降に発動した場合、このスキルの自身のHPを回復する効果は発動しない。",
             "zh-CN": "“圣夜霸主啊，请赐给吾力量！”史黛拉使自己恢复10%最大生命值，并随机对3名敌人造成攻击力×320%的魔法伤害。第7回合起，发动此技能不会恢复生命值。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription1320012]",
           "descriptions": {
+            "ja-JP": "さらに魔法攻撃の前に4ターンの間対象の被ダメージを10%増加させ、魔法防御力を20%減少させる。",
             "zh-CN": "发动攻击前，使攻击目标额外增加10%承受伤害并减少20%魔法防御力，效果持续4回合。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1320013]",
           "descriptions": {
+            "ja-JP": "このスキルを7ターン目以降に発動した場合、被ダメージの増加量が20%、魔法防御力の減少量が40%になる。",
             "zh-CN": "第7回合起，承受伤害增幅提升为20%，魔法防御力降幅提升为40%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1320014]",
           "descriptions": {
+            "ja-JP": "聖なる星の鼓動を強化する。魔法攻撃の対象がランダムな敵5体になり、魔法攻撃のダメージが攻撃力×720%になる。",
             "zh-CN": "强化圣星脉动，攻击目标增加为5名随机敌人，造成的魔法伤害提升为攻击力×720%。"
           },
           "equipment_rarity_flags": 128,
@@ -122,6 +126,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName132001]",
       "names": {
+        "ja-JP": "聖なる星の鼓動",
         "zh-CN": "圣星脉动"
       },
       "source_memo_ja": "冬ステラSR:Lv1 「聖なる覇者よ、我に力を！」自身のHPを自身の最大HP×10%回復する。その後ランダムな敵3体に攻撃力×320%の魔法攻撃を行う。このスキルを7ターン目以降に発動した場合、このスキルの自身のHPを回復する効果は発動しない。/ Lv2 さらに魔法攻撃の前に4ターンの間対象の被ダメージを10%増加させ、魔法防御力を20%減少させる。/ Lv3 このスキルを7ターン目以降に発動した場合、被ダメージの増加量が20%、魔法防御力の減少量が40%になる。/ Ex1 聖なる星の鼓動を強化する。魔法攻撃の対象がランダムな敵5体になり、魔法攻撃のダメージが攻撃力×720%になる。",
@@ -155,6 +160,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription1320021]",
           "descriptions": {
+            "ja-JP": "「やれやれ、手間がかかる……」自身と自身以外の攻撃力が最も高い味方のHPを自身の最大HP×7%回復する。「凍える力よ、溶けない願いとなれ！」その後ランダムな敵に3回攻撃力×420%の魔法攻撃を行う。このスキルを7ターン目以降に発動した場合、このスキルの自身と味方のHPを回復する効果は発動せず、最後の魔法攻撃の後40%の確率で攻撃力が高い敵2体に2ターンの間『沈黙』を付与する。",
             "zh-CN": "“啧啧啧，真是不让人省心……”史黛拉使自己与攻击力最高的其他友军恢复史黛拉最大生命值×7%的生命值。“冰封之力啊，幻化为永不消融的祈愿吧！”再随机对敌人进行3次攻击，每次造成攻击力×420%的魔法伤害。第7回合起，发动此技能不会恢复生命值，在攻击结束后以40%概率对攻击力最高的2名敌人附加「沉默」状态，效果持续2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -169,6 +175,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription1320022]",
           "descriptions": {
+            "ja-JP": "魔法攻撃の回数が4回になる。",
             "zh-CN": "攻击次数增加为4次。"
           },
           "equipment_rarity_flags": 0,
@@ -183,6 +190,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription1320023]",
           "descriptions": {
+            "ja-JP": "『沈黙』を付与する確率が70%になる。",
             "zh-CN": "附加「沉默」状态的概率提升为70%。"
           },
           "equipment_rarity_flags": 0,
@@ -197,6 +205,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription1320024]",
           "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×710%になる。",
             "zh-CN": "造成的魔法伤害提升为攻击力×710%。"
           },
           "equipment_rarity_flags": 0,
@@ -211,6 +220,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription1320025]",
           "descriptions": {
+            "ja-JP": "ファイナルステラを強化する。魔法攻撃のダメージが攻撃力×780%になる。",
             "zh-CN": "强化终焉之星，造成的魔法伤害提升为攻击力×780%。"
           },
           "equipment_rarity_flags": 512,
@@ -320,6 +330,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName132002]",
       "names": {
+        "ja-JP": "ファイナルステラ",
         "zh-CN": "终焉之星"
       },
       "source_memo_ja": "冬ステラSR:Lv1 「やれやれ、手間がかかる……」自身と自身以外の攻撃力が最も高い味方のHPを自身の最大HP×7%回復する。「凍える力よ、溶けない願いとなれ！」その後ランダムな敵に3回攻撃力×420%の魔法攻撃を行う。このスキルを7ターン目以降に発動した場合、このスキルの自身と味方のHPを回復する効果は発動せず、最後の魔法攻撃の後40%の確率で攻撃力が高い敵2体に2ターンの間『沈黙』を付与する。/ Lv2 魔法攻撃の回数が4回になる。/ Lv3 『沈黙』を付与する確率が70%になる。/ Lv4 魔法攻撃のダメージが攻撃力×710%になる。/ Ex3 ファイナルステラを強化する。魔法攻撃のダメージが攻撃力×780%になる。",
@@ -786,6 +797,7 @@
       },
       "name_key": "[CharacterCollectionName84]",
       "names": {
+        "ja-JP": "ハーシェルの樹影​",
         "zh-CN": "反射望远镜座的树影"
       },
       "required_character_ids": [
@@ -796,12 +808,14 @@
         {
           "id": 131,
           "names": {
+            "ja-JP": "マーリン",
             "zh-CN": "梅琳"
           }
         },
         {
           "id": 132,
           "names": {
+            "ja-JP": "ステラ",
             "zh-CN": "史黛拉"
           }
         }
@@ -1239,6 +1253,7 @@
       },
       "name_key": "[CharacterCollectionName85]",
       "names": {
+        "ja-JP": "テレスコピウムの星影",
         "zh-CN": "望远镜座的星辉"
       },
       "required_character_ids": [
@@ -1249,12 +1264,14 @@
         {
           "id": 132,
           "names": {
+            "ja-JP": "ステラ",
             "zh-CN": "史黛拉"
           }
         },
         {
           "id": 57,
           "names": {
+            "ja-JP": "ステラ",
             "zh-CN": "史黛拉"
           }
         }
@@ -1324,12 +1341,14 @@
     "memo": "冬ステラ",
     "name_key": "[CharacterName132]",
     "names": {
+      "ja-JP": "ステラ",
       "zh-CN": "史黛拉"
     },
     "speed": 2968,
     "start_time_jst": "2025-12-11 15:00:00",
     "subtitle_key": "[CharacterSubName132]",
     "subtitles": {
+      "ja-JP": "聖なる漆黒の輝く星",
       "zh-CN": "暗黑圣耀星"
     }
   },
@@ -1404,6 +1423,7 @@
     },
     "name_key": "[EquipmentName891]",
     "names": {
+      "ja-JP": "聖なる混沌の覇者",
       "zh-CN": "圣・混沌霸主"
     },
     "passive_effects": [
@@ -1437,6 +1457,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill132Description1]",
         "descriptions": {
+          "ja-JP": "聖なる星の鼓動を強化する。魔法攻撃の対象がランダムな敵5体になり、魔法攻撃のダメージが攻撃力×720%になる。",
           "zh-CN": "强化圣星脉动，攻击目标增加为5名随机敌人，造成的魔法伤害提升为攻击力×720%。"
         },
         "equipment_rarity_flags": 128,
@@ -1445,6 +1466,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill132Description2]",
         "descriptions": {
+          "ja-JP": "聖夜のおまじないを強化する。被ダメージの減少量が40%、最大HPの増加量が100%になる。",
           "zh-CN": "强化圣夜魔咒，承受伤害降幅提升为40%，最大生命值增幅提升为100%。"
         },
         "equipment_rarity_flags": 256,
@@ -1453,6 +1475,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill132Description3]",
         "descriptions": {
+          "ja-JP": "ファイナルステラを強化する。魔法攻撃のダメージが攻撃力×780%になる。",
           "zh-CN": "强化终焉之星，造成的魔法伤害提升为攻击力×780%。"
         },
         "equipment_rarity_flags": 512,
@@ -1473,6 +1496,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription1320031]",
           "descriptions": {
+            "ja-JP": "「いつか伝えたい。怖がって誤魔化しちゃった、本当の気持ち。ボス、私ね、ボスのことが……」バトル開始時、自身の被ダメージが10%減少し、最大HPと防御力がそれぞれ20%増加する（解除不可）。",
             "zh-CN": "“因为害怕，我掩饰了自己真正的心意。但我希望有一天，可以亲口告诉你——老大，其实我……”战斗开始时，史黛拉减少10%自身承受伤害，增加20%最大生命值与防御力（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1487,6 +1511,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription1320032]",
           "descriptions": {
+            "ja-JP": "さらに7ターン目のターン開始時、自身のスキルクールタイムカウントを0にする。",
             "zh-CN": "第7回合开始时，史黛拉重置技能冷却时间。"
           },
           "equipment_rarity_flags": 0,
@@ -1501,6 +1526,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription1320033]",
           "descriptions": {
+            "ja-JP": "防御力の増加量が150%になる。",
             "zh-CN": "防御力增幅提升为150%。"
           },
           "equipment_rarity_flags": 0,
@@ -1515,6 +1541,7 @@
           "character_level": 240,
           "description_key": "[PassiveSkillDescription1320034]",
           "descriptions": {
+            "ja-JP": "聖夜のおまじないを強化する。被ダメージの減少量が40%、最大HPの増加量が100%になる。",
             "zh-CN": "强化圣夜魔咒，承受伤害降幅提升为40%，最大生命值增幅提升为100%。"
           },
           "equipment_rarity_flags": 256,
@@ -1620,6 +1647,7 @@
       },
       "name_key": "[PassiveSkillName132003]",
       "names": {
+        "ja-JP": "聖夜のおまじない",
         "zh-CN": "圣夜魔咒"
       },
       "source_memo_ja": "冬ステラSR:Lv1 「いつか伝えたい。怖がって誤魔化しちゃった、本当の気持ち。ボス、私ね、ボスのことが……」バトル開始時、自身の被ダメージが10%減少し、最大HPと防御力がそれぞれ20%増加する（解除不可）。/ Lv2 さらに7ターン目のターン開始時、自身のスキルクールタイムカウントを0にする。/ Lv3 防御力の増加量が150%になる。/ Ex2 聖夜のおまじないを強化する。被ダメージの減少量が40%、最大HPの増加量が100%になる。",
@@ -1651,6 +1679,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription1320041]",
           "descriptions": {
+            "ja-JP": "聖なる願いより生まれた星の力が、運命に抗いし者に大いなる力を与える──自身か味方のアクティブスキルがHPを回復する効果を発動したとき、自身に攻撃力と物理防御力がそれぞれ3%増加するバフを1スタック付与する（最大10スタックまで）（解除不可）。",
             "zh-CN": "自圣夜祈愿中诞生的星辰威能，将赐予抗衡命运之人无上的伟力——当史黛拉或友军发动主动技能触发恢复生命值的效果时，史黛拉获得1层增益效果，增加3%攻击力与物理防御力（最多10层）（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1665,6 +1694,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription1320042]",
           "descriptions": {
+            "ja-JP": "物理防御力の増加量が6%になる。",
             "zh-CN": "物理防御力增幅提升为6%。"
           },
           "equipment_rarity_flags": 0,
@@ -1679,6 +1709,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription1320043]",
           "descriptions": {
+            "ja-JP": "攻撃力の増加量が10%になる。",
             "zh-CN": "攻击力增幅提升为10%。"
           },
           "equipment_rarity_flags": 0,
@@ -1768,6 +1799,7 @@
       },
       "name_key": "[PassiveSkillName132004]",
       "names": {
+        "ja-JP": "聖なる漆黒の輝く星",
         "zh-CN": "暗黑圣耀星"
       },
       "source_memo_ja": "冬ステラSR:Lv1 聖なる願いより生まれた星の力が、運命に抗いし者に大いなる力を与える──自身か味方のアクティブスキルがHPを回復する効果を発動したとき、自身に攻撃力と物理防御力がそれぞれ3%増加するバフを1スタック付与する（最大10スタックまで）（解除不可）。/ Lv2 物理防御力の増加量が6%になる。/ Lv3 攻撃力の増加量が10%になる。",
@@ -1823,6 +1855,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

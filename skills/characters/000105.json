@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription1050011]",
           "descriptions": {
+            "ja-JP": "「幸せのおすそ分けです」ランダムな敵3体に攻撃力×280%の物理攻撃を行う。このスキルを再発動する（再発動は1回まで）。",
             "zh-CN": "“把这些幸福分给你吧。”娜塔夏随机对3名敌人造成攻击力×280%的物理伤害。娜塔夏再次发动此技能（最多1次）。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription1050012]",
           "descriptions": {
+            "ja-JP": "さらに物理攻撃の前に自身の『心に咲く花』のスタック数が5以上の場合、再発動の回数が2回までになり、最後の物理攻撃の後に自身の『心に咲く花』のスタック数を5消費する。",
             "zh-CN": "发动攻击前，如果娜塔夏身上附带的「心花盛开」达5层以上，再次发动技能的次数增加为2次，并在攻击结束后消耗5层「心花盛开」。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1050013]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×380%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×380%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription1050014]",
           "descriptions": {
+            "ja-JP": "フラワーギフトを強化する。物理攻撃のダメージが攻撃力×680%になる。",
             "zh-CN": "强化花儿的祝福，造成的物理伤害提升为攻击力×680%。"
           },
           "equipment_rarity_flags": 128,
@@ -128,6 +132,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName105001]",
       "names": {
+        "ja-JP": "フラワーギフト",
         "zh-CN": "花儿的祝福"
       },
       "source_memo_ja": "花束ナターシャSR:Lv1 「幸せのおすそ分けです」ランダムな敵3体に攻撃力×280%の物理攻撃を行う。このスキルを再発動する（再発動は1回まで）。/ Lv2 さらに物理攻撃の前に自身の『心に咲く花』のスタック数が5以上の場合、再発動の回数が2回までになり、最後の物理攻撃の後に自身の『心に咲く花』のスタック数を5消費する。/ Lv3 物理攻撃のダメージが攻撃力×380%になる。/ Ex1 フラワーギフトを強化する。物理攻撃のダメージが攻撃力×680%になる。",
@@ -161,6 +166,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription1050021]",
           "descriptions": {
+            "ja-JP": "「満開の花束をどうぞ」攻撃力が高い敵3体に攻撃力×620%の物理攻撃を行う。対象に1ターンの間『毒』を付与する。毎ターン行動開始時に付帯者の現在HP×4%のダメージを与える。",
             "zh-CN": "“请收下这束盛开的花吧。”娜塔夏对攻击力最高的3名敌人造成攻击力×620%的物理伤害，并附加「中毒」状态，效果持续1回合，每回合行动开始时造成附带者当前生命值×4%的伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -175,6 +181,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription1050022]",
           "descriptions": {
+            "ja-JP": "『毒』のターン数が2ターンになる。",
             "zh-CN": "「中毒」效果增加为2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -189,6 +196,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription1050023]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×1320%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×1320%。"
           },
           "equipment_rarity_flags": 0,
@@ -203,6 +211,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription1050024]",
           "descriptions": {
+            "ja-JP": "さらに物理攻撃の前に自身の『心に咲く花』のスタック数が5以上の場合、物理攻撃のダメージが攻撃力×1980%になり、物理攻撃の後に自身の『心に咲く花』のスタック数を5消費する。",
             "zh-CN": "发动攻击前，如果娜塔夏身上附带的「心花盛开」达5层以上，造成的物理伤害提升为攻击力×1980%，并在攻击结束后消耗5层「心花盛开」。"
           },
           "equipment_rarity_flags": 0,
@@ -217,6 +226,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription1050025]",
           "descriptions": {
+            "ja-JP": "花束をあなたにを強化する。『毒』のダメージが付帯者の現在HP×5%になる。",
             "zh-CN": "强化这束花送给你，「中毒」造成的伤害提升为附带者当前生命值×5%。"
           },
           "equipment_rarity_flags": 512,
@@ -294,6 +304,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName105002]",
       "names": {
+        "ja-JP": "花束をあなたに",
         "zh-CN": "这束花送给你"
       },
       "source_memo_ja": "花束ナターシャSR:Lv1 「満開の花束をどうぞ」攻撃力が高い敵3体に攻撃力×620%の物理攻撃を行う。対象に1ターンの間『毒』を付与する。毎ターン行動開始時に現在HP×4%のダメージを与える。/ Lv2 『毒』のターン数が2ターンになる。/ Lv3 物理攻撃のダメージが攻撃力×1320%になる。/ Lv4 さらに物理攻撃の前に自身の『心に咲く花』のスタック数が5以上の場合、物理攻撃のダメージが攻撃力×1980%になり、物理攻撃の後に自身の『心に咲く花』のスタック数を5消費する。/ Ex3 花束をあなたにを強化する。『毒』のダメージが現在HP×5%に増加する。",
@@ -752,6 +763,7 @@
       },
       "name_key": "[CharacterCollectionName59]",
       "names": {
+        "ja-JP": "ヴェラの花束",
         "zh-CN": "船帆座的繁花"
       },
       "required_character_ids": [
@@ -762,12 +774,14 @@
         {
           "id": 105,
           "names": {
+            "ja-JP": "ナターシャ",
             "zh-CN": "娜塔夏"
           }
         },
         {
           "id": 41,
           "names": {
+            "ja-JP": "ナターシャ",
             "zh-CN": "娜塔夏"
           }
         }
@@ -838,12 +852,14 @@
     "memo": "花束ナターシャ",
     "name_key": "[CharacterName105]",
     "names": {
+      "ja-JP": "ナターシャ",
       "zh-CN": "娜塔夏"
     },
     "speed": 2601,
     "start_time_jst": "2024-10-31 15:00:00",
     "subtitle_key": "[CharacterSubName105]",
     "subtitles": {
+      "ja-JP": "花束の魔女",
       "zh-CN": "繁花魔女"
     }
   },
@@ -917,6 +933,7 @@
     },
     "name_key": "[EquipmentName729]",
     "names": {
+      "ja-JP": "祝福の花束",
       "zh-CN": "祝福花束"
     },
     "passive_effects": [
@@ -950,6 +967,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill105Description1]",
         "descriptions": {
+          "ja-JP": "フラワーギフトを強化する。物理攻撃のダメージが攻撃力×680%になる。",
           "zh-CN": "强化花儿的祝福，造成的物理伤害提升为攻击力×680%。"
         },
         "equipment_rarity_flags": 128,
@@ -958,6 +976,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill105Description2]",
         "descriptions": {
+          "ja-JP": "バトル開始時自身に3層の『多重バリア』を付与する（解除不可）。ダメージを受けると、バリアを1層消費してそのダメージを無効化する。",
           "zh-CN": "战斗开始时，娜塔夏获得3层「多重屏障」（无法被解除）。当娜塔夏受到伤害时，消耗1层屏障来抵消该伤害。"
         },
         "equipment_rarity_flags": 256,
@@ -966,6 +985,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill105Description3]",
         "descriptions": {
+          "ja-JP": "花束をあなたにを強化する。『毒』のダメージが付帯者の現在HP×5%になる。",
           "zh-CN": "强化这束花送给你，「中毒」造成的伤害提升为附带者当前生命值×5%。"
         },
         "equipment_rarity_flags": 512,
@@ -988,6 +1008,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription1050031]",
           "descriptions": {
+            "ja-JP": "「蓋をして閉じ込めていた辛い記憶が、心の中からあふれ出してくる……」毎ターン開始時、1ターンの間自身と攻撃力が高い敵3体に『劇化』を付与する（解除不可）。自身の受ける持続ダメージが100%増加し、攻撃力が高い敵3体の受ける持続ダメージが50%増加する。",
             "zh-CN": "“封闭在心里的痛苦回忆，已无法再继续压抑……”每回合开始时，娜塔夏对自己与攻击力最高的3名敌人附加「恶化」状态，效果持续1回合（无法被解除），使自己承受的持续伤害增加100%，使攻击力最高的3名敌人承受的持续伤害增加50%。"
           },
           "equipment_rarity_flags": 0,
@@ -1002,6 +1023,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription1050032]",
           "descriptions": {
+            "ja-JP": "さらにバトル開始時自身の命中率が50%増加する（解除不可）。",
             "zh-CN": "战斗开始时，使自己额外增加50%命中率（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1016,6 +1038,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription1050033]",
           "descriptions": {
+            "ja-JP": "バトル開始時さらに味方全体の攻撃力と最大HPがそれぞれ10%増加する（解除不可）。",
             "zh-CN": "战斗开始时，使全体友军额外增加10%攻击力与最大生命值（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1147,6 +1170,7 @@
       },
       "name_key": "[PassiveSkillName105003]",
       "names": {
+        "ja-JP": "消えない過去",
         "zh-CN": "挥之不去的过往"
       },
       "source_memo_ja": "花束ナターシャSR:Lv1 「蓋をして閉じ込めていた辛い記憶が、心の中からあふれ出してくる……」毎ターン開始時、1ターンの間自身と攻撃力が高い敵3体に『劇化』を付与する（解除不可）。自身の受ける持続ダメージが100%増加し、攻撃力が高い敵3体の受ける持続ダメージが50%増加する。/ Lv2 さらにバトル開始時自身の命中率が50%増加する（解除不可）。/ Lv3 バトル開始時さらに味方全体の攻撃力と最大HPがそれぞれ10%増加する（解除不可）。",
@@ -1174,6 +1198,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription1050041]",
           "descriptions": {
+            "ja-JP": "「花が咲くのはいつだって、誰かが愛してくれたから──」自身が攻撃を受けたとき、ダメージを20%遮断する。さらに自身が攻撃を受けたとき、自身に『心に咲く花』を1スタック付与する（最大10スタックまで）（解除不可）。このバフは1スタックにつき自身の防御貫通を3%増加させる。",
             "zh-CN": "“只有用爱灌溉，才能让花儿绽放。”当娜塔夏受到攻击时，阻绝20%伤害。并在受到攻击时，获得1层「心花盛开」（最多10层）（无法被解除）。每层「心花盛开」使娜塔夏增加3%防御穿透。"
           },
           "equipment_rarity_flags": 0,
@@ -1188,6 +1213,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription1050042]",
           "descriptions": {
+            "ja-JP": "ダメージの遮断量が40%になる。",
             "zh-CN": "伤害阻绝量提升为40%。"
           },
           "equipment_rarity_flags": 0,
@@ -1202,6 +1228,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription1050043]",
           "descriptions": {
+            "ja-JP": "ダメージの遮断量が80%になる。",
             "zh-CN": "伤害阻绝量提升为80%。"
           },
           "equipment_rarity_flags": 0,
@@ -1291,6 +1318,7 @@
       },
       "name_key": "[PassiveSkillName105004]",
       "names": {
+        "ja-JP": "心に咲く花",
         "zh-CN": "心花盛开"
       },
       "source_memo_ja": "花束ナターシャSR:Lv1 「花が咲くのはいつだって、誰かが愛してくれたから──」自身が攻撃を受けたとき、ダメージを20%遮断する。さらに自身が攻撃を受けたとき、自身に『心に咲く花』を1スタック付与する（最大10スタックまで）（解除不可）。このバフは1スタックにつき自身の防御貫通を3%増加させる。/ Lv2 ダメージの遮断量が40%になる。/ Lv3 ダメージの遮断量が80%になる。",
@@ -1318,6 +1346,7 @@
           "character_level": 240,
           "description_key": "*",
           "descriptions": {
+            "ja-JP": null,
             "zh-CN": null
           },
           "equipment_rarity_flags": 256,
@@ -1351,6 +1380,7 @@
       },
       "name_key": "*",
       "names": {
+        "ja-JP": null,
         "zh-CN": null
       },
       "source_memo_ja": "*",
@@ -1393,6 +1423,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

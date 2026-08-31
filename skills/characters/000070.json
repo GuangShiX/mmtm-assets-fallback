@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription700011]",
           "descriptions": {
+            "ja-JP": "「水天貫け！」息をつく暇も与えない素早い突きで、ランダムな敵4体に攻撃力×350%の物理攻撃を行う。さらに吹き荒れる涼風が、敵の意識を奪う──物理攻撃の対象のうちHP割合が最も高い敵に1ターンの間『気絶』を付与する（物理攻撃の対象が全員戦闘不能になっている場合発動しない）。",
             "zh-CN": "“气贯水天！”萨宾娜施展令人无法喘息的快速突刺，随机对4名敌人造成攻击力×350%的物理伤害。剑气掀起的猛烈凉风夺走敌人的意识，对生命值百分比最高的技能目标附加「晕厥」状态，效果持续1回合（如果技能目标全部失去战斗能力，无法触发此效果）。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription700012]",
           "descriptions": {
+            "ja-JP": "『気絶』のターン数が2ターンになる。",
             "zh-CN": "「晕厥」效果增加为2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription700013]",
           "descriptions": {
+            "ja-JP": "さらに物理攻撃の前に4ターンの間対象のクリティカル耐性率を40%減少させる。",
             "zh-CN": "发动攻击前使技能目标额外减少40%抗暴率，效果持续4回合。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription700014]",
           "descriptions": {
+            "ja-JP": "",
             "zh-CN": ""
           },
           "equipment_rarity_flags": 128,
@@ -67,6 +71,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription700015]",
           "descriptions": {
+            "ja-JP": "",
             "zh-CN": ""
           },
           "equipment_rarity_flags": 512,
@@ -144,6 +149,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName70001]",
       "names": {
+        "ja-JP": "蒼穹のテンペスト",
         "zh-CN": "苍穹暴风雨"
       },
       "source_memo_ja": "水着サブリナSR:Lv1 「水天貫け！」息をつく暇も与えない素早い突きで、ランダムな敵4体に攻撃力×350%の物理攻撃を行う。さらに吹き荒れる涼風が、敵の意識を奪う──物理攻撃の対象のうちHP割合が最も高い敵に1ターンの間『気絶』を付与する（物理攻撃の対象が全員戦闘不能になっている場合発動しない）。/ Lv2\\n 『気絶』のターン数が2ターンになる。/ Lv3 \\nさらに物理攻撃の前に4ターンの間対象のクリティカル耐性率を40%減少させる。/ Ex1 蒼穹のテンペストを強化する。物理攻撃の対象がランダムな敵5体になる。/ Ex3 蒼穹のテンペストを強化する。物理攻撃のダメージが攻撃力×400%になる。",
@@ -177,6 +183,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription700021]",
           "descriptions": {
+            "ja-JP": "「水底へ沈め！」水底へ叩きつけるような素早い突きで、ランダムな敵に5回攻撃力×200%の物理攻撃を行う。クリティカルヒットした場合、以降の連撃は必ずクリティカルヒットする。さらに水を切る鋭い涼風が、敵を追い詰める──クリティカルヒットが4回以上発生した場合、連撃の対象のうちHP割合が最も低い敵のバフを1つ解除し、攻撃力×400%の物理攻撃を行う（連撃の対象が全員戦闘不能になっている場合発動しない）。",
             "zh-CN": "“葬身水底吧！”萨宾娜施展快速突刺，将对手打落水底，随机对敌人进行5次攻击，每次造成攻击力×200%的物理伤害。当技能暴击时，后续的连击必定暴击。划破水面的锋利凉风让敌人无路可退，当暴击次数达4次以上时，萨宾娜额外解除生命值百分比最低的技能目标身上的1种增益效果，并追加攻击力×400%的物理伤害（如果技能目标全部失去战斗能力，无法触发此效果）。"
           },
           "equipment_rarity_flags": 0,
@@ -191,6 +198,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription700022]",
           "descriptions": {
+            "ja-JP": "さらにこのスキルで敵を戦闘不能にするたび追加攻撃の攻撃回数が1回多くなる（合計で最大5回まで）。",
             "zh-CN": "每使1名技能目标失去战斗能力，追加伤害的攻击次数增加1次（最多5次）。"
           },
           "equipment_rarity_flags": 0,
@@ -205,6 +213,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription700023]",
           "descriptions": {
+            "ja-JP": "バフの解除数が同時に2つになる（弱体効果命中の判定は一度のみ行う）。",
             "zh-CN": "解除的增益效果增加为2种（只对每名目标进行1次弱化效果命中与否的判定）。"
           },
           "equipment_rarity_flags": 0,
@@ -219,6 +228,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription700024]",
           "descriptions": {
+            "ja-JP": "追加攻撃のダメージが攻撃力×600%になる。",
             "zh-CN": "造成的追加伤害提升为攻击力×600%。"
           },
           "equipment_rarity_flags": 0,
@@ -233,6 +243,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription700025]",
           "descriptions": {
+            "ja-JP": "",
             "zh-CN": ""
           },
           "equipment_rarity_flags": 256,
@@ -351,6 +362,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName70002]",
       "names": {
+        "ja-JP": "群青のレクイエム",
         "zh-CN": "蔚蓝镇魂曲"
       },
       "source_memo_ja": "水着サブリナSR: Lv1 「水底へ沈め！」水底へ叩きつけるような素早い突きで、ランダムな敵に5回攻撃力×200％の物理攻撃を行う。クリティカルヒットした場合、以降の連撃は必ずクリティカルヒットする。さらに水を切る鋭い涼風が、敵を追い詰める――クリティカルヒットが4回以上発生した場合、連撃の対象のうちHP割合が最も低い敵のバフを1つ解除し、攻撃力×400%の物理攻撃を行う（連撃の対象が全員戦闘不能になっている場合発動しない）。/ Lv2 \\nさらにこのスキルで敵を戦闘不能にするたび追加攻撃の攻撃回数が1回多くなる（合計で最大5回まで）。/Lv3 \\nバフの解除量が2つになる。/Lv4 \\n追加攻撃のダメージが攻撃力×600%になる。/ Ex2 群青のレクイエムを強化する。最初の物理攻撃の回数が7回になる。",
@@ -817,6 +829,7 @@
       },
       "name_key": "[CharacterCollectionName20]",
       "names": {
+        "ja-JP": "デルフィヌスの青旗",
         "zh-CN": "海豚座的蓝旗"
       },
       "required_character_ids": [
@@ -827,12 +840,14 @@
         {
           "id": 70,
           "names": {
+            "ja-JP": "サブリナ",
             "zh-CN": "萨宾娜"
           }
         },
         {
           "id": 15,
           "names": {
+            "ja-JP": "サブリナ",
             "zh-CN": "萨宾娜"
           }
         }
@@ -902,12 +917,14 @@
     "memo": "水着サブリナ",
     "name_key": "[CharacterName70]",
     "names": {
+      "ja-JP": "サブリナ",
       "zh-CN": "萨宾娜"
     },
     "speed": 3418,
     "start_time_jst": "2023-06-30 15:00:00",
     "subtitle_key": "[CharacterSubName70]",
     "subtitles": {
+      "ja-JP": "涼風の軍神",
       "zh-CN": "凉风战神"
     }
   },
@@ -982,6 +999,7 @@
     },
     "name_key": "[EquipmentName407]",
     "names": {
+      "ja-JP": "リヴァージュ",
       "zh-CN": "瑞瓦日之剑"
     },
     "passive_effects": [
@@ -1015,6 +1033,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill70Description1]",
         "descriptions": {
+          "ja-JP": "蒼穹のテンペストを強化する。物理攻撃の対象がランダムな敵5体になる。",
           "zh-CN": "强化苍穹暴风雨，技能目标增加为5名随机敌人。"
         },
         "equipment_rarity_flags": 128,
@@ -1023,6 +1042,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill70Description2]",
         "descriptions": {
+          "ja-JP": "群青のレクイエムを強化する。最初の物理攻撃の回数が7回になる。",
           "zh-CN": "强化蔚蓝镇魂曲，第一波攻击次数增加为7次。"
         },
         "equipment_rarity_flags": 256,
@@ -1031,6 +1051,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill70Description3]",
         "descriptions": {
+          "ja-JP": "蒼穹のテンペストを強化する。物理攻撃のダメージが攻撃力×400%になる。",
           "zh-CN": "强化苍穹暴风雨，造成的物理伤害提升为攻击力×400%。"
         },
         "equipment_rarity_flags": 512,
@@ -1051,6 +1072,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription700031]",
           "descriptions": {
+            "ja-JP": "仲間を護りたい──その想いは倒れても決して消えない。自身が戦闘不能になったとき、50%の確率で攻撃してきた敵に1ターンの間『気絶』を付与する。弱体効果によって戦闘不能になった場合、このスキルは発動しない。",
             "zh-CN": "即使自己力竭倒下，想要保护战友的意志也不会消亡——当萨宾娜失去战斗能力时，50%概率对发动攻击的敌人附加「晕厥」状态，效果持续1回合。当弱化效果使萨宾娜失去战斗能力时，无法触发此技能。"
           },
           "equipment_rarity_flags": 0,
@@ -1065,6 +1087,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription700032]",
           "descriptions": {
+            "ja-JP": "さらにバトル開始時自身の命中率が40%増加する（解除不可）。",
             "zh-CN": "战斗开始时，萨宾娜使自己额外增加40%命中率（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1079,6 +1102,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription700033]",
           "descriptions": {
+            "ja-JP": "『気絶』を付与する確率が100%になる。",
             "zh-CN": "附加「晕厥」状态的概率提升为100%。"
           },
           "equipment_rarity_flags": 0,
@@ -1161,6 +1185,7 @@
       },
       "name_key": "[PassiveSkillName70003]",
       "names": {
+        "ja-JP": "涼風の軍神",
         "zh-CN": "凉风战神"
       },
       "source_memo_ja": "水着サブリナSR:Lv1 仲間を護りたい――その想いは倒れても決して消えない。自身が戦闘不能になったとき、50%の確率で攻撃してきた敵に1ターンの間『気絶』を付与する。/ Lv2 \\nさらにバトル開始時、自身の命中率が40%増加する（解除不可）。/ Lv3 \\n『気絶』を付与する確率が100%になる。",
@@ -1188,6 +1213,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription700041]",
           "descriptions": {
+            "ja-JP": "この傷と共に生きていくと決めた──過去を背負って進む決意が、生きる力を育む。自身の最大HPが20%増加する（解除不可）。",
             "zh-CN": "萨宾娜决定与这道创伤一起活下去，背负着过往向前迈进——这份决心产生强大的生命力，使萨宾娜增加20%最大生命值（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1202,6 +1228,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription700042]",
           "descriptions": {
+            "ja-JP": "さらに自身の防御力が40%増加する（解除不可）。",
             "zh-CN": "额外增加40%防御力（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -1216,6 +1243,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription700043]",
           "descriptions": {
+            "ja-JP": "最大HPの増加量が40%、防御力の増加量が100%になる。",
             "zh-CN": "最大生命值增幅提升为40%，防御力增幅提升为100%。"
           },
           "equipment_rarity_flags": 0,
@@ -1281,6 +1309,7 @@
       },
       "name_key": "[PassiveSkillName70004]",
       "names": {
+        "ja-JP": "夢翔の願い",
         "zh-CN": "翱翔的梦与愿"
       },
       "source_memo_ja": "水着サブリナSR:Lv1 この傷と共に生きていくと決めた――過去を背負って進む決意が、生きる力を育む。自身の最大HPが20％増加する（解除不可）。/ Lv2 \\nさらに自身の防御力が40%増加する（解除不可）。/ Lv3\\n最大HPの増加量が40%、防御力の増加量が100%になる。",
@@ -1332,6 +1361,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription280011]",
           "descriptions": {
+            "ja-JP": "迷子は泣き出したら止まらない。癇癪を起こし、ランダムな敵5体に攻撃力×305%の物理攻撃を行う。「ボクは悪い子じゃない！」物理攻撃の前に対象がバフを付帯している場合、60%の確率で対象のバフを1つ奪取する。対象がバフを付帯していない場合、2ターンの間対象の弱体効果命中率を40%減少させる。",
             "zh-CN": "迷路的孩子哭起来一发不可收拾。闹脾气的妮娜随机对5名敌人造成攻击力×305%的物理伤害。“我才不是坏孩子！”当技能目标身上附带增益效果时，60%概率在发动攻击前，从技能目标身上夺取1种增益效果。当技能目标身上没有增益效果时，使技能目标减少40%弱化效果命中率，效果持续2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription280012]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×380%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×380%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription280013]",
           "descriptions": {
+            "ja-JP": "敵のバフを奪取する確率が80%になる。",
             "zh-CN": "夺取增益效果的概率提升为80%。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription280014]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription280014]",
             "zh-CN": "[ActiveSkillDescription280014]"
           },
           "equipment_rarity_flags": 128,
@@ -64,6 +68,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription280015]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription280015]",
             "zh-CN": "[ActiveSkillDescription280015]"
           },
           "equipment_rarity_flags": 512,
@@ -136,6 +141,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName28001]",
       "names": {
+        "ja-JP": "迷子哀哭",
         "zh-CN": "迷途之子的哀哭"
       },
       "source_memo_ja": "ニーナSR: /Lv1　迷子は泣き出したら止まらない。癇癪を起こし、ランダムな敵5体に攻撃力×305％の物理攻撃を行う。「ボクは悪い子じゃない！」物理攻撃の前に対象がバフを付帯している場合、60％の確率で対象のバフを1つ解除し、成功した場合にその効果を自身に付与する。対象がバフを付帯していない場合、2ターンの間対象の弱体効果命中率を40％減少させる。　/Lv2 物理攻撃のダメージが攻撃力×380%になる。　/Lv3 敵のバフを解除して自身に付与する確率が80％になる。　/専用1 迷子哀哭を強化する。敵のバフを解除して自身に付与する確率が100％になる。　/専用3 迷子哀哭を強化する。物理攻撃のダメージが攻撃力×480%になる。",
@@ -165,6 +171,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription280021]",
           "descriptions": {
+            "ja-JP": "「やめてよっ！」ランダムな敵5体に攻撃力×305%の物理攻撃を行う。「悪い子はこうだ！」物理攻撃の前に対象の技力が自身よりも低い場合、自身の弱体効果を1つ解除し、その効果を80%の確率で対象にコピーする。",
             "zh-CN": "“不要这样！”妮娜随机对5名敌人造成攻击力×305%的物理伤害。“谁叫你不乖！”当技能目标的战技低于自己时，在发动攻击前解除自己身上的1种弱化效果，并以80%概率复制到技能目标身上。"
           },
           "equipment_rarity_flags": 0,
@@ -179,6 +186,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription280022]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×380%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×380%。"
           },
           "equipment_rarity_flags": 0,
@@ -193,6 +201,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription280023]",
           "descriptions": {
+            "ja-JP": "自身の弱体効果を解除して敵にコピーする確率が100%になる。",
             "zh-CN": "解除并复制弱化效果的概率提升为100%。"
           },
           "equipment_rarity_flags": 0,
@@ -207,6 +216,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription280024]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×480%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×480%。"
           },
           "equipment_rarity_flags": 0,
@@ -221,6 +231,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription280025]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription280025]",
             "zh-CN": "[ActiveSkillDescription280025]"
           },
           "equipment_rarity_flags": 256,
@@ -293,6 +304,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName28002]",
       "names": {
+        "ja-JP": "大嫌い！！",
         "zh-CN": "讨厌你！！"
       },
       "source_memo_ja": "ニーナSR: /Lv1　「やめてよっ！」ランダムな敵5体に攻撃力×305％の物理攻撃を行う。「悪い子はこうだ！」物理攻撃の前に対象の技力が自身よりも低い場合、自身の弱体効果を1つ解除し、その効果を80％の確率で対象に付与する。　/Lv2 物理攻撃のダメージが攻撃力×380%になる。　/Lv3 自身の弱体効果を解除して敵に付与する確率が100％になる。　/Lv4 物理攻撃のダメージが攻撃力×480%になる。　/専用2 大嫌い！！を強化する。対象の技力が自身よりも低い場合、さらに50％の確率で4ターンの間対象の命中率を30％減少させるようになる。",
@@ -749,6 +761,7 @@
       },
       "name_key": "[CharacterCollectionName5]",
       "names": {
+        "ja-JP": "モノケロスの咆哮",
         "zh-CN": "独角兽座的咆哮"
       },
       "required_character_ids": [
@@ -761,24 +774,28 @@
         {
           "id": 15,
           "names": {
+            "ja-JP": "サブリナ",
             "zh-CN": "萨宾娜"
           }
         },
         {
           "id": 17,
           "names": {
+            "ja-JP": "アモール",
             "zh-CN": "爱沐尔"
           }
         },
         {
           "id": 25,
           "names": {
+            "ja-JP": "アイビー",
             "zh-CN": "艾薇"
           }
         },
         {
           "id": 28,
           "names": {
+            "ja-JP": "ニーナ",
             "zh-CN": "妮娜"
           }
         }
@@ -1217,6 +1234,7 @@
       },
       "name_key": "[CharacterCollectionName9]",
       "names": {
+        "ja-JP": "ピスケスの愛護",
         "zh-CN": "双鱼座的怜惜"
       },
       "required_character_ids": [
@@ -1228,18 +1246,21 @@
         {
           "id": 53,
           "names": {
+            "ja-JP": "ウィーラ",
             "zh-CN": "维拉"
           }
         },
         {
           "id": 35,
           "names": {
+            "ja-JP": "ミミ",
             "zh-CN": "咪咪"
           }
         },
         {
           "id": 28,
           "names": {
+            "ja-JP": "ニーナ",
             "zh-CN": "妮娜"
           }
         }
@@ -1573,6 +1594,7 @@
       },
       "name_key": "[CharacterCollectionName41]",
       "names": {
+        "ja-JP": "ジョバリの希望",
         "zh-CN": "乔巴里的希望"
       },
       "required_character_ids": [
@@ -1583,12 +1605,14 @@
         {
           "id": 85,
           "names": {
+            "ja-JP": "マチルダ",
             "zh-CN": "玛提尔德"
           }
         },
         {
           "id": 28,
           "names": {
+            "ja-JP": "ニーナ",
             "zh-CN": "妮娜"
           }
         }
@@ -2034,6 +2058,7 @@
       },
       "name_key": "[CharacterCollectionName51]",
       "names": {
+        "ja-JP": "レグルスの冒険",
         "zh-CN": "小王子的冒险"
       },
       "required_character_ids": [
@@ -2044,12 +2069,14 @@
         {
           "id": 95,
           "names": {
+            "ja-JP": "ニーナ",
             "zh-CN": "妮娜"
           }
         },
         {
           "id": 28,
           "names": {
+            "ja-JP": "ニーナ",
             "zh-CN": "妮娜"
           }
         }
@@ -2119,12 +2146,14 @@
     "memo": "ニーナ",
     "name_key": "[CharacterName28]",
     "names": {
+      "ja-JP": "ニーナ",
       "zh-CN": "妮娜"
     },
     "speed": 2839,
     "start_time_jst": "2020-01-01 00:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -2198,6 +2227,7 @@
     },
     "name_key": "[EquipmentName291]",
     "names": {
+      "ja-JP": "迷い子",
       "zh-CN": "迷失之子"
     },
     "passive_effects": [
@@ -2231,6 +2261,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill28Description1]",
         "descriptions": {
+          "ja-JP": "迷子哀哭を強化する。敵のバフを奪取する確率が100%になる。",
           "zh-CN": "强化迷途之子的哀哭，夺取增益效果的概率提升为100%。"
         },
         "equipment_rarity_flags": 128,
@@ -2239,6 +2270,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill28Description2]",
         "descriptions": {
+          "ja-JP": "大嫌い！！を強化する。対象の技力が自身よりも低い場合、さらに50%の確率で4ターンの間対象の命中率を30%減少させるようになる。",
           "zh-CN": "强化讨厌你！！，当技能目标的战技低于妮娜时，50%概率使技能目标额外减少30%命中率，效果持续4回合。"
         },
         "equipment_rarity_flags": 256,
@@ -2247,6 +2279,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill28Description3]",
         "descriptions": {
+          "ja-JP": "迷子哀哭を強化する。物理攻撃のダメージが攻撃力×480%になる。",
           "zh-CN": "强化迷途之子的哀哭，造成的物理伤害提升为攻击力×480%。"
         },
         "equipment_rarity_flags": 512,
@@ -2267,6 +2300,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription280031]",
           "descriptions": {
+            "ja-JP": "おうちに辿り着くまで、歩みは止まらない。自身の回避率が20%増加する（解除不可）。",
             "zh-CN": "还没到家前，妮娜会一直走下去。妮娜使自己增加20%闪避率（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -2281,6 +2315,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription280032]",
           "descriptions": {
+            "ja-JP": "さらに自身の被ダメージが20%減少する（解除不可）。",
             "zh-CN": "额外减少20%自身承受伤害（无法被解除）。"
           },
           "equipment_rarity_flags": 0,
@@ -2295,6 +2330,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription280033]",
           "descriptions": {
+            "ja-JP": "回避率の増加量が30%、被ダメージの減少量が30%になる。",
             "zh-CN": "闪避率增幅与承受伤害降幅提升为30%。"
           },
           "equipment_rarity_flags": 0,
@@ -2363,6 +2399,7 @@
       },
       "name_key": "[PassiveSkillName28003]",
       "names": {
+        "ja-JP": "まだ歩けるよ",
         "zh-CN": "我还走得动"
       },
       "source_memo_ja": "ニーナSR: /Lv1　おうちに辿り着くまで、歩みは止まらない。自身の回避率が20％増加する（解除不可）。　/Lv2 さらに自身の被ダメージが20％減少する（解除不可）。　/Lv3 回避率の増加量が30％、被ダメージの減少量が30％になる。",
@@ -2390,6 +2427,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription280041]",
           "descriptions": {
+            "ja-JP": "零した涙の数だけ、影はより濃くなる。自身が現在HPの10%を超えるダメージの攻撃を受けたとき、10%を超えた分のダメージを35%遮断する。",
             "zh-CN": "掉在地上的眼泪越多，影子的颜色越深。当妮娜受到攻击，承受伤害超过当前生命值的10%时，阻绝超量部分×35%的伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -2404,6 +2442,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription280042]",
           "descriptions": {
+            "ja-JP": "10%を超えた分のダメージを45%遮断する。",
             "zh-CN": "阻绝超量部分×45%的伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -2418,6 +2457,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription280043]",
           "descriptions": {
+            "ja-JP": "10%を超えた分のダメージを65%遮断する。",
             "zh-CN": "阻绝超量部分×65%的伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -2486,6 +2526,7 @@
       },
       "name_key": "[PassiveSkillName28004]",
       "names": {
+        "ja-JP": "カゲフミ",
         "zh-CN": "踩影子游戏"
       },
       "source_memo_ja": "ニーナSR: /Lv1　零した涙の数だけ、影はより濃くなる。自身が現在HPの10％を超えるダメージの攻撃を受けた場合、10%を超えた分のダメージを35％遮断する。　/Lv2 10%を超えた分のダメージが45％減少する。　/Lv3 10%を超えた分のダメージが65％減少する。",
@@ -2541,6 +2582,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",

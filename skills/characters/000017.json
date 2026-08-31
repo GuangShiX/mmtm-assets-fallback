@@ -11,6 +11,7 @@
           "character_level": 1,
           "description_key": "[ActiveSkillDescription170011]",
           "descriptions": {
+            "ja-JP": "愛する者への執着は、仇為す者に対する執念へと変わる。HP割合が最も低い敵に2回攻撃力×300%の物理攻撃を行う。さらにこのターン中に自身が敵を戦闘不能にした場合、ランダムな敵5体に攻撃力×300%の物理攻撃を行う。",
             "zh-CN": "爱沐尔对爱人的执着化作对仇人的执念，对生命值百分比最低的敌人进行2次攻击，每次造成攻击力×300%的物理伤害。如果爱沐尔在本回合内使敌人失去战斗能力，再随机对5名敌人追加攻击力×300%的物理伤害。"
           },
           "equipment_rarity_flags": 0,
@@ -25,6 +26,7 @@
           "character_level": 81,
           "description_key": "[ActiveSkillDescription170012]",
           "descriptions": {
+            "ja-JP": "最初の物理攻撃と追加攻撃のダメージがそれぞれ攻撃力×350%になる。",
             "zh-CN": "第一波攻击与追加攻击造成的物理伤害提升为攻击力×350%。"
           },
           "equipment_rarity_flags": 0,
@@ -39,6 +41,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription170013]",
           "descriptions": {
+            "ja-JP": "最初の物理攻撃の回数が3回になる。",
             "zh-CN": "第一波攻击次数增加为3次。"
           },
           "equipment_rarity_flags": 0,
@@ -53,6 +56,7 @@
           "character_level": 161,
           "description_key": "[ActiveSkillDescription170014]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription170014]",
             "zh-CN": "[ActiveSkillDescription170014]"
           },
           "equipment_rarity_flags": 128,
@@ -128,6 +132,7 @@
       "max_cooldown": 4,
       "name_key": "[ActiveSkillName17001]",
       "names": {
+        "ja-JP": "狂愛の暴走",
         "zh-CN": "为爱疯狂"
       },
       "source_memo_ja": "アモールSR: /Lv1　愛する者への執着は、仇為す者に対する執念へと変わる。HP割合が最も低い敵に2回攻撃力×300％の物理攻撃を行う。さらにこのスキルで敵を戦闘不能にした場合、残りの敵4体に攻撃力×300％の物理攻撃を行う。　/Lv2 最初の物理攻撃と追加攻撃のダメージがそれぞれ攻撃力×350%になる。　/Lv3 最初の物理攻撃の回数が3回になる。　/専用1 狂愛の暴走を強化する。さらにこのスキルで敵を戦闘不能にできなかった場合、HP割合が最も低い敵に3回攻撃力×260%の物理攻撃を行う（その敵が戦闘不能になった時点で追加攻撃は終了）。",
@@ -157,6 +162,7 @@
           "character_level": 11,
           "description_key": "[ActiveSkillDescription170021]",
           "descriptions": {
+            "ja-JP": "その荊は一度抱きしめたら離さず、傷跡には棘を残す。ランダムな敵3体に攻撃力×460%の物理攻撃を行い、3ターンの間『不治』を付与する。",
             "zh-CN": "爱沐尔的荆棘会紧紧缠住猎物不放，并在伤口中留下尖刺。随机对3名敌人造成攻击力×460%的物理伤害，并附加「不治」状态，效果持续3回合。"
           },
           "equipment_rarity_flags": 0,
@@ -171,6 +177,7 @@
           "character_level": 21,
           "description_key": "[ActiveSkillDescription170022]",
           "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×510%になる。",
             "zh-CN": "造成的物理伤害提升为攻击力×510%。"
           },
           "equipment_rarity_flags": 0,
@@ -185,6 +192,7 @@
           "character_level": 101,
           "description_key": "[ActiveSkillDescription170023]",
           "descriptions": {
+            "ja-JP": "さらに物理攻撃の後、2ターンの間自身の被ダメージが50%減少し、カウンタが100%増加する。",
             "zh-CN": "攻击结束后，爱沐尔额外减少50%自身承受伤害，增加100%伤害反弹，效果持续2回合。"
           },
           "equipment_rarity_flags": 0,
@@ -199,6 +207,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription170024]",
           "descriptions": {
+            "ja-JP": "このスキルの対象がランダムな敵4体になる。",
             "zh-CN": "技能目标增加为4名随机敌人。"
           },
           "equipment_rarity_flags": 0,
@@ -213,6 +222,7 @@
           "character_level": 181,
           "description_key": "[ActiveSkillDescription170025]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription170025]",
             "zh-CN": "[ActiveSkillDescription170025]"
           },
           "equipment_rarity_flags": 256,
@@ -224,6 +234,7 @@
           "character_level": 240,
           "description_key": "[ActiveSkillDescription170026]",
           "descriptions": {
+            "ja-JP": "[ActiveSkillDescription170026]",
             "zh-CN": "[ActiveSkillDescription170026]"
           },
           "equipment_rarity_flags": 512,
@@ -310,6 +321,7 @@
       "max_cooldown": 5,
       "name_key": "[ActiveSkillName17002]",
       "names": {
+        "ja-JP": "荊の抱擁",
         "zh-CN": "荆棘之拥"
       },
       "source_memo_ja": "アモールSR: /Lv1　その荊は一度抱きしめたら離さず、傷跡には棘を残す。ランダムな敵3体に攻撃力×460％の物理攻撃を行い、3ターンの間『不治』を付与する。　/Lv2 物理攻撃のダメージが攻撃力×510%になる。　/Lv3 さらに攻撃後、2ターンの間自身の被ダメージが50％減少し、カウンタが100％増加する。　/Lv4 このスキルの対象がランダムな敵4体になる。　/専用2 荊の抱擁を強化する。さらに自身のHP割合が30％以下の場合、物理攻撃のダメージが2倍になる。　/専用3 荊の抱擁を強化する。カウンタの増加量が120％になる。",
@@ -766,6 +778,7 @@
       },
       "name_key": "[CharacterCollectionName5]",
       "names": {
+        "ja-JP": "モノケロスの咆哮",
         "zh-CN": "独角兽座的咆哮"
       },
       "required_character_ids": [
@@ -778,24 +791,28 @@
         {
           "id": 15,
           "names": {
+            "ja-JP": "サブリナ",
             "zh-CN": "萨宾娜"
           }
         },
         {
           "id": 17,
           "names": {
+            "ja-JP": "アモール",
             "zh-CN": "爱沐尔"
           }
         },
         {
           "id": 25,
           "names": {
+            "ja-JP": "アイビー",
             "zh-CN": "艾薇"
           }
         },
         {
           "id": 28,
           "names": {
+            "ja-JP": "ニーナ",
             "zh-CN": "妮娜"
           }
         }
@@ -1242,6 +1259,7 @@
       },
       "name_key": "[CharacterCollectionName11]",
       "names": {
+        "ja-JP": "サーペンスの愛執",
         "zh-CN": "巨蛇座的依恋"
       },
       "required_character_ids": [
@@ -1253,18 +1271,21 @@
         {
           "id": 55,
           "names": {
+            "ja-JP": "レア",
             "zh-CN": "蕾雅"
           }
         },
         {
           "id": 17,
           "names": {
+            "ja-JP": "アモール",
             "zh-CN": "爱沐尔"
           }
         },
         {
           "id": 25,
           "names": {
+            "ja-JP": "アイビー",
             "zh-CN": "艾薇"
           }
         }
@@ -1710,6 +1731,7 @@
       },
       "name_key": "[CharacterCollectionName34]",
       "names": {
+        "ja-JP": "コマ・ベレニケの恋路",
         "zh-CN": "后发座的情路"
       },
       "required_character_ids": [
@@ -1720,12 +1742,14 @@
         {
           "id": 73,
           "names": {
+            "ja-JP": "アモール",
             "zh-CN": "爱沐尔"
           }
         },
         {
           "id": 17,
           "names": {
+            "ja-JP": "アモール",
             "zh-CN": "爱沐尔"
           }
         }
@@ -2163,6 +2187,7 @@
       },
       "name_key": "[CharacterCollectionName50]",
       "names": {
+        "ja-JP": "セプトラムの威光",
         "zh-CN": "王笏座的威势"
       },
       "required_character_ids": [
@@ -2173,12 +2198,14 @@
         {
           "id": 69,
           "names": {
+            "ja-JP": "カグヤ",
             "zh-CN": "辉夜"
           }
         },
         {
           "id": 17,
           "names": {
+            "ja-JP": "アモール",
             "zh-CN": "爱沐尔"
           }
         }
@@ -2248,12 +2275,14 @@
     "memo": "アモール",
     "name_key": "[CharacterName17]",
     "names": {
+      "ja-JP": "アモール",
       "zh-CN": "爱沐尔"
     },
     "speed": 2550,
     "start_time_jst": "2020-01-01 00:00:00",
     "subtitle_key": null,
     "subtitles": {
+      "ja-JP": null,
       "zh-CN": null
     }
   },
@@ -2327,6 +2356,7 @@
     },
     "name_key": "[EquipmentName249]",
     "names": {
+      "ja-JP": "求愛の茨",
       "zh-CN": "求爱荆棘"
     },
     "passive_effects": [
@@ -2360,6 +2390,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill17Description1]",
         "descriptions": {
+          "ja-JP": "狂愛の暴走を強化する。さらにこのターン中に自身が敵を戦闘不能にできなかった場合、HP割合が最も低い敵に3回攻撃力×260%の物理攻撃を行う（その敵が戦闘不能になった時点で追加攻撃は終了）。",
           "zh-CN": "强化为爱疯狂，如果爱沐尔在本回合内未能使敌人失去战斗能力，再对生命值百分比最低的敌人追加3次攻击，每次造成攻击力×260%的物理伤害（追加攻击将在技能目标失去战斗能力后停止）。"
         },
         "equipment_rarity_flags": 128,
@@ -2368,6 +2399,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill17Description2]",
         "descriptions": {
+          "ja-JP": "荊の抱擁を強化する。さらに自身のHP割合が30%以下の場合、物理攻撃のダメージが2倍になる。",
           "zh-CN": "强化荆棘之拥，当爱沐尔的生命值为30%以下时，造成的物理伤害增加为2倍。"
         },
         "equipment_rarity_flags": 256,
@@ -2376,6 +2408,7 @@
       {
         "description_key": "[EquipmentExclusiveSkill17Description3]",
         "descriptions": {
+          "ja-JP": "荊の抱擁を強化する。カウンタの増加量が120%になる。",
           "zh-CN": "强化荆棘之拥，伤害反弹增幅提升为120%。"
         },
         "equipment_rarity_flags": 512,
@@ -2396,6 +2429,7 @@
           "character_level": 41,
           "description_key": "[PassiveSkillDescription170031]",
           "descriptions": {
+            "ja-JP": "ハッピーエンドまで、物語は終わらせない。自身が戦闘不能になったとき、自身の最大HP×30%のHPを回復して復活する。物語を汚したものは許さない──さらに正面の敵に過去20ターンで受けた自身の総被ダメージ×10%の直接攻撃を行う。この攻撃は必ず命中する。このスキルはバトル中1回のみ発動する。",
             "zh-CN": "得到幸福美满的结局之前，爱沐尔不会让故事划下句点。失去战斗能力时，爱沐尔将复活并恢复30%最大生命值。“亵渎故事的人罪该万死！”再对面前的敌人造成过去20回合内自身承受总伤害×10%的直接伤害。此攻击必定命中。此技能每场战斗最多触发1次。"
           },
           "equipment_rarity_flags": 0,
@@ -2410,6 +2444,7 @@
           "character_level": 121,
           "description_key": "[PassiveSkillDescription170032]",
           "descriptions": {
+            "ja-JP": "直接攻撃のダメージが過去20ターンで受けた自身の総被ダメージ×15%になる。",
             "zh-CN": "造成的直接伤害提升为过去20回合内爱沐尔承受总伤害×15%。"
           },
           "equipment_rarity_flags": 0,
@@ -2424,6 +2459,7 @@
           "character_level": 201,
           "description_key": "[PassiveSkillDescription170033]",
           "descriptions": {
+            "ja-JP": "このスキルの対象が正面の敵とそれに隣接する敵1体になる。",
             "zh-CN": "技能目标增加为面前的敌人与该敌人附近的1名敌人。"
           },
           "equipment_rarity_flags": 0,
@@ -2534,6 +2570,7 @@
       },
       "name_key": "[PassiveSkillName17003]",
       "names": {
+        "ja-JP": "おとぎ話の続き",
         "zh-CN": "童话再续"
       },
       "source_memo_ja": "アモールSR: /Lv1　ハッピーエンドまで、物語は終わらせない。自身が戦闘不能になったとき、自身の最大HP×30％のHPを回復して復活する。物語を汚したものは許さない──さらに正面の敵に過去20ターンで受けた自身の総被ダメージ×10％の直接攻撃を行う。このスキルはバトル中1回のみ発動する。　/Lv2 直接攻撃のダメージが過去20ターンで受けた自身の総被ダメージ×15％になる。　/Lv3 このスキルの対象が正面の敵とそれに隣接する敵1体になる。",
@@ -2561,6 +2598,7 @@
           "character_level": 61,
           "description_key": "[PassiveSkillDescription170041]",
           "descriptions": {
+            "ja-JP": "今日は素敵なことが起きるような気がする──自身の最大HPが20%増加する（解除不可）。復活した場合、復活後に再付与される。",
             "zh-CN": "“感觉今天会发生很棒的事情。”爱沐尔使自己增加20%最大生命值（无法被解除）。复活后重新触发此技能。"
           },
           "equipment_rarity_flags": 0,
@@ -2575,6 +2613,7 @@
           "character_level": 141,
           "description_key": "[PassiveSkillDescription170042]",
           "descriptions": {
+            "ja-JP": "最大HPの増加量が30%になる。",
             "zh-CN": "最大生命值增幅提升为30%。"
           },
           "equipment_rarity_flags": 0,
@@ -2589,6 +2628,7 @@
           "character_level": 221,
           "description_key": "[PassiveSkillDescription170043]",
           "descriptions": {
+            "ja-JP": "最大HPの増加量が50%になる。",
             "zh-CN": "最大生命值增幅提升为50%。"
           },
           "equipment_rarity_flags": 0,
@@ -2678,6 +2718,7 @@
       },
       "name_key": "[PassiveSkillName17004]",
       "names": {
+        "ja-JP": "恋の予感",
         "zh-CN": "恋爱预感"
       },
       "source_memo_ja": "アモールSR: /Lv1　今日は素敵なことが起きるような気がする──自身の最大HPが20％増加する（解除不可）。復活した場合、復活後に再付与される。　/Lv2 最大HPの増加量が30％になる。　/Lv3 最大HPの増加量が50％になる。",
@@ -2733,6 +2774,10 @@
       "PassiveSkillMB": {
         "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
         "size": 941782
+      },
+      "TextResourceJaJpMB": {
+        "md5": "7167e00a716574606eb86a5dc0c876dd",
+        "size": 5916066
       },
       "TextResourceZhCnMB": {
         "md5": "54efa4b78734113958448d19f1649f8d",
