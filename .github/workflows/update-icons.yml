@@ -89,6 +89,7 @@ jobs:
           python _tracker/master.py
           --auto-update
           --language zh-CN
+          --language ja-JP
           --output .
           --repository GuangShiX/mmtm-assets-fallback
 
