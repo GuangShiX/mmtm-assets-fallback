@@ -63,10 +63,12 @@ bottom. Stable filenames are
 
 The scheduled workflow checks the official application version, BOI
 Addressables asset version, and Master version at three daily baseline times.
-During the usual Asia/Shanghai maintenance period it checks every 15 minutes
-from 13:19 through 16:19, including a pre-maintenance snapshot and a buffer for
-extended maintenance or delayed resource publication. Same-version hot updates download
-only critical image bundles listed by the official catalog. A new application
+A lightweight 15-minute probe also reads the anonymous title notice feed and
+the structured `getDataUri` maintenance schedule. On maintenance days, the full
+updater runs from 15 minutes after the official start through 15 minutes after
+the official end; unrelated regional or feature-only maintenance is ignored.
+Same-version hot updates download only critical image bundles listed by the
+official catalog. A new application
 version downloads the official APK once and scans its bundles without creating
 a full multi-million-file extraction. The Master updater validates downloaded
 MessagePack books against `master-catalog`, then selects released characters by
