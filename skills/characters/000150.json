@@ -376,7 +376,7 @@
             "Id": 9901,
             "IsIgnore": null,
             "MaxLevelIncreaseValue": 0,
-            "Memo": "クルクスの天誓(黄昏フローレンス,?)"
+            "Memo": "クルクスの天誓(黄昏フローレンス,黄昏フォルティナ)"
           },
           "max_level_increase": 0
         },
@@ -424,7 +424,7 @@
             "Id": 9902,
             "IsIgnore": null,
             "MaxLevelIncreaseValue": 0,
-            "Memo": "クルクスの天誓(黄昏フローレンス,?)"
+            "Memo": "クルクスの天誓(黄昏フローレンス,黄昏フォルティナ)"
           },
           "max_level_increase": 0
         },
@@ -472,7 +472,7 @@
             "Id": 9903,
             "IsIgnore": null,
             "MaxLevelIncreaseValue": 0,
-            "Memo": "クルクスの天誓(黄昏フローレンス,?)"
+            "Memo": "クルクスの天誓(黄昏フローレンス,黄昏フォルティナ)"
           },
           "max_level_increase": 0
         },
@@ -520,7 +520,7 @@
             "Id": 9904,
             "IsIgnore": null,
             "MaxLevelIncreaseValue": 0,
-            "Memo": "クルクスの天誓(黄昏フローレンス,?)"
+            "Memo": "クルクスの天誓(黄昏フローレンス,黄昏フォルティナ)"
           },
           "max_level_increase": 0
         },
@@ -568,7 +568,7 @@
             "Id": 9905,
             "IsIgnore": null,
             "MaxLevelIncreaseValue": 0,
-            "Memo": "クルクスの天誓(黄昏フローレンス,?)"
+            "Memo": "クルクスの天誓(黄昏フローレンス,黄昏フォルティナ)"
           },
           "max_level_increase": 0
         },
@@ -616,7 +616,7 @@
             "Id": 9906,
             "IsIgnore": null,
             "MaxLevelIncreaseValue": 0,
-            "Memo": "クルクスの天誓(黄昏フローレンス,?)"
+            "Memo": "クルクスの天誓(黄昏フローレンス,黄昏フォルティナ)"
           },
           "max_level_increase": 0
         },
@@ -664,7 +664,7 @@
             "Id": 9907,
             "IsIgnore": null,
             "MaxLevelIncreaseValue": 0,
-            "Memo": "クルクスの天誓(黄昏フローレンス,?)"
+            "Memo": "クルクスの天誓(黄昏フローレンス,黄昏フォルティナ)"
           },
           "max_level_increase": 0
         },
@@ -712,7 +712,7 @@
             "Id": 9908,
             "IsIgnore": null,
             "MaxLevelIncreaseValue": 0,
-            "Memo": "クルクスの天誓(黄昏フローレンス,?)"
+            "Memo": "クルクスの天誓(黄昏フローレンス,黄昏フォルティナ)"
           },
           "max_level_increase": 0
         },
@@ -760,7 +760,7 @@
             "Id": 9909,
             "IsIgnore": null,
             "MaxLevelIncreaseValue": 0,
-            "Memo": "クルクスの天誓(黄昏フローレンス,?)"
+            "Memo": "クルクスの天誓(黄昏フローレンス,黄昏フォルティナ)"
           },
           "max_level_increase": 0
         }
@@ -769,11 +769,11 @@
         "EndTimeFixJST": "2100-01-01 00:00:00",
         "Id": 99,
         "IsIgnore": null,
-        "Memo": "クルクスの天誓(黄昏フローレンス,?)",
+        "Memo": "クルクスの天誓(黄昏フローレンス,黄昏フォルティナ)",
         "NameKey": "[CharacterCollectionName99]",
         "RequiredCharacterIds": [
           150,
-          0
+          151
         ],
         "RequiredPartyLv": 0,
         "StartTimeFixJST": "2026-08-13 00:00:00"
@@ -784,7 +784,7 @@
       },
       "required_character_ids": [
         150,
-        0
+        151
       ],
       "required_characters": [
         {
@@ -794,9 +794,9 @@
           }
         },
         {
-          "id": 0,
+          "id": 151,
           "names": {
-            "zh-CN": null
+            "zh-CN": "福尔蒂娜"
           }
         }
       ],
@@ -1338,46 +1338,46 @@
   "schema_version": 3,
   "source": {
     "app_version": "4.21.0",
-    "asset_version": "4a851fa27b84c8c1a05e57608a16c6486c404219_1",
+    "asset_version": "4a851fa27b84c8c1a05e57608a16c6486c404219_2",
     "books": {
       "ActiveSkillMB": {
-        "md5": "930c1c05d79a5bf64e6ce3e3c483ed12",
-        "size": 836158
+        "md5": "f833034d47023157b1ad4b4a0cc5d1fe",
+        "size": 840910
       },
       "CharacterCollectionLevelMB": {
-        "md5": "dcf363771fb6ca0ef693ffdae8632191",
-        "size": 294157
+        "md5": "664d8a53b3af099c16848a9c6b064856",
+        "size": 294364
       },
       "CharacterCollectionMB": {
-        "md5": "f0e027017e44c475bce7efc44336eba7",
-        "size": 22183
+        "md5": "a67eff3b0823f796d11966ab2e9135c8",
+        "size": 22207
       },
       "CharacterMB": {
-        "md5": "b8366dcf95baa9fbba739645c17dd5b8",
-        "size": 93585
+        "md5": "ced98d60cb03868bb233cfbd5c6fa1df",
+        "size": 94325
       },
       "EquipmentExclusiveEffectMB": {
-        "md5": "f39c11d377a753e73af7f13b5be0192e",
-        "size": 179461
+        "md5": "fa86c21dc019b4e3ffd63bcc448fb51c",
+        "size": 181085
       },
       "EquipmentExclusiveSkillDescriptionMB": {
-        "md5": "b0b7514ab76e89900a8ce4f3ebd02203",
-        "size": 24505
+        "md5": "26f811e0bb6fd53a09c842b7f2f109f5",
+        "size": 24727
       },
       "EquipmentMB": {
-        "md5": "da13df87037d5d796652151277d62bfc",
-        "size": 12480073
+        "md5": "d5d4ba56962ef4746464af9c7b3b37cc",
+        "size": 12572591
       },
       "PassiveSkillMB": {
-        "md5": "8d43dc5e17b4ba1452960b9712773bbf",
-        "size": 935888
+        "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
+        "size": 941782
       },
       "TextResourceZhCnMB": {
-        "md5": "40a2485875d5f7f21ec523c51368c433",
-        "size": 5175736
+        "md5": "54efa4b78734113958448d19f1649f8d",
+        "size": 5218909
       }
     },
-    "generated_at": "2026-08-27T05:30:02.106000+00:00",
-    "master_version": "1787808602106"
+    "generated_at": "2026-08-31T06:14:32.808000+00:00",
+    "master_version": "1788156872808"
   }
 }

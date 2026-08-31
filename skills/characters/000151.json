@@ -1,0 +1,1398 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 151001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription1510011]",
+          "descriptions": {
+            "zh-CN": "“主啊，请守护你的子民！”福尔蒂娜使自己与速度高于自己的其他友军增加防御力，增幅为福尔蒂娜防御力×25%，效果持续3回合（无法被解除）。再随机对5名敌人造成攻击力×240%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「どうか、かの者をお守りください……！」3ターンの間自身と、自身よりもスピードが高い味方全体の防御力を自身の防御力×25%増加させる（解除不可）。その後ランダムな敵5体に攻撃力×240%の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription1510012]",
+          "descriptions": {
+            "zh-CN": "发动攻击前，福尔蒂娜使自己与速度高于自己的其他友军额外增加物理防御力与魔法防御力，增幅分别为福尔蒂娜物理防御力×25%及福尔蒂娜魔法防御力×25%，效果持续3回合（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに物理攻撃の前に、3ターンの間自身と自身以外のスピードが自身よりも高い味方全体の物理防御力を自身の物理防御力×25%、魔法防御力を自身の魔法防御力×25%増加させる（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1510013]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×480%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃のダメージが攻撃力×480%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1510014]",
+          "descriptions": {
+            "zh-CN": "强化光剑的祈祷，防御力、物理防御力与魔法防御力增幅分别提升为福尔蒂娜防御力×50%、福尔蒂娜物理防御力×50%及福尔蒂娜魔法防御力×50%。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "光剣の祈りを強化する。防御力の増加量が自身の防御力×50%、物理防御力の増加量が自身の物理防御力×50%、魔法防御力の増加量が自身の魔法防御力×50%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription1510011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              151001001,
+              151001002,
+              151001003
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription1510012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              151001201,
+              151001202,
+              151001003
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1510013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              151001201,
+              151001202,
+              151001303
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1510014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              151001401,
+              151001402,
+              151001303
+            ]
+          }
+        ],
+        "Id": 151001,
+        "IsIgnore": null,
+        "Memo": "黄昏フォルティナSR:Lv1 「どうか、かの者をお守りください……！」3ターンの間自身と、自身よりもスピードが高い味方全体の防御力を自身の防御力×25%増加させる（解除不可）。その後ランダムな敵5体に攻撃力×240%の物理攻撃を行う。/ Lv2 さらに物理攻撃の前に、3ターンの間自身と自身以外のスピードが自身よりも高い味方全体の物理防御力を自身の物理防御力×25%、魔法防御力を自身の魔法防御力×25%増加させる（解除不可）。/ Lv3 物理攻撃のダメージが攻撃力×480%になる。/ Ex1 光剣の祈りを強化する。防御力の増加量が自身の防御力×50%、物理防御力の増加量が自身の物理防御力×50%、魔法防御力の増加量が自身の魔法防御力×50%になる。",
+        "NameKey": "[ActiveSkillName151001]",
+        "RootActiveSkillId": 151001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName151001]",
+      "names": {
+        "zh-CN": "光剑的祈祷"
+      },
+      "source_memo_ja": "黄昏フォルティナSR:Lv1 「どうか、かの者をお守りください……！」3ターンの間自身と、自身よりもスピードが高い味方全体の防御力を自身の防御力×25%増加させる（解除不可）。その後ランダムな敵5体に攻撃力×240%の物理攻撃を行う。/ Lv2 さらに物理攻撃の前に、3ターンの間自身と自身以外のスピードが自身よりも高い味方全体の物理防御力を自身の物理防御力×25%、魔法防御力を自身の魔法防御力×25%増加させる（解除不可）。/ Lv3 物理攻撃のダメージが攻撃力×480%になる。/ Ex1 光剣の祈りを強化する。防御力の増加量が自身の防御力×50%、物理防御力の増加量が自身の物理防御力×50%、魔法防御力の増加量が自身の魔法防御力×50%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「どうか、かの者をお守りください……！」3ターンの間自身と、自身よりもスピードが高い味方全体の防御力を自身の防御力×25%増加させる（解除不可）。その後ランダムな敵5体に攻撃力×240%の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに物理攻撃の前に、3ターンの間自身と自身以外のスピードが自身よりも高い味方全体の物理防御力を自身の物理防御力×25%、魔法防御力を自身の魔法防御力×25%増加させる（解除不可）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃のダメージが攻撃力×480%になる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "光剣の祈りを強化する。防御力の増加量が自身の防御力×50%、物理防御力の増加量が自身の物理防御力×50%、魔法防御力の増加量が自身の魔法防御力×50%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 151002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription1510021]",
+          "descriptions": {
+            "zh-CN": "“遵行神的旨意……”身负罪孽之人必将受到神的惩罚。福尔蒂娜随机对敌人进行3次攻击，每次造成攻击力×410%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「全ては神のご意思のままに……」業を背負いし罪人に、神の裁きが下る。ランダムな敵に3回攻撃力×410%の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription1510022]",
+          "descriptions": {
+            "zh-CN": "攻击结束后，福尔蒂娜额外恢复技能总伤害×20%的生命值。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに最後の物理攻撃の後、自身のHPをこのスキルの総与ダメージ×20%回復する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription1510023]",
+          "descriptions": {
+            "zh-CN": "攻击次数增加为5次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "物理攻撃の回数が5回になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription1510024]",
+          "descriptions": {
+            "zh-CN": "造成的物理伤害提升为攻击力×560%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "物理攻撃のダメージが攻撃力×560%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription1510025]",
+          "descriptions": {
+            "zh-CN": "强化神意的天平，造成的物理伤害提升为攻击力×610%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "天秤の采配を強化する。物理攻撃のダメージが攻撃力×610%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription1510021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              151002001,
+              151002002,
+              151002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription1510022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              151002001,
+              151002002,
+              151002002,
+              151002203
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription1510023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              151002301,
+              151002302,
+              151002302,
+              151002302,
+              151002302,
+              151002203
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription1510024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              151002401,
+              151002402,
+              151002402,
+              151002402,
+              151002402,
+              151002203
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription1510025]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              151002501,
+              151002502,
+              151002502,
+              151002502,
+              151002502,
+              151002203
+            ]
+          }
+        ],
+        "Id": 151002,
+        "IsIgnore": null,
+        "Memo": "黄昏フォルティナSR:Lv1 「全ては神のご意思のままに……」業を背負いし罪人に、神の裁きが下る。ランダムな敵に3回攻撃力×410%の物理攻撃を行う。/ Lv2 さらに最後の物理攻撃の後、自身のHPをこのスキルの総与ダメージ×20%回復する。/ Lv3 物理攻撃の回数が5回になる。/ Lv4 物理攻撃のダメージが攻撃力×560%になる。/ Ex2 天秤の采配を強化する。物理攻撃のダメージが攻撃力×610%になる。/ Ex3 天秤の采配を強化する。物理攻撃のダメージが攻撃力×610%になる。",
+        "NameKey": "[ActiveSkillName151002]",
+        "RootActiveSkillId": 151002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName151002]",
+      "names": {
+        "zh-CN": "神意的天平"
+      },
+      "source_memo_ja": "黄昏フォルティナSR:Lv1 「全ては神のご意思のままに……」業を背負いし罪人に、神の裁きが下る。ランダムな敵に3回攻撃力×410%の物理攻撃を行う。/ Lv2 さらに最後の物理攻撃の後、自身のHPをこのスキルの総与ダメージ×20%回復する。/ Lv3 物理攻撃の回数が5回になる。/ Lv4 物理攻撃のダメージが攻撃力×560%になる。/ Ex2 天秤の采配を強化する。物理攻撃のダメージが攻撃力×610%になる。/ Ex3 天秤の采配を強化する。物理攻撃のダメージが攻撃力×610%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「全ては神のご意思のままに……」業を背負いし罪人に、神の裁きが下る。ランダムな敵に3回攻撃力×410%の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに最後の物理攻撃の後、自身のHPをこのスキルの総与ダメージ×20%回復する。"
+        },
+        {
+          "label": "Lv3",
+          "text": "物理攻撃の回数が5回になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "物理攻撃のダメージが攻撃力×560%になる。"
+        },
+        {
+          "label": "Ex2",
+          "text": "天秤の采配を強化する。物理攻撃のダメージが攻撃力×610%になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "天秤の采配を強化する。物理攻撃のダメージが攻撃力×610%になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 99,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 99,
+            "CollectionLevel": 1,
+            "Id": 9901,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "クルクスの天誓(黄昏フローレンス,黄昏フォルティナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 99,
+            "CollectionLevel": 2,
+            "Id": 9902,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "クルクスの天誓(黄昏フローレンス,黄昏フォルティナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 99,
+            "CollectionLevel": 3,
+            "Id": 9903,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "クルクスの天誓(黄昏フローレンス,黄昏フォルティナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 30.0,
+              "value_text": "+30×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 30.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 99,
+            "CollectionLevel": 4,
+            "Id": 9904,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "クルクスの天誓(黄昏フローレンス,黄昏フォルティナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 31.0,
+              "value_text": "+31×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 210.0,
+              "value_text": "+2.1%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 31.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 210.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 99,
+            "CollectionLevel": 5,
+            "Id": 9905,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "クルクスの天誓(黄昏フローレンス,黄昏フォルティナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 32.0,
+              "value_text": "+32×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 220.0,
+              "value_text": "+2.2%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 32.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 220.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 99,
+            "CollectionLevel": 6,
+            "Id": 9906,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "クルクスの天誓(黄昏フローレンス,黄昏フォルティナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 33.0,
+              "value_text": "+33×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 230.0,
+              "value_text": "+2.3%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 33.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 230.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 99,
+            "CollectionLevel": 7,
+            "Id": 9907,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "クルクスの天誓(黄昏フローレンス,黄昏フォルティナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 34.0,
+              "value_text": "+34×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 240.0,
+              "value_text": "+2.4%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 34.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 240.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 99,
+            "CollectionLevel": 8,
+            "Id": 9908,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "クルクスの天誓(黄昏フローレンス,黄昏フォルティナ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Health",
+              "parameter_type": 4,
+              "raw_value": 35.0,
+              "value_text": "+35×角色等级"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 250.0,
+              "value_text": "+2.5%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 4,
+                "ChangeParameterType": 3,
+                "Value": 35.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 99,
+            "CollectionLevel": 9,
+            "Id": 9909,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "クルクスの天誓(黄昏フローレンス,黄昏フォルティナ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 99,
+        "IsIgnore": null,
+        "Memo": "クルクスの天誓(黄昏フローレンス,黄昏フォルティナ)",
+        "NameKey": "[CharacterCollectionName99]",
+        "RequiredCharacterIds": [
+          150,
+          151
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2026-08-13 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName99]",
+      "names": {
+        "zh-CN": "南十字座的约誓"
+      },
+      "required_character_ids": [
+        150,
+        151
+      ],
+      "required_characters": [
+        {
+          "id": 150,
+          "names": {
+            "zh-CN": "佛罗伦斯"
+          }
+        },
+        {
+          "id": 151,
+          "names": {
+            "zh-CN": "福尔蒂娜"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2026-08-13 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 2,
+    "element_type": 5,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 151,
+    "job_flags": 2,
+    "master_record": {
+      "ActiveSkillIds": [
+        151001,
+        151002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 90,
+        "Health": 80,
+        "Intelligence": 78,
+        "Muscle": 79
+      },
+      "BaseParameterGrossCoefficient": 344,
+      "CharacterType": 2,
+      "ElementType": 5,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 151,
+      "InitialBattleParameter": {
+        "AttackPower": -5,
+        "Avoidance": 4,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 10,
+        "DefensePenetration": 0,
+        "HP": 0,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 1,
+        "Speed": 3423
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 2,
+      "Memo": "黄昏フォルティナ",
+      "Name2Key": "[CharacterSubName151]",
+      "NameKey": "[CharacterName151]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        151003,
+        151004,
+        151005
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2026-08-31 15:00:00"
+    },
+    "memo": "黄昏フォルティナ",
+    "name_key": "[CharacterName151]",
+    "names": {
+      "zh-CN": "福尔蒂娜"
+    },
+    "speed": 3423,
+    "start_time_jst": "2026-08-31 15:00:00",
+    "subtitle_key": "[CharacterSubName151]",
+    "subtitles": {
+      "zh-CN": "黄昏之约"
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 1511120240,
+    "exclusive_effect_id": 720,
+    "icon_id": 1010,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 1511120250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 152,
+        "EquipmentEvolutionId": 162,
+        "EquipmentExclusiveSkillDescriptionId": 120,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 2,
+        "ExclusiveEffectId": 720,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 1010,
+        "Id": 1511120240,
+        "IsIgnore": null,
+        "Memo": "黄昏フォルティナLR240_銃",
+        "NameKey": "[EquipmentName1005]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": null,
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 1,
+            "ChangeParameterType": 2,
+            "Value": 2200.0
+          },
+          {
+            "BattleParameterType": 18,
+            "ChangeParameterType": 1,
+            "Value": 1500.0
+          }
+        ],
+        "CharacterId": 151,
+        "Id": 720,
+        "IsIgnore": null,
+        "Memo": "黄昏フォルティナLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill151Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill151Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill151Description3]",
+        "Id": 120,
+        "IsIgnore": null,
+        "Memo": "黄昏フォルティナ銃"
+      }
+    },
+    "name_key": "[EquipmentName1005]",
+    "names": {
+      "zh-CN": "圣女的黄昏"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "Hp",
+        "parameter_type": 1,
+        "raw_value": 2200.0,
+        "value_text": "+22%"
+      },
+      {
+        "change_parameter_type": 1,
+        "kind": "battle",
+        "parameter_code": "HpDrain",
+        "parameter_type": 18,
+        "raw_value": 1500.0,
+        "value_text": "+1,500"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill151Description1]",
+        "descriptions": {
+          "zh-CN": "强化光剑的祈祷，防御力、物理防御力与魔法防御力增幅分别提升为福尔蒂娜防御力×50%、福尔蒂娜物理防御力×50%及福尔蒂娜魔法防御力×50%。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill151Description2]",
+        "descriptions": {
+          "zh-CN": "战斗开始时，福尔蒂娜获得2层「多重屏障」（无法被解除）。当她受到最大生命值×10%以上的伤害时，消耗1层屏障来抵消该伤害。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill151Description3]",
+        "descriptions": {
+          "zh-CN": "强化神意的天平，造成的物理伤害提升为攻击力×610%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": false,
+  "missing_localization_keys": [
+    "*"
+  ],
+  "passive_skills": [
+    {
+      "id": 151003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription1510031]",
+          "descriptions": {
+            "zh-CN": "请让我的心，长伴在你左右。纵使彼此分离，两心仍能相依——战斗开始时，如果队伍中包含的角色属性为2种以下，福尔蒂娜使全体友军增加10%速度（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "私の心を、どうかあなたの傍において。遠く離れていても、あなたの心に寄り添えるように──バトル開始時、味方編成内の属性が2種類以下の場合、味方全体のスピードを10%増加させる（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription1510032]",
+          "descriptions": {
+            "zh-CN": "第2回合开始时，福尔蒂娜使自己与攻击力最高的2名其他友军额外增加攻击力，增幅为福尔蒂娜攻击力×15%，效果持续3回合（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに2ターン目のターン開始時、3ターンの間自身と自身以外の攻撃力が高い味方2体の攻撃力を、自身の攻撃力×15%増加させる（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription1510033]",
+          "descriptions": {
+            "zh-CN": "攻击力增幅提升为福尔蒂娜攻击力×30%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "攻撃力の増加量が自身の攻撃力×30%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 151003,
+        "IsIgnore": null,
+        "Memo": "黄昏フォルティナSR:Lv1 私の心を、どうかあなたの傍において。遠く離れていても、あなたの心に寄り添えるように──バトル開始時、味方編成内の属性が2種類以下の場合、味方全体のスピードを10%増加させる（解除不可）。/ Lv2 さらに2ターン目のターン開始時、3ターンの間自身と自身以外の攻撃力が高い味方2体の攻撃力を、自身の攻撃力×15%増加させる（解除不可）。/ Lv3 攻撃力の増加量が自身の攻撃力×30%になる。",
+        "NameKey": "[PassiveSkillName151003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription1510031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 28,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 151003001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription1510032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 28,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 151003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 151003202
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 151003203
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription1510033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 28,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 151003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 151003302
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 151003303
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName151003]",
+      "names": {
+        "zh-CN": "夕阳色的约定"
+      },
+      "source_memo_ja": "黄昏フォルティナSR:Lv1 私の心を、どうかあなたの傍において。遠く離れていても、あなたの心に寄り添えるように──バトル開始時、味方編成内の属性が2種類以下の場合、味方全体のスピードを10%増加させる（解除不可）。/ Lv2 さらに2ターン目のターン開始時、3ターンの間自身と自身以外の攻撃力が高い味方2体の攻撃力を、自身の攻撃力×15%増加させる（解除不可）。/ Lv3 攻撃力の増加量が自身の攻撃力×30%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "私の心を、どうかあなたの傍において。遠く離れていても、あなたの心に寄り添えるように──バトル開始時、味方編成内の属性が2種類以下の場合、味方全体のスピードを10%増加させる（解除不可）。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに2ターン目のターン開始時、3ターンの間自身と自身以外の攻撃力が高い味方2体の攻撃力を、自身の攻撃力×15%増加させる（解除不可）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "攻撃力の増加量が自身の攻撃力×30%になる。"
+        }
+      ]
+    },
+    {
+      "id": 151004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription1510041]",
+          "descriptions": {
+            "zh-CN": "彼此守护，彼此信赖——我想和你结下这种全新的情谊。所以，也让我来保护你吧。第1回合行动开始时，福尔蒂娜获得「献身」状态，代其他友军承受50%攻击伤害，效果持续3回合（无法被解除）。如果福尔蒂娜在身上附带此技能附加的「献身」状态时受到攻击，阻绝40%伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "護り護られ、信じて頼る。そんな新しい関係でいたい。だから私にもあなたを護らせて──1ターン目の自身の行動開始時、自身に3ターンの間『献身』を付与する（解除不可）。自身以外の味方が受けるダメージ×50%を自身が代わりに受けるようになる。自身がこのスキルで付与した『献身』を付帯している間、自身が攻撃を受けたとき、ダメージを40%遮断する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription1510042]",
+          "descriptions": {
+            "zh-CN": "「献身」存在期间，伤害阻绝量提升为50%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "『献身』を付帯している間のダメージの遮断量が50%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription1510043]",
+          "descriptions": {
+            "zh-CN": "「献身」存在期间，伤害阻绝量提升为65%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "『献身』を付帯している間のダメージの遮断量が65%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 151004,
+        "IsIgnore": null,
+        "Memo": "黄昏フォルティナSR:Lv1 護り護られ、信じて頼る。そんな新しい関係でいたい。だから私にもあなたを護らせて──1ターン目の自身の行動開始時、自身に3ターンの間『献身』を付与する（解除不可）。自身以外の味方が受けるダメージ×50%を自身が代わりに受けるようになる。自身がこのスキルで付与した『献身』を付帯している間、自身が攻撃を受けたとき、ダメージを40%遮断する。/ Lv2 『献身』を付帯している間のダメージの遮断量が50%になる。/ Lv3 『献身』を付帯している間のダメージの遮断量が65%になる。",
+        "NameKey": "[PassiveSkillName151004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription1510041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 32,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 151004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 151004002
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription1510042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 32,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 151004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 151004202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription1510043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 32,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 151004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 151004302
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName151004]",
+      "names": {
+        "zh-CN": "黄昏的圣女"
+      },
+      "source_memo_ja": "黄昏フォルティナSR:Lv1 護り護られ、信じて頼る。そんな新しい関係でいたい。だから私にもあなたを護らせて──1ターン目の自身の行動開始時、自身に3ターンの間『献身』を付与する（解除不可）。自身以外の味方が受けるダメージ×50%を自身が代わりに受けるようになる。自身がこのスキルで付与した『献身』を付帯している間、自身が攻撃を受けたとき、ダメージを40%遮断する。/ Lv2 『献身』を付帯している間のダメージの遮断量が50%になる。/ Lv3 『献身』を付帯している間のダメージの遮断量が65%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "護り護られ、信じて頼る。そんな新しい関係でいたい。だから私にもあなたを護らせて──1ターン目の自身の行動開始時、自身に3ターンの間『献身』を付与する（解除不可）。自身以外の味方が受けるダメージ×50%を自身が代わりに受けるようになる。自身がこのスキルで付与した『献身』を付帯している間、自身が攻撃を受けたとき、ダメージを40%遮断する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "『献身』を付帯している間のダメージの遮断量が50%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "『献身』を付帯している間のダメージの遮断量が65%になる。"
+        }
+      ]
+    },
+    {
+      "id": 151005,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription1510051]",
+          "descriptions": {
+            "zh-CN": "战斗开始时，福尔蒂娜获得2层「多重屏障」（无法被解除）。当她受到最大生命值×10%以上的伤害时，消耗1层屏障来抵消该伤害。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 1,
+          "source_memo_ja": null
+        }
+      ],
+      "master_record": {
+        "Id": 151005,
+        "IsIgnore": null,
+        "Memo": "*",
+        "NameKey": "*",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription1510051]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 151005001
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "*",
+      "names": {
+        "zh-CN": null
+      },
+      "source_memo_ja": "*",
+      "source_memo_sections_ja": []
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "4.21.0",
+    "asset_version": "4a851fa27b84c8c1a05e57608a16c6486c404219_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "f833034d47023157b1ad4b4a0cc5d1fe",
+        "size": 840910
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "664d8a53b3af099c16848a9c6b064856",
+        "size": 294364
+      },
+      "CharacterCollectionMB": {
+        "md5": "a67eff3b0823f796d11966ab2e9135c8",
+        "size": 22207
+      },
+      "CharacterMB": {
+        "md5": "ced98d60cb03868bb233cfbd5c6fa1df",
+        "size": 94325
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "fa86c21dc019b4e3ffd63bcc448fb51c",
+        "size": 181085
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "26f811e0bb6fd53a09c842b7f2f109f5",
+        "size": 24727
+      },
+      "EquipmentMB": {
+        "md5": "d5d4ba56962ef4746464af9c7b3b37cc",
+        "size": 12572591
+      },
+      "PassiveSkillMB": {
+        "md5": "8bf23c0773f0d3a1ca7868a3af1a751f",
+        "size": 941782
+      },
+      "TextResourceZhCnMB": {
+        "md5": "54efa4b78734113958448d19f1649f8d",
+        "size": 5218909
+      }
+    },
+    "generated_at": "2026-08-31T06:14:32.808000+00:00",
+    "master_version": "1788156872808"
+  }
+}

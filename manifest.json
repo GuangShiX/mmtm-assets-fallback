@@ -5,26 +5,26 @@
   "version": "4.21.0",
   "ref": "main",
   "archive_ref": "v4.21.0",
-  "generated_at": "2026-08-28T11:15:09.782666+00:00",
+  "generated_at": "2026-08-31T06:21:23.187486+00:00",
   "base_url": "https://raw.githubusercontent.com/GuangShiX/mmtm-assets-fallback/main",
   "cache_strategy": "stable-path-sha256",
-  "asset_count": 1631,
-  "total_bytes": 58661938,
+  "asset_count": 1638,
+  "total_bytes": 58821368,
   "category_counts": {
-    "characters": 277,
+    "characters": 278,
     "enemies": 60,
-    "equipment": 896,
+    "equipment": 902,
     "items": 248,
     "spheres": 64,
     "ui": 86
   },
   "generation_mode": "critical-package-plus-official-hot-update",
-  "asset_version": "4a851fa27b84c8c1a05e57608a16c6486c404219_1",
-  "master_version": "1787808602106",
-  "hot_update_asset_count": 27,
+  "asset_version": "4a851fa27b84c8c1a05e57608a16c6486c404219_2",
+  "master_version": "1788156872808",
+  "hot_update_asset_count": 34,
   "hot_update_category_counts": {
-    "characters": 17,
-    "equipment": 6,
+    "characters": 18,
+    "equipment": 12,
     "items": 4
   },
   "request_registry_sha256": "1e46d7cb9b007bab8dfbd8e4362a68727ee5e069de65f8b57bf43301bda1fe61",
@@ -3117,6 +3117,20 @@
       ],
       "source_catalog_keys": [
         "CharacterIcon/CHR_000150/CHR_000150_00_s"
+      ]
+    },
+    {
+      "category": "characters",
+      "name": "CHR_000151_00_s.png",
+      "path": "assets/characters/CHR_000151_00_s.png",
+      "sha256": "db7a617eacaaf99424ec97a7ee7777547ba1cafc9cb9db43422ff4422867aa86",
+      "size": 31575,
+      "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000151/CHR_000151_00_s.png",
+      "source_bundles": [
+        "ae041d084a4f36a4348d98a0ca437a06.bundle"
+      ],
+      "source_catalog_keys": [
+        "CharacterIcon/CHR_000151/CHR_000151_00_s"
       ]
     },
     {
@@ -13596,6 +13610,90 @@
       ],
       "source_catalog_keys": [
         "Icon/Equipment/EQP_001004"
+      ]
+    },
+    {
+      "category": "equipment",
+      "name": "EQP_001005.png",
+      "path": "assets/equipment/EQP_001005.png",
+      "sha256": "6a235af624ed9180f4c3cf6c2707b7689c8a8ae2ebe49d8f9d46db639e7a06d2",
+      "size": 13281,
+      "source_resource_key": "Assets/AddressableConvertAssets/Icon/Equipment/EQP_001005.png",
+      "source_bundles": [
+        "ffc2ed98ac2979c729a6f066adc6babc.bundle"
+      ],
+      "source_catalog_keys": [
+        "Icon/Equipment/EQP_001005"
+      ]
+    },
+    {
+      "category": "equipment",
+      "name": "EQP_001006.png",
+      "path": "assets/equipment/EQP_001006.png",
+      "sha256": "379bcdfd0f7a429678f4855a97b0e05f8a7ed44b62f3a6ed4951c3fea04c5db1",
+      "size": 16089,
+      "source_resource_key": "Assets/AddressableConvertAssets/Icon/Equipment/EQP_001006.png",
+      "source_bundles": [
+        "b0d3c6b1235cec88f823b6211fcfd95f.bundle"
+      ],
+      "source_catalog_keys": [
+        "Icon/Equipment/EQP_001006"
+      ]
+    },
+    {
+      "category": "equipment",
+      "name": "EQP_001007.png",
+      "path": "assets/equipment/EQP_001007.png",
+      "sha256": "af1d80a92c5fe146214a0e99e94b51298a02228985e64861704dbb04b08b50ba",
+      "size": 19222,
+      "source_resource_key": "Assets/AddressableConvertAssets/Icon/Equipment/EQP_001007.png",
+      "source_bundles": [
+        "dccbf01e6cf846c3e0f82bfa9c009efa.bundle"
+      ],
+      "source_catalog_keys": [
+        "Icon/Equipment/EQP_001007"
+      ]
+    },
+    {
+      "category": "equipment",
+      "name": "EQP_001008.png",
+      "path": "assets/equipment/EQP_001008.png",
+      "sha256": "e1ac14b303ecb48c212ec674b01f546cf91d80831b58f05e838f1db1ba75ce40",
+      "size": 23599,
+      "source_resource_key": "Assets/AddressableConvertAssets/Icon/Equipment/EQP_001008.png",
+      "source_bundles": [
+        "7e752fca825e4501e61871bb78e6c043.bundle"
+      ],
+      "source_catalog_keys": [
+        "Icon/Equipment/EQP_001008"
+      ]
+    },
+    {
+      "category": "equipment",
+      "name": "EQP_001009.png",
+      "path": "assets/equipment/EQP_001009.png",
+      "sha256": "b7813226206ed9fe9bdd101ef463115d7cf1a6c1a1240925c07cd662089227d2",
+      "size": 27344,
+      "source_resource_key": "Assets/AddressableConvertAssets/Icon/Equipment/EQP_001009.png",
+      "source_bundles": [
+        "5d5c73180cc0f3a2645ed43d51099897.bundle"
+      ],
+      "source_catalog_keys": [
+        "Icon/Equipment/EQP_001009"
+      ]
+    },
+    {
+      "category": "equipment",
+      "name": "EQP_001010.png",
+      "path": "assets/equipment/EQP_001010.png",
+      "sha256": "9122fbc6afb52956aae46fc8970e89f2aeaa9ddd29e27ff961611cc591f29b41",
+      "size": 28320,
+      "source_resource_key": "Assets/AddressableConvertAssets/Icon/Equipment/EQP_001010.png",
+      "source_bundles": [
+        "45147f066ef195bb9bcf4990a8c7ff9d.bundle"
+      ],
+      "source_catalog_keys": [
+        "Icon/Equipment/EQP_001010"
       ]
     },
     {
