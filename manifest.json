@@ -5,31 +5,32 @@
   "version": "4.21.0",
   "ref": "main",
   "archive_ref": "v4.21.0",
-  "generated_at": "2026-09-03T16:40:55.660726+00:00",
+  "generated_at": "2026-09-08T10:39:39.536536+00:00",
   "base_url": "https://raw.githubusercontent.com/GuangShiX/mmtm-assets-fallback/main",
   "cache_strategy": "stable-path-sha256",
-  "asset_count": 1638,
-  "total_bytes": 58821368,
+  "asset_count": 1668,
+  "total_bytes": 59303598,
   "category_counts": {
     "characters": 278,
     "enemies": 60,
     "equipment": 902,
     "items": 248,
     "spheres": 64,
-    "ui": 86
+    "ui": 116
   },
   "generation_mode": "critical-package-plus-official-hot-update",
   "asset_version": "4a851fa27b84c8c1a05e57608a16c6486c404219_2",
-  "master_version": "1788413933837",
-  "hot_update_asset_count": 34,
+  "master_version": "1788499803812",
+  "hot_update_asset_count": 56,
   "hot_update_category_counts": {
     "characters": 18,
     "equipment": 12,
-    "items": 4
+    "items": 4,
+    "ui": 22
   },
-  "request_registry_sha256": "c1a550e1a99597b16c3aa278156a901331c0c6cb7b9cf378542b70ce6c4dd646",
+  "request_registry_sha256": "9386ec2106384bb2812c703f2f2065206f721883c0e82bf4595e77ca717debcf",
   "request_registry_status": "complete",
-  "requested_asset_count": 220,
+  "requested_asset_count": 250,
   "missing_requested_assets": [],
   "assets": [
     {
@@ -17285,6 +17286,83 @@
     },
     {
       "category": "ui",
+      "name": "ItemIconCursor_cornerA.png",
+      "path": "assets/ui/ItemIconCursor_cornerA.png",
+      "sha256": "3d106404ef49b6a398f6dbdd3d7cc5cb62cf0cc7830a5052267758a0d8d689e9",
+      "size": 2971,
+      "source_resource_key": "Assets/AddressableLocalAssets/Production/ItemIconCursor/ItemIconCursor_cornerA.png",
+      "source_bundles": [
+        "8a64ae5d87b68ce6c544012f76b34d6d.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "ItemIconCursor_cornerB.png",
+      "path": "assets/ui/ItemIconCursor_cornerB.png",
+      "sha256": "b50ffbf57792bec07ac1e5c7fce32d44be6298f4fddcc437b8d862ae128f7def",
+      "size": 3047,
+      "source_resource_key": "Assets/AddressableLocalAssets/Production/ItemIconCursor/ItemIconCursor_cornerB.png",
+      "source_bundles": [
+        "66cb71db4aa2347f1c4b415bed309916.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "ItemIconCursor_lineA1.png",
+      "path": "assets/ui/ItemIconCursor_lineA1.png",
+      "sha256": "19e83afef6385fa226fb754e18b78684000061aee7300e2a7d86286f1f7600ad",
+      "size": 1776,
+      "source_resource_key": "Assets/AddressableLocalAssets/Production/ItemIconCursor/ItemIconCursor_lineA1.png",
+      "source_bundles": [
+        "3e3bf444fe16427293a9f809c5f81479.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "ItemIconCursor_lineA2.png",
+      "path": "assets/ui/ItemIconCursor_lineA2.png",
+      "sha256": "a0b9e368c37fda192e8cf6dee536392801b09533314500ed5baf7e56516e9c5f",
+      "size": 1818,
+      "source_resource_key": "Assets/AddressableLocalAssets/Production/ItemIconCursor/ItemIconCursor_lineA2.png",
+      "source_bundles": [
+        "c4b6e8d23e4526e23677f65b0e9b21d9.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "ItemIconCursor_lineB1.png",
+      "path": "assets/ui/ItemIconCursor_lineB1.png",
+      "sha256": "c6d961d65b85c79407b5cc108233e67a283d379c0fb7098db93b4154020b6455",
+      "size": 1750,
+      "source_resource_key": "Assets/AddressableLocalAssets/Production/ItemIconCursor/ItemIconCursor_lineB1.png",
+      "source_bundles": [
+        "9b70bf295d3b271930271b5d99a33c84.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "ItemIconCursor_lineB2.png",
+      "path": "assets/ui/ItemIconCursor_lineB2.png",
+      "sha256": "e71f1327ec3c8b925eccf5edfa91657a2baffa0de649f48d584aa7dde4bcb416",
+      "size": 1789,
+      "source_resource_key": "Assets/AddressableLocalAssets/Production/ItemIconCursor/ItemIconCursor_lineB2.png",
+      "source_bundles": [
+        "7a3692356080c1241098bde37ce551d1.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "ItemIconCursor_point.png",
+      "path": "assets/ui/ItemIconCursor_point.png",
+      "sha256": "2103e19136898b93b95e9749add584dcfd99508802b297451ccea53ae146887f",
+      "size": 1610,
+      "source_resource_key": "Assets/AddressableLocalAssets/Production/ItemIconCursor/ItemIconCursor_point.png",
+      "source_bundles": [
+        "685ee2cca9266e35cdb8dc4219fda6c8.bundle"
+      ]
+    },
+    {
+      "category": "ui",
       "name": "Map_0.png",
       "path": "assets/ui/Map_0.png",
       "sha256": "1824730a2d6ea6ded2f00959014f4525b559282b0b0d906de7291583124349cd",
@@ -17358,6 +17436,314 @@
       "source_resource_key": "Assets/AddressableConvertAssets/Banner/LocalRaid/RQB_000005.png",
       "source_bundles": [
         "5548d1eab9457d82f5f9ba08118d5e10.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "TabDecoration_01.png",
+      "path": "assets/ui/TabDecoration_01.png",
+      "sha256": "a23b2ff8d0a31b414e215d0b87e25c83db5c93ed0a5459ef38f720bbcc075ea4",
+      "size": 48817,
+      "source_resource_key": "Assets/AddressableConvertAssets/UI/Exchange/TabDecoration/TabDecoration_01.png",
+      "source_bundles": [
+        "7b1c7a694c211dab4f85f0368c517e89.bundle"
+      ],
+      "source_catalog_keys": [
+        "UI/Exchange/TabDecoration/TabDecoration_01"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "TabDecoration_02.png",
+      "path": "assets/ui/TabDecoration_02.png",
+      "sha256": "e595dc81f2ab8b9427aad7fa571553eec900ede0c49b3e46b6c598bbad5d57a2",
+      "size": 33565,
+      "source_resource_key": "Assets/AddressableConvertAssets/UI/Exchange/TabDecoration/TabDecoration_02.png",
+      "source_bundles": [
+        "159390b3f5af36e58074d08f827698e3.bundle"
+      ],
+      "source_catalog_keys": [
+        "UI/Exchange/TabDecoration/TabDecoration_02"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "TabDecoration_03.png",
+      "path": "assets/ui/TabDecoration_03.png",
+      "sha256": "0fd4c51ec7783e104868c32d224a479b1a47b41a89683ad48d470f2b1f9a0ed2",
+      "size": 32970,
+      "source_resource_key": "Assets/AddressableConvertAssets/UI/Exchange/TabDecoration/TabDecoration_03.png",
+      "source_bundles": [
+        "858f0c0855d7bb42947ef081de85b45c.bundle"
+      ],
+      "source_catalog_keys": [
+        "UI/Exchange/TabDecoration/TabDecoration_03"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "TabDecoration_04.png",
+      "path": "assets/ui/TabDecoration_04.png",
+      "sha256": "6c578c2df482834c933de061bb6483d4d97ec7a7430ffbf60491304d7c11267c",
+      "size": 34020,
+      "source_resource_key": "Assets/AddressableConvertAssets/UI/Exchange/TabDecoration/TabDecoration_04.png",
+      "source_bundles": [
+        "ad39839d24824a61b3f0f240ace4c74f.bundle"
+      ],
+      "source_catalog_keys": [
+        "UI/Exchange/TabDecoration/TabDecoration_04"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "TabDecoration_05.png",
+      "path": "assets/ui/TabDecoration_05.png",
+      "sha256": "97ea3ee3ff8c061ccf287d53aca95044df20f9b72c058ee8b0b2e669eca253e7",
+      "size": 38387,
+      "source_resource_key": "Assets/AddressableConvertAssets/UI/Exchange/TabDecoration/TabDecoration_05.png",
+      "source_bundles": [
+        "32bc18607ca4867f73f82ab13245ab00.bundle"
+      ],
+      "source_catalog_keys": [
+        "UI/Exchange/TabDecoration/TabDecoration_05"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "TabIcon_000001.png",
+      "path": "assets/ui/TabIcon_000001.png",
+      "sha256": "f30e36f9c2529fe06bacc6f35b165ba152d2ed8a1f8073a431d550f3b9665ab4",
+      "size": 19141,
+      "source_resource_key": "Assets/AddressableConvertAssets/UI/Exchange/TabIcon/TabIcon_000001.png",
+      "source_bundles": [
+        "a603d10b98a5ea7b7e5ae762c4621628.bundle"
+      ],
+      "source_catalog_keys": [
+        "UI/Exchange/TabIcon/TabIcon_000001"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "TabIcon_000002.png",
+      "path": "assets/ui/TabIcon_000002.png",
+      "sha256": "f6ecfb003b646508f995dad1cbf2bbff18612615814b77c3d6aa2abcd4d094cb",
+      "size": 14224,
+      "source_resource_key": "Assets/AddressableConvertAssets/UI/Exchange/TabIcon/TabIcon_000002.png",
+      "source_bundles": [
+        "c5a328047a6a17528c477dfd8e525450.bundle"
+      ],
+      "source_catalog_keys": [
+        "UI/Exchange/TabIcon/TabIcon_000002"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "TabIcon_000003.png",
+      "path": "assets/ui/TabIcon_000003.png",
+      "sha256": "85464576424aec8e88bdeb213c222904b3582e94df51100d33b95c865c0682ed",
+      "size": 15084,
+      "source_resource_key": "Assets/AddressableConvertAssets/UI/Exchange/TabIcon/TabIcon_000003.png",
+      "source_bundles": [
+        "61dcb819dc2768e8bd26cdad1479a0d9.bundle"
+      ],
+      "source_catalog_keys": [
+        "UI/Exchange/TabIcon/TabIcon_000003"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "TabIcon_000004.png",
+      "path": "assets/ui/TabIcon_000004.png",
+      "sha256": "abdae8652f37e2391bf0c156b2920e132e7e7a2a62c91e30f4ba6b5eefcaeeb0",
+      "size": 13990,
+      "source_resource_key": "Assets/AddressableConvertAssets/UI/Exchange/TabIcon/TabIcon_000004.png",
+      "source_bundles": [
+        "a3fb56b10efb7c8e2614e1e7fa8f880b.bundle"
+      ],
+      "source_catalog_keys": [
+        "UI/Exchange/TabIcon/TabIcon_000004"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "TabIcon_000005.png",
+      "path": "assets/ui/TabIcon_000005.png",
+      "sha256": "2ec84a68ee203bd59bf6a4c2e04ac8fbeda2357af775bcef10a0c4cbc8f329d8",
+      "size": 14004,
+      "source_resource_key": "Assets/AddressableConvertAssets/UI/Exchange/TabIcon/TabIcon_000005.png",
+      "source_bundles": [
+        "2779ca953e2dac4e958488159dd21f6b.bundle"
+      ],
+      "source_catalog_keys": [
+        "UI/Exchange/TabIcon/TabIcon_000005"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "TabIcon_000006.png",
+      "path": "assets/ui/TabIcon_000006.png",
+      "sha256": "169ca6479ac03eed1bf32d7f1205355ee9eee192668c72ba68c950c14500e632",
+      "size": 13703,
+      "source_resource_key": "Assets/AddressableConvertAssets/UI/Exchange/TabIcon/TabIcon_000006.png",
+      "source_bundles": [
+        "0967641415bb0d8b9a59435af18b3de3.bundle"
+      ],
+      "source_catalog_keys": [
+        "UI/Exchange/TabIcon/TabIcon_000006"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "TabIcon_000007.png",
+      "path": "assets/ui/TabIcon_000007.png",
+      "sha256": "0ffc30bf755162d0afe6ca147e7963faa6e543593d8da1ed04dec3dbec0d7f5d",
+      "size": 12918,
+      "source_resource_key": "Assets/AddressableConvertAssets/UI/Exchange/TabIcon/TabIcon_000007.png",
+      "source_bundles": [
+        "f72d4c57d48b55efa893f5f7d77d11ff.bundle"
+      ],
+      "source_catalog_keys": [
+        "UI/Exchange/TabIcon/TabIcon_000007"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "TabIcon_000008.png",
+      "path": "assets/ui/TabIcon_000008.png",
+      "sha256": "377a7f03839e42d67d258247c23b6e3a8de24a7d7a006ce8391f3183ecebb6e6",
+      "size": 13038,
+      "source_resource_key": "Assets/AddressableConvertAssets/UI/Exchange/TabIcon/TabIcon_000008.png",
+      "source_bundles": [
+        "30aea4483354d6cb36fc2a1b2e57f874.bundle"
+      ],
+      "source_catalog_keys": [
+        "UI/Exchange/TabIcon/TabIcon_000008"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "TabIcon_000009.png",
+      "path": "assets/ui/TabIcon_000009.png",
+      "sha256": "48473a8fa6f7bffb27a029033bacbb2311f16cd835daad06ee1996e8cc464747",
+      "size": 13016,
+      "source_resource_key": "Assets/AddressableConvertAssets/UI/Exchange/TabIcon/TabIcon_000009.png",
+      "source_bundles": [
+        "3d875bac7db5a87db774193c6582cb96.bundle"
+      ],
+      "source_catalog_keys": [
+        "UI/Exchange/TabIcon/TabIcon_000009"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "TabIcon_000010.png",
+      "path": "assets/ui/TabIcon_000010.png",
+      "sha256": "b8dc536bd92306b7e84600cf14bddff694c359b6e662e98f1479648ce1cb2755",
+      "size": 11811,
+      "source_resource_key": "Assets/AddressableConvertAssets/UI/Exchange/TabIcon/TabIcon_000010.png",
+      "source_bundles": [
+        "87394c945e17df5ed88a56d253eb58eb.bundle"
+      ],
+      "source_catalog_keys": [
+        "UI/Exchange/TabIcon/TabIcon_000010"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "TabIcon_000011.png",
+      "path": "assets/ui/TabIcon_000011.png",
+      "sha256": "b26df5ee204ac66511b0d072d7494909c1d7bb32cf12c2c5302c1ab59e2c5ef2",
+      "size": 19047,
+      "source_resource_key": "Assets/AddressableConvertAssets/UI/Exchange/TabIcon/TabIcon_000011.png",
+      "source_bundles": [
+        "ef4c58face0132bac08d452d388b98b8.bundle"
+      ],
+      "source_catalog_keys": [
+        "UI/Exchange/TabIcon/TabIcon_000011"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "TabIcon_000012.png",
+      "path": "assets/ui/TabIcon_000012.png",
+      "sha256": "630e1ca11b9efabc0d02be813a5b17100534b54058fc40677b565d2672927b91",
+      "size": 11470,
+      "source_resource_key": "Assets/AddressableConvertAssets/UI/Exchange/TabIcon/TabIcon_000012.png",
+      "source_bundles": [
+        "f721268b189180a4be21472ba4a300c6.bundle"
+      ],
+      "source_catalog_keys": [
+        "UI/Exchange/TabIcon/TabIcon_000012"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "TabIcon_000013.png",
+      "path": "assets/ui/TabIcon_000013.png",
+      "sha256": "e88eede30ea7be724bbae4de1c3a603b52e0ef33af0e05fdf050c21468ac0cae",
+      "size": 20249,
+      "source_resource_key": "Assets/AddressableConvertAssets/UI/Exchange/TabIcon/TabIcon_000013.png",
+      "source_bundles": [
+        "ab3368c45142fd50aeba02ba8507a526.bundle"
+      ],
+      "source_catalog_keys": [
+        "UI/Exchange/TabIcon/TabIcon_000013"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "TabIcon_000016.png",
+      "path": "assets/ui/TabIcon_000016.png",
+      "sha256": "e8fb9d5ec1637a824893f2fe3e46a81f46f715119dc60a49fdc7711502629e20",
+      "size": 12825,
+      "source_resource_key": "Assets/AddressableConvertAssets/UI/Exchange/TabIcon/TabIcon_000016.png",
+      "source_bundles": [
+        "27d752ef79ec0285b7d9e53b48e73ea2.bundle"
+      ],
+      "source_catalog_keys": [
+        "UI/Exchange/TabIcon/TabIcon_000016"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "TabIcon_000043.png",
+      "path": "assets/ui/TabIcon_000043.png",
+      "sha256": "59c4c9997ba7b05e82c1136ebe4dcb515bfb33ab02d9de296e64ac39e38cb42f",
+      "size": 18454,
+      "source_resource_key": "Assets/AddressableConvertAssets/UI/Exchange/TabIcon/TabIcon_000043.png",
+      "source_bundles": [
+        "ebf545ac7160d7344dd9484de71af53d.bundle"
+      ],
+      "source_catalog_keys": [
+        "UI/Exchange/TabIcon/TabIcon_000043"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "TabIcon_000060.png",
+      "path": "assets/ui/TabIcon_000060.png",
+      "sha256": "7d2ac07c5d1170ddbdde36d454db9569ee36734413ca393533c8dc8f13cbf8f1",
+      "size": 20824,
+      "source_resource_key": "Assets/AddressableConvertAssets/UI/Exchange/TabIcon/TabIcon_000060.png",
+      "source_bundles": [
+        "0ee8f2d050c4817e72e05500a2283d5a.bundle"
+      ],
+      "source_catalog_keys": [
+        "UI/Exchange/TabIcon/TabIcon_000060"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "TabSpecial_01.png",
+      "path": "assets/ui/TabSpecial_01.png",
+      "sha256": "ef0079c67dbf58791641c1a7e2413ddae7de372bf2c8f3e16560277ca4fcd249",
+      "size": 15846,
+      "source_resource_key": "Assets/AddressableConvertAssets/UI/Exchange/TabSpecial/TabSpecial_01.png",
+      "source_bundles": [
+        "ee2717f3a4b90ae9c596249224099f5f.bundle"
+      ],
+      "source_catalog_keys": [
+        "UI/Exchange/TabSpecial/TabSpecial_01"
       ]
     },
     {
@@ -17576,6 +17962,17 @@
       "sha256": "7479077e846b1a3e093231fc7959c5d1ea9b23049b7561a3599b6de1aa9505e5",
       "size": 19580,
       "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:3238318852840847152",
+      "source_bundles": [
+        "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "button_l_01_orange.png",
+      "path": "assets/ui/button_l_01_orange.png",
+      "sha256": "dde050fc45cd41b99e6c73a0a0b0875811b32f4991c8b9844b4efe57b9666f52",
+      "size": 20066,
+      "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:5171071323018679114",
       "source_bundles": [
         "29121095407936fd11fb775fb8b7cfef.bundle"
       ]
