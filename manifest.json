@@ -2,10 +2,10 @@
   "schema_version": 2,
   "game": "MementoMori",
   "package_name": "jp.boi.mementomori.android",
-  "version": "4.22.0",
+  "version": "4.23.0",
   "ref": "main",
-  "archive_ref": "v4.22.0",
-  "generated_at": "2026-09-28T05:45:24.640444+00:00",
+  "archive_ref": "v4.23.0",
+  "generated_at": "2026-09-28T19:51:20.574131+00:00",
   "base_url": "https://raw.githubusercontent.com/GuangShiX/mmtm-assets-fallback/main",
   "cache_strategy": "stable-path-sha256",
   "asset_count": 1675,
@@ -19,13 +19,12 @@
     "ui": 116
   },
   "generation_mode": "critical-package-plus-official-hot-update",
-  "asset_version": "a605d34cadf7104601f38970d049ad52c855c02a_2",
+  "asset_version": "9a60ac3d37f7d9e9f6b84b3275a73d4edcb324a4_1",
   "master_version": "1790573449560",
-  "hot_update_asset_count": 63,
+  "hot_update_asset_count": 39,
   "hot_update_category_counts": {
-    "characters": 18,
-    "equipment": 18,
-    "items": 5,
+    "characters": 15,
+    "items": 2,
     "ui": 22
   },
   "request_registry_sha256": "84b89a66b4b26b426c1f2cf488a23f009d3b959a52bec413c98b78ff7662f054",
@@ -2275,9 +2274,6 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000097/CHR_000097_00_s.png",
       "source_bundles": [
         "6e7e72d66a5e71416cc2cebe1c199670.bundle"
-      ],
-      "source_catalog_keys": [
-        "CharacterIcon/CHR_000097/CHR_000097_00_s"
       ]
     },
     {
@@ -3115,9 +3111,6 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000150/CHR_000150_00_s.png",
       "source_bundles": [
         "bc50e6fa2ba8ff1f4bd2e0b372a67784.bundle"
-      ],
-      "source_catalog_keys": [
-        "CharacterIcon/CHR_000150/CHR_000150_00_s"
       ]
     },
     {
@@ -3129,9 +3122,6 @@
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000151/CHR_000151_00_s.png",
       "source_bundles": [
         "ae041d084a4f36a4348d98a0ca437a06.bundle"
-      ],
-      "source_catalog_keys": [
-        "CharacterIcon/CHR_000151/CHR_000151_00_s"
       ]
     },
     {
@@ -11162,9 +11152,6 @@
       "source_resource_key": "Assets/AddressableConvertAssets/Icon/Equipment/EQP_000681.png",
       "source_bundles": [
         "675d9393c84f8a678e7b104d3338b482.bundle"
-      ],
-      "source_catalog_keys": [
-        "Icon/Equipment/EQP_000681"
       ]
     },
     {
@@ -11176,9 +11163,6 @@
       "source_resource_key": "Assets/AddressableConvertAssets/Icon/Equipment/EQP_000682.png",
       "source_bundles": [
         "6c2cdc86ad89dc712bb20bdbe37b326c.bundle"
-      ],
-      "source_catalog_keys": [
-        "Icon/Equipment/EQP_000682"
       ]
     },
     {
@@ -11190,9 +11174,6 @@
       "source_resource_key": "Assets/AddressableConvertAssets/Icon/Equipment/EQP_000683.png",
       "source_bundles": [
         "c4c85f32fe65fd09d18e75e7adcf64b8.bundle"
-      ],
-      "source_catalog_keys": [
-        "Icon/Equipment/EQP_000683"
       ]
     },
     {
@@ -11204,9 +11185,6 @@
       "source_resource_key": "Assets/AddressableConvertAssets/Icon/Equipment/EQP_000684.png",
       "source_bundles": [
         "24df951c3aa4cb00cd19c4390944ba31.bundle"
-      ],
-      "source_catalog_keys": [
-        "Icon/Equipment/EQP_000684"
       ]
     },
     {
@@ -11218,9 +11196,6 @@
       "source_resource_key": "Assets/AddressableConvertAssets/Icon/Equipment/EQP_000685.png",
       "source_bundles": [
         "082b5f3b00e9a3b4806c89123c11d026.bundle"
-      ],
-      "source_catalog_keys": [
-        "Icon/Equipment/EQP_000685"
       ]
     },
     {
@@ -11232,9 +11207,6 @@
       "source_resource_key": "Assets/AddressableConvertAssets/Icon/Equipment/EQP_000686.png",
       "source_bundles": [
         "fc283489536ce1dd130a51e9308df9a0.bundle"
-      ],
-      "source_catalog_keys": [
-        "Icon/Equipment/EQP_000686"
       ]
     },
     {
@@ -13622,9 +13594,6 @@
       "source_resource_key": "Assets/AddressableConvertAssets/Icon/Equipment/EQP_000999.png",
       "source_bundles": [
         "642e964c2d895518229da086cb74f1e7.bundle"
-      ],
-      "source_catalog_keys": [
-        "Icon/Equipment/EQP_000999"
       ]
     },
     {
@@ -13636,9 +13605,6 @@
       "source_resource_key": "Assets/AddressableConvertAssets/Icon/Equipment/EQP_001000.png",
       "source_bundles": [
         "8099a1cabd91a99aa0e51f31a9b7d858.bundle"
-      ],
-      "source_catalog_keys": [
-        "Icon/Equipment/EQP_001000"
       ]
     },
     {
@@ -13650,9 +13616,6 @@
       "source_resource_key": "Assets/AddressableConvertAssets/Icon/Equipment/EQP_001001.png",
       "source_bundles": [
         "a52d016d2293c70435753e6fbd5ce96e.bundle"
-      ],
-      "source_catalog_keys": [
-        "Icon/Equipment/EQP_001001"
       ]
     },
     {
@@ -13664,9 +13627,6 @@
       "source_resource_key": "Assets/AddressableConvertAssets/Icon/Equipment/EQP_001002.png",
       "source_bundles": [
         "061e379a688bd5fda4c89aca8778b457.bundle"
-      ],
-      "source_catalog_keys": [
-        "Icon/Equipment/EQP_001002"
       ]
     },
     {
@@ -13678,9 +13638,6 @@
       "source_resource_key": "Assets/AddressableConvertAssets/Icon/Equipment/EQP_001003.png",
       "source_bundles": [
         "7576ff2cbee438ab9e999ccb134404ed.bundle"
-      ],
-      "source_catalog_keys": [
-        "Icon/Equipment/EQP_001003"
       ]
     },
     {
@@ -13692,9 +13649,6 @@
       "source_resource_key": "Assets/AddressableConvertAssets/Icon/Equipment/EQP_001004.png",
       "source_bundles": [
         "0c3af669ae67b885c2b005a025a3a888.bundle"
-      ],
-      "source_catalog_keys": [
-        "Icon/Equipment/EQP_001004"
       ]
     },
     {
@@ -13706,9 +13660,6 @@
       "source_resource_key": "Assets/AddressableConvertAssets/Icon/Equipment/EQP_001005.png",
       "source_bundles": [
         "ffc2ed98ac2979c729a6f066adc6babc.bundle"
-      ],
-      "source_catalog_keys": [
-        "Icon/Equipment/EQP_001005"
       ]
     },
     {
@@ -13720,9 +13671,6 @@
       "source_resource_key": "Assets/AddressableConvertAssets/Icon/Equipment/EQP_001006.png",
       "source_bundles": [
         "b0d3c6b1235cec88f823b6211fcfd95f.bundle"
-      ],
-      "source_catalog_keys": [
-        "Icon/Equipment/EQP_001006"
       ]
     },
     {
@@ -13734,9 +13682,6 @@
       "source_resource_key": "Assets/AddressableConvertAssets/Icon/Equipment/EQP_001007.png",
       "source_bundles": [
         "dccbf01e6cf846c3e0f82bfa9c009efa.bundle"
-      ],
-      "source_catalog_keys": [
-        "Icon/Equipment/EQP_001007"
       ]
     },
     {
@@ -13748,9 +13693,6 @@
       "source_resource_key": "Assets/AddressableConvertAssets/Icon/Equipment/EQP_001008.png",
       "source_bundles": [
         "7e752fca825e4501e61871bb78e6c043.bundle"
-      ],
-      "source_catalog_keys": [
-        "Icon/Equipment/EQP_001008"
       ]
     },
     {
@@ -13762,9 +13704,6 @@
       "source_resource_key": "Assets/AddressableConvertAssets/Icon/Equipment/EQP_001009.png",
       "source_bundles": [
         "5d5c73180cc0f3a2645ed43d51099897.bundle"
-      ],
-      "source_catalog_keys": [
-        "Icon/Equipment/EQP_001009"
       ]
     },
     {
@@ -13776,9 +13715,6 @@
       "source_resource_key": "Assets/AddressableConvertAssets/Icon/Equipment/EQP_001010.png",
       "source_bundles": [
         "45147f066ef195bb9bcf4990a8c7ff9d.bundle"
-      ],
-      "source_catalog_keys": [
-        "Icon/Equipment/EQP_001010"
       ]
     },
     {
@@ -16452,9 +16388,6 @@
       "source_resource_key": "Assets/AddressableConvertAssets/Icon/Item/Item_0252.png",
       "source_bundles": [
         "1f8571ba6c6d82782bc5b2b4bc155ba1.bundle"
-      ],
-      "source_catalog_keys": [
-        "Icon/Item/Item_0252"
       ]
     },
     {
@@ -16466,9 +16399,6 @@
       "source_resource_key": "Assets/AddressableConvertAssets/Icon/Item/Item_0253.png",
       "source_bundles": [
         "8a822dd40071c54deceae90ee0752a14.bundle"
-      ],
-      "source_catalog_keys": [
-        "Icon/Item/Item_0253"
       ]
     },
     {
@@ -16480,9 +16410,6 @@
       "source_resource_key": "Assets/AddressableConvertAssets/Icon/Item/Item_0254.png",
       "source_bundles": [
         "088154f9901b2e790762c8e2de59bd02.bundle"
-      ],
-      "source_catalog_keys": [
-        "Icon/Item/Item_0254"
       ]
     },
     {
