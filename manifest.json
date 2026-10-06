@@ -5,22 +5,22 @@
   "version": "4.23.0",
   "ref": "main",
   "archive_ref": "v4.23.0",
-  "generated_at": "2026-09-30T18:07:10.021008+00:00",
+  "generated_at": "2026-10-06T13:10:45.322253+00:00",
   "base_url": "https://raw.githubusercontent.com/GuangShiX/mmtm-assets-fallback/main",
   "cache_strategy": "stable-path-sha256",
-  "asset_count": 1682,
-  "total_bytes": 59594101,
+  "asset_count": 1684,
+  "total_bytes": 59603257,
   "category_counts": {
     "characters": 279,
     "enemies": 60,
     "equipment": 914,
     "items": 249,
     "spheres": 64,
-    "ui": 116
+    "ui": 118
   },
   "generation_mode": "critical-package-plus-official-hot-update",
   "asset_version": "9a60ac3d37f7d9e9f6b84b3275a73d4edcb324a4_2",
-  "master_version": "1790765126377",
+  "master_version": "1791264614625",
   "hot_update_asset_count": 45,
   "hot_update_category_counts": {
     "characters": 16,
@@ -28,9 +28,9 @@
     "items": 2,
     "ui": 21
   },
-  "request_registry_sha256": "dba7550508d870e88d546afa458f655c3e6628e21a298dcccc30d94072b44b37",
+  "request_registry_sha256": "afca8b23823403e324243cee04a43600d4cd00a91cbd18165aae938b4924ae28",
   "request_registry_status": "complete",
-  "requested_asset_count": 251,
+  "requested_asset_count": 253,
   "missing_requested_assets": [],
   "assets": [
     {
@@ -18429,6 +18429,28 @@
       "source_resource_key": "assets/aa/Android/29121095407936fd11fb775fb8b7cfef.bundle#Sprite:-8288118977695308252",
       "source_bundles": [
         "29121095407936fd11fb775fb8b7cfef.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "icon_job_sniper.png",
+      "path": "assets/ui/icon_job_sniper.png",
+      "sha256": "0001fb0a9074319a593ee7cec9f30c1f8608e74ac617fd81999811da0016e7fe",
+      "size": 4618,
+      "source_resource_key": "assets/aa/Android/d8e6c8c3a22da3265163f34736d7d400.bundle#Sprite:-3166586490611880527",
+      "source_bundles": [
+        "d8e6c8c3a22da3265163f34736d7d400.bundle"
+      ]
+    },
+    {
+      "category": "ui",
+      "name": "icon_job_sorcerer.png",
+      "path": "assets/ui/icon_job_sorcerer.png",
+      "sha256": "f5fe84de307e4db858f207f4449fd579dc7fd7e295b5a58260220aca5ff7010c",
+      "size": 4538,
+      "source_resource_key": "assets/aa/Android/d8e6c8c3a22da3265163f34736d7d400.bundle#Sprite:323846835936649364",
+      "source_bundles": [
+        "d8e6c8c3a22da3265163f34736d7d400.bundle"
       ]
     },
     {
