@@ -1,0 +1,100 @@
+{
+  "cards": {
+    "000157:zh-CN:split": {
+      "asset_version": "dd4e3ab60c601a07b7c780bccc81b26e40140744_2",
+      "character_id": 157,
+      "font_families": [
+        "Noto Sans SC",
+        "Noto Sans SC",
+        "Noto Serif SC"
+      ],
+      "fonts": [
+        {
+          "family": "Noto Sans SC",
+          "index": 0,
+          "path": "C:\\Windows\\Fonts\\Noto Sans SC.ttf",
+          "role": "sans",
+          "sha256": "ae82f4e2a55e1316a55bcc1d05e9555ce08d8bda07e893b486896b626fd852ff",
+          "style": "Regular"
+        },
+        {
+          "family": "Noto Sans SC",
+          "index": 0,
+          "path": "C:\\Windows\\Fonts\\NotoSansSC-Medium.otf",
+          "role": "medium",
+          "sha256": "3375ae39dacfc1f3446c5bdaec586c95e30536a26e194dbe73aeb1d061af32d0",
+          "style": "Medium"
+        },
+        {
+          "family": "Noto Serif SC",
+          "index": 0,
+          "path": "C:\\Windows\\Fonts\\NotoSerifSC-VF.ttf",
+          "role": "serif",
+          "sha256": "a4aed9985a5916fbf6690456f8732a9fccd517938e353165d4142b4f11a39280",
+          "style": "ExtraLight"
+        }
+      ],
+      "height": 2500,
+      "initial_speed": 3161,
+      "input_signature": "3a911fca584f1bb28b46e0f8f599afb87bb3909ad2e1c53f2423c00b5b763687",
+      "language": "zh-CN",
+      "missing_assets": [
+        "arcana_data",
+        "banner",
+        "exclusive_weapon",
+        "exclusive_weapon_data"
+      ],
+      "mode": "split",
+      "official_assets": {
+        "character_avatar": {
+          "path": "D:\\NewProjects\\mmtm-apk-tracker\\fallback_dist\\assets\\characters\\CHR_000157_00_s.png",
+          "sha256": "1711964029122fc8106ce067a3a28e087e3fb9d724380f6ad9e54e2526b1ccad",
+          "size": 32911
+        },
+        "element_icon": {
+          "path": "D:\\NewProjects\\mmtm-apk-tracker\\fallback_dist\\assets\\ui\\icon_element_4.png",
+          "sha256": "a2b9ed2078b9f1be1a5961acb42433decae5d2876da2a6391ba67cc71cf930cf",
+          "size": 7959
+        },
+        "full_art": {
+          "path": "D:\\NewProjects\\mmtm-apk-tracker\\reports\\skill-card-cache\\dd4e3ab60c601a07b7c780bccc81b26e40140744_2\\000157\\images\\CHR_000157_00_l.png",
+          "sha256": "b4b8b3b3e262fb59fd5a5f6fbafb9d4b26725c17618a9ff7427237b09227f854",
+          "size": 1518350
+        },
+        "job_icon": {
+          "path": "D:\\NewProjects\\mmtm-apk-tracker\\fallback_dist\\assets\\ui\\icon_job_sorcerer.png",
+          "sha256": "5cd7c75cc59dedcbf12f0369b2848fcdf44bfb33f352ae567ad8356543e9f58a",
+          "size": 4269
+        },
+        "skill_icon:157001": {
+          "path": "D:\\NewProjects\\mmtm-apk-tracker\\reports\\skill-card-cache\\dd4e3ab60c601a07b7c780bccc81b26e40140744_2\\000157\\images\\CSK_000157001.png",
+          "sha256": "4e437f7554e8c5dffb1fe5436b727277cbc497a2aa8cb5aa6cea2a095c5fcee1",
+          "size": 21726
+        },
+        "skill_icon:157002": {
+          "path": "D:\\NewProjects\\mmtm-apk-tracker\\reports\\skill-card-cache\\dd4e3ab60c601a07b7c780bccc81b26e40140744_2\\000157\\images\\CSK_000157002.png",
+          "sha256": "61816ce2192b2b442fbda8fbe9b98e3df4fece539b07fa1940cfafea7ab1aa01",
+          "size": 22869
+        },
+        "skill_icon:157003": {
+          "path": "D:\\NewProjects\\mmtm-apk-tracker\\reports\\skill-card-cache\\dd4e3ab60c601a07b7c780bccc81b26e40140744_2\\000157\\images\\CSK_000157003.png",
+          "sha256": "761540852768269d289d85bd921f29045680b419e294d9d8dee22f6cac89d0fa",
+          "size": 22865
+        },
+        "skill_icon:157004": {
+          "path": "D:\\NewProjects\\mmtm-apk-tracker\\reports\\skill-card-cache\\dd4e3ab60c601a07b7c780bccc81b26e40140744_2\\000157\\images\\CSK_000157004.png",
+          "sha256": "700e39d3da341b8e51d0886c25661588b30f14e8c59d23f53e1e00376c6cd1b6",
+          "size": 22087
+        }
+      },
+      "path": "characters/character-000157-split-zh-CN.png",
+      "release_status": "unreleased-placeholder",
+      "sha256": "b57a3642cc9877f455bc05b80bfe6ae27a23d2d57ea69441933937708fac348f",
+      "source_sha256": "411bcfdfd3f9e2914cde3bacebee8456538672c0deca9bf558e30b2d4747f2ad",
+      "template_version": "landscape-split-v8.2",
+      "width": 3840
+    }
+  },
+  "game": "MementoMori",
+  "schema_version": 1
+}

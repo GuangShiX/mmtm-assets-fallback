@@ -1,0 +1,872 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 157001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription1570011]",
+          "descriptions": {
+            "ja-JP": "光の風が吹き荒れ、ランダムな敵3体に攻撃力×310%の魔法攻撃を行う。その後4ターンの間対象の弱体効果命中率を30%減少させる。",
+            "zh-CN": "拉米斯召来闪耀光芒的狂风，随机对3名敌人造成攻击力×310%的魔法伤害，使技能目标减少30%弱化效果命中率，效果持续4回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "光の風が吹き荒れ、ランダムな敵3体に攻撃力×310%の魔法攻撃を行う。その後4ターンの間対象の弱体効果命中率を30%減少させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription1570012]",
+          "descriptions": {
+            "ja-JP": "さらに魔法攻撃の前に4ターンの間対象の魔法防御力を20%減少させる。",
+            "zh-CN": "发动攻击前，使技能目标额外减少20%魔法防御力，效果持续4回合。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに魔法攻撃の前に4ターンの間対象の魔法防御力を20%減少させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1570013]",
+          "descriptions": {
+            "ja-JP": "魔法攻撃のダメージが攻撃力×590%になる。",
+            "zh-CN": "造成的魔法伤害提升为攻击力×590%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "魔法攻撃のダメージが攻撃力×590%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1570014]",
+          "descriptions": {
+            "ja-JP": "シャルヌールを強化する。魔法攻撃の対象がランダムな敵5体になる。",
+            "zh-CN": "强化光之风，技能目标增加为5名随机敌人。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "シャルヌールを強化する。魔法攻撃の対象がランダムな敵5体になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[ActiveSkillDescription1570015]",
+          "descriptions": {
+            "ja-JP": "シャルヌールを強化する。魔法攻撃のダメージが攻撃力×640%になる。",
+            "zh-CN": "强化光之风，造成的魔法伤害提升为攻击力×640%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "シャルヌールを強化する。魔法攻撃のダメージが攻撃力×640%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription1570011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              157001001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription1570012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              157001201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1570013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              157001301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1570014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              157001401
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[ActiveSkillDescription1570015]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "SubSetSkillIds": [
+              157001501
+            ]
+          }
+        ],
+        "Id": 157001,
+        "IsIgnore": null,
+        "Memo": "ラミスSR:Lv1 光の風が吹き荒れ、ランダムな敵3体に攻撃力×310%の魔法攻撃を行う。その後4ターンの間対象の弱体効果命中率を30%減少させる。/ Lv2 さらに魔法攻撃の前に4ターンの間対象の魔法防御力を20%減少させる。/ Lv3 魔法攻撃のダメージが攻撃力×590%になる。/ Ex1 シャルヌールを強化する。魔法攻撃の対象がランダムな敵5体になる。/ Ex3 シャルヌールを強化する。魔法攻撃のダメージが攻撃力×640%になる。",
+        "NameKey": "[ActiveSkillName157001]",
+        "RootActiveSkillId": 157001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName157001]",
+      "names": {
+        "ja-JP": "シャルヌール",
+        "zh-CN": "光之风"
+      },
+      "source_memo_ja": "ラミスSR:Lv1 光の風が吹き荒れ、ランダムな敵3体に攻撃力×310%の魔法攻撃を行う。その後4ターンの間対象の弱体効果命中率を30%減少させる。/ Lv2 さらに魔法攻撃の前に4ターンの間対象の魔法防御力を20%減少させる。/ Lv3 魔法攻撃のダメージが攻撃力×590%になる。/ Ex1 シャルヌールを強化する。魔法攻撃の対象がランダムな敵5体になる。/ Ex3 シャルヌールを強化する。魔法攻撃のダメージが攻撃力×640%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "光の風が吹き荒れ、ランダムな敵3体に攻撃力×310%の魔法攻撃を行う。その後4ターンの間対象の弱体効果命中率を30%減少させる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに魔法攻撃の前に4ターンの間対象の魔法防御力を20%減少させる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "魔法攻撃のダメージが攻撃力×590%になる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "シャルヌールを強化する。魔法攻撃の対象がランダムな敵5体になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "シャルヌールを強化する。魔法攻撃のダメージが攻撃力×640%になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 157002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[ActiveSkillDescription1570021]",
+          "descriptions": {
+            "ja-JP": "「神に抗いし聖なる獣よ、かの者たちに裁きを与えたまえ」聖獣の咆哮の如く吹き荒れる風が、魔法防御力が最も低い敵に3回攻撃力×320%の魔法攻撃を行う。",
+            "zh-CN": "“与神明抗争的圣兽啊，制裁眼前的罪人吧！”拉米斯召来如圣兽咆哮般呼啸的狂风，对魔法防御力最低的敌人进行3次攻击，每次造成攻击力×320%的魔法伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "「神に抗いし聖なる獣よ、かの者たちに裁きを与えたまえ」聖獣の咆哮の如く吹き荒れる風が、魔法防御力が最も低い敵に3回攻撃力×320%の魔法攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription1570022]",
+          "descriptions": {
+            "ja-JP": "さらにバトル中このスキルを発動するのが3回目以降の場合、魔法攻撃のダメージが攻撃力×960%になる。",
+            "zh-CN": "战斗中自第3次发动此技能起，造成的魔法伤害提升为攻击力×960%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらにバトル中このスキルを発動するのが3回目以降の場合、魔法攻撃のダメージが攻撃力×960%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription1570023]",
+          "descriptions": {
+            "ja-JP": "さらにバトル中このスキルを発動するのが4回目以降の場合、魔法攻撃のダメージが攻撃力×1280%になる。",
+            "zh-CN": "战斗中自第4次发动此技能起，造成的魔法伤害提升为攻击力×1280%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらにバトル中このスキルを発動するのが4回目以降の場合、魔法攻撃のダメージが攻撃力×1280%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription1570024]",
+          "descriptions": {
+            "ja-JP": "魔法攻撃の回数が5回になる。",
+            "zh-CN": "攻击次数增加为5次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "魔法攻撃の回数が5回になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[ActiveSkillDescription1570021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              157002001,
+              157002002,
+              157002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription1570022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              157002201,
+              157002202,
+              157002202
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription1570023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              157002301,
+              157002302,
+              157002302
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription1570024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              157002401,
+              157002402,
+              157002402,
+              157002402,
+              157002402
+            ]
+          }
+        ],
+        "Id": 157002,
+        "IsIgnore": null,
+        "Memo": "ラミスSR:Lv1 「神に抗いし聖なる獣よ、かの者たちに裁きを与えたまえ」聖獣の咆哮の如く吹き荒れる風が、魔法防御力が最も低い敵に3回攻撃力×320%の魔法攻撃を行う。/ Lv2 さらにバトル中このスキルを発動するのが3回目以降の場合、魔法攻撃のダメージが攻撃力×960%になる。/ Lv3 さらにバトル中このスキルを発動するのが4回目以降の場合、魔法攻撃のダメージが攻撃力×1280%になる。/ Lv4 魔法攻撃の回数が5回になる。",
+        "NameKey": "[ActiveSkillName157002]",
+        "RootActiveSkillId": 157002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName157002]",
+      "names": {
+        "ja-JP": "聖獣の息吹",
+        "zh-CN": "圣兽之息"
+      },
+      "source_memo_ja": "ラミスSR:Lv1 「神に抗いし聖なる獣よ、かの者たちに裁きを与えたまえ」聖獣の咆哮の如く吹き荒れる風が、魔法防御力が最も低い敵に3回攻撃力×320%の魔法攻撃を行う。/ Lv2 さらにバトル中このスキルを発動するのが3回目以降の場合、魔法攻撃のダメージが攻撃力×960%になる。/ Lv3 さらにバトル中このスキルを発動するのが4回目以降の場合、魔法攻撃のダメージが攻撃力×1280%になる。/ Lv4 魔法攻撃の回数が5回になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "「神に抗いし聖なる獣よ、かの者たちに裁きを与えたまえ」聖獣の咆哮の如く吹き荒れる風が、魔法防御力が最も低い敵に3回攻撃力×320%の魔法攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらにバトル中このスキルを発動するのが3回目以降の場合、魔法攻撃のダメージが攻撃力×960%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらにバトル中このスキルを発動するのが4回目以降の場合、魔法攻撃のダメージが攻撃力×1280%になる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "魔法攻撃の回数が5回になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [],
+  "character": {
+    "character_type": 0,
+    "element_type": 4,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 157,
+    "job_flags": 4,
+    "master_record": {
+      "ActiveSkillIds": [
+        157001,
+        157002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 79,
+        "Health": 74,
+        "Intelligence": 102,
+        "Muscle": 78
+      },
+      "BaseParameterGrossCoefficient": 333,
+      "CharacterType": 0,
+      "ElementType": 4,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 157,
+      "InitialBattleParameter": {
+        "AttackPower": -2,
+        "Avoidance": 0,
+        "Critical": 0,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 0,
+        "DamageReflect": 0,
+        "DebuffHit": 5,
+        "DebuffResist": 0,
+        "Defense": 7,
+        "DefensePenetration": 0,
+        "HP": 0,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 3161
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 4,
+      "Memo": "ラミス",
+      "Name2Key": null,
+      "NameKey": "[CharacterName157]",
+      "NormalSkillId": 102,
+      "PassiveSkillIds": [
+        157003,
+        157004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2100-01-01 15:00:00"
+    },
+    "memo": "ラミス",
+    "name_key": "[CharacterName157]",
+    "names": {
+      "ja-JP": "ラミス",
+      "zh-CN": "拉米斯"
+    },
+    "speed": 3161,
+    "start_time_jst": "2100-01-01 15:00:00",
+    "subtitle_key": null,
+    "subtitles": {
+      "ja-JP": null,
+      "zh-CN": null
+    }
+  },
+  "exclusive_weapon": null,
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 157003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[PassiveSkillDescription1570031]",
+          "descriptions": {
+            "ja-JP": "姉さんを守っているつもりで、ずっと守られていた。だから今度は私が誰かを守りたい。もう失いたくないから──ターン開始時、3ターンの間自身と自身以外の攻撃力が最も高い味方に付与者の攻撃力×100%の『シールド』を付与する。このスキルは発動後3回行動終了するまで再び発動せず、13ターン目以降は発動しない。",
+            "zh-CN": "我一直以为是我在保护姐姐，事实却正好相反。这一次我不想再重蹈覆辙，该由我去保护其他人了——回合开始时，拉米斯使自己与攻击力最高的其他友军获得拉米斯攻击力×100%的「护盾」，效果持续3回合。此技能须在结束3次行动后才可再次触发。自第13回合起无法触发此技能。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "姉さんを守っているつもりで、ずっと守られていた。だから今度は私が誰かを守りたい。もう失いたくないから──ターン開始時、3ターンの間自身と自身以外の攻撃力が最も高い味方に付与者の攻撃力×100%の『シールド』を付与する。このスキルは発動後3回行動終了するまで再び発動せず、13ターン目以降は発動しない。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription1570032]",
+          "descriptions": {
+            "ja-JP": "さらに『シールド』を付与する対象が黄属性の場合、『シールド』の大きさが付与者の攻撃力×200%になる。",
+            "zh-CN": "当「护盾」的附加目标为流金属性时，「护盾」值提升为拉米斯攻击力×200%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに『シールド』を付与する対象が黄属性の場合、『シールド』の大きさが付与者の攻撃力×200%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription1570033]",
+          "descriptions": {
+            "ja-JP": "さらにバトル中このスキルを発動するのが2回目以降の場合、『シールド』を付与する対象が黄属性の場合の『シールド』の大きさが付与者の攻撃力×600%になる。",
+            "zh-CN": "战斗中自第2次触发此技能起，当「护盾」的附加目标为流金属性时，「护盾」值提升为拉米斯攻击力×600%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらにバトル中このスキルを発動するのが2回目以降の場合、『シールド』を付与する対象が黄属性の場合の『シールド』の大きさが付与者の攻撃力×600%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription1570034]",
+          "descriptions": {
+            "ja-JP": "姉さんが遺したものを強化する。『シールド』を付与する対象が自身と自身以外の攻撃力が高い味方2体になる。",
+            "zh-CN": "强化姐姐留下的启示，「护盾」的附加目标增加为拉米斯与攻击力最高的2名其他友军。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "姉さんが遺したものを強化する。『シールド』を付与する対象が自身と自身以外の攻撃力が高い味方2体になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 157003,
+        "IsIgnore": null,
+        "Memo": "ラミスSR:Lv1 姉さんを守っているつもりで、ずっと守られていた。だから今度は私が誰かを守りたい。もう失いたくないから──ターン開始時、3ターンの間自身と自身以外の攻撃力が最も高い味方に付与者の攻撃力×100%の『シールド』を付与する。このスキルは発動後3回行動終了するまで再び発動せず、13ターン目以降は発動しない。/ Lv2 さらに『シールド』を付与する対象が黄属性の場合、『シールド』の大きさが付与者の攻撃力×200%になる。/ Lv3 さらにバトル中このスキルを発動するのが2回目以降の場合、『シールド』を付与する対象が黄属性の場合の『シールド』の大きさが付与者の攻撃力×600%になる。/ Ex2 姉さんが遺したものを強化する。『シールド』を付与する対象が自身と自身以外の攻撃力が高い味方2体になる。",
+        "NameKey": "[PassiveSkillName157003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[PassiveSkillDescription1570031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 157003001
+              },
+              {
+                "PassiveGroupId": 2,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 157003003
+              },
+              {
+                "PassiveGroupId": 2,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 157003004
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription1570032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 157003201
+              },
+              {
+                "PassiveGroupId": 2,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 157003203
+              },
+              {
+                "PassiveGroupId": 2,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 157003204
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription1570033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 157003301
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 157003302
+              },
+              {
+                "PassiveGroupId": 2,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 157003303
+              },
+              {
+                "PassiveGroupId": 2,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 4,
+                "SubSetSkillId": 157003304
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription1570034]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 3,
+                "SubSetSkillId": 157003301
+              },
+              {
+                "PassiveGroupId": 1,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 3,
+                "SubSetSkillId": 157003302
+              },
+              {
+                "PassiveGroupId": 2,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 3,
+                "SubSetSkillId": 157003403
+              },
+              {
+                "PassiveGroupId": 2,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 3,
+                "SubSetSkillId": 157003404
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName157003]",
+      "names": {
+        "ja-JP": "姉さんが遺したもの",
+        "zh-CN": "姐姐留下的启示"
+      },
+      "source_memo_ja": "ラミスSR:Lv1 姉さんを守っているつもりで、ずっと守られていた。だから今度は私が誰かを守りたい。もう失いたくないから──ターン開始時、3ターンの間自身と自身以外の攻撃力が最も高い味方に付与者の攻撃力×100%の『シールド』を付与する。このスキルは発動後3回行動終了するまで再び発動せず、13ターン目以降は発動しない。/ Lv2 さらに『シールド』を付与する対象が黄属性の場合、『シールド』の大きさが付与者の攻撃力×200%になる。/ Lv3 さらにバトル中このスキルを発動するのが2回目以降の場合、『シールド』を付与する対象が黄属性の場合の『シールド』の大きさが付与者の攻撃力×600%になる。/ Ex2 姉さんが遺したものを強化する。『シールド』を付与する対象が自身と自身以外の攻撃力が高い味方2体になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "姉さんを守っているつもりで、ずっと守られていた。だから今度は私が誰かを守りたい。もう失いたくないから──ターン開始時、3ターンの間自身と自身以外の攻撃力が最も高い味方に付与者の攻撃力×100%の『シールド』を付与する。このスキルは発動後3回行動終了するまで再び発動せず、13ターン目以降は発動しない。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに『シールド』を付与する対象が黄属性の場合、『シールド』の大きさが付与者の攻撃力×200%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらにバトル中このスキルを発動するのが2回目以降の場合、『シールド』を付与する対象が黄属性の場合の『シールド』の大きさが付与者の攻撃力×600%になる。"
+        },
+        {
+          "label": "Ex2",
+          "text": "姉さんが遺したものを強化する。『シールド』を付与する対象が自身と自身以外の攻撃力が高い味方2体になる。"
+        }
+      ]
+    },
+    {
+      "id": 157004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription1570041]",
+          "descriptions": {
+            "ja-JP": "学んだことは無駄ではない。使い方さえ間違わなければ、それは人を助ける力になる──毎ターン開始時、自身と自身以外の攻撃力が最も高い味方に『聖なる導き』を1スタック付与する（最大12スタックまで）（解除不可）。このバフは1スタックにつき付帯者の攻撃力と命中率をそれぞれ5%増加させる。",
+            "zh-CN": "学到的东西不会白费，只要运用得当，就能成为帮助他人的力量——每回合开始时，拉米斯使自己与攻击力最高的其他友军获得1层「神圣指引」（最多12层）（无法被解除）。每层「神圣指引」使附带者增加5%攻击力与命中率。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "学んだことは無駄ではない。使い方さえ間違わなければ、それは人を助ける力になる──毎ターン開始時、自身と自身以外の攻撃力が最も高い味方に『聖なる導き』を1スタック付与する（最大12スタックまで）（解除不可）。このバフは1スタックにつき付帯者の攻撃力と命中率をそれぞれ5%増加させる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription1570042]",
+          "descriptions": {
+            "ja-JP": "さらに『聖なる導き』を付与する対象のタイプがソーサラーの場合、『聖なる導き』の付与スタック数が2になる。",
+            "zh-CN": "当「神圣指引」的附加目标为法师类型时，获得的「神圣指引」层数增加为2层。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに『聖なる導き』を付与する対象のタイプがソーサラーの場合、『聖なる導き』の付与スタック数が2になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription1570043]",
+          "descriptions": {
+            "ja-JP": "さらにバトル開始時、自身の被ダメージが75%減少する（解除不可）。",
+            "zh-CN": "战斗开始时，拉米斯额外减少75%自身承受伤害（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらにバトル開始時、自身の被ダメージが75%減少する（解除不可）。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 157004,
+        "IsIgnore": null,
+        "Memo": "ラミスSR:Lv1 学んだことは無駄ではない。使い方さえ間違わなければ、それは人を助ける力になる──毎ターン開始時、自身と自身以外の攻撃力が最も高い味方に『聖なる導き』を1スタック付与する（最大12スタックまで）（解除不可）。このバフは1スタックにつき付帯者の攻撃力と命中率をそれぞれ5%増加させる。/ Lv2 さらに『聖なる導き』を付与する対象のタイプがソーサラーの場合、『聖なる導き』の付与スタック数が2になる。/ Lv3 さらにバトル開始時、自身の被ダメージが75%減少する（解除不可）。",
+        "NameKey": "[PassiveSkillName157004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription1570041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 157004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 157004002
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 157004003
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription1570042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 157004201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 157004202
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 157004203
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription1570043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 157004201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 157004202
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 157004203
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 157004304
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName157004]",
+      "names": {
+        "ja-JP": "信徒の心得",
+        "zh-CN": "信徒守则"
+      },
+      "source_memo_ja": "ラミスSR:Lv1 学んだことは無駄ではない。使い方さえ間違わなければ、それは人を助ける力になる──毎ターン開始時、自身と自身以外の攻撃力が最も高い味方に『聖なる導き』を1スタック付与する（最大12スタックまで）（解除不可）。このバフは1スタックにつき付帯者の攻撃力と命中率をそれぞれ5%増加させる。/ Lv2 さらに『聖なる導き』を付与する対象のタイプがソーサラーの場合、『聖なる導き』の付与スタック数が2になる。/ Lv3 さらにバトル開始時、自身の被ダメージが75%減少する（解除不可）。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "学んだことは無駄ではない。使い方さえ間違わなければ、それは人を助ける力になる──毎ターン開始時、自身と自身以外の攻撃力が最も高い味方に『聖なる導き』を1スタック付与する（最大12スタックまで）（解除不可）。このバフは1スタックにつき付帯者の攻撃力と命中率をそれぞれ5%増加させる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに『聖なる導き』を付与する対象のタイプがソーサラーの場合、『聖なる導き』の付与スタック数が2になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらにバトル開始時、自身の被ダメージが75%減少する（解除不可）。"
+        }
+      ]
+    }
+  ],
+  "preview_notice": "未实装预览",
+  "release_notice": "2100 年日期是官方占位记录，不代表真实实装安排。",
+  "release_status": "unreleased-placeholder",
+  "schema_version": 3,
+  "source": {
+    "app_version": "5.0.0",
+    "asset_version": "dd4e3ab60c601a07b7c780bccc81b26e40140744_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "0c8b94376a7c2082977a18b51515916a",
+        "size": 856136
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "a435e037aafd482815cff9c1ea888866",
+        "size": 303659
+      },
+      "CharacterCollectionMB": {
+        "md5": "ea62edb7fc3c927dbaf30e240e4f0220",
+        "size": 22892
+      },
+      "CharacterMB": {
+        "md5": "b98b2cc665a160e791bde23424ea8a6a",
+        "size": 96499
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "b1e7883c9de1985491832b9995cbe3f9",
+        "size": 185875
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "e3ef0b69044b0edd03b374c0b27347ad",
+        "size": 25378
+      },
+      "EquipmentMB": {
+        "md5": "11ca311409f54112d0a98676e2729c2d",
+        "size": 12847783
+      },
+      "PassiveSkillMB": {
+        "md5": "0a3200fe8a5578a0d12c74a17b050bf1",
+        "size": 970417
+      },
+      "TextResourceJaJpMB": {
+        "md5": "bda276ac67a558cc5bb28721d67db727",
+        "size": 6044677
+      },
+      "TextResourceZhCnMB": {
+        "md5": "f3b3722d53150b16cda25a595667b3dc",
+        "size": 5331986
+      }
+    },
+    "generated_at": "2026-10-15T07:03:25.657000+00:00",
+    "master_version": "1792047805657"
+  }
+}

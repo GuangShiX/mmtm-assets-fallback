@@ -102,13 +102,13 @@ jobs:
             --verify-latest \
             --skills-dir skills \
             --output-dir cards/characters \
-            --mode compact \
+            --mode split \
             --language zh-CN; then
             echo "needed=false" >> "$GITHUB_OUTPUT"
-            echo "Latest compact character cards are current."
+            echo "Latest landscape character cards are current."
           else
             echo "needed=true" >> "$GITHUB_OUTPUT"
-            echo "Latest compact character cards need to be generated."
+            echo "Latest landscape character cards need to be generated."
           fi
 
       - name: Render latest character skill cards
@@ -121,7 +121,7 @@ jobs:
           --skills-dir skills
           --output-dir cards/characters
           --cache-dir "${{ runner.temp }}/mmtm-skill-card-cache"
-          --mode compact
+          --mode split
           --language zh-CN
 
       - name: Verify latest character skill cards
@@ -133,7 +133,7 @@ jobs:
           --verify-latest
           --skills-dir skills
           --output-dir cards/characters
-          --mode compact
+          --mode split
           --language zh-CN
 
       - name: Commit verified data changes

@@ -25,7 +25,11 @@ skills/
   manifest.json # Stable paths, sizes, hashes, and source MasterBook hashes
   latest.json   # Latest released character(s), selected by StartTimeFixJST
 cards/
-  characters/   # Uniform skill introduction posters using official character art
+  characters/   # Accepted 3840x2500 landscape skill cards using official art
+preview/
+  skills/       # Explicit unreleased previews, separate from released indexes
+  cards/        # Unreleased landscape cards and their own manifest
+  index.json    # Preview IDs, status, and missing official-data notices
 ```
 
 Consumers should request
@@ -49,15 +53,15 @@ localized text, and the Japanese source `Memo` retained from the skill MasterBoo
 record has arrived before the requested official language table was updated;
 missing text is never guessed.
 
-The scheduled renderer uses those JSON documents together with the official
-character avatar, exclusive-weapon icon, and four official skill icons. For each
-newly released character it publishes one deterministic 2160x3840 text-first
-portrait card. The card uses an unobstructed character avatar one size tier above
-the matching skill/weapon icons, places the four large-type skill summaries first,
-merges all level/weapon upgrades into final effects, and moves the three LR weapon
-passives, `LR专效果`, the Arcana LR effect, and required-character portraits to the
-bottom. Stable filenames are
-`cards/characters/character-<six-digit-id>-compact-zh-CN.png`.
+## 角色海报与未实装预览
+
+后续海报统一使用已验收的 `split` 横版模板（3840×2500）：左侧展示官方登场横幅、属性与职业图标、ID、名称和完整立绘；右侧上排并列两个主动技能，下排并列两个被动技能；底部展示专属武器和秘仪。专武栏标题右侧标注来自官方 `CharacterMB` 的**初始速度**，不叠加养成或装备效果。技能名称、专武和秘仪名称使用清晰的加粗字重，水印放在角落。
+
+正式海报文件为 `cards/characters/character-<六位ID>-split-zh-CN.png`，由 `cards/manifest.json` 记录数据哈希、模板版本、图片尺寸和校验值。只在正式角色索引中选择当前已实装角色。
+
+2100 年等占位日期记录单独写入 `preview/skills/`，海报写入 `preview/cards/characters/`；`preview/index.json` 标注“未实装预览”。它们不会进入 `skills/latest.json` 或正式角色索引。缺失的官方登场横幅、专武或秘仪会明确标注暂未公开，不补写官方美术文字，不猜测数据。
+
+仓库维护者可在 tracker 中使用 `character_release.py` 固定同一份官方版本快照，复用校验过的主表和资源缓存，分步恢复下载、导出和海报生成；正式与预览海报分别校验。缓存命中且数据、模板和图片哈希均未变化时跳过重绘。用法见 tracker 的[角色发布流程](https://github.com/GuangShiX/mmtm-apk-tracker/blob/master/docs/character-release-workflow.md)。CI 保留主表、图片和海报各自的校验门禁，通过的正式数据可独立发布。
 
 ## Updating
 
@@ -73,7 +77,7 @@ version downloads the official APK once and scans its bundles without creating
 a full multi-million-file extraction. The Master updater validates downloaded
 MessagePack books against `master-catalog`, then selects released characters by
 `StartTimeFixJST` rather than assuming IDs are monotonic. Before requesting card
-assets, CI compares the latest skill JSON, portrait-template version, output size,
+assets, CI compares the latest skill JSON, landscape-template version, output size,
 and PNG hash with `cards/manifest.json`; current cards make no official resource
 request. Verified image and skill JSON updates are committed independently of
 derived card rendering, so a temporarily missing card asset does not delay

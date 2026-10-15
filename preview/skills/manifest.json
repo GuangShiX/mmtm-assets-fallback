@@ -1,0 +1,76 @@
+{
+  "characters": [
+    {
+      "id": 157,
+      "localization_complete": true,
+      "official_placeholder_time_jst": "2100-01-01 15:00:00",
+      "path": "preview/skills/characters/000157.json",
+      "release_status": "unreleased-placeholder",
+      "sha256": "411bcfdfd3f9e2914cde3bacebee8456538672c0deca9bf558e30b2d4747f2ad",
+      "size": 40064
+    }
+  ],
+  "files": [
+    {
+      "id": 157,
+      "localization_complete": true,
+      "official_placeholder_time_jst": "2100-01-01 15:00:00",
+      "path": "preview/skills/characters/000157.json",
+      "release_status": "unreleased-placeholder",
+      "sha256": "411bcfdfd3f9e2914cde3bacebee8456538672c0deca9bf558e30b2d4747f2ad",
+      "size": 40064
+    }
+  ],
+  "game": "MementoMori",
+  "preview": true,
+  "preview_notice": "未实装预览；2100 为占位日期。正式最新角色以 skills/latest.json 为准。",
+  "schema_version": 1,
+  "source": {
+    "app_version": "5.0.0",
+    "asset_version": "dd4e3ab60c601a07b7c780bccc81b26e40140744_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "0c8b94376a7c2082977a18b51515916a",
+        "size": 856136
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "a435e037aafd482815cff9c1ea888866",
+        "size": 303659
+      },
+      "CharacterCollectionMB": {
+        "md5": "ea62edb7fc3c927dbaf30e240e4f0220",
+        "size": 22892
+      },
+      "CharacterMB": {
+        "md5": "b98b2cc665a160e791bde23424ea8a6a",
+        "size": 96499
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "b1e7883c9de1985491832b9995cbe3f9",
+        "size": 185875
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "e3ef0b69044b0edd03b374c0b27347ad",
+        "size": 25378
+      },
+      "EquipmentMB": {
+        "md5": "11ca311409f54112d0a98676e2729c2d",
+        "size": 12847783
+      },
+      "PassiveSkillMB": {
+        "md5": "0a3200fe8a5578a0d12c74a17b050bf1",
+        "size": 970417
+      },
+      "TextResourceJaJpMB": {
+        "md5": "bda276ac67a558cc5bb28721d67db727",
+        "size": 6044677
+      },
+      "TextResourceZhCnMB": {
+        "md5": "f3b3722d53150b16cda25a595667b3dc",
+        "size": 5331986
+      }
+    },
+    "generated_at": "2026-10-15T07:03:25.657000+00:00",
+    "master_version": "1792047805657"
+  }
+}

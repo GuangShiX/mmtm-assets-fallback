@@ -809,6 +809,479 @@
       ],
       "required_party_level": 0,
       "start_time_jst": "2024-05-31 00:00:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 102,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageReflect",
+              "parameter_type": 17,
+              "raw_value": 150.0,
+              "value_text": "+150"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 17,
+                "ChangeParameterType": 1,
+                "Value": 150.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 102,
+            "CollectionLevel": 1,
+            "Id": 10201,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴェナティキの回生(守護アレクサンドラ,アレクサンドラ,？)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageReflect",
+              "parameter_type": 17,
+              "raw_value": 300.0,
+              "value_text": "+300"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 17,
+                "ChangeParameterType": 1,
+                "Value": 300.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 102,
+            "CollectionLevel": 2,
+            "Id": 10202,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴェナティキの回生(守護アレクサンドラ,アレクサンドラ,？)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageReflect",
+              "parameter_type": 17,
+              "raw_value": 300.0,
+              "value_text": "+300"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 17,
+                "ChangeParameterType": 1,
+                "Value": 300.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 102,
+            "CollectionLevel": 3,
+            "Id": 10203,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴェナティキの回生(守護アレクサンドラ,アレクサンドラ,？)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageReflect",
+              "parameter_type": 17,
+              "raw_value": 300.0,
+              "value_text": "+300"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 17,
+                "ChangeParameterType": 1,
+                "Value": 300.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 102,
+            "CollectionLevel": 4,
+            "Id": 10204,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴェナティキの回生(守護アレクサンドラ,アレクサンドラ,？)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 71.0,
+              "value_text": "+71×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageReflect",
+              "parameter_type": 17,
+              "raw_value": 310.0,
+              "value_text": "+310"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 71.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 17,
+                "ChangeParameterType": 1,
+                "Value": 310.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 102,
+            "CollectionLevel": 5,
+            "Id": 10205,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴェナティキの回生(守護アレクサンドラ,アレクサンドラ,？)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 72.0,
+              "value_text": "+72×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageReflect",
+              "parameter_type": 17,
+              "raw_value": 320.0,
+              "value_text": "+320"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 72.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 17,
+                "ChangeParameterType": 1,
+                "Value": 320.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 102,
+            "CollectionLevel": 6,
+            "Id": 10206,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴェナティキの回生(守護アレクサンドラ,アレクサンドラ,？)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 73.0,
+              "value_text": "+73×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageReflect",
+              "parameter_type": 17,
+              "raw_value": 330.0,
+              "value_text": "+330"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 73.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 17,
+                "ChangeParameterType": 1,
+                "Value": 330.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 102,
+            "CollectionLevel": 7,
+            "Id": 10207,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴェナティキの回生(守護アレクサンドラ,アレクサンドラ,？)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 74.0,
+              "value_text": "+74×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageReflect",
+              "parameter_type": 17,
+              "raw_value": 340.0,
+              "value_text": "+340"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 74.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 17,
+                "ChangeParameterType": 1,
+                "Value": 340.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 102,
+            "CollectionLevel": 8,
+            "Id": 10208,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴェナティキの回生(守護アレクサンドラ,アレクサンドラ,？)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 75.0,
+              "value_text": "+75×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageReflect",
+              "parameter_type": 17,
+              "raw_value": 350.0,
+              "value_text": "+350"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 75.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 17,
+                "ChangeParameterType": 1,
+                "Value": 350.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 102,
+            "CollectionLevel": 9,
+            "Id": 10209,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴェナティキの回生(守護アレクサンドラ,アレクサンドラ,？)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 102,
+        "IsIgnore": null,
+        "Memo": "ヴェナティキの回生(守護アレクサンドラ,アレクサンドラ,？)",
+        "NameKey": "[CharacterCollectionName102]",
+        "RequiredCharacterIds": [
+          155,
+          82,
+          0
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2026-10-15 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName102]",
+      "names": {
+        "ja-JP": "ヴェナティキの回生",
+        "zh-CN": "猎犬座的复生"
+      },
+      "required_character_ids": [
+        155,
+        82,
+        0
+      ],
+      "required_characters": [
+        {
+          "id": 155,
+          "names": {
+            "ja-JP": "アレクサンドラ",
+            "zh-CN": "亚历珊卓"
+          }
+        },
+        {
+          "id": 82,
+          "names": {
+            "ja-JP": "アレクサンドラ",
+            "zh-CN": "亚历珊卓"
+          }
+        },
+        {
+          "id": 0,
+          "names": {
+            "ja-JP": null,
+            "zh-CN": null
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2026-10-15 00:00:00"
     }
   ],
   "character": {
@@ -1368,51 +1841,51 @@
   ],
   "schema_version": 3,
   "source": {
-    "app_version": "4.23.0",
-    "asset_version": "9a60ac3d37f7d9e9f6b84b3275a73d4edcb324a4_2",
+    "app_version": "5.0.0",
+    "asset_version": "dd4e3ab60c601a07b7c780bccc81b26e40140744_2",
     "books": {
       "ActiveSkillMB": {
-        "md5": "5bedde437ea5e0f70244f11f91e3e2f0",
-        "size": 846997
+        "md5": "0c8b94376a7c2082977a18b51515916a",
+        "size": 856136
       },
       "CharacterCollectionLevelMB": {
-        "md5": "ab32419d5a1cc7c4b892d125e7fee83f",
-        "size": 300344
+        "md5": "a435e037aafd482815cff9c1ea888866",
+        "size": 303659
       },
       "CharacterCollectionMB": {
-        "md5": "c3157bd8eccaf0ad8f66b5b731ad1cee",
-        "size": 22638
+        "md5": "ea62edb7fc3c927dbaf30e240e4f0220",
+        "size": 22892
       },
       "CharacterMB": {
-        "md5": "e275e3106f263d91c359915f8123b30b",
-        "size": 95062
+        "md5": "b98b2cc665a160e791bde23424ea8a6a",
+        "size": 96499
       },
       "EquipmentExclusiveEffectMB": {
-        "md5": "a7633f860d6d6ab97c3e55b0c0b8dc8e",
-        "size": 184237
+        "md5": "b1e7883c9de1985491832b9995cbe3f9",
+        "size": 185875
       },
       "EquipmentExclusiveSkillDescriptionMB": {
-        "md5": "ab3c7ddc1711d9d15d5f1919dfcde613",
-        "size": 25153
+        "md5": "e3ef0b69044b0edd03b374c0b27347ad",
+        "size": 25378
       },
       "EquipmentMB": {
-        "md5": "0b0081d745870c867780e732fea1e179",
-        "size": 12754791
+        "md5": "11ca311409f54112d0a98676e2729c2d",
+        "size": 12847783
       },
       "PassiveSkillMB": {
-        "md5": "14eef7d712ca4f75ba658df1a5ef9bd3",
-        "size": 954229
+        "md5": "0a3200fe8a5578a0d12c74a17b050bf1",
+        "size": 970417
       },
       "TextResourceJaJpMB": {
-        "md5": "f29078906766acf387bf746eef994624",
-        "size": 5986805
+        "md5": "bda276ac67a558cc5bb28721d67db727",
+        "size": 6044677
       },
       "TextResourceZhCnMB": {
-        "md5": "768061292d885b44e3eb499b68ab3a7d",
-        "size": 5281643
+        "md5": "f3b3722d53150b16cda25a595667b3dc",
+        "size": 5331986
       }
     },
-    "generated_at": "2026-10-06T05:30:14.625000+00:00",
-    "master_version": "1791264614625"
+    "generated_at": "2026-10-15T07:03:25.657000+00:00",
+    "master_version": "1792047805657"
   }
 }
