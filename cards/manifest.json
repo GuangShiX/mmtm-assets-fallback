@@ -3,109 +3,13 @@
     "000155:zh-CN:split": {
       "asset_version": "dd4e3ab60c601a07b7c780bccc81b26e40140744_2",
       "character_id": 155,
-      "font_families": [
-        "Noto Sans SC",
-        "Noto Sans SC",
-        "Noto Serif SC"
-      ],
-      "fonts": [
-        {
-          "family": "Noto Sans SC",
-          "index": 0,
-          "path": "C:\\Windows\\Fonts\\Noto Sans SC.ttf",
-          "role": "sans",
-          "sha256": "ae82f4e2a55e1316a55bcc1d05e9555ce08d8bda07e893b486896b626fd852ff",
-          "style": "Regular"
-        },
-        {
-          "family": "Noto Sans SC",
-          "index": 0,
-          "path": "C:\\Windows\\Fonts\\NotoSansSC-Medium.otf",
-          "role": "medium",
-          "sha256": "3375ae39dacfc1f3446c5bdaec586c95e30536a26e194dbe73aeb1d061af32d0",
-          "style": "Medium"
-        },
-        {
-          "family": "Noto Serif SC",
-          "index": 0,
-          "path": "C:\\Windows\\Fonts\\NotoSerifSC-VF.ttf",
-          "role": "serif",
-          "sha256": "a4aed9985a5916fbf6690456f8732a9fccd517938e353165d4142b4f11a39280",
-          "style": "ExtraLight"
-        }
-      ],
       "height": 2500,
       "initial_speed": 3114,
-      "input_signature": "ac289a4ad74fd299fd82045d2e6c938ed471cb1180d2e7e0a4dd47f4629b985d",
       "language": "zh-CN",
-      "missing_assets": [],
       "mode": "split",
-      "official_assets": {
-        "arcana_avatar:155": {
-          "path": "D:\\NewProjects\\mmtm-apk-tracker\\fallback_dist\\assets\\characters\\CHR_000155_00_s.png",
-          "sha256": "941063ea4aa8d7e08cf9feb34d694a239295c5727e3d39b10b6901b97b369294",
-          "size": 37378
-        },
-        "arcana_avatar:82": {
-          "path": "D:\\NewProjects\\mmtm-apk-tracker\\fallback_dist\\assets\\characters\\CHR_000082_00_s.png",
-          "sha256": "33268ca48f13dca8b98d99b1759b02febfc6e6a6d605b0a25ea8eee292713e17",
-          "size": 35995
-        },
-        "banner": {
-          "path": "D:\\NewProjects\\mmtm-apk-tracker\\reports\\skill-card-cache\\dd4e3ab60c601a07b7c780bccc81b26e40140744_2\\000155\\banners\\MYPAGE_BANNER_CN_010155.png",
-          "sha256": "8e3981a74d8ee4f5bbef63898720902aa368b51c76a272b9cc168a0e93e61458",
-          "size": 65213
-        },
-        "character_avatar": {
-          "path": "D:\\NewProjects\\mmtm-apk-tracker\\fallback_dist\\assets\\characters\\CHR_000155_00_s.png",
-          "sha256": "941063ea4aa8d7e08cf9feb34d694a239295c5727e3d39b10b6901b97b369294",
-          "size": 37378
-        },
-        "element_icon": {
-          "path": "D:\\NewProjects\\mmtm-apk-tracker\\fallback_dist\\assets\\ui\\icon_element_2.png",
-          "sha256": "60defc420a5ed30ac91c4d73178804b6a1c8509ed5f1c0e3a1d90900acef5024",
-          "size": 8148
-        },
-        "exclusive_weapon": {
-          "path": "D:\\NewProjects\\mmtm-apk-tracker\\fallback_dist\\assets\\equipment\\EQP_001034.png",
-          "sha256": "1d7de61061759e2d5b1d1d43a7c7b890b2d24afc51c347e25cafa290dea28cfa",
-          "size": 25823
-        },
-        "full_art": {
-          "path": "D:\\NewProjects\\mmtm-apk-tracker\\reports\\skill-card-cache\\dd4e3ab60c601a07b7c780bccc81b26e40140744_2\\000155\\images\\CHR_000155_00_l.png",
-          "sha256": "5b84d7cf48e0d46eda71f1999afeb87e7de2f7cc2101a1228fe0e06e89b88b99",
-          "size": 1884023
-        },
-        "job_icon": {
-          "path": "D:\\NewProjects\\mmtm-apk-tracker\\fallback_dist\\assets\\ui\\icon_job_warrior.png",
-          "sha256": "aed9a0e05bd2a2e0f8e1986f949b9b7071fe4c4a90993a0fb658d1c472bbaf59",
-          "size": 4525
-        },
-        "skill_icon:155001": {
-          "path": "D:\\NewProjects\\mmtm-apk-tracker\\reports\\skill-card-cache\\dd4e3ab60c601a07b7c780bccc81b26e40140744_2\\000155\\images\\CSK_000155001.png",
-          "sha256": "2e8107055e9af23757d7f16f61fb056bdeb4cf3a5a3285bc77799843cecec8c0",
-          "size": 22081
-        },
-        "skill_icon:155002": {
-          "path": "D:\\NewProjects\\mmtm-apk-tracker\\reports\\skill-card-cache\\dd4e3ab60c601a07b7c780bccc81b26e40140744_2\\000155\\images\\CSK_000155002.png",
-          "sha256": "afb9627dbe16329d0d9b7a5488fd0319f69b213d12436f8890d98fe28068b3c9",
-          "size": 23104
-        },
-        "skill_icon:155003": {
-          "path": "D:\\NewProjects\\mmtm-apk-tracker\\reports\\skill-card-cache\\dd4e3ab60c601a07b7c780bccc81b26e40140744_2\\000155\\images\\CSK_000155003.png",
-          "sha256": "3a33594e1a2ff60b6da722fc206d0e884bcf1380c37b921d467f4bd9a20a3e4d",
-          "size": 23233
-        },
-        "skill_icon:155004": {
-          "path": "D:\\NewProjects\\mmtm-apk-tracker\\reports\\skill-card-cache\\dd4e3ab60c601a07b7c780bccc81b26e40140744_2\\000155\\images\\CSK_000155004.png",
-          "sha256": "585dc3b8c31b2bd65107bdca4180ef6779fa31d90a5c899fac5d7155a3c1feed",
-          "size": 22760
-        }
-      },
       "path": "characters/character-000155-split-zh-CN.png",
-      "release_status": "released",
-      "sha256": "06421d9d76d424325c12d13249afce510b5862dcbdffef853e7eb0c8a2de45f6",
-      "source_sha256": "1876b0da303c27c5ae390a778df220e7beae44e3861e67bb94cd5492dc01d683",
+      "sha256": "bf6303341ca95243a7f453b260d1d7656812c880986002febcfd0de1cd757a8c",
+      "source_sha256": "65bc030d0a4b2ec2dd2f204dd41acc974bf259628117ebcc9591af8c8cf59497",
       "template_version": "landscape-split-v8.2",
       "width": 3840
     }
