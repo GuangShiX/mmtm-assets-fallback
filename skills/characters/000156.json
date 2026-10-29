@@ -1,0 +1,1938 @@
+{
+  "active_skills": [
+    {
+      "conditions": "True",
+      "id": 156001,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 1,
+          "description_key": "[ActiveSkillDescription1560011]",
+          "descriptions": {
+            "ja-JP": "罪に塗れていても、その光は救世のために──。攻撃力が高い敵2体に攻撃力×480%の物理攻撃を行う。",
+            "zh-CN": "即使被罪孽浸染，那道光仍会为了拯救世界而闪耀——埃尔芙琳黛对攻击力最高的2名敌人造成攻击力×480%的物理伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "罪に塗れていても、その光は救世のために──。攻撃力が高い敵2体に攻撃力×480%の物理攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 81,
+          "description_key": "[ActiveSkillDescription1560012]",
+          "descriptions": {
+            "ja-JP": "物理攻撃のダメージが攻撃力×680%になる。",
+            "zh-CN": "造成的物理伤害提升为攻击力×680%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "物理攻撃のダメージが攻撃力×680%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1560013]",
+          "descriptions": {
+            "ja-JP": "さらに物理攻撃の前に自身の『傲慢の悪魔』のスタック数が10の場合、物理攻撃のダメージが攻撃力×1020%になる。",
+            "zh-CN": "发动攻击前，如果埃尔芙琳黛身上附带的「傲慢的恶魔」达10层，造成的物理伤害提升为攻击力×1020%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらに物理攻撃の前に自身の『傲慢の悪魔』のスタック数が10の場合、物理攻撃のダメージが攻撃力×1020%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 161,
+          "description_key": "[ActiveSkillDescription1560014]",
+          "descriptions": {
+            "ja-JP": "救世の魔光を強化する。救世の魔光の対象が攻撃力が高い敵3体になる。さらに物理攻撃の前に敵の生存数が2体の場合、物理攻撃のダメージが1.5倍になる。物理攻撃の前に敵の生存数が1体の場合、物理攻撃のダメージが3倍になる。",
+            "zh-CN": "强化救世的魔光，技能目标增加为攻击力最高的3名敌人。发动攻击前，如果存活在场上的敌人数为2名，造成的物理伤害增加为1.5倍；如果存活在场上的敌人数为1名，造成的物理伤害增加为3倍。"
+          },
+          "equipment_rarity_flags": 128,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex1",
+            "text": "救世の魔光を強化する。救世の魔光の対象が攻撃力が高い敵3体になる。さらに物理攻撃の前に敵の生存数が2体の場合、物理攻撃のダメージが1.5倍になる。物理攻撃の前に敵の生存数が1体の場合、物理攻撃のダメージが3倍になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 1,
+            "DescriptionKey": "[ActiveSkillDescription1560011]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              156001001
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 81,
+            "DescriptionKey": "[ActiveSkillDescription1560012]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              156001201
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1560013]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              156001301
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 161,
+            "DescriptionKey": "[ActiveSkillDescription1560014]",
+            "EquipmentRarityFlags": 128,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              156001401
+            ]
+          }
+        ],
+        "Id": 156001,
+        "IsIgnore": null,
+        "Memo": "眷属エルフリンデSR:Lv1 罪に塗れていても、その光は救世のために──。攻撃力が高い敵2体に攻撃力×480%の物理攻撃を行う。/ Lv2 物理攻撃のダメージが攻撃力×680%になる。/ Lv3 さらに物理攻撃の前に自身の『傲慢の悪魔』のスタック数が10の場合、物理攻撃のダメージが攻撃力×1020%になる。/ Ex1 救世の魔光を強化する。救世の魔光の対象が攻撃力が高い敵3体になる。さらに物理攻撃の前に敵の生存数が2体の場合、物理攻撃のダメージが1.5倍になる。物理攻撃の前に敵の生存数が1体の場合、物理攻撃のダメージが3倍になる。",
+        "NameKey": "[ActiveSkillName156001]",
+        "RootActiveSkillId": 156001,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName156001]",
+      "names": {
+        "ja-JP": "救世の魔光",
+        "zh-CN": "救世的魔光"
+      },
+      "source_memo_ja": "眷属エルフリンデSR:Lv1 罪に塗れていても、その光は救世のために──。攻撃力が高い敵2体に攻撃力×480%の物理攻撃を行う。/ Lv2 物理攻撃のダメージが攻撃力×680%になる。/ Lv3 さらに物理攻撃の前に自身の『傲慢の悪魔』のスタック数が10の場合、物理攻撃のダメージが攻撃力×1020%になる。/ Ex1 救世の魔光を強化する。救世の魔光の対象が攻撃力が高い敵3体になる。さらに物理攻撃の前に敵の生存数が2体の場合、物理攻撃のダメージが1.5倍になる。物理攻撃の前に敵の生存数が1体の場合、物理攻撃のダメージが3倍になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "罪に塗れていても、その光は救世のために──。攻撃力が高い敵2体に攻撃力×480%の物理攻撃を行う。"
+        },
+        {
+          "label": "Lv2",
+          "text": "物理攻撃のダメージが攻撃力×680%になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらに物理攻撃の前に自身の『傲慢の悪魔』のスタック数が10の場合、物理攻撃のダメージが攻撃力×1020%になる。"
+        },
+        {
+          "label": "Ex1",
+          "text": "救世の魔光を強化する。救世の魔光の対象が攻撃力が高い敵3体になる。さらに物理攻撃の前に敵の生存数が2体の場合、物理攻撃のダメージが1.5倍になる。物理攻撃の前に敵の生存数が1体の場合、物理攻撃のダメージが3倍になる。"
+        }
+      ]
+    },
+    {
+      "conditions": "True",
+      "id": 156002,
+      "initial_cooldown": 0,
+      "kind": "active",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 21,
+          "description_key": "[ActiveSkillDescription1560021]",
+          "descriptions": {
+            "ja-JP": "悪魔を宿した神の槍が、万象を刺し貫く。ランダムな敵に3回攻撃力×580%の物理攻撃を行う。最初の物理攻撃の前に自身の『傲慢の悪魔』のスタック数が10の場合、物理攻撃のダメージが攻撃力×870%になる。",
+            "zh-CN": "寄宿着恶魔的命运之矛，贯穿世间万物。埃尔芙琳黛随机对敌人进行3次攻击，每次造成攻击力×580%的物理伤害。发动攻击前，如果埃尔芙琳黛身上附带的「傲慢的恶魔」达10层，造成的物理伤害提升为攻击力×870%。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "悪魔を宿した神の槍が、万象を刺し貫く。ランダムな敵に3回攻撃力×580%の物理攻撃を行う。最初の物理攻撃の前に自身の『傲慢の悪魔』のスタック数が10の場合、物理攻撃のダメージが攻撃力×870%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 41,
+          "description_key": "[ActiveSkillDescription1560022]",
+          "descriptions": {
+            "ja-JP": "さらに最初の物理攻撃の前に自身の『傲慢の悪魔』のスタック数が10の場合、最後の物理攻撃の後に攻撃力が最も高い敵に3回自身の腕力×1500%の直接攻撃を行う。",
+            "zh-CN": "发动攻击前，如果埃尔芙琳黛身上附带的「傲慢的恶魔」达10层，攻击结束后再对攻击力最高的敌人追加3次攻击，每次造成埃尔芙琳黛力量×1500%的直接伤害。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに最初の物理攻撃の前に自身の『傲慢の悪魔』のスタック数が10の場合、最後の物理攻撃の後に攻撃力が最も高い敵に3回自身の腕力×1500%の直接攻撃を行う。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 101,
+          "description_key": "[ActiveSkillDescription1560023]",
+          "descriptions": {
+            "ja-JP": "さらに直接攻撃が必ずクリティカルヒットし、対象の『ダメージ無効』『多重バリア』を無視するようになる。",
+            "zh-CN": "追加攻击必定暴击，且无视技能目标的「伤害免疫」与「多重屏障」。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらに直接攻撃が必ずクリティカルヒットし、対象の『ダメージ無効』『多重バリア』を無視するようになる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 181,
+          "description_key": "[ActiveSkillDescription1560024]",
+          "descriptions": {
+            "ja-JP": "物理攻撃の回数が5回になる。",
+            "zh-CN": "物理攻击次数增加为5次。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Lv4",
+            "text": "物理攻撃の回数が5回になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "ActiveSkillConditions": "True",
+        "ActiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 21,
+            "DescriptionKey": "[ActiveSkillDescription1560021]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "SubSetSkillIds": [
+              156002001,
+              156002002,
+              156002002
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 41,
+            "DescriptionKey": "[ActiveSkillDescription1560022]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "SubSetSkillIds": [
+              156002001,
+              156002002,
+              156002002,
+              156002203,
+              156002203,
+              156002203
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 101,
+            "DescriptionKey": "[ActiveSkillDescription1560023]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "SubSetSkillIds": [
+              156002001,
+              156002002,
+              156002002,
+              156002303,
+              156002303,
+              156002303
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 181,
+            "DescriptionKey": "[ActiveSkillDescription1560024]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 4,
+            "SubSetSkillIds": [
+              156002201,
+              156002202,
+              156002202,
+              156002202,
+              156002202,
+              156002303,
+              156002303,
+              156002303
+            ]
+          }
+        ],
+        "Id": 156002,
+        "IsIgnore": null,
+        "Memo": "眷属エルフリンデSR:Lv1 悪魔を宿した神の槍が、万象を刺し貫く。ランダムな敵に3回攻撃力×580%の物理攻撃を行う。最初の物理攻撃の前に自身の『傲慢の悪魔』のスタック数が10の場合、物理攻撃のダメージが攻撃力×870%になる。/ Lv2 さらに最初の物理攻撃の前に自身の『傲慢の悪魔』のスタック数が10の場合、最後の物理攻撃の後に攻撃力が最も高い敵に3回自身の腕力×1500%の直接攻撃を行う。/ Lv3 さらに直接攻撃が必ずクリティカルヒットし、対象の『ダメージ無効』『多重バリア』を無視するようになる。/ Lv4 物理攻撃の回数が5回になる。",
+        "NameKey": "[ActiveSkillName156002]",
+        "RootActiveSkillId": 156002,
+        "SkillInitCoolTime": 0,
+        "SkillMaxCoolTime": 4
+      },
+      "max_cooldown": 4,
+      "name_key": "[ActiveSkillName156002]",
+      "names": {
+        "ja-JP": "聖魔の黒槍",
+        "zh-CN": "圣魔黑矛"
+      },
+      "source_memo_ja": "眷属エルフリンデSR:Lv1 悪魔を宿した神の槍が、万象を刺し貫く。ランダムな敵に3回攻撃力×580%の物理攻撃を行う。最初の物理攻撃の前に自身の『傲慢の悪魔』のスタック数が10の場合、物理攻撃のダメージが攻撃力×870%になる。/ Lv2 さらに最初の物理攻撃の前に自身の『傲慢の悪魔』のスタック数が10の場合、最後の物理攻撃の後に攻撃力が最も高い敵に3回自身の腕力×1500%の直接攻撃を行う。/ Lv3 さらに直接攻撃が必ずクリティカルヒットし、対象の『ダメージ無効』『多重バリア』を無視するようになる。/ Lv4 物理攻撃の回数が5回になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "悪魔を宿した神の槍が、万象を刺し貫く。ランダムな敵に3回攻撃力×580%の物理攻撃を行う。最初の物理攻撃の前に自身の『傲慢の悪魔』のスタック数が10の場合、物理攻撃のダメージが攻撃力×870%になる。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに最初の物理攻撃の前に自身の『傲慢の悪魔』のスタック数が10の場合、最後の物理攻撃の後に攻撃力が最も高い敵に3回自身の腕力×1500%の直接攻撃を行う。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらに直接攻撃が必ずクリティカルヒットし、対象の『ダメージ無効』『多重バリア』を無視するようになる。"
+        },
+        {
+          "label": "Lv4",
+          "text": "物理攻撃の回数が5回になる。"
+        }
+      ]
+    }
+  ],
+  "arcanas": [
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 102,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageReflect",
+              "parameter_type": 17,
+              "raw_value": 150.0,
+              "value_text": "+150"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 17,
+                "ChangeParameterType": 1,
+                "Value": 150.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 102,
+            "CollectionLevel": 1,
+            "Id": 10201,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴェナティキの回生(守護アレクサンドラ,アレクサンドラ,眷属エルフリンデ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageReflect",
+              "parameter_type": 17,
+              "raw_value": 300.0,
+              "value_text": "+300"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 17,
+                "ChangeParameterType": 1,
+                "Value": 300.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 102,
+            "CollectionLevel": 2,
+            "Id": 10202,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴェナティキの回生(守護アレクサンドラ,アレクサンドラ,眷属エルフリンデ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageReflect",
+              "parameter_type": 17,
+              "raw_value": 300.0,
+              "value_text": "+300"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 17,
+                "ChangeParameterType": 1,
+                "Value": 300.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 102,
+            "CollectionLevel": 3,
+            "Id": 10203,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴェナティキの回生(守護アレクサンドラ,アレクサンドラ,眷属エルフリンデ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 70.0,
+              "value_text": "+70×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageReflect",
+              "parameter_type": 17,
+              "raw_value": 300.0,
+              "value_text": "+300"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 70.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 17,
+                "ChangeParameterType": 1,
+                "Value": 300.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 102,
+            "CollectionLevel": 4,
+            "Id": 10204,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴェナティキの回生(守護アレクサンドラ,アレクサンドラ,眷属エルフリンデ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 71.0,
+              "value_text": "+71×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageReflect",
+              "parameter_type": 17,
+              "raw_value": 310.0,
+              "value_text": "+310"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 71.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 17,
+                "ChangeParameterType": 1,
+                "Value": 310.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 102,
+            "CollectionLevel": 5,
+            "Id": 10205,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴェナティキの回生(守護アレクサンドラ,アレクサンドラ,眷属エルフリンデ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 72.0,
+              "value_text": "+72×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageReflect",
+              "parameter_type": 17,
+              "raw_value": 320.0,
+              "value_text": "+320"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 72.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 17,
+                "ChangeParameterType": 1,
+                "Value": 320.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 102,
+            "CollectionLevel": 6,
+            "Id": 10206,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴェナティキの回生(守護アレクサンドラ,アレクサンドラ,眷属エルフリンデ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 73.0,
+              "value_text": "+73×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageReflect",
+              "parameter_type": 17,
+              "raw_value": 330.0,
+              "value_text": "+330"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 73.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 17,
+                "ChangeParameterType": 1,
+                "Value": 330.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 102,
+            "CollectionLevel": 7,
+            "Id": 10207,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴェナティキの回生(守護アレクサンドラ,アレクサンドラ,眷属エルフリンデ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 74.0,
+              "value_text": "+74×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageReflect",
+              "parameter_type": 17,
+              "raw_value": 340.0,
+              "value_text": "+340"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 74.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 17,
+                "ChangeParameterType": 1,
+                "Value": 340.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 102,
+            "CollectionLevel": 8,
+            "Id": 10208,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴェナティキの回生(守護アレクサンドラ,アレクサンドラ,眷属エルフリンデ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 3,
+              "kind": "base",
+              "parameter_code": "Muscle",
+              "parameter_type": 1,
+              "raw_value": 75.0,
+              "value_text": "+75×角色等级"
+            },
+            {
+              "change_parameter_type": 1,
+              "kind": "battle",
+              "parameter_code": "DamageReflect",
+              "parameter_type": 17,
+              "raw_value": 350.0,
+              "value_text": "+350"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": [
+              {
+                "BaseParameterType": 1,
+                "ChangeParameterType": 3,
+                "Value": 75.0
+              }
+            ],
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 17,
+                "ChangeParameterType": 1,
+                "Value": 350.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 102,
+            "CollectionLevel": 9,
+            "Id": 10209,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ヴェナティキの回生(守護アレクサンドラ,アレクサンドラ,眷属エルフリンデ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 102,
+        "IsIgnore": null,
+        "Memo": "ヴェナティキの回生(守護アレクサンドラ,アレクサンドラ,眷属エルフリンデ)",
+        "NameKey": "[CharacterCollectionName102]",
+        "RequiredCharacterIds": [
+          155,
+          82,
+          156
+        ],
+        "RequiredPartyLv": 0,
+        "StartTimeFixJST": "2026-10-15 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName102]",
+      "names": {
+        "ja-JP": "ヴェナティキの回生",
+        "zh-CN": "猎犬座的复生"
+      },
+      "required_character_ids": [
+        155,
+        82,
+        156
+      ],
+      "required_characters": [
+        {
+          "id": 155,
+          "names": {
+            "ja-JP": "アレクサンドラ",
+            "zh-CN": "亚历珊卓"
+          }
+        },
+        {
+          "id": 82,
+          "names": {
+            "ja-JP": "アレクサンドラ",
+            "zh-CN": "亚历珊卓"
+          }
+        },
+        {
+          "id": 156,
+          "names": {
+            "ja-JP": "エルフリンデ",
+            "zh-CN": "埃尔芙琳黛"
+          }
+        }
+      ],
+      "required_party_level": 0,
+      "start_time_jst": "2026-10-15 00:00:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 103,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 103,
+            "CollectionLevel": 1,
+            "Id": 10301,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボーテスの贖罪(眷属エルフリンデ,エルフリンデ,ロキ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              },
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 103,
+            "CollectionLevel": 2,
+            "Id": 10302,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボーテスの贖罪(眷属エルフリンデ,エルフリンデ,ロキ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              },
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 103,
+            "CollectionLevel": 3,
+            "Id": 10303,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボーテスの贖罪(眷属エルフリンデ,エルフリンデ,ロキ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              },
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 103,
+            "CollectionLevel": 4,
+            "Id": 10304,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボーテスの贖罪(眷属エルフリンデ,エルフリンデ,ロキ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 160.0,
+              "value_text": "+1.6%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 210.0,
+              "value_text": "+2.1%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 2,
+                "Value": 160.0
+              },
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 210.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 103,
+            "CollectionLevel": 5,
+            "Id": 10305,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボーテスの贖罪(眷属エルフリンデ,エルフリンデ,ロキ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 170.0,
+              "value_text": "+1.7%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 220.0,
+              "value_text": "+2.2%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 2,
+                "Value": 170.0
+              },
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 220.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 103,
+            "CollectionLevel": 6,
+            "Id": 10306,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボーテスの贖罪(眷属エルフリンデ,エルフリンデ,ロキ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 180.0,
+              "value_text": "+1.8%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 230.0,
+              "value_text": "+2.3%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 2,
+                "Value": 180.0
+              },
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 230.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 103,
+            "CollectionLevel": 7,
+            "Id": 10307,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボーテスの贖罪(眷属エルフリンデ,エルフリンデ,ロキ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 190.0,
+              "value_text": "+1.9%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 240.0,
+              "value_text": "+2.4%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 2,
+                "Value": 190.0
+              },
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 240.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 103,
+            "CollectionLevel": 8,
+            "Id": 10308,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボーテスの贖罪(眷属エルフリンデ,エルフリンデ,ロキ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 250.0,
+              "value_text": "+2.5%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 103,
+            "CollectionLevel": 9,
+            "Id": 10309,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボーテスの贖罪(眷属エルフリンデ,エルフリンデ,ロキ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 103,
+        "IsIgnore": null,
+        "Memo": "ボーテスの贖罪(眷属エルフリンデ,エルフリンデ,ロキ)",
+        "NameKey": "[CharacterCollectionName103]",
+        "RequiredCharacterIds": [
+          156,
+          45,
+          4
+        ],
+        "RequiredPartyLv": 300,
+        "StartTimeFixJST": "2026-10-29 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName103]",
+      "names": {
+        "ja-JP": "ボーテスの贖罪",
+        "zh-CN": "牧夫座的赎罪"
+      },
+      "required_character_ids": [
+        156,
+        45,
+        4
+      ],
+      "required_characters": [
+        {
+          "id": 156,
+          "names": {
+            "ja-JP": "エルフリンデ",
+            "zh-CN": "埃尔芙琳黛"
+          }
+        },
+        {
+          "id": 45,
+          "names": {
+            "ja-JP": "エルフリンデ",
+            "zh-CN": "埃尔芙琳黛"
+          }
+        },
+        {
+          "id": 4,
+          "names": {
+            "ja-JP": "ロキ",
+            "zh-CN": "洛基"
+          }
+        }
+      ],
+      "required_party_level": 300,
+      "start_time_jst": "2026-10-29 00:00:00"
+    }
+  ],
+  "character": {
+    "character_type": 2,
+    "element_type": 6,
+    "end_time_jst": "2100-12-31 23:59:59",
+    "id": 156,
+    "job_flags": 1,
+    "master_record": {
+      "ActiveSkillIds": [
+        156001,
+        156002
+      ],
+      "BaseParameterCoefficient": {
+        "Energy": 85,
+        "Health": 68,
+        "Intelligence": 83,
+        "Muscle": 104
+      },
+      "BaseParameterGrossCoefficient": 340,
+      "CharacterType": 2,
+      "ElementType": 6,
+      "EndTimeFixJST": "2100-12-31 23:59:59",
+      "Id": 156,
+      "InitialBattleParameter": {
+        "AttackPower": 5,
+        "Avoidance": -3,
+        "Critical": -3,
+        "CriticalDamageEnhance": 0,
+        "CriticalResist": 0,
+        "DamageEnhance": 1,
+        "DamageReflect": 0,
+        "DebuffHit": 0,
+        "DebuffResist": 0,
+        "Defense": 10,
+        "DefensePenetration": 0,
+        "HP": 0,
+        "Hit": 0,
+        "HpDrain": 0,
+        "MagicCriticalDamageRelax": 0,
+        "MagicDamageRelax": 0,
+        "PhysicalCriticalDamageRelax": 0,
+        "PhysicalDamageRelax": 0,
+        "Speed": 2949
+      },
+      "IsIgnore": null,
+      "ItemRarityFlags": 64,
+      "JobFlags": 1,
+      "Memo": "眷属エルフリンデ",
+      "Name2Key": "[CharacterSubName156]",
+      "NameKey": "[CharacterName156]",
+      "NormalSkillId": 101,
+      "PassiveSkillIds": [
+        156003,
+        156004
+      ],
+      "RarityFlags": 8,
+      "RequireFragmentCount": 60,
+      "StartTimeFixJST": "2026-10-29 15:00:00"
+    },
+    "memo": "眷属エルフリンデ",
+    "name_key": "[CharacterName156]",
+    "names": {
+      "ja-JP": "エルフリンデ",
+      "zh-CN": "埃尔芙琳黛"
+    },
+    "speed": 2949,
+    "start_time_jst": "2026-10-29 15:00:00",
+    "subtitle_key": "[CharacterSubName156]",
+    "subtitles": {
+      "ja-JP": "スペルビアの眷属",
+      "zh-CN": "斯佩比亚眷属"
+    }
+  },
+  "exclusive_weapon": {
+    "equipment_id": 1561110240,
+    "exclusive_effect_id": 744,
+    "icon_id": 1040,
+    "master_records": {
+      "equipment": {
+        "AdditionalParameterTotal": 232692,
+        "AfterLevelEvolutionEquipmentId": 1561110250,
+        "AfterRarityEvolutionEquipmentId": 0,
+        "BattleParameterChangeInfo": {
+          "BattleParameterType": 2,
+          "ChangeParameterType": 1,
+          "Value": 185740.0
+        },
+        "Category": 3,
+        "CompositeId": 156,
+        "EquipmentEvolutionId": 166,
+        "EquipmentExclusiveSkillDescriptionId": 124,
+        "EquipmentForgeId": 0,
+        "EquipmentLv": 240,
+        "EquipmentSetId": 14,
+        "EquippedJobFlags": 1,
+        "ExclusiveEffectId": 744,
+        "GoldRequiredToOpeningFirstSphereSlot": 34330,
+        "GoldRequiredToTraining": 34200,
+        "IconId": 1040,
+        "Id": 1561110240,
+        "IsIgnore": null,
+        "Memo": "眷属エルフリンデLR240_剣",
+        "NameKey": "[EquipmentName1035]",
+        "PerformancePoint": 953210,
+        "QualityLv": 4,
+        "RarityFlags": 512,
+        "SlotType": 1
+      },
+      "exclusive_effect": {
+        "BaseParameterChangeInfoList": null,
+        "BattleParameterChangeInfoList": [
+          {
+            "BattleParameterType": 2,
+            "ChangeParameterType": 2,
+            "Value": 1800.0
+          },
+          {
+            "BattleParameterType": 12,
+            "ChangeParameterType": 1,
+            "Value": 7000.0
+          },
+          {
+            "BattleParameterType": 14,
+            "ChangeParameterType": 1,
+            "Value": 7000.0
+          }
+        ],
+        "CharacterId": 156,
+        "Id": 744,
+        "IsIgnore": null,
+        "Memo": "眷属エルフリンデLR"
+      },
+      "skill_description": {
+        "Description1Key": "[EquipmentExclusiveSkill156Description1]",
+        "Description2Key": "[EquipmentExclusiveSkill156Description2]",
+        "Description3Key": "[EquipmentExclusiveSkill156Description3]",
+        "Id": 124,
+        "IsIgnore": null,
+        "Memo": "眷属エルフリンデ剣"
+      }
+    },
+    "name_key": "[EquipmentName1035]",
+    "names": {
+      "ja-JP": "運命の槍",
+      "zh-CN": "命运之矛"
+    },
+    "passive_effects": [
+      {
+        "change_parameter_type": 2,
+        "kind": "battle",
+        "parameter_code": "AttackPower",
+        "parameter_type": 2,
+        "raw_value": 1800.0,
+        "value_text": "+18%"
+      },
+      {
+        "change_parameter_type": 1,
+        "kind": "battle",
+        "parameter_code": "DefensePenetration",
+        "parameter_type": 12,
+        "raw_value": 7000.0,
+        "value_text": "+7,000"
+      },
+      {
+        "change_parameter_type": 1,
+        "kind": "battle",
+        "parameter_code": "DamageEnhance",
+        "parameter_type": 14,
+        "raw_value": 7000.0,
+        "value_text": "+7,000"
+      }
+    ],
+    "rarity_flags": 512,
+    "skill_effects": [
+      {
+        "description_key": "[EquipmentExclusiveSkill156Description1]",
+        "descriptions": {
+          "ja-JP": "救世の魔光を強化する。救世の魔光の対象が攻撃力が高い敵3体になる。さらに物理攻撃の前に敵の生存数が2体の場合、物理攻撃のダメージが1.5倍になる。物理攻撃の前に敵の生存数が1体の場合、物理攻撃のダメージが3倍になる。",
+          "zh-CN": "强化救世的魔光，技能目标增加为攻击力最高的3名敌人。发动攻击前，如果存活在场上的敌人数为2名，造成的物理伤害增加为1.5倍；如果存活在场上的敌人数为1名，造成的物理伤害增加为3倍。"
+        },
+        "equipment_rarity_flags": 128,
+        "order": 1
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill156Description2]",
+        "descriptions": {
+          "ja-JP": "悪魔を以て悪魔を制すを強化する。与ダメージの増加量が5%になる。",
+          "zh-CN": "强化以魔制魔，输出伤害增幅提升为5%。"
+        },
+        "equipment_rarity_flags": 256,
+        "order": 2
+      },
+      {
+        "description_key": "[EquipmentExclusiveSkill156Description3]",
+        "descriptions": {
+          "ja-JP": "悪魔を以て悪魔を制すを強化する。命中率の増加量が50%になる。",
+          "zh-CN": "强化以魔制魔，命中率增幅提升为50%。"
+        },
+        "equipment_rarity_flags": 512,
+        "order": 3
+      }
+    ]
+  },
+  "game": "MementoMori",
+  "localization_complete": true,
+  "missing_localization_keys": [],
+  "passive_skills": [
+    {
+      "id": 156003,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 11,
+          "description_key": "[PassiveSkillDescription1560031]",
+          "descriptions": {
+            "ja-JP": "綺麗なまま何もせずに終わるくらいなら、私は世界を救う穢れた偽善者となりましょう。毎ターン開始時、自身と自身以外の攻撃力が高い味方2体に『傲慢の悪魔』を1スタック付与する（最大10スタックまで）（解除不可）。このバフは1スタックにつき付帯者の与ダメージを2%増加させる。『傲慢の悪魔』を付与する効果は自身が戦闘不能の場合でも発動する。",
+            "zh-CN": "与其碌碌无为、一尘不染地迎来终结，我宁愿双手沾满污秽，成为拯救世界的伪善者。每回合开始时，埃尔芙琳黛使自己与攻击力最高的2名其他友军获得1层「傲慢的恶魔」（最多10层）（无法被解除）。每层「傲慢的恶魔」使附带者增加2%输出伤害。失去战斗能力仍可触发「傲慢的恶魔」附加效果。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "綺麗なまま何もせずに終わるくらいなら、私は世界を救う穢れた偽善者となりましょう。毎ターン開始時、自身と自身以外の攻撃力が高い味方2体に『傲慢の悪魔』を1スタック付与する（最大10スタックまで）（解除不可）。このバフは1スタックにつき付帯者の与ダメージを2%増加させる。『傲慢の悪魔』を付与する効果は自身が戦闘不能の場合でも発動する。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 121,
+          "description_key": "[PassiveSkillDescription1560032]",
+          "descriptions": {
+            "ja-JP": "さらに自身のHP割合が50%以上の場合、『傲慢の悪魔』の付与スタック数が2になる。",
+            "zh-CN": "当埃尔芙琳黛的生命值为50%以上时，获得的「傲慢的恶魔」层数增加为2层。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに自身のHP割合が50%以上の場合、『傲慢の悪魔』の付与スタック数が2になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 201,
+          "description_key": "[PassiveSkillDescription1560033]",
+          "descriptions": {
+            "ja-JP": "さらにバトル開始時、自身の被ダメージが50%減少し、命中率が40%増加する（解除不可）。",
+            "zh-CN": "战斗开始时，埃尔芙琳黛额外减少50%自身承受伤害，增加40%命中率（无法被解除）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "さらにバトル開始時、自身の被ダメージが50%減少し、命中率が40%増加する（解除不可）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription1560034]",
+          "descriptions": {
+            "ja-JP": "悪魔を以て悪魔を制すを強化する。与ダメージの増加量が5%になる。",
+            "zh-CN": "强化以魔制魔，输出伤害增幅提升为5%。"
+          },
+          "equipment_rarity_flags": 256,
+          "order": 4,
+          "source_memo_ja": {
+            "label": "Ex2",
+            "text": "悪魔を以て悪魔を制すを強化する。与ダメージの増加量が5%になる。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 240,
+          "description_key": "[PassiveSkillDescription1560035]",
+          "descriptions": {
+            "ja-JP": "悪魔を以て悪魔を制すを強化する。命中率の増加量が50%になる。",
+            "zh-CN": "强化以魔制魔，命中率增幅提升为50%。"
+          },
+          "equipment_rarity_flags": 512,
+          "order": 5,
+          "source_memo_ja": {
+            "label": "Ex3",
+            "text": "悪魔を以て悪魔を制すを強化する。命中率の増加量が50%になる。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 156003,
+        "IsIgnore": null,
+        "Memo": "眷属エルフリンデSR:Lv1 綺麗なまま何もせずに終わるくらいなら、私は世界を救う穢れた偽善者となりましょう。毎ターン開始時、自身と自身以外の攻撃力が高い味方2体に『傲慢の悪魔』を1スタック付与する（最大10スタックまで）（解除不可）。このバフは1スタックにつき付帯者の与ダメージを2%増加させる。『傲慢の悪魔』を付与する効果は自身が戦闘不能の場合でも発動する。/ Lv2 さらに自身のHP割合が50%以上の場合、『傲慢の悪魔』の付与スタック数が2になる。/ Lv3 さらにバトル開始時、自身の被ダメージが50%減少し、命中率が40%増加する（解除不可）。/ Ex2 悪魔を以て悪魔を制すを強化する。与ダメージの増加量が5%になる。/ Ex3 悪魔を以て悪魔を制すを強化する。命中率の増加量が50%になる。",
+        "NameKey": "[PassiveSkillName156003]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 11,
+            "DescriptionKey": "[PassiveSkillDescription1560031]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 156003001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 156003002
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 156003003
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 121,
+            "DescriptionKey": "[PassiveSkillDescription1560032]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 156003201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 156003202
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 156003203
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 201,
+            "DescriptionKey": "[PassiveSkillDescription1560033]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 156003201
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 156003202
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 156003203
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 156003304
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription1560034]",
+            "EquipmentRarityFlags": 256,
+            "OrderNumber": 4,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 156003401
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 156003402
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 156003403
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 156003304
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 240,
+            "DescriptionKey": "[PassiveSkillDescription1560035]",
+            "EquipmentRarityFlags": 512,
+            "OrderNumber": 5,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 156003401
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 156003402
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 1,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 156003403
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 39,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 10,
+                "SubSetSkillId": 156003504
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName156003]",
+      "names": {
+        "ja-JP": "悪魔を以て悪魔を制す",
+        "zh-CN": "以魔制魔"
+      },
+      "source_memo_ja": "眷属エルフリンデSR:Lv1 綺麗なまま何もせずに終わるくらいなら、私は世界を救う穢れた偽善者となりましょう。毎ターン開始時、自身と自身以外の攻撃力が高い味方2体に『傲慢の悪魔』を1スタック付与する（最大10スタックまで）（解除不可）。このバフは1スタックにつき付帯者の与ダメージを2%増加させる。『傲慢の悪魔』を付与する効果は自身が戦闘不能の場合でも発動する。/ Lv2 さらに自身のHP割合が50%以上の場合、『傲慢の悪魔』の付与スタック数が2になる。/ Lv3 さらにバトル開始時、自身の被ダメージが50%減少し、命中率が40%増加する（解除不可）。/ Ex2 悪魔を以て悪魔を制すを強化する。与ダメージの増加量が5%になる。/ Ex3 悪魔を以て悪魔を制すを強化する。命中率の増加量が50%になる。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "綺麗なまま何もせずに終わるくらいなら、私は世界を救う穢れた偽善者となりましょう。毎ターン開始時、自身と自身以外の攻撃力が高い味方2体に『傲慢の悪魔』を1スタック付与する（最大10スタックまで）（解除不可）。このバフは1スタックにつき付帯者の与ダメージを2%増加させる。『傲慢の悪魔』を付与する効果は自身が戦闘不能の場合でも発動する。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに自身のHP割合が50%以上の場合、『傲慢の悪魔』の付与スタック数が2になる。"
+        },
+        {
+          "label": "Lv3",
+          "text": "さらにバトル開始時、自身の被ダメージが50%減少し、命中率が40%増加する（解除不可）。"
+        },
+        {
+          "label": "Ex2",
+          "text": "悪魔を以て悪魔を制すを強化する。与ダメージの増加量が5%になる。"
+        },
+        {
+          "label": "Ex3",
+          "text": "悪魔を以て悪魔を制すを強化する。命中率の増加量が50%になる。"
+        }
+      ]
+    },
+    {
+      "id": 156004,
+      "kind": "passive",
+      "levels": [
+        {
+          "blessing_item_id": 0,
+          "character_level": 61,
+          "description_key": "[PassiveSkillDescription1560041]",
+          "descriptions": {
+            "ja-JP": "今はその位を退いていても、平和を希求する祈りは変わらない。敵が攻撃して、攻撃で自身が戦闘不能にならなかった場合、攻撃を行った敵に『贖罪の天使』を1スタック付与する（最大5スタックまで）。この弱体効果は1スタックにつき付帯者の防御貫通を5%減少させ、付帯者の行動終了時に解除される。",
+            "zh-CN": "即使如今已经退位，祈愿和平之心也从未改变。如果埃尔芙琳黛在敌人发动攻击后仍然存活，对发动攻击的敌人附加1层「赎罪的天使」（最多5层）。每层「赎罪的天使」使附带者减少5%防御穿透，当附带者行动结束时解除效果。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 1,
+          "source_memo_ja": {
+            "label": "Lv1",
+            "text": "今はその位を退いていても、平和を希求する祈りは変わらない。敵が攻撃して、攻撃で自身が戦闘不能にならなかった場合、攻撃の後に攻撃を行った敵に『贖罪の天使』を1スタック付与する（最大5スタックまで）。この弱体効果は1スタックにつき付帯者の防御貫通を5%減少させ、付帯者の行動終了時に解除される。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 141,
+          "description_key": "[PassiveSkillDescription1560042]",
+          "descriptions": {
+            "ja-JP": "さらに自身が攻撃を受けたとき、ダメージを30%遮断する。攻撃してきた敵が『贖罪の天使』を付帯している場合、攻撃の前に付帯している『贖罪の天使』のスタック数1つにつきダメージの遮断量が3%増加する（合計で最大45%まで）。",
+            "zh-CN": "当埃尔芙琳黛受到攻击时，额外阻绝30%伤害。如果发动攻击的敌人身上附带「赎罪的天使」状态，该敌人在攻击之前每附带1层「赎罪的天使」，再使伤害阻绝量提升3%（合计最多45%）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 2,
+          "source_memo_ja": {
+            "label": "Lv2",
+            "text": "さらに自身が攻撃を受けたとき、ダメージを30%遮断する。攻撃してきた敵が『贖罪の天使』を付帯している場合、攻撃前に付帯している『贖罪の天使』1スタックにつきダメージの遮断量が3%増加する（合計で最大45%まで）。"
+          }
+        },
+        {
+          "blessing_item_id": 0,
+          "character_level": 221,
+          "description_key": "[PassiveSkillDescription1560043]",
+          "descriptions": {
+            "ja-JP": "ダメージの遮断量が75%になる。攻撃してきた敵が『贖罪の天使』を付帯している場合、攻撃の前に付帯している『贖罪の天使』のスタック数1つにつきダメージの遮断量が3%増加する（合計で最大90%まで）。",
+            "zh-CN": "伤害阻绝量提升为75%。如果发动攻击的敌人身上附带「赎罪的天使」状态，该敌人在攻击之前每附带1层「赎罪的天使」，再使伤害阻绝量提升3%（合计最多90%）。"
+          },
+          "equipment_rarity_flags": 0,
+          "order": 3,
+          "source_memo_ja": {
+            "label": "Lv3",
+            "text": "ダメージの遮断量が75%になる。攻撃してきた敵が『贖罪の天使』を付帯している場合、攻撃前に付帯している『贖罪の天使』1スタックにつきダメージの遮断量が3%増加する（合計で最大90%まで）。"
+          }
+        }
+      ],
+      "master_record": {
+        "Id": 156004,
+        "IsIgnore": null,
+        "Memo": "眷属エルフリンデSR:Lv1 今はその位を退いていても、平和を希求する祈りは変わらない。敵が攻撃して、攻撃で自身が戦闘不能にならなかった場合、攻撃の後に攻撃を行った敵に『贖罪の天使』を1スタック付与する（最大5スタックまで）。この弱体効果は1スタックにつき付帯者の防御貫通を5%減少させ、付帯者の行動終了時に解除される。/ Lv2 さらに自身が攻撃を受けたとき、ダメージを30%遮断する。攻撃してきた敵が『贖罪の天使』を付帯している場合、攻撃前に付帯している『贖罪の天使』1スタックにつきダメージの遮断量が3%増加する（合計で最大45%まで）。/ Lv3 ダメージの遮断量が75%になる。攻撃してきた敵が『贖罪の天使』を付帯している場合、攻撃前に付帯している『贖罪の天使』1スタックにつきダメージの遮断量が3%増加する（合計で最大90%まで）。",
+        "NameKey": "[PassiveSkillName156004]",
+        "PassiveSkillInfos": [
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 61,
+            "DescriptionKey": "[PassiveSkillDescription1560041]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 1,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 50,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 156004001
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 141,
+            "DescriptionKey": "[PassiveSkillDescription1560042]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 2,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 50,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 156004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 156004202
+              }
+            ]
+          },
+          {
+            "BlessingItemId": 0,
+            "CharacterLevel": 221,
+            "DescriptionKey": "[PassiveSkillDescription1560043]",
+            "EquipmentRarityFlags": 0,
+            "OrderNumber": 3,
+            "PassiveSubSetSkillInfos": [
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 50,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 156004001
+              },
+              {
+                "PassiveGroupId": 0,
+                "PassiveTrigger": 42,
+                "SkillCoolTime": 0,
+                "SkillMaxCoolTime": 0,
+                "SubSetSkillId": 156004302
+              }
+            ]
+          }
+        ]
+      },
+      "name_key": "[PassiveSkillName156004]",
+      "names": {
+        "ja-JP": "元聖槍教会最高指導者",
+        "zh-CN": "前圣枪教会最高领导者"
+      },
+      "source_memo_ja": "眷属エルフリンデSR:Lv1 今はその位を退いていても、平和を希求する祈りは変わらない。敵が攻撃して、攻撃で自身が戦闘不能にならなかった場合、攻撃の後に攻撃を行った敵に『贖罪の天使』を1スタック付与する（最大5スタックまで）。この弱体効果は1スタックにつき付帯者の防御貫通を5%減少させ、付帯者の行動終了時に解除される。/ Lv2 さらに自身が攻撃を受けたとき、ダメージを30%遮断する。攻撃してきた敵が『贖罪の天使』を付帯している場合、攻撃前に付帯している『贖罪の天使』1スタックにつきダメージの遮断量が3%増加する（合計で最大45%まで）。/ Lv3 ダメージの遮断量が75%になる。攻撃してきた敵が『贖罪の天使』を付帯している場合、攻撃前に付帯している『贖罪の天使』1スタックにつきダメージの遮断量が3%増加する（合計で最大90%まで）。",
+      "source_memo_sections_ja": [
+        {
+          "label": "Lv1",
+          "text": "今はその位を退いていても、平和を希求する祈りは変わらない。敵が攻撃して、攻撃で自身が戦闘不能にならなかった場合、攻撃の後に攻撃を行った敵に『贖罪の天使』を1スタック付与する（最大5スタックまで）。この弱体効果は1スタックにつき付帯者の防御貫通を5%減少させ、付帯者の行動終了時に解除される。"
+        },
+        {
+          "label": "Lv2",
+          "text": "さらに自身が攻撃を受けたとき、ダメージを30%遮断する。攻撃してきた敵が『贖罪の天使』を付帯している場合、攻撃前に付帯している『贖罪の天使』1スタックにつきダメージの遮断量が3%増加する（合計で最大45%まで）。"
+        },
+        {
+          "label": "Lv3",
+          "text": "ダメージの遮断量が75%になる。攻撃してきた敵が『贖罪の天使』を付帯している場合、攻撃前に付帯している『贖罪の天使』1スタックにつきダメージの遮断量が3%増加する（合計で最大90%まで）。"
+        }
+      ]
+    }
+  ],
+  "schema_version": 3,
+  "source": {
+    "app_version": "5.1.1",
+    "asset_version": "9c4e9ba383e61559c2f8e255010d053a5f20ab8f_2",
+    "books": {
+      "ActiveSkillMB": {
+        "md5": "bef1bb1e39e9cdbbda0cd2147d3098ef",
+        "size": 860467
+      },
+      "CharacterCollectionLevelMB": {
+        "md5": "f628987b8b6b7246c444c434b3d0dce3",
+        "size": 307098
+      },
+      "CharacterCollectionMB": {
+        "md5": "1a79c4a15e8ffdbe0272b76446fead73",
+        "size": 23161
+      },
+      "CharacterMB": {
+        "md5": "f88bb72d879c7ba31d433d9f8e7119f8",
+        "size": 97234
+      },
+      "EquipmentExclusiveEffectMB": {
+        "md5": "06b09bb6fd8ace9aab30b564eefa28c1",
+        "size": 187499
+      },
+      "EquipmentExclusiveSkillDescriptionMB": {
+        "md5": "6e5aba8f69994638c5c69c1af5351686",
+        "size": 25600
+      },
+      "EquipmentMB": {
+        "md5": "c97d2e6e44a82ffb953694dc999b53d8",
+        "size": 12940301
+      },
+      "PassiveSkillMB": {
+        "md5": "550e7990eb168b5464a0f1d94496ea44",
+        "size": 978746
+      },
+      "TextResourceJaJpMB": {
+        "md5": "2dcb58f8452676ad46492dc7baedd11d",
+        "size": 6133174
+      },
+      "TextResourceZhCnMB": {
+        "md5": "499b254d2b122f086467ec5c34617449",
+        "size": 5408278
+      }
+    },
+    "generated_at": "2026-10-29T06:11:41.114000+00:00",
+    "master_version": "1793254301114"
+  }
+}

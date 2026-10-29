@@ -1141,6 +1141,471 @@
       ],
       "required_party_level": 0,
       "start_time_jst": "2023-10-31 00:00:00"
+    },
+    {
+      "end_time_jst": "2100-01-01 00:00:00",
+      "id": 103,
+      "levels": [
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 8,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 100.0,
+              "value_text": "+1%"
+            }
+          ],
+          "level": 1,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 2,
+                "Value": 100.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 8,
+            "CollectionId": 103,
+            "CollectionLevel": 1,
+            "Id": 10301,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボーテスの贖罪(眷属エルフリンデ,エルフリンデ,ロキ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 128,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 2,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              },
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 128,
+            "CollectionId": 103,
+            "CollectionLevel": 2,
+            "Id": 10302,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボーテスの贖罪(眷属エルフリンデ,エルフリンデ,ロキ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 0,
+          "character_rarity_flags": 512,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 3,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              },
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 0,
+            "CharacterRarityFlags": 512,
+            "CollectionId": 103,
+            "CollectionLevel": 3,
+            "Id": 10303,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボーテスの贖罪(眷属エルフリンデ,エルフリンデ,ロキ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 16384,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 150.0,
+              "value_text": "+1.5%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            }
+          ],
+          "level": 4,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 2,
+                "Value": 150.0
+              },
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 16384,
+            "CollectionId": 103,
+            "CollectionLevel": 4,
+            "Id": 10304,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボーテスの贖罪(眷属エルフリンデ,エルフリンデ,ロキ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 32768,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 160.0,
+              "value_text": "+1.6%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 210.0,
+              "value_text": "+2.1%"
+            }
+          ],
+          "level": 5,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 2,
+                "Value": 160.0
+              },
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 210.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 32768,
+            "CollectionId": 103,
+            "CollectionLevel": 5,
+            "Id": 10305,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボーテスの贖罪(眷属エルフリンデ,エルフリンデ,ロキ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 65536,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 170.0,
+              "value_text": "+1.7%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 220.0,
+              "value_text": "+2.2%"
+            }
+          ],
+          "level": 6,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 2,
+                "Value": 170.0
+              },
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 220.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 65536,
+            "CollectionId": 103,
+            "CollectionLevel": 6,
+            "Id": 10306,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボーテスの贖罪(眷属エルフリンデ,エルフリンデ,ロキ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 131072,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 180.0,
+              "value_text": "+1.8%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 230.0,
+              "value_text": "+2.3%"
+            }
+          ],
+          "level": 7,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 2,
+                "Value": 180.0
+              },
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 230.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 131072,
+            "CollectionId": 103,
+            "CollectionLevel": 7,
+            "Id": 10307,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボーテスの贖罪(眷属エルフリンデ,エルフリンデ,ロキ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 262144,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 190.0,
+              "value_text": "+1.9%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 240.0,
+              "value_text": "+2.4%"
+            }
+          ],
+          "level": 8,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 2,
+                "Value": 190.0
+              },
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 240.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 262144,
+            "CollectionId": 103,
+            "CollectionLevel": 8,
+            "Id": 10308,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボーテスの贖罪(眷属エルフリンデ,エルフリンデ,ロキ)"
+          },
+          "max_level_increase": 0
+        },
+        {
+          "character_rarity_bonus": 1,
+          "character_rarity_flags": 524288,
+          "effects": [
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "DebuffResist",
+              "parameter_type": 16,
+              "raw_value": 200.0,
+              "value_text": "+2%"
+            },
+            {
+              "change_parameter_type": 2,
+              "kind": "battle",
+              "parameter_code": "AttackPower",
+              "parameter_type": 2,
+              "raw_value": 250.0,
+              "value_text": "+2.5%"
+            }
+          ],
+          "level": 9,
+          "master_record": {
+            "BaseParameterChangeInfos": null,
+            "BattleParameterChangeInfos": [
+              {
+                "BattleParameterType": 16,
+                "ChangeParameterType": 2,
+                "Value": 200.0
+              },
+              {
+                "BattleParameterType": 2,
+                "ChangeParameterType": 2,
+                "Value": 250.0
+              }
+            ],
+            "CharacterRarityBonus": 1,
+            "CharacterRarityFlags": 524288,
+            "CollectionId": 103,
+            "CollectionLevel": 9,
+            "Id": 10309,
+            "IsIgnore": null,
+            "MaxLevelIncreaseValue": 0,
+            "Memo": "ボーテスの贖罪(眷属エルフリンデ,エルフリンデ,ロキ)"
+          },
+          "max_level_increase": 0
+        }
+      ],
+      "master_record": {
+        "EndTimeFixJST": "2100-01-01 00:00:00",
+        "Id": 103,
+        "IsIgnore": null,
+        "Memo": "ボーテスの贖罪(眷属エルフリンデ,エルフリンデ,ロキ)",
+        "NameKey": "[CharacterCollectionName103]",
+        "RequiredCharacterIds": [
+          156,
+          45,
+          4
+        ],
+        "RequiredPartyLv": 300,
+        "StartTimeFixJST": "2026-10-29 00:00:00"
+      },
+      "name_key": "[CharacterCollectionName103]",
+      "names": {
+        "ja-JP": "ボーテスの贖罪",
+        "zh-CN": "牧夫座的赎罪"
+      },
+      "required_character_ids": [
+        156,
+        45,
+        4
+      ],
+      "required_characters": [
+        {
+          "id": 156,
+          "names": {
+            "ja-JP": "エルフリンデ",
+            "zh-CN": "埃尔芙琳黛"
+          }
+        },
+        {
+          "id": 45,
+          "names": {
+            "ja-JP": "エルフリンデ",
+            "zh-CN": "埃尔芙琳黛"
+          }
+        },
+        {
+          "id": 4,
+          "names": {
+            "ja-JP": "ロキ",
+            "zh-CN": "洛基"
+          }
+        }
+      ],
+      "required_party_level": 300,
+      "start_time_jst": "2026-10-29 00:00:00"
     }
   ],
   "character": {
@@ -1697,51 +2162,51 @@
   ],
   "schema_version": 3,
   "source": {
-    "app_version": "5.1.0",
-    "asset_version": "9c4e9ba383e61559c2f8e255010d053a5f20ab8f_1",
+    "app_version": "5.1.1",
+    "asset_version": "9c4e9ba383e61559c2f8e255010d053a5f20ab8f_2",
     "books": {
       "ActiveSkillMB": {
-        "md5": "0c8b94376a7c2082977a18b51515916a",
-        "size": 856136
+        "md5": "bef1bb1e39e9cdbbda0cd2147d3098ef",
+        "size": 860467
       },
       "CharacterCollectionLevelMB": {
-        "md5": "a435e037aafd482815cff9c1ea888866",
-        "size": 303659
+        "md5": "f628987b8b6b7246c444c434b3d0dce3",
+        "size": 307098
       },
       "CharacterCollectionMB": {
-        "md5": "ea62edb7fc3c927dbaf30e240e4f0220",
-        "size": 22892
+        "md5": "1a79c4a15e8ffdbe0272b76446fead73",
+        "size": 23161
       },
       "CharacterMB": {
-        "md5": "b98b2cc665a160e791bde23424ea8a6a",
-        "size": 96499
+        "md5": "f88bb72d879c7ba31d433d9f8e7119f8",
+        "size": 97234
       },
       "EquipmentExclusiveEffectMB": {
-        "md5": "b1e7883c9de1985491832b9995cbe3f9",
-        "size": 185875
+        "md5": "06b09bb6fd8ace9aab30b564eefa28c1",
+        "size": 187499
       },
       "EquipmentExclusiveSkillDescriptionMB": {
-        "md5": "e3ef0b69044b0edd03b374c0b27347ad",
-        "size": 25378
+        "md5": "6e5aba8f69994638c5c69c1af5351686",
+        "size": 25600
       },
       "EquipmentMB": {
-        "md5": "11ca311409f54112d0a98676e2729c2d",
-        "size": 12847783
+        "md5": "c97d2e6e44a82ffb953694dc999b53d8",
+        "size": 12940301
       },
       "PassiveSkillMB": {
-        "md5": "0a3200fe8a5578a0d12c74a17b050bf1",
-        "size": 970417
+        "md5": "550e7990eb168b5464a0f1d94496ea44",
+        "size": 978746
       },
       "TextResourceJaJpMB": {
-        "md5": "69d1fa73e5c902126b18e0473173b80f",
-        "size": 6090231
+        "md5": "2dcb58f8452676ad46492dc7baedd11d",
+        "size": 6133174
       },
       "TextResourceZhCnMB": {
-        "md5": "3af6e9654d35b5edf5a00f0b965833f6",
-        "size": 5371002
+        "md5": "499b254d2b122f086467ec5c34617449",
+        "size": 5408278
       }
     },
-    "generated_at": "2026-10-27T05:32:41.951000+00:00",
-    "master_version": "1793079161951"
+    "generated_at": "2026-10-29T06:11:41.114000+00:00",
+    "master_version": "1793254301114"
   }
 }
