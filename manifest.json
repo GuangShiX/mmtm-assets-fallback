@@ -2,10 +2,10 @@
   "schema_version": 2,
   "game": "MementoMori",
   "package_name": "jp.boi.mementomori.android",
-  "version": "5.1.1",
+  "version": "5.2.0",
   "ref": "main",
-  "archive_ref": "v5.1.1",
-  "generated_at": "2026-10-29T18:39:59.885877+00:00",
+  "archive_ref": "v5.2.0",
+  "generated_at": "2026-11-12T07:38:21.899265+00:00",
   "base_url": "https://raw.githubusercontent.com/GuangShiX/mmtm-assets-fallback/main",
   "cache_strategy": "stable-path-sha256",
   "asset_count": 1719,
@@ -19,8 +19,8 @@
     "ui": 118
   },
   "generation_mode": "critical-package-plus-official-hot-update",
-  "asset_version": "9c4e9ba383e61559c2f8e255010d053a5f20ab8f_2",
-  "master_version": "1793257033737",
+  "asset_version": "54be4343a2a584bfec391c5b0ee2328ee5d9db0a_1",
+  "master_version": "1794461423896",
   "hot_update_asset_count": 80,
   "hot_update_category_counts": {
     "characters": 27,
@@ -3261,7 +3261,7 @@
         "CharacterIcon/CHR_000154/CHR_000154_00_s"
       ],
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000154/CHR_000154_00_s.png",
-      "preserved_from_version": "5.1.0"
+      "preserved_from_version": "5.1.1"
     },
     {
       "category": "characters",
@@ -3276,7 +3276,7 @@
         "CharacterIcon/CHR_000155/CHR_000155_00_s"
       ],
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000155/CHR_000155_00_s.png",
-      "preserved_from_version": "5.1.0"
+      "preserved_from_version": "5.1.1"
     },
     {
       "category": "characters",
@@ -3290,7 +3290,8 @@
       ],
       "source_catalog_keys": [
         "CharacterIcon/CHR_000156/CHR_000156_00_s"
-      ]
+      ],
+      "preserved_from_version": "5.1.1"
     },
     {
       "category": "characters",
@@ -3305,7 +3306,7 @@
         "CharacterIcon/CHR_000157/CHR_000157_00_s"
       ],
       "source_resource_key": "Assets/AddressableConvertAssets/CharacterIcon/CHR_000157/CHR_000157_00_s.png",
-      "preserved_from_version": "5.1.0"
+      "preserved_from_version": "5.1.1"
     },
     {
       "category": "enemies",
@@ -18068,7 +18069,7 @@
         "UI/Exchange/TabDecoration/TabDecoration_01"
       ],
       "source_resource_key": "Assets/AddressableConvertAssets/UI/Exchange/TabDecoration/TabDecoration_01.png",
-      "preserved_from_version": "5.1.0"
+      "preserved_from_version": "5.1.1"
     },
     {
       "category": "ui",
@@ -18083,7 +18084,7 @@
         "UI/Exchange/TabDecoration/TabDecoration_02"
       ],
       "source_resource_key": "Assets/AddressableConvertAssets/UI/Exchange/TabDecoration/TabDecoration_02.png",
-      "preserved_from_version": "5.1.0"
+      "preserved_from_version": "5.1.1"
     },
     {
       "category": "ui",
@@ -18098,7 +18099,7 @@
         "UI/Exchange/TabDecoration/TabDecoration_03"
       ],
       "source_resource_key": "Assets/AddressableConvertAssets/UI/Exchange/TabDecoration/TabDecoration_03.png",
-      "preserved_from_version": "5.1.0"
+      "preserved_from_version": "5.1.1"
     },
     {
       "category": "ui",
@@ -18113,7 +18114,7 @@
         "UI/Exchange/TabDecoration/TabDecoration_04"
       ],
       "source_resource_key": "Assets/AddressableConvertAssets/UI/Exchange/TabDecoration/TabDecoration_04.png",
-      "preserved_from_version": "5.1.0"
+      "preserved_from_version": "5.1.1"
     },
     {
       "category": "ui",
@@ -18128,7 +18129,7 @@
         "UI/Exchange/TabDecoration/TabDecoration_05"
       ],
       "source_resource_key": "Assets/AddressableConvertAssets/UI/Exchange/TabDecoration/TabDecoration_05.png",
-      "preserved_from_version": "5.1.0"
+      "preserved_from_version": "5.1.1"
     },
     {
       "category": "ui",
@@ -18143,7 +18144,7 @@
         "UI/Exchange/TabIcon/TabIcon_000001"
       ],
       "source_resource_key": "Assets/AddressableConvertAssets/UI/Exchange/TabIcon/TabIcon_000001.png",
-      "preserved_from_version": "5.1.0"
+      "preserved_from_version": "5.1.1"
     },
     {
       "category": "ui",
@@ -18158,7 +18159,7 @@
         "UI/Exchange/TabIcon/TabIcon_000002"
       ],
       "source_resource_key": "Assets/AddressableConvertAssets/UI/Exchange/TabIcon/TabIcon_000002.png",
-      "preserved_from_version": "5.1.0"
+      "preserved_from_version": "5.1.1"
     },
     {
       "category": "ui",
@@ -18173,7 +18174,7 @@
         "UI/Exchange/TabIcon/TabIcon_000003"
       ],
       "source_resource_key": "Assets/AddressableConvertAssets/UI/Exchange/TabIcon/TabIcon_000003.png",
-      "preserved_from_version": "5.1.0"
+      "preserved_from_version": "5.1.1"
     },
     {
       "category": "ui",
@@ -18188,7 +18189,7 @@
         "UI/Exchange/TabIcon/TabIcon_000004"
       ],
       "source_resource_key": "Assets/AddressableConvertAssets/UI/Exchange/TabIcon/TabIcon_000004.png",
-      "preserved_from_version": "5.1.0"
+      "preserved_from_version": "5.1.1"
     },
     {
       "category": "ui",
@@ -18203,7 +18204,7 @@
         "UI/Exchange/TabIcon/TabIcon_000005"
       ],
       "source_resource_key": "Assets/AddressableConvertAssets/UI/Exchange/TabIcon/TabIcon_000005.png",
-      "preserved_from_version": "5.1.0"
+      "preserved_from_version": "5.1.1"
     },
     {
       "category": "ui",
@@ -18218,7 +18219,7 @@
         "UI/Exchange/TabIcon/TabIcon_000006"
       ],
       "source_resource_key": "Assets/AddressableConvertAssets/UI/Exchange/TabIcon/TabIcon_000006.png",
-      "preserved_from_version": "5.1.0"
+      "preserved_from_version": "5.1.1"
     },
     {
       "category": "ui",
@@ -18233,7 +18234,7 @@
         "UI/Exchange/TabIcon/TabIcon_000007"
       ],
       "source_resource_key": "Assets/AddressableConvertAssets/UI/Exchange/TabIcon/TabIcon_000007.png",
-      "preserved_from_version": "5.1.0"
+      "preserved_from_version": "5.1.1"
     },
     {
       "category": "ui",
@@ -18248,7 +18249,7 @@
         "UI/Exchange/TabIcon/TabIcon_000008"
       ],
       "source_resource_key": "Assets/AddressableConvertAssets/UI/Exchange/TabIcon/TabIcon_000008.png",
-      "preserved_from_version": "5.1.0"
+      "preserved_from_version": "5.1.1"
     },
     {
       "category": "ui",
@@ -18263,7 +18264,7 @@
         "UI/Exchange/TabIcon/TabIcon_000009"
       ],
       "source_resource_key": "Assets/AddressableConvertAssets/UI/Exchange/TabIcon/TabIcon_000009.png",
-      "preserved_from_version": "5.1.0"
+      "preserved_from_version": "5.1.1"
     },
     {
       "category": "ui",
@@ -18278,7 +18279,7 @@
         "UI/Exchange/TabIcon/TabIcon_000010"
       ],
       "source_resource_key": "Assets/AddressableConvertAssets/UI/Exchange/TabIcon/TabIcon_000010.png",
-      "preserved_from_version": "5.1.0"
+      "preserved_from_version": "5.1.1"
     },
     {
       "category": "ui",
@@ -18293,7 +18294,7 @@
         "UI/Exchange/TabIcon/TabIcon_000011"
       ],
       "source_resource_key": "Assets/AddressableConvertAssets/UI/Exchange/TabIcon/TabIcon_000011.png",
-      "preserved_from_version": "5.1.0"
+      "preserved_from_version": "5.1.1"
     },
     {
       "category": "ui",
@@ -18308,7 +18309,7 @@
         "UI/Exchange/TabIcon/TabIcon_000012"
       ],
       "source_resource_key": "Assets/AddressableConvertAssets/UI/Exchange/TabIcon/TabIcon_000012.png",
-      "preserved_from_version": "5.1.0"
+      "preserved_from_version": "5.1.1"
     },
     {
       "category": "ui",
@@ -18323,7 +18324,7 @@
         "UI/Exchange/TabIcon/TabIcon_000013"
       ],
       "source_resource_key": "Assets/AddressableConvertAssets/UI/Exchange/TabIcon/TabIcon_000013.png",
-      "preserved_from_version": "5.1.0"
+      "preserved_from_version": "5.1.1"
     },
     {
       "category": "ui",
@@ -18338,7 +18339,7 @@
         "UI/Exchange/TabIcon/TabIcon_000016"
       ],
       "source_resource_key": "Assets/AddressableConvertAssets/UI/Exchange/TabIcon/TabIcon_000016.png",
-      "preserved_from_version": "5.1.0"
+      "preserved_from_version": "5.1.1"
     },
     {
       "category": "ui",
@@ -18353,13 +18354,13 @@
         "UI/Exchange/TabIcon/TabIcon_000043"
       ],
       "source_resource_key": "Assets/AddressableConvertAssets/UI/Exchange/TabIcon/TabIcon_000043.png",
-      "preserved_from_version": "5.1.0"
+      "preserved_from_version": "5.1.1"
     },
     {
       "category": "ui",
       "name": "TabIcon_000060.png",
       "path": "assets/ui/TabIcon_000060.png",
-      "preserved_from_version": "5.1.0",
+      "preserved_from_version": "5.1.1",
       "sha256": "7d2ac07c5d1170ddbdde36d454db9569ee36734413ca393533c8dc8f13cbf8f1",
       "size": 20824,
       "source_bundles": [
@@ -18383,7 +18384,7 @@
         "UI/Exchange/TabSpecial/TabSpecial_01"
       ],
       "source_resource_key": "Assets/AddressableConvertAssets/UI/Exchange/TabSpecial/TabSpecial_01.png",
-      "preserved_from_version": "5.1.0"
+      "preserved_from_version": "5.1.1"
     },
     {
       "category": "ui",
