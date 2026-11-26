@@ -5,27 +5,27 @@
   "version": "5.2.0",
   "ref": "main",
   "archive_ref": "v5.2.0",
-  "generated_at": "2026-11-16T07:10:51.547589+00:00",
+  "generated_at": "2026-11-26T08:48:37.322080+00:00",
   "base_url": "https://raw.githubusercontent.com/GuangShiX/mmtm-assets-fallback/main",
   "cache_strategy": "stable-path-sha256",
-  "asset_count": 1725,
-  "total_bytes": 61441273,
+  "asset_count": 1726,
+  "total_bytes": 61458283,
   "category_counts": {
     "characters": 290,
     "enemies": 60,
     "equipment": 932,
-    "items": 261,
+    "items": 262,
     "spheres": 64,
     "ui": 118
   },
   "generation_mode": "critical-package-plus-official-hot-update",
-  "asset_version": "cf366a7272bec0417dd47fb852195b9a145a1219_2",
-  "master_version": "1794810595248",
-  "hot_update_asset_count": 86,
+  "asset_version": "780e56d97488ad8000f0254ac2ac6de029f8220c_2",
+  "master_version": "1795671002521",
+  "hot_update_asset_count": 87,
   "hot_update_category_counts": {
     "characters": 27,
     "equipment": 24,
-    "items": 14,
+    "items": 15,
     "ui": 21
   },
   "request_registry_sha256": "c3742db7863e45b04c4eae3fa80e4fcb1780ce34edae5e4ca9c38b08cd2a1df7",
@@ -17091,6 +17091,20 @@
       ],
       "source_catalog_keys": [
         "Icon/Item/Item_0268"
+      ]
+    },
+    {
+      "category": "items",
+      "name": "Item_0269.png",
+      "path": "assets/items/Item_0269.png",
+      "sha256": "7f2df084d89bb6a80b124ae7a4b0d99d5335dfdeea6e3b224bc3391e57bd1aee",
+      "size": 17010,
+      "source_resource_key": "Assets/AddressableConvertAssets/Icon/Item/Item_0269.png",
+      "source_bundles": [
+        "ddba44e38779355f7f554ccc92fe21a9.bundle"
+      ],
+      "source_catalog_keys": [
+        "Icon/Item/Item_0269"
       ]
     },
     {
